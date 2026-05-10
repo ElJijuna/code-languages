@@ -55,6 +55,7 @@
     "check": "biome check . && tsc --noEmit && vitest run",
     "format": "biome format --write .",
     "lint": "biome check .",
+    "prepare": "husky",
     "test": "vitest run",
     "typecheck": "tsc --noEmit"
   },
