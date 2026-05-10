@@ -8,7 +8,7 @@
 
 Structured metadata for programming languages, packaged as a typed, tree-shakeable TypeScript library.
 
-`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 11 languages.
+`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 12 languages.
 
 ## Features
 
@@ -47,6 +47,7 @@ import { java } from "code-languages/java";
 import { html } from "code-languages/html";
 import { markdown } from "code-languages/markdown";
 import { python } from "code-languages/python";
+import { json } from "code-languages/json";
 import { yaml } from "code-languages/yaml";
 
 console.log(c.extensions);
@@ -56,13 +57,14 @@ console.log(java.version);
 console.log(html.extensions);
 console.log(markdown.website);
 console.log(python.publishedDate);
+console.log(json.description);
 console.log(yaml.version);
 ```
 
 Import from the package root when bundle size is not a concern:
 
 ```ts
-import { c, css, go, html, java, markdown, rust, typescript, yaml } from "code-languages";
+import { c, css, go, html, java, json, markdown, rust, typescript, yaml } from "code-languages";
 
 console.log(c.version);
 console.log(css.name);
@@ -70,6 +72,7 @@ console.log(java.name);
 console.log(html.website);
 console.log(markdown.extensions);
 console.log(go.logo);
+console.log(json.website);
 console.log(yaml.paradigms);
 ```
 
@@ -100,6 +103,7 @@ export interface Language {
 | C | `c` | `.c`, `.h` | `C23` | `code-languages/c` |
 | TypeScript | `typescript` | `.ts`, `.tsx`, `.mts`, `.cts` | `6.0` | `code-languages/typescript` |
 | JavaScript | `javascript` | `.js`, `.mjs`, `.cjs`, `.jsx` | `ECMAScript 2025` | `code-languages/javascript` |
+| JSON | `json` | `.json` | `RFC 8259` | `code-languages/json` |
 | Java | `java` | `.java` | `26` | `code-languages/java` |
 | HTML | `html` | `.html`, `.htm` | `Living Standard` | `code-languages/html` |
 | CSS | `css` | `.css` | `Living Standard` | `code-languages/css` |

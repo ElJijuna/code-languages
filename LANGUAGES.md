@@ -13,6 +13,7 @@
 - [x] Markdown (`markdown`)
 - [x] YAML (`yaml`)
 - [x] C (`c`)
+- [x] JSON (`json`)
 
 ## Pending
 
@@ -33,7 +34,6 @@
 - [ ] Bash (`bash`)
 - [ ] PowerShell (`powershell`)
 - [ ] SQL (`sql`)
-- [ ] JSON (`json`)
 - [ ] XML (`xml`)
 - [ ] TOML (`toml`)
 - [ ] Dockerfile (`dockerfile`)

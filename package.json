@@ -41,6 +41,11 @@
       "import": "./dist/languages/javascript.js",
       "require": "./dist/languages/javascript.cjs"
     },
+    "./json": {
+      "types": "./dist/languages/json.d.ts",
+      "import": "./dist/languages/json.js",
+      "require": "./dist/languages/json.cjs"
+    },
     "./java": {
       "types": "./dist/languages/java.d.ts",
       "import": "./dist/languages/java.js",
