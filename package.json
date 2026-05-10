@@ -1,0 +1,20 @@
+{
+  "name": "code-languages",
+  "version": "0.0.1",
+  "description": "",
+  "homepage": "https://github.com/ElJijuna/code-languages#readme",
+  "bugs": {
+    "url": "https://github.com/ElJijuna/code-languages/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElJijuna/code-languages.git"
+  },
+  "license": "MIT",
+  "author": "pilmee <pilmee@gmail.com>",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  }
+}
