@@ -57,7 +57,11 @@
       "require": "./dist/languages/go.cjs"
     }
   },
-  "files": ["dist", "LICENSE", "README.md"],
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsup",
     "check": "biome check . && tsc --noEmit && vitest run",
