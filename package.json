@@ -1,7 +1,7 @@
 {
   "name": "code-languages",
   "version": "0.0.1",
-  "description": "",
+  "description": "Structured metadata for programming languages.",
   "homepage": "https://github.com/ElJijuna/code-languages#readme",
   "bugs": {
     "url": "https://github.com/ElJijuna/code-languages/issues"
@@ -13,8 +13,33 @@
   "license": "MIT",
   "author": "pilmee <pilmee@gmail.com>",
   "type": "module",
-  "main": "index.js",
+  "sideEffects": false,
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": ["dist", "LICENSE", "README.md"],
   "scripts": {
-    "test": "jest"
+    "build": "tsup",
+    "check": "biome check . && tsc --noEmit && vitest run",
+    "format": "biome format --write .",
+    "lint": "biome check .",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@commitlint/cli": "^19.6.1",
+    "@commitlint/config-conventional": "^19.6.0",
+    "husky": "^9.1.7",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
   }
 }
