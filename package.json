@@ -33,6 +33,11 @@
       "import": "./dist/languages/javascript.js",
       "require": "./dist/languages/javascript.cjs"
     },
+    "./java": {
+      "types": "./dist/languages/java.d.ts",
+      "import": "./dist/languages/java.js",
+      "require": "./dist/languages/java.cjs"
+    },
     "./python": {
       "types": "./dist/languages/python.d.ts",
       "import": "./dist/languages/python.js",
