@@ -8,7 +8,7 @@
 
 Structured metadata for programming languages, packaged as a typed, tree-shakeable TypeScript library.
 
-`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 10 languages.
+`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 11 languages.
 
 ## Features
 
@@ -40,6 +40,7 @@ console.log(typescript.paradigms);
 Import multiple languages:
 
 ```ts
+import { c } from "code-languages/c";
 import { css } from "code-languages/css";
 import { javascript } from "code-languages/javascript";
 import { java } from "code-languages/java";
@@ -48,6 +49,7 @@ import { markdown } from "code-languages/markdown";
 import { python } from "code-languages/python";
 import { yaml } from "code-languages/yaml";
 
+console.log(c.extensions);
 console.log(css.paradigms);
 console.log(javascript.website);
 console.log(java.version);
@@ -60,8 +62,9 @@ console.log(yaml.version);
 Import from the package root when bundle size is not a concern:
 
 ```ts
-import { css, go, html, java, markdown, rust, typescript, yaml } from "code-languages";
+import { c, css, go, html, java, markdown, rust, typescript, yaml } from "code-languages";
 
+console.log(c.version);
 console.log(css.name);
 console.log(java.name);
 console.log(html.website);
@@ -94,6 +97,7 @@ export interface Language {
 
 | Language | Slug | Extensions | Version | Import |
 |---|---|---|---|---|
+| C | `c` | `.c`, `.h` | `C23` | `code-languages/c` |
 | TypeScript | `typescript` | `.ts`, `.tsx`, `.mts`, `.cts` | `6.0` | `code-languages/typescript` |
 | JavaScript | `javascript` | `.js`, `.mjs`, `.cjs`, `.jsx` | `ECMAScript 2025` | `code-languages/javascript` |
 | Java | `java` | `.java` | `26` | `code-languages/java` |

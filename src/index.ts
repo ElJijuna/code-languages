@@ -1,4 +1,5 @@
 export type { Language } from "./types";
+export { c } from "./languages/c";
 export { css } from "./languages/css";
 export { go } from "./languages/go";
 export { html } from "./languages/html";

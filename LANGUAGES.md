@@ -12,10 +12,10 @@
 - [x] CSS (`css`)
 - [x] Markdown (`markdown`)
 - [x] YAML (`yaml`)
+- [x] C (`c`)
 
 ## Pending
 
-- [ ] C (`c`)
 - [ ] C++ (`cpp`)
 - [ ] C# (`csharp`)
 - [ ] Ruby (`ruby`)

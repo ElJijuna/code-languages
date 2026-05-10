@@ -26,6 +26,11 @@
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     },
+    "./c": {
+      "types": "./dist/languages/c.d.ts",
+      "import": "./dist/languages/c.js",
+      "require": "./dist/languages/c.cjs"
+    },
     "./typescript": {
       "types": "./dist/languages/typescript.d.ts",
       "import": "./dist/languages/typescript.js",
