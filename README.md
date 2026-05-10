@@ -8,7 +8,7 @@
 
 Structured metadata for programming languages, packaged as a typed, tree-shakeable TypeScript library.
 
-`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 8 languages.
+`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 9 languages.
 
 ## Features
 
@@ -44,23 +44,26 @@ import { css } from "code-languages/css";
 import { javascript } from "code-languages/javascript";
 import { java } from "code-languages/java";
 import { html } from "code-languages/html";
+import { markdown } from "code-languages/markdown";
 import { python } from "code-languages/python";
 
 console.log(css.paradigms);
 console.log(javascript.website);
 console.log(java.version);
 console.log(html.extensions);
+console.log(markdown.website);
 console.log(python.publishedDate);
 ```
 
 Import from the package root when bundle size is not a concern:
 
 ```ts
-import { css, go, html, java, rust, typescript } from "code-languages";
+import { css, go, html, java, markdown, rust, typescript } from "code-languages";
 
 console.log(css.name);
 console.log(java.name);
 console.log(html.website);
+console.log(markdown.extensions);
 console.log(go.logo);
 ```
 
@@ -93,6 +96,7 @@ export interface Language {
 | Java | `java` | `.java` | `26` | `code-languages/java` |
 | HTML | `html` | `.html`, `.htm` | `Living Standard` | `code-languages/html` |
 | CSS | `css` | `.css` | `Living Standard` | `code-languages/css` |
+| Markdown | `markdown` | `.md`, `.markdown`, `.mdown`, `.mkd` | `CommonMark 0.31.2` | `code-languages/markdown` |
 | Python | `python` | `.py`, `.pyw` | `3.14.4` | `code-languages/python` |
 | Rust | `rust` | `.rs` | `1.95.0` | `code-languages/rust` |
 | Go | `go` | `.go` | `1.26.3` | `code-languages/go` |

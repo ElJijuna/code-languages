@@ -65,6 +65,11 @@
       "types": "./dist/languages/html.d.ts",
       "import": "./dist/languages/html.js",
       "require": "./dist/languages/html.cjs"
+    },
+    "./markdown": {
+      "types": "./dist/languages/markdown.d.ts",
+      "import": "./dist/languages/markdown.js",
+      "require": "./dist/languages/markdown.cjs"
     }
   },
   "files": [
