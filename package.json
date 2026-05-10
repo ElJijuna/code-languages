@@ -55,13 +55,14 @@
       "types": "./dist/languages/go.d.ts",
       "import": "./dist/languages/go.js",
       "require": "./dist/languages/go.cjs"
+    },
+    "./html": {
+      "types": "./dist/languages/html.d.ts",
+      "import": "./dist/languages/html.js",
+      "require": "./dist/languages/html.cjs"
     }
   },
-  "files": [
-    "dist",
-    "LICENSE",
-    "README.md"
-  ],
+  "files": ["dist", "LICENSE", "README.md"],
   "scripts": {
     "build": "tsup",
     "check": "biome check . && tsc --noEmit && vitest run",
