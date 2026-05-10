@@ -70,6 +70,11 @@
       "types": "./dist/languages/markdown.d.ts",
       "import": "./dist/languages/markdown.js",
       "require": "./dist/languages/markdown.cjs"
+    },
+    "./yaml": {
+      "types": "./dist/languages/yaml.d.ts",
+      "import": "./dist/languages/yaml.js",
+      "require": "./dist/languages/yaml.cjs"
     }
   },
   "files": [
