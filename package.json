@@ -1,6 +1,6 @@
 {
   "name": "code-languages",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Structured metadata for programming languages.",
   "homepage": "https://github.com/ElJijuna/code-languages#readme",
   "bugs": {
@@ -54,7 +54,11 @@
       "require": "./dist/languages/go.cjs"
     }
   },
-  "files": ["dist", "LICENSE", "README.md"],
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsup",
     "check": "biome check . && tsc --noEmit && vitest run",
