@@ -56,6 +56,11 @@
       "import": "./dist/languages/go.js",
       "require": "./dist/languages/go.cjs"
     },
+    "./css": {
+      "types": "./dist/languages/css.d.ts",
+      "import": "./dist/languages/css.js",
+      "require": "./dist/languages/css.cjs"
+    },
     "./html": {
       "types": "./dist/languages/html.d.ts",
       "import": "./dist/languages/html.js",
