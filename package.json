@@ -22,6 +22,31 @@
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
+    },
+    "./typescript": {
+      "types": "./dist/languages/typescript.d.ts",
+      "import": "./dist/languages/typescript.js",
+      "require": "./dist/languages/typescript.cjs"
+    },
+    "./javascript": {
+      "types": "./dist/languages/javascript.d.ts",
+      "import": "./dist/languages/javascript.js",
+      "require": "./dist/languages/javascript.cjs"
+    },
+    "./python": {
+      "types": "./dist/languages/python.d.ts",
+      "import": "./dist/languages/python.js",
+      "require": "./dist/languages/python.cjs"
+    },
+    "./rust": {
+      "types": "./dist/languages/rust.d.ts",
+      "import": "./dist/languages/rust.js",
+      "require": "./dist/languages/rust.cjs"
+    },
+    "./go": {
+      "types": "./dist/languages/go.d.ts",
+      "import": "./dist/languages/go.js",
+      "require": "./dist/languages/go.cjs"
     }
   },
   "files": ["dist", "LICENSE", "README.md"],
