@@ -404,7 +404,7 @@ async function syncVersionUpdatePullRequest({ baseBranch, owner, repo, token, up
 }
 
 async function findOpenVersionUpdateIssue({ owner, repo, token, update }) {
-  const titlePrefix = `chore: update ${update.name} metadata`;
+  const titlePrefix = `fix: update ${update.name} metadata`;
   const marker = issueMarker(update.slug);
   const query = `repo:${owner}/${repo} is:issue is:open "language-version-update:${update.slug}"`;
   const result = await githubRequest(`/search/issues?q=${encodeURIComponent(query)}`, {
@@ -417,7 +417,15 @@ async function findOpenVersionUpdateIssue({ owner, repo, token, update }) {
     return markerMatch;
   }
 
-  return findOpenVersionUpdateIssueByTitle({ owner, repo, titlePrefix, token });
+  return (
+    (await findOpenVersionUpdateIssueByTitle({ owner, repo, titlePrefix, token })) ??
+    findOpenVersionUpdateIssueByTitle({
+      owner,
+      repo,
+      titlePrefix: `chore: update ${update.name} metadata`,
+      token,
+    })
+  );
 }
 
 async function findOpenVersionUpdateIssueByTitle({ owner, repo, titlePrefix, token }) {
@@ -500,7 +508,7 @@ function issueMarker(slug) {
 }
 
 function issueTitle(update) {
-  return `chore: update ${update.name} metadata to ${update.latestVersion}`;
+  return `fix: update ${update.name} metadata to ${update.latestVersion}`;
 }
 
 function issueBody(update) {
