@@ -16,5 +16,11 @@ export const rust = {
       longDescription:
         "Rust provides memory safety without a garbage collector through ownership, borrowing, lifetimes, and strong compile-time checks.\n\nIt is used for systems software, command-line tools, web services, embedded development, WebAssembly, and performance-critical infrastructure.",
     },
+    es: {
+      name: "Rust",
+      description: "Un lenguaje de sistemas enfocado en seguridad, velocidad y concurrencia.",
+      longDescription:
+        "Rust ofrece seguridad de memoria sin recolector de basura mediante ownership, borrowing, lifetimes y verificaciones fuertes en tiempo de compilacion.\n\nSe usa en software de sistemas, herramientas de linea de comandos, servicios web, desarrollo embebido, WebAssembly e infraestructura critica para rendimiento.",
+    },
   },
 } satisfies Language;

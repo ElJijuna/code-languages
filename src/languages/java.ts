@@ -17,5 +17,12 @@ export const java = {
       longDescription:
         "Java is a statically typed language and runtime platform designed around portability, a large standard library, managed memory, and a mature virtual machine.\n\nIt is widely used for enterprise systems, Android applications, backend services, financial platforms, distributed systems, and long-lived production software.",
     },
+    es: {
+      name: "Java",
+      description:
+        "Un lenguaje orientado a objetos basado en clases para aplicaciones y servicios portables.",
+      longDescription:
+        "Java es un lenguaje de tipado estatico y una plataforma de ejecucion disenada alrededor de portabilidad, una biblioteca estandar amplia, memoria gestionada y una maquina virtual madura.\n\nSe usa ampliamente en sistemas empresariales, aplicaciones Android, servicios backend, plataformas financieras, sistemas distribuidos y software de produccion de larga vida.",
+    },
   },
 } satisfies Language;

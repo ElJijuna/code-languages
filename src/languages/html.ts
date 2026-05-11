@@ -16,5 +16,12 @@ export const html = {
       longDescription:
         "HTML defines the structure and semantics of documents on the web, using elements and attributes to describe headings, paragraphs, links, media, forms, and application surfaces.\n\nIt is maintained as a living standard and works alongside CSS and JavaScript as one of the core technologies of the web platform.",
     },
+    es: {
+      name: "HTML",
+      description:
+        "Un lenguaje de marcado para estructurar paginas web y documentos en navegadores.",
+      longDescription:
+        "HTML define la estructura y semantica de documentos en la web, usando elementos y atributos para describir encabezados, parrafos, enlaces, medios, formularios y superficies de aplicacion.\n\nSe mantiene como un estandar vivo y trabaja junto a CSS y JavaScript como una de las tecnologias centrales de la plataforma web.",
+    },
   },
 } satisfies Language;

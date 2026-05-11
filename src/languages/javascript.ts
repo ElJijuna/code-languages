@@ -16,5 +16,12 @@ export const javascript = {
       longDescription:
         "JavaScript is the primary programming language of the web platform, running natively in browsers and in server runtimes such as Node.js, Deno, and Bun.\n\nThe language is standardized as ECMAScript and supports event-driven, functional, object-oriented, and prototype-based programming styles.",
     },
+    es: {
+      name: "JavaScript",
+      description:
+        "Un lenguaje dinamico de scripting para la web, servidores, herramientas y apps.",
+      longDescription:
+        "JavaScript es el lenguaje de programacion principal de la plataforma web, ejecutandose de forma nativa en navegadores y en runtimes de servidor como Node.js, Deno y Bun.\n\nEl lenguaje esta estandarizado como ECMAScript y soporta estilos de programacion orientados a eventos, funcionales, orientados a objetos y basados en prototipos.",
+    },
   },
 } satisfies Language;

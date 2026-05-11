@@ -16,5 +16,12 @@ export const go = {
       longDescription:
         "Go combines a small language specification, garbage collection, static typing, and built-in concurrency primitives through goroutines and channels.\n\nIt is commonly used for cloud services, networking tools, distributed systems, command-line applications, and infrastructure software.",
     },
+    es: {
+      name: "Go",
+      description:
+        "Un lenguaje compilado disenado para simplicidad, builds rapidos y concurrencia.",
+      longDescription:
+        "Go combina una especificacion pequena del lenguaje, recoleccion de basura, tipado estatico y primitivas de concurrencia integradas mediante goroutines y channels.\n\nSe usa comunmente en servicios cloud, herramientas de red, sistemas distribuidos, aplicaciones de linea de comandos y software de infraestructura.",
+    },
   },
 } satisfies Language;
