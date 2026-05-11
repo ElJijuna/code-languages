@@ -8,7 +8,7 @@ export const css = {
   website: "https://www.w3.org/Style/CSS/",
   paradigms: ["declarative", "stylesheet"],
   version: "Living Standard",
-  logo: "https://www.w3.org/html/logo/downloads/CSS3_Logo.svg",
+  logo: "https://upload.wikimedia.org/wikipedia/commons/a/ab/Official_CSS_Logo.svg",
   i18n: {
     en: {
       name: "CSS",

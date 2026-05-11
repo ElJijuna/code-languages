@@ -13,7 +13,7 @@ export const python = {
     ecosystems: ["Web", "Data Science", "Machine Learning", "Automation"],
   },
   version: "3.14.4",
-  logo: "https://www.python.org/static/community_logos/python-logo-only.svg",
+  logo: "https://commons.wikimedia.org/wiki/Special:FilePath/Python-logo-notext.svg",
   i18n: {
     en: {
       name: "Python",

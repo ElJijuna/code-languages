@@ -12,7 +12,7 @@ export const cobol = {
     ecosystems: ["Mainframe", "Business applications", "Transaction processing"],
   },
   version: "ISO/IEC 1989:2023",
-  logo: "https://commons.wikimedia.org/wiki/Special:FilePath/COBOL_logo.svg",
+  logo: "https://logo.svgcdn.com/devicon/cobol-original.png",
   i18n: {
     en: {
       name: "COBOL",

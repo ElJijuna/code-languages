@@ -8,7 +8,7 @@ export const yaml = {
   website: "https://yaml.org",
   paradigms: ["data serialization", "declarative"],
   version: "1.2.2",
-  logo: "https://yaml.org/spec/1.2.2/ext/img/yaml-logo.svg",
+  logo: "https://upload.wikimedia.org/wikipedia/commons/5/5a/Official_YAML_Logo.svg",
   i18n: {
     en: {
       name: "YAML",

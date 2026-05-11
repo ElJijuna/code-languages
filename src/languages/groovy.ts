@@ -13,7 +13,7 @@ export const groovy = {
     ecosystems: ["JVM", "Gradle"],
   },
   version: "5.0.6",
-  logo: "https://groovy-lang.org/img/groovy-logo.svg",
+  logo: "https://upload.wikimedia.org/wikipedia/commons/3/36/Groovy-logo.svg",
   i18n: {
     en: {
       name: "Groovy",

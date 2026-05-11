@@ -12,7 +12,7 @@ export const makefile = {
     ecosystems: ["Unix", "Linux", "C", "C++", "Embedded Systems"],
   },
   version: "4.4.1",
-  logo: "https://upload.wikimedia.org/wikipedia/commons/2/22/Official_gnu.svg",
+  logo: "https://upload.wikimedia.org/wikipedia/commons/7/71/Heckert_gnu.small.png",
   i18n: {
     en: {
       name: "Makefile",
