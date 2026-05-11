@@ -8,7 +8,7 @@
 
 Structured metadata for programming languages, packaged as a typed, tree-shakeable TypeScript library.
 
-`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 31 languages.
+`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 32 languages.
 
 ## Features
 
@@ -57,6 +57,7 @@ import { java } from "code-languages/java";
 import { html } from "code-languages/html";
 import { kotlin } from "code-languages/kotlin";
 import { less } from "code-languages/less";
+import { makefile } from "code-languages/makefile";
 import { markdown } from "code-languages/markdown";
 import { objectiveC } from "code-languages/objective-c";
 import { php } from "code-languages/php";
@@ -86,6 +87,7 @@ console.log(java.version);
 console.log(html.extensions);
 console.log(kotlin.version);
 console.log(less.extensions);
+console.log(makefile.extensions);
 console.log(markdown.website);
 console.log(objectiveC.version);
 console.log(php.version);
@@ -123,6 +125,7 @@ import {
   json,
   kotlin,
   less,
+  makefile,
   localizeLanguage,
   markdown,
   objectiveC,
@@ -155,6 +158,7 @@ console.log(localizeLanguage(java).name);
 console.log(html.website);
 console.log(localizeLanguage(kotlin, "es-PE").description);
 console.log(localizeLanguage(less, "es").name);
+console.log(localizeLanguage(makefile).description);
 console.log(markdown.extensions);
 console.log(objectiveC.extensions);
 console.log(localizeLanguage(php, "es").description);
@@ -254,6 +258,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | JSON | `json` | `.json` | `RFC 8259` | `code-languages/json` |
 | Kotlin | `kotlin` | `.kt`, `.kts` | `2.3.20` | `code-languages/kotlin` |
 | Less | `less` | `.less` | `4.4.1` | `code-languages/less` |
+| Makefile | `makefile` | `Makefile`, `makefile`, `GNUmakefile`, `.mk`, `.mak` | `4.4.1` | `code-languages/makefile` |
 | Markdown | `markdown` | `.md`, `.markdown`, `.mdown`, `.mkd` | `CommonMark 0.31.2` | `code-languages/markdown` |
 | Objective-C | `objective-c` | `.m`, `.mm` | `2.0` | `code-languages/objective-c` |
 | PHP | `php` | `.php`, `.phtml`, `.php3`, `.php4`, `.php5`, `.phps` | `8.5.6` | `code-languages/php` |

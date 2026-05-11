@@ -103,6 +103,15 @@ const checkers = {
       sourceUrl: "https://registry.npmjs.org/less/latest",
     };
   },
+  async makefile() {
+    const html = await fetchText("https://www.gnu.org/software/make/manual/html_node/");
+    const match = html.match(/GNU `make` version (\d+\.\d+(?:\.\d+)?)/);
+
+    return {
+      latestVersion: match?.[1],
+      sourceUrl: "https://www.gnu.org/software/make/manual/html_node/",
+    };
+  },
   async markdown() {
     const html = await fetchText("https://spec.commonmark.org/");
     const versions = [...html.matchAll(/\/(\d+\.\d+(?:\.\d+)?)\//g)].map((match) => match[1]);

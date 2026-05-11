@@ -13,6 +13,7 @@ import { javascript } from "./languages/javascript";
 import { json } from "./languages/json";
 import { kotlin } from "./languages/kotlin";
 import { less } from "./languages/less";
+import { makefile } from "./languages/makefile";
 import { markdown } from "./languages/markdown";
 import { objectiveC } from "./languages/objective-c";
 import { php } from "./languages/php";
@@ -47,6 +48,7 @@ export const languages = [
   json,
   kotlin,
   less,
+  makefile,
   markdown,
   objectiveC,
   php,
