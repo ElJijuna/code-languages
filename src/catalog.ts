@@ -5,6 +5,7 @@ import { cobol } from "./languages/cobol";
 import { cpp } from "./languages/cpp";
 import { csharp } from "./languages/csharp";
 import { css } from "./languages/css";
+import { dart } from "./languages/dart";
 import { dockerfile } from "./languages/dockerfile";
 import { go } from "./languages/go";
 import { graphql } from "./languages/graphql";
@@ -43,6 +44,7 @@ export const languages = [
   cpp,
   csharp,
   css,
+  dart,
   dockerfile,
   go,
   graphql,

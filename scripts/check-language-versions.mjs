@@ -6,6 +6,7 @@ const reportPath = "language-version-report.json";
 
 const manualChecks = {
   c: "ISO standards do not expose a stable free machine-readable latest-version endpoint.",
+  cobol: "COBOL standards should be reviewed manually against ISO/IEC 1989 publications.",
   cpp: "ISO standards do not expose a stable free machine-readable latest-version endpoint.",
   css: "CSS is maintained as living specifications rather than one package version.",
   dockerfile:
@@ -53,6 +54,17 @@ const checkers = {
       latestVersion: latestNumeric(versions),
       sourceUrl:
         "https://raw.githubusercontent.com/dotnet/docs/main/docs/csharp/whats-new/csharp-version-history.md",
+    };
+  },
+  async dart() {
+    const json = await fetchJson(
+      "https://storage.googleapis.com/dart-archive/channels/stable/release/latest/VERSION",
+    );
+
+    return {
+      latestVersion: json.version,
+      sourceUrl:
+        "https://storage.googleapis.com/dart-archive/channels/stable/release/latest/VERSION",
     };
   },
   async go() {

@@ -8,7 +8,7 @@
 
 Structured metadata for programming languages, packaged as a typed, tree-shakeable TypeScript library.
 
-`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 35 languages.
+`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 36 languages.
 
 ## Features
 
@@ -51,6 +51,7 @@ import { cobol } from "code-languages/cobol";
 import { cpp } from "code-languages/cpp";
 import { csharp } from "code-languages/csharp";
 import { css } from "code-languages/css";
+import { dart } from "code-languages/dart";
 import { dockerfile } from "code-languages/dockerfile";
 import { graphql } from "code-languages/graphql";
 import { groovy } from "code-languages/groovy";
@@ -259,6 +260,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | C++ | `cpp` | `.cpp`, `.cc`, `.cxx`, `.h`, `.hpp`, `.hh`, `.hxx` | `C++23` | `code-languages/cpp` |
 | C# | `csharp` | `.cs`, `.csx` | `14` | `code-languages/csharp` |
 | CSS | `css` | `.css` | `Living Standard` | `code-languages/css` |
+| Dart | `dart` | `.dart` | `3.11.6` | `code-languages/dart` |
 | Dockerfile | `dockerfile` | `Dockerfile`, `.dockerfile` | `1.10` | `code-languages/dockerfile` |
 | Go | `go` | `.go` | `1.26.3` | `code-languages/go` |
 | GraphQL | `graphql` | `.graphql`, `.gql`, `.graphqls` | `September 2025` | `code-languages/graphql` |

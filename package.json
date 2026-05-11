@@ -76,6 +76,11 @@
       "import": "./dist/languages/cpp.js",
       "require": "./dist/languages/cpp.cjs"
     },
+    "./dart": {
+      "types": "./dist/languages/dart.d.ts",
+      "import": "./dist/languages/dart.js",
+      "require": "./dist/languages/dart.cjs"
+    },
     "./typescript": {
       "types": "./dist/languages/typescript.d.ts",
       "import": "./dist/languages/typescript.js",

@@ -16,6 +16,7 @@ export { cobol } from "./languages/cobol";
 export { csharp } from "./languages/csharp";
 export { cpp } from "./languages/cpp";
 export { css } from "./languages/css";
+export { dart } from "./languages/dart";
 export { dockerfile } from "./languages/dockerfile";
 export { go } from "./languages/go";
 export { graphql } from "./languages/graphql";
