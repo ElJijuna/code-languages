@@ -142,14 +142,11 @@
       "require": "./dist/languages/xml.cjs"
     }
   },
-  "files": [
-    "dist",
-    "LICENSE",
-    "README.md"
-  ],
+  "files": ["dist", "LICENSE", "README.md"],
   "scripts": {
     "build": "tsup",
     "check": "biome check . && tsc --noEmit && vitest run",
+    "check:language-versions": "node scripts/check-language-versions.mjs",
     "format": "biome format --write .",
     "lint": "biome check .",
     "prepare": "husky",
