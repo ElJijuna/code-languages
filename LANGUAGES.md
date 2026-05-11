@@ -18,6 +18,7 @@
 - [x] Dockerfile (`dockerfile`)
 - [x] Swift (`swift`)
 - [x] Groovy (`groovy`)
+- [x] Kotlin (`kotlin`)
 
 ## Pending
 
@@ -25,7 +26,6 @@
 - [ ] C# (`csharp`)
 - [ ] Ruby (`ruby`)
 - [ ] PHP (`php`)
-- [ ] Kotlin (`kotlin`)
 - [ ] Dart (`dart`)
 - [ ] Scala (`scala`)
 - [ ] Elixir (`elixir`)

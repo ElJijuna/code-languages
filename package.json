@@ -51,6 +51,11 @@
       "import": "./dist/languages/json.js",
       "require": "./dist/languages/json.cjs"
     },
+    "./kotlin": {
+      "types": "./dist/languages/kotlin.d.ts",
+      "import": "./dist/languages/kotlin.js",
+      "require": "./dist/languages/kotlin.cjs"
+    },
     "./sql": {
       "types": "./dist/languages/sql.d.ts",
       "import": "./dist/languages/sql.js",

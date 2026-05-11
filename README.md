@@ -8,7 +8,7 @@
 
 Structured metadata for programming languages, packaged as a typed, tree-shakeable TypeScript library.
 
-`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 16 languages.
+`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 17 languages.
 
 ## Features
 
@@ -51,6 +51,7 @@ import { groovy } from "code-languages/groovy";
 import { javascript } from "code-languages/javascript";
 import { java } from "code-languages/java";
 import { html } from "code-languages/html";
+import { kotlin } from "code-languages/kotlin";
 import { markdown } from "code-languages/markdown";
 import { python } from "code-languages/python";
 import { json } from "code-languages/json";
@@ -65,6 +66,7 @@ console.log(groovy.version);
 console.log(javascript.website);
 console.log(java.version);
 console.log(html.extensions);
+console.log(kotlin.version);
 console.log(markdown.website);
 console.log(python.publishedDate);
 console.log(json.i18n.en.description);
@@ -85,6 +87,7 @@ import {
   html,
   java,
   json,
+  kotlin,
   localizeLanguage,
   markdown,
   rust,
@@ -100,6 +103,7 @@ console.log(dockerfile.website);
 console.log(localizeLanguage(groovy).description);
 console.log(localizeLanguage(java).name);
 console.log(html.website);
+console.log(localizeLanguage(kotlin, "es-PE").description);
 console.log(markdown.extensions);
 console.log(go.logo);
 console.log(json.website);
@@ -169,6 +173,7 @@ console.log(language.resolvedLocale); // "es"
 | SQL | `sql` | `.sql` | `SQL:2023` | `code-languages/sql` |
 | Java | `java` | `.java` | `26` | `code-languages/java` |
 | Swift | `swift` | `.swift` | `6.2.2` | `code-languages/swift` |
+| Kotlin | `kotlin` | `.kt`, `.kts` | `2.3.20` | `code-languages/kotlin` |
 | HTML | `html` | `.html`, `.htm` | `Living Standard` | `code-languages/html` |
 | CSS | `css` | `.css` | `Living Standard` | `code-languages/css` |
 | Markdown | `markdown` | `.md`, `.markdown`, `.mdown`, `.mkd` | `CommonMark 0.31.2` | `code-languages/markdown` |

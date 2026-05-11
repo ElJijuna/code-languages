@@ -15,6 +15,7 @@ export { html } from "./languages/html";
 export { java } from "./languages/java";
 export { javascript } from "./languages/javascript";
 export { json } from "./languages/json";
+export { kotlin } from "./languages/kotlin";
 export { markdown } from "./languages/markdown";
 export { python } from "./languages/python";
 export { rust } from "./languages/rust";
