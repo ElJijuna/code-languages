@@ -1,3 +1,16 @@
+# [1.3.0](https://github.com/ElJijuna/code-languages/compare/v1.2.0...v1.3.0) (2026-05-11)
+
+
+### Features
+
+* add language astro ([e175f23](https://github.com/ElJijuna/code-languages/commit/e175f235be36414915f9f2fa3a3250d1fd56ab85))
+* add language detection utilities ([123ec23](https://github.com/ElJijuna/code-languages/commit/123ec23abfc5d5b3b6d70fcc76217afe9974e75f))
+* add language php ([aad76ed](https://github.com/ElJijuna/code-languages/commit/aad76ed6489dbbd701dc2ef48134b694bdce6984))
+* add language sass ([a371898](https://github.com/ElJijuna/code-languages/commit/a37189809ecf758a249620ff1a28d9efe0db0240))
+* add language vue ([b772106](https://github.com/ElJijuna/code-languages/commit/b77210613a4cf07ad39e69eaab376509d2f4737d))
+* add language webassembly ([d834c0f](https://github.com/ElJijuna/code-languages/commit/d834c0f53200133777bc6f42c3b2108e0cf03249))
+* update Language contract to add tooling with runtimes, packageManagers and ecosystems ([1ed0687](https://github.com/ElJijuna/code-languages/commit/1ed0687cd3f721b3ce847bea779b51b95ecd766a))
+
 # [1.2.0](https://github.com/ElJijuna/code-languages/compare/v1.1.0...v1.2.0) (2026-05-11)
 
 
