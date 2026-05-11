@@ -26,6 +26,7 @@
 - [x] PHP (`php`)
 - [x] Sass/SCSS (`scss`)
 - [x] Vue (`vue`)
+- [x] WebAssembly (`webassembly`)
 
 ## Pending
 
@@ -70,7 +71,6 @@
 - [ ] SVG (`svg`)
 - [ ] TeX (`tex`)
 - [ ] Twig (`twig`)
-- [ ] WebAssembly (`webassembly`)
 - [ ] XAML (`xaml`)
 - [ ] XQuery (`xquery`)
 - [ ] XSLT (`xslt`)

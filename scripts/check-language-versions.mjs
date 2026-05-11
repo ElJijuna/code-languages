@@ -15,6 +15,7 @@ const manualChecks = {
     "ECMAScript editions are published yearly and should be checked against ECMA-262 release status.",
   json: "RFC 8259 is stable and should be reviewed manually when a replacement RFC appears.",
   sql: "SQL standards should be reviewed manually against ISO/IEC 9075 publications.",
+  webassembly: "WebAssembly standards should be reviewed manually against webassembly.org/specs.",
   xml: "XML 1.0 Fifth Edition is stable and should be reviewed manually if W3C publishes a new edition.",
   yaml: "YAML specification updates should be reviewed manually against yaml.org/spec.",
 };

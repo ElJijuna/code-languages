@@ -126,6 +126,11 @@
       "import": "./dist/languages/vue.js",
       "require": "./dist/languages/vue.cjs"
     },
+    "./webassembly": {
+      "types": "./dist/languages/webassembly.d.ts",
+      "import": "./dist/languages/webassembly.js",
+      "require": "./dist/languages/webassembly.cjs"
+    },
     "./go": {
       "types": "./dist/languages/go.d.ts",
       "import": "./dist/languages/go.js",

@@ -8,7 +8,7 @@
 
 Structured metadata for programming languages, packaged as a typed, tree-shakeable TypeScript library.
 
-`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 24 languages.
+`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 25 languages.
 
 ## Features
 
@@ -63,6 +63,7 @@ import { json } from "code-languages/json";
 import { sql } from "code-languages/sql";
 import { swift } from "code-languages/swift";
 import { vue } from "code-languages/vue";
+import { webassembly } from "code-languages/webassembly";
 import { xml } from "code-languages/xml";
 import { yaml } from "code-languages/yaml";
 
@@ -85,6 +86,7 @@ console.log(json.i18n.en.description);
 console.log(sql.i18n.en.name);
 console.log(swift.version);
 console.log(vue.website);
+console.log(webassembly.extensions);
 console.log(xml.extensions);
 console.log(yaml.version);
 ```
@@ -116,6 +118,7 @@ import {
   swift,
   typescript,
   vue,
+  webassembly,
   xml,
   yaml,
 } from "code-languages";
@@ -140,6 +143,7 @@ console.log(json.website);
 console.log(sql.extensions);
 console.log(swift.i18n.en.description);
 console.log(localizeLanguage(vue, "es").description);
+console.log(localizeLanguage(webassembly).name);
 console.log(localizeLanguage(xml, "es").name);
 console.log(yaml.paradigms);
 ```
@@ -234,6 +238,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | Rust | `rust` | `.rs` | `1.95.0` | `code-languages/rust` |
 | Sass | `scss` | `.scss`, `.sass` | `1.99.0` | `code-languages/scss` |
 | Vue | `vue` | `.vue` | `3.5.34` | `code-languages/vue` |
+| WebAssembly | `webassembly` | `.wasm`, `.wat` | `3.0` | `code-languages/webassembly` |
 | Go | `go` | `.go` | `1.26.3` | `code-languages/go` |
 
 ## Development
