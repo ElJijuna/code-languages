@@ -76,6 +76,11 @@
       "import": "./dist/languages/typescript.js",
       "require": "./dist/languages/typescript.cjs"
     },
+    "./visual-basic": {
+      "types": "./dist/languages/visual-basic.d.ts",
+      "import": "./dist/languages/visual-basic.js",
+      "require": "./dist/languages/visual-basic.cjs"
+    },
     "./javascript": {
       "types": "./dist/languages/javascript.d.ts",
       "import": "./dist/languages/javascript.js",

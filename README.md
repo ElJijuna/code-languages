@@ -8,7 +8,7 @@
 
 Structured metadata for programming languages, packaged as a typed, tree-shakeable TypeScript library.
 
-`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 30 languages.
+`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 31 languages.
 
 ## Features
 
@@ -66,6 +66,7 @@ import { json } from "code-languages/json";
 import { sql } from "code-languages/sql";
 import { svg } from "code-languages/svg";
 import { swift } from "code-languages/swift";
+import { visualBasic } from "code-languages/visual-basic";
 import { vue } from "code-languages/vue";
 import { webassembly } from "code-languages/webassembly";
 import { xml } from "code-languages/xml";
@@ -94,6 +95,7 @@ console.log(json.i18n.en.description);
 console.log(sql.i18n.en.name);
 console.log(svg.extensions);
 console.log(swift.version);
+console.log(visualBasic.i18n.en.name);
 console.log(vue.website);
 console.log(webassembly.extensions);
 console.log(xml.extensions);
@@ -131,6 +133,7 @@ import {
   svg,
   swift,
   typescript,
+  visualBasic,
   vue,
   webassembly,
   xml,
@@ -161,6 +164,7 @@ console.log(json.website);
 console.log(sql.extensions);
 console.log(localizeLanguage(svg, "es").description);
 console.log(swift.i18n.en.description);
+console.log(localizeLanguage(visualBasic, "es").description);
 console.log(localizeLanguage(vue, "es").description);
 console.log(localizeLanguage(webassembly).name);
 console.log(localizeLanguage(xml, "es").name);
@@ -260,6 +264,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | SVG | `svg` | `.svg`, `.svgz` | `SVG 2` | `code-languages/svg` |
 | Swift | `swift` | `.swift` | `6.2.2` | `code-languages/swift` |
 | TypeScript | `typescript` | `.ts`, `.tsx`, `.mts`, `.cts` | `6.0` | `code-languages/typescript` |
+| Visual Basic | `visual-basic` | `.vb` | `17.13` | `code-languages/visual-basic` |
 | Vue | `vue` | `.vue` | `3.5.34` | `code-languages/vue` |
 | WebAssembly | `webassembly` | `.wasm`, `.wat` | `3.0` | `code-languages/webassembly` |
 | XML | `xml` | `.xml`, `.xsd`, `.xsl`, `.xslt` | `XML 1.0 Fifth Edition` | `code-languages/xml` |

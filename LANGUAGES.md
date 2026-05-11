@@ -32,6 +32,7 @@
 - [x] WebAssembly (`webassembly`)
 - [x] Objective-C (`objective-c`)
 - [x] SVG (`svg`)
+- [x] Visual Basic (`visual-basic`)
 
 ## Pending
 
@@ -80,4 +81,3 @@
 - [ ] Erlang (`erlang`)
 - [ ] F# (`fsharp`)
 - [ ] Perl (`perl`)
-- [ ] Visual Basic (`visual-basic`)

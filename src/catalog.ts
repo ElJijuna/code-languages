@@ -23,6 +23,7 @@ import { sql } from "./languages/sql";
 import { svg } from "./languages/svg";
 import { swift } from "./languages/swift";
 import { typescript } from "./languages/typescript";
+import { visualBasic } from "./languages/visual-basic";
 import { vue } from "./languages/vue";
 import { webassembly } from "./languages/webassembly";
 import { xml } from "./languages/xml";
@@ -56,6 +57,7 @@ export const languages = [
   svg,
   swift,
   typescript,
+  visualBasic,
   vue,
   webassembly,
   xml,

@@ -34,6 +34,7 @@ export { sql } from "./languages/sql";
 export { svg } from "./languages/svg";
 export { swift } from "./languages/swift";
 export { typescript } from "./languages/typescript";
+export { visualBasic } from "./languages/visual-basic";
 export { vue } from "./languages/vue";
 export { webassembly } from "./languages/webassembly";
 export { xml } from "./languages/xml";

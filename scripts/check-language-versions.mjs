@@ -166,6 +166,17 @@ const checkers = {
       sourceUrl: "https://registry.npmjs.org/typescript/latest",
     };
   },
+  async "visual-basic"() {
+    const html = await fetchText(
+      "https://learn.microsoft.com/en-us/dotnet/visual-basic/whats-new/",
+    );
+    const match = html.match(/Current version[\s\S]*?Visual Basic (\d+\.\d+)/i);
+
+    return {
+      latestVersion: match?.[1],
+      sourceUrl: "https://learn.microsoft.com/en-us/dotnet/visual-basic/whats-new/",
+    };
+  },
   async vue() {
     const json = await fetchJson("https://registry.npmjs.org/vue/latest");
 
