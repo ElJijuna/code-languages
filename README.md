@@ -8,7 +8,7 @@
 
 Structured metadata for programming languages, packaged as a typed, tree-shakeable TypeScript library.
 
-`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 13 languages.
+`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 14 languages.
 
 ## Features
 
@@ -46,6 +46,7 @@ Import multiple languages:
 ```ts
 import { c } from "code-languages/c";
 import { css } from "code-languages/css";
+import { dockerfile } from "code-languages/dockerfile";
 import { javascript } from "code-languages/javascript";
 import { java } from "code-languages/java";
 import { html } from "code-languages/html";
@@ -57,6 +58,7 @@ import { yaml } from "code-languages/yaml";
 
 console.log(c.extensions);
 console.log(css.paradigms);
+console.log(dockerfile.i18n.en.name);
 console.log(javascript.website);
 console.log(java.version);
 console.log(html.extensions);
@@ -73,6 +75,7 @@ Import from the package root when bundle size is not a concern:
 import {
   c,
   css,
+  dockerfile,
   go,
   html,
   java,
@@ -87,6 +90,7 @@ import {
 
 console.log(c.version);
 console.log(localizeLanguage(css).name);
+console.log(dockerfile.website);
 console.log(localizeLanguage(java).name);
 console.log(html.website);
 console.log(markdown.extensions);
@@ -142,6 +146,7 @@ console.log(language.longDescription);
 | Language | Slug | Extensions | Version | Import |
 |---|---|---|---|---|
 | C | `c` | `.c`, `.h` | `C23` | `code-languages/c` |
+| Dockerfile | `dockerfile` | `Dockerfile`, `.dockerfile` | `1.10` | `code-languages/dockerfile` |
 | TypeScript | `typescript` | `.ts`, `.tsx`, `.mts`, `.cts` | `6.0` | `code-languages/typescript` |
 | JavaScript | `javascript` | `.js`, `.mjs`, `.cjs`, `.jsx` | `ECMAScript 2025` | `code-languages/javascript` |
 | JSON | `json` | `.json` | `RFC 8259` | `code-languages/json` |

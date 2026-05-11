@@ -15,6 +15,7 @@
 - [x] C (`c`)
 - [x] JSON (`json`)
 - [x] SQL (`sql`)
+- [x] Dockerfile (`dockerfile`)
 
 ## Pending
 
@@ -36,7 +37,6 @@
 - [ ] PowerShell (`powershell`)
 - [ ] XML (`xml`)
 - [ ] TOML (`toml`)
-- [ ] Dockerfile (`dockerfile`)
 - [ ] GraphQL (`graphql`)
 - [ ] Solidity (`solidity`)
 - [ ] Clojure (`clojure`)

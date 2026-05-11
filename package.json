@@ -81,6 +81,11 @@
       "import": "./dist/languages/css.js",
       "require": "./dist/languages/css.cjs"
     },
+    "./dockerfile": {
+      "types": "./dist/languages/dockerfile.d.ts",
+      "import": "./dist/languages/dockerfile.js",
+      "require": "./dist/languages/dockerfile.cjs"
+    },
     "./html": {
       "types": "./dist/languages/html.d.ts",
       "import": "./dist/languages/html.js",
