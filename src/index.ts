@@ -8,6 +8,7 @@ export type {
 } from "./types";
 export { bash } from "./languages/bash";
 export { c } from "./languages/c";
+export { cpp } from "./languages/cpp";
 export { css } from "./languages/css";
 export { dockerfile } from "./languages/dockerfile";
 export { go } from "./languages/go";

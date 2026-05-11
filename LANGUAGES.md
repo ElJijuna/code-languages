@@ -21,10 +21,10 @@
 - [x] Kotlin (`kotlin`)
 - [x] Bash (`bash`)
 - [x] XML (`xml`)
+- [x] C++ (`cpp`)
 
 ## Pending
 
-- [ ] C++ (`cpp`)
 - [ ] C# (`csharp`)
 - [ ] Ruby (`ruby`)
 - [ ] PHP (`php`)

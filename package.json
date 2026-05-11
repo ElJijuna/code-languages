@@ -41,6 +41,11 @@
       "import": "./dist/languages/c.js",
       "require": "./dist/languages/c.cjs"
     },
+    "./cpp": {
+      "types": "./dist/languages/cpp.d.ts",
+      "import": "./dist/languages/cpp.js",
+      "require": "./dist/languages/cpp.cjs"
+    },
     "./typescript": {
       "types": "./dist/languages/typescript.d.ts",
       "import": "./dist/languages/typescript.js",

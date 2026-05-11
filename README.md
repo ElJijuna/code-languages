@@ -8,7 +8,7 @@
 
 Structured metadata for programming languages, packaged as a typed, tree-shakeable TypeScript library.
 
-`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 19 languages.
+`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 20 languages.
 
 ## Features
 
@@ -46,6 +46,7 @@ Import multiple languages:
 ```ts
 import { bash } from "code-languages/bash";
 import { c } from "code-languages/c";
+import { cpp } from "code-languages/cpp";
 import { css } from "code-languages/css";
 import { dockerfile } from "code-languages/dockerfile";
 import { groovy } from "code-languages/groovy";
@@ -63,6 +64,7 @@ import { yaml } from "code-languages/yaml";
 
 console.log(bash.version);
 console.log(c.extensions);
+console.log(cpp.i18n.en.name);
 console.log(css.paradigms);
 console.log(dockerfile.i18n.en.name);
 console.log(groovy.version);
@@ -85,6 +87,7 @@ Import from the package root when bundle size is not a concern:
 import {
   bash,
   c,
+  cpp,
   css,
   dockerfile,
   go,
@@ -105,6 +108,7 @@ import {
 
 console.log(localizeLanguage(bash, "es").description);
 console.log(c.version);
+console.log(cpp.website);
 console.log(localizeLanguage(css).name);
 console.log(dockerfile.website);
 console.log(localizeLanguage(groovy).description);
@@ -174,6 +178,7 @@ console.log(language.resolvedLocale); // "es"
 |---|---|---|---|---|
 | Bash | `bash` | `.sh`, `.bash`, `.bashrc`, `.bash_profile`, `.bash_login`, `.profile` | `5.3` | `code-languages/bash` |
 | C | `c` | `.c`, `.h` | `C23` | `code-languages/c` |
+| C++ | `cpp` | `.cpp`, `.cc`, `.cxx`, `.hpp`, `.hh`, `.hxx` | `C++23` | `code-languages/cpp` |
 | Dockerfile | `dockerfile` | `Dockerfile`, `.dockerfile` | `1.10` | `code-languages/dockerfile` |
 | Groovy | `groovy` | `.groovy`, `.gvy`, `.gy`, `.gsh` | `5.0.5` | `code-languages/groovy` |
 | TypeScript | `typescript` | `.ts`, `.tsx`, `.mts`, `.cts` | `6.0` | `code-languages/typescript` |
