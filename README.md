@@ -8,7 +8,7 @@
 
 Structured metadata for programming languages, packaged as a typed, tree-shakeable TypeScript library.
 
-`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 34 languages.
+`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 35 languages.
 
 ## Features
 
@@ -47,6 +47,7 @@ Import multiple languages:
 import { astro } from "code-languages/astro";
 import { bash } from "code-languages/bash";
 import { c } from "code-languages/c";
+import { cobol } from "code-languages/cobol";
 import { cpp } from "code-languages/cpp";
 import { csharp } from "code-languages/csharp";
 import { css } from "code-languages/css";
@@ -254,6 +255,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | Astro | `astro` | `.astro` | `6.3.1` | `code-languages/astro` |
 | Bash | `bash` | `.sh`, `.bash`, `.bashrc`, `.bash_profile`, `.bash_login`, `.profile` | `5.3` | `code-languages/bash` |
 | C | `c` | `.c`, `.h` | `C23` | `code-languages/c` |
+| COBOL | `cobol` | `.cob`, `.cbl`, `.cobol`, `.cpy` | `ISO/IEC 1989:2023` | `code-languages/cobol` |
 | C++ | `cpp` | `.cpp`, `.cc`, `.cxx`, `.h`, `.hpp`, `.hh`, `.hxx` | `C++23` | `code-languages/cpp` |
 | C# | `csharp` | `.cs`, `.csx` | `14` | `code-languages/csharp` |
 | CSS | `css` | `.css` | `Living Standard` | `code-languages/css` |

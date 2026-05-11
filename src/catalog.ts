@@ -1,6 +1,7 @@
 import { astro } from "./languages/astro";
 import { bash } from "./languages/bash";
 import { c } from "./languages/c";
+import { cobol } from "./languages/cobol";
 import { cpp } from "./languages/cpp";
 import { csharp } from "./languages/csharp";
 import { css } from "./languages/css";
@@ -38,6 +39,7 @@ export const languages = [
   astro,
   bash,
   c,
+  cobol,
   cpp,
   csharp,
   css,

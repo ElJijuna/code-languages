@@ -14,6 +14,7 @@
 - [x] YAML (`yaml`)
 - [x] C (`c`)
 - [x] C# (`csharp`)
+- [x] COBOL (`cobol`)
 - [x] JSON (`json`)
 - [x] Less (`less`)
 - [x] Makefile (`makefile`)
@@ -41,7 +42,6 @@
 
 - [ ] Assembly (`assembly`)
 - [ ] CMake (`cmake`)
-- [ ] COBOL (`cobol`)
 - [ ] CoffeeScript (`coffeescript`)
 - [ ] Crystal (`crystal`)
 - [ ] CUDA (`cuda`)

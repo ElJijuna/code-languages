@@ -66,6 +66,11 @@
       "import": "./dist/languages/csharp.js",
       "require": "./dist/languages/csharp.cjs"
     },
+    "./cobol": {
+      "types": "./dist/languages/cobol.d.ts",
+      "import": "./dist/languages/cobol.js",
+      "require": "./dist/languages/cobol.cjs"
+    },
     "./cpp": {
       "types": "./dist/languages/cpp.d.ts",
       "import": "./dist/languages/cpp.js",

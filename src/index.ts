@@ -12,6 +12,7 @@ export type {
 export { astro } from "./languages/astro";
 export { bash } from "./languages/bash";
 export { c } from "./languages/c";
+export { cobol } from "./languages/cobol";
 export { csharp } from "./languages/csharp";
 export { cpp } from "./languages/cpp";
 export { css } from "./languages/css";
