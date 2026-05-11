@@ -1,6 +1,7 @@
 import { astro } from "./languages/astro";
 import { bash } from "./languages/bash";
 import { c } from "./languages/c";
+import { csharp } from "./languages/csharp";
 import { cpp } from "./languages/cpp";
 import { css } from "./languages/css";
 import { dockerfile } from "./languages/dockerfile";
@@ -29,6 +30,7 @@ export const languages = [
   astro,
   bash,
   c,
+  csharp,
   cpp,
   css,
   dockerfile,

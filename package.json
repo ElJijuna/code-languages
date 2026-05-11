@@ -61,6 +61,11 @@
       "import": "./dist/languages/c.js",
       "require": "./dist/languages/c.cjs"
     },
+    "./csharp": {
+      "types": "./dist/languages/csharp.d.ts",
+      "import": "./dist/languages/csharp.js",
+      "require": "./dist/languages/csharp.cjs"
+    },
     "./cpp": {
       "types": "./dist/languages/cpp.d.ts",
       "import": "./dist/languages/cpp.js",

@@ -13,6 +13,7 @@
 - [x] Markdown (`markdown`)
 - [x] YAML (`yaml`)
 - [x] C (`c`)
+- [x] C# (`csharp`)
 - [x] JSON (`json`)
 - [x] SQL (`sql`)
 - [x] Dockerfile (`dockerfile`)
@@ -30,7 +31,6 @@
 
 ## Pending
 
-- [ ] C# (`csharp`)
 - [ ] Assembly (`assembly`)
 - [ ] CMake (`cmake`)
 - [ ] COBOL (`cobol`)
