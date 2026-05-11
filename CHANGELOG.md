@@ -1,3 +1,20 @@
+# [1.4.0](https://github.com/ElJijuna/code-languages/compare/v1.3.0...v1.4.0) (2026-05-11)
+
+
+### Features
+
+* add language c# ([65874a9](https://github.com/ElJijuna/code-languages/commit/65874a93f44456b8e16503b9dc31c2a4c31e3fe0))
+* add language cobol ([95d8ada](https://github.com/ElJijuna/code-languages/commit/95d8ada82321162bc4eee5567c99df18fbc82098))
+* add language dart ([053fc41](https://github.com/ElJijuna/code-languages/commit/053fc41d7076043c0ba398ca84708503b6679578))
+* add language graphql ([21bf602](https://github.com/ElJijuna/code-languages/commit/21bf602d579a99b5646011c58307ba830c81b332))
+* add language less ([ac03b2d](https://github.com/ElJijuna/code-languages/commit/ac03b2ddc276af18bbce5b4a8c0e427bd4213fc2))
+* add language makefile ([dc6b59f](https://github.com/ElJijuna/code-languages/commit/dc6b59fc8b08d63476a594d33cc7fb16578ff61d))
+* add language nginx ([2054733](https://github.com/ElJijuna/code-languages/commit/2054733457444fd92c6e26c61d4db8f62ff7890e))
+* add language objective-c ([1370792](https://github.com/ElJijuna/code-languages/commit/1370792ffb33dde3e14f87e9189ff767f9810413))
+* add language svg ([7573ff5](https://github.com/ElJijuna/code-languages/commit/7573ff5c73872ec657ef5bce2265218a23eb85fe))
+* add language visual-basic ([71e97a6](https://github.com/ElJijuna/code-languages/commit/71e97a66f281982f55b04bd4dbc5d34f554cedf7))
+* add language zsh ([6bb3e28](https://github.com/ElJijuna/code-languages/commit/6bb3e282de9753e1f8e02655ad5a5f8321c5abe1))
+
 # [1.3.0](https://github.com/ElJijuna/code-languages/compare/v1.2.0...v1.3.0) (2026-05-11)
 
 
