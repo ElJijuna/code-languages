@@ -15,6 +15,7 @@ export const expectValidLanguage = (language: Language, expectedSlug: string) =>
   expect(language.website).toMatch(/^https:\/\//);
   expect(language.paradigms.length).toBeGreaterThan(0);
   expect(language.paradigms.every((paradigm) => paradigm.trim().length > 0)).toBe(true);
+  expectLanguageTooling(language);
   expectNonEmptyString(language.version);
   expect(language.logo).toMatch(/^https:\/\//);
   expectLanguageContent(language.i18n.en);
@@ -56,6 +57,17 @@ export const expectValidLanguage = (language: Language, expectedSlug: string) =>
   expect(unsupportedLocale.locale).toBe("fr-FR");
   expect(unsupportedLocale.resolvedLocale).toBe("en");
   expect(unsupportedLocale.name).toBe(language.i18n.en.name);
+};
+
+const expectLanguageTooling = (language: Language) => {
+  if (!language.tooling) {
+    return;
+  }
+
+  for (const values of Object.values(language.tooling)) {
+    expect(values.length).toBeGreaterThan(0);
+    expect(values.every((value: string) => value.trim().length > 0)).toBe(true);
+  }
 };
 
 const expectLanguageContent = (content: LanguageContent) => {

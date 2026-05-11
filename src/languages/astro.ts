@@ -7,6 +7,11 @@ export const astro = {
   author: "Fred K. Schott / The Astro Technology Company",
   website: "https://astro.build",
   paradigms: ["component-based", "declarative", "static-site-generation", "server-side-rendering"],
+  tooling: {
+    runtimes: ["Node.js", "Deno"],
+    packageManagers: ["npm", "pnpm", "Yarn", "Bun"],
+    ecosystems: ["Web", "Static Sites", "Content"],
+  },
   version: "6.3.1",
   logo: "https://astro.build/assets/press/astro-icon-light.svg",
   i18n: {

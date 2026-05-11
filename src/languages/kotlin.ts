@@ -7,6 +7,11 @@ export const kotlin = {
   author: "JetBrains",
   website: "https://kotlinlang.org",
   paradigms: ["object-oriented", "functional", "imperative", "generic"],
+  tooling: {
+    runtimes: ["JVM", "Android", "JavaScript", "Native", "Wasm"],
+    packageManagers: ["Gradle", "Maven"],
+    ecosystems: ["JVM", "Android", "Kotlin Multiplatform"],
+  },
   version: "2.3.20",
   logo: "https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png",
   i18n: {

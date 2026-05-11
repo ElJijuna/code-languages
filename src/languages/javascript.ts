@@ -7,6 +7,11 @@ export const javascript = {
   author: "Brendan Eich / Netscape",
   website: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
   paradigms: ["event-driven", "functional", "imperative", "object-oriented", "prototype-based"],
+  tooling: {
+    runtimes: ["Browser", "Node.js", "Deno", "Bun"],
+    packageManagers: ["npm", "pnpm", "Yarn", "Bun"],
+    ecosystems: ["Web", "Node.js"],
+  },
   version: "ECMAScript 2025",
   logo: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
   i18n: {

@@ -7,6 +7,11 @@ export const scss = {
   author: "Hampton Catlin / Natalie Weizenbaum / Chris Eppstein",
   website: "https://sass-lang.com",
   paradigms: ["declarative", "stylesheet", "preprocessor"],
+  tooling: {
+    runtimes: ["Dart Sass"],
+    packageManagers: ["npm", "pnpm", "Yarn", "Bun"],
+    ecosystems: ["Web", "Design Systems"],
+  },
   version: "1.99.0",
   logo: "https://sass-lang.com/assets/img/logos/logo.svg",
   i18n: {

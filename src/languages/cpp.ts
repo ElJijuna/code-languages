@@ -7,6 +7,11 @@ export const cpp = {
   author: "Bjarne Stroustrup",
   website: "https://isocpp.org",
   paradigms: ["procedural", "object-oriented", "generic", "functional"],
+  tooling: {
+    runtimes: ["Native"],
+    packageManagers: ["Conan", "vcpkg"],
+    ecosystems: ["Systems", "Game Development", "Embedded"],
+  },
   version: "C++23",
   logo: "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
   i18n: {

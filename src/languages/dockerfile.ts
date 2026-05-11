@@ -7,6 +7,10 @@ export const dockerfile = {
   author: "Docker, Inc.",
   website: "https://docs.docker.com/reference/dockerfile/",
   paradigms: ["declarative", "configuration", "containerization"],
+  tooling: {
+    runtimes: ["Docker", "BuildKit", "Podman"],
+    ecosystems: ["Containers", "DevOps", "Cloud"],
+  },
   version: "1.10",
   logo: "https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png",
   i18n: {

@@ -7,6 +7,11 @@ export const bash = {
   author: "Brian Fox / GNU Project",
   website: "https://www.gnu.org/software/bash/",
   paradigms: ["command", "imperative", "scripting", "shell"],
+  tooling: {
+    runtimes: ["Bash shell", "POSIX-like shells"],
+    packageManagers: ["Homebrew", "APT", "DNF", "Pacman"],
+    ecosystems: ["Unix", "Linux", "macOS", "DevOps"],
+  },
   version: "5.3",
   logo: "https://bashlogo.com/img/symbol/svg/full_colored_dark.svg",
   i18n: {

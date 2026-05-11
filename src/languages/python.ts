@@ -7,6 +7,11 @@ export const python = {
   author: "Guido van Rossum",
   website: "https://www.python.org",
   paradigms: ["object-oriented", "functional", "imperative", "procedural"],
+  tooling: {
+    runtimes: ["CPython", "PyPy"],
+    packageManagers: ["pip", "Poetry", "uv", "conda"],
+    ecosystems: ["Web", "Data Science", "Machine Learning", "Automation"],
+  },
   version: "3.14.4",
   logo: "https://www.python.org/static/community_logos/python-logo-only.svg",
   i18n: {

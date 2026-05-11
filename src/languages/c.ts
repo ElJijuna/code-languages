@@ -7,6 +7,11 @@ export const c = {
   author: "Dennis Ritchie / Bell Labs",
   website: "https://www.open-std.org/jtc1/sc22/wg14/",
   paradigms: ["imperative", "procedural", "structured"],
+  tooling: {
+    runtimes: ["Native"],
+    packageManagers: ["Conan", "vcpkg"],
+    ecosystems: ["Systems", "Embedded"],
+  },
   version: "C23",
   logo: "https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg",
   i18n: {

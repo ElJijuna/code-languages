@@ -7,6 +7,11 @@ export const swift = {
   author: "Chris Lattner / Apple",
   website: "https://www.swift.org",
   paradigms: ["object-oriented", "functional", "imperative", "protocol-oriented"],
+  tooling: {
+    runtimes: ["Apple platforms", "Linux", "Windows"],
+    packageManagers: ["Swift Package Manager"],
+    ecosystems: ["Apple", "Server-side Swift"],
+  },
   version: "6.2.2",
   logo: "https://www.swift.org/assets/images/swift.svg",
   i18n: {

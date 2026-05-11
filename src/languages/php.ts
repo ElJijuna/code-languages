@@ -7,6 +7,11 @@ export const php = {
   author: "Rasmus Lerdorf / The PHP Group",
   website: "https://www.php.net",
   paradigms: ["imperative", "object-oriented", "functional", "scripting"],
+  tooling: {
+    runtimes: ["PHP CLI", "PHP-FPM", "Apache mod_php"],
+    packageManagers: ["Composer"],
+    ecosystems: ["Web", "WordPress", "Laravel", "Symfony"],
+  },
   version: "8.5.6",
   logo: "https://www.php.net/images/logos/new-php-logo.svg",
   i18n: {

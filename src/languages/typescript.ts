@@ -7,6 +7,11 @@ export const typescript = {
   author: "Anders Hejlsberg / Microsoft",
   website: "https://www.typescriptlang.org",
   paradigms: ["object-oriented", "functional", "imperative", "generic"],
+  tooling: {
+    runtimes: ["Browser", "Node.js", "Deno", "Bun"],
+    packageManagers: ["npm", "pnpm", "Yarn", "Bun"],
+    ecosystems: ["Web", "Node.js"],
+  },
   version: "6.0",
   logo: "https://www.typescriptlang.org/icons/icon-512x512.png",
   i18n: {

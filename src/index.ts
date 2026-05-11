@@ -3,6 +3,7 @@ export type {
   Language,
   LanguageContent,
   LanguageTranslations,
+  LanguageTooling,
   Locale,
   LocalizedLanguage,
 } from "./types";

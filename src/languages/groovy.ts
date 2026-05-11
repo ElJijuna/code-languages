@@ -7,6 +7,11 @@ export const groovy = {
   author: "James Strachan / Apache Software Foundation",
   website: "https://groovy.apache.org",
   paradigms: ["object-oriented", "functional", "dynamic", "scripting"],
+  tooling: {
+    runtimes: ["JVM"],
+    packageManagers: ["Gradle", "Maven"],
+    ecosystems: ["JVM", "Gradle"],
+  },
   version: "5.0.5",
   logo: "https://groovy-lang.org/img/groovy-logo.svg",
   i18n: {

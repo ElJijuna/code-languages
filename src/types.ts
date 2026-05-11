@@ -16,6 +16,17 @@ export type LanguageTranslations = { en: LanguageContent } & Partial<
   Record<BaseLocale, LanguageContent>
 >;
 
+export interface LanguageTooling {
+  /** Execution environments, virtual machines, shells, or platforms. e.g. ["Node.js", "Browser"] */
+  runtimes?: string[];
+
+  /** Dependency and package management tools. e.g. ["npm", "pnpm", "Yarn"] */
+  packageManagers?: string[];
+
+  /** Broader ecosystems where the language is commonly used. e.g. ["Web", "JVM"] */
+  ecosystems?: string[];
+}
+
 export interface Language {
   /** URL-safe identifier. e.g. "typescript" */
   slug: string;
@@ -34,6 +45,9 @@ export interface Language {
 
   /** Programming paradigms. e.g. ["object-oriented", "functional", "imperative"] */
   paradigms: string[];
+
+  /** Common runtimes, package managers, and ecosystems related to this language. */
+  tooling?: LanguageTooling;
 
   /** Latest stable version at time of last data update. e.g. "5.4.5" */
   version: string;

@@ -7,6 +7,11 @@ export const java = {
   author: "James Gosling / Sun Microsystems",
   website: "https://www.java.com",
   paradigms: ["class-based", "concurrent", "generic", "imperative", "object-oriented"],
+  tooling: {
+    runtimes: ["JVM"],
+    packageManagers: ["Maven", "Gradle"],
+    ecosystems: ["JVM", "Android", "Enterprise"],
+  },
   version: "26",
   logo: "https://www.vectorlogo.zone/logos/java/java-icon.svg",
   i18n: {

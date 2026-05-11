@@ -7,6 +7,11 @@ export const go = {
   author: "Robert Griesemer, Rob Pike, Ken Thompson / Google",
   website: "https://go.dev",
   paradigms: ["concurrent", "imperative", "procedural"],
+  tooling: {
+    runtimes: ["Go runtime"],
+    packageManagers: ["Go modules"],
+    ecosystems: ["Cloud", "DevOps", "Networking"],
+  },
   version: "1.26.3",
   logo: "https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg",
   i18n: {

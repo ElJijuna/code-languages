@@ -7,6 +7,11 @@ export const rust = {
   author: "Graydon Hoare / Mozilla Research",
   website: "https://www.rust-lang.org",
   paradigms: ["concurrent", "functional", "imperative", "procedural"],
+  tooling: {
+    runtimes: ["Native", "WebAssembly"],
+    packageManagers: ["Cargo"],
+    ecosystems: ["Systems", "WebAssembly", "Embedded"],
+  },
   version: "1.95.0",
   logo: "https://www.rust-lang.org/logos/rust-logo-512x512.png",
   i18n: {

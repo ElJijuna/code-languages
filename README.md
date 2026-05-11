@@ -156,6 +156,11 @@ export interface Language {
   author: string;
   website: string;
   paradigms: string[];
+  tooling?: {
+    runtimes?: string[];
+    packageManagers?: string[];
+    ecosystems?: string[];
+  };
   version: string;
   logo: string;
   i18n: {
