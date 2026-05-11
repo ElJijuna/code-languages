@@ -165,6 +165,10 @@ async function main() {
     await createIssues(report.updates);
   }
 
+  if (options.createPullRequests) {
+    await createPullRequests(report.updates);
+  }
+
   if (report.errors.length > 0 && options.failOnError) {
     process.exitCode = 1;
   }
@@ -173,6 +177,7 @@ async function main() {
 function parseOptions(args) {
   return {
     createIssues: args.includes("--create-issues"),
+    createPullRequests: args.includes("--create-pull-requests"),
     failOnError: args.includes("--fail-on-error"),
   };
 }
@@ -260,6 +265,22 @@ async function createIssues(updates) {
   }
 }
 
+async function createPullRequests(updates) {
+  const token = process.env.GITHUB_TOKEN;
+  const repository = process.env.GITHUB_REPOSITORY;
+  const baseBranch = process.env.GITHUB_REF_NAME ?? "main";
+
+  if (!token || !repository) {
+    throw new Error("GITHUB_TOKEN and GITHUB_REPOSITORY are required to create pull requests");
+  }
+
+  const [owner, repo] = repository.split("/");
+
+  for (const update of updates) {
+    await syncVersionUpdatePullRequest({ baseBranch, owner, repo, token, update });
+  }
+}
+
 async function syncVersionUpdateIssue({ owner, repo, token, update }) {
   const title = issueTitle(update);
   const body = issueBody(update);
@@ -312,6 +333,76 @@ async function syncVersionUpdateIssue({ owner, repo, token, update }) {
   console.log(`Updated issue for ${update.name}: ${existingIssue.html_url}`);
 }
 
+async function syncVersionUpdatePullRequest({ baseBranch, owner, repo, token, update }) {
+  const branch = `chore/update-${update.slug}-metadata`;
+  const title = issueTitle(update);
+  const existingPullRequest = await findOpenVersionUpdatePullRequest({
+    baseBranch,
+    branch,
+    owner,
+    repo,
+    token,
+  });
+  const issue = await findOpenVersionUpdateIssue({ owner, repo, token, update });
+  const body = pullRequestBody(update, issue);
+
+  await ensureBranch({ baseBranch, branch, owner, repo, token });
+
+  const file = await getRepositoryFile({
+    branch,
+    owner,
+    path: update.filePath,
+    repo,
+    token,
+  });
+  const updatedContent = updateLanguageVersion(file.content, update);
+
+  if (updatedContent === file.content) {
+    console.log(`Pull request branch already has ${update.name} ${update.latestVersion}`);
+  } else {
+    await updateRepositoryFile({
+      branch,
+      content: updatedContent,
+      message: issueTitle(update),
+      owner,
+      path: update.filePath,
+      repo,
+      sha: file.sha,
+      token,
+    });
+
+    console.log(`Updated ${update.filePath} on ${branch}`);
+  }
+
+  if (!existingPullRequest) {
+    await githubRequest(`/repos/${owner}/${repo}/pulls`, {
+      method: "POST",
+      token,
+      body: {
+        title,
+        head: branch,
+        base: baseBranch,
+        body,
+        maintainer_can_modify: true,
+      },
+    });
+
+    console.log(`Created pull request: ${title}`);
+    return;
+  }
+
+  await githubRequest(`/repos/${owner}/${repo}/pulls/${existingPullRequest.number}`, {
+    method: "PATCH",
+    token,
+    body: {
+      title,
+      body,
+    },
+  });
+
+  console.log(`Updated pull request for ${update.name}: ${existingPullRequest.html_url}`);
+}
+
 async function findOpenVersionUpdateIssue({ owner, repo, token, update }) {
   const titlePrefix = `chore: update ${update.name} metadata`;
   const marker = issueMarker(update.slug);
@@ -338,6 +429,72 @@ async function findOpenVersionUpdateIssueByTitle({ owner, repo, titlePrefix, tok
   return result.items?.find((issue) => issue.title?.startsWith(titlePrefix));
 }
 
+async function findOpenVersionUpdatePullRequest({ baseBranch, branch, owner, repo, token }) {
+  const head = encodeURIComponent(`${owner}:${branch}`);
+  const base = encodeURIComponent(baseBranch);
+  const pullRequests = await githubRequest(
+    `/repos/${owner}/${repo}/pulls?state=open&head=${head}&base=${base}`,
+    { token },
+  );
+
+  return pullRequests.at(0);
+}
+
+async function ensureBranch({ baseBranch, branch, owner, repo, token }) {
+  const existingBranch = await githubRequest(`/repos/${owner}/${repo}/git/ref/heads/${branch}`, {
+    allowNotFound: true,
+    token,
+  });
+
+  if (existingBranch) {
+    return;
+  }
+
+  const baseRef = await githubRequest(`/repos/${owner}/${repo}/git/ref/heads/${baseBranch}`, {
+    token,
+  });
+
+  await githubRequest(`/repos/${owner}/${repo}/git/refs`, {
+    method: "POST",
+    token,
+    body: {
+      ref: `refs/heads/${branch}`,
+      sha: baseRef.object.sha,
+    },
+  });
+
+  console.log(`Created branch: ${branch}`);
+}
+
+async function getRepositoryFile({ branch, owner, path, repo, token }) {
+  const file = await githubRequest(
+    `/repos/${owner}/${repo}/contents/${path}?ref=${encodeURIComponent(branch)}`,
+    { token },
+  );
+
+  return {
+    content: Buffer.from(file.content, "base64").toString("utf8"),
+    sha: file.sha,
+  };
+}
+
+async function updateRepositoryFile({ branch, content, message, owner, path, repo, sha, token }) {
+  await githubRequest(`/repos/${owner}/${repo}/contents/${path}`, {
+    method: "PUT",
+    token,
+    body: {
+      branch,
+      message,
+      content: Buffer.from(content).toString("base64"),
+      sha,
+    },
+  });
+}
+
+function updateLanguageVersion(content, update) {
+  return content.replace(/version:\s*"[^"]+"/, `version: "${update.latestVersion}"`);
+}
+
 function issueMarker(slug) {
   return `<!-- language-version-update:${slug} -->`;
 }
@@ -357,6 +514,27 @@ function issueBody(update) {
     `- File: \`${update.filePath}\``,
     "",
     "Please verify the upstream source before updating the metadata.",
+    "",
+    issueMarker(update.slug),
+    issueVersionMarker(update.latestVersion),
+  ].join("\n");
+}
+
+function pullRequestBody(update, issue) {
+  const issueLine = issue ? `Related issue: #${issue.number}` : "Related issue: not found";
+
+  return [
+    `Updates ${update.name} metadata to ${update.latestVersion}.`,
+    "",
+    `- Language: ${update.name} (${update.slug})`,
+    `- Previous version: ${update.version}`,
+    `- New version: ${update.latestVersion}`,
+    `- Source: ${update.sourceUrl}`,
+    `- File: \`${update.filePath}\``,
+    "",
+    issueLine,
+    "",
+    "This pull request was created by the manual language version check workflow.",
     "",
     issueMarker(update.slug),
     issueVersionMarker(update.latestVersion),
@@ -401,7 +579,7 @@ async function fetchWithHeaders(url) {
   return response;
 }
 
-async function githubRequest(path, { body, method = "GET", token }) {
+async function githubRequest(path, { allowNotFound = false, body, method = "GET", token }) {
   const response = await fetch(`https://api.github.com${path}`, {
     method,
     headers: {
@@ -413,6 +591,10 @@ async function githubRequest(path, { body, method = "GET", token }) {
     },
     body: body ? JSON.stringify(body) : undefined,
   });
+
+  if (response.status === 404 && allowNotFound) {
+    return undefined;
+  }
 
   if (!response.ok) {
     const text = await response.text();
