@@ -19,6 +19,7 @@
 - [x] Swift (`swift`)
 - [x] Groovy (`groovy`)
 - [x] Kotlin (`kotlin`)
+- [x] Bash (`bash`)
 
 ## Pending
 
@@ -34,7 +35,6 @@
 - [ ] R (`r`)
 - [ ] Julia (`julia`)
 - [ ] Zig (`zig`)
-- [ ] Bash (`bash`)
 - [ ] PowerShell (`powershell`)
 - [ ] XML (`xml`)
 - [ ] TOML (`toml`)

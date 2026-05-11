@@ -8,7 +8,7 @@
 
 Structured metadata for programming languages, packaged as a typed, tree-shakeable TypeScript library.
 
-`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 17 languages.
+`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 18 languages.
 
 ## Features
 
@@ -44,6 +44,7 @@ console.log(typescript.paradigms);
 Import multiple languages:
 
 ```ts
+import { bash } from "code-languages/bash";
 import { c } from "code-languages/c";
 import { css } from "code-languages/css";
 import { dockerfile } from "code-languages/dockerfile";
@@ -59,6 +60,7 @@ import { sql } from "code-languages/sql";
 import { swift } from "code-languages/swift";
 import { yaml } from "code-languages/yaml";
 
+console.log(bash.version);
 console.log(c.extensions);
 console.log(css.paradigms);
 console.log(dockerfile.i18n.en.name);
@@ -79,6 +81,7 @@ Import from the package root when bundle size is not a concern:
 
 ```ts
 import {
+  bash,
   c,
   css,
   dockerfile,
@@ -97,6 +100,7 @@ import {
   yaml,
 } from "code-languages";
 
+console.log(localizeLanguage(bash, "es").description);
 console.log(c.version);
 console.log(localizeLanguage(css).name);
 console.log(dockerfile.website);
@@ -164,6 +168,7 @@ console.log(language.resolvedLocale); // "es"
 
 | Language | Slug | Extensions | Version | Import |
 |---|---|---|---|---|
+| Bash | `bash` | `.sh`, `.bash`, `.bashrc`, `.bash_profile`, `.bash_login`, `.profile` | `5.3` | `code-languages/bash` |
 | C | `c` | `.c`, `.h` | `C23` | `code-languages/c` |
 | Dockerfile | `dockerfile` | `Dockerfile`, `.dockerfile` | `1.10` | `code-languages/dockerfile` |
 | Groovy | `groovy` | `.groovy`, `.gvy`, `.gy`, `.gsh` | `5.0.5` | `code-languages/groovy` |

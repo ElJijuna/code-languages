@@ -6,6 +6,7 @@ export type {
   Locale,
   LocalizedLanguage,
 } from "./types";
+export { bash } from "./languages/bash";
 export { c } from "./languages/c";
 export { css } from "./languages/css";
 export { dockerfile } from "./languages/dockerfile";

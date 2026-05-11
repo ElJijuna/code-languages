@@ -31,6 +31,11 @@
       "import": "./dist/i18n.js",
       "require": "./dist/i18n.cjs"
     },
+    "./bash": {
+      "types": "./dist/languages/bash.d.ts",
+      "import": "./dist/languages/bash.js",
+      "require": "./dist/languages/bash.cjs"
+    },
     "./c": {
       "types": "./dist/languages/c.d.ts",
       "import": "./dist/languages/c.js",
