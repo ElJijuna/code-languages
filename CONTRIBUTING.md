@@ -25,10 +25,7 @@ The slug must be lowercase, URL-safe, and match the filename.
 
 ## Field Rules
 
-- `name`: display name, for example `TypeScript`.
 - `slug`: lowercase identifier, for example `typescript`.
-- `description`: factual one-line summary, 160 characters or fewer.
-- `longDescription`: plain text with at least two paragraphs.
 - `publishedDate`: ISO date in `YYYY-MM-DD` format.
 - `extensions`: array of extensions; each item starts with `.`.
 - `author`: original author or organization.
@@ -36,6 +33,10 @@ The slug must be lowercase, URL-safe, and match the filename.
 - `paradigms`: at least one paradigm.
 - `version`: latest stable version at the time of the data update.
 - `logo`: stable HTTPS URL, SVG preferred.
+- `i18n.en.name`: display name, for example `TypeScript`.
+- `i18n.en.description`: factual one-line summary, 160 characters or fewer.
+- `i18n.en.longDescription`: plain text with at least two paragraphs.
+- `i18n.<locale>`: optional localized content for supported locales.
 
 ## Sources
 

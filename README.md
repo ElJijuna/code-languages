@@ -31,8 +31,12 @@ Import only the language metadata you need:
 
 ```ts
 import { typescript } from "code-languages/typescript";
+import { localizeLanguage } from "code-languages/i18n";
 
-console.log(typescript.name);
+const localized = localizeLanguage(typescript, "en");
+
+console.log(localized.name);
+console.log(localized.description);
 console.log(typescript.extensions);
 console.log(typescript.paradigms);
 ```
@@ -57,18 +61,30 @@ console.log(java.version);
 console.log(html.extensions);
 console.log(markdown.website);
 console.log(python.publishedDate);
-console.log(json.description);
+console.log(json.i18n.en.description);
 console.log(yaml.version);
 ```
 
 Import from the package root when bundle size is not a concern:
 
 ```ts
-import { c, css, go, html, java, json, markdown, rust, typescript, yaml } from "code-languages";
+import {
+  c,
+  css,
+  go,
+  html,
+  java,
+  json,
+  localizeLanguage,
+  markdown,
+  rust,
+  typescript,
+  yaml,
+} from "code-languages";
 
 console.log(c.version);
-console.log(css.name);
-console.log(java.name);
+console.log(localizeLanguage(css).name);
+console.log(localizeLanguage(java).name);
 console.log(html.website);
 console.log(markdown.extensions);
 console.log(go.logo);
@@ -81,11 +97,16 @@ console.log(yaml.paradigms);
 Every language object satisfies the `Language` interface:
 
 ```ts
-export interface Language {
+export type Locale = "en" | "es";
+
+export interface LanguageContent {
   name: string;
-  slug: string;
   description: string;
   longDescription: string;
+}
+
+export interface Language {
+  slug: string;
   publishedDate: string;
   extensions: string[];
   author: string;
@@ -93,7 +114,23 @@ export interface Language {
   paradigms: string[];
   version: string;
   logo: string;
+  i18n: {
+    en: LanguageContent;
+    es?: LanguageContent;
+  };
 }
+```
+
+Use `localizeLanguage` to read localized display content with English fallback:
+
+```ts
+import { json } from "code-languages/json";
+import { localizeLanguage } from "code-languages/i18n";
+
+const language = localizeLanguage(json, "en");
+
+console.log(language.name);
+console.log(language.longDescription);
 ```
 
 ## Supported Languages

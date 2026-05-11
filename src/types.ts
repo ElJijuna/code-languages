@@ -1,15 +1,23 @@
-export interface Language {
+export type Locale = "en" | "es";
+
+export interface LanguageContent {
   /** Display name. e.g. "TypeScript" */
   name: string;
-
-  /** URL-safe identifier. e.g. "typescript" */
-  slug: string;
 
   /** One-line summary, max 160 characters. */
   description: string;
 
   /** Rich multi-paragraph description in plain text. */
   longDescription: string;
+}
+
+export type LanguageTranslations = { en: LanguageContent } & Partial<
+  Record<Exclude<Locale, "en">, LanguageContent>
+>;
+
+export interface Language {
+  /** URL-safe identifier. e.g. "typescript" */
+  slug: string;
 
   /** ISO 8601 date of first public release. e.g. "2012-10-01" */
   publishedDate: string;
@@ -31,4 +39,16 @@ export interface Language {
 
   /** URL to the official language logo or icon. */
   logo: string;
+
+  /** Localized display content. English is required as the fallback locale. */
+  i18n: LanguageTranslations;
 }
+
+export type LocalizedLanguage = Omit<Language, "i18n"> &
+  LanguageContent & {
+    /** Locale requested, or fallback locale when the requested locale is unavailable. */
+    locale: Locale;
+
+    /** Locales available for this language. */
+    availableLocales: Locale[];
+  };

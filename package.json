@@ -26,6 +26,11 @@
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     },
+    "./i18n": {
+      "types": "./dist/i18n.d.ts",
+      "import": "./dist/i18n.js",
+      "require": "./dist/i18n.cjs"
+    },
     "./c": {
       "types": "./dist/languages/c.d.ts",
       "import": "./dist/languages/c.js",

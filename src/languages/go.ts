@@ -1,11 +1,7 @@
 import type { Language } from "../types";
 
 export const go = {
-  name: "Go",
   slug: "go",
-  description: "A compiled language designed for simplicity, fast builds, and concurrency.",
-  longDescription:
-    "Go combines a small language specification, garbage collection, static typing, and built-in concurrency primitives through goroutines and channels.\n\nIt is commonly used for cloud services, networking tools, distributed systems, command-line applications, and infrastructure software.",
   publishedDate: "2012-03-28",
   extensions: [".go"],
   author: "Robert Griesemer, Rob Pike, Ken Thompson / Google",
@@ -13,4 +9,12 @@ export const go = {
   paradigms: ["concurrent", "imperative", "procedural"],
   version: "1.26.3",
   logo: "https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg",
+  i18n: {
+    en: {
+      name: "Go",
+      description: "A compiled language designed for simplicity, fast builds, and concurrency.",
+      longDescription:
+        "Go combines a small language specification, garbage collection, static typing, and built-in concurrency primitives through goroutines and channels.\n\nIt is commonly used for cloud services, networking tools, distributed systems, command-line applications, and infrastructure software.",
+    },
+  },
 } satisfies Language;

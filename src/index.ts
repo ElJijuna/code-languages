@@ -1,4 +1,11 @@
-export type { Language } from "./types";
+export { localizeLanguage } from "./i18n";
+export type {
+  Language,
+  LanguageContent,
+  LanguageTranslations,
+  Locale,
+  LocalizedLanguage,
+} from "./types";
 export { c } from "./languages/c";
 export { css } from "./languages/css";
 export { go } from "./languages/go";
