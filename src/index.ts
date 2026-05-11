@@ -6,6 +6,7 @@ export type {
   Locale,
   LocalizedLanguage,
 } from "./types";
+export { astro } from "./languages/astro";
 export { bash } from "./languages/bash";
 export { c } from "./languages/c";
 export { cpp } from "./languages/cpp";

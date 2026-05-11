@@ -8,7 +8,7 @@
 
 Structured metadata for programming languages, packaged as a typed, tree-shakeable TypeScript library.
 
-`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 20 languages.
+`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 21 languages.
 
 ## Features
 
@@ -44,6 +44,7 @@ console.log(typescript.paradigms);
 Import multiple languages:
 
 ```ts
+import { astro } from "code-languages/astro";
 import { bash } from "code-languages/bash";
 import { c } from "code-languages/c";
 import { cpp } from "code-languages/cpp";
@@ -62,6 +63,7 @@ import { swift } from "code-languages/swift";
 import { xml } from "code-languages/xml";
 import { yaml } from "code-languages/yaml";
 
+console.log(astro.version);
 console.log(bash.version);
 console.log(c.extensions);
 console.log(cpp.i18n.en.name);
@@ -85,6 +87,7 @@ Import from the package root when bundle size is not a concern:
 
 ```ts
 import {
+  astro,
   bash,
   c,
   cpp,
@@ -106,6 +109,7 @@ import {
   yaml,
 } from "code-languages";
 
+console.log(localizeLanguage(astro, "es").description);
 console.log(localizeLanguage(bash, "es").description);
 console.log(c.version);
 console.log(cpp.website);
@@ -176,6 +180,7 @@ console.log(language.resolvedLocale); // "es"
 
 | Language | Slug | Extensions | Version | Import |
 |---|---|---|---|---|
+| Astro | `astro` | `.astro` | `6.3.1` | `code-languages/astro` |
 | Bash | `bash` | `.sh`, `.bash`, `.bashrc`, `.bash_profile`, `.bash_login`, `.profile` | `5.3` | `code-languages/bash` |
 | C | `c` | `.c`, `.h` | `C23` | `code-languages/c` |
 | C++ | `cpp` | `.cpp`, `.cc`, `.cxx`, `.hpp`, `.hh`, `.hxx` | `C++23` | `code-languages/cpp` |

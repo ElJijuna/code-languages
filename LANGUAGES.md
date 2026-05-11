@@ -22,6 +22,7 @@
 - [x] Bash (`bash`)
 - [x] XML (`xml`)
 - [x] C++ (`cpp`)
+- [x] Astro (`astro`)
 
 ## Pending
 
@@ -40,7 +41,6 @@
 - [ ] TOML (`toml`)
 - [ ] Sass/SCSS (`scss`)
 - [ ] Vue (`vue`)
-- [ ] Astro (`astro`)
 - [ ] Less (`less`)
 - [ ] GraphQL (`graphql`)
 - [ ] Solidity (`solidity`)

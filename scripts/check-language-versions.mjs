@@ -20,6 +20,14 @@ const manualChecks = {
 };
 
 const checkers = {
+  async astro() {
+    const json = await fetchJson("https://registry.npmjs.org/astro/latest");
+
+    return {
+      latestVersion: json.version,
+      sourceUrl: "https://registry.npmjs.org/astro/latest",
+    };
+  },
   async bash() {
     const html = await fetchText("https://ftp.gnu.org/gnu/bash/");
     const versions = [...html.matchAll(/bash-(\d+\.\d+(?:\.\d+)?)\.tar\.gz/g)].map(
