@@ -8,7 +8,7 @@
 
 Structured metadata for programming languages, packaged as a typed, tree-shakeable TypeScript library.
 
-`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 29 languages.
+`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 30 languages.
 
 ## Features
 
@@ -64,6 +64,7 @@ import { python } from "code-languages/python";
 import { scss } from "code-languages/scss";
 import { json } from "code-languages/json";
 import { sql } from "code-languages/sql";
+import { svg } from "code-languages/svg";
 import { swift } from "code-languages/swift";
 import { vue } from "code-languages/vue";
 import { webassembly } from "code-languages/webassembly";
@@ -91,6 +92,7 @@ console.log(python.publishedDate);
 console.log(scss.extensions);
 console.log(json.i18n.en.description);
 console.log(sql.i18n.en.name);
+console.log(svg.extensions);
 console.log(swift.version);
 console.log(vue.website);
 console.log(webassembly.extensions);
@@ -126,6 +128,7 @@ import {
   rust,
   scss,
   sql,
+  svg,
   swift,
   typescript,
   vue,
@@ -156,6 +159,7 @@ console.log(go.logo);
 console.log(localizeLanguage(scss).name);
 console.log(json.website);
 console.log(sql.extensions);
+console.log(localizeLanguage(svg, "es").description);
 console.log(swift.i18n.en.description);
 console.log(localizeLanguage(vue, "es").description);
 console.log(localizeLanguage(webassembly).name);
@@ -253,6 +257,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | Rust | `rust` | `.rs` | `1.95.0` | `code-languages/rust` |
 | Sass | `scss` | `.scss`, `.sass` | `1.99.0` | `code-languages/scss` |
 | SQL | `sql` | `.sql` | `SQL:2023` | `code-languages/sql` |
+| SVG | `svg` | `.svg`, `.svgz` | `SVG 2` | `code-languages/svg` |
 | Swift | `swift` | `.swift` | `6.2.2` | `code-languages/swift` |
 | TypeScript | `typescript` | `.ts`, `.tsx`, `.mts`, `.cts` | `6.0` | `code-languages/typescript` |
 | Vue | `vue` | `.vue` | `3.5.34` | `code-languages/vue` |

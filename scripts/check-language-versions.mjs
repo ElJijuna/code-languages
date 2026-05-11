@@ -17,6 +17,7 @@ const manualChecks = {
   "objective-c":
     "Objective-C language versioning is effectively stable and should be reviewed manually against Apple documentation and runtime updates.",
   sql: "SQL standards should be reviewed manually against ISO/IEC 9075 publications.",
+  svg: "SVG specifications should be reviewed manually against w3.org/TR/SVG and W3C publication history.",
   webassembly: "WebAssembly standards should be reviewed manually against webassembly.org/specs.",
   xml: "XML 1.0 Fifth Edition is stable and should be reviewed manually if W3C publishes a new edition.",
   yaml: "YAML specification updates should be reviewed manually against yaml.org/spec.",

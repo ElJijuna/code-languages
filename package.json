@@ -101,6 +101,11 @@
       "import": "./dist/languages/sql.js",
       "require": "./dist/languages/sql.cjs"
     },
+    "./svg": {
+      "types": "./dist/languages/svg.d.ts",
+      "import": "./dist/languages/svg.js",
+      "require": "./dist/languages/svg.cjs"
+    },
     "./swift": {
       "types": "./dist/languages/swift.d.ts",
       "import": "./dist/languages/swift.js",

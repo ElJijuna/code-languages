@@ -31,6 +31,7 @@
 - [x] Vue (`vue`)
 - [x] WebAssembly (`webassembly`)
 - [x] Objective-C (`objective-c`)
+- [x] SVG (`svg`)
 
 ## Pending
 
@@ -70,7 +71,6 @@
 - [ ] GraphQL (`graphql`)
 - [ ] Solidity (`solidity`)
 - [ ] Svelte (`svelte`)
-- [ ] SVG (`svg`)
 - [ ] TeX (`tex`)
 - [ ] Twig (`twig`)
 - [ ] XAML (`xaml`)

@@ -31,6 +31,7 @@ export { python } from "./languages/python";
 export { rust } from "./languages/rust";
 export { scss } from "./languages/scss";
 export { sql } from "./languages/sql";
+export { svg } from "./languages/svg";
 export { swift } from "./languages/swift";
 export { typescript } from "./languages/typescript";
 export { vue } from "./languages/vue";
