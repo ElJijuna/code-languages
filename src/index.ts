@@ -18,5 +18,6 @@ export { markdown } from "./languages/markdown";
 export { python } from "./languages/python";
 export { rust } from "./languages/rust";
 export { sql } from "./languages/sql";
+export { swift } from "./languages/swift";
 export { typescript } from "./languages/typescript";
 export { yaml } from "./languages/yaml";

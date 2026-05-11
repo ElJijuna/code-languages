@@ -56,6 +56,11 @@
       "import": "./dist/languages/sql.js",
       "require": "./dist/languages/sql.cjs"
     },
+    "./swift": {
+      "types": "./dist/languages/swift.d.ts",
+      "import": "./dist/languages/swift.js",
+      "require": "./dist/languages/swift.cjs"
+    },
     "./java": {
       "types": "./dist/languages/java.d.ts",
       "import": "./dist/languages/java.js",

@@ -16,6 +16,7 @@
 - [x] JSON (`json`)
 - [x] SQL (`sql`)
 - [x] Dockerfile (`dockerfile`)
+- [x] Swift (`swift`)
 
 ## Pending
 
@@ -23,7 +24,6 @@
 - [ ] C# (`csharp`)
 - [ ] Ruby (`ruby`)
 - [ ] PHP (`php`)
-- [ ] Swift (`swift`)
 - [ ] Kotlin (`kotlin`)
 - [ ] Dart (`dart`)
 - [ ] Scala (`scala`)
