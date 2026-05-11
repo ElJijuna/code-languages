@@ -81,6 +81,11 @@
       "import": "./dist/languages/go.js",
       "require": "./dist/languages/go.cjs"
     },
+    "./groovy": {
+      "types": "./dist/languages/groovy.d.ts",
+      "import": "./dist/languages/groovy.js",
+      "require": "./dist/languages/groovy.cjs"
+    },
     "./css": {
       "types": "./dist/languages/css.d.ts",
       "import": "./dist/languages/css.js",
@@ -107,11 +112,7 @@
       "require": "./dist/languages/yaml.cjs"
     }
   },
-  "files": [
-    "dist",
-    "LICENSE",
-    "README.md"
-  ],
+  "files": ["dist", "LICENSE", "README.md"],
   "scripts": {
     "build": "tsup",
     "check": "biome check . && tsc --noEmit && vitest run",

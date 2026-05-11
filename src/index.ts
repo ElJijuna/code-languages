@@ -10,6 +10,7 @@ export { c } from "./languages/c";
 export { css } from "./languages/css";
 export { dockerfile } from "./languages/dockerfile";
 export { go } from "./languages/go";
+export { groovy } from "./languages/groovy";
 export { html } from "./languages/html";
 export { java } from "./languages/java";
 export { javascript } from "./languages/javascript";

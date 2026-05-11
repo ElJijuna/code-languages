@@ -8,7 +8,7 @@
 
 Structured metadata for programming languages, packaged as a typed, tree-shakeable TypeScript library.
 
-`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 15 languages.
+`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 16 languages.
 
 ## Features
 
@@ -47,6 +47,7 @@ Import multiple languages:
 import { c } from "code-languages/c";
 import { css } from "code-languages/css";
 import { dockerfile } from "code-languages/dockerfile";
+import { groovy } from "code-languages/groovy";
 import { javascript } from "code-languages/javascript";
 import { java } from "code-languages/java";
 import { html } from "code-languages/html";
@@ -60,6 +61,7 @@ import { yaml } from "code-languages/yaml";
 console.log(c.extensions);
 console.log(css.paradigms);
 console.log(dockerfile.i18n.en.name);
+console.log(groovy.version);
 console.log(javascript.website);
 console.log(java.version);
 console.log(html.extensions);
@@ -79,6 +81,7 @@ import {
   css,
   dockerfile,
   go,
+  groovy,
   html,
   java,
   json,
@@ -94,6 +97,7 @@ import {
 console.log(c.version);
 console.log(localizeLanguage(css).name);
 console.log(dockerfile.website);
+console.log(localizeLanguage(groovy).description);
 console.log(localizeLanguage(java).name);
 console.log(html.website);
 console.log(markdown.extensions);
@@ -151,6 +155,7 @@ console.log(language.longDescription);
 |---|---|---|---|---|
 | C | `c` | `.c`, `.h` | `C23` | `code-languages/c` |
 | Dockerfile | `dockerfile` | `Dockerfile`, `.dockerfile` | `1.10` | `code-languages/dockerfile` |
+| Groovy | `groovy` | `.groovy`, `.gvy`, `.gy`, `.gsh` | `5.0.5` | `code-languages/groovy` |
 | TypeScript | `typescript` | `.ts`, `.tsx`, `.mts`, `.cts` | `6.0` | `code-languages/typescript` |
 | JavaScript | `javascript` | `.js`, `.mjs`, `.cjs`, `.jsx` | `ECMAScript 2025` | `code-languages/javascript` |
 | JSON | `json` | `.json` | `RFC 8259` | `code-languages/json` |

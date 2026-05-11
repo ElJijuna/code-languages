@@ -17,6 +17,7 @@
 - [x] SQL (`sql`)
 - [x] Dockerfile (`dockerfile`)
 - [x] Swift (`swift`)
+- [x] Groovy (`groovy`)
 
 ## Pending
 
