@@ -12,6 +12,16 @@
   },
   "license": "MIT",
   "author": "pilmee <pilmee@gmail.com>",
+  "keywords": [
+    "programming-languages",
+    "language-metadata",
+    "code-languages",
+    "developer-tools",
+    "file-extensions",
+    "syntax",
+    "i18n",
+    "typescript"
+  ],
   "type": "module",
   "publishConfig": {
     "access": "public"
