@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/ElJijuna/code-languages/compare/v1.4.0...v1.4.1) (2026-05-11)
+
+
+### Bug Fixes
+
+* update icons ([8e705ed](https://github.com/ElJijuna/code-languages/commit/8e705ed10cf3ca2103da930b6f1764b9923a4e9e))
+
 # [1.4.0](https://github.com/ElJijuna/code-languages/compare/v1.3.0...v1.4.0) (2026-05-11)
 
 
