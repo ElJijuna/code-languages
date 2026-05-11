@@ -8,7 +8,7 @@
 
 Structured metadata for programming languages, packaged as a typed, tree-shakeable TypeScript library.
 
-`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 12 languages.
+`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 13 languages.
 
 ## Features
 
@@ -52,6 +52,7 @@ import { html } from "code-languages/html";
 import { markdown } from "code-languages/markdown";
 import { python } from "code-languages/python";
 import { json } from "code-languages/json";
+import { sql } from "code-languages/sql";
 import { yaml } from "code-languages/yaml";
 
 console.log(c.extensions);
@@ -62,6 +63,7 @@ console.log(html.extensions);
 console.log(markdown.website);
 console.log(python.publishedDate);
 console.log(json.i18n.en.description);
+console.log(sql.i18n.en.name);
 console.log(yaml.version);
 ```
 
@@ -78,6 +80,7 @@ import {
   localizeLanguage,
   markdown,
   rust,
+  sql,
   typescript,
   yaml,
 } from "code-languages";
@@ -89,6 +92,7 @@ console.log(html.website);
 console.log(markdown.extensions);
 console.log(go.logo);
 console.log(json.website);
+console.log(sql.extensions);
 console.log(yaml.paradigms);
 ```
 
@@ -141,6 +145,7 @@ console.log(language.longDescription);
 | TypeScript | `typescript` | `.ts`, `.tsx`, `.mts`, `.cts` | `6.0` | `code-languages/typescript` |
 | JavaScript | `javascript` | `.js`, `.mjs`, `.cjs`, `.jsx` | `ECMAScript 2025` | `code-languages/javascript` |
 | JSON | `json` | `.json` | `RFC 8259` | `code-languages/json` |
+| SQL | `sql` | `.sql` | `SQL:2023` | `code-languages/sql` |
 | Java | `java` | `.java` | `26` | `code-languages/java` |
 | HTML | `html` | `.html`, `.htm` | `Living Standard` | `code-languages/html` |
 | CSS | `css` | `.css` | `Living Standard` | `code-languages/css` |

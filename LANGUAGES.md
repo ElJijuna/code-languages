@@ -14,6 +14,7 @@
 - [x] YAML (`yaml`)
 - [x] C (`c`)
 - [x] JSON (`json`)
+- [x] SQL (`sql`)
 
 ## Pending
 
@@ -33,7 +34,6 @@
 - [ ] Zig (`zig`)
 - [ ] Bash (`bash`)
 - [ ] PowerShell (`powershell`)
-- [ ] SQL (`sql`)
 - [ ] XML (`xml`)
 - [ ] TOML (`toml`)
 - [ ] Dockerfile (`dockerfile`)

@@ -16,5 +16,6 @@ export { json } from "./languages/json";
 export { markdown } from "./languages/markdown";
 export { python } from "./languages/python";
 export { rust } from "./languages/rust";
+export { sql } from "./languages/sql";
 export { typescript } from "./languages/typescript";
 export { yaml } from "./languages/yaml";
