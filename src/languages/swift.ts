@@ -12,7 +12,7 @@ export const swift = {
     packageManagers: ["Swift Package Manager"],
     ecosystems: ["Apple", "Server-side Swift"],
   },
-  version: "6.2.2",
+  version: "6.3.1",
   logo: "https://www.swift.org/assets/images/swift.svg",
   i18n: {
     en: {
