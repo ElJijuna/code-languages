@@ -35,3 +35,4 @@ export { vue } from "./languages/vue";
 export { webassembly } from "./languages/webassembly";
 export { xml } from "./languages/xml";
 export { yaml } from "./languages/yaml";
+export { zsh } from "./languages/zsh";

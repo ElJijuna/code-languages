@@ -21,6 +21,7 @@
 - [x] Groovy (`groovy`)
 - [x] Kotlin (`kotlin`)
 - [x] Bash (`bash`)
+- [x] zsh (`zsh`)
 - [x] XML (`xml`)
 - [x] C++ (`cpp`)
 - [x] Astro (`astro`)
@@ -80,4 +81,3 @@
 - [ ] Objective-C (`objective-c`)
 - [ ] Perl (`perl`)
 - [ ] Visual Basic (`visual-basic`)
-- [ ] zsh (`zsh`)

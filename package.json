@@ -175,6 +175,11 @@
       "types": "./dist/languages/xml.d.ts",
       "import": "./dist/languages/xml.js",
       "require": "./dist/languages/xml.cjs"
+    },
+    "./zsh": {
+      "types": "./dist/languages/zsh.d.ts",
+      "import": "./dist/languages/zsh.js",
+      "require": "./dist/languages/zsh.cjs"
     }
   },
   "files": ["dist", "LICENSE", "README.md"],

@@ -24,6 +24,7 @@ import { vue } from "./languages/vue";
 import { webassembly } from "./languages/webassembly";
 import { xml } from "./languages/xml";
 import { yaml } from "./languages/yaml";
+import { zsh } from "./languages/zsh";
 
 /** Ordered catalog of every language included in the package. */
 export const languages = [
@@ -53,4 +54,5 @@ export const languages = [
   webassembly,
   xml,
   yaml,
+  zsh,
 ] as const;
