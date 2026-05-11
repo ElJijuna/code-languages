@@ -7,7 +7,7 @@ export const markdown = {
   author: "John Gruber / Aaron Swartz",
   website: "https://daringfireball.net/projects/markdown/",
   paradigms: ["declarative", "markup"],
-  version: "CommonMark 0.31.2",
+  version: "CommonMark 4.0",
   logo: "https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg",
   i18n: {
     en: {
