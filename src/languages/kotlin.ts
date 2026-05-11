@@ -12,7 +12,7 @@ export const kotlin = {
     packageManagers: ["Gradle", "Maven"],
     ecosystems: ["JVM", "Android", "Kotlin Multiplatform"],
   },
-  version: "2.3.20",
+  version: "2.3.21",
   logo: "https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png",
   i18n: {
     en: {
