@@ -1,3 +1,19 @@
+# [1.2.0](https://github.com/ElJijuna/code-languages/compare/v1.1.0...v1.2.0) (2026-05-11)
+
+
+### Features
+
+* add language bash ([52c0842](https://github.com/ElJijuna/code-languages/commit/52c08424efb5b85370a0468c1d7c41943172bb61))
+* add language c++ ([0eb4e88](https://github.com/ElJijuna/code-languages/commit/0eb4e88f80ca348aee4886adfff432a4ad889a9e))
+* add language for docker and dockerfile ([9226a4d](https://github.com/ElJijuna/code-languages/commit/9226a4d5a1830da79cd4eb53346a65b15a195f51))
+* add language groovy ([61f8139](https://github.com/ElJijuna/code-languages/commit/61f813931dd7b90842c304fef4a45f750cd51209))
+* add language kotlin ([8206225](https://github.com/ElJijuna/code-languages/commit/820622512486bc42e3b7e6984d6602d05bb12ede))
+* add language sql ([0f1e2a6](https://github.com/ElJijuna/code-languages/commit/0f1e2a605d5b5fa0f1fb0688dfc84d3b9bb7813c))
+* add language swift ([c6f0603](https://github.com/ElJijuna/code-languages/commit/c6f060377105fd1f62b66cc9797a5cda2c60b858))
+* add language xml ([1ba3692](https://github.com/ElJijuna/code-languages/commit/1ba369229c265f6bb6b81c3375319bff3414fcdb))
+* add support to "es-*", "en-*" ([8798f6c](https://github.com/ElJijuna/code-languages/commit/8798f6cc0b7b7565ed875894e32f1d3383389f77))
+* update with spanish language name, description and long description ([868c83a](https://github.com/ElJijuna/code-languages/commit/868c83a8c3ed9b132ca29e3f32945ea06085f08e))
+
 # [1.1.0](https://github.com/ElJijuna/code-languages/compare/v1.0.0...v1.1.0) (2026-05-10)
 
 
