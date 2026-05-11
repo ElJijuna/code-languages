@@ -19,6 +19,7 @@ import { scss } from "./languages/scss";
 import { sql } from "./languages/sql";
 import { swift } from "./languages/swift";
 import { typescript } from "./languages/typescript";
+import { vue } from "./languages/vue";
 import { xml } from "./languages/xml";
 import { yaml } from "./languages/yaml";
 
@@ -45,6 +46,7 @@ export const languages = [
   sql,
   swift,
   typescript,
+  vue,
   xml,
   yaml,
 ] as const;

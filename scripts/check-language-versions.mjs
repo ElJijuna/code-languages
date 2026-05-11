@@ -142,6 +142,14 @@ const checkers = {
       sourceUrl: "https://registry.npmjs.org/typescript/latest",
     };
   },
+  async vue() {
+    const json = await fetchJson("https://registry.npmjs.org/vue/latest");
+
+    return {
+      latestVersion: json.version,
+      sourceUrl: "https://registry.npmjs.org/vue/latest",
+    };
+  },
 };
 
 async function main() {
