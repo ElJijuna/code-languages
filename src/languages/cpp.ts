@@ -3,7 +3,7 @@ import type { Language } from "../types";
 export const cpp = {
   slug: "cpp",
   publishedDate: "1985-10-01",
-  extensions: [".cpp", ".cc", ".cxx", ".hpp", ".hh", ".hxx"],
+  extensions: [".cpp", ".cc", ".cxx", ".h", ".hpp", ".hh", ".hxx"],
   author: "Bjarne Stroustrup",
   website: "https://isocpp.org",
   paradigms: ["procedural", "object-oriented", "generic", "functional"],

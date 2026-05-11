@@ -41,6 +41,11 @@
       "import": "./dist/i18n.js",
       "require": "./dist/i18n.cjs"
     },
+    "./detect": {
+      "types": "./dist/detect.d.ts",
+      "import": "./dist/detect.js",
+      "require": "./dist/detect.cjs"
+    },
     "./astro": {
       "types": "./dist/languages/astro.d.ts",
       "import": "./dist/languages/astro.js",

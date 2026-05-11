@@ -96,6 +96,8 @@ import {
   c,
   cpp,
   css,
+  detectLanguage,
+  detectLanguages,
   dockerfile,
   go,
   groovy,
@@ -116,6 +118,8 @@ import {
 } from "code-languages";
 
 console.log(localizeLanguage(astro, "es").description);
+console.log(detectLanguage("src/index.ts")?.slug);
+console.log(detectLanguages("include/config.h").map((language) => language.slug));
 console.log(localizeLanguage(bash, "es").description);
 console.log(c.version);
 console.log(cpp.website);
@@ -189,6 +193,16 @@ console.log(language.resolvedLocale); // "es"
 2. Base language from a regional locale, for example `es-PE` -> `es`.
 3. English fallback, for example `fr-FR` -> `en`.
 
+Use `detectLanguage` or `detectLanguages` to infer languages from filenames:
+
+```ts
+import { detectLanguage, detectLanguages } from "code-languages/detect";
+
+console.log(detectLanguage("src/index.ts")?.slug); // "typescript"
+console.log(detectLanguage("Dockerfile")?.slug); // "dockerfile"
+console.log(detectLanguages("include/config.h").map((language) => language.slug)); // ["c", "cpp"]
+```
+
 ## Supported Languages
 
 | Language | Slug | Extensions | Version | Import |
@@ -196,7 +210,7 @@ console.log(language.resolvedLocale); // "es"
 | Astro | `astro` | `.astro` | `6.3.1` | `code-languages/astro` |
 | Bash | `bash` | `.sh`, `.bash`, `.bashrc`, `.bash_profile`, `.bash_login`, `.profile` | `5.3` | `code-languages/bash` |
 | C | `c` | `.c`, `.h` | `C23` | `code-languages/c` |
-| C++ | `cpp` | `.cpp`, `.cc`, `.cxx`, `.hpp`, `.hh`, `.hxx` | `C++23` | `code-languages/cpp` |
+| C++ | `cpp` | `.cpp`, `.cc`, `.cxx`, `.h`, `.hpp`, `.hh`, `.hxx` | `C++23` | `code-languages/cpp` |
 | Dockerfile | `dockerfile` | `Dockerfile`, `.dockerfile` | `1.10` | `code-languages/dockerfile` |
 | Groovy | `groovy` | `.groovy`, `.gvy`, `.gy`, `.gsh` | `5.0.5` | `code-languages/groovy` |
 | TypeScript | `typescript` | `.ts`, `.tsx`, `.mts`, `.cts` | `6.0` | `code-languages/typescript` |

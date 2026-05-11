@@ -1,3 +1,5 @@
+export { languages } from "./catalog";
+export { detectLanguage, detectLanguages } from "./detect";
 export { localizeLanguage } from "./i18n";
 export type {
   Language,
