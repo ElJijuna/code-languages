@@ -23,12 +23,12 @@
 - [x] XML (`xml`)
 - [x] C++ (`cpp`)
 - [x] Astro (`astro`)
+- [x] PHP (`php`)
 
 ## Pending
 
 - [ ] C# (`csharp`)
 - [ ] Ruby (`ruby`)
-- [ ] PHP (`php`)
 - [ ] Dart (`dart`)
 - [ ] Scala (`scala`)
 - [ ] Elixir (`elixir`)

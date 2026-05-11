@@ -96,6 +96,11 @@
       "import": "./dist/languages/java.js",
       "require": "./dist/languages/java.cjs"
     },
+    "./php": {
+      "types": "./dist/languages/php.d.ts",
+      "import": "./dist/languages/php.js",
+      "require": "./dist/languages/php.cjs"
+    },
     "./python": {
       "types": "./dist/languages/python.d.ts",
       "import": "./dist/languages/python.js",

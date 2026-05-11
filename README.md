@@ -8,7 +8,7 @@
 
 Structured metadata for programming languages, packaged as a typed, tree-shakeable TypeScript library.
 
-`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 21 languages.
+`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 22 languages.
 
 ## Features
 
@@ -56,6 +56,7 @@ import { java } from "code-languages/java";
 import { html } from "code-languages/html";
 import { kotlin } from "code-languages/kotlin";
 import { markdown } from "code-languages/markdown";
+import { php } from "code-languages/php";
 import { python } from "code-languages/python";
 import { json } from "code-languages/json";
 import { sql } from "code-languages/sql";
@@ -75,6 +76,7 @@ console.log(java.version);
 console.log(html.extensions);
 console.log(kotlin.version);
 console.log(markdown.website);
+console.log(php.version);
 console.log(python.publishedDate);
 console.log(json.i18n.en.description);
 console.log(sql.i18n.en.name);
@@ -101,6 +103,7 @@ import {
   kotlin,
   localizeLanguage,
   markdown,
+  php,
   rust,
   sql,
   swift,
@@ -120,6 +123,7 @@ console.log(localizeLanguage(java).name);
 console.log(html.website);
 console.log(localizeLanguage(kotlin, "es-PE").description);
 console.log(markdown.extensions);
+console.log(localizeLanguage(php, "es").description);
 console.log(go.logo);
 console.log(json.website);
 console.log(sql.extensions);
@@ -193,6 +197,7 @@ console.log(language.resolvedLocale); // "es"
 | Java | `java` | `.java` | `26` | `code-languages/java` |
 | Swift | `swift` | `.swift` | `6.2.2` | `code-languages/swift` |
 | Kotlin | `kotlin` | `.kt`, `.kts` | `2.3.20` | `code-languages/kotlin` |
+| PHP | `php` | `.php`, `.phtml`, `.php3`, `.php4`, `.php5`, `.phps` | `8.5.6` | `code-languages/php` |
 | HTML | `html` | `.html`, `.htm` | `Living Standard` | `code-languages/html` |
 | CSS | `css` | `.css` | `Living Standard` | `code-languages/css` |
 | Markdown | `markdown` | `.md`, `.markdown`, `.mdown`, `.mkd` | `CommonMark 0.31.2` | `code-languages/markdown` |

@@ -88,6 +88,15 @@ const checkers = {
       sourceUrl: "https://spec.commonmark.org/",
     };
   },
+  async php() {
+    const html = await fetchText("https://www.php.net/downloads");
+    const match = html.match(/Current Stable PHP (\d+\.\d+\.\d+)/);
+
+    return {
+      latestVersion: match?.[1],
+      sourceUrl: "https://www.php.net/downloads",
+    };
+  },
   async python() {
     const html = await fetchText("https://www.python.org/downloads/");
     const match = html.match(/Latest Python 3 Release - Python (\d+\.\d+\.\d+)/);
