@@ -1,23 +1,36 @@
-name: CI
+name: Pull Request Validation
 
 on:
   pull_request:
+    branches:
+      - main
+    types:
+      - opened
+      - synchronize
+      - reopened
+      - ready_for_review
+  merge_group:
     branches:
       - main
 
 permissions:
   contents: read
 
+concurrency:
+  group: pr-validation-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
 jobs:
-  quality:
-    name: Lint, Typecheck, Test, Build
+  validate:
+    name: Validate PR
     runs-on: ubuntu-latest
+    if: github.event_name != 'pull_request' || github.event.pull_request.draft == false
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -37,3 +50,6 @@ jobs:
 
       - name: Build
         run: npm run build
+
+      - name: Validate package
+        run: npm pack --dry-run
