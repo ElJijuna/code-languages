@@ -106,6 +106,11 @@
       "import": "./dist/languages/makefile.js",
       "require": "./dist/languages/makefile.cjs"
     },
+    "./nginx": {
+      "types": "./dist/languages/nginx.d.ts",
+      "import": "./dist/languages/nginx.js",
+      "require": "./dist/languages/nginx.cjs"
+    },
     "./sql": {
       "types": "./dist/languages/sql.d.ts",
       "import": "./dist/languages/sql.js",

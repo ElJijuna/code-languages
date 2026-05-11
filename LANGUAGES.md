@@ -17,6 +17,7 @@
 - [x] JSON (`json`)
 - [x] Less (`less`)
 - [x] Makefile (`makefile`)
+- [x] nginx (`nginx`)
 - [x] SQL (`sql`)
 - [x] Dockerfile (`dockerfile`)
 - [x] Swift (`swift`)

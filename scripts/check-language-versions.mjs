@@ -121,6 +121,16 @@ const checkers = {
       sourceUrl: "https://spec.commonmark.org/",
     };
   },
+  async nginx() {
+    const html = await fetchText("https://nginx.org/en/download.html");
+    const stableSection = html.match(/Stable version[\s\S]*?(?:Legacy versions|Source Code)/i)?.[0];
+    const match = stableSection?.match(/nginx-(\d+\.\d+\.\d+)/);
+
+    return {
+      latestVersion: match?.[1],
+      sourceUrl: "https://nginx.org/en/download.html",
+    };
+  },
   async php() {
     const html = await fetchText("https://www.php.net/downloads");
     const match = html.match(/Current Stable PHP (\d+\.\d+\.\d+)/);

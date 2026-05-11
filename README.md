@@ -8,7 +8,7 @@
 
 Structured metadata for programming languages, packaged as a typed, tree-shakeable TypeScript library.
 
-`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 32 languages.
+`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 33 languages.
 
 ## Features
 
@@ -59,6 +59,7 @@ import { kotlin } from "code-languages/kotlin";
 import { less } from "code-languages/less";
 import { makefile } from "code-languages/makefile";
 import { markdown } from "code-languages/markdown";
+import { nginx } from "code-languages/nginx";
 import { objectiveC } from "code-languages/objective-c";
 import { php } from "code-languages/php";
 import { python } from "code-languages/python";
@@ -89,6 +90,7 @@ console.log(kotlin.version);
 console.log(less.extensions);
 console.log(makefile.extensions);
 console.log(markdown.website);
+console.log(nginx.version);
 console.log(objectiveC.version);
 console.log(php.version);
 console.log(python.publishedDate);
@@ -128,6 +130,7 @@ import {
   makefile,
   localizeLanguage,
   markdown,
+  nginx,
   objectiveC,
   php,
   rust,
@@ -160,6 +163,7 @@ console.log(localizeLanguage(kotlin, "es-PE").description);
 console.log(localizeLanguage(less, "es").name);
 console.log(localizeLanguage(makefile).description);
 console.log(markdown.extensions);
+console.log(localizeLanguage(nginx, "es").description);
 console.log(objectiveC.extensions);
 console.log(localizeLanguage(php, "es").description);
 console.log(go.logo);
@@ -260,6 +264,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | Less | `less` | `.less` | `4.4.1` | `code-languages/less` |
 | Makefile | `makefile` | `Makefile`, `makefile`, `GNUmakefile`, `.mk`, `.mak` | `4.4.1` | `code-languages/makefile` |
 | Markdown | `markdown` | `.md`, `.markdown`, `.mdown`, `.mkd` | `CommonMark 0.31.2` | `code-languages/markdown` |
+| nginx | `nginx` | `nginx.conf`, `.nginx`, `.conf` | `1.30.0` | `code-languages/nginx` |
 | Objective-C | `objective-c` | `.m`, `.mm` | `2.0` | `code-languages/objective-c` |
 | PHP | `php` | `.php`, `.phtml`, `.php3`, `.php4`, `.php5`, `.phps` | `8.5.6` | `code-languages/php` |
 | Python | `python` | `.py`, `.pyw` | `3.14.4` | `code-languages/python` |

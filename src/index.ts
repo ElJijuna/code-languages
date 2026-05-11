@@ -26,6 +26,7 @@ export { kotlin } from "./languages/kotlin";
 export { less } from "./languages/less";
 export { makefile } from "./languages/makefile";
 export { markdown } from "./languages/markdown";
+export { nginx } from "./languages/nginx";
 export { objectiveC } from "./languages/objective-c";
 export { php } from "./languages/php";
 export { python } from "./languages/python";

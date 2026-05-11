@@ -15,6 +15,7 @@ import { kotlin } from "./languages/kotlin";
 import { less } from "./languages/less";
 import { makefile } from "./languages/makefile";
 import { markdown } from "./languages/markdown";
+import { nginx } from "./languages/nginx";
 import { objectiveC } from "./languages/objective-c";
 import { php } from "./languages/php";
 import { python } from "./languages/python";
@@ -50,6 +51,7 @@ export const languages = [
   less,
   makefile,
   markdown,
+  nginx,
   objectiveC,
   php,
   python,
