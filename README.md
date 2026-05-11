@@ -8,7 +8,7 @@
 
 Structured metadata for programming languages, packaged as a typed, tree-shakeable TypeScript library.
 
-`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 25 languages.
+`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 29 languages.
 
 ## Features
 
@@ -48,6 +48,7 @@ import { astro } from "code-languages/astro";
 import { bash } from "code-languages/bash";
 import { c } from "code-languages/c";
 import { cpp } from "code-languages/cpp";
+import { csharp } from "code-languages/csharp";
 import { css } from "code-languages/css";
 import { dockerfile } from "code-languages/dockerfile";
 import { groovy } from "code-languages/groovy";
@@ -55,7 +56,9 @@ import { javascript } from "code-languages/javascript";
 import { java } from "code-languages/java";
 import { html } from "code-languages/html";
 import { kotlin } from "code-languages/kotlin";
+import { less } from "code-languages/less";
 import { markdown } from "code-languages/markdown";
+import { objectiveC } from "code-languages/objective-c";
 import { php } from "code-languages/php";
 import { python } from "code-languages/python";
 import { scss } from "code-languages/scss";
@@ -66,11 +69,13 @@ import { vue } from "code-languages/vue";
 import { webassembly } from "code-languages/webassembly";
 import { xml } from "code-languages/xml";
 import { yaml } from "code-languages/yaml";
+import { zsh } from "code-languages/zsh";
 
 console.log(astro.version);
 console.log(bash.version);
 console.log(c.extensions);
 console.log(cpp.i18n.en.name);
+console.log(csharp.website);
 console.log(css.paradigms);
 console.log(dockerfile.i18n.en.name);
 console.log(groovy.version);
@@ -78,7 +83,9 @@ console.log(javascript.website);
 console.log(java.version);
 console.log(html.extensions);
 console.log(kotlin.version);
+console.log(less.extensions);
 console.log(markdown.website);
+console.log(objectiveC.version);
 console.log(php.version);
 console.log(python.publishedDate);
 console.log(scss.extensions);
@@ -89,6 +96,7 @@ console.log(vue.website);
 console.log(webassembly.extensions);
 console.log(xml.extensions);
 console.log(yaml.version);
+console.log(zsh.extensions);
 ```
 
 Import from the package root when bundle size is not a concern:
@@ -99,6 +107,7 @@ import {
   bash,
   c,
   cpp,
+  csharp,
   css,
   detectLanguage,
   detectLanguages,
@@ -109,8 +118,10 @@ import {
   java,
   json,
   kotlin,
+  less,
   localizeLanguage,
   markdown,
+  objectiveC,
   php,
   rust,
   scss,
@@ -121,6 +132,7 @@ import {
   webassembly,
   xml,
   yaml,
+  zsh,
 } from "code-languages";
 
 console.log(localizeLanguage(astro, "es").description);
@@ -129,13 +141,16 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 console.log(localizeLanguage(bash, "es").description);
 console.log(c.version);
 console.log(cpp.website);
+console.log(localizeLanguage(csharp).description);
 console.log(localizeLanguage(css).name);
 console.log(dockerfile.website);
 console.log(localizeLanguage(groovy).description);
 console.log(localizeLanguage(java).name);
 console.log(html.website);
 console.log(localizeLanguage(kotlin, "es-PE").description);
+console.log(localizeLanguage(less, "es").name);
 console.log(markdown.extensions);
+console.log(objectiveC.extensions);
 console.log(localizeLanguage(php, "es").description);
 console.log(go.logo);
 console.log(localizeLanguage(scss).name);
@@ -146,6 +161,7 @@ console.log(localizeLanguage(vue, "es").description);
 console.log(localizeLanguage(webassembly).name);
 console.log(localizeLanguage(xml, "es").name);
 console.log(yaml.paradigms);
+console.log(zsh.version);
 ```
 
 ## API
@@ -219,27 +235,31 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | Bash | `bash` | `.sh`, `.bash`, `.bashrc`, `.bash_profile`, `.bash_login`, `.profile` | `5.3` | `code-languages/bash` |
 | C | `c` | `.c`, `.h` | `C23` | `code-languages/c` |
 | C++ | `cpp` | `.cpp`, `.cc`, `.cxx`, `.h`, `.hpp`, `.hh`, `.hxx` | `C++23` | `code-languages/cpp` |
+| C# | `csharp` | `.cs`, `.csx` | `14` | `code-languages/csharp` |
+| CSS | `css` | `.css` | `Living Standard` | `code-languages/css` |
 | Dockerfile | `dockerfile` | `Dockerfile`, `.dockerfile` | `1.10` | `code-languages/dockerfile` |
+| Go | `go` | `.go` | `1.26.3` | `code-languages/go` |
 | Groovy | `groovy` | `.groovy`, `.gvy`, `.gy`, `.gsh` | `5.0.5` | `code-languages/groovy` |
-| TypeScript | `typescript` | `.ts`, `.tsx`, `.mts`, `.cts` | `6.0` | `code-languages/typescript` |
+| HTML | `html` | `.html`, `.htm` | `Living Standard` | `code-languages/html` |
+| Java | `java` | `.java` | `26` | `code-languages/java` |
 | JavaScript | `javascript` | `.js`, `.mjs`, `.cjs`, `.jsx` | `ECMAScript 2025` | `code-languages/javascript` |
 | JSON | `json` | `.json` | `RFC 8259` | `code-languages/json` |
-| SQL | `sql` | `.sql` | `SQL:2023` | `code-languages/sql` |
-| Java | `java` | `.java` | `26` | `code-languages/java` |
-| Swift | `swift` | `.swift` | `6.2.2` | `code-languages/swift` |
 | Kotlin | `kotlin` | `.kt`, `.kts` | `2.3.20` | `code-languages/kotlin` |
-| PHP | `php` | `.php`, `.phtml`, `.php3`, `.php4`, `.php5`, `.phps` | `8.5.6` | `code-languages/php` |
-| HTML | `html` | `.html`, `.htm` | `Living Standard` | `code-languages/html` |
-| CSS | `css` | `.css` | `Living Standard` | `code-languages/css` |
+| Less | `less` | `.less` | `4.4.1` | `code-languages/less` |
 | Markdown | `markdown` | `.md`, `.markdown`, `.mdown`, `.mkd` | `CommonMark 0.31.2` | `code-languages/markdown` |
-| XML | `xml` | `.xml`, `.xsd`, `.xsl`, `.xslt` | `XML 1.0 Fifth Edition` | `code-languages/xml` |
-| YAML | `yaml` | `.yaml`, `.yml` | `1.2.2` | `code-languages/yaml` |
+| Objective-C | `objective-c` | `.m`, `.mm` | `2.0` | `code-languages/objective-c` |
+| PHP | `php` | `.php`, `.phtml`, `.php3`, `.php4`, `.php5`, `.phps` | `8.5.6` | `code-languages/php` |
 | Python | `python` | `.py`, `.pyw` | `3.14.4` | `code-languages/python` |
 | Rust | `rust` | `.rs` | `1.95.0` | `code-languages/rust` |
 | Sass | `scss` | `.scss`, `.sass` | `1.99.0` | `code-languages/scss` |
+| SQL | `sql` | `.sql` | `SQL:2023` | `code-languages/sql` |
+| Swift | `swift` | `.swift` | `6.2.2` | `code-languages/swift` |
+| TypeScript | `typescript` | `.ts`, `.tsx`, `.mts`, `.cts` | `6.0` | `code-languages/typescript` |
 | Vue | `vue` | `.vue` | `3.5.34` | `code-languages/vue` |
 | WebAssembly | `webassembly` | `.wasm`, `.wat` | `3.0` | `code-languages/webassembly` |
-| Go | `go` | `.go` | `1.26.3` | `code-languages/go` |
+| XML | `xml` | `.xml`, `.xsd`, `.xsl`, `.xslt` | `XML 1.0 Fifth Edition` | `code-languages/xml` |
+| YAML | `yaml` | `.yaml`, `.yml` | `1.2.2` | `code-languages/yaml` |
+| zsh | `zsh` | `.zsh`, `.zshrc`, `.zprofile`, `.zlogin`, `.zlogout`, `.zshenv` | `5.9` | `code-languages/zsh` |
 
 ## Development
 

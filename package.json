@@ -91,6 +91,11 @@
       "import": "./dist/languages/kotlin.js",
       "require": "./dist/languages/kotlin.cjs"
     },
+    "./less": {
+      "types": "./dist/languages/less.d.ts",
+      "import": "./dist/languages/less.js",
+      "require": "./dist/languages/less.cjs"
+    },
     "./sql": {
       "types": "./dist/languages/sql.d.ts",
       "import": "./dist/languages/sql.js",

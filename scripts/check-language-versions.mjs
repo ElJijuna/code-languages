@@ -94,6 +94,14 @@ const checkers = {
       sourceUrl: "https://api.github.com/repos/JetBrains/kotlin/releases/latest",
     };
   },
+  async less() {
+    const json = await fetchJson("https://registry.npmjs.org/less/latest");
+
+    return {
+      latestVersion: json.version,
+      sourceUrl: "https://registry.npmjs.org/less/latest",
+    };
+  },
   async markdown() {
     const html = await fetchText("https://spec.commonmark.org/");
     const versions = [...html.matchAll(/\/(\d+\.\d+(?:\.\d+)?)\//g)].map((match) => match[1]);
