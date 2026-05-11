@@ -23,4 +23,5 @@ export { rust } from "./languages/rust";
 export { sql } from "./languages/sql";
 export { swift } from "./languages/swift";
 export { typescript } from "./languages/typescript";
+export { xml } from "./languages/xml";
 export { yaml } from "./languages/yaml";

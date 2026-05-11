@@ -8,7 +8,7 @@
 
 Structured metadata for programming languages, packaged as a typed, tree-shakeable TypeScript library.
 
-`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 18 languages.
+`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 19 languages.
 
 ## Features
 
@@ -58,6 +58,7 @@ import { python } from "code-languages/python";
 import { json } from "code-languages/json";
 import { sql } from "code-languages/sql";
 import { swift } from "code-languages/swift";
+import { xml } from "code-languages/xml";
 import { yaml } from "code-languages/yaml";
 
 console.log(bash.version);
@@ -74,6 +75,7 @@ console.log(python.publishedDate);
 console.log(json.i18n.en.description);
 console.log(sql.i18n.en.name);
 console.log(swift.version);
+console.log(xml.extensions);
 console.log(yaml.version);
 ```
 
@@ -97,6 +99,7 @@ import {
   sql,
   swift,
   typescript,
+  xml,
   yaml,
 } from "code-languages";
 
@@ -113,6 +116,7 @@ console.log(go.logo);
 console.log(json.website);
 console.log(sql.extensions);
 console.log(swift.i18n.en.description);
+console.log(localizeLanguage(xml, "es").name);
 console.log(yaml.paradigms);
 ```
 
@@ -182,6 +186,7 @@ console.log(language.resolvedLocale); // "es"
 | HTML | `html` | `.html`, `.htm` | `Living Standard` | `code-languages/html` |
 | CSS | `css` | `.css` | `Living Standard` | `code-languages/css` |
 | Markdown | `markdown` | `.md`, `.markdown`, `.mdown`, `.mkd` | `CommonMark 0.31.2` | `code-languages/markdown` |
+| XML | `xml` | `.xml`, `.xsd`, `.xsl`, `.xslt` | `XML 1.0 Fifth Edition` | `code-languages/xml` |
 | YAML | `yaml` | `.yaml`, `.yml` | `1.2.2` | `code-languages/yaml` |
 | Python | `python` | `.py`, `.pyw` | `3.14.4` | `code-languages/python` |
 | Rust | `rust` | `.rs` | `1.95.0` | `code-languages/rust` |

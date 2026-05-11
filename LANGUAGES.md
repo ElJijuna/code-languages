@@ -20,6 +20,7 @@
 - [x] Groovy (`groovy`)
 - [x] Kotlin (`kotlin`)
 - [x] Bash (`bash`)
+- [x] XML (`xml`)
 
 ## Pending
 
@@ -36,7 +37,6 @@
 - [ ] Julia (`julia`)
 - [ ] Zig (`zig`)
 - [ ] PowerShell (`powershell`)
-- [ ] XML (`xml`)
 - [ ] TOML (`toml`)
 - [ ] Sass/SCSS (`scss`)
 - [ ] Vue (`vue`)

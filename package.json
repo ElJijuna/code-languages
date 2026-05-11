@@ -120,6 +120,11 @@
       "types": "./dist/languages/yaml.d.ts",
       "import": "./dist/languages/yaml.js",
       "require": "./dist/languages/yaml.cjs"
+    },
+    "./xml": {
+      "types": "./dist/languages/xml.d.ts",
+      "import": "./dist/languages/xml.js",
+      "require": "./dist/languages/xml.cjs"
     }
   },
   "files": ["dist", "LICENSE", "README.md"],
