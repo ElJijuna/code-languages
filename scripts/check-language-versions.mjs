@@ -64,6 +64,15 @@ const checkers = {
       sourceUrl: "https://go.dev/VERSION?m=text",
     };
   },
+  async graphql() {
+    const html = await fetchText("https://spec.graphql.org/");
+    const match = html.match(/Latest Release\s*<\/[^>]+>\s*<[^>]+>\s*([^<]+)/i);
+
+    return {
+      latestVersion: match?.[1]?.trim(),
+      sourceUrl: "https://spec.graphql.org/",
+    };
+  },
   async groovy() {
     const xml = await fetchText(
       "https://repo1.maven.org/maven2/org/apache/groovy/groovy/maven-metadata.xml",

@@ -8,7 +8,7 @@
 
 Structured metadata for programming languages, packaged as a typed, tree-shakeable TypeScript library.
 
-`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 33 languages.
+`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 34 languages.
 
 ## Features
 
@@ -51,6 +51,7 @@ import { cpp } from "code-languages/cpp";
 import { csharp } from "code-languages/csharp";
 import { css } from "code-languages/css";
 import { dockerfile } from "code-languages/dockerfile";
+import { graphql } from "code-languages/graphql";
 import { groovy } from "code-languages/groovy";
 import { javascript } from "code-languages/javascript";
 import { java } from "code-languages/java";
@@ -82,6 +83,7 @@ console.log(cpp.i18n.en.name);
 console.log(csharp.website);
 console.log(css.paradigms);
 console.log(dockerfile.i18n.en.name);
+console.log(graphql.version);
 console.log(groovy.version);
 console.log(javascript.website);
 console.log(java.version);
@@ -121,6 +123,7 @@ import {
   detectLanguages,
   dockerfile,
   go,
+  graphql,
   groovy,
   html,
   java,
@@ -156,6 +159,7 @@ console.log(cpp.website);
 console.log(localizeLanguage(csharp).description);
 console.log(localizeLanguage(css).name);
 console.log(dockerfile.website);
+console.log(localizeLanguage(graphql, "es").description);
 console.log(localizeLanguage(groovy).description);
 console.log(localizeLanguage(java).name);
 console.log(html.website);
@@ -255,6 +259,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | CSS | `css` | `.css` | `Living Standard` | `code-languages/css` |
 | Dockerfile | `dockerfile` | `Dockerfile`, `.dockerfile` | `1.10` | `code-languages/dockerfile` |
 | Go | `go` | `.go` | `1.26.3` | `code-languages/go` |
+| GraphQL | `graphql` | `.graphql`, `.gql`, `.graphqls` | `September 2025` | `code-languages/graphql` |
 | Groovy | `groovy` | `.groovy`, `.gvy`, `.gy`, `.gsh` | `5.0.5` | `code-languages/groovy` |
 | HTML | `html` | `.html`, `.htm` | `Living Standard` | `code-languages/html` |
 | Java | `java` | `.java` | `26` | `code-languages/java` |

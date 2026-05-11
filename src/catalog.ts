@@ -6,6 +6,7 @@ import { csharp } from "./languages/csharp";
 import { css } from "./languages/css";
 import { dockerfile } from "./languages/dockerfile";
 import { go } from "./languages/go";
+import { graphql } from "./languages/graphql";
 import { groovy } from "./languages/groovy";
 import { html } from "./languages/html";
 import { java } from "./languages/java";
@@ -42,6 +43,7 @@ export const languages = [
   css,
   dockerfile,
   go,
+  graphql,
   groovy,
   html,
   java,

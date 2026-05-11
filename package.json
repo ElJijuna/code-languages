@@ -166,6 +166,11 @@
       "import": "./dist/languages/go.js",
       "require": "./dist/languages/go.cjs"
     },
+    "./graphql": {
+      "types": "./dist/languages/graphql.d.ts",
+      "import": "./dist/languages/graphql.js",
+      "require": "./dist/languages/graphql.cjs"
+    },
     "./groovy": {
       "types": "./dist/languages/groovy.d.ts",
       "import": "./dist/languages/groovy.js",

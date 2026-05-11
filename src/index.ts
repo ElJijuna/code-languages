@@ -17,6 +17,7 @@ export { cpp } from "./languages/cpp";
 export { css } from "./languages/css";
 export { dockerfile } from "./languages/dockerfile";
 export { go } from "./languages/go";
+export { graphql } from "./languages/graphql";
 export { groovy } from "./languages/groovy";
 export { html } from "./languages/html";
 export { java } from "./languages/java";
