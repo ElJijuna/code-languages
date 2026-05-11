@@ -8,7 +8,7 @@
 
 Structured metadata for programming languages, packaged as a typed, tree-shakeable TypeScript library.
 
-`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 22 languages.
+`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 23 languages.
 
 ## Features
 
@@ -58,6 +58,7 @@ import { kotlin } from "code-languages/kotlin";
 import { markdown } from "code-languages/markdown";
 import { php } from "code-languages/php";
 import { python } from "code-languages/python";
+import { scss } from "code-languages/scss";
 import { json } from "code-languages/json";
 import { sql } from "code-languages/sql";
 import { swift } from "code-languages/swift";
@@ -78,6 +79,7 @@ console.log(kotlin.version);
 console.log(markdown.website);
 console.log(php.version);
 console.log(python.publishedDate);
+console.log(scss.extensions);
 console.log(json.i18n.en.description);
 console.log(sql.i18n.en.name);
 console.log(swift.version);
@@ -105,6 +107,7 @@ import {
   markdown,
   php,
   rust,
+  scss,
   sql,
   swift,
   typescript,
@@ -125,6 +128,7 @@ console.log(localizeLanguage(kotlin, "es-PE").description);
 console.log(markdown.extensions);
 console.log(localizeLanguage(php, "es").description);
 console.log(go.logo);
+console.log(localizeLanguage(scss).name);
 console.log(json.website);
 console.log(sql.extensions);
 console.log(swift.i18n.en.description);
@@ -205,6 +209,7 @@ console.log(language.resolvedLocale); // "es"
 | YAML | `yaml` | `.yaml`, `.yml` | `1.2.2` | `code-languages/yaml` |
 | Python | `python` | `.py`, `.pyw` | `3.14.4` | `code-languages/python` |
 | Rust | `rust` | `.rs` | `1.95.0` | `code-languages/rust` |
+| Sass | `scss` | `.scss`, `.sass` | `1.99.0` | `code-languages/scss` |
 | Go | `go` | `.go` | `1.26.3` | `code-languages/go` |
 
 ## Development

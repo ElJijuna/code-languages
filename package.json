@@ -111,6 +111,11 @@
       "import": "./dist/languages/rust.js",
       "require": "./dist/languages/rust.cjs"
     },
+    "./scss": {
+      "types": "./dist/languages/scss.d.ts",
+      "import": "./dist/languages/scss.js",
+      "require": "./dist/languages/scss.cjs"
+    },
     "./go": {
       "types": "./dist/languages/go.d.ts",
       "import": "./dist/languages/go.js",

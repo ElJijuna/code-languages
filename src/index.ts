@@ -23,6 +23,7 @@ export { markdown } from "./languages/markdown";
 export { php } from "./languages/php";
 export { python } from "./languages/python";
 export { rust } from "./languages/rust";
+export { scss } from "./languages/scss";
 export { sql } from "./languages/sql";
 export { swift } from "./languages/swift";
 export { typescript } from "./languages/typescript";

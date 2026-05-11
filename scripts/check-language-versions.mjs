@@ -115,6 +115,14 @@ const checkers = {
       sourceUrl: "https://static.rust-lang.org/dist/channel-rust-stable.toml",
     };
   },
+  async scss() {
+    const json = await fetchJson("https://registry.npmjs.org/sass/latest");
+
+    return {
+      latestVersion: json.version,
+      sourceUrl: "https://registry.npmjs.org/sass/latest",
+    };
+  },
   async swift() {
     const json = await fetchJson("https://api.github.com/repos/swiftlang/swift/releases/latest");
     const match = String(json.tag_name ?? json.name ?? "").match(

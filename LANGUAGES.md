@@ -24,6 +24,7 @@
 - [x] C++ (`cpp`)
 - [x] Astro (`astro`)
 - [x] PHP (`php`)
+- [x] Sass/SCSS (`scss`)
 
 ## Pending
 
@@ -39,7 +40,6 @@
 - [ ] Zig (`zig`)
 - [ ] PowerShell (`powershell`)
 - [ ] TOML (`toml`)
-- [ ] Sass/SCSS (`scss`)
 - [ ] Vue (`vue`)
 - [ ] Less (`less`)
 - [ ] GraphQL (`graphql`)
