@@ -143,11 +143,18 @@ Use `localizeLanguage` to read localized display content with English fallback:
 import { json } from "code-languages/json";
 import { localizeLanguage } from "code-languages/i18n";
 
-const language = localizeLanguage(json, "en");
+const language = localizeLanguage(json, "es-PE");
 
 console.log(language.name);
 console.log(language.longDescription);
+console.log(language.resolvedLocale); // "es"
 ```
+
+`localizeLanguage` resolves locales in this order:
+
+1. Exact locale, for example `es`.
+2. Base language from a regional locale, for example `es-PE` -> `es`.
+3. English fallback, for example `fr-FR` -> `en`.
 
 ## Supported Languages
 

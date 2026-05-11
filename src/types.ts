@@ -1,4 +1,5 @@
-export type Locale = "en" | "es";
+export type BaseLocale = "en" | "es";
+export type Locale = BaseLocale | `${BaseLocale}-${string}` | (string & {});
 
 export interface LanguageContent {
   /** Display name. e.g. "TypeScript" */
@@ -12,7 +13,7 @@ export interface LanguageContent {
 }
 
 export type LanguageTranslations = { en: LanguageContent } & Partial<
-  Record<Exclude<Locale, "en">, LanguageContent>
+  Record<BaseLocale, LanguageContent>
 >;
 
 export interface Language {
@@ -46,9 +47,12 @@ export interface Language {
 
 export type LocalizedLanguage = Omit<Language, "i18n"> &
   LanguageContent & {
-    /** Locale requested, or fallback locale when the requested locale is unavailable. */
+    /** Locale requested by the caller. */
     locale: Locale;
 
-    /** Locales available for this language. */
-    availableLocales: Locale[];
+    /** Translation locale actually used after exact, base-language, and English fallback resolution. */
+    resolvedLocale: BaseLocale;
+
+    /** Base locales available for this language. */
+    availableLocales: BaseLocale[];
   };
