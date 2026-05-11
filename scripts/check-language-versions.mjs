@@ -521,7 +521,7 @@ function issueBody(update) {
 }
 
 function pullRequestBody(update, issue) {
-  const issueLine = issue ? `Related issue: #${issue.number}` : "Related issue: not found";
+  const issueLine = issue ? `Closes #${issue.number}` : "Related issue: not found";
 
   return [
     `Updates ${update.name} metadata to ${update.latestVersion}.`,
