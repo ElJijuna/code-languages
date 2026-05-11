@@ -256,44 +256,122 @@ async function createIssues(updates) {
   const [owner, repo] = repository.split("/");
 
   for (const update of updates) {
-    const title = `chore: update ${update.name} metadata to ${update.latestVersion}`;
-    const existingIssue = await findOpenIssue({ owner, repo, title, token });
+    await syncVersionUpdateIssue({ owner, repo, token, update });
+  }
+}
 
-    if (existingIssue) {
-      console.log(`Issue already exists: ${title}`);
-      continue;
-    }
+async function syncVersionUpdateIssue({ owner, repo, token, update }) {
+  const title = issueTitle(update);
+  const body = issueBody(update);
+  const existingIssue = await findOpenVersionUpdateIssue({ owner, repo, token, update });
 
+  if (!existingIssue) {
     await githubRequest(`/repos/${owner}/${repo}/issues`, {
       method: "POST",
       token,
       body: {
         title,
-        body: [
-          `The automated language version check found a pending ${update.name} update.`,
-          "",
-          `- Language: ${update.name} (${update.slug})`,
-          `- Current version: ${update.version}`,
-          `- Detected version: ${update.latestVersion}`,
-          `- Source: ${update.sourceUrl}`,
-          `- File: \`${update.filePath}\``,
-          "",
-          "Please verify the upstream source before updating the metadata.",
-        ].join("\n"),
+        body,
       },
     });
 
     console.log(`Created issue: ${title}`);
+    return;
   }
+
+  const previousVersion = extractDetectedVersion(existingIssue);
+
+  if (normalizeComparable(previousVersion) === normalizeComparable(update.latestVersion)) {
+    console.log(`Issue already up to date for ${update.name}: ${existingIssue.html_url}`);
+    return;
+  }
+
+  await githubRequest(`/repos/${owner}/${repo}/issues/${existingIssue.number}`, {
+    method: "PATCH",
+    token,
+    body: {
+      title,
+      body,
+    },
+  });
+
+  await githubRequest(`/repos/${owner}/${repo}/issues/${existingIssue.number}/comments`, {
+    method: "POST",
+    token,
+    body: {
+      body: [
+        `The automated language version check detected a newer ${update.name} version.`,
+        "",
+        `- Previous detected version: ${previousVersion ?? "unknown"}`,
+        `- New detected version: ${update.latestVersion}`,
+        `- Source: ${update.sourceUrl}`,
+      ].join("\n"),
+    },
+  });
+
+  console.log(`Updated issue for ${update.name}: ${existingIssue.html_url}`);
 }
 
-async function findOpenIssue({ owner, repo, title, token }) {
-  const query = `repo:${owner}/${repo} is:issue is:open in:title "${title}"`;
+async function findOpenVersionUpdateIssue({ owner, repo, token, update }) {
+  const titlePrefix = `chore: update ${update.name} metadata`;
+  const marker = issueMarker(update.slug);
+  const query = `repo:${owner}/${repo} is:issue is:open "language-version-update:${update.slug}"`;
   const result = await githubRequest(`/search/issues?q=${encodeURIComponent(query)}`, {
     token,
   });
 
-  return result.items?.find((issue) => issue.title === title);
+  const markerMatch = result.items?.find((issue) => issue.body?.includes(marker));
+
+  if (markerMatch) {
+    return markerMatch;
+  }
+
+  return findOpenVersionUpdateIssueByTitle({ owner, repo, titlePrefix, token });
+}
+
+async function findOpenVersionUpdateIssueByTitle({ owner, repo, titlePrefix, token }) {
+  const query = `repo:${owner}/${repo} is:issue is:open in:title "${titlePrefix}"`;
+  const result = await githubRequest(`/search/issues?q=${encodeURIComponent(query)}`, {
+    token,
+  });
+
+  return result.items?.find((issue) => issue.title?.startsWith(titlePrefix));
+}
+
+function issueMarker(slug) {
+  return `<!-- language-version-update:${slug} -->`;
+}
+
+function issueTitle(update) {
+  return `chore: update ${update.name} metadata to ${update.latestVersion}`;
+}
+
+function issueBody(update) {
+  return [
+    `The automated language version check found a pending ${update.name} update.`,
+    "",
+    `- Language: ${update.name} (${update.slug})`,
+    `- Current version: ${update.version}`,
+    `- Detected version: ${update.latestVersion}`,
+    `- Source: ${update.sourceUrl}`,
+    `- File: \`${update.filePath}\``,
+    "",
+    "Please verify the upstream source before updating the metadata.",
+    "",
+    issueMarker(update.slug),
+    issueVersionMarker(update.latestVersion),
+  ].join("\n");
+}
+
+function issueVersionMarker(version) {
+  return `<!-- detected-version:${version} -->`;
+}
+
+function extractDetectedVersion(issue) {
+  const bodyVersion = issue.body?.match(/<!-- detected-version:([^>]+) -->/)?.[1];
+  const titleVersion = issue.title?.match(/\bmetadata to (.+)$/)?.[1];
+
+  return bodyVersion ?? titleVersion;
 }
 
 async function fetchJson(url) {
