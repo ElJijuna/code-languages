@@ -1,8 +1,8 @@
 import { astro } from "./languages/astro";
 import { bash } from "./languages/bash";
 import { c } from "./languages/c";
-import { csharp } from "./languages/csharp";
 import { cpp } from "./languages/cpp";
+import { csharp } from "./languages/csharp";
 import { css } from "./languages/css";
 import { dockerfile } from "./languages/dockerfile";
 import { go } from "./languages/go";
@@ -13,6 +13,7 @@ import { javascript } from "./languages/javascript";
 import { json } from "./languages/json";
 import { kotlin } from "./languages/kotlin";
 import { markdown } from "./languages/markdown";
+import { objectiveC } from "./languages/objective-c";
 import { php } from "./languages/php";
 import { python } from "./languages/python";
 import { rust } from "./languages/rust";
@@ -31,8 +32,8 @@ export const languages = [
   astro,
   bash,
   c,
-  csharp,
   cpp,
+  csharp,
   css,
   dockerfile,
   go,
@@ -43,6 +44,7 @@ export const languages = [
   json,
   kotlin,
   markdown,
+  objectiveC,
   php,
   python,
   rust,

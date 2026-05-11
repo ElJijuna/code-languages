@@ -14,6 +14,8 @@ const manualChecks = {
   javascript:
     "ECMAScript editions are published yearly and should be checked against ECMA-262 release status.",
   json: "RFC 8259 is stable and should be reviewed manually when a replacement RFC appears.",
+  "objective-c":
+    "Objective-C language versioning is effectively stable and should be reviewed manually against Apple documentation and runtime updates.",
   sql: "SQL standards should be reviewed manually against ISO/IEC 9075 publications.",
   webassembly: "WebAssembly standards should be reviewed manually against webassembly.org/specs.",
   xml: "XML 1.0 Fifth Edition is stable and should be reviewed manually if W3C publishes a new edition.",
@@ -38,6 +40,18 @@ const checkers = {
     return {
       latestVersion: latestSemver(versions),
       sourceUrl: "https://ftp.gnu.org/gnu/bash/",
+    };
+  },
+  async csharp() {
+    const markdown = await fetchText(
+      "https://raw.githubusercontent.com/dotnet/docs/main/docs/csharp/whats-new/csharp-version-history.md",
+    );
+    const versions = [...markdown.matchAll(/^## Version (\d+) of C#/gm)].map((match) => match[1]);
+
+    return {
+      latestVersion: latestNumeric(versions),
+      sourceUrl:
+        "https://raw.githubusercontent.com/dotnet/docs/main/docs/csharp/whats-new/csharp-version-history.md",
     };
   },
   async go() {
@@ -149,6 +163,17 @@ const checkers = {
     return {
       latestVersion: json.version,
       sourceUrl: "https://registry.npmjs.org/vue/latest",
+    };
+  },
+  async zsh() {
+    const html = await fetchText("https://zsh.sourceforge.io/Arc/source.html");
+    const versions = [...html.matchAll(/Download zsh (\d+\.\d+(?:\.\d+)?)/g)].map(
+      (match) => match[1],
+    );
+
+    return {
+      latestVersion: latestSemver(versions),
+      sourceUrl: "https://zsh.sourceforge.io/Arc/source.html",
     };
   },
 };
@@ -614,6 +639,15 @@ async function githubRequest(path, { allowNotFound = false, body, method = "GET"
 
 function latestSemver(versions) {
   return [...new Set(versions)].sort(compareSemver).at(-1);
+}
+
+function latestNumeric(versions) {
+  return [...new Set(versions)]
+    .map(Number)
+    .filter(Number.isFinite)
+    .sort((a, b) => a - b)
+    .at(-1)
+    ?.toString();
 }
 
 function compareSemver(left, right) {

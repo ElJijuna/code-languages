@@ -166,6 +166,11 @@
       "import": "./dist/languages/markdown.js",
       "require": "./dist/languages/markdown.cjs"
     },
+    "./objective-c": {
+      "types": "./dist/languages/objective-c.d.ts",
+      "import": "./dist/languages/objective-c.js",
+      "require": "./dist/languages/objective-c.cjs"
+    },
     "./yaml": {
       "types": "./dist/languages/yaml.d.ts",
       "import": "./dist/languages/yaml.js",

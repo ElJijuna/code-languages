@@ -29,6 +29,7 @@
 - [x] Sass/SCSS (`scss`)
 - [x] Vue (`vue`)
 - [x] WebAssembly (`webassembly`)
+- [x] Objective-C (`objective-c`)
 
 ## Pending
 
@@ -78,6 +79,5 @@
 - [ ] Clojure (`clojure`)
 - [ ] Erlang (`erlang`)
 - [ ] F# (`fsharp`)
-- [ ] Objective-C (`objective-c`)
 - [ ] Perl (`perl`)
 - [ ] Visual Basic (`visual-basic`)

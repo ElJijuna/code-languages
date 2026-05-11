@@ -3,15 +3,7 @@ import type { Language } from "../types";
 export const zsh = {
   slug: "zsh",
   publishedDate: "1990-01-01",
-  extensions: [
-    ".zsh",
-    ".zshrc",
-    ".zshenv",
-    ".zprofile",
-    ".zlogin",
-    ".zlogout",
-    ".zsh-theme",
-  ],
+  extensions: [".zsh", ".zshrc", ".zshenv", ".zprofile", ".zlogin", ".zlogout", ".zsh-theme"],
   author: "Paul Falstad",
   website: "https://www.zsh.org",
   paradigms: ["command", "imperative", "scripting", "shell"],
@@ -21,8 +13,7 @@ export const zsh = {
     ecosystems: ["Unix", "Linux", "macOS", "DevOps"],
   },
   version: "5.9",
-  logo:
-    "https://commons.wikimedia.org/wiki/Special:Redirect/file/Z_Shell_Logo_Color_Horizontal.svg",
+  logo: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Z_Shell_Logo_Color_Horizontal.svg",
   i18n: {
     en: {
       name: "zsh",
