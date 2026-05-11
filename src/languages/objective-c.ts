@@ -18,8 +18,7 @@ export const objectiveC = {
   i18n: {
     en: {
       name: "Objective-C",
-      description:
-        "A C superset with Smalltalk-style messaging and a dynamic object runtime.",
+      description: "A C superset with Smalltalk-style messaging and a dynamic object runtime.",
       longDescription:
         "Objective-C is an object-oriented extension of C that adds Smalltalk-style message passing, dynamic dispatch, classes, protocols, categories, and runtime reflection.\n\nIt was historically central to NeXTSTEP, macOS, iOS, Cocoa, and Cocoa Touch development, and remains important for maintaining Apple platform codebases and interoperating with C, C++, and Swift.",
     },

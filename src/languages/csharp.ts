@@ -6,13 +6,7 @@ export const csharp = {
   extensions: [".cs", ".csx"],
   author: "Anders Hejlsberg / Microsoft",
   website: "https://dotnet.microsoft.com/languages/csharp",
-  paradigms: [
-    "class-based",
-    "component-oriented",
-    "functional",
-    "generic",
-    "object-oriented",
-  ],
+  paradigms: ["class-based", "component-oriented", "functional", "generic", "object-oriented"],
   tooling: {
     runtimes: [".NET", "Mono", "Unity"],
     packageManagers: ["NuGet"],
