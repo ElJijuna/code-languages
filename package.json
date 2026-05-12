@@ -46,6 +46,11 @@
       "import": "./dist/detect.js",
       "require": "./dist/detect.cjs"
     },
+    "./abap": {
+      "types": "./dist/languages/abap.d.ts",
+      "import": "./dist/languages/abap.js",
+      "require": "./dist/languages/abap.cjs"
+    },
     "./astro": {
       "types": "./dist/languages/astro.d.ts",
       "import": "./dist/languages/astro.js",

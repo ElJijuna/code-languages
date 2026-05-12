@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import {
+  abap,
   c,
   cmake,
   cpp,
@@ -12,6 +13,10 @@ import {
 } from "../src";
 
 describe("detectLanguage", () => {
+  it("detects ABAP source files", () => {
+    expect(detectLanguage("src/zsales_report.abap")).toBe(abap);
+  });
+
   it("detects a language by file extension", () => {
     expect(detectLanguage("src/index.ts")).toBe(typescript);
   });

@@ -27,6 +27,18 @@ const manualChecks = {
 };
 
 const checkers = {
+  async abap() {
+    const html = await fetchText(
+      "https://help.sap.com/docs/ABAP_PLATFORM_NEW/b5670aaaa2364a29935f40b16499972d/48ba073157b85295e10000000a42189b.html",
+    );
+    const match = html.match(/Version:\s*(\d{4}\s+FPS\d+)/i);
+
+    return {
+      latestVersion: match ? `ABAP Platform ${match[1]}` : undefined,
+      sourceUrl:
+        "https://help.sap.com/docs/ABAP_PLATFORM_NEW/b5670aaaa2364a29935f40b16499972d/48ba073157b85295e10000000a42189b.html",
+    };
+  },
   async astro() {
     const json = await fetchJson("https://registry.npmjs.org/astro/latest");
 
@@ -839,6 +851,7 @@ function majorMinor(value) {
 function normalizeComparable(value) {
   return normalizeVersion(value)
     .replace(/^commonmark\s+/i, "")
+    .replace(/(\d{4})\s+fps(\d+)/i, "$1.$2")
     .trim()
     .toLowerCase();
 }

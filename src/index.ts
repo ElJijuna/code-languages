@@ -9,6 +9,7 @@ export type {
   Locale,
   LocalizedLanguage,
 } from "./types";
+export { abap } from "./languages/abap";
 export { astro } from "./languages/astro";
 export { assembly } from "./languages/assembly";
 export { bash } from "./languages/bash";

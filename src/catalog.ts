@@ -1,3 +1,4 @@
+import { abap } from "./languages/abap";
 import { assembly } from "./languages/assembly";
 import { astro } from "./languages/astro";
 import { bash } from "./languages/bash";
@@ -43,6 +44,7 @@ import { zsh } from "./languages/zsh";
 
 /** Ordered catalog of every language included in the package. */
 export const languages = [
+  abap,
   astro,
   assembly,
   bash,

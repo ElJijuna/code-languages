@@ -2,6 +2,7 @@
 
 ## Implemented
 
+- [x] ABAP (`abap`)
 - [x] TypeScript (`typescript`)
 - [x] JavaScript (`javascript`)
 - [x] Python (`python`)
@@ -89,7 +90,6 @@ These languages and formats are valid candidates, but they are less important fo
 coverage goals because they are niche, legacy, highly domain-specific, or already covered by a
 broader language entry.
 
-- [ ] ABAP (`abap`)
 - [ ] ActionScript (`actionscript`)
 - [ ] Ada (`ada`)
 - [ ] Agda (`agda`)
