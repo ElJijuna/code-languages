@@ -1,3 +1,10 @@
+## [1.4.3](https://github.com/ElJijuna/code-languages/compare/v1.4.2...v1.4.3) (2026-05-12)
+
+
+### Bug Fixes
+
+* update Python metadata to 3.14.5 ([55b968e](https://github.com/ElJijuna/code-languages/commit/55b968e625c7e91d64a1c379dd26b43364c2c068))
+
 ## [1.4.2](https://github.com/ElJijuna/code-languages/compare/v1.4.1...v1.4.2) (2026-05-12)
 
 
