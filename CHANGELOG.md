@@ -1,3 +1,14 @@
+# [1.7.0](https://github.com/ElJijuna/code-languages/compare/v1.6.0...v1.7.0) (2026-05-12)
+
+
+### Features
+
+* add language abap ([efca4cf](https://github.com/ElJijuna/code-languages/commit/efca4cf70701c669394753b951d6733a95bbc9d9))
+* add language cmake ([f99dc81](https://github.com/ElJijuna/code-languages/commit/f99dc81d05f24ad299e3ef177d0f420b5761048e))
+* add language lua ([9945552](https://github.com/ElJijuna/code-languages/commit/9945552b049c58926af53be798eebc288ff038b9))
+* add language ruby ([3209507](https://github.com/ElJijuna/code-languages/commit/3209507506b223626c58d805745294066edd7606))
+* add language svelte ([799d750](https://github.com/ElJijuna/code-languages/commit/799d750aaad10805dba64eca1a036041c83b9358))
+
 # [1.6.0](https://github.com/ElJijuna/code-languages/compare/v1.5.0...v1.6.0) (2026-05-12)
 
 
