@@ -66,6 +66,11 @@
       "import": "./dist/languages/c.js",
       "require": "./dist/languages/c.cjs"
     },
+    "./cmake": {
+      "types": "./dist/languages/cmake.d.ts",
+      "import": "./dist/languages/cmake.js",
+      "require": "./dist/languages/cmake.cjs"
+    },
     "./coffeescript": {
       "types": "./dist/languages/coffeescript.d.ts",
       "import": "./dist/languages/coffeescript.js",

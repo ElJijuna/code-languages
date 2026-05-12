@@ -1,0 +1,32 @@
+import type { Language } from "../types";
+
+export const cmake = {
+  slug: "cmake",
+  publishedDate: "2000-01-01",
+  extensions: ["CMakeLists.txt", ".cmake"],
+  author: "Kitware",
+  website: "https://cmake.org",
+  paradigms: ["build-automation", "declarative", "imperative", "configuration"],
+  tooling: {
+    runtimes: ["CMake"],
+    ecosystems: ["C", "C++", "Fortran", "Cross-platform Builds", "Embedded Systems"],
+  },
+  version: "4.3.2",
+  logo: "https://cmake.org/wp-content/uploads/2023/08/CMake-Logo.svg",
+  i18n: {
+    en: {
+      name: "CMake",
+      description:
+        "A cross-platform build system language used to configure, generate, and manage builds.",
+      longDescription:
+        "CMake files describe projects, targets, dependencies, compiler options, install rules, tests, and platform-specific build behavior using a command-based scripting language.\n\nThey are widely used to generate native build files for tools such as Ninja, Make, Visual Studio, and Xcode, especially in C, C++, Fortran, embedded, scientific, and cross-platform software projects.",
+    },
+    es: {
+      name: "CMake",
+      description:
+        "Un lenguaje de build multiplataforma usado para configurar, generar y gestionar builds.",
+      longDescription:
+        "Los archivos CMake describen proyectos, targets, dependencias, opciones de compilador, reglas de instalacion, tests y comportamiento de build por plataforma usando un lenguaje de scripting basado en comandos.\n\nSe usan ampliamente para generar archivos de build nativos para herramientas como Ninja, Make, Visual Studio y Xcode, especialmente en proyectos C, C++, Fortran, embebidos, cientificos y multiplataforma.",
+    },
+  },
+} satisfies Language;

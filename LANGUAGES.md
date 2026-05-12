@@ -12,6 +12,7 @@
 - [x] CSS (`css`)
 - [x] Markdown (`markdown`)
 - [x] YAML (`yaml`)
+- [x] CMake (`cmake`)
 - [x] C (`c`)
 - [x] C# (`csharp`)
 - [x] COBOL (`cobol`)
@@ -44,7 +45,6 @@
 
 ## Pending
 
-- [ ] CMake (`cmake`)
 - [ ] Crystal (`crystal`)
 - [ ] CUDA (`cuda`)
 - [ ] Ruby (`ruby`)

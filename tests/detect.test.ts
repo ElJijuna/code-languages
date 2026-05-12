@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { c, cpp, detectLanguage, detectLanguages, dockerfile, typescript } from "../src";
+import { c, cmake, cpp, detectLanguage, detectLanguages, dockerfile, typescript } from "../src";
 
 describe("detectLanguage", () => {
   it("detects a language by file extension", () => {
@@ -8,6 +8,11 @@ describe("detectLanguage", () => {
 
   it("detects exact filename entries", () => {
     expect(detectLanguage("Dockerfile")).toBe(dockerfile);
+  });
+
+  it("detects dotted extension entries and exact project files", () => {
+    expect(detectLanguage("cmake/FindSQLite.cmake")).toBe(cmake);
+    expect(detectLanguage("CMakeLists.txt")).toBe(cmake);
   });
 
   it("handles nested paths and case-insensitive names", () => {

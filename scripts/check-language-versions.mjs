@@ -60,6 +60,15 @@ const checkers = {
         "https://raw.githubusercontent.com/dotnet/docs/main/docs/csharp/whats-new/csharp-version-history.md",
     };
   },
+  async cmake() {
+    const html = await fetchText("https://cmake.org/download/");
+    const match = html.match(/Latest Release \((\d+\.\d+\.\d+)\)/);
+
+    return {
+      latestVersion: match?.[1],
+      sourceUrl: "https://cmake.org/download/",
+    };
+  },
   async coffeescript() {
     const json = await fetchJson("https://registry.npmjs.org/coffeescript/latest");
 
