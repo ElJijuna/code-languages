@@ -22,6 +22,7 @@ import { markdown } from "./languages/markdown";
 import { nginx } from "./languages/nginx";
 import { objectiveC } from "./languages/objective-c";
 import { php } from "./languages/php";
+import { powershell } from "./languages/powershell";
 import { python } from "./languages/python";
 import { rust } from "./languages/rust";
 import { scss } from "./languages/scss";
@@ -62,6 +63,7 @@ export const languages = [
   nginx,
   objectiveC,
   php,
+  powershell,
   python,
   rust,
   scss,

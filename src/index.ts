@@ -33,6 +33,7 @@ export { markdown } from "./languages/markdown";
 export { nginx } from "./languages/nginx";
 export { objectiveC } from "./languages/objective-c";
 export { php } from "./languages/php";
+export { powershell } from "./languages/powershell";
 export { python } from "./languages/python";
 export { rust } from "./languages/rust";
 export { scss } from "./languages/scss";

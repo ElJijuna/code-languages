@@ -8,7 +8,7 @@
 
 Structured metadata for programming languages, packaged as a typed, tree-shakeable TypeScript library.
 
-`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 37 languages.
+`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 38 languages.
 
 ## Features
 
@@ -66,6 +66,7 @@ import { markdown } from "code-languages/markdown";
 import { nginx } from "code-languages/nginx";
 import { objectiveC } from "code-languages/objective-c";
 import { php } from "code-languages/php";
+import { powershell } from "code-languages/powershell";
 import { python } from "code-languages/python";
 import { scss } from "code-languages/scss";
 import { json } from "code-languages/json";
@@ -99,6 +100,7 @@ console.log(markdown.website);
 console.log(nginx.version);
 console.log(objectiveC.version);
 console.log(php.version);
+console.log(powershell.extensions);
 console.log(python.publishedDate);
 console.log(scss.extensions);
 console.log(json.i18n.en.description);
@@ -141,6 +143,7 @@ import {
   nginx,
   objectiveC,
   php,
+  powershell,
   rust,
   scss,
   sql,
@@ -176,6 +179,7 @@ console.log(markdown.extensions);
 console.log(localizeLanguage(nginx, "es").description);
 console.log(objectiveC.extensions);
 console.log(localizeLanguage(php, "es").description);
+console.log(localizeLanguage(powershell).name);
 console.log(go.logo);
 console.log(localizeLanguage(scss).name);
 console.log(json.website);
@@ -258,7 +262,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | Logo | Language | Slug | Extensions | Version | Import |
 |---|---|---|---|---|---|
 | <img src="https://astro.build/assets/press/astro-icon-light.svg" alt="Astro logo" width="24" height="24"> | Astro | `astro` | `.astro` | `6.3.1` | `code-languages/astro` |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/assembly/assembly-original.svg" alt="Assembly logo" width="24" height="24"> | Assembly | `assembly` | `.asm`, `.s`, `.S`, `.inc` | `Architecture-specific` | `code-languages/assembly` |
+| <img src="https://cdn.simpleicons.org/assemblyscript/007AAC" alt="Assembly logo" width="24" height="24"> | Assembly | `assembly` | `.asm`, `.s`, `.S`, `.inc` | `Architecture-specific` | `code-languages/assembly` |
 | <img src="https://bashlogo.com/img/symbol/svg/full_colored_dark.svg" alt="Bash logo" width="24" height="24"> | Bash | `bash` | `.sh`, `.bash`, `.bashrc`, `.bash_profile`, `.bash_login`, `.profile` | `5.3` | `code-languages/bash` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg" alt="C logo" width="24" height="24"> | C | `c` | `.c`, `.h` | `C23` | `code-languages/c` |
 | <img src="https://logo.svgcdn.com/devicon/cobol-original.png" alt="COBOL logo" width="24" height="24"> | COBOL | `cobol` | `.cob`, `.cbl`, `.cobol`, `.cpy` | `ISO/IEC 1989:2023` | `code-languages/cobol` |
@@ -281,6 +285,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | <img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg" alt="nginx logo" width="24" height="24"> | nginx | `nginx` | `nginx.conf`, `.nginx`, `.conf` | `1.30.0` | `code-languages/nginx` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Apple_logo_grey.svg" alt="Objective-C logo" width="24" height="24"> | Objective-C | `objective-c` | `.m`, `.mm` | `2.0` | `code-languages/objective-c` |
 | <img src="https://www.php.net/images/logos/new-php-logo.svg" alt="PHP logo" width="24" height="24"> | PHP | `php` | `.php`, `.phtml`, `.php3`, `.php4`, `.php5`, `.phps` | `8.5.6` | `code-languages/php` |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png" alt="PowerShell logo" width="24" height="24"> | PowerShell | `powershell` | `.ps1`, `.psm1`, `.psd1`, `.ps1xml` | `7.6.1` | `code-languages/powershell` |
 | <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Python-logo-notext.svg" alt="Python logo" width="24" height="24"> | Python | `python` | `.py`, `.pyw` | `3.14.4` | `code-languages/python` |
 | <img src="https://www.rust-lang.org/logos/rust-logo-512x512.png" alt="Rust logo" width="24" height="24"> | Rust | `rust` | `.rs` | `1.95.0` | `code-languages/rust` |
 | <img src="https://sass-lang.com/assets/img/logos/logo.svg" alt="Sass logo" width="24" height="24"> | Sass | `scss` | `.scss`, `.sass` | `1.99.0` | `code-languages/scss` |

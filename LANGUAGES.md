@@ -39,6 +39,7 @@
 - [x] SVG (`svg`)
 - [x] Visual Basic (`visual-basic`)
 - [x] Assembly (`assembly`)
+- [x] PowerShell (`powershell`)
 
 ## Pending
 
@@ -69,7 +70,6 @@
 - [ ] Rego (`rego`)
 - [ ] Julia (`julia`)
 - [ ] Zig (`zig`)
-- [ ] PowerShell (`powershell`)
 - [ ] TOML (`toml`)
 - [ ] Solidity (`solidity`)
 - [ ] Svelte (`svelte`)

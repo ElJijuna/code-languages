@@ -151,6 +151,11 @@
       "import": "./dist/languages/php.js",
       "require": "./dist/languages/php.cjs"
     },
+    "./powershell": {
+      "types": "./dist/languages/powershell.d.ts",
+      "import": "./dist/languages/powershell.js",
+      "require": "./dist/languages/powershell.cjs"
+    },
     "./python": {
       "types": "./dist/languages/python.d.ts",
       "import": "./dist/languages/python.js",

@@ -13,7 +13,7 @@ export const assembly = {
     ecosystems: ["Systems", "Embedded", "Reverse Engineering"],
   },
   version: "Architecture-specific",
-  logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/assembly/assembly-original.svg",
+  logo: "https://cdn.simpleicons.org/assemblyscript/007AAC",
   i18n: {
     en: {
       name: "Assembly",

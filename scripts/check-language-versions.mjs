@@ -166,6 +166,17 @@ const checkers = {
       sourceUrl: "https://api.github.com/repos/php/php-src/releases/latest",
     };
   },
+  async powershell() {
+    const html = await fetchText("https://github.com/PowerShell/PowerShell/releases");
+    const versions = [...html.matchAll(/v(\d+\.\d+\.\d+) Release of PowerShell/g)].map(
+      (match) => match[1],
+    );
+
+    return {
+      latestVersion: latestSemver(versions),
+      sourceUrl: "https://github.com/PowerShell/PowerShell/releases",
+    };
+  },
   async python() {
     const html = await fetchText("https://www.python.org/downloads/");
     const versions = [...html.matchAll(/Python (\d+\.\d+\.\d+)/g)].map((match) => match[1]);
