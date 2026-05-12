@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/ElJijuna/code-languages/compare/v1.5.0...v1.6.0) (2026-05-12)
+
+
+### Features
+
+* add language coffeescript ([1ab0d18](https://github.com/ElJijuna/code-languages/commit/1ab0d18e9be4faa7cb2dadc7d89cba47915a4b05))
+
 # [1.5.0](https://github.com/ElJijuna/code-languages/compare/v1.4.3...v1.5.0) (2026-05-12)
 
 
