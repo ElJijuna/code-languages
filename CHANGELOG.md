@@ -1,3 +1,11 @@
+# [1.5.0](https://github.com/ElJijuna/code-languages/compare/v1.4.3...v1.5.0) (2026-05-12)
+
+
+### Features
+
+* add language assembly ([2a24086](https://github.com/ElJijuna/code-languages/commit/2a24086c96ed50de102bca3e2fdc3270e045782d))
+* add language powershell and update assembly logo ([dfab043](https://github.com/ElJijuna/code-languages/commit/dfab043cfb5be880c935d014a2efe87c9ba06707))
+
 ## [1.4.3](https://github.com/ElJijuna/code-languages/compare/v1.4.2...v1.4.3) (2026-05-12)
 
 
