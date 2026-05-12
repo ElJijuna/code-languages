@@ -131,6 +131,11 @@
       "import": "./dist/languages/less.js",
       "require": "./dist/languages/less.cjs"
     },
+    "./lua": {
+      "types": "./dist/languages/lua.d.ts",
+      "import": "./dist/languages/lua.js",
+      "require": "./dist/languages/lua.cjs"
+    },
     "./makefile": {
       "types": "./dist/languages/makefile.d.ts",
       "import": "./dist/languages/makefile.js",

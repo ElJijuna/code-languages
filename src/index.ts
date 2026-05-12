@@ -31,6 +31,7 @@ export { javascript } from "./languages/javascript";
 export { json } from "./languages/json";
 export { kotlin } from "./languages/kotlin";
 export { less } from "./languages/less";
+export { lua } from "./languages/lua";
 export { makefile } from "./languages/makefile";
 export { markdown } from "./languages/markdown";
 export { nginx } from "./languages/nginx";

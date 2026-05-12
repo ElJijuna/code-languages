@@ -20,6 +20,7 @@ import { javascript } from "./languages/javascript";
 import { json } from "./languages/json";
 import { kotlin } from "./languages/kotlin";
 import { less } from "./languages/less";
+import { lua } from "./languages/lua";
 import { makefile } from "./languages/makefile";
 import { markdown } from "./languages/markdown";
 import { nginx } from "./languages/nginx";
@@ -66,6 +67,7 @@ export const languages = [
   json,
   kotlin,
   less,
+  lua,
   makefile,
   markdown,
   nginx,

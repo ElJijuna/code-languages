@@ -8,7 +8,7 @@
 
 Structured metadata for programming languages, packaged as a typed, tree-shakeable TypeScript library.
 
-`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 43 languages.
+`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 44 languages.
 
 ## Features
 
@@ -64,6 +64,7 @@ import { java } from "code-languages/java";
 import { html } from "code-languages/html";
 import { kotlin } from "code-languages/kotlin";
 import { less } from "code-languages/less";
+import { lua } from "code-languages/lua";
 import { makefile } from "code-languages/makefile";
 import { markdown } from "code-languages/markdown";
 import { nginx } from "code-languages/nginx";
@@ -103,6 +104,7 @@ console.log(java.version);
 console.log(html.extensions);
 console.log(kotlin.version);
 console.log(less.extensions);
+console.log(lua.version);
 console.log(makefile.extensions);
 console.log(markdown.website);
 console.log(nginx.version);
@@ -150,6 +152,7 @@ import {
   json,
   kotlin,
   less,
+  lua,
   makefile,
   localizeLanguage,
   markdown,
@@ -192,6 +195,7 @@ console.log(localizeLanguage(java).name);
 console.log(html.website);
 console.log(localizeLanguage(kotlin, "es-PE").description);
 console.log(localizeLanguage(less, "es").name);
+console.log(localizeLanguage(lua, "es").description);
 console.log(localizeLanguage(makefile).description);
 console.log(markdown.extensions);
 console.log(localizeLanguage(nginx, "es").description);
@@ -303,6 +307,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | <img src="https://www.json.org/img/json160.gif" alt="JSON logo" width="24" height="24"> | JSON | `json` | `.json` | `RFC 8259` | `code-languages/json` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" alt="Kotlin logo" width="24" height="24"> | Kotlin | `kotlin` | `.kt`, `.kts` | `2.3.20` | `code-languages/kotlin` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LESS_Logo.svg" alt="Less logo" width="24" height="24"> | Less | `less` | `.less` | `4.4.1` | `code-languages/less` |
+| <img src="https://www.lua.org/images/lua-logo.gif" alt="Lua logo" width="24" height="24"> | Lua | `lua` | `.lua`, `.rockspec` | `5.5.0` | `code-languages/lua` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Heckert_gnu.small.png" alt="Makefile logo" width="24" height="24"> | Makefile | `makefile` | `Makefile`, `makefile`, `GNUmakefile`, `.mk`, `.mak` | `4.4.1` | `code-languages/makefile` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg" alt="Markdown logo" width="24" height="24"> | Markdown | `markdown` | `.md`, `.markdown`, `.mdown`, `.mkd` | `CommonMark 0.31.2` | `code-languages/markdown` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg" alt="nginx logo" width="24" height="24"> | nginx | `nginx` | `nginx.conf`, `.nginx`, `.conf` | `1.30.0` | `code-languages/nginx` |

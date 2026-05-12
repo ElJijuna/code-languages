@@ -157,6 +157,15 @@ const checkers = {
       sourceUrl: "https://registry.npmjs.org/less/latest",
     };
   },
+  async lua() {
+    const html = await fetchText("https://www.lua.org/download.html");
+    const match = html.match(/current release is Lua\s*(\d+\.\d+\.\d+)/i);
+
+    return {
+      latestVersion: match?.[1],
+      sourceUrl: "https://www.lua.org/download.html",
+    };
+  },
   async makefile() {
     const html = await fetchText("https://ftp.gnu.org/gnu/make/");
     const versions = [...html.matchAll(/make-(\d+\.\d+(?:\.\d+)?)\.tar\.gz/g)].map(

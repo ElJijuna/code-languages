@@ -7,6 +7,7 @@ import {
   detectLanguage,
   detectLanguages,
   dockerfile,
+  lua,
   ruby,
   svelte,
   typescript,
@@ -37,6 +38,11 @@ describe("detectLanguage", () => {
 
   it("detects Svelte single-file components", () => {
     expect(detectLanguage("src/routes/+page.svelte")).toBe(svelte);
+  });
+
+  it("detects Lua scripts and rockspecs", () => {
+    expect(detectLanguage("plugins/init.lua")).toBe(lua);
+    expect(detectLanguage("lua-cjson-2.1.0.10-1.rockspec")).toBe(lua);
   });
 
   it("handles nested paths and case-insensitive names", () => {
