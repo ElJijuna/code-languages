@@ -1,3 +1,11 @@
+## [1.4.2](https://github.com/ElJijuna/code-languages/compare/v1.4.1...v1.4.2) (2026-05-12)
+
+
+### Bug Fixes
+
+* harden language version checkers ([abecce5](https://github.com/ElJijuna/code-languages/commit/abecce51097b0e0b042965c76e298f42051ef24b))
+* update Less metadata to 4.6.4 ([7101903](https://github.com/ElJijuna/code-languages/commit/710190315160e68a3331429d35575b1b6b784f74))
+
 ## [1.4.1](https://github.com/ElJijuna/code-languages/compare/v1.4.0...v1.4.1) (2026-05-11)
 
 
