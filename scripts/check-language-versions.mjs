@@ -5,6 +5,8 @@ const languagesDir = "src/languages";
 const reportPath = "language-version-report.json";
 
 const manualChecks = {
+  assembly:
+    "Assembly versions are architecture-specific and should be reviewed manually against assembler and ISA documentation.",
   c: "ISO standards do not expose a stable free machine-readable latest-version endpoint.",
   cobol: "COBOL standards should be reviewed manually against ISO/IEC 1989 publications.",
   cpp: "ISO standards do not expose a stable free machine-readable latest-version endpoint.",

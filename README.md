@@ -8,7 +8,7 @@
 
 Structured metadata for programming languages, packaged as a typed, tree-shakeable TypeScript library.
 
-`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 36 languages.
+`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 37 languages.
 
 ## Features
 
@@ -45,6 +45,7 @@ Import multiple languages:
 
 ```ts
 import { astro } from "code-languages/astro";
+import { assembly } from "code-languages/assembly";
 import { bash } from "code-languages/bash";
 import { c } from "code-languages/c";
 import { cobol } from "code-languages/cobol";
@@ -79,6 +80,7 @@ import { yaml } from "code-languages/yaml";
 import { zsh } from "code-languages/zsh";
 
 console.log(astro.version);
+console.log(assembly.extensions);
 console.log(bash.version);
 console.log(c.extensions);
 console.log(cpp.i18n.en.name);
@@ -116,6 +118,7 @@ Import from the package root when bundle size is not a concern:
 ```ts
 import {
   astro,
+  assembly,
   bash,
   c,
   cpp,
@@ -153,6 +156,7 @@ import {
 } from "code-languages";
 
 console.log(localizeLanguage(astro, "es").description);
+console.log(localizeLanguage(assembly).description);
 console.log(detectLanguage("src/index.ts")?.slug);
 console.log(detectLanguages("include/config.h").map((language) => language.slug));
 console.log(localizeLanguage(bash, "es").description);
@@ -254,6 +258,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | Logo | Language | Slug | Extensions | Version | Import |
 |---|---|---|---|---|---|
 | <img src="https://astro.build/assets/press/astro-icon-light.svg" alt="Astro logo" width="24" height="24"> | Astro | `astro` | `.astro` | `6.3.1` | `code-languages/astro` |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/assembly/assembly-original.svg" alt="Assembly logo" width="24" height="24"> | Assembly | `assembly` | `.asm`, `.s`, `.S`, `.inc` | `Architecture-specific` | `code-languages/assembly` |
 | <img src="https://bashlogo.com/img/symbol/svg/full_colored_dark.svg" alt="Bash logo" width="24" height="24"> | Bash | `bash` | `.sh`, `.bash`, `.bashrc`, `.bash_profile`, `.bash_login`, `.profile` | `5.3` | `code-languages/bash` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg" alt="C logo" width="24" height="24"> | C | `c` | `.c`, `.h` | `C23` | `code-languages/c` |
 | <img src="https://logo.svgcdn.com/devicon/cobol-original.png" alt="COBOL logo" width="24" height="24"> | COBOL | `cobol` | `.cob`, `.cbl`, `.cobol`, `.cpy` | `ISO/IEC 1989:2023` | `code-languages/cobol` |

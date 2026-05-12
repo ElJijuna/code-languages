@@ -38,10 +38,10 @@
 - [x] Objective-C (`objective-c`)
 - [x] SVG (`svg`)
 - [x] Visual Basic (`visual-basic`)
+- [x] Assembly (`assembly`)
 
 ## Pending
 
-- [ ] Assembly (`assembly`)
 - [ ] CMake (`cmake`)
 - [ ] CoffeeScript (`coffeescript`)
 - [ ] Crystal (`crystal`)

@@ -10,6 +10,7 @@ export type {
   LocalizedLanguage,
 } from "./types";
 export { astro } from "./languages/astro";
+export { assembly } from "./languages/assembly";
 export { bash } from "./languages/bash";
 export { c } from "./languages/c";
 export { cobol } from "./languages/cobol";

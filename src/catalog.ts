@@ -1,3 +1,4 @@
+import { assembly } from "./languages/assembly";
 import { astro } from "./languages/astro";
 import { bash } from "./languages/bash";
 import { c } from "./languages/c";
@@ -38,6 +39,7 @@ import { zsh } from "./languages/zsh";
 /** Ordered catalog of every language included in the package. */
 export const languages = [
   astro,
+  assembly,
   bash,
   c,
   cobol,

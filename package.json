@@ -51,6 +51,11 @@
       "import": "./dist/languages/astro.js",
       "require": "./dist/languages/astro.cjs"
     },
+    "./assembly": {
+      "types": "./dist/languages/assembly.d.ts",
+      "import": "./dist/languages/assembly.js",
+      "require": "./dist/languages/assembly.cjs"
+    },
     "./bash": {
       "types": "./dist/languages/bash.d.ts",
       "import": "./dist/languages/bash.js",
