@@ -7,6 +7,7 @@ import {
   detectLanguages,
   dockerfile,
   ruby,
+  svelte,
   typescript,
 } from "../src";
 
@@ -27,6 +28,10 @@ describe("detectLanguage", () => {
   it("detects Ruby extensions and project files", () => {
     expect(detectLanguage("app/models/user.rb")).toBe(ruby);
     expect(detectLanguage("Gemfile")).toBe(ruby);
+  });
+
+  it("detects Svelte single-file components", () => {
+    expect(detectLanguage("src/routes/+page.svelte")).toBe(svelte);
   });
 
   it("handles nested paths and case-insensitive names", () => {

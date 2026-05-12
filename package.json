@@ -146,6 +146,11 @@
       "import": "./dist/languages/svg.js",
       "require": "./dist/languages/svg.cjs"
     },
+    "./svelte": {
+      "types": "./dist/languages/svelte.d.ts",
+      "import": "./dist/languages/svelte.js",
+      "require": "./dist/languages/svelte.cjs"
+    },
     "./swift": {
       "types": "./dist/languages/swift.d.ts",
       "import": "./dist/languages/swift.js",

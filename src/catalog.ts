@@ -30,6 +30,7 @@ import { ruby } from "./languages/ruby";
 import { rust } from "./languages/rust";
 import { scss } from "./languages/scss";
 import { sql } from "./languages/sql";
+import { svelte } from "./languages/svelte";
 import { svg } from "./languages/svg";
 import { swift } from "./languages/swift";
 import { typescript } from "./languages/typescript";
@@ -75,6 +76,7 @@ export const languages = [
   scss,
   sql,
   svg,
+  svelte,
   swift,
   typescript,
   visualBasic,

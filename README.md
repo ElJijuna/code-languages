@@ -8,7 +8,7 @@
 
 Structured metadata for programming languages, packaged as a typed, tree-shakeable TypeScript library.
 
-`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 41 languages.
+`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 42 languages.
 
 ## Features
 
@@ -75,6 +75,7 @@ import { scss } from "code-languages/scss";
 import { json } from "code-languages/json";
 import { sql } from "code-languages/sql";
 import { svg } from "code-languages/svg";
+import { svelte } from "code-languages/svelte";
 import { swift } from "code-languages/swift";
 import { visualBasic } from "code-languages/visual-basic";
 import { vue } from "code-languages/vue";
@@ -112,6 +113,7 @@ console.log(scss.extensions);
 console.log(json.i18n.en.description);
 console.log(sql.i18n.en.name);
 console.log(svg.extensions);
+console.log(svelte.version);
 console.log(swift.version);
 console.log(visualBasic.i18n.en.name);
 console.log(vue.website);
@@ -157,6 +159,7 @@ import {
   scss,
   sql,
   svg,
+  svelte,
   swift,
   typescript,
   visualBasic,
@@ -197,6 +200,7 @@ console.log(localizeLanguage(scss).name);
 console.log(json.website);
 console.log(sql.extensions);
 console.log(localizeLanguage(svg, "es").description);
+console.log(localizeLanguage(svelte).name);
 console.log(swift.i18n.en.description);
 console.log(localizeLanguage(visualBasic, "es").description);
 console.log(localizeLanguage(vue, "es").description);
@@ -306,6 +310,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | <img src="https://sass-lang.com/assets/img/logos/logo.svg" alt="Sass logo" width="24" height="24"> | Sass | `scss` | `.scss`, `.sass` | `1.99.0` | `code-languages/scss` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" alt="SQL logo" width="24" height="24"> | SQL | `sql` | `.sql` | `SQL:2023` | `code-languages/sql` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/SVG_Logo.svg" alt="SVG logo" width="24" height="24"> | SVG | `svg` | `.svg`, `.svgz` | `SVG 2` | `code-languages/svg` |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" alt="Svelte logo" width="24" height="24"> | Svelte | `svelte` | `.svelte` | `5.55.5` | `code-languages/svelte` |
 | <img src="https://www.swift.org/assets/images/swift.svg" alt="Swift logo" width="24" height="24"> | Swift | `swift` | `.swift` | `6.2.2` | `code-languages/swift` |
 | <img src="https://www.typescriptlang.org/icons/icon-512x512.png" alt="TypeScript logo" width="24" height="24"> | TypeScript | `typescript` | `.ts`, `.tsx`, `.mts`, `.cts` | `6.0` | `code-languages/typescript` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/4/40/VB.NET_Logo.svg" alt="Visual Basic logo" width="24" height="24"> | Visual Basic | `visual-basic` | `.vb` | `17.13` | `code-languages/visual-basic` |
