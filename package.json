@@ -66,6 +66,11 @@
       "import": "./dist/languages/c.js",
       "require": "./dist/languages/c.cjs"
     },
+    "./coffeescript": {
+      "types": "./dist/languages/coffeescript.d.ts",
+      "import": "./dist/languages/coffeescript.js",
+      "require": "./dist/languages/coffeescript.cjs"
+    },
     "./csharp": {
       "types": "./dist/languages/csharp.d.ts",
       "import": "./dist/languages/csharp.js",

@@ -40,11 +40,11 @@
 - [x] Visual Basic (`visual-basic`)
 - [x] Assembly (`assembly`)
 - [x] PowerShell (`powershell`)
+- [x] CoffeeScript (`coffeescript`)
 
 ## Pending
 
 - [ ] CMake (`cmake`)
-- [ ] CoffeeScript (`coffeescript`)
 - [ ] Crystal (`crystal`)
 - [ ] CUDA (`cuda`)
 - [ ] Ruby (`ruby`)

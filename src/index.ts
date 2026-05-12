@@ -13,6 +13,7 @@ export { astro } from "./languages/astro";
 export { assembly } from "./languages/assembly";
 export { bash } from "./languages/bash";
 export { c } from "./languages/c";
+export { coffeescript } from "./languages/coffeescript";
 export { cobol } from "./languages/cobol";
 export { csharp } from "./languages/csharp";
 export { cpp } from "./languages/cpp";

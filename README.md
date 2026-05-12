@@ -8,7 +8,7 @@
 
 Structured metadata for programming languages, packaged as a typed, tree-shakeable TypeScript library.
 
-`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 38 languages.
+`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 39 languages.
 
 ## Features
 
@@ -48,6 +48,7 @@ import { astro } from "code-languages/astro";
 import { assembly } from "code-languages/assembly";
 import { bash } from "code-languages/bash";
 import { c } from "code-languages/c";
+import { coffeescript } from "code-languages/coffeescript";
 import { cobol } from "code-languages/cobol";
 import { cpp } from "code-languages/cpp";
 import { csharp } from "code-languages/csharp";
@@ -84,6 +85,7 @@ console.log(astro.version);
 console.log(assembly.extensions);
 console.log(bash.version);
 console.log(c.extensions);
+console.log(coffeescript.version);
 console.log(cpp.i18n.en.name);
 console.log(csharp.website);
 console.log(css.paradigms);
@@ -123,6 +125,7 @@ import {
   assembly,
   bash,
   c,
+  coffeescript,
   cpp,
   csharp,
   css,
@@ -164,6 +167,7 @@ console.log(detectLanguage("src/index.ts")?.slug);
 console.log(detectLanguages("include/config.h").map((language) => language.slug));
 console.log(localizeLanguage(bash, "es").description);
 console.log(c.version);
+console.log(localizeLanguage(coffeescript).name);
 console.log(cpp.website);
 console.log(localizeLanguage(csharp).description);
 console.log(localizeLanguage(css).name);
@@ -265,6 +269,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | <img src="https://cdn.simpleicons.org/assemblyscript/007AAC" alt="Assembly logo" width="24" height="24"> | Assembly | `assembly` | `.asm`, `.s`, `.S`, `.inc` | `Architecture-specific` | `code-languages/assembly` |
 | <img src="https://bashlogo.com/img/symbol/svg/full_colored_dark.svg" alt="Bash logo" width="24" height="24"> | Bash | `bash` | `.sh`, `.bash`, `.bashrc`, `.bash_profile`, `.bash_login`, `.profile` | `5.3` | `code-languages/bash` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg" alt="C logo" width="24" height="24"> | C | `c` | `.c`, `.h` | `C23` | `code-languages/c` |
+| <img src="https://cdn.simpleicons.org/coffeescript/2F2625" alt="CoffeeScript logo" width="24" height="24"> | CoffeeScript | `coffeescript` | `.coffee`, `.litcoffee`, `.cson` | `2.7.0` | `code-languages/coffeescript` |
 | <img src="https://logo.svgcdn.com/devicon/cobol-original.png" alt="COBOL logo" width="24" height="24"> | COBOL | `cobol` | `.cob`, `.cbl`, `.cobol`, `.cpy` | `ISO/IEC 1989:2023` | `code-languages/cobol` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="C++ logo" width="24" height="24"> | C++ | `cpp` | `.cpp`, `.cc`, `.cxx`, `.h`, `.hpp`, `.hh`, `.hxx` | `C++23` | `code-languages/cpp` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_C_sharp.svg" alt="C# logo" width="24" height="24"> | C# | `csharp` | `.cs`, `.csx` | `14` | `code-languages/csharp` |

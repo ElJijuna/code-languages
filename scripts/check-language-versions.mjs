@@ -60,6 +60,14 @@ const checkers = {
         "https://raw.githubusercontent.com/dotnet/docs/main/docs/csharp/whats-new/csharp-version-history.md",
     };
   },
+  async coffeescript() {
+    const json = await fetchJson("https://registry.npmjs.org/coffeescript/latest");
+
+    return {
+      latestVersion: json.version,
+      sourceUrl: "https://registry.npmjs.org/coffeescript/latest",
+    };
+  },
   async dart() {
     const json = await fetchJson(
       "https://storage.googleapis.com/dart-archive/channels/stable/release/latest/VERSION",
@@ -449,31 +457,27 @@ async function syncVersionUpdatePullRequest({ baseBranch, owner, repo, token, up
 
   await ensureBranch({ baseBranch, branch, owner, repo, token });
 
-  const file = await getRepositoryFile({
+  await updateRepositoryFileContent({
     branch,
+    message: issueTitle(update),
     owner,
     path: update.filePath,
     repo,
     token,
+    update,
+    updateContent: updateLanguageVersion,
   });
-  const updatedContent = updateLanguageVersion(file.content, update);
 
-  if (updatedContent === file.content) {
-    console.log(`Pull request branch already has ${update.name} ${update.latestVersion}`);
-  } else {
-    await updateRepositoryFile({
-      branch,
-      content: updatedContent,
-      message: issueTitle(update),
-      owner,
-      path: update.filePath,
-      repo,
-      sha: file.sha,
-      token,
-    });
-
-    console.log(`Updated ${update.filePath} on ${branch}`);
-  }
+  await updateRepositoryFileContent({
+    branch,
+    message: issueTitle(update),
+    owner,
+    path: "README.md",
+    repo,
+    token,
+    update,
+    updateContent: updateReadmeLanguageVersion,
+  });
 
   if (!existingPullRequest) {
     await githubRequest(`/repos/${owner}/${repo}/pulls`, {
@@ -587,6 +591,44 @@ async function getRepositoryFile({ branch, owner, path, repo, token }) {
   };
 }
 
+async function updateRepositoryFileContent({
+  branch,
+  message,
+  owner,
+  path,
+  repo,
+  token,
+  update,
+  updateContent,
+}) {
+  const file = await getRepositoryFile({
+    branch,
+    owner,
+    path,
+    repo,
+    token,
+  });
+  const updatedContent = updateContent(file.content, update);
+
+  if (updatedContent === file.content) {
+    console.log(`${path} already has ${update.name} ${update.latestVersion}`);
+    return;
+  }
+
+  await updateRepositoryFile({
+    branch,
+    content: updatedContent,
+    message,
+    owner,
+    path,
+    repo,
+    sha: file.sha,
+    token,
+  });
+
+  console.log(`Updated ${path} on ${branch}`);
+}
+
 async function updateRepositoryFile({ branch, content, message, owner, path, repo, sha, token }) {
   await githubRequest(`/repos/${owner}/${repo}/contents/${path}`, {
     method: "PUT",
@@ -602,6 +644,20 @@ async function updateRepositoryFile({ branch, content, message, owner, path, rep
 
 function updateLanguageVersion(content, update) {
   return content.replace(/version:\s*"[^"]+"/, `version: "${update.latestVersion}"`);
+}
+
+function updateReadmeLanguageVersion(content, update) {
+  const importPath = `code-languages/${update.slug}`;
+  const rowPattern = new RegExp(
+    `^(\\| .*? \\| .*? \\| \`${escapeRegExp(update.slug)}\` \\| .*? \\| )\`?[^|\\n]+\`?( \\| \`${escapeRegExp(importPath)}\` \\|)$`,
+    "m",
+  );
+
+  return content.replace(rowPattern, `$1\`${update.latestVersion}\`$2`);
+}
+
+function escapeRegExp(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
 function issueMarker(slug) {
