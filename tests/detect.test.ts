@@ -1,5 +1,14 @@
 import { describe, expect, it } from "vitest";
-import { c, cmake, cpp, detectLanguage, detectLanguages, dockerfile, typescript } from "../src";
+import {
+  c,
+  cmake,
+  cpp,
+  detectLanguage,
+  detectLanguages,
+  dockerfile,
+  ruby,
+  typescript,
+} from "../src";
 
 describe("detectLanguage", () => {
   it("detects a language by file extension", () => {
@@ -13,6 +22,11 @@ describe("detectLanguage", () => {
   it("detects dotted extension entries and exact project files", () => {
     expect(detectLanguage("cmake/FindSQLite.cmake")).toBe(cmake);
     expect(detectLanguage("CMakeLists.txt")).toBe(cmake);
+  });
+
+  it("detects Ruby extensions and project files", () => {
+    expect(detectLanguage("app/models/user.rb")).toBe(ruby);
+    expect(detectLanguage("Gemfile")).toBe(ruby);
   });
 
   it("handles nested paths and case-insensitive names", () => {

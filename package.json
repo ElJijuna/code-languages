@@ -171,6 +171,11 @@
       "import": "./dist/languages/python.js",
       "require": "./dist/languages/python.cjs"
     },
+    "./ruby": {
+      "types": "./dist/languages/ruby.d.ts",
+      "import": "./dist/languages/ruby.js",
+      "require": "./dist/languages/ruby.cjs"
+    },
     "./rust": {
       "types": "./dist/languages/rust.d.ts",
       "import": "./dist/languages/rust.js",

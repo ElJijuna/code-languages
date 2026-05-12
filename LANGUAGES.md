@@ -13,6 +13,7 @@
 - [x] Markdown (`markdown`)
 - [x] YAML (`yaml`)
 - [x] CMake (`cmake`)
+- [x] Ruby (`ruby`)
 - [x] C (`c`)
 - [x] C# (`csharp`)
 - [x] COBOL (`cobol`)
@@ -47,7 +48,6 @@
 
 - [ ] Crystal (`crystal`)
 - [ ] CUDA (`cuda`)
-- [ ] Ruby (`ruby`)
 - [ ] Elm (`elm`)
 - [ ] Fortran (`fortran`)
 - [ ] GLSL (`glsl`)

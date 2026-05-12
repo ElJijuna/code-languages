@@ -26,6 +26,7 @@ import { objectiveC } from "./languages/objective-c";
 import { php } from "./languages/php";
 import { powershell } from "./languages/powershell";
 import { python } from "./languages/python";
+import { ruby } from "./languages/ruby";
 import { rust } from "./languages/rust";
 import { scss } from "./languages/scss";
 import { sql } from "./languages/sql";
@@ -69,6 +70,7 @@ export const languages = [
   php,
   powershell,
   python,
+  ruby,
   rust,
   scss,
   sql,

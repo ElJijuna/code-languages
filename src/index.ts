@@ -37,6 +37,7 @@ export { objectiveC } from "./languages/objective-c";
 export { php } from "./languages/php";
 export { powershell } from "./languages/powershell";
 export { python } from "./languages/python";
+export { ruby } from "./languages/ruby";
 export { rust } from "./languages/rust";
 export { scss } from "./languages/scss";
 export { sql } from "./languages/sql";

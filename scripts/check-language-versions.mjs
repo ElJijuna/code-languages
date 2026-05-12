@@ -212,6 +212,15 @@ const checkers = {
       sourceUrl: "https://static.rust-lang.org/dist/channel-rust-stable.toml",
     };
   },
+  async ruby() {
+    const html = await fetchText("https://www.ruby-lang.org/en/downloads/");
+    const match = html.match(/current stable version is (\d+\.\d+\.\d+)/i);
+
+    return {
+      latestVersion: match?.[1],
+      sourceUrl: "https://www.ruby-lang.org/en/downloads/",
+    };
+  },
   async scss() {
     const json = await fetchJson("https://registry.npmjs.org/sass/latest");
 
