@@ -12,7 +12,7 @@ export const less = {
     packageManagers: ["npm", "pnpm", "Yarn", "Bun"],
     ecosystems: ["Web", "Design Systems", "Bootstrap"],
   },
-  version: "4.4.1",
+  version: "4.6.4",
   logo: "https://upload.wikimedia.org/wikipedia/commons/8/81/LESS_Logo.svg",
   i18n: {
     en: {
