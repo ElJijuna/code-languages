@@ -48,7 +48,9 @@ const checkers = {
     const markdown = await fetchText(
       "https://raw.githubusercontent.com/dotnet/docs/main/docs/csharp/whats-new/csharp-version-history.md",
     );
-    const versions = [...markdown.matchAll(/^## Version (\d+) of C#/gm)].map((match) => match[1]);
+    const versions = [...markdown.matchAll(/^## C# version (\d+(?:\.\d+)?)/gm)].map(
+      (match) => match[1],
+    );
 
     return {
       latestVersion: latestNumeric(versions),
@@ -78,7 +80,7 @@ const checkers = {
   },
   async graphql() {
     const html = await fetchText("https://spec.graphql.org/");
-    const match = html.match(/Latest Release\s*<\/[^>]+>\s*<[^>]+>\s*([^<]+)/i);
+    const match = html.match(/>([A-Z][a-z]+ \d{4})</);
 
     return {
       latestVersion: match?.[1]?.trim(),
@@ -125,12 +127,14 @@ const checkers = {
     };
   },
   async makefile() {
-    const html = await fetchText("https://www.gnu.org/software/make/manual/html_node/");
-    const match = html.match(/GNU `make` version (\d+\.\d+(?:\.\d+)?)/);
+    const html = await fetchText("https://ftp.gnu.org/gnu/make/");
+    const versions = [...html.matchAll(/make-(\d+\.\d+(?:\.\d+)?)\.tar\.gz/g)].map(
+      (match) => match[1],
+    );
 
     return {
-      latestVersion: match?.[1],
-      sourceUrl: "https://www.gnu.org/software/make/manual/html_node/",
+      latestVersion: latestSemver(versions),
+      sourceUrl: "https://ftp.gnu.org/gnu/make/",
     };
   },
   async markdown() {
@@ -153,20 +157,19 @@ const checkers = {
     };
   },
   async php() {
-    const html = await fetchText("https://www.php.net/downloads");
-    const match = html.match(/Current Stable PHP (\d+\.\d+\.\d+)/);
+    const json = await fetchJson("https://api.github.com/repos/php/php-src/releases/latest");
 
     return {
-      latestVersion: match?.[1],
-      sourceUrl: "https://www.php.net/downloads",
+      latestVersion: normalizeVersion(String(json.tag_name ?? "").replace(/^php-/i, "")),
+      sourceUrl: "https://api.github.com/repos/php/php-src/releases/latest",
     };
   },
   async python() {
     const html = await fetchText("https://www.python.org/downloads/");
-    const match = html.match(/Latest Python 3 Release - Python (\d+\.\d+\.\d+)/);
+    const versions = [...html.matchAll(/Python (\d+\.\d+\.\d+)/g)].map((match) => match[1]);
 
     return {
-      latestVersion: match?.[1],
+      latestVersion: latestSemver(versions),
       sourceUrl: "https://www.python.org/downloads/",
     };
   },
