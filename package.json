@@ -76,6 +76,11 @@
       "import": "./dist/languages/bash.js",
       "require": "./dist/languages/bash.cjs"
     },
+    "./batch": {
+      "types": "./dist/languages/batch.d.ts",
+      "import": "./dist/languages/batch.js",
+      "require": "./dist/languages/batch.cjs"
+    },
     "./c": {
       "types": "./dist/languages/c.d.ts",
       "import": "./dist/languages/c.js",

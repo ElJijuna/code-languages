@@ -9,6 +9,8 @@ const manualChecks = {
   assembly:
     "Assembly versions are architecture-specific and should be reviewed manually against assembler and ISA documentation.",
   c: "ISO standards do not expose a stable free machine-readable latest-version endpoint.",
+  batch:
+    "Batch is tied to DOS and Windows Command Processor releases rather than an independent language version.",
   cobol: "COBOL standards should be reviewed manually against ISO/IEC 1989 publications.",
   cpp: "ISO standards do not expose a stable free machine-readable latest-version endpoint.",
   css: "CSS is maintained as living specifications rather than one package version.",

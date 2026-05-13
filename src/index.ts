@@ -16,6 +16,7 @@ export { asp } from "./languages/asp";
 export { astro } from "./languages/astro";
 export { assembly } from "./languages/assembly";
 export { bash } from "./languages/bash";
+export { batch } from "./languages/batch";
 export { c } from "./languages/c";
 export { cmake } from "./languages/cmake";
 export { coffeescript } from "./languages/coffeescript";

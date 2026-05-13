@@ -32,6 +32,7 @@
 - [x] GraphQL (`graphql`)
 - [x] Kotlin (`kotlin`)
 - [x] Bash (`bash`)
+- [x] Batch (`batch`)
 - [x] zsh (`zsh`)
 - [x] XML (`xml`)
 - [x] C++ (`cpp`)

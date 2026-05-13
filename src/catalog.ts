@@ -3,6 +3,7 @@ import { asp } from "./languages/asp";
 import { assembly } from "./languages/assembly";
 import { astro } from "./languages/astro";
 import { bash } from "./languages/bash";
+import { batch } from "./languages/batch";
 import { c } from "./languages/c";
 import { cmake } from "./languages/cmake";
 import { cobol } from "./languages/cobol";
@@ -62,6 +63,7 @@ export const languages = [
   astro,
   assembly,
   bash,
+  batch,
   c,
   cmake,
   coffeescript,

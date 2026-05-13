@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   abap,
+  batch,
   c,
   cmake,
   cpp,
@@ -44,6 +45,11 @@ describe("detectLanguage", () => {
   it("detects Lua scripts and rockspecs", () => {
     expect(detectLanguage("plugins/init.lua")).toBe(lua);
     expect(detectLanguage("lua-cjson-2.1.0.10-1.rockspec")).toBe(lua);
+  });
+
+  it("detects Windows Batch scripts", () => {
+    expect(detectLanguage("scripts/setup.bat")).toBe(batch);
+    expect(detectLanguage("scripts/deploy.cmd")).toBe(batch);
   });
 
   it("detects Gradle Groovy and Kotlin DSL build scripts", () => {
