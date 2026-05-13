@@ -223,7 +223,7 @@ console.log(zsh.version);
 Every language object satisfies the `Language` interface:
 
 ```ts
-export type Locale = "en" | "es";
+export type Locale = "en" | "es" | `en-${string}` | `es-${string}` | string;
 
 export interface LanguageContent {
   name: string;
@@ -251,6 +251,27 @@ export interface Language {
   };
 }
 ```
+
+Use the fluent API when you want one entry point for localization, dynamic loading,
+and filename detection:
+
+```ts
+import { api } from "code-languages/api";
+
+const astro = api.language("astro").locale("es-PE").get();
+const vue = await api.language("vue").locale("en-US").load();
+const detected = api.detect("src/App.vue").locale("es").get();
+const ambiguous = await api.detectAll("include/config.h").locale("en").load();
+
+console.log(astro?.resolvedLocale); // "es"
+console.log(vue?.slug); // "vue"
+console.log(detected?.name); // "Vue"
+console.log(ambiguous.map((language) => language.slug)); // ["c", "cpp"]
+```
+
+`get()` reads from the bundled in-memory catalog. `load()` uses explicit dynamic
+imports so bundlers can lazy-load individual language modules when the consumer
+build supports code splitting.
 
 Use `localizeLanguage` to read localized display content with English fallback:
 

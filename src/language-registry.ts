@@ -1,0 +1,116 @@
+import type { Language } from "./types";
+
+export interface LanguageIndexEntry {
+  slug: string;
+  extensions: readonly string[];
+}
+
+/** Lightweight slug and extension index used by lazy filename detection. */
+export const languageIndex = [
+  { slug: "abap", extensions: [".abap"] },
+  { slug: "astro", extensions: [".astro"] },
+  { slug: "assembly", extensions: [".asm", ".s", ".S", ".inc"] },
+  {
+    slug: "bash",
+    extensions: [".sh", ".bash", ".bashrc", ".bash_profile", ".bash_login", ".profile"],
+  },
+  { slug: "c", extensions: [".c", ".h"] },
+  { slug: "cmake", extensions: ["CMakeLists.txt", ".cmake"] },
+  { slug: "coffeescript", extensions: [".coffee", ".litcoffee", ".cson"] },
+  { slug: "cobol", extensions: [".cob", ".cbl", ".cobol", ".cpy"] },
+  { slug: "cpp", extensions: [".cpp", ".cc", ".cxx", ".h", ".hpp", ".hh", ".hxx"] },
+  { slug: "csharp", extensions: [".cs", ".csx"] },
+  { slug: "css", extensions: [".css"] },
+  { slug: "dart", extensions: [".dart"] },
+  { slug: "dockerfile", extensions: ["Dockerfile", ".dockerfile"] },
+  { slug: "go", extensions: [".go"] },
+  { slug: "graphql", extensions: [".graphql", ".gql", ".graphqls"] },
+  { slug: "groovy", extensions: [".groovy", ".gvy", ".gy", ".gsh"] },
+  { slug: "html", extensions: [".html", ".htm"] },
+  { slug: "java", extensions: [".java"] },
+  { slug: "javascript", extensions: [".js", ".mjs", ".cjs", ".jsx"] },
+  { slug: "json", extensions: [".json"] },
+  { slug: "kotlin", extensions: [".kt", ".kts"] },
+  { slug: "less", extensions: [".less"] },
+  { slug: "lua", extensions: [".lua", ".rockspec"] },
+  { slug: "makefile", extensions: ["Makefile", "makefile", "GNUmakefile", ".mk", ".mak"] },
+  { slug: "markdown", extensions: [".md", ".markdown", ".mdown", ".mkd"] },
+  { slug: "nginx", extensions: ["nginx.conf", ".nginx", ".conf"] },
+  { slug: "objective-c", extensions: [".m", ".mm"] },
+  { slug: "php", extensions: [".php", ".phtml", ".php3", ".php4", ".php5", ".phps"] },
+  { slug: "powershell", extensions: [".ps1", ".psm1", ".psd1", ".ps1xml"] },
+  { slug: "python", extensions: [".py", ".pyw"] },
+  {
+    slug: "ruby",
+    extensions: [".rb", ".rbw", ".rake", ".gemspec", "Gemfile", "Rakefile", "config.ru"],
+  },
+  { slug: "rust", extensions: [".rs"] },
+  { slug: "scss", extensions: [".scss", ".sass"] },
+  { slug: "sql", extensions: [".sql"] },
+  { slug: "svg", extensions: [".svg", ".svgz"] },
+  { slug: "svelte", extensions: [".svelte"] },
+  { slug: "swift", extensions: [".swift"] },
+  { slug: "typescript", extensions: [".ts", ".tsx", ".mts", ".cts"] },
+  { slug: "visual-basic", extensions: [".vb"] },
+  { slug: "vue", extensions: [".vue"] },
+  { slug: "webassembly", extensions: [".wasm", ".wat"] },
+  { slug: "xml", extensions: [".xml", ".xsd", ".xsl", ".xslt"] },
+  { slug: "yaml", extensions: [".yaml", ".yml"] },
+  {
+    slug: "zsh",
+    extensions: [".zsh", ".zshrc", ".zshenv", ".zprofile", ".zlogin", ".zlogout", ".zsh-theme"],
+  },
+] as const satisfies readonly LanguageIndexEntry[];
+
+/** Explicit dynamic import map for every language module. */
+export const languageLoaders = {
+  abap: () => import("./languages/abap").then((module) => module.abap),
+  assembly: () => import("./languages/assembly").then((module) => module.assembly),
+  astro: () => import("./languages/astro").then((module) => module.astro),
+  bash: () => import("./languages/bash").then((module) => module.bash),
+  c: () => import("./languages/c").then((module) => module.c),
+  cmake: () => import("./languages/cmake").then((module) => module.cmake),
+  cobol: () => import("./languages/cobol").then((module) => module.cobol),
+  coffeescript: () => import("./languages/coffeescript").then((module) => module.coffeescript),
+  cpp: () => import("./languages/cpp").then((module) => module.cpp),
+  csharp: () => import("./languages/csharp").then((module) => module.csharp),
+  css: () => import("./languages/css").then((module) => module.css),
+  dart: () => import("./languages/dart").then((module) => module.dart),
+  dockerfile: () => import("./languages/dockerfile").then((module) => module.dockerfile),
+  go: () => import("./languages/go").then((module) => module.go),
+  graphql: () => import("./languages/graphql").then((module) => module.graphql),
+  groovy: () => import("./languages/groovy").then((module) => module.groovy),
+  html: () => import("./languages/html").then((module) => module.html),
+  java: () => import("./languages/java").then((module) => module.java),
+  javascript: () => import("./languages/javascript").then((module) => module.javascript),
+  json: () => import("./languages/json").then((module) => module.json),
+  kotlin: () => import("./languages/kotlin").then((module) => module.kotlin),
+  less: () => import("./languages/less").then((module) => module.less),
+  lua: () => import("./languages/lua").then((module) => module.lua),
+  makefile: () => import("./languages/makefile").then((module) => module.makefile),
+  markdown: () => import("./languages/markdown").then((module) => module.markdown),
+  nginx: () => import("./languages/nginx").then((module) => module.nginx),
+  "objective-c": () => import("./languages/objective-c").then((module) => module.objectiveC),
+  php: () => import("./languages/php").then((module) => module.php),
+  powershell: () => import("./languages/powershell").then((module) => module.powershell),
+  python: () => import("./languages/python").then((module) => module.python),
+  ruby: () => import("./languages/ruby").then((module) => module.ruby),
+  rust: () => import("./languages/rust").then((module) => module.rust),
+  scss: () => import("./languages/scss").then((module) => module.scss),
+  sql: () => import("./languages/sql").then((module) => module.sql),
+  svelte: () => import("./languages/svelte").then((module) => module.svelte),
+  svg: () => import("./languages/svg").then((module) => module.svg),
+  swift: () => import("./languages/swift").then((module) => module.swift),
+  typescript: () => import("./languages/typescript").then((module) => module.typescript),
+  "visual-basic": () => import("./languages/visual-basic").then((module) => module.visualBasic),
+  vue: () => import("./languages/vue").then((module) => module.vue),
+  webassembly: () => import("./languages/webassembly").then((module) => module.webassembly),
+  xml: () => import("./languages/xml").then((module) => module.xml),
+  yaml: () => import("./languages/yaml").then((module) => module.yaml),
+  zsh: () => import("./languages/zsh").then((module) => module.zsh),
+} as const satisfies Record<string, () => Promise<Language>>;
+
+export type LanguageSlug = keyof typeof languageLoaders;
+
+/** Dynamically imports a language module by slug. */
+export const loadLanguage = (slug: string) => languageLoaders[slug as LanguageSlug]?.();

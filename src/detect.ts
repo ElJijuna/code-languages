@@ -1,7 +1,6 @@
 import { languages } from "./catalog";
+import { detectMatchingEntries } from "./match";
 import type { Language } from "./types";
-
-const pathSegmentPattern = /[/\\]/;
 
 /**
  * Detects all languages that match a filename or path.
@@ -14,17 +13,7 @@ const pathSegmentPattern = /[/\\]/;
  * // ["c", "cpp"]
  */
 export const detectLanguages = (filename: string): Language[] => {
-  const normalizedFilename = filename.trim();
-
-  if (!normalizedFilename) {
-    return [];
-  }
-
-  const basename = normalizedFilename.split(pathSegmentPattern).at(-1)?.toLowerCase() ?? "";
-
-  return languages.filter((language) =>
-    language.extensions.some((extension) => matchesExtension(basename, extension)),
-  );
+  return detectMatchingEntries(languages, filename);
 };
 
 /**
@@ -38,13 +27,3 @@ export const detectLanguages = (filename: string): Language[] => {
  */
 export const detectLanguage = (filename: string): Language | undefined =>
   detectLanguages(filename).at(0);
-
-const matchesExtension = (basename: string, extension: string) => {
-  const normalizedExtension = extension.toLowerCase();
-
-  if (normalizedExtension.startsWith(".")) {
-    return basename.endsWith(normalizedExtension);
-  }
-
-  return basename === normalizedExtension || basename.endsWith(`.${normalizedExtension}`);
-};
