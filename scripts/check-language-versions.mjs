@@ -92,6 +92,15 @@ const checkers = {
       sourceUrl: "https://cmake.org/download/",
     };
   },
+  async cuda() {
+    const html = await fetchText("https://developer.nvidia.com/cuda-toolkit-archive");
+    const versions = [...html.matchAll(/CUDA Toolkit\s+(\d+\.\d+\.\d+)/g)].map((match) => match[1]);
+
+    return {
+      latestVersion: latestSemver(versions),
+      sourceUrl: "https://developer.nvidia.com/cuda-toolkit-archive",
+    };
+  },
   async coffeescript() {
     const json = await fetchJson("https://registry.npmjs.org/coffeescript/latest");
 

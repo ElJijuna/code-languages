@@ -96,6 +96,11 @@
       "import": "./dist/languages/csharp.js",
       "require": "./dist/languages/csharp.cjs"
     },
+    "./cuda": {
+      "types": "./dist/languages/cuda.d.ts",
+      "import": "./dist/languages/cuda.js",
+      "require": "./dist/languages/cuda.cjs"
+    },
     "./cobol": {
       "types": "./dist/languages/cobol.d.ts",
       "import": "./dist/languages/cobol.js",

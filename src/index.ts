@@ -23,6 +23,7 @@ export { cobol } from "./languages/cobol";
 export { csharp } from "./languages/csharp";
 export { cpp } from "./languages/cpp";
 export { css } from "./languages/css";
+export { cuda } from "./languages/cuda";
 export { dart } from "./languages/dart";
 export { dockerfile } from "./languages/dockerfile";
 export { fsharp } from "./languages/fsharp";

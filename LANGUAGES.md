@@ -54,11 +54,11 @@
 - [x] ASP/ASPX (`asp`)
 - [x] Pascal (`pascal`)
 - [x] Zig (`zig`)
+- [x] CUDA (`cuda`)
 
 ## Pending
 
 - [ ] Crystal (`crystal`)
-- [ ] CUDA (`cuda`)
 - [ ] Elm (`elm`)
 - [ ] Fortran (`fortran`)
 - [ ] GLSL (`glsl`)

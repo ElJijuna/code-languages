@@ -10,6 +10,7 @@ import { coffeescript } from "./languages/coffeescript";
 import { cpp } from "./languages/cpp";
 import { csharp } from "./languages/csharp";
 import { css } from "./languages/css";
+import { cuda } from "./languages/cuda";
 import { dart } from "./languages/dart";
 import { dockerfile } from "./languages/dockerfile";
 import { fsharp } from "./languages/fsharp";
@@ -65,6 +66,7 @@ export const languages = [
   cpp,
   csharp,
   css,
+  cuda,
   dart,
   dockerfile,
   fsharp,

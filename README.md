@@ -56,6 +56,7 @@ import { cobol } from "code-languages/cobol";
 import { cpp } from "code-languages/cpp";
 import { csharp } from "code-languages/csharp";
 import { css } from "code-languages/css";
+import { cuda } from "code-languages/cuda";
 import { dart } from "code-languages/dart";
 import { dockerfile } from "code-languages/dockerfile";
 import { fsharp } from "code-languages/fsharp";
@@ -105,6 +106,7 @@ console.log(coffeescript.version);
 console.log(cpp.i18n.en.name);
 console.log(csharp.website);
 console.log(css.paradigms);
+console.log(cuda.version);
 console.log(dockerfile.i18n.en.name);
 console.log(fsharp.version);
 console.log(graphql.version);
@@ -158,6 +160,7 @@ import {
   cpp,
   csharp,
   css,
+  cuda,
   detectLanguage,
   detectLanguages,
   dockerfile,
@@ -213,6 +216,7 @@ console.log(localizeLanguage(coffeescript).name);
 console.log(cpp.website);
 console.log(localizeLanguage(csharp).description);
 console.log(localizeLanguage(css).name);
+console.log(localizeLanguage(cuda, "es").description);
 console.log(dockerfile.website);
 console.log(localizeLanguage(fsharp, "es").description);
 console.log(localizeLanguage(graphql, "es").description);
@@ -350,6 +354,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="C++ logo" width="24" height="24"> | C++ | `cpp` | `.cpp`, `.cc`, `.cxx`, `.h`, `.hpp`, `.hh`, `.hxx` | `C++23` | `code-languages/cpp` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_C_sharp.svg" alt="C# logo" width="24" height="24"> | C# | `csharp` | `.cs`, `.csx` | `14` | `code-languages/csharp` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Official_CSS_Logo.svg" alt="CSS logo" width="24" height="24"> | CSS | `css` | `.css` | `Living Standard` | `code-languages/css` |
+| <img src="https://cdn.simpleicons.org/nvidia/76B900" alt="CUDA logo" width="24" height="24"> | CUDA | `cuda` | `.cu`, `.cuh` | `13.2.1` | `code-languages/cuda` |
 | <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Dart_programming_language_logo.svg" alt="Dart logo" width="24" height="24"> | Dart | `dart` | `.dart` | `3.11.6` | `code-languages/dart` |
 | <img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="Dockerfile logo" width="24" height="24"> | Dockerfile | `dockerfile` | `Dockerfile`, `.dockerfile` | `1.10` | `code-languages/dockerfile` |
 | <img src="https://cdn.simpleicons.org/fsharp/378BBA" alt="F# logo" width="24" height="24"> | F# | `fsharp` | `.fs`, `.fsi`, `.fsx`, `.fsscript` | `10` | `code-languages/fsharp` |
