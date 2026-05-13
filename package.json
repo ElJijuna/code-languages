@@ -286,6 +286,11 @@
       "import": "./dist/languages/objective-c.js",
       "require": "./dist/languages/objective-c.cjs"
     },
+    "./pascal": {
+      "types": "./dist/languages/pascal.d.ts",
+      "import": "./dist/languages/pascal.js",
+      "require": "./dist/languages/pascal.cjs"
+    },
     "./yaml": {
       "types": "./dist/languages/yaml.d.ts",
       "import": "./dist/languages/yaml.js",

@@ -29,6 +29,7 @@ import { markdown } from "./languages/markdown";
 import { matlab } from "./languages/matlab";
 import { nginx } from "./languages/nginx";
 import { objectiveC } from "./languages/objective-c";
+import { pascal } from "./languages/pascal";
 import { php } from "./languages/php";
 import { powershell } from "./languages/powershell";
 import { pug } from "./languages/pug";
@@ -82,6 +83,7 @@ export const languages = [
   markdown,
   nginx,
   objectiveC,
+  pascal,
   php,
   powershell,
   pug,

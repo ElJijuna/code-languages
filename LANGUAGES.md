@@ -52,6 +52,7 @@
 - [x] Julia (`julia`)
 - [x] Scala (`scala`)
 - [x] ASP/ASPX (`asp`)
+- [x] Pascal (`pascal`)
 
 ## Pending
 
@@ -67,7 +68,6 @@
 - [ ] Haskell (`haskell`)
 - [ ] Nix (`nix`)
 - [ ] OCaml (`ocaml`)
-- [ ] Pascal (`pascal`)
 - [ ] Protocol Buffers (`protobuf`)
 - [ ] R (`r`)
 - [ ] Racket (`racket`)

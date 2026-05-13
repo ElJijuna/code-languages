@@ -93,6 +93,7 @@ code-languages/
 │       ├── typescript.ts
 │       ├── javascript.ts
 │       ├── julia.ts
+│       ├── pascal.ts
 │       ├── python.ts
 │       ├── rust.ts
 │       ├── scala.ts

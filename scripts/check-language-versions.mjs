@@ -233,6 +233,15 @@ const checkers = {
       sourceUrl: "https://nginx.org/en/download.html",
     };
   },
+  async pascal() {
+    const html = await fetchText("https://www.freepascal.org/download.html.en");
+    const match = html.match(/latest release is\s+(\d+\.\d+\.\d+)/i);
+
+    return {
+      latestVersion: match?.[1],
+      sourceUrl: "https://www.freepascal.org/download.html.en",
+    };
+  },
   async php() {
     const json = await fetchJson("https://api.github.com/repos/php/php-src/releases/latest");
 
