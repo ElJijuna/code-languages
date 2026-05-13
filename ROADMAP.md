@@ -93,6 +93,7 @@ code-languages/
 │       ├── javascript.ts
 │       ├── python.ts
 │       ├── rust.ts
+│       ├── matlab.ts
 │       ├── go.ts
 │       └── ...
 ├── dist/                               # Generated — do not edit

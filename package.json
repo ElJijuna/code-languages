@@ -146,6 +146,11 @@
       "import": "./dist/languages/makefile.js",
       "require": "./dist/languages/makefile.cjs"
     },
+    "./matlab": {
+      "types": "./dist/languages/matlab.d.ts",
+      "import": "./dist/languages/matlab.js",
+      "require": "./dist/languages/matlab.cjs"
+    },
     "./nginx": {
       "types": "./dist/languages/nginx.d.ts",
       "import": "./dist/languages/nginx.js",

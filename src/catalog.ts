@@ -23,6 +23,7 @@ import { less } from "./languages/less";
 import { lua } from "./languages/lua";
 import { makefile } from "./languages/makefile";
 import { markdown } from "./languages/markdown";
+import { matlab } from "./languages/matlab";
 import { nginx } from "./languages/nginx";
 import { objectiveC } from "./languages/objective-c";
 import { php } from "./languages/php";
@@ -69,6 +70,7 @@ export const languages = [
   less,
   lua,
   makefile,
+  matlab,
   markdown,
   nginx,
   objectiveC,

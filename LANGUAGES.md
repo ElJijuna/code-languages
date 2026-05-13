@@ -46,6 +46,7 @@
 - [x] PowerShell (`powershell`)
 - [x] CoffeeScript (`coffeescript`)
 - [x] Lua (`lua`)
+- [x] MATLAB (`matlab`)
 
 ## Pending
 
@@ -60,7 +61,6 @@
 - [ ] Scala (`scala`)
 - [ ] Elixir (`elixir`)
 - [ ] Haskell (`haskell`)
-- [ ] MATLAB (`matlab`)
 - [ ] Nix (`nix`)
 - [ ] OCaml (`ocaml`)
 - [ ] Pascal (`pascal`)

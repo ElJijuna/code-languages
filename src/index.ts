@@ -35,6 +35,7 @@ export { kotlin } from "./languages/kotlin";
 export { less } from "./languages/less";
 export { lua } from "./languages/lua";
 export { makefile } from "./languages/makefile";
+export { matlab } from "./languages/matlab";
 export { markdown } from "./languages/markdown";
 export { nginx } from "./languages/nginx";
 export { objectiveC } from "./languages/objective-c";

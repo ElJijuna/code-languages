@@ -177,6 +177,15 @@ const checkers = {
       sourceUrl: "https://ftp.gnu.org/gnu/make/",
     };
   },
+  async matlab() {
+    const html = await fetchText("https://www.mathworks.com/company/newsroom.html");
+    const match = html.match(/\bR(\d{4}[ab])\b/i);
+
+    return {
+      latestVersion: match ? `R${match[1]}` : undefined,
+      sourceUrl: "https://www.mathworks.com/company/newsroom.html",
+    };
+  },
   async markdown() {
     const html = await fetchText("https://spec.commonmark.org/");
     const versions = [...html.matchAll(/\/(\d+\.\d+(?:\.\d+)?)\//g)].map((match) => match[1]);
@@ -860,6 +869,8 @@ function majorMinor(value) {
 function normalizeComparable(value) {
   return normalizeVersion(value)
     .replace(/^commonmark\s+/i, "")
+    .replace(/^r(\d{4})a$/i, "$1.1")
+    .replace(/^r(\d{4})b$/i, "$1.2")
     .replace(/(\d{4})\s+fps(\d+)/i, "$1.$2")
     .trim()
     .toLowerCase();

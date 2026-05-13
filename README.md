@@ -66,6 +66,7 @@ import { kotlin } from "code-languages/kotlin";
 import { less } from "code-languages/less";
 import { lua } from "code-languages/lua";
 import { makefile } from "code-languages/makefile";
+import { matlab } from "code-languages/matlab";
 import { markdown } from "code-languages/markdown";
 import { nginx } from "code-languages/nginx";
 import { objectiveC } from "code-languages/objective-c";
@@ -106,6 +107,7 @@ console.log(kotlin.version);
 console.log(less.extensions);
 console.log(lua.version);
 console.log(makefile.extensions);
+console.log(matlab.version);
 console.log(markdown.website);
 console.log(nginx.version);
 console.log(objectiveC.version);
@@ -154,6 +156,7 @@ import {
   less,
   lua,
   makefile,
+  matlab,
   localizeLanguage,
   markdown,
   nginx,
@@ -197,6 +200,7 @@ console.log(localizeLanguage(kotlin, "es-PE").description);
 console.log(localizeLanguage(less, "es").name);
 console.log(localizeLanguage(lua, "es").description);
 console.log(localizeLanguage(makefile).description);
+console.log(localizeLanguage(matlab, "es").description);
 console.log(markdown.extensions);
 console.log(localizeLanguage(nginx, "es").description);
 console.log(objectiveC.extensions);
@@ -330,6 +334,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LESS_Logo.svg" alt="Less logo" width="24" height="24"> | Less | `less` | `.less` | `4.4.1` | `code-languages/less` |
 | <img src="https://www.lua.org/images/lua-logo.gif" alt="Lua logo" width="24" height="24"> | Lua | `lua` | `.lua`, `.rockspec` | `5.5.0` | `code-languages/lua` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Heckert_gnu.small.png" alt="Makefile logo" width="24" height="24"> | Makefile | `makefile` | `Makefile`, `makefile`, `GNUmakefile`, `.mk`, `.mak` | `4.4.1` | `code-languages/makefile` |
+| <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Matlab_Logo.png" alt="MATLAB logo" width="24" height="24"> | MATLAB | `matlab` | `.m`, `.mlx` | `R2026a` | `code-languages/matlab` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg" alt="Markdown logo" width="24" height="24"> | Markdown | `markdown` | `.md`, `.markdown`, `.mdown`, `.mkd` | `CommonMark 0.31.2` | `code-languages/markdown` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg" alt="nginx logo" width="24" height="24"> | nginx | `nginx` | `nginx.conf`, `.nginx`, `.conf` | `1.30.0` | `code-languages/nginx` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Apple_logo_grey.svg" alt="Objective-C logo" width="24" height="24"> | Objective-C | `objective-c` | `.m`, `.mm` | `2.0` | `code-languages/objective-c` |
