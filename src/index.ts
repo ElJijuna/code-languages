@@ -56,6 +56,7 @@ export { sql } from "./languages/sql";
 export { svg } from "./languages/svg";
 export { svelte } from "./languages/svelte";
 export { swift } from "./languages/swift";
+export { toml } from "./languages/toml";
 export { typescript } from "./languages/typescript";
 export { visualBasic } from "./languages/visual-basic";
 export { vue } from "./languages/vue";

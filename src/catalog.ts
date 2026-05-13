@@ -43,6 +43,7 @@ import { sql } from "./languages/sql";
 import { svelte } from "./languages/svelte";
 import { svg } from "./languages/svg";
 import { swift } from "./languages/swift";
+import { toml } from "./languages/toml";
 import { typescript } from "./languages/typescript";
 import { visualBasic } from "./languages/visual-basic";
 import { vue } from "./languages/vue";
@@ -99,6 +100,7 @@ export const languages = [
   svg,
   svelte,
   swift,
+  toml,
   typescript,
   visualBasic,
   vue,

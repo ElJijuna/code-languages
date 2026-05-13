@@ -186,6 +186,11 @@
       "import": "./dist/languages/svelte.js",
       "require": "./dist/languages/svelte.cjs"
     },
+    "./toml": {
+      "types": "./dist/languages/toml.d.ts",
+      "import": "./dist/languages/toml.js",
+      "require": "./dist/languages/toml.cjs"
+    },
     "./swift": {
       "types": "./dist/languages/swift.d.ts",
       "import": "./dist/languages/swift.js",

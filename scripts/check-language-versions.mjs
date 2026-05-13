@@ -340,6 +340,14 @@ const checkers = {
       sourceUrl: "https://api.github.com/repos/swiftlang/swift/releases/latest",
     };
   },
+  async toml() {
+    const json = await fetchJson("https://api.github.com/repos/toml-lang/toml/releases/latest");
+
+    return {
+      latestVersion: normalizeVersion(json.tag_name),
+      sourceUrl: "https://api.github.com/repos/toml-lang/toml/releases/latest",
+    };
+  },
   async typescript() {
     const json = await fetchJson("https://registry.npmjs.org/typescript/latest");
 

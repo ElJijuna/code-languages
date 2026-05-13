@@ -55,6 +55,7 @@
 - [x] Pascal (`pascal`)
 - [x] Zig (`zig`)
 - [x] CUDA (`cuda`)
+- [x] TOML (`toml`)
 
 ## Pending
 
@@ -74,7 +75,6 @@
 - [ ] Racket (`racket`)
 - [ ] Razor (`razor`)
 - [ ] Rego (`rego`)
-- [ ] TOML (`toml`)
 - [ ] Solidity (`solidity`)
 - [ ] TeX (`tex`)
 - [ ] Twig (`twig`)
