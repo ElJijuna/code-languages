@@ -1,3 +1,26 @@
+# [1.8.0](https://github.com/ElJijuna/code-languages/compare/v1.7.0...v1.8.0) (2026-05-13)
+
+
+### Bug Fixes
+
+* update checker ([05bd3a3](https://github.com/ElJijuna/code-languages/commit/05bd3a3be671bb9a3381e7df9ab27ea0ecb1ee44))
+
+
+### Features
+
+* add fluent language API ([320401f](https://github.com/ElJijuna/code-languages/commit/320401f31363eb8343603c000445e268ad243629))
+* add language asp/aspx ([2a1ef92](https://github.com/ElJijuna/code-languages/commit/2a1ef9280a854e1e93be89e1325227b4acc1dcef))
+* add language cuda ([d4e028b](https://github.com/ElJijuna/code-languages/commit/d4e028b996bf18cce5b9aaad3428d338457f200d))
+* add language f# ([1352572](https://github.com/ElJijuna/code-languages/commit/1352572deb599b7bcc5cb465e0b0e879fe8dd163))
+* add language julia ([e4ccaea](https://github.com/ElJijuna/code-languages/commit/e4ccaea648a1f4b2065ce148f6d671d6ab46b908))
+* add language matlab ([fb65e64](https://github.com/ElJijuna/code-languages/commit/fb65e6448ca94906aab5ff880cc127e7c946e764))
+* add language pascal ([752f398](https://github.com/ElJijuna/code-languages/commit/752f39829ac16144b2340a9876f2c6f3c0c289a4))
+* add language R ([9494881](https://github.com/ElJijuna/code-languages/commit/949488151dfcd64b9e5130c675b0a478635aeedb))
+* add language scala ([884e6ea](https://github.com/ElJijuna/code-languages/commit/884e6ea0ab4127927f57fa1e6386c8d3d785ffb2))
+* add language toml ([03f67cc](https://github.com/ElJijuna/code-languages/commit/03f67cc2d4314b3e46a3d640bd29a1457c3b1319))
+* add language zig ([9b5ab02](https://github.com/ElJijuna/code-languages/commit/9b5ab0233a4a3b0494e21582f0e9d2c61d1088a8))
+* all language pug ([8b52762](https://github.com/ElJijuna/code-languages/commit/8b527621bc2b00bade2da92f0194bd6ddcddfe69))
+
 # [1.7.0](https://github.com/ElJijuna/code-languages/compare/v1.6.0...v1.7.0) (2026-05-12)
 
 
