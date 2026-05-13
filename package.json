@@ -126,6 +126,11 @@
       "import": "./dist/languages/json.js",
       "require": "./dist/languages/json.cjs"
     },
+    "./julia": {
+      "types": "./dist/languages/julia.d.ts",
+      "import": "./dist/languages/julia.js",
+      "require": "./dist/languages/julia.cjs"
+    },
     "./kotlin": {
       "types": "./dist/languages/kotlin.d.ts",
       "import": "./dist/languages/kotlin.js",

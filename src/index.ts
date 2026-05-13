@@ -32,6 +32,7 @@ export { html } from "./languages/html";
 export { java } from "./languages/java";
 export { javascript } from "./languages/javascript";
 export { json } from "./languages/json";
+export { julia } from "./languages/julia";
 export { kotlin } from "./languages/kotlin";
 export { less } from "./languages/less";
 export { lua } from "./languages/lua";

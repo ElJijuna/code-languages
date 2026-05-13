@@ -49,6 +49,7 @@
 - [x] MATLAB (`matlab`)
 - [x] Pug (`pug`)
 - [x] F# (`fsharp`)
+- [x] Julia (`julia`)
 
 ## Pending
 
@@ -71,7 +72,6 @@
 - [ ] Racket (`racket`)
 - [ ] Razor (`razor`)
 - [ ] Rego (`rego`)
-- [ ] Julia (`julia`)
 - [ ] Zig (`zig`)
 - [ ] TOML (`toml`)
 - [ ] Solidity (`solidity`)

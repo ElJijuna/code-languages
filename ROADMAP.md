@@ -91,6 +91,7 @@ code-languages/
 │   └── languages/
 │       ├── typescript.ts
 │       ├── javascript.ts
+│       ├── julia.ts
 │       ├── python.ts
 │       ├── rust.ts
 │       ├── fsharp.ts

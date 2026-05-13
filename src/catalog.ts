@@ -19,6 +19,7 @@ import { html } from "./languages/html";
 import { java } from "./languages/java";
 import { javascript } from "./languages/javascript";
 import { json } from "./languages/json";
+import { julia } from "./languages/julia";
 import { kotlin } from "./languages/kotlin";
 import { less } from "./languages/less";
 import { lua } from "./languages/lua";
@@ -69,6 +70,7 @@ export const languages = [
   java,
   javascript,
   json,
+  julia,
   kotlin,
   less,
   lua,

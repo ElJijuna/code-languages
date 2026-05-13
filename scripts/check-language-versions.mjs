@@ -150,6 +150,14 @@ const checkers = {
       sourceUrl: "https://api.adoptium.net/v3/info/available_releases",
     };
   },
+  async julia() {
+    const json = await fetchJson("https://api.github.com/repos/JuliaLang/julia/releases/latest");
+
+    return {
+      latestVersion: normalizeVersion(json.tag_name),
+      sourceUrl: "https://api.github.com/repos/JuliaLang/julia/releases/latest",
+    };
+  },
   async kotlin() {
     const json = await fetchJson("https://api.github.com/repos/JetBrains/kotlin/releases/latest");
 

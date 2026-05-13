@@ -63,6 +63,7 @@ import { groovy } from "code-languages/groovy";
 import { javascript } from "code-languages/javascript";
 import { java } from "code-languages/java";
 import { html } from "code-languages/html";
+import { julia } from "code-languages/julia";
 import { kotlin } from "code-languages/kotlin";
 import { less } from "code-languages/less";
 import { lua } from "code-languages/lua";
@@ -106,6 +107,7 @@ console.log(groovy.version);
 console.log(javascript.website);
 console.log(java.version);
 console.log(html.extensions);
+console.log(julia.version);
 console.log(kotlin.version);
 console.log(less.extensions);
 console.log(lua.version);
@@ -157,6 +159,7 @@ import {
   html,
   java,
   json,
+  julia,
   kotlin,
   less,
   lua,
@@ -203,6 +206,7 @@ console.log(localizeLanguage(graphql, "es").description);
 console.log(localizeLanguage(groovy).description);
 console.log(localizeLanguage(java).name);
 console.log(html.website);
+console.log(localizeLanguage(julia, "es").description);
 console.log(localizeLanguage(kotlin, "es-PE").description);
 console.log(localizeLanguage(less, "es").name);
 console.log(localizeLanguage(lua, "es").description);
@@ -339,6 +343,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | <img src="https://www.vectorlogo.zone/logos/java/java-icon.svg" alt="Java logo" width="24" height="24"> | Java | `java` | `.java` | `26` | `code-languages/java` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript logo" width="24" height="24"> | JavaScript | `javascript` | `.js`, `.mjs`, `.cjs`, `.jsx` | `ECMAScript 2025` | `code-languages/javascript` |
 | <img src="https://www.json.org/img/json160.gif" alt="JSON logo" width="24" height="24"> | JSON | `json` | `.json` | `RFC 8259` | `code-languages/json` |
+| <img src="https://cdn.simpleicons.org/julia/9558B2" alt="Julia logo" width="24" height="24"> | Julia | `julia` | `.jl` | `1.12.6` | `code-languages/julia` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" alt="Kotlin logo" width="24" height="24"> | Kotlin | `kotlin` | `.kt`, `.kts` | `2.3.20` | `code-languages/kotlin` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LESS_Logo.svg" alt="Less logo" width="24" height="24"> | Less | `less` | `.less` | `4.4.1` | `code-languages/less` |
 | <img src="https://www.lua.org/images/lua-logo.gif" alt="Lua logo" width="24" height="24"> | Lua | `lua` | `.lua`, `.rockspec` | `5.5.0` | `code-languages/lua` |
