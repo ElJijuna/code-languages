@@ -34,6 +34,7 @@ import { pug } from "./languages/pug";
 import { python } from "./languages/python";
 import { ruby } from "./languages/ruby";
 import { rust } from "./languages/rust";
+import { scala } from "./languages/scala";
 import { scss } from "./languages/scss";
 import { sql } from "./languages/sql";
 import { svelte } from "./languages/svelte";
@@ -85,6 +86,7 @@ export const languages = [
   python,
   ruby,
   rust,
+  scala,
   scss,
   sql,
   svg,

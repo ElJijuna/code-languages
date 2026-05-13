@@ -94,6 +94,7 @@ code-languages/
 │       ├── julia.ts
 │       ├── python.ts
 │       ├── rust.ts
+│       ├── scala.ts
 │       ├── fsharp.ts
 │       ├── matlab.ts
 │       ├── pug.ts

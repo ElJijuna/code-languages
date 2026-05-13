@@ -216,6 +216,11 @@
       "import": "./dist/languages/rust.js",
       "require": "./dist/languages/rust.cjs"
     },
+    "./scala": {
+      "types": "./dist/languages/scala.d.ts",
+      "import": "./dist/languages/scala.js",
+      "require": "./dist/languages/scala.cjs"
+    },
     "./scss": {
       "types": "./dist/languages/scss.d.ts",
       "import": "./dist/languages/scss.js",

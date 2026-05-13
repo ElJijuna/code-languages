@@ -47,6 +47,7 @@ export { pug } from "./languages/pug";
 export { python } from "./languages/python";
 export { ruby } from "./languages/ruby";
 export { rust } from "./languages/rust";
+export { scala } from "./languages/scala";
 export { scss } from "./languages/scss";
 export { sql } from "./languages/sql";
 export { svg } from "./languages/svg";

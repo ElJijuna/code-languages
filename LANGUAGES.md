@@ -50,6 +50,7 @@
 - [x] Pug (`pug`)
 - [x] F# (`fsharp`)
 - [x] Julia (`julia`)
+- [x] Scala (`scala`)
 
 ## Pending
 
@@ -61,7 +62,6 @@
 - [ ] HCL (`hcl`)
 - [ ] INI (`ini`)
 - [ ] Jupyter Notebook (`jupyter-notebook`)
-- [ ] Scala (`scala`)
 - [ ] Elixir (`elixir`)
 - [ ] Haskell (`haskell`)
 - [ ] Nix (`nix`)

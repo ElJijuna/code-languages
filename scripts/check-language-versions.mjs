@@ -267,6 +267,14 @@ const checkers = {
       sourceUrl: "https://static.rust-lang.org/dist/channel-rust-stable.toml",
     };
   },
+  async scala() {
+    const json = await fetchJson("https://api.github.com/repos/scala/scala3/releases/latest");
+
+    return {
+      latestVersion: normalizeVersion(json.tag_name),
+      sourceUrl: "https://api.github.com/repos/scala/scala3/releases/latest",
+    };
+  },
   async ruby() {
     const html = await fetchText("https://www.ruby-lang.org/en/downloads/");
     const match = html.match(/current stable version is (\d+\.\d+\.\d+)/i);
