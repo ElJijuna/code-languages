@@ -56,6 +56,11 @@
       "import": "./dist/languages/abap.js",
       "require": "./dist/languages/abap.cjs"
     },
+    "./asp": {
+      "types": "./dist/languages/asp.d.ts",
+      "import": "./dist/languages/asp.js",
+      "require": "./dist/languages/asp.cjs"
+    },
     "./astro": {
       "types": "./dist/languages/astro.d.ts",
       "import": "./dist/languages/astro.js",

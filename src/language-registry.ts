@@ -8,6 +8,7 @@ export interface LanguageIndexEntry {
 /** Lightweight slug and extension index used by lazy filename detection. */
 export const languageIndex = [
   { slug: "abap", extensions: [".abap"] },
+  { slug: "asp", extensions: [".asp", ".aspx", ".ascx", ".ashx", ".asmx", ".master"] },
   { slug: "astro", extensions: [".astro"] },
   { slug: "assembly", extensions: [".asm", ".s", ".S", ".inc"] },
   {
@@ -70,6 +71,7 @@ export const languageIndex = [
 /** Explicit dynamic import map for every language module. */
 export const languageLoaders = {
   abap: () => import("./languages/abap").then((module) => module.abap),
+  asp: () => import("./languages/asp").then((module) => module.asp),
   assembly: () => import("./languages/assembly").then((module) => module.assembly),
   astro: () => import("./languages/astro").then((module) => module.astro),
   bash: () => import("./languages/bash").then((module) => module.bash),

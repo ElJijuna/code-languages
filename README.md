@@ -45,6 +45,7 @@ Import multiple languages:
 
 ```ts
 import { abap } from "code-languages/abap";
+import { asp } from "code-languages/asp";
 import { astro } from "code-languages/astro";
 import { assembly } from "code-languages/assembly";
 import { bash } from "code-languages/bash";
@@ -92,6 +93,7 @@ import { yaml } from "code-languages/yaml";
 import { zsh } from "code-languages/zsh";
 
 console.log(abap.version);
+console.log(asp.extensions);
 console.log(astro.version);
 console.log(assembly.extensions);
 console.log(bash.version);
@@ -142,6 +144,7 @@ Import from the package root when bundle size is not a concern:
 ```ts
 import {
   abap,
+  asp,
   astro,
   assembly,
   bash,
@@ -192,6 +195,7 @@ import {
 } from "code-languages";
 
 console.log(localizeLanguage(abap).description);
+console.log(localizeLanguage(asp, "es").description);
 console.log(localizeLanguage(astro, "es").description);
 console.log(localizeLanguage(assembly).description);
 console.log(detectLanguage("src/index.ts")?.slug);
@@ -327,6 +331,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | Logo | Language | Slug | Extensions | Version | Import |
 |---|---|---|---|---|---|
 | <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg" alt="ABAP logo" width="24" height="24"> | ABAP | `abap` | `.abap` | `ABAP Platform 2025 FPS01` | `code-languages/abap` |
+| <img src="https://cdn.simpleicons.org/dotnet/512BD4" alt="ASP/ASPX logo" width="24" height="24"> | ASP/ASPX | `asp` | `.asp`, `.aspx`, `.ascx`, `.ashx`, `.asmx`, `.master` | `4.8.1` | `code-languages/asp` |
 | <img src="https://astro.build/assets/press/astro-icon-light.svg" alt="Astro logo" width="24" height="24"> | Astro | `astro` | `.astro` | `6.3.1` | `code-languages/astro` |
 | <img src="https://cdn.simpleicons.org/assemblyscript/007AAC" alt="Assembly logo" width="24" height="24"> | Assembly | `assembly` | `.asm`, `.s`, `.S`, `.inc` | `Architecture-specific` | `code-languages/assembly` |
 | <img src="https://bashlogo.com/img/symbol/svg/full_colored_dark.svg" alt="Bash logo" width="24" height="24"> | Bash | `bash` | `.sh`, `.bash`, `.bashrc`, `.bash_profile`, `.bash_login`, `.profile` | `5.3` | `code-languages/bash` |

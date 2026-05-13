@@ -47,6 +47,17 @@ const checkers = {
       sourceUrl: "https://registry.npmjs.org/astro/latest",
     };
   },
+  async asp() {
+    const html = await fetchText(
+      "https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-framework",
+    );
+    const match = html.match(/\.NET Framework\s+(\d+\.\d+\.\d+)\s+is the latest version/i);
+
+    return {
+      latestVersion: match?.[1],
+      sourceUrl: "https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-framework",
+    };
+  },
   async bash() {
     const html = await fetchText("https://ftp.gnu.org/gnu/bash/");
     const versions = [...html.matchAll(/bash-(\d+\.\d+(?:\.\d+)?)\.tar\.gz/g)].map(
