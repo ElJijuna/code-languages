@@ -251,6 +251,11 @@
       "import": "./dist/languages/dockerfile.js",
       "require": "./dist/languages/dockerfile.cjs"
     },
+    "./fsharp": {
+      "types": "./dist/languages/fsharp.d.ts",
+      "import": "./dist/languages/fsharp.js",
+      "require": "./dist/languages/fsharp.cjs"
+    },
     "./html": {
       "types": "./dist/languages/html.d.ts",
       "import": "./dist/languages/html.js",

@@ -93,6 +93,7 @@ code-languages/
 │       ├── javascript.ts
 │       ├── python.ts
 │       ├── rust.ts
+│       ├── fsharp.ts
 │       ├── matlab.ts
 │       ├── pug.ts
 │       ├── go.ts

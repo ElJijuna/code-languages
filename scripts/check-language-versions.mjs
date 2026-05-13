@@ -100,6 +100,15 @@ const checkers = {
         "https://storage.googleapis.com/dart-archive/channels/stable/release/latest/VERSION",
     };
   },
+  async fsharp() {
+    const html = await fetchText("https://learn.microsoft.com/en-us/dotnet/fsharp/whats-new/");
+    const versions = [...html.matchAll(/F#\s+(\d+)/g)].map((match) => match[1]);
+
+    return {
+      latestVersion: latestNumeric(versions),
+      sourceUrl: "https://learn.microsoft.com/en-us/dotnet/fsharp/whats-new/",
+    };
+  },
   async go() {
     const text = await fetchText("https://go.dev/VERSION?m=text");
     const match = text.match(/^go(\d+\.\d+(?:\.\d+)?)/m);

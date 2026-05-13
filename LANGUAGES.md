@@ -48,6 +48,7 @@
 - [x] Lua (`lua`)
 - [x] MATLAB (`matlab`)
 - [x] Pug (`pug`)
+- [x] F# (`fsharp`)
 
 ## Pending
 
@@ -81,7 +82,6 @@
 - [ ] XSLT (`xslt`)
 - [ ] Clojure (`clojure`)
 - [ ] Erlang (`erlang`)
-- [ ] F# (`fsharp`)
 - [ ] Perl (`perl`)
 
 ## Lower Priority Languages
