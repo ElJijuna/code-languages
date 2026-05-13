@@ -12,7 +12,7 @@ export const scala = {
     packageManagers: ["sbt", "Maven", "Gradle", "Scala CLI"],
     ecosystems: ["JVM", "Web", "Data Engineering", "Distributed Systems"],
   },
-  version: "3.7.4",
+  version: "3.8.3",
   logo: "https://cdn.simpleicons.org/scala/DC322F",
   i18n: {
     en: {
