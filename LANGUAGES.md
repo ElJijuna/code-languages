@@ -56,6 +56,7 @@
 - [x] Zig (`zig`)
 - [x] CUDA (`cuda`)
 - [x] TOML (`toml`)
+- [x] R (`r`)
 
 ## Pending
 
@@ -71,7 +72,6 @@
 - [ ] Nix (`nix`)
 - [ ] OCaml (`ocaml`)
 - [ ] Protocol Buffers (`protobuf`)
-- [ ] R (`r`)
 - [ ] Racket (`racket`)
 - [ ] Razor (`razor`)
 - [ ] Rego (`rego`)

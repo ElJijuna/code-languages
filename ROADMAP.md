@@ -95,6 +95,7 @@ code-languages/
 │       ├── julia.ts
 │       ├── pascal.ts
 │       ├── python.ts
+│       ├── r.ts
 │       ├── rust.ts
 │       ├── cuda.ts
 │       ├── scala.ts

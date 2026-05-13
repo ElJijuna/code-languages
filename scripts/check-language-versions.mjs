@@ -287,6 +287,15 @@ const checkers = {
       sourceUrl: "https://www.python.org/downloads/",
     };
   },
+  async r() {
+    const html = await fetchText("https://www.r-project.org/");
+    const versions = [...html.matchAll(/R version\s+(\d+\.\d+\.\d+)/g)].map((match) => match[1]);
+
+    return {
+      latestVersion: latestSemver(versions),
+      sourceUrl: "https://www.r-project.org/",
+    };
+  },
   async rust() {
     const toml = await fetchText("https://static.rust-lang.org/dist/channel-rust-stable.toml");
     const match = toml.match(/pkg\.rust\]\s+version = "(\d+\.\d+\.\d+)/);

@@ -48,6 +48,7 @@ export { php } from "./languages/php";
 export { powershell } from "./languages/powershell";
 export { pug } from "./languages/pug";
 export { python } from "./languages/python";
+export { r } from "./languages/r";
 export { ruby } from "./languages/ruby";
 export { rust } from "./languages/rust";
 export { scala } from "./languages/scala";

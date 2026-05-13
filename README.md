@@ -79,6 +79,7 @@ import { php } from "code-languages/php";
 import { powershell } from "code-languages/powershell";
 import { pug } from "code-languages/pug";
 import { python } from "code-languages/python";
+import { r } from "code-languages/r";
 import { ruby } from "code-languages/ruby";
 import { scala } from "code-languages/scala";
 import { scss } from "code-languages/scss";
@@ -129,6 +130,7 @@ console.log(php.version);
 console.log(powershell.extensions);
 console.log(pug.version);
 console.log(python.publishedDate);
+console.log(r.version);
 console.log(ruby.website);
 console.log(scala.version);
 console.log(scss.extensions);
@@ -188,6 +190,7 @@ import {
   powershell,
   pug,
   rust,
+  r,
   ruby,
   scala,
   scss,
@@ -240,6 +243,7 @@ console.log(localizeLanguage(php, "es").description);
 console.log(localizeLanguage(powershell).name);
 console.log(localizeLanguage(pug, "es").description);
 console.log(go.logo);
+console.log(localizeLanguage(r, "es").description);
 console.log(localizeLanguage(ruby, "es").description);
 console.log(localizeLanguage(scala, "es").description);
 console.log(localizeLanguage(scss).name);
@@ -383,6 +387,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png" alt="PowerShell logo" width="24" height="24"> | PowerShell | `powershell` | `.ps1`, `.psm1`, `.psd1`, `.ps1xml` | `7.6.1` | `code-languages/powershell` |
 | <img src="https://cdn.simpleicons.org/pug/A86454" alt="Pug logo" width="24" height="24"> | Pug | `pug` | `.pug`, `.jade` | `3.0.3` | `code-languages/pug` |
 | <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Python-logo-notext.svg" alt="Python logo" width="24" height="24"> | Python | `python` | `.py`, `.pyw` | `3.14.4` | `code-languages/python` |
+| <img src="https://www.r-project.org/logo/Rlogo.svg" alt="R logo" width="24" height="24"> | R | `r` | `.r`, `.R`, `.rmd`, `.Rmd`, `.qmd`, `.Rprofile` | `4.6.0` | `code-languages/r` |
 | <img src="https://www.ruby-lang.org/images/header-ruby-logo.png" alt="Ruby logo" width="24" height="24"> | Ruby | `ruby` | `.rb`, `.rbw`, `.rake`, `.gemspec`, `Gemfile`, `Rakefile`, `config.ru` | `4.0.3` | `code-languages/ruby` |
 | <img src="https://www.rust-lang.org/logos/rust-logo-512x512.png" alt="Rust logo" width="24" height="24"> | Rust | `rust` | `.rs` | `1.95.0` | `code-languages/rust` |
 | <img src="https://cdn.simpleicons.org/scala/DC322F" alt="Scala logo" width="24" height="24"> | Scala | `scala` | `.scala`, `.sc` | `3.7.4` | `code-languages/scala` |

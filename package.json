@@ -221,6 +221,11 @@
       "import": "./dist/languages/python.js",
       "require": "./dist/languages/python.cjs"
     },
+    "./r": {
+      "types": "./dist/languages/r.d.ts",
+      "import": "./dist/languages/r.js",
+      "require": "./dist/languages/r.cjs"
+    },
     "./ruby": {
       "types": "./dist/languages/ruby.d.ts",
       "import": "./dist/languages/ruby.js",
