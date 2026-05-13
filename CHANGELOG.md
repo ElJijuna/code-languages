@@ -1,3 +1,11 @@
+## [1.9.2](https://github.com/ElJijuna/code-languages/compare/v1.9.1...v1.9.2) (2026-05-13)
+
+
+### Bug Fixes
+
+* update Gradle metadata to 9.5.1 ([1e3afd3](https://github.com/ElJijuna/code-languages/commit/1e3afd3841dceae63ba39b819e91e7b4c48e1b86))
+* update Gradle metadata to 9.5.1 ([a78fe98](https://github.com/ElJijuna/code-languages/commit/a78fe980c85178de3ec97a094271455d571944aa))
+
 ## [1.9.1](https://github.com/ElJijuna/code-languages/compare/v1.9.0...v1.9.1) (2026-05-13)
 
 
