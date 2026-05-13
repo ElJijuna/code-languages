@@ -5,6 +5,7 @@ const languagesDir = "src/languages";
 const reportPath = "language-version-report.json";
 
 const manualChecks = {
+  abap: "ABAP Platform releases should be reviewed manually against SAP Help Portal because the source page is rendered dynamically.",
   assembly:
     "Assembly versions are architecture-specific and should be reviewed manually against assembler and ISA documentation.",
   c: "ISO standards do not expose a stable free machine-readable latest-version endpoint.",
@@ -27,18 +28,6 @@ const manualChecks = {
 };
 
 const checkers = {
-  async abap() {
-    const html = await fetchText(
-      "https://help.sap.com/docs/ABAP_PLATFORM_NEW/b5670aaaa2364a29935f40b16499972d/48ba073157b85295e10000000a42189b.html",
-    );
-    const match = html.match(/Version:\s*(\d{4}\s+FPS\d+)/i);
-
-    return {
-      latestVersion: match ? `ABAP Platform ${match[1]}` : undefined,
-      sourceUrl:
-        "https://help.sap.com/docs/ABAP_PLATFORM_NEW/b5670aaaa2364a29935f40b16499972d/48ba073157b85295e10000000a42189b.html",
-    };
-  },
   async astro() {
     const json = await fetchJson("https://registry.npmjs.org/astro/latest");
 
@@ -196,7 +185,7 @@ const checkers = {
   },
   async lua() {
     const html = await fetchText("https://www.lua.org/download.html");
-    const match = html.match(/current release is Lua\s*(\d+\.\d+\.\d+)/i);
+    const match = html.match(/lua-(\d+\.\d+\.\d+)\.tar\.gz/i);
 
     return {
       latestVersion: match?.[1],
@@ -244,7 +233,7 @@ const checkers = {
   },
   async pascal() {
     const html = await fetchText("https://www.freepascal.org/download.html.en");
-    const match = html.match(/latest release is\s+(\d+\.\d+\.\d+)/i);
+    const match = html.match(/latest release is[\s\S]{0,80}?(\d+\.\d+\.\d+)/i);
 
     return {
       latestVersion: match?.[1],
