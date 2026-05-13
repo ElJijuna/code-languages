@@ -8,6 +8,7 @@ import {
   detectLanguage,
   detectLanguages,
   dockerfile,
+  git,
   gradle,
   lua,
   ruby,
@@ -55,6 +56,12 @@ describe("detectLanguage", () => {
   it("detects Gradle Groovy and Kotlin DSL build scripts", () => {
     expect(detectLanguage("build.gradle")).toBe(gradle);
     expect(detectLanguage("settings.gradle.kts")).toBe(gradle);
+  });
+
+  it("detects Git metadata files", () => {
+    expect(detectLanguage(".git")).toBe(git);
+    expect(detectLanguage(".gitignore")).toBe(git);
+    expect(detectLanguage("submodule/.gitmodules")).toBe(git);
   });
 
   it("handles nested paths and case-insensitive names", () => {

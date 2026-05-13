@@ -120,6 +120,15 @@ const checkers = {
       sourceUrl: "https://learn.microsoft.com/en-us/dotnet/fsharp/whats-new/",
     };
   },
+  async git() {
+    const html = await fetchText("https://git-scm.com/docs/git");
+    const match = html.match(/git last updated in (\d+\.\d+\.\d+)/);
+
+    return {
+      latestVersion: match?.[1],
+      sourceUrl: "https://git-scm.com/docs/git",
+    };
+  },
   async go() {
     const text = await fetchText("https://go.dev/VERSION?m=text");
     const match = text.match(/^go(\d+\.\d+(?:\.\d+)?)/m);

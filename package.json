@@ -261,6 +261,11 @@
       "import": "./dist/languages/webassembly.js",
       "require": "./dist/languages/webassembly.cjs"
     },
+    "./git": {
+      "types": "./dist/languages/git.d.ts",
+      "import": "./dist/languages/git.js",
+      "require": "./dist/languages/git.cjs"
+    },
     "./go": {
       "types": "./dist/languages/go.d.ts",
       "import": "./dist/languages/go.js",

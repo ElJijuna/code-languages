@@ -13,7 +13,7 @@ export const batch = {
     ecosystems: ["Windows", "DOS", "Automation"],
   },
   version: "Windows Command Processor",
-  logo: "https://cdn.simpleicons.org/windows/0078D4",
+  logo: "https://icons.iconarchive.com/icons/simpleicons-team/simple/128/windowsterminal-icon.png",
   i18n: {
     en: {
       name: "Batch",

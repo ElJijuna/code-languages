@@ -28,6 +28,7 @@ export { cuda } from "./languages/cuda";
 export { dart } from "./languages/dart";
 export { dockerfile } from "./languages/dockerfile";
 export { fsharp } from "./languages/fsharp";
+export { git } from "./languages/git";
 export { go } from "./languages/go";
 export { gradle } from "./languages/gradle";
 export { graphql } from "./languages/graphql";

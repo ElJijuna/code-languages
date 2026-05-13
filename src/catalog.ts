@@ -15,6 +15,7 @@ import { cuda } from "./languages/cuda";
 import { dart } from "./languages/dart";
 import { dockerfile } from "./languages/dockerfile";
 import { fsharp } from "./languages/fsharp";
+import { git } from "./languages/git";
 import { go } from "./languages/go";
 import { gradle } from "./languages/gradle";
 import { graphql } from "./languages/graphql";
@@ -75,6 +76,7 @@ export const languages = [
   dart,
   dockerfile,
   fsharp,
+  git,
   go,
   gradle,
   graphql,

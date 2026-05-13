@@ -27,6 +27,7 @@
 - [x] SQL (`sql`)
 - [x] Dockerfile (`dockerfile`)
 - [x] Swift (`swift`)
+- [x] Git (`git`)
 - [x] Groovy (`groovy`)
 - [x] Gradle (`gradle`)
 - [x] GraphQL (`graphql`)
