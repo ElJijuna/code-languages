@@ -1,3 +1,12 @@
+# [1.9.0](https://github.com/ElJijuna/code-languages/compare/v1.8.0...v1.9.0) (2026-05-13)
+
+
+### Features
+
+* add language batch ([0ea5396](https://github.com/ElJijuna/code-languages/commit/0ea5396c4e0b49b0d97558d272b416bd3b53ed00))
+* add language Git ([de97f90](https://github.com/ElJijuna/code-languages/commit/de97f90f9a42654d1aea0461aaa0fc067c510c0a))
+* add language gradle ([4e4c24f](https://github.com/ElJijuna/code-languages/commit/4e4c24f4b3302bbf71a61ab7c2f2bc07ff00eb83))
+
 # [1.8.0](https://github.com/ElJijuna/code-languages/compare/v1.7.0...v1.8.0) (2026-05-13)
 
 
