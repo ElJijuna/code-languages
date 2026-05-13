@@ -12,7 +12,7 @@ export const gradle = {
     packageManagers: ["Gradle"],
     ecosystems: ["JVM", "Android", "Java", "Kotlin", "Groovy"],
   },
-  version: "9.5.0",
+  version: "9.5.1",
   logo: "https://cdn.simpleicons.org/gradle/02303A",
   i18n: {
     en: {
