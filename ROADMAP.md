@@ -94,6 +94,7 @@ code-languages/
 │       ├── python.ts
 │       ├── rust.ts
 │       ├── matlab.ts
+│       ├── pug.ts
 │       ├── go.ts
 │       └── ...
 ├── dist/                               # Generated — do not edit

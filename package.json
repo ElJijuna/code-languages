@@ -191,6 +191,11 @@
       "import": "./dist/languages/powershell.js",
       "require": "./dist/languages/powershell.cjs"
     },
+    "./pug": {
+      "types": "./dist/languages/pug.d.ts",
+      "import": "./dist/languages/pug.js",
+      "require": "./dist/languages/pug.cjs"
+    },
     "./python": {
       "types": "./dist/languages/python.d.ts",
       "import": "./dist/languages/python.js",

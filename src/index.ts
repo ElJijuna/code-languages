@@ -41,6 +41,7 @@ export { nginx } from "./languages/nginx";
 export { objectiveC } from "./languages/objective-c";
 export { php } from "./languages/php";
 export { powershell } from "./languages/powershell";
+export { pug } from "./languages/pug";
 export { python } from "./languages/python";
 export { ruby } from "./languages/ruby";
 export { rust } from "./languages/rust";

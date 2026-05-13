@@ -28,6 +28,7 @@ import { nginx } from "./languages/nginx";
 import { objectiveC } from "./languages/objective-c";
 import { php } from "./languages/php";
 import { powershell } from "./languages/powershell";
+import { pug } from "./languages/pug";
 import { python } from "./languages/python";
 import { ruby } from "./languages/ruby";
 import { rust } from "./languages/rust";
@@ -76,6 +77,7 @@ export const languages = [
   objectiveC,
   php,
   powershell,
+  pug,
   python,
   ruby,
   rust,

@@ -40,6 +40,7 @@ export const languageIndex = [
   { slug: "objective-c", extensions: [".m", ".mm"] },
   { slug: "php", extensions: [".php", ".phtml", ".php3", ".php4", ".php5", ".phps"] },
   { slug: "powershell", extensions: [".ps1", ".psm1", ".psd1", ".ps1xml"] },
+  { slug: "pug", extensions: [".pug", ".jade"] },
   { slug: "python", extensions: [".py", ".pyw"] },
   {
     slug: "ruby",
@@ -95,6 +96,7 @@ export const languageLoaders = {
   "objective-c": () => import("./languages/objective-c").then((module) => module.objectiveC),
   php: () => import("./languages/php").then((module) => module.php),
   powershell: () => import("./languages/powershell").then((module) => module.powershell),
+  pug: () => import("./languages/pug").then((module) => module.pug),
   python: () => import("./languages/python").then((module) => module.python),
   ruby: () => import("./languages/ruby").then((module) => module.ruby),
   rust: () => import("./languages/rust").then((module) => module.rust),

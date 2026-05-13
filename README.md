@@ -72,6 +72,7 @@ import { nginx } from "code-languages/nginx";
 import { objectiveC } from "code-languages/objective-c";
 import { php } from "code-languages/php";
 import { powershell } from "code-languages/powershell";
+import { pug } from "code-languages/pug";
 import { python } from "code-languages/python";
 import { ruby } from "code-languages/ruby";
 import { scss } from "code-languages/scss";
@@ -113,6 +114,7 @@ console.log(nginx.version);
 console.log(objectiveC.version);
 console.log(php.version);
 console.log(powershell.extensions);
+console.log(pug.version);
 console.log(python.publishedDate);
 console.log(ruby.website);
 console.log(scss.extensions);
@@ -163,6 +165,7 @@ import {
   objectiveC,
   php,
   powershell,
+  pug,
   rust,
   ruby,
   scss,
@@ -206,6 +209,7 @@ console.log(localizeLanguage(nginx, "es").description);
 console.log(objectiveC.extensions);
 console.log(localizeLanguage(php, "es").description);
 console.log(localizeLanguage(powershell).name);
+console.log(localizeLanguage(pug, "es").description);
 console.log(go.logo);
 console.log(localizeLanguage(ruby, "es").description);
 console.log(localizeLanguage(scss).name);
@@ -340,6 +344,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Apple_logo_grey.svg" alt="Objective-C logo" width="24" height="24"> | Objective-C | `objective-c` | `.m`, `.mm` | `2.0` | `code-languages/objective-c` |
 | <img src="https://www.php.net/images/logos/new-php-logo.svg" alt="PHP logo" width="24" height="24"> | PHP | `php` | `.php`, `.phtml`, `.php3`, `.php4`, `.php5`, `.phps` | `8.5.6` | `code-languages/php` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png" alt="PowerShell logo" width="24" height="24"> | PowerShell | `powershell` | `.ps1`, `.psm1`, `.psd1`, `.ps1xml` | `7.6.1` | `code-languages/powershell` |
+| <img src="https://cdn.simpleicons.org/pug/A86454" alt="Pug logo" width="24" height="24"> | Pug | `pug` | `.pug`, `.jade` | `3.0.3` | `code-languages/pug` |
 | <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Python-logo-notext.svg" alt="Python logo" width="24" height="24"> | Python | `python` | `.py`, `.pyw` | `3.14.4` | `code-languages/python` |
 | <img src="https://www.ruby-lang.org/images/header-ruby-logo.png" alt="Ruby logo" width="24" height="24"> | Ruby | `ruby` | `.rb`, `.rbw`, `.rake`, `.gemspec`, `Gemfile`, `Rakefile`, `config.ru` | `4.0.3` | `code-languages/ruby` |
 | <img src="https://www.rust-lang.org/logos/rust-logo-512x512.png" alt="Rust logo" width="24" height="24"> | Rust | `rust` | `.rs` | `1.95.0` | `code-languages/rust` |

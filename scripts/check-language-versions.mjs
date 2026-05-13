@@ -224,6 +224,14 @@ const checkers = {
       sourceUrl: "https://github.com/PowerShell/PowerShell/releases",
     };
   },
+  async pug() {
+    const json = await fetchJson("https://registry.npmjs.org/pug/latest");
+
+    return {
+      latestVersion: json.version,
+      sourceUrl: "https://registry.npmjs.org/pug/latest",
+    };
+  },
   async python() {
     const html = await fetchText("https://www.python.org/downloads/");
     const versions = [...html.matchAll(/Python (\d+\.\d+\.\d+)/g)].map((match) => match[1]);

@@ -47,6 +47,7 @@
 - [x] CoffeeScript (`coffeescript`)
 - [x] Lua (`lua`)
 - [x] MATLAB (`matlab`)
+- [x] Pug (`pug`)
 
 ## Pending
 
@@ -65,7 +66,6 @@
 - [ ] OCaml (`ocaml`)
 - [ ] Pascal (`pascal`)
 - [ ] Protocol Buffers (`protobuf`)
-- [ ] Pug (`pug`)
 - [ ] R (`r`)
 - [ ] Racket (`racket`)
 - [ ] Razor (`razor`)
