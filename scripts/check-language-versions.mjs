@@ -358,6 +358,15 @@ const checkers = {
       sourceUrl: "https://registry.npmjs.org/vue/latest",
     };
   },
+  async zig() {
+    const json = await fetchJson("https://ziglang.org/download/index.json");
+    const versions = Object.keys(json).filter((version) => /^\d+\.\d+\.\d+$/.test(version));
+
+    return {
+      latestVersion: latestSemver(versions),
+      sourceUrl: "https://ziglang.org/download/index.json",
+    };
+  },
   async zsh() {
     const html = await fetchText("https://zsh.sourceforge.io/Arc/source.html");
     const versions = [...html.matchAll(/Download zsh (\d+\.\d+(?:\.\d+)?)/g)].map(

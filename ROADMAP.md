@@ -108,6 +108,7 @@ code-languages/
 │   ├── index.d.ts
 │   └── languages/
 │       ├── typescript.js               # ESM per-language
+│       ├── zig.js                      # ESM per-language
 │       ├── typescript.cjs              # CJS per-language
 │       ├── typescript.d.ts
 │       └── ...

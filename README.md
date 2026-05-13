@@ -91,6 +91,7 @@ import { vue } from "code-languages/vue";
 import { webassembly } from "code-languages/webassembly";
 import { xml } from "code-languages/xml";
 import { yaml } from "code-languages/yaml";
+import { zig } from "code-languages/zig";
 import { zsh } from "code-languages/zsh";
 
 console.log(abap.version);
@@ -138,6 +139,7 @@ console.log(vue.website);
 console.log(webassembly.extensions);
 console.log(xml.extensions);
 console.log(yaml.version);
+console.log(zig.version);
 console.log(zsh.extensions);
 ```
 
@@ -194,6 +196,7 @@ import {
   webassembly,
   xml,
   yaml,
+  zig,
   zsh,
 } from "code-languages";
 
@@ -243,6 +246,7 @@ console.log(localizeLanguage(vue, "es").description);
 console.log(localizeLanguage(webassembly).name);
 console.log(localizeLanguage(xml, "es").name);
 console.log(yaml.paradigms);
+console.log(localizeLanguage(zig, "es").description);
 console.log(zsh.version);
 ```
 
@@ -384,6 +388,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/1f/WebAssembly_Logo.svg" alt="WebAssembly logo" width="24" height="24"> | WebAssembly | `webassembly` | `.wasm`, `.wat` | `3.0` | `code-languages/webassembly` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/6/68/XML.svg" alt="XML logo" width="24" height="24"> | XML | `xml` | `.xml`, `.xsd`, `.xsl`, `.xslt` | `XML 1.0 Fifth Edition` | `code-languages/xml` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Official_YAML_Logo.svg" alt="YAML logo" width="24" height="24"> | YAML | `yaml` | `.yaml`, `.yml` | `1.2.2` | `code-languages/yaml` |
+| <img src="https://cdn.simpleicons.org/zig/F7A41D" alt="Zig logo" width="24" height="24"> | Zig | `zig` | `.zig`, `.zon` | `0.16.0` | `code-languages/zig` |
 | <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Z_Shell_Logo_Color_Horizontal.svg" alt="zsh logo" width="24" height="24"> | zsh | `zsh` | `.zsh`, `.zshrc`, `.zprofile`, `.zlogin`, `.zlogout`, `.zshenv` | `5.9` | `code-languages/zsh` |
 
 ## Development

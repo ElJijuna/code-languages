@@ -63,6 +63,7 @@ export const languageIndex = [
   { slug: "webassembly", extensions: [".wasm", ".wat"] },
   { slug: "xml", extensions: [".xml", ".xsd", ".xsl", ".xslt"] },
   { slug: "yaml", extensions: [".yaml", ".yml"] },
+  { slug: "zig", extensions: [".zig", ".zon"] },
   {
     slug: "zsh",
     extensions: [".zsh", ".zshrc", ".zshenv", ".zprofile", ".zlogin", ".zlogout", ".zsh-theme"],
@@ -121,6 +122,7 @@ export const languageLoaders = {
   webassembly: () => import("./languages/webassembly").then((module) => module.webassembly),
   xml: () => import("./languages/xml").then((module) => module.xml),
   yaml: () => import("./languages/yaml").then((module) => module.yaml),
+  zig: () => import("./languages/zig").then((module) => module.zig),
   zsh: () => import("./languages/zsh").then((module) => module.zsh),
 } as const satisfies Record<string, () => Promise<Language>>;
 

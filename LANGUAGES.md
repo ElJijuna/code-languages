@@ -53,6 +53,7 @@
 - [x] Scala (`scala`)
 - [x] ASP/ASPX (`asp`)
 - [x] Pascal (`pascal`)
+- [x] Zig (`zig`)
 
 ## Pending
 
@@ -73,7 +74,6 @@
 - [ ] Racket (`racket`)
 - [ ] Razor (`razor`)
 - [ ] Rego (`rego`)
-- [ ] Zig (`zig`)
 - [ ] TOML (`toml`)
 - [ ] Solidity (`solidity`)
 - [ ] TeX (`tex`)

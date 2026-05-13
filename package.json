@@ -296,6 +296,11 @@
       "import": "./dist/languages/yaml.js",
       "require": "./dist/languages/yaml.cjs"
     },
+    "./zig": {
+      "types": "./dist/languages/zig.d.ts",
+      "import": "./dist/languages/zig.js",
+      "require": "./dist/languages/zig.cjs"
+    },
     "./xml": {
       "types": "./dist/languages/xml.d.ts",
       "import": "./dist/languages/xml.js",
