@@ -28,6 +28,7 @@
 - [x] Dockerfile (`dockerfile`)
 - [x] Swift (`swift`)
 - [x] Groovy (`groovy`)
+- [x] Gradle (`gradle`)
 - [x] GraphQL (`graphql`)
 - [x] Kotlin (`kotlin`)
 - [x] Bash (`bash`)

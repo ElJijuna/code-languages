@@ -261,6 +261,11 @@
       "import": "./dist/languages/go.js",
       "require": "./dist/languages/go.cjs"
     },
+    "./gradle": {
+      "types": "./dist/languages/gradle.d.ts",
+      "import": "./dist/languages/gradle.js",
+      "require": "./dist/languages/gradle.cjs"
+    },
     "./graphql": {
       "types": "./dist/languages/graphql.d.ts",
       "import": "./dist/languages/graphql.js",

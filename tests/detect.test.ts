@@ -7,6 +7,7 @@ import {
   detectLanguage,
   detectLanguages,
   dockerfile,
+  gradle,
   lua,
   ruby,
   svelte,
@@ -43,6 +44,11 @@ describe("detectLanguage", () => {
   it("detects Lua scripts and rockspecs", () => {
     expect(detectLanguage("plugins/init.lua")).toBe(lua);
     expect(detectLanguage("lua-cjson-2.1.0.10-1.rockspec")).toBe(lua);
+  });
+
+  it("detects Gradle Groovy and Kotlin DSL build scripts", () => {
+    expect(detectLanguage("build.gradle")).toBe(gradle);
+    expect(detectLanguage("settings.gradle.kts")).toBe(gradle);
   });
 
   it("handles nested paths and case-insensitive names", () => {

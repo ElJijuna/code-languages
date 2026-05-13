@@ -9,7 +9,9 @@ export const expectValidLanguage = (language: Language, expectedSlug: string) =>
   expect(Number.isNaN(Date.parse(language.publishedDate))).toBe(false);
   expect(language.extensions.length).toBeGreaterThan(0);
   expect(
-    language.extensions.every((extension) => /^(?:\.[^\s.]+|[A-Za-z][\w.-]*)$/.test(extension)),
+    language.extensions.every((extension) =>
+      /^(?:\.[^\s.]+(?:\.[^\s.]+)*|[A-Za-z][\w.-]*)$/.test(extension),
+    ),
   ).toBe(true);
   expectNonEmptyString(language.author);
   expect(language.website).toMatch(/^https:\/\//);

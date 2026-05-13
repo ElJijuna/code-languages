@@ -28,6 +28,7 @@ export { dart } from "./languages/dart";
 export { dockerfile } from "./languages/dockerfile";
 export { fsharp } from "./languages/fsharp";
 export { go } from "./languages/go";
+export { gradle } from "./languages/gradle";
 export { graphql } from "./languages/graphql";
 export { groovy } from "./languages/groovy";
 export { html } from "./languages/html";

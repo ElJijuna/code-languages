@@ -127,6 +127,15 @@ const checkers = {
       sourceUrl: "https://go.dev/VERSION?m=text",
     };
   },
+  async gradle() {
+    const html = await fetchText("https://docs.gradle.org/current/release-notes.html");
+    const match = html.match(/Gradle\s+(\d+\.\d+(?:\.\d+)?)/);
+
+    return {
+      latestVersion: match?.[1],
+      sourceUrl: "https://docs.gradle.org/current/release-notes.html",
+    };
+  },
   async graphql() {
     const html = await fetchText("https://spec.graphql.org/");
     const match = html.match(/>([A-Z][a-z]+ \d{4})</);
