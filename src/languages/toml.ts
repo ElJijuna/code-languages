@@ -7,7 +7,7 @@ export const toml = {
   author: "Tom Preston-Werner / TOML contributors",
   website: "https://toml.io",
   paradigms: ["configuration", "declarative", "data-serialization"],
-  version: "1.0.0",
+  version: "1.1.0",
   logo: "https://cdn.simpleicons.org/toml/9C4221",
   i18n: {
     en: {
