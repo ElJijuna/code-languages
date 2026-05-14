@@ -61,6 +61,7 @@
 - [x] TOML (`toml`)
 - [x] R (`r`)
 - [x] Crystal (`crystal`)
+- [x] Meson (`meson`)
 
 ## Pending
 
@@ -133,7 +134,6 @@ broader language entry.
 - [ ] Luau (`luau`)
 - [ ] Mako (`mako`)
 - [ ] Mathematica (`mathematica`)
-- [ ] Meson (`meson`)
 - [ ] Metal (`metal`)
 - [ ] Mojo (`mojo`)
 - [ ] Nim (`nim`)

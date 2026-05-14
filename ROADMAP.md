@@ -102,6 +102,7 @@ code-languages/
 │       ├── scala.ts
 │       ├── fsharp.ts
 │       ├── matlab.ts
+│       ├── meson.ts
 │       ├── pug.ts
 │       ├── go.ts
 │       └── ...

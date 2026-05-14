@@ -176,6 +176,11 @@
       "import": "./dist/languages/matlab.js",
       "require": "./dist/languages/matlab.cjs"
     },
+    "./meson": {
+      "types": "./dist/languages/meson.d.ts",
+      "import": "./dist/languages/meson.js",
+      "require": "./dist/languages/meson.cjs"
+    },
     "./nginx": {
       "types": "./dist/languages/nginx.d.ts",
       "import": "./dist/languages/nginx.js",

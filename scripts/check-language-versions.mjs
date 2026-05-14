@@ -250,6 +250,14 @@ const checkers = {
       sourceUrl: "https://spec.commonmark.org/",
     };
   },
+  async meson() {
+    const json = await fetchJson("https://pypi.org/pypi/meson/json");
+
+    return {
+      latestVersion: json.info?.version,
+      sourceUrl: "https://pypi.org/pypi/meson/json",
+    };
+  },
   async nginx() {
     const html = await fetchText("https://nginx.org/en/download.html");
     const stableSection = html.match(/Stable version[\s\S]*?(?:Legacy versions|Source Code)/i)?.[0];

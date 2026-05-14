@@ -45,6 +45,7 @@ export { lua } from "./languages/lua";
 export { makefile } from "./languages/makefile";
 export { matlab } from "./languages/matlab";
 export { markdown } from "./languages/markdown";
+export { meson } from "./languages/meson";
 export { nginx } from "./languages/nginx";
 export { objectiveC } from "./languages/objective-c";
 export { pascal } from "./languages/pascal";

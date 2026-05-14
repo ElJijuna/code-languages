@@ -11,6 +11,7 @@ import {
   git,
   gradle,
   lua,
+  meson,
   ruby,
   svelte,
   typescript,
@@ -56,6 +57,11 @@ describe("detectLanguage", () => {
   it("detects Gradle Groovy and Kotlin DSL build scripts", () => {
     expect(detectLanguage("build.gradle")).toBe(gradle);
     expect(detectLanguage("settings.gradle.kts")).toBe(gradle);
+  });
+
+  it("detects Meson build definitions and wrap files", () => {
+    expect(detectLanguage("meson.build")).toBe(meson);
+    expect(detectLanguage("subprojects/zlib.wrap")).toBe(meson);
   });
 
   it("detects Git metadata files", () => {
