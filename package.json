@@ -161,6 +161,11 @@
       "import": "./dist/languages/less.js",
       "require": "./dist/languages/less.cjs"
     },
+    "./lisp": {
+      "types": "./dist/languages/lisp.d.ts",
+      "import": "./dist/languages/lisp.js",
+      "require": "./dist/languages/lisp.cjs"
+    },
     "./lua": {
       "types": "./dist/languages/lua.d.ts",
       "import": "./dist/languages/lua.js",

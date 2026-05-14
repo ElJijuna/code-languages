@@ -41,6 +41,7 @@ export { json } from "./languages/json";
 export { julia } from "./languages/julia";
 export { kotlin } from "./languages/kotlin";
 export { less } from "./languages/less";
+export { lisp } from "./languages/lisp";
 export { lua } from "./languages/lua";
 export { makefile } from "./languages/makefile";
 export { matlab } from "./languages/matlab";

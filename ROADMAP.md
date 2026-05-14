@@ -94,6 +94,7 @@ code-languages/
 │       ├── javascript.ts
 │       ├── crystal.ts
 │       ├── julia.ts
+│       ├── lisp.ts
 │       ├── pascal.ts
 │       ├── python.ts
 │       ├── r.ts

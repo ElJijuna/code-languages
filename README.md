@@ -72,6 +72,7 @@ import { html } from "code-languages/html";
 import { julia } from "code-languages/julia";
 import { kotlin } from "code-languages/kotlin";
 import { less } from "code-languages/less";
+import { lisp } from "code-languages/lisp";
 import { lua } from "code-languages/lua";
 import { makefile } from "code-languages/makefile";
 import { matlab } from "code-languages/matlab";
@@ -129,6 +130,7 @@ console.log(html.extensions);
 console.log(julia.version);
 console.log(kotlin.version);
 console.log(less.extensions);
+console.log(lisp.version);
 console.log(lua.version);
 console.log(makefile.extensions);
 console.log(matlab.version);
@@ -191,6 +193,7 @@ import {
   julia,
   kotlin,
   less,
+  lisp,
   lua,
   makefile,
   matlab,
@@ -248,6 +251,7 @@ console.log(html.website);
 console.log(localizeLanguage(julia, "es").description);
 console.log(localizeLanguage(kotlin, "es-PE").description);
 console.log(localizeLanguage(less, "es").name);
+console.log(localizeLanguage(lisp).description);
 console.log(localizeLanguage(lua, "es").description);
 console.log(localizeLanguage(makefile).description);
 console.log(localizeLanguage(matlab, "es").description);
@@ -398,6 +402,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | <img src="https://cdn.simpleicons.org/julia/9558B2" alt="Julia logo" width="24" height="24"> | Julia | `julia` | `.jl` | `1.12.6` | `code-languages/julia` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" alt="Kotlin logo" width="24" height="24"> | Kotlin | `kotlin` | `.kt`, `.kts` | `2.3.20` | `code-languages/kotlin` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LESS_Logo.svg" alt="Less logo" width="24" height="24"> | Less | `less` | `.less` | `4.4.1` | `code-languages/less` |
+| <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Lisp_logo.svg" alt="Lisp logo" width="24" height="24"> | Lisp | `lisp` | `.lisp`, `.lsp`, `.cl`, `.asd` | `ANSI INCITS 226-1994` | `code-languages/lisp` |
 | <img src="https://www.lua.org/images/lua-logo.gif" alt="Lua logo" width="24" height="24"> | Lua | `lua` | `.lua`, `.rockspec` | `5.5.0` | `code-languages/lua` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Heckert_gnu.small.png" alt="Makefile logo" width="24" height="24"> | Makefile | `makefile` | `Makefile`, `makefile`, `GNUmakefile`, `.mk`, `.mak` | `4.4.1` | `code-languages/makefile` |
 | <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Matlab_Logo.png" alt="MATLAB logo" width="24" height="24"> | MATLAB | `matlab` | `.m`, `.mlx` | `R2026a` | `code-languages/matlab` |

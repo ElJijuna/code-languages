@@ -63,6 +63,7 @@
 - [x] Crystal (`crystal`)
 - [x] Meson (`meson`)
 - [x] Metal (`metal`)
+- [x] Lisp (`lisp`)
 
 ## Pending
 
@@ -130,7 +131,6 @@ broader language entry.
 - [ ] Jinja (`jinja`)
 - [ ] Lean (`lean`)
 - [ ] Liquid (`liquid`)
-- [ ] Lisp (`lisp`)
 - [ ] LLVM IR (`llvm-ir`)
 - [ ] Luau (`luau`)
 - [ ] Mako (`mako`)

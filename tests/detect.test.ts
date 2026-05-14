@@ -10,6 +10,7 @@ import {
   dockerfile,
   git,
   gradle,
+  lisp,
   lua,
   meson,
   metal,
@@ -48,6 +49,11 @@ describe("detectLanguage", () => {
   it("detects Lua scripts and rockspecs", () => {
     expect(detectLanguage("plugins/init.lua")).toBe(lua);
     expect(detectLanguage("lua-cjson-2.1.0.10-1.rockspec")).toBe(lua);
+  });
+
+  it("detects Lisp source files and systems", () => {
+    expect(detectLanguage("src/package.lisp")).toBe(lisp);
+    expect(detectLanguage("systems/simple-languages.asd")).toBe(lisp);
   });
 
   it("detects Windows Batch scripts", () => {

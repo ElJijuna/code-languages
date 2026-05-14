@@ -28,6 +28,7 @@ import { json } from "./languages/json";
 import { julia } from "./languages/julia";
 import { kotlin } from "./languages/kotlin";
 import { less } from "./languages/less";
+import { lisp } from "./languages/lisp";
 import { lua } from "./languages/lua";
 import { makefile } from "./languages/makefile";
 import { markdown } from "./languages/markdown";
@@ -92,6 +93,7 @@ export const languages = [
   julia,
   kotlin,
   less,
+  lisp,
   lua,
   makefile,
   matlab,
