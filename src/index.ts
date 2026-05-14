@@ -70,6 +70,7 @@ export { typescript } from "./languages/typescript";
 export { visualBasic } from "./languages/visual-basic";
 export { vue } from "./languages/vue";
 export { webassembly } from "./languages/webassembly";
+export { xaml } from "./languages/xaml";
 export { xml } from "./languages/xml";
 export { yaml } from "./languages/yaml";
 export { zig } from "./languages/zig";

@@ -100,6 +100,7 @@ import { toml } from "code-languages/toml";
 import { visualBasic } from "code-languages/visual-basic";
 import { vue } from "code-languages/vue";
 import { webassembly } from "code-languages/webassembly";
+import { xaml } from "code-languages/xaml";
 import { xml } from "code-languages/xml";
 import { yaml } from "code-languages/yaml";
 import { zig } from "code-languages/zig";
@@ -159,6 +160,7 @@ console.log(toml.version);
 console.log(visualBasic.i18n.en.name);
 console.log(vue.website);
 console.log(webassembly.extensions);
+console.log(xaml.extensions);
 console.log(xml.extensions);
 console.log(yaml.version);
 console.log(zig.version);
@@ -224,6 +226,7 @@ import {
   visualBasic,
   vue,
   webassembly,
+  xaml,
   xml,
   yaml,
   zig,
@@ -282,6 +285,7 @@ console.log(localizeLanguage(toml, "es").description);
 console.log(localizeLanguage(visualBasic, "es").description);
 console.log(localizeLanguage(vue, "es").description);
 console.log(localizeLanguage(webassembly).name);
+console.log(localizeLanguage(xaml, "es").description);
 console.log(localizeLanguage(xml, "es").name);
 console.log(yaml.paradigms);
 console.log(localizeLanguage(zig, "es").description);
@@ -435,6 +439,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | <img src="https://upload.wikimedia.org/wikipedia/commons/4/40/VB.NET_Logo.svg" alt="Visual Basic logo" width="24" height="24"> | Visual Basic | `visual-basic` | `.vb` | `17.13` | `code-languages/visual-basic` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg" alt="Vue logo" width="24" height="24"> | Vue | `vue` | `.vue` | `3.5.34` | `code-languages/vue` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/1f/WebAssembly_Logo.svg" alt="WebAssembly logo" width="24" height="24"> | WebAssembly | `webassembly` | `.wasm`, `.wat` | `3.0` | `code-languages/webassembly` |
+| <img src="https://cdn.simpleicons.org/dotnet/512BD4" alt="XAML logo" width="24" height="24"> | XAML | `xaml` | `.xaml`, `.baml` | `Platform-specific` | `code-languages/xaml` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/6/68/XML.svg" alt="XML logo" width="24" height="24"> | XML | `xml` | `.xml`, `.xsd`, `.xsl`, `.xslt` | `XML 1.0 Fifth Edition` | `code-languages/xml` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Official_YAML_Logo.svg" alt="YAML logo" width="24" height="24"> | YAML | `yaml` | `.yaml`, `.yml` | `1.2.2` | `code-languages/yaml` |
 | <img src="https://cdn.simpleicons.org/zig/F7A41D" alt="Zig logo" width="24" height="24"> | Zig | `zig` | `.zig`, `.zon` | `0.16.0` | `code-languages/zig` |

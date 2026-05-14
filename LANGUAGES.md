@@ -65,6 +65,7 @@
 - [x] Metal (`metal`)
 - [x] Lisp (`lisp`)
 - [x] INI (`ini`)
+- [x] XAML (`xaml`)
 
 ## Pending
 
@@ -84,7 +85,6 @@
 - [ ] Solidity (`solidity`)
 - [ ] TeX (`tex`)
 - [ ] Twig (`twig`)
-- [ ] XAML (`xaml`)
 - [ ] XQuery (`xquery`)
 - [ ] XSLT (`xslt`)
 - [ ] Clojure (`clojure`)

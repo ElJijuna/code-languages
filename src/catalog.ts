@@ -57,6 +57,7 @@ import { typescript } from "./languages/typescript";
 import { visualBasic } from "./languages/visual-basic";
 import { vue } from "./languages/vue";
 import { webassembly } from "./languages/webassembly";
+import { xaml } from "./languages/xaml";
 import { xml } from "./languages/xml";
 import { yaml } from "./languages/yaml";
 import { zig } from "./languages/zig";
@@ -123,6 +124,7 @@ export const languages = [
   visualBasic,
   vue,
   webassembly,
+  xaml,
   xml,
   yaml,
   zig,

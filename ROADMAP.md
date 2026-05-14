@@ -96,6 +96,7 @@ code-languages/
 │       ├── ini.ts
 │       ├── julia.ts
 │       ├── lisp.ts
+│       ├── xaml.ts
 │       ├── pascal.ts
 │       ├── python.ts
 │       ├── r.ts

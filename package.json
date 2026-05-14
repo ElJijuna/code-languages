@@ -281,6 +281,11 @@
       "import": "./dist/languages/webassembly.js",
       "require": "./dist/languages/webassembly.cjs"
     },
+    "./xaml": {
+      "types": "./dist/languages/xaml.d.ts",
+      "import": "./dist/languages/xaml.js",
+      "require": "./dist/languages/xaml.cjs"
+    },
     "./git": {
       "types": "./dist/languages/git.d.ts",
       "import": "./dist/languages/git.js",

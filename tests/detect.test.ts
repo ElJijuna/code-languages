@@ -18,6 +18,7 @@ import {
   ruby,
   svelte,
   typescript,
+  xaml,
 } from "../src";
 
 describe("detectLanguage", () => {
@@ -45,6 +46,11 @@ describe("detectLanguage", () => {
 
   it("detects Svelte single-file components", () => {
     expect(detectLanguage("src/routes/+page.svelte")).toBe(svelte);
+  });
+
+  it("detects XAML markup files", () => {
+    expect(detectLanguage("Views/MainWindow.xaml")).toBe(xaml);
+    expect(detectLanguage("obj/Debug/MainWindow.baml")).toBe(xaml);
   });
 
   it("detects Lua scripts and rockspecs", () => {
