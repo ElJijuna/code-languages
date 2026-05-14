@@ -1,3 +1,15 @@
+# [1.10.0](https://github.com/ElJijuna/code-languages/compare/v1.9.2...v1.10.0) (2026-05-14)
+
+
+### Features
+
+* add language crystal ([f07d557](https://github.com/ElJijuna/code-languages/commit/f07d55719d1bbccd14354903b650804f57dddc5c))
+* add language lisp ([2f071fa](https://github.com/ElJijuna/code-languages/commit/2f071fa019dc463ec8fdac517cd6c032ac88c6b9))
+* add language meson ([896a47d](https://github.com/ElJijuna/code-languages/commit/896a47d5e989469478b7586be8d2d0d187f691ef))
+* add language metal ([6ba4d01](https://github.com/ElJijuna/code-languages/commit/6ba4d01580e871fd2b6a09a6e6082d8766cc1c77))
+* add language xaml ([ef73f08](https://github.com/ElJijuna/code-languages/commit/ef73f08b16303832538497542e583e19916ed05b))
+* add support to ini ([4968250](https://github.com/ElJijuna/code-languages/commit/4968250203ba5bb2451179a37fc0226e59136a49))
+
 ## [1.9.2](https://github.com/ElJijuna/code-languages/compare/v1.9.1...v1.9.2) (2026-05-13)
 
 
