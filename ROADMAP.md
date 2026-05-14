@@ -103,6 +103,7 @@ code-languages/
 │       ├── fsharp.ts
 │       ├── matlab.ts
 │       ├── meson.ts
+│       ├── metal.ts
 │       ├── pug.ts
 │       ├── go.ts
 │       └── ...

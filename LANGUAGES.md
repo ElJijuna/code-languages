@@ -62,6 +62,7 @@
 - [x] R (`r`)
 - [x] Crystal (`crystal`)
 - [x] Meson (`meson`)
+- [x] Metal (`metal`)
 
 ## Pending
 
@@ -134,7 +135,6 @@ broader language entry.
 - [ ] Luau (`luau`)
 - [ ] Mako (`mako`)
 - [ ] Mathematica (`mathematica`)
-- [ ] Metal (`metal`)
 - [ ] Mojo (`mojo`)
 - [ ] Nim (`nim`)
 - [ ] Odin (`odin`)

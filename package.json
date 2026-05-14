@@ -181,6 +181,11 @@
       "import": "./dist/languages/meson.js",
       "require": "./dist/languages/meson.cjs"
     },
+    "./metal": {
+      "types": "./dist/languages/metal.d.ts",
+      "import": "./dist/languages/metal.js",
+      "require": "./dist/languages/metal.cjs"
+    },
     "./nginx": {
       "types": "./dist/languages/nginx.d.ts",
       "import": "./dist/languages/nginx.js",

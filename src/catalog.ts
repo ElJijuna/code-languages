@@ -33,6 +33,7 @@ import { makefile } from "./languages/makefile";
 import { markdown } from "./languages/markdown";
 import { matlab } from "./languages/matlab";
 import { meson } from "./languages/meson";
+import { metal } from "./languages/metal";
 import { nginx } from "./languages/nginx";
 import { objectiveC } from "./languages/objective-c";
 import { pascal } from "./languages/pascal";
@@ -96,6 +97,7 @@ export const languages = [
   matlab,
   markdown,
   meson,
+  metal,
   nginx,
   objectiveC,
   pascal,

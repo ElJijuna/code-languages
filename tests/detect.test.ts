@@ -12,6 +12,7 @@ import {
   gradle,
   lua,
   meson,
+  metal,
   ruby,
   svelte,
   typescript,
@@ -62,6 +63,10 @@ describe("detectLanguage", () => {
   it("detects Meson build definitions and wrap files", () => {
     expect(detectLanguage("meson.build")).toBe(meson);
     expect(detectLanguage("subprojects/zlib.wrap")).toBe(meson);
+  });
+
+  it("detects Metal shader files", () => {
+    expect(detectLanguage("Shaders/Lighting.metal")).toBe(metal);
   });
 
   it("detects Git metadata files", () => {

@@ -20,6 +20,8 @@ const manualChecks = {
   javascript:
     "ECMAScript editions are published yearly and should be checked against ECMA-262 release status.",
   json: "RFC 8259 is stable and should be reviewed manually when a replacement RFC appears.",
+  metal:
+    "Metal versions are tied to Apple platform SDKs and should be reviewed manually against Apple Developer Metal documentation.",
   "objective-c":
     "Objective-C language versioning is effectively stable and should be reviewed manually against Apple documentation and runtime updates.",
   sql: "SQL standards should be reviewed manually against ISO/IEC 9075 publications.",
