@@ -10,6 +10,7 @@ import {
   dockerfile,
   git,
   gradle,
+  ini,
   lisp,
   lua,
   meson,
@@ -79,6 +80,11 @@ describe("detectLanguage", () => {
     expect(detectLanguage(".git")).toBe(git);
     expect(detectLanguage(".gitignore")).toBe(git);
     expect(detectLanguage("submodule/.gitmodules")).toBe(git);
+  });
+
+  it("detects INI configuration files", () => {
+    expect(detectLanguage("config/app.ini")).toBe(ini);
+    expect(detectLanguage("desktop.ini")).toBe(ini);
   });
 
   it("handles nested paths and case-insensitive names", () => {

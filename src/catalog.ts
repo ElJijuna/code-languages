@@ -22,6 +22,7 @@ import { gradle } from "./languages/gradle";
 import { graphql } from "./languages/graphql";
 import { groovy } from "./languages/groovy";
 import { html } from "./languages/html";
+import { ini } from "./languages/ini";
 import { java } from "./languages/java";
 import { javascript } from "./languages/javascript";
 import { json } from "./languages/json";
@@ -87,6 +88,7 @@ export const languages = [
   graphql,
   groovy,
   html,
+  ini,
   java,
   javascript,
   json,

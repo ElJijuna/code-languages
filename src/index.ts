@@ -35,6 +35,7 @@ export { gradle } from "./languages/gradle";
 export { graphql } from "./languages/graphql";
 export { groovy } from "./languages/groovy";
 export { html } from "./languages/html";
+export { ini } from "./languages/ini";
 export { java } from "./languages/java";
 export { javascript } from "./languages/javascript";
 export { json } from "./languages/json";

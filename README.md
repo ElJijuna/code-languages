@@ -66,6 +66,7 @@ import { git } from "code-languages/git";
 import { gradle } from "code-languages/gradle";
 import { graphql } from "code-languages/graphql";
 import { groovy } from "code-languages/groovy";
+import { ini } from "code-languages/ini";
 import { javascript } from "code-languages/javascript";
 import { java } from "code-languages/java";
 import { html } from "code-languages/html";
@@ -124,6 +125,7 @@ console.log(git.extensions);
 console.log(gradle.extensions);
 console.log(graphql.version);
 console.log(groovy.version);
+console.log(ini.extensions);
 console.log(javascript.website);
 console.log(java.version);
 console.log(html.extensions);
@@ -188,6 +190,7 @@ import {
   graphql,
   groovy,
   html,
+  ini,
   java,
   json,
   julia,
@@ -246,6 +249,7 @@ console.log(dockerfile.website);
 console.log(localizeLanguage(fsharp, "es").description);
 console.log(localizeLanguage(graphql, "es").description);
 console.log(localizeLanguage(groovy).description);
+console.log(localizeLanguage(ini, "es").description);
 console.log(localizeLanguage(java).name);
 console.log(html.website);
 console.log(localizeLanguage(julia, "es").description);
@@ -396,6 +400,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg" alt="GraphQL logo" width="24" height="24"> | GraphQL | `graphql` | `.graphql`, `.gql`, `.graphqls` | `September 2025` | `code-languages/graphql` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Groovy-logo.svg" alt="Groovy logo" width="24" height="24"> | Groovy | `groovy` | `.groovy`, `.gvy`, `.gy`, `.gsh` | `5.0.5` | `code-languages/groovy` |
 | <img src="https://www.w3.org/html/logo/downloads/HTML5_Badge.svg" alt="HTML logo" width="24" height="24"> | HTML | `html` | `.html`, `.htm` | `Living Standard` | `code-languages/html` |
+| <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Configure.svg" alt="INI logo" width="24" height="24"> | INI | `ini` | `.ini` | `Informal format` | `code-languages/ini` |
 | <img src="https://www.vectorlogo.zone/logos/java/java-icon.svg" alt="Java logo" width="24" height="24"> | Java | `java` | `.java` | `26` | `code-languages/java` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript logo" width="24" height="24"> | JavaScript | `javascript` | `.js`, `.mjs`, `.cjs`, `.jsx` | `ECMAScript 2025` | `code-languages/javascript` |
 | <img src="https://www.json.org/img/json160.gif" alt="JSON logo" width="24" height="24"> | JSON | `json` | `.json` | `RFC 8259` | `code-languages/json` |

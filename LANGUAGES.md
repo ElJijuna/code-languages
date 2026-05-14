@@ -64,6 +64,7 @@
 - [x] Meson (`meson`)
 - [x] Metal (`metal`)
 - [x] Lisp (`lisp`)
+- [x] INI (`ini`)
 
 ## Pending
 
@@ -71,7 +72,6 @@
 - [ ] Fortran (`fortran`)
 - [ ] GLSL (`glsl`)
 - [ ] HCL (`hcl`)
-- [ ] INI (`ini`)
 - [ ] Jupyter Notebook (`jupyter-notebook`)
 - [ ] Elixir (`elixir`)
 - [ ] Haskell (`haskell`)

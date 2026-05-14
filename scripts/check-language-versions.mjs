@@ -17,6 +17,7 @@ const manualChecks = {
   dockerfile:
     "Dockerfile syntax versions depend on the BuildKit frontend image and should be reviewed manually.",
   html: "HTML is maintained as a living standard.",
+  ini: "INI is an informal configuration format without a single formal versioned specification.",
   javascript:
     "ECMAScript editions are published yearly and should be checked against ECMA-262 release status.",
   json: "RFC 8259 is stable and should be reviewed manually when a replacement RFC appears.",

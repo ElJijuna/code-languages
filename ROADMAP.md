@@ -93,6 +93,7 @@ code-languages/
 │       ├── typescript.ts
 │       ├── javascript.ts
 │       ├── crystal.ts
+│       ├── ini.ts
 │       ├── julia.ts
 │       ├── lisp.ts
 │       ├── pascal.ts

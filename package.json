@@ -326,6 +326,11 @@
       "import": "./dist/languages/html.js",
       "require": "./dist/languages/html.cjs"
     },
+    "./ini": {
+      "types": "./dist/languages/ini.d.ts",
+      "import": "./dist/languages/ini.js",
+      "require": "./dist/languages/ini.cjs"
+    },
     "./markdown": {
       "types": "./dist/languages/markdown.d.ts",
       "import": "./dist/languages/markdown.js",
