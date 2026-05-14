@@ -23,6 +23,7 @@ export { coffeescript } from "./languages/coffeescript";
 export { cobol } from "./languages/cobol";
 export { csharp } from "./languages/csharp";
 export { cpp } from "./languages/cpp";
+export { crystal } from "./languages/crystal";
 export { css } from "./languages/css";
 export { cuda } from "./languages/cuda";
 export { dart } from "./languages/dart";

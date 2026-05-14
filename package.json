@@ -101,6 +101,11 @@
       "import": "./dist/languages/csharp.js",
       "require": "./dist/languages/csharp.cjs"
     },
+    "./crystal": {
+      "types": "./dist/languages/crystal.d.ts",
+      "import": "./dist/languages/crystal.js",
+      "require": "./dist/languages/crystal.cjs"
+    },
     "./cuda": {
       "types": "./dist/languages/cuda.d.ts",
       "import": "./dist/languages/cuda.js",

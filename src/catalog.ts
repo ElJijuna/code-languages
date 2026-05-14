@@ -9,6 +9,7 @@ import { cmake } from "./languages/cmake";
 import { cobol } from "./languages/cobol";
 import { coffeescript } from "./languages/coffeescript";
 import { cpp } from "./languages/cpp";
+import { crystal } from "./languages/crystal";
 import { csharp } from "./languages/csharp";
 import { css } from "./languages/css";
 import { cuda } from "./languages/cuda";
@@ -71,6 +72,7 @@ export const languages = [
   cobol,
   cpp,
   csharp,
+  crystal,
   css,
   cuda,
   dart,

@@ -60,10 +60,10 @@
 - [x] CUDA (`cuda`)
 - [x] TOML (`toml`)
 - [x] R (`r`)
+- [x] Crystal (`crystal`)
 
 ## Pending
 
-- [ ] Crystal (`crystal`)
 - [ ] Elm (`elm`)
 - [ ] Fortran (`fortran`)
 - [ ] GLSL (`glsl`)

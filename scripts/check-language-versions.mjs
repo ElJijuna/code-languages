@@ -92,6 +92,15 @@ const checkers = {
       sourceUrl: "https://developer.nvidia.com/cuda-toolkit-archive",
     };
   },
+  async crystal() {
+    const json = await fetchJson("https://crystal-lang.org/api/versions.json");
+    const latest = json.versions?.find((entry) => entry.released !== false);
+
+    return {
+      latestVersion: latest?.name,
+      sourceUrl: "https://crystal-lang.org/api/versions.json",
+    };
+  },
   async coffeescript() {
     const json = await fetchJson("https://registry.npmjs.org/coffeescript/latest");
 

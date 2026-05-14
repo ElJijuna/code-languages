@@ -92,6 +92,7 @@ code-languages/
 │       ├── asp.ts
 │       ├── typescript.ts
 │       ├── javascript.ts
+│       ├── crystal.ts
 │       ├── julia.ts
 │       ├── pascal.ts
 │       ├── python.ts
