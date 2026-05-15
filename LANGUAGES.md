@@ -79,10 +79,10 @@
 - [x] Solidity (`solidity`)
 - [x] Jupyter Notebook (`jupyter-notebook`)
 - [x] Elixir (`elixir`)
+- [x] Haskell (`haskell`)
 
 ## Pending
 
-- [ ] Haskell (`haskell`)
 - [ ] OCaml (`ocaml`)
 - [ ] Protocol Buffers (`protobuf`)
 - [ ] Racket (`racket`)

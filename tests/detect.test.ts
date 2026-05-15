@@ -16,6 +16,7 @@ import {
   git,
   glsl,
   gradle,
+  haskell,
   hcl,
   ini,
   jupyterNotebook,
@@ -63,6 +64,14 @@ describe("detectLanguage", () => {
     expect(detectLanguage("config/config.exs")).toBe(elixir);
     expect(detectLanguage("lib/app_web/components/core_components.ex")).toBe(elixir);
     expect(detectLanguage("lib/app_web/templates/page/index.html.heex")).toBe(elixir);
+  });
+
+  it("detects Haskell source, boot, signature, and package files", () => {
+    expect(detectLanguage("src/Main.hs")).toBe(haskell);
+    expect(detectLanguage("src/Main.lhs")).toBe(haskell);
+    expect(detectLanguage("src/FFI.hsc")).toBe(haskell);
+    expect(detectLanguage("src/Internal.hs-boot")).toBe(haskell);
+    expect(detectLanguage("package/example.cabal")).toBe(haskell);
   });
 
   it("detects Erlang source and project files", () => {

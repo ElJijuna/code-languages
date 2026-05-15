@@ -222,6 +222,17 @@ const checkers = {
       sourceUrl: "https://repo1.maven.org/maven2/org/apache/groovy/groovy/maven-metadata.xml",
     };
   },
+  async haskell() {
+    const html = await fetchText("https://downloads.haskell.org/~ghc/latest/");
+    const versions = [...html.matchAll(/ghc-(\d+\.\d+\.\d+)-src\.tar\.(?:gz|xz)/g)].map(
+      (match) => match[1],
+    );
+
+    return {
+      latestVersion: `GHC ${latestSemver(versions)}`,
+      sourceUrl: "https://downloads.haskell.org/~ghc/latest/",
+    };
+  },
   async hcl() {
     const json = await fetchJson("https://api.github.com/repos/hashicorp/hcl/releases/latest");
 

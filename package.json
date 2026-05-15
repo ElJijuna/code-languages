@@ -346,6 +346,11 @@
       "import": "./dist/languages/groovy.js",
       "require": "./dist/languages/groovy.cjs"
     },
+    "./haskell": {
+      "types": "./dist/languages/haskell.d.ts",
+      "import": "./dist/languages/haskell.js",
+      "require": "./dist/languages/haskell.cjs"
+    },
     "./hcl": {
       "types": "./dist/languages/hcl.d.ts",
       "import": "./dist/languages/hcl.js",

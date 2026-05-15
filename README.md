@@ -73,6 +73,7 @@ import { gradle } from "code-languages/gradle";
 import { glsl } from "code-languages/glsl";
 import { graphql } from "code-languages/graphql";
 import { groovy } from "code-languages/groovy";
+import { haskell } from "code-languages/haskell";
 import { hcl } from "code-languages/hcl";
 import { html } from "code-languages/html";
 import { ini } from "code-languages/ini";
@@ -223,6 +224,7 @@ import {
   glsl,
   graphql,
   groovy,
+  haskell,
   hcl,
   html,
   ini,
@@ -297,6 +299,7 @@ console.log(localizeLanguage(fsharp, "es").description);
 console.log(localizeLanguage(glsl, "es").description);
 console.log(localizeLanguage(graphql, "es").description);
 console.log(localizeLanguage(groovy).description);
+console.log(localizeLanguage(haskell, "es").description);
 console.log(localizeLanguage(hcl, "es").description);
 console.log(localizeLanguage(ini, "es").description);
 console.log(localizeLanguage(java).name);
@@ -460,6 +463,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | <img src="https://cdn.simpleicons.org/opengl/5586A4" alt="GLSL logo" width="24" height="24"> | GLSL | `glsl` | `.glsl`, `.vert`, `.frag`, `.geom`, `.tesc`, `.tese`, `.comp`, `.vs`, `.fs` | `4.60` | `code-languages/glsl` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg" alt="GraphQL logo" width="24" height="24"> | GraphQL | `graphql` | `.graphql`, `.gql`, `.graphqls` | `September 2025` | `code-languages/graphql` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Groovy-logo.svg" alt="Groovy logo" width="24" height="24"> | Groovy | `groovy` | `.groovy`, `.gvy`, `.gy`, `.gsh` | `5.0.5` | `code-languages/groovy` |
+| <img src="https://cdn.simpleicons.org/haskell/5D4F85" alt="Haskell logo" width="24" height="24"> | Haskell | `haskell` | `.hs`, `.lhs`, `.hsc`, `.hs-boot`, `.hsig`, `.cabal` | `GHC 9.14.1` | `code-languages/haskell` |
 | <img src="https://cdn.simpleicons.org/hashicorp/844FBA" alt="HCL logo" width="24" height="24"> | HCL | `hcl` | `.hcl`, `.tf`, `.tfvars`, `.pkr.hcl`, `.nomad` | `2.24.0` | `code-languages/hcl` |
 | <img src="https://www.w3.org/html/logo/downloads/HTML5_Badge.svg" alt="HTML logo" width="24" height="24"> | HTML | `html` | `.html`, `.htm` | `Living Standard` | `code-languages/html` |
 | <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Configure.svg" alt="INI logo" width="24" height="24"> | INI | `ini` | `.ini` | `Informal format` | `code-languages/ini` |
