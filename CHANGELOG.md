@@ -1,3 +1,11 @@
+## [1.12.3](https://github.com/ElJijuna/code-languages/compare/v1.12.2...v1.12.3) (2026-05-15)
+
+
+### Bug Fixes
+
+* update Ruby metadata to 4.0.4 ([c7d1689](https://github.com/ElJijuna/code-languages/commit/c7d168973c2e1cf6ce292f02be360d7ee3065382))
+* update Ruby metadata to 4.0.4 ([634443a](https://github.com/ElJijuna/code-languages/commit/634443a1ce25f789ddc12bbb0da08053e965a6e6))
+
 ## [1.12.2](https://github.com/ElJijuna/code-languages/compare/v1.12.1...v1.12.2) (2026-05-15)
 
 
