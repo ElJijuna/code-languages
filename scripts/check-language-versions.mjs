@@ -292,6 +292,14 @@ const checkers = {
       sourceUrl: "https://pypi.org/pypi/meson/json",
     };
   },
+  async nix() {
+    const json = await fetchJson("https://api.github.com/repos/NixOS/nix/releases/latest");
+
+    return {
+      latestVersion: normalizeVersion(json.tag_name),
+      sourceUrl: "https://api.github.com/repos/NixOS/nix/releases/latest",
+    };
+  },
   async nginx() {
     const html = await fetchText("https://nginx.org/en/download.html");
     const stableSection = html.match(/Stable version[\s\S]*?(?:Legacy versions|Source Code)/i)?.[0];

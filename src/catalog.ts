@@ -42,6 +42,7 @@ import { matlab } from "./languages/matlab";
 import { meson } from "./languages/meson";
 import { metal } from "./languages/metal";
 import { nginx } from "./languages/nginx";
+import { nix } from "./languages/nix";
 import { objectiveC } from "./languages/objective-c";
 import { pascal } from "./languages/pascal";
 import { perl } from "./languages/perl";
@@ -117,6 +118,7 @@ export const languages = [
   metal,
   svn,
   nginx,
+  nix,
   objectiveC,
   pascal,
   perl,

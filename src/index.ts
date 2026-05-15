@@ -55,6 +55,7 @@ export { markdown } from "./languages/markdown";
 export { meson } from "./languages/meson";
 export { metal } from "./languages/metal";
 export { nginx } from "./languages/nginx";
+export { nix } from "./languages/nix";
 export { objectiveC } from "./languages/objective-c";
 export { pascal } from "./languages/pascal";
 export { perl } from "./languages/perl";

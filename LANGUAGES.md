@@ -73,6 +73,7 @@
 - [x] Perl (`perl`)
 - [x] SVN (`svn`)
 - [x] Erlang (`erlang`)
+- [x] Nix (`nix`)
 
 ## Pending
 
@@ -80,7 +81,6 @@
 - [ ] Jupyter Notebook (`jupyter-notebook`)
 - [ ] Elixir (`elixir`)
 - [ ] Haskell (`haskell`)
-- [ ] Nix (`nix`)
 - [ ] OCaml (`ocaml`)
 - [ ] Protocol Buffers (`protobuf`)
 - [ ] Racket (`racket`)
