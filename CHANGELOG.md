@@ -1,3 +1,11 @@
+## [1.12.1](https://github.com/ElJijuna/code-languages/compare/v1.12.0...v1.12.1) (2026-05-15)
+
+
+### Bug Fixes
+
+* update TOML metadata to 1.1.0 ([43fcd79](https://github.com/ElJijuna/code-languages/commit/43fcd795cc2554aa05c3cf486eef6b478eb6ff9a))
+* update TOML metadata to 1.1.0 ([85470dc](https://github.com/ElJijuna/code-languages/commit/85470dcf6fa2f176ac5cdadd9242712b787ccfdf))
+
 # [1.12.0](https://github.com/ElJijuna/code-languages/compare/v1.11.0...v1.12.0) (2026-05-15)
 
 
