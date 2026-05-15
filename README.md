@@ -490,6 +490,7 @@ Common scripts:
 | `npm run lint` | Run Biome checks |
 | `npm run typecheck` | Run TypeScript without emitting files |
 | `npm test` | Run Vitest |
+| `npm run bench` | Run manual performance benchmarks |
 | `npm run build` | Build ESM, CommonJS, and declaration files |
 | `npm run check` | Run lint, typecheck, and tests |
 

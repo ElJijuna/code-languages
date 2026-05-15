@@ -408,6 +408,7 @@
     "README.md"
   ],
   "scripts": {
+    "bench": "vitest bench --run",
     "build": "tsup",
     "check": "biome check . && tsc --noEmit && vitest run",
     "check:language-versions": "node scripts/check-language-versions.mjs",
