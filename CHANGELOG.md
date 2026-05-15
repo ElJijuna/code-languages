@@ -1,3 +1,11 @@
+## [1.12.4](https://github.com/ElJijuna/code-languages/compare/v1.12.3...v1.12.4) (2026-05-15)
+
+
+### Bug Fixes
+
+* update nginx metadata to 1.30.1 ([99e5856](https://github.com/ElJijuna/code-languages/commit/99e58566ed138a3eca1329f4001343ed98e72038))
+* update nginx metadata to 1.30.1 ([39b5925](https://github.com/ElJijuna/code-languages/commit/39b59254b43c3b2b2832b6ceba2bbd067a2503f5))
+
 ## [1.12.3](https://github.com/ElJijuna/code-languages/compare/v1.12.2...v1.12.3) (2026-05-15)
 
 
