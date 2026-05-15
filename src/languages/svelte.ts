@@ -12,7 +12,7 @@ export const svelte = {
     packageManagers: ["npm", "pnpm", "Yarn", "Bun"],
     ecosystems: ["Web", "SvelteKit", "Vite"],
   },
-  version: "5.55.5",
+  version: "5.55.7",
   logo: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg",
   i18n: {
     en: {
