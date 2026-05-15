@@ -1,14 +1,15 @@
 # code-languages
 
 [![npm version](https://img.shields.io/npm/v/code-languages.svg)](https://www.npmjs.com/package/code-languages)
-[![CI](https://github.com/ElJijuna/code-languages/actions/workflows/ci.yml/badge.svg)](https://github.com/ElJijuna/code-languages/actions/workflows/ci.yml)
+[![Pull Request](https://github.com/ElJijuna/code-languages/actions/workflows/pull-request.yml/badge.svg)](https://github.com/ElJijuna/code-languages/actions/workflows/pull-request.yml)
+[![Docs](https://github.com/ElJijuna/code-languages/actions/workflows/docs.yml/badge.svg)](https://github.com/ElJijuna/code-languages/actions/workflows/docs.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-ready-3178c6.svg)](https://www.typescriptlang.org)
 [![Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](package.json)
 
 Structured metadata for programming languages, packaged as a typed, tree-shakeable TypeScript library.
 
-`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces. It currently includes metadata for 58 languages.
+`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces.
 
 ## Features
 
@@ -493,6 +494,19 @@ Common scripts:
 | `npm run bench` | Run manual performance benchmarks |
 | `npm run build` | Build ESM, CommonJS, and declaration files |
 | `npm run check` | Run lint, typecheck, and tests |
+| `npm run website:prepare` | Build the static website data, unit test summary, and benchmark summary |
+| `npm run website:serve` | Preview the static website locally |
+
+## Website
+
+The static website lives in [`docs`](docs) and is generated from the package build.
+It includes a live filename detector, localized language lookup, the full language
+catalog, unit test summary, and benchmark summary.
+
+```bash
+npm run website:prepare
+npm run website:serve
+```
 
 ## Contributing
 

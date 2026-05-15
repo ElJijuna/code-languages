@@ -1,0 +1,997 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>code-languages</title>
+    <meta
+      name="description"
+      content="Interactive catalog for code-languages: language metadata, filename detection, i18n, unit tests, and benchmarks."
+    />
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #182026;
+        --muted: #64707d;
+        --soft: #f3f0e8;
+        --paper: #fffdf7;
+        --line: #ddd5c7;
+        --accent: #176b87;
+        --accent-strong: #0f4f63;
+        --green: #2f7d4f;
+        --red: #b33f3f;
+        --gold: #b88022;
+        --shadow: 0 18px 50px rgba(26, 32, 38, 0.11);
+        font-family:
+          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+      }
+
+      a {
+        color: inherit;
+      }
+
+      .shell {
+        width: min(1180px, calc(100% - 32px));
+        margin: 0 auto;
+      }
+
+      .topbar {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        border-bottom: 1px solid rgba(221, 213, 199, 0.85);
+        background: rgba(255, 253, 247, 0.92);
+        backdrop-filter: blur(14px);
+      }
+
+      .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 64px;
+        gap: 16px;
+      }
+
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: 800;
+      }
+
+      .brand-mark {
+        display: grid;
+        width: 34px;
+        height: 34px;
+        place-items: center;
+        border-radius: 8px;
+        background: var(--ink);
+        color: var(--paper);
+        font-size: 17px;
+      }
+
+      .nav-links {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      .nav-links a {
+        text-decoration: none;
+      }
+
+      .workspace {
+        display: grid;
+        grid-template-columns: minmax(0, 1.08fr) minmax(320px, 0.92fr);
+        gap: 26px;
+        padding: 34px 0 28px;
+      }
+
+      .intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 580px;
+        gap: 22px;
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin: 0;
+      }
+
+      h1 {
+        max-width: 700px;
+        font-size: clamp(38px, 6.5vw, 74px);
+        line-height: 0.95;
+        letter-spacing: 0;
+      }
+
+      .lead {
+        max-width: 660px;
+        color: var(--muted);
+        font-size: 18px;
+        line-height: 1.65;
+      }
+
+      .stats {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 10px;
+        max-width: 640px;
+      }
+
+      .stat {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 14px;
+        background: #fffaf0;
+      }
+
+      .stat strong {
+        display: block;
+        font-size: 24px;
+      }
+
+      .stat span {
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      .playground {
+        align-self: center;
+        width: 100%;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #ffffff;
+        box-shadow: var(--shadow);
+        overflow: hidden;
+      }
+
+      .panel-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        padding: 16px 18px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .panel-title {
+        font-size: 14px;
+        font-weight: 800;
+        text-transform: uppercase;
+        color: var(--accent-strong);
+      }
+
+      .segmented {
+        display: inline-grid;
+        grid-auto-flow: column;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        overflow: hidden;
+      }
+
+      .segmented button,
+      .icon-button {
+        border: 0;
+        background: transparent;
+        color: var(--muted);
+        cursor: pointer;
+        font: inherit;
+      }
+
+      .segmented button {
+        min-width: 72px;
+        padding: 9px 12px;
+      }
+
+      .segmented button.active {
+        background: var(--ink);
+        color: var(--paper);
+      }
+
+      .playground-body {
+        display: grid;
+        gap: 18px;
+        padding: 18px;
+      }
+
+      label {
+        display: grid;
+        gap: 8px;
+        color: var(--muted);
+        font-size: 13px;
+        font-weight: 700;
+      }
+
+      input,
+      select {
+        width: 100%;
+        min-height: 44px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--paper);
+        color: var(--ink);
+        font: inherit;
+        padding: 0 12px;
+      }
+
+      .result {
+        display: grid;
+        grid-template-columns: 74px minmax(0, 1fr);
+        gap: 16px;
+        align-items: center;
+        min-height: 130px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #f7fbfb;
+        padding: 16px;
+      }
+
+      .logo {
+        display: grid;
+        width: 72px;
+        height: 72px;
+        place-items: center;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #fff;
+        overflow: hidden;
+      }
+
+      .logo img {
+        max-width: 48px;
+        max-height: 48px;
+      }
+
+      .fallback-logo {
+        color: var(--accent-strong);
+        font-size: 22px;
+        font-weight: 900;
+      }
+
+      .result-main {
+        display: grid;
+        gap: 8px;
+        min-width: 0;
+      }
+
+      .result-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+      }
+
+      .result-title h2 {
+        overflow-wrap: anywhere;
+        font-size: 26px;
+      }
+
+      .tag {
+        display: inline-flex;
+        align-items: center;
+        min-height: 26px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        padding: 0 10px;
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 800;
+        white-space: nowrap;
+      }
+
+      .description {
+        color: var(--muted);
+        line-height: 1.55;
+      }
+
+      .chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .chip {
+        border-radius: 999px;
+        background: #ecf4f3;
+        color: var(--accent-strong);
+        font-size: 12px;
+        font-weight: 800;
+        padding: 6px 9px;
+      }
+
+      pre {
+        margin: 0;
+        max-width: 100%;
+        overflow: auto;
+        border-radius: 8px;
+        background: #182026;
+        color: #f6eddc;
+        padding: 14px;
+        font-size: 13px;
+        line-height: 1.55;
+      }
+
+      code {
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+      }
+
+      section {
+        padding: 34px 0;
+      }
+
+      .section-head {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        gap: 18px;
+        margin-bottom: 18px;
+      }
+
+      .section-head h2 {
+        font-size: 30px;
+      }
+
+      .section-head p {
+        max-width: 610px;
+        color: var(--muted);
+        line-height: 1.6;
+      }
+
+      .language-tools {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 220px;
+        gap: 12px;
+        margin-bottom: 16px;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 12px;
+      }
+
+      .language-card {
+        display: grid;
+        gap: 12px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #fff;
+        padding: 14px;
+      }
+
+      .card-top {
+        display: grid;
+        grid-template-columns: 44px minmax(0, 1fr);
+        gap: 12px;
+        align-items: center;
+      }
+
+      .mini-logo {
+        display: grid;
+        width: 44px;
+        height: 44px;
+        place-items: center;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--paper);
+        overflow: hidden;
+      }
+
+      .mini-logo img {
+        max-width: 30px;
+        max-height: 30px;
+      }
+
+      .language-card h3 {
+        overflow-wrap: anywhere;
+        font-size: 17px;
+      }
+
+      .language-card p {
+        color: var(--muted);
+        font-size: 14px;
+        line-height: 1.5;
+      }
+
+      .quality {
+        display: grid;
+        grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+        gap: 16px;
+      }
+
+      .quality-panel {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #fff;
+        overflow: hidden;
+      }
+
+      .quality-body {
+        display: grid;
+        gap: 12px;
+        padding: 16px;
+      }
+
+      .health {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 10px;
+      }
+
+      .health-item {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 12px;
+        background: var(--soft);
+      }
+
+      .health-item strong {
+        display: block;
+        font-size: 22px;
+      }
+
+      .health-item span {
+        color: var(--muted);
+        font-size: 12px;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 14px;
+      }
+
+      th,
+      td {
+        border-bottom: 1px solid var(--line);
+        padding: 10px 8px;
+        text-align: left;
+      }
+
+      th {
+        color: var(--muted);
+        font-size: 12px;
+        text-transform: uppercase;
+      }
+
+      .status-ok {
+        color: var(--green);
+        font-weight: 900;
+      }
+
+      .status-bad {
+        color: var(--red);
+        font-weight: 900;
+      }
+
+      .api-band {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        gap: 16px;
+        align-items: stretch;
+      }
+
+      .copy-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        margin-bottom: 10px;
+      }
+
+      .icon-button {
+        width: 34px;
+        height: 34px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+      }
+
+      .empty {
+        border: 1px dashed var(--line);
+        border-radius: 8px;
+        padding: 24px;
+        color: var(--muted);
+        text-align: center;
+      }
+
+      footer {
+        padding: 38px 0;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+      }
+
+      @media (max-width: 900px) {
+        .workspace,
+        .quality,
+        .api-band {
+          grid-template-columns: 1fr;
+        }
+
+        .intro {
+          min-height: auto;
+          padding-top: 12px;
+        }
+
+        .nav {
+          align-items: flex-start;
+          flex-direction: column;
+          padding: 14px 0;
+        }
+
+        .nav-links {
+          flex-wrap: wrap;
+        }
+      }
+
+      @media (max-width: 560px) {
+        .stats,
+        .health,
+        .language-tools {
+          grid-template-columns: 1fr;
+        }
+
+        .result {
+          grid-template-columns: 1fr;
+        }
+
+        .result-title {
+          align-items: flex-start;
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="shell nav">
+        <a class="brand" href="#playground" aria-label="code-languages home">
+          <span class="brand-mark">{}</span>
+          <span>code-languages</span>
+        </a>
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a href="#playground">Playground</a>
+          <a href="#languages">Languages</a>
+          <a href="#quality">Quality</a>
+          <a href="#api">API</a>
+          <a href="https://github.com/ElJijuna/code-languages">GitHub</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="shell workspace" id="playground">
+        <div class="intro">
+          <h1>Language metadata that can answer back.</h1>
+          <p class="lead">
+            Detect filenames, inspect versions, switch locale, and verify the package health from
+            the same static site generated by the library.
+          </p>
+          <div class="stats" aria-label="Catalog statistics">
+            <div class="stat">
+              <strong id="stat-languages">0</strong>
+              <span>languages</span>
+            </div>
+            <div class="stat">
+              <strong id="stat-extensions">0</strong>
+              <span>extensions and filenames</span>
+            </div>
+            <div class="stat">
+              <strong id="stat-locales">0</strong>
+              <span>locales</span>
+            </div>
+          </div>
+        </div>
+
+        <article class="playground" aria-label="Interactive code-languages playground">
+          <div class="panel-header">
+            <div>
+              <p class="panel-title">Live execution</p>
+              <p class="description">Type a filename or pick a language slug.</p>
+            </div>
+            <div class="segmented" role="group" aria-label="Locale">
+              <button class="active" data-locale="en" type="button">EN</button>
+              <button data-locale="es" type="button">ES</button>
+            </div>
+          </div>
+          <div class="playground-body">
+            <label>
+              Filename detection
+              <input id="filename-input" value="src/App.vue" autocomplete="off" />
+            </label>
+            <label>
+              Language lookup
+              <select id="language-select"></select>
+            </label>
+            <div class="result" id="result"></div>
+            <pre><code id="code-sample"></code></pre>
+          </div>
+        </article>
+      </div>
+
+      <section class="shell" id="languages">
+        <div class="section-head">
+          <div>
+            <h2>Languages</h2>
+            <p>
+              Search the generated catalog by name, slug, extension, runtime, ecosystem, or package
+              manager.
+            </p>
+          </div>
+        </div>
+        <div class="language-tools">
+          <input id="language-search" placeholder="Search TypeScript, .vue, Node.js, JVM..." />
+          <select id="language-sort" aria-label="Sort languages">
+            <option value="name">Sort by name</option>
+            <option value="version">Sort by version</option>
+            <option value="extensions">Sort by extensions</option>
+          </select>
+        </div>
+        <div class="grid" id="language-grid"></div>
+      </section>
+
+      <section class="shell" id="quality">
+        <div class="section-head">
+          <div>
+            <h2>Quality</h2>
+            <p>
+              These snapshots are produced by the website preparation script, so the page reflects
+              the same test and benchmark commands used locally.
+            </p>
+          </div>
+        </div>
+        <div class="quality">
+          <article class="quality-panel">
+            <div class="panel-header">
+              <p class="panel-title">Unit tests</p>
+              <span id="unit-status" class="tag">loading</span>
+            </div>
+            <div class="quality-body">
+              <div class="health" id="unit-health"></div>
+              <div id="unit-files"></div>
+            </div>
+          </article>
+          <article class="quality-panel">
+            <div class="panel-header">
+              <p class="panel-title">Benchmarks</p>
+              <span id="bench-runtime" class="tag">loading</span>
+            </div>
+            <div class="quality-body" id="bench-results"></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="shell" id="api">
+        <div class="section-head">
+          <div>
+            <h2>API</h2>
+            <p>Use the full catalog synchronously or load language modules on demand.</p>
+          </div>
+        </div>
+        <div class="api-band">
+          <article class="quality-panel">
+            <div class="panel-header">
+              <p class="panel-title">Detect and localize</p>
+            </div>
+            <div class="quality-body">
+              <pre><code>import { api } from "code-languages";
+
+const language = api
+  .detect("src/App.vue")
+  .locale("es-PE")
+  .get();</code></pre>
+            </div>
+          </article>
+          <article class="quality-panel">
+            <div class="panel-header">
+              <p class="panel-title">Dynamic language import</p>
+            </div>
+            <div class="quality-body">
+              <pre><code>import { api } from "code-languages";
+
+const astro = await api
+  .language("astro")
+  .locale("en-US")
+  .load();</code></pre>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="shell">
+        Generated from the current package build. Data refreshes with <code>npm run website:prepare</code>.
+      </div>
+    </footer>
+
+    <script type="module">
+      const state = {
+        catalog: null,
+        locale: "en",
+        selectedSlug: "vue",
+        filename: "src/App.vue",
+      };
+
+      const placeholderLogo =
+        "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23182026'/%3E%3Cpath fill='%23fffdf7' d='M18 19h28v8H27v5h17v8H27v5h19v8H18z'/%3E%3C/svg%3E";
+
+      const $ = (selector) => document.querySelector(selector);
+      const languageGrid = $("#language-grid");
+      const result = $("#result");
+
+      const formatNumber = (value) => new Intl.NumberFormat("en").format(value);
+      const localName = (language) => (state.locale === "es" ? language.esName : language.name);
+      const localDescription = (language) =>
+        state.locale === "es" ? language.esDescription : language.description;
+
+      const normalizeFilename = (filename) => filename.split(/[\\/]/).at(-1).toLowerCase();
+
+      const extensionMatches = (extension, basename) => {
+        const normalized = extension.toLowerCase();
+
+        if (normalized.startsWith(".")) {
+          return basename.endsWith(normalized);
+        }
+
+        return basename === normalized || basename.endsWith(`.${normalized}`);
+      };
+
+      const detectLanguages = (filename) => {
+        const basename = normalizeFilename(filename.trim());
+
+        if (!basename) {
+          return [];
+        }
+
+        return state.catalog.languages.filter((language) =>
+          language.extensions.some((extension) => extensionMatches(extension, basename)),
+        );
+      };
+
+      const renderLogo = (language, className = "logo") => `
+        <span class="${className}">
+          <img src="${language.logo || placeholderLogo}" alt="" loading="lazy" onerror="this.src='${placeholderLogo}'" />
+        </span>
+      `;
+
+      const renderResult = () => {
+        const detected = detectLanguages(state.filename);
+        const selected =
+          detected.at(0) ??
+          state.catalog.languages.find((language) => language.slug === state.selectedSlug) ??
+          state.catalog.languages[0];
+
+        state.selectedSlug = selected.slug;
+        $("#language-select").value = selected.slug;
+
+        const matchesText =
+          detected.length > 1 ? `${detected.length} matches` : detected.length === 1 ? "detected" : "selected";
+        const extensionText = selected.extensions.slice(0, 7).join(", ");
+        const extraExtensions = Math.max(0, selected.extensions.length - 7);
+
+        result.innerHTML = `
+          ${renderLogo(selected)}
+          <div class="result-main">
+            <div class="result-title">
+              <h2>${localName(selected)}</h2>
+              <span class="tag">${matchesText}</span>
+            </div>
+            <p class="description">${localDescription(selected)}</p>
+            <div class="chips">
+              <span class="chip">${selected.slug}</span>
+              <span class="chip">v${selected.version}</span>
+              <span class="chip">${extensionText}${extraExtensions ? ` +${extraExtensions}` : ""}</span>
+            </div>
+          </div>
+        `;
+
+        $("#code-sample").textContent = `import { api } from "code-languages";
+
+const result = api
+  .detect("${state.filename}")
+  .locale("${state.locale === "es" ? "es-PE" : "en-US"}")
+  .get();
+
+// ${localName(selected)} ${selected.version}`;
+      };
+
+      const searchBlob = (language) =>
+        [
+          language.name,
+          language.esName,
+          language.slug,
+          language.version,
+          ...language.extensions,
+          ...(language.paradigms ?? []),
+          ...(language.tooling.runtimes ?? []),
+          ...(language.tooling.ecosystems ?? []),
+          ...(language.tooling.packageManagers ?? []),
+        ]
+          .join(" ")
+          .toLowerCase();
+
+      const renderLanguages = () => {
+        const search = $("#language-search").value.trim().toLowerCase();
+        const sort = $("#language-sort").value;
+
+        const languages = state.catalog.languages
+          .filter((language) => !search || searchBlob(language).includes(search))
+          .sort((first, second) => {
+            if (sort === "extensions") {
+              return second.extensions.length - first.extensions.length;
+            }
+
+            if (sort === "version") {
+              return second.version.localeCompare(first.version, undefined, { numeric: true });
+            }
+
+            return localName(first).localeCompare(localName(second));
+          });
+
+        if (languages.length === 0) {
+          languageGrid.innerHTML = `<div class="empty">No language matched your search.</div>`;
+          return;
+        }
+
+        languageGrid.innerHTML = languages
+          .map(
+            (language) => `
+              <article class="language-card">
+                <div class="card-top">
+                  ${renderLogo(language, "mini-logo")}
+                  <div>
+                    <h3>${localName(language)}</h3>
+                    <span class="tag">${language.slug}</span>
+                  </div>
+                </div>
+                <p>${localDescription(language)}</p>
+                <div class="chips">
+                  <span class="chip">v${language.version}</span>
+                  <span class="chip">${language.extensions.slice(0, 4).join(", ")}</span>
+                </div>
+              </article>
+            `,
+          )
+          .join("");
+      };
+
+      const renderUnitSummary = (summary) => {
+        const unitStatus = $("#unit-status");
+        unitStatus.textContent = summary.success ? "passing" : "failing";
+        unitStatus.className = summary.success ? "tag status-ok" : "tag status-bad";
+
+        $("#unit-health").innerHTML = `
+          <div class="health-item"><strong>${summary.passedTests}</strong><span>passing tests</span></div>
+          <div class="health-item"><strong>${summary.totalSuites}</strong><span>test files</span></div>
+          <div class="health-item"><strong>${summary.failedTests}</strong><span>failures</span></div>
+        `;
+
+        $("#unit-files").innerHTML = `
+          <table>
+            <thead><tr><th>File</th><th>Status</th><th>Tests</th></tr></thead>
+            <tbody>
+              ${summary.files
+                .slice(0, 12)
+                .map(
+                  (file) => `
+                    <tr>
+                      <td>${file.file}</td>
+                      <td class="${file.status === "passed" ? "status-ok" : "status-bad"}">${file.status}</td>
+                      <td>${file.tests}</td>
+                    </tr>
+                  `,
+                )
+                .join("")}
+            </tbody>
+          </table>
+        `;
+      };
+
+      const renderBenchmarks = (benchmarks) => {
+        $("#bench-runtime").textContent = benchmarks.runtime;
+        $("#bench-results").innerHTML = `
+          <table>
+            <thead><tr><th>Operation</th><th>Group</th><th>Ops/sec</th></tr></thead>
+            <tbody>
+              ${benchmarks.results
+                .map(
+                  (bench) => `
+                    <tr>
+                      <td>${bench.name}</td>
+                      <td>${bench.group}</td>
+                      <td>${formatNumber(bench.opsPerSecond)}</td>
+                    </tr>
+                  `,
+                )
+                .join("")}
+            </tbody>
+          </table>
+        `;
+      };
+
+      const loadJson = async (path) => {
+        const response = await fetch(path);
+
+        if (!response.ok) {
+          throw new Error(`Unable to load ${path}`);
+        }
+
+        return response.json();
+      };
+
+      const init = async () => {
+        const [catalog, unitSummary, benchmarks] = await Promise.all([
+          loadJson("./data/languages.json"),
+          loadJson("./data/unit-summary.json"),
+          loadJson("./data/bench-results.json"),
+        ]);
+
+        state.catalog = catalog;
+
+        $("#stat-languages").textContent = formatNumber(catalog.total);
+        $("#stat-extensions").textContent = formatNumber(catalog.extensions);
+        $("#stat-locales").textContent = formatNumber(catalog.locales.length);
+
+        $("#language-select").innerHTML = catalog.languages
+          .map((language) => `<option value="${language.slug}">${language.name}</option>`)
+          .join("");
+
+        document.querySelectorAll("[data-locale]").forEach((button) => {
+          button.addEventListener("click", () => {
+            state.locale = button.dataset.locale;
+            document
+              .querySelectorAll("[data-locale]")
+              .forEach((localeButton) => localeButton.classList.toggle("active", localeButton === button));
+            renderResult();
+            renderLanguages();
+          });
+        });
+
+        $("#filename-input").addEventListener("input", (event) => {
+          state.filename = event.target.value;
+          renderResult();
+        });
+
+        $("#language-select").addEventListener("change", (event) => {
+          state.selectedSlug = event.target.value;
+          state.filename = "";
+          $("#filename-input").value = "";
+          renderResult();
+        });
+
+        $("#language-search").addEventListener("input", renderLanguages);
+        $("#language-sort").addEventListener("change", renderLanguages);
+
+        renderResult();
+        renderLanguages();
+        renderUnitSummary(unitSummary);
+        renderBenchmarks(benchmarks);
+      };
+
+      init().catch((error) => {
+        console.error(error);
+        document.body.insertAdjacentHTML(
+          "afterbegin",
+          `<div class="shell empty" style="margin-top: 16px">Website data is missing. Run <code>npm run website:prepare</code>.</div>`,
+        );
+      });
+    </script>
+  </body>
+</html>

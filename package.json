@@ -417,7 +417,12 @@
     "prepare": "husky",
     "release": "semantic-release",
     "test": "vitest run",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "website:bench": "node scripts/run-website-benchmarks.mjs",
+    "website:data": "node scripts/generate-website-data.mjs",
+    "website:prepare": "node scripts/ensure-website-data-dir.mjs && npm run build && npm run website:test && npm run website:bench && npm run website:data && biome format --write docs/data/*.json",
+    "website:serve": "node scripts/serve-website.mjs",
+    "website:test": "node scripts/ensure-website-data-dir.mjs && vitest run --reporter=json --outputFile=docs/data/unit-results.json && node scripts/summarize-website-tests.mjs"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",

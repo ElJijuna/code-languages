@@ -1,0 +1,70 @@
+{
+  "generatedAt": "2026-05-15T03:56:41.505Z",
+  "runtime": "v25.9.0",
+  "results": [
+    {
+      "name": "detectLanguage for TypeScript file",
+      "group": "detect",
+      "iterations": 100000,
+      "totalMs": 156.184,
+      "meanMs": 0.001562,
+      "opsPerSecond": 640269
+    },
+    {
+      "name": "detectLanguages for ambiguous header",
+      "group": "detect",
+      "iterations": 100000,
+      "totalMs": 166.982,
+      "meanMs": 0.00167,
+      "opsPerSecond": 598868
+    },
+    {
+      "name": "detectLanguage mixed filenames",
+      "group": "detect",
+      "iterations": 20000,
+      "totalMs": 38.465,
+      "meanMs": 0.001923,
+      "opsPerSecond": 519954
+    },
+    {
+      "name": "localize TypeScript to es-PE",
+      "group": "i18n",
+      "iterations": 250000,
+      "totalMs": 62.428,
+      "meanMs": 0.00025,
+      "opsPerSecond": 4004581
+    },
+    {
+      "name": "localize complete catalog to Spanish",
+      "group": "i18n",
+      "iterations": 10000,
+      "totalMs": 203.728,
+      "meanMs": 0.020373,
+      "opsPerSecond": 49085
+    },
+    {
+      "name": "api.language().locale().get()",
+      "group": "api",
+      "iterations": 100000,
+      "totalMs": 48.278,
+      "meanMs": 0.000483,
+      "opsPerSecond": 2071321
+    },
+    {
+      "name": "api.detect().locale().get()",
+      "group": "api",
+      "iterations": 100000,
+      "totalMs": 196.763,
+      "meanMs": 0.001968,
+      "opsPerSecond": 508226
+    },
+    {
+      "name": "api.language().locale().load()",
+      "group": "api",
+      "iterations": 10000,
+      "totalMs": 4.606,
+      "meanMs": 0.000461,
+      "opsPerSecond": 2171317
+    }
+  ]
+}
