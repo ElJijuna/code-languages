@@ -12,7 +12,7 @@ export const pug = {
     packageManagers: ["npm", "pnpm", "Yarn"],
     ecosystems: ["Web", "Node.js"],
   },
-  version: "3.0.3",
+  version: "3.0.4",
   logo: "https://cdn.simpleicons.org/pug/A86454",
   i18n: {
     en: {
