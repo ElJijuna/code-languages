@@ -226,6 +226,11 @@
       "import": "./dist/languages/svelte.js",
       "require": "./dist/languages/svelte.cjs"
     },
+    "./svn": {
+      "types": "./dist/languages/svn.d.ts",
+      "import": "./dist/languages/svn.js",
+      "require": "./dist/languages/svn.cjs"
+    },
     "./toml": {
       "types": "./dist/languages/toml.d.ts",
       "import": "./dist/languages/toml.js",

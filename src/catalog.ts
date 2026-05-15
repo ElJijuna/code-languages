@@ -55,6 +55,7 @@ import { scss } from "./languages/scss";
 import { sql } from "./languages/sql";
 import { svelte } from "./languages/svelte";
 import { svg } from "./languages/svg";
+import { svn } from "./languages/svn";
 import { swift } from "./languages/swift";
 import { toml } from "./languages/toml";
 import { typescript } from "./languages/typescript";
@@ -110,6 +111,7 @@ export const languages = [
   markdown,
   meson,
   metal,
+  svn,
   nginx,
   objectiveC,
   pascal,

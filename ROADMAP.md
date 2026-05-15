@@ -112,6 +112,7 @@ code-languages/
 │       ├── meson.ts
 │       ├── metal.ts
 │       ├── pug.ts
+│       ├── svn.ts
 │       ├── go.ts
 │       └── ...
 ├── dist/                               # Generated — do not edit

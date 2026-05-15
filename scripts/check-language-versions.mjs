@@ -392,6 +392,15 @@ const checkers = {
       sourceUrl: "https://registry.npmjs.org/svelte/latest",
     };
   },
+  async svn() {
+    const html = await fetchText("https://subversion.apache.org/");
+    const match = html.match(/Apache Subversion\s+(\d+\.\d+\.\d+)\s+Released/i);
+
+    return {
+      latestVersion: match?.[1],
+      sourceUrl: "https://subversion.apache.org/",
+    };
+  },
   async swift() {
     const json = await fetchJson("https://api.github.com/repos/swiftlang/swift/releases/latest");
     const match = String(json.tag_name ?? json.name ?? "").match(

@@ -98,6 +98,7 @@ import { scss } from "code-languages/scss";
 import { json } from "code-languages/json";
 import { sql } from "code-languages/sql";
 import { svg } from "code-languages/svg";
+import { svn } from "code-languages/svn";
 import { svelte } from "code-languages/svelte";
 import { swift } from "code-languages/swift";
 import { toml } from "code-languages/toml";
@@ -162,6 +163,7 @@ console.log(scss.extensions);
 console.log(json.i18n.en.description);
 console.log(sql.i18n.en.name);
 console.log(svg.extensions);
+console.log(svn.extensions);
 console.log(svelte.version);
 console.log(swift.version);
 console.log(toml.version);
@@ -231,6 +233,7 @@ import {
   scss,
   sql,
   svg,
+  svn,
   svelte,
   swift,
   toml,
@@ -295,6 +298,7 @@ console.log(localizeLanguage(scss).name);
 console.log(json.website);
 console.log(sql.extensions);
 console.log(localizeLanguage(svg, "es").description);
+console.log(localizeLanguage(svn, "es").description);
 console.log(localizeLanguage(svelte).name);
 console.log(swift.i18n.en.description);
 console.log(localizeLanguage(toml, "es").description);
@@ -452,6 +456,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | <img src="https://sass-lang.com/assets/img/logos/logo.svg" alt="Sass logo" width="24" height="24"> | Sass | `scss` | `.scss`, `.sass` | `1.99.0` | `code-languages/scss` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" alt="SQL logo" width="24" height="24"> | SQL | `sql` | `.sql` | `SQL:2023` | `code-languages/sql` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/SVG_Logo.svg" alt="SVG logo" width="24" height="24"> | SVG | `svg` | `.svg`, `.svgz` | `SVG 2` | `code-languages/svg` |
+| <img src="https://cdn.simpleicons.org/subversion/809CC9" alt="SVN logo" width="24" height="24"> | SVN | `svn` | `.svn`, `svnserve.conf` | `1.14.5` | `code-languages/svn` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" alt="Svelte logo" width="24" height="24"> | Svelte | `svelte` | `.svelte` | `5.55.5` | `code-languages/svelte` |
 | <img src="https://www.swift.org/assets/images/swift.svg" alt="Swift logo" width="24" height="24"> | Swift | `swift` | `.swift` | `6.2.2` | `code-languages/swift` |
 | <img src="https://cdn.simpleicons.org/toml/9C4221" alt="TOML logo" width="24" height="24"> | TOML | `toml` | `.toml` | `1.0.0` | `code-languages/toml` |

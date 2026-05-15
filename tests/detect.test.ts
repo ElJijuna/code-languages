@@ -21,6 +21,7 @@ import {
   perl,
   ruby,
   svelte,
+  svn,
   typescript,
   xaml,
 } from "../src";
@@ -103,6 +104,11 @@ describe("detectLanguage", () => {
     expect(detectLanguage(".git")).toBe(git);
     expect(detectLanguage(".gitignore")).toBe(git);
     expect(detectLanguage("submodule/.gitmodules")).toBe(git);
+  });
+
+  it("detects SVN metadata and configuration files", () => {
+    expect(detectLanguage(".svn")).toBe(svn);
+    expect(detectLanguage("conf/svnserve.conf")).toBe(svn);
   });
 
   it("detects INI configuration files", () => {

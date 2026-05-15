@@ -67,6 +67,7 @@ export { scala } from "./languages/scala";
 export { scss } from "./languages/scss";
 export { sql } from "./languages/sql";
 export { svg } from "./languages/svg";
+export { svn } from "./languages/svn";
 export { svelte } from "./languages/svelte";
 export { swift } from "./languages/swift";
 export { toml } from "./languages/toml";
