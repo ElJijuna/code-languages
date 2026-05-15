@@ -136,6 +136,11 @@
       "import": "./dist/languages/elm.js",
       "require": "./dist/languages/elm.cjs"
     },
+    "./erlang": {
+      "types": "./dist/languages/erlang.d.ts",
+      "import": "./dist/languages/erlang.js",
+      "require": "./dist/languages/erlang.cjs"
+    },
     "./fortran": {
       "types": "./dist/languages/fortran.d.ts",
       "import": "./dist/languages/fortran.js",

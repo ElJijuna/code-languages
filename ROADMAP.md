@@ -105,6 +105,7 @@ code-languages/
 │       ├── rust.ts
 │       ├── cuda.ts
 │       ├── elm.ts
+│       ├── erlang.ts
 │       ├── fortran.ts
 │       ├── scala.ts
 │       ├── fsharp.ts

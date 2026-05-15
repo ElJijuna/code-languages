@@ -71,6 +71,7 @@
 - [x] XAML (`xaml`)
 - [x] Perl (`perl`)
 - [x] SVN (`svn`)
+- [x] Erlang (`erlang`)
 
 ## Pending
 
@@ -91,7 +92,6 @@
 - [ ] XQuery (`xquery`)
 - [ ] XSLT (`xslt`)
 - [ ] Clojure (`clojure`)
-- [ ] Erlang (`erlang`)
 
 ## Lower Priority Languages
 

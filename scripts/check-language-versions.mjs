@@ -137,6 +137,14 @@ const checkers = {
       sourceUrl: "https://registry.npmjs.org/elm/latest",
     };
   },
+  async erlang() {
+    const json = await fetchJson("https://api.github.com/repos/erlang/otp/releases/latest");
+
+    return {
+      latestVersion: String(json.tag_name ?? "").replace(/^OTP-/, "OTP "),
+      sourceUrl: "https://api.github.com/repos/erlang/otp/releases/latest",
+    };
+  },
   async fsharp() {
     const html = await fetchText("https://learn.microsoft.com/en-us/dotnet/fsharp/whats-new/");
     const versions = [...html.matchAll(/F#\s+(\d+)/g)].map((match) => match[1]);

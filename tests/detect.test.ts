@@ -10,6 +10,7 @@ import {
   detectLanguages,
   dockerfile,
   elm,
+  erlang,
   fortran,
   git,
   gradle,
@@ -45,6 +46,12 @@ describe("detectLanguage", () => {
 
   it("detects Elm source files", () => {
     expect(detectLanguage("src/Main.elm")).toBe(elm);
+  });
+
+  it("detects Erlang source and project files", () => {
+    expect(detectLanguage("src/chat_server.erl")).toBe(erlang);
+    expect(detectLanguage("include/chat_server.hrl")).toBe(erlang);
+    expect(detectLanguage("rebar.config")).toBe(erlang);
   });
 
   it("detects Fortran source files", () => {

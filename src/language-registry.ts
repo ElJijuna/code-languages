@@ -30,6 +30,10 @@ export const languageIndex = [
   { slug: "dockerfile", extensions: ["Dockerfile", ".dockerfile"] },
   { slug: "elm", extensions: [".elm"] },
   {
+    slug: "erlang",
+    extensions: [".erl", ".hrl", ".app.src", ".escript", ".xrl", ".yrl", "rebar.config"],
+  },
+  {
     slug: "fortran",
     extensions: [".f", ".for", ".ftn", ".f90", ".f95", ".f03", ".f08", ".f18", ".f23"],
   },
@@ -111,6 +115,7 @@ export const languageLoaders = {
   dart: () => import("./languages/dart").then((module) => module.dart),
   dockerfile: () => import("./languages/dockerfile").then((module) => module.dockerfile),
   elm: () => import("./languages/elm").then((module) => module.elm),
+  erlang: () => import("./languages/erlang").then((module) => module.erlang),
   fortran: () => import("./languages/fortran").then((module) => module.fortran),
   fsharp: () => import("./languages/fsharp").then((module) => module.fsharp),
   git: () => import("./languages/git").then((module) => module.git),
