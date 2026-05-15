@@ -284,6 +284,15 @@ const checkers = {
       sourceUrl: "https://www.lua.org/download.html",
     };
   },
+  async ocaml() {
+    const html = await fetchText("https://ocaml.org/p/ocaml/latest/versions");
+    const versions = [...html.matchAll(/>\s*(\d+\.\d+\.\d+)\s*<\/a>/g)].map((match) => match[1]);
+
+    return {
+      latestVersion: latestSemver(versions),
+      sourceUrl: "https://ocaml.org/p/ocaml/latest/versions",
+    };
+  },
   async makefile() {
     const html = await fetchText("https://ftp.gnu.org/gnu/make/");
     const versions = [...html.matchAll(/make-(\d+\.\d+(?:\.\d+)?)\.tar\.gz/g)].map(

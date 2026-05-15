@@ -48,6 +48,7 @@ import { metal } from "./languages/metal";
 import { nginx } from "./languages/nginx";
 import { nix } from "./languages/nix";
 import { objectiveC } from "./languages/objective-c";
+import { ocaml } from "./languages/ocaml";
 import { pascal } from "./languages/pascal";
 import { perl } from "./languages/perl";
 import { php } from "./languages/php";
@@ -129,6 +130,7 @@ export const languages = [
   svn,
   nginx,
   nix,
+  ocaml,
   objectiveC,
   pascal,
   perl,

@@ -24,6 +24,7 @@ import {
   lua,
   meson,
   metal,
+  ocaml,
   perl,
   razor,
   ruby,
@@ -72,6 +73,14 @@ describe("detectLanguage", () => {
     expect(detectLanguage("src/FFI.hsc")).toBe(haskell);
     expect(detectLanguage("src/Internal.hs-boot")).toBe(haskell);
     expect(detectLanguage("package/example.cabal")).toBe(haskell);
+  });
+
+  it("detects OCaml source, interface, lexer, parser, and Eliom files", () => {
+    expect(detectLanguage("lib/main.ml")).toBe(ocaml);
+    expect(detectLanguage("lib/main.mli")).toBe(ocaml);
+    expect(detectLanguage("lexer.mll")).toBe(ocaml);
+    expect(detectLanguage("parser.mly")).toBe(ocaml);
+    expect(detectLanguage("app/page.eliom")).toBe(ocaml);
   });
 
   it("detects Erlang source and project files", () => {

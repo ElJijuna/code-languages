@@ -80,10 +80,10 @@
 - [x] Jupyter Notebook (`jupyter-notebook`)
 - [x] Elixir (`elixir`)
 - [x] Haskell (`haskell`)
+- [x] OCaml (`ocaml`)
 
 ## Pending
 
-- [ ] OCaml (`ocaml`)
 - [ ] Protocol Buffers (`protobuf`)
 - [ ] Racket (`racket`)
 - [ ] Rego (`rego`)

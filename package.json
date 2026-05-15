@@ -391,6 +391,11 @@
       "import": "./dist/languages/markdown.js",
       "require": "./dist/languages/markdown.cjs"
     },
+    "./ocaml": {
+      "types": "./dist/languages/ocaml.d.ts",
+      "import": "./dist/languages/ocaml.js",
+      "require": "./dist/languages/ocaml.cjs"
+    },
     "./objective-c": {
       "types": "./dist/languages/objective-c.d.ts",
       "import": "./dist/languages/objective-c.js",

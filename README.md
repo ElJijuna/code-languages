@@ -91,6 +91,7 @@ import { meson } from "code-languages/meson";
 import { metal } from "code-languages/metal";
 import { nginx } from "code-languages/nginx";
 import { nix } from "code-languages/nix";
+import { ocaml } from "code-languages/ocaml";
 import { objectiveC } from "code-languages/objective-c";
 import { pascal } from "code-languages/pascal";
 import { perl } from "code-languages/perl";
@@ -244,6 +245,7 @@ import {
   metal,
   nginx,
   nix,
+  ocaml,
   objectiveC,
   pascal,
   perl,
@@ -316,6 +318,7 @@ console.log(localizeLanguage(meson, "es").description);
 console.log(localizeLanguage(metal).description);
 console.log(localizeLanguage(nginx, "es").description);
 console.log(localizeLanguage(nix, "es").description);
+console.log(localizeLanguage(ocaml, "es").description);
 console.log(objectiveC.extensions);
 console.log(localizeLanguage(pascal, "es").description);
 console.log(localizeLanguage(perl).description);
@@ -483,6 +486,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | <img src="https://developer.apple.com/assets/elements/icons/metal/metal-256x256_2x.png" alt="Metal logo" width="24" height="24"> | Metal | `metal` | `.metal` | `Metal 4` | `code-languages/metal` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg" alt="nginx logo" width="24" height="24"> | nginx | `nginx` | `nginx.conf`, `.nginx`, `.conf` | `1.30.1` | `code-languages/nginx` |
 | <img src="https://cdn.simpleicons.org/nixos/5277C3" alt="Nix logo" width="24" height="24"> | Nix | `nix` | `.nix` | `2.28` | `code-languages/nix` |
+| <img src="https://cdn.simpleicons.org/ocaml/EC6813" alt="OCaml logo" width="24" height="24"> | OCaml | `ocaml` | `.ml`, `.mli`, `.mll`, `.mly`, `.mlt`, `.eliom`, `.eliomi` | `5.6.0` | `code-languages/ocaml` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Apple_logo_grey.svg" alt="Objective-C logo" width="24" height="24"> | Objective-C | `objective-c` | `.m`, `.mm` | `2.0` | `code-languages/objective-c` |
 | <img src="https://cdn.simpleicons.org/lazarus/000000" alt="Pascal logo" width="24" height="24"> | Pascal | `pascal` | `.pas`, `.pp`, `.inc`, `.lpr`, `.dpr`, `.dfm` | `3.2.2` | `code-languages/pascal` |
 | <img src="https://cdn.simpleicons.org/perl/39457E" alt="Perl logo" width="24" height="24"> | Perl | `perl` | `.pl`, `.pm`, `.pod`, `.t`, `.psgi` | `5.42.2` | `code-languages/perl` |
