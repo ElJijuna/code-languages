@@ -1,3 +1,16 @@
+# [1.11.0](https://github.com/ElJijuna/code-languages/compare/v1.10.0...v1.11.0) (2026-05-15)
+
+
+### Features
+
+* add interactive documentation website ([ff80d9e](https://github.com/ElJijuna/code-languages/commit/ff80d9edae3e34dc0497ef042491b33963e9ca75))
+* add language actionscript ([eca9bae](https://github.com/ElJijuna/code-languages/commit/eca9bae98ce63a86f1f2412060a8745ae6014ab2))
+* add language elm ([eac07c2](https://github.com/ElJijuna/code-languages/commit/eac07c292c6fa014fd95f5d50fa3b1d00519b952))
+* add language fortran ([28d16e2](https://github.com/ElJijuna/code-languages/commit/28d16e2974a9d783182c494edd6b29b7e95b9bac))
+* add language perl ([d3c473d](https://github.com/ElJijuna/code-languages/commit/d3c473d54638866f31fa9b222eb851e66ddd544b))
+* add svn support ([6ea5167](https://github.com/ElJijuna/code-languages/commit/6ea5167b2f6a41c94f1a1b0f61dc528423fc7707))
+* all language erlang ([156be08](https://github.com/ElJijuna/code-languages/commit/156be085841055f6058ccf66a52e04a8a018a8d6))
+
 # [1.10.0](https://github.com/ElJijuna/code-languages/compare/v1.9.2...v1.10.0) (2026-05-14)
 
 
