@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-15T04:14:49.402Z",
-  "total": 72,
-  "extensions": 210,
+  "generatedAt": "2026-05-15T12:12:12.391Z",
+  "total": 73,
+  "extensions": 215,
   "locales": ["en", "es"],
   "languages": [
     {
@@ -115,7 +115,7 @@
         "packageManagers": ["npm", "pnpm", "Yarn", "Bun"],
         "ecosystems": ["Web", "Static Sites", "Content"]
       },
-      "version": "6.3.2",
+      "version": "6.3.3",
       "logo": "https://astro.build/assets/press/astro-icon-light.svg"
     },
     {
@@ -599,6 +599,27 @@
       "logo": "https://upload.wikimedia.org/wikipedia/commons/3/36/Groovy-logo.svg"
     },
     {
+      "slug": "hcl",
+      "name": "HCL",
+      "description": "HashiCorp Configuration Language for human-readable infrastructure and application configuration.",
+      "longDescription": "HCL is HashiCorp Configuration Language, a structured configuration language designed to be readable by humans while remaining easy for tools to parse. It supports blocks, attributes, expressions, variables, functions, object values, and references used to describe infrastructure and application settings.\n\nIt is best known through Terraform, but it is also used across HashiCorp tools such as Packer, Nomad, Vault, and Consul. HCL files commonly define cloud resources, modules, providers, jobs, policies, templates, and environment-specific variables.",
+      "esName": "HCL",
+      "esDescription": "El lenguaje de configuracion de HashiCorp para infraestructura y configuracion legible por humanos.",
+      "esLongDescription": "HCL es HashiCorp Configuration Language, un lenguaje de configuracion estructurado disenado para ser legible por humanos y facil de analizar por herramientas. Soporta bloques, atributos, expresiones, variables, funciones, valores de objeto y referencias usadas para describir infraestructura y configuracion de aplicaciones.\n\nEs conocido principalmente por Terraform, pero tambien se usa en herramientas de HashiCorp como Packer, Nomad, Vault y Consul. Los archivos HCL suelen definir recursos cloud, modulos, providers, jobs, politicas, templates y variables especificas por entorno.",
+      "publishedDate": "2014-01-01",
+      "extensions": [".hcl", ".tf", ".tfvars", ".pkr.hcl", ".nomad"],
+      "author": "HashiCorp",
+      "website": "https://github.com/hashicorp/hcl",
+      "paradigms": ["declarative", "configuration", "data-serialization"],
+      "tooling": {
+        "runtimes": ["Terraform", "Packer", "Nomad", "Vault", "Consul"],
+        "packageManagers": ["Terraform Registry"],
+        "ecosystems": ["Infrastructure as Code", "DevOps", "Cloud", "HashiCorp"]
+      },
+      "version": "2.24.0",
+      "logo": "https://cdn.simpleicons.org/hashicorp/844FBA"
+    },
+    {
       "slug": "html",
       "name": "HTML",
       "description": "A markup language for structuring web pages and browser-rendered documents.",
@@ -920,7 +941,7 @@
         "runtimes": ["nginx", "NGINX Plus", "OpenResty"],
         "ecosystems": ["Web Servers", "Reverse Proxies", "Load Balancing", "DevOps"]
       },
-      "version": "1.30.0",
+      "version": "1.30.1",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg"
     },
     {
@@ -1067,7 +1088,7 @@
         "packageManagers": ["npm", "pnpm", "Yarn"],
         "ecosystems": ["Web", "Node.js"]
       },
-      "version": "3.0.3",
+      "version": "3.0.4",
       "logo": "https://cdn.simpleicons.org/pug/A86454"
     },
     {
@@ -1130,7 +1151,7 @@
         "packageManagers": ["RubyGems", "Bundler"],
         "ecosystems": ["Web", "Rails", "DevOps", "Automation"]
       },
-      "version": "4.0.3",
+      "version": "4.0.4",
       "logo": "https://www.ruby-lang.org/images/header-ruby-logo.png"
     },
     {
@@ -1193,7 +1214,7 @@
         "packageManagers": ["sbt", "Maven", "Gradle", "Scala CLI"],
         "ecosystems": ["JVM", "Web", "Data Engineering", "Distributed Systems"]
       },
-      "version": "3.7.4",
+      "version": "3.8.3",
       "logo": "https://cdn.simpleicons.org/scala/DC322F"
     },
     {
@@ -1231,7 +1252,7 @@
         "packageManagers": ["npm", "pnpm", "Yarn", "Bun"],
         "ecosystems": ["Web", "SvelteKit", "Vite"]
       },
-      "version": "5.55.5",
+      "version": "5.55.7",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg"
     },
     {
@@ -1309,7 +1330,7 @@
       "website": "https://toml.io",
       "paradigms": ["configuration", "declarative", "data-serialization"],
       "tooling": {},
-      "version": "1.0.0",
+      "version": "1.1.0",
       "logo": "https://cdn.simpleicons.org/toml/9C4221"
     },
     {

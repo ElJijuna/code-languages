@@ -26,6 +26,7 @@ import { go } from "./languages/go";
 import { gradle } from "./languages/gradle";
 import { graphql } from "./languages/graphql";
 import { groovy } from "./languages/groovy";
+import { hcl } from "./languages/hcl";
 import { html } from "./languages/html";
 import { ini } from "./languages/ini";
 import { java } from "./languages/java";
@@ -101,6 +102,7 @@ export const languages = [
   glsl,
   graphql,
   groovy,
+  hcl,
   html,
   ini,
   java,

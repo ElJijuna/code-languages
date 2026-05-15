@@ -74,10 +74,10 @@
 - [x] SVN (`svn`)
 - [x] Erlang (`erlang`)
 - [x] Nix (`nix`)
+- [x] HCL (`hcl`)
 
 ## Pending
 
-- [ ] HCL (`hcl`)
 - [ ] Jupyter Notebook (`jupyter-notebook`)
 - [ ] Elixir (`elixir`)
 - [ ] Haskell (`haskell`)

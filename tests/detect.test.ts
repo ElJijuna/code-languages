@@ -15,6 +15,7 @@ import {
   git,
   glsl,
   gradle,
+  hcl,
   ini,
   lisp,
   lua,
@@ -111,6 +112,12 @@ describe("detectLanguage", () => {
   it("detects GLSL shader files", () => {
     expect(detectLanguage("shaders/water.frag")).toBe(glsl);
     expect(detectLanguage("shaders/lighting.vert")).toBe(glsl);
+  });
+
+  it("detects HCL and Terraform configuration files", () => {
+    expect(detectLanguage("main.tf")).toBe(hcl);
+    expect(detectLanguage("environments/prod.tfvars")).toBe(hcl);
+    expect(detectLanguage("packer/template.pkr.hcl")).toBe(hcl);
   });
 
   it("detects Git metadata files", () => {

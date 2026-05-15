@@ -212,6 +212,14 @@ const checkers = {
       sourceUrl: "https://repo1.maven.org/maven2/org/apache/groovy/groovy/maven-metadata.xml",
     };
   },
+  async hcl() {
+    const json = await fetchJson("https://api.github.com/repos/hashicorp/hcl/releases/latest");
+
+    return {
+      latestVersion: normalizeVersion(json.tag_name),
+      sourceUrl: "https://api.github.com/repos/hashicorp/hcl/releases/latest",
+    };
+  },
   async java() {
     const json = await fetchJson("https://api.adoptium.net/v3/info/available_releases");
     const releases = json.available_releases ?? [];
@@ -293,11 +301,12 @@ const checkers = {
     };
   },
   async nix() {
-    const json = await fetchJson("https://api.github.com/repos/NixOS/nix/releases/latest");
+    const html = await fetchText("https://nix.dev/manual/nix/latest/");
+    const match = html.match(/Nix\s+(\d+\.\d+\.\d+)\s+Reference Manual/i);
 
     return {
-      latestVersion: normalizeVersion(json.tag_name),
-      sourceUrl: "https://api.github.com/repos/NixOS/nix/releases/latest",
+      latestVersion: match?.[1],
+      sourceUrl: "https://nix.dev/manual/nix/latest/",
     };
   },
   async nginx() {
