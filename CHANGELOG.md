@@ -1,3 +1,12 @@
+# [1.13.0](https://github.com/ElJijuna/code-languages/compare/v1.12.4...v1.13.0) (2026-05-15)
+
+
+### Features
+
+* add language hcl ([e0d8438](https://github.com/ElJijuna/code-languages/commit/e0d84387b399566d44d0b03b51cedd857b4ec16e))
+* add language razor ([b9c2627](https://github.com/ElJijuna/code-languages/commit/b9c2627d106393d9c5e366cee7f7a4fde0c95ddd))
+* add language solidity ([cdbfd5c](https://github.com/ElJijuna/code-languages/commit/cdbfd5c593d73f5e6018d1363163ef26fc020003))
+
 ## [1.12.4](https://github.com/ElJijuna/code-languages/compare/v1.12.3...v1.12.4) (2026-05-15)
 
 
