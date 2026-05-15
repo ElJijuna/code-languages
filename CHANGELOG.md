@@ -1,3 +1,13 @@
+# [1.14.0](https://github.com/ElJijuna/code-languages/compare/v1.13.0...v1.14.0) (2026-05-15)
+
+
+### Features
+
+* add language elixir ([6aa10f3](https://github.com/ElJijuna/code-languages/commit/6aa10f3483795cb227ea4080b428083d9e706655))
+* add language haskell ([3cc50d1](https://github.com/ElJijuna/code-languages/commit/3cc50d1ff43ee9ca62824cb718abc7633db22958))
+* add language jupyter notebook ([87e1ca4](https://github.com/ElJijuna/code-languages/commit/87e1ca4cd208f75a72475020db145a3c5e2db196))
+* add language ocaml ([d47d18b](https://github.com/ElJijuna/code-languages/commit/d47d18b6166b0a6eb8bc2c39aaab91aa5c158d2a))
+
 # [1.13.0](https://github.com/ElJijuna/code-languages/compare/v1.12.4...v1.13.0) (2026-05-15)
 
 
