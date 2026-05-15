@@ -1,3 +1,21 @@
+# [1.12.0](https://github.com/ElJijuna/code-languages/compare/v1.11.0...v1.12.0) (2026-05-15)
+
+
+### Bug Fixes
+
+* update Astro metadata to 6.3.3 ([1b29b4a](https://github.com/ElJijuna/code-languages/commit/1b29b4acdb1f98ccfa4f9733443768cd2e7878a7))
+* update Astro metadata to 6.3.3 ([6f004e9](https://github.com/ElJijuna/code-languages/commit/6f004e985d68b24334f70cd69e353cf3f5a8c84b))
+* update Pug metadata to 3.0.4 ([abccbdd](https://github.com/ElJijuna/code-languages/commit/abccbdd0f660d928ca2502e0ead4fac6b77c724b))
+* update Pug metadata to 3.0.4 ([8d0b5ea](https://github.com/ElJijuna/code-languages/commit/8d0b5ea70f1cb3f79f4152bf397d41be36defd93))
+* update Svelte metadata to 5.55.7 ([de8385c](https://github.com/ElJijuna/code-languages/commit/de8385cb94abdadeeb8f195cbd8fdbe7869587e6))
+* update Svelte metadata to 5.55.7 ([54a710c](https://github.com/ElJijuna/code-languages/commit/54a710ced074012ac09df7f5be55b802f1bef024))
+
+
+### Features
+
+* add language glsl ([d143175](https://github.com/ElJijuna/code-languages/commit/d143175f8513d1f8dc07017bddfbd1d2eada78e0))
+* add language nix ([5d309aa](https://github.com/ElJijuna/code-languages/commit/5d309aaf7ea77902a979dac1a8c2c4336817959d))
+
 # [1.11.0](https://github.com/ElJijuna/code-languages/compare/v1.10.0...v1.11.0) (2026-05-15)
 
 
