@@ -41,6 +41,10 @@ export const languageIndex = [
   { slug: "git", extensions: [".git", ".gitignore", ".gitattributes", ".gitmodules", ".gitkeep"] },
   { slug: "go", extensions: [".go"] },
   { slug: "gradle", extensions: [".gradle", ".gradle.kts"] },
+  {
+    slug: "glsl",
+    extensions: [".glsl", ".vert", ".frag", ".geom", ".tesc", ".tese", ".comp", ".vs", ".fs"],
+  },
   { slug: "graphql", extensions: [".graphql", ".gql", ".graphqls"] },
   { slug: "groovy", extensions: [".groovy", ".gvy", ".gy", ".gsh"] },
   { slug: "html", extensions: [".html", ".htm"] },
@@ -121,6 +125,7 @@ export const languageLoaders = {
   git: () => import("./languages/git").then((module) => module.git),
   go: () => import("./languages/go").then((module) => module.go),
   gradle: () => import("./languages/gradle").then((module) => module.gradle),
+  glsl: () => import("./languages/glsl").then((module) => module.glsl),
   graphql: () => import("./languages/graphql").then((module) => module.graphql),
   groovy: () => import("./languages/groovy").then((module) => module.groovy),
   html: () => import("./languages/html").then((module) => module.html),

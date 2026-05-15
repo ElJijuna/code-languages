@@ -36,6 +36,7 @@ export { fsharp } from "./languages/fsharp";
 export { git } from "./languages/git";
 export { go } from "./languages/go";
 export { gradle } from "./languages/gradle";
+export { glsl } from "./languages/glsl";
 export { graphql } from "./languages/graphql";
 export { groovy } from "./languages/groovy";
 export { html } from "./languages/html";

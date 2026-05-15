@@ -326,6 +326,11 @@
       "import": "./dist/languages/gradle.js",
       "require": "./dist/languages/gradle.cjs"
     },
+    "./glsl": {
+      "types": "./dist/languages/glsl.d.ts",
+      "import": "./dist/languages/glsl.js",
+      "require": "./dist/languages/glsl.cjs"
+    },
     "./graphql": {
       "types": "./dist/languages/graphql.d.ts",
       "import": "./dist/languages/graphql.js",

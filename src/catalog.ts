@@ -21,6 +21,7 @@ import { erlang } from "./languages/erlang";
 import { fortran } from "./languages/fortran";
 import { fsharp } from "./languages/fsharp";
 import { git } from "./languages/git";
+import { glsl } from "./languages/glsl";
 import { go } from "./languages/go";
 import { gradle } from "./languages/gradle";
 import { graphql } from "./languages/graphql";
@@ -96,6 +97,7 @@ export const languages = [
   git,
   go,
   gradle,
+  glsl,
   graphql,
   groovy,
   html,

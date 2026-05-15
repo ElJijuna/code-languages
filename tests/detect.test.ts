@@ -13,6 +13,7 @@ import {
   erlang,
   fortran,
   git,
+  glsl,
   gradle,
   ini,
   lisp,
@@ -105,6 +106,11 @@ describe("detectLanguage", () => {
 
   it("detects Metal shader files", () => {
     expect(detectLanguage("Shaders/Lighting.metal")).toBe(metal);
+  });
+
+  it("detects GLSL shader files", () => {
+    expect(detectLanguage("shaders/water.frag")).toBe(glsl);
+    expect(detectLanguage("shaders/lighting.vert")).toBe(glsl);
   });
 
   it("detects Git metadata files", () => {

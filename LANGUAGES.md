@@ -33,6 +33,7 @@
 - [x] Git (`git`)
 - [x] Groovy (`groovy`)
 - [x] Gradle (`gradle`)
+- [x] GLSL (`glsl`)
 - [x] GraphQL (`graphql`)
 - [x] Kotlin (`kotlin`)
 - [x] Bash (`bash`)
@@ -75,7 +76,6 @@
 
 ## Pending
 
-- [ ] GLSL (`glsl`)
 - [ ] HCL (`hcl`)
 - [ ] Jupyter Notebook (`jupyter-notebook`)
 - [ ] Elixir (`elixir`)

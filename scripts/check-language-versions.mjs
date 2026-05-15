@@ -172,6 +172,15 @@ const checkers = {
       sourceUrl: "https://go.dev/VERSION?m=text",
     };
   },
+  async glsl() {
+    const html = await fetchText("https://registry.khronos.org/OpenGL/specs/gl/");
+    const versions = [...html.matchAll(/GLSLangSpec\.(\d+\.\d+)/g)].map((match) => match[1]);
+
+    return {
+      latestVersion: latestSemver(versions),
+      sourceUrl: "https://registry.khronos.org/OpenGL/specs/gl/",
+    };
+  },
   async gradle() {
     const html = await fetchText("https://docs.gradle.org/current/release-notes.html");
     const match = html.match(/Gradle\s+(\d+\.\d+(?:\.\d+)?)/);

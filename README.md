@@ -69,6 +69,7 @@ import { fortran } from "code-languages/fortran";
 import { fsharp } from "code-languages/fsharp";
 import { git } from "code-languages/git";
 import { gradle } from "code-languages/gradle";
+import { glsl } from "code-languages/glsl";
 import { graphql } from "code-languages/graphql";
 import { groovy } from "code-languages/groovy";
 import { ini } from "code-languages/ini";
@@ -135,6 +136,7 @@ console.log(fortran.extensions);
 console.log(fsharp.version);
 console.log(git.extensions);
 console.log(gradle.extensions);
+console.log(glsl.extensions);
 console.log(graphql.version);
 console.log(groovy.version);
 console.log(ini.extensions);
@@ -206,6 +208,7 @@ import {
   fortran,
   fsharp,
   go,
+  glsl,
   graphql,
   groovy,
   html,
@@ -273,6 +276,7 @@ console.log(localizeLanguage(elm, "es").description);
 console.log(localizeLanguage(erlang, "es").description);
 console.log(localizeLanguage(fortran).description);
 console.log(localizeLanguage(fsharp, "es").description);
+console.log(localizeLanguage(glsl, "es").description);
 console.log(localizeLanguage(graphql, "es").description);
 console.log(localizeLanguage(groovy).description);
 console.log(localizeLanguage(ini, "es").description);
@@ -430,6 +434,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | <img src="https://cdn.simpleicons.org/git/F05032" alt="Git logo" width="24" height="24"> | Git | `git` | `.git`, `.gitignore`, `.gitattributes`, `.gitmodules`, `.gitkeep` | `2.54.0` | `code-languages/git` |
 | <img src="https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg" alt="Go logo" width="24" height="24"> | Go | `go` | `.go` | `1.26.3` | `code-languages/go` |
 | <img src="https://cdn.simpleicons.org/gradle/02303A" alt="Gradle logo" width="24" height="24"> | Gradle | `gradle` | `.gradle`, `.gradle.kts` | `9.5.1` | `code-languages/gradle` |
+| <img src="https://cdn.simpleicons.org/opengl/5586A4" alt="GLSL logo" width="24" height="24"> | GLSL | `glsl` | `.glsl`, `.vert`, `.frag`, `.geom`, `.tesc`, `.tese`, `.comp`, `.vs`, `.fs` | `4.60` | `code-languages/glsl` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg" alt="GraphQL logo" width="24" height="24"> | GraphQL | `graphql` | `.graphql`, `.gql`, `.graphqls` | `September 2025` | `code-languages/graphql` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Groovy-logo.svg" alt="Groovy logo" width="24" height="24"> | Groovy | `groovy` | `.groovy`, `.gvy`, `.gy`, `.gsh` | `5.0.5` | `code-languages/groovy` |
 | <img src="https://www.w3.org/html/logo/downloads/HTML5_Badge.svg" alt="HTML logo" width="24" height="24"> | HTML | `html` | `.html`, `.htm` | `Living Standard` | `code-languages/html` |
