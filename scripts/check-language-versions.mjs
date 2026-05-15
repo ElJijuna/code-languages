@@ -294,6 +294,17 @@ const checkers = {
       sourceUrl: "https://www.freepascal.org/download.html.en",
     };
   },
+  async perl() {
+    const html = await fetchText("https://dev.perl.org/perl5/");
+    const match = html.match(
+      /Perl[\s\S]{0,100}?(\d+\.\d+\.\d+)[\s\S]{0,80}?is the current stable version/i,
+    );
+
+    return {
+      latestVersion: match?.[1],
+      sourceUrl: "https://dev.perl.org/perl5/",
+    };
+  },
   async php() {
     const json = await fetchJson("https://api.github.com/repos/php/php-src/releases/latest");
 

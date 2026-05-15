@@ -55,6 +55,7 @@ export { metal } from "./languages/metal";
 export { nginx } from "./languages/nginx";
 export { objectiveC } from "./languages/objective-c";
 export { pascal } from "./languages/pascal";
+export { perl } from "./languages/perl";
 export { php } from "./languages/php";
 export { powershell } from "./languages/powershell";
 export { pug } from "./languages/pug";

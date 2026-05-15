@@ -69,6 +69,7 @@
 - [x] Lisp (`lisp`)
 - [x] INI (`ini`)
 - [x] XAML (`xaml`)
+- [x] Perl (`perl`)
 
 ## Pending
 
@@ -90,7 +91,6 @@
 - [ ] XSLT (`xslt`)
 - [ ] Clojure (`clojure`)
 - [ ] Erlang (`erlang`)
-- [ ] Perl (`perl`)
 
 ## Lower Priority Languages
 

@@ -366,6 +366,11 @@
       "import": "./dist/languages/pascal.js",
       "require": "./dist/languages/pascal.cjs"
     },
+    "./perl": {
+      "types": "./dist/languages/perl.d.ts",
+      "import": "./dist/languages/perl.js",
+      "require": "./dist/languages/perl.cjs"
+    },
     "./yaml": {
       "types": "./dist/languages/yaml.d.ts",
       "import": "./dist/languages/yaml.js",

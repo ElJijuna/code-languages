@@ -42,6 +42,7 @@ import { metal } from "./languages/metal";
 import { nginx } from "./languages/nginx";
 import { objectiveC } from "./languages/objective-c";
 import { pascal } from "./languages/pascal";
+import { perl } from "./languages/perl";
 import { php } from "./languages/php";
 import { powershell } from "./languages/powershell";
 import { pug } from "./languages/pug";
@@ -112,6 +113,7 @@ export const languages = [
   nginx,
   objectiveC,
   pascal,
+  perl,
   php,
   powershell,
   pug,

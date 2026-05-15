@@ -99,6 +99,7 @@ code-languages/
 │       ├── lisp.ts
 │       ├── xaml.ts
 │       ├── pascal.ts
+│       ├── perl.ts
 │       ├── python.ts
 │       ├── r.ts
 │       ├── rust.ts

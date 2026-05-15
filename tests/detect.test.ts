@@ -18,6 +18,7 @@ import {
   lua,
   meson,
   metal,
+  perl,
   ruby,
   svelte,
   typescript,
@@ -107,6 +108,11 @@ describe("detectLanguage", () => {
   it("detects INI configuration files", () => {
     expect(detectLanguage("config/app.ini")).toBe(ini);
     expect(detectLanguage("desktop.ini")).toBe(ini);
+  });
+
+  it("detects Perl scripts and modules", () => {
+    expect(detectLanguage("script/release.pl")).toBe(perl);
+    expect(detectLanguage("lib/App/CLI.pm")).toBe(perl);
   });
 
   it("handles nested paths and case-insensitive names", () => {
