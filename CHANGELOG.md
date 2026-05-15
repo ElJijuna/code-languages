@@ -1,3 +1,11 @@
+## [1.12.2](https://github.com/ElJijuna/code-languages/compare/v1.12.1...v1.12.2) (2026-05-15)
+
+
+### Bug Fixes
+
+* update Scala metadata to 3.8.3 ([b8d7fd6](https://github.com/ElJijuna/code-languages/commit/b8d7fd6e3a9d6491354020bd3951b0269b76cbbd))
+* update Scala metadata to 3.8.3 ([1cc3ce5](https://github.com/ElJijuna/code-languages/commit/1cc3ce5163127114112ca76ed3d5c4e78c144818))
+
 ## [1.12.1](https://github.com/ElJijuna/code-languages/compare/v1.12.0...v1.12.1) (2026-05-15)
 
 
