@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   abap,
+  actionscript,
   batch,
   c,
   cmake,
@@ -24,6 +25,10 @@ import {
 describe("detectLanguage", () => {
   it("detects ABAP source files", () => {
     expect(detectLanguage("src/zsales_report.abap")).toBe(abap);
+  });
+
+  it("detects ActionScript source files", () => {
+    expect(detectLanguage("src/player/Main.as")).toBe(actionscript);
   });
 
   it("detects a language by file extension", () => {

@@ -6,6 +6,8 @@ const reportPath = "language-version-report.json";
 
 const manualChecks = {
   abap: "ABAP Platform releases should be reviewed manually against SAP Help Portal because the source page is rendered dynamically.",
+  actionscript:
+    "ActionScript is effectively stable at 3.0 and should be reviewed manually against Adobe AIR and Flash platform documentation.",
   assembly:
     "Assembly versions are architecture-specific and should be reviewed manually against assembler and ISA documentation.",
   c: "ISO standards do not expose a stable free machine-readable latest-version endpoint.",

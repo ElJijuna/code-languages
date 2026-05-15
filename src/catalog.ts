@@ -1,4 +1,5 @@
 import { abap } from "./languages/abap";
+import { actionscript } from "./languages/actionscript";
 import { asp } from "./languages/asp";
 import { assembly } from "./languages/assembly";
 import { astro } from "./languages/astro";
@@ -66,6 +67,7 @@ import { zsh } from "./languages/zsh";
 /** Ordered catalog of every language included in the package. */
 export const languages = [
   abap,
+  actionscript,
   asp,
   astro,
   assembly,

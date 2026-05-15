@@ -12,6 +12,7 @@ export type {
   LocalizedLanguage,
 } from "./types";
 export { abap } from "./languages/abap";
+export { actionscript } from "./languages/actionscript";
 export { asp } from "./languages/asp";
 export { astro } from "./languages/astro";
 export { assembly } from "./languages/assembly";

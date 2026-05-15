@@ -89,6 +89,7 @@ code-languages/
 │   ├── types.ts                        # Language interface (single source of truth)
 │   ├── index.ts                        # Re-exports all languages
 │   └── languages/
+│       ├── actionscript.ts
 │       ├── asp.ts
 │       ├── typescript.ts
 │       ├── javascript.ts
