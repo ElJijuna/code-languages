@@ -101,6 +101,7 @@ import { razor } from "code-languages/razor";
 import { ruby } from "code-languages/ruby";
 import { scala } from "code-languages/scala";
 import { scss } from "code-languages/scss";
+import { solidity } from "code-languages/solidity";
 import { json } from "code-languages/json";
 import { sql } from "code-languages/sql";
 import { svg } from "code-languages/svg";
@@ -171,6 +172,7 @@ console.log(razor.extensions);
 console.log(ruby.website);
 console.log(scala.version);
 console.log(scss.extensions);
+console.log(solidity.version);
 console.log(json.i18n.en.description);
 console.log(sql.i18n.en.name);
 console.log(svg.extensions);
@@ -247,6 +249,7 @@ import {
   ruby,
   scala,
   scss,
+  solidity,
   sql,
   svg,
   svn,
@@ -316,6 +319,7 @@ console.log(localizeLanguage(razor, "es").description);
 console.log(localizeLanguage(ruby, "es").description);
 console.log(localizeLanguage(scala, "es").description);
 console.log(localizeLanguage(scss).name);
+console.log(localizeLanguage(solidity, "es").description);
 console.log(json.website);
 console.log(sql.extensions);
 console.log(localizeLanguage(svg, "es").description);
@@ -480,6 +484,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | <img src="https://www.rust-lang.org/logos/rust-logo-512x512.png" alt="Rust logo" width="24" height="24"> | Rust | `rust` | `.rs` | `1.95.0` | `code-languages/rust` |
 | <img src="https://cdn.simpleicons.org/scala/DC322F" alt="Scala logo" width="24" height="24"> | Scala | `scala` | `.scala`, `.sc` | `3.8.3` | `code-languages/scala` |
 | <img src="https://sass-lang.com/assets/img/logos/logo.svg" alt="Sass logo" width="24" height="24"> | Sass | `scss` | `.scss`, `.sass` | `1.99.0` | `code-languages/scss` |
+| <img src="https://cdn.simpleicons.org/solidity/363636" alt="Solidity logo" width="24" height="24"> | Solidity | `solidity` | `.sol` | `0.8.35` | `code-languages/solidity` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" alt="SQL logo" width="24" height="24"> | SQL | `sql` | `.sql` | `SQL:2023` | `code-languages/sql` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/SVG_Logo.svg" alt="SVG logo" width="24" height="24"> | SVG | `svg` | `.svg`, `.svgz` | `SVG 2` | `code-languages/svg` |
 | <img src="https://cdn.simpleicons.org/subversion/809CC9" alt="SVN logo" width="24" height="24"> | SVN | `svn` | `.svn`, `svnserve.conf` | `1.14.5` | `code-languages/svn` |

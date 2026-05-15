@@ -24,6 +24,7 @@ import {
   perl,
   razor,
   ruby,
+  solidity,
   svelte,
   svn,
   typescript,
@@ -145,6 +146,10 @@ describe("detectLanguage", () => {
   it("detects Razor views and components", () => {
     expect(detectLanguage("Views/Home/Index.cshtml")).toBe(razor);
     expect(detectLanguage("Components/App.razor")).toBe(razor);
+  });
+
+  it("detects Solidity smart contracts", () => {
+    expect(detectLanguage("contracts/Token.sol")).toBe(solidity);
   });
 
   it("handles nested paths and case-insensitive names", () => {

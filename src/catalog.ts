@@ -57,6 +57,7 @@ import { ruby } from "./languages/ruby";
 import { rust } from "./languages/rust";
 import { scala } from "./languages/scala";
 import { scss } from "./languages/scss";
+import { solidity } from "./languages/solidity";
 import { sql } from "./languages/sql";
 import { svelte } from "./languages/svelte";
 import { svg } from "./languages/svg";
@@ -135,6 +136,7 @@ export const languages = [
   rust,
   scala,
   scss,
+  solidity,
   sql,
   svg,
   svelte,

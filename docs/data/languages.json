@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-15T12:12:12.391Z",
-  "total": 73,
-  "extensions": 215,
+  "generatedAt": "2026-05-15T12:20:28.309Z",
+  "total": 75,
+  "extensions": 218,
   "locales": ["en", "es"],
   "languages": [
     {
@@ -1134,6 +1134,27 @@
       "logo": "https://www.r-project.org/logo/Rlogo.svg"
     },
     {
+      "slug": "razor",
+      "name": "Razor",
+      "description": "Microsoft's markup syntax for ASP.NET Core views, Razor Pages, and Blazor components.",
+      "longDescription": "Razor is a markup syntax and templating language used by ASP.NET Core to combine HTML with C# expressions, directives, layouts, tag helpers, components, and server-side or interactive rendering logic.\n\nIt is used in MVC views, Razor Pages, Razor Class Libraries, and Blazor components. Razor files commonly define page templates, reusable UI components, forms, layouts, routing, component parameters, and bindings within .NET web applications.",
+      "esName": "Razor",
+      "esDescription": "La sintaxis de marcado de Microsoft para vistas ASP.NET Core, Razor Pages y componentes Blazor.",
+      "esLongDescription": "Razor es una sintaxis de marcado y lenguaje de templates usado por ASP.NET Core para combinar HTML con expresiones C#, directivas, layouts, tag helpers, componentes y logica de renderizado server-side o interactiva.\n\nSe usa en vistas MVC, Razor Pages, Razor Class Libraries y componentes Blazor. Los archivos Razor suelen definir templates de paginas, componentes UI reutilizables, formularios, layouts, routing, parametros de componentes y bindings dentro de aplicaciones web .NET.",
+      "publishedDate": "2010-07-01",
+      "extensions": [".cshtml", ".razor"],
+      "author": "Microsoft",
+      "website": "https://learn.microsoft.com/en-us/aspnet/core/mvc/views/razor",
+      "paradigms": ["templating", "component-based", "server-side", "declarative"],
+      "tooling": {
+        "runtimes": ["ASP.NET Core", ".NET", "Blazor"],
+        "packageManagers": ["NuGet"],
+        "ecosystems": [".NET", "ASP.NET Core", "Web", "Blazor"]
+      },
+      "version": "10.0.8",
+      "logo": "https://cdn.simpleicons.org/dotnet/512BD4"
+    },
+    {
       "slug": "ruby",
       "name": "Ruby",
       "description": "A dynamic, object-oriented scripting language focused on productivity and developer happiness.",
@@ -1216,6 +1237,27 @@
       },
       "version": "3.8.3",
       "logo": "https://cdn.simpleicons.org/scala/DC322F"
+    },
+    {
+      "slug": "solidity",
+      "name": "Solidity",
+      "description": "A statically typed smart contract language for Ethereum and EVM-compatible blockchains.",
+      "longDescription": "Solidity is a statically typed, contract-oriented programming language designed for writing smart contracts that run on the Ethereum Virtual Machine and compatible blockchain networks. It supports contracts, libraries, interfaces, inheritance, modifiers, events, custom errors, ABI encoding, and explicit visibility and mutability rules.\n\nIt is used to build decentralized applications, token contracts, DAOs, DeFi protocols, NFT contracts, governance systems, and other on-chain programs where deterministic execution and verifiable state transitions are required.",
+      "esName": "Solidity",
+      "esDescription": "Un lenguaje tipado estaticamente para smart contracts en Ethereum y blockchains compatibles con EVM.",
+      "esLongDescription": "Solidity es un lenguaje de programacion tipado estaticamente y orientado a contratos, disenado para escribir smart contracts que se ejecutan en Ethereum Virtual Machine y redes blockchain compatibles. Soporta contratos, bibliotecas, interfaces, herencia, modificadores, eventos, errores personalizados, codificacion ABI y reglas explicitas de visibilidad y mutabilidad.\n\nSe usa para construir aplicaciones descentralizadas, contratos de tokens, DAOs, protocolos DeFi, contratos NFT, sistemas de gobernanza y otros programas on-chain donde se requiere ejecucion determinista y transiciones de estado verificables.",
+      "publishedDate": "2015-07-30",
+      "extensions": [".sol"],
+      "author": "Gavin Wood / Ethereum Foundation / Solidity Team",
+      "website": "https://soliditylang.org",
+      "paradigms": ["contract-oriented", "object-oriented", "statically-typed", "imperative"],
+      "tooling": {
+        "runtimes": ["Ethereum Virtual Machine", "EVM-compatible chains"],
+        "packageManagers": ["npm", "Foundry", "Hardhat"],
+        "ecosystems": ["Ethereum", "Web3", "Smart Contracts", "Blockchain"]
+      },
+      "version": "0.8.35",
+      "logo": "https://cdn.simpleicons.org/solidity/363636"
     },
     {
       "slug": "sql",

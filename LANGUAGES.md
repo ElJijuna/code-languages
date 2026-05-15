@@ -76,6 +76,7 @@
 - [x] Nix (`nix`)
 - [x] HCL (`hcl`)
 - [x] Razor (`razor`)
+- [x] Solidity (`solidity`)
 
 ## Pending
 
@@ -86,7 +87,6 @@
 - [ ] Protocol Buffers (`protobuf`)
 - [ ] Racket (`racket`)
 - [ ] Rego (`rego`)
-- [ ] Solidity (`solidity`)
 - [ ] TeX (`tex`)
 - [ ] Twig (`twig`)
 - [ ] XQuery (`xquery`)

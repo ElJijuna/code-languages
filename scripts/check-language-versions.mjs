@@ -431,6 +431,17 @@ const checkers = {
       sourceUrl: "https://registry.npmjs.org/sass/latest",
     };
   },
+  async solidity() {
+    const html = await fetchText("https://soliditylang.org/");
+    const versions = [...html.matchAll(/Solidity Compiler v(\d+\.\d+\.\d+)/g)].map(
+      (match) => match[1],
+    );
+
+    return {
+      latestVersion: latestSemver(versions),
+      sourceUrl: "https://soliditylang.org/",
+    };
+  },
   async svelte() {
     const json = await fetchJson("https://registry.npmjs.org/svelte/latest");
 

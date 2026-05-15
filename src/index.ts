@@ -70,6 +70,7 @@ export { ruby } from "./languages/ruby";
 export { rust } from "./languages/rust";
 export { scala } from "./languages/scala";
 export { scss } from "./languages/scss";
+export { solidity } from "./languages/solidity";
 export { sql } from "./languages/sql";
 export { svg } from "./languages/svg";
 export { svn } from "./languages/svn";

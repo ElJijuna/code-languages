@@ -396,6 +396,11 @@
       "import": "./dist/languages/razor.js",
       "require": "./dist/languages/razor.cjs"
     },
+    "./solidity": {
+      "types": "./dist/languages/solidity.d.ts",
+      "import": "./dist/languages/solidity.js",
+      "require": "./dist/languages/solidity.cjs"
+    },
     "./yaml": {
       "types": "./dist/languages/yaml.d.ts",
       "import": "./dist/languages/yaml.js",
