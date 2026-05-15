@@ -9,6 +9,7 @@ import {
   detectLanguage,
   detectLanguages,
   dockerfile,
+  elm,
   git,
   gradle,
   ini,
@@ -37,6 +38,10 @@ describe("detectLanguage", () => {
 
   it("detects exact filename entries", () => {
     expect(detectLanguage("Dockerfile")).toBe(dockerfile);
+  });
+
+  it("detects Elm source files", () => {
+    expect(detectLanguage("src/Main.elm")).toBe(elm);
   });
 
   it("detects dotted extension entries and exact project files", () => {

@@ -62,6 +62,7 @@ import { css } from "code-languages/css";
 import { cuda } from "code-languages/cuda";
 import { dart } from "code-languages/dart";
 import { dockerfile } from "code-languages/dockerfile";
+import { elm } from "code-languages/elm";
 import { fsharp } from "code-languages/fsharp";
 import { git } from "code-languages/git";
 import { gradle } from "code-languages/gradle";
@@ -123,6 +124,7 @@ console.log(crystal.version);
 console.log(css.paradigms);
 console.log(cuda.version);
 console.log(dockerfile.i18n.en.name);
+console.log(elm.version);
 console.log(fsharp.version);
 console.log(git.extensions);
 console.log(gradle.extensions);
@@ -190,6 +192,7 @@ import {
   detectLanguage,
   detectLanguages,
   dockerfile,
+  elm,
   fsharp,
   go,
   graphql,
@@ -253,6 +256,7 @@ console.log(localizeLanguage(crystal, "es").description);
 console.log(localizeLanguage(css).name);
 console.log(localizeLanguage(cuda, "es").description);
 console.log(dockerfile.website);
+console.log(localizeLanguage(elm, "es").description);
 console.log(localizeLanguage(fsharp, "es").description);
 console.log(localizeLanguage(graphql, "es").description);
 console.log(localizeLanguage(groovy).description);
@@ -402,6 +406,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | <img src="https://cdn.simpleicons.org/nvidia/76B900" alt="CUDA logo" width="24" height="24"> | CUDA | `cuda` | `.cu`, `.cuh` | `13.2.1` | `code-languages/cuda` |
 | <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Dart_programming_language_logo.svg" alt="Dart logo" width="24" height="24"> | Dart | `dart` | `.dart` | `3.11.6` | `code-languages/dart` |
 | <img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="Dockerfile logo" width="24" height="24"> | Dockerfile | `dockerfile` | `Dockerfile`, `.dockerfile` | `1.10` | `code-languages/dockerfile` |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Elm_logo.svg" alt="Elm logo" width="24" height="24"> | Elm | `elm` | `.elm` | `0.19.1` | `code-languages/elm` |
 | <img src="https://cdn.simpleicons.org/fsharp/378BBA" alt="F# logo" width="24" height="24"> | F# | `fsharp` | `.fs`, `.fsi`, `.fsx`, `.fsscript` | `10` | `code-languages/fsharp` |
 | <img src="https://cdn.simpleicons.org/git/F05032" alt="Git logo" width="24" height="24"> | Git | `git` | `.git`, `.gitignore`, `.gitattributes`, `.gitmodules`, `.gitkeep` | `2.54.0` | `code-languages/git` |
 | <img src="https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg" alt="Go logo" width="24" height="24"> | Go | `go` | `.go` | `1.26.3` | `code-languages/go` |

@@ -131,6 +131,11 @@
       "import": "./dist/languages/dart.js",
       "require": "./dist/languages/dart.cjs"
     },
+    "./elm": {
+      "types": "./dist/languages/elm.d.ts",
+      "import": "./dist/languages/elm.js",
+      "require": "./dist/languages/elm.cjs"
+    },
     "./typescript": {
       "types": "./dist/languages/typescript.d.ts",
       "import": "./dist/languages/typescript.js",

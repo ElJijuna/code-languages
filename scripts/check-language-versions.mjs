@@ -127,6 +127,14 @@ const checkers = {
         "https://storage.googleapis.com/dart-archive/channels/stable/release/latest/VERSION",
     };
   },
+  async elm() {
+    const json = await fetchJson("https://registry.npmjs.org/elm/latest");
+
+    return {
+      latestVersion: json.version?.replace(/-\d+$/, ""),
+      sourceUrl: "https://registry.npmjs.org/elm/latest",
+    };
+  },
   async fsharp() {
     const html = await fetchText("https://learn.microsoft.com/en-us/dotnet/fsharp/whats-new/");
     const versions = [...html.matchAll(/F#\s+(\d+)/g)].map((match) => match[1]);

@@ -16,6 +16,7 @@ import { css } from "./languages/css";
 import { cuda } from "./languages/cuda";
 import { dart } from "./languages/dart";
 import { dockerfile } from "./languages/dockerfile";
+import { elm } from "./languages/elm";
 import { fsharp } from "./languages/fsharp";
 import { git } from "./languages/git";
 import { go } from "./languages/go";
@@ -84,6 +85,7 @@ export const languages = [
   cuda,
   dart,
   dockerfile,
+  elm,
   fsharp,
   git,
   go,

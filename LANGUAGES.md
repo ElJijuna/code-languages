@@ -27,6 +27,7 @@
 - [x] nginx (`nginx`)
 - [x] SQL (`sql`)
 - [x] Dockerfile (`dockerfile`)
+- [x] Elm (`elm`)
 - [x] Swift (`swift`)
 - [x] Git (`git`)
 - [x] Groovy (`groovy`)
@@ -70,7 +71,6 @@
 
 ## Pending
 
-- [ ] Elm (`elm`)
 - [ ] Fortran (`fortran`)
 - [ ] GLSL (`glsl`)
 - [ ] HCL (`hcl`)
