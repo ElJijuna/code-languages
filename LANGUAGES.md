@@ -28,6 +28,7 @@
 - [x] SQL (`sql`)
 - [x] Dockerfile (`dockerfile`)
 - [x] Elm (`elm`)
+- [x] Fortran (`fortran`)
 - [x] Swift (`swift`)
 - [x] Git (`git`)
 - [x] Groovy (`groovy`)
@@ -71,7 +72,6 @@
 
 ## Pending
 
-- [ ] Fortran (`fortran`)
 - [ ] GLSL (`glsl`)
 - [ ] HCL (`hcl`)
 - [ ] Jupyter Notebook (`jupyter-notebook`)

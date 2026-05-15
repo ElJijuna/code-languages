@@ -29,6 +29,10 @@ export const languageIndex = [
   { slug: "dart", extensions: [".dart"] },
   { slug: "dockerfile", extensions: ["Dockerfile", ".dockerfile"] },
   { slug: "elm", extensions: [".elm"] },
+  {
+    slug: "fortran",
+    extensions: [".f", ".for", ".ftn", ".f90", ".f95", ".f03", ".f08", ".f18", ".f23"],
+  },
   { slug: "fsharp", extensions: [".fs", ".fsi", ".fsx", ".fsscript"] },
   { slug: "git", extensions: [".git", ".gitignore", ".gitattributes", ".gitmodules", ".gitkeep"] },
   { slug: "go", extensions: [".go"] },
@@ -105,6 +109,7 @@ export const languageLoaders = {
   dart: () => import("./languages/dart").then((module) => module.dart),
   dockerfile: () => import("./languages/dockerfile").then((module) => module.dockerfile),
   elm: () => import("./languages/elm").then((module) => module.elm),
+  fortran: () => import("./languages/fortran").then((module) => module.fortran),
   fsharp: () => import("./languages/fsharp").then((module) => module.fsharp),
   git: () => import("./languages/git").then((module) => module.git),
   go: () => import("./languages/go").then((module) => module.go),

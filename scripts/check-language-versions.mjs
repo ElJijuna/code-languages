@@ -18,6 +18,8 @@ const manualChecks = {
   css: "CSS is maintained as living specifications rather than one package version.",
   dockerfile:
     "Dockerfile syntax versions depend on the BuildKit frontend image and should be reviewed manually.",
+  fortran:
+    "Fortran standards should be reviewed manually against ISO/IEC JTC1/SC22/WG5 publications.",
   html: "HTML is maintained as a living standard.",
   ini: "INI is an informal configuration format without a single formal versioned specification.",
   javascript:

@@ -30,6 +30,7 @@ export { cuda } from "./languages/cuda";
 export { dart } from "./languages/dart";
 export { dockerfile } from "./languages/dockerfile";
 export { elm } from "./languages/elm";
+export { fortran } from "./languages/fortran";
 export { fsharp } from "./languages/fsharp";
 export { git } from "./languages/git";
 export { go } from "./languages/go";

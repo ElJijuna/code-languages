@@ -10,6 +10,7 @@ import {
   detectLanguages,
   dockerfile,
   elm,
+  fortran,
   git,
   gradle,
   ini,
@@ -42,6 +43,11 @@ describe("detectLanguage", () => {
 
   it("detects Elm source files", () => {
     expect(detectLanguage("src/Main.elm")).toBe(elm);
+  });
+
+  it("detects Fortran source files", () => {
+    expect(detectLanguage("src/solver.f90")).toBe(fortran);
+    expect(detectLanguage("legacy/compute.for")).toBe(fortran);
   });
 
   it("detects dotted extension entries and exact project files", () => {

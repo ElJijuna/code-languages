@@ -17,6 +17,7 @@ import { cuda } from "./languages/cuda";
 import { dart } from "./languages/dart";
 import { dockerfile } from "./languages/dockerfile";
 import { elm } from "./languages/elm";
+import { fortran } from "./languages/fortran";
 import { fsharp } from "./languages/fsharp";
 import { git } from "./languages/git";
 import { go } from "./languages/go";
@@ -86,6 +87,7 @@ export const languages = [
   dart,
   dockerfile,
   elm,
+  fortran,
   fsharp,
   git,
   go,
