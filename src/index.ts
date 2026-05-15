@@ -29,6 +29,7 @@ export { css } from "./languages/css";
 export { cuda } from "./languages/cuda";
 export { dart } from "./languages/dart";
 export { dockerfile } from "./languages/dockerfile";
+export { elixir } from "./languages/elixir";
 export { elm } from "./languages/elm";
 export { erlang } from "./languages/erlang";
 export { fortran } from "./languages/fortran";

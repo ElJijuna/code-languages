@@ -63,6 +63,7 @@ import { css } from "code-languages/css";
 import { cuda } from "code-languages/cuda";
 import { dart } from "code-languages/dart";
 import { dockerfile } from "code-languages/dockerfile";
+import { elixir } from "code-languages/elixir";
 import { elm } from "code-languages/elm";
 import { erlang } from "code-languages/erlang";
 import { fortran } from "code-languages/fortran";
@@ -213,6 +214,7 @@ import {
   detectLanguage,
   detectLanguages,
   dockerfile,
+  elixir,
   elm,
   erlang,
   fortran,
@@ -287,6 +289,7 @@ console.log(localizeLanguage(crystal, "es").description);
 console.log(localizeLanguage(css).name);
 console.log(localizeLanguage(cuda, "es").description);
 console.log(dockerfile.website);
+console.log(localizeLanguage(elixir, "es").description);
 console.log(localizeLanguage(elm, "es").description);
 console.log(localizeLanguage(erlang, "es").description);
 console.log(localizeLanguage(fortran).description);
@@ -446,6 +449,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | <img src="https://cdn.simpleicons.org/nvidia/76B900" alt="CUDA logo" width="24" height="24"> | CUDA | `cuda` | `.cu`, `.cuh` | `13.2.1` | `code-languages/cuda` |
 | <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Dart_programming_language_logo.svg" alt="Dart logo" width="24" height="24"> | Dart | `dart` | `.dart` | `3.11.6` | `code-languages/dart` |
 | <img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="Dockerfile logo" width="24" height="24"> | Dockerfile | `dockerfile` | `Dockerfile`, `.dockerfile` | `1.10` | `code-languages/dockerfile` |
+| <img src="https://cdn.simpleicons.org/elixir/4B275F" alt="Elixir logo" width="24" height="24"> | Elixir | `elixir` | `.ex`, `.exs`, `.eex`, `.leex`, `.heex` | `1.19.5` | `code-languages/elixir` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Elm_logo.svg" alt="Elm logo" width="24" height="24"> | Elm | `elm` | `.elm` | `0.19.1` | `code-languages/elm` |
 | <img src="https://cdn.simpleicons.org/erlang/A90533" alt="Erlang logo" width="24" height="24"> | Erlang | `erlang` | `.erl`, `.hrl`, `.app.src`, `.escript`, `.xrl`, `.yrl`, `rebar.config` | `OTP 29.0` | `code-languages/erlang` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Fortran_logo.svg" alt="Fortran logo" width="24" height="24"> | Fortran | `fortran` | `.f`, `.for`, `.ftn`, `.f90`, `.f95`, `.f03`, `.f08`, `.f18`, `.f23` | `Fortran 2023` | `code-languages/fortran` |

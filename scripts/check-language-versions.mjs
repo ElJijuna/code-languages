@@ -131,6 +131,14 @@ const checkers = {
         "https://storage.googleapis.com/dart-archive/channels/stable/release/latest/VERSION",
     };
   },
+  async elixir() {
+    const json = await fetchJson("https://api.github.com/repos/elixir-lang/elixir/releases/latest");
+
+    return {
+      latestVersion: normalizeVersion(json.tag_name),
+      sourceUrl: "https://api.github.com/repos/elixir-lang/elixir/releases/latest",
+    };
+  },
   async elm() {
     const json = await fetchJson("https://registry.npmjs.org/elm/latest");
 

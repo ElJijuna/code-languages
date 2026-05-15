@@ -16,6 +16,7 @@ import { css } from "./languages/css";
 import { cuda } from "./languages/cuda";
 import { dart } from "./languages/dart";
 import { dockerfile } from "./languages/dockerfile";
+import { elixir } from "./languages/elixir";
 import { elm } from "./languages/elm";
 import { erlang } from "./languages/erlang";
 import { fortran } from "./languages/fortran";
@@ -95,6 +96,7 @@ export const languages = [
   cuda,
   dart,
   dockerfile,
+  elixir,
   elm,
   erlang,
   fortran,

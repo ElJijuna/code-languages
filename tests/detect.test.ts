@@ -9,6 +9,7 @@ import {
   detectLanguage,
   detectLanguages,
   dockerfile,
+  elixir,
   elm,
   erlang,
   fortran,
@@ -55,6 +56,13 @@ describe("detectLanguage", () => {
 
   it("detects Elm source files", () => {
     expect(detectLanguage("src/Main.elm")).toBe(elm);
+  });
+
+  it("detects Elixir source and template files", () => {
+    expect(detectLanguage("lib/app_web/live/page_live.ex")).toBe(elixir);
+    expect(detectLanguage("config/config.exs")).toBe(elixir);
+    expect(detectLanguage("lib/app_web/components/core_components.ex")).toBe(elixir);
+    expect(detectLanguage("lib/app_web/templates/page/index.html.heex")).toBe(elixir);
   });
 
   it("detects Erlang source and project files", () => {

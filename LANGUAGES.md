@@ -78,10 +78,10 @@
 - [x] Razor (`razor`)
 - [x] Solidity (`solidity`)
 - [x] Jupyter Notebook (`jupyter-notebook`)
+- [x] Elixir (`elixir`)
 
 ## Pending
 
-- [ ] Elixir (`elixir`)
 - [ ] Haskell (`haskell`)
 - [ ] OCaml (`ocaml`)
 - [ ] Protocol Buffers (`protobuf`)

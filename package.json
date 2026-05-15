@@ -361,6 +361,11 @@
       "import": "./dist/languages/dockerfile.js",
       "require": "./dist/languages/dockerfile.cjs"
     },
+    "./elixir": {
+      "types": "./dist/languages/elixir.d.ts",
+      "import": "./dist/languages/elixir.js",
+      "require": "./dist/languages/elixir.cjs"
+    },
     "./fsharp": {
       "types": "./dist/languages/fsharp.d.ts",
       "import": "./dist/languages/fsharp.js",

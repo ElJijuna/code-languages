@@ -28,6 +28,7 @@ export const languageIndex = [
   { slug: "cuda", extensions: [".cu", ".cuh"] },
   { slug: "dart", extensions: [".dart"] },
   { slug: "dockerfile", extensions: ["Dockerfile", ".dockerfile"] },
+  { slug: "elixir", extensions: [".ex", ".exs", ".eex", ".leex", ".heex"] },
   { slug: "elm", extensions: [".elm"] },
   {
     slug: "erlang",
@@ -123,6 +124,7 @@ export const languageLoaders = {
   cuda: () => import("./languages/cuda").then((module) => module.cuda),
   dart: () => import("./languages/dart").then((module) => module.dart),
   dockerfile: () => import("./languages/dockerfile").then((module) => module.dockerfile),
+  elixir: () => import("./languages/elixir").then((module) => module.elixir),
   elm: () => import("./languages/elm").then((module) => module.elm),
   erlang: () => import("./languages/erlang").then((module) => module.erlang),
   fortran: () => import("./languages/fortran").then((module) => module.fortran),
