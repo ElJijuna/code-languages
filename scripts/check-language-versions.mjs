@@ -25,6 +25,8 @@ const manualChecks = {
   javascript:
     "ECMAScript editions are published yearly and should be checked against ECMA-262 release status.",
   json: "RFC 8259 is stable and should be reviewed manually when a replacement RFC appears.",
+  "jupyter-notebook":
+    "Jupyter Notebook schema versions should be reviewed manually against nbformat documentation and schema releases.",
   lisp: "Common Lisp is standardized as ANSI INCITS 226-1994 and should be reviewed manually against ANSI/INCITS publications.",
   metal:
     "Metal versions are tied to Apple platform SDKs and should be reviewed manually against Apple Developer Metal documentation.",

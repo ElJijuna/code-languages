@@ -45,6 +45,7 @@ export { ini } from "./languages/ini";
 export { java } from "./languages/java";
 export { javascript } from "./languages/javascript";
 export { json } from "./languages/json";
+export { jupyterNotebook } from "./languages/jupyter-notebook";
 export { julia } from "./languages/julia";
 export { kotlin } from "./languages/kotlin";
 export { less } from "./languages/less";

@@ -77,10 +77,10 @@
 - [x] HCL (`hcl`)
 - [x] Razor (`razor`)
 - [x] Solidity (`solidity`)
+- [x] Jupyter Notebook (`jupyter-notebook`)
 
 ## Pending
 
-- [ ] Jupyter Notebook (`jupyter-notebook`)
 - [ ] Elixir (`elixir`)
 - [ ] Haskell (`haskell`)
 - [ ] OCaml (`ocaml`)

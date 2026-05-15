@@ -166,6 +166,11 @@
       "import": "./dist/languages/json.js",
       "require": "./dist/languages/json.cjs"
     },
+    "./jupyter-notebook": {
+      "types": "./dist/languages/jupyter-notebook.d.ts",
+      "import": "./dist/languages/jupyter-notebook.js",
+      "require": "./dist/languages/jupyter-notebook.cjs"
+    },
     "./julia": {
       "types": "./dist/languages/julia.d.ts",
       "import": "./dist/languages/julia.js",

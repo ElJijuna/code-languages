@@ -103,6 +103,7 @@ import { scala } from "code-languages/scala";
 import { scss } from "code-languages/scss";
 import { solidity } from "code-languages/solidity";
 import { json } from "code-languages/json";
+import { jupyterNotebook } from "code-languages/jupyter-notebook";
 import { sql } from "code-languages/sql";
 import { svg } from "code-languages/svg";
 import { svn } from "code-languages/svn";
@@ -148,6 +149,7 @@ console.log(html.extensions);
 console.log(ini.extensions);
 console.log(javascript.website);
 console.log(java.version);
+console.log(jupyterNotebook.extensions);
 console.log(julia.version);
 console.log(kotlin.version);
 console.log(less.extensions);
@@ -224,6 +226,7 @@ import {
   ini,
   java,
   json,
+  jupyterNotebook,
   julia,
   kotlin,
   less,
@@ -459,6 +462,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | <img src="https://www.vectorlogo.zone/logos/java/java-icon.svg" alt="Java logo" width="24" height="24"> | Java | `java` | `.java` | `26` | `code-languages/java` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript logo" width="24" height="24"> | JavaScript | `javascript` | `.js`, `.mjs`, `.cjs`, `.jsx` | `ECMAScript 2025` | `code-languages/javascript` |
 | <img src="https://www.json.org/img/json160.gif" alt="JSON logo" width="24" height="24"> | JSON | `json` | `.json` | `RFC 8259` | `code-languages/json` |
+| <img src="https://cdn.simpleicons.org/jupyter/F37626" alt="Jupyter Notebook logo" width="24" height="24"> | Jupyter Notebook | `jupyter-notebook` | `.ipynb` | `nbformat 4.5` | `code-languages/jupyter-notebook` |
 | <img src="https://cdn.simpleicons.org/julia/9558B2" alt="Julia logo" width="24" height="24"> | Julia | `julia` | `.jl` | `1.12.6` | `code-languages/julia` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" alt="Kotlin logo" width="24" height="24"> | Kotlin | `kotlin` | `.kt`, `.kts` | `2.3.20` | `code-languages/kotlin` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LESS_Logo.svg" alt="Less logo" width="24" height="24"> | Less | `less` | `.less` | `4.4.1` | `code-languages/less` |

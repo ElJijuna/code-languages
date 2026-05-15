@@ -17,6 +17,7 @@ import {
   gradle,
   hcl,
   ini,
+  jupyterNotebook,
   lisp,
   lua,
   meson,
@@ -42,6 +43,10 @@ describe("detectLanguage", () => {
 
   it("detects a language by file extension", () => {
     expect(detectLanguage("src/index.ts")).toBe(typescript);
+  });
+
+  it("detects Jupyter Notebook files", () => {
+    expect(detectLanguage("notebooks/analysis.ipynb")).toBe(jupyterNotebook);
   });
 
   it("detects exact filename entries", () => {

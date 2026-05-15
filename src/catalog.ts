@@ -33,6 +33,7 @@ import { java } from "./languages/java";
 import { javascript } from "./languages/javascript";
 import { json } from "./languages/json";
 import { julia } from "./languages/julia";
+import { jupyterNotebook } from "./languages/jupyter-notebook";
 import { kotlin } from "./languages/kotlin";
 import { less } from "./languages/less";
 import { lisp } from "./languages/lisp";
@@ -110,6 +111,7 @@ export const languages = [
   java,
   javascript,
   json,
+  jupyterNotebook,
   julia,
   kotlin,
   less,

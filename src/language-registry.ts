@@ -53,6 +53,7 @@ export const languageIndex = [
   { slug: "java", extensions: [".java"] },
   { slug: "javascript", extensions: [".js", ".mjs", ".cjs", ".jsx"] },
   { slug: "json", extensions: [".json"] },
+  { slug: "jupyter-notebook", extensions: [".ipynb"] },
   { slug: "julia", extensions: [".jl"] },
   { slug: "kotlin", extensions: [".kt", ".kts"] },
   { slug: "less", extensions: [".less"] },
@@ -138,6 +139,8 @@ export const languageLoaders = {
   java: () => import("./languages/java").then((module) => module.java),
   javascript: () => import("./languages/javascript").then((module) => module.javascript),
   json: () => import("./languages/json").then((module) => module.json),
+  "jupyter-notebook": () =>
+    import("./languages/jupyter-notebook").then((module) => module.jupyterNotebook),
   julia: () => import("./languages/julia").then((module) => module.julia),
   kotlin: () => import("./languages/kotlin").then((module) => module.kotlin),
   less: () => import("./languages/less").then((module) => module.less),
