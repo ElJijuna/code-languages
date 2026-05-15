@@ -391,6 +391,11 @@
       "import": "./dist/languages/perl.js",
       "require": "./dist/languages/perl.cjs"
     },
+    "./razor": {
+      "types": "./dist/languages/razor.d.ts",
+      "import": "./dist/languages/razor.js",
+      "require": "./dist/languages/razor.cjs"
+    },
     "./yaml": {
       "types": "./dist/languages/yaml.d.ts",
       "import": "./dist/languages/yaml.js",

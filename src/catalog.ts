@@ -52,6 +52,7 @@ import { powershell } from "./languages/powershell";
 import { pug } from "./languages/pug";
 import { python } from "./languages/python";
 import { r } from "./languages/r";
+import { razor } from "./languages/razor";
 import { ruby } from "./languages/ruby";
 import { rust } from "./languages/rust";
 import { scala } from "./languages/scala";
@@ -129,6 +130,7 @@ export const languages = [
   pug,
   python,
   r,
+  razor,
   ruby,
   rust,
   scala,

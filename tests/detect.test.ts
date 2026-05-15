@@ -22,6 +22,7 @@ import {
   meson,
   metal,
   perl,
+  razor,
   ruby,
   svelte,
   svn,
@@ -139,6 +140,11 @@ describe("detectLanguage", () => {
   it("detects Perl scripts and modules", () => {
     expect(detectLanguage("script/release.pl")).toBe(perl);
     expect(detectLanguage("lib/App/CLI.pm")).toBe(perl);
+  });
+
+  it("detects Razor views and components", () => {
+    expect(detectLanguage("Views/Home/Index.cshtml")).toBe(razor);
+    expect(detectLanguage("Components/App.razor")).toBe(razor);
   });
 
   it("handles nested paths and case-insensitive names", () => {

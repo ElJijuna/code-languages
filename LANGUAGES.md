@@ -75,6 +75,7 @@
 - [x] Erlang (`erlang`)
 - [x] Nix (`nix`)
 - [x] HCL (`hcl`)
+- [x] Razor (`razor`)
 
 ## Pending
 
@@ -84,7 +85,6 @@
 - [ ] OCaml (`ocaml`)
 - [ ] Protocol Buffers (`protobuf`)
 - [ ] Racket (`racket`)
-- [ ] Razor (`razor`)
 - [ ] Rego (`rego`)
 - [ ] Solidity (`solidity`)
 - [ ] TeX (`tex`)

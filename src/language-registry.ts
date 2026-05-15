@@ -74,6 +74,7 @@ export const languageIndex = [
   { slug: "pug", extensions: [".pug", ".jade"] },
   { slug: "python", extensions: [".py", ".pyw"] },
   { slug: "r", extensions: [".r", ".R", ".rmd", ".Rmd", ".qmd", ".Rprofile"] },
+  { slug: "razor", extensions: [".cshtml", ".razor"] },
   {
     slug: "ruby",
     extensions: [".rb", ".rbw", ".rake", ".gemspec", "Gemfile", "Rakefile", "config.ru"],
@@ -157,6 +158,7 @@ export const languageLoaders = {
   pug: () => import("./languages/pug").then((module) => module.pug),
   python: () => import("./languages/python").then((module) => module.python),
   r: () => import("./languages/r").then((module) => module.r),
+  razor: () => import("./languages/razor").then((module) => module.razor),
   ruby: () => import("./languages/ruby").then((module) => module.ruby),
   rust: () => import("./languages/rust").then((module) => module.rust),
   scala: () => import("./languages/scala").then((module) => module.scala),

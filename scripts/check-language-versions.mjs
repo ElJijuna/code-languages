@@ -384,6 +384,19 @@ const checkers = {
       sourceUrl: "https://www.r-project.org/",
     };
   },
+  async razor() {
+    const json = await fetchJson(
+      "https://builds.dotnet.microsoft.com/dotnet/release-metadata/releases-index.json",
+    );
+    const versions = json["releases-index"]
+      ?.map((release) => release["latest-release"])
+      .filter((version) => /^\d+\.\d+\.\d+$/.test(version));
+
+    return {
+      latestVersion: latestSemver(versions),
+      sourceUrl: "https://builds.dotnet.microsoft.com/dotnet/release-metadata/releases-index.json",
+    };
+  },
   async rust() {
     const toml = await fetchText("https://static.rust-lang.org/dist/channel-rust-stable.toml");
     const match = toml.match(/pkg\.rust\]\s+version = "(\d+\.\d+\.\d+)/);
