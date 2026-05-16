@@ -1,3 +1,10 @@
+# [1.15.0](https://github.com/ElJijuna/code-languages/compare/v1.14.0...v1.15.0) (2026-05-16)
+
+
+### Features
+
+* add language protobuf ([abaa7e1](https://github.com/ElJijuna/code-languages/commit/abaa7e18ccf4f46433c352251e54afcb1a0f32a5))
+
 # [1.14.0](https://github.com/ElJijuna/code-languages/compare/v1.13.0...v1.14.0) (2026-05-15)
 
 
