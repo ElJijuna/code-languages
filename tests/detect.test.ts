@@ -2,21 +2,29 @@ import { describe, expect, it } from "vitest";
 import {
   abap,
   actionscript,
+  ada,
+  apex,
+  awk,
   batch,
   c,
+  clojure,
   cmake,
   cpp,
+  d,
   detectLanguage,
   detectLanguages,
   dockerfile,
   elixir,
   elm,
   erlang,
+  fennel,
   fortran,
   git,
+  gleam,
   glsl,
   gradle,
   haskell,
+  haxe,
   hcl,
   ini,
   jupyterNotebook,
@@ -24,6 +32,7 @@ import {
   lua,
   meson,
   metal,
+  nim,
   ocaml,
   perl,
   protobuf,
@@ -33,6 +42,7 @@ import {
   solidity,
   svelte,
   svn,
+  tcl,
   typescript,
   xaml,
 } from "../src";
@@ -44,6 +54,20 @@ describe("detectLanguage", () => {
 
   it("detects ActionScript source files", () => {
     expect(detectLanguage("src/player/Main.as")).toBe(actionscript);
+  });
+
+  it("detects Ada source and specification files", () => {
+    expect(detectLanguage("src/main.adb")).toBe(ada);
+    expect(detectLanguage("src/main.ads")).toBe(ada);
+  });
+
+  it("detects Apex classes and triggers", () => {
+    expect(detectLanguage("force-app/classes/AccountService.cls")).toBe(apex);
+    expect(detectLanguage("force-app/triggers/AccountTrigger.trigger")).toBe(apex);
+  });
+
+  it("detects awk scripts", () => {
+    expect(detectLanguage("scripts/report.awk")).toBe(awk);
   });
 
   it("detects a language by file extension", () => {
@@ -91,6 +115,10 @@ describe("detectLanguage", () => {
     expect(detectLanguage("rebar.config")).toBe(erlang);
   });
 
+  it("detects Fennel source files", () => {
+    expect(detectLanguage("fnl/config.fnl")).toBe(fennel);
+  });
+
   it("detects Fortran source files", () => {
     expect(detectLanguage("src/solver.f90")).toBe(fortran);
     expect(detectLanguage("legacy/compute.for")).toBe(fortran);
@@ -99,6 +127,24 @@ describe("detectLanguage", () => {
   it("detects dotted extension entries and exact project files", () => {
     expect(detectLanguage("cmake/FindSQLite.cmake")).toBe(cmake);
     expect(detectLanguage("CMakeLists.txt")).toBe(cmake);
+  });
+
+  it("detects Clojure source, shared, script, and data files", () => {
+    expect(detectLanguage("src/core.clj")).toBe(clojure);
+    expect(detectLanguage("src/core.cljs")).toBe(clojure);
+    expect(detectLanguage("src/shared.cljc")).toBe(clojure);
+    expect(detectLanguage("deps.edn")).toBe(clojure);
+  });
+
+  it("detects D source and interface files", () => {
+    expect(detectLanguage("source/app.d")).toBe(d);
+    expect(detectLanguage("source/app.di")).toBe(d);
+  });
+
+  it("detects Gleam and Haxe source files", () => {
+    expect(detectLanguage("src/app.gleam")).toBe(gleam);
+    expect(detectLanguage("src/Main.hx")).toBe(haxe);
+    expect(detectLanguage("build.hxml")).toBe(haxe);
   });
 
   it("detects Ruby extensions and project files", () => {
@@ -149,6 +195,12 @@ describe("detectLanguage", () => {
     expect(detectLanguage("Shaders/Lighting.metal")).toBe(metal);
   });
 
+  it("detects Nim source, script, and package files", () => {
+    expect(detectLanguage("src/main.nim")).toBe(nim);
+    expect(detectLanguage("config/build.nims")).toBe(nim);
+    expect(detectLanguage("package.nimble")).toBe(nim);
+  });
+
   it("detects GLSL shader files", () => {
     expect(detectLanguage("shaders/water.frag")).toBe(glsl);
     expect(detectLanguage("shaders/lighting.vert")).toBe(glsl);
@@ -169,6 +221,12 @@ describe("detectLanguage", () => {
   it("detects SVN metadata and configuration files", () => {
     expect(detectLanguage(".svn")).toBe(svn);
     expect(detectLanguage("conf/svnserve.conf")).toBe(svn);
+  });
+
+  it("detects Tcl scripts, modules, and tests", () => {
+    expect(detectLanguage("scripts/tool.tcl")).toBe(tcl);
+    expect(detectLanguage("lib/pkg.tm")).toBe(tcl);
+    expect(detectLanguage("tests/pkg.test")).toBe(tcl);
   });
 
   it("detects INI configuration files", () => {

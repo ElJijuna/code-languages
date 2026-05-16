@@ -83,6 +83,16 @@
 - [x] OCaml (`ocaml`)
 - [x] Protocol Buffers (`protobuf`)
 - [x] Racket (`racket`)
+- [x] Ada (`ada`)
+- [x] Apex (`apex`)
+- [x] awk (`awk`)
+- [x] Clojure (`clojure`)
+- [x] D (`d`)
+- [x] Fennel (`fennel`)
+- [x] Gleam (`gleam`)
+- [x] Haxe (`haxe`)
+- [x] Nim (`nim`)
+- [x] Tcl/Tk (`tcl`)
 
 ## Pending
 
@@ -91,7 +101,6 @@
 - [ ] Twig (`twig`)
 - [ ] XQuery (`xquery`)
 - [ ] XSLT (`xslt`)
-- [ ] Clojure (`clojure`)
 
 ## Lower Priority Languages
 
@@ -99,16 +108,13 @@ These languages and formats are valid candidates, but they are less important fo
 coverage goals because they are niche, legacy, highly domain-specific, or already covered by a
 broader language entry.
 
-- [ ] Ada (`ada`)
 - [ ] Agda (`agda`)
 - [ ] ANTLR Grammar (`antlr`)
-- [ ] Apex (`apex`)
 - [ ] APL (`apl`)
 - [ ] AppleScript (`applescript`)
 - [ ] Arduino Sketch (`arduino`)
 - [ ] AsciiDoc (`asciidoc`)
 - [ ] AutoHotkey (`autohotkey`)
-- [ ] awk (`awk`)
 - [ ] Bazel (`bazel`)
 - [ ] Blade (`blade`)
 - [ ] Carbon (`carbon`)
@@ -117,17 +123,13 @@ broader language entry.
 - [ ] ColdFusion (`coldfusion`)
 - [ ] Coq (`coq`)
 - [ ] Cython (`cython`)
-- [ ] D (`d`)
 - [ ] Dhall (`dhall`)
 - [ ] DITA (`dita`)
 - [ ] ERB (`erb`)
-- [ ] Fennel (`fennel`)
 - [ ] Forth (`forth`)
 - [ ] GDScript (`gdscript`)
-- [ ] Gleam (`gleam`)
 - [ ] Haml (`haml`)
 - [ ] Handlebars (`handlebars`)
-- [ ] Haxe (`haxe`)
 - [ ] Idris (`idris`)
 - [ ] Jinja (`jinja`)
 - [ ] Lean (`lean`)
@@ -137,7 +139,6 @@ broader language entry.
 - [ ] Mako (`mako`)
 - [ ] Mathematica (`mathematica`)
 - [ ] Mojo (`mojo`)
-- [ ] Nim (`nim`)
 - [ ] Odin (`odin`)
 - [ ] OpenCL (`opencl`)
 - [ ] Oracle PL/SQL (`plsql`)
@@ -154,7 +155,6 @@ broader language entry.
 - [ ] Smarty (`smarty`)
 - [ ] Starlark (`starlark`)
 - [ ] Stylus (`stylus`)
-- [ ] Tcl/Tk (`tcl`)
 - [ ] Thrift (`thrift`)
 - [ ] TLA+ (`tla-plus`)
 - [ ] Typst (`typst`)

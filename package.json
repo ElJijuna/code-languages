@@ -450,6 +450,56 @@
       "types": "./dist/languages/zsh.d.ts",
       "import": "./dist/languages/zsh.js",
       "require": "./dist/languages/zsh.cjs"
+    },
+    "./ada": {
+      "types": "./dist/languages/ada.d.ts",
+      "import": "./dist/languages/ada.js",
+      "require": "./dist/languages/ada.cjs"
+    },
+    "./apex": {
+      "types": "./dist/languages/apex.d.ts",
+      "import": "./dist/languages/apex.js",
+      "require": "./dist/languages/apex.cjs"
+    },
+    "./awk": {
+      "types": "./dist/languages/awk.d.ts",
+      "import": "./dist/languages/awk.js",
+      "require": "./dist/languages/awk.cjs"
+    },
+    "./clojure": {
+      "types": "./dist/languages/clojure.d.ts",
+      "import": "./dist/languages/clojure.js",
+      "require": "./dist/languages/clojure.cjs"
+    },
+    "./d": {
+      "types": "./dist/languages/d.d.ts",
+      "import": "./dist/languages/d.js",
+      "require": "./dist/languages/d.cjs"
+    },
+    "./fennel": {
+      "types": "./dist/languages/fennel.d.ts",
+      "import": "./dist/languages/fennel.js",
+      "require": "./dist/languages/fennel.cjs"
+    },
+    "./gleam": {
+      "types": "./dist/languages/gleam.d.ts",
+      "import": "./dist/languages/gleam.js",
+      "require": "./dist/languages/gleam.cjs"
+    },
+    "./haxe": {
+      "types": "./dist/languages/haxe.d.ts",
+      "import": "./dist/languages/haxe.js",
+      "require": "./dist/languages/haxe.cjs"
+    },
+    "./nim": {
+      "types": "./dist/languages/nim.d.ts",
+      "import": "./dist/languages/nim.js",
+      "require": "./dist/languages/nim.cjs"
+    },
+    "./tcl": {
+      "types": "./dist/languages/tcl.d.ts",
+      "import": "./dist/languages/tcl.js",
+      "require": "./dist/languages/tcl.cjs"
     }
   },
   "files": [

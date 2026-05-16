@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-16T18:38:32.558Z",
-  "total": 81,
-  "extensions": 242,
+  "generatedAt": "2026-05-16T18:54:07.554Z",
+  "total": 91,
+  "extensions": 265,
   "locales": ["en", "es"],
   "languages": [
     {
@@ -49,6 +49,48 @@
       },
       "version": "3.0",
       "logo": "https://icons.iconarchive.com/icons/fatcow/farm-fresh/32/page-white-actionscript-icon.png"
+    },
+    {
+      "slug": "ada",
+      "name": "Ada",
+      "description": "A strongly typed language for reliable, maintainable, and safety-critical software.",
+      "longDescription": "Ada is a general-purpose programming language designed for reliability, readability, strong typing, modularity, concurrency, and real-time systems. Modern Ada includes packages, generics, tasking, protected objects, contracts, object-oriented features, and precise control over representation.\n\nIt is used in aerospace, defense, transportation, embedded systems, high-integrity applications, industrial control, and software where long-term maintainability and correctness are central requirements.",
+      "esName": "Ada",
+      "esDescription": "Un lenguaje de tipado fuerte para software confiable, mantenible y critico para la seguridad.",
+      "esLongDescription": "Ada es un lenguaje de programacion de proposito general disenado para confiabilidad, legibilidad, tipado fuerte, modularidad, concurrencia y sistemas de tiempo real. Ada moderno incluye paquetes, genericos, tareas, objetos protegidos, contratos, caracteristicas orientadas a objetos y control preciso de representacion.\n\nSe usa en aeroespacial, defensa, transporte, sistemas embebidos, aplicaciones de alta integridad, control industrial y software donde la mantenibilidad a largo plazo y la correccion son requisitos centrales.",
+      "publishedDate": "1980-01-01",
+      "extensions": [".adb", ".ads", ".ada"],
+      "author": "Jean Ichbiah / CII Honeywell Bull",
+      "website": "https://www.adaic.org",
+      "paradigms": ["imperative", "object-oriented", "concurrent", "real-time", "modular"],
+      "tooling": {
+        "runtimes": ["Native", "GNAT Runtime", "Ravenscar"],
+        "packageManagers": ["Alire"],
+        "ecosystems": ["Embedded", "Aerospace", "Defense", "Safety-critical Systems"]
+      },
+      "version": "Ada 2022",
+      "logo": "https://cdn.simpleicons.org/ada/02F88C"
+    },
+    {
+      "slug": "apex",
+      "name": "Apex",
+      "description": "Salesforce's strongly typed, object-oriented language for platform business logic.",
+      "longDescription": "Apex is a strongly typed, object-oriented programming language that runs on the Salesforce Platform. It combines Java-like syntax with platform-specific database operations, triggers, asynchronous jobs, governor limits, sharing rules, and integrations with Salesforce metadata and APIs.\n\nIt is used for CRM customizations, business automation, custom controllers, data validation, integrations, batch processing, platform events, and enterprise applications built inside Salesforce.",
+      "esName": "Apex",
+      "esDescription": "El lenguaje fuertemente tipado y orientado a objetos de Salesforce para logica de negocio en la plataforma.",
+      "esLongDescription": "Apex es un lenguaje de programacion fuertemente tipado y orientado a objetos que corre en Salesforce Platform. Combina sintaxis similar a Java con operaciones de base de datos propias de la plataforma, triggers, trabajos asincronos, governor limits, reglas de sharing e integraciones con metadata y APIs de Salesforce.\n\nSe usa para personalizaciones de CRM, automatizacion de negocio, controladores personalizados, validacion de datos, integraciones, procesamiento batch, platform events y aplicaciones empresariales construidas dentro de Salesforce.",
+      "publishedDate": "2007-01-01",
+      "extensions": [".cls", ".trigger"],
+      "author": "Salesforce",
+      "website": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/",
+      "paradigms": ["object-oriented", "cloud", "database-oriented", "event-driven"],
+      "tooling": {
+        "runtimes": ["Salesforce Platform"],
+        "packageManagers": ["Salesforce CLI", "Unlocked Packages", "Managed Packages"],
+        "ecosystems": ["Salesforce", "CRM", "Enterprise Applications", "Platform Automation"]
+      },
+      "version": "API 66.0",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Salesforce.com_logo.svg"
     },
     {
       "slug": "asp",
@@ -117,6 +159,27 @@
       },
       "version": "6.3.3",
       "logo": "https://astro.build/assets/press/astro-icon-light.svg"
+    },
+    {
+      "slug": "awk",
+      "name": "awk",
+      "description": "A pattern-action language for scanning, transforming, and reporting on text data.",
+      "longDescription": "awk is a compact text-processing language built around pattern-action rules, records, fields, associative arrays, regular expressions, and streaming input. It is commonly available on Unix-like systems, with GNU Awk adding many extensions and tooling conveniences.\n\nIt is used for command-line data extraction, log processing, report generation, one-off transformations, shell pipelines, lightweight ETL tasks, and scripts that need concise processing of structured or semi-structured text.",
+      "esName": "awk",
+      "esDescription": "Un lenguaje de patron-accion para analizar, transformar y reportar datos de texto.",
+      "esLongDescription": "awk es un lenguaje compacto de procesamiento de texto basado en reglas patron-accion, registros, campos, arreglos asociativos, expresiones regulares y entrada en streaming. Esta disponible comunmente en sistemas tipo Unix, con GNU Awk agregando muchas extensiones y comodidades de tooling.\n\nSe usa para extraccion de datos en linea de comandos, procesamiento de logs, generacion de reportes, transformaciones puntuales, pipelines de shell, tareas ETL ligeras y scripts que necesitan procesar texto estructurado o semiestructurado de forma concisa.",
+      "publishedDate": "1977-01-01",
+      "extensions": [".awk"],
+      "author": "Alfred Aho, Peter Weinberger, Brian Kernighan",
+      "website": "https://www.gnu.org/software/gawk/",
+      "paradigms": ["text-processing", "scripting", "pattern-action", "data-driven"],
+      "tooling": {
+        "runtimes": ["awk", "gawk", "mawk", "nawk"],
+        "packageManagers": ["APT", "DNF", "Pacman", "Homebrew"],
+        "ecosystems": ["Unix", "Text Processing", "Shell", "Data Extraction"]
+      },
+      "version": "GNU Awk 5.4.0",
+      "logo": "https://www.gnu.org/graphics/heckert_gnu.small.png"
     },
     {
       "slug": "bash",
@@ -227,6 +290,27 @@
       },
       "version": "C++23",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"
+    },
+    {
+      "slug": "clojure",
+      "name": "Clojure",
+      "description": "A modern Lisp for the JVM and JavaScript ecosystems with immutable data and interactive development.",
+      "longDescription": "Clojure is a dynamic functional Lisp dialect designed for practical software development on hosted runtimes. It emphasizes immutable persistent data structures, first-class functions, macros, namespaces, protocols, software transactional memory, and REPL-driven workflows.\n\nIt is used for backend services, data pipelines, interactive systems, scripting with Babashka, web applications, distributed systems, and projects that benefit from a small language core with strong data-oriented programming practices.",
+      "esName": "Clojure",
+      "esDescription": "Un Lisp moderno para los ecosistemas JVM y JavaScript con datos inmutables y desarrollo interactivo.",
+      "esLongDescription": "Clojure es un dialecto Lisp funcional y dinamico disenado para desarrollo practico de software sobre runtimes hospedados. Enfatiza estructuras de datos persistentes e inmutables, funciones de primera clase, macros, namespaces, protocolos, memoria transaccional de software y flujos guiados por REPL.\n\nSe usa en servicios backend, pipelines de datos, sistemas interactivos, scripting con Babashka, aplicaciones web, sistemas distribuidos y proyectos que se benefician de un nucleo pequeno de lenguaje con practicas fuertes de programacion orientada a datos.",
+      "publishedDate": "2007-10-16",
+      "extensions": [".clj", ".cljs", ".cljc", ".edn", ".bb"],
+      "author": "Rich Hickey",
+      "website": "https://clojure.org",
+      "paradigms": ["functional", "lisp", "concurrent", "dynamic", "immutable-data"],
+      "tooling": {
+        "runtimes": ["JVM", "ClojureScript", "Babashka", "ClojureCLR"],
+        "packageManagers": ["Clojure CLI", "Leiningen", "Boot", "Maven"],
+        "ecosystems": ["JVM", "JavaScript", "Data Processing", "Web", "REPL-driven Development"]
+      },
+      "version": "1.12.5",
+      "logo": "https://cdn.simpleicons.org/clojure/5881D8"
     },
     {
       "slug": "cmake",
@@ -347,6 +431,27 @@
       },
       "version": "13.2.1",
       "logo": "https://cdn.simpleicons.org/nvidia/76B900"
+    },
+    {
+      "slug": "d",
+      "name": "D",
+      "description": "A systems programming language combining native performance with high-level abstractions.",
+      "longDescription": "D is a general-purpose systems programming language with C-like syntax, native compilation, garbage collection, manual memory options, templates, compile-time function execution, ranges, contracts, and interoperability with C.\n\nIt is used for command-line tools, systems software, native services, high-performance applications, game tooling, compilers, and projects that want low-level control alongside expressive metaprogramming and modern language features.",
+      "esName": "D",
+      "esDescription": "Un lenguaje de sistemas que combina rendimiento nativo con abstracciones de alto nivel.",
+      "esLongDescription": "D es un lenguaje de programacion de sistemas de proposito general con sintaxis similar a C, compilacion nativa, garbage collection, opciones de memoria manual, templates, ejecucion de funciones en tiempo de compilacion, ranges, contratos e interoperabilidad con C.\n\nSe usa en herramientas de linea de comandos, software de sistemas, servicios nativos, aplicaciones de alto rendimiento, tooling para juegos, compiladores y proyectos que buscan control de bajo nivel junto con metaprogramacion expresiva y caracteristicas modernas de lenguaje.",
+      "publishedDate": "2001-12-08",
+      "extensions": [".d", ".di"],
+      "author": "Walter Bright / D Language Foundation",
+      "website": "https://dlang.org",
+      "paradigms": ["systems", "imperative", "object-oriented", "generic", "functional"],
+      "tooling": {
+        "runtimes": ["Native", "D Runtime"],
+        "packageManagers": ["DUB"],
+        "ecosystems": ["Systems Programming", "Native Applications", "Tooling", "Game Development"]
+      },
+      "version": "2.112.0",
+      "logo": "https://cdn.simpleicons.org/d/BA595E"
     },
     {
       "slug": "dart",
@@ -474,6 +579,27 @@
       "logo": "https://cdn.simpleicons.org/fsharp/378BBA"
     },
     {
+      "slug": "fennel",
+      "name": "Fennel",
+      "description": "A Lisp that compiles to Lua while preserving access to the Lua ecosystem.",
+      "longDescription": "Fennel is a Lisp dialect that compiles to Lua, offering parentheses, macros, pattern matching, destructuring, functional style, and interactive development while keeping compatibility with Lua runtimes and libraries.\n\nIt is used for Lua applications, Neovim configuration, game scripting, embedded extension languages, tools, and projects that want Lisp-style syntax and macros with Lua's portability and small runtime footprint.",
+      "esName": "Fennel",
+      "esDescription": "Un Lisp que compila a Lua y conserva acceso al ecosistema Lua.",
+      "esLongDescription": "Fennel es un dialecto Lisp que compila a Lua, ofreciendo parentesis, macros, pattern matching, destructuring, estilo funcional y desarrollo interactivo mientras mantiene compatibilidad con runtimes y bibliotecas de Lua.\n\nSe usa en aplicaciones Lua, configuracion de Neovim, scripting para juegos, lenguajes embebidos de extension, herramientas y proyectos que quieren sintaxis y macros de estilo Lisp con la portabilidad y huella pequena de runtime de Lua.",
+      "publishedDate": "2016-10-01",
+      "extensions": [".fnl"],
+      "author": "Calvin Rose, Phil Hagelberg",
+      "website": "https://fennel-lang.org",
+      "paradigms": ["functional", "lisp", "scripting", "metaprogramming"],
+      "tooling": {
+        "runtimes": ["Lua", "LuaJIT"],
+        "packageManagers": ["LuaRocks"],
+        "ecosystems": ["Lua", "Neovim", "Game Development", "Embedded Scripting"]
+      },
+      "version": "1.6.1",
+      "logo": "https://fennel-lang.org/logo.svg"
+    },
+    {
       "slug": "fortran",
       "name": "Fortran",
       "description": "A compiled language for numerical computing, scientific software, and high-performance systems.",
@@ -513,6 +639,27 @@
       },
       "version": "2.54.0",
       "logo": "https://cdn.simpleicons.org/git/F05032"
+    },
+    {
+      "slug": "gleam",
+      "name": "Gleam",
+      "description": "A friendly statically typed functional language for the BEAM and JavaScript.",
+      "longDescription": "Gleam is a statically typed functional programming language that compiles to Erlang and JavaScript. It provides algebraic data types, pattern matching, immutable data, a small syntax, helpful compiler errors, and interoperability with Erlang and Elixir libraries on the BEAM.\n\nIt is used for web services, concurrent systems, command-line tools, full-stack applications, and projects that want BEAM reliability with a lightweight type system and approachable functional programming model.",
+      "esName": "Gleam",
+      "esDescription": "Un lenguaje funcional amigable y de tipado estatico para BEAM y JavaScript.",
+      "esLongDescription": "Gleam es un lenguaje de programacion funcional con tipado estatico que compila a Erlang y JavaScript. Ofrece tipos algebraicos, pattern matching, datos inmutables, una sintaxis pequena, errores de compilador utiles e interoperabilidad con bibliotecas Erlang y Elixir sobre BEAM.\n\nSe usa en servicios web, sistemas concurrentes, herramientas de linea de comandos, aplicaciones full-stack y proyectos que buscan la confiabilidad de BEAM con un sistema de tipos ligero y un modelo funcional accesible.",
+      "publishedDate": "2019-04-15",
+      "extensions": [".gleam"],
+      "author": "Louis Pilfold",
+      "website": "https://gleam.run",
+      "paradigms": ["functional", "statically typed", "concurrent", "actor-model"],
+      "tooling": {
+        "runtimes": ["Erlang/OTP", "BEAM", "JavaScript"],
+        "packageManagers": ["gleam", "Hex"],
+        "ecosystems": ["BEAM", "Erlang", "Elixir", "JavaScript", "Web"]
+      },
+      "version": "1.16.0",
+      "logo": "https://cdn.simpleicons.org/gleam/FFAFF3"
     },
     {
       "slug": "glsl",
@@ -639,6 +786,27 @@
       },
       "version": "GHC 9.14.1",
       "logo": "https://cdn.simpleicons.org/haskell/5D4F85"
+    },
+    {
+      "slug": "haxe",
+      "name": "Haxe",
+      "description": "A cross-platform typed language that compiles to many runtimes and targets.",
+      "longDescription": "Haxe is a high-level, statically typed programming language and compiler toolkit that targets JavaScript, C++, C#, Java, JVM bytecode, PHP, Lua, Python, HashLink, and other platforms. It includes type inference, macros, abstracts, generics, pattern matching, and a shared standard library.\n\nIt is used for games, web applications, creative coding, cross-platform tools, multimedia frameworks, and codebases that need to share typed business or engine logic across many targets.",
+      "esName": "Haxe",
+      "esDescription": "Un lenguaje tipado multiplataforma que compila a muchos runtimes y destinos.",
+      "esLongDescription": "Haxe es un lenguaje de programacion de alto nivel con tipado estatico y un toolkit de compilador que apunta a JavaScript, C++, C#, Java, bytecode JVM, PHP, Lua, Python, HashLink y otras plataformas. Incluye inferencia de tipos, macros, abstracts, genericos, pattern matching y una biblioteca estandar compartida.\n\nSe usa en juegos, aplicaciones web, creative coding, herramientas multiplataforma, frameworks multimedia y codebases que necesitan compartir logica tipada de negocio o motor entre muchos destinos.",
+      "publishedDate": "2005-10-01",
+      "extensions": [".hx", ".hxml"],
+      "author": "Nicolas Cannasse / Haxe Foundation",
+      "website": "https://haxe.org",
+      "paradigms": ["object-oriented", "functional", "cross-platform", "statically typed"],
+      "tooling": {
+        "runtimes": ["JavaScript", "HashLink", "JVM", "C++", "C#", "PHP", "Lua", "Python"],
+        "packageManagers": ["haxelib"],
+        "ecosystems": ["Games", "Web", "Cross-platform Applications", "OpenFL", "Heaps"]
+      },
+      "version": "4.3.7",
+      "logo": "https://cdn.simpleicons.org/haxe/EA8220"
     },
     {
       "slug": "hcl",
@@ -1011,6 +1179,27 @@
       },
       "version": "1.30.1",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg"
+    },
+    {
+      "slug": "nim",
+      "name": "Nim",
+      "description": "A compiled systems language with Python-like syntax, macros, and efficient native output.",
+      "longDescription": "Nim is a statically typed compiled language designed for efficiency, expressiveness, and flexibility. It offers indentation-based syntax, generics, macros, templates, multiple memory-management strategies, C/C++/Objective-C interoperability, and compilation to C, C++, Objective-C, or JavaScript.\n\nIt is used for command-line tools, systems programming, embedded software, web services, scripting-like automation, native applications, and projects that want low overhead with powerful metaprogramming.",
+      "esName": "Nim",
+      "esDescription": "Un lenguaje compilado de sistemas con sintaxis similar a Python, macros y salida nativa eficiente.",
+      "esLongDescription": "Nim es un lenguaje compilado con tipado estatico disenado para eficiencia, expresividad y flexibilidad. Ofrece sintaxis basada en indentacion, genericos, macros, templates, varias estrategias de gestion de memoria, interoperabilidad con C/C++/Objective-C y compilacion a C, C++, Objective-C o JavaScript.\n\nSe usa en herramientas de linea de comandos, programacion de sistemas, software embebido, servicios web, automatizacion con estilo de scripting, aplicaciones nativas y proyectos que buscan bajo overhead con metaprogramacion potente.",
+      "publishedDate": "2008-08-20",
+      "extensions": [".nim", ".nims", ".nimble"],
+      "author": "Andreas Rumpf",
+      "website": "https://nim-lang.org",
+      "paradigms": ["systems", "imperative", "functional", "metaprogramming", "statically typed"],
+      "tooling": {
+        "runtimes": ["Native", "JavaScript"],
+        "packageManagers": ["Nimble"],
+        "ecosystems": ["Systems Programming", "CLI", "Web", "Embedded", "Native Applications"]
+      },
+      "version": "2.2.10",
+      "logo": "https://cdn.simpleicons.org/nim/FFE953"
     },
     {
       "slug": "nix",
@@ -1488,6 +1677,27 @@
       },
       "version": "6.3.1",
       "logo": "https://www.swift.org/assets/images/swift.svg"
+    },
+    {
+      "slug": "tcl",
+      "name": "Tcl/Tk",
+      "description": "An embeddable command language and GUI toolkit for automation, tools, and applications.",
+      "longDescription": "Tcl is a dynamic command language designed for embedding, scripting, automation, and extension. Tk is its cross-platform GUI toolkit. Together they provide a simple command syntax, event loop, strings-as-data model, embeddability, and portable user interface components.\n\nTcl/Tk is used for desktop tools, EDA and CAD automation, test harnesses, embedded scripting, build and deployment scripts, rapid prototypes, and applications that need a small extensible command language.",
+      "esName": "Tcl/Tk",
+      "esDescription": "Un lenguaje de comandos embebible y toolkit GUI para automatizacion, herramientas y aplicaciones.",
+      "esLongDescription": "Tcl es un lenguaje dinamico de comandos disenado para embedding, scripting, automatizacion y extension. Tk es su toolkit GUI multiplataforma. Juntos ofrecen una sintaxis simple de comandos, event loop, modelo de strings como datos, capacidad de embedding y componentes de interfaz portables.\n\nTcl/Tk se usa en herramientas de escritorio, automatizacion EDA y CAD, bancos de prueba, scripting embebido, scripts de build y despliegue, prototipos rapidos y aplicaciones que necesitan un lenguaje de comandos pequeno y extensible.",
+      "publishedDate": "1988-01-01",
+      "extensions": [".tcl", ".tm", ".test"],
+      "author": "John Ousterhout",
+      "website": "https://www.tcl-lang.org",
+      "paradigms": ["scripting", "command", "event-driven", "embeddable"],
+      "tooling": {
+        "runtimes": ["Tcl", "Tk", "tclsh", "wish"],
+        "packageManagers": ["Teapot", "Tcl Modules"],
+        "ecosystems": ["GUI Applications", "EDA", "Automation", "Embedded Scripting"]
+      },
+      "version": "9.0.3",
+      "logo": "https://www.tcl-lang.org/images/tcl-logo.png"
     },
     {
       "slug": "toml",

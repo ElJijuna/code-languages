@@ -1,11 +1,15 @@
 import { abap } from "./languages/abap";
 import { actionscript } from "./languages/actionscript";
+import { ada } from "./languages/ada";
+import { apex } from "./languages/apex";
 import { asp } from "./languages/asp";
 import { assembly } from "./languages/assembly";
 import { astro } from "./languages/astro";
+import { awk } from "./languages/awk";
 import { bash } from "./languages/bash";
 import { batch } from "./languages/batch";
 import { c } from "./languages/c";
+import { clojure } from "./languages/clojure";
 import { cmake } from "./languages/cmake";
 import { cobol } from "./languages/cobol";
 import { coffeescript } from "./languages/coffeescript";
@@ -14,20 +18,24 @@ import { crystal } from "./languages/crystal";
 import { csharp } from "./languages/csharp";
 import { css } from "./languages/css";
 import { cuda } from "./languages/cuda";
+import { d } from "./languages/d";
 import { dart } from "./languages/dart";
 import { dockerfile } from "./languages/dockerfile";
 import { elixir } from "./languages/elixir";
 import { elm } from "./languages/elm";
 import { erlang } from "./languages/erlang";
+import { fennel } from "./languages/fennel";
 import { fortran } from "./languages/fortran";
 import { fsharp } from "./languages/fsharp";
 import { git } from "./languages/git";
+import { gleam } from "./languages/gleam";
 import { glsl } from "./languages/glsl";
 import { go } from "./languages/go";
 import { gradle } from "./languages/gradle";
 import { graphql } from "./languages/graphql";
 import { groovy } from "./languages/groovy";
 import { haskell } from "./languages/haskell";
+import { haxe } from "./languages/haxe";
 import { hcl } from "./languages/hcl";
 import { html } from "./languages/html";
 import { ini } from "./languages/ini";
@@ -46,6 +54,7 @@ import { matlab } from "./languages/matlab";
 import { meson } from "./languages/meson";
 import { metal } from "./languages/metal";
 import { nginx } from "./languages/nginx";
+import { nim } from "./languages/nim";
 import { nix } from "./languages/nix";
 import { objectiveC } from "./languages/objective-c";
 import { ocaml } from "./languages/ocaml";
@@ -69,6 +78,7 @@ import { svelte } from "./languages/svelte";
 import { svg } from "./languages/svg";
 import { svn } from "./languages/svn";
 import { swift } from "./languages/swift";
+import { tcl } from "./languages/tcl";
 import { toml } from "./languages/toml";
 import { typescript } from "./languages/typescript";
 import { visualBasic } from "./languages/visual-basic";
@@ -84,13 +94,17 @@ import { zsh } from "./languages/zsh";
 export const languages = [
   abap,
   actionscript,
+  ada,
+  apex,
   asp,
   astro,
   assembly,
+  awk,
   bash,
   batch,
   c,
   cmake,
+  clojure,
   coffeescript,
   cobol,
   cpp,
@@ -98,20 +112,24 @@ export const languages = [
   crystal,
   css,
   cuda,
+  d,
   dart,
   dockerfile,
   elixir,
   elm,
   erlang,
+  fennel,
   fortran,
   fsharp,
   git,
+  gleam,
   go,
   gradle,
   glsl,
   graphql,
   groovy,
   haskell,
+  haxe,
   hcl,
   html,
   ini,
@@ -131,6 +149,7 @@ export const languages = [
   metal,
   svn,
   nginx,
+  nim,
   nix,
   ocaml,
   objectiveC,
@@ -153,6 +172,7 @@ export const languages = [
   svg,
   svelte,
   swift,
+  tcl,
   toml,
   typescript,
   visualBasic,

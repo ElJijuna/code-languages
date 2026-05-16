@@ -8,6 +8,8 @@ const manualChecks = {
   abap: "ABAP Platform releases should be reviewed manually against SAP Help Portal because the source page is rendered dynamically.",
   actionscript:
     "ActionScript is effectively stable at 3.0 and should be reviewed manually against Adobe AIR and Flash platform documentation.",
+  ada: "Ada standards should be reviewed manually against ISO/IEC 8652 and Ada Resource Association publications.",
+  apex: "Apex API versions are tied to Salesforce seasonal platform releases and should be reviewed manually against Salesforce release notes.",
   assembly:
     "Assembly versions are architecture-specific and should be reviewed manually against assembler and ISA documentation.",
   c: "ISO standards do not expose a stable free machine-readable latest-version endpoint.",
@@ -60,6 +62,17 @@ const checkers = {
       sourceUrl: "https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-framework",
     };
   },
+  async awk() {
+    const html = await fetchText("https://ftp.gnu.org/gnu/gawk/");
+    const versions = [...html.matchAll(/gawk-(\d+\.\d+\.\d+)\.tar\.(?:gz|xz|lz)/g)].map(
+      (match) => match[1],
+    );
+
+    return {
+      latestVersion: `GNU Awk ${latestSemver(versions)}`,
+      sourceUrl: "https://ftp.gnu.org/gnu/gawk/",
+    };
+  },
   async bash() {
     const html = await fetchText("https://ftp.gnu.org/gnu/bash/");
     const versions = [...html.matchAll(/bash-(\d+\.\d+(?:\.\d+)?)\.tar\.gz/g)].map(
@@ -92,6 +105,15 @@ const checkers = {
     return {
       latestVersion: match?.[1],
       sourceUrl: "https://cmake.org/download/",
+    };
+  },
+  async clojure() {
+    const html = await fetchText("https://clojure.org/releases/downloads");
+    const match = html.match(/Stable Release:\s+(\d+\.\d+\.\d+)/i);
+
+    return {
+      latestVersion: match?.[1],
+      sourceUrl: "https://clojure.org/releases/downloads",
     };
   },
   async cuda() {
@@ -131,6 +153,15 @@ const checkers = {
         "https://storage.googleapis.com/dart-archive/channels/stable/release/latest/VERSION",
     };
   },
+  async d() {
+    const html = await fetchText("https://dlang.org/index.html");
+    const match = html.match(/Latest version:\s+(\d+\.\d+\.\d+)/i);
+
+    return {
+      latestVersion: match?.[1],
+      sourceUrl: "https://dlang.org/index.html",
+    };
+  },
   async elixir() {
     const json = await fetchJson("https://api.github.com/repos/elixir-lang/elixir/releases/latest");
 
@@ -155,6 +186,14 @@ const checkers = {
       sourceUrl: "https://api.github.com/repos/erlang/otp/releases/latest",
     };
   },
+  async fennel() {
+    const json = await fetchJson("https://api.github.com/repos/bakpakin/Fennel/releases/latest");
+
+    return {
+      latestVersion: normalizeVersion(json.tag_name),
+      sourceUrl: "https://api.github.com/repos/bakpakin/Fennel/releases/latest",
+    };
+  },
   async fsharp() {
     const html = await fetchText("https://learn.microsoft.com/en-us/dotnet/fsharp/whats-new/");
     const versions = [...html.matchAll(/F#\s+(\d+)/g)].map((match) => match[1]);
@@ -171,6 +210,14 @@ const checkers = {
     return {
       latestVersion: match?.[1],
       sourceUrl: "https://git-scm.com/docs/git",
+    };
+  },
+  async gleam() {
+    const json = await fetchJson("https://api.github.com/repos/gleam-lang/gleam/releases/latest");
+
+    return {
+      latestVersion: normalizeVersion(json.tag_name),
+      sourceUrl: "https://api.github.com/repos/gleam-lang/gleam/releases/latest",
     };
   },
   async go() {
@@ -231,6 +278,15 @@ const checkers = {
     return {
       latestVersion: `GHC ${latestSemver(versions)}`,
       sourceUrl: "https://downloads.haskell.org/~ghc/latest/",
+    };
+  },
+  async haxe() {
+    const html = await fetchText("https://haxe.org/download/list/");
+    const match = html.match(/current stable version is[\s\S]{0,120}?(\d+\.\d+\.\d+)/i);
+
+    return {
+      latestVersion: match?.[1],
+      sourceUrl: "https://haxe.org/download/list/",
     };
   },
   async hcl() {
@@ -347,6 +403,15 @@ const checkers = {
     return {
       latestVersion: match?.[1],
       sourceUrl: "https://nginx.org/en/download.html",
+    };
+  },
+  async nim() {
+    const html = await fetchText("https://nim-lang.org/");
+    const match = html.match(/Nim version\s+(\d+\.\d+\.\d+)\s+released/i);
+
+    return {
+      latestVersion: match?.[1],
+      sourceUrl: "https://nim-lang.org/",
     };
   },
   async pascal() {
@@ -517,6 +582,15 @@ const checkers = {
     return {
       latestVersion: match?.[1],
       sourceUrl: "https://api.github.com/repos/swiftlang/swift/releases/latest",
+    };
+  },
+  async tcl() {
+    const html = await fetchText("https://www.tcl-lang.org/software/tcltk/9.0.html");
+    const match = html.match(/Latest Release:\s+Tcl\/Tk\s+(\d+\.\d+\.\d+)/i);
+
+    return {
+      latestVersion: match?.[1],
+      sourceUrl: "https://www.tcl-lang.org/software/tcltk/9.0.html",
     };
   },
   async toml() {
