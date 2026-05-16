@@ -1,3 +1,11 @@
+# [1.16.0](https://github.com/ElJijuna/code-languages/compare/v1.15.0...v1.16.0) (2026-05-16)
+
+
+### Features
+
+* add language racket ([d7e0efa](https://github.com/ElJijuna/code-languages/commit/d7e0efac3c8aaeaf08382e803d75f343b7e046b3))
+* add lower-priority language coverage ([7e7c987](https://github.com/ElJijuna/code-languages/commit/7e7c987188570c97fae20d149a44da69eae6e39d))
+
 # [1.15.0](https://github.com/ElJijuna/code-languages/compare/v1.14.0...v1.15.0) (2026-05-16)
 
 
