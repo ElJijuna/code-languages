@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-05-15T12:20:26.977Z",
+  "generatedAt": "2026-05-16T02:29:20.146Z",
   "success": true,
-  "totalSuites": 159,
-  "passedSuites": 159,
+  "totalSuites": 169,
+  "passedSuites": 169,
   "failedSuites": 0,
-  "totalTests": 115,
-  "passedTests": 115,
+  "totalTests": 125,
+  "passedTests": 125,
   "failedTests": 0,
   "files": [
     {
@@ -15,7 +15,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.37255859375
+      "durationMs": 1.870849609375
     },
     {
       "file": "actionscript.test.ts",
@@ -24,7 +24,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.989501953125
+      "durationMs": 1.3203125
     },
     {
       "file": "api.test.ts",
@@ -33,7 +33,7 @@
       "tests": 11,
       "passed": 11,
       "failed": 0,
-      "durationMs": 4.43017578125
+      "durationMs": 4.798095703125
     },
     {
       "file": "asp.test.ts",
@@ -42,7 +42,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.779541015625
+      "durationMs": 2.05419921875
     },
     {
       "file": "assembly.test.ts",
@@ -51,7 +51,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.647216796875
+      "durationMs": 1.653076171875
     },
     {
       "file": "astro.test.ts",
@@ -60,7 +60,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.42138671875
+      "durationMs": 1.604736328125
     },
     {
       "file": "bash.test.ts",
@@ -69,7 +69,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.312255859375
+      "durationMs": 1.892822265625
     },
     {
       "file": "batch.test.ts",
@@ -78,7 +78,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.351318359375
+      "durationMs": 1.42431640625
     },
     {
       "file": "c.test.ts",
@@ -87,7 +87,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.475341796875
+      "durationMs": 1.498779296875
     },
     {
       "file": "cmake.test.ts",
@@ -96,7 +96,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.929443359375
+      "durationMs": 2.129150390625
     },
     {
       "file": "cobol.test.ts",
@@ -105,7 +105,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.342529296875
+      "durationMs": 1.476318359375
     },
     {
       "file": "coffeescript.test.ts",
@@ -114,7 +114,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.72802734375
+      "durationMs": 1.381591796875
     },
     {
       "file": "cpp.test.ts",
@@ -123,7 +123,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.41357421875
+      "durationMs": 1.546630859375
     },
     {
       "file": "crystal.test.ts",
@@ -132,7 +132,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.6845703125
+      "durationMs": 1.8486328125
     },
     {
       "file": "csharp.test.ts",
@@ -141,7 +141,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.78076171875
+      "durationMs": 2.036376953125
     },
     {
       "file": "css.test.ts",
@@ -150,7 +150,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.6943359375
+      "durationMs": 1.580078125
     },
     {
       "file": "cuda.test.ts",
@@ -159,7 +159,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.8310546875
+      "durationMs": 1.821044921875
     },
     {
       "file": "dart.test.ts",
@@ -168,16 +168,16 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.83349609375
+      "durationMs": 1.6083984375
     },
     {
       "file": "detect.test.ts",
       "path": "/Users/pilmee/Documents/Github/simple-languages/tests/detect.test.ts",
       "status": "passed",
-      "tests": 29,
-      "passed": 29,
+      "tests": 34,
+      "passed": 34,
       "failed": 0,
-      "durationMs": 4.0419921875
+      "durationMs": 3.243896484375
     },
     {
       "file": "dockerfile.test.ts",
@@ -186,7 +186,16 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.7587890625
+      "durationMs": 1.649658203125
+    },
+    {
+      "file": "elixir.test.ts",
+      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/elixir.test.ts",
+      "status": "passed",
+      "tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "durationMs": 1.96533203125
     },
     {
       "file": "elm.test.ts",
@@ -195,7 +204,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.749755859375
+      "durationMs": 1.521484375
     },
     {
       "file": "erlang.test.ts",
@@ -204,7 +213,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.46533203125
+      "durationMs": 1.801513671875
     },
     {
       "file": "fortran.test.ts",
@@ -213,7 +222,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.403564453125
+      "durationMs": 1.406494140625
     },
     {
       "file": "fsharp.test.ts",
@@ -222,7 +231,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.79345703125
+      "durationMs": 1.75927734375
     },
     {
       "file": "git.test.ts",
@@ -231,7 +240,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.87255859375
+      "durationMs": 1.6650390625
     },
     {
       "file": "glsl.test.ts",
@@ -240,7 +249,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.537353515625
+      "durationMs": 1.469970703125
     },
     {
       "file": "go.test.ts",
@@ -249,7 +258,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.705810546875
+      "durationMs": 1.499755859375
     },
     {
       "file": "gradle.test.ts",
@@ -258,7 +267,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.0859375
+      "durationMs": 1.806640625
     },
     {
       "file": "graphql.test.ts",
@@ -267,7 +276,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.99169921875
+      "durationMs": 2.06005859375
     },
     {
       "file": "groovy.test.ts",
@@ -276,7 +285,16 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.05078125
+      "durationMs": 1.631103515625
+    },
+    {
+      "file": "haskell.test.ts",
+      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/haskell.test.ts",
+      "status": "passed",
+      "tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "durationMs": 1.982421875
     },
     {
       "file": "hcl.test.ts",
@@ -285,7 +303,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.84033203125
+      "durationMs": 1.732666015625
     },
     {
       "file": "html.test.ts",
@@ -294,7 +312,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.757080078125
+      "durationMs": 1.51171875
     },
     {
       "file": "ini.test.ts",
@@ -303,7 +321,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.330810546875
+      "durationMs": 1.389892578125
     },
     {
       "file": "java.test.ts",
@@ -312,7 +330,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.68701171875
+      "durationMs": 1.666015625
     },
     {
       "file": "javascript.test.ts",
@@ -321,7 +339,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.55322265625
+      "durationMs": 1.592041015625
     },
     {
       "file": "json.test.ts",
@@ -330,7 +348,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.67724609375
+      "durationMs": 2.18994140625
     },
     {
       "file": "julia.test.ts",
@@ -339,7 +357,16 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.531005859375
+      "durationMs": 1.427490234375
+    },
+    {
+      "file": "jupyter-notebook.test.ts",
+      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/jupyter-notebook.test.ts",
+      "status": "passed",
+      "tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "durationMs": 1.354248046875
     },
     {
       "file": "kotlin.test.ts",
@@ -348,7 +375,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.428955078125
+      "durationMs": 1.966552734375
     },
     {
       "file": "less.test.ts",
@@ -357,7 +384,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.882568359375
+      "durationMs": 1.765380859375
     },
     {
       "file": "lisp.test.ts",
@@ -366,7 +393,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.6650390625
+      "durationMs": 2.0634765625
     },
     {
       "file": "lua.test.ts",
@@ -375,7 +402,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.794921875
+      "durationMs": 1.38037109375
     },
     {
       "file": "makefile.test.ts",
@@ -384,7 +411,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.767333984375
+      "durationMs": 1.75244140625
     },
     {
       "file": "markdown.test.ts",
@@ -393,7 +420,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.65185546875
+      "durationMs": 1.37353515625
     },
     {
       "file": "matlab.test.ts",
@@ -402,7 +429,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.05224609375
+      "durationMs": 1.834716796875
     },
     {
       "file": "meson.test.ts",
@@ -411,7 +438,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.877197265625
+      "durationMs": 1.3408203125
     },
     {
       "file": "metal.test.ts",
@@ -420,7 +447,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.44384765625
+      "durationMs": 1.330322265625
     },
     {
       "file": "nginx.test.ts",
@@ -429,7 +456,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.83349609375
+      "durationMs": 1.5244140625
     },
     {
       "file": "nix.test.ts",
@@ -438,7 +465,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.79638671875
+      "durationMs": 1.403564453125
     },
     {
       "file": "objective-c.test.ts",
@@ -447,7 +474,16 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.377685546875
+      "durationMs": 1.90625
+    },
+    {
+      "file": "ocaml.test.ts",
+      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/ocaml.test.ts",
+      "status": "passed",
+      "tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "durationMs": 2.177490234375
     },
     {
       "file": "pascal.test.ts",
@@ -456,7 +492,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.404296875
+      "durationMs": 1.6494140625
     },
     {
       "file": "perl.test.ts",
@@ -465,7 +501,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.47705078125
+      "durationMs": 1.549560546875
     },
     {
       "file": "php.test.ts",
@@ -474,7 +510,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.6923828125
+      "durationMs": 1.964111328125
     },
     {
       "file": "powershell.test.ts",
@@ -483,7 +519,16 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.69580078125
+      "durationMs": 1.371337890625
+    },
+    {
+      "file": "protobuf.test.ts",
+      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/protobuf.test.ts",
+      "status": "passed",
+      "tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "durationMs": 1.43212890625
     },
     {
       "file": "pug.test.ts",
@@ -492,7 +537,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.658447265625
+      "durationMs": 1.43701171875
     },
     {
       "file": "python.test.ts",
@@ -501,7 +546,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.44287109375
+      "durationMs": 1.928466796875
     },
     {
       "file": "r.test.ts",
@@ -510,7 +555,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.41748046875
+      "durationMs": 2.007080078125
     },
     {
       "file": "razor.test.ts",
@@ -519,7 +564,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.4404296875
+      "durationMs": 2.180419921875
     },
     {
       "file": "ruby.test.ts",
@@ -528,7 +573,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.712646484375
+      "durationMs": 1.42578125
     },
     {
       "file": "rust.test.ts",
@@ -537,7 +582,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.530517578125
+      "durationMs": 1.856201171875
     },
     {
       "file": "scala.test.ts",
@@ -546,7 +591,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.660888671875
+      "durationMs": 1.7109375
     },
     {
       "file": "scss.test.ts",
@@ -555,7 +600,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.93701171875
+      "durationMs": 1.809326171875
     },
     {
       "file": "solidity.test.ts",
@@ -564,7 +609,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.654052734375
+      "durationMs": 1.96337890625
     },
     {
       "file": "sql.test.ts",
@@ -573,7 +618,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.777099609375
+      "durationMs": 2.039306640625
     },
     {
       "file": "svelte.test.ts",
@@ -582,7 +627,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.416748046875
+      "durationMs": 1.912109375
     },
     {
       "file": "svg.test.ts",
@@ -591,7 +636,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.816650390625
+      "durationMs": 1.986328125
     },
     {
       "file": "svn.test.ts",
@@ -600,7 +645,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.8251953125
+      "durationMs": 1.8857421875
     },
     {
       "file": "swift.test.ts",
@@ -609,7 +654,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.795166015625
+      "durationMs": 1.377685546875
     },
     {
       "file": "toml.test.ts",
@@ -618,7 +663,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.364013671875
+      "durationMs": 1.38427734375
     },
     {
       "file": "typescript.test.ts",
@@ -627,7 +672,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.780517578125
+      "durationMs": 1.404541015625
     },
     {
       "file": "visual-basic.test.ts",
@@ -636,7 +681,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.28515625
+      "durationMs": 1.74462890625
     },
     {
       "file": "vue.test.ts",
@@ -645,7 +690,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.766357421875
+      "durationMs": 2.037353515625
     },
     {
       "file": "webassembly.test.ts",
@@ -654,7 +699,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.38330078125
+      "durationMs": 1.659423828125
     },
     {
       "file": "xaml.test.ts",
@@ -663,7 +708,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.5
+      "durationMs": 1.513427734375
     },
     {
       "file": "xml.test.ts",
@@ -672,7 +717,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.3525390625
+      "durationMs": 1.501220703125
     },
     {
       "file": "yaml.test.ts",
@@ -681,7 +726,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.701416015625
+      "durationMs": 1.887939453125
     },
     {
       "file": "zig.test.ts",
@@ -690,7 +735,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.757568359375
+      "durationMs": 1.80810546875
     },
     {
       "file": "zsh.test.ts",
@@ -699,7 +744,7 @@
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.77734375
+      "durationMs": 1.500732421875
     }
   ]
 }

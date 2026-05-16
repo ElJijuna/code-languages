@@ -81,10 +81,10 @@
 - [x] Elixir (`elixir`)
 - [x] Haskell (`haskell`)
 - [x] OCaml (`ocaml`)
+- [x] Protocol Buffers (`protobuf`)
 
 ## Pending
 
-- [ ] Protocol Buffers (`protobuf`)
 - [ ] Racket (`racket`)
 - [ ] Rego (`rego`)
 - [ ] TeX (`tex`)

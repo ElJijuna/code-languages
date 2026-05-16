@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-15T21:31:45.506Z",
-  "total": 79,
-  "extensions": 237,
+  "generatedAt": "2026-05-16T02:29:21.521Z",
+  "total": 80,
+  "extensions": 238,
   "locales": ["en", "es"],
   "languages": [
     {
@@ -1158,6 +1158,27 @@
       },
       "version": "7.6.1",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png"
+    },
+    {
+      "slug": "protobuf",
+      "name": "Protocol Buffers",
+      "description": "Google's language-neutral schema format for structured data serialization and service APIs.",
+      "longDescription": "Protocol Buffers is a language-neutral, platform-neutral mechanism for defining structured data schemas and generating strongly typed code in many programming languages. `.proto` files describe messages, fields, enums, services, packages, imports, options, and RPC contracts.\n\nIt is widely used with gRPC, microservices, distributed systems, APIs, telemetry, configuration, event streams, and storage formats that need compact binary serialization and stable cross-language contracts.",
+      "esName": "Protocol Buffers",
+      "esDescription": "El formato de schemas neutral de Google para serializacion de datos estructurados y APIs de servicios.",
+      "esLongDescription": "Protocol Buffers es un mecanismo neutral en lenguaje y plataforma para definir schemas de datos estructurados y generar codigo tipado en muchos lenguajes de programacion. Los archivos `.proto` describen mensajes, campos, enums, servicios, paquetes, imports, opciones y contratos RPC.\n\nSe usa ampliamente con gRPC, microservicios, sistemas distribuidos, APIs, telemetria, configuracion, flujos de eventos y formatos de almacenamiento que necesitan serializacion binaria compacta y contratos estables entre lenguajes.",
+      "publishedDate": "2008-07-07",
+      "extensions": [".proto"],
+      "author": "Google",
+      "website": "https://protobuf.dev",
+      "paradigms": ["interface-definition", "schema", "declarative", "data-serialization"],
+      "tooling": {
+        "runtimes": ["Protocol Buffers Runtime", "gRPC"],
+        "packageManagers": ["Buf", "npm", "Maven", "Go modules", "NuGet", "PyPI"],
+        "ecosystems": ["gRPC", "APIs", "Microservices", "Data Serialization"]
+      },
+      "version": "34.1",
+      "logo": "https://cdn.simpleicons.org/google/4285F4"
     },
     {
       "slug": "pug",

@@ -66,6 +66,7 @@ export { pascal } from "./languages/pascal";
 export { perl } from "./languages/perl";
 export { php } from "./languages/php";
 export { powershell } from "./languages/powershell";
+export { protobuf } from "./languages/protobuf";
 export { pug } from "./languages/pug";
 export { python } from "./languages/python";
 export { r } from "./languages/r";

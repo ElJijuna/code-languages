@@ -388,6 +388,16 @@ const checkers = {
       sourceUrl: "https://github.com/PowerShell/PowerShell/releases",
     };
   },
+  async protobuf() {
+    const json = await fetchJson(
+      "https://api.github.com/repos/protocolbuffers/protobuf/releases/latest",
+    );
+
+    return {
+      latestVersion: normalizeVersion(json.tag_name),
+      sourceUrl: "https://api.github.com/repos/protocolbuffers/protobuf/releases/latest",
+    };
+  },
   async pug() {
     const json = await fetchJson("https://registry.npmjs.org/pug/latest");
 

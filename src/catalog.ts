@@ -53,6 +53,7 @@ import { pascal } from "./languages/pascal";
 import { perl } from "./languages/perl";
 import { php } from "./languages/php";
 import { powershell } from "./languages/powershell";
+import { protobuf } from "./languages/protobuf";
 import { pug } from "./languages/pug";
 import { python } from "./languages/python";
 import { r } from "./languages/r";
@@ -136,6 +137,7 @@ export const languages = [
   perl,
   php,
   powershell,
+  protobuf,
   pug,
   python,
   r,

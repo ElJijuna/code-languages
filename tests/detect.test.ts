@@ -26,6 +26,7 @@ import {
   metal,
   ocaml,
   perl,
+  protobuf,
   razor,
   ruby,
   solidity,
@@ -172,6 +173,10 @@ describe("detectLanguage", () => {
   it("detects Perl scripts and modules", () => {
     expect(detectLanguage("script/release.pl")).toBe(perl);
     expect(detectLanguage("lib/App/CLI.pm")).toBe(perl);
+  });
+
+  it("detects Protocol Buffers schemas", () => {
+    expect(detectLanguage("proto/user_service.proto")).toBe(protobuf);
   });
 
   it("detects Razor views and components", () => {
