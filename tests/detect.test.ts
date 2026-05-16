@@ -27,6 +27,7 @@ import {
   ocaml,
   perl,
   protobuf,
+  racket,
   razor,
   ruby,
   solidity,
@@ -122,6 +123,11 @@ describe("detectLanguage", () => {
   it("detects Lisp source files and systems", () => {
     expect(detectLanguage("src/package.lisp")).toBe(lisp);
     expect(detectLanguage("systems/simple-languages.asd")).toBe(lisp);
+  });
+
+  it("detects Racket source and Scribble files", () => {
+    expect(detectLanguage("src/main.rkt")).toBe(racket);
+    expect(detectLanguage("docs/manual.scrbl")).toBe(racket);
   });
 
   it("detects Windows Batch scripts", () => {

@@ -424,6 +424,15 @@ const checkers = {
       sourceUrl: "https://www.r-project.org/",
     };
   },
+  async racket() {
+    const html = await fetchText("https://download.racket-lang.org/");
+    const match = html.match(/Version\s+(\d+\.\d+(?:\.\d+)?)/i);
+
+    return {
+      latestVersion: match?.[1],
+      sourceUrl: "https://download.racket-lang.org/",
+    };
+  },
   async razor() {
     const json = await fetchJson(
       "https://builds.dotnet.microsoft.com/dotnet/release-metadata/releases-index.json",

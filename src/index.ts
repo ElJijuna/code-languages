@@ -70,6 +70,7 @@ export { protobuf } from "./languages/protobuf";
 export { pug } from "./languages/pug";
 export { python } from "./languages/python";
 export { r } from "./languages/r";
+export { racket } from "./languages/racket";
 export { razor } from "./languages/razor";
 export { ruby } from "./languages/ruby";
 export { rust } from "./languages/rust";

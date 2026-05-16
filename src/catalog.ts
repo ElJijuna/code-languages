@@ -57,6 +57,7 @@ import { protobuf } from "./languages/protobuf";
 import { pug } from "./languages/pug";
 import { python } from "./languages/python";
 import { r } from "./languages/r";
+import { racket } from "./languages/racket";
 import { razor } from "./languages/razor";
 import { ruby } from "./languages/ruby";
 import { rust } from "./languages/rust";
@@ -141,6 +142,7 @@ export const languages = [
   pug,
   python,
   r,
+  racket,
   razor,
   ruby,
   rust,

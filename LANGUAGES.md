@@ -82,10 +82,10 @@
 - [x] Haskell (`haskell`)
 - [x] OCaml (`ocaml`)
 - [x] Protocol Buffers (`protobuf`)
+- [x] Racket (`racket`)
 
 ## Pending
 
-- [ ] Racket (`racket`)
 - [ ] Rego (`rego`)
 - [ ] TeX (`tex`)
 - [ ] Twig (`twig`)
