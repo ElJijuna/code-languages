@@ -1,3 +1,10 @@
+# [1.17.0](https://github.com/ElJijuna/code-languages/compare/v1.16.1...v1.17.0) (2026-05-17)
+
+
+### Features
+
+* add languages ([6f20db0](https://github.com/ElJijuna/code-languages/commit/6f20db0b6faf2dcdd92fb9f5cc358fa91790bf7c))
+
 ## [1.16.1](https://github.com/ElJijuna/code-languages/compare/v1.16.0...v1.16.1) (2026-05-17)
 
 
