@@ -1,3 +1,11 @@
+## [1.16.1](https://github.com/ElJijuna/code-languages/compare/v1.16.0...v1.16.1) (2026-05-17)
+
+
+### Bug Fixes
+
+* update Crystal metadata to 1.20.2 ([019940e](https://github.com/ElJijuna/code-languages/commit/019940edd78dfbdd121e9fdfa40d32ef8d743e35))
+* update Crystal metadata to 1.20.2 ([b235761](https://github.com/ElJijuna/code-languages/commit/b235761a2dd9f2c87d424f909e6b02c6aeba99e7))
+
 # [1.16.0](https://github.com/ElJijuna/code-languages/compare/v1.15.0...v1.16.0) (2026-05-16)
 
 
