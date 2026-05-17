@@ -68,6 +68,7 @@ import { python } from "./languages/python";
 import { r } from "./languages/r";
 import { racket } from "./languages/racket";
 import { razor } from "./languages/razor";
+import { rego } from "./languages/rego";
 import { ruby } from "./languages/ruby";
 import { rust } from "./languages/rust";
 import { scala } from "./languages/scala";
@@ -79,13 +80,17 @@ import { svg } from "./languages/svg";
 import { svn } from "./languages/svn";
 import { swift } from "./languages/swift";
 import { tcl } from "./languages/tcl";
+import { tex } from "./languages/tex";
 import { toml } from "./languages/toml";
+import { twig } from "./languages/twig";
 import { typescript } from "./languages/typescript";
 import { visualBasic } from "./languages/visual-basic";
 import { vue } from "./languages/vue";
 import { webassembly } from "./languages/webassembly";
 import { xaml } from "./languages/xaml";
 import { xml } from "./languages/xml";
+import { xquery } from "./languages/xquery";
+import { xslt } from "./languages/xslt";
 import { yaml } from "./languages/yaml";
 import { zig } from "./languages/zig";
 import { zsh } from "./languages/zsh";
@@ -163,6 +168,7 @@ export const languages = [
   r,
   racket,
   razor,
+  rego,
   ruby,
   rust,
   scala,
@@ -173,13 +179,17 @@ export const languages = [
   svelte,
   swift,
   tcl,
+  tex,
   toml,
+  twig,
   typescript,
   visualBasic,
   vue,
   webassembly,
   xaml,
   xml,
+  xquery,
+  xslt,
   yaml,
   zig,
   zsh,

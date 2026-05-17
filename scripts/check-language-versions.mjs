@@ -39,6 +39,9 @@ const manualChecks = {
   webassembly: "WebAssembly standards should be reviewed manually against webassembly.org/specs.",
   xaml: "XAML support is platform-specific across WPF, UWP, WinUI, .NET MAUI, and related frameworks.",
   xml: "XML 1.0 Fifth Edition is stable and should be reviewed manually if W3C publishes a new edition.",
+  xquery:
+    "XQuery 3.1 is a W3C Recommendation and should be reviewed manually against W3C publication history.",
+  xslt: "XSLT 3.0 is a W3C Recommendation and should be reviewed manually against W3C publication history.",
   yaml: "YAML specification updates should be reviewed manually against yaml.org/spec.",
 };
 
@@ -511,6 +514,16 @@ const checkers = {
       sourceUrl: "https://builds.dotnet.microsoft.com/dotnet/release-metadata/releases-index.json",
     };
   },
+  async rego() {
+    const json = await fetchJson(
+      "https://api.github.com/repos/open-policy-agent/opa/releases/latest",
+    );
+
+    return {
+      latestVersion: `OPA ${normalizeVersion(json.tag_name)}`,
+      sourceUrl: "https://api.github.com/repos/open-policy-agent/opa/releases/latest",
+    };
+  },
   async rust() {
     const toml = await fetchText("https://static.rust-lang.org/dist/channel-rust-stable.toml");
     const match = toml.match(/pkg\.rust\]\s+version = "(\d+\.\d+\.\d+)/);
@@ -593,12 +606,31 @@ const checkers = {
       sourceUrl: "https://www.tcl-lang.org/software/tcltk/9.0.html",
     };
   },
+  async tex() {
+    const json = await fetchJson("https://ctan.org/json/2.0/pkg/texlive");
+
+    return {
+      latestVersion: json.version?.number ? `TeX Live ${json.version.number}` : undefined,
+      sourceUrl: "https://ctan.org/json/2.0/pkg/texlive",
+    };
+  },
   async toml() {
     const json = await fetchJson("https://api.github.com/repos/toml-lang/toml/releases/latest");
 
     return {
       latestVersion: normalizeVersion(json.tag_name),
       sourceUrl: "https://api.github.com/repos/toml-lang/toml/releases/latest",
+    };
+  },
+  async twig() {
+    const json = await fetchJson("https://repo.packagist.org/p2/twig/twig.json");
+    const versions = json.packages?.["twig/twig"]
+      ?.map((entry) => normalizeVersion(entry.version))
+      .filter((version) => /^\d+\.\d+\.\d+$/.test(version));
+
+    return {
+      latestVersion: latestSemver(versions),
+      sourceUrl: "https://repo.packagist.org/p2/twig/twig.json",
     };
   },
   async typescript() {

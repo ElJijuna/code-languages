@@ -93,14 +93,13 @@
 - [x] Haxe (`haxe`)
 - [x] Nim (`nim`)
 - [x] Tcl/Tk (`tcl`)
+- [x] Rego (`rego`)
+- [x] TeX (`tex`)
+- [x] Twig (`twig`)
+- [x] XQuery (`xquery`)
+- [x] XSLT (`xslt`)
 
 ## Pending
-
-- [ ] Rego (`rego`)
-- [ ] TeX (`tex`)
-- [ ] Twig (`twig`)
-- [ ] XQuery (`xquery`)
-- [ ] XSLT (`xslt`)
 
 ## Lower Priority Languages
 

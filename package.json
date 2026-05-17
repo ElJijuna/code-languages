@@ -291,6 +291,11 @@
       "import": "./dist/languages/racket.js",
       "require": "./dist/languages/racket.cjs"
     },
+    "./rego": {
+      "types": "./dist/languages/rego.d.ts",
+      "import": "./dist/languages/rego.js",
+      "require": "./dist/languages/rego.cjs"
+    },
     "./ruby": {
       "types": "./dist/languages/ruby.d.ts",
       "import": "./dist/languages/ruby.js",
@@ -500,6 +505,26 @@
       "types": "./dist/languages/tcl.d.ts",
       "import": "./dist/languages/tcl.js",
       "require": "./dist/languages/tcl.cjs"
+    },
+    "./tex": {
+      "types": "./dist/languages/tex.d.ts",
+      "import": "./dist/languages/tex.js",
+      "require": "./dist/languages/tex.cjs"
+    },
+    "./twig": {
+      "types": "./dist/languages/twig.d.ts",
+      "import": "./dist/languages/twig.js",
+      "require": "./dist/languages/twig.cjs"
+    },
+    "./xquery": {
+      "types": "./dist/languages/xquery.d.ts",
+      "import": "./dist/languages/xquery.js",
+      "require": "./dist/languages/xquery.cjs"
+    },
+    "./xslt": {
+      "types": "./dist/languages/xslt.d.ts",
+      "import": "./dist/languages/xslt.js",
+      "require": "./dist/languages/xslt.cjs"
     }
   },
   "files": [

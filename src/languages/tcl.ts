@@ -13,7 +13,7 @@ export const tcl = {
     ecosystems: ["GUI Applications", "EDA", "Automation", "Embedded Scripting"],
   },
   version: "9.0.3",
-  logo: "https://www.tcl-lang.org/images/tcl-logo.png",
+  logo: "https://commons.wikimedia.org/wiki/Special:FilePath/Tcl.svg",
   i18n: {
     en: {
       name: "Tcl/Tk",

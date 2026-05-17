@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-16T18:57:45.510Z",
-  "total": 91,
-  "extensions": 265,
+  "generatedAt": "2026-05-17T04:04:46.493Z",
+  "total": 96,
+  "extensions": 280,
   "locales": ["en", "es"],
   "languages": [
     {
@@ -391,7 +391,7 @@
         "packageManagers": ["Shards"],
         "ecosystems": ["Web", "CLI", "Systems", "Native Applications"]
       },
-      "version": "1.20.1",
+      "version": "1.20.2",
       "logo": "https://cdn.simpleicons.org/crystal/000000"
     },
     {
@@ -1475,6 +1475,27 @@
       "logo": "https://cdn.simpleicons.org/dotnet/512BD4"
     },
     {
+      "slug": "rego",
+      "name": "Rego",
+      "description": "Open Policy Agent's declarative policy language for authorization and policy as code.",
+      "longDescription": "Rego is the declarative policy language used by Open Policy Agent to express rules, decisions, constraints, data queries, and authorization logic. It is designed around structured data such as JSON and lets policies evaluate inputs against rules, sets, objects, comprehensions, and built-in functions.\n\nIt is used for Kubernetes admission control, service authorization, infrastructure policy checks, CI validation, API gateways, compliance automation, and cloud-native systems that need policies kept separate from application code.",
+      "esName": "Rego",
+      "esDescription": "El lenguaje declarativo de Open Policy Agent para autorizacion y policy as code.",
+      "esLongDescription": "Rego es el lenguaje declarativo de politicas usado por Open Policy Agent para expresar reglas, decisiones, restricciones, consultas de datos y logica de autorizacion. Esta disenado alrededor de datos estructurados como JSON y permite evaluar entradas contra reglas, conjuntos, objetos, comprehensions y funciones integradas.\n\nSe usa para admission control en Kubernetes, autorizacion de servicios, validaciones de politicas de infraestructura, CI, gateways de APIs, automatizacion de cumplimiento y sistemas cloud native que necesitan mantener las politicas separadas del codigo de aplicacion.",
+      "publishedDate": "2016-01-01",
+      "extensions": [".rego"],
+      "author": "Open Policy Agent contributors / Styra",
+      "website": "https://www.openpolicyagent.org/docs/latest/policy-language/",
+      "paradigms": ["declarative", "logic", "policy-as-code", "query"],
+      "tooling": {
+        "runtimes": ["Open Policy Agent", "Conftest", "Gatekeeper", "Regal"],
+        "packageManagers": ["OPA bundles"],
+        "ecosystems": ["Policy as Code", "Kubernetes", "Cloud Native", "Authorization"]
+      },
+      "version": "OPA 1.15.2",
+      "logo": "https://raw.githubusercontent.com/open-policy-agent/opa/main/logo/logo.svg"
+    },
+    {
       "slug": "ruby",
       "name": "Ruby",
       "description": "A dynamic, object-oriented scripting language focused on productivity and developer happiness.",
@@ -1697,7 +1718,28 @@
         "ecosystems": ["GUI Applications", "EDA", "Automation", "Embedded Scripting"]
       },
       "version": "9.0.3",
-      "logo": "https://www.tcl-lang.org/images/tcl-logo.png"
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tcl.svg"
+    },
+    {
+      "slug": "tex",
+      "name": "TeX",
+      "description": "Donald Knuth's macro-based typesetting system for precise technical and scientific documents.",
+      "longDescription": "TeX is a programmable typesetting system built around macros, boxes, glue, mathematical layout, and precise page composition. Plain TeX, LaTeX, ConTeXt, and related formats build on the TeX engine family to produce high-quality documents from text source files.\n\nIt is used for academic papers, books, technical manuals, mathematics, physics, computer science publications, theses, and publishing workflows where reproducible typography and long-term source stability matter.",
+      "esName": "TeX",
+      "esDescription": "El sistema de composicion tipografica basado en macros de Donald Knuth para documentos tecnicos.",
+      "esLongDescription": "TeX es un sistema programable de composicion tipografica basado en macros, cajas, espaciado flexible, notacion matematica y composicion precisa de paginas. Plain TeX, LaTeX, ConTeXt y formatos relacionados se apoyan en la familia de motores TeX para producir documentos de alta calidad desde archivos fuente de texto.\n\nSe usa para articulos academicos, libros, manuales tecnicos, matematicas, fisica, publicaciones de computacion, tesis y flujos editoriales donde importan la tipografia reproducible y la estabilidad del codigo fuente a largo plazo.",
+      "publishedDate": "1978-01-01",
+      "extensions": [".tex", ".sty", ".cls", ".dtx", ".ins", ".ltx"],
+      "author": "Donald Knuth",
+      "website": "https://www.tug.org/texlive/",
+      "paradigms": ["markup", "typesetting", "macro", "declarative"],
+      "tooling": {
+        "runtimes": ["TeX Live", "MiKTeX", "pdfTeX", "XeTeX", "LuaTeX"],
+        "packageManagers": ["tlmgr", "MiKTeX Console", "CTAN"],
+        "ecosystems": ["Publishing", "Academic Writing", "Scientific Documents", "Print"]
+      },
+      "version": "TeX Live 2026",
+      "logo": "https://cdn.simpleicons.org/latex/008080"
     },
     {
       "slug": "toml",
@@ -1715,6 +1757,27 @@
       "tooling": {},
       "version": "1.1.0",
       "logo": "https://cdn.simpleicons.org/toml/9C4221"
+    },
+    {
+      "slug": "twig",
+      "name": "Twig",
+      "description": "A flexible, secure template language for PHP applications and Symfony projects.",
+      "longDescription": "Twig is a template language for PHP that separates presentation from application logic using blocks, inheritance, includes, filters, functions, tests, macros, escaping, and sandboxing. Its syntax is designed to be readable for designers while remaining extensible for developers.\n\nIt is used in Symfony applications, PHP web projects, CMS themes, email templates, static generation workflows, and systems that need reusable server-rendered views with controlled access to application data.",
+      "esName": "Twig",
+      "esDescription": "Un lenguaje de plantillas flexible y seguro para aplicaciones PHP y proyectos Symfony.",
+      "esLongDescription": "Twig es un lenguaje de plantillas para PHP que separa la presentacion de la logica de aplicacion usando bloques, herencia, includes, filtros, funciones, tests, macros, escapado y sandboxing. Su sintaxis esta pensada para ser legible para disenadores y extensible para desarrolladores.\n\nSe usa en aplicaciones Symfony, proyectos web PHP, temas de CMS, plantillas de email, flujos de generacion estatica y sistemas que necesitan vistas renderizadas en servidor reutilizables con acceso controlado a los datos de la aplicacion.",
+      "publishedDate": "2009-10-12",
+      "extensions": [".twig"],
+      "author": "Fabien Potencier / Twig contributors",
+      "website": "https://twig.symfony.com",
+      "paradigms": ["templating", "declarative", "server-side", "scripting"],
+      "tooling": {
+        "runtimes": ["PHP", "Symfony"],
+        "packageManagers": ["Composer"],
+        "ecosystems": ["PHP", "Symfony", "Web", "CMS"]
+      },
+      "version": "3.24.0",
+      "logo": "https://twig.symfony.com/images/logo.png"
     },
     {
       "slug": "typescript",
@@ -1835,6 +1898,48 @@
       "paradigms": ["declarative", "markup", "data-serialization"],
       "tooling": {},
       "version": "XML 1.0 Fifth Edition",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/6/68/XML.svg"
+    },
+    {
+      "slug": "xquery",
+      "name": "XQuery",
+      "description": "A W3C query and application language for XML, structured, and semi-structured data.",
+      "longDescription": "XQuery is a declarative query language for XML and related structured data. It combines XPath expressions, FLWOR queries, functions, modules, sequence processing, namespaces, and type-aware operations to extract, transform, join, and construct XML or other serialized results.\n\nIt is used in native XML databases, publishing pipelines, document repositories, enterprise integrations, digital humanities, metadata processing, and applications that query large collections of XML or semi-structured content.",
+      "esName": "XQuery",
+      "esDescription": "Un lenguaje W3C de consulta y aplicaciones para XML y datos estructurados o semiestructurados.",
+      "esLongDescription": "XQuery es un lenguaje declarativo de consultas para XML y datos estructurados relacionados. Combina expresiones XPath, consultas FLWOR, funciones, modulos, procesamiento de secuencias, namespaces y operaciones con tipos para extraer, transformar, unir y construir XML u otros resultados serializados.\n\nSe usa en bases de datos XML nativas, pipelines de publicacion, repositorios documentales, integraciones empresariales, humanidades digitales, procesamiento de metadatos y aplicaciones que consultan grandes colecciones de XML o contenido semiestructurado.",
+      "publishedDate": "2007-01-23",
+      "extensions": [".xq", ".xql", ".xqm", ".xquery", ".xqy"],
+      "author": "W3C XML Query Working Group",
+      "website": "https://www.w3.org/TR/xquery/",
+      "paradigms": ["query", "functional", "declarative", "xml"],
+      "tooling": {
+        "runtimes": ["BaseX", "Saxon", "eXist-db", "MarkLogic"],
+        "packageManagers": ["EXPath Package Manager"],
+        "ecosystems": ["XML", "Databases", "Publishing", "Enterprise Data"]
+      },
+      "version": "XQuery 3.1",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/6/68/XML.svg"
+    },
+    {
+      "slug": "xslt",
+      "name": "XSLT",
+      "description": "A W3C stylesheet language for transforming XML documents into XML, HTML, text, and more.",
+      "longDescription": "XSLT is a declarative transformation language for XML documents. Stylesheets use templates, modes, XPath expressions, variables, functions, keys, imports, and output declarations to match source trees and produce XML, HTML, text, or other structured results.\n\nIt is used in publishing systems, enterprise data exchange, document conversion, XML pipelines, standards-based integrations, browser-era XML workflows, and systems that need repeatable transformations between document formats.",
+      "esName": "XSLT",
+      "esDescription": "Un lenguaje W3C de hojas de estilo para transformar XML en XML, HTML, texto y mas.",
+      "esLongDescription": "XSLT es un lenguaje declarativo de transformacion para documentos XML. Las hojas de estilo usan templates, modos, expresiones XPath, variables, funciones, claves, imports y declaraciones de salida para encontrar nodos en arboles fuente y producir XML, HTML, texto u otros resultados estructurados.\n\nSe usa en sistemas de publicacion, intercambio de datos empresarial, conversion de documentos, pipelines XML, integraciones basadas en estandares, flujos XML historicos del navegador y sistemas que necesitan transformaciones repetibles entre formatos documentales.",
+      "publishedDate": "1999-11-16",
+      "extensions": [".xsl", ".xslt"],
+      "author": "W3C XSLT Working Group",
+      "website": "https://www.w3.org/TR/xslt-30/",
+      "paradigms": ["declarative", "functional", "markup", "transformation"],
+      "tooling": {
+        "runtimes": ["Saxon", "libxslt", "Xalan", "Browser XSLT processors"],
+        "packageManagers": ["Maven", "npm", "NuGet", "APT", "Homebrew"],
+        "ecosystems": ["XML", "Publishing", "Enterprise Integration", "Document Processing"]
+      },
+      "version": "XSLT 3.0",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/6/68/XML.svg"
     },
     {
