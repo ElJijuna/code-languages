@@ -2,13 +2,16 @@ import { abap } from "./languages/abap";
 import { actionscript } from "./languages/actionscript";
 import { ada } from "./languages/ada";
 import { apex } from "./languages/apex";
+import { asciidoc } from "./languages/asciidoc";
 import { asp } from "./languages/asp";
 import { assembly } from "./languages/assembly";
 import { astro } from "./languages/astro";
 import { awk } from "./languages/awk";
 import { bash } from "./languages/bash";
 import { batch } from "./languages/batch";
+import { bazel } from "./languages/bazel";
 import { bicep } from "./languages/bicep";
+import { blade } from "./languages/blade";
 import { c } from "./languages/c";
 import { clojure } from "./languages/clojure";
 import { cmake } from "./languages/cmake";
@@ -41,6 +44,7 @@ import { handlebars } from "./languages/handlebars";
 import { haskell } from "./languages/haskell";
 import { haxe } from "./languages/haxe";
 import { hcl } from "./languages/hcl";
+import { hlsl } from "./languages/hlsl";
 import { html } from "./languages/html";
 import { ini } from "./languages/ini";
 import { java } from "./languages/java";
@@ -71,9 +75,11 @@ import { perl } from "./languages/perl";
 import { php } from "./languages/php";
 import { plantuml } from "./languages/plantuml";
 import { powershell } from "./languages/powershell";
+import { prolog } from "./languages/prolog";
 import { protobuf } from "./languages/protobuf";
 import { pug } from "./languages/pug";
 import { python } from "./languages/python";
+import { qml } from "./languages/qml";
 import { r } from "./languages/r";
 import { racket } from "./languages/racket";
 import { razor } from "./languages/razor";
@@ -84,6 +90,7 @@ import { scala } from "./languages/scala";
 import { scss } from "./languages/scss";
 import { solidity } from "./languages/solidity";
 import { sql } from "./languages/sql";
+import { starlark } from "./languages/starlark";
 import { svelte } from "./languages/svelte";
 import { svg } from "./languages/svg";
 import { svn } from "./languages/svn";
@@ -93,10 +100,13 @@ import { tex } from "./languages/tex";
 import { toml } from "./languages/toml";
 import { twig } from "./languages/twig";
 import { typescript } from "./languages/typescript";
+import { typst } from "./languages/typst";
 import { verilog } from "./languages/verilog";
+import { vhdl } from "./languages/vhdl";
 import { visualBasic } from "./languages/visual-basic";
 import { vue } from "./languages/vue";
 import { webassembly } from "./languages/webassembly";
+import { wgsl } from "./languages/wgsl";
 import { xaml } from "./languages/xaml";
 import { xml } from "./languages/xml";
 import { xquery } from "./languages/xquery";
@@ -111,13 +121,16 @@ export const languages = [
   actionscript,
   ada,
   apex,
+  asciidoc,
   asp,
   astro,
   assembly,
   awk,
   bash,
   batch,
+  bazel,
   bicep,
+  blade,
   c,
   cmake,
   clojure,
@@ -150,6 +163,7 @@ export const languages = [
   haskell,
   haxe,
   hcl,
+  hlsl,
   html,
   ini,
   java,
@@ -181,9 +195,11 @@ export const languages = [
   php,
   plantuml,
   powershell,
+  prolog,
   protobuf,
   pug,
   python,
+  qml,
   r,
   racket,
   razor,
@@ -194,6 +210,7 @@ export const languages = [
   scss,
   solidity,
   sql,
+  starlark,
   svg,
   svelte,
   swift,
@@ -202,10 +219,13 @@ export const languages = [
   toml,
   twig,
   typescript,
+  typst,
   verilog,
+  vhdl,
   visualBasic,
   vue,
   webassembly,
+  wgsl,
   xaml,
   xml,
   xquery,

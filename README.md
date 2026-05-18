@@ -49,13 +49,16 @@ import { abap } from "code-languages/abap";
 import { actionscript } from "code-languages/actionscript";
 import { ada } from "code-languages/ada";
 import { apex } from "code-languages/apex";
+import { asciidoc } from "code-languages/asciidoc";
 import { asp } from "code-languages/asp";
 import { astro } from "code-languages/astro";
 import { assembly } from "code-languages/assembly";
 import { awk } from "code-languages/awk";
 import { bash } from "code-languages/bash";
 import { batch } from "code-languages/batch";
+import { bazel } from "code-languages/bazel";
 import { bicep } from "code-languages/bicep";
+import { blade } from "code-languages/blade";
 import { c } from "code-languages/c";
 import { clojure } from "code-languages/clojure";
 import { cmake } from "code-languages/cmake";
@@ -87,6 +90,7 @@ import { handlebars } from "code-languages/handlebars";
 import { haskell } from "code-languages/haskell";
 import { haxe } from "code-languages/haxe";
 import { hcl } from "code-languages/hcl";
+import { hlsl } from "code-languages/hlsl";
 import { html } from "code-languages/html";
 import { ini } from "code-languages/ini";
 import { javascript } from "code-languages/javascript";
@@ -115,9 +119,11 @@ import { perl } from "code-languages/perl";
 import { php } from "code-languages/php";
 import { plantuml } from "code-languages/plantuml";
 import { powershell } from "code-languages/powershell";
+import { prolog } from "code-languages/prolog";
 import { protobuf } from "code-languages/protobuf";
 import { pug } from "code-languages/pug";
 import { python } from "code-languages/python";
+import { qml } from "code-languages/qml";
 import { r } from "code-languages/r";
 import { racket } from "code-languages/racket";
 import { razor } from "code-languages/razor";
@@ -128,16 +134,20 @@ import { solidity } from "code-languages/solidity";
 import { json } from "code-languages/json";
 import { jupyterNotebook } from "code-languages/jupyter-notebook";
 import { sql } from "code-languages/sql";
+import { starlark } from "code-languages/starlark";
 import { svg } from "code-languages/svg";
 import { svn } from "code-languages/svn";
 import { svelte } from "code-languages/svelte";
 import { swift } from "code-languages/swift";
 import { tcl } from "code-languages/tcl";
 import { toml } from "code-languages/toml";
+import { typst } from "code-languages/typst";
 import { verilog } from "code-languages/verilog";
+import { vhdl } from "code-languages/vhdl";
 import { visualBasic } from "code-languages/visual-basic";
 import { vue } from "code-languages/vue";
 import { webassembly } from "code-languages/webassembly";
+import { wgsl } from "code-languages/wgsl";
 import { xaml } from "code-languages/xaml";
 import { xml } from "code-languages/xml";
 import { yaml } from "code-languages/yaml";
@@ -148,13 +158,16 @@ console.log(abap.version);
 console.log(actionscript.extensions);
 console.log(ada.version);
 console.log(apex.extensions);
+console.log(asciidoc.extensions);
 console.log(asp.extensions);
 console.log(astro.version);
 console.log(assembly.extensions);
 console.log(awk.version);
 console.log(bash.version);
 console.log(batch.extensions);
+console.log(bazel.version);
 console.log(bicep.version);
+console.log(blade.extensions);
 console.log(c.extensions);
 console.log(clojure.version);
 console.log(cmake.extensions);
@@ -182,6 +195,7 @@ console.log(groovy.version);
 console.log(handlebars.extensions);
 console.log(hcl.extensions);
 console.log(haxe.version);
+console.log(hlsl.extensions);
 console.log(html.extensions);
 console.log(ini.extensions);
 console.log(javascript.website);
@@ -210,9 +224,11 @@ console.log(perl.version);
 console.log(php.version);
 console.log(plantuml.version);
 console.log(powershell.extensions);
+console.log(prolog.paradigms);
 console.log(protobuf.version);
 console.log(pug.version);
 console.log(python.publishedDate);
+console.log(qml.version);
 console.log(r.version);
 console.log(racket.extensions);
 console.log(razor.extensions);
@@ -222,16 +238,20 @@ console.log(scss.extensions);
 console.log(solidity.version);
 console.log(json.i18n.en.description);
 console.log(sql.i18n.en.name);
+console.log(starlark.extensions);
 console.log(svg.extensions);
 console.log(svn.extensions);
 console.log(svelte.version);
 console.log(swift.version);
 console.log(tcl.extensions);
 console.log(toml.version);
+console.log(typst.version);
 console.log(verilog.extensions);
+console.log(vhdl.version);
 console.log(visualBasic.i18n.en.name);
 console.log(vue.website);
 console.log(webassembly.extensions);
+console.log(wgsl.extensions);
 console.log(xaml.extensions);
 console.log(xml.extensions);
 console.log(yaml.version);
@@ -247,12 +267,15 @@ import {
   actionscript,
   ada,
   apex,
+  asciidoc,
   asp,
   astro,
   assembly,
   awk,
   bash,
+  bazel,
   bicep,
+  blade,
   c,
   clojure,
   cmake,
@@ -283,6 +306,7 @@ import {
   haskell,
   haxe,
   hcl,
+  hlsl,
   html,
   ini,
   java,
@@ -313,8 +337,10 @@ import {
   php,
   plantuml,
   powershell,
+  prolog,
   protobuf,
   pug,
+  qml,
   r,
   racket,
   razor,
@@ -324,6 +350,7 @@ import {
   scss,
   solidity,
   sql,
+  starlark,
   svg,
   svn,
   svelte,
@@ -331,10 +358,13 @@ import {
   tcl,
   toml,
   typescript,
+  typst,
   verilog,
+  vhdl,
   visualBasic,
   vue,
   webassembly,
+  wgsl,
   xaml,
   xml,
   yaml,
@@ -346,6 +376,7 @@ console.log(localizeLanguage(abap).description);
 console.log(localizeLanguage(actionscript, "es").description);
 console.log(localizeLanguage(ada, "es").description);
 console.log(localizeLanguage(apex, "es").description);
+console.log(localizeLanguage(asciidoc, "es").description);
 console.log(localizeLanguage(asp, "es").description);
 console.log(localizeLanguage(astro, "es").description);
 console.log(localizeLanguage(assembly).description);
@@ -353,7 +384,9 @@ console.log(localizeLanguage(awk, "es").description);
 console.log(detectLanguage("src/index.ts")?.slug);
 console.log(detectLanguages("include/config.h").map((language) => language.slug));
 console.log(localizeLanguage(bash, "es").description);
+console.log(localizeLanguage(bazel, "es").description);
 console.log(localizeLanguage(bicep, "es").description);
+console.log(localizeLanguage(blade, "es").description);
 console.log(c.version);
 console.log(localizeLanguage(clojure, "es").description);
 console.log(localizeLanguage(cmake).description);
@@ -381,6 +414,7 @@ console.log(localizeLanguage(handlebars, "es").description);
 console.log(localizeLanguage(haskell, "es").description);
 console.log(localizeLanguage(haxe, "es").description);
 console.log(localizeLanguage(hcl, "es").description);
+console.log(localizeLanguage(hlsl, "es").description);
 console.log(localizeLanguage(ini, "es").description);
 console.log(localizeLanguage(java).name);
 console.log(localizeLanguage(jinja, "es").description);
@@ -408,8 +442,10 @@ console.log(localizeLanguage(perl).description);
 console.log(localizeLanguage(php, "es").description);
 console.log(localizeLanguage(plantuml, "es").description);
 console.log(localizeLanguage(powershell).name);
+console.log(localizeLanguage(prolog, "es").description);
 console.log(localizeLanguage(protobuf, "es").description);
 console.log(localizeLanguage(pug, "es").description);
+console.log(localizeLanguage(qml, "es").description);
 console.log(go.logo);
 console.log(localizeLanguage(r, "es").description);
 console.log(localizeLanguage(racket, "es").description);
@@ -420,16 +456,20 @@ console.log(localizeLanguage(scss).name);
 console.log(localizeLanguage(solidity, "es").description);
 console.log(json.website);
 console.log(sql.extensions);
+console.log(localizeLanguage(starlark, "es").description);
 console.log(localizeLanguage(svg, "es").description);
 console.log(localizeLanguage(svn, "es").description);
 console.log(localizeLanguage(svelte).name);
 console.log(swift.i18n.en.description);
 console.log(localizeLanguage(tcl, "es").description);
 console.log(localizeLanguage(toml, "es").description);
+console.log(localizeLanguage(typst, "es").description);
 console.log(localizeLanguage(verilog, "es").description);
+console.log(localizeLanguage(vhdl, "es").description);
 console.log(localizeLanguage(visualBasic, "es").description);
 console.log(localizeLanguage(vue, "es").description);
 console.log(localizeLanguage(webassembly).name);
+console.log(localizeLanguage(wgsl, "es").description);
 console.log(localizeLanguage(xaml, "es").description);
 console.log(localizeLanguage(xml, "es").name);
 console.log(yaml.paradigms);
@@ -529,13 +569,16 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | <img src="https://icons.iconarchive.com/icons/fatcow/farm-fresh/32/page-white-actionscript-icon.png" alt="ActionScript logo" width="24" height="24"> | ActionScript | `actionscript` | `.as` | `3.0` | `code-languages/actionscript` |
 | <img src="https://cdn.simpleicons.org/ada/02F88C" alt="Ada logo" width="24" height="24"> | Ada | `ada` | `.adb`, `.ads`, `.ada` | `Ada 2022` | `code-languages/ada` |
 | <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Salesforce.com_logo.svg" alt="Apex logo" width="24" height="24"> | Apex | `apex` | `.cls`, `.trigger` | `API 66.0` | `code-languages/apex` |
+| <img src="https://cdn.simpleicons.org/asciidoctor/E40046" alt="AsciiDoc logo" width="24" height="24"> | AsciiDoc | `asciidoc` | `.adoc`, `.asciidoc`, `.asc` | `pre-spec` | `code-languages/asciidoc` |
 | <img src="https://cdn.simpleicons.org/dotnet/512BD4" alt="ASP/ASPX logo" width="24" height="24"> | ASP/ASPX | `asp` | `.asp`, `.aspx`, `.ascx`, `.ashx`, `.asmx`, `.master` | `4.8.1` | `code-languages/asp` |
 | <img src="https://astro.build/assets/press/astro-icon-light.svg" alt="Astro logo" width="24" height="24"> | Astro | `astro` | `.astro` | `6.3.3` | `code-languages/astro` |
 | <img src="https://cdn.simpleicons.org/assemblyscript/007AAC" alt="Assembly logo" width="24" height="24"> | Assembly | `assembly` | `.asm`, `.s`, `.S`, `.inc` | `Architecture-specific` | `code-languages/assembly` |
 | <img src="https://www.gnu.org/graphics/heckert_gnu.small.png" alt="awk logo" width="24" height="24"> | awk | `awk` | `.awk` | `GNU Awk 5.4.0` | `code-languages/awk` |
 | <img src="https://bashlogo.com/img/symbol/svg/full_colored_dark.svg" alt="Bash logo" width="24" height="24"> | Bash | `bash` | `.sh`, `.bash`, `.bashrc`, `.bash_profile`, `.bash_login`, `.profile` | `5.3` | `code-languages/bash` |
 | <img src="https://icons.iconarchive.com/icons/simpleicons-team/simple/128/windowsterminal-icon.png" alt="Batch logo" width="24" height="24"> | Batch | `batch` | `.bat`, `.cmd` | `Windows Command Processor` | `code-languages/batch` |
+| <img src="https://cdn.simpleicons.org/bazel/43A047" alt="Bazel logo" width="24" height="24"> | Bazel | `bazel` | `BUILD.bazel`, `WORKSPACE`, `WORKSPACE.bazel`, `MODULE.bazel` | `9.0.2` | `code-languages/bazel` |
 | <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/azure-bicep.svg" alt="Bicep logo" width="24" height="24"> | Bicep | `bicep` | `.bicep`, `.bicepparam` | `0.43.8` | `code-languages/bicep` |
+| <img src="https://cdn.simpleicons.org/laravel/FF2D20" alt="Blade logo" width="24" height="24"> | Blade | `blade` | `.blade.php` | `Laravel 12.x` | `code-languages/blade` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg" alt="C logo" width="24" height="24"> | C | `c` | `.c`, `.h` | `C23` | `code-languages/c` |
 | <img src="https://cmake.org/wp-content/uploads/2023/08/CMake-Logo.svg" alt="CMake logo" width="24" height="24"> | CMake | `cmake` | `CMakeLists.txt`, `.cmake` | `4.3.2` | `code-languages/cmake` |
 | <img src="https://cdn.simpleicons.org/clojure/5881D8" alt="Clojure logo" width="24" height="24"> | Clojure | `clojure` | `.clj`, `.cljs`, `.cljc`, `.edn`, `.bb` | `1.12.5` | `code-languages/clojure` |
@@ -568,6 +611,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | <img src="https://cdn.simpleicons.org/haskell/5D4F85" alt="Haskell logo" width="24" height="24"> | Haskell | `haskell` | `.hs`, `.lhs`, `.hsc`, `.hs-boot`, `.hsig`, `.cabal` | `GHC 9.14.1` | `code-languages/haskell` |
 | <img src="https://cdn.simpleicons.org/haxe/EA8220" alt="Haxe logo" width="24" height="24"> | Haxe | `haxe` | `.hx`, `.hxml` | `4.3.7` | `code-languages/haxe` |
 | <img src="https://cdn.simpleicons.org/hashicorp/844FBA" alt="HCL logo" width="24" height="24"> | HCL | `hcl` | `.hcl`, `.tf`, `.tfvars`, `.pkr.hcl`, `.nomad` | `2.24.0` | `code-languages/hcl` |
+| <img src="https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_hlsl.svg" alt="HLSL logo" width="24" height="24"> | HLSL | `hlsl` | `.hlsl`, `.fx`, `.fxh`, `.hlsli` | `Shader Model 6.9` | `code-languages/hlsl` |
 | <img src="https://www.w3.org/html/logo/downloads/HTML5_Badge.svg" alt="HTML logo" width="24" height="24"> | HTML | `html` | `.html`, `.htm` | `Living Standard` | `code-languages/html` |
 | <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Configure.svg" alt="INI logo" width="24" height="24"> | INI | `ini` | `.ini` | `Informal format` | `code-languages/ini` |
 | <img src="https://www.vectorlogo.zone/logos/java/java-icon.svg" alt="Java logo" width="24" height="24"> | Java | `java` | `.java` | `26` | `code-languages/java` |
@@ -598,9 +642,11 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | <img src="https://www.php.net/images/logos/new-php-logo.svg" alt="PHP logo" width="24" height="24"> | PHP | `php` | `.php`, `.phtml`, `.php3`, `.php4`, `.php5`, `.phps` | `8.5.6` | `code-languages/php` |
 | <img src="https://plantuml.com/logo3.png" alt="PlantUML logo" width="24" height="24"> | PlantUML | `plantuml` | `.puml`, `.plantuml`, `.iuml` | `1.2026.3` | `code-languages/plantuml` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png" alt="PowerShell logo" width="24" height="24"> | PowerShell | `powershell` | `.ps1`, `.psm1`, `.psd1`, `.ps1xml` | `7.6.1` | `code-languages/powershell` |
+| <img src="https://www.swi-prolog.org/icons/swipl.png" alt="Prolog logo" width="24" height="24"> | Prolog | `prolog` | `.pl`, `.pro`, `.prolog`, `.P` | `SWI-Prolog 10.0` | `code-languages/prolog` |
 | <img src="https://cdn.simpleicons.org/google/4285F4" alt="Protocol Buffers logo" width="24" height="24"> | Protocol Buffers | `protobuf` | `.proto` | `34.1` | `code-languages/protobuf` |
 | <img src="https://cdn.simpleicons.org/pug/A86454" alt="Pug logo" width="24" height="24"> | Pug | `pug` | `.pug`, `.jade` | `3.0.4` | `code-languages/pug` |
 | <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Python-logo-notext.svg" alt="Python logo" width="24" height="24"> | Python | `python` | `.py`, `.pyw` | `3.14.4` | `code-languages/python` |
+| <img src="https://cdn.simpleicons.org/qt/41CD52" alt="QML logo" width="24" height="24"> | QML | `qml` | `.qml`, `.qmltypes`, `.qmlproject` | `Qt 6.11.1` | `code-languages/qml` |
 | <img src="https://www.r-project.org/logo/Rlogo.svg" alt="R logo" width="24" height="24"> | R | `r` | `.r`, `.R`, `.rmd`, `.Rmd`, `.qmd`, `.Rprofile` | `4.6.0` | `code-languages/r` |
 | <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Racket-logo.svg" alt="Racket logo" width="24" height="24"> | Racket | `racket` | `.rkt`, `.rktd`, `.rktl`, `.scrbl` | `9.1` | `code-languages/racket` |
 | <img src="https://cdn.simpleicons.org/dotnet/512BD4" alt="Razor logo" width="24" height="24"> | Razor | `razor` | `.cshtml`, `.razor` | `10.0.8` | `code-languages/razor` |
@@ -611,6 +657,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | <img src="https://sass-lang.com/assets/img/logos/logo.svg" alt="Sass logo" width="24" height="24"> | Sass | `scss` | `.scss`, `.sass` | `1.99.0` | `code-languages/scss` |
 | <img src="https://cdn.simpleicons.org/solidity/363636" alt="Solidity logo" width="24" height="24"> | Solidity | `solidity` | `.sol` | `0.8.35` | `code-languages/solidity` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" alt="SQL logo" width="24" height="24"> | SQL | `sql` | `.sql` | `SQL:2023` | `code-languages/sql` |
+| <img src="https://cdn.simpleicons.org/bazel/43A047" alt="Starlark logo" width="24" height="24"> | Starlark | `starlark` | `.bzl`, `.star`, `.sky` | `Bazel Starlark` | `code-languages/starlark` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/SVG_Logo.svg" alt="SVG logo" width="24" height="24"> | SVG | `svg` | `.svg`, `.svgz` | `SVG 2` | `code-languages/svg` |
 | <img src="https://cdn.simpleicons.org/subversion/809CC9" alt="SVN logo" width="24" height="24"> | SVN | `svn` | `.svn`, `svnserve.conf` | `1.14.5` | `code-languages/svn` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" alt="Svelte logo" width="24" height="24"> | Svelte | `svelte` | `.svelte` | `5.55.7` | `code-languages/svelte` |
@@ -620,10 +667,13 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | <img src="https://cdn.simpleicons.org/toml/9C4221" alt="TOML logo" width="24" height="24"> | TOML | `toml` | `.toml` | `1.1.0` | `code-languages/toml` |
 | <img src="https://twig.symfony.com/images/logo.png" alt="Twig logo" width="24" height="24"> | Twig | `twig` | `.twig` | `3.24.0` | `code-languages/twig` |
 | <img src="https://www.typescriptlang.org/icons/icon-512x512.png" alt="TypeScript logo" width="24" height="24"> | TypeScript | `typescript` | `.ts`, `.tsx`, `.mts`, `.cts` | `6.0` | `code-languages/typescript` |
+| <img src="https://cdn.simpleicons.org/typst/239DAD" alt="Typst logo" width="24" height="24"> | Typst | `typst` | `.typ` | `0.14.1` | `code-languages/typst` |
 | <img src="https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_verilog.svg" alt="Verilog/SystemVerilog logo" width="24" height="24"> | Verilog/SystemVerilog | `verilog` | `.v`, `.vh`, `.sv`, `.svh` | `IEEE 1800-2023` | `code-languages/verilog` |
+| <img src="https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_vhdl.svg" alt="VHDL logo" width="24" height="24"> | VHDL | `vhdl` | `.vhd`, `.vhdl` | `IEEE 1076-2019` | `code-languages/vhdl` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/4/40/VB.NET_Logo.svg" alt="Visual Basic logo" width="24" height="24"> | Visual Basic | `visual-basic` | `.vb` | `17.13` | `code-languages/visual-basic` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg" alt="Vue logo" width="24" height="24"> | Vue | `vue` | `.vue` | `3.5.34` | `code-languages/vue` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/1f/WebAssembly_Logo.svg" alt="WebAssembly logo" width="24" height="24"> | WebAssembly | `webassembly` | `.wasm`, `.wat` | `3.0` | `code-languages/webassembly` |
+| <img src="https://cdn.simpleicons.org/webgpu/005A9C" alt="WGSL logo" width="24" height="24"> | WGSL | `wgsl` | `.wgsl` | `Candidate Recommendation Draft 2026-05-07` | `code-languages/wgsl` |
 | <img src="https://cdn.simpleicons.org/dotnet/512BD4" alt="XAML logo" width="24" height="24"> | XAML | `xaml` | `.xaml`, `.baml` | `Platform-specific` | `code-languages/xaml` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/6/68/XML.svg" alt="XML logo" width="24" height="24"> | XML | `xml` | `.xml`, `.xsd`, `.xsl`, `.xslt` | `XML 1.0 Fifth Edition` | `code-languages/xml` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/6/68/XML.svg" alt="XQuery logo" width="24" height="24"> | XQuery | `xquery` | `.xq`, `.xql`, `.xqm`, `.xquery`, `.xqy` | `XQuery 3.1` | `code-languages/xquery` |

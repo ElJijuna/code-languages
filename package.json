@@ -61,6 +61,11 @@
       "import": "./dist/languages/actionscript.js",
       "require": "./dist/languages/actionscript.cjs"
     },
+    "./asciidoc": {
+      "types": "./dist/languages/asciidoc.d.ts",
+      "import": "./dist/languages/asciidoc.js",
+      "require": "./dist/languages/asciidoc.cjs"
+    },
     "./asp": {
       "types": "./dist/languages/asp.d.ts",
       "import": "./dist/languages/asp.js",
@@ -86,10 +91,20 @@
       "import": "./dist/languages/batch.js",
       "require": "./dist/languages/batch.cjs"
     },
+    "./bazel": {
+      "types": "./dist/languages/bazel.d.ts",
+      "import": "./dist/languages/bazel.js",
+      "require": "./dist/languages/bazel.cjs"
+    },
     "./bicep": {
       "types": "./dist/languages/bicep.d.ts",
       "import": "./dist/languages/bicep.js",
       "require": "./dist/languages/bicep.cjs"
+    },
+    "./blade": {
+      "types": "./dist/languages/blade.d.ts",
+      "import": "./dist/languages/blade.js",
+      "require": "./dist/languages/blade.cjs"
     },
     "./c": {
       "types": "./dist/languages/c.d.ts",
@@ -161,10 +176,20 @@
       "import": "./dist/languages/typescript.js",
       "require": "./dist/languages/typescript.cjs"
     },
+    "./typst": {
+      "types": "./dist/languages/typst.d.ts",
+      "import": "./dist/languages/typst.js",
+      "require": "./dist/languages/typst.cjs"
+    },
     "./verilog": {
       "types": "./dist/languages/verilog.d.ts",
       "import": "./dist/languages/verilog.js",
       "require": "./dist/languages/verilog.cjs"
+    },
+    "./vhdl": {
+      "types": "./dist/languages/vhdl.d.ts",
+      "import": "./dist/languages/vhdl.js",
+      "require": "./dist/languages/vhdl.cjs"
     },
     "./visual-basic": {
       "types": "./dist/languages/visual-basic.d.ts",
@@ -241,6 +266,11 @@
       "import": "./dist/languages/sql.js",
       "require": "./dist/languages/sql.cjs"
     },
+    "./starlark": {
+      "types": "./dist/languages/starlark.d.ts",
+      "import": "./dist/languages/starlark.js",
+      "require": "./dist/languages/starlark.cjs"
+    },
     "./svg": {
       "types": "./dist/languages/svg.d.ts",
       "import": "./dist/languages/svg.js",
@@ -306,6 +336,11 @@
       "import": "./dist/languages/powershell.js",
       "require": "./dist/languages/powershell.cjs"
     },
+    "./prolog": {
+      "types": "./dist/languages/prolog.d.ts",
+      "import": "./dist/languages/prolog.js",
+      "require": "./dist/languages/prolog.cjs"
+    },
     "./protobuf": {
       "types": "./dist/languages/protobuf.d.ts",
       "import": "./dist/languages/protobuf.js",
@@ -315,6 +350,11 @@
       "types": "./dist/languages/pug.d.ts",
       "import": "./dist/languages/pug.js",
       "require": "./dist/languages/pug.cjs"
+    },
+    "./qml": {
+      "types": "./dist/languages/qml.d.ts",
+      "import": "./dist/languages/qml.js",
+      "require": "./dist/languages/qml.cjs"
     },
     "./python": {
       "types": "./dist/languages/python.d.ts",
@@ -366,6 +406,11 @@
       "import": "./dist/languages/webassembly.js",
       "require": "./dist/languages/webassembly.cjs"
     },
+    "./wgsl": {
+      "types": "./dist/languages/wgsl.d.ts",
+      "import": "./dist/languages/wgsl.js",
+      "require": "./dist/languages/wgsl.cjs"
+    },
     "./xaml": {
       "types": "./dist/languages/xaml.d.ts",
       "import": "./dist/languages/xaml.js",
@@ -410,6 +455,11 @@
       "types": "./dist/languages/hcl.d.ts",
       "import": "./dist/languages/hcl.js",
       "require": "./dist/languages/hcl.cjs"
+    },
+    "./hlsl": {
+      "types": "./dist/languages/hlsl.d.ts",
+      "import": "./dist/languages/hlsl.js",
+      "require": "./dist/languages/hlsl.cjs"
     },
     "./css": {
       "types": "./dist/languages/css.d.ts",

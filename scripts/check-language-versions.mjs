@@ -10,11 +10,15 @@ const manualChecks = {
     "ActionScript is effectively stable at 3.0 and should be reviewed manually against Adobe AIR and Flash platform documentation.",
   ada: "Ada standards should be reviewed manually against ISO/IEC 8652 and Ada Resource Association publications.",
   apex: "Apex API versions are tied to Salesforce seasonal platform releases and should be reviewed manually against Salesforce release notes.",
+  asciidoc:
+    "AsciiDoc language standardization is still pre-spec and should be reviewed manually against asciidoc.org and Asciidoctor releases.",
   assembly:
     "Assembly versions are architecture-specific and should be reviewed manually against assembler and ISA documentation.",
   c: "ISO standards do not expose a stable free machine-readable latest-version endpoint.",
   batch:
     "Batch is tied to DOS and Windows Command Processor releases rather than an independent language version.",
+  blade:
+    "Blade versions are tied to Laravel framework releases and should be reviewed manually against Laravel documentation.",
   cobol: "COBOL standards should be reviewed manually against ISO/IEC 1989 publications.",
   cpp: "ISO standards do not expose a stable free machine-readable latest-version endpoint.",
   css: "CSS is maintained as living specifications rather than one package version.",
@@ -22,6 +26,7 @@ const manualChecks = {
     "Dockerfile syntax versions depend on the BuildKit frontend image and should be reviewed manually.",
   fortran:
     "Fortran standards should be reviewed manually against ISO/IEC JTC1/SC22/WG5 publications.",
+  hlsl: "HLSL shader model support should be reviewed manually against Microsoft DirectX Shader Model documentation.",
   html: "HTML is maintained as a living standard.",
   ini: "INI is an informal configuration format without a single formal versioned specification.",
   javascript:
@@ -34,11 +39,18 @@ const manualChecks = {
     "Metal versions are tied to Apple platform SDKs and should be reviewed manually against Apple Developer Metal documentation.",
   "objective-c":
     "Objective-C language versioning is effectively stable and should be reviewed manually against Apple documentation and runtime updates.",
+  prolog:
+    "Prolog has ISO standards and multiple implementations; metadata should be reviewed manually against ISO Prolog and SWI-Prolog releases.",
+  qml: "QML versions are tied to Qt platform releases and should be reviewed manually against Qt documentation.",
   sql: "SQL standards should be reviewed manually against ISO/IEC 9075 publications.",
+  starlark:
+    "Starlark is embedded by host tools and should be reviewed manually against Bazel and Starlark language documentation.",
   svg: "SVG specifications should be reviewed manually against w3.org/TR/SVG and W3C publication history.",
   verilog:
     "Verilog/SystemVerilog standards should be reviewed manually against IEEE 1800 publications.",
+  vhdl: "VHDL standards should be reviewed manually against IEEE 1076 publications.",
   webassembly: "WebAssembly standards should be reviewed manually against webassembly.org/specs.",
+  wgsl: "WGSL is maintained by W3C and should be reviewed manually against W3C GPU for the Web publications.",
   xaml: "XAML support is platform-specific across WPF, UWP, WinUI, .NET MAUI, and related frameworks.",
   xml: "XML 1.0 Fifth Edition is stable and should be reviewed manually if W3C publishes a new edition.",
   xquery:
@@ -87,6 +99,17 @@ const checkers = {
     return {
       latestVersion: latestSemver(versions),
       sourceUrl: "https://ftp.gnu.org/gnu/bash/",
+    };
+  },
+  async bazel() {
+    const json = await fetchJson("https://api.github.com/repos/bazelbuild/bazel/releases");
+    const versions = json
+      .map((entry) => normalizeVersion(entry.tag_name))
+      .filter((version) => /^\d+\.\d+\.\d+$/.test(version));
+
+    return {
+      latestVersion: latestSemver(versions),
+      sourceUrl: "https://api.github.com/repos/bazelbuild/bazel/releases",
     };
   },
   async bicep() {
@@ -717,6 +740,14 @@ const checkers = {
     return {
       latestVersion: majorMinor(json.version),
       sourceUrl: "https://registry.npmjs.org/typescript/latest",
+    };
+  },
+  async typst() {
+    const json = await fetchJson("https://api.github.com/repos/typst/typst/releases/latest");
+
+    return {
+      latestVersion: normalizeVersion(json.tag_name),
+      sourceUrl: "https://api.github.com/repos/typst/typst/releases/latest",
     };
   },
   async "visual-basic"() {
