@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-17T04:04:46.493Z",
-  "total": 96,
-  "extensions": 280,
+  "generatedAt": "2026-05-18T01:18:38.707Z",
+  "total": 106,
+  "extensions": 300,
   "locales": ["en", "es"],
   "languages": [
     {
@@ -223,6 +223,27 @@
       "logo": "https://icons.iconarchive.com/icons/simpleicons-team/simple/128/windowsterminal-icon.png"
     },
     {
+      "slug": "bicep",
+      "name": "Bicep",
+      "description": "A declarative language for describing Azure infrastructure as code.",
+      "longDescription": "Bicep is a domain-specific language for authoring Azure Resource Manager deployments with a concise syntax, modules, parameters, symbolic names, loops, conditions, and type-aware tooling. It compiles to ARM templates while giving authors a friendlier source format.\n\nIt is used for repeatable Azure infrastructure deployments, platform engineering, cloud governance, reusable modules, CI/CD provisioning, and environment-specific resource definitions.",
+      "esName": "Bicep",
+      "esDescription": "Un lenguaje declarativo para describir infraestructura de Azure como codigo.",
+      "esLongDescription": "Bicep es un lenguaje de dominio especifico para crear despliegues de Azure Resource Manager con sintaxis concisa, modulos, parametros, nombres simbolicos, bucles, condiciones y tooling con tipos. Compila a plantillas ARM y ofrece un formato fuente mas comodo.\n\nSe usa para despliegues repetibles de infraestructura en Azure, platform engineering, gobierno cloud, modulos reutilizables, aprovisionamiento en CI/CD y definiciones de recursos por entorno.",
+      "publishedDate": "2020-09-01",
+      "extensions": [".bicep", ".bicepparam"],
+      "author": "Microsoft",
+      "website": "https://github.com/Azure/bicep",
+      "paradigms": ["declarative", "infrastructure-as-code", "configuration"],
+      "tooling": {
+        "runtimes": ["Azure Resource Manager"],
+        "packageManagers": ["Azure Verified Modules", "Bicep Registry"],
+        "ecosystems": ["Azure", "Cloud", "DevOps", "Infrastructure as Code"]
+      },
+      "version": "0.43.8",
+      "logo": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/azure-bicep.svg"
+    },
+    {
       "slug": "c",
       "name": "C",
       "description": "A general-purpose systems programming language with low-level memory access.",
@@ -433,6 +454,27 @@
       "logo": "https://cdn.simpleicons.org/nvidia/76B900"
     },
     {
+      "slug": "cue",
+      "name": "CUE",
+      "description": "A constraint-based language for configuration, data validation, and generation.",
+      "longDescription": "CUE combines configuration data, schemas, validation rules, and policy constraints in one language. Its values can be incomplete, unified, exported, and checked against structural constraints, making it useful for managing complex data definitions.\n\nIt is used with Kubernetes manifests, JSON, YAML, OpenAPI, Protobuf, CI configuration, infrastructure definitions, and systems that need one source of truth for data shape and validation.",
+      "esName": "CUE",
+      "esDescription": "Un lenguaje basado en restricciones para configuracion, validacion y generacion de datos.",
+      "esLongDescription": "CUE combina datos de configuracion, esquemas, reglas de validacion y restricciones de politica en un solo lenguaje. Sus valores pueden estar incompletos, unificarse, exportarse y comprobarse contra restricciones estructurales, lo que ayuda a gestionar definiciones de datos complejas.\n\nSe usa con manifiestos Kubernetes, JSON, YAML, OpenAPI, Protobuf, configuracion de CI, definiciones de infraestructura y sistemas que necesitan una fuente unica para forma y validacion de datos.",
+      "publishedDate": "2019-02-27",
+      "extensions": [".cue"],
+      "author": "Marcel van Lohuizen / CUE contributors",
+      "website": "https://cue.dev",
+      "paradigms": ["declarative", "constraint-based", "data-validation", "configuration"],
+      "tooling": {
+        "runtimes": ["CUE CLI", "Go"],
+        "packageManagers": ["Go modules"],
+        "ecosystems": ["Configuration", "Validation", "Kubernetes", "DevOps"]
+      },
+      "version": "0.16.1",
+      "logo": "https://avatars.githubusercontent.com/u/43867057?s=200&v=4"
+    },
+    {
       "slug": "d",
       "name": "D",
       "description": "A systems programming language combining native performance with high-level abstractions.",
@@ -621,6 +663,27 @@
       "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Fortran_logo.svg"
     },
     {
+      "slug": "gdscript",
+      "name": "GDScript",
+      "description": "Godot Engine's integrated scripting language for gameplay and editor logic.",
+      "longDescription": "GDScript is a high-level scripting language built for Godot Engine. It uses indentation-based syntax, dynamic and optional static typing, signals, scene-node integration, coroutines, resources, and editor-aware tooling tailored to game development.\n\nIt is used to implement gameplay, UI behavior, tools, animation logic, prototypes, editor plugins, and scripts that interact closely with Godot scenes and engine APIs.",
+      "esName": "GDScript",
+      "esDescription": "El lenguaje de scripting integrado de Godot Engine para gameplay y logica de editor.",
+      "esLongDescription": "GDScript es un lenguaje de scripting de alto nivel creado para Godot Engine. Usa sintaxis basada en indentacion, tipado dinamico y estatico opcional, senales, integracion con nodos de escena, corrutinas, recursos y tooling del editor orientado al desarrollo de juegos.\n\nSe usa para implementar gameplay, comportamiento de UI, herramientas, logica de animacion, prototipos, plugins del editor y scripts que interactuan de cerca con escenas y APIs de Godot.",
+      "publishedDate": "2014-12-15",
+      "extensions": [".gd"],
+      "author": "Juan Linietsky, Ariel Manzur / Godot contributors",
+      "website": "https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/",
+      "paradigms": ["object-oriented", "imperative", "event-driven", "scripting"],
+      "tooling": {
+        "runtimes": ["Godot Engine"],
+        "packageManagers": ["Godot Asset Library"],
+        "ecosystems": ["Game Development", "2D Games", "3D Games"]
+      },
+      "version": "4.6",
+      "logo": "https://cdn.simpleicons.org/godotengine/478CBF"
+    },
+    {
       "slug": "git",
       "name": "Git",
       "description": "Metadata and configuration files used by Git repositories and version-control workflows.",
@@ -765,6 +828,27 @@
       },
       "version": "5.0.6",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/3/36/Groovy-logo.svg"
+    },
+    {
+      "slug": "handlebars",
+      "name": "Handlebars",
+      "description": "A logic-light template language for rendering HTML and text from data.",
+      "longDescription": "Handlebars is a template language and JavaScript runtime that extends Mustache with helpers, block expressions, partials, precompilation, and escaping. It keeps templates focused on presentation while letting helpers supply reusable behavior.\n\nIt is used for server-rendered HTML, client-side views, static site generation, transactional email, documentation tools, and build systems that need predictable text generation from structured data.",
+      "esName": "Handlebars",
+      "esDescription": "Un lenguaje de plantillas con poca logica para renderizar HTML y texto desde datos.",
+      "esLongDescription": "Handlebars es un lenguaje de plantillas y runtime JavaScript que extiende Mustache con helpers, expresiones de bloque, partials, precompilacion y escapado. Mantiene las plantillas centradas en la presentacion y deja que los helpers aporten comportamiento reutilizable.\n\nSe usa para HTML renderizado en servidor, vistas de cliente, generacion de sitios estaticos, email transaccional, herramientas de documentacion y sistemas de build que generan texto desde datos estructurados.",
+      "publishedDate": "2010-07-01",
+      "extensions": [".hbs", ".handlebars"],
+      "author": "Yehuda Katz / Handlebars contributors",
+      "website": "https://handlebarsjs.com",
+      "paradigms": ["templating", "declarative", "logic-less"],
+      "tooling": {
+        "runtimes": ["Node.js", "Browser"],
+        "packageManagers": ["npm", "Yarn", "pnpm"],
+        "ecosystems": ["Web", "Email Templates", "Static Sites"]
+      },
+      "version": "4.7.9",
+      "logo": "https://cdn.simpleicons.org/handlebarsdotjs/000000"
     },
     {
       "slug": "haskell",
@@ -914,6 +998,27 @@
       "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
     },
     {
+      "slug": "jinja",
+      "name": "Jinja",
+      "description": "A Python template language used for web views, automation, and configuration.",
+      "longDescription": "Jinja is a template engine for Python with inheritance, blocks, includes, macros, filters, tests, autoescaping, sandboxing, and whitespace control. Its syntax is expressive enough for reusable views while keeping application logic outside templates.\n\nIt is widely used in Flask applications, Ansible templates, static site generators, documentation systems, email rendering, configuration generation, and automation workflows.",
+      "esName": "Jinja",
+      "esDescription": "Un lenguaje de plantillas para Python usado en vistas web, automatizacion y configuracion.",
+      "esLongDescription": "Jinja es un motor de plantillas para Python con herencia, bloques, includes, macros, filtros, tests, autoescapado, sandboxing y control de espacios. Su sintaxis permite vistas reutilizables sin llevar la logica de aplicacion a las plantillas.\n\nSe usa ampliamente en aplicaciones Flask, plantillas de Ansible, generadores de sitios estaticos, sistemas de documentacion, renderizado de email, generacion de configuracion y flujos de automatizacion.",
+      "publishedDate": "2008-07-17",
+      "extensions": [".jinja", ".jinja2", ".j2"],
+      "author": "Armin Ronacher / Pallets",
+      "website": "https://jinja.palletsprojects.com",
+      "paradigms": ["templating", "declarative", "server-side", "scripting"],
+      "tooling": {
+        "runtimes": ["Python"],
+        "packageManagers": ["pip", "Poetry", "uv"],
+        "ecosystems": ["Python", "Flask", "Ansible", "Web"]
+      },
+      "version": "3.1.6",
+      "logo": "https://cdn.simpleicons.org/jinja/B41717"
+    },
+    {
       "slug": "json",
       "name": "JSON",
       "description": "A lightweight data interchange format based on JavaScript object syntax.",
@@ -1020,6 +1125,27 @@
       "logo": "https://upload.wikimedia.org/wikipedia/commons/8/81/LESS_Logo.svg"
     },
     {
+      "slug": "liquid",
+      "name": "Liquid",
+      "description": "A safe template language used by Shopify, Jekyll, and content-driven sites.",
+      "longDescription": "Liquid is a template language designed to expose controlled data to templates through tags, objects, filters, loops, conditions, and includes. It favors predictable rendering and constrained logic so non-developers can safely customize content presentation.\n\nIt is used in Shopify themes, Jekyll sites, GitHub Pages, storefront customization, content management systems, email templates, and static publishing workflows.",
+      "esName": "Liquid",
+      "esDescription": "Un lenguaje de plantillas seguro usado por Shopify, Jekyll y sitios basados en contenido.",
+      "esLongDescription": "Liquid es un lenguaje de plantillas disenado para exponer datos controlados mediante tags, objetos, filtros, bucles, condiciones e includes. Prioriza renderizado predecible y logica limitada para que personas no desarrolladoras puedan personalizar la presentacion de contenido con seguridad.\n\nSe usa en temas de Shopify, sitios Jekyll, GitHub Pages, personalizacion de tiendas, sistemas de gestion de contenido, plantillas de email y flujos de publicacion estatica.",
+      "publishedDate": "2006-06-01",
+      "extensions": [".liquid"],
+      "author": "Shopify",
+      "website": "https://shopify.github.io/liquid/",
+      "paradigms": ["templating", "declarative", "logic-less", "server-side"],
+      "tooling": {
+        "runtimes": ["Ruby", "Node.js", "Shopify"],
+        "packageManagers": ["RubyGems", "npm"],
+        "ecosystems": ["Shopify", "Jekyll", "Static Sites", "E-commerce"]
+      },
+      "version": "10.21.1",
+      "logo": "https://cdn.simpleicons.org/shopify/7AB55C"
+    },
+    {
       "slug": "lisp",
       "name": "Lisp",
       "description": "A family of programmable, expression-oriented languages best known through Common Lisp.",
@@ -1118,6 +1244,48 @@
       },
       "version": "R2026a",
       "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Matlab_Logo.png"
+    },
+    {
+      "slug": "mdx",
+      "name": "MDX",
+      "description": "A Markdown-based format that embeds JSX components in content documents.",
+      "longDescription": "MDX combines Markdown prose with JSX expressions and components, allowing documents to include interactive examples, imports, exports, and component-driven layouts. It is commonly compiled into JavaScript for React-based rendering pipelines.\n\nIt is used in documentation sites, design systems, blogs, tutorials, component demos, content platforms, and static site generators that need prose and UI components in the same source file.",
+      "esName": "MDX",
+      "esDescription": "Un formato basado en Markdown que inserta componentes JSX en documentos de contenido.",
+      "esLongDescription": "MDX combina prosa Markdown con expresiones y componentes JSX, permitiendo que los documentos incluyan ejemplos interactivos, imports, exports y layouts basados en componentes. Normalmente se compila a JavaScript para pipelines de renderizado con React.\n\nSe usa en sitios de documentacion, sistemas de diseno, blogs, tutoriales, demos de componentes, plataformas de contenido y generadores de sitios estaticos que necesitan prosa y UI en el mismo archivo fuente.",
+      "publishedDate": "2018-03-23",
+      "extensions": [".mdx"],
+      "author": "MDX contributors",
+      "website": "https://mdxjs.com",
+      "paradigms": ["markup", "component-oriented", "declarative", "documentation"],
+      "tooling": {
+        "runtimes": ["React", "Node.js"],
+        "packageManagers": ["npm", "Yarn", "pnpm"],
+        "ecosystems": ["Documentation", "React", "Static Sites", "Content"]
+      },
+      "version": "3.1.1",
+      "logo": "https://cdn.simpleicons.org/mdx/1B1F24"
+    },
+    {
+      "slug": "mermaid",
+      "name": "Mermaid",
+      "description": "A text-based diagram language for flowcharts, sequences, timelines, and more.",
+      "longDescription": "Mermaid is a diagramming language that renders structured text into diagrams such as flowcharts, sequence diagrams, class diagrams, state diagrams, entity relationship diagrams, gantt charts, timelines, and mind maps. It is designed to live comfortably beside Markdown documentation.\n\nIt is used in READMEs, architecture notes, wikis, documentation sites, issue trackers, knowledge bases, and workflows where diagrams should be versioned as plain text.",
+      "esName": "Mermaid",
+      "esDescription": "Un lenguaje textual de diagramas para flujos, secuencias, lineas de tiempo y mas.",
+      "esLongDescription": "Mermaid es un lenguaje de diagramacion que renderiza texto estructurado como diagramas de flujo, secuencia, clases, estados, entidad-relacion, gantt, lineas de tiempo y mapas mentales. Esta pensado para convivir comodamente con documentacion Markdown.\n\nSe usa en READMEs, notas de arquitectura, wikis, sitios de documentacion, issue trackers, bases de conocimiento y flujos donde los diagramas deben versionarse como texto plano.",
+      "publishedDate": "2014-11-04",
+      "extensions": [".mmd", ".mermaid"],
+      "author": "Knut Sveidqvist / Mermaid contributors",
+      "website": "https://mermaid.js.org",
+      "paradigms": ["declarative", "diagramming", "markup"],
+      "tooling": {
+        "runtimes": ["Browser", "Node.js"],
+        "packageManagers": ["npm", "Yarn", "pnpm"],
+        "ecosystems": ["Documentation", "Markdown", "Diagrams", "Knowledge Management"]
+      },
+      "version": "11.11.0",
+      "logo": "https://cdn.simpleicons.org/mermaid/FF3670"
     },
     {
       "slug": "meson",
@@ -1326,6 +1494,27 @@
       },
       "version": "8.5.6",
       "logo": "https://www.php.net/images/logos/new-php-logo.svg"
+    },
+    {
+      "slug": "plantuml",
+      "name": "PlantUML",
+      "description": "A text-based diagram language for UML, architecture, and documentation diagrams.",
+      "longDescription": "PlantUML is a diagram language and renderer for sequence, class, activity, component, state, object, deployment, timing, mind map, and architecture diagrams. It lets teams keep diagrams in source control and generate images from compact text.\n\nIt is used in software architecture documentation, design reviews, technical specs, wikis, CI-generated diagrams, and projects that prefer versionable diagrams over manually edited drawing files.",
+      "esName": "PlantUML",
+      "esDescription": "Un lenguaje textual de diagramas para UML, arquitectura y documentacion.",
+      "esLongDescription": "PlantUML es un lenguaje y renderer de diagramas para secuencia, clases, actividad, componentes, estados, objetos, despliegue, timing, mapas mentales y arquitectura. Permite mantener diagramas en control de versiones y generar imagenes desde texto compacto.\n\nSe usa en documentacion de arquitectura de software, revisiones de diseno, especificaciones tecnicas, wikis, diagramas generados en CI y proyectos que prefieren diagramas versionables a archivos de dibujo editados manualmente.",
+      "publishedDate": "2009-04-17",
+      "extensions": [".puml", ".plantuml", ".iuml"],
+      "author": "Arnaud Roques / PlantUML contributors",
+      "website": "https://plantuml.com",
+      "paradigms": ["declarative", "diagramming", "modeling"],
+      "tooling": {
+        "runtimes": ["Java", "PlantUML Server"],
+        "packageManagers": ["Maven", "Gradle", "npm"],
+        "ecosystems": ["UML", "Architecture", "Documentation", "Diagrams"]
+      },
+      "version": "1.2026.3",
+      "logo": "https://plantuml.com/logo3.png"
     },
     {
       "slug": "powershell",
@@ -1799,6 +1988,27 @@
       },
       "version": "6.0",
       "logo": "https://www.typescriptlang.org/icons/icon-512x512.png"
+    },
+    {
+      "slug": "verilog",
+      "name": "Verilog/SystemVerilog",
+      "description": "A hardware description and verification language for digital circuits and systems.",
+      "longDescription": "Verilog and SystemVerilog describe digital hardware at behavioral, register-transfer, and gate levels. The language supports modules, signals, continuous assignments, procedural blocks, timing, testbenches, assertions, interfaces, classes, and constrained random verification.\n\nIt is used for FPGA designs, ASIC development, hardware simulation, synthesis, verification environments, reusable IP blocks, and electronic design automation workflows.",
+      "esName": "Verilog/SystemVerilog",
+      "esDescription": "Un lenguaje de descripcion y verificacion de hardware para circuitos y sistemas digitales.",
+      "esLongDescription": "Verilog y SystemVerilog describen hardware digital en niveles conductual, register-transfer y de compuertas. El lenguaje soporta modulos, senales, asignaciones continuas, bloques procedurales, timing, testbenches, assertions, interfaces, clases y verificacion aleatoria restringida.\n\nSe usa en disenos FPGA, desarrollo ASIC, simulacion de hardware, sintesis, entornos de verificacion, bloques IP reutilizables y flujos de automatizacion de diseno electronico.",
+      "publishedDate": "1984-01-01",
+      "extensions": [".v", ".vh", ".sv", ".svh"],
+      "author": "Phil Moorby / Gateway Design Automation",
+      "website": "https://standards.ieee.org/standard/1800-2023.html",
+      "paradigms": ["hardware-description", "concurrent", "event-driven", "verification"],
+      "tooling": {
+        "runtimes": ["FPGA Toolchains", "ASIC EDA Tools", "Simulators"],
+        "packageManagers": ["FuseSoC"],
+        "ecosystems": ["Hardware Design", "FPGA", "ASIC", "Verification"]
+      },
+      "version": "IEEE 1800-2023",
+      "logo": "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_verilog.svg"
     },
     {
       "slug": "visual-basic",
