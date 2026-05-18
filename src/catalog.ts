@@ -8,6 +8,7 @@ import { astro } from "./languages/astro";
 import { awk } from "./languages/awk";
 import { bash } from "./languages/bash";
 import { batch } from "./languages/batch";
+import { bicep } from "./languages/bicep";
 import { c } from "./languages/c";
 import { clojure } from "./languages/clojure";
 import { cmake } from "./languages/cmake";
@@ -18,6 +19,7 @@ import { crystal } from "./languages/crystal";
 import { csharp } from "./languages/csharp";
 import { css } from "./languages/css";
 import { cuda } from "./languages/cuda";
+import { cue } from "./languages/cue";
 import { d } from "./languages/d";
 import { dart } from "./languages/dart";
 import { dockerfile } from "./languages/dockerfile";
@@ -27,6 +29,7 @@ import { erlang } from "./languages/erlang";
 import { fennel } from "./languages/fennel";
 import { fortran } from "./languages/fortran";
 import { fsharp } from "./languages/fsharp";
+import { gdscript } from "./languages/gdscript";
 import { git } from "./languages/git";
 import { gleam } from "./languages/gleam";
 import { glsl } from "./languages/glsl";
@@ -34,6 +37,7 @@ import { go } from "./languages/go";
 import { gradle } from "./languages/gradle";
 import { graphql } from "./languages/graphql";
 import { groovy } from "./languages/groovy";
+import { handlebars } from "./languages/handlebars";
 import { haskell } from "./languages/haskell";
 import { haxe } from "./languages/haxe";
 import { hcl } from "./languages/hcl";
@@ -41,16 +45,20 @@ import { html } from "./languages/html";
 import { ini } from "./languages/ini";
 import { java } from "./languages/java";
 import { javascript } from "./languages/javascript";
+import { jinja } from "./languages/jinja";
 import { json } from "./languages/json";
 import { julia } from "./languages/julia";
 import { jupyterNotebook } from "./languages/jupyter-notebook";
 import { kotlin } from "./languages/kotlin";
 import { less } from "./languages/less";
+import { liquid } from "./languages/liquid";
 import { lisp } from "./languages/lisp";
 import { lua } from "./languages/lua";
 import { makefile } from "./languages/makefile";
 import { markdown } from "./languages/markdown";
 import { matlab } from "./languages/matlab";
+import { mdx } from "./languages/mdx";
+import { mermaid } from "./languages/mermaid";
 import { meson } from "./languages/meson";
 import { metal } from "./languages/metal";
 import { nginx } from "./languages/nginx";
@@ -61,6 +69,7 @@ import { ocaml } from "./languages/ocaml";
 import { pascal } from "./languages/pascal";
 import { perl } from "./languages/perl";
 import { php } from "./languages/php";
+import { plantuml } from "./languages/plantuml";
 import { powershell } from "./languages/powershell";
 import { protobuf } from "./languages/protobuf";
 import { pug } from "./languages/pug";
@@ -84,6 +93,7 @@ import { tex } from "./languages/tex";
 import { toml } from "./languages/toml";
 import { twig } from "./languages/twig";
 import { typescript } from "./languages/typescript";
+import { verilog } from "./languages/verilog";
 import { visualBasic } from "./languages/visual-basic";
 import { vue } from "./languages/vue";
 import { webassembly } from "./languages/webassembly";
@@ -107,6 +117,7 @@ export const languages = [
   awk,
   bash,
   batch,
+  bicep,
   c,
   cmake,
   clojure,
@@ -116,6 +127,7 @@ export const languages = [
   csharp,
   crystal,
   css,
+  cue,
   cuda,
   d,
   dart,
@@ -126,6 +138,7 @@ export const languages = [
   fennel,
   fortran,
   fsharp,
+  gdscript,
   git,
   gleam,
   go,
@@ -133,6 +146,7 @@ export const languages = [
   glsl,
   graphql,
   groovy,
+  handlebars,
   haskell,
   haxe,
   hcl,
@@ -140,16 +154,20 @@ export const languages = [
   ini,
   java,
   javascript,
+  jinja,
   json,
   jupyterNotebook,
   julia,
   kotlin,
   less,
+  liquid,
   lisp,
   lua,
   makefile,
   matlab,
   markdown,
+  mdx,
+  mermaid,
   meson,
   metal,
   svn,
@@ -161,6 +179,7 @@ export const languages = [
   pascal,
   perl,
   php,
+  plantuml,
   powershell,
   protobuf,
   pug,
@@ -183,6 +202,7 @@ export const languages = [
   toml,
   twig,
   typescript,
+  verilog,
   visualBasic,
   vue,
   webassembly,

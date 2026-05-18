@@ -36,6 +36,8 @@ const manualChecks = {
     "Objective-C language versioning is effectively stable and should be reviewed manually against Apple documentation and runtime updates.",
   sql: "SQL standards should be reviewed manually against ISO/IEC 9075 publications.",
   svg: "SVG specifications should be reviewed manually against w3.org/TR/SVG and W3C publication history.",
+  verilog:
+    "Verilog/SystemVerilog standards should be reviewed manually against IEEE 1800 publications.",
   webassembly: "WebAssembly standards should be reviewed manually against webassembly.org/specs.",
   xaml: "XAML support is platform-specific across WPF, UWP, WinUI, .NET MAUI, and related frameworks.",
   xml: "XML 1.0 Fifth Edition is stable and should be reviewed manually if W3C publishes a new edition.",
@@ -87,6 +89,14 @@ const checkers = {
       sourceUrl: "https://ftp.gnu.org/gnu/bash/",
     };
   },
+  async bicep() {
+    const json = await fetchJson("https://api.github.com/repos/Azure/bicep/releases/latest");
+
+    return {
+      latestVersion: normalizeVersion(json.tag_name),
+      sourceUrl: "https://api.github.com/repos/Azure/bicep/releases/latest",
+    };
+  },
   async csharp() {
     const markdown = await fetchText(
       "https://raw.githubusercontent.com/dotnet/docs/main/docs/csharp/whats-new/csharp-version-history.md",
@@ -135,6 +145,14 @@ const checkers = {
     return {
       latestVersion: latest?.name,
       sourceUrl: "https://crystal-lang.org/api/versions.json",
+    };
+  },
+  async cue() {
+    const json = await fetchJson("https://api.github.com/repos/cue-lang/cue/releases/latest");
+
+    return {
+      latestVersion: normalizeVersion(json.tag_name),
+      sourceUrl: "https://api.github.com/repos/cue-lang/cue/releases/latest",
     };
   },
   async coffeescript() {
@@ -206,6 +224,15 @@ const checkers = {
       sourceUrl: "https://learn.microsoft.com/en-us/dotnet/fsharp/whats-new/",
     };
   },
+  async gdscript() {
+    const json = await fetchJson("https://api.github.com/repos/godotengine/godot/releases/latest");
+    const match = String(json.tag_name ?? json.name ?? "").match(/^(\d+\.\d+)/);
+
+    return {
+      latestVersion: match?.[1],
+      sourceUrl: "https://api.github.com/repos/godotengine/godot/releases/latest",
+    };
+  },
   async git() {
     const html = await fetchText("https://git-scm.com/docs/git");
     const match = html.match(/git last updated in (\d+\.\d+\.\d+)/);
@@ -272,6 +299,14 @@ const checkers = {
       sourceUrl: "https://repo1.maven.org/maven2/org/apache/groovy/groovy/maven-metadata.xml",
     };
   },
+  async handlebars() {
+    const json = await fetchJson("https://registry.npmjs.org/handlebars/latest");
+
+    return {
+      latestVersion: json.version,
+      sourceUrl: "https://registry.npmjs.org/handlebars/latest",
+    };
+  },
   async haskell() {
     const html = await fetchText("https://downloads.haskell.org/~ghc/latest/");
     const versions = [...html.matchAll(/ghc-(\d+\.\d+\.\d+)-src\.tar\.(?:gz|xz)/g)].map(
@@ -310,6 +345,14 @@ const checkers = {
       sourceUrl: "https://api.adoptium.net/v3/info/available_releases",
     };
   },
+  async jinja() {
+    const json = await fetchJson("https://pypi.org/pypi/Jinja2/json");
+
+    return {
+      latestVersion: json.info?.version,
+      sourceUrl: "https://pypi.org/pypi/Jinja2/json",
+    };
+  },
   async julia() {
     const json = await fetchJson("https://api.github.com/repos/JuliaLang/julia/releases/latest");
 
@@ -332,6 +375,14 @@ const checkers = {
     return {
       latestVersion: json.version,
       sourceUrl: "https://registry.npmjs.org/less/latest",
+    };
+  },
+  async liquid() {
+    const json = await fetchJson("https://registry.npmjs.org/liquidjs/latest");
+
+    return {
+      latestVersion: json.version,
+      sourceUrl: "https://registry.npmjs.org/liquidjs/latest",
     };
   },
   async lua() {
@@ -379,6 +430,22 @@ const checkers = {
     return {
       latestVersion: `CommonMark ${latestSemver(versions)}`,
       sourceUrl: "https://spec.commonmark.org/",
+    };
+  },
+  async mdx() {
+    const json = await fetchJson("https://registry.npmjs.org/@mdx-js%2fmdx/latest");
+
+    return {
+      latestVersion: json.version,
+      sourceUrl: "https://registry.npmjs.org/@mdx-js%2fmdx/latest",
+    };
+  },
+  async mermaid() {
+    const json = await fetchJson("https://registry.npmjs.org/mermaid/latest");
+
+    return {
+      latestVersion: json.version,
+      sourceUrl: "https://registry.npmjs.org/mermaid/latest",
     };
   },
   async meson() {
@@ -443,6 +510,17 @@ const checkers = {
     return {
       latestVersion: normalizeVersion(String(json.tag_name ?? "").replace(/^php-/i, "")),
       sourceUrl: "https://api.github.com/repos/php/php-src/releases/latest",
+    };
+  },
+  async plantuml() {
+    const json = await fetchJson("https://api.github.com/repos/plantuml/plantuml/releases");
+    const release = json.find(
+      (entry) => entry.prerelease !== true && /^v\d+\.\d+\.\d+$/.test(entry.tag_name),
+    );
+
+    return {
+      latestVersion: normalizeVersion(release?.tag_name),
+      sourceUrl: "https://api.github.com/repos/plantuml/plantuml/releases",
     };
   },
   async powershell() {
