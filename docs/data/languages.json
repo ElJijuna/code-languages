@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-18T01:18:38.707Z",
-  "total": 106,
-  "extensions": 300,
+  "generatedAt": "2026-05-18T11:40:57.594Z",
+  "total": 116,
+  "extensions": 326,
   "locales": ["en", "es"],
   "languages": [
     {
@@ -91,6 +91,27 @@
       },
       "version": "API 66.0",
       "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Salesforce.com_logo.svg"
+    },
+    {
+      "slug": "asciidoc",
+      "name": "AsciiDoc",
+      "description": "A plain-text markup language for technical documentation, books, and publishing.",
+      "longDescription": "AsciiDoc is a readable markup language for writing structured documents with sections, attributes, lists, tables, admonitions, cross references, includes, source blocks, and rich publishing metadata. It is designed to remain comfortable in plain text while supporting professional output formats.\n\nIt is used for product documentation, books, technical manuals, API guides, knowledge bases, Antora documentation sites, and publishing workflows that need semantic source files under version control.",
+      "esName": "AsciiDoc",
+      "esDescription": "Un lenguaje de marcado en texto plano para documentacion tecnica, libros y publicacion.",
+      "esLongDescription": "AsciiDoc es un lenguaje de marcado legible para escribir documentos estructurados con secciones, atributos, listas, tablas, admoniciones, referencias cruzadas, includes, bloques de codigo y metadatos de publicacion. Esta pensado para ser comodo en texto plano y aun asi soportar salidas profesionales.\n\nSe usa en documentacion de producto, libros, manuales tecnicos, guias de API, bases de conocimiento, sitios Antora y flujos de publicacion que necesitan archivos fuente semanticos bajo control de versiones.",
+      "publishedDate": "2002-11-25",
+      "extensions": [".adoc", ".asciidoc", ".asc"],
+      "author": "Stuart Rackham / AsciiDoc Working Group",
+      "website": "https://asciidoc.org",
+      "paradigms": ["markup", "documentation", "declarative", "publishing"],
+      "tooling": {
+        "runtimes": ["Asciidoctor", "Asciidoctor.js", "Antora"],
+        "packageManagers": ["RubyGems", "npm", "Maven"],
+        "ecosystems": ["Documentation", "Publishing", "Technical Writing", "Static Sites"]
+      },
+      "version": "pre-spec",
+      "logo": "https://cdn.simpleicons.org/asciidoctor/E40046"
     },
     {
       "slug": "asp",
@@ -223,6 +244,27 @@
       "logo": "https://icons.iconarchive.com/icons/simpleicons-team/simple/128/windowsterminal-icon.png"
     },
     {
+      "slug": "bazel",
+      "name": "Bazel",
+      "description": "A build and test configuration language for fast, reproducible multi-language builds.",
+      "longDescription": "Bazel files describe packages, targets, dependencies, toolchains, platforms, modules, and build rules for Bazel's hermetic build graph. BUILD and MODULE files are declarative, while extension logic is commonly written in Starlark.\n\nIt is used in monorepos, large-scale CI systems, polyglot projects, remote execution workflows, reproducible builds, dependency graph analysis, and teams that need consistent builds across machines and languages.",
+      "esName": "Bazel",
+      "esDescription": "Un lenguaje de configuracion de build y test para compilaciones rapidas y reproducibles.",
+      "esLongDescription": "Los archivos Bazel describen paquetes, targets, dependencias, toolchains, plataformas, modulos y reglas para el grafo de build hermetico de Bazel. Los archivos BUILD y MODULE son declarativos, mientras que la logica de extension suele escribirse en Starlark.\n\nSe usa en monorepos, sistemas CI a gran escala, proyectos poliglota, remote execution, builds reproducibles, analisis de grafos de dependencias y equipos que necesitan builds consistentes entre maquinas y lenguajes.",
+      "publishedDate": "2015-03-25",
+      "extensions": ["BUILD.bazel", "WORKSPACE", "WORKSPACE.bazel", "MODULE.bazel"],
+      "author": "Google / Bazel contributors",
+      "website": "https://bazel.build",
+      "paradigms": ["declarative", "build-configuration", "hermetic", "monorepo"],
+      "tooling": {
+        "runtimes": ["Bazel"],
+        "packageManagers": ["Bzlmod", "Bazel Central Registry"],
+        "ecosystems": ["Build Systems", "Monorepos", "CI/CD", "Polyglot Repositories"]
+      },
+      "version": "9.0.2",
+      "logo": "https://cdn.simpleicons.org/bazel/43A047"
+    },
+    {
       "slug": "bicep",
       "name": "Bicep",
       "description": "A declarative language for describing Azure infrastructure as code.",
@@ -242,6 +284,27 @@
       },
       "version": "0.43.8",
       "logo": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/azure-bicep.svg"
+    },
+    {
+      "slug": "blade",
+      "name": "Blade",
+      "description": "Laravel's server-side template language for views, components, and layouts.",
+      "longDescription": "Blade is Laravel's template language for composing PHP views with directives, layouts, sections, stacks, components, slots, conditionals, loops, includes, escaping, and custom compiler extensions. It keeps templates close to HTML while integrating deeply with Laravel features.\n\nIt is used for Laravel applications, server-rendered interfaces, form views, email templates, reusable UI components, admin panels, and PHP projects that rely on Laravel's view layer.",
+      "esName": "Blade",
+      "esDescription": "El lenguaje de plantillas de Laravel para vistas, componentes y layouts en servidor.",
+      "esLongDescription": "Blade es el lenguaje de plantillas de Laravel para componer vistas PHP con directivas, layouts, secciones, stacks, componentes, slots, condicionales, bucles, includes, escapado y extensiones del compilador. Mantiene las plantillas cerca de HTML y se integra de forma profunda con Laravel.\n\nSe usa en aplicaciones Laravel, interfaces renderizadas en servidor, vistas de formularios, plantillas de email, componentes UI reutilizables, paneles administrativos y proyectos PHP que dependen de la capa de vistas de Laravel.",
+      "publishedDate": "2011-06-09",
+      "extensions": [".blade.php"],
+      "author": "Taylor Otwell / Laravel",
+      "website": "https://laravel.com/docs/blade",
+      "paradigms": ["templating", "server-side", "component-oriented", "declarative"],
+      "tooling": {
+        "runtimes": ["PHP", "Laravel"],
+        "packageManagers": ["Composer"],
+        "ecosystems": ["Laravel", "PHP", "Web", "Server-rendered UI"]
+      },
+      "version": "Laravel 12.x",
+      "logo": "https://cdn.simpleicons.org/laravel/FF2D20"
     },
     {
       "slug": "c",
@@ -914,6 +977,27 @@
       "logo": "https://cdn.simpleicons.org/hashicorp/844FBA"
     },
     {
+      "slug": "hlsl",
+      "name": "HLSL",
+      "description": "Microsoft's High-Level Shading Language for programmable graphics pipelines.",
+      "longDescription": "HLSL is a shader language for Direct3D and related graphics pipelines. It provides C-like syntax, vector and matrix types, textures, samplers, constant buffers, semantics, intrinsics, and shader stages for vertex, pixel, compute, geometry, hull, domain, mesh, amplification, and ray tracing workloads.\n\nIt is used in Windows games, rendering engines, GPU compute tasks, visual effects, real-time simulations, DirectX tools, and cross-compiled shader workflows that target modern graphics hardware.",
+      "esName": "HLSL",
+      "esDescription": "El High-Level Shading Language de Microsoft para pipelines graficos programables.",
+      "esLongDescription": "HLSL es un lenguaje de shaders para Direct3D y pipelines graficos relacionados. Ofrece sintaxis similar a C, tipos vectoriales y matriciales, texturas, samplers, constant buffers, semanticas, intrinsics y etapas de shader para vertex, pixel, compute, geometry, hull, domain, mesh, amplification y ray tracing.\n\nSe usa en juegos Windows, motores de rendering, tareas GPU compute, efectos visuales, simulaciones en tiempo real, herramientas DirectX y flujos de shaders cross-compiled hacia hardware grafico moderno.",
+      "publishedDate": "2002-12-01",
+      "extensions": [".hlsl", ".fx", ".fxh", ".hlsli"],
+      "author": "Microsoft",
+      "website": "https://learn.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl",
+      "paradigms": ["shader", "data-parallel", "graphics", "procedural"],
+      "tooling": {
+        "runtimes": ["Direct3D", "DirectX Shader Compiler", "Game Engines"],
+        "packageManagers": ["NuGet", "vcpkg"],
+        "ecosystems": ["Graphics", "Game Development", "GPU Programming", "DirectX"]
+      },
+      "version": "Shader Model 6.9",
+      "logo": "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_hlsl.svg"
+    },
+    {
       "slug": "html",
       "name": "HTML",
       "description": "A markup language for structuring web pages and browser-rendered documents.",
@@ -1538,6 +1622,27 @@
       "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png"
     },
     {
+      "slug": "prolog",
+      "name": "Prolog",
+      "description": "A logic programming language based on facts, rules, queries, and unification.",
+      "longDescription": "Prolog expresses programs as relations using facts, rules, terms, predicates, unification, backtracking, recursion, and constraint logic programming. Rather than spelling out step-by-step control flow, programs describe what is true and let the engine search for solutions.\n\nIt is used for symbolic AI, expert systems, theorem proving, language processing, rule engines, planning, scheduling, constraint solving, education, and domains where relational reasoning is more natural than imperative control flow.",
+      "esName": "Prolog",
+      "esDescription": "Un lenguaje de programacion logica basado en hechos, reglas, consultas y unificacion.",
+      "esLongDescription": "Prolog expresa programas como relaciones usando hechos, reglas, terminos, predicados, unificacion, backtracking, recursion y programacion logica con restricciones. En vez de detallar flujo de control paso a paso, los programas describen que es verdadero y el motor busca soluciones.\n\nSe usa en IA simbolica, sistemas expertos, demostracion de teoremas, procesamiento de lenguaje, motores de reglas, planificacion, scheduling, resolucion de restricciones, educacion y dominios donde el razonamiento relacional es mas natural que el control imperativo.",
+      "publishedDate": "1972-01-01",
+      "extensions": [".pl", ".pro", ".prolog", ".P"],
+      "author": "Alain Colmerauer, Philippe Roussel, Robert Kowalski",
+      "website": "https://www.swi-prolog.org",
+      "paradigms": ["logic", "declarative", "relational", "constraint"],
+      "tooling": {
+        "runtimes": ["SWI-Prolog", "GNU Prolog", "Scryer Prolog"],
+        "packageManagers": ["SWI-Prolog pack"],
+        "ecosystems": ["Logic Programming", "AI", "Expert Systems", "Constraint Solving"]
+      },
+      "version": "SWI-Prolog 10.0",
+      "logo": "https://www.swi-prolog.org/icons/swipl.png"
+    },
+    {
       "slug": "protobuf",
       "name": "Protocol Buffers",
       "description": "Google's language-neutral schema format for structured data serialization and service APIs.",
@@ -1599,6 +1704,27 @@
       },
       "version": "3.14.5",
       "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Python-logo-notext.svg"
+    },
+    {
+      "slug": "qml",
+      "name": "QML",
+      "description": "Qt's declarative language for building fluid, component-based user interfaces.",
+      "longDescription": "QML is a declarative language for Qt Quick applications, combining object trees, properties, bindings, signals, states, animations, JavaScript expressions, and reusable components. It is designed for building dynamic interfaces that connect naturally to C++ and Qt APIs.\n\nIt is used in desktop applications, embedded devices, mobile interfaces, automotive displays, industrial controls, media systems, and cross-platform Qt projects that need responsive and animated UI layers.",
+      "esName": "QML",
+      "esDescription": "El lenguaje declarativo de Qt para crear interfaces fluidas basadas en componentes.",
+      "esLongDescription": "QML es un lenguaje declarativo para aplicaciones Qt Quick que combina arboles de objetos, propiedades, bindings, senales, estados, animaciones, expresiones JavaScript y componentes reutilizables. Esta pensado para crear interfaces dinamicas que se conectan de forma natural con C++ y las APIs de Qt.\n\nSe usa en aplicaciones de escritorio, dispositivos embebidos, interfaces moviles, pantallas automotrices, controles industriales, sistemas multimedia y proyectos Qt multiplataforma que necesitan capas UI responsivas y animadas.",
+      "publishedDate": "2009-01-01",
+      "extensions": [".qml", ".qmltypes", ".qmlproject"],
+      "author": "Qt Company / Qt Project",
+      "website": "https://doc.qt.io/qt-6/qmlapplications.html",
+      "paradigms": ["declarative", "reactive", "component-oriented", "ui"],
+      "tooling": {
+        "runtimes": ["Qt", "Qt Quick"],
+        "packageManagers": ["Conan", "vcpkg", "Qt Installer"],
+        "ecosystems": ["Desktop UI", "Embedded UI", "Mobile UI", "Qt"]
+      },
+      "version": "Qt 6.11.1",
+      "logo": "https://cdn.simpleicons.org/qt/41CD52"
     },
     {
       "slug": "r",
@@ -1807,6 +1933,27 @@
       "logo": "https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png"
     },
     {
+      "slug": "starlark",
+      "name": "Starlark",
+      "description": "A deterministic Python-like scripting language for build and configuration tools.",
+      "longDescription": "Starlark is a small, deterministic language with Python-like syntax, designed to be embedded in larger applications. It supports functions, lists, dictionaries, comprehensions, modules, and controlled evaluation while avoiding features that make builds or configuration unpredictable.\n\nIt is best known as Bazel's extension language for rules, macros, repositories, and module extensions, but it is also embedded in other build systems and tools that need safe, reproducible scripting.",
+      "esName": "Starlark",
+      "esDescription": "Un lenguaje de scripting determinista similar a Python para herramientas de build y configuracion.",
+      "esLongDescription": "Starlark es un lenguaje pequeno y determinista con sintaxis similar a Python, disenado para embeberse en aplicaciones mas grandes. Soporta funciones, listas, diccionarios, comprehensions, modulos y evaluacion controlada, evitando caracteristicas que vuelven impredecibles los builds o la configuracion.\n\nEs conocido principalmente como el lenguaje de extension de Bazel para reglas, macros, repositorios y extensiones de modulos, pero tambien se integra en otros sistemas de build y herramientas que necesitan scripting seguro y reproducible.",
+      "publishedDate": "2015-03-25",
+      "extensions": [".bzl", ".star", ".sky"],
+      "author": "Google / Bazel contributors",
+      "website": "https://bazel.build/rules/language",
+      "paradigms": ["scripting", "configuration", "deterministic", "imperative"],
+      "tooling": {
+        "runtimes": ["Bazel", "Buck2", "Starlark Go"],
+        "packageManagers": ["Bzlmod", "Bazel Central Registry"],
+        "ecosystems": ["Build Systems", "Configuration", "Monorepos", "Tooling"]
+      },
+      "version": "Bazel Starlark",
+      "logo": "https://cdn.simpleicons.org/bazel/43A047"
+    },
+    {
       "slug": "svelte",
       "name": "Svelte",
       "description": "A compiled component framework for building reactive web user interfaces.",
@@ -1990,6 +2137,27 @@
       "logo": "https://www.typescriptlang.org/icons/icon-512x512.png"
     },
     {
+      "slug": "typst",
+      "name": "Typst",
+      "description": "A modern markup and scripting language for typesetting documents and PDFs.",
+      "longDescription": "Typst combines lightweight markup, layout primitives, functions, variables, packages, math notation, bibliographies, templates, and scripting in a fast typesetting system. It aims to make professional document production more programmable and approachable than traditional TeX workflows.\n\nIt is used for academic papers, reports, books, resumes, lecture notes, templates, technical documents, and publishing workflows that need reproducible PDF generation from readable source files.",
+      "esName": "Typst",
+      "esDescription": "Un lenguaje moderno de marcado y scripting para componer documentos y PDFs.",
+      "esLongDescription": "Typst combina marcado liviano, primitivas de layout, funciones, variables, paquetes, notacion matematica, bibliografias, templates y scripting en un sistema rapido de composicion. Busca hacer la produccion profesional de documentos mas programable y accesible que los flujos tradicionales con TeX.\n\nSe usa para articulos academicos, reportes, libros, CVs, apuntes de clase, templates, documentos tecnicos y flujos de publicacion que necesitan generar PDFs reproducibles desde archivos fuente legibles.",
+      "publishedDate": "2023-03-21",
+      "extensions": [".typ"],
+      "author": "Typst GmbH / Typst contributors",
+      "website": "https://typst.app",
+      "paradigms": ["markup", "typesetting", "functional", "scripting"],
+      "tooling": {
+        "runtimes": ["Typst CLI", "Typst Web App"],
+        "packageManagers": ["Typst Packages"],
+        "ecosystems": ["Publishing", "Academic Writing", "Documentation", "Typesetting"]
+      },
+      "version": "0.14.1",
+      "logo": "https://cdn.simpleicons.org/typst/239DAD"
+    },
+    {
       "slug": "verilog",
       "name": "Verilog/SystemVerilog",
       "description": "A hardware description and verification language for digital circuits and systems.",
@@ -2009,6 +2177,27 @@
       },
       "version": "IEEE 1800-2023",
       "logo": "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_verilog.svg"
+    },
+    {
+      "slug": "vhdl",
+      "name": "VHDL",
+      "description": "A hardware description and verification language for digital electronic systems.",
+      "longDescription": "VHDL describes digital systems using entities, architectures, signals, processes, concurrent statements, packages, generics, configurations, testbenches, and strongly typed design units. It supports simulation, synthesis, and verification across multiple abstraction levels.\n\nIt is used for FPGA development, ASIC design, hardware verification, reusable IP blocks, digital signal processing, safety-critical hardware, and electronic design automation workflows.",
+      "esName": "VHDL",
+      "esDescription": "Un lenguaje de descripcion y verificacion de hardware para sistemas electronicos digitales.",
+      "esLongDescription": "VHDL describe sistemas digitales usando entidades, arquitecturas, senales, procesos, sentencias concurrentes, paquetes, generics, configuraciones, testbenches y unidades de diseno fuertemente tipadas. Soporta simulacion, sintesis y verificacion en varios niveles de abstraccion.\n\nSe usa en desarrollo FPGA, diseno ASIC, verificacion de hardware, bloques IP reutilizables, procesamiento digital de senales, hardware critico para seguridad y flujos de automatizacion de diseno electronico.",
+      "publishedDate": "1987-01-01",
+      "extensions": [".vhd", ".vhdl"],
+      "author": "U.S. Department of Defense / IEEE",
+      "website": "https://standards.ieee.org/standard/1076-2019.html",
+      "paradigms": ["hardware-description", "concurrent", "dataflow", "verification"],
+      "tooling": {
+        "runtimes": ["FPGA Toolchains", "ASIC EDA Tools", "Simulators"],
+        "packageManagers": ["VUnit", "FuseSoC"],
+        "ecosystems": ["Hardware Design", "FPGA", "ASIC", "Verification"]
+      },
+      "version": "IEEE 1076-2019",
+      "logo": "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_vhdl.svg"
     },
     {
       "slug": "visual-basic",
@@ -2072,6 +2261,27 @@
       },
       "version": "3.0",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1f/WebAssembly_Logo.svg"
+    },
+    {
+      "slug": "wgsl",
+      "name": "WGSL",
+      "description": "The WebGPU Shading Language for portable browser and native GPU programs.",
+      "longDescription": "WGSL is the shader language for WebGPU, designed for predictable validation, portability, and safety across graphics backends. It includes explicit types, address spaces, entry points, bindings, uniforms, storage buffers, textures, workgroups, and built-in functions for graphics and compute shaders.\n\nIt is used in WebGPU applications, browser rendering, native wgpu projects, visualization tools, compute workloads, creative coding, and graphics engines that target portable GPU execution.",
+      "esName": "WGSL",
+      "esDescription": "El lenguaje de shading de WebGPU para programas GPU portables en navegador y nativo.",
+      "esLongDescription": "WGSL es el lenguaje de shaders de WebGPU, disenado para validacion predecible, portabilidad y seguridad entre backends graficos. Incluye tipos explicitos, address spaces, entry points, bindings, uniforms, storage buffers, texturas, workgroups y funciones integradas para shaders graficos y compute.\n\nSe usa en aplicaciones WebGPU, rendering en navegador, proyectos nativos con wgpu, herramientas de visualizacion, cargas compute, creative coding y motores graficos que apuntan a ejecucion GPU portable.",
+      "publishedDate": "2021-05-18",
+      "extensions": [".wgsl"],
+      "author": "W3C GPU for the Web Working Group",
+      "website": "https://www.w3.org/TR/WGSL/",
+      "paradigms": ["shader", "data-parallel", "graphics", "gpu-compute"],
+      "tooling": {
+        "runtimes": ["WebGPU", "Browsers", "wgpu"],
+        "packageManagers": ["npm", "Cargo"],
+        "ecosystems": ["WebGPU", "Graphics", "GPU Programming", "Web"]
+      },
+      "version": "Candidate Recommendation Draft 2026-05-07",
+      "logo": "https://cdn.simpleicons.org/webgpu/005A9C"
     },
     {
       "slug": "xaml",
