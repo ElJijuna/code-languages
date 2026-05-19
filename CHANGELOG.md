@@ -1,3 +1,11 @@
+## [1.20.3](https://github.com/ElJijuna/code-languages/compare/v1.20.2...v1.20.3) (2026-05-19)
+
+
+### Bug Fixes
+
+* update Twig metadata to 3.25.0 ([6896e44](https://github.com/ElJijuna/code-languages/commit/6896e4423bdc13a79009dd7d93ac149811201dda))
+* update Twig metadata to 3.25.0 ([06e9bd4](https://github.com/ElJijuna/code-languages/commit/06e9bd4e9cb56edc2518dcffa12357fe49a8bf3c))
+
 ## [1.20.2](https://github.com/ElJijuna/code-languages/compare/v1.20.1...v1.20.2) (2026-05-19)
 
 
