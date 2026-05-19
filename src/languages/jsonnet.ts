@@ -12,7 +12,7 @@ export const jsonnet = {
     packageManagers: ["jsonnet-bundler"],
     ecosystems: ["Configuration", "Kubernetes", "Infrastructure"],
   },
-  version: "0.21.0",
+  version: "0.22.0",
   logo: "https://jsonnet.org/img/isologo.svg",
   i18n: {
     en: {
