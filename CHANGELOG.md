@@ -1,3 +1,11 @@
+## [1.20.2](https://github.com/ElJijuna/code-languages/compare/v1.20.1...v1.20.2) (2026-05-19)
+
+
+### Bug Fixes
+
+* update Typst metadata to 0.14.2 ([da8f71d](https://github.com/ElJijuna/code-languages/commit/da8f71d2d1b9daba8ceffea4fd242a46dd10748f))
+* update Typst metadata to 0.14.2 ([d7e07ad](https://github.com/ElJijuna/code-languages/commit/d7e07adbc192217d702837a3c7afd634e67089b2))
+
 ## [1.20.1](https://github.com/ElJijuna/code-languages/compare/v1.20.0...v1.20.1) (2026-05-19)
 
 
