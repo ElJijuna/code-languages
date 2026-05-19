@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-18T11:40:57.594Z",
-  "total": 116,
-  "extensions": 326,
+  "generatedAt": "2026-05-19T04:58:50.858Z",
+  "total": 126,
+  "extensions": 351,
   "locales": ["en", "es"],
   "languages": [
     {
@@ -72,6 +72,27 @@
       "logo": "https://cdn.simpleicons.org/ada/02F88C"
     },
     {
+      "slug": "antlr",
+      "name": "ANTLR Grammar",
+      "description": "A grammar notation used with ANTLR to generate lexers, parsers, and language tools.",
+      "longDescription": "ANTLR grammars describe lexical tokens and parser rules for programming languages, data formats, query languages, and domain-specific syntaxes.\n\nThe generated parsers are used in compilers, interpreters, code analyzers, migration tools, editors, and other systems that need structured language recognition.",
+      "esName": "ANTLR Grammar",
+      "esDescription": "Una notacion de gramaticas usada con ANTLR para generar lexers, parsers y herramientas de lenguaje.",
+      "esLongDescription": "Las gramaticas ANTLR describen tokens lexicos y reglas de parser para lenguajes de programacion, formatos de datos, lenguajes de consulta y sintaxis especificas de dominio.\n\nLos parsers generados se usan en compiladores, interpretes, analizadores de codigo, herramientas de migracion, editores y otros sistemas que necesitan reconocer lenguajes de forma estructurada.",
+      "publishedDate": "1989-02-01",
+      "extensions": [".g4"],
+      "author": "Terence Parr",
+      "website": "https://www.antlr.org",
+      "paradigms": ["declarative", "grammar", "parser generation"],
+      "tooling": {
+        "runtimes": ["ANTLR Tool", "ANTLR Runtime"],
+        "packageManagers": ["Maven", "npm", "NuGet", "pip"],
+        "ecosystems": ["Compilers", "Language Tools", "Static Analysis"]
+      },
+      "version": "4.13.2",
+      "logo": "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_antlr.svg"
+    },
+    {
       "slug": "apex",
       "name": "Apex",
       "description": "Salesforce's strongly typed, object-oriented language for platform business logic.",
@@ -91,6 +112,67 @@
       },
       "version": "API 66.0",
       "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Salesforce.com_logo.svg"
+    },
+    {
+      "slug": "apl",
+      "name": "APL",
+      "description": "An array-oriented language known for concise symbolic notation and interactive use.",
+      "longDescription": "APL centers computation around arrays, higher-order operations, and a compact mathematical notation that can express complex transformations in very little code.\n\nIt has influenced many array languages and remains useful in exploratory analysis, financial modeling, algorithm design, and systems where terse interactive computation is valuable.",
+      "esName": "APL",
+      "esDescription": "Un lenguaje orientado a arreglos conocido por su notacion simbolica concisa y uso interactivo.",
+      "esLongDescription": "APL centra la computacion en arreglos, operaciones de orden superior y una notacion matematica compacta que puede expresar transformaciones complejas en muy poco codigo.\n\nHa influido en muchos lenguajes de arreglos y sigue siendo util en analisis exploratorio, modelos financieros, diseno de algoritmos y sistemas donde la computacion interactiva concisa aporta valor.",
+      "publishedDate": "1966-11-01",
+      "extensions": [".apl", ".dyalog"],
+      "author": "Kenneth E. Iverson",
+      "website": "https://www.dyalog.com",
+      "paradigms": ["array", "functional", "interactive"],
+      "tooling": {
+        "runtimes": ["Dyalog APL", "GNU APL", "NARS2000"],
+        "ecosystems": ["Array Programming", "Data Analysis", "Financial Computing"]
+      },
+      "version": "ISO/IEC 13751:2001",
+      "logo": "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_apl.svg"
+    },
+    {
+      "slug": "applescript",
+      "name": "AppleScript",
+      "description": "A macOS scripting language for automating applications through Apple events.",
+      "longDescription": "AppleScript provides an English-like syntax for controlling scriptable macOS applications, files, windows, workflows, and system services.\n\nIt is commonly used for desktop automation, publishing workflows, batch operations, application glue code, and user-facing scripts that coordinate multiple Mac apps.",
+      "esName": "AppleScript",
+      "esDescription": "Un lenguaje de scripting de macOS para automatizar aplicaciones mediante Apple events.",
+      "esLongDescription": "AppleScript ofrece una sintaxis similar al ingles para controlar aplicaciones scriptables de macOS, archivos, ventanas, flujos de trabajo y servicios del sistema.\n\nSe usa comunmente para automatizacion de escritorio, flujos editoriales, operaciones por lotes, codigo de integracion entre aplicaciones y scripts de usuario que coordinan varias apps de Mac.",
+      "publishedDate": "1993-10-01",
+      "extensions": [".applescript", ".scpt", ".scptd"],
+      "author": "Apple Inc.",
+      "website": "https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptX/AppleScriptX.html",
+      "paradigms": ["scripting", "automation", "event-driven"],
+      "tooling": {
+        "runtimes": ["macOS", "osascript", "Script Editor"],
+        "ecosystems": ["macOS", "Desktop Automation"]
+      },
+      "version": "2.8",
+      "logo": "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_applescript.svg"
+    },
+    {
+      "slug": "arduino",
+      "name": "Arduino Sketch",
+      "description": "A C/C++-based sketch format for programming Arduino boards and embedded devices.",
+      "longDescription": "Arduino sketches wrap embedded C and C++ development in a beginner-friendly project model with setup and loop entry points, board cores, and hardware libraries.\n\nThey are widely used for electronics prototyping, education, robotics, sensors, IoT devices, and small firmware projects that interact directly with physical components.",
+      "esName": "Arduino Sketch",
+      "esDescription": "Un formato de sketch basado en C/C++ para programar placas Arduino y dispositivos embebidos.",
+      "esLongDescription": "Los sketches de Arduino envuelven el desarrollo embebido en C y C++ en un modelo de proyecto accesible con puntos de entrada setup y loop, cores de placas y bibliotecas de hardware.\n\nSe usan ampliamente para prototipos electronicos, educacion, robotica, sensores, dispositivos IoT y pequenos proyectos de firmware que interactuan directamente con componentes fisicos.",
+      "publishedDate": "2005-01-01",
+      "extensions": [".ino", ".pde"],
+      "author": "Arduino",
+      "website": "https://www.arduino.cc",
+      "paradigms": ["imperative", "procedural", "embedded"],
+      "tooling": {
+        "runtimes": ["Arduino Core", "Microcontroller Firmware"],
+        "packageManagers": ["Arduino Library Manager", "PlatformIO"],
+        "ecosystems": ["Embedded", "IoT", "Prototyping"]
+      },
+      "version": "Arduino API 1.0",
+      "logo": "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_arduino.svg"
     },
     {
       "slug": "asciidoc",
@@ -180,6 +262,26 @@
       },
       "version": "6.3.3",
       "logo": "https://astro.build/assets/press/astro-icon-light.svg"
+    },
+    {
+      "slug": "autohotkey",
+      "name": "AutoHotkey",
+      "description": "A Windows scripting language for hotkeys, macros, automation, and small utilities.",
+      "longDescription": "AutoHotkey scripts automate Windows workflows through hotkeys, text expansion, GUI automation, window management, keyboard and mouse control, and custom utility scripts.\n\nIt is popular for personal productivity, repetitive task automation, quick desktop tooling, application launchers, and accessibility-oriented workflows.",
+      "esName": "AutoHotkey",
+      "esDescription": "Un lenguaje de scripting para Windows orientado a atajos, macros, automatizacion y utilidades pequenas.",
+      "esLongDescription": "Los scripts de AutoHotkey automatizan flujos de Windows mediante atajos, expansion de texto, automatizacion de GUI, gestion de ventanas, control de teclado y mouse, y utilidades personalizadas.\n\nEs popular para productividad personal, automatizacion de tareas repetitivas, herramientas rapidas de escritorio, lanzadores de aplicaciones y flujos orientados a accesibilidad.",
+      "publishedDate": "2003-11-10",
+      "extensions": [".ahk", ".ah2"],
+      "author": "Chris Mallett",
+      "website": "https://www.autohotkey.com",
+      "paradigms": ["scripting", "automation", "event-driven", "imperative"],
+      "tooling": {
+        "runtimes": ["AutoHotkey"],
+        "ecosystems": ["Windows", "Desktop Automation"]
+      },
+      "version": "2.0",
+      "logo": "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_autohotkey.svg"
     },
     {
       "slug": "awk",
@@ -458,6 +560,27 @@
       "logo": "https://cdn.simpleicons.org/coffeescript/2F2625"
     },
     {
+      "slug": "coldfusion",
+      "name": "ColdFusion",
+      "description": "A JVM-based web language and platform using CFML tags, scripts, and components.",
+      "longDescription": "ColdFusion uses CFML to build server-rendered web applications, APIs, scheduled jobs, and enterprise integrations with a mix of tag-based markup and script syntax.\n\nIts ecosystem includes Adobe ColdFusion, Lucee, CFML components, database access, templating, mail, file processing, and tooling for long-lived business applications.",
+      "esName": "ColdFusion",
+      "esDescription": "Un lenguaje y plataforma web sobre JVM que usa etiquetas, scripts y componentes CFML.",
+      "esLongDescription": "ColdFusion usa CFML para crear aplicaciones web renderizadas en servidor, APIs, tareas programadas e integraciones empresariales con una mezcla de marcado basado en etiquetas y sintaxis de script.\n\nSu ecosistema incluye Adobe ColdFusion, Lucee, componentes CFML, acceso a bases de datos, plantillas, correo, procesamiento de archivos y herramientas para aplicaciones de negocio de larga vida.",
+      "publishedDate": "1995-07-01",
+      "extensions": [".cfm", ".cfml", ".cfc"],
+      "author": "Allaire / Adobe",
+      "website": "https://www.adobe.com/products/coldfusion-family.html",
+      "paradigms": ["tag-based", "object-oriented", "scripting", "web"],
+      "tooling": {
+        "runtimes": ["Adobe ColdFusion", "Lucee"],
+        "packageManagers": ["CommandBox"],
+        "ecosystems": ["Web", "JVM", "Enterprise"]
+      },
+      "version": "ColdFusion 2025",
+      "logo": "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_cf.svg"
+    },
+    {
       "slug": "crystal",
       "name": "Crystal",
       "description": "A compiled, statically typed language with Ruby-inspired syntax and native performance.",
@@ -536,6 +659,27 @@
       },
       "version": "0.16.1",
       "logo": "https://avatars.githubusercontent.com/u/43867057?s=200&v=4"
+    },
+    {
+      "slug": "cython",
+      "name": "Cython",
+      "description": "A Python superset for compiling typed Python-like code into C extension modules.",
+      "longDescription": "Cython extends Python with optional static types, C declarations, and direct calls into C and C++ APIs, allowing Python code to be compiled into native extension modules.\n\nIt is widely used to speed up numeric code, wrap native libraries, build scientific Python packages, and write performance-sensitive components while keeping Python-like syntax.",
+      "esName": "Cython",
+      "esDescription": "Un superconjunto de Python para compilar codigo tipado similar a Python como extensiones en C.",
+      "esLongDescription": "Cython extiende Python con tipos estaticos opcionales, declaraciones de C y llamadas directas a APIs de C y C++, permitiendo compilar codigo Python en modulos de extension nativos.\n\nSe usa ampliamente para acelerar codigo numerico, envolver bibliotecas nativas, crear paquetes cientificos de Python y escribir componentes sensibles al rendimiento manteniendo una sintaxis parecida a Python.",
+      "publishedDate": "2007-07-28",
+      "extensions": [".pyx", ".pxd", ".pxi"],
+      "author": "Robert Bradshaw, Stefan Behnel, Dag Sverre Seljebotn, Greg Ewing, et al.",
+      "website": "https://cython.org",
+      "paradigms": ["object-oriented", "imperative", "procedural"],
+      "tooling": {
+        "runtimes": ["CPython"],
+        "packageManagers": ["pip", "conda", "Poetry"],
+        "ecosystems": ["Python", "Native Extensions", "Scientific Computing"]
+      },
+      "version": "3.1.4",
+      "logo": "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_cython.svg"
     },
     {
       "slug": "d",
@@ -642,6 +786,27 @@
       "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Elm_logo.svg"
     },
     {
+      "slug": "erb",
+      "name": "ERB",
+      "description": "A Ruby templating system for embedding Ruby code inside text documents.",
+      "longDescription": "ERB templates combine plain text, HTML, XML, or configuration output with embedded Ruby expressions and control flow markers.\n\nThey are commonly used in Ruby on Rails views, static site generators, configuration generation, email templates, and any Ruby workflow that needs programmable text rendering.",
+      "esName": "ERB",
+      "esDescription": "Un sistema de plantillas de Ruby para incrustar codigo Ruby dentro de documentos de texto.",
+      "esLongDescription": "Las plantillas ERB combinan texto plano, HTML, XML o salidas de configuracion con expresiones Ruby incrustadas y marcadores de control de flujo.\n\nSe usan comunmente en vistas de Ruby on Rails, generadores de sitios estaticos, generacion de configuracion, plantillas de correo y cualquier flujo Ruby que necesite renderizado programable de texto.",
+      "publishedDate": "2000-01-01",
+      "extensions": [".erb", ".rhtml", ".html.erb"],
+      "author": "Masatoshi Seki / Ruby",
+      "website": "https://ruby-doc.org/stdlib/erb/",
+      "paradigms": ["templating", "embedded", "markup"],
+      "tooling": {
+        "runtimes": ["Ruby", "Ruby on Rails"],
+        "packageManagers": ["RubyGems", "Bundler"],
+        "ecosystems": ["Web", "Ruby", "Static Sites"]
+      },
+      "version": "Ruby stdlib",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Ruby_logo.svg"
+    },
+    {
       "slug": "erlang",
       "name": "Erlang",
       "description": "A concurrent functional language for fault-tolerant, distributed, and highly available systems.",
@@ -703,6 +868,26 @@
       },
       "version": "1.6.1",
       "logo": "https://fennel-lang.org/logo.svg"
+    },
+    {
+      "slug": "forth",
+      "name": "Forth",
+      "description": "A stack-based extensible language used for embedded systems, firmware, and tooling.",
+      "longDescription": "Forth programs are built from small words that operate on a data stack, encouraging interactive development, compact runtimes, and language extension from within the program itself.\n\nIt has a long history in embedded systems, boot firmware, instrumentation, space hardware, and custom control environments where simplicity and direct hardware access matter.",
+      "esName": "Forth",
+      "esDescription": "Un lenguaje extensible basado en pila usado en sistemas embebidos, firmware y herramientas.",
+      "esLongDescription": "Los programas Forth se construyen con palabras pequenas que operan sobre una pila de datos, fomentando desarrollo interactivo, runtimes compactos y extension del lenguaje desde el propio programa.\n\nTiene una larga historia en sistemas embebidos, firmware de arranque, instrumentacion, hardware espacial y entornos de control personalizados donde importan la simplicidad y el acceso directo al hardware.",
+      "publishedDate": "1970-01-01",
+      "extensions": [".fs", ".fth", ".forth", ".4th"],
+      "author": "Charles H. Moore",
+      "website": "https://forth-standard.org",
+      "paradigms": ["stack-based", "concatenative", "procedural", "interactive"],
+      "tooling": {
+        "runtimes": ["Gforth", "SwiftForth", "VFX Forth"],
+        "ecosystems": ["Embedded", "Firmware", "Language Implementation"]
+      },
+      "version": "Forth 2012",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Gforth_Logo.png"
     },
     {
       "slug": "fortran",
@@ -1118,6 +1303,27 @@
       "tooling": {},
       "version": "RFC 8259",
       "logo": "https://www.json.org/img/json160.gif"
+    },
+    {
+      "slug": "jsonnet",
+      "name": "Jsonnet",
+      "description": "A data templating language for generating JSON and related configuration formats.",
+      "longDescription": "Jsonnet adds variables, functions, imports, conditionals, object composition, and other programming constructs to a JSON-like syntax for generating structured data.\n\nIt is commonly used for Kubernetes manifests, infrastructure configuration, application settings, and reusable configuration libraries where plain JSON becomes repetitive.",
+      "esName": "Jsonnet",
+      "esDescription": "Un lenguaje de plantillas de datos para generar JSON y formatos de configuracion relacionados.",
+      "esLongDescription": "Jsonnet agrega variables, funciones, imports, condicionales, composicion de objetos y otros constructos de programacion a una sintaxis similar a JSON para generar datos estructurados.\n\nSe usa comunmente en manifiestos de Kubernetes, configuracion de infraestructura, ajustes de aplicaciones y bibliotecas reutilizables de configuracion cuando JSON plano se vuelve repetitivo.",
+      "publishedDate": "2014-04-01",
+      "extensions": [".jsonnet", ".libsonnet"],
+      "author": "Google",
+      "website": "https://jsonnet.org",
+      "paradigms": ["functional", "declarative", "configuration"],
+      "tooling": {
+        "runtimes": ["Jsonnet", "go-jsonnet"],
+        "packageManagers": ["jsonnet-bundler"],
+        "ecosystems": ["Configuration", "Kubernetes", "Infrastructure"]
+      },
+      "version": "0.21.0",
+      "logo": "https://jsonnet.org/img/isologo.svg"
     },
     {
       "slug": "julia",

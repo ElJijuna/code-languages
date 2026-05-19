@@ -1,11 +1,16 @@
 import { abap } from "./languages/abap";
 import { actionscript } from "./languages/actionscript";
 import { ada } from "./languages/ada";
+import { antlr } from "./languages/antlr";
 import { apex } from "./languages/apex";
+import { apl } from "./languages/apl";
+import { applescript } from "./languages/applescript";
+import { arduino } from "./languages/arduino";
 import { asciidoc } from "./languages/asciidoc";
 import { asp } from "./languages/asp";
 import { assembly } from "./languages/assembly";
 import { astro } from "./languages/astro";
+import { autohotkey } from "./languages/autohotkey";
 import { awk } from "./languages/awk";
 import { bash } from "./languages/bash";
 import { batch } from "./languages/batch";
@@ -17,19 +22,23 @@ import { clojure } from "./languages/clojure";
 import { cmake } from "./languages/cmake";
 import { cobol } from "./languages/cobol";
 import { coffeescript } from "./languages/coffeescript";
+import { coldfusion } from "./languages/coldfusion";
 import { cpp } from "./languages/cpp";
 import { crystal } from "./languages/crystal";
 import { csharp } from "./languages/csharp";
 import { css } from "./languages/css";
 import { cuda } from "./languages/cuda";
 import { cue } from "./languages/cue";
+import { cython } from "./languages/cython";
 import { d } from "./languages/d";
 import { dart } from "./languages/dart";
 import { dockerfile } from "./languages/dockerfile";
 import { elixir } from "./languages/elixir";
 import { elm } from "./languages/elm";
+import { erb } from "./languages/erb";
 import { erlang } from "./languages/erlang";
 import { fennel } from "./languages/fennel";
+import { forth } from "./languages/forth";
 import { fortran } from "./languages/fortran";
 import { fsharp } from "./languages/fsharp";
 import { gdscript } from "./languages/gdscript";
@@ -51,6 +60,7 @@ import { java } from "./languages/java";
 import { javascript } from "./languages/javascript";
 import { jinja } from "./languages/jinja";
 import { json } from "./languages/json";
+import { jsonnet } from "./languages/jsonnet";
 import { julia } from "./languages/julia";
 import { jupyterNotebook } from "./languages/jupyter-notebook";
 import { kotlin } from "./languages/kotlin";
@@ -120,12 +130,17 @@ export const languages = [
   abap,
   actionscript,
   ada,
+  antlr,
   apex,
+  apl,
+  applescript,
+  arduino,
   asciidoc,
   asp,
   astro,
   assembly,
   awk,
+  autohotkey,
   bash,
   batch,
   bazel,
@@ -135,6 +150,7 @@ export const languages = [
   cmake,
   clojure,
   coffeescript,
+  coldfusion,
   cobol,
   cpp,
   csharp,
@@ -142,14 +158,17 @@ export const languages = [
   css,
   cue,
   cuda,
+  cython,
   d,
   dart,
   dockerfile,
   elixir,
   elm,
+  erb,
   erlang,
   fennel,
   fortran,
+  forth,
   fsharp,
   gdscript,
   git,
@@ -170,6 +189,7 @@ export const languages = [
   javascript,
   jinja,
   json,
+  jsonnet,
   jupyterNotebook,
   julia,
   kotlin,

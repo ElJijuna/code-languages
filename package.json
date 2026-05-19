@@ -561,10 +561,35 @@
       "import": "./dist/languages/ada.js",
       "require": "./dist/languages/ada.cjs"
     },
+    "./antlr": {
+      "types": "./dist/languages/antlr.d.ts",
+      "import": "./dist/languages/antlr.js",
+      "require": "./dist/languages/antlr.cjs"
+    },
     "./apex": {
       "types": "./dist/languages/apex.d.ts",
       "import": "./dist/languages/apex.js",
       "require": "./dist/languages/apex.cjs"
+    },
+    "./apl": {
+      "types": "./dist/languages/apl.d.ts",
+      "import": "./dist/languages/apl.js",
+      "require": "./dist/languages/apl.cjs"
+    },
+    "./applescript": {
+      "types": "./dist/languages/applescript.d.ts",
+      "import": "./dist/languages/applescript.js",
+      "require": "./dist/languages/applescript.cjs"
+    },
+    "./arduino": {
+      "types": "./dist/languages/arduino.d.ts",
+      "import": "./dist/languages/arduino.js",
+      "require": "./dist/languages/arduino.cjs"
+    },
+    "./autohotkey": {
+      "types": "./dist/languages/autohotkey.d.ts",
+      "import": "./dist/languages/autohotkey.js",
+      "require": "./dist/languages/autohotkey.cjs"
     },
     "./awk": {
       "types": "./dist/languages/awk.d.ts",
@@ -576,15 +601,35 @@
       "import": "./dist/languages/clojure.js",
       "require": "./dist/languages/clojure.cjs"
     },
+    "./coldfusion": {
+      "types": "./dist/languages/coldfusion.d.ts",
+      "import": "./dist/languages/coldfusion.js",
+      "require": "./dist/languages/coldfusion.cjs"
+    },
+    "./cython": {
+      "types": "./dist/languages/cython.d.ts",
+      "import": "./dist/languages/cython.js",
+      "require": "./dist/languages/cython.cjs"
+    },
     "./d": {
       "types": "./dist/languages/d.d.ts",
       "import": "./dist/languages/d.js",
       "require": "./dist/languages/d.cjs"
     },
+    "./erb": {
+      "types": "./dist/languages/erb.d.ts",
+      "import": "./dist/languages/erb.js",
+      "require": "./dist/languages/erb.cjs"
+    },
     "./fennel": {
       "types": "./dist/languages/fennel.d.ts",
       "import": "./dist/languages/fennel.js",
       "require": "./dist/languages/fennel.cjs"
+    },
+    "./forth": {
+      "types": "./dist/languages/forth.d.ts",
+      "import": "./dist/languages/forth.js",
+      "require": "./dist/languages/forth.cjs"
     },
     "./gleam": {
       "types": "./dist/languages/gleam.d.ts",
@@ -595,6 +640,11 @@
       "types": "./dist/languages/haxe.d.ts",
       "import": "./dist/languages/haxe.js",
       "require": "./dist/languages/haxe.cjs"
+    },
+    "./jsonnet": {
+      "types": "./dist/languages/jsonnet.d.ts",
+      "import": "./dist/languages/jsonnet.js",
+      "require": "./dist/languages/jsonnet.cjs"
     },
     "./nim": {
       "types": "./dist/languages/nim.d.ts",

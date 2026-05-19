@@ -10,6 +10,11 @@ const manualChecks = {
     "ActionScript is effectively stable at 3.0 and should be reviewed manually against Adobe AIR and Flash platform documentation.",
   ada: "Ada standards should be reviewed manually against ISO/IEC 8652 and Ada Resource Association publications.",
   apex: "Apex API versions are tied to Salesforce seasonal platform releases and should be reviewed manually against Salesforce release notes.",
+  apl: "APL language versioning is implementation-specific; review ISO/IEC 13751 and major implementation release notes manually.",
+  applescript:
+    "AppleScript is tied to macOS platform documentation and should be reviewed manually against Apple Developer documentation.",
+  arduino:
+    "Arduino Sketch metadata is tied to Arduino API and board core releases rather than one independent language version.",
   asciidoc:
     "AsciiDoc language standardization is still pre-spec and should be reviewed manually against asciidoc.org and Asciidoctor releases.",
   assembly:
@@ -19,11 +24,16 @@ const manualChecks = {
     "Batch is tied to DOS and Windows Command Processor releases rather than an independent language version.",
   blade:
     "Blade versions are tied to Laravel framework releases and should be reviewed manually against Laravel documentation.",
+  coldfusion:
+    "ColdFusion versions are tied to Adobe ColdFusion and CFML platform releases and should be reviewed manually.",
   cobol: "COBOL standards should be reviewed manually against ISO/IEC 1989 publications.",
   cpp: "ISO standards do not expose a stable free machine-readable latest-version endpoint.",
   css: "CSS is maintained as living specifications rather than one package version.",
   dockerfile:
     "Dockerfile syntax versions depend on the BuildKit frontend image and should be reviewed manually.",
+  erb: "ERB ships with Ruby's standard library and should be reviewed manually against Ruby stdlib documentation.",
+  forth:
+    "Forth standards and implementation versions should be reviewed manually against forth-standard.org and major implementation releases.",
   fortran:
     "Fortran standards should be reviewed manually against ISO/IEC JTC1/SC22/WG5 publications.",
   hlsl: "HLSL shader model support should be reviewed manually against Microsoft DirectX Shader Model documentation.",
@@ -68,6 +78,14 @@ const checkers = {
       sourceUrl: "https://registry.npmjs.org/astro/latest",
     };
   },
+  async antlr() {
+    const json = await fetchJson("https://api.github.com/repos/antlr/antlr4/releases/latest");
+
+    return {
+      latestVersion: normalizeVersion(json.tag_name),
+      sourceUrl: "https://api.github.com/repos/antlr/antlr4/releases/latest",
+    };
+  },
   async asp() {
     const html = await fetchText(
       "https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-framework",
@@ -88,6 +106,16 @@ const checkers = {
     return {
       latestVersion: `GNU Awk ${latestSemver(versions)}`,
       sourceUrl: "https://ftp.gnu.org/gnu/gawk/",
+    };
+  },
+  async autohotkey() {
+    const json = await fetchJson(
+      "https://api.github.com/repos/AutoHotkey/AutoHotkey/releases/latest",
+    );
+
+    return {
+      latestVersion: majorMinor(normalizeVersion(json.tag_name)),
+      sourceUrl: "https://api.github.com/repos/AutoHotkey/AutoHotkey/releases/latest",
     };
   },
   async bash() {
@@ -159,6 +187,14 @@ const checkers = {
     return {
       latestVersion: latestSemver(versions),
       sourceUrl: "https://developer.nvidia.com/cuda-toolkit-archive",
+    };
+  },
+  async cython() {
+    const json = await fetchJson("https://pypi.org/pypi/Cython/json");
+
+    return {
+      latestVersion: json.info?.version,
+      sourceUrl: "https://pypi.org/pypi/Cython/json",
     };
   },
   async crystal() {
@@ -328,6 +364,14 @@ const checkers = {
     return {
       latestVersion: json.version,
       sourceUrl: "https://registry.npmjs.org/handlebars/latest",
+    };
+  },
+  async jsonnet() {
+    const json = await fetchJson("https://api.github.com/repos/google/jsonnet/releases/latest");
+
+    return {
+      latestVersion: normalizeVersion(json.tag_name),
+      sourceUrl: "https://api.github.com/repos/google/jsonnet/releases/latest",
     };
   },
   async haskell() {

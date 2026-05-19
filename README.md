@@ -48,11 +48,16 @@ Import multiple languages:
 import { abap } from "code-languages/abap";
 import { actionscript } from "code-languages/actionscript";
 import { ada } from "code-languages/ada";
+import { antlr } from "code-languages/antlr";
 import { apex } from "code-languages/apex";
+import { apl } from "code-languages/apl";
+import { applescript } from "code-languages/applescript";
+import { arduino } from "code-languages/arduino";
 import { asciidoc } from "code-languages/asciidoc";
 import { asp } from "code-languages/asp";
 import { astro } from "code-languages/astro";
 import { assembly } from "code-languages/assembly";
+import { autohotkey } from "code-languages/autohotkey";
 import { awk } from "code-languages/awk";
 import { bash } from "code-languages/bash";
 import { batch } from "code-languages/batch";
@@ -63,6 +68,7 @@ import { c } from "code-languages/c";
 import { clojure } from "code-languages/clojure";
 import { cmake } from "code-languages/cmake";
 import { coffeescript } from "code-languages/coffeescript";
+import { coldfusion } from "code-languages/coldfusion";
 import { cobol } from "code-languages/cobol";
 import { cpp } from "code-languages/cpp";
 import { csharp } from "code-languages/csharp";
@@ -70,13 +76,16 @@ import { crystal } from "code-languages/crystal";
 import { css } from "code-languages/css";
 import { cue } from "code-languages/cue";
 import { cuda } from "code-languages/cuda";
+import { cython } from "code-languages/cython";
 import { d } from "code-languages/d";
 import { dart } from "code-languages/dart";
 import { dockerfile } from "code-languages/dockerfile";
 import { elixir } from "code-languages/elixir";
 import { elm } from "code-languages/elm";
+import { erb } from "code-languages/erb";
 import { erlang } from "code-languages/erlang";
 import { fennel } from "code-languages/fennel";
+import { forth } from "code-languages/forth";
 import { fortran } from "code-languages/fortran";
 import { fsharp } from "code-languages/fsharp";
 import { gdscript } from "code-languages/gdscript";
@@ -96,6 +105,7 @@ import { ini } from "code-languages/ini";
 import { javascript } from "code-languages/javascript";
 import { java } from "code-languages/java";
 import { jinja } from "code-languages/jinja";
+import { jsonnet } from "code-languages/jsonnet";
 import { julia } from "code-languages/julia";
 import { kotlin } from "code-languages/kotlin";
 import { less } from "code-languages/less";
@@ -157,11 +167,16 @@ import { zsh } from "code-languages/zsh";
 console.log(abap.version);
 console.log(actionscript.extensions);
 console.log(ada.version);
+console.log(antlr.extensions);
 console.log(apex.extensions);
+console.log(apl.version);
+console.log(applescript.extensions);
+console.log(arduino.version);
 console.log(asciidoc.extensions);
 console.log(asp.extensions);
 console.log(astro.version);
 console.log(assembly.extensions);
+console.log(autohotkey.extensions);
 console.log(awk.version);
 console.log(bash.version);
 console.log(batch.extensions);
@@ -172,17 +187,21 @@ console.log(c.extensions);
 console.log(clojure.version);
 console.log(cmake.extensions);
 console.log(coffeescript.version);
+console.log(coldfusion.version);
 console.log(cpp.i18n.en.name);
 console.log(csharp.website);
 console.log(crystal.version);
 console.log(css.paradigms);
 console.log(cue.version);
 console.log(cuda.version);
+console.log(cython.extensions);
 console.log(d.version);
 console.log(dockerfile.i18n.en.name);
 console.log(elm.version);
+console.log(erb.extensions);
 console.log(erlang.version);
 console.log(fennel.extensions);
+console.log(forth.version);
 console.log(fortran.extensions);
 console.log(fsharp.version);
 console.log(gdscript.extensions);
@@ -201,6 +220,7 @@ console.log(ini.extensions);
 console.log(javascript.website);
 console.log(java.version);
 console.log(jinja.version);
+console.log(jsonnet.version);
 console.log(jupyterNotebook.extensions);
 console.log(julia.version);
 console.log(kotlin.version);
@@ -266,11 +286,16 @@ import {
   abap,
   actionscript,
   ada,
+  antlr,
   apex,
+  apl,
+  applescript,
+  arduino,
   asciidoc,
   asp,
   astro,
   assembly,
+  autohotkey,
   awk,
   bash,
   bazel,
@@ -280,20 +305,24 @@ import {
   clojure,
   cmake,
   coffeescript,
+  coldfusion,
   cpp,
   csharp,
   crystal,
   css,
   cue,
   cuda,
+  cython,
   d,
   detectLanguage,
   detectLanguages,
   dockerfile,
   elixir,
   elm,
+  erb,
   erlang,
   fennel,
+  forth,
   fortran,
   fsharp,
   gdscript,
@@ -312,6 +341,7 @@ import {
   java,
   jinja,
   json,
+  jsonnet,
   jupyterNotebook,
   julia,
   kotlin,
@@ -375,11 +405,16 @@ import {
 console.log(localizeLanguage(abap).description);
 console.log(localizeLanguage(actionscript, "es").description);
 console.log(localizeLanguage(ada, "es").description);
+console.log(localizeLanguage(antlr, "es").description);
 console.log(localizeLanguage(apex, "es").description);
+console.log(localizeLanguage(apl, "es").description);
+console.log(localizeLanguage(applescript, "es").description);
+console.log(localizeLanguage(arduino, "es").description);
 console.log(localizeLanguage(asciidoc, "es").description);
 console.log(localizeLanguage(asp, "es").description);
 console.log(localizeLanguage(astro, "es").description);
 console.log(localizeLanguage(assembly).description);
+console.log(localizeLanguage(autohotkey, "es").description);
 console.log(localizeLanguage(awk, "es").description);
 console.log(detectLanguage("src/index.ts")?.slug);
 console.log(detectLanguages("include/config.h").map((language) => language.slug));
@@ -391,18 +426,22 @@ console.log(c.version);
 console.log(localizeLanguage(clojure, "es").description);
 console.log(localizeLanguage(cmake).description);
 console.log(localizeLanguage(coffeescript).name);
+console.log(localizeLanguage(coldfusion, "es").description);
 console.log(cpp.website);
 console.log(localizeLanguage(csharp).description);
 console.log(localizeLanguage(crystal, "es").description);
 console.log(localizeLanguage(css).name);
 console.log(localizeLanguage(cue, "es").description);
 console.log(localizeLanguage(cuda, "es").description);
+console.log(localizeLanguage(cython, "es").description);
 console.log(localizeLanguage(d, "es").description);
 console.log(dockerfile.website);
 console.log(localizeLanguage(elixir, "es").description);
 console.log(localizeLanguage(elm, "es").description);
+console.log(localizeLanguage(erb, "es").description);
 console.log(localizeLanguage(erlang, "es").description);
 console.log(localizeLanguage(fennel, "es").description);
+console.log(localizeLanguage(forth, "es").description);
 console.log(localizeLanguage(fortran).description);
 console.log(localizeLanguage(fsharp, "es").description);
 console.log(localizeLanguage(gdscript, "es").description);
@@ -418,6 +457,7 @@ console.log(localizeLanguage(hlsl, "es").description);
 console.log(localizeLanguage(ini, "es").description);
 console.log(localizeLanguage(java).name);
 console.log(localizeLanguage(jinja, "es").description);
+console.log(localizeLanguage(jsonnet, "es").description);
 console.log(html.website);
 console.log(localizeLanguage(julia, "es").description);
 console.log(localizeLanguage(kotlin, "es-PE").description);
@@ -568,11 +608,16 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg" alt="ABAP logo" width="24" height="24"> | ABAP | `abap` | `.abap` | `ABAP Platform 2025 FPS01` | `code-languages/abap` |
 | <img src="https://icons.iconarchive.com/icons/fatcow/farm-fresh/32/page-white-actionscript-icon.png" alt="ActionScript logo" width="24" height="24"> | ActionScript | `actionscript` | `.as` | `3.0` | `code-languages/actionscript` |
 | <img src="https://cdn.simpleicons.org/ada/02F88C" alt="Ada logo" width="24" height="24"> | Ada | `ada` | `.adb`, `.ads`, `.ada` | `Ada 2022` | `code-languages/ada` |
+| <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_antlr.svg" alt="ANTLR Grammar logo" width="24" height="24"> | ANTLR Grammar | `antlr` | `.g4` | `4.13.2` | `code-languages/antlr` |
 | <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Salesforce.com_logo.svg" alt="Apex logo" width="24" height="24"> | Apex | `apex` | `.cls`, `.trigger` | `API 66.0` | `code-languages/apex` |
+| <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_apl.svg" alt="APL logo" width="24" height="24"> | APL | `apl` | `.apl`, `.dyalog` | `ISO/IEC 13751:2001` | `code-languages/apl` |
+| <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_applescript.svg" alt="AppleScript logo" width="24" height="24"> | AppleScript | `applescript` | `.applescript`, `.scpt`, `.scptd` | `2.8` | `code-languages/applescript` |
+| <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_arduino.svg" alt="Arduino Sketch logo" width="24" height="24"> | Arduino Sketch | `arduino` | `.ino`, `.pde` | `Arduino API 1.0` | `code-languages/arduino` |
 | <img src="https://cdn.simpleicons.org/asciidoctor/E40046" alt="AsciiDoc logo" width="24" height="24"> | AsciiDoc | `asciidoc` | `.adoc`, `.asciidoc`, `.asc` | `pre-spec` | `code-languages/asciidoc` |
 | <img src="https://cdn.simpleicons.org/dotnet/512BD4" alt="ASP/ASPX logo" width="24" height="24"> | ASP/ASPX | `asp` | `.asp`, `.aspx`, `.ascx`, `.ashx`, `.asmx`, `.master` | `4.8.1` | `code-languages/asp` |
 | <img src="https://astro.build/assets/press/astro-icon-light.svg" alt="Astro logo" width="24" height="24"> | Astro | `astro` | `.astro` | `6.3.3` | `code-languages/astro` |
 | <img src="https://cdn.simpleicons.org/assemblyscript/007AAC" alt="Assembly logo" width="24" height="24"> | Assembly | `assembly` | `.asm`, `.s`, `.S`, `.inc` | `Architecture-specific` | `code-languages/assembly` |
+| <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_autohotkey.svg" alt="AutoHotkey logo" width="24" height="24"> | AutoHotkey | `autohotkey` | `.ahk`, `.ah2` | `2.0` | `code-languages/autohotkey` |
 | <img src="https://www.gnu.org/graphics/heckert_gnu.small.png" alt="awk logo" width="24" height="24"> | awk | `awk` | `.awk` | `GNU Awk 5.4.0` | `code-languages/awk` |
 | <img src="https://bashlogo.com/img/symbol/svg/full_colored_dark.svg" alt="Bash logo" width="24" height="24"> | Bash | `bash` | `.sh`, `.bash`, `.bashrc`, `.bash_profile`, `.bash_login`, `.profile` | `5.3` | `code-languages/bash` |
 | <img src="https://icons.iconarchive.com/icons/simpleicons-team/simple/128/windowsterminal-icon.png" alt="Batch logo" width="24" height="24"> | Batch | `batch` | `.bat`, `.cmd` | `Windows Command Processor` | `code-languages/batch` |
@@ -583,6 +628,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | <img src="https://cmake.org/wp-content/uploads/2023/08/CMake-Logo.svg" alt="CMake logo" width="24" height="24"> | CMake | `cmake` | `CMakeLists.txt`, `.cmake` | `4.3.2` | `code-languages/cmake` |
 | <img src="https://cdn.simpleicons.org/clojure/5881D8" alt="Clojure logo" width="24" height="24"> | Clojure | `clojure` | `.clj`, `.cljs`, `.cljc`, `.edn`, `.bb` | `1.12.5` | `code-languages/clojure` |
 | <img src="https://cdn.simpleicons.org/coffeescript/2F2625" alt="CoffeeScript logo" width="24" height="24"> | CoffeeScript | `coffeescript` | `.coffee`, `.litcoffee`, `.cson` | `2.7.0` | `code-languages/coffeescript` |
+| <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_cf.svg" alt="ColdFusion logo" width="24" height="24"> | ColdFusion | `coldfusion` | `.cfm`, `.cfml`, `.cfc` | `ColdFusion 2025` | `code-languages/coldfusion` |
 | <img src="https://logo.svgcdn.com/devicon/cobol-original.png" alt="COBOL logo" width="24" height="24"> | COBOL | `cobol` | `.cob`, `.cbl`, `.cobol`, `.cpy` | `ISO/IEC 1989:2023` | `code-languages/cobol` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="C++ logo" width="24" height="24"> | C++ | `cpp` | `.cpp`, `.cc`, `.cxx`, `.h`, `.hpp`, `.hh`, `.hxx` | `C++23` | `code-languages/cpp` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_C_sharp.svg" alt="C# logo" width="24" height="24"> | C# | `csharp` | `.cs`, `.csx` | `14` | `code-languages/csharp` |
@@ -590,13 +636,16 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Official_CSS_Logo.svg" alt="CSS logo" width="24" height="24"> | CSS | `css` | `.css` | `Living Standard` | `code-languages/css` |
 | <img src="https://avatars.githubusercontent.com/u/43867057?s=200&v=4" alt="CUE logo" width="24" height="24"> | CUE | `cue` | `.cue` | `0.16.1` | `code-languages/cue` |
 | <img src="https://cdn.simpleicons.org/nvidia/76B900" alt="CUDA logo" width="24" height="24"> | CUDA | `cuda` | `.cu`, `.cuh` | `13.2.1` | `code-languages/cuda` |
+| <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_cython.svg" alt="Cython logo" width="24" height="24"> | Cython | `cython` | `.pyx`, `.pxd`, `.pxi` | `3.1.4` | `code-languages/cython` |
 | <img src="https://cdn.simpleicons.org/d/BA595E" alt="D logo" width="24" height="24"> | D | `d` | `.d`, `.di` | `2.112.0` | `code-languages/d` |
 | <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Dart_programming_language_logo.svg" alt="Dart logo" width="24" height="24"> | Dart | `dart` | `.dart` | `3.11.6` | `code-languages/dart` |
 | <img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="Dockerfile logo" width="24" height="24"> | Dockerfile | `dockerfile` | `Dockerfile`, `.dockerfile` | `1.10` | `code-languages/dockerfile` |
 | <img src="https://cdn.simpleicons.org/elixir/4B275F" alt="Elixir logo" width="24" height="24"> | Elixir | `elixir` | `.ex`, `.exs`, `.eex`, `.leex`, `.heex` | `1.19.5` | `code-languages/elixir` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Elm_logo.svg" alt="Elm logo" width="24" height="24"> | Elm | `elm` | `.elm` | `0.19.1` | `code-languages/elm` |
+| <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ruby_logo.svg" alt="ERB logo" width="24" height="24"> | ERB | `erb` | `.erb`, `.rhtml`, `.html.erb` | `Ruby stdlib` | `code-languages/erb` |
 | <img src="https://cdn.simpleicons.org/erlang/A90533" alt="Erlang logo" width="24" height="24"> | Erlang | `erlang` | `.erl`, `.hrl`, `.app.src`, `.escript`, `.xrl`, `.yrl`, `rebar.config` | `OTP 29.0` | `code-languages/erlang` |
 | <img src="https://fennel-lang.org/logo.svg" alt="Fennel logo" width="24" height="24"> | Fennel | `fennel` | `.fnl` | `1.6.1` | `code-languages/fennel` |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Gforth_Logo.png" alt="Forth logo" width="24" height="24"> | Forth | `forth` | `.fs`, `.fth`, `.forth`, `.4th` | `Forth 2012` | `code-languages/forth` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Fortran_logo.svg" alt="Fortran logo" width="24" height="24"> | Fortran | `fortran` | `.f`, `.for`, `.ftn`, `.f90`, `.f95`, `.f03`, `.f08`, `.f18`, `.f23` | `Fortran 2023` | `code-languages/fortran` |
 | <img src="https://cdn.simpleicons.org/fsharp/378BBA" alt="F# logo" width="24" height="24"> | F# | `fsharp` | `.fs`, `.fsi`, `.fsx`, `.fsscript` | `10` | `code-languages/fsharp` |
 | <img src="https://cdn.simpleicons.org/godotengine/478CBF" alt="GDScript logo" width="24" height="24"> | GDScript | `gdscript` | `.gd` | `4.6` | `code-languages/gdscript` |
@@ -618,6 +667,7 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 | <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript logo" width="24" height="24"> | JavaScript | `javascript` | `.js`, `.mjs`, `.cjs`, `.jsx` | `ECMAScript 2025` | `code-languages/javascript` |
 | <img src="https://cdn.simpleicons.org/jinja/B41717" alt="Jinja logo" width="24" height="24"> | Jinja | `jinja` | `.jinja`, `.jinja2`, `.j2` | `3.1.6` | `code-languages/jinja` |
 | <img src="https://www.json.org/img/json160.gif" alt="JSON logo" width="24" height="24"> | JSON | `json` | `.json` | `RFC 8259` | `code-languages/json` |
+| <img src="https://jsonnet.org/img/isologo.svg" alt="Jsonnet logo" width="24" height="24"> | Jsonnet | `jsonnet` | `.jsonnet`, `.libsonnet` | `0.21.0` | `code-languages/jsonnet` |
 | <img src="https://cdn.simpleicons.org/jupyter/F37626" alt="Jupyter Notebook logo" width="24" height="24"> | Jupyter Notebook | `jupyter-notebook` | `.ipynb` | `nbformat 4.5` | `code-languages/jupyter-notebook` |
 | <img src="https://cdn.simpleicons.org/julia/9558B2" alt="Julia logo" width="24" height="24"> | Julia | `julia` | `.jl` | `1.12.6` | `code-languages/julia` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" alt="Kotlin logo" width="24" height="24"> | Kotlin | `kotlin` | `.kt`, `.kts` | `2.3.20` | `code-languages/kotlin` |
