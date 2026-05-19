@@ -1,3 +1,11 @@
+## [1.20.5](https://github.com/ElJijuna/code-languages/compare/v1.20.4...v1.20.5) (2026-05-19)
+
+
+### Bug Fixes
+
+* update Rego metadata to OPA 1.16.2 ([cf445dd](https://github.com/ElJijuna/code-languages/commit/cf445dd7e370d92f93ae084b8eca9cd3239e3e2e))
+* update Rego metadata to OPA 1.16.2 ([db7ec70](https://github.com/ElJijuna/code-languages/commit/db7ec70f6fbc45c15f62cc9e1ea63811b2b726af))
+
 ## [1.20.4](https://github.com/ElJijuna/code-languages/compare/v1.20.3...v1.20.4) (2026-05-19)
 
 
