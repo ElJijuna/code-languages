@@ -3,6 +3,9 @@ import { join } from "node:path";
 
 const languagesDir = "src/languages";
 const reportPath = "language-version-report.json";
+const githubRequestDelayMs = Number(process.env.GITHUB_REQUEST_DELAY_MS ?? "1200");
+const githubRateLimitMaxWaitMs = Number(process.env.GITHUB_RATE_LIMIT_MAX_WAIT_MS ?? "60000");
+let nextGithubRequestAt = 0;
 
 const manualChecks = {
   abap: "ABAP Platform releases should be reviewed manually against SAP Help Portal because the source page is rendered dynamically.",
@@ -1303,7 +1306,7 @@ async function fetchText(url) {
 }
 
 async function fetchWithHeaders(url) {
-  const response = await fetch(url, {
+  const response = await fetchUrl(url, {
     headers: {
       Accept: "application/json, text/plain, */*",
       "User-Agent": "code-languages-version-check",
@@ -1318,7 +1321,7 @@ async function fetchWithHeaders(url) {
 }
 
 async function githubRequest(path, { allowNotFound = false, body, method = "GET", token }) {
-  const response = await fetch(`https://api.github.com${path}`, {
+  const response = await fetchUrl(`https://api.github.com${path}`, {
     method,
     headers: {
       Accept: "application/vnd.github+json",
@@ -1340,6 +1343,75 @@ async function githubRequest(path, { allowNotFound = false, body, method = "GET"
   }
 
   return response.json();
+}
+
+async function fetchUrl(url, options) {
+  const isGitHubApi = isGitHubApiUrl(url);
+
+  if (isGitHubApi) {
+    await waitForGitHubRequestSlot();
+  }
+
+  const response = await fetch(url, options);
+
+  if (isGitHubApi && shouldRetryGitHubRateLimit(response)) {
+    const waitMs = getGitHubRateLimitWaitMs(response);
+
+    if (waitMs > 0 && waitMs <= githubRateLimitMaxWaitMs) {
+      console.log(`GitHub rate limit reached. Retrying in ${Math.ceil(waitMs / 1000)}s.`);
+      await sleep(waitMs);
+      await waitForGitHubRequestSlot();
+
+      return fetch(url, options);
+    }
+  }
+
+  return response;
+}
+
+function isGitHubApiUrl(url) {
+  return String(url).startsWith("https://api.github.com/");
+}
+
+async function waitForGitHubRequestSlot() {
+  if (!Number.isFinite(githubRequestDelayMs) || githubRequestDelayMs <= 0) {
+    return;
+  }
+
+  const now = Date.now();
+  const waitMs = Math.max(0, nextGithubRequestAt - now);
+  nextGithubRequestAt = Math.max(now, nextGithubRequestAt) + githubRequestDelayMs;
+
+  if (waitMs > 0) {
+    await sleep(waitMs);
+  }
+}
+
+function shouldRetryGitHubRateLimit(response) {
+  return (
+    (response.status === 403 || response.status === 429) &&
+    (response.headers.get("x-ratelimit-remaining") === "0" || response.headers.has("retry-after"))
+  );
+}
+
+function getGitHubRateLimitWaitMs(response) {
+  const retryAfterSeconds = Number(response.headers.get("retry-after"));
+
+  if (Number.isFinite(retryAfterSeconds) && retryAfterSeconds > 0) {
+    return retryAfterSeconds * 1000;
+  }
+
+  const resetSeconds = Number(response.headers.get("x-ratelimit-reset"));
+
+  if (Number.isFinite(resetSeconds) && resetSeconds > 0) {
+    return Math.max(0, resetSeconds * 1000 - Date.now()) + 1000;
+  }
+
+  return 0;
+}
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 function latestSemver(versions) {
