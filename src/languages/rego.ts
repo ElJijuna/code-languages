@@ -12,7 +12,7 @@ export const rego = {
     packageManagers: ["OPA bundles"],
     ecosystems: ["Policy as Code", "Kubernetes", "Cloud Native", "Authorization"],
   },
-  version: "OPA 1.15.2",
+  version: "OPA 1.16.2",
   logo: "https://raw.githubusercontent.com/open-policy-agent/opa/main/logo/logo.svg",
   i18n: {
     en: {
