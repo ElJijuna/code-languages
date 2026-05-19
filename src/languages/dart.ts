@@ -12,7 +12,7 @@ export const dart = {
     packageManagers: ["pub"],
     ecosystems: ["Flutter", "Web", "Server-side"],
   },
-  version: "3.11.6",
+  version: "3.12.0",
   logo: "https://commons.wikimedia.org/wiki/Special:FilePath/Dart_programming_language_logo.svg",
   i18n: {
     en: {
