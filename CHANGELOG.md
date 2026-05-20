@@ -1,3 +1,17 @@
+## [1.20.6](https://github.com/ElJijuna/code-languages/compare/v1.20.5...v1.20.6) (2026-05-20)
+
+
+### Bug Fixes
+
+* update Astro metadata to 6.3.5 ([fde1a27](https://github.com/ElJijuna/code-languages/commit/fde1a27ad5384ef2c539044bdea77169308e9aae))
+* update Astro metadata to 6.3.5 ([542b33a](https://github.com/ElJijuna/code-languages/commit/542b33a4b5c7c28f6363a45c040f89f46bf0149c))
+* update Liquid metadata to 10.27.0 ([46fde6a](https://github.com/ElJijuna/code-languages/commit/46fde6a57b90dbcb702aaaf8742d7ad6885045d9))
+* update Liquid metadata to 10.27.0 ([18c896b](https://github.com/ElJijuna/code-languages/commit/18c896bf6c2ab6b3289cf583b55b50b2a551c3eb))
+* update Mermaid metadata to 11.15.0 ([da94215](https://github.com/ElJijuna/code-languages/commit/da94215a4e25a416394aee603c27b0ab95cbfcc0))
+* update Mermaid metadata to 11.15.0 ([4b6e248](https://github.com/ElJijuna/code-languages/commit/4b6e2489c113fd3b175e7789d71c8c8012f7d692))
+* update Nix metadata to 2.34.7 ([5410418](https://github.com/ElJijuna/code-languages/commit/541041800594618b283aa59a0c489d67dd8bb852))
+* update Nix metadata to 2.34.7 ([2309f94](https://github.com/ElJijuna/code-languages/commit/2309f945ceb6647b13e8ebb307e8d50b9e60960b))
+
 ## [1.20.5](https://github.com/ElJijuna/code-languages/compare/v1.20.4...v1.20.5) (2026-05-19)
 
 
