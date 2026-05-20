@@ -825,6 +825,7 @@ Common scripts:
 | `npm run bench` | Run manual performance benchmarks |
 | `npm run build` | Build ESM, CommonJS, and declaration files |
 | `npm run check` | Run lint, typecheck, and tests |
+| `npm run check:language-versions -- --language typescript` | Check release metadata for one language |
 | `npm run website:prepare` | Build the static website data, unit test summary, and benchmark summary |
 | `npm run website:serve` | Preview the static website locally |
 

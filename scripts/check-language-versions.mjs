@@ -163,13 +163,14 @@ const checkers = {
     };
   },
   async carbon() {
-    const json = await fetchJson(
-      "https://api.github.com/repos/carbon-language/carbon-lang/releases/latest",
+    const json = await fetchJson("https://api.github.com/repos/carbon-language/carbon-lang/tags");
+    const latestNightly = json.find((tag) =>
+      /^v0\.0\.0-0\.nightly\.\d{4}\.\d{2}\.\d{2}$/.test(tag.name),
     );
 
     return {
-      latestVersion: normalizeVersion(json.tag_name).replace(/-/g, " "),
-      sourceUrl: "https://api.github.com/repos/carbon-language/carbon-lang/releases/latest",
+      latestVersion: latestNightly ? "0.0.0 nightly" : undefined,
+      sourceUrl: "https://api.github.com/repos/carbon-language/carbon-lang/tags",
     };
   },
   async chapel() {
@@ -953,7 +954,7 @@ const checkers = {
 
 async function main() {
   const options = parseOptions(process.argv.slice(2));
-  const languages = await readLanguages();
+  const languages = await readLanguages(options.language);
   const report = await buildReport(languages);
 
   await writeFile(reportPath, `${JSON.stringify(report, null, 2)}\n`);
@@ -973,14 +974,38 @@ async function main() {
 }
 
 function parseOptions(args) {
+  const language = parseLanguageOption(args);
+
   return {
     createIssues: args.includes("--create-issues"),
     createPullRequests: args.includes("--create-pull-requests"),
     failOnError: args.includes("--fail-on-error"),
+    language,
   };
 }
 
-async function readLanguages() {
+function parseLanguageOption(args) {
+  const languageFlagIndex = args.indexOf("--language");
+  const languageFlagValue =
+    languageFlagIndex === -1 ? undefined : args[languageFlagIndex + 1]?.trim();
+  const inlineLanguageFlagValue = args
+    .find((arg) => arg.startsWith("--language="))
+    ?.slice("--language=".length)
+    .trim();
+  const language = inlineLanguageFlagValue || languageFlagValue;
+
+  if (!language) {
+    return undefined;
+  }
+
+  if (language.startsWith("--")) {
+    throw new Error("--language requires a language slug value");
+  }
+
+  return language;
+}
+
+async function readLanguages(languageSlug) {
   const files = await readdir(languagesDir);
   const languages = [];
 
@@ -996,7 +1021,17 @@ async function readLanguages() {
     }
   }
 
-  return languages;
+  if (!languageSlug) {
+    return languages;
+  }
+
+  const filteredLanguages = languages.filter((language) => language.slug === languageSlug);
+
+  if (filteredLanguages.length === 0) {
+    throw new Error(`Unknown language slug: ${languageSlug}`);
+  }
+
+  return filteredLanguages;
 }
 
 async function buildReport(languages) {
@@ -1609,4 +1644,9 @@ function printReport(report) {
   }
 }
 
-await main();
+try {
+  await main();
+} catch (error) {
+  console.error(error instanceof Error ? error.message : String(error));
+  process.exitCode = 1;
+}
