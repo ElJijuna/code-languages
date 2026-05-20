@@ -34,12 +34,14 @@ const manualChecks = {
   css: "CSS is maintained as living specifications rather than one package version.",
   dockerfile:
     "Dockerfile syntax versions depend on the BuildKit frontend image and should be reviewed manually.",
+  dita: "DITA specifications should be reviewed manually against OASIS publication history.",
   erb: "ERB ships with Ruby's standard library and should be reviewed manually against Ruby stdlib documentation.",
   forth:
     "Forth standards and implementation versions should be reviewed manually against forth-standard.org and major implementation releases.",
   fortran:
     "Fortran standards should be reviewed manually against ISO/IEC JTC1/SC22/WG5 publications.",
   hlsl: "HLSL shader model support should be reviewed manually against Microsoft DirectX Shader Model documentation.",
+  hack: "Hack versions are tied to HHVM platform releases and should be reviewed manually against HHVM release notes.",
   html: "HTML is maintained as a living standard.",
   ini: "INI is an informal configuration format without a single formal versioned specification.",
   javascript:
@@ -79,6 +81,15 @@ const checkers = {
     return {
       latestVersion: json.version,
       sourceUrl: "https://registry.npmjs.org/astro/latest",
+    };
+  },
+  async agda() {
+    const html = await fetchText("https://wiki.portal.chalmers.se/agda/Main/Download");
+    const match = html.match(/Version\s+(\d+\.\d+\.\d+)/i);
+
+    return {
+      latestVersion: match?.[1],
+      sourceUrl: "https://wiki.portal.chalmers.se/agda/Main/Download",
     };
   },
   async antlr() {
@@ -149,6 +160,32 @@ const checkers = {
     return {
       latestVersion: normalizeVersion(json.tag_name),
       sourceUrl: "https://api.github.com/repos/Azure/bicep/releases/latest",
+    };
+  },
+  async carbon() {
+    const json = await fetchJson(
+      "https://api.github.com/repos/carbon-language/carbon-lang/releases/latest",
+    );
+
+    return {
+      latestVersion: normalizeVersion(json.tag_name).replace(/-/g, " "),
+      sourceUrl: "https://api.github.com/repos/carbon-language/carbon-lang/releases/latest",
+    };
+  },
+  async chapel() {
+    const json = await fetchJson("https://api.github.com/repos/chapel-lang/chapel/releases/latest");
+
+    return {
+      latestVersion: normalizeVersion(json.tag_name),
+      sourceUrl: "https://api.github.com/repos/chapel-lang/chapel/releases/latest",
+    };
+  },
+  async circom() {
+    const json = await fetchJson("https://api.github.com/repos/iden3/circom/releases/latest");
+
+    return {
+      latestVersion: normalizeVersion(json.tag_name),
+      sourceUrl: "https://api.github.com/repos/iden3/circom/releases/latest",
     };
   },
   async csharp() {
@@ -234,6 +271,33 @@ const checkers = {
       latestVersion: json.version,
       sourceUrl:
         "https://storage.googleapis.com/dart-archive/channels/stable/release/latest/VERSION",
+    };
+  },
+  async coq() {
+    const html = await fetchText("https://rocq-prover.org/");
+    const match = html.match(/Latest Rocq Prover release:\s*(\d+\.\d+\.\d+)/i);
+
+    return {
+      latestVersion: match?.[1],
+      sourceUrl: "https://rocq-prover.org/",
+    };
+  },
+  async dhall() {
+    const json = await fetchJson(
+      "https://api.github.com/repos/dhall-lang/dhall-lang/releases/latest",
+    );
+
+    return {
+      latestVersion: normalizeVersion(json.tag_name),
+      sourceUrl: "https://api.github.com/repos/dhall-lang/dhall-lang/releases/latest",
+    };
+  },
+  async earthly() {
+    const json = await fetchJson("https://api.github.com/repos/earthly/earthly/releases/latest");
+
+    return {
+      latestVersion: normalizeVersion(json.tag_name),
+      sourceUrl: "https://api.github.com/repos/earthly/earthly/releases/latest",
     };
   },
   async d() {
@@ -397,6 +461,22 @@ const checkers = {
       sourceUrl: "https://haxe.org/download/list/",
     };
   },
+  async haml() {
+    const json = await fetchJson("https://rubygems.org/api/v1/versions/haml/latest.json");
+
+    return {
+      latestVersion: json.version,
+      sourceUrl: "https://rubygems.org/api/v1/versions/haml/latest.json",
+    };
+  },
+  async idris() {
+    const json = await fetchJson("https://api.github.com/repos/idris-lang/Idris2/releases/latest");
+
+    return {
+      latestVersion: normalizeVersion(json.tag_name),
+      sourceUrl: "https://api.github.com/repos/idris-lang/Idris2/releases/latest",
+    };
+  },
   async hcl() {
     const json = await fetchJson("https://api.github.com/repos/hashicorp/hcl/releases/latest");
 
@@ -423,6 +503,14 @@ const checkers = {
       sourceUrl: "https://pypi.org/pypi/Jinja2/json",
     };
   },
+  async janet() {
+    const json = await fetchJson("https://api.github.com/repos/janet-lang/janet/releases/latest");
+
+    return {
+      latestVersion: normalizeVersion(json.tag_name),
+      sourceUrl: "https://api.github.com/repos/janet-lang/janet/releases/latest",
+    };
+  },
   async julia() {
     const json = await fetchJson("https://api.github.com/repos/JuliaLang/julia/releases/latest");
 
@@ -437,6 +525,14 @@ const checkers = {
     return {
       latestVersion: normalizeVersion(json.tag_name),
       sourceUrl: "https://api.github.com/repos/JetBrains/kotlin/releases/latest",
+    };
+  },
+  async lean() {
+    const json = await fetchJson("https://api.github.com/repos/leanprover/lean4/releases/latest");
+
+    return {
+      latestVersion: normalizeVersion(json.tag_name),
+      sourceUrl: "https://api.github.com/repos/leanprover/lean4/releases/latest",
     };
   },
   async less() {
@@ -462,6 +558,23 @@ const checkers = {
     return {
       latestVersion: match?.[1],
       sourceUrl: "https://www.lua.org/download.html",
+    };
+  },
+  async "llvm-ir"() {
+    const html = await fetchText("https://llvm.org/");
+    const versions = [...html.matchAll(/LLVM\s+(\d+\.\d+\.\d+)/g)].map((match) => match[1]);
+
+    return {
+      latestVersion: latestSemver(versions),
+      sourceUrl: "https://llvm.org/",
+    };
+  },
+  async luau() {
+    const json = await fetchJson("https://api.github.com/repos/luau-lang/luau/releases/latest");
+
+    return {
+      latestVersion: normalizeVersion(json.tag_name),
+      sourceUrl: "https://api.github.com/repos/luau-lang/luau/releases/latest",
     };
   },
   async ocaml() {

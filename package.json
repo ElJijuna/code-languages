@@ -675,6 +675,81 @@
       "types": "./dist/languages/xslt.d.ts",
       "import": "./dist/languages/xslt.js",
       "require": "./dist/languages/xslt.cjs"
+    },
+    "./agda": {
+      "types": "./dist/languages/agda.d.ts",
+      "import": "./dist/languages/agda.js",
+      "require": "./dist/languages/agda.cjs"
+    },
+    "./carbon": {
+      "types": "./dist/languages/carbon.d.ts",
+      "import": "./dist/languages/carbon.js",
+      "require": "./dist/languages/carbon.cjs"
+    },
+    "./chapel": {
+      "types": "./dist/languages/chapel.d.ts",
+      "import": "./dist/languages/chapel.js",
+      "require": "./dist/languages/chapel.cjs"
+    },
+    "./circom": {
+      "types": "./dist/languages/circom.d.ts",
+      "import": "./dist/languages/circom.js",
+      "require": "./dist/languages/circom.cjs"
+    },
+    "./coq": {
+      "types": "./dist/languages/coq.d.ts",
+      "import": "./dist/languages/coq.js",
+      "require": "./dist/languages/coq.cjs"
+    },
+    "./dhall": {
+      "types": "./dist/languages/dhall.d.ts",
+      "import": "./dist/languages/dhall.js",
+      "require": "./dist/languages/dhall.cjs"
+    },
+    "./dita": {
+      "types": "./dist/languages/dita.d.ts",
+      "import": "./dist/languages/dita.js",
+      "require": "./dist/languages/dita.cjs"
+    },
+    "./earthly": {
+      "types": "./dist/languages/earthly.d.ts",
+      "import": "./dist/languages/earthly.js",
+      "require": "./dist/languages/earthly.cjs"
+    },
+    "./hack": {
+      "types": "./dist/languages/hack.d.ts",
+      "import": "./dist/languages/hack.js",
+      "require": "./dist/languages/hack.cjs"
+    },
+    "./haml": {
+      "types": "./dist/languages/haml.d.ts",
+      "import": "./dist/languages/haml.js",
+      "require": "./dist/languages/haml.cjs"
+    },
+    "./idris": {
+      "types": "./dist/languages/idris.d.ts",
+      "import": "./dist/languages/idris.js",
+      "require": "./dist/languages/idris.cjs"
+    },
+    "./janet": {
+      "types": "./dist/languages/janet.d.ts",
+      "import": "./dist/languages/janet.js",
+      "require": "./dist/languages/janet.cjs"
+    },
+    "./lean": {
+      "types": "./dist/languages/lean.d.ts",
+      "import": "./dist/languages/lean.js",
+      "require": "./dist/languages/lean.cjs"
+    },
+    "./llvm-ir": {
+      "types": "./dist/languages/llvm-ir.d.ts",
+      "import": "./dist/languages/llvm-ir.js",
+      "require": "./dist/languages/llvm-ir.cjs"
+    },
+    "./luau": {
+      "types": "./dist/languages/luau.d.ts",
+      "import": "./dist/languages/luau.js",
+      "require": "./dist/languages/luau.cjs"
     }
   },
   "files": [

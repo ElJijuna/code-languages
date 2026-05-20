@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-19T04:58:50.858Z",
-  "total": 126,
-  "extensions": 351,
+  "generatedAt": "2026-05-20T16:50:58.607Z",
+  "total": 141,
+  "extensions": 378,
   "locales": ["en", "es"],
   "languages": [
     {
@@ -70,6 +70,27 @@
       },
       "version": "Ada 2022",
       "logo": "https://cdn.simpleicons.org/ada/02F88C"
+    },
+    {
+      "slug": "agda",
+      "name": "Agda",
+      "description": "A dependently typed functional language and proof assistant.",
+      "longDescription": "Agda is a dependently typed functional programming language and interactive proof assistant. It supports inductive families, pattern matching, modules, mixfix operators, Unicode syntax, and a type system expressive enough to encode mathematical proofs as programs.\n\nIt is used in programming language research, constructive mathematics, certified algorithms, and education where precise specifications and machine-checked proofs matter as much as executable code.",
+      "esName": "Agda",
+      "esDescription": "Un lenguaje funcional con tipos dependientes y asistente de pruebas.",
+      "esLongDescription": "Agda es un lenguaje de programacion funcional con tipos dependientes y un asistente interactivo de pruebas. Soporta familias inductivas, pattern matching, modulos, operadores mixfix, sintaxis Unicode y un sistema de tipos expresivo para codificar pruebas matematicas como programas.\n\nSe usa en investigacion de lenguajes, matematica constructiva, algoritmos certificados y educacion cuando las especificaciones precisas y las pruebas verificadas por maquina importan tanto como el codigo ejecutable.",
+      "publishedDate": "2007-01-01",
+      "extensions": [".agda", ".lagda", ".lagda.md", ".lagda.rst", ".lagda.tex"],
+      "author": "Ulf Norell / Chalmers University of Technology",
+      "website": "https://wiki.portal.chalmers.se/agda/",
+      "paradigms": ["functional", "dependently typed", "total", "proof-oriented"],
+      "tooling": {
+        "runtimes": ["GHC", "JavaScript"],
+        "packageManagers": ["Cabal", "Stack"],
+        "ecosystems": ["Haskell", "Formal methods", "Proof assistants"]
+      },
+      "version": "2.8.0",
+      "logo": "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_agda.svg"
     },
     {
       "slug": "antlr",
@@ -260,7 +281,7 @@
         "packageManagers": ["npm", "pnpm", "Yarn", "Bun"],
         "ecosystems": ["Web", "Static Sites", "Content"]
       },
-      "version": "6.3.3",
+      "version": "6.3.5",
       "logo": "https://astro.build/assets/press/astro-icon-light.svg"
     },
     {
@@ -478,6 +499,69 @@
       "logo": "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"
     },
     {
+      "slug": "carbon",
+      "name": "Carbon",
+      "description": "An experimental successor language for C++ interoperability and migration.",
+      "longDescription": "Carbon is an experimental systems programming language designed as a possible successor to C++. It focuses on readable syntax, strong generics, modern tooling, and incremental migration paths for large C++ codebases.\n\nThe project is still pre-stable, so real-world use is centered on experiments, design evaluation, compiler development, and discussions about long-term interoperability with existing C++ ecosystems.",
+      "esName": "Carbon",
+      "esDescription": "Un lenguaje experimental sucesor para interoperabilidad y migracion desde C++.",
+      "esLongDescription": "Carbon es un lenguaje experimental de programacion de sistemas disenado como posible sucesor de C++. Se enfoca en sintaxis legible, genericos fuertes, herramientas modernas y rutas de migracion incremental para bases de codigo grandes en C++.\n\nEl proyecto aun no es estable, asi que su uso real se centra en experimentos, evaluacion de diseno, desarrollo del compilador y debates sobre interoperabilidad a largo plazo con ecosistemas C++ existentes.",
+      "publishedDate": "2022-07-19",
+      "extensions": [".carbon"],
+      "author": "Carbon Language Project",
+      "website": "https://docs.carbon-lang.dev",
+      "paradigms": ["imperative", "object-oriented", "generic", "statically typed"],
+      "tooling": {
+        "runtimes": ["LLVM"],
+        "packageManagers": ["Bazel"],
+        "ecosystems": ["C++", "Systems programming"]
+      },
+      "version": "0.0.0 nightly",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Carbon_logo.png"
+    },
+    {
+      "slug": "chapel",
+      "name": "Chapel",
+      "description": "A productive parallel programming language for scalable systems.",
+      "longDescription": "Chapel is a parallel programming language created to make high-performance and distributed computing more approachable. It provides domains, arrays, task parallelism, data parallelism, locality control, and abstractions for writing scalable programs without dropping into low-level message passing everywhere.\n\nIt is used for research, numerical computing, data analytics, simulations, and high-performance applications that need to express parallel algorithms clearly across laptops, clusters, and supercomputers.",
+      "esName": "Chapel",
+      "esDescription": "Un lenguaje de programacion paralela productivo para sistemas escalables.",
+      "esLongDescription": "Chapel es un lenguaje de programacion paralela creado para hacer mas accesible la computacion de alto rendimiento y distribuida. Ofrece dominios, arreglos, paralelismo de tareas, paralelismo de datos, control de localidad y abstracciones para escribir programas escalables sin depender siempre de paso de mensajes de bajo nivel.\n\nSe usa en investigacion, computacion numerica, analitica de datos, simulaciones y aplicaciones de alto rendimiento que necesitan expresar algoritmos paralelos con claridad en laptops, clusters y supercomputadoras.",
+      "publishedDate": "2009-04-01",
+      "extensions": [".chpl"],
+      "author": "Cray Inc. / Hewlett Packard Enterprise",
+      "website": "https://chapel-lang.org",
+      "paradigms": ["parallel", "imperative", "object-oriented", "generic"],
+      "tooling": {
+        "runtimes": ["Chapel runtime"],
+        "packageManagers": ["Mason"],
+        "ecosystems": ["High-performance computing", "Parallel computing"]
+      },
+      "version": "2.6.0",
+      "logo": "https://chapel-lang.org/images/chapel-logo.png"
+    },
+    {
+      "slug": "circom",
+      "name": "Circom",
+      "description": "A DSL for writing arithmetic circuits used in zero-knowledge proofs.",
+      "longDescription": "Circom is a domain-specific language for defining arithmetic circuits used by zkSNARK proving systems. Its compiler can generate constraint systems together with witness-generation code for C++ or WebAssembly.\n\nIt is common in privacy-preserving protocols, identity systems, blockchain applications, and cryptographic projects that need reusable circuits for zero-knowledge proofs.",
+      "esName": "Circom",
+      "esDescription": "Un DSL para escribir circuitos aritmeticos usados en pruebas de conocimiento cero.",
+      "esLongDescription": "Circom es un lenguaje especifico de dominio para definir circuitos aritmeticos usados por sistemas de prueba zkSNARK. Su compilador puede generar sistemas de restricciones junto con codigo de generacion de testigos para C++ o WebAssembly.\n\nEs comun en protocolos de privacidad, sistemas de identidad, aplicaciones blockchain y proyectos criptograficos que necesitan circuitos reutilizables para pruebas de conocimiento cero.",
+      "publishedDate": "2018-01-01",
+      "extensions": [".circom"],
+      "author": "iden3",
+      "website": "https://docs.circom.io",
+      "paradigms": ["declarative", "constraint-based", "domain-specific"],
+      "tooling": {
+        "runtimes": ["circom compiler", "WebAssembly", "C++"],
+        "packageManagers": ["npm", "Cargo"],
+        "ecosystems": ["Zero-knowledge proofs", "Ethereum", "zkSNARKs"]
+      },
+      "version": "2.2.3",
+      "logo": "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_circom.svg"
+    },
+    {
       "slug": "clojure",
       "name": "Clojure",
       "description": "A modern Lisp for the JVM and JavaScript ecosystems with immutable data and interactive development.",
@@ -579,6 +663,27 @@
       },
       "version": "ColdFusion 2025",
       "logo": "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_cf.svg"
+    },
+    {
+      "slug": "coq",
+      "name": "Coq / Rocq",
+      "description": "A proof assistant and dependently typed language for certified mathematics and software.",
+      "longDescription": "Coq, now released under the Rocq Prover name, is an interactive theorem prover and dependently typed language. It lets users write definitions, executable programs, theorems, and machine-checked proofs in one environment.\n\nIt is widely used in formal verification, programming language metatheory, certified compilers, mathematics, cryptography, and projects where correctness arguments need to be checked with high confidence.",
+      "esName": "Coq / Rocq",
+      "esDescription": "Un asistente de pruebas y lenguaje con tipos dependientes para software certificado.",
+      "esLongDescription": "Coq, publicado ahora bajo el nombre Rocq Prover, es un demostrador interactivo de teoremas y un lenguaje con tipos dependientes. Permite escribir definiciones, programas ejecutables, teoremas y pruebas verificadas por maquina en un mismo entorno.\n\nSe usa ampliamente en verificacion formal, metateoria de lenguajes, compiladores certificados, matematica, criptografia y proyectos donde los argumentos de correccion deben comprobarse con alta confianza.",
+      "publishedDate": "1989-01-01",
+      "extensions": [".v"],
+      "author": "INRIA / Rocq Prover Development Team",
+      "website": "https://rocq-prover.org",
+      "paradigms": ["functional", "dependently typed", "proof-oriented", "tactic-based"],
+      "tooling": {
+        "runtimes": ["Rocq Prover", "OCaml"],
+        "packageManagers": ["opam", "Rocq Platform"],
+        "ecosystems": ["Formal methods", "Proof assistants", "OCaml"]
+      },
+      "version": "9.2.0",
+      "logo": "https://avatars.githubusercontent.com/u/621198?v=4"
     },
     {
       "slug": "crystal",
@@ -724,6 +829,48 @@
       "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Dart_programming_language_logo.svg"
     },
     {
+      "slug": "dhall",
+      "name": "Dhall",
+      "description": "A programmable, typed configuration language that normalizes safely.",
+      "longDescription": "Dhall is a programmable configuration language with a strong static type system, imports, functions, records, and guaranteed normalization. It is designed to replace repetitive JSON, YAML, and similar configuration formats with reusable typed expressions.\n\nIt is used for infrastructure configuration, application settings, generated YAML or JSON, and systems that need shared configuration without arbitrary code execution.",
+      "esName": "Dhall",
+      "esDescription": "Un lenguaje de configuracion programable, tipado y de normalizacion segura.",
+      "esLongDescription": "Dhall es un lenguaje de configuracion programable con un sistema de tipos estatico fuerte, imports, funciones, registros y normalizacion garantizada. Esta disenado para reemplazar JSON, YAML y formatos similares repetitivos con expresiones tipadas reutilizables.\n\nSe usa en configuracion de infraestructura, ajustes de aplicaciones, generacion de YAML o JSON y sistemas que necesitan configuracion compartida sin ejecucion arbitraria de codigo.",
+      "publishedDate": "2016-12-22",
+      "extensions": [".dhall"],
+      "author": "Gabriel Gonzalez",
+      "website": "https://dhall-lang.org",
+      "paradigms": ["functional", "declarative", "statically typed", "configuration"],
+      "tooling": {
+        "runtimes": ["dhall"],
+        "packageManagers": ["Cabal", "Stack", "Nix"],
+        "ecosystems": ["Configuration", "Haskell", "DevOps"]
+      },
+      "version": "23.1.0",
+      "logo": "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_dhall.svg"
+    },
+    {
+      "slug": "dita",
+      "name": "DITA",
+      "description": "An XML-based architecture for structured technical documentation.",
+      "longDescription": "DITA is the Darwin Information Typing Architecture, an XML-based standard for topic-oriented authoring. It defines topic types, maps, specialization, reuse mechanisms, and publishing-oriented metadata for large documentation sets.\n\nIt is used in technical writing, product documentation, regulated content, localization workflows, and publishing pipelines that need structured reusable topics rather than page-by-page documents.",
+      "esName": "DITA",
+      "esDescription": "Una arquitectura basada en XML para documentacion tecnica estructurada.",
+      "esLongDescription": "DITA es Darwin Information Typing Architecture, un estandar basado en XML para autoria orientada a topicos. Define tipos de topico, mapas, especializacion, mecanismos de reutilizacion y metadatos de publicacion para grandes conjuntos de documentacion.\n\nSe usa en redaccion tecnica, documentacion de productos, contenido regulado, flujos de localizacion y pipelines de publicacion que necesitan topicos estructurados y reutilizables en vez de documentos pagina por pagina.",
+      "publishedDate": "2005-05-03",
+      "extensions": [".dita", ".ditamap", ".ditaval"],
+      "author": "OASIS",
+      "website": "https://www.oasis-open.org/standard/dita/",
+      "paradigms": ["markup", "structured authoring", "XML-based", "documentation"],
+      "tooling": {
+        "runtimes": ["DITA Open Toolkit"],
+        "packageManagers": ["npm", "Maven"],
+        "ecosystems": ["Technical writing", "XML", "Publishing"]
+      },
+      "version": "1.3",
+      "logo": "https://avatars.githubusercontent.com/u/20116735?v=4"
+    },
+    {
       "slug": "dockerfile",
       "name": "Dockerfile",
       "description": "A build instruction format for creating Docker container images.",
@@ -742,6 +889,27 @@
       },
       "version": "1.10",
       "logo": "https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png"
+    },
+    {
+      "slug": "earthly",
+      "name": "Earthly",
+      "description": "A container-oriented build language for repeatable CI/CD pipelines.",
+      "longDescription": "Earthly is a build automation language and tool centered on Earthfiles. Its syntax combines ideas from Dockerfiles and Makefiles to define repeatable builds, targets, artifacts, images, and CI-friendly workflows.\n\nIt is used by teams that want local and CI builds to behave consistently, especially in container-heavy projects where caching, reproducibility, and readable build steps matter.",
+      "esName": "Earthly",
+      "esDescription": "Un lenguaje de builds orientado a contenedores para pipelines CI/CD repetibles.",
+      "esLongDescription": "Earthly es un lenguaje y herramienta de automatizacion de builds centrado en Earthfiles. Su sintaxis combina ideas de Dockerfiles y Makefiles para definir builds repetibles, targets, artefactos, imagenes y flujos adecuados para CI.\n\nLo usan equipos que quieren que los builds locales y de CI se comporten de forma consistente, especialmente en proyectos con muchos contenedores donde importan cache, reproducibilidad y pasos de build legibles.",
+      "publishedDate": "2020-04-15",
+      "extensions": ["Earthfile"],
+      "author": "Earthly Technologies",
+      "website": "https://earthly.dev",
+      "paradigms": ["declarative", "build automation", "container-based"],
+      "tooling": {
+        "runtimes": ["Earthly", "BuildKit", "Docker"],
+        "packageManagers": ["Docker"],
+        "ecosystems": ["CI/CD", "Containers", "DevOps"]
+      },
+      "version": "0.8.16",
+      "logo": "https://avatars.githubusercontent.com/u/63060917?v=4"
     },
     {
       "slug": "elixir",
@@ -1078,6 +1246,48 @@
       "logo": "https://upload.wikimedia.org/wikipedia/commons/3/36/Groovy-logo.svg"
     },
     {
+      "slug": "hack",
+      "name": "Hack",
+      "description": "A gradually typed language for HHVM with PHP heritage.",
+      "longDescription": "Hack is a programming language for HHVM that evolved from PHP and adds static typing, generics, async features, shapes, collections, and tooling built around the Hack typechecker. It is designed for large web codebases that need gradual typing and fast feedback.\n\nIt is used mainly in HHVM deployments and large server-side applications where PHP-like ergonomics are paired with stronger static analysis and modern language constructs.",
+      "esName": "Hack",
+      "esDescription": "Un lenguaje con tipado gradual para HHVM con herencia de PHP.",
+      "esLongDescription": "Hack es un lenguaje de programacion para HHVM que evoluciono desde PHP y agrega tipado estatico, genericos, funciones async, shapes, colecciones y herramientas basadas en el typechecker de Hack. Esta disenado para grandes bases de codigo web que necesitan tipado gradual y feedback rapido.\n\nSe usa principalmente en despliegues HHVM y aplicaciones grandes del lado servidor donde la ergonomia similar a PHP se combina con analisis estatico mas fuerte y construcciones modernas del lenguaje.",
+      "publishedDate": "2014-03-20",
+      "extensions": [".hack", ".hh", ".hhi"],
+      "author": "Meta",
+      "website": "https://docs.hhvm.com/hack/",
+      "paradigms": ["object-oriented", "functional", "gradually typed", "imperative"],
+      "tooling": {
+        "runtimes": ["HHVM"],
+        "packageManagers": ["Composer"],
+        "ecosystems": ["HHVM", "Web", "PHP"]
+      },
+      "version": "HHVM 4.x",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Hack_%28programming_language%29_logo.svg"
+    },
+    {
+      "slug": "haml",
+      "name": "Haml",
+      "description": "A whitespace-sensitive template language for writing HTML tersely.",
+      "longDescription": "Haml is a markup and template language for generating HTML with indentation-based structure. It removes closing tags, reduces boilerplate, and integrates with Ruby frameworks such as Ruby on Rails.\n\nIt is used in web applications and static rendering pipelines that prefer concise templates, readable nesting, and Ruby-powered interpolation over explicit HTML syntax.",
+      "esName": "Haml",
+      "esDescription": "Un lenguaje de templates sensible a espacios para escribir HTML de forma concisa.",
+      "esLongDescription": "Haml es un lenguaje de marcado y templates para generar HTML con estructura basada en indentacion. Elimina etiquetas de cierre, reduce repeticion e integra con frameworks Ruby como Ruby on Rails.\n\nSe usa en aplicaciones web y pipelines de renderizado estatico que prefieren templates concisos, anidacion legible e interpolacion con Ruby en vez de sintaxis HTML explicita.",
+      "publishedDate": "2006-10-01",
+      "extensions": [".haml"],
+      "author": "Hampton Catlin",
+      "website": "https://haml.info",
+      "paradigms": ["template", "markup", "declarative"],
+      "tooling": {
+        "runtimes": ["Ruby"],
+        "packageManagers": ["RubyGems", "Bundler"],
+        "ecosystems": ["Ruby", "Ruby on Rails", "Web"]
+      },
+      "version": "7.2.0",
+      "logo": "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_haml.svg"
+    },
+    {
       "slug": "handlebars",
       "name": "Handlebars",
       "description": "A logic-light template language for rendering HTML and text from data.",
@@ -1200,6 +1410,27 @@
       "logo": "https://www.w3.org/html/logo/downloads/HTML5_Badge.svg"
     },
     {
+      "slug": "idris",
+      "name": "Idris",
+      "description": "A dependently typed functional language focused on practical programs.",
+      "longDescription": "Idris is a dependently typed functional programming language that brings theorem-proving ideas into general-purpose software development. Idris 2 adds a quantitative type system, totality checking, elaborator reflection, and multiple code generation backends.\n\nIt is used for type-driven development, language research, certified programming, education, and experiments where rich types help describe program behavior precisely.",
+      "esName": "Idris",
+      "esDescription": "Un lenguaje funcional con tipos dependientes enfocado en programas practicos.",
+      "esLongDescription": "Idris es un lenguaje de programacion funcional con tipos dependientes que lleva ideas de demostracion de teoremas al desarrollo general. Idris 2 agrega un sistema de tipos cuantitativo, chequeo de totalidad, reflexion de elaborador y multiples backends de generacion de codigo.\n\nSe usa en desarrollo guiado por tipos, investigacion de lenguajes, programacion certificada, educacion y experimentos donde tipos ricos ayudan a describir con precision el comportamiento de los programas.",
+      "publishedDate": "2009-01-01",
+      "extensions": [".idr", ".lidr", ".ipkg"],
+      "author": "Edwin Brady",
+      "website": "https://www.idris-lang.org",
+      "paradigms": ["functional", "dependently typed", "total", "statically typed"],
+      "tooling": {
+        "runtimes": ["Chez Scheme", "Racket", "JavaScript", "Node.js"],
+        "packageManagers": ["pack", "idris2"],
+        "ecosystems": ["Formal methods", "Functional programming"]
+      },
+      "version": "0.8.0",
+      "logo": "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_idris.svg"
+    },
+    {
       "slug": "ini",
       "name": "INI",
       "description": "A simple section-based configuration format built around keys, values, and comments.",
@@ -1217,6 +1448,27 @@
       },
       "version": "Informal format",
       "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Configure.svg"
+    },
+    {
+      "slug": "janet",
+      "name": "Janet",
+      "description": "A small Lisp-like language and embeddable runtime for scripting.",
+      "longDescription": "Janet is a small Lisp-like programming language with a compact C implementation, fibers, tables, pattern matching, macros, and an embeddable runtime. It is designed for scripting, tools, and applications that need a lightweight extension language.\n\nIt is used for command-line programs, configuration, automation, embedding in native applications, and experiments that benefit from Lisp-style metaprogramming without a large runtime.",
+      "esName": "Janet",
+      "esDescription": "Un lenguaje pequeno tipo Lisp y runtime embebible para scripting.",
+      "esLongDescription": "Janet es un lenguaje de programacion pequeno tipo Lisp con una implementacion compacta en C, fibras, tablas, pattern matching, macros y un runtime embebible. Esta disenado para scripting, herramientas y aplicaciones que necesitan un lenguaje de extension liviano.\n\nSe usa en programas de linea de comandos, configuracion, automatizacion, embedding en aplicaciones nativas y experimentos que aprovechan metaprogramacion tipo Lisp sin un runtime grande.",
+      "publishedDate": "2017-09-01",
+      "extensions": [".janet", ".jdn"],
+      "author": "Calvin Rose",
+      "website": "https://janet-lang.org",
+      "paradigms": ["functional", "imperative", "lisp", "embedded"],
+      "tooling": {
+        "runtimes": ["Janet VM"],
+        "packageManagers": ["jpm"],
+        "ecosystems": ["Scripting", "Embedded systems", "Command-line tools"]
+      },
+      "version": "1.39.1",
+      "logo": "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_janet.svg"
     },
     {
       "slug": "java",
@@ -1394,6 +1646,27 @@
       "logo": "https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png"
     },
     {
+      "slug": "lean",
+      "name": "Lean",
+      "description": "A theorem prover and functional language for formalized mathematics and software.",
+      "longDescription": "Lean is a theorem prover and dependently typed functional programming language. Lean 4 includes an efficient compiler, extensible syntax, metaprogramming facilities, tactics, and tooling for large formalization projects.\n\nIt is used in formalized mathematics, program verification, theorem proving research, educational games, and software projects where proofs and executable definitions can evolve together.",
+      "esName": "Lean",
+      "esDescription": "Un demostrador de teoremas y lenguaje funcional para matematica y software formalizados.",
+      "esLongDescription": "Lean es un demostrador de teoremas y lenguaje funcional con tipos dependientes. Lean 4 incluye un compilador eficiente, sintaxis extensible, metaprogramacion, tacticas y herramientas para grandes proyectos de formalizacion.\n\nSe usa en matematica formalizada, verificacion de programas, investigacion en demostracion de teoremas, juegos educativos y proyectos donde pruebas y definiciones ejecutables pueden evolucionar juntas.",
+      "publishedDate": "2013-06-16",
+      "extensions": [".lean"],
+      "author": "Leonardo de Moura / Microsoft Research",
+      "website": "https://lean-lang.org",
+      "paradigms": ["functional", "dependently typed", "proof-oriented", "metaprogramming"],
+      "tooling": {
+        "runtimes": ["Lean"],
+        "packageManagers": ["Lake", "elan"],
+        "ecosystems": ["Formal methods", "Mathematics", "Proof assistants"]
+      },
+      "version": "4.29.1",
+      "logo": "https://cdn.simpleicons.org/leanpub/262425"
+    },
+    {
       "slug": "less",
       "name": "Less",
       "description": "A CSS preprocessor with variables, nesting, mixins, operations, and functions.",
@@ -1432,7 +1705,7 @@
         "packageManagers": ["RubyGems", "npm"],
         "ecosystems": ["Shopify", "Jekyll", "Static Sites", "E-commerce"]
       },
-      "version": "10.21.1",
+      "version": "10.27.0",
       "logo": "https://cdn.simpleicons.org/shopify/7AB55C"
     },
     {
@@ -1457,6 +1730,27 @@
       "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Lisp_logo.svg"
     },
     {
+      "slug": "llvm-ir",
+      "name": "LLVM IR",
+      "description": "The typed intermediate representation used by the LLVM compiler infrastructure.",
+      "longDescription": "LLVM IR is the typed, low-level intermediate representation used by the LLVM compiler infrastructure. It has a textual form, bitcode form, SSA-based values, explicit control flow, and a language reference that defines instructions, types, attributes, and metadata.\n\nIt is used by compilers, optimizers, static analyzers, JIT systems, language implementations, and tools that need a portable representation between source languages and machine code.",
+      "esName": "LLVM IR",
+      "esDescription": "La representacion intermedia tipada usada por la infraestructura de compiladores LLVM.",
+      "esLongDescription": "LLVM IR es la representacion intermedia tipada y de bajo nivel usada por la infraestructura de compiladores LLVM. Tiene forma textual, forma bitcode, valores basados en SSA, flujo de control explicito y una referencia que define instrucciones, tipos, atributos y metadatos.\n\nSe usa en compiladores, optimizadores, analizadores estaticos, sistemas JIT, implementaciones de lenguajes y herramientas que necesitan una representacion portable entre lenguajes fuente y codigo maquina.",
+      "publishedDate": "2003-10-01",
+      "extensions": [".ll", ".bc"],
+      "author": "LLVM Project",
+      "website": "https://llvm.org/docs/LangRef.html",
+      "paradigms": ["intermediate representation", "static single assignment", "compiler"],
+      "tooling": {
+        "runtimes": ["LLVM"],
+        "packageManagers": ["LLVM releases"],
+        "ecosystems": ["Compilers", "Systems programming", "Toolchains"]
+      },
+      "version": "22.1.5",
+      "logo": "https://cdn.simpleicons.org/llvm/262D3A"
+    },
+    {
       "slug": "lua",
       "name": "Lua",
       "description": "A lightweight, embeddable scripting language designed for extension and portability.",
@@ -1476,6 +1770,27 @@
       },
       "version": "5.5.0",
       "logo": "https://www.lua.org/images/lua-logo.gif"
+    },
+    {
+      "slug": "luau",
+      "name": "Luau",
+      "description": "A fast Lua-derived scripting language with gradual typing.",
+      "longDescription": "Luau is a scripting language derived from Lua 5.1 and developed by Roblox. It adds gradual typing, performance-focused compiler and VM work, linting, type inference, and features aimed at large game codebases.\n\nIt is used in Roblox experiences, game tooling, embedded scripting, and projects that want Lua-like ergonomics with stronger static analysis and modern runtime performance.",
+      "esName": "Luau",
+      "esDescription": "Un lenguaje de scripting derivado de Lua, rapido y con tipado gradual.",
+      "esLongDescription": "Luau es un lenguaje de scripting derivado de Lua 5.1 y desarrollado por Roblox. Agrega tipado gradual, trabajo de compilador y VM orientado al rendimiento, linting, inferencia de tipos y caracteristicas para grandes bases de codigo de juegos.\n\nSe usa en experiencias de Roblox, herramientas de juegos, scripting embebido y proyectos que quieren ergonomia similar a Lua con analisis estatico mas fuerte y rendimiento moderno.",
+      "publishedDate": "2021-11-03",
+      "extensions": [".luau"],
+      "author": "Roblox",
+      "website": "https://luau.org",
+      "paradigms": ["imperative", "scripting", "gradually typed", "embeddable"],
+      "tooling": {
+        "runtimes": ["Luau VM", "Roblox"],
+        "packageManagers": ["Wally", "Pesde"],
+        "ecosystems": ["Roblox", "Games", "Embedded scripting"]
+      },
+      "version": "0.719",
+      "logo": "https://cdn.simpleicons.org/roblox/000000"
     },
     {
       "slug": "makefile",
@@ -1574,7 +1889,7 @@
         "packageManagers": ["npm", "Yarn", "pnpm"],
         "ecosystems": ["Documentation", "Markdown", "Diagrams", "Knowledge Management"]
       },
-      "version": "11.11.0",
+      "version": "11.15.0",
       "logo": "https://cdn.simpleicons.org/mermaid/FF3670"
     },
     {
@@ -1677,7 +1992,7 @@
         "packageManagers": ["nix", "nix flakes"],
         "ecosystems": ["Linux", "macOS", "NixOS", "DevOps"]
       },
-      "version": "2.28",
+      "version": "2.34.7",
       "logo": "https://cdn.simpleicons.org/nixos/5277C3"
     },
     {
@@ -2013,7 +2328,7 @@
         "packageManagers": ["OPA bundles"],
         "ecosystems": ["Policy as Code", "Kubernetes", "Cloud Native", "Authorization"]
       },
-      "version": "OPA 1.15.2",
+      "version": "OPA 1.16.2",
       "logo": "https://raw.githubusercontent.com/open-policy-agent/opa/main/logo/logo.svg"
     },
     {
@@ -2177,7 +2492,7 @@
         "packageManagers": ["npm", "pnpm", "Yarn", "Bun"],
         "ecosystems": ["Web", "SvelteKit", "Vite"]
       },
-      "version": "5.55.7",
+      "version": "5.55.8",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg"
     },
     {
@@ -2318,7 +2633,7 @@
         "packageManagers": ["Composer"],
         "ecosystems": ["PHP", "Symfony", "Web", "CMS"]
       },
-      "version": "3.24.0",
+      "version": "3.25.0",
       "logo": "https://twig.symfony.com/images/logo.png"
     },
     {
@@ -2360,7 +2675,7 @@
         "packageManagers": ["Typst Packages"],
         "ecosystems": ["Publishing", "Academic Writing", "Documentation", "Typesetting"]
       },
-      "version": "0.14.1",
+      "version": "0.14.2",
       "logo": "https://cdn.simpleicons.org/typst/239DAD"
     },
     {

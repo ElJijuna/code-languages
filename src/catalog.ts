@@ -1,6 +1,7 @@
 import { abap } from "./languages/abap";
 import { actionscript } from "./languages/actionscript";
 import { ada } from "./languages/ada";
+import { agda } from "./languages/agda";
 import { antlr } from "./languages/antlr";
 import { apex } from "./languages/apex";
 import { apl } from "./languages/apl";
@@ -18,11 +19,15 @@ import { bazel } from "./languages/bazel";
 import { bicep } from "./languages/bicep";
 import { blade } from "./languages/blade";
 import { c } from "./languages/c";
+import { carbon } from "./languages/carbon";
+import { chapel } from "./languages/chapel";
+import { circom } from "./languages/circom";
 import { clojure } from "./languages/clojure";
 import { cmake } from "./languages/cmake";
 import { cobol } from "./languages/cobol";
 import { coffeescript } from "./languages/coffeescript";
 import { coldfusion } from "./languages/coldfusion";
+import { coq } from "./languages/coq";
 import { cpp } from "./languages/cpp";
 import { crystal } from "./languages/crystal";
 import { csharp } from "./languages/csharp";
@@ -32,7 +37,10 @@ import { cue } from "./languages/cue";
 import { cython } from "./languages/cython";
 import { d } from "./languages/d";
 import { dart } from "./languages/dart";
+import { dhall } from "./languages/dhall";
+import { dita } from "./languages/dita";
 import { dockerfile } from "./languages/dockerfile";
+import { earthly } from "./languages/earthly";
 import { elixir } from "./languages/elixir";
 import { elm } from "./languages/elm";
 import { erb } from "./languages/erb";
@@ -49,13 +57,17 @@ import { go } from "./languages/go";
 import { gradle } from "./languages/gradle";
 import { graphql } from "./languages/graphql";
 import { groovy } from "./languages/groovy";
+import { hack } from "./languages/hack";
+import { haml } from "./languages/haml";
 import { handlebars } from "./languages/handlebars";
 import { haskell } from "./languages/haskell";
 import { haxe } from "./languages/haxe";
 import { hcl } from "./languages/hcl";
 import { hlsl } from "./languages/hlsl";
 import { html } from "./languages/html";
+import { idris } from "./languages/idris";
 import { ini } from "./languages/ini";
+import { janet } from "./languages/janet";
 import { java } from "./languages/java";
 import { javascript } from "./languages/javascript";
 import { jinja } from "./languages/jinja";
@@ -64,10 +76,13 @@ import { jsonnet } from "./languages/jsonnet";
 import { julia } from "./languages/julia";
 import { jupyterNotebook } from "./languages/jupyter-notebook";
 import { kotlin } from "./languages/kotlin";
+import { lean } from "./languages/lean";
 import { less } from "./languages/less";
 import { liquid } from "./languages/liquid";
 import { lisp } from "./languages/lisp";
+import { llvmIr } from "./languages/llvm-ir";
 import { lua } from "./languages/lua";
+import { luau } from "./languages/luau";
 import { makefile } from "./languages/makefile";
 import { markdown } from "./languages/markdown";
 import { matlab } from "./languages/matlab";
@@ -130,6 +145,7 @@ export const languages = [
   abap,
   actionscript,
   ada,
+  agda,
   antlr,
   apex,
   apl,
@@ -147,11 +163,15 @@ export const languages = [
   bicep,
   blade,
   c,
+  carbon,
+  chapel,
+  circom,
   cmake,
   clojure,
   coffeescript,
   coldfusion,
   cobol,
+  coq,
   cpp,
   csharp,
   crystal,
@@ -161,7 +181,10 @@ export const languages = [
   cython,
   d,
   dart,
+  dhall,
+  dita,
   dockerfile,
+  earthly,
   elixir,
   elm,
   erb,
@@ -179,24 +202,31 @@ export const languages = [
   graphql,
   groovy,
   handlebars,
+  hack,
+  haml,
   haskell,
   haxe,
   hcl,
   hlsl,
   html,
+  idris,
   ini,
   java,
   javascript,
+  janet,
   jinja,
   json,
   jsonnet,
   jupyterNotebook,
   julia,
   kotlin,
+  lean,
   less,
   liquid,
   lisp,
+  llvmIr,
   lua,
+  luau,
   makefile,
   matlab,
   markdown,
