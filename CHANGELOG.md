@@ -1,3 +1,10 @@
+# [1.21.0](https://github.com/ElJijuna/code-languages/compare/v1.20.6...v1.21.0) (2026-05-20)
+
+
+### Features
+
+* add 15 lower-priority languages ([362ea35](https://github.com/ElJijuna/code-languages/commit/362ea35eee3933f06658189c4c1d1f2d1b109666))
+
 ## [1.20.6](https://github.com/ElJijuna/code-languages/compare/v1.20.5...v1.20.6) (2026-05-20)
 
 
