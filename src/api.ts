@@ -49,6 +49,13 @@ export interface LanguageCollectionRequest {
 
 const defaultLocale: Locale = "en";
 
+const normalizeLanguageSlug = (slug: RuntimeLanguageSlug) =>
+  slug
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, "-")
+    .replace(/[^a-z0-9-]/g, "");
+
 const localizeOptionalLanguage = (language: Language | undefined, locale: Locale) =>
   language ? localizeLanguage(language, locale) : undefined;
 
@@ -117,13 +124,17 @@ export const api = {
   /**
    * Selects a language by slug.
    *
+   * Input is normalized to the package slug format before lookup.
+   *
    * @example
    * api.language("astro").locale("es-PE").get();
    */
   language(slug: RuntimeLanguageSlug) {
+    const normalizedSlug = normalizeLanguageSlug(slug);
+
     return createLanguageRequest(
-      () => languages.find((language) => language.slug === slug),
-      () => loadLanguage(slug),
+      () => languages.find((language) => language.slug === normalizedSlug),
+      () => loadLanguage(normalizedSlug),
     );
   },
 

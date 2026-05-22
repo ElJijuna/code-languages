@@ -757,6 +757,10 @@ console.log(detected?.name); // "Vue"
 console.log(ambiguous.map((language) => language.slug)); // ["c", "cpp"]
 ```
 
+`api.language(...)` normalizes lookup values to the package slug format, so inputs
+such as `"Visual Basic"` and `"Jupyter Notebook!"` resolve to `visual-basic` and
+`jupyter-notebook`.
+
 `get()` reads from the bundled in-memory catalog. `load()` uses explicit dynamic
 imports so bundlers can lazy-load individual language modules when the consumer
 build supports code splitting.

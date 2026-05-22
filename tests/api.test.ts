@@ -18,6 +18,13 @@ describe("api.language", () => {
     expect(language?.resolvedLocale).toBe("es");
   });
 
+  it("normalizes lookup values to language slugs", async () => {
+    expect(api.language("Visual Basic").get()?.slug).toBe("visual-basic");
+    await expect(api.language(" Jupyter Notebook! ").load()).resolves.toMatchObject({
+      slug: "jupyter-notebook",
+    });
+  });
+
   it("returns undefined for unknown language slugs", async () => {
     expect(api.language("unknown-language").get()).toBeUndefined();
     await expect(api.language("unknown-language").load()).resolves.toBeUndefined();
