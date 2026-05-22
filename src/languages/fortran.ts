@@ -30,5 +30,19 @@ export const fortran = {
       longDescription:
         "Fortran es uno de los primeros lenguajes de programacion de alto nivel y sigue siendo importante para computacion numerica, simulacion cientifica, software de ingenieria y high-performance computing. Fortran moderno incluye modulos, programacion con arrays, interfaces genericas, tipos derivados, coarrays e interoperabilidad con C.\n\nSe usa ampliamente en modelos climaticos, simulaciones fisicas, quimica computacional, aeroespacial, librerias numericas, prediccion meteorologica y codebases cientificas de larga vida donde importan el rendimiento y estandares estables del lenguaje.",
     },
+    it: {
+      name: "Fortran",
+      description:
+        "Un linguaggio compilato per il calcolo numerico, il software scientifico e i sistemi ad alte prestazioni.",
+      longDescription:
+        "Fortran e uno dei primi linguaggi di programmazione di alto livello e rimane importante per il calcolo numerico, la simulazione scientifica, il software di ingegneria e l'informatica ad alte prestazioni. Fortran moderno include moduli, programmazione di array, interfacce generiche, tipi derivati, coarray e interoperabilita con C.\n\nE ampiamente utilizzato in modelli climatici, simulazioni fisiche, chimica computazionale, aerospaziale, librerie numeriche, previsioni meteorologiche e codebase scientifiche a lungo termine dove le prestazioni e gli standard linguistici stabili sono importanti.",
+    },
+    fr: {
+      name: "Fortran",
+      description:
+        "Un langage compile pour le calcul numerique, les logiciels scientifiques et les systemes haute performance.",
+      longDescription:
+        "Fortran est l'un des premiers langages de programmation de haut niveau et reste important pour le calcul numerique, la simulation scientifique, les logiciels d'ingenierie et l'informatique haute performance. Le Fortran moderne comprend les modules, la programmation par tableaux, les interfaces generiques, les types derives, les coarrays et l'interoperabilite avec C.\n\nIl est largement utilise dans les modeles climatiques, les simulations de physique, la chimie computationnelle, l'aerospatiale, les bibliotheques numeriques, la prevision meteorologique et les bases de code scientifique a long terme ou les performances et les normes linguistiques stables sont importantes.",
+    },
   },
 } satisfies Language;

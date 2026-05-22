@@ -30,5 +30,19 @@ export const cython = {
       longDescription:
         "Cython extiende Python con tipos estaticos opcionales, declaraciones de C y llamadas directas a APIs de C y C++, permitiendo compilar codigo Python en modulos de extension nativos.\n\nSe usa ampliamente para acelerar codigo numerico, envolver bibliotecas nativas, crear paquetes cientificos de Python y escribir componentes sensibles al rendimiento manteniendo una sintaxis parecida a Python.",
     },
+    it: {
+      name: "Cython",
+      description:
+        "Un superset di Python per compilare codice Python simile a tipi in moduli di estensione C.",
+      longDescription:
+        "Cython estende Python con tipi statici opzionali, dichiarazioni C e chiamate dirette alle API C e C++, consentendo di compilare il codice Python in moduli di estensione nativi.\n\nE ampiamente utilizzato per accelerare il codice numerico, per incapsulare librerie native, per creare pacchetti Python scientifici e per scrivere componenti sensibili alle prestazioni mantenendo la sintassi simile a Python.",
+    },
+    fr: {
+      name: "Cython",
+      description:
+        "Un superset de Python pour compiler le code Python type en modules d'extension C.",
+      longDescription:
+        "Cython etend Python avec des types statiques optionnels, des declarations C et des appels directs vers les API C et C++, permettant de compiler le code Python en modules d'extension natifs.\n\nIl est largement utilise pour accelerer le code numerique, encapsuler des bibliotheques natives, construire des packages Python scientifiques et ecrire des composants sensibles aux performances tout en conservant une syntaxe similaire a Python.",
+    },
   },
 } satisfies Language;

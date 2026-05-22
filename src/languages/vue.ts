@@ -30,5 +30,19 @@ export const vue = {
       longDescription:
         "Vue es un framework progresivo para crear interfaces de usuario con componentes de archivo unico, plantillas declarativas, reactividad, APIs de composicion, enrutamiento, gestion de estado y herramientas del ecosistema Vue.\n\nSe usa ampliamente en aplicaciones de una sola pagina, interfaces interactivas, sistemas de diseno, dashboards, widgets embebidos y aplicaciones web full-stack con frameworks como Nuxt.",
     },
+    it: {
+      name: "Vue",
+      description:
+        "Un framework JavaScript progressivo per la creazione di interfacce utente con componenti reattivi.",
+      longDescription:
+        "Vue e un framework progressivo per la creazione di interfacce utente con componenti a singolo file, modelli dichiarativi, reattivita, API di composizione, routing, gestione dello stato e strumenti attraverso l'ecosistema piu ampio di Vue.\n\nE ampiamente utilizzato per applicazioni a pagina singola, interfacce interattive, sistemi di design, dashboard, widget incorporati e applicazioni web full-stack con framework come Nuxt.",
+    },
+    fr: {
+      name: "Vue",
+      description:
+        "Un framework JavaScript progressif pour la creation d'interfaces utilisateur avec des composants reactifs.",
+      longDescription:
+        "Vue est un framework progressif pour la creation d'interfaces utilisateur avec des composants a fichier unique, des modeles declaratifs, la reactivite, les API de composition, le routage, la gestion de l'etat et des outils grace a l'ecosysteme Vue plus large.\n\nIl est largement utilise pour les applications monopages, les interfaces interactives, les systemes de conception, les tableaux de bord, les widgets embarques et les applications web completes avec des frameworks tels que Nuxt.",
+    },
   },
 } satisfies Language;

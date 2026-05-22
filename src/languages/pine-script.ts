@@ -28,5 +28,18 @@ export const pineScript = {
       longDescription:
         "Pine Script es un lenguaje de dominio especifico para expresar calculos sobre barras, series, indicadores, alertas y estrategias de trading en TradingView. Su modelo de ejecucion gira alrededor de datos temporales.\n\nSe usa en indicadores tecnicos personalizados, estrategias con backtesting, overlays de graficos, alertas y analisis de mercado compartido en TradingView.",
     },
+    it: {
+      name: "Pine Script",
+      description: "Linguaggio di TradingView per indicatori, strategie e studi di grafici.",
+      longDescription:
+        "Pine Script e un linguaggio specifico per dominio per esprimere calcoli su barre di grafici, valori di serie, indicatori, avvisi e strategie di trading in TradingView. Il suo modello di esecuzione e incentrato sui dati di serie temporali.\n\nViene utilizzato per indicatori tecnici personalizzati, strategie testate, sovrapposizioni di grafici, avvisi e analisi di mercato condivise tramite TradingView.",
+    },
+    fr: {
+      name: "Pine Script",
+      description:
+        "Langage de TradingView pour les indicateurs, strategies et etudes de graphiques.",
+      longDescription:
+        "Pine Script est un langage specifique a un domaine pour exprimer des calculs sur les barres de graphique, les valeurs de series, les indicateurs, les alertes et les strategies de trading dans TradingView. Son modele d'execution est centre sur les donnees de series temporelles.\n\nIl est utilise pour les indicateurs techniques personnalises, les strategies testees, les superpositions de graphiques, les alertes et l'analyse du marche partagee via TradingView.",
+    },
   },
 } satisfies Language;

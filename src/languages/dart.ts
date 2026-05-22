@@ -30,5 +30,19 @@ export const dart = {
       longDescription:
         "Dart es un lenguaje de programacion de Google disenado para el desarrollo productivo de aplicaciones orientadas al cliente. Combina null safety solido, clases, genericos, programacion asincrona, isolates, compilacion anticipada, flujos de desarrollo just-in-time y compilacion a JavaScript.\n\nSe usa ampliamente con Flutter para aplicaciones moviles, web y de escritorio, y tambien soporta herramientas de linea de comandos, servicios backend, sistemas de build y equipos que quieren un lenguaje tipado con iteracion rapida y rutas de compilacion nativa.",
     },
+    it: {
+      name: "Dart",
+      description:
+        "Un linguaggio ottimizzato per il client per applicazioni veloci su mobile, web, desktop e server.",
+      longDescription:
+        "Dart e un linguaggio di programmazione di Google progettato per lo sviluppo di applicazioni orientato al client, produttivo. Combina sicurezza null, classi, generics, programmazione asincrona, isolate, compilazione a tempo reale, workflow di sviluppo just-in-time e compilazione in JavaScript.\n\nE ampiamente utilizzato con Flutter per applicazioni mobile, web e desktop, e supporta anche strumenti a riga di comando, servizi backend, sistemi di build e team che desiderano un linguaggio tipizzato con iterazioni veloci e percorsi di compilazione nativi.",
+    },
+    fr: {
+      name: "Dart",
+      description:
+        "Un langage optimise pour le client, pour des applications rapides sur mobile, web, bureau et serveur.",
+      longDescription:
+        "Dart est un langage de programmation de Google concu pour le developpement d'applications oriente client, productif. Il combine une securite nulle, des classes, des generiques, la programmation asynchrone, des isolats, la compilation a l'avance, des flux de travail de developpement just-in-time et la compilation vers JavaScript.\n\nIl est largement utilise avec Flutter pour les applications mobiles, web et de bureau, et prend egalement en charge les outils en ligne de commande, les services backend, les systemes de construction et les equipes qui souhaitent un langage type avec des iterations rapides et des chemins de compilation natifs.",
+    },
   },
 } satisfies Language;

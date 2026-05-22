@@ -28,5 +28,17 @@ export const qsharp = {
       longDescription:
         "Q# es un lenguaje de programacion cuantica para declarar operaciones, funciones, uso de qubits, mediciones, adjoints, operaciones controladas y control clasico alrededor de rutinas cuanticas. Modela algoritmos cuanticos separados de detalles de hardware.\n\nSe usa en desarrollo de algoritmos cuanticos, simulacion, ensenanza, flujos de Azure Quantum y experimentos hibridos que combinan codigo clasico y cuantico.",
     },
+    it: {
+      name: "Q#",
+      description: "Q#",
+      longDescription:
+        "Q# e un linguaggio di programmazione quantistica per dichiarare operazioni, funzioni, l'uso di qubit, misurazioni, adjoints, operazioni controllate e controllo classico attorno a routine quantistiche. E progettato per modellare algoritmi quantistici separatamente dai dettagli hardware.\n\nViene utilizzato per lo sviluppo, la simulazione, l'insegnamento, i flussi di lavoro di Azure Quantum e esperimenti ibridi che combinano codice classico e quantistico.",
+    },
+    fr: {
+      name: "Q#",
+      description: "Q#",
+      longDescription:
+        "Q# est un langage de programmation quantique pour declarer des operations, des fonctions, l'utilisation de qubits, des mesures, des adjoints, des operations controlees et le controle classique autour de routines quantiques. Il est concu pour modeliser les algorithmes quantiques separement des details materiels.\n\nIl est utilise pour le developpement, la simulation, l'enseignement, les workflows Azure Quantum et les experiences hybrides combinant du code classique et quantique.",
+    },
   },
 } satisfies Language;

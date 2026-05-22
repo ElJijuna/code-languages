@@ -8,7 +8,7 @@ const siteData = {
   generatedAt: new Date().toISOString(),
   total: languages.length,
   extensions: languages.reduce((total, language) => total + language.extensions.length, 0),
-  locales: ["en", "es"],
+  locales: ["en", "es", "it", "fr"],
   languages: languages
     .map((language) => ({
       slug: language.slug,
@@ -18,6 +18,12 @@ const siteData = {
       esName: language.i18n.es?.name ?? language.i18n.en.name,
       esDescription: language.i18n.es?.description ?? language.i18n.en.description,
       esLongDescription: language.i18n.es?.longDescription ?? language.i18n.en.longDescription,
+      itName: language.i18n.it?.name ?? language.i18n.en.name,
+      itDescription: language.i18n.it?.description ?? language.i18n.en.description,
+      itLongDescription: language.i18n.it?.longDescription ?? language.i18n.en.longDescription,
+      frName: language.i18n.fr?.name ?? language.i18n.en.name,
+      frDescription: language.i18n.fr?.description ?? language.i18n.en.description,
+      frLongDescription: language.i18n.fr?.longDescription ?? language.i18n.en.longDescription,
       publishedDate: language.publishedDate,
       extensions: language.extensions,
       author: language.author,

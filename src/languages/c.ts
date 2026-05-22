@@ -29,5 +29,19 @@ export const c = {
       longDescription:
         "C es un lenguaje compilado disenado para programacion de sistemas, software portable, desarrollo embebido, sistemas operativos, runtimes de lenguajes y bibliotecas sensibles al rendimiento.\n\nOfrece gestion directa de memoria, un nucleo pequeno de lenguaje e interaccion cercana con conceptos de maquina, manteniendo portabilidad entre muchos sistemas operativos y arquitecturas de hardware.",
     },
+    it: {
+      name: "C",
+      description:
+        "Un linguaggio di programmazione di sistema a uso generale con accesso a basso livello alla memoria.",
+      longDescription:
+        "C e un linguaggio compilato progettato per la programmazione di sistemi, software portabile, sviluppo embedded, sistemi operativi, runtime linguistici e librerie sensibili alle prestazioni.\n\nOffre gestione diretta della memoria, un piccolo linguaggio di base e un'interazione stretta con i concetti a livello di macchina, rimanendo portabile su molte piattaforme hardware e sistemi operativi.",
+    },
+    fr: {
+      name: "C",
+      description:
+        "Un langage de programmation de systemes generaliste avec un acces memoire de bas niveau.",
+      longDescription:
+        "C est un langage compile concu pour la programmation de systemes, les logiciels portables, le developpement embarque, les systemes d'exploitation, les environnements d'execution de langages et les bibliotheques sensibles aux performances.\n\nIl offre une gestion memoire directe, un noyau de langage de petite taille et une interaction etroite avec les concepts de bas niveau, tout en restant portable sur de nombreuses plateformes materielles et systemes d'exploitation.",
+    },
   },
 } satisfies Language;

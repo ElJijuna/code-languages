@@ -29,5 +29,19 @@ export const go = {
       longDescription:
         "Go combina una especificacion pequena del lenguaje, recoleccion de basura, tipado estatico y primitivas de concurrencia integradas mediante goroutines y channels.\n\nSe usa comunmente en servicios cloud, herramientas de red, sistemas distribuidos, aplicaciones de linea de comandos y software de infraestructura.",
     },
+    it: {
+      name: "Go",
+      description:
+        "Un linguaggio compilato progettato per la semplicita, i tempi di compilazione rapidi e la concorrenza.",
+      longDescription:
+        "Go combina una specifica del linguaggio piccola, la garbage collection, il tipaggio statico e le primitive di concorrenza integrate tramite goroutine e canali.\n\nE comunemente utilizzato per servizi cloud, strumenti di rete, sistemi distribuiti, applicazioni da riga di comando e software di infrastruttura.",
+    },
+    fr: {
+      name: "Go",
+      description:
+        "Un langage compile concu pour la simplicite, les constructions rapides et la concurrence.",
+      longDescription:
+        "Go combine une petite specification de langage, la gestion de la memoire, le typage statique et des primitives de concurrence integrees via les goroutines et les canaux.\n\nIl est couramment utilise pour les services cloud, les outils de reseau, les systemes distribues, les applications en ligne de commande et les logiciels d'infrastructure.",
+    },
   },
 } satisfies Language;

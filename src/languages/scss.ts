@@ -30,5 +30,19 @@ export const scss = {
       longDescription:
         "Sass extiende CSS con caracteristicas como variables, reglas anidadas, mixins, funciones, modulos, herencia y herramientas de compilacion que generan CSS estandar.\n\nSe usa ampliamente en sistemas de diseno, bibliotecas de componentes, grandes aplicaciones web, temas y proyectos que necesitan patrones de estilos reutilizables sobre la plataforma CSS.",
     },
+    it: {
+      name: "Sass",
+      description:
+        "Un linguaggio di stile e preprocessore CSS con variabili, nidificazione, mixin, moduli e funzioni.",
+      longDescription:
+        "Sass estende CSS con funzionalita come variabili, regole nidificate, mixin, funzioni, moduli, ereditarieta e strumenti di compilazione che generano CSS standard.\n\nE ampiamente utilizzato in sistemi di design, librerie di componenti, grandi applicazioni web, temi e progetti che necessitano di modelli di stile riutilizzabili sulla piattaforma CSS.",
+    },
+    fr: {
+      name: "Sass",
+      description:
+        "Un langage de feuilles de style et preprocesseur CSS avec des variables, du nesting, des mixins, des modules et des fonctions.",
+      longDescription:
+        "Sass etend CSS avec des fonctionnalites telles que les variables, les regles imbriquees, les mixins, les fonctions, les modules, l'heritage et les outils de compilation qui generent du CSS standard.\n\nIl est largement utilise dans les systemes de conception, les bibliotheques de composants, les grandes applications web, les themes et les projets qui ont besoin de modeles de style reutilisables au-dessus de la plateforme CSS.",
+    },
   },
 } satisfies Language;

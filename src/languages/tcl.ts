@@ -30,5 +30,19 @@ export const tcl = {
       longDescription:
         "Tcl es un lenguaje dinamico de comandos disenado para embedding, scripting, automatizacion y extension. Tk es su toolkit GUI multiplataforma. Juntos ofrecen una sintaxis simple de comandos, event loop, modelo de strings como datos, capacidad de embedding y componentes de interfaz portables.\n\nTcl/Tk se usa en herramientas de escritorio, automatizacion EDA y CAD, bancos de prueba, scripting embebido, scripts de build y despliegue, prototipos rapidos y aplicaciones que necesitan un lenguaje de comandos pequeno y extensible.",
     },
+    it: {
+      name: "Tcl/Tk",
+      description:
+        "Un linguaggio di comando e toolkit GUI integrabile per l'automazione, gli strumenti e le applicazioni.",
+      longDescription:
+        "Tcl e un linguaggio di comando dinamico progettato per l'integrazione, la scripting, l'automazione e l'estensione. Tk e il suo toolkit GUI multipiattaforma. Insieme, forniscono una semplice sintassi di comando, un ciclo di eventi, un modello di dati basato su stringhe, l'integrazione e componenti di interfaccia utente portatili.\n\nTcl/Tk viene utilizzato per strumenti desktop, automazione EDA e CAD, framework di test, scripting embedded, script di build e deployment, prototipi rapidi e applicazioni che necessitano di un piccolo linguaggio di comando estendibile.",
+    },
+    fr: {
+      name: "Tcl/Tk",
+      description:
+        "Un langage de commande et un kit d'interface graphique embarquables pour l'automatisation, les outils et les applications.",
+      longDescription:
+        "Tcl est un langage de commande dynamique concu pour l'embarquement, le script, l'automatisation et l'extension. Tk est son kit d'interface graphique multiplateforme. Ensemble, ils fournissent une syntaxe de commande simple, une boucle d'evenements, un modele de donnees base sur les chaines, l'embarquabilite et des composants d'interface utilisateur portables.\n\nTcl/Tk est utilise pour les outils de bureau, l'automatisation de l'EDA et du CAO, les harnesses de test, le script embarque, les scripts de construction et de deploiement, les prototypes rapides et les applications qui ont besoin d'un petit langage de commande extensible.",
+    },
   },
 } satisfies Language;

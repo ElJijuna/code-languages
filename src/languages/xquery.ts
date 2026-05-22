@@ -30,5 +30,19 @@ export const xquery = {
       longDescription:
         "XQuery es un lenguaje declarativo de consultas para XML y datos estructurados relacionados. Combina expresiones XPath, consultas FLWOR, funciones, modulos, procesamiento de secuencias, namespaces y operaciones con tipos para extraer, transformar, unir y construir XML u otros resultados serializados.\n\nSe usa en bases de datos XML nativas, pipelines de publicacion, repositorios documentales, integraciones empresariales, humanidades digitales, procesamiento de metadatos y aplicaciones que consultan grandes colecciones de XML o contenido semiestructurado.",
     },
+    it: {
+      name: "XQuery",
+      description:
+        "Un linguaggio di query e applicazione W3C per XML, dati strutturati e semi-strutturati.",
+      longDescription:
+        "XQuery e un linguaggio di query dichiarativo per XML e dati strutturati correlati. Combina espressioni XPath, query FLWOR, funzioni, moduli, elaborazione di sequenze, namespace e operazioni consapevoli dei tipi per estrarre, trasformare, unire e costruire risultati XML o serializzati.\n\nE utilizzato in database XML nativi, pipeline di pubblicazione, repository di documenti, integrazioni aziendali, digital humanities, elaborazione di metadati e applicazioni che interrogano grandi raccolte di XML o contenuti semi-strutturati.",
+    },
+    fr: {
+      name: "XQuery",
+      description:
+        "Un langage de requete et d'application W3C pour les donnees XML, structurees et semi-structurees.",
+      longDescription:
+        "XQuery est un langage de requete declaratif pour XML et les donnees structurees connexes. Il combine des expressions XPath, des requetes FLWOR, des fonctions, des modules, le traitement de sequences, des espaces de noms et des operations conscientes des types pour extraire, transformer, joindre et construire des resultats XML ou d'autres resultats serialises.\n\nIl est utilise dans les bases de donnees XML natives, les pipelines de publication, les referentiels de documents, les integrations d'entreprise, les humanites numeriques, le traitement des metadonnees et les applications qui interrogent de grandes collections de contenu XML ou semi-structure.",
+    },
   },
 } satisfies Language;

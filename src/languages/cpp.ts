@@ -30,5 +30,19 @@ export const cpp = {
       longDescription:
         "C++ extiende C con clases, plantillas, excepciones, espacios de nombres, programacion generica, gestion determinista de recursos y una gran biblioteca estandar.\n\nSe usa ampliamente en sistemas operativos, motores de videojuegos, navegadores, compiladores, bases de datos, sistemas financieros, dispositivos embebidos y software donde importan el rendimiento y el control de memoria.",
     },
+    it: {
+      name: "C++",
+      description:
+        "Un linguaggio di programmazione ad alte prestazioni, general-purpose, per sistemi, applicazioni, giochi e software embedded.",
+      longDescription:
+        "C++ estende C con classi, template, eccezioni, namespace, programmazione generica, gestione deterministica delle risorse e una vasta libreria standard.\n\nE ampiamente utilizzato per sistemi operativi, motori di gioco, browser, compilatori, database, sistemi finanziari, dispositivi embedded e software dove le prestazioni e il controllo sulla memoria sono importanti.",
+    },
+    fr: {
+      name: "C++",
+      description:
+        "Un langage de programmation general a haute performance pour les systemes, les applications, les jeux et les logiciels embarques.",
+      longDescription:
+        "C++ etend C avec des classes, des modeles, des exceptions, des espaces de noms, la programmation generique, la gestion des ressources deterministe et une grande bibliotheque standard.\n\nIl est largement utilise pour les systemes d'exploitation, les moteurs de jeux, les navigateurs, les compilateurs, les bases de donnees, les systemes financiers, les appareils embarques et les logiciels ou les performances et le controle de la memoire sont importants.",
+    },
   },
 } satisfies Language;

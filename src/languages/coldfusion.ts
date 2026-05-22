@@ -30,5 +30,19 @@ export const coldfusion = {
       longDescription:
         "ColdFusion usa CFML para crear aplicaciones web renderizadas en servidor, APIs, tareas programadas e integraciones empresariales con una mezcla de marcado basado en etiquetas y sintaxis de script.\n\nSu ecosistema incluye Adobe ColdFusion, Lucee, componentes CFML, acceso a bases de datos, plantillas, correo, procesamiento de archivos y herramientas para aplicaciones de negocio de larga vida.",
     },
+    it: {
+      name: "ColdFusion",
+      description:
+        "Un linguaggio e una piattaforma web basati su JVM che utilizzano i tag, gli script e i componenti CFML.",
+      longDescription:
+        "ColdFusion utilizza CFML per creare applicazioni web, API, attivita pianificate e integrazioni aziendali, utilizzando una combinazione di markup basato su tag e sintassi di script.\n\nIl suo ecosistema include Adobe ColdFusion, Lucee, componenti CFML, accesso al database, template, posta elettronica, elaborazione file e strumenti per applicazioni aziendali a lunga durata.",
+    },
+    fr: {
+      name: "ColdFusion",
+      description:
+        "Un langage et une plateforme web bases sur JVM utilisant les balises, les scripts et les composants CFML.",
+      longDescription:
+        "ColdFusion utilise le CFML pour creer des applications web, des API, des taches planifiees et des integrations d'entreprise, en combinant la mise en forme basee sur des balises et la syntaxe de script.\n\nSon ecosysteme comprend Adobe ColdFusion, Lucee, les composants CFML, l'acces aux bases de donnees, le modele, l'envoi de courriels, le traitement de fichiers et des outils pour les applications d'entreprise a long terme.",
+    },
   },
 } satisfies Language;

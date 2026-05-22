@@ -29,5 +29,19 @@ export const makefile = {
       longDescription:
         "Los Makefiles describen targets, prerequisitos, variables y recetas de shell que las herramientas make usan para decidir que trabajo debe reconstruirse y que comandos deben ejecutarse.\n\nSe usan ampliamente para compilar proyectos C y C++, manejar pipelines de build en Unix, empaquetar software, ejecutar tareas de desarrollo, generar artefactos y coordinar comandos en muchos ecosistemas de lenguajes.",
     },
+    it: {
+      name: "Makefile",
+      description:
+        "Un formato di automazione della compilazione basato su regole utilizzato dagli strumenti make per eseguire attivita riproducibili.",
+      longDescription:
+        "I Makefile descrivono target, prerequisiti, variabili e ricette di shell che gli strumenti make utilizzano per decidere quali attivita devono essere ricostruite e quali comandi devono essere eseguiti.\n\nSono ampiamente utilizzati per compilare progetti C e C++, per guidare i pipeline di build Unix, per impacchettare software, per eseguire attivita di sviluppo, per generare artefatti e per coordinare comandi in molti ecosistemi di linguaggi di programmazione.",
+    },
+    fr: {
+      name: "Makefile",
+      description:
+        "Un format d'automatisation de construction base sur des regles utilise par les outils make pour executer des taches reproductibles.",
+      longDescription:
+        "Les fichiers make decrivent des cibles, des prerequis, des variables et des recettes de shell que les outils make utilisent pour decider quelles taches doivent etre reconstruites et quels commandes doivent etre executees.\n\nElles sont largement utilisees pour compiler des projets C et C++, pour piloter les pipelines de construction Unix, pour empaqueter des logiciels, pour executer des taches de developpement, pour generer des artefacts et pour coordonner des commandes dans de nombreux ecosystemes de langages de programmation.",
+    },
   },
 } satisfies Language;

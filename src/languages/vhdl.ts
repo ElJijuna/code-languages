@@ -30,5 +30,19 @@ export const vhdl = {
       longDescription:
         "VHDL describe sistemas digitales usando entidades, arquitecturas, senales, procesos, sentencias concurrentes, paquetes, generics, configuraciones, testbenches y unidades de diseno fuertemente tipadas. Soporta simulacion, sintesis y verificacion en varios niveles de abstraccion.\n\nSe usa en desarrollo FPGA, diseno ASIC, verificacion de hardware, bloques IP reutilizables, procesamiento digital de senales, hardware critico para seguridad y flujos de automatizacion de diseno electronico.",
     },
+    it: {
+      name: "VHDL",
+      description:
+        "Un linguaggio di descrizione e verifica hardware per sistemi elettronici digitali.",
+      longDescription:
+        "VHDL descrive i sistemi digitali utilizzando entita, architetture, segnali, processi, istruzioni concorrenti, pacchetti, generici, configurazioni, testbench e unita di progettazione fortemente tipizzate. Supporta la simulazione, la sintesi e la verifica a diversi livelli di astrazione.\n\nE utilizzato per lo sviluppo di FPGA, la progettazione di ASIC, la verifica hardware, blocchi IP riutilizzabili, l'elaborazione del segnale digitale, hardware critico per la sicurezza e i flussi di lavoro di automazione del design elettronico.",
+    },
+    fr: {
+      name: "VHDL",
+      description:
+        "Un langage de description et de verification du materiel pour les systemes electroniques numeriques.",
+      longDescription:
+        "VHDL decrit les systemes numeriques en utilisant des entites, des architectures, des signaux, des processus, des instructions concurrentes, des packages, des generiques, des configurations, des bancs de test et des unites de conception fortement typees. Il prend en charge la simulation, la synthese et la verification a plusieurs niveaux d'abstraction.\n\nIl est utilise pour le developpement de FPGA, la conception de circuits integres, la verification materielle, les blocs IP reutilisables, le traitement du signal numerique, le materiel critique pour la securite et les flux de travail d'automatisation de la conception electronique.",
+    },
   },
 } satisfies Language;

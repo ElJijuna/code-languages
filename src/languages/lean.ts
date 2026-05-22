@@ -30,5 +30,19 @@ export const lean = {
       longDescription:
         "Lean es un demostrador de teoremas y lenguaje funcional con tipos dependientes. Lean 4 incluye un compilador eficiente, sintaxis extensible, metaprogramacion, tacticas y herramientas para grandes proyectos de formalizacion.\n\nSe usa en matematica formalizada, verificacion de programas, investigacion en demostracion de teoremas, juegos educativos y proyectos donde pruebas y definiciones ejecutables pueden evolucionar juntas.",
     },
+    it: {
+      name: "Lean",
+      description:
+        "Un dimostratore di teoremi e linguaggio funzionale per la matematica e il software formalizzati.",
+      longDescription:
+        "Lean e un dimostratore di teoremi e un linguaggio di programmazione funzionale con tipi dipendenti. Lean 4 include un compilatore efficiente, una sintassi estendibile, funzionalita di metaprogrammazione, tattiche e strumenti per progetti di formalizzazione di grandi dimensioni.\n\nE utilizzato in matematica formalizzata, verifica di programmi, ricerca sulla dimostrazione di teoremi, giochi educativi e progetti software in cui dimostrazioni ed definizioni eseguibili possono evolvere insieme.",
+    },
+    fr: {
+      name: "Lean",
+      description:
+        "Un verificateur de theoremes et un langage fonctionnel pour les mathematiques et les logiciels formels.",
+      longDescription:
+        "Lean est un verificateur de theoremes et un langage de programmation fonctionnel de type dependant. Lean 4 inclut un compilateur efficace, une syntaxe extensible, des fonctionnalites de metaprogrammation, des tactiques et des outils pour les grands projets de formalisation. \n\nIl est utilise dans les mathematiques formelles, la verification de programmes, la recherche sur la preuve de theoremes, les jeux educatifs et les projets de logiciels ou les preuves et les definitions executables peuvent evoluer ensemble.",
+    },
   },
 } satisfies Language;

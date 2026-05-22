@@ -28,5 +28,18 @@ export const raku = {
       longDescription:
         "Raku es un lenguaje hermano de Perl con tipado gradual, firmas, multiple dispatch, grammars, junctions, primitivas concurrentes y operadores expresivos. Sirve tanto para scripts pequenos como para programas orientados a lenguajes.\n\nSe usa en procesamiento de texto, herramientas de linea de comandos, parsers, automatizacion, experimentacion y aplicaciones que aprovechan soporte integrado para grammars.",
     },
+    it: {
+      name: "Raku",
+      description: "Un linguaggio multi-paradigma con grammatiche, concorrenza e dispatch ricco.",
+      longDescription:
+        "Raku e un linguaggio affine a Perl con tipizzazione graduale, firme, dispatch multiplo, grammatiche, giunzioni, primitive di concorrenza e operatori espressivi. E progettato sia per piccoli script che per programmi piu grandi orientati al linguaggio.\n\nViene utilizzato per l'elaborazione di testo, strumenti da riga di comando, parser, automazione, sperimentazione e applicazioni che beneficiano del supporto integrato per le grammatiche.",
+    },
+    fr: {
+      name: "Raku",
+      description:
+        "Un langage multi-paradigme avec des grammaires, la concurrence et un dispatch riche.",
+      longDescription:
+        "Raku est un langage apparente a Perl, avec un typage progressif, des signatures, un dispatch multiple, des grammaires, des junctions, des primitives de concurrence et des operateurs expressifs. Il est concu pour les petits scripts et les programmes plus importants orientes langage.\n\nIl est utilise pour le traitement de texte, les outils en ligne de commande, les parseurs, l'automatisation, l'experimentation et les applications qui beneficient d'un support de grammaire integre.",
+    },
   },
 } satisfies Language;

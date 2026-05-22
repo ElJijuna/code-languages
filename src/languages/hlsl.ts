@@ -29,5 +29,19 @@ export const hlsl = {
       longDescription:
         "HLSL es un lenguaje de shaders para Direct3D y pipelines graficos relacionados. Ofrece sintaxis similar a C, tipos vectoriales y matriciales, texturas, samplers, constant buffers, semanticas, intrinsics y etapas de shader para vertex, pixel, compute, geometry, hull, domain, mesh, amplification y ray tracing.\n\nSe usa en juegos Windows, motores de rendering, tareas GPU compute, efectos visuales, simulaciones en tiempo real, herramientas DirectX y flujos de shaders cross-compiled hacia hardware grafico moderno.",
     },
+    it: {
+      name: "HLSL",
+      description:
+        "Linguaggio di shading di alto livello di Microsoft per pipeline grafiche programmabili.",
+      longDescription:
+        "HLSL e un linguaggio di shader per Direct3D e pipeline grafiche correlate. Fornisce una sintassi simile a C, tipi vettoriali e matriciali, texture, campionatori, buffer di costanti, semantiche, istruzioni intrinseche e stadi di shader per carichi di lavoro di vertex, pixel, compute, geometria, hull, domain, mesh, amplification e ray tracing.\n\nE utilizzato in giochi per Windows, motori di rendering, attivita di calcolo GPU, effetti visivi, simulazioni in tempo reale, strumenti DirectX e flussi di lavoro di shader cross-compilati che mirano all'hardware grafico moderno.",
+    },
+    fr: {
+      name: "HLSL",
+      description:
+        "HLSL (High-Level Shading Language) de Microsoft pour les pipelines graphiques programmables.",
+      longDescription:
+        "HLSL est un langage de shaders pour Direct3D et les pipelines graphiques associes. Il fournit une syntaxe semblable a C, des types de vecteurs et de matrices, des textures, des echantillonneurs, des tampons constants, des semantiques, des intrinseques et des etapes de shaders pour les charges de travail de vertex, de pixel, de calcul, de geometrie, de coque, de domaine, de maillage, d'amplification et de ray tracing.\n\nIl est utilise dans les jeux Windows, les moteurs de rendu, les taches de calcul GPU, les effets visuels, les simulations en temps reel, les outils DirectX et les flux de travail de shaders compiles pour le materiel graphique moderne.",
+    },
   },
 } satisfies Language;

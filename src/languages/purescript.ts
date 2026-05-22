@@ -28,5 +28,18 @@ export const purescript = {
       longDescription:
         "PureScript lleva tipos algebraicos, type classes, efectos, modulos, row polymorphism y un modelo funcional influido por Haskell a objetivos JavaScript. Su compilador emite JavaScript legible e interoperable con modulos externos.\n\nSe usa en aplicaciones front-end, bibliotecas, modelos de dominio tipados, arquitectura funcional y proyectos JavaScript que buscan manejo explicito de efectos.",
     },
+    it: {
+      name: "PureScript",
+      description: "Un linguaggio funzionale puramente tipizzato, che compila in JavaScript.",
+      longDescription:
+        "PureScript porta tipi di dati algebrici, classi di tipi, effetti, moduli, polimorfismo di riga e un modello funzionale influenzato da Haskell a destinazioni JavaScript. Il suo compilatore produce JavaScript leggibile e funziona con moduli JavaScript esterni.\n\nViene utilizzato per applicazioni front-end, librerie, modelli di dominio tipizzati, architettura funzionale e progetti JavaScript che desiderano un controllo esplicito degli effetti.",
+    },
+    fr: {
+      name: "PureScript",
+      description:
+        "Un langage de programmation fonctionnel et fortement type qui compile vers JavaScript.",
+      longDescription:
+        "PureScript apporte des types de donnees algebriques, des classes de types, des effets, des modules, la polymorphie de lignes et un modele fonctionnel influence par Haskell a des cibles JavaScript. Son compilateur produit du JavaScript lisible et fonctionne avec des modules JavaScript etrangers.\n\nIl est utilise pour les applications front-end, les bibliotheques, les modeles de domaine types, l'architecture fonctionnelle et les projets JavaScript qui souhaitent une gestion explicite des effets.",
+    },
   },
 } satisfies Language;

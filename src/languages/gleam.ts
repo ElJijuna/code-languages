@@ -28,5 +28,18 @@ export const gleam = {
       longDescription:
         "Gleam es un lenguaje de programacion funcional con tipado estatico que compila a Erlang y JavaScript. Ofrece tipos algebraicos, pattern matching, datos inmutables, una sintaxis pequena, errores de compilador utiles e interoperabilidad con bibliotecas Erlang y Elixir sobre BEAM.\n\nSe usa en servicios web, sistemas concurrentes, herramientas de linea de comandos, aplicaciones full-stack y proyectos que buscan la confiabilidad de BEAM con un sistema de tipos ligero y un modelo funcional accesible.",
     },
+    it: {
+      name: "Gleam",
+      description:
+        "Un linguaggio funzionale staticamente tipizzato e amichevole per BEAM e JavaScript.",
+      longDescription:
+        "Gleam e un linguaggio di programmazione funzionale staticamente tipizzato che compila in Erlang e JavaScript. Fornisce tipi di dati algebrici, corrispondenza di pattern, dati immutabili, una sintassi piccola, errori del compilatore utili e interoperabilita con librerie Erlang ed Elixir su BEAM.\n\nE utilizzato per servizi web, sistemi concorrenti, strumenti da riga di comando, applicazioni full-stack e progetti che desiderano l'affidabilita di BEAM con un sistema di tipi leggero e un modello di programmazione funzionale accessibile.",
+    },
+    fr: {
+      name: "Gleam",
+      description: "Un langage fonctionnel statiquement type convivial pour BEAM et JavaScript.",
+      longDescription:
+        "Gleam est un langage de programmation fonctionnel statiquement type qui compile vers Erlang et JavaScript. Il fournit des types de donnees algebriques, la correspondance de motifs, des donnees immuables, une syntaxe concise, des erreurs de compilateur utiles et une interoperabilite avec les bibliotheques Erlang et Elixir sur BEAM.\n\nIl est utilise pour les services web, les systemes concurrents, les outils en ligne de commande, les applications full-stack et les projets qui souhaitent la fiabilite de BEAM avec un systeme de types leger et un modele de programmation fonctionnelle accessible.",
+    },
   },
 } satisfies Language;

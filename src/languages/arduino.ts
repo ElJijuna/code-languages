@@ -30,5 +30,19 @@ export const arduino = {
       longDescription:
         "Los sketches de Arduino envuelven el desarrollo embebido en C y C++ en un modelo de proyecto accesible con puntos de entrada setup y loop, cores de placas y bibliotecas de hardware.\n\nSe usan ampliamente para prototipos electronicos, educacion, robotica, sensores, dispositivos IoT y pequenos proyectos de firmware que interactuan directamente con componentes fisicos.",
     },
+    it: {
+      name: "Arduino Sketch",
+      description:
+        "Un formato di sketch basato su C/C++ per la programmazione di schede Arduino e dispositivi embedded.",
+      longDescription:
+        "Gli sketch di Arduino racchiudono lo sviluppo embedded di C e C++ in un modello di progetto facile da usare, con punti di ingresso per setup e loop, core di scheda e librerie hardware.\n\nSono ampiamente utilizzati per la prototipazione elettronica, l'istruzione, la robotica, i sensori, i dispositivi IoT e piccoli progetti di firmware che interagiscono direttamente con i componenti fisici.",
+    },
+    fr: {
+      name: "Arduino Sketch",
+      description:
+        "Un format de schema base sur C/C++ pour programmer les cartes Arduino et les appareils embarques.",
+      longDescription:
+        "Les schemas Arduino encapsulent le developpement en C et C++ embarque dans un modele de projet convivial, avec des points d'entree de configuration et de boucle, des noyaux de carte et des bibliotheques materielles.\n\nIls sont largement utilises pour la prototypage electronique, l'education, la robotique, les capteurs, les appareils IoT et les petits projets de micrologiciel qui interagissent directement avec les composants physiques.",
+    },
   },
 } satisfies Language;

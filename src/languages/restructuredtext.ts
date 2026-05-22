@@ -28,5 +28,19 @@ export const restructuredtext = {
       longDescription:
         "reStructuredText es un lenguaje de marcado estructurado en texto plano con secciones, directives, roles, referencias, tablas, listas y puntos de extension. Docutils define su modelo de parser y Sphinx lo extiende para documentacion tecnica.\n\nSe usa en documentacion Python, manuales, referencias API, libros, notas de proyectos y flujos de publicacion que necesitan marcado semantico desde texto legible.",
     },
+    it: {
+      name: "reStructuredText",
+      description:
+        "Un formato di markup testuale semplice utilizzato da Docutils e Sphinx per la documentazione.",
+      longDescription:
+        "reStructuredText e un linguaggio di markup testuale strutturato con sezioni, direttive, ruoli, riferimenti, tabelle, liste ed estensioni. Docutils definisce il modello di parser e Sphinx lo estende per la documentazione tecnica.\n\nViene utilizzato per la documentazione di Python, manuali, riferimenti API, libri, note di progetto e flussi di lavoro di pubblicazione che richiedono markup semantico da testo leggibile.",
+    },
+    fr: {
+      name: "reStructuredText",
+      description:
+        "Un format de balisage textuel simple utilise par Docutils et Sphinx pour la documentation.",
+      longDescription:
+        "reStructuredText est un langage de balisage textuel structure avec des sections, des directives, des roles, des references, des tableaux, des listes et des points d'extension. Docutils definit le modele d'analyseur et Sphinx le etend pour la documentation technique.\n\nIl est utilise pour la documentation Python, les manuels, les references API, les livres, les notes de projet et les flux de travail de publication qui necessitent un balisage semantique a partir de texte lisible.",
+    },
   },
 } satisfies Language;

@@ -30,5 +30,19 @@ export const scala = {
       longDescription:
         "Scala es un lenguaje de programacion de proposito general que combina programacion orientada a objetos y funcional sobre la JVM. Incluye tipado estatico fuerte, inferencia de tipos, pattern matching, funciones de orden superior, traits, implicits o givens e interoperabilidad con bibliotecas Java.\n\nSe usa en servicios backend, ingenieria de datos, sistemas distribuidos, pipelines de streaming, modelado de dominios y aplicaciones que aprovechan abstracciones expresivas sin salir del ecosistema JVM.",
     },
+    it: {
+      name: "Scala",
+      description:
+        "Un linguaggio JVM che combina la programmazione orientata agli oggetti e funzionale con un forte tipaggio statico.",
+      longDescription:
+        "Scala e un linguaggio di programmazione di uso generale che combina la programmazione orientata agli oggetti e funzionale sulla JVM. Include un forte tipaggio statico, inferenza dei tipi, corrispondenza di pattern, funzioni di ordine superiore, traits, impliciti o givens, e interoperabilita con le librerie Java.\n\nViene utilizzato per servizi backend, ingegneria dei dati, sistemi distribuiti, pipeline di streaming, modellazione del dominio e applicazioni che beneficiano di astrazioni espressive rimanendo connesse all'ecosistema JVM.",
+    },
+    fr: {
+      name: "Scala",
+      description:
+        "Un langage JVM qui combine la programmation orientee objet et fonctionnelle avec un typage statique fort.",
+      longDescription:
+        "Scala est un langage de programmation general a usage unique qui combine la programmation orientee objet et fonctionnelle sur la JVM. Il inclut un typage statique fort, l'inference de type, la correspondance de motifs, les fonctions de haut niveau, les traits, les implicites ou les givens, et l'interoperabilite avec les bibliotheques Java.\n\nIl est utilise pour les services backend, l'ingenierie des donnees, les systemes distribues, les pipelines de streaming, la modelisation de domaine, et les applications qui beneficient d'abstractions expressives tout en restant connectees a l'ecosysteme JVM.",
+    },
   },
 } satisfies Language;

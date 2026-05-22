@@ -28,5 +28,17 @@ export const dita = {
       longDescription:
         "DITA es Darwin Information Typing Architecture, un estandar basado en XML para autoria orientada a topicos. Define tipos de topico, mapas, especializacion, mecanismos de reutilizacion y metadatos de publicacion para grandes conjuntos de documentacion.\n\nSe usa en redaccion tecnica, documentacion de productos, contenido regulado, flujos de localizacion y pipelines de publicacion que necesitan topicos estructurados y reutilizables en vez de documentos pagina por pagina.",
     },
+    it: {
+      name: "DITA",
+      description: "Un'architettura basata su XML per la documentazione tecnica strutturata.",
+      longDescription:
+        "DITA e l'architettura Darwin Information Typing Architecture, uno standard basato su XML per l'autore del contenuto orientato a temi. Definisce tipi di temi, mappe, meccanismi di specializzazione e riutilizzo, e metadati orientati alla pubblicazione per set di documentazione di grandi dimensioni.\n\nViene utilizzata nella scrittura tecnica, nella documentazione di prodotti, nei contenuti regolamentati, nei flussi di lavoro di localizzazione e nei pipeline di pubblicazione che necessitano di temi strutturati e riutilizzabili piuttosto che documenti pagina per pagina.",
+    },
+    fr: {
+      name: "DITA",
+      description: "Une architecture basee sur XML pour la documentation technique structuree.",
+      longDescription:
+        "DITA est l'architecture d'information Darwin, une norme XML basee sur les themes. Elle definit les types de themes, les cartes, les mecanismes de specialisation et de reutilisation, ainsi que les metadonnees orientees vers la publication pour les grands ensembles de documentation.\n\nElle est utilisee dans l'ecriture technique, la documentation de produits, le contenu reglemente, les flux de travail de localisation et les pipelines de publication qui necessitent des themes structures et reutilisables plutot que des documents page par page.",
+    },
   },
 } satisfies Language;

@@ -166,6 +166,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        flex-wrap: wrap;
         gap: 16px;
         padding: 16px 18px;
         border-bottom: 1px solid var(--line);
@@ -308,12 +309,24 @@
       }
 
       .chip {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
         border-radius: 999px;
         background: #ecf4f3;
         color: var(--accent-strong);
         font-size: 12px;
         font-weight: 800;
         padding: 6px 9px;
+      }
+
+      .color-swatch {
+        width: 12px;
+        height: 12px;
+        flex: none;
+        border: 1px solid rgba(24, 32, 38, 0.18);
+        border-radius: 999px;
+        background: var(--language-color);
       }
 
       pre {
@@ -608,6 +621,8 @@
             <div class="segmented" role="group" aria-label="Locale">
               <button class="active" data-locale="en" type="button">EN</button>
               <button data-locale="es" type="button">ES</button>
+              <button data-locale="it" type="button">IT</button>
+              <button data-locale="fr" type="button">FR</button>
             </div>
           </div>
           <div class="playground-body">
@@ -737,9 +752,30 @@ const astro = await api
       const result = $("#result");
 
       const formatNumber = (value) => new Intl.NumberFormat("en").format(value);
-      const localName = (language) => (state.locale === "es" ? language.esName : language.name);
-      const localDescription = (language) =>
-        state.locale === "es" ? language.esDescription : language.description;
+      const regionalLocales = {
+        en: "en-US",
+        es: "es-PE",
+        it: "it-IT",
+        fr: "fr-FR",
+      };
+      const localeFields = {
+        en: { name: "name", description: "description" },
+        es: { name: "esName", description: "esDescription" },
+        it: { name: "itName", description: "itDescription" },
+        fr: { name: "frName", description: "frDescription" },
+      };
+      const localField = (language, field) => {
+        const key = localeFields[state.locale]?.[field] ?? field;
+        return language[key] ?? language[field];
+      };
+      const localName = (language) => localField(language, "name");
+      const localDescription = (language) => localField(language, "description");
+      const renderColorChip = (language) => `
+        <span class="chip" title="Reference color">
+          <span class="color-swatch" style="--language-color: ${language.color}"></span>
+          ${language.color}
+        </span>
+      `;
 
       const normalizeFilename = (filename) => filename.split(/[\\/]/).at(-1).toLowerCase();
 
@@ -797,6 +833,7 @@ const astro = await api
             <div class="chips">
               <span class="chip">${selected.slug}</span>
               <span class="chip">v${selected.version}</span>
+              ${renderColorChip(selected)}
               <span class="chip">${extensionText}${extraExtensions ? ` +${extraExtensions}` : ""}</span>
             </div>
           </div>
@@ -806,7 +843,7 @@ const astro = await api
 
 const result = api
   .detect("${state.filename}")
-  .locale("${state.locale === "es" ? "es-PE" : "en-US"}")
+  .locale("${regionalLocales[state.locale]}")
   .get();
 
 // ${localName(selected)} ${selected.version}`;
@@ -816,6 +853,8 @@ const result = api
         [
           language.name,
           language.esName,
+          language.itName,
+          language.frName,
           language.slug,
           language.version,
           ...language.extensions,
@@ -864,6 +903,7 @@ const result = api
                 <p>${localDescription(language)}</p>
                 <div class="chips">
                   <span class="chip">v${language.version}</span>
+                  ${renderColorChip(language)}
                   <span class="chip">${language.extensions.slice(0, 4).join(", ")}</span>
                 </div>
               </article>
@@ -949,9 +989,14 @@ const result = api
         $("#stat-extensions").textContent = formatNumber(catalog.extensions);
         $("#stat-locales").textContent = formatNumber(catalog.locales.length);
 
-        $("#language-select").innerHTML = catalog.languages
-          .map((language) => `<option value="${language.slug}">${language.name}</option>`)
-          .join("");
+        const renderLanguageOptions = () => {
+          $("#language-select").innerHTML = catalog.languages
+            .map((language) => `<option value="${language.slug}">${localName(language)}</option>`)
+            .join("");
+          $("#language-select").value = state.selectedSlug;
+        };
+
+        renderLanguageOptions();
 
         document.querySelectorAll("[data-locale]").forEach((button) => {
           button.addEventListener("click", () => {
@@ -959,6 +1004,7 @@ const result = api
             document
               .querySelectorAll("[data-locale]")
               .forEach((localeButton) => localeButton.classList.toggle("active", localeButton === button));
+            renderLanguageOptions();
             renderResult();
             renderLanguages();
           });

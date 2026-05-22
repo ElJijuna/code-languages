@@ -30,5 +30,18 @@ export const protobuf = {
       longDescription:
         "Protocol Buffers es un mecanismo neutral en lenguaje y plataforma para definir schemas de datos estructurados y generar codigo tipado en muchos lenguajes de programacion. Los archivos `.proto` describen mensajes, campos, enums, servicios, paquetes, imports, opciones y contratos RPC.\n\nSe usa ampliamente con gRPC, microservicios, sistemas distribuidos, APIs, telemetria, configuracion, flujos de eventos y formatos de almacenamiento que necesitan serializacion binaria compacta y contratos estables entre lenguajes.",
     },
+    it: {
+      name: "Protocol Buffers",
+      description: "Protocol Buffers",
+      longDescription:
+        "Protocol Buffers e un meccanismo linguaggio-neutro e piattaforma-neutro per definire schemi di dati strutturati e generare codice fortemente tipizzato in molti linguaggi di programmazione. I file `.proto` descrivono messaggi, campi, enum, servizi, pacchetti, importazioni, opzioni e contratti RPC.\n\nE ampiamente utilizzato con gRPC, microservizi, sistemi distribuiti, API, telemetria, configurazione, flussi di eventi e formati di storage che richiedono una serializzazione binaria compatta e contratti stabili tra linguaggi.",
+    },
+    fr: {
+      name: "Protocol Buffers",
+      description:
+        "Protocol Buffers : format de schema langage-neutre de Google pour la serialisation de donnees structurees et les API de services.",
+      longDescription:
+        "Protocol Buffers est un mecanisme langage-neutre et plateforme-neutre pour definir des schemas de donnees structurees et generer du code fortement type dans de nombreux langages de programmation. Les fichiers `.proto` decrivent les messages, les champs, les enumerations, les services, les packages, les imports, les options et les contrats RPC.\n\nIl est largement utilise avec gRPC, les microservices, les systemes distribues, les API, la telemetrie, la configuration, les flux d'evenements et les formats de stockage qui necessitent une serialisation binaire compacte et des contrats stables entre les langages.",
+    },
   },
 } satisfies Language;

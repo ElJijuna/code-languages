@@ -30,5 +30,19 @@ export const lisp = {
       longDescription:
         "Lisp es una de las familias de lenguajes de alto nivel mas antiguas, basada en expresiones simbolicas, listas, macros, desarrollo interactivo, tipado dinamico y sintaxis programable. Esta entrada se enfoca en archivos fuente y sistemas de Common Lisp.\n\nCommon Lisp se usa en computacion simbolica, investigacion de IA, compiladores, DSLs, sistemas expertos, automatizacion, aplicaciones de servidor longevas, herramientas de desarrollo y programacion exploratoria donde las macros y los flujos interactivos son centrales.",
     },
+    it: {
+      name: "Lisp",
+      description:
+        "Una famiglia di linguaggi di programmazione, orientati alle espressioni, meglio conosciuta attraverso Common Lisp.",
+      longDescription:
+        "Common Lisp e una delle famiglie di linguaggi di programmazione di alto livello piu antiche, basata su espressioni simboliche, liste, macro, sviluppo interattivo, tipizzazione dinamica e sintassi di linguaggio di programmazione. Questa voce si concentra sui file sorgente e sui sistemi di Common Lisp.\n\nCommon Lisp viene utilizzata per la computazione simbolica, la ricerca sull'IA, i compilatori, le DSL, i sistemi esperti, l'automazione, le applicazioni di server a lunga durata, gli strumenti per gli sviluppatori e la programmazione esplorativa in cui le macro e i flussi di lavoro interattivi sono centrali.",
+    },
+    fr: {
+      name: "Lisp",
+      description:
+        "Une famille de langages programmables, orientes expression, meilleure connue via Common Lisp.",
+      longDescription:
+        "Common Lisp est l'une des plus anciennes familles de langages de programmation de haut niveau, construite autour d'expressions symboliques, de listes, de macros, de developpement interactif, de typage dynamique et de syntaxe de langage programmable. Cette entree se concentre sur les fichiers sources et les systemes Common Lisp.\n\nCommon Lisp est utilise pour le calcul symbolique, la recherche en IA, les compilateurs, les DSL, les systemes d'experts, l'automatisation, les applications serveur a long terme, les outils de developpement et la programmation exploratoire ou les macros et les workflows interactifs sont centraux.",
+    },
   },
 } satisfies Language;

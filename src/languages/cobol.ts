@@ -28,5 +28,19 @@ export const cobol = {
       longDescription:
         "COBOL es un lenguaje de programacion orientado al negocio creado por CODASYL para procesamiento de datos legible y portable en sistemas comerciales. Su sintaxis prioriza sentencias similares al ingles, registros estructurados, aritmetica decimal, procesamiento por lotes y flujos orientados a reportes.\n\nSe usa en banca, seguros, gobierno, nominas, procesamiento transaccional, sistemas mainframe y proyectos de modernizacion donde grandes bases de codigo empresarial siguen ejecutando operaciones criticas.",
     },
+    it: {
+      name: "COBOL",
+      description:
+        "Un linguaggio orientato al business per sistemi aziendali di lunga durata e ad alta intensita di dati.",
+      longDescription:
+        "COBOL e un linguaggio di programmazione orientato al business creato da CODASYL per l'elaborazione dati leggibile e portabile su sistemi di calcolo commerciali. La sua sintassi enfatizza istruzioni simili all'inglese, record strutturati, aritmetica decimale, elaborazione in batch e flussi di lavoro orientati ai report.\n\nE utilizzato in banche, assicurazioni, governo, elaborazione stipendi, elaborazione transazioni, sistemi mainframe e progetti di modernizzazione in cui ampi e duraturi codebase aziendali continuano a eseguire operazioni critiche.",
+    },
+    fr: {
+      name: "COBOL",
+      description:
+        "Un langage oriente entreprise pour les systemes d'entreprise a longue duree de vie et riches en donnees.",
+      longDescription:
+        "COBOL est un langage de programmation oriente entreprise cree par CODASYL pour le traitement de donnees portable et lisible sur les systemes informatiques commerciaux. Sa syntaxe met l'accent sur des instructions similaires a l'anglais, des enregistrements structures, l'arithmetique decimale, le traitement par lots et des flux de travail orientes rapports.\n\nIl est utilise dans les banques, les assurances, le secteur public, la paie, le traitement des transactions, les systemes mainframe et les projets de modernisation ou de grandes bases de code d'entreprise continuent de faire fonctionner des operations critiques.",
+    },
   },
 } satisfies Language;

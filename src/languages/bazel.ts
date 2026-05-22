@@ -30,5 +30,19 @@ export const bazel = {
       longDescription:
         "Los archivos Bazel describen paquetes, targets, dependencias, toolchains, plataformas, modulos y reglas para el grafo de build hermetico de Bazel. Los archivos BUILD y MODULE son declarativos, mientras que la logica de extension suele escribirse en Starlark.\n\nSe usa en monorepos, sistemas CI a gran escala, proyectos poliglota, remote execution, builds reproducibles, analisis de grafos de dependencias y equipos que necesitan builds consistentes entre maquinas y lenguajes.",
     },
+    it: {
+      name: "Bazel",
+      description:
+        "Un linguaggio di configurazione per la compilazione e i test per build e test riproducibili multi-linguaggio veloci.",
+      longDescription:
+        "I file Bazel descrivono pacchetti, target, dipendenze, toolchain, piattaforme, moduli e regole di compilazione per il grafo di compilazione ermetico di Bazel. I file BUILD e MODULE sono dichiarativi, mentre la logica di estensione viene comunemente scritta in Starlark.\n\nViene utilizzato in monorepos, sistemi CI su larga scala, progetti poliglotti, workflow di esecuzione remota, build riproducibili, analisi del grafo di dipendenze e team che necessitano di build coerenti su macchine e linguaggi diversi.",
+    },
+    fr: {
+      name: "Bazel",
+      description:
+        "Un langage de configuration de construction et de test pour des constructions multi-langues rapides et reproductibles.",
+      longDescription:
+        "Les fichiers Bazel decrivent les paquets, les cibles, les dependances, les outils, les plateformes, les modules et les regles de construction pour le graphe de construction hermetique de Bazel. Les fichiers BUILD et MODULE sont declaratifs, tandis que la logique d'extension est couramment ecrite en Starlark.\n\nIl est utilise dans les depots monorepos, les systemes CI a grande echelle, les projets polyglots, les workflows d'execution a distance, les constructions reproductibles, l'analyse du graphe de dependances et les equipes qui ont besoin de constructions coherentes sur differentes machines et langages.",
+    },
   },
 } satisfies Language;

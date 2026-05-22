@@ -29,5 +29,19 @@ export const cmake = {
       longDescription:
         "Los archivos CMake describen proyectos, targets, dependencias, opciones de compilador, reglas de instalacion, tests y comportamiento de build por plataforma usando un lenguaje de scripting basado en comandos.\n\nSe usan ampliamente para generar archivos de build nativos para herramientas como Ninja, Make, Visual Studio y Xcode, especialmente en proyectos C, C++, Fortran, embebidos, cientificos y multiplataforma.",
     },
+    it: {
+      name: "CMake",
+      description:
+        "Un linguaggio di sistema di compilazione multipiattaforma utilizzato per configurare, generare e gestire le compilazioni.",
+      longDescription:
+        "I file CMake descrivono progetti, target, dipendenze, opzioni del compilatore, regole di installazione, test e comportamenti di compilazione specifici della piattaforma utilizzando un linguaggio di scripting basato su comandi.\n\nSono ampiamente utilizzati per generare file di compilazione nativi per strumenti come Ninja, Make, Visual Studio e Xcode, in particolare in progetti software in C, C++, Fortran, embedded, scientifici e multipiattaforma.",
+    },
+    fr: {
+      name: "CMake",
+      description:
+        "Un langage de systeme de construction multiplateforme utilise pour configurer, generer et gerer les constructions.",
+      longDescription:
+        "Les fichiers CMake decrivent les projets, les cibles, les dependances, les options du compilateur, les regles d'installation, les tests et le comportement de construction specifique a la plateforme, en utilisant un langage de script base sur des commandes.\n\nIls sont largement utilises pour generer des fichiers de construction natifs pour des outils tels que Ninja, Make, Visual Studio et Xcode, en particulier dans les projets de logiciels C, C++, Fortran, embarques, scientifiques et multiplateformes.",
+    },
   },
 } satisfies Language;

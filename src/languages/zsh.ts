@@ -30,5 +30,19 @@ export const zsh = {
       longDescription:
         "zsh es un shell Unix disenado para uso interactivo en linea de comandos y scripting, con autocompletado avanzado, globbing, personalizacion del prompt y funciones de emulacion de shells.\n\nSe usa ampliamente como login shell, especialmente en sistemas tipo Unix y macOS, y es comun en flujos de desarrollo, personalizacion de terminales, scripts de automatizacion y administracion de sistemas.",
     },
+    it: {
+      name: "zsh",
+      description:
+        "Un shell Unix e linguaggio di comandi per l'uso interattivo, la scripting e l'automazione.",
+      longDescription:
+        "zsh e un shell Unix progettato per l'uso interattivo della riga di comando e la scripting di shell, con funzionalita avanzate di completamento, globbing, personalizzazione del prompt e emulazione di shell.\n\nE ampiamente utilizzato come shell di login, in particolare sui sistemi Unix-like e macOS, ed e comune nei flussi di lavoro degli sviluppatori, nella personalizzazione del terminale, negli script di automazione e nell'amministrazione di sistema.",
+    },
+    fr: {
+      name: "zsh",
+      description:
+        "Un shell et langage de commande Unix pour une utilisation interactive, le script et l'automatisation.",
+      longDescription:
+        "zsh est un shell Unix concu pour une utilisation interactive en ligne de commande et le script de shell, avec des fonctionnalites avancees telles que la completion, le globbing, la personnalisation du prompt et l'emulation de shell.\n\nIl est largement utilise comme shell de connexion, en particulier sur les systemes Unix-like et macOS, et est courant dans les flux de travail des developpeurs, la personnalisation des terminaux, les scripts d'automatisation et l'administration systeme.",
+    },
   },
 } satisfies Language;

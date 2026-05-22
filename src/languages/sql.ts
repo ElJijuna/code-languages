@@ -24,5 +24,19 @@ export const sql = {
       longDescription:
         "SQL es un lenguaje especifico de dominio para trabajar con bases de datos relacionales, incluyendo consulta de datos, definicion de esquemas, modificacion de registros y control de acceso.\n\nSe usa en sistemas de bases de datos como PostgreSQL, MySQL, SQLite, SQL Server, Oracle Database y muchas plataformas de analitica.",
     },
+    it: {
+      name: "SQL",
+      description:
+        "Un linguaggio standard per interrogare, definire e gestire database relazionali.",
+      longDescription:
+        "SQL e un linguaggio specifico per il dominio per lavorare con database relazionali, inclusa la query dei dati, la definizione di schemi, la modifica dei record e il controllo dell'accesso.\n\nE utilizzato in sistemi di database come PostgreSQL, MySQL, SQLite, SQL Server, Oracle Database e molte piattaforme di analisi.",
+    },
+    fr: {
+      name: "SQL",
+      description:
+        "Un langage standard pour interroger, definir et gerer les bases de donnees relationnelles.",
+      longDescription:
+        "SQL est un langage specifique a un domaine pour travailler avec les bases de donnees relationnelles, incluant l'interrogation de donnees, la definition de schemas, la modification d'enregistrements et le controle de l'acces.\n\nIl est utilise dans divers systemes de bases de donnees tels que PostgreSQL, MySQL, SQLite, SQL Server, Oracle Database, et de nombreuses plateformes d'analyse.",
+    },
   },
 } satisfies Language;

@@ -29,5 +29,19 @@ export const plantuml = {
       longDescription:
         "PlantUML es un lenguaje y renderer de diagramas para secuencia, clases, actividad, componentes, estados, objetos, despliegue, timing, mapas mentales y arquitectura. Permite mantener diagramas en control de versiones y generar imagenes desde texto compacto.\n\nSe usa en documentacion de arquitectura de software, revisiones de diseno, especificaciones tecnicas, wikis, diagramas generados en CI y proyectos que prefieren diagramas versionables a archivos de dibujo editados manualmente.",
     },
+    it: {
+      name: "PlantUML",
+      description:
+        "Un linguaggio di diagrammi basato su testo per UML, diagrammi di architettura e documentazione.",
+      longDescription:
+        "PlantUML e un linguaggio e un motore di diagrammi per diagrammi di sequenza, classe, attivita, componente, stato, oggetto, deployment, temporizzazione, mappe mentali e architettura. Permette ai team di mantenere i diagrammi nel controllo delle versioni e di generare immagini da testo compatto.\n\nViene utilizzato nella documentazione dell'architettura del software, revisioni di progettazione, specifiche tecniche, wiki, diagrammi generati da CI e progetti che preferiscono diagrammi versionabili rispetto a file di disegno modificati manualmente.",
+    },
+    fr: {
+      name: "PlantUML",
+      description:
+        "Un langage de diagramme base sur du texte pour UML, les diagrammes d'architecture et de documentation.",
+      longDescription:
+        "PlantUML est un langage et un moteur de diagrammes pour les diagrammes de sequence, de classes, d'activite, de composants, d'etat, d'objets, de deploiement, de timing, de cartes mentales et d'architecture. Il permet aux equipes de conserver les diagrammes dans un systeme de controle de version et de generer des images a partir de texte concis. \n\nIl est utilise dans la documentation de l'architecture logicielle, les revues de conception, les specifications techniques, les wikis, les diagrammes generes par CI et les projets qui preferent des diagrammes versionnables aux fichiers de dessin edites manuellement.",
+    },
   },
 } satisfies Language;

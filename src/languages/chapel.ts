@@ -28,5 +28,17 @@ export const chapel = {
       longDescription:
         "Chapel es un lenguaje de programacion paralela creado para hacer mas accesible la computacion de alto rendimiento y distribuida. Ofrece dominios, arreglos, paralelismo de tareas, paralelismo de datos, control de localidad y abstracciones para escribir programas escalables sin depender siempre de paso de mensajes de bajo nivel.\n\nSe usa en investigacion, computacion numerica, analitica de datos, simulaciones y aplicaciones de alto rendimiento que necesitan expresar algoritmos paralelos con claridad en laptops, clusters y supercomputadoras.",
     },
+    it: {
+      name: "Chapel",
+      description: "Un linguaggio di programmazione parallela produttivo per sistemi scalabili.",
+      longDescription:
+        "Chapel e un linguaggio di programmazione parallela creato per rendere l'informatica ad alte prestazioni e distribuita piu accessibile. Fornisce domini, array, parallelismo di task, parallelismo di dati, controllo della localita e astrazioni per scrivere programmi scalabili senza dover ricorrere costantemente alla comunicazione a basso livello.\n\nViene utilizzato per la ricerca, il calcolo numerico, l'analisi dei dati, le simulazioni e applicazioni ad alte prestazioni che necessitano di esprimere algoritmi paralleli in modo chiaro su laptop, cluster e supercomputer.",
+    },
+    fr: {
+      name: "Chapel",
+      description: "Un langage de programmation parallele productif pour les systemes evolutifs.",
+      longDescription:
+        "Chapel est un langage de programmation parallele cree pour rendre le calcul haute performance et distribue plus accessible. Il fournit des domaines, des tableaux, la parallelisation de taches, la parallelisation de donnees, le controle de la localisation et des abstractions pour ecrire des programmes evolutifs sans avoir recours a un passage de messages de bas niveau partout.\n\nIl est utilise pour la recherche, le calcul numerique, l'analyse de donnees, les simulations et les applications haute performance qui ont besoin d'exprimer clairement les algorithmes paralleles sur les ordinateurs portables, les clusters et les superordinateurs.",
+    },
   },
 } satisfies Language;

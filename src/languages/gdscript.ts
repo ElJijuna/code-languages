@@ -29,5 +29,19 @@ export const gdscript = {
       longDescription:
         "GDScript es un lenguaje de scripting de alto nivel creado para Godot Engine. Usa sintaxis basada en indentacion, tipado dinamico y estatico opcional, senales, integracion con nodos de escena, corrutinas, recursos y tooling del editor orientado al desarrollo de juegos.\n\nSe usa para implementar gameplay, comportamiento de UI, herramientas, logica de animacion, prototipos, plugins del editor y scripts que interactuan de cerca con escenas y APIs de Godot.",
     },
+    it: {
+      name: "GDScript",
+      description:
+        "Linguaggio di scripting integrato del Godot Engine per la logica di gioco e dell'editor.",
+      longDescription:
+        "GDScript e un linguaggio di scripting di alto livello progettato per il Godot Engine. Utilizza una sintassi basata sull'indentazione, tipi dinamici e opzionali, segnali, integrazione di nodi di scena, coroutine, risorse e strumenti specifici per lo sviluppo di giochi, pensati per l'uso nell'editor.\n\nViene utilizzato per implementare la logica di gioco, il comportamento dell'interfaccia utente, strumenti, la logica dell'animazione, prototipi, plugin per l'editor e script che interagiscono strettamente con le scene e le API del Godot Engine.",
+    },
+    fr: {
+      name: "GDScript",
+      description:
+        "Langage de script integre de Godot Engine pour le gameplay et la logique de l'editeur.",
+      longDescription:
+        "GDScript est un langage de script de haut niveau concu pour Godot Engine. Il utilise une syntaxe basee sur l'indentation, un typage dynamique et optionnel, des signaux, l'integration des noeuds de scene, des coroutines, des ressources et des outils adaptes a l'editeur, adaptes au developpement de jeux.\n\nIl est utilise pour implementer le gameplay, le comportement de l'interface utilisateur, les outils, la logique d'animation, les prototypes, les plugins d'editeur et les scripts qui interagissent etroitement avec les scenes et les API de Godot.",
+    },
   },
 } satisfies Language;

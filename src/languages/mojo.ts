@@ -28,5 +28,19 @@ export const mojo = {
       longDescription:
         "Mojo es un lenguaje de Modular que combina una sintaxis cercana a Python con ownership, semantica de valores, control de bajo nivel y funciones de compilador pensadas para codigo sensible al rendimiento. Su toolchain apunta a CPUs y flujos con aceleradores.\n\nSe usa en experimentos con kernels de IA, codigo numerico, programacion de sistemas, bibliotecas cercanas a Python y cargas que necesitan control explicito del rendimiento.",
     },
+    it: {
+      name: "Mojo",
+      description:
+        "Un linguaggio orientato ai sistemi per l'IA e la programmazione consapevole degli acceleratori.",
+      longDescription:
+        "Mojo e un linguaggio di Modular che combina una sintassi simile a Python con la gestione della proprieta, la semantica dei valori, il controllo a basso livello e le funzionalita del compilatore, mirate al codice sensibile alle prestazioni. Il suo strumento mira a CPU e flussi di lavoro di acceleratori.\n\nViene utilizzato in esperimenti su kernel di IA, codice numerico, programmazione di sistemi, librerie correlate a Python e carichi di lavoro che richiedono un controllo esplicito delle prestazioni.",
+    },
+    fr: {
+      name: "Mojo",
+      description:
+        "Un langage oriente systemes pour la programmation de l'IA et des accelerateurs.",
+      longDescription:
+        "Mojo est un langage de Modular qui combine une syntaxe conviviale pour Python avec la gestion de la propriete, la semantique des valeurs, un controle de bas niveau et des fonctionnalites de compilateur visant a optimiser le code sensible aux performances. Son outil cible les architectures CPU et les workflows d'accelerateurs.\n\nIl est utilise dans des experiences sur les noyaux d'IA, le code numerique, la programmation systeme, les bibliotheques Python et les charges de travail necessitant un controle explicite des performances.",
+    },
   },
 } satisfies Language;

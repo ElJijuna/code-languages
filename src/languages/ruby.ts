@@ -30,5 +30,19 @@ export const ruby = {
       longDescription:
         "Ruby es un lenguaje dinamico con sintaxis expresiva, clases abiertas, bloques, mixins, metaprogramacion, excepciones, modulos y un modelo orientado a objetos donde casi todo es un objeto.\n\nSe usa ampliamente para aplicaciones web con Ruby on Rails, herramientas de linea de comandos, scripts de automatizacion, tooling de infraestructura, generadores de sitios estaticos, frameworks de testing y flujos de productividad para desarrolladores.",
     },
+    it: {
+      name: "Ruby",
+      description:
+        "Un linguaggio di scripting dinamico, orientato agli oggetti, incentrato sulla produttivita e sulla felicita degli sviluppatori.",
+      longDescription:
+        "Ruby e un linguaggio dinamico con una sintassi espressiva, classi aperte, blocchi, mixins, metaprogrammazione, eccezioni, moduli e un modello orientato agli oggetti robusto, in cui quasi tutto e un oggetto.\n\nE ampiamente utilizzato per applicazioni web con Ruby on Rails, strumenti da riga di comando, script di automazione, strumenti di infrastruttura, generazione di siti statici, framework di test e flussi di lavoro di produttivita degli sviluppatori.",
+    },
+    fr: {
+      name: "Ruby",
+      description:
+        "Un langage de script dynamique, oriente objet, axe sur la productivite et le bonheur des developpeurs.",
+      longDescription:
+        "Ruby est un langage dynamique dote d'une syntaxe expressive, de classes ouvertes, de blocs, de mixins, de metaprogrammation, d'exceptions, de modules et d'un modele oriente objet solide, ou presque tout est un objet.\n\nIl est largement utilise pour les applications web avec Ruby on Rails, les outils en ligne de commande, les scripts d'automatisation, les outils d'infrastructure, la generation de sites statiques, les frameworks de test et les flux de travail de productivite des developpeurs.",
+    },
   },
 } satisfies Language;

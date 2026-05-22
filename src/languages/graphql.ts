@@ -30,5 +30,19 @@ export const graphql = {
       longDescription:
         "GraphQL es un lenguaje tipado de consultas, lenguaje de esquemas y modelo de ejecucion para APIs que permite a los clientes describir exactamente los datos que necesitan y a los servidores exponer capacidades mediante un grafo fuertemente tipado.\n\nSe usa ampliamente en aplicaciones web y moviles, API gateways, grafos de servicios federados, plataformas para desarrolladores, sistemas de contenido y flujos de tooling que necesitan introspeccion, validacion, generacion de codigo y contratos cliente-servidor predecibles.",
     },
+    it: {
+      name: "GraphQL",
+      description:
+        "Un linguaggio di query e schema tipizzato per API che consente ai client di richiedere forme di dati esatte.",
+      longDescription:
+        "GraphQL e un linguaggio di query tipizzato, un linguaggio di schema e un modello di esecuzione per API che consente ai client di descrivere i dati esatti di cui hanno bisogno e ai server di esporre le proprie capacita attraverso un grafo fortemente tipizzato.\n\nE ampiamente utilizzato in applicazioni web e mobili, gateway API, grafi di servizi federati, piattaforme per sviluppatori, sistemi di contenuti e flussi di lavoro di strumenti che richiedono introspezione, validazione, generazione di codice e contratti prevedibili tra client e server.",
+    },
+    fr: {
+      name: "GraphQL",
+      description:
+        "Un langage de requete et de schema type pour les API, qui permet aux clients de demander des formes de donnees precises.",
+      longDescription:
+        "GraphQL est un langage de requete type, un langage de schema et un modele d'execution pour les API, qui permet aux clients de decrire les donnees exactes dont ils ont besoin et aux serveurs d'exposer des capacites via un graphe fortement type.\n\nIl est largement utilise dans les applications web et mobiles, les API gateways, les graphes de services federes, les plateformes de developpement, les systemes de contenu et les flux de travail d'outillage qui necessitent l'introspection, la validation, la generation de code et des contrats clients-serveurs previsibles.",
+    },
   },
 } satisfies Language;

@@ -28,5 +28,19 @@ export const haxe = {
       longDescription:
         "Haxe es un lenguaje de programacion de alto nivel con tipado estatico y un toolkit de compilador que apunta a JavaScript, C++, C#, Java, bytecode JVM, PHP, Lua, Python, HashLink y otras plataformas. Incluye inferencia de tipos, macros, abstracts, genericos, pattern matching y una biblioteca estandar compartida.\n\nSe usa en juegos, aplicaciones web, creative coding, herramientas multiplataforma, frameworks multimedia y codebases que necesitan compartir logica tipada de negocio o motor entre muchos destinos.",
     },
+    it: {
+      name: "Haxe",
+      description:
+        "Un linguaggio di programmazione tipizzato cross-platform che compila per molti runtime e target.",
+      longDescription:
+        "Haxe e un linguaggio di programmazione di alto livello, staticamente tipizzato e un toolkit di compilazione che mira a JavaScript, C++, C#, Java, bytecode JVM, PHP, Lua, Python, HashLink e altre piattaforme. Include inferenza di tipi, macro, astrazioni, generics, pattern matching e una libreria standard condivisa.\n\nViene utilizzato per giochi, applicazioni web, coding creativo, strumenti cross-platform, framework multimediali e codebase che devono condividere logica di business o di engine tipizzata su molti target.",
+    },
+    fr: {
+      name: "Haxe",
+      description:
+        "Un langage de programmation type multiplateforme qui compile vers de nombreux environnements d'execution et plateformes.",
+      longDescription:
+        "Haxe est un langage de programmation de haut niveau, statiquement type et un ensemble d'outils de compilation qui cible JavaScript, C++, C#, Java, bytecode JVM, PHP, Lua, Python, HashLink et d'autres plateformes. Il inclut l'inference de types, les macros, les abstractions, les generiques, la correspondance de motifs et une bibliotheque standard partagee.\n\nIl est utilise pour les jeux, les applications web, le codage creatif, les outils multiplateformes, les frameworks multimedias et les bases de code qui doivent partager une logique metier ou un moteur typee sur de nombreuses plateformes.",
+    },
   },
 } satisfies Language;

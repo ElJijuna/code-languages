@@ -30,5 +30,19 @@ export const kotlin = {
       longDescription:
         "Kotlin es un lenguaje de tipado estatico desarrollado por JetBrains, disenado para interoperar con Java, ofrecer sintaxis concisa, null safety, coroutines y desarrollo multiplataforma.\n\nSe usa ampliamente en apps Android, servicios backend, proyectos Kotlin Multiplatform, scripting, herramientas de datos y aplicaciones para JVM, JavaScript, Native y WebAssembly.",
     },
+    it: {
+      name: "Kotlin",
+      description:
+        "Un linguaggio conciso e multipiattaforma per JVM, Android, sviluppo nativo e web.",
+      longDescription:
+        "Kotlin e un linguaggio staticamente tipizzato sviluppato da JetBrains, progettato per l'interoperabilita con Java, sintassi concisa, sicurezza contro i null, coroutine e sviluppo multipiattaforma.\n\nE ampiamente utilizzato per app Android, servizi backend, progetti Kotlin Multiplatform, scripting, strumenti per la gestione dei dati e applicazioni che mirano a JVM, JavaScript, Native e WebAssembly.",
+    },
+    fr: {
+      name: "Kotlin",
+      description:
+        "Un langage concis, multiplateforme pour JVM, Android, developpement natif et web.",
+      longDescription:
+        "Kotlin est un langage de type statique developpe par JetBrains, concu pour l'interoperabilite avec Java, une syntaxe concise, la securite contre les nulls, les coroutines et le developpement multiplateforme.\n\nIl est largement utilise pour les applications Android, les services backend, les projets Kotlin Multiplatform, le scripting, les outils de donnees et les applications ciblant JVM, JavaScript, Native et WebAssembly.",
+    },
   },
 } satisfies Language;

@@ -28,5 +28,18 @@ export const mathematica = {
       longDescription:
         "Wolfram Language combina expresiones simbolicas, programacion funcional, reglas por patrones, notebooks, visualizacion y una biblioteca estandar orientada al conocimiento. Mathematica es su entorno interactivo mas conocido.\n\nSe usa en matematicas, modelado, ciencia de datos, notebooks de investigacion, educacion, automatizacion y reportes computacionales con flujos simbolicos y numericos.",
     },
+    it: {
+      name: "Wolfram Language",
+      description:
+        "Un linguaggio di calcolo simbolico utilizzato da Mathematica e dagli strumenti Wolfram.",
+      longDescription:
+        "Il Wolfram Language combina espressioni simboliche, programmazione funzionale, regole di pattern, notebook, visualizzazione e una vasta libreria standard orientata alla conoscenza. Mathematica e il suo ambiente interattivo piu noto.\n\nViene utilizzato per la matematica, la modellazione, la scienza dei dati, notebook di ricerca, l'istruzione, l'automazione e report computazionali che beneficiano di flussi di lavoro simbolici e numerici.",
+    },
+    fr: {
+      name: "Wolfram Language",
+      description: "Un langage de calcul symbolique utilise par Mathematica et les outils Wolfram.",
+      longDescription:
+        "Le Wolfram Language combine des expressions symboliques, la programmation fonctionnelle, des regles de motifs, des notebooks, la visualisation et une grande bibliotheque standard orientee connaissances. Mathematica est son environnement interactif le plus connu.\n\nIl est utilise pour les mathematiques, la modelisation, la science des donnees, les notebooks de recherche, l'education, l'automatisation et les rapports de calcul qui beneficient des flux de travail symboliques et numeriques.",
+    },
   },
 } satisfies Language;

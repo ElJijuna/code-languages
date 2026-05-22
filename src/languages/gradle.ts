@@ -30,5 +30,19 @@ export const gradle = {
       longDescription:
         "Los scripts de build de Gradle definen proyectos, plugins, dependencias, repositorios, tareas, suites de prueba, reglas de publicacion y logica de builds multiproyecto usando archivos Groovy DSL o Kotlin DSL.\n\nSe usa ampliamente en proyectos Java, Kotlin, Android, JVM y poliglotas que necesitan builds reproducibles, gestion de dependencias, automatizacion personalizada e integracion con pipelines CI/CD.",
     },
+    it: {
+      name: "Gradle",
+      description:
+        "Uno strumento DSL e di automazione della build utilizzato per definire, configurare ed eseguire build software.",
+      longDescription:
+        "Gli script di build Gradle definiscono progetti, plugin, dipendenze, repository, task, suite di test e regole di pubblicazione utilizzando file DSL di Groovy o Kotlin.\n\nE ampiamente utilizzato in progetti Java, Kotlin, Android, JVM e polyglot che necessitano di build riproducibili, gestione delle dipendenze, automazione personalizzata e integrazione con pipeline CI/CD.",
+    },
+    fr: {
+      name: "Gradle",
+      description:
+        "Un DSL et un outil d'automatisation de la construction utilises pour definir, configurer et executer les constructions de logiciels.",
+      longDescription:
+        "Les scripts de construction Gradle definissent les projets, les plugins, les dependances, les referentiels, les taches, les suites de tests et les regles de publication a l'aide de fichiers DSL Groovy ou Kotlin.\n\nIl est largement utilise dans les projets Java, Kotlin, Android, JVM et polyglottes qui necessitent des constructions reproductibles, la gestion des dependances, l'automatisation personnalisee et l'integration avec les pipelines CI/CD.",
+    },
   },
 } satisfies Language;

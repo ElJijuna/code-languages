@@ -30,5 +30,19 @@ export const fsharp = {
       longDescription:
         "F# es un lenguaje de programacion funcional-first dentro del ecosistema .NET. Combina inferencia de tipos, datos inmutables por defecto, pattern matching, uniones discriminadas, computation expressions e interoperabilidad con C# y otros lenguajes .NET.\n\nSe usa en servicios backend, procesamiento de datos, scripting, modelado de dominios, sistemas financieros, aplicaciones cloud y equipos que quieren codigo conciso con tipado estatico fuerte y acceso a la plataforma .NET.",
     },
+    it: {
+      name: "F#",
+      description:
+        "Un linguaggio .NET funzionale, orientato al codice, per applicazioni, script e flussi di lavoro di dati robusti.",
+      longDescription:
+        "F# e un linguaggio di programmazione funzionale nell'ecosistema .NET. Combina inferenza dei tipi, dati immutabili per impostazione predefinita, corrispondenza di pattern, unioni discriminatorie, espressioni di calcolo e interoperabilita con C# e altre lingue .NET.\n\nViene utilizzato per servizi backend, elaborazione dati, scripting, modellazione di domini, sistemi finanziari, applicazioni cloud e team che desiderano codice conciso con un forte controllo statico e accesso alla piattaforma .NET piu ampia.",
+    },
+    fr: {
+      name: "F#",
+      description:
+        "Un langage .NET fonctionnel, axe sur la concision, pour des applications, des scripts et des flux de donnees robustes.",
+      longDescription:
+        "F# est un langage de programmation fonctionnel dans l'ecosysteme .NET. Il combine l'inference de type, les donnees immuables par defaut, la correspondance de motifs, les unions differenciees, les expressions de calcul et l'interoperabilite avec C# et d'autres langages .NET.\n\nIl est utilise pour les services backend, le traitement de donnees, le scripting, la modelisation de domaine, les systemes financiers, les applications cloud et les equipes qui souhaitent un code concis avec un typage statique fort et un acces a la plateforme .NET plus large.",
+    },
   },
 } satisfies Language;

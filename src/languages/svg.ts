@@ -28,5 +28,19 @@ export const svg = {
       longDescription:
         "SVG, o Scalable Vector Graphics, es un lenguaje de marcado basado en XML para describir graficos vectoriales bidimensionales y graficos mixtos vector/raster que pueden escalar limpiamente entre tamanos de pantalla.\n\nSe usa ampliamente en iconos, ilustraciones, graficos, diagramas, mapas, animaciones, graficos interactivos e interfaces web donde las imagenes deben mantenerse nitidas, estilizables, programables y accesibles.",
     },
+    it: {
+      name: "SVG",
+      description:
+        "Un linguaggio di markup basato su XML per grafica vettoriale bidimensionale scalabile.",
+      longDescription:
+        "SVG, o Scalable Vector Graphics, e un linguaggio di markup basato su XML per descrivere grafica vettoriale e grafica vettoriale/raster bidimensionale che puo essere scalata in modo pulito su diverse dimensioni dello schermo.\n\nE ampiamente utilizzato per icone, illustrazioni, grafici, diagrammi, mappe, animazioni, grafica interattiva e interfacce web in cui e necessario che le immagini rimangano nitide, stilizzabili, scriptabili e accessibili.",
+    },
+    fr: {
+      name: "SVG",
+      description:
+        "Un langage de balisage base sur XML pour les graphiques vectoriels bidimensionnels evolutifs.",
+      longDescription:
+        "SVG, ou Scalable Vector Graphics, est un langage de balisage base sur XML pour decrire les graphiques vectoriels et mixtes vectoriels/raster bidimensionnels qui peuvent etre mis a l'echelle proprement sur differentes tailles d'ecran.\n\nIl est largement utilise pour les icones, les illustrations, les graphiques, les diagrammes, les cartes, les animations, les graphiques interactifs et les interfaces web ou les graphiques doivent rester nets, stylables, scriptables et accessibles.",
+    },
   },
 } satisfies Language;

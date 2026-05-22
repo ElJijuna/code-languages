@@ -30,5 +30,19 @@ export const coq = {
       longDescription:
         "Coq, publicado ahora bajo el nombre Rocq Prover, es un demostrador interactivo de teoremas y un lenguaje con tipos dependientes. Permite escribir definiciones, programas ejecutables, teoremas y pruebas verificadas por maquina en un mismo entorno.\n\nSe usa ampliamente en verificacion formal, metateoria de lenguajes, compiladores certificados, matematica, criptografia y proyectos donde los argumentos de correccion deben comprobarse con alta confianza.",
     },
+    it: {
+      name: "Coq / Rocq",
+      description:
+        "Un assistente di dimostrazione e linguaggio con tipi dipendenti per la matematica e il software certificati.",
+      longDescription:
+        "Coq, ora rilasciato sotto il nome di Rocq Prover, e un dimostratore di teoremi interattivo e un linguaggio con tipi dipendenti. Permette agli utenti di scrivere definizioni, programmi eseguibili, teoremi e dimostrazioni verificate da macchine in un unico ambiente.\n\nE ampiamente utilizzato nella verifica formale, nella metateoria dei linguaggi di programmazione, nei compilatori certificati, nella matematica, nella crittografia e in progetti in cui e necessario verificare gli argomenti di correttezza con elevata confidenza.",
+    },
+    fr: {
+      name: "Coq / Rocq",
+      description:
+        "Un assistant de preuve et un langage de type dependant pour les mathematiques et les logiciels certifies.",
+      longDescription:
+        "Coq, desormais sous le nom de Rocq Prover, est un verificateur de theoremes interactif et un langage de type dependant. Il permet aux utilisateurs d'ecrire des definitions, des programmes executables, des theoremes et des preuves verifiees par machine dans un seul environnement.\n\nIl est largement utilise dans la verification formelle, la metatheorie des langages de programmation, les compilateurs certifies, les mathematiques, la cryptographie et les projets ou des arguments de correction doivent etre verifies avec un haut degre de confiance.",
+    },
   },
 } satisfies Language;

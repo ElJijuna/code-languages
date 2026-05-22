@@ -30,5 +30,19 @@ export const haskell = {
       longDescription:
         "Haskell es un lenguaje de programacion funcional de proposito general conocido por pureza, evaluacion lazy, tipos algebraicos, type classes, pattern matching y un sistema de tipos estatico potente. El estandar Haskell 2010 tiene amplio soporte, mientras GHC agrega muchas extensiones de uso comun.\n\nSe usa en construccion de compiladores, investigacion en lenguajes de programacion, sistemas financieros, metodos formales, procesamiento de datos, educacion y servicios de produccion que se benefician de tipos fuertes y abstracciones de alto nivel.",
     },
+    it: {
+      name: "Haskell",
+      description:
+        "Un linguaggio funzionale, puramente funzionale e con tipizzazione statica forte e astrazioni espressive.",
+      longDescription:
+        "Haskell e un linguaggio di programmazione funzionale di uso generale, noto per la sua purezza, la valutazione pigra, i tipi di dati algebrici, le classi di tipo, la corrispondenza di pattern e un potente sistema di tipi statici. Lo standard del linguaggio Haskell 2010 e ampiamente supportato, mentre GHC aggiunge molte estensioni comunemente utilizzate.\n\nViene utilizzato nella costruzione di compilatori, nella ricerca di linguaggi di programmazione, nei sistemi finanziari, nei metodi formali, nell'elaborazione dei dati, nell'istruzione e nei servizi di produzione che beneficiano di tipi forti e di astrazioni di alto livello.",
+    },
+    fr: {
+      name: "Haskell",
+      description:
+        "Un langage fonctionnel pur et paresseux avec un typage statique fort et des abstractions expressives.",
+      longDescription:
+        "Haskell est un langage de programmation fonctionnel general, connu pour sa purete, son evaluation paresseuse, ses types de donnees algebriques, ses classes de types, la correspondance de motifs et un systeme de typage statique puissant. La norme Haskell 2010 est largement prise en charge, tandis que GHC ajoute de nombreuses extensions couramment utilisees.\n\nIl est utilise dans la construction de compilateurs, la recherche sur les langages de programmation, les systemes financiers, les methodes formelles, le traitement des donnees, l'education et les services de production qui beneficient de types forts et d'abstractions de haut niveau.",
+    },
   },
 } satisfies Language;

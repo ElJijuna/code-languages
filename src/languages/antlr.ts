@@ -30,5 +30,19 @@ export const antlr = {
       longDescription:
         "Las gramaticas ANTLR describen tokens lexicos y reglas de parser para lenguajes de programacion, formatos de datos, lenguajes de consulta y sintaxis especificas de dominio.\n\nLos parsers generados se usan en compiladores, interpretes, analizadores de codigo, herramientas de migracion, editores y otros sistemas que necesitan reconocer lenguajes de forma estructurada.",
     },
+    it: {
+      name: "ANTLR Grammar",
+      description:
+        "Una notazione grammaticale utilizzata con ANTLR per generare lexer, parser e strumenti linguistici.",
+      longDescription:
+        "Le grammatiche ANTLR descrivono i token lessicali e le regole del parser per i linguaggi di programmazione, i formati di dati, i linguaggi di query e le sintassi specifiche del dominio.\n\nI parser generati vengono utilizzati in compilatori, interpreti, analizzatori di codice, strumenti di migrazione, editor e altri sistemi che necessitano di riconoscimento strutturato del linguaggio.",
+    },
+    fr: {
+      name: "ANTLR Grammar",
+      description:
+        "Une notation de grammaire utilisee avec ANTLR pour generer des analyseurs lexiques, des analyseurs syntaxiques et des outils de langage.",
+      longDescription:
+        "Les grammaires ANTLR decrivent les jetons lexicaux et les regles de syntaxe pour les langages de programmation, les formats de donnees, les langages de requete et les syntaxes specifiques a un domaine.\n\nLes analyseurs generes sont utilises dans les compilateurs, les interpreteurs, les analyseurs de code, les outils de migration, les editeurs et autres systemes qui ont besoin de reconnaitre des langages structures.",
+    },
   },
 } satisfies Language;

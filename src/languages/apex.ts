@@ -30,5 +30,19 @@ export const apex = {
       longDescription:
         "Apex es un lenguaje de programacion fuertemente tipado y orientado a objetos que corre en Salesforce Platform. Combina sintaxis similar a Java con operaciones de base de datos propias de la plataforma, triggers, trabajos asincronos, governor limits, reglas de sharing e integraciones con metadata y APIs de Salesforce.\n\nSe usa para personalizaciones de CRM, automatizacion de negocio, controladores personalizados, validacion de datos, integraciones, procesamiento batch, platform events y aplicaciones empresariales construidas dentro de Salesforce.",
     },
+    it: {
+      name: "Apex",
+      description:
+        "Linguaggio fortemente tipizzato, orientato agli oggetti di Salesforce per la logica aziendale della piattaforma.",
+      longDescription:
+        "Apex e un linguaggio di programmazione fortemente tipizzato, orientato agli oggetti che viene eseguito sulla piattaforma Salesforce. Combina la sintassi simile a Java con operazioni specifiche della piattaforma, trigger, lavori asincroni, limiti di governance, regole di condivisione e integrazioni con i metadati e le API di Salesforce.\n\nViene utilizzato per la personalizzazione di CRM, l'automazione aziendale, controller personalizzati, validazione dei dati, integrazioni, elaborazione batch, eventi della piattaforma e applicazioni aziendali costruite all'interno di Salesforce.",
+    },
+    fr: {
+      name: "Apex",
+      description:
+        "Langage fortement type, oriente objet de Salesforce pour la logique metier de la plateforme.",
+      longDescription:
+        "Apex est un langage de programmation fortement type, oriente objet qui fonctionne sur la plateforme Salesforce. Il combine une syntaxe semblable a Java avec des operations de base de donnees specifiques a la plateforme, des declencheurs, des taches asynchrones, des limites de gouvernance, des regles de partage et des integrations avec les metadonnees et les API de Salesforce.\n\nIl est utilise pour les personnalisations CRM, l'automatisation des processus, les controleurs personnalises, la validation des donnees, les integrations, le traitement par lots, les evenements de la plateforme et les applications d'entreprise construites dans Salesforce.",
+    },
   },
 } satisfies Language;

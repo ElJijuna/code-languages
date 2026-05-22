@@ -30,5 +30,19 @@ export const matlab = {
       longDescription:
         "MATLAB es un lenguaje de programacion y entorno de computacion numerica de MathWorks. Esta centrado en operaciones con matrices y arreglos, analisis interactivo, visualizacion, desarrollo de algoritmos y flujos de trabajo para ingenieros y cientificos.\n\nSe usa comunmente en procesamiento de senales, sistemas de control, robotica, analisis de datos, optimizacion, simulacion, educacion y diseno basado en modelos junto con Simulink y las toolboxes de MathWorks.",
     },
+    it: {
+      name: "MATLAB",
+      description:
+        "Un linguaggio e un ambiente orientato alle matrici per l'ingegneria, la scienza, i dati e la simulazione.",
+      longDescription:
+        "MATLAB e un linguaggio di programmazione e un ambiente di calcolo numerico di MathWorks. E incentrato sulle operazioni di matrici e array, sull'analisi interattiva, sulla visualizzazione, sullo sviluppo di algoritmi e sui flussi di lavoro per ingegneri e scienziati.\n\nE comunemente utilizzato per l'elaborazione del segnale, i sistemi di controllo, la robotica, l'analisi dei dati, l'ottimizzazione, la simulazione, l'istruzione e la progettazione basata su modelli insieme a Simulink e alle toolbox di MathWorks.",
+    },
+    fr: {
+      name: "MATLAB",
+      description:
+        "Un langage et un environnement orientes sur les matrices pour l'ingenierie, la science, les donnees et la simulation.",
+      longDescription:
+        "MATLAB est un langage de programmation et un environnement de calcul numerique de MathWorks. Il est centre sur les operations matricielles et sur les tableaux, l'analyse interactive, la visualisation, le developpement d'algorithmes et les flux de travail pour les ingenieurs et les scientifiques.\n\nIl est couramment utilise pour le traitement du signal, les systemes de controle, la robotique, l'analyse de donnees, l'optimisation, la simulation, l'education et la conception basee sur des modeles, ainsi que Simulink et les boites a outils MathWorks.",
+    },
   },
 } satisfies Language;

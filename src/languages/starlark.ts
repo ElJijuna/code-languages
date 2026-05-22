@@ -30,5 +30,19 @@ export const starlark = {
       longDescription:
         "Starlark es un lenguaje pequeno y determinista con sintaxis similar a Python, disenado para embeberse en aplicaciones mas grandes. Soporta funciones, listas, diccionarios, comprehensions, modulos y evaluacion controlada, evitando caracteristicas que vuelven impredecibles los builds o la configuracion.\n\nEs conocido principalmente como el lenguaje de extension de Bazel para reglas, macros, repositorios y extensiones de modulos, pero tambien se integra en otros sistemas de build y herramientas que necesitan scripting seguro y reproducible.",
     },
+    it: {
+      name: "Starlark",
+      description:
+        "Un linguaggio di scripting deterministico simile a Python per strumenti di build e configurazione.",
+      longDescription:
+        "Starlark e un linguaggio piccolo e deterministico con sintassi simile a Python, progettato per essere integrato in applicazioni piu grandi. Supporta funzioni, liste, dizionari, comprensioni, moduli e valutazione controllata, evitando funzionalita che rendono i build o la configurazione imprevedibili.\n\nE noto principalmente come linguaggio di estensione per regole, macro, repository e moduli in Bazel, ma e anche integrato in altri sistemi di build e strumenti che richiedono scripting sicuro e riproducibile.",
+    },
+    fr: {
+      name: "Starlark",
+      description:
+        "Un langage de script deterministe semblable a Python pour les outils de construction et de configuration.",
+      longDescription:
+        "Starlark est un langage petit et deterministe avec une syntaxe semblable a Python, concu pour etre integre dans des applications plus importantes. Il prend en charge les fonctions, les listes, les dictionnaires, les comprehensions, les modules et l'evaluation controlee, tout en evitant les fonctionnalites qui rendent la construction ou la configuration imprevisible.\n\nIl est principalement connu en tant que langage d'extension pour les regles, les macros, les referentiels et les extensions de modules de Bazel, mais il est egalement integre dans d'autres systemes de construction et outils qui ont besoin d'un scripting sur et reproductible.",
+    },
   },
 } satisfies Language;

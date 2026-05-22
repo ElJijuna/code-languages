@@ -30,5 +30,19 @@ export const d = {
       longDescription:
         "D es un lenguaje de programacion de sistemas de proposito general con sintaxis similar a C, compilacion nativa, garbage collection, opciones de memoria manual, templates, ejecucion de funciones en tiempo de compilacion, ranges, contratos e interoperabilidad con C.\n\nSe usa en herramientas de linea de comandos, software de sistemas, servicios nativos, aplicaciones de alto rendimiento, tooling para juegos, compiladores y proyectos que buscan control de bajo nivel junto con metaprogramacion expresiva y caracteristicas modernas de lenguaje.",
     },
+    it: {
+      name: "D",
+      description:
+        "Un linguaggio di programmazione per sistemi che combina prestazioni native con astrazioni di alto livello.",
+      longDescription:
+        "D e un linguaggio di programmazione per sistemi general-purpose con una sintassi simile a C, compilazione nativa, garbage collection, opzioni di gestione manuale della memoria, template, esecuzione di funzioni a tempo di compilazione, range, contratti e interoperabilita con C.\n\nViene utilizzato per strumenti da riga di comando, software di sistema, servizi nativi, applicazioni ad alte prestazioni, strumenti di sviluppo di giochi, compilatori e progetti che desiderano un controllo a basso livello insieme a metaprogrammazione espressiva e funzionalita linguistiche moderne.",
+    },
+    fr: {
+      name: "D",
+      description:
+        "Un langage de programmation systeme combinant des performances natives avec des abstractions de haut niveau.",
+      longDescription:
+        "D est un langage de programmation systeme general a usage, dote d'une syntaxe semblable a celle de C, de compilation native, de ramasse-miettes, d'options de gestion manuelle de la memoire, de modeles, d'execution de fonctions au moment de la compilation, de plages, de contrats et d'interoperabilite avec C.\n\nIl est utilise pour les outils en ligne de commande, les logiciels systeme, les services natifs, les applications a haute performance, les outils de developpement de jeux, les compilateurs et les projets qui souhaitent un controle de bas niveau, ainsi que des meta-programmation et des fonctionnalites de langage modernes.",
+    },
   },
 } satisfies Language;

@@ -27,5 +27,17 @@ export const opencl = {
       longDescription:
         "OpenCL C es el lenguaje de kernels que usa OpenCL para describir trabajo paralelo sobre dispositivos como CPUs, GPUs y aceleradores. Extiende un modelo de la familia C con espacios de direcciones, tipos vectoriales, work-items y primitivas de sincronizacion.\n\nSe usa en kernels de computo, procesamiento de imagenes, simulaciones, cargas numericas y programas heterogeneos portables dirigidos a runtimes OpenCL.",
     },
+    it: {
+      name: "OpenCL C",
+      description: "C basato per i programmi di calcolo eterogenei di OpenCL.",
+      longDescription:
+        "OpenCL C e il linguaggio di programmazione del kernel utilizzato da OpenCL per descrivere il lavoro parallelo su dispositivi come CPU, GPU e acceleratori. Estende un modello basato su C con spazi di indirizzo, tipi vettoriali, elementi di lavoro e primitive di sincronizzazione.\n\nE utilizzato per i kernel di calcolo, l'elaborazione di immagini, le simulazioni, i carichi di lavoro numerici e i programmi eterogenei portabili che mirano alle runtime di OpenCL.",
+    },
+    fr: {
+      name: "OpenCL C",
+      description: "Langage de noyau base sur C pour les programmes de calcul heterogenes OpenCL.",
+      longDescription:
+        "OpenCL C est le langage de programmation de noyau utilise par OpenCL pour decrire le travail parallele sur des peripheriques tels que les CPU, les GPU et les accelerateurs. Il etend un modele de la famille C avec des espaces d'adressage, des types vectoriels, des elements de travail et des primitives de synchronisation.\n\nIl est utilise pour les noyaux de calcul, le traitement d'images, les simulations, les charges de travail numeriques et les programmes heterogenes portables qui ciblent les environnements d'execution OpenCL.",
+    },
   },
 } satisfies Language;

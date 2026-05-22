@@ -27,5 +27,19 @@ export const smalltalk = {
       longDescription:
         "Smalltalk ayudo a definir la programacion orientada a objetos mediante mensajes, clases, bloques, reflexion y entornos interactivos basados en imagenes. Muchas implementaciones combinan el lenguaje con browsers, inspectors y debuggers vivos.\n\nSe usa en educacion, investigacion, sistemas de negocio longevos, simulaciones y programacion exploratoria dentro de imagenes de objetos.",
     },
+    it: {
+      name: "Smalltalk",
+      description:
+        "Un linguaggio di programmazione orientato agli oggetti basato su messaggi con ambienti basati su immagini in tempo reale.",
+      longDescription:
+        "Smalltalk ha contribuito a definire la programmazione orientata agli oggetti attraverso l'uso dei messaggi, delle classi, dei blocchi, del riflesso e di ambienti interattivi basati su immagini.\n\nViene utilizzato per l'istruzione, la ricerca, sistemi aziendali a lungo termine, simulazioni e programmazione esplorativa all'interno di immagini di oggetti in tempo reale.",
+    },
+    fr: {
+      name: "Smalltalk",
+      description:
+        "Un langage oriente message avec des environnements bases sur des images en direct.",
+      longDescription:
+        "Smalltalk a contribue a definir la programmation orientee objet grace aux echanges de messages, aux classes, aux blocs, a la reflexion et aux environnements interactifs bases sur des images. De nombreuses implementations associent le langage a des navigateurs, des inspecteurs et des debogueurs en direct.\n\nIl est utilise pour l'education, la recherche, les systemes d'entreprise a long terme, les simulations et la programmation exploratoire dans des images d'objets en direct.",
+    },
   },
 } satisfies Language;

@@ -30,5 +30,19 @@ export const elixir = {
       longDescription:
         "Elixir corre sobre la maquina virtual BEAM y combina programacion funcional, procesos ligeros, paso de mensajes, pattern matching, macros y librerias OTP para construir software concurrente y distribuido.\n\nSe usa ampliamente en aplicaciones web con Phoenix, sistemas en tiempo real, trabajos en segundo plano, pipelines de datos, sistemas embebidos y servicios que necesitan resiliencia, observabilidad y alta concurrencia.",
     },
+    it: {
+      name: "Elixir",
+      description:
+        "Un linguaggio funzionale dinamico per sistemi scalabili, manutenibili e tolleranti ai guasti.",
+      longDescription:
+        "Elixir viene eseguito sulla macchina virtuale BEAM e combina la programmazione funzionale, processi leggeri, passaggio di messaggi, corrispondenza di pattern, macro e librerie OTP per costruire software concorrenti e distribuiti.\n\nE ampiamente utilizzato per applicazioni web con Phoenix, sistemi in tempo reale, lavori in background, pipeline di dati, sistemi embedded e servizi che necessitano di resilienza, osservabilita e alta concorrenza.",
+    },
+    fr: {
+      name: "Elixir",
+      description:
+        "Un langage fonctionnel dynamique pour des systemes evolutifs, maintenables et tolerants aux pannes.",
+      longDescription:
+        "Elixir fonctionne sur la machine virtuelle BEAM et combine la programmation fonctionnelle, des processus legers, la communication par messages, la correspondance de motifs, les macros et les bibliotheques OTP pour construire des logiciels concurrents et distribues.\n\nIl est largement utilise pour les applications web avec Phoenix, les systemes en temps reel, les taches en arriere-plan, les pipelines de donnees, les systemes embarques et les services qui necessitent une resilience, une observabilite et une forte concurrence.",
+    },
   },
 } satisfies Language;

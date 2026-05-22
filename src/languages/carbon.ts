@@ -28,5 +28,19 @@ export const carbon = {
       longDescription:
         "Carbon es un lenguaje experimental de programacion de sistemas disenado como posible sucesor de C++. Se enfoca en sintaxis legible, genericos fuertes, herramientas modernas y rutas de migracion incremental para bases de codigo grandes en C++.\n\nEl proyecto aun no es estable, asi que su uso real se centra en experimentos, evaluacion de diseno, desarrollo del compilador y debates sobre interoperabilidad a largo plazo con ecosistemas C++ existentes.",
     },
+    it: {
+      name: "Carbon",
+      description:
+        "Un linguaggio sperimentale di successione per l'interoperabilita e la migrazione da C++.",
+      longDescription:
+        "Carbon e un linguaggio di programmazione di sistemi sperimentale, progettato come potenziale successore di C++. Si concentra su una sintassi leggibile, generici potenti, strumenti moderni e percorsi di migrazione incrementali per codebase C++ di grandi dimensioni.\n\nIl progetto e ancora in fase pre-stabile, quindi l'uso pratico e incentrato su esperimenti, valutazione del design, sviluppo del compilatore e discussioni sulla compatibilita a lungo termine con gli ecosistemi C++ esistenti.",
+    },
+    fr: {
+      name: "Carbon",
+      description:
+        "Un langage experimental successeur pour l'interoperabilite et la migration vers C++.",
+      longDescription:
+        "Carbon est un langage de programmation systeme experimental concu comme un successeur possible de C++. Il se concentre sur une syntaxe lisible, des generiques puissants, des outils modernes et des chemins de migration incrementiels pour les grands codebases C++. \n\nLe projet est encore en phase pre-stable, de sorte que son utilisation dans le monde reel est axee sur les experiences, l'evaluation de la conception, le developpement de compilateurs et les discussions sur l'interoperabilite a long terme avec les ecosystemes C++ existants.",
+    },
   },
 } satisfies Language;

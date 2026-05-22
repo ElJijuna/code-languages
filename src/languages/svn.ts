@@ -29,5 +29,19 @@ export const svn = {
       longDescription:
         "SVN, Apache Subversion, es un sistema de control de versiones centralizado con metadata de repositorio, directorios de working copy, propiedades de ignore, configuracion de servidor, hooks, branches, tags e historial de revisiones gestionados mediante herramientas Subversion.\n\nSe usa en codebases legacy y empresariales, flujos centralizados de control de codigo, gestion de releases, repositorios de documentos y proyectos que dependen de servidores o clientes Apache Subversion.",
     },
+    it: {
+      name: "SVN",
+      description:
+        "File di metadati e di configurazione utilizzati dai repository e dai client di Apache Subversion.",
+      longDescription:
+        "SVN, Apache Subversion, e un sistema di controllo versione centralizzato con file di metadati del repository, directory di copia di lavoro, proprieta di ignoranza, configurazione del server, hook, rami, tag e cronologia delle revisioni gestite tramite gli strumenti di Subversion.\n\nE utilizzato in codebase e workflow di controllo sorgente centralizzati, gestione delle release, repository di documenti e progetti che si basano su server o client di Apache Subversion.",
+    },
+    fr: {
+      name: "SVN",
+      description:
+        "Fichiers de metadonnees et de configuration utilises par les referentiels et les clients Apache Subversion.",
+      longDescription:
+        "SVN, Apache Subversion, est un systeme de controle de version centralise avec des metadonnees de referentiel, des repertoires de copie de travail, des proprietes d'ignoration, la configuration du serveur, des hooks, des branches, des balises et l'historique des revisions geres via les outils Subversion.\n\nIl est utilise dans les bases de code heritees et d'entreprise, les flux de travail de controle de version centralises, la gestion des versions, les referentiels de documents et les projets qui dependent des serveurs ou des clients Apache Subversion.",
+    },
   },
 } satisfies Language;

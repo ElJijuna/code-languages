@@ -28,5 +28,19 @@ export const visualBasic = {
       longDescription:
         "Visual Basic es un lenguaje de programacion .NET de Microsoft con sintaxis legible, tipado estatico, caracteristicas orientadas a objetos, soporte para programacion basada en eventos, genericos, LINQ, flujos async y acceso al ecosistema .NET.\n\nSe usa en aplicaciones de escritorio para Windows, software empresarial, automatizacion, sistemas .NET heredados, aplicaciones ASP.NET, bibliotecas y equipos que valoran una sintaxis explicita y accesible sobre el runtime .NET.",
     },
+    it: {
+      name: "Visual Basic",
+      description:
+        "Un linguaggio .NET accessibile per applicazioni sicure dal punto di vista dei tipi e orientate agli oggetti.",
+      longDescription:
+        "Visual Basic e un linguaggio di programmazione .NET di Microsoft con una sintassi leggibile, tipizzazione statica, funzionalita orientate agli oggetti, supporto per la programmazione guidata dagli eventi, generics, LINQ, workflow asincroni e accesso all'ecosistema .NET.\n\nViene utilizzato per applicazioni desktop per Windows, software aziendale, automazione, sistemi .NET legacy, applicazioni ASP.NET, librerie e team che apprezzano una sintassi verbosa e accessibile sopra il runtime .NET.",
+    },
+    fr: {
+      name: "Visual Basic",
+      description:
+        "Un langage .NET accessible pour les applications orientees objet et securisees par type.",
+      longDescription:
+        "Visual Basic est un langage de programmation .NET de Microsoft dote d'une syntaxe lisible, de typage statique, de fonctionnalites orientees objet, de prise en charge de la programmation evenementielle, de generiques, de LINQ, de workflows asynchrones et d'acces a l'ecosysteme .NET.\n\nIl est utilise pour les applications de bureau Windows, les logiciels d'entreprise, l'automatisation, les systemes .NET herites, les applications ASP.NET, les bibliotheques et les equipes qui privilegient une syntaxe verbose et accessible au-dessus de l'environnement d'execution .NET.",
+    },
   },
 } satisfies Language;

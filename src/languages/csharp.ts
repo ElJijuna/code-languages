@@ -30,5 +30,19 @@ export const csharp = {
       longDescription:
         "C# es un lenguaje de tipado estatico creado por Microsoft para la plataforma .NET, que combina programacion orientada a objetos, genericos, flujos async, pattern matching y soporte solido de herramientas.\n\nSe usa ampliamente en servicios web, aplicaciones de escritorio, sistemas cloud, desarrollo de juegos con Unity, software empresarial, apps moviles y herramientas multiplataforma construidas sobre .NET.",
     },
+    it: {
+      name: "C#",
+      description:
+        "Un linguaggio moderno, orientato agli oggetti, per applicazioni, servizi, giochi e strumenti .NET.",
+      longDescription:
+        "C# e un linguaggio staticamente tipizzato creato da Microsoft per la piattaforma .NET, che combina la programmazione orientata agli oggetti, i generics, i workflow asincroni, il pattern matching e un forte supporto per gli strumenti.\n\nE ampiamente utilizzato per servizi web, applicazioni desktop, sistemi cloud, sviluppo di giochi con Unity, software aziendale, applicazioni mobili e strumenti multipiattaforma basati su .NET.",
+    },
+    fr: {
+      name: "C#",
+      description:
+        "Un langage moderne, oriente objet, pour les applications, services, jeux et outils .NET.",
+      longDescription:
+        "C# est un langage de type statique cree par Microsoft pour la plateforme .NET, combinant la programmation orientee objet, les generiques, les workflows asynchrones, la correspondance de motifs et un support d'outillage solide.\n\nIl est largement utilise pour les services web, les applications de bureau, les systemes cloud, le developpement de jeux avec Unity, les logiciels d'entreprise, les applications mobiles et les outils multiplateformes construits sur .NET.",
+    },
   },
 } satisfies Language;

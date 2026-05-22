@@ -29,5 +29,19 @@ export const apl = {
       longDescription:
         "APL centra la computacion en arreglos, operaciones de orden superior y una notacion matematica compacta que puede expresar transformaciones complejas en muy poco codigo.\n\nHa influido en muchos lenguajes de arreglos y sigue siendo util en analisis exploratorio, modelos financieros, diseno de algoritmos y sistemas donde la computacion interactiva concisa aporta valor.",
     },
+    it: {
+      name: "APL",
+      description:
+        "Un linguaggio orientato agli array, noto per la sua notazione simbolica concisa e l'uso interattivo.",
+      longDescription:
+        "APL pone il calcolo al centro degli array, delle operazioni di ordine superiore e di una notazione matematica compatta che puo esprimere trasformazioni complesse con pochissimo codice.\n\nHa influenzato molti linguaggi orientati agli array e rimane utile nell'analisi esplorativa, nella modellazione finanziaria, nella progettazione di algoritmi e nei sistemi in cui e preziosa la computazione interattiva concisa.",
+    },
+    fr: {
+      name: "APL",
+      description:
+        "Un langage oriente tableaux, connu pour sa notation symbolique concise et son utilisation interactive.",
+      longDescription:
+        "APL centre le calcul autour des tableaux, des operations de haut niveau et d'une notation mathematique concise qui peut exprimer des transformations complexes avec tres peu de code.\n\nIl a influence de nombreux langages de tableaux et reste utile pour l'analyse exploratoire, la modelisation financiere, la conception d'algorithmes et les systemes ou une computation interactive concise est precieuse.",
+    },
   },
 } satisfies Language;

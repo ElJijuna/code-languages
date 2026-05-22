@@ -30,5 +30,19 @@ export const perl = {
       longDescription:
         "Perl es un lenguaje de scripting de alto nivel creado por Larry Wall, conocido por el procesamiento practico de texto, expresiones regulares, scripting de sistemas, tipado dinamico, CPAN y una cultura fuerte de modulos reutilizables. Perl 5 sigue siendo el lenguaje principal de produccion dentro de la familia Perl.\n\nSe usa en automatizacion Unix, procesamiento de logs, aplicaciones web legacy, bioinformatica, transformacion de datos, tooling de releases, servicios de red y scripts operacionales de larga vida donde importan el manejo expresivo de texto y librerias maduras.",
     },
+    it: {
+      name: "Perl",
+      description:
+        "Un linguaggio di scripting flessibile per l'elaborazione del testo, l'automazione, i sistemi web e i moduli CPAN.",
+      longDescription:
+        "Perl e un linguaggio di scripting di alto livello creato da Larry Wall, noto per l'elaborazione pratica del testo, le espressioni regolari, la scripting di sistema, la tipizzazione dinamica, CPAN e una forte cultura di moduli riutilizzabili. Perl 5 rimane il linguaggio principale della famiglia Perl.\n\nViene utilizzato per l'automazione Unix, l'elaborazione dei log, le applicazioni web legacy, la bioinformatica, la manipolazione dei dati, gli strumenti di rilascio, i servizi di rete e gli script operativi a lungo termine in cui la gestione espressiva del testo e le librerie mature sono importanti.",
+    },
+    fr: {
+      name: "Perl",
+      description:
+        "Un langage de script flexible pour le traitement de texte, l'automatisation, les systemes web et les modules CPAN.",
+      longDescription:
+        "Perl est un langage de script de haut niveau cree par Larry Wall, connu pour le traitement de texte pratique, les expressions regulieres, le scripting systeme, le typage dynamique, CPAN et une forte culture de modules reutilisables. Perl 5 reste le langage principal de la famille Perl.\n\nIl est utilise pour l'automatisation Unix, le traitement des journaux, les applications web heritees, la bioinformatique, la manipulation de donnees, les outils de publication, les services reseau et les scripts operationnels a long terme ou la gestion expressive du texte et les bibliotheques matures sont importantes.",
+    },
   },
 } satisfies Language;

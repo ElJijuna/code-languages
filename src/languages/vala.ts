@@ -28,5 +28,17 @@ export const vala = {
       longDescription:
         "Vala ofrece clases, interfaces, propiedades, generics, signals y sintaxis async sobre las convenciones de GLib y GObject, compilando fuente hacia C. Los archivos VAPI describen bindings a bibliotecas C existentes.\n\nSe usa en aplicaciones GTK, bibliotecas GNOME, herramientas nativas, bindings y proyectos que buscan fuente de alto nivel integrada con APIs C.",
     },
+    it: {
+      name: "Vala",
+      description: "Un linguaggio orientato a GNOME che compila la sintassi di alto livello in C.",
+      longDescription:
+        "Vala fornisce classi, interfacce, proprieta, generics, segnali e sintassi asincrona basate sulle convenzioni di GLib e GObject, compilando il codice sorgente in C. I file VAPI descrivono i binding alle librerie C esistenti.\n\nViene utilizzato per applicazioni GTK, librerie GNOME, strumenti nativi, binding e progetti che desiderano una sintassi di alto livello pur integrandosi con le API C.",
+    },
+    fr: {
+      name: "Vala",
+      description: "Un langage oriente GNOME qui compile une syntaxe de haut niveau en C.",
+      longDescription:
+        "Vala fournit des classes, des interfaces, des proprietes, des generiques, des signaux et une syntaxe asynchrone sur les conventions GLib et GObject, compilant la source en C. Les fichiers VAPI decrivent les liaisons aux bibliotheques C existantes.\n\nIl est utilise pour les applications GTK, les bibliotheques GNOME, les outils natifs, les liaisons et les projets qui souhaitent une source de haut niveau tout en s'integrant aux API C.",
+    },
   },
 } satisfies Language;

@@ -29,5 +29,19 @@ export const mermaid = {
       longDescription:
         "Mermaid es un lenguaje de diagramacion que renderiza texto estructurado como diagramas de flujo, secuencia, clases, estados, entidad-relacion, gantt, lineas de tiempo y mapas mentales. Esta pensado para convivir comodamente con documentacion Markdown.\n\nSe usa en READMEs, notas de arquitectura, wikis, sitios de documentacion, issue trackers, bases de conocimiento y flujos donde los diagramas deben versionarse como texto plano.",
     },
+    it: {
+      name: "Mermaid",
+      description:
+        "Un linguaggio di diagrammi basato su testo per flowchart, sequenze, timeline e altro.",
+      longDescription:
+        "Mermaid e un linguaggio di diagrammi che converte testo strutturato in diagrammi come flowchart, diagrammi di sequenza, diagrammi di classe, diagrammi di stato, diagrammi di relazioni entita, grafici Gantt, timeline e mappe mentali. E progettato per coesistere comodamente con la documentazione in formato Markdown.\n\nViene utilizzato in README, note di architettura, wiki, siti di documentazione, tracker di issue, basi di conoscenza e workflow in cui i diagrammi devono essere versionati come testo semplice.",
+    },
+    fr: {
+      name: "Mermaid",
+      description:
+        "Un langage de diagramme base sur du texte pour les schemas, les sequences, les chronologies, et plus encore.",
+      longDescription:
+        "Mermaid est un langage de diagrammes qui convertit du texte structure en diagrammes tels que les schemas, les diagrammes de sequence, les diagrammes de classes, les diagrammes d'etat, les diagrammes de relations entite-relation, les diagrammes de Gantt, les chronologies et les cartes mentales. Il est concu pour coexister confortablement avec la documentation Markdown.\n\nIl est utilise dans les README, les notes d'architecture, les wikis, les sites de documentation, les outils de suivi des problemes, les bases de connaissances et les flux de travail ou les diagrammes doivent etre versionnes sous forme de texte brut.",
+    },
   },
 } satisfies Language;

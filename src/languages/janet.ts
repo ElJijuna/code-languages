@@ -28,5 +28,17 @@ export const janet = {
       longDescription:
         "Janet es un lenguaje de programacion pequeno tipo Lisp con una implementacion compacta en C, fibras, tablas, pattern matching, macros y un runtime embebible. Esta disenado para scripting, herramientas y aplicaciones que necesitan un lenguaje de extension liviano.\n\nSe usa en programas de linea de comandos, configuracion, automatizacion, embedding en aplicaciones nativas y experimentos que aprovechan metaprogramacion tipo Lisp sin un runtime grande.",
     },
+    it: {
+      name: "Janet",
+      description: "Un linguaggio simile a Lisp e un runtime incorporabile per scripting.",
+      longDescription:
+        "Janet e un piccolo linguaggio di programmazione simile a Lisp con un'implementazione C compatta, fibre, tabelle, corrispondenza di pattern, macro e un runtime incorporabile. E progettato per scripting, strumenti e applicazioni che necessitano di un linguaggio di estensione leggero.\n\nViene utilizzato per programmi da riga di comando, configurazione, automazione, incorporamento in applicazioni native ed esperimenti che beneficiano della metaprogrammazione in stile Lisp senza un runtime di grandi dimensioni.",
+    },
+    fr: {
+      name: "Janet",
+      description: "Un petit langage de type Lisp et un runtime embarquable pour le scripting.",
+      longDescription:
+        "Janet est un petit langage de type Lisp avec une implementation C compacte, des fibres, des tables, la correspondance de motifs, des macros et un runtime embarquable. Il est concu pour le scripting, les outils et les applications qui ont besoin d'une extension de langage legere.\n\nIl est utilise pour les programmes en ligne de commande, la configuration, l'automatisation, l'integration dans des applications natives et des experiences qui beneficient de la metaprogrammation de type Lisp sans un runtime important.",
+    },
   },
 } satisfies Language;

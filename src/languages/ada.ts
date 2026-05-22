@@ -30,5 +30,19 @@ export const ada = {
       longDescription:
         "Ada es un lenguaje de programacion de proposito general disenado para confiabilidad, legibilidad, tipado fuerte, modularidad, concurrencia y sistemas de tiempo real. Ada moderno incluye paquetes, genericos, tareas, objetos protegidos, contratos, caracteristicas orientadas a objetos y control preciso de representacion.\n\nSe usa en aeroespacial, defensa, transporte, sistemas embebidos, aplicaciones de alta integridad, control industrial y software donde la mantenibilidad a largo plazo y la correccion son requisitos centrales.",
     },
+    it: {
+      name: "Ada",
+      description:
+        "Un linguaggio fortemente tipizzato per software affidabile, manutenibile e critico per la sicurezza.",
+      longDescription:
+        "Ada e un linguaggio di programmazione di uso generale progettato per l'affidabilita, la leggibilita, la tipizzazione forte, la modularita, la concorrenza e i sistemi in tempo reale. Ada moderna include pacchetti, generici, tasking, oggetti protetti, contratti, funzionalita orientate agli oggetti e un controllo preciso sulla rappresentazione.\n\nE utilizzato in aerospazio, difesa, trasporti, sistemi embedded, applicazioni ad alta integrita, controllo industriale e software in cui la manutenibilita e la correttezza a lungo termine sono requisiti centrali.",
+    },
+    fr: {
+      name: "Ada",
+      description:
+        "Un langage fortement type pour les logiciels fiables, maintenables et critiques en termes de securite.",
+      longDescription:
+        "Ada est un langage de programmation general a usage, concu pour la fiabilite, la lisibilite, le typage fort, la modularite, la concurrence et les systemes temps reel. Ada moderne inclut des packages, des generiques, le multithreading, des objets proteges, des contrats, des fonctionnalites orientees objet et un controle precis de la representation.\n\nIl est utilise dans l'aerospatiale, la defense, les transports, les systemes embarques, les applications a haute integrite, le controle industriel et les logiciels ou la maintenabilite et la correction a long terme sont des exigences centrales.",
+    },
   },
 } satisfies Language;

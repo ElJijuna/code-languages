@@ -30,5 +30,19 @@ export const cue = {
       longDescription:
         "CUE combina datos de configuracion, esquemas, reglas de validacion y restricciones de politica en un solo lenguaje. Sus valores pueden estar incompletos, unificarse, exportarse y comprobarse contra restricciones estructurales, lo que ayuda a gestionar definiciones de datos complejas.\n\nSe usa con manifiestos Kubernetes, JSON, YAML, OpenAPI, Protobuf, configuracion de CI, definiciones de infraestructura y sistemas que necesitan una fuente unica para forma y validacion de datos.",
     },
+    it: {
+      name: "CUE",
+      description:
+        "Un linguaggio basato su vincoli per la configurazione, la validazione dei dati e la generazione.",
+      longDescription:
+        "CUE combina i dati di configurazione, gli schemi, le regole di validazione e i vincoli di policy in un unico linguaggio. I suoi valori possono essere incompleti, unificati, esportati e controllati rispetto a vincoli strutturali, rendendolo utile per la gestione di definizioni di dati complesse.\n\nViene utilizzato con manifesti Kubernetes, JSON, YAML, OpenAPI, Protobuf, configurazioni CI, definizioni di infrastruttura e sistemi che necessitano di una singola fonte di verita per la forma e la validazione dei dati.",
+    },
+    fr: {
+      name: "CUE",
+      description:
+        "Un langage base sur des contraintes pour la configuration, la validation des donnees et la generation.",
+      longDescription:
+        "CUE combine les donnees de configuration, les schemas, les regles de validation et les contraintes de politique dans un seul langage. Ses valeurs peuvent etre incompletes, unifiees, exportees et verifiees par rapport a des contraintes structurelles, ce qui le rend utile pour gerer des definitions de donnees complexes.\n\nIl est utilise avec les manifests Kubernetes, JSON, YAML, OpenAPI, Protobuf, la configuration CI, les definitions d'infrastructure et les systemes qui ont besoin d'une source unique de verite pour la forme et la validation des donnees.",
+    },
   },
 } satisfies Language;

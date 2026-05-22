@@ -28,5 +28,19 @@ export const zeek = {
       longDescription:
         "Los scripts Zeek describen eventos, records, analyzers, notices, logging y logica de politica sobre trafico de red observado por el monitor Zeek. El lenguaje permite extender comportamiento de protocolos y deteccion.\n\nSe usa en monitoreo de seguridad de red, respuesta a incidentes, analisis de trafico, pipelines de telemetria y politicas de seguridad especificas del sitio.",
     },
+    it: {
+      name: "Zeek",
+      description:
+        "Un linguaggio di scripting basato su eventi per l'analisi di rete e le politiche di sicurezza.",
+      longDescription:
+        "Gli script di Zeek descrivono eventi, record, analizzatori, avvisi, registrazione e logica di policy relativi al traffico di rete osservato dal monitor Zeek. Il linguaggio consente agli analisti di estendere il comportamento dei protocolli e del rilevamento.\n\nViene utilizzato nel monitoraggio della sicurezza di rete, nella risposta agli incidenti, nell'analisi del traffico, nei pipeline di telemetria e nelle politiche di sicurezza specifiche del sito.",
+    },
+    fr: {
+      name: "Zeek",
+      description:
+        "Un langage de script oriente evenements pour l'analyse de reseau et les politiques de securite.",
+      longDescription:
+        "Les scripts Zeek decrivent les evenements, les enregistrements, les analyseurs, les notifications, la journalisation et la logique de politique sur le trafic reseau observe par le moniteur Zeek. Le langage permet aux analystes d'etendre le comportement des protocoles et de detection.\n\nIl est utilise dans la surveillance de la securite reseau, la reponse aux incidents, l'analyse du trafic, les pipelines de telemetrie et les politiques de securite specifiques au site.",
+    },
   },
 } satisfies Language;

@@ -28,5 +28,19 @@ export const dhall = {
       longDescription:
         "Dhall es un lenguaje de configuracion programable con un sistema de tipos estatico fuerte, imports, funciones, registros y normalizacion garantizada. Esta disenado para reemplazar JSON, YAML y formatos similares repetitivos con expresiones tipadas reutilizables.\n\nSe usa en configuracion de infraestructura, ajustes de aplicaciones, generacion de YAML o JSON y sistemas que necesitan configuracion compartida sin ejecucion arbitraria de codigo.",
     },
+    it: {
+      name: "Dhall",
+      description:
+        "Un linguaggio di configurazione programmabile e tipizzato che normalizza in modo sicuro.",
+      longDescription:
+        "Dhall e un linguaggio di configurazione programmabile con un robusto sistema di tipi statici, importazioni, funzioni, record e normalizzazione garantita. E progettato per sostituire formati di configurazione ripetitivi come JSON, YAML e simili, con espressioni tipizzate riutilizzabili.\n\nViene utilizzato per la configurazione dell'infrastruttura, le impostazioni delle applicazioni, la generazione di YAML o JSON e sistemi che richiedono una configurazione condivisa senza l'esecuzione arbitraria di codice.",
+    },
+    fr: {
+      name: "Dhall",
+      description:
+        "Un langage de configuration programmable et type qui normalise en toute securite.",
+      longDescription:
+        "Dhall est un langage de configuration programmable dote d'un systeme de typage statique fort, d'importations, de fonctions, de records et de normalisation garantie. Il est concu pour remplacer les formats de configuration JSON, YAML et similaires repetitifs avec des expressions typees reutilisables.\n\nIl est utilise pour la configuration d'infrastructure, les parametres d'application, la generation de YAML ou de JSON, et les systemes qui necessitent une configuration partagee sans execution de code arbitraire.",
+    },
   },
 } satisfies Language;

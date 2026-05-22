@@ -30,5 +30,19 @@ export const erlang = {
       longDescription:
         "Erlang es un lenguaje de programacion funcional y sistema runtime disenado para aplicaciones concurrentes, distribuidas y tolerantes a fallos. Erlang/OTP incluye la maquina virtual BEAM, procesos ligeros, paso de mensajes, supervisores, aplicaciones, releases y librerias para construir sistemas resilientes.\n\nSe usa ampliamente en plataformas de telecomunicaciones, sistemas de mensajeria, bases de datos, servicios en tiempo real, infraestructura de red, IoT y sistemas donde uptime, hot code upgrades y aislamiento de fallos son requisitos centrales.",
     },
+    it: {
+      name: "Erlang",
+      description:
+        "Un linguaggio funzionale concorrente per sistemi fault-tolerant, distribuiti e altamente disponibili.",
+      longDescription:
+        "Erlang e un linguaggio di programmazione e sistema di runtime funzionale progettato per applicazioni concorrenti, distribuite e fault-tolerant. Erlang/OTP include la macchina virtuale BEAM, processi leggeri, passaggio di messaggi, supervisori, applicazioni, rilasci e librerie per la costruzione di sistemi resilienti.\n\nE ampiamente utilizzato in piattaforme di telecomunicazioni, sistemi di messaggistica, database, servizi in tempo reale, infrastrutture di rete, IoT e sistemi in cui l'uptime, gli aggiornamenti di codice",
+    },
+    fr: {
+      name: "Erlang",
+      description:
+        "Un langage fonctionnel concurrent pour les systemes tolerants aux pannes, distribues et hautement disponibles.",
+      longDescription:
+        "Erlang est un langage de programmation et un systeme d'execution fonctionnel concu pour les applications concurrentes, distribuees et tolerantes aux pannes. Erlang/OTP inclut la machine virtuelle BEAM, des processus legers, la communication par messages, des superviseurs, des applications, des versions et des bibliotheques pour construire des systemes resilients.\n\nIl est largement utilise dans les plateformes de telecommunications, les systemes de messagerie, les bases de donnees, les services en temps reel, l'infrastructure reseau, l'IoT et les systemes ou la disponibilite, les mises a jour de code en direct et l'isolement des pannes sont des exigences centrales.",
+    },
   },
 } satisfies Language;

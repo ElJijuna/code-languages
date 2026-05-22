@@ -28,5 +28,17 @@ export const bicep = {
       longDescription:
         "Bicep es un lenguaje de dominio especifico para crear despliegues de Azure Resource Manager con sintaxis concisa, modulos, parametros, nombres simbolicos, bucles, condiciones y tooling con tipos. Compila a plantillas ARM y ofrece un formato fuente mas comodo.\n\nSe usa para despliegues repetibles de infraestructura en Azure, platform engineering, gobierno cloud, modulos reutilizables, aprovisionamiento en CI/CD y definiciones de recursos por entorno.",
     },
+    it: {
+      name: "Bicep",
+      description: "Un linguaggio dichiarativo per descrivere l'infrastruttura Azure come codice.",
+      longDescription:
+        "Bicep e un linguaggio specifico per il dominio per la creazione di implementazioni di Azure Resource Manager con una sintassi concisa, moduli, parametri, nomi simbolici, cicli, condizioni e strumenti consapevoli dei tipi. Compila in modelli ARM fornendo agli autori un formato di origine piu intuitivo.\n\nViene utilizzato per implementazioni ripetibili di infrastruttura Azure, ingegneria della piattaforma, governance del cloud, moduli riutilizzabili, provisioning CI/CD e definizioni di risorse specifiche per l'ambiente.",
+    },
+    fr: {
+      name: "Bicep",
+      description: "Un langage declaratif pour decrire l'infrastructure Azure en tant que code.",
+      longDescription:
+        "Bicep est un langage specifique a un domaine pour la creation de deploiements Azure Resource Manager avec une syntaxe concise, des modules, des parametres, des noms symboliques, des boucles, des conditions et des outils de type. Il compile en modeles ARM tout en offrant aux auteurs un format de source plus convivial.\n\nIl est utilise pour les deploiements d'infrastructure Azure reproductibles, l'ingenierie de plateformes, la gouvernance du cloud, les modules reutilisables, la provisionnement CI/CD et les definitions de ressources specifiques a l'environnement.",
+    },
   },
 } satisfies Language;

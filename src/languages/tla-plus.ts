@@ -27,5 +27,18 @@ export const tlaPlus = {
       longDescription:
         "TLA+ describe sistemas como transiciones matematicas de estado con acciones, invariantes, formulas temporales, modulos y especificaciones orientadas a refinamiento. Herramientas como TLC exploran comportamientos para revisar modelos.\n\nSe usa para razonar sobre algoritmos distribuidos, protocolos, concurrencia, propiedades de seguridad, revisiones de diseno y sistemas donde una especificacion precisa detecta fallos temprano.",
     },
+    it: {
+      name: "TLA+",
+      description: "Un linguaggio di specifica formale per macchine a stati e proprieta temporali.",
+      longDescription:
+        "TLA+ descrive i sistemi come transizioni di stato matematiche con azioni, invarianti, formule temporali, moduli e specifiche orientate alla raffinazione. Strumenti come TLC esplorano i comportamenti per verificare i modelli.\n\nViene utilizzato per ragionare su algoritmi distribuiti, protocolli, concorrenza, proprieta di sicurezza, revisioni di progettazione e sistemi in cui una specifica precisa individa i guasti in anticipo.",
+    },
+    fr: {
+      name: "TLA+",
+      description:
+        "Un langage de specification formelle pour les machines a etats et les proprietes temporelles.",
+      longDescription:
+        "TLA+ decrit les systemes comme des transitions d'etat mathematiques avec des actions, des invariants, des formules temporelles, des modules et des specifications orientees vers la verification. Les outils tels que TLC explorent les comportements pour verifier les modeles.\n\nIl est utilise pour raisonner sur les algorithmes distribues, les protocoles, la concurrence, les proprietes de securite, les revues de conception et les systemes ou une specification precise detecte les erreurs tot.",
+    },
   },
 } satisfies Language;

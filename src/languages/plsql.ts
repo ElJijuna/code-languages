@@ -28,5 +28,17 @@ export const plsql = {
       longDescription:
         "PL/SQL agrega bloques, variables, excepciones, procedimientos, funciones, paquetes, cursores y triggers a Oracle SQL. Mantiene logica de base de datos cerca de los datos y del comportamiento transaccional en Oracle Database.\n\nSe usa en stored procedures, scripts de migracion, reglas de negocio, trabajos batch, paquetes y aplicaciones empresariales construidas sobre Oracle.",
     },
+    it: {
+      name: "Oracle PL/SQL",
+      description: "Estensione procedurale di SQL di Oracle per programmi e pacchetti di database.",
+      longDescription:
+        "PL/SQL aggiunge blocchi, variabili, eccezioni, procedure, funzioni, pacchetti, cursori e trigger a SQL di Oracle. Mantiene la logica del database vicina ai dati e al comportamento transazionale all'interno di Oracle Database.\n\nViene utilizzato per stored procedure, script di migrazione, regole aziendali, lavori batch, pacchetti e applicazioni di database aziendali costruite su Oracle.",
+    },
+    fr: {
+      name: "Oracle PL/SQL",
+      description: "Oracle PL/SQL",
+      longDescription:
+        "PL/SQL ajoute des blocs, des variables, des exceptions, des procedures, des fonctions, des packages, des curseurs et des declencheurs a Oracle SQL. Il maintient la logique de la base de donnees proche des donnees et le comportement transactionnel dans Oracle Database.\n\nIl est utilise pour les procedures stockees, les scripts de migration, les regles metier, les taches par lots, les packages et les applications de base de donnees d'entreprise construites sur Oracle.",
+    },
   },
 } satisfies Language;

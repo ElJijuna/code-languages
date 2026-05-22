@@ -28,5 +28,19 @@ export const metal = {
       longDescription:
         "Metal es la tecnologia de bajo nivel de Apple para graficos y computo, junto con Metal Shading Language para escribir kernels de GPU, funciones de vertices, funciones de fragmentos, mesh shaders, cargas de ray tracing y pipelines de machine learning o procesamiento multimedia.\n\nSe usa en plataformas Apple para juegos, motores de render, apps con computo intensivo, graficos en tiempo real, procesamiento de imagen, herramientas de video, cargas cientificas y aplicaciones nativas sensibles al rendimiento que necesitan acceso directo a capacidades de GPU de Apple.",
     },
+    it: {
+      name: "Metal",
+      description:
+        "Linguaggio di grafica e calcolo di Apple per la programmazione di GPU ad alte prestazioni.",
+      longDescription:
+        "Metal e la tecnologia grafica e di calcolo a basso livello di Apple, abbinata al Metal Shading Language per la scrittura di kernel GPU, funzioni di vertice, funzioni di frammento, shader di mesh, carichi di lavoro di ray tracing e pipeline di machine learning o elaborazione multimediale.\n\nE utilizzato su tutte le piattaforme Apple per giochi, motori di rendering, applicazioni ad alta intensita di calcolo, grafica in tempo reale, elaborazione di immagini, strumenti video, carichi di lavoro scientifici e applicazioni native ad alte prestazioni che necessitano di accesso diretto alle capacita della GPU di Apple.",
+    },
+    fr: {
+      name: "Metal",
+      description:
+        "Langage de programmation graphique et de calcul de Apple pour la programmation GPU a haute performance.",
+      longDescription:
+        "Metal est la technologie graphique et de calcul de bas niveau d'Apple, associee au langage de programmation Metal pour ecrire des noyaux GPU, des fonctions de vertex, des fonctions de fragment, des shaders de maillage, des charges de travail de ray tracing et des pipelines d'apprentissage automatique ou de traitement multimedia.\n\nIl est utilise sur les plateformes Apple pour les jeux, les moteurs de rendu, les applications gourmandes en calcul, les graphiques en temps reel, le traitement d'images, les outils video, les charges de travail scientifiques et les applications natives performantes qui ont besoin d'un acces direct aux capacites de l'Apple GPU.",
+    },
   },
 } satisfies Language;

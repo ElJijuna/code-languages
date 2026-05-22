@@ -29,5 +29,19 @@ export const pony = {
       longDescription:
         "Pony combina actores, object capabilities, tipado estatico y capacidades de referencia para que programas nativos concurrentes sean explicitos sobre aliasing y mutacion. El runtime agenda actores aislados que se comunican por mensajes.\n\nSe usa en servicios concurrentes, experimentos nativos, sistemas de actores y programas que buscan garantias de compilacion frente a data races.",
     },
+    it: {
+      name: "Pony",
+      description:
+        "Un linguaggio di programmazione con capacita di riferimento e sicurezza contro le corse di dati.",
+      longDescription:
+        "Pony combina attori, capacita di oggetti, tipizzazione statica e capacita di riferimento per rendere esplicite le operazioni di alias e mutazione nei programmi concorrenti nativi. Il runtime del linguaggio programma attori isolati che comunicano tramite messaggi.\n\nViene utilizzato per servizi concorrenti, esperimenti nativi, sistemi di attori e programmi che desiderano garanzie in fase di compilazione riguardo alle corse di dati.",
+    },
+    fr: {
+      name: "Pony",
+      description:
+        "Un langage de programmation avec des capacites de reference et de securite contre les courses de donnees.",
+      longDescription:
+        "Pony combine les acteurs, les capacites d'objets, le typage statique et les capacites de reference pour rendre les programmes concurrents natifs explicites concernant l'aliasing et la mutation. Le runtime du langage planifie des acteurs isoles qui communiquent par des messages.\n\nIl est utilise pour les services concurrents, les experimentations natives, les systemes d'acteurs et les programmes qui souhaitent des garanties au moment de la compilation concernant les courses de donnees.",
+    },
   },
 } satisfies Language;

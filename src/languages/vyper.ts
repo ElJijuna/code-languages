@@ -28,5 +28,19 @@ export const vyper = {
       longDescription:
         "Vyper es un lenguaje de contratos para Ethereum que favorece comportamiento explicito, limites y auditabilidad sobre una superficie amplia del lenguaje. Su sintaxis es parecida a Python y su compilador emite bytecode EVM.\n\nSe usa en smart contracts de Ethereum, protocolos financieros, experimentos on-chain y codebases que prefieren un lenguaje de contratos deliberadamente restringido.",
     },
+    it: {
+      name: "Vyper",
+      description:
+        "Un linguaggio di contratto intelligente in stile Python per la Ethereum Virtual Machine.",
+      longDescription:
+        "Vyper e un linguaggio di contratto per Ethereum che privilegia il comportamento esplicito, i limiti e l'auditabilita rispetto a un'ampia superficie linguistica. La sua sintassi e simile a Python, mentre il suo compilatore emette bytecode EVM.\n\nE utilizzato per contratti intelligenti di Ethereum, protocolli finanziari, esperimenti on-chain e codebase che preferiscono un linguaggio di contratto deliberatamente ristretto.",
+    },
+    fr: {
+      name: "Vyper",
+      description:
+        "Un langage de contrat intelligent Pythonique pour la Machine Virtuelle Ethereum.",
+      longDescription:
+        "Vyper est un langage de contrat pour Ethereum qui privilegie le comportement explicite, les limites et l'auditabilite par rapport a une vaste surface de langage. Sa syntaxe est similaire a Python, tandis que son compilateur emet du bytecode EVM.\n\nIl est utilise pour les contrats intelligents Ethereum, les protocoles financiers, les experiences sur chaine et les bases de code qui preferent un langage de contrat deliberement restreint.",
+    },
   },
 } satisfies Language;

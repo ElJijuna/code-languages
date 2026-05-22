@@ -29,5 +29,18 @@ export const circom = {
       longDescription:
         "Circom es un lenguaje especifico de dominio para definir circuitos aritmeticos usados por sistemas de prueba zkSNARK. Su compilador puede generar sistemas de restricciones junto con codigo de generacion de testigos para C++ o WebAssembly.\n\nEs comun en protocolos de privacidad, sistemas de identidad, aplicaciones blockchain y proyectos criptograficos que necesitan circuitos reutilizables para pruebas de conocimiento cero.",
     },
+    it: {
+      name: "Circom",
+      description: "Un DSL per scrivere circuiti aritmetici utilizzati in prove a conoscenza zero.",
+      longDescription:
+        "Circom e un linguaggio specifico per definire circuiti aritmetici utilizzati dai sistemi di prova zkSNARK. Il suo compilatore puo generare sistemi di vincoli insieme al codice di generazione di testimonianze per C++ o WebAssembly.\n\nE comune in protocolli di preservazione della privacy, sistemi di identita, applicazioni blockchain e progetti crittografici che necessitano di circuiti riutilizzabili per prove a conoscenza zero.",
+    },
+    fr: {
+      name: "Circom",
+      description:
+        "Un DSL pour ecrire des circuits arithmetiques utilises dans les preuves a zero connaissance.",
+      longDescription:
+        "Circom est un langage specifique a un domaine pour definir des circuits arithmetiques utilises par les systemes de preuve zkSNARK. Son compilateur peut generer des systemes de contraintes ainsi que du code de generation de preuves pour C++ ou WebAssembly.\n\nIl est courant dans les protocoles de preservation de la vie privee, les systemes d'identite, les applications de blockchain et les projets cryptographiques qui ont besoin de circuits reutilisables pour les preuves a zero connaissance.",
+    },
   },
 } satisfies Language;

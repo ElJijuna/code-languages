@@ -1,4 +1,4 @@
-export type BaseLocale = "en" | "es";
+export type BaseLocale = "en" | "es" | "it" | "fr";
 export type Locale = BaseLocale | `${BaseLocale}-${string}` | (string & {});
 
 export interface LanguageContent {

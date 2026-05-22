@@ -27,5 +27,18 @@ export const sas = {
       longDescription:
         "Los programas SAS combinan DATA steps, procedimientos, macros, formatos, libraries y sentencias orientadas a analitica para transformar y analizar datos. El lenguaje esta ligado a la plataforma SAS y su tooling estadistico.\n\nSe usa en analitica, reportes regulados, flujos clinicos, preparacion de datos, pronosticos y sistemas estadisticos empresariales.",
     },
+    it: {
+      name: "SAS",
+      description: "Un linguaggio e un sistema per l'analisi statistica e l'elaborazione dei dati.",
+      longDescription:
+        "I programmi SAS combinano passaggi DATA, procedure, macro, formati, librerie e istruzioni orientate all'analisi per trasformare e analizzare i dati. Il linguaggio e strettamente legato alla piattaforma SAS e ai suoi strumenti statistici.\n\nViene utilizzato in analisi, reporting regolamentato, flussi di lavoro clinici, preparazione dei dati, previsione e sistemi statistici aziendali.",
+    },
+    fr: {
+      name: "SAS",
+      description:
+        "Un langage et un systeme pour l'analyse statistique et le traitement des donnees.",
+      longDescription:
+        "Les programmes SAS combinent des etapes DATA, des procedures, des macros, des formats, des bibliotheques et des instructions orientees vers l'analyse pour transformer et analyser les donnees. Le langage est etroitement lie a la plateforme SAS et a ses outils statistiques.\n\nIl est utilise dans l'analyse, les rapports reglementaires, les flux de travail cliniques, la preparation des donnees, la prevision et les systemes statistiques d'entreprise.",
+    },
   },
 } satisfies Language;

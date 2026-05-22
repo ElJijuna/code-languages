@@ -29,5 +29,19 @@ export const haml = {
       longDescription:
         "Haml es un lenguaje de marcado y templates para generar HTML con estructura basada en indentacion. Elimina etiquetas de cierre, reduce repeticion e integra con frameworks Ruby como Ruby on Rails.\n\nSe usa en aplicaciones web y pipelines de renderizado estatico que prefieren templates concisos, anidacion legible e interpolacion con Ruby en vez de sintaxis HTML explicita.",
     },
+    it: {
+      name: "Haml",
+      description:
+        "Un linguaggio di template sensibile allo spazio bianco per scrivere HTML in modo conciso.",
+      longDescription:
+        "Haml e un linguaggio di markup e template per generare HTML con una struttura basata sull'indentazione. Rimuove i tag di chiusura, riduce il codice boilerplate e si integra con framework Ruby come Ruby on Rails.\n\nE utilizzato in applicazioni web e pipeline di rendering statico che preferiscono modelli concisi, nidificazione leggibile e interpolazione basata su Ruby rispetto alla sintassi HTML esplicita.",
+    },
+    fr: {
+      name: "Haml",
+      description:
+        "Un langage de modele sensible aux espaces pour ecrire du HTML de maniere concise.",
+      longDescription:
+        "Haml est un langage de balisage et de modele pour generer du HTML avec une structure basee sur l'indentation. Il supprime les balises de fermeture, reduit le code repetitif et s'integre avec les frameworks Ruby tels que Ruby on Rails.\n\nIl est utilise dans les applications web et les pipelines de rendu statique qui preferent des modeles concis, un imbricage lisible et l'interpetation Ruby plutot que la syntaxe HTML explicite.",
+    },
   },
 } satisfies Language;

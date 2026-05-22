@@ -28,5 +28,18 @@ export const thrift = {
       longDescription:
         "Los archivos Thrift definen servicios, structs, campos, enums, excepciones, namespaces y decisiones de wire que los generadores convierten en codigo para muchos lenguajes. El proyecto incluye protocolos y transports para RPC.\n\nSe usa en contratos de servicios, schemas compartidos, generacion de codigo, sistemas distribuidos y APIs entre lenguajes.",
     },
+    it: {
+      name: "Apache Thrift",
+      description: "Un IDL per servizi multipiattaforma e tipi di dati serializzabili.",
+      longDescription:
+        "I file Thrift definiscono servizi, strutture, campi, enumerazioni, eccezioni, namespace e scelte a livello di rete che i generatori trasformano in codice per molti linguaggi. Il progetto include protocolli e trasporti per l'uso di RPC.\n\nViene utilizzato per contratti di servizio, condivisione di schemi, generazione di codice, sistemi distribuiti e API multipiattaforma.",
+    },
+    fr: {
+      name: "Apache Thrift",
+      description:
+        "Une IDL pour les services inter-langages et les types de donnees serialisables.",
+      longDescription:
+        "Les fichiers Thrift definissent les services, les structures, les champs, les enumerations, les exceptions, les espaces de noms et les choix au niveau du cablage, que les generateurs transforment en code pour de nombreux langages. Le projet comprend des protocoles et des transports pour l'utilisation de l'appel de procedure distante (RPC).\n\nIl est utilise pour les contrats de service, le partage de schemas, la generation de code, les systemes distribues et les API inter-langages.",
+    },
   },
 } satisfies Language;

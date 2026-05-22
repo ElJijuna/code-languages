@@ -29,5 +29,19 @@ export const mdx = {
       longDescription:
         "MDX combina prosa Markdown con expresiones y componentes JSX, permitiendo que los documentos incluyan ejemplos interactivos, imports, exports y layouts basados en componentes. Normalmente se compila a JavaScript para pipelines de renderizado con React.\n\nSe usa en sitios de documentacion, sistemas de diseno, blogs, tutoriales, demos de componentes, plataformas de contenido y generadores de sitios estaticos que necesitan prosa y UI en el mismo archivo fuente.",
     },
+    it: {
+      name: "MDX",
+      description:
+        "Un formato basato su Markdown che incorpora componenti JSX nei documenti di contenuto.",
+      longDescription:
+        "MDX combina la prosa Markdown con le espressioni e i componenti JSX, consentendo ai documenti di includere esempi interattivi, importazioni, esportazioni e layout guidati dai componenti. Viene comunemente compilato in JavaScript per pipeline di rendering basate su React.\n\nViene utilizzato in siti di documentazione, sistemi di design, blog, tutorial, demo di componenti, piattaforme di contenuti e generatori di siti statici che necessitano di prosa e componenti UI nello stesso file sorgente.",
+    },
+    fr: {
+      name: "MDX",
+      description:
+        "Un format base sur Markdown qui integre des composants JSX dans les documents de contenu.",
+      longDescription:
+        "MDX combine la prose Markdown avec des expressions et des composants JSX, permettant aux documents d'inclure des exemples interactifs, des importations, des exportations et des mises en page basees sur des composants. Il est couramment compile en JavaScript pour les pipelines de rendu bases sur React.\n\nIl est utilise dans les sites de documentation, les systemes de conception, les blogs, les tutoriels, les demos de composants, les plateformes de contenu et les generateurs de sites statiques qui ont besoin de prose et de composants d'interface utilisateur dans le meme fichier source.",
+    },
   },
 } satisfies Language;

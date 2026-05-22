@@ -30,5 +30,19 @@ export const tex = {
       longDescription:
         "TeX es un sistema programable de composicion tipografica basado en macros, cajas, espaciado flexible, notacion matematica y composicion precisa de paginas. Plain TeX, LaTeX, ConTeXt y formatos relacionados se apoyan en la familia de motores TeX para producir documentos de alta calidad desde archivos fuente de texto.\n\nSe usa para articulos academicos, libros, manuales tecnicos, matematicas, fisica, publicaciones de computacion, tesis y flujos editoriales donde importan la tipografia reproducible y la estabilidad del codigo fuente a largo plazo.",
     },
+    it: {
+      name: "TeX",
+      description:
+        "Sistema di impaginazione basato su macro di Donald Knuth per documenti tecnici e scientifici precisi.",
+      longDescription:
+        "TeX e un sistema di impaginazione programmabile basato su macro, scatole, colla, layout matematico e composizione di pagine precise. Plain TeX, LaTeX, ConTeXt e formati correlati si basano sulla famiglia di motori TeX per produrre documenti di alta qualita da file di testo.\n\nViene utilizzato per articoli accademici, libri, manuali tecnici, matematica, fisica, pubblicazioni di informatica, tesi e flussi di lavoro di pubblicazione in cui la tipografia riproducibile e la stabilita a lungo termine della fonte sono importanti.",
+    },
+    fr: {
+      name: "TeX",
+      description:
+        "Systeme de composition de texte base sur des macros de Donald Knuth pour les documents techniques et scientifiques precis.",
+      longDescription:
+        "TeX est un systeme de composition de texte programmable base sur des macros, des boites, de la colle, la mise en page mathematique et la composition precise des pages. Plain TeX, LaTeX, ConTeXt et des formats connexes s'appuient sur la famille de moteurs TeX pour produire des documents de haute qualite a partir de fichiers sources de texte.\n\nIl est utilise pour les articles universitaires, les livres, les manuels techniques, les mathematiques, la physique, les publications en informatique, les theses et les flux de travail de publication ou la typographie reproductible et la stabilite a long terme de la source sont importantes.",
+    },
   },
 } satisfies Language;

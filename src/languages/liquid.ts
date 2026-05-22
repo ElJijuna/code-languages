@@ -29,5 +29,19 @@ export const liquid = {
       longDescription:
         "Liquid es un lenguaje de plantillas disenado para exponer datos controlados mediante tags, objetos, filtros, bucles, condiciones e includes. Prioriza renderizado predecible y logica limitada para que personas no desarrolladoras puedan personalizar la presentacion de contenido con seguridad.\n\nSe usa en temas de Shopify, sitios Jekyll, GitHub Pages, personalizacion de tiendas, sistemas de gestion de contenido, plantillas de email y flujos de publicacion estatica.",
     },
+    it: {
+      name: "Liquid",
+      description:
+        "Un linguaggio di template sicuro utilizzato da Shopify, Jekyll e siti basati sui contenuti.",
+      longDescription:
+        "Liquid e un linguaggio di template progettato per esporre dati controllati ai template tramite tag, oggetti, filtri, cicli, condizioni e inclusioni. Favorisce la rendering prevedibile e la logica limitata, in modo che anche chi non e uno sviluppatore possa personalizzare in modo sicuro la presentazione dei contenuti.\n\nE utilizzato in temi Shopify, siti Jekyll, GitHub Pages, personalizzazione dei negozi online, sistemi di gestione dei contenuti, modelli di email e flussi di lavoro di pubblicazione statica.",
+    },
+    fr: {
+      name: "Liquid",
+      description:
+        "Un langage de modele securise utilise par Shopify, Jekyll et les sites axes sur le contenu.",
+      longDescription:
+        "Liquid est un langage de modele concu pour exposer des donnees controlees aux modeles via des balises, des objets, des filtres, des boucles, des conditions et des inclusions. Il favorise le rendu previsible et une logique contrainte, de sorte que les non-developpeurs puissent personnaliser en toute securite la presentation du contenu.\n\nIl est utilise dans les themes Shopify, les sites Jekyll, GitHub Pages, la personnalisation des boutiques, les systemes de gestion de contenu, les modeles d'e-mails et les flux de publication statique.",
+    },
   },
 } satisfies Language;

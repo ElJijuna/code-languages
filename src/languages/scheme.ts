@@ -27,5 +27,19 @@ export const scheme = {
       longDescription:
         "Scheme es un dialecto Lisp conocido por un nucleo compacto, alcance lexico, procedimientos de primera clase, macros, continuations y una tradicion de experimentacion con lenguajes. Los estandares definen una base portable mientras las implementaciones agregan bibliotecas.\n\nSe usa en ensenanza, compiladores, scripting, investigacion, sistemas de extension embebidos y programas que valoran un nucleo expresivo pequeno.",
     },
+    it: {
+      name: "Scheme",
+      description:
+        "Un linguaggio della famiglia Lisp piccolo, incentrato sullo scope lessicale e sulle procedure.",
+      longDescription:
+        "Scheme e un dialetto Lisp noto per un nucleo compatto, lo scope lessicale, le procedure di prima classe, i macro, le continuazioni e una tradizione di sperimentazione linguistica. Gli standard definiscono una base portabile, mentre le implementazioni aggiungono librerie e strumenti.\n\nViene utilizzato nell'insegnamento, nella compilazione, nella scripting, nella ricerca, nei sistemi di estensione embedded e in programmi che valorizzano un piccolo nucleo linguistico espressivo.",
+    },
+    fr: {
+      name: "Scheme",
+      description:
+        "Un petit langage de la famille Lisp, axe sur la portee lexicale et les procedures.",
+      longDescription:
+        "Scheme est un dialecte de Lisp connu pour son noyau compact, la portee lexicale, les procedures de premiere classe, les macros, les continuations et une tradition d'experimentation linguistique. Les normes definissent une base portable, tandis que les implementations ajoutent des bibliotheques et des outils.\n\nIl est utilise dans l'enseignement, les compilateurs, le scripting, la recherche, les systemes d'extension embarques et les programmes qui valorisent un noyau de langage expressif et compact.",
+    },
   },
 } satisfies Language;

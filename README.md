@@ -18,6 +18,7 @@ Structured metadata for programming languages, packaged as a typed, tree-shakeab
 - ESM and CommonJS builds
 - Subpath imports for per-language usage
 - Tree-shakeable exports
+- Localized content in English, Spanish, Italian, and French
 - Works in Node.js and modern bundlers
 
 ## Installation
@@ -706,7 +707,8 @@ console.log(zsh.version);
 Every language object satisfies the `Language` interface:
 
 ```ts
-export type Locale = "en" | "es" | `en-${string}` | `es-${string}` | string;
+export type BaseLocale = "en" | "es" | "it" | "fr";
+export type Locale = BaseLocale | `${BaseLocale}-${string}` | string;
 
 export interface LanguageContent {
   name: string;
@@ -732,6 +734,8 @@ export interface Language {
   i18n: {
     en: LanguageContent;
     es?: LanguageContent;
+    it?: LanguageContent;
+    fr?: LanguageContent;
   };
 }
 ```
@@ -774,7 +778,11 @@ console.log(language.resolvedLocale); // "es"
 
 1. Exact locale, for example `es`.
 2. Base language from a regional locale, for example `es-PE` -> `es`.
-3. English fallback, for example `fr-FR` -> `en`.
+3. English fallback, for example `de-DE` -> `en`.
+
+English, Spanish, Italian, and French are supported base locales. The current Italian
+and French translations were initially generated with `translategemma:4b`; translation
+reviews and corrections are welcome.
 
 Use `detectLanguage` or `detectLanguages` to infer languages from filenames:
 
@@ -787,6 +795,9 @@ console.log(detectLanguages("include/config.h").map((language) => language.slug)
 ```
 
 ## Supported Languages
+
+The catalog currently includes 172 language entries. Each row can be imported directly
+from its package subpath.
 
 | Logo | Language | Slug | Extensions | Version | Import |
 |---|---|---|---|---|---|

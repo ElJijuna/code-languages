@@ -28,5 +28,17 @@ export const agda = {
       longDescription:
         "Agda es un lenguaje de programacion funcional con tipos dependientes y un asistente interactivo de pruebas. Soporta familias inductivas, pattern matching, modulos, operadores mixfix, sintaxis Unicode y un sistema de tipos expresivo para codificar pruebas matematicas como programas.\n\nSe usa en investigacion de lenguajes, matematica constructiva, algoritmos certificados y educacion cuando las especificaciones precisas y las pruebas verificadas por maquina importan tanto como el codigo ejecutable.",
     },
+    it: {
+      name: "Agda",
+      description: "Un linguaggio funzionale e assistente di dimostrazione di tipo dipendente.",
+      longDescription:
+        "Agda e un linguaggio di programmazione funzionale di tipo dipendente e un assistente interattivo di dimostrazione. Supporta famiglie induttive, corrispondenza di pattern, moduli, operatori mixfix, sintassi Unicode e un sistema di tipi espressivo sufficiente per codificare dimostrazioni matematiche come programmi.\n\nE utilizzato nella ricerca di linguaggi di programmazione, matematica costruttiva, algoritmi certificati e nell'istruzione, dove specifiche precise e dimostrazioni verificate sono importanti tanto quanto il codice eseguibile.",
+    },
+    fr: {
+      name: "Agda",
+      description: "Un langage fonctionnel et assistant de preuve de type dependant.",
+      longDescription:
+        "Agda est un langage de programmation fonctionnel de type dependant et un assistant de preuve interactif. Il prend en charge les familles inductives, la correspondance de motifs, les modules, les operateurs mixfix, la syntaxe Unicode et un systeme de types suffisamment expressif pour encoder des preuves mathematiques sous forme de programmes.\n\nIl est utilise dans la recherche sur les langages de programmation, la mathematique constructive, les algorithmes certifies et l'education, ou des specifications precises et des preuves verifiees par machine comptent autant que le code executable.",
+    },
   },
 } satisfies Language;

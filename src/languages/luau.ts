@@ -28,5 +28,17 @@ export const luau = {
       longDescription:
         "Luau es un lenguaje de scripting derivado de Lua 5.1 y desarrollado por Roblox. Agrega tipado gradual, trabajo de compilador y VM orientado al rendimiento, linting, inferencia de tipos y caracteristicas para grandes bases de codigo de juegos.\n\nSe usa en experiencias de Roblox, herramientas de juegos, scripting embebido y proyectos que quieren ergonomia similar a Lua con analisis estatico mas fuerte y rendimiento moderno.",
     },
+    it: {
+      name: "Luau",
+      description: "Un linguaggio di scripting veloce basato su Lua con tipizzazione graduale.",
+      longDescription:
+        "Luau e un linguaggio di scripting derivato da Lua 5.1 e sviluppato da Roblox. Aggiunge tipizzazione graduale, compilatore e VM focalizzati sulle prestazioni, linting, inferenza dei tipi e funzionalita mirate a codebase di giochi di grandi dimensioni.\n\nE utilizzato in esperienze di Roblox, strumenti di gioco, scripting embedded e progetti che desiderano l'ergonomia simile a Lua con analisi statica piu avanzata e prestazioni moderne della runtime.",
+    },
+    fr: {
+      name: "Luau",
+      description: "Un langage de script rapide base sur Lua avec typage progressif.",
+      longDescription:
+        "Luau est un langage de script derive de Lua 5.1 et developpe par Roblox. Il ajoute le typage progressif, un compilateur et une VM axes sur les performances, la verification du code, l'inference de type et des fonctionnalites visant aux grands ensembles de code de jeux.\n\nIl est utilise dans les experiences Roblox, les outils de jeu, le script embarque et les projets qui souhaitent une ergonomie similaire a Lua avec une analyse statique plus forte et des performances modernes de la VM.",
+    },
   },
 } satisfies Language;

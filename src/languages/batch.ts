@@ -30,5 +30,19 @@ export const batch = {
       longDescription:
         "Los archivos Batch contienen comandos interpretados por Windows Command Processor, incluyendo invocacion de comandos, variables, etiquetas, condicionales, bucles, manejo de argumentos y control de procesos.\n\nSe usan para scripts de configuracion en Windows, accesos rapidos de desarrollo, automatizacion administrativa, flujos legacy de DOS y orquestacion simple de tareas de linea de comandos en sistemas Windows.",
     },
+    it: {
+      name: "Batch",
+      description:
+        "Un formato di scripting per comandi di Windows utilizzato per automatizzare attivita da riga di comando con cmd.exe.",
+      longDescription:
+        "I file Batch contengono comandi interpretati dal Windows Command Processor, inclusi l'invocazione di comandi, variabili, etichette, condizioni, cicli, gestione degli argomenti e controllo dei processi.\n\nSono utilizzati per script di installazione di Windows, scorciatoie per sviluppatori, automazione amministrativa, workflow legacy DOS e semplice orchestrazione di attivita da riga di comando su sistemi Windows.",
+    },
+    fr: {
+      name: "Batch",
+      description:
+        "Un format de scriptage en ligne de commande pour Windows utilise pour automatiser les taches de ligne de commande avec cmd.exe.",
+      longDescription:
+        "Les fichiers Batch contiennent des commandes interpretees par le Windows Command Processor, y compris l'invocation de commandes, les variables, les etiquettes, les conditions, les boucles, la gestion des arguments et le controle des processus.\n\nIls sont utilises pour les scripts de configuration Windows, les raccourcis pour les developpeurs, l'automatisation administrative, les workflows DOS herites et l'orchestration simple de taches de ligne de commande sur les systemes Windows.",
+    },
   },
 } satisfies Language;

@@ -30,5 +30,19 @@ export const xslt = {
       longDescription:
         "XSLT es un lenguaje declarativo de transformacion para documentos XML. Las hojas de estilo usan templates, modos, expresiones XPath, variables, funciones, claves, imports y declaraciones de salida para encontrar nodos en arboles fuente y producir XML, HTML, texto u otros resultados estructurados.\n\nSe usa en sistemas de publicacion, intercambio de datos empresarial, conversion de documentos, pipelines XML, integraciones basadas en estandares, flujos XML historicos del navegador y sistemas que necesitan transformaciones repetibles entre formatos documentales.",
     },
+    it: {
+      name: "XSLT",
+      description:
+        "Un linguaggio di stile W3C per trasformare documenti XML in XML, HTML, testo e altro.",
+      longDescription:
+        "XSLT e un linguaggio di trasformazione dichiarativo per documenti XML. I linguaggi di stile utilizzano modelli, modalita, espressioni XPath, variabili, funzioni, chiavi, importazioni e dichiarazioni di output per corrispondere agli alberi di origine e produrre XML, HTML, testo o altri risultati strutturati.\n\nViene utilizzato in sistemi di pubblicazione, scambio di dati aziendali, conversione di documenti, pipeline XML, integrazioni basate su standard, flussi XML dell'era del browser e sistemi che necessitano di trasformazioni ripetibili tra formati di documenti.",
+    },
+    fr: {
+      name: "XSLT",
+      description:
+        "Un langage de style W3C pour transformer les documents XML en XML, HTML, texte, etc.",
+      longDescription:
+        "XSLT est un langage de transformation declaratif pour les documents XML. Les feuilles de style utilisent des modeles, des modes, des expressions XPath, des variables, des fonctions, des cles, des importations et des declarations de sortie pour correspondre aux arbres sources et produire des resultats XML, HTML, texte ou autres resultats structures. \n\nIl est utilise dans les systemes de publication, l'echange de donnees d'entreprise, la conversion de documents, les pipelines XML, les integrations basees sur des normes, les flux XML de l'ere des navigateurs et les systemes qui ont besoin de transformations reproductibles entre les formats de documents.",
+    },
   },
 } satisfies Language;

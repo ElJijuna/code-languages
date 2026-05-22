@@ -29,5 +29,18 @@ export const blade = {
       longDescription:
         "Blade es el lenguaje de plantillas de Laravel para componer vistas PHP con directivas, layouts, secciones, stacks, componentes, slots, condicionales, bucles, includes, escapado y extensiones del compilador. Mantiene las plantillas cerca de HTML y se integra de forma profunda con Laravel.\n\nSe usa en aplicaciones Laravel, interfaces renderizadas en servidor, vistas de formularios, plantillas de email, componentes UI reutilizables, paneles administrativos y proyectos PHP que dependen de la capa de vistas de Laravel.",
     },
+    it: {
+      name: "Blade",
+      description: "Linguaggio di template lato server di Laravel per viste, componenti e layout.",
+      longDescription:
+        "Blade e il linguaggio di template di Laravel per la composizione di viste PHP con direttive, layout, sezioni, stack, componenti, slot, condizioni, cicli, inclusioni, escaping e estensioni del compilatore personalizzate. Mantiene i template vicini all'HTML pur integrandosi profondamente con le funzionalita di Laravel.\n\nViene utilizzato per applicazioni Laravel, interfacce renderizzate lato server, viste di form, modelli di email, componenti UI riutilizzabili, pannelli di amministrazione e progetti PHP che si basano sul livello di vista di Laravel.",
+    },
+    fr: {
+      name: "Blade",
+      description:
+        "Langage de modele cote serveur de Laravel pour les vues, les composants et les mises en page.",
+      longDescription:
+        "Blade est le langage de modele de Laravel pour composer des vues PHP avec des directives, des mises en page, des sections, des piles, des composants, des emplacements, des conditions, des boucles, des inclusions, des mecanismes d'echappement et des extensions de compilateur personnalisees. Il maintient les modeles proches du HTML tout en s'integrant profondement aux fonctionnalites de Laravel.\n\nIl est utilise pour les applications Laravel, les interfaces cote serveur, les vues de formulaires, les modeles d'e-mails, les composants d'interface utilisateur reutilisables, les panneaux d'administration et les projets PHP qui s'appuient sur la couche de vue de Laravel.",
+    },
   },
 } satisfies Language;

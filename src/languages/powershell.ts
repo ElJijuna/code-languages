@@ -30,5 +30,19 @@ export const powershell = {
       longDescription:
         "PowerShell combina un shell de linea de comandos, lenguaje de scripting, pipeline de objetos, sistema de modulos, proveedores, remoting e integracion profunda con .NET y APIs de administracion del sistema operativo.\n\nSe usa ampliamente para administracion de Windows, automatizacion de Azure, flujos DevOps, gestion de configuracion, operaciones cloud y tareas repetibles de infraestructura en Windows, Linux y macOS.",
     },
+    it: {
+      name: "PowerShell",
+      description:
+        "Un shell di comando e linguaggio di scripting multipiattaforma per l'automazione e l'amministrazione di sistema.",
+      longDescription:
+        "PowerShell combina un shell di riga di comando, un linguaggio di scripting, un pipeline di oggetti, un sistema di moduli, provider, remoting e una profonda integrazione con le API di .NET e di gestione del sistema operativo.\n\nE ampiamente utilizzato per l'amministrazione di Windows, l'automazione di Azure, i flussi di lavoro DevOps, la gestione della configurazione, le operazioni cloud e attivita di infrastruttura ripetibili su Windows, Linux e macOS.",
+    },
+    fr: {
+      name: "PowerShell",
+      description:
+        "Un shell de commande et un langage de script multiplateforme pour l'automatisation et l'administration systeme.",
+      longDescription:
+        "PowerShell combine un shell en ligne de commande, un langage de script, une pipeline d'objets, un systeme de modules, des fournisseurs, le telemetrie et une integration profonde avec les API .NET et de gestion du systeme d'exploitation.\n\nIl est largement utilise pour l'administration Windows, l'automatisation Azure, les workflows DevOps, la gestion de la configuration, les operations cloud et les taches d'infrastructure repetitives sur Windows, Linux et macOS.",
+    },
   },
 } satisfies Language;

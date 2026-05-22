@@ -29,5 +29,18 @@ export const wgsl = {
       longDescription:
         "WGSL es el lenguaje de shaders de WebGPU, disenado para validacion predecible, portabilidad y seguridad entre backends graficos. Incluye tipos explicitos, address spaces, entry points, bindings, uniforms, storage buffers, texturas, workgroups y funciones integradas para shaders graficos y compute.\n\nSe usa en aplicaciones WebGPU, rendering en navegador, proyectos nativos con wgpu, herramientas de visualizacion, cargas compute, creative coding y motores graficos que apuntan a ejecucion GPU portable.",
     },
+    it: {
+      name: "WGSL",
+      description: "Il linguaggio di shading WebGPU per programmi browser e GPU portatili.",
+      longDescription:
+        "WGSL e il linguaggio di shading per WebGPU, progettato per la convalida prevedibile, la portabilita e la sicurezza su diversi backend grafici. Include tipi espliciti, spazi di indirizzamento, punti di ingresso, binding, uniformi, buffer di storage, texture, workgroup e funzioni integrate per shader grafici e di calcolo.\n\nE utilizzato in applicazioni WebGPU, rendering del browser, progetti nativi wgpu, strumenti di visualizzazione, carichi di lavoro di calcolo, coding creativo e motori grafici che mirano all'esecuzione portatile su GPU.",
+    },
+    fr: {
+      name: "WGSL",
+      description:
+        "Le langage de programmation de shaders WebGPU pour les applications de navigateur et natives sur GPU.",
+      longDescription:
+        "WGSL est le langage de shaders pour WebGPU, concu pour une validation previsible, la portabilite et la securite sur les backends graphiques. Il inclut des types explicites, des espaces d'adressage, des points d'entree, des liaisons, des uniformes, des tampons de stockage, des textures, des groupes de travail et des fonctions integrees pour les shaders graphiques et de calcul.\n\nIl est utilise dans les applications WebGPU, le rendu de navigateur, les projets natifs wgpu, les outils de visualisation, les charges de travail de calcul, le codage creatif et les moteurs de graphiques qui ciblent l'execution portable sur GPU.",
+    },
   },
 } satisfies Language;

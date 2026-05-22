@@ -28,5 +28,19 @@ export const moonbit = {
       longDescription:
         "MoonBit es un lenguaje y toolchain construido alrededor de feedback rapido, tipos algebraicos, pattern matching y varios backends, incluido WebAssembly. Sus herramientas de paquetes y pruebas forman parte del flujo del lenguaje.\n\nSe usa en bibliotecas WebAssembly, experimentos de linea de comandos, runtimes web, ensenanza y proyectos que buscan codigo tipado compacto con tooling integrado.",
     },
+    it: {
+      name: "MoonBit",
+      description:
+        "Un linguaggio e un set di strumenti staticamente tipizzato progettato per l'output WebAssembly.",
+      longDescription:
+        "MoonBit e un linguaggio e un set di strumenti costruiti attorno a un feedback rapido, a tipi di dati algebrici, a pattern matching e a backend multipli, tra cui WebAssembly. I suoi strumenti per la gestione dei pacchetti e dei test sono progettati come parte del flusso di lavoro del linguaggio.\n\nViene utilizzato per librerie WebAssembly, esperimenti da riga di comando, runtime web, didattica e progetti che desiderano codice tipizzato compatto con strumenti integrati.",
+    },
+    fr: {
+      name: "MoonBit",
+      description:
+        "Un langage et un ensemble d'outils de compilation statiquement types concus pour la sortie WebAssembly.",
+      longDescription:
+        "MoonBit est un langage et un ensemble d'outils construits autour d'un retour rapide, de types de donnees algebriques, de la correspondance de motifs et de plusieurs backends, notamment WebAssembly. Ses outils de package et de test sont concus comme faisant partie du flux de travail du langage.\n\nIl est utilise pour les bibliotheques WebAssembly, les experiences en ligne de commande, les environnements d'execution web, l'enseignement et les projets qui souhaitent un code type compact avec des outils integres.",
+    },
   },
 } satisfies Language;

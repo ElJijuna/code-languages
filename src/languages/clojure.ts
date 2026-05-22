@@ -30,5 +30,19 @@ export const clojure = {
       longDescription:
         "Clojure es un dialecto Lisp funcional y dinamico disenado para desarrollo practico de software sobre runtimes hospedados. Enfatiza estructuras de datos persistentes e inmutables, funciones de primera clase, macros, namespaces, protocolos, memoria transaccional de software y flujos guiados por REPL.\n\nSe usa en servicios backend, pipelines de datos, sistemas interactivos, scripting con Babashka, aplicaciones web, sistemas distribuidos y proyectos que se benefician de un nucleo pequeno de lenguaje con practicas fuertes de programacion orientada a datos.",
     },
+    it: {
+      name: "Clojure",
+      description:
+        "Un Lisp moderno per gli ecosistemi JVM e JavaScript con dati immutabili e sviluppo interattivo.",
+      longDescription:
+        "Clojure e un dialetto dinamico funzionale di Lisp progettato per lo sviluppo di software pratico su runtime ospitati. Enfatizza strutture dati persistenti immutabili, funzioni di prima classe, macro, namespace, protocolli, memoria transazionale software e flussi di lavoro guidati da REPL.\n\nViene utilizzato per servizi backend, pipeline di dati, sistemi interattivi, scripting con Babashka, applicazioni web, sistemi distribuiti e progetti che beneficiano di un piccolo nucleo di linguaggio con forti pratiche di programmazione orientate ai dati.",
+    },
+    fr: {
+      name: "Clojure",
+      description:
+        "Un Lisp moderne pour les ecosystemes JVM et JavaScript avec des donnees immuables et un developpement interactif.",
+      longDescription:
+        "Clojure est un dialecte Lisp fonctionnel dynamique concu pour le developpement logiciel pratique sur des environnements d'execution heberges. Il met l'accent sur les structures de donnees persistantes immuables, les fonctions de premiere classe, les macros, les espaces de noms, les protocoles, la memoire transactionnelle et les flux de travail bases sur REPL.\n\nIl est utilise pour les services backend, les pipelines de donnees, les systemes interactifs, le scripting avec Babashka, les applications web, les systemes distribues et les projets qui beneficient d'un noyau de langage compact avec de solides pratiques de programmation orientee donnees.",
+    },
   },
 } satisfies Language;

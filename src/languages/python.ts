@@ -30,5 +30,19 @@ export const python = {
       longDescription:
         "Python enfatiza la legibilidad, una sintaxis compacta y una biblioteca estandar amplia, lo que lo hace popular para scripting, servicios backend, analisis de datos, educacion y computacion cientifica.\n\nSu ecosistema incluye frameworks y paquetes importantes para desarrollo web, automatizacion, machine learning, computacion numerica, testing y herramientas de linea de comandos.",
     },
+    it: {
+      name: "Python",
+      description:
+        "Un linguaggio di alto livello, leggibile, utilizzato per applicazioni, automazione, dati e IA.",
+      longDescription:
+        "Python enfatizza la leggibilita, una sintassi compatta e una vasta libreria standard, rendendolo popolare per la scripting, i servizi backend, l'analisi dei dati, l'istruzione e il calcolo scientifico.\n\nIl suo ecosistema include framework e pacchetti principali per lo sviluppo web, l'automazione, l'apprendimento automatico, il calcolo numerico, i test e gli strumenti a riga di comando.",
+    },
+    fr: {
+      name: "Python",
+      description:
+        "Un langage de haut niveau, lisible, utilise pour les applications, l'automatisation, les donnees et l'IA.",
+      longDescription:
+        "Python met l'accent sur la lisibilite, une syntaxe concise et une vaste bibliotheque standard, ce qui le rend populaire pour le script, les services backend, l'analyse de donnees, l'education et le calcul scientifique.\n\nSon ecosysteme comprend des frameworks et des packages majeurs pour le developpement web, l'automatisation, l'apprentissage automatique, le calcul numerique, les tests et les outils en ligne de commande.",
+    },
   },
 } satisfies Language;

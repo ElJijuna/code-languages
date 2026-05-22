@@ -30,5 +30,19 @@ export const zig = {
       longDescription:
         "Zig es un lenguaje de programacion de sistemas y toolchain de proposito general disenado para control explicito, rendimiento predecible, cross-compilation y mantenimiento de software robusto. Ofrece gestion manual de memoria, ejecucion comptime, uniones de error, tooling de build integrado e interoperabilidad con C.\n\nSe usa en software de sistemas, targets embebidos, herramientas de linea de comandos, motores de juegos, bibliotecas de bajo nivel, aplicaciones nativas multiplataforma y proyectos que necesitan un lenguaje compacto con capacidades fuertes de compilacion en tiempo de build.",
     },
+    it: {
+      name: "Zig",
+      description:
+        "Un linguaggio e un set di strumenti di programmazione per sistemi focalizzati su robustezza, controllo e cross-compilazione.",
+      longDescription:
+        "Zig e un linguaggio e un set di strumenti di programmazione per sistemi di uso generale, progettati per un controllo esplicito, prestazioni prevedibili, cross-compilazione e per mantenere software robusto. Fornisce gestione manuale della memoria, esecuzione a tempo di compilazione, unioni di errori, strumenti di build integrati e interoperabilita con C.\n\nViene utilizzato per software di sistema, destinazioni embedded, strumenti a riga di comando, motori di gioco, librerie a basso livello, applicazioni native multipiattaforma e progetti che necessitano di un linguaggio compatto con forti capacita di compilazione.",
+    },
+    fr: {
+      name: "Zig",
+      description:
+        "Un langage et un ensemble d'outils de programmation pour systemes, axe sur la robustesse, le controle et la compilation croisee.",
+      longDescription:
+        "Zig est un langage et un ensemble d'outils de programmation pour systemes, concu pour un controle explicite, des performances previsibles, la compilation croisee et le maintien de logiciels robustes. Il fournit une gestion manuelle de la memoire, l'execution de comptime, des unions d'erreurs, des outils de construction integres et l'interoperabilite avec C. \n\nIl est utilise pour les logiciels de systemes, les cibles embarquees, les outils en ligne de commande, les moteurs de jeux, les bibliotheques de bas niveau, les applications natives multiplateformes et les projets qui ont besoin d'un langage compact avec de puissantes capacites de compilation.",
+    },
   },
 } satisfies Language;

@@ -30,5 +30,19 @@ export const objectiveC = {
       longDescription:
         "Objective-C es una extension orientada a objetos de C que agrega envio de mensajes estilo Smalltalk, despacho dinamico, clases, protocolos, categorias y reflexion en runtime.\n\nFue central historicamente en el desarrollo para NeXTSTEP, macOS, iOS, Cocoa y Cocoa Touch, y sigue siendo importante para mantener codebases de plataformas Apple e interoperar con C, C++ y Swift.",
     },
+    it: {
+      name: "Objective-C",
+      description:
+        "Un superset di C con messaggistica in stile Smalltalk e un runtime di oggetti dinamico.",
+      longDescription:
+        "Objective-C e un'estensione orientata agli oggetti di C che aggiunge la messaggistica in stile Smalltalk, dispatch dinamico, classi, protocolli, categorie e riflessione a runtime.\n\nStoricamente, e stato centrale per lo sviluppo di NeXTSTEP, macOS, iOS, Cocoa e Cocoa Touch, e rimane importante per la manutenzione dei codebase delle piattaforme Apple e per l'interoperabilita con C, C++ e Swift.",
+    },
+    fr: {
+      name: "Objective-C",
+      description:
+        "Un superset de C avec la messagerie de type Smalltalk et un runtime d'objets dynamique.",
+      longDescription:
+        "Objective-C est une extension orientee objet de C qui ajoute la messagerie de type Smalltalk, la dispatch dynamique, les classes, les protocoles, les categories et la reflexion au moment de l'execution.\n\nIl a ete historiquement central pour le developpement de NeXTSTEP, macOS, iOS, Cocoa et Cocoa Touch, et reste important pour la maintenance des bases de code de la plateforme Apple et pour l'interoperabilite avec C, C++ et Swift.",
+    },
   },
 } satisfies Language;

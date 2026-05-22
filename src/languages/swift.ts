@@ -28,5 +28,19 @@ export const swift = {
       longDescription:
         "Swift es un lenguaje de programacion compilado disenado para seguridad, rendimiento, expresividad e interoperabilidad con los ecosistemas de plataformas Apple.\n\nSe usa para iOS, macOS, watchOS, tvOS, aplicaciones del lado del servidor, herramientas de linea de comandos, programacion de sistemas y software multiplataforma.",
     },
+    it: {
+      name: "Swift",
+      description:
+        "Un linguaggio di programmazione sicuro e veloce per applicazioni, sistemi e software server.",
+      longDescription:
+        "Swift e un linguaggio di programmazione compilato progettato per la sicurezza, le prestazioni, l'espressivita e l'interoperabilita con gli ecosistemi della piattaforma Apple.\n\nE utilizzato per iOS, macOS, watchOS, tvOS, applicazioni lato server, strumenti da riga di comando, programmazione di sistemi e software multipiattaforma.",
+    },
+    fr: {
+      name: "Swift",
+      description:
+        "Un langage de programmation sur et rapide pour les applications, les systemes et les logiciels serveur.",
+      longDescription:
+        "Swift est un langage de programmation compile concu pour la securite, les performances, l'expressivite et l'interoperabilite avec les ecosystemes de la plateforme Apple.\n\nIl est utilise pour iOS, macOS, watchOS, tvOS, les applications cote serveur, les outils en ligne de commande, la programmation systeme et les logiciels multiplateformes.",
+    },
   },
 } satisfies Language;

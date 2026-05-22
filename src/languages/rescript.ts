@@ -28,5 +28,18 @@ export const rescript = {
       longDescription:
         "ReScript es un lenguaje de tipado estatico para objetivos JavaScript con pattern matching, variants, modulos, records, anotaciones de interop y una sintaxis ajustada al desarrollo web. Su compilador y herramientas buscan JavaScript generado predecible.\n\nSe usa en aplicaciones front-end, codebases React, bibliotecas compartidas y proyectos JavaScript que buscan fuente compacta y segura con interop explicito.",
     },
+    it: {
+      name: "ReScript",
+      description:
+        "Un linguaggio e compilatore tipizzato incentrato sull'output JavaScript ergonomico.",
+      longDescription:
+        "ReScript e un linguaggio tipizzato staticamente per destinazioni JavaScript con pattern matching, varianti, moduli, record, annotazioni di interop e una sintassi ottimizzata per lo sviluppo web. Il suo compilatore e gli strumenti di build si concentrano sulla generazione JavaScript prevedibile.\n\nViene utilizzato in applicazioni front-end, codebase React, librerie condivise e progetti JavaScript che desiderano una fonte compatta e sicura dal punto di vista dei tipi con interop esplicita.",
+    },
+    fr: {
+      name: "ReScript",
+      description: "Un langage et un compilateur types axes sur la sortie JavaScript ergonomique.",
+      longDescription:
+        "ReScript est un langage type statiquement pour les cibles JavaScript, avec la correspondance de motifs, les variantes, les modules, les enregistrements, les annotations d'interoperabilite et une syntaxe adaptee au developpement web. Son compilateur et ses outils de construction se concentrent sur la generation JavaScript previsible.\n\nIl est utilise dans les applications front-end, les bases de code React, les bibliotheques partagees et les projets JavaScript qui souhaitent une source compacte et securisee en termes de types avec une interoperabilite explicite.",
+    },
   },
 } satisfies Language;

@@ -30,5 +30,19 @@ export const php = {
       longDescription:
         "PHP es un lenguaje de scripting de proposito general especialmente adecuado para desarrollo web del lado del servidor, con soporte integrado para manejar solicitudes, plantillas, bases de datos, extensiones, gestion de paquetes y despliegue en plataformas comunes de hosting.\n\nImpulsa sistemas de gestion de contenido, plataformas de ecommerce, APIs, frameworks, herramientas de linea de comandos y aplicaciones web de larga duracion dentro de un ecosistema amplio.",
     },
+    it: {
+      name: "PHP",
+      description:
+        "Un linguaggio di scripting lato server ampiamente utilizzato per applicazioni web e siti web dinamici.",
+      longDescription:
+        "PHP e un linguaggio di scripting di uso generale particolarmente adatto allo sviluppo web lato server, con supporto integrato per la gestione delle richieste, il template, i database, le estensioni, la gestione dei pacchetti e l'implementazione su piattaforme di hosting comuni.\n\nAlimenta sistemi di gestione dei contenuti, piattaforme di e-commerce, API, framework, strumenti a riga di comando e applicazioni web a lunga durata in un vasto ecosistema.",
+    },
+    fr: {
+      name: "PHP",
+      description:
+        "Un langage de script cote serveur largement utilise pour les applications web et les sites dynamiques.",
+      longDescription:
+        "PHP est un langage de script generaliste, particulierement adapte au developpement web cote serveur, avec un support integre pour la gestion des requetes, le modelisation, les bases de donnees, les extensions, la gestion des paquets et le deploiement sur des plateformes d'hebergement courantes.\n\nIl alimente les systemes de gestion de contenu, les plateformes de commerce electronique, les API, les frameworks, les outils en ligne de commande et les applications web a long terme dans un vaste ecosysteme.",
+    },
   },
 } satisfies Language;

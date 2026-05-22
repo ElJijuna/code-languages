@@ -28,5 +28,19 @@ export const v = {
       longDescription:
         "V es un lenguaje compilado con modulos, sum types, generics, sintaxis concurrente, interop con C y un toolchain que enfatiza compilacion rapida y despliegues pequenos. Su compilador apunta a C y salidas nativas.\n\nSe usa en herramientas de linea de comandos, aplicaciones nativas, experimentos, servicios web y proyectos que prefieren un toolchain ligero e integrado.",
     },
+    it: {
+      name: "V",
+      description:
+        "Un linguaggio compilato con tipizzazione statica per la creazione di applicazioni native semplici.",
+      longDescription:
+        "V e un linguaggio compilato con moduli, tipi di somma, generics, sintassi per la concorrenza, interoperabilita con C e un toolchain che enfatizza la compilazione rapida e i flussi di lavoro di distribuzione ridotti. Mira a C e output nativi attraverso il suo compilatore.\n\nE utilizzato per strumenti da riga di comando, applicazioni native, esperimenti, servizi web e progetti che preferiscono un toolchain leggero e integrato.",
+    },
+    fr: {
+      name: "V",
+      description:
+        "Un langage compile de type statique pour la creation d'applications natives simples.",
+      longDescription:
+        "V est un langage compile avec des modules, des types de somme, des generiques, une syntaxe de concurrence, une interoperabilite avec C et un outil qui met l'accent sur la compilation rapide et les workflows de deploiement reduits. Il cible C et des sorties natives grace a son compilateur.\n\nIl est utilise pour les outils en ligne de commande, les applications natives, les experimentations, les services web et les projets qui preferent une chaine d'outils legere et integree.",
+    },
   },
 } satisfies Language;

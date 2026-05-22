@@ -23,5 +23,18 @@ export const markdown = {
       longDescription:
         "Markdown usa sintaxis de texto plano para representar encabezados, listas, enlaces, enfasis, bloques de codigo, tablas y otras estructuras comunes de documentos.\n\nSe usa ampliamente en archivos README, documentacion, sitios estaticos, notas, gestores de incidencias y flujos de publicacion donde importa que el texto fuente sea legible.",
     },
+    it: {
+      name: "Markdown",
+      description:
+        "Un linguaggio di markup leggero per la scrittura di documenti di testo formattato.",
+      longDescription:
+        "Markdown utilizza la sintassi di testo semplice per rappresentare titoli, liste, link, enfasi, blocchi di codice, tabelle e altre strutture di documenti comuni.\n\nE ampiamente utilizzato per i file README, la documentazione, i siti statici, le note, i tracker di problemi e i flussi di lavoro di pubblicazione in cui il testo sorgente leggibile e importante.",
+    },
+    fr: {
+      name: "Markdown",
+      description: "Un langage de balisage leger pour la creation de documents texte formates.",
+      longDescription:
+        "Markdown utilise la syntaxe de texte brut pour representer les titres, les listes, les liens, l'emphase, les blocs de code, les tableaux et autres structures de documents courantes.\n\nIl est largement utilise pour les fichiers README, la documentation, les sites statiques, les notes, les systemes de suivi des problemes et les flux de travail de publication ou le texte source lisible est important.",
+    },
   },
 } satisfies Language;

@@ -29,5 +29,19 @@ export const jinja = {
       longDescription:
         "Jinja es un motor de plantillas para Python con herencia, bloques, includes, macros, filtros, tests, autoescapado, sandboxing y control de espacios. Su sintaxis permite vistas reutilizables sin llevar la logica de aplicacion a las plantillas.\n\nSe usa ampliamente en aplicaciones Flask, plantillas de Ansible, generadores de sitios estaticos, sistemas de documentacion, renderizado de email, generacion de configuracion y flujos de automatizacion.",
     },
+    it: {
+      name: "Jinja",
+      description:
+        "Un linguaggio di template Python utilizzato per le viste web, l'automazione e la configurazione.",
+      longDescription:
+        "Jinja e un motore di template per Python con ereditarieta, blocchi, inclusioni, macro, filtri, test, escaping automatico, sandbox e controllo dello spazio bianco. La sua sintassi e espressiva a sufficienza per viste riutilizzabili, mantenendo la logica dell'applicazione al di fuori dei template.\n\nE ampiamente utilizzato nelle applicazioni Flask, nei template Ansible, nei generatori di siti statici, nei sistemi di documentazione, nel rendering di email, nella generazione di configurazioni e nei flussi di lavoro di automazione.",
+    },
+    fr: {
+      name: "Jinja",
+      description:
+        "Un langage de modele Python utilise pour les vues web, l'automatisation et la configuration.",
+      longDescription:
+        "Jinja est un moteur de modele pour Python avec heritage, blocs, inclusions, macros, filtres, tests, auto-echappement, sandbox et controle d'espaces blancs. Sa syntaxe est suffisamment expressive pour les vues reutilisables tout en maintenant la logique d'application en dehors des modeles.\n\nIl est largement utilise dans les applications Flask, les modeles Ansible, les generateurs de sites statiques, les systemes de documentation, le rendu d'e-mails, la generation de configuration et les flux de travail d'automatisation.",
+    },
   },
 } satisfies Language;

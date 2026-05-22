@@ -29,5 +29,19 @@ export const groovy = {
       longDescription:
         "Groovy es un lenguaje para la JVM que se integra con Java y agrega tipado dinamico, sintaxis concisa, closures, builders, metaprogramacion y capacidades de scripting.\n\nSe usa para automatizacion, testing, scripts de build, plugins de Gradle, aplicaciones web y proyectos JVM que se benefician de sintaxis expresiva e interoperabilidad con Java.",
     },
+    it: {
+      name: "Groovy",
+      description:
+        "Un linguaggio dinamico per la JVM con sintassi simile a Java e funzionalita di scripting.",
+      longDescription:
+        "Groovy e un linguaggio JVM che si integra con Java, aggiungendo tipizzazione dinamica, sintassi concisa, closure, builder, metaprogrammazione e funzionalita di scripting.\n\nE utilizzato per l'automazione, i test, gli script di build, i plugin Gradle, le applicazioni web e i progetti JVM che beneficiano di una sintassi espressiva e dell'interoperabilita con Java.",
+    },
+    fr: {
+      name: "Groovy",
+      description:
+        "Un langage dynamique pour la JVM avec une syntaxe semblable a Java et des fonctionnalites de script.",
+      longDescription:
+        "Groovy est un langage JVM qui s'integre avec Java tout en ajoutant le typage dynamique, une syntaxe concise, les closures, les builders, la metaprogrammation et les capacites de script.\n\nIl est utilise pour l'automatisation, les tests, les scripts de construction, les plugins Gradle, les applications web et les projets JVM qui beneficient d'une syntaxe expressive et de l'interoperabilite Java.",
+    },
   },
 } satisfies Language;

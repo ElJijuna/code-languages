@@ -29,5 +29,18 @@ export const earthly = {
       longDescription:
         "Earthly es un lenguaje y herramienta de automatizacion de builds centrado en Earthfiles. Su sintaxis combina ideas de Dockerfiles y Makefiles para definir builds repetibles, targets, artefactos, imagenes y flujos adecuados para CI.\n\nLo usan equipos que quieren que los builds locales y de CI se comporten de forma consistente, especialmente en proyectos con muchos contenedores donde importan cache, reproducibilidad y pasos de build legibles.",
     },
+    it: {
+      name: "Earthly",
+      description: "Un linguaggio di build orientato ai container per pipeline CI/CD ripetibili.",
+      longDescription:
+        "Earthly e un linguaggio e uno strumento di automazione della build incentrato su Earthfiles. La sua sintassi combina idee da Dockerfiles e Makefiles per definire build, target, artefatti, immagini e workflow adatti a CI.\n\nE utilizzato da team che desiderano che build locali e CI si comportino in modo coerente, in particolare in progetti con elevato utilizzo di container, dove la memorizzazione nella cache, la riproducibilita e passaggi di build leggibili sono importanti.",
+    },
+    fr: {
+      name: "Earthly",
+      description:
+        "Un langage de construction oriente conteneurs pour des pipelines CI/CD reproductibles.",
+      longDescription:
+        "Earthly est un langage et un outil d'automatisation de la construction axe sur les Earthfiles. Sa syntaxe combine des idees provenant des Dockerfiles et des Makefiles pour definir des constructions reproductibles, des cibles, des artefacts, des images et des workflows adaptes a la CI.\n\nIl est utilise par des equipes qui souhaitent que les constructions locales et CI se comportent de maniere coherente, en particulier dans les projets riches en conteneurs ou le cache, la reproductibilite et des etapes de construction lisibles sont importants.",
+    },
   },
 } satisfies Language;
