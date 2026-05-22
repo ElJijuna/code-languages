@@ -50,28 +50,75 @@ const manualChecks = {
   "jupyter-notebook":
     "Jupyter Notebook schema versions should be reviewed manually against nbformat documentation and schema releases.",
   lisp: "Common Lisp is standardized as ANSI INCITS 226-1994 and should be reviewed manually against ANSI/INCITS publications.",
+  mako: "Mako metadata should be reviewed manually against Mako release notes and PyPI releases.",
+  mathematica:
+    "Wolfram Language versions are tied to Mathematica and Wolfram platform releases and should be reviewed manually.",
   metal:
     "Metal versions are tied to Apple platform SDKs and should be reviewed manually against Apple Developer Metal documentation.",
+  mojo: "Mojo releases should be reviewed manually against Modular release notes while the toolchain and versioning model evolve.",
+  moonbit:
+    "MoonBit releases should be reviewed manually against MoonBit release notes while its toolchain versioning evolves.",
   "objective-c":
     "Objective-C language versioning is effectively stable and should be reviewed manually against Apple documentation and runtime updates.",
+  odin: "Odin metadata tracks development snapshots and should be reviewed manually against Odin release notes.",
+  opencl:
+    "OpenCL C versions follow Khronos specifications and implementation support and should be reviewed manually.",
+  "pine-script":
+    "Pine Script versions are tied to TradingView documentation and should be reviewed manually.",
+  plsql:
+    "PL/SQL metadata is tied to Oracle Database releases and should be reviewed manually against Oracle documentation.",
+  pony: "Pony releases should be reviewed manually against Pony compiler release notes.",
   prolog:
     "Prolog has ISO standards and multiple implementations; metadata should be reviewed manually against ISO Prolog and SWI-Prolog releases.",
+  promql:
+    "PromQL metadata is tied to Prometheus query semantics and Prometheus releases and should be reviewed manually.",
+  purescript: "PureScript releases should be reviewed manually against compiler release notes.",
+  qsharp:
+    "Q# language metadata is tied to Microsoft Quantum tooling and should be reviewed manually against Microsoft documentation.",
   qml: "QML versions are tied to Qt platform releases and should be reviewed manually against Qt documentation.",
+  raku: "Raku language versions should be reviewed manually against Raku language and Rakudo release documentation.",
+  reasonml:
+    "ReasonML is a syntax layer over OCaml workflows and should be reviewed manually against Reason releases.",
+  rescript:
+    "ReScript releases should be reviewed manually against ReScript compiler release notes.",
+  restructuredtext:
+    "reStructuredText metadata follows Docutils and Sphinx ecosystem releases and should be reviewed manually.",
+  sas: "SAS language metadata is tied to SAS platform releases and should be reviewed manually.",
+  scheme:
+    "Scheme standards and implementation versions should be reviewed manually against R7RS and major implementations.",
+  smalltalk:
+    "Smalltalk metadata spans standards and image-based implementations and should be reviewed manually.",
+  smarty: "Smarty releases should be reviewed manually against Smarty project releases.",
   sql: "SQL standards should be reviewed manually against ISO/IEC 9075 publications.",
+  "standard-ml":
+    "Standard ML metadata follows the language definition and implementations and should be reviewed manually.",
   starlark:
     "Starlark is embedded by host tools and should be reviewed manually against Bazel and Starlark language documentation.",
+  stata:
+    "Stata language metadata is tied to Stata platform releases and should be reviewed manually.",
+  stylus: "Stylus metadata should be reviewed manually against Stylus package releases.",
   svg: "SVG specifications should be reviewed manually against w3.org/TR/SVG and W3C publication history.",
+  thrift:
+    "Thrift IDL metadata should be reviewed manually against Apache Thrift releases and compatibility notes.",
+  "tla-plus":
+    "TLA+ metadata follows its language specification and tooling releases and should be reviewed manually.",
+  v: "V metadata tracks compiler releases and should be reviewed manually against V release notes.",
+  vala: "Vala compiler metadata should be reviewed manually against Vala release announcements.",
   verilog:
     "Verilog/SystemVerilog standards should be reviewed manually against IEEE 1800 publications.",
   vhdl: "VHDL standards should be reviewed manually against IEEE 1076 publications.",
+  vyper: "Vyper releases should be reviewed manually against Vyper compiler release notes.",
   webassembly: "WebAssembly standards should be reviewed manually against webassembly.org/specs.",
   wgsl: "WGSL is maintained by W3C and should be reviewed manually against W3C GPU for the Web publications.",
+  wren: "Wren releases should be reviewed manually against Wren project releases.",
   xaml: "XAML support is platform-specific across WPF, UWP, WinUI, .NET MAUI, and related frameworks.",
   xml: "XML 1.0 Fifth Edition is stable and should be reviewed manually if W3C publishes a new edition.",
   xquery:
     "XQuery 3.1 is a W3C Recommendation and should be reviewed manually against W3C publication history.",
   xslt: "XSLT 3.0 is a W3C Recommendation and should be reviewed manually against W3C publication history.",
   yaml: "YAML specification updates should be reviewed manually against yaml.org/spec.",
+  zeek: "Zeek script language metadata is tied to Zeek platform releases and should be reviewed manually.",
+  ziggy: "Ziggy is still evolving and should be reviewed manually against Ziggy project releases.",
 };
 
 const checkers = {

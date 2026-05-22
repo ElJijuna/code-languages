@@ -84,60 +84,91 @@ import { llvmIr } from "./languages/llvm-ir";
 import { lua } from "./languages/lua";
 import { luau } from "./languages/luau";
 import { makefile } from "./languages/makefile";
+import { mako } from "./languages/mako";
 import { markdown } from "./languages/markdown";
+import { mathematica } from "./languages/mathematica";
 import { matlab } from "./languages/matlab";
 import { mdx } from "./languages/mdx";
 import { mermaid } from "./languages/mermaid";
 import { meson } from "./languages/meson";
 import { metal } from "./languages/metal";
+import { mojo } from "./languages/mojo";
+import { moonbit } from "./languages/moonbit";
 import { nginx } from "./languages/nginx";
 import { nim } from "./languages/nim";
 import { nix } from "./languages/nix";
 import { objectiveC } from "./languages/objective-c";
 import { ocaml } from "./languages/ocaml";
+import { odin } from "./languages/odin";
+import { opencl } from "./languages/opencl";
 import { pascal } from "./languages/pascal";
 import { perl } from "./languages/perl";
 import { php } from "./languages/php";
+import { pineScript } from "./languages/pine-script";
 import { plantuml } from "./languages/plantuml";
+import { plsql } from "./languages/plsql";
+import { pony } from "./languages/pony";
 import { powershell } from "./languages/powershell";
 import { prolog } from "./languages/prolog";
+import { promql } from "./languages/promql";
 import { protobuf } from "./languages/protobuf";
 import { pug } from "./languages/pug";
+import { purescript } from "./languages/purescript";
 import { python } from "./languages/python";
 import { qml } from "./languages/qml";
+import { qsharp } from "./languages/qsharp";
 import { r } from "./languages/r";
 import { racket } from "./languages/racket";
+import { raku } from "./languages/raku";
 import { razor } from "./languages/razor";
+import { reasonml } from "./languages/reasonml";
 import { rego } from "./languages/rego";
+import { rescript } from "./languages/rescript";
+import { restructuredtext } from "./languages/restructuredtext";
 import { ruby } from "./languages/ruby";
 import { rust } from "./languages/rust";
+import { sas } from "./languages/sas";
 import { scala } from "./languages/scala";
+import { scheme } from "./languages/scheme";
 import { scss } from "./languages/scss";
+import { smalltalk } from "./languages/smalltalk";
+import { smarty } from "./languages/smarty";
 import { solidity } from "./languages/solidity";
 import { sql } from "./languages/sql";
+import { standardMl } from "./languages/standard-ml";
 import { starlark } from "./languages/starlark";
+import { stata } from "./languages/stata";
+import { stylus } from "./languages/stylus";
 import { svelte } from "./languages/svelte";
 import { svg } from "./languages/svg";
 import { svn } from "./languages/svn";
 import { swift } from "./languages/swift";
 import { tcl } from "./languages/tcl";
 import { tex } from "./languages/tex";
+import { thrift } from "./languages/thrift";
+import { tlaPlus } from "./languages/tla-plus";
 import { toml } from "./languages/toml";
 import { twig } from "./languages/twig";
 import { typescript } from "./languages/typescript";
 import { typst } from "./languages/typst";
+import { v } from "./languages/v";
+import { vala } from "./languages/vala";
 import { verilog } from "./languages/verilog";
 import { vhdl } from "./languages/vhdl";
 import { visualBasic } from "./languages/visual-basic";
 import { vue } from "./languages/vue";
+import { vyper } from "./languages/vyper";
 import { webassembly } from "./languages/webassembly";
 import { wgsl } from "./languages/wgsl";
+import { wren } from "./languages/wren";
 import { xaml } from "./languages/xaml";
 import { xml } from "./languages/xml";
 import { xquery } from "./languages/xquery";
 import { xslt } from "./languages/xslt";
 import { yaml } from "./languages/yaml";
+import { zeek } from "./languages/zeek";
 import { zig } from "./languages/zig";
+import { ziggy } from "./languages/ziggy";
 import { zsh } from "./languages/zsh";
 
 /** Ordered catalog of every language included in the package. */
@@ -227,60 +258,91 @@ export const languages = [
   llvmIr,
   lua,
   luau,
+  mako,
   makefile,
+  mathematica,
   matlab,
   markdown,
   mdx,
   mermaid,
   meson,
   metal,
+  mojo,
+  moonbit,
   svn,
   nginx,
   nim,
   nix,
   ocaml,
   objectiveC,
+  odin,
+  opencl,
   pascal,
   perl,
   php,
+  pineScript,
   plantuml,
+  plsql,
+  pony,
   powershell,
   prolog,
+  promql,
   protobuf,
   pug,
+  purescript,
   python,
   qml,
+  qsharp,
   r,
+  raku,
   racket,
   razor,
+  reasonml,
   rego,
+  rescript,
+  restructuredtext,
   ruby,
   rust,
+  sas,
   scala,
   scss,
+  scheme,
+  smalltalk,
+  smarty,
   solidity,
   sql,
+  standardMl,
   starlark,
+  stata,
+  stylus,
   svg,
   svelte,
   swift,
   tcl,
   tex,
+  thrift,
+  tlaPlus,
   toml,
   twig,
   typescript,
   typst,
+  v,
+  vala,
   verilog,
   vhdl,
   visualBasic,
   vue,
+  vyper,
   webassembly,
   wgsl,
+  wren,
   xaml,
   xml,
   xquery,
   xslt,
   yaml,
+  zeek,
   zig,
+  ziggy,
   zsh,
 ] as const;

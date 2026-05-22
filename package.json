@@ -750,6 +750,161 @@
       "types": "./dist/languages/luau.d.ts",
       "import": "./dist/languages/luau.js",
       "require": "./dist/languages/luau.cjs"
+    },
+    "./mako": {
+      "types": "./dist/languages/mako.d.ts",
+      "import": "./dist/languages/mako.js",
+      "require": "./dist/languages/mako.cjs"
+    },
+    "./mathematica": {
+      "types": "./dist/languages/mathematica.d.ts",
+      "import": "./dist/languages/mathematica.js",
+      "require": "./dist/languages/mathematica.cjs"
+    },
+    "./mojo": {
+      "types": "./dist/languages/mojo.d.ts",
+      "import": "./dist/languages/mojo.js",
+      "require": "./dist/languages/mojo.cjs"
+    },
+    "./moonbit": {
+      "types": "./dist/languages/moonbit.d.ts",
+      "import": "./dist/languages/moonbit.js",
+      "require": "./dist/languages/moonbit.cjs"
+    },
+    "./odin": {
+      "types": "./dist/languages/odin.d.ts",
+      "import": "./dist/languages/odin.js",
+      "require": "./dist/languages/odin.cjs"
+    },
+    "./opencl": {
+      "types": "./dist/languages/opencl.d.ts",
+      "import": "./dist/languages/opencl.js",
+      "require": "./dist/languages/opencl.cjs"
+    },
+    "./pine-script": {
+      "types": "./dist/languages/pine-script.d.ts",
+      "import": "./dist/languages/pine-script.js",
+      "require": "./dist/languages/pine-script.cjs"
+    },
+    "./plsql": {
+      "types": "./dist/languages/plsql.d.ts",
+      "import": "./dist/languages/plsql.js",
+      "require": "./dist/languages/plsql.cjs"
+    },
+    "./pony": {
+      "types": "./dist/languages/pony.d.ts",
+      "import": "./dist/languages/pony.js",
+      "require": "./dist/languages/pony.cjs"
+    },
+    "./promql": {
+      "types": "./dist/languages/promql.d.ts",
+      "import": "./dist/languages/promql.js",
+      "require": "./dist/languages/promql.cjs"
+    },
+    "./purescript": {
+      "types": "./dist/languages/purescript.d.ts",
+      "import": "./dist/languages/purescript.js",
+      "require": "./dist/languages/purescript.cjs"
+    },
+    "./qsharp": {
+      "types": "./dist/languages/qsharp.d.ts",
+      "import": "./dist/languages/qsharp.js",
+      "require": "./dist/languages/qsharp.cjs"
+    },
+    "./raku": {
+      "types": "./dist/languages/raku.d.ts",
+      "import": "./dist/languages/raku.js",
+      "require": "./dist/languages/raku.cjs"
+    },
+    "./reasonml": {
+      "types": "./dist/languages/reasonml.d.ts",
+      "import": "./dist/languages/reasonml.js",
+      "require": "./dist/languages/reasonml.cjs"
+    },
+    "./rescript": {
+      "types": "./dist/languages/rescript.d.ts",
+      "import": "./dist/languages/rescript.js",
+      "require": "./dist/languages/rescript.cjs"
+    },
+    "./restructuredtext": {
+      "types": "./dist/languages/restructuredtext.d.ts",
+      "import": "./dist/languages/restructuredtext.js",
+      "require": "./dist/languages/restructuredtext.cjs"
+    },
+    "./sas": {
+      "types": "./dist/languages/sas.d.ts",
+      "import": "./dist/languages/sas.js",
+      "require": "./dist/languages/sas.cjs"
+    },
+    "./scheme": {
+      "types": "./dist/languages/scheme.d.ts",
+      "import": "./dist/languages/scheme.js",
+      "require": "./dist/languages/scheme.cjs"
+    },
+    "./smalltalk": {
+      "types": "./dist/languages/smalltalk.d.ts",
+      "import": "./dist/languages/smalltalk.js",
+      "require": "./dist/languages/smalltalk.cjs"
+    },
+    "./smarty": {
+      "types": "./dist/languages/smarty.d.ts",
+      "import": "./dist/languages/smarty.js",
+      "require": "./dist/languages/smarty.cjs"
+    },
+    "./standard-ml": {
+      "types": "./dist/languages/standard-ml.d.ts",
+      "import": "./dist/languages/standard-ml.js",
+      "require": "./dist/languages/standard-ml.cjs"
+    },
+    "./stata": {
+      "types": "./dist/languages/stata.d.ts",
+      "import": "./dist/languages/stata.js",
+      "require": "./dist/languages/stata.cjs"
+    },
+    "./stylus": {
+      "types": "./dist/languages/stylus.d.ts",
+      "import": "./dist/languages/stylus.js",
+      "require": "./dist/languages/stylus.cjs"
+    },
+    "./thrift": {
+      "types": "./dist/languages/thrift.d.ts",
+      "import": "./dist/languages/thrift.js",
+      "require": "./dist/languages/thrift.cjs"
+    },
+    "./tla-plus": {
+      "types": "./dist/languages/tla-plus.d.ts",
+      "import": "./dist/languages/tla-plus.js",
+      "require": "./dist/languages/tla-plus.cjs"
+    },
+    "./v": {
+      "types": "./dist/languages/v.d.ts",
+      "import": "./dist/languages/v.js",
+      "require": "./dist/languages/v.cjs"
+    },
+    "./vala": {
+      "types": "./dist/languages/vala.d.ts",
+      "import": "./dist/languages/vala.js",
+      "require": "./dist/languages/vala.cjs"
+    },
+    "./vyper": {
+      "types": "./dist/languages/vyper.d.ts",
+      "import": "./dist/languages/vyper.js",
+      "require": "./dist/languages/vyper.cjs"
+    },
+    "./wren": {
+      "types": "./dist/languages/wren.d.ts",
+      "import": "./dist/languages/wren.js",
+      "require": "./dist/languages/wren.cjs"
+    },
+    "./zeek": {
+      "types": "./dist/languages/zeek.d.ts",
+      "import": "./dist/languages/zeek.js",
+      "require": "./dist/languages/zeek.cjs"
+    },
+    "./ziggy": {
+      "types": "./dist/languages/ziggy.d.ts",
+      "import": "./dist/languages/ziggy.js",
+      "require": "./dist/languages/ziggy.cjs"
     }
   },
   "files": [

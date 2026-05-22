@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-20T16:50:58.607Z",
-  "total": 141,
-  "extensions": 378,
+  "generatedAt": "2026-05-22T03:26:23.744Z",
+  "total": 172,
+  "extensions": 436,
   "locales": ["en", "es"],
   "languages": [
     {
@@ -112,6 +112,27 @@
       },
       "version": "4.13.2",
       "logo": "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_antlr.svg"
+    },
+    {
+      "slug": "thrift",
+      "name": "Apache Thrift",
+      "description": "An IDL for cross-language services and serializable data types.",
+      "longDescription": "Thrift files define services, structs, fields, enums, exceptions, namespaces, and wire-level choices that generators turn into code for many languages. The project includes protocols and transports for RPC use.\n\nIt is used for service contracts, schema sharing, code generation, distributed systems, and cross-language APIs.",
+      "esName": "Apache Thrift",
+      "esDescription": "Un IDL para servicios entre lenguajes y tipos de datos serializables.",
+      "esLongDescription": "Los archivos Thrift definen servicios, structs, campos, enums, excepciones, namespaces y decisiones de wire que los generadores convierten en codigo para muchos lenguajes. El proyecto incluye protocolos y transports para RPC.\n\nSe usa en contratos de servicios, schemas compartidos, generacion de codigo, sistemas distribuidos y APIs entre lenguajes.",
+      "publishedDate": "2007-04-01",
+      "extensions": [".thrift"],
+      "author": "Facebook / Apache Software Foundation",
+      "website": "https://thrift.apache.org",
+      "paradigms": ["interface-definition", "schema", "declarative", "rpc"],
+      "tooling": {
+        "runtimes": ["Apache Thrift Runtime"],
+        "packageManagers": ["Maven", "npm", "PyPI", "Go modules"],
+        "ecosystems": ["RPC", "APIs", "Distributed Systems"]
+      },
+      "version": "0.22.0",
+      "logo": "https://cdn.simpleicons.org/apache/D22128"
     },
     {
       "slug": "apex",
@@ -1813,6 +1834,27 @@
       "logo": "https://upload.wikimedia.org/wikipedia/commons/7/71/Heckert_gnu.small.png"
     },
     {
+      "slug": "mako",
+      "name": "Mako",
+      "description": "A Python template language for generating text, HTML, and source artifacts.",
+      "longDescription": "Mako is a Python template language that mixes text with expressions, control blocks, inheritance, includes, and reusable definitions. Templates compile to Python code, which keeps it close to the host language.\n\nIt is used for web views, documentation, code generation, configuration rendering, and projects that need expressive Python-backed templates.",
+      "esName": "Mako",
+      "esDescription": "Un lenguaje de plantillas de Python para generar texto, HTML y artefactos fuente.",
+      "esLongDescription": "Mako es un lenguaje de plantillas de Python que mezcla texto con expresiones, bloques de control, herencia, includes y definiciones reutilizables. Las plantillas compilan a codigo Python y quedan cerca del lenguaje anfitrion.\n\nSe usa en vistas web, documentacion, generacion de codigo, renderizado de configuracion y proyectos que necesitan plantillas expresivas respaldadas por Python.",
+      "publishedDate": "2006-07-17",
+      "extensions": [".mako", ".mao"],
+      "author": "Michael Bayer / Mako contributors",
+      "website": "https://www.makotemplates.org",
+      "paradigms": ["templating", "declarative", "scripting"],
+      "tooling": {
+        "runtimes": ["Python"],
+        "packageManagers": ["pip", "uv", "Poetry"],
+        "ecosystems": ["Python", "Web", "Documentation"]
+      },
+      "version": "1.3.10",
+      "logo": "https://cdn.simpleicons.org/python/3776AB"
+    },
+    {
       "slug": "markdown",
       "name": "Markdown",
       "description": "A lightweight markup language for writing formatted plain-text documents.",
@@ -1934,6 +1976,48 @@
       "logo": "https://developer.apple.com/assets/elements/icons/metal/metal-256x256_2x.png"
     },
     {
+      "slug": "mojo",
+      "name": "Mojo",
+      "description": "A systems-oriented language for AI and accelerator-aware programming.",
+      "longDescription": "Mojo is a language from Modular that combines Python-friendly syntax with ownership, value semantics, low-level control, and compiler features aimed at performance-sensitive code. Its toolchain targets CPUs and accelerator workflows.\n\nIt is used in experiments around AI kernels, numeric code, systems programming, Python-adjacent libraries, and workloads that need explicit performance control.",
+      "esName": "Mojo",
+      "esDescription": "Un lenguaje orientado a sistemas para IA y programacion con aceleradores.",
+      "esLongDescription": "Mojo es un lenguaje de Modular que combina una sintaxis cercana a Python con ownership, semantica de valores, control de bajo nivel y funciones de compilador pensadas para codigo sensible al rendimiento. Su toolchain apunta a CPUs y flujos con aceleradores.\n\nSe usa en experimentos con kernels de IA, codigo numerico, programacion de sistemas, bibliotecas cercanas a Python y cargas que necesitan control explicito del rendimiento.",
+      "publishedDate": "2023-05-02",
+      "extensions": [".mojo"],
+      "author": "Modular",
+      "website": "https://www.modular.com/mojo",
+      "paradigms": ["imperative", "systems", "statically typed", "data-oriented"],
+      "tooling": {
+        "runtimes": ["Mojo toolchain", "MAX"],
+        "packageManagers": ["pixi", "pip"],
+        "ecosystems": ["AI", "Accelerators", "Python"]
+      },
+      "version": "0.26.1",
+      "logo": "https://avatars.githubusercontent.com/u/107116314?v=4"
+    },
+    {
+      "slug": "moonbit",
+      "name": "MoonBit",
+      "description": "A statically typed language and toolchain designed for WebAssembly output.",
+      "longDescription": "MoonBit is a language and toolchain built around fast feedback, algebraic data types, pattern matching, and multiple backends including WebAssembly. Its package and test tools are designed as part of the language workflow.\n\nIt is used for WebAssembly libraries, command-line experiments, web runtimes, teaching, and projects that want compact typed code with integrated tooling.",
+      "esName": "MoonBit",
+      "esDescription": "Un lenguaje tipado y toolchain disenado para generar WebAssembly.",
+      "esLongDescription": "MoonBit es un lenguaje y toolchain construido alrededor de feedback rapido, tipos algebraicos, pattern matching y varios backends, incluido WebAssembly. Sus herramientas de paquetes y pruebas forman parte del flujo del lenguaje.\n\nSe usa en bibliotecas WebAssembly, experimentos de linea de comandos, runtimes web, ensenanza y proyectos que buscan codigo tipado compacto con tooling integrado.",
+      "publishedDate": "2023-08-18",
+      "extensions": [".mbt"],
+      "author": "MoonBit Team",
+      "website": "https://www.moonbitlang.com",
+      "paradigms": ["functional", "statically typed", "multi-paradigm", "wasm"],
+      "tooling": {
+        "runtimes": ["MoonBit toolchain", "WebAssembly", "JavaScript"],
+        "packageManagers": ["moon"],
+        "ecosystems": ["WebAssembly", "Web", "Embedded"]
+      },
+      "version": "0.9.2",
+      "logo": "https://avatars.githubusercontent.com/u/124476259?v=4"
+    },
+    {
       "slug": "nginx",
       "name": "nginx",
       "description": "A directive-based configuration language for the nginx web server and reverse proxy.",
@@ -2038,6 +2122,67 @@
       "logo": "https://cdn.simpleicons.org/ocaml/EC6813"
     },
     {
+      "slug": "odin",
+      "name": "Odin",
+      "description": "A data-oriented systems language for native software and game tooling.",
+      "longDescription": "Odin is a procedural systems programming language with explicit memory control, packages, foreign interfaces, custom allocators, and language features oriented toward data layout. It favors straightforward native code over large runtime machinery.\n\nIt is used for engines, tools, graphics programs, native utilities, and performance-sensitive applications where predictable control over data matters.",
+      "esName": "Odin",
+      "esDescription": "Un lenguaje de sistemas orientado a datos para software nativo y juegos.",
+      "esLongDescription": "Odin es un lenguaje procedural de programacion de sistemas con control explicito de memoria, paquetes, interfaces externas, allocators personalizados y funciones orientadas al layout de datos. Favorece codigo nativo directo sobre runtimes grandes.\n\nSe usa en motores, herramientas, programas graficos, utilidades nativas y aplicaciones sensibles al rendimiento donde importa el control predecible de los datos.",
+      "publishedDate": "2016-11-05",
+      "extensions": [".odin"],
+      "author": "Ginger Bill",
+      "website": "https://odin-lang.org",
+      "paradigms": ["imperative", "procedural", "systems", "data-oriented"],
+      "tooling": {
+        "runtimes": ["Odin compiler"],
+        "packageManagers": ["odin"],
+        "ecosystems": ["Systems", "Game Development", "Native"]
+      },
+      "version": "dev-2026-02",
+      "logo": "https://avatars.githubusercontent.com/u/12533910?v=4"
+    },
+    {
+      "slug": "opencl",
+      "name": "OpenCL C",
+      "description": "The C-based kernel language for OpenCL heterogeneous compute programs.",
+      "longDescription": "OpenCL C is the kernel programming language used by OpenCL to describe parallel work over devices such as CPUs, GPUs, and accelerators. It extends a C-family model with address spaces, vector types, work-items, and synchronization primitives.\n\nIt is used for compute kernels, image processing, simulations, numeric workloads, and portable heterogeneous programs that target OpenCL runtimes.",
+      "esName": "OpenCL C",
+      "esDescription": "El lenguaje de kernels basado en C para programas de computo OpenCL.",
+      "esLongDescription": "OpenCL C es el lenguaje de kernels que usa OpenCL para describir trabajo paralelo sobre dispositivos como CPUs, GPUs y aceleradores. Extiende un modelo de la familia C con espacios de direcciones, tipos vectoriales, work-items y primitivas de sincronizacion.\n\nSe usa en kernels de computo, procesamiento de imagenes, simulaciones, cargas numericas y programas heterogeneos portables dirigidos a runtimes OpenCL.",
+      "publishedDate": "2008-12-08",
+      "extensions": [".cl", ".clh"],
+      "author": "Khronos Group",
+      "website": "https://www.khronos.org/opencl/",
+      "paradigms": ["parallel", "kernel", "data-parallel", "c-family"],
+      "tooling": {
+        "runtimes": ["OpenCL Runtime"],
+        "ecosystems": ["GPU Compute", "Heterogeneous Computing", "Khronos"]
+      },
+      "version": "OpenCL C 3.0",
+      "logo": "https://cdn.simpleicons.org/khronosgroup/CC3333"
+    },
+    {
+      "slug": "plsql",
+      "name": "Oracle PL/SQL",
+      "description": "Oracle's procedural extension to SQL for database programs and packages.",
+      "longDescription": "PL/SQL adds blocks, variables, exceptions, procedures, functions, packages, cursors, and triggers to Oracle SQL. It keeps database logic close to data and transactional behavior inside Oracle Database.\n\nIt is used for stored procedures, migration scripts, business rules, batch jobs, packages, and enterprise database applications built on Oracle.",
+      "esName": "Oracle PL/SQL",
+      "esDescription": "La extension procedural de SQL de Oracle para programas y paquetes de base de datos.",
+      "esLongDescription": "PL/SQL agrega bloques, variables, excepciones, procedimientos, funciones, paquetes, cursores y triggers a Oracle SQL. Mantiene logica de base de datos cerca de los datos y del comportamiento transaccional en Oracle Database.\n\nSe usa en stored procedures, scripts de migracion, reglas de negocio, trabajos batch, paquetes y aplicaciones empresariales construidas sobre Oracle.",
+      "publishedDate": "1992-01-01",
+      "extensions": [".pls", ".pks", ".pkb", ".plsql"],
+      "author": "Oracle",
+      "website": "https://www.oracle.com/database/technologies/appdev/plsql.html",
+      "paradigms": ["procedural", "database", "declarative", "imperative"],
+      "tooling": {
+        "runtimes": ["Oracle Database"],
+        "ecosystems": ["Oracle", "SQL", "Enterprise Data"]
+      },
+      "version": "Oracle Database 26ai",
+      "logo": "https://github.com/oracle.png"
+    },
+    {
       "slug": "pascal",
       "name": "Pascal",
       "description": "A structured programming language and Object Pascal family used for native applications.",
@@ -2101,6 +2246,26 @@
       "logo": "https://www.php.net/images/logos/new-php-logo.svg"
     },
     {
+      "slug": "pine-script",
+      "name": "Pine Script",
+      "description": "TradingView's language for indicators, strategies, and chart studies.",
+      "longDescription": "Pine Script is a domain-specific language for expressing calculations over chart bars, series values, indicators, alerts, and trading strategies in TradingView. Its execution model is centered on time-series data.\n\nIt is used for custom technical indicators, backtested strategies, chart overlays, alerts, and market analysis shared through TradingView.",
+      "esName": "Pine Script",
+      "esDescription": "El lenguaje de TradingView para indicadores, estrategias y estudios de graficos.",
+      "esLongDescription": "Pine Script es un lenguaje de dominio especifico para expresar calculos sobre barras, series, indicadores, alertas y estrategias de trading en TradingView. Su modelo de ejecucion gira alrededor de datos temporales.\n\nSe usa en indicadores tecnicos personalizados, estrategias con backtesting, overlays de graficos, alertas y analisis de mercado compartido en TradingView.",
+      "publishedDate": "2013-12-01",
+      "extensions": [".pine"],
+      "author": "TradingView",
+      "website": "https://www.tradingview.com/pine-script-docs/",
+      "paradigms": ["domain-specific", "time-series", "declarative", "scripting"],
+      "tooling": {
+        "runtimes": ["TradingView"],
+        "ecosystems": ["Charts", "Trading", "Technical Analysis"]
+      },
+      "version": "v6",
+      "logo": "https://cdn.simpleicons.org/tradingview/131722"
+    },
+    {
       "slug": "plantuml",
       "name": "PlantUML",
       "description": "A text-based diagram language for UML, architecture, and documentation diagrams.",
@@ -2120,6 +2285,27 @@
       },
       "version": "1.2026.3",
       "logo": "https://plantuml.com/logo3.png"
+    },
+    {
+      "slug": "pony",
+      "name": "Pony",
+      "description": "An actor language with reference capabilities and data-race safety.",
+      "longDescription": "Pony combines actors, object capabilities, static typing, and reference capabilities to make concurrent native programs explicit about aliasing and mutation. The language runtime schedules isolated actors that communicate by messages.\n\nIt is used for concurrent services, native experiments, actor systems, and programs that want compile-time guarantees around data races.",
+      "esName": "Pony",
+      "esDescription": "Un lenguaje de actores con capacidades de referencia y seguridad ante data races.",
+      "esLongDescription": "Pony combina actores, object capabilities, tipado estatico y capacidades de referencia para que programas nativos concurrentes sean explicitos sobre aliasing y mutacion. El runtime agenda actores aislados que se comunican por mensajes.\n\nSe usa en servicios concurrentes, experimentos nativos, sistemas de actores y programas que buscan garantias de compilacion frente a data races.",
+      "publishedDate": "2015-04-29",
+      "extensions": [".pony"],
+      "author": "Sylvan Clebsch / Pony contributors",
+      "website": "https://www.ponylang.io",
+      "paradigms": ["actor-model", "object-oriented", "capability-secure", "concurrent"],
+      "tooling": {
+        "runtimes": ["Pony runtime"],
+        "packageManagers": ["ponyup", "corral"],
+        "ecosystems": ["Actors", "Native", "Distributed Systems"]
+      },
+      "version": "0.61.1",
+      "logo": "https://avatars.githubusercontent.com/u/14593805?v=4"
     },
     {
       "slug": "powershell",
@@ -2164,6 +2350,26 @@
       "logo": "https://www.swi-prolog.org/icons/swipl.png"
     },
     {
+      "slug": "promql",
+      "name": "PromQL",
+      "description": "The Prometheus query language for selecting and aggregating metrics.",
+      "longDescription": "PromQL is the expression language used by Prometheus to select instant vectors, range vectors, scalars, and strings from time-series data. It includes label matching, arithmetic, aggregation, and functions for metric analysis.\n\nIt is used in dashboards, alerts, recording rules, troubleshooting, capacity analysis, and observability systems compatible with Prometheus queries.",
+      "esName": "PromQL",
+      "esDescription": "El lenguaje de consulta de Prometheus para seleccionar y agregar metricas.",
+      "esLongDescription": "PromQL es el lenguaje de expresiones que usa Prometheus para seleccionar vectores instantaneos, rangos, escalares y cadenas desde datos de series temporales. Incluye matching de labels, aritmetica, agregaciones y funciones para analizar metricas.\n\nSe usa en dashboards, alertas, recording rules, troubleshooting, analisis de capacidad y sistemas de observabilidad compatibles con consultas Prometheus.",
+      "publishedDate": "2012-11-24",
+      "extensions": [".promql"],
+      "author": "Prometheus Authors",
+      "website": "https://prometheus.io/docs/prometheus/latest/querying/basics/",
+      "paradigms": ["query", "time-series", "declarative", "domain-specific"],
+      "tooling": {
+        "runtimes": ["Prometheus", "Thanos", "Mimir"],
+        "ecosystems": ["Observability", "Metrics", "Monitoring"]
+      },
+      "version": "Prometheus 3.x",
+      "logo": "https://cdn.simpleicons.org/prometheus/E6522C"
+    },
+    {
       "slug": "protobuf",
       "name": "Protocol Buffers",
       "description": "Google's language-neutral schema format for structured data serialization and service APIs.",
@@ -2206,6 +2412,27 @@
       "logo": "https://cdn.simpleicons.org/pug/A86454"
     },
     {
+      "slug": "purescript",
+      "name": "PureScript",
+      "description": "A strongly typed purely functional language that compiles to JavaScript.",
+      "longDescription": "PureScript brings algebraic data types, type classes, effects, modules, row polymorphism, and a Haskell-influenced functional model to JavaScript targets. Its compiler emits readable JavaScript and works with foreign JavaScript modules.\n\nIt is used for front-end applications, libraries, typed domain models, functional architecture, and JavaScript projects that want explicit effect handling.",
+      "esName": "PureScript",
+      "esDescription": "Un lenguaje funcional puro y fuertemente tipado que compila a JavaScript.",
+      "esLongDescription": "PureScript lleva tipos algebraicos, type classes, efectos, modulos, row polymorphism y un modelo funcional influido por Haskell a objetivos JavaScript. Su compilador emite JavaScript legible e interoperable con modulos externos.\n\nSe usa en aplicaciones front-end, bibliotecas, modelos de dominio tipados, arquitectura funcional y proyectos JavaScript que buscan manejo explicito de efectos.",
+      "publishedDate": "2013-09-01",
+      "extensions": [".purs"],
+      "author": "Phil Freeman / PureScript contributors",
+      "website": "https://www.purescript.org",
+      "paradigms": ["functional", "pure", "statically typed", "declarative"],
+      "tooling": {
+        "runtimes": ["JavaScript", "Node.js"],
+        "packageManagers": ["Spago", "npm"],
+        "ecosystems": ["Web", "Functional Programming", "JavaScript"]
+      },
+      "version": "0.15.15",
+      "logo": "https://cdn.simpleicons.org/purescript/14161A"
+    },
+    {
       "slug": "python",
       "name": "Python",
       "description": "A high-level, readable language used for applications, automation, data, and AI.",
@@ -2225,6 +2452,27 @@
       },
       "version": "3.14.5",
       "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Python-logo-notext.svg"
+    },
+    {
+      "slug": "qsharp",
+      "name": "Q#",
+      "description": "Microsoft's language for expressing quantum programs and operations.",
+      "longDescription": "Q# is a quantum programming language for declaring operations, functions, qubit use, measurement, adjoints, controlled operations, and classical control around quantum routines. It is designed to model quantum algorithms separately from hardware details.\n\nIt is used for quantum algorithm development, simulation, teaching, Azure Quantum workflows, and hybrid experiments that combine classical and quantum code.",
+      "esName": "Q#",
+      "esDescription": "El lenguaje de Microsoft para expresar programas y operaciones cuanticas.",
+      "esLongDescription": "Q# es un lenguaje de programacion cuantica para declarar operaciones, funciones, uso de qubits, mediciones, adjoints, operaciones controladas y control clasico alrededor de rutinas cuanticas. Modela algoritmos cuanticos separados de detalles de hardware.\n\nSe usa en desarrollo de algoritmos cuanticos, simulacion, ensenanza, flujos de Azure Quantum y experimentos hibridos que combinan codigo clasico y cuantico.",
+      "publishedDate": "2017-12-11",
+      "extensions": [".qs"],
+      "author": "Microsoft",
+      "website": "https://learn.microsoft.com/azure/quantum/qsharp-overview",
+      "paradigms": ["quantum", "domain-specific", "functional", "imperative"],
+      "tooling": {
+        "runtimes": ["Azure Quantum", "Q# compiler"],
+        "packageManagers": ["NuGet", "Python"],
+        "ecosystems": ["Quantum Computing", "Azure"]
+      },
+      "version": "Q# 1.0",
+      "logo": "https://github.com/microsoft.png"
     },
     {
       "slug": "qml",
@@ -2290,6 +2538,27 @@
       "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Racket-logo.svg"
     },
     {
+      "slug": "raku",
+      "name": "Raku",
+      "description": "A multi-paradigm language with grammars, concurrency, and rich dispatch.",
+      "longDescription": "Raku is a sibling of Perl with gradual typing, signatures, multiple dispatch, grammars, junctions, concurrency primitives, and expressive operators. It is designed for both small scripts and larger language-oriented programs.\n\nIt is used for text processing, command-line tools, parsers, automation, experimentation, and applications that benefit from built-in grammar support.",
+      "esName": "Raku",
+      "esDescription": "Un lenguaje multiparadigma con grammars, concurrencia y dispatch expresivo.",
+      "esLongDescription": "Raku es un lenguaje hermano de Perl con tipado gradual, firmas, multiple dispatch, grammars, junctions, primitivas concurrentes y operadores expresivos. Sirve tanto para scripts pequenos como para programas orientados a lenguajes.\n\nSe usa en procesamiento de texto, herramientas de linea de comandos, parsers, automatizacion, experimentacion y aplicaciones que aprovechan soporte integrado para grammars.",
+      "publishedDate": "2015-12-25",
+      "extensions": [".raku", ".rakumod", ".rakudoc", ".rakutest", ".p6", ".pm6"],
+      "author": "Raku Community",
+      "website": "https://raku.org",
+      "paradigms": ["multi-paradigm", "object-oriented", "functional", "concurrent"],
+      "tooling": {
+        "runtimes": ["Rakudo", "MoarVM"],
+        "packageManagers": ["zef"],
+        "ecosystems": ["Raku", "CLI", "Text Processing"]
+      },
+      "version": "6.d",
+      "logo": "https://github.com/Raku.png"
+    },
+    {
       "slug": "razor",
       "name": "Razor",
       "description": "Microsoft's markup syntax for ASP.NET Core views, Razor Pages, and Blazor components.",
@@ -2311,6 +2580,27 @@
       "logo": "https://cdn.simpleicons.org/dotnet/512BD4"
     },
     {
+      "slug": "reasonml",
+      "name": "ReasonML",
+      "description": "A JavaScript-like syntax for OCaml and typed functional programming.",
+      "longDescription": "ReasonML is a syntax layer for OCaml that presents familiar braces and punctuation while retaining OCaml's modules, pattern matching, type inference, and functional foundations. It has been used with native OCaml and JavaScript compilation workflows.\n\nIt is used in OCaml-adjacent projects, typed UI code, libraries, and codebases that prefer Reason syntax over traditional OCaml syntax.",
+      "esName": "ReasonML",
+      "esDescription": "Una sintaxis cercana a JavaScript para OCaml y programacion funcional tipada.",
+      "esLongDescription": "ReasonML es una capa de sintaxis para OCaml que presenta llaves y puntuacion familiares conservando modulos, pattern matching, inferencia de tipos y bases funcionales de OCaml. Se ha usado con flujos nativos y de compilacion a JavaScript.\n\nSe usa en proyectos cercanos a OCaml, UI tipada, bibliotecas y codebases que prefieren la sintaxis Reason frente a la sintaxis tradicional de OCaml.",
+      "publishedDate": "2016-05-13",
+      "extensions": [".re", ".rei"],
+      "author": "Jordan Walke / Reason contributors",
+      "website": "https://reasonml.github.io",
+      "paradigms": ["functional", "statically typed", "multi-paradigm"],
+      "tooling": {
+        "runtimes": ["OCaml", "JavaScript"],
+        "packageManagers": ["opam", "npm"],
+        "ecosystems": ["OCaml", "JavaScript", "Web"]
+      },
+      "version": "3.13.0",
+      "logo": "https://cdn.simpleicons.org/reason/DD4B39"
+    },
+    {
       "slug": "rego",
       "name": "Rego",
       "description": "Open Policy Agent's declarative policy language for authorization and policy as code.",
@@ -2330,6 +2620,48 @@
       },
       "version": "OPA 1.16.2",
       "logo": "https://raw.githubusercontent.com/open-policy-agent/opa/main/logo/logo.svg"
+    },
+    {
+      "slug": "rescript",
+      "name": "ReScript",
+      "description": "A typed language and compiler focused on ergonomic JavaScript output.",
+      "longDescription": "ReScript is a statically typed language for JavaScript targets with pattern matching, variants, modules, records, interop annotations, and a syntax tuned for web development. Its compiler and build tools focus on predictable generated JavaScript.\n\nIt is used in front-end applications, React codebases, shared libraries, and JavaScript projects that want compact type-safe source with explicit interop.",
+      "esName": "ReScript",
+      "esDescription": "Un lenguaje tipado y compilador enfocado en generar JavaScript ergonomico.",
+      "esLongDescription": "ReScript es un lenguaje de tipado estatico para objetivos JavaScript con pattern matching, variants, modulos, records, anotaciones de interop y una sintaxis ajustada al desarrollo web. Su compilador y herramientas buscan JavaScript generado predecible.\n\nSe usa en aplicaciones front-end, codebases React, bibliotecas compartidas y proyectos JavaScript que buscan fuente compacta y segura con interop explicito.",
+      "publishedDate": "2020-07-01",
+      "extensions": [".res", ".resi"],
+      "author": "ReScript Association",
+      "website": "https://rescript-lang.org",
+      "paradigms": ["functional", "statically typed", "multi-paradigm", "javascript-targeted"],
+      "tooling": {
+        "runtimes": ["JavaScript", "Node.js", "Browser"],
+        "packageManagers": ["npm", "pnpm", "Yarn"],
+        "ecosystems": ["Web", "React", "JavaScript"]
+      },
+      "version": "12.0.0",
+      "logo": "https://cdn.simpleicons.org/rescript/E6484A"
+    },
+    {
+      "slug": "restructuredtext",
+      "name": "reStructuredText",
+      "description": "A plain-text markup format used by Docutils and Sphinx documentation.",
+      "longDescription": "reStructuredText is a structured plain-text markup language with sections, directives, roles, references, tables, lists, and extension points. Docutils defines the parser model and Sphinx extends it for technical documentation.\n\nIt is used for Python documentation, manuals, API references, books, project notes, and publishing workflows that need semantic markup from readable text.",
+      "esName": "reStructuredText",
+      "esDescription": "Un formato de marcado en texto plano usado por Docutils y Sphinx.",
+      "esLongDescription": "reStructuredText es un lenguaje de marcado estructurado en texto plano con secciones, directives, roles, referencias, tablas, listas y puntos de extension. Docutils define su modelo de parser y Sphinx lo extiende para documentacion tecnica.\n\nSe usa en documentacion Python, manuales, referencias API, libros, notas de proyectos y flujos de publicacion que necesitan marcado semantico desde texto legible.",
+      "publishedDate": "2001-06-01",
+      "extensions": [".rst", ".rest"],
+      "author": "David Goodger / Docutils contributors",
+      "website": "https://docutils.sourceforge.io/rst.html",
+      "paradigms": ["markup", "declarative", "documentation"],
+      "tooling": {
+        "runtimes": ["Docutils", "Sphinx"],
+        "packageManagers": ["pip"],
+        "ecosystems": ["Python", "Documentation", "Publishing"]
+      },
+      "version": "Docutils 0.22.2",
+      "logo": "https://cdn.simpleicons.org/readthedocs/8CA1AF"
     },
     {
       "slug": "ruby",
@@ -2374,6 +2706,26 @@
       "logo": "https://www.rust-lang.org/logos/rust-logo-512x512.png"
     },
     {
+      "slug": "sas",
+      "name": "SAS",
+      "description": "A language and system for statistical analysis and data processing.",
+      "longDescription": "SAS programs combine DATA steps, procedures, macros, formats, libraries, and analytics-oriented statements to transform and analyze data. The language is tightly linked to the SAS platform and its statistical tooling.\n\nIt is used in analytics, regulated reporting, clinical workflows, data preparation, forecasting, and enterprise statistical systems.",
+      "esName": "SAS",
+      "esDescription": "Un lenguaje y sistema para analisis estadistico y procesamiento de datos.",
+      "esLongDescription": "Los programas SAS combinan DATA steps, procedimientos, macros, formatos, libraries y sentencias orientadas a analitica para transformar y analizar datos. El lenguaje esta ligado a la plataforma SAS y su tooling estadistico.\n\nSe usa en analitica, reportes regulados, flujos clinicos, preparacion de datos, pronosticos y sistemas estadisticos empresariales.",
+      "publishedDate": "1976-01-01",
+      "extensions": [".sas"],
+      "author": "SAS Institute",
+      "website": "https://www.sas.com",
+      "paradigms": ["data-step", "procedural", "statistical", "domain-specific"],
+      "tooling": {
+        "runtimes": ["SAS 9", "SAS Viya"],
+        "ecosystems": ["Analytics", "Statistics", "Enterprise Data"]
+      },
+      "version": "SAS 9.4",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/1/10/SAS_logo_horiz.svg"
+    },
+    {
       "slug": "scss",
       "name": "Sass",
       "description": "A stylesheet language and CSS preprocessor with variables, nesting, mixins, modules, and functions.",
@@ -2416,6 +2768,67 @@
       "logo": "https://cdn.simpleicons.org/scala/DC322F"
     },
     {
+      "slug": "scheme",
+      "name": "Scheme",
+      "description": "A small Lisp family language centered on lexical scope and procedures.",
+      "longDescription": "Scheme is a Lisp dialect known for a compact core, lexical scoping, first-class procedures, macros, continuations, and a tradition of language experimentation. Standards define a portable base while implementations add libraries and tooling.\n\nIt is used in teaching, compilers, scripting, research, embedded extension systems, and programs that value a small expressive language core.",
+      "esName": "Scheme",
+      "esDescription": "Un lenguaje de la familia Lisp centrado en alcance lexico y procedimientos.",
+      "esLongDescription": "Scheme es un dialecto Lisp conocido por un nucleo compacto, alcance lexico, procedimientos de primera clase, macros, continuations y una tradicion de experimentacion con lenguajes. Los estandares definen una base portable mientras las implementaciones agregan bibliotecas.\n\nSe usa en ensenanza, compiladores, scripting, investigacion, sistemas de extension embebidos y programas que valoran un nucleo expresivo pequeno.",
+      "publishedDate": "1975-12-01",
+      "extensions": [".scm", ".ss", ".sld", ".sls"],
+      "author": "Guy L. Steele Jr. / Gerald Jay Sussman",
+      "website": "https://www.scheme.org",
+      "paradigms": ["functional", "lisp", "minimal", "multi-paradigm"],
+      "tooling": {
+        "runtimes": ["Chez Scheme", "Guile", "Racket", "Chicken"],
+        "ecosystems": ["Lisp", "Education", "Language Research"]
+      },
+      "version": "R7RS small",
+      "logo": "https://cdn.simpleicons.org/racket/9F1D20"
+    },
+    {
+      "slug": "smalltalk",
+      "name": "Smalltalk",
+      "description": "A message-oriented object language with live image-based environments.",
+      "longDescription": "Smalltalk helped define object-oriented programming through message sends, classes, blocks, reflection, and interactive image environments. Many implementations pair the language with live browsers, inspectors, and debuggers.\n\nIt is used for education, research, long-lived business systems, simulations, and exploratory programming inside live object images.",
+      "esName": "Smalltalk",
+      "esDescription": "Un lenguaje orientado a mensajes y objetos con entornos de imagen vivos.",
+      "esLongDescription": "Smalltalk ayudo a definir la programacion orientada a objetos mediante mensajes, clases, bloques, reflexion y entornos interactivos basados en imagenes. Muchas implementaciones combinan el lenguaje con browsers, inspectors y debuggers vivos.\n\nSe usa en educacion, investigacion, sistemas de negocio longevos, simulaciones y programacion exploratoria dentro de imagenes de objetos.",
+      "publishedDate": "1972-01-01",
+      "extensions": [".st"],
+      "author": "Alan Kay / Dan Ingalls / Adele Goldberg",
+      "website": "https://squeak.org",
+      "paradigms": ["object-oriented", "message-passing", "reflective", "dynamic"],
+      "tooling": {
+        "runtimes": ["Pharo", "Squeak", "GNU Smalltalk"],
+        "ecosystems": ["Images", "Education", "Object Systems"]
+      },
+      "version": "ANSI INCITS 319-1998",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Smalltalk_Balloon.svg"
+    },
+    {
+      "slug": "smarty",
+      "name": "Smarty",
+      "description": "A PHP template language for presentation logic and reusable views.",
+      "longDescription": "Smarty is a PHP templating system with tags, modifiers, functions, plugins, inheritance, and caching features for separating presentation templates from application code. Templates are compiled for execution by PHP.\n\nIt is used in PHP applications, themes, CMS views, emails, and server-rendered web projects that maintain separate template files.",
+      "esName": "Smarty",
+      "esDescription": "Un lenguaje de plantillas PHP para logica de presentacion y vistas reutilizables.",
+      "esLongDescription": "Smarty es un sistema de plantillas PHP con tags, modifiers, funciones, plugins, herencia y cache para separar plantillas de presentacion del codigo de aplicacion. Las plantillas se compilan para ejecutarse con PHP.\n\nSe usa en aplicaciones PHP, temas, vistas de CMS, emails y proyectos web renderizados en servidor que mantienen archivos de plantillas separados.",
+      "publishedDate": "2001-01-01",
+      "extensions": [".tpl", ".smarty"],
+      "author": "Monte Ohrt / Andrei Zmievski / Smarty contributors",
+      "website": "https://www.smarty.net",
+      "paradigms": ["templating", "declarative", "markup"],
+      "tooling": {
+        "runtimes": ["PHP"],
+        "packageManagers": ["Composer"],
+        "ecosystems": ["PHP", "Web"]
+      },
+      "version": "5.5.1",
+      "logo": "https://www.smarty.net/images/logo_print.gif"
+    },
+    {
       "slug": "solidity",
       "name": "Solidity",
       "description": "A statically typed smart contract language for Ethereum and EVM-compatible blockchains.",
@@ -2454,6 +2867,26 @@
       "logo": "https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png"
     },
     {
+      "slug": "standard-ml",
+      "name": "Standard ML",
+      "description": "A statically typed ML language with modules and pattern matching.",
+      "longDescription": "Standard ML defines a strict functional language with algebraic datatypes, pattern matching, type inference, exceptions, and a strong module system with signatures and functors. Its formal definition shaped much ML-family work.\n\nIt is used in compilers, theorem tools, teaching, research, and projects that need a small typed functional core with robust modules.",
+      "esName": "Standard ML",
+      "esDescription": "Un lenguaje ML tipado con modulos y pattern matching.",
+      "esLongDescription": "Standard ML define un lenguaje funcional estricto con datatypes algebraicos, pattern matching, inferencia de tipos, excepciones y un sistema fuerte de modulos con signatures y functors. Su definicion formal influyo mucho en la familia ML.\n\nSe usa en compiladores, herramientas de teoremas, ensenanza, investigacion y proyectos que necesitan un nucleo funcional tipado con modulos robustos.",
+      "publishedDate": "1990-01-01",
+      "extensions": [".sml", ".sig", ".fun"],
+      "author": "Robin Milner and collaborators",
+      "website": "https://smlfamily.github.io",
+      "paradigms": ["functional", "statically typed", "module-oriented"],
+      "tooling": {
+        "runtimes": ["MLton", "Standard ML of New Jersey", "Poly/ML"],
+        "ecosystems": ["ML", "Compilers", "Research"]
+      },
+      "version": "The Definition 1997",
+      "logo": "https://avatars.githubusercontent.com/u/62883579?v=4"
+    },
+    {
       "slug": "starlark",
       "name": "Starlark",
       "description": "A deterministic Python-like scripting language for build and configuration tools.",
@@ -2473,6 +2906,47 @@
       },
       "version": "Bazel Starlark",
       "logo": "https://cdn.simpleicons.org/bazel/43A047"
+    },
+    {
+      "slug": "stata",
+      "name": "Stata",
+      "description": "A command language for statistical analysis, data management, and graphics.",
+      "longDescription": "Stata commands and do-files cover data preparation, estimation, graphics, reporting, and programmable workflows, with Mata available for matrix-oriented programming. The language is tied to the Stata statistical environment.\n\nIt is used in economics, public health, social science, policy analysis, teaching, and reproducible statistical research.",
+      "esName": "Stata",
+      "esDescription": "Un lenguaje de comandos para analisis estadistico, datos y graficos.",
+      "esLongDescription": "Los comandos y do-files de Stata cubren preparacion de datos, estimacion, graficos, reportes y flujos programables, con Mata para programacion orientada a matrices. El lenguaje esta ligado al entorno estadistico Stata.\n\nSe usa en economia, salud publica, ciencias sociales, analisis de politicas, ensenanza e investigacion estadistica reproducible.",
+      "publishedDate": "1985-01-01",
+      "extensions": [".do", ".ado", ".mata"],
+      "author": "StataCorp",
+      "website": "https://www.stata.com",
+      "paradigms": ["statistical", "scripting", "data-analysis", "domain-specific"],
+      "tooling": {
+        "runtimes": ["Stata"],
+        "ecosystems": ["Statistics", "Econometrics", "Research"]
+      },
+      "version": "19",
+      "logo": "https://www.stata.com/includes/images/stata-logo-blue.svg"
+    },
+    {
+      "slug": "stylus",
+      "name": "Stylus",
+      "description": "A flexible CSS preprocessor with optional punctuation and indentation syntax.",
+      "longDescription": "Stylus extends stylesheet authoring with variables, mixins, functions, imports, nesting, and a syntax that can omit braces, colons, and semicolons. It compiles authoring files into CSS.\n\nIt is used in web styling pipelines, design systems, legacy front-end builds, and projects that prefer concise stylesheet syntax.",
+      "esName": "Stylus",
+      "esDescription": "Un preprocesador CSS flexible con puntuacion opcional y sintaxis por indentacion.",
+      "esLongDescription": "Stylus extiende la autoria de estilos con variables, mixins, funciones, imports, nesting y una sintaxis que puede omitir llaves, dos puntos y punto y coma. Compila archivos de autoria hacia CSS.\n\nSe usa en pipelines de estilos web, sistemas de diseno, builds front-end heredados y proyectos que prefieren sintaxis de hojas de estilo concisa.",
+      "publishedDate": "2010-12-01",
+      "extensions": [".styl"],
+      "author": "TJ Holowaychuk / Stylus contributors",
+      "website": "https://stylus-lang.com",
+      "paradigms": ["stylesheet", "declarative", "preprocessor"],
+      "tooling": {
+        "runtimes": ["Node.js"],
+        "packageManagers": ["npm", "pnpm", "Yarn"],
+        "ecosystems": ["CSS", "Web"]
+      },
+      "version": "0.64.0",
+      "logo": "https://cdn.simpleicons.org/stylus/333333"
     },
     {
       "slug": "svelte",
@@ -2599,6 +3073,26 @@
       "logo": "https://cdn.simpleicons.org/latex/008080"
     },
     {
+      "slug": "tla-plus",
+      "name": "TLA+",
+      "description": "A formal specification language for state machines and temporal properties.",
+      "longDescription": "TLA+ describes systems as mathematical state transitions with actions, invariants, temporal formulas, modules, and refinement-oriented specifications. Tooling such as TLC explores behaviors to check models.\n\nIt is used to reason about distributed algorithms, protocols, concurrency, safety properties, design reviews, and systems where a precise specification catches failures early.",
+      "esName": "TLA+",
+      "esDescription": "Un lenguaje de especificacion formal para estados y propiedades temporales.",
+      "esLongDescription": "TLA+ describe sistemas como transiciones matematicas de estado con acciones, invariantes, formulas temporales, modulos y especificaciones orientadas a refinamiento. Herramientas como TLC exploran comportamientos para revisar modelos.\n\nSe usa para razonar sobre algoritmos distribuidos, protocolos, concurrencia, propiedades de seguridad, revisiones de diseno y sistemas donde una especificacion precisa detecta fallos temprano.",
+      "publishedDate": "1999-01-01",
+      "extensions": [".tla"],
+      "author": "Leslie Lamport",
+      "website": "https://lamport.azurewebsites.net/tla/tla.html",
+      "paradigms": ["specification", "formal-methods", "temporal-logic", "declarative"],
+      "tooling": {
+        "runtimes": ["TLC", "TLA+ Toolbox", "Apalache"],
+        "ecosystems": ["Formal Methods", "Distributed Systems", "Verification"]
+      },
+      "version": "TLA+ 2",
+      "logo": "https://avatars.githubusercontent.com/u/315978?v=4"
+    },
+    {
       "slug": "toml",
       "name": "TOML",
       "description": "A minimal, human-readable configuration format that maps clearly to data structures.",
@@ -2677,6 +3171,48 @@
       },
       "version": "0.14.2",
       "logo": "https://cdn.simpleicons.org/typst/239DAD"
+    },
+    {
+      "slug": "v",
+      "name": "V",
+      "description": "A compiled statically typed language for simple native application builds.",
+      "longDescription": "V is a compiled language with modules, sum types, generics, concurrency syntax, C interop, and a toolchain that emphasizes quick compilation and small deployment workflows. It targets C and native outputs through its compiler.\n\nIt is used for command-line tools, native applications, experiments, web services, and projects that prefer an integrated lightweight toolchain.",
+      "esName": "V",
+      "esDescription": "Un lenguaje compilado y tipado para construir aplicaciones nativas simples.",
+      "esLongDescription": "V es un lenguaje compilado con modulos, sum types, generics, sintaxis concurrente, interop con C y un toolchain que enfatiza compilacion rapida y despliegues pequenos. Su compilador apunta a C y salidas nativas.\n\nSe usa en herramientas de linea de comandos, aplicaciones nativas, experimentos, servicios web y proyectos que prefieren un toolchain ligero e integrado.",
+      "publishedDate": "2019-06-20",
+      "extensions": [".v", ".vsh"],
+      "author": "Alexander Medvednikov / V contributors",
+      "website": "https://vlang.io",
+      "paradigms": ["imperative", "systems", "multi-paradigm", "statically typed"],
+      "tooling": {
+        "runtimes": ["V compiler"],
+        "packageManagers": ["vpm"],
+        "ecosystems": ["Native", "Web", "Systems"]
+      },
+      "version": "weekly.2025.49",
+      "logo": "https://cdn.simpleicons.org/v/5D87BF"
+    },
+    {
+      "slug": "vala",
+      "name": "Vala",
+      "description": "A GNOME-oriented language that compiles high-level syntax to C.",
+      "longDescription": "Vala provides classes, interfaces, properties, generics, signals, and async syntax over GLib and GObject conventions, compiling source into C. VAPI files describe bindings to existing C libraries.\n\nIt is used for GTK applications, GNOME libraries, native tools, bindings, and projects that want high-level source while integrating with C APIs.",
+      "esName": "Vala",
+      "esDescription": "Un lenguaje orientado a GNOME que compila sintaxis de alto nivel a C.",
+      "esLongDescription": "Vala ofrece clases, interfaces, propiedades, generics, signals y sintaxis async sobre las convenciones de GLib y GObject, compilando fuente hacia C. Los archivos VAPI describen bindings a bibliotecas C existentes.\n\nSe usa en aplicaciones GTK, bibliotecas GNOME, herramientas nativas, bindings y proyectos que buscan fuente de alto nivel integrada con APIs C.",
+      "publishedDate": "2006-07-15",
+      "extensions": [".vala", ".vapi"],
+      "author": "Jurg Billeter / GNOME contributors",
+      "website": "https://vala.dev",
+      "paradigms": ["object-oriented", "statically typed", "gnome", "c-targeted"],
+      "tooling": {
+        "runtimes": ["GLib", "GObject"],
+        "packageManagers": ["Meson", "pkg-config"],
+        "ecosystems": ["GNOME", "GTK", "Native"]
+      },
+      "version": "0.56.18",
+      "logo": "https://cdn.simpleicons.org/gnome/4A86CF"
     },
     {
       "slug": "verilog",
@@ -2763,6 +3299,27 @@
       "logo": "https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg"
     },
     {
+      "slug": "vyper",
+      "name": "Vyper",
+      "description": "A Pythonic smart contract language for the Ethereum Virtual Machine.",
+      "longDescription": "Vyper is a contract language for Ethereum that favors explicit behavior, bounds, and auditability over broad language surface area. Its syntax is Python-like while its compiler emits EVM bytecode.\n\nIt is used for Ethereum smart contracts, financial protocols, on-chain experiments, and codebases that prefer a deliberately constrained contract language.",
+      "esName": "Vyper",
+      "esDescription": "Un lenguaje de smart contracts con sintaxis Python para Ethereum.",
+      "esLongDescription": "Vyper es un lenguaje de contratos para Ethereum que favorece comportamiento explicito, limites y auditabilidad sobre una superficie amplia del lenguaje. Su sintaxis es parecida a Python y su compilador emite bytecode EVM.\n\nSe usa en smart contracts de Ethereum, protocolos financieros, experimentos on-chain y codebases que prefieren un lenguaje de contratos deliberadamente restringido.",
+      "publishedDate": "2017-07-19",
+      "extensions": [".vy"],
+      "author": "Vyper contributors",
+      "website": "https://vyperlang.org",
+      "paradigms": ["smart-contract", "statically typed", "domain-specific", "imperative"],
+      "tooling": {
+        "runtimes": ["Ethereum Virtual Machine"],
+        "packageManagers": ["pip", "uv"],
+        "ecosystems": ["Ethereum", "Smart Contracts", "Web3"]
+      },
+      "version": "0.4.3",
+      "logo": "https://avatars.githubusercontent.com/u/37288461?v=4"
+    },
+    {
       "slug": "webassembly",
       "name": "WebAssembly",
       "description": "A portable low-level code format for safe, near-native execution across web and non-web runtimes.",
@@ -2803,6 +3360,46 @@
       },
       "version": "Candidate Recommendation Draft 2026-05-07",
       "logo": "https://cdn.simpleicons.org/webgpu/005A9C"
+    },
+    {
+      "slug": "mathematica",
+      "name": "Wolfram Language",
+      "description": "A symbolic computation language used by Mathematica and Wolfram tools.",
+      "longDescription": "The Wolfram Language combines symbolic expressions, functional programming, pattern rules, notebooks, visualization, and a large knowledge-oriented standard library. Mathematica is its best-known interactive environment.\n\nIt is used for mathematics, modeling, data science, research notebooks, education, automation, and computational reports that benefit from symbolic and numeric workflows.",
+      "esName": "Wolfram Language",
+      "esDescription": "Un lenguaje de computacion simbolica usado por Mathematica y herramientas Wolfram.",
+      "esLongDescription": "Wolfram Language combina expresiones simbolicas, programacion funcional, reglas por patrones, notebooks, visualizacion y una biblioteca estandar orientada al conocimiento. Mathematica es su entorno interactivo mas conocido.\n\nSe usa en matematicas, modelado, ciencia de datos, notebooks de investigacion, educacion, automatizacion y reportes computacionales con flujos simbolicos y numericos.",
+      "publishedDate": "1988-06-23",
+      "extensions": [".wl", ".wls", ".nb"],
+      "author": "Stephen Wolfram / Wolfram Research",
+      "website": "https://www.wolfram.com/language/",
+      "paradigms": ["symbolic", "functional", "rule-based", "notebook"],
+      "tooling": {
+        "runtimes": ["Wolfram Engine", "Wolfram Cloud", "Mathematica"],
+        "ecosystems": ["Scientific Computing", "Symbolic Computing", "Notebooks"]
+      },
+      "version": "14.3",
+      "logo": "https://cdn.simpleicons.org/wolfram/DD1100"
+    },
+    {
+      "slug": "wren",
+      "name": "Wren",
+      "description": "A small class-based scripting language designed for embedding.",
+      "longDescription": "Wren is a compact dynamic language with classes, fibers, modules, closures, and a VM intended to embed cleanly in host applications. Its syntax keeps scripting programs short while preserving an object-oriented model.\n\nIt is used for embedded scripting, game experiments, tools, teaching, and applications that need a small embeddable language runtime.",
+      "esName": "Wren",
+      "esDescription": "Un lenguaje pequeno de scripting basado en clases y pensado para embeberse.",
+      "esLongDescription": "Wren es un lenguaje dinamico compacto con clases, fibers, modulos, closures y una VM pensada para integrarse limpiamente en aplicaciones anfitrionas. Su sintaxis mantiene scripts breves y conserva un modelo orientado a objetos.\n\nSe usa en scripting embebido, experimentos de juegos, herramientas, ensenanza y aplicaciones que necesitan un runtime de lenguaje pequeno.",
+      "publishedDate": "2013-10-31",
+      "extensions": [".wren"],
+      "author": "Bob Nystrom / Wren contributors",
+      "website": "https://wren.io",
+      "paradigms": ["object-oriented", "scripting", "class-based", "dynamic"],
+      "tooling": {
+        "runtimes": ["Wren VM"],
+        "ecosystems": ["Embedding", "Games", "Scripting"]
+      },
+      "version": "0.4.0",
+      "logo": "https://avatars.githubusercontent.com/u/8763410?v=4"
     },
     {
       "slug": "xaml",
@@ -2901,6 +3498,27 @@
       "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Official_YAML_Logo.svg"
     },
     {
+      "slug": "zeek",
+      "name": "Zeek",
+      "description": "An event-driven scripting language for network analysis and security policy.",
+      "longDescription": "Zeek scripts describe events, records, analyzers, notices, logging, and policy logic over network traffic observed by the Zeek monitor. The language lets analysts extend protocol and detection behavior.\n\nIt is used in network security monitoring, incident response, traffic analysis, telemetry pipelines, and site-specific security policy.",
+      "esName": "Zeek",
+      "esDescription": "Un lenguaje event-driven para analisis de red y politicas de seguridad.",
+      "esLongDescription": "Los scripts Zeek describen eventos, records, analyzers, notices, logging y logica de politica sobre trafico de red observado por el monitor Zeek. El lenguaje permite extender comportamiento de protocolos y deteccion.\n\nSe usa en monitoreo de seguridad de red, respuesta a incidentes, analisis de trafico, pipelines de telemetria y politicas de seguridad especificas del sitio.",
+      "publishedDate": "1995-01-01",
+      "extensions": [".zeek", ".bro"],
+      "author": "Vern Paxson / Zeek Project",
+      "website": "https://zeek.org",
+      "paradigms": ["event-driven", "network-analysis", "domain-specific", "scripting"],
+      "tooling": {
+        "runtimes": ["Zeek"],
+        "packageManagers": ["zkg"],
+        "ecosystems": ["Network Security", "Observability", "Incident Response"]
+      },
+      "version": "8.0.4",
+      "logo": "https://avatars.githubusercontent.com/u/10666805?v=4"
+    },
+    {
       "slug": "zig",
       "name": "Zig",
       "description": "A systems programming language and toolchain focused on robustness, control, and cross-compilation.",
@@ -2920,6 +3538,26 @@
       },
       "version": "0.16.0",
       "logo": "https://cdn.simpleicons.org/zig/F7A41D"
+    },
+    {
+      "slug": "ziggy",
+      "name": "Ziggy",
+      "description": "A data notation and schema language for configuration-style documents.",
+      "longDescription": "Ziggy is a data language for readable structured documents with a companion schema form for describing expected shapes. It targets configuration and data interchange workflows with tooling around Zig ecosystems.\n\nIt is used for configuration files, schema-checked data documents, tooling experiments, and projects that want a compact typed data notation.",
+      "esName": "Ziggy",
+      "esDescription": "Una notacion de datos y schemas para documentos de configuracion.",
+      "esLongDescription": "Ziggy es un lenguaje de datos para documentos estructurados legibles con una forma de schema complementaria para describir shapes esperados. Apunta a configuracion e intercambio de datos con tooling cercano al ecosistema Zig.\n\nSe usa en archivos de configuracion, documentos de datos validados por schemas, experimentos de tooling y proyectos que buscan una notacion de datos compacta y tipada.",
+      "publishedDate": "2023-10-02",
+      "extensions": [".ziggy", ".ziggy-schema"],
+      "author": "Loris Cro",
+      "website": "https://ziggy-lang.io",
+      "paradigms": ["data-notation", "schema", "declarative", "configuration"],
+      "tooling": {
+        "runtimes": ["Ziggy CLI"],
+        "ecosystems": ["Configuration", "Data Formats", "Zig"]
+      },
+      "version": "0.1.0",
+      "logo": "https://avatars.githubusercontent.com/u/1642052?v=4"
     },
     {
       "slug": "zsh",
