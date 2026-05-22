@@ -14,6 +14,7 @@ export const gradle = {
   },
   version: "9.5.1",
   logo: "https://cdn.simpleicons.org/gradle/02303A",
+  color: "#02303A",
   i18n: {
     en: {
       name: "Gradle",

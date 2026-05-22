@@ -14,6 +14,7 @@ export const qml = {
   },
   version: "Qt 6.11.1",
   logo: "https://cdn.simpleicons.org/qt/41CD52",
+  color: "#41CD52",
   i18n: {
     en: {
       name: "QML",

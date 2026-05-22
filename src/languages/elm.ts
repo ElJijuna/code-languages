@@ -14,6 +14,7 @@ export const elm = {
   },
   version: "0.19.1",
   logo: "https://upload.wikimedia.org/wikipedia/commons/f/f3/Elm_logo.svg",
+  color: "#1293D8",
   i18n: {
     en: {
       name: "Elm",

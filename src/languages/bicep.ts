@@ -14,6 +14,7 @@ export const bicep = {
   },
   version: "0.43.8",
   logo: "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/azure-bicep.svg",
+  color: "#0078D4",
   i18n: {
     en: {
       name: "Bicep",

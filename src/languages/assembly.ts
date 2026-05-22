@@ -14,6 +14,7 @@ export const assembly = {
   },
   version: "Architecture-specific",
   logo: "https://cdn.simpleicons.org/assemblyscript/007AAC",
+  color: "#007AAC",
   i18n: {
     en: {
       name: "Assembly",

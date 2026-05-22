@@ -14,6 +14,7 @@ export const clojure = {
   },
   version: "1.12.5",
   logo: "https://cdn.simpleicons.org/clojure/5881D8",
+  color: "#5881D8",
   i18n: {
     en: {
       name: "Clojure",

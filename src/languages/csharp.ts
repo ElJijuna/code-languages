@@ -14,6 +14,7 @@ export const csharp = {
   },
   version: "14",
   logo: "https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_C_sharp.svg",
+  color: "#512BD4",
   i18n: {
     en: {
       name: "C#",

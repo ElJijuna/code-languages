@@ -26,6 +26,7 @@ const siteData = {
       tooling: language.tooling ?? {},
       version: language.version,
       logo: language.logo,
+      color: language.color,
     }))
     .sort((first, second) => first.name.localeCompare(second.name)),
 };

@@ -14,6 +14,7 @@ export const fennel = {
   },
   version: "1.6.1",
   logo: "https://fennel-lang.org/logo.svg",
+  color: "#FFF2A6",
   i18n: {
     en: {
       name: "Fennel",

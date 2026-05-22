@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T03:26:23.744Z",
+  "generatedAt": "2026-05-22T03:48:47.081Z",
   "total": 172,
   "extensions": 436,
   "locales": ["en", "es"],
@@ -28,7 +28,8 @@
         "ecosystems": ["SAP S/4HANA", "SAP BTP", "Enterprise Applications"]
       },
       "version": "ABAP Platform 2025 FPS01",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg",
+      "color": "#0FAAFF"
     },
     {
       "slug": "actionscript",
@@ -48,7 +49,8 @@
         "ecosystems": ["Flash", "AIR", "Flex", "Legacy Web"]
       },
       "version": "3.0",
-      "logo": "https://icons.iconarchive.com/icons/fatcow/farm-fresh/32/page-white-actionscript-icon.png"
+      "logo": "https://icons.iconarchive.com/icons/fatcow/farm-fresh/32/page-white-actionscript-icon.png",
+      "color": "#CF302A"
     },
     {
       "slug": "ada",
@@ -69,7 +71,8 @@
         "ecosystems": ["Embedded", "Aerospace", "Defense", "Safety-critical Systems"]
       },
       "version": "Ada 2022",
-      "logo": "https://cdn.simpleicons.org/ada/02F88C"
+      "logo": "https://cdn.simpleicons.org/ada/02F88C",
+      "color": "#02F88C"
     },
     {
       "slug": "agda",
@@ -90,7 +93,8 @@
         "ecosystems": ["Haskell", "Formal methods", "Proof assistants"]
       },
       "version": "2.8.0",
-      "logo": "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_agda.svg"
+      "logo": "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_agda.svg",
+      "color": "#315665"
     },
     {
       "slug": "antlr",
@@ -111,7 +115,8 @@
         "ecosystems": ["Compilers", "Language Tools", "Static Analysis"]
       },
       "version": "4.13.2",
-      "logo": "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_antlr.svg"
+      "logo": "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_antlr.svg",
+      "color": "#9DC3FF"
     },
     {
       "slug": "thrift",
@@ -132,7 +137,8 @@
         "ecosystems": ["RPC", "APIs", "Distributed Systems"]
       },
       "version": "0.22.0",
-      "logo": "https://cdn.simpleicons.org/apache/D22128"
+      "logo": "https://cdn.simpleicons.org/apache/D22128",
+      "color": "#D22128"
     },
     {
       "slug": "apex",
@@ -153,7 +159,8 @@
         "ecosystems": ["Salesforce", "CRM", "Enterprise Applications", "Platform Automation"]
       },
       "version": "API 66.0",
-      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Salesforce.com_logo.svg"
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Salesforce.com_logo.svg",
+      "color": "#00A1E0"
     },
     {
       "slug": "apl",
@@ -173,7 +180,8 @@
         "ecosystems": ["Array Programming", "Data Analysis", "Financial Computing"]
       },
       "version": "ISO/IEC 13751:2001",
-      "logo": "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_apl.svg"
+      "logo": "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_apl.svg",
+      "color": "#5A8164"
     },
     {
       "slug": "applescript",
@@ -193,7 +201,8 @@
         "ecosystems": ["macOS", "Desktop Automation"]
       },
       "version": "2.8",
-      "logo": "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_applescript.svg"
+      "logo": "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_applescript.svg",
+      "color": "#6E6E6E"
     },
     {
       "slug": "arduino",
@@ -214,7 +223,8 @@
         "ecosystems": ["Embedded", "IoT", "Prototyping"]
       },
       "version": "Arduino API 1.0",
-      "logo": "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_arduino.svg"
+      "logo": "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_arduino.svg",
+      "color": "#00979D"
     },
     {
       "slug": "asciidoc",
@@ -235,7 +245,8 @@
         "ecosystems": ["Documentation", "Publishing", "Technical Writing", "Static Sites"]
       },
       "version": "pre-spec",
-      "logo": "https://cdn.simpleicons.org/asciidoctor/E40046"
+      "logo": "https://cdn.simpleicons.org/asciidoctor/E40046",
+      "color": "#E40046"
     },
     {
       "slug": "asp",
@@ -256,7 +267,8 @@
         "ecosystems": ["Windows", ".NET", "Web"]
       },
       "version": "4.8.1",
-      "logo": "https://cdn.simpleicons.org/dotnet/512BD4"
+      "logo": "https://cdn.simpleicons.org/dotnet/512BD4",
+      "color": "#512BD4"
     },
     {
       "slug": "assembly",
@@ -277,7 +289,8 @@
         "ecosystems": ["Systems", "Embedded", "Reverse Engineering"]
       },
       "version": "Architecture-specific",
-      "logo": "https://cdn.simpleicons.org/assemblyscript/007AAC"
+      "logo": "https://cdn.simpleicons.org/assemblyscript/007AAC",
+      "color": "#007AAC"
     },
     {
       "slug": "astro",
@@ -303,7 +316,8 @@
         "ecosystems": ["Web", "Static Sites", "Content"]
       },
       "version": "6.3.5",
-      "logo": "https://astro.build/assets/press/astro-icon-light.svg"
+      "logo": "https://astro.build/assets/press/astro-icon-light.svg",
+      "color": "#FF5D01"
     },
     {
       "slug": "autohotkey",
@@ -323,7 +337,8 @@
         "ecosystems": ["Windows", "Desktop Automation"]
       },
       "version": "2.0",
-      "logo": "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_autohotkey.svg"
+      "logo": "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_autohotkey.svg",
+      "color": "#6594B9"
     },
     {
       "slug": "awk",
@@ -344,7 +359,8 @@
         "ecosystems": ["Unix", "Text Processing", "Shell", "Data Extraction"]
       },
       "version": "GNU Awk 5.4.0",
-      "logo": "https://www.gnu.org/graphics/heckert_gnu.small.png"
+      "logo": "https://www.gnu.org/graphics/heckert_gnu.small.png",
+      "color": "#4E9A06"
     },
     {
       "slug": "bash",
@@ -365,7 +381,8 @@
         "ecosystems": ["Unix", "Linux", "macOS", "DevOps"]
       },
       "version": "5.3",
-      "logo": "https://bashlogo.com/img/symbol/svg/full_colored_dark.svg"
+      "logo": "https://bashlogo.com/img/symbol/svg/full_colored_dark.svg",
+      "color": "#4EAA25"
     },
     {
       "slug": "batch",
@@ -385,7 +402,8 @@
         "ecosystems": ["Windows", "DOS", "Automation"]
       },
       "version": "Windows Command Processor",
-      "logo": "https://icons.iconarchive.com/icons/simpleicons-team/simple/128/windowsterminal-icon.png"
+      "logo": "https://icons.iconarchive.com/icons/simpleicons-team/simple/128/windowsterminal-icon.png",
+      "color": "#4D4D4D"
     },
     {
       "slug": "bazel",
@@ -406,7 +424,8 @@
         "ecosystems": ["Build Systems", "Monorepos", "CI/CD", "Polyglot Repositories"]
       },
       "version": "9.0.2",
-      "logo": "https://cdn.simpleicons.org/bazel/43A047"
+      "logo": "https://cdn.simpleicons.org/bazel/43A047",
+      "color": "#43A047"
     },
     {
       "slug": "bicep",
@@ -427,7 +446,8 @@
         "ecosystems": ["Azure", "Cloud", "DevOps", "Infrastructure as Code"]
       },
       "version": "0.43.8",
-      "logo": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/azure-bicep.svg"
+      "logo": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/azure-bicep.svg",
+      "color": "#0078D4"
     },
     {
       "slug": "blade",
@@ -448,7 +468,8 @@
         "ecosystems": ["Laravel", "PHP", "Web", "Server-rendered UI"]
       },
       "version": "Laravel 12.x",
-      "logo": "https://cdn.simpleicons.org/laravel/FF2D20"
+      "logo": "https://cdn.simpleicons.org/laravel/FF2D20",
+      "color": "#FF2D20"
     },
     {
       "slug": "c",
@@ -469,7 +490,8 @@
         "ecosystems": ["Systems", "Embedded"]
       },
       "version": "C23",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg",
+      "color": "#A8B9CC"
     },
     {
       "slug": "csharp",
@@ -496,7 +518,8 @@
         "ecosystems": [".NET", "ASP.NET", "Unity", "Microsoft"]
       },
       "version": "14",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_C_sharp.svg"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_C_sharp.svg",
+      "color": "#512BD4"
     },
     {
       "slug": "cpp",
@@ -517,7 +540,8 @@
         "ecosystems": ["Systems", "Game Development", "Embedded"]
       },
       "version": "C++23",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
+      "color": "#00599C"
     },
     {
       "slug": "carbon",
@@ -538,7 +562,8 @@
         "ecosystems": ["C++", "Systems programming"]
       },
       "version": "0.0.0 nightly",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Carbon_logo.png"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Carbon_logo.png",
+      "color": "#4C7CBF"
     },
     {
       "slug": "chapel",
@@ -559,7 +584,8 @@
         "ecosystems": ["High-performance computing", "Parallel computing"]
       },
       "version": "2.6.0",
-      "logo": "https://chapel-lang.org/images/chapel-logo.png"
+      "logo": "https://chapel-lang.org/images/chapel-logo.png",
+      "color": "#8C1AFF"
     },
     {
       "slug": "circom",
@@ -580,7 +606,8 @@
         "ecosystems": ["Zero-knowledge proofs", "Ethereum", "zkSNARKs"]
       },
       "version": "2.2.3",
-      "logo": "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_circom.svg"
+      "logo": "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_circom.svg",
+      "color": "#EA7252"
     },
     {
       "slug": "clojure",
@@ -601,7 +628,8 @@
         "ecosystems": ["JVM", "JavaScript", "Data Processing", "Web", "REPL-driven Development"]
       },
       "version": "1.12.5",
-      "logo": "https://cdn.simpleicons.org/clojure/5881D8"
+      "logo": "https://cdn.simpleicons.org/clojure/5881D8",
+      "color": "#5881D8"
     },
     {
       "slug": "cmake",
@@ -621,7 +649,8 @@
         "ecosystems": ["C", "C++", "Fortran", "Cross-platform Builds", "Embedded Systems"]
       },
       "version": "4.3.2",
-      "logo": "https://cmake.org/wp-content/uploads/2023/08/CMake-Logo.svg"
+      "logo": "https://cmake.org/wp-content/uploads/2023/08/CMake-Logo.svg",
+      "color": "#064F8C"
     },
     {
       "slug": "cobol",
@@ -641,7 +670,8 @@
         "ecosystems": ["Mainframe", "Business applications", "Transaction processing"]
       },
       "version": "ISO/IEC 1989:2023",
-      "logo": "https://logo.svgcdn.com/devicon/cobol-original.png"
+      "logo": "https://logo.svgcdn.com/devicon/cobol-original.png",
+      "color": "#005CA5"
     },
     {
       "slug": "coffeescript",
@@ -662,7 +692,8 @@
         "ecosystems": ["JavaScript", "Web", "Node.js"]
       },
       "version": "2.7.0",
-      "logo": "https://cdn.simpleicons.org/coffeescript/2F2625"
+      "logo": "https://cdn.simpleicons.org/coffeescript/2F2625",
+      "color": "#2F2625"
     },
     {
       "slug": "coldfusion",
@@ -683,7 +714,8 @@
         "ecosystems": ["Web", "JVM", "Enterprise"]
       },
       "version": "ColdFusion 2025",
-      "logo": "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_cf.svg"
+      "logo": "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_cf.svg",
+      "color": "#ED225D"
     },
     {
       "slug": "coq",
@@ -704,7 +736,8 @@
         "ecosystems": ["Formal methods", "Proof assistants", "OCaml"]
       },
       "version": "9.2.0",
-      "logo": "https://avatars.githubusercontent.com/u/621198?v=4"
+      "logo": "https://avatars.githubusercontent.com/u/621198?v=4",
+      "color": "#C1272D"
     },
     {
       "slug": "crystal",
@@ -725,7 +758,8 @@
         "ecosystems": ["Web", "CLI", "Systems", "Native Applications"]
       },
       "version": "1.20.2",
-      "logo": "https://cdn.simpleicons.org/crystal/000000"
+      "logo": "https://cdn.simpleicons.org/crystal/000000",
+      "color": "#000000"
     },
     {
       "slug": "css",
@@ -742,7 +776,8 @@
       "paradigms": ["declarative", "stylesheet"],
       "tooling": {},
       "version": "Living Standard",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Official_CSS_Logo.svg"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Official_CSS_Logo.svg",
+      "color": "#1572B6"
     },
     {
       "slug": "cuda",
@@ -763,7 +798,8 @@
         "ecosystems": ["GPU Computing", "HPC", "Machine Learning", "Scientific Computing"]
       },
       "version": "13.2.1",
-      "logo": "https://cdn.simpleicons.org/nvidia/76B900"
+      "logo": "https://cdn.simpleicons.org/nvidia/76B900",
+      "color": "#76B900"
     },
     {
       "slug": "cue",
@@ -784,7 +820,8 @@
         "ecosystems": ["Configuration", "Validation", "Kubernetes", "DevOps"]
       },
       "version": "0.16.1",
-      "logo": "https://avatars.githubusercontent.com/u/43867057?s=200&v=4"
+      "logo": "https://avatars.githubusercontent.com/u/43867057?s=200&v=4",
+      "color": "#1F6BFF"
     },
     {
       "slug": "cython",
@@ -805,7 +842,8 @@
         "ecosystems": ["Python", "Native Extensions", "Scientific Computing"]
       },
       "version": "3.1.4",
-      "logo": "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_cython.svg"
+      "logo": "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_cython.svg",
+      "color": "#FED140"
     },
     {
       "slug": "d",
@@ -826,7 +864,8 @@
         "ecosystems": ["Systems Programming", "Native Applications", "Tooling", "Game Development"]
       },
       "version": "2.112.0",
-      "logo": "https://cdn.simpleicons.org/d/BA595E"
+      "logo": "https://cdn.simpleicons.org/d/BA595E",
+      "color": "#BA595E"
     },
     {
       "slug": "dart",
@@ -847,7 +886,8 @@
         "ecosystems": ["Flutter", "Web", "Server-side"]
       },
       "version": "3.11.6",
-      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Dart_programming_language_logo.svg"
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Dart_programming_language_logo.svg",
+      "color": "#0175C2"
     },
     {
       "slug": "dhall",
@@ -868,7 +908,8 @@
         "ecosystems": ["Configuration", "Haskell", "DevOps"]
       },
       "version": "23.1.0",
-      "logo": "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_dhall.svg"
+      "logo": "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_dhall.svg",
+      "color": "#184A7D"
     },
     {
       "slug": "dita",
@@ -889,7 +930,8 @@
         "ecosystems": ["Technical writing", "XML", "Publishing"]
       },
       "version": "1.3",
-      "logo": "https://avatars.githubusercontent.com/u/20116735?v=4"
+      "logo": "https://avatars.githubusercontent.com/u/20116735?v=4",
+      "color": "#3C6E71"
     },
     {
       "slug": "dockerfile",
@@ -909,7 +951,8 @@
         "ecosystems": ["Containers", "DevOps", "Cloud"]
       },
       "version": "1.10",
-      "logo": "https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png"
+      "logo": "https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png",
+      "color": "#2496ED"
     },
     {
       "slug": "earthly",
@@ -930,7 +973,8 @@
         "ecosystems": ["CI/CD", "Containers", "DevOps"]
       },
       "version": "0.8.16",
-      "logo": "https://avatars.githubusercontent.com/u/63060917?v=4"
+      "logo": "https://avatars.githubusercontent.com/u/63060917?v=4",
+      "color": "#2D7D46"
     },
     {
       "slug": "elixir",
@@ -951,7 +995,8 @@
         "ecosystems": ["Web", "Distributed Systems", "Fault-tolerant Systems", "Data Processing"]
       },
       "version": "1.19.5",
-      "logo": "https://cdn.simpleicons.org/elixir/4B275F"
+      "logo": "https://cdn.simpleicons.org/elixir/4B275F",
+      "color": "#4B275F"
     },
     {
       "slug": "elm",
@@ -972,7 +1017,8 @@
         "ecosystems": ["Web", "Frontend", "Functional Programming"]
       },
       "version": "0.19.1",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Elm_logo.svg"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Elm_logo.svg",
+      "color": "#1293D8"
     },
     {
       "slug": "erb",
@@ -993,7 +1039,8 @@
         "ecosystems": ["Web", "Ruby", "Static Sites"]
       },
       "version": "Ruby stdlib",
-      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Ruby_logo.svg"
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Ruby_logo.svg",
+      "color": "#CC342D"
     },
     {
       "slug": "erlang",
@@ -1014,7 +1061,8 @@
         "ecosystems": ["BEAM", "Telecom", "Distributed Systems", "Fault-tolerant Systems"]
       },
       "version": "OTP 29.0",
-      "logo": "https://cdn.simpleicons.org/erlang/A90533"
+      "logo": "https://cdn.simpleicons.org/erlang/A90533",
+      "color": "#A90533"
     },
     {
       "slug": "fsharp",
@@ -1035,7 +1083,8 @@
         "ecosystems": [".NET", "Data Science", "Web", "Cloud"]
       },
       "version": "10",
-      "logo": "https://cdn.simpleicons.org/fsharp/378BBA"
+      "logo": "https://cdn.simpleicons.org/fsharp/378BBA",
+      "color": "#378BBA"
     },
     {
       "slug": "fennel",
@@ -1056,7 +1105,8 @@
         "ecosystems": ["Lua", "Neovim", "Game Development", "Embedded Scripting"]
       },
       "version": "1.6.1",
-      "logo": "https://fennel-lang.org/logo.svg"
+      "logo": "https://fennel-lang.org/logo.svg",
+      "color": "#FFF2A6"
     },
     {
       "slug": "forth",
@@ -1076,7 +1126,8 @@
         "ecosystems": ["Embedded", "Firmware", "Language Implementation"]
       },
       "version": "Forth 2012",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Gforth_Logo.png"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Gforth_Logo.png",
+      "color": "#341708"
     },
     {
       "slug": "fortran",
@@ -1097,7 +1148,8 @@
         "ecosystems": ["Scientific Computing", "HPC", "Numerical Computing", "Engineering"]
       },
       "version": "Fortran 2023",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Fortran_logo.svg"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Fortran_logo.svg",
+      "color": "#734F96"
     },
     {
       "slug": "gdscript",
@@ -1118,7 +1170,8 @@
         "ecosystems": ["Game Development", "2D Games", "3D Games"]
       },
       "version": "4.6",
-      "logo": "https://cdn.simpleicons.org/godotengine/478CBF"
+      "logo": "https://cdn.simpleicons.org/godotengine/478CBF",
+      "color": "#478CBF"
     },
     {
       "slug": "git",
@@ -1138,7 +1191,8 @@
         "ecosystems": ["Version Control", "DevOps", "Source Control"]
       },
       "version": "2.54.0",
-      "logo": "https://cdn.simpleicons.org/git/F05032"
+      "logo": "https://cdn.simpleicons.org/git/F05032",
+      "color": "#F05032"
     },
     {
       "slug": "gleam",
@@ -1159,7 +1213,8 @@
         "ecosystems": ["BEAM", "Erlang", "Elixir", "JavaScript", "Web"]
       },
       "version": "1.16.0",
-      "logo": "https://cdn.simpleicons.org/gleam/FFAFF3"
+      "logo": "https://cdn.simpleicons.org/gleam/FFAFF3",
+      "color": "#FFAFF3"
     },
     {
       "slug": "glsl",
@@ -1180,7 +1235,8 @@
         "ecosystems": ["Graphics", "Game Development", "WebGL", "Creative Coding"]
       },
       "version": "4.60",
-      "logo": "https://cdn.simpleicons.org/opengl/5586A4"
+      "logo": "https://cdn.simpleicons.org/opengl/5586A4",
+      "color": "#5586A4"
     },
     {
       "slug": "go",
@@ -1201,7 +1257,8 @@
         "ecosystems": ["Cloud", "DevOps", "Networking"]
       },
       "version": "1.26.3",
-      "logo": "https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg"
+      "logo": "https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg",
+      "color": "#00ADD8"
     },
     {
       "slug": "gradle",
@@ -1222,7 +1279,8 @@
         "ecosystems": ["JVM", "Android", "Java", "Kotlin", "Groovy"]
       },
       "version": "9.5.1",
-      "logo": "https://cdn.simpleicons.org/gradle/02303A"
+      "logo": "https://cdn.simpleicons.org/gradle/02303A",
+      "color": "#02303A"
     },
     {
       "slug": "graphql",
@@ -1243,7 +1301,8 @@
         "ecosystems": ["APIs", "Web", "Mobile", "Data Graphs"]
       },
       "version": "September 2025",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg",
+      "color": "#E10098"
     },
     {
       "slug": "groovy",
@@ -1264,7 +1323,8 @@
         "ecosystems": ["JVM", "Gradle"]
       },
       "version": "5.0.6",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/3/36/Groovy-logo.svg"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/3/36/Groovy-logo.svg",
+      "color": "#4298B8"
     },
     {
       "slug": "hack",
@@ -1285,7 +1345,8 @@
         "ecosystems": ["HHVM", "Web", "PHP"]
       },
       "version": "HHVM 4.x",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Hack_%28programming_language%29_logo.svg"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Hack_%28programming_language%29_logo.svg",
+      "color": "#8892BF"
     },
     {
       "slug": "haml",
@@ -1306,7 +1367,8 @@
         "ecosystems": ["Ruby", "Ruby on Rails", "Web"]
       },
       "version": "7.2.0",
-      "logo": "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_haml.svg"
+      "logo": "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_haml.svg",
+      "color": "#ECE2A9"
     },
     {
       "slug": "handlebars",
@@ -1327,7 +1389,8 @@
         "ecosystems": ["Web", "Email Templates", "Static Sites"]
       },
       "version": "4.7.9",
-      "logo": "https://cdn.simpleicons.org/handlebarsdotjs/000000"
+      "logo": "https://cdn.simpleicons.org/handlebarsdotjs/000000",
+      "color": "#000000"
     },
     {
       "slug": "haskell",
@@ -1348,7 +1411,8 @@
         "ecosystems": ["Functional Programming", "Compilers", "Research", "Financial Systems"]
       },
       "version": "GHC 9.14.1",
-      "logo": "https://cdn.simpleicons.org/haskell/5D4F85"
+      "logo": "https://cdn.simpleicons.org/haskell/5D4F85",
+      "color": "#5D4F85"
     },
     {
       "slug": "haxe",
@@ -1369,7 +1433,8 @@
         "ecosystems": ["Games", "Web", "Cross-platform Applications", "OpenFL", "Heaps"]
       },
       "version": "4.3.7",
-      "logo": "https://cdn.simpleicons.org/haxe/EA8220"
+      "logo": "https://cdn.simpleicons.org/haxe/EA8220",
+      "color": "#EA8220"
     },
     {
       "slug": "hcl",
@@ -1390,7 +1455,8 @@
         "ecosystems": ["Infrastructure as Code", "DevOps", "Cloud", "HashiCorp"]
       },
       "version": "2.24.0",
-      "logo": "https://cdn.simpleicons.org/hashicorp/844FBA"
+      "logo": "https://cdn.simpleicons.org/hashicorp/844FBA",
+      "color": "#844FBA"
     },
     {
       "slug": "hlsl",
@@ -1411,7 +1477,8 @@
         "ecosystems": ["Graphics", "Game Development", "GPU Programming", "DirectX"]
       },
       "version": "Shader Model 6.9",
-      "logo": "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_hlsl.svg"
+      "logo": "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_hlsl.svg",
+      "color": "#0078D4"
     },
     {
       "slug": "html",
@@ -1428,7 +1495,8 @@
       "paradigms": ["declarative", "markup"],
       "tooling": {},
       "version": "Living Standard",
-      "logo": "https://www.w3.org/html/logo/downloads/HTML5_Badge.svg"
+      "logo": "https://www.w3.org/html/logo/downloads/HTML5_Badge.svg",
+      "color": "#E34F26"
     },
     {
       "slug": "idris",
@@ -1449,7 +1517,8 @@
         "ecosystems": ["Formal methods", "Functional programming"]
       },
       "version": "0.8.0",
-      "logo": "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_idris.svg"
+      "logo": "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_idris.svg",
+      "color": "#B30000"
     },
     {
       "slug": "ini",
@@ -1468,7 +1537,8 @@
         "ecosystems": ["Windows", "Configuration", "Desktop Applications", "Legacy Systems"]
       },
       "version": "Informal format",
-      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Configure.svg"
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Configure.svg",
+      "color": "#525252"
     },
     {
       "slug": "janet",
@@ -1489,7 +1559,8 @@
         "ecosystems": ["Scripting", "Embedded systems", "Command-line tools"]
       },
       "version": "1.39.1",
-      "logo": "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_janet.svg"
+      "logo": "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_janet.svg",
+      "color": "#A5C8E4"
     },
     {
       "slug": "java",
@@ -1510,7 +1581,8 @@
         "ecosystems": ["JVM", "Android", "Enterprise"]
       },
       "version": "26",
-      "logo": "https://www.vectorlogo.zone/logos/java/java-icon.svg"
+      "logo": "https://www.vectorlogo.zone/logos/java/java-icon.svg",
+      "color": "#007396"
     },
     {
       "slug": "javascript",
@@ -1537,7 +1609,8 @@
         "ecosystems": ["Web", "Node.js"]
       },
       "version": "ECMAScript 2025",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+      "color": "#F7DF1E"
     },
     {
       "slug": "jinja",
@@ -1558,7 +1631,8 @@
         "ecosystems": ["Python", "Flask", "Ansible", "Web"]
       },
       "version": "3.1.6",
-      "logo": "https://cdn.simpleicons.org/jinja/B41717"
+      "logo": "https://cdn.simpleicons.org/jinja/B41717",
+      "color": "#B41717"
     },
     {
       "slug": "json",
@@ -1575,7 +1649,8 @@
       "paradigms": ["data serialization", "declarative"],
       "tooling": {},
       "version": "RFC 8259",
-      "logo": "https://www.json.org/img/json160.gif"
+      "logo": "https://www.json.org/img/json160.gif",
+      "color": "#000000"
     },
     {
       "slug": "jsonnet",
@@ -1596,7 +1671,8 @@
         "ecosystems": ["Configuration", "Kubernetes", "Infrastructure"]
       },
       "version": "0.21.0",
-      "logo": "https://jsonnet.org/img/isologo.svg"
+      "logo": "https://jsonnet.org/img/isologo.svg",
+      "color": "#0064BD"
     },
     {
       "slug": "julia",
@@ -1617,7 +1693,8 @@
         "ecosystems": ["Scientific Computing", "Data Science", "Machine Learning", "HPC"]
       },
       "version": "1.12.6",
-      "logo": "https://cdn.simpleicons.org/julia/9558B2"
+      "logo": "https://cdn.simpleicons.org/julia/9558B2",
+      "color": "#9558B2"
     },
     {
       "slug": "jupyter-notebook",
@@ -1643,7 +1720,8 @@
         "ecosystems": ["Data Science", "Machine Learning", "Scientific Computing", "Education"]
       },
       "version": "nbformat 4.5",
-      "logo": "https://cdn.simpleicons.org/jupyter/F37626"
+      "logo": "https://cdn.simpleicons.org/jupyter/F37626",
+      "color": "#F37626"
     },
     {
       "slug": "kotlin",
@@ -1664,7 +1742,8 @@
         "ecosystems": ["JVM", "Android", "Kotlin Multiplatform"]
       },
       "version": "2.3.21",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png",
+      "color": "#7F52FF"
     },
     {
       "slug": "lean",
@@ -1685,7 +1764,8 @@
         "ecosystems": ["Formal methods", "Mathematics", "Proof assistants"]
       },
       "version": "4.29.1",
-      "logo": "https://cdn.simpleicons.org/leanpub/262425"
+      "logo": "https://cdn.simpleicons.org/leanpub/262425",
+      "color": "#262425"
     },
     {
       "slug": "less",
@@ -1706,7 +1786,8 @@
         "ecosystems": ["Web", "Design Systems", "Bootstrap"]
       },
       "version": "4.6.4",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/8/81/LESS_Logo.svg"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/8/81/LESS_Logo.svg",
+      "color": "#1D365D"
     },
     {
       "slug": "liquid",
@@ -1727,7 +1808,8 @@
         "ecosystems": ["Shopify", "Jekyll", "Static Sites", "E-commerce"]
       },
       "version": "10.27.0",
-      "logo": "https://cdn.simpleicons.org/shopify/7AB55C"
+      "logo": "https://cdn.simpleicons.org/shopify/7AB55C",
+      "color": "#7AB55C"
     },
     {
       "slug": "lisp",
@@ -1748,7 +1830,8 @@
         "ecosystems": ["Common Lisp", "AI", "Symbolic Computing", "Research", "CLI"]
       },
       "version": "ANSI INCITS 226-1994",
-      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Lisp_logo.svg"
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Lisp_logo.svg",
+      "color": "#3FB68B"
     },
     {
       "slug": "llvm-ir",
@@ -1769,7 +1852,8 @@
         "ecosystems": ["Compilers", "Systems programming", "Toolchains"]
       },
       "version": "22.1.5",
-      "logo": "https://cdn.simpleicons.org/llvm/262D3A"
+      "logo": "https://cdn.simpleicons.org/llvm/262D3A",
+      "color": "#262D3A"
     },
     {
       "slug": "lua",
@@ -1790,7 +1874,8 @@
         "ecosystems": ["Game Development", "Embedded Systems", "Scripting", "Configuration"]
       },
       "version": "5.5.0",
-      "logo": "https://www.lua.org/images/lua-logo.gif"
+      "logo": "https://www.lua.org/images/lua-logo.gif",
+      "color": "#000080"
     },
     {
       "slug": "luau",
@@ -1811,7 +1896,8 @@
         "ecosystems": ["Roblox", "Games", "Embedded scripting"]
       },
       "version": "0.719",
-      "logo": "https://cdn.simpleicons.org/roblox/000000"
+      "logo": "https://cdn.simpleicons.org/roblox/000000",
+      "color": "#000000"
     },
     {
       "slug": "makefile",
@@ -1831,7 +1917,8 @@
         "ecosystems": ["Unix", "Linux", "C", "C++", "Embedded Systems"]
       },
       "version": "4.4.1",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/7/71/Heckert_gnu.small.png"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/7/71/Heckert_gnu.small.png",
+      "color": "#427819"
     },
     {
       "slug": "mako",
@@ -1852,7 +1939,8 @@
         "ecosystems": ["Python", "Web", "Documentation"]
       },
       "version": "1.3.10",
-      "logo": "https://cdn.simpleicons.org/python/3776AB"
+      "logo": "https://cdn.simpleicons.org/python/3776AB",
+      "color": "#3776AB"
     },
     {
       "slug": "markdown",
@@ -1869,7 +1957,8 @@
       "paradigms": ["declarative", "markup"],
       "tooling": {},
       "version": "CommonMark 4.0",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg",
+      "color": "#000000"
     },
     {
       "slug": "matlab",
@@ -1890,7 +1979,8 @@
         "ecosystems": ["Scientific Computing", "Numerical Computing", "Engineering", "Simulink"]
       },
       "version": "R2026a",
-      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Matlab_Logo.png"
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Matlab_Logo.png",
+      "color": "#E16737"
     },
     {
       "slug": "mdx",
@@ -1911,7 +2001,8 @@
         "ecosystems": ["Documentation", "React", "Static Sites", "Content"]
       },
       "version": "3.1.1",
-      "logo": "https://cdn.simpleicons.org/mdx/1B1F24"
+      "logo": "https://cdn.simpleicons.org/mdx/1B1F24",
+      "color": "#1B1F24"
     },
     {
       "slug": "mermaid",
@@ -1932,7 +2023,8 @@
         "ecosystems": ["Documentation", "Markdown", "Diagrams", "Knowledge Management"]
       },
       "version": "11.15.0",
-      "logo": "https://cdn.simpleicons.org/mermaid/FF3670"
+      "logo": "https://cdn.simpleicons.org/mermaid/FF3670",
+      "color": "#FF3670"
     },
     {
       "slug": "meson",
@@ -1953,7 +2045,8 @@
         "ecosystems": ["C", "C++", "GNOME", "Linux", "Cross-platform Builds"]
       },
       "version": "1.11.1",
-      "logo": "https://raw.githubusercontent.com/mesonbuild/meson/master/graphics/meson_logo.svg"
+      "logo": "https://raw.githubusercontent.com/mesonbuild/meson/master/graphics/meson_logo.svg",
+      "color": "#0077C8"
     },
     {
       "slug": "metal",
@@ -1973,7 +2066,8 @@
         "ecosystems": ["Apple Platforms", "iOS", "iPadOS", "macOS", "visionOS", "tvOS"]
       },
       "version": "Metal 4",
-      "logo": "https://developer.apple.com/assets/elements/icons/metal/metal-256x256_2x.png"
+      "logo": "https://developer.apple.com/assets/elements/icons/metal/metal-256x256_2x.png",
+      "color": "#999999"
     },
     {
       "slug": "mojo",
@@ -1994,7 +2088,8 @@
         "ecosystems": ["AI", "Accelerators", "Python"]
       },
       "version": "0.26.1",
-      "logo": "https://avatars.githubusercontent.com/u/107116314?v=4"
+      "logo": "https://avatars.githubusercontent.com/u/107116314?v=4",
+      "color": "#FF5A1F"
     },
     {
       "slug": "moonbit",
@@ -2015,7 +2110,8 @@
         "ecosystems": ["WebAssembly", "Web", "Embedded"]
       },
       "version": "0.9.2",
-      "logo": "https://avatars.githubusercontent.com/u/124476259?v=4"
+      "logo": "https://avatars.githubusercontent.com/u/124476259?v=4",
+      "color": "#F4B728"
     },
     {
       "slug": "nginx",
@@ -2035,7 +2131,8 @@
         "ecosystems": ["Web Servers", "Reverse Proxies", "Load Balancing", "DevOps"]
       },
       "version": "1.30.1",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg",
+      "color": "#009639"
     },
     {
       "slug": "nim",
@@ -2056,7 +2153,8 @@
         "ecosystems": ["Systems Programming", "CLI", "Web", "Embedded", "Native Applications"]
       },
       "version": "2.2.10",
-      "logo": "https://cdn.simpleicons.org/nim/FFE953"
+      "logo": "https://cdn.simpleicons.org/nim/FFE953",
+      "color": "#FFE953"
     },
     {
       "slug": "nix",
@@ -2077,7 +2175,8 @@
         "ecosystems": ["Linux", "macOS", "NixOS", "DevOps"]
       },
       "version": "2.34.7",
-      "logo": "https://cdn.simpleicons.org/nixos/5277C3"
+      "logo": "https://cdn.simpleicons.org/nixos/5277C3",
+      "color": "#5277C3"
     },
     {
       "slug": "objective-c",
@@ -2098,7 +2197,8 @@
         "ecosystems": ["Apple", "Cocoa", "Cocoa Touch", "GNUstep"]
       },
       "version": "2.0",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Apple_logo_grey.svg"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Apple_logo_grey.svg",
+      "color": "#438EFF"
     },
     {
       "slug": "ocaml",
@@ -2119,7 +2219,8 @@
         "ecosystems": ["Compilers", "Formal Methods", "Systems Programming", "Web"]
       },
       "version": "5.6.0",
-      "logo": "https://cdn.simpleicons.org/ocaml/EC6813"
+      "logo": "https://cdn.simpleicons.org/ocaml/EC6813",
+      "color": "#EC6813"
     },
     {
       "slug": "odin",
@@ -2140,7 +2241,8 @@
         "ecosystems": ["Systems", "Game Development", "Native"]
       },
       "version": "dev-2026-02",
-      "logo": "https://avatars.githubusercontent.com/u/12533910?v=4"
+      "logo": "https://avatars.githubusercontent.com/u/12533910?v=4",
+      "color": "#3882D2"
     },
     {
       "slug": "opencl",
@@ -2160,7 +2262,8 @@
         "ecosystems": ["GPU Compute", "Heterogeneous Computing", "Khronos"]
       },
       "version": "OpenCL C 3.0",
-      "logo": "https://cdn.simpleicons.org/khronosgroup/CC3333"
+      "logo": "https://cdn.simpleicons.org/khronosgroup/CC3333",
+      "color": "#CC3333"
     },
     {
       "slug": "plsql",
@@ -2180,7 +2283,8 @@
         "ecosystems": ["Oracle", "SQL", "Enterprise Data"]
       },
       "version": "Oracle Database 26ai",
-      "logo": "https://github.com/oracle.png"
+      "logo": "https://github.com/oracle.png",
+      "color": "#F80000"
     },
     {
       "slug": "pascal",
@@ -2201,7 +2305,8 @@
         "ecosystems": ["Desktop", "Education", "Embedded", "Cross-platform Native"]
       },
       "version": "3.2.2",
-      "logo": "https://cdn.simpleicons.org/lazarus/000000"
+      "logo": "https://cdn.simpleicons.org/lazarus/000000",
+      "color": "#000000"
     },
     {
       "slug": "perl",
@@ -2222,7 +2327,8 @@
         "ecosystems": ["Unix", "Web", "Text Processing", "System Administration", "Bioinformatics"]
       },
       "version": "5.42.2",
-      "logo": "https://cdn.simpleicons.org/perl/39457E"
+      "logo": "https://cdn.simpleicons.org/perl/39457E",
+      "color": "#39457E"
     },
     {
       "slug": "php",
@@ -2243,7 +2349,8 @@
         "ecosystems": ["Web", "WordPress", "Laravel", "Symfony"]
       },
       "version": "8.5.6",
-      "logo": "https://www.php.net/images/logos/new-php-logo.svg"
+      "logo": "https://www.php.net/images/logos/new-php-logo.svg",
+      "color": "#777BB4"
     },
     {
       "slug": "pine-script",
@@ -2263,7 +2370,8 @@
         "ecosystems": ["Charts", "Trading", "Technical Analysis"]
       },
       "version": "v6",
-      "logo": "https://cdn.simpleicons.org/tradingview/131722"
+      "logo": "https://cdn.simpleicons.org/tradingview/131722",
+      "color": "#131722"
     },
     {
       "slug": "plantuml",
@@ -2284,7 +2392,8 @@
         "ecosystems": ["UML", "Architecture", "Documentation", "Diagrams"]
       },
       "version": "1.2026.3",
-      "logo": "https://plantuml.com/logo3.png"
+      "logo": "https://plantuml.com/logo3.png",
+      "color": "#FBB03B"
     },
     {
       "slug": "pony",
@@ -2305,7 +2414,8 @@
         "ecosystems": ["Actors", "Native", "Distributed Systems"]
       },
       "version": "0.61.1",
-      "logo": "https://avatars.githubusercontent.com/u/14593805?v=4"
+      "logo": "https://avatars.githubusercontent.com/u/14593805?v=4",
+      "color": "#7D5BA6"
     },
     {
       "slug": "powershell",
@@ -2326,7 +2436,8 @@
         "ecosystems": ["Windows", "Azure", "DevOps", "Automation"]
       },
       "version": "7.6.1",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png",
+      "color": "#5391FE"
     },
     {
       "slug": "prolog",
@@ -2347,7 +2458,8 @@
         "ecosystems": ["Logic Programming", "AI", "Expert Systems", "Constraint Solving"]
       },
       "version": "SWI-Prolog 10.0",
-      "logo": "https://www.swi-prolog.org/icons/swipl.png"
+      "logo": "https://www.swi-prolog.org/icons/swipl.png",
+      "color": "#74283C"
     },
     {
       "slug": "promql",
@@ -2367,7 +2479,8 @@
         "ecosystems": ["Observability", "Metrics", "Monitoring"]
       },
       "version": "Prometheus 3.x",
-      "logo": "https://cdn.simpleicons.org/prometheus/E6522C"
+      "logo": "https://cdn.simpleicons.org/prometheus/E6522C",
+      "color": "#E6522C"
     },
     {
       "slug": "protobuf",
@@ -2388,7 +2501,8 @@
         "ecosystems": ["gRPC", "APIs", "Microservices", "Data Serialization"]
       },
       "version": "34.1",
-      "logo": "https://cdn.simpleicons.org/google/4285F4"
+      "logo": "https://cdn.simpleicons.org/google/4285F4",
+      "color": "#4285F4"
     },
     {
       "slug": "pug",
@@ -2409,7 +2523,8 @@
         "ecosystems": ["Web", "Node.js"]
       },
       "version": "3.0.4",
-      "logo": "https://cdn.simpleicons.org/pug/A86454"
+      "logo": "https://cdn.simpleicons.org/pug/A86454",
+      "color": "#A86454"
     },
     {
       "slug": "purescript",
@@ -2430,7 +2545,8 @@
         "ecosystems": ["Web", "Functional Programming", "JavaScript"]
       },
       "version": "0.15.15",
-      "logo": "https://cdn.simpleicons.org/purescript/14161A"
+      "logo": "https://cdn.simpleicons.org/purescript/14161A",
+      "color": "#14161A"
     },
     {
       "slug": "python",
@@ -2451,7 +2567,8 @@
         "ecosystems": ["Web", "Data Science", "Machine Learning", "Automation"]
       },
       "version": "3.14.5",
-      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Python-logo-notext.svg"
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Python-logo-notext.svg",
+      "color": "#3776AB"
     },
     {
       "slug": "qsharp",
@@ -2472,7 +2589,8 @@
         "ecosystems": ["Quantum Computing", "Azure"]
       },
       "version": "Q# 1.0",
-      "logo": "https://github.com/microsoft.png"
+      "logo": "https://github.com/microsoft.png",
+      "color": "#0078D4"
     },
     {
       "slug": "qml",
@@ -2493,7 +2611,8 @@
         "ecosystems": ["Desktop UI", "Embedded UI", "Mobile UI", "Qt"]
       },
       "version": "Qt 6.11.1",
-      "logo": "https://cdn.simpleicons.org/qt/41CD52"
+      "logo": "https://cdn.simpleicons.org/qt/41CD52",
+      "color": "#41CD52"
     },
     {
       "slug": "r",
@@ -2514,7 +2633,8 @@
         "ecosystems": ["Statistics", "Data Science", "Visualization", "Scientific Computing"]
       },
       "version": "4.6.0",
-      "logo": "https://www.r-project.org/logo/Rlogo.svg"
+      "logo": "https://www.r-project.org/logo/Rlogo.svg",
+      "color": "#276DC3"
     },
     {
       "slug": "racket",
@@ -2535,7 +2655,8 @@
         "ecosystems": ["Education", "Language Design", "DSLs", "Research", "Scripting"]
       },
       "version": "9.1",
-      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Racket-logo.svg"
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Racket-logo.svg",
+      "color": "#9F1D20"
     },
     {
       "slug": "raku",
@@ -2556,7 +2677,8 @@
         "ecosystems": ["Raku", "CLI", "Text Processing"]
       },
       "version": "6.d",
-      "logo": "https://github.com/Raku.png"
+      "logo": "https://github.com/Raku.png",
+      "color": "#0000FB"
     },
     {
       "slug": "razor",
@@ -2577,7 +2699,8 @@
         "ecosystems": [".NET", "ASP.NET Core", "Web", "Blazor"]
       },
       "version": "10.0.8",
-      "logo": "https://cdn.simpleicons.org/dotnet/512BD4"
+      "logo": "https://cdn.simpleicons.org/dotnet/512BD4",
+      "color": "#512BD4"
     },
     {
       "slug": "reasonml",
@@ -2598,7 +2721,8 @@
         "ecosystems": ["OCaml", "JavaScript", "Web"]
       },
       "version": "3.13.0",
-      "logo": "https://cdn.simpleicons.org/reason/DD4B39"
+      "logo": "https://cdn.simpleicons.org/reason/DD4B39",
+      "color": "#DD4B39"
     },
     {
       "slug": "rego",
@@ -2619,7 +2743,8 @@
         "ecosystems": ["Policy as Code", "Kubernetes", "Cloud Native", "Authorization"]
       },
       "version": "OPA 1.16.2",
-      "logo": "https://raw.githubusercontent.com/open-policy-agent/opa/main/logo/logo.svg"
+      "logo": "https://raw.githubusercontent.com/open-policy-agent/opa/main/logo/logo.svg",
+      "color": "#5C4EE5"
     },
     {
       "slug": "rescript",
@@ -2640,7 +2765,8 @@
         "ecosystems": ["Web", "React", "JavaScript"]
       },
       "version": "12.0.0",
-      "logo": "https://cdn.simpleicons.org/rescript/E6484A"
+      "logo": "https://cdn.simpleicons.org/rescript/E6484A",
+      "color": "#E6484A"
     },
     {
       "slug": "restructuredtext",
@@ -2661,7 +2787,8 @@
         "ecosystems": ["Python", "Documentation", "Publishing"]
       },
       "version": "Docutils 0.22.2",
-      "logo": "https://cdn.simpleicons.org/readthedocs/8CA1AF"
+      "logo": "https://cdn.simpleicons.org/readthedocs/8CA1AF",
+      "color": "#8CA1AF"
     },
     {
       "slug": "ruby",
@@ -2682,7 +2809,8 @@
         "ecosystems": ["Web", "Rails", "DevOps", "Automation"]
       },
       "version": "4.0.4",
-      "logo": "https://www.ruby-lang.org/images/header-ruby-logo.png"
+      "logo": "https://www.ruby-lang.org/images/header-ruby-logo.png",
+      "color": "#CC342D"
     },
     {
       "slug": "rust",
@@ -2703,7 +2831,8 @@
         "ecosystems": ["Systems", "WebAssembly", "Embedded"]
       },
       "version": "1.95.0",
-      "logo": "https://www.rust-lang.org/logos/rust-logo-512x512.png"
+      "logo": "https://www.rust-lang.org/logos/rust-logo-512x512.png",
+      "color": "#DEA584"
     },
     {
       "slug": "sas",
@@ -2723,7 +2852,8 @@
         "ecosystems": ["Analytics", "Statistics", "Enterprise Data"]
       },
       "version": "SAS 9.4",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/1/10/SAS_logo_horiz.svg"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/1/10/SAS_logo_horiz.svg",
+      "color": "#1E77B3"
     },
     {
       "slug": "scss",
@@ -2744,7 +2874,8 @@
         "ecosystems": ["Web", "Design Systems"]
       },
       "version": "1.99.0",
-      "logo": "https://sass-lang.com/assets/img/logos/logo.svg"
+      "logo": "https://sass-lang.com/assets/img/logos/logo.svg",
+      "color": "#CC6699"
     },
     {
       "slug": "scala",
@@ -2765,7 +2896,8 @@
         "ecosystems": ["JVM", "Web", "Data Engineering", "Distributed Systems"]
       },
       "version": "3.8.3",
-      "logo": "https://cdn.simpleicons.org/scala/DC322F"
+      "logo": "https://cdn.simpleicons.org/scala/DC322F",
+      "color": "#DC322F"
     },
     {
       "slug": "scheme",
@@ -2785,7 +2917,8 @@
         "ecosystems": ["Lisp", "Education", "Language Research"]
       },
       "version": "R7RS small",
-      "logo": "https://cdn.simpleicons.org/racket/9F1D20"
+      "logo": "https://cdn.simpleicons.org/racket/9F1D20",
+      "color": "#9F1D20"
     },
     {
       "slug": "smalltalk",
@@ -2805,7 +2938,8 @@
         "ecosystems": ["Images", "Education", "Object Systems"]
       },
       "version": "ANSI INCITS 319-1998",
-      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Smalltalk_Balloon.svg"
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Smalltalk_Balloon.svg",
+      "color": "#596FB5"
     },
     {
       "slug": "smarty",
@@ -2826,7 +2960,8 @@
         "ecosystems": ["PHP", "Web"]
       },
       "version": "5.5.1",
-      "logo": "https://www.smarty.net/images/logo_print.gif"
+      "logo": "https://www.smarty.net/images/logo_print.gif",
+      "color": "#F0C040"
     },
     {
       "slug": "solidity",
@@ -2847,7 +2982,8 @@
         "ecosystems": ["Ethereum", "Web3", "Smart Contracts", "Blockchain"]
       },
       "version": "0.8.35",
-      "logo": "https://cdn.simpleicons.org/solidity/363636"
+      "logo": "https://cdn.simpleicons.org/solidity/363636",
+      "color": "#363636"
     },
     {
       "slug": "sql",
@@ -2864,7 +3000,8 @@
       "paradigms": ["declarative", "data query", "relational"],
       "tooling": {},
       "version": "SQL:2023",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png",
+      "color": "#4479A1"
     },
     {
       "slug": "standard-ml",
@@ -2884,7 +3021,8 @@
         "ecosystems": ["ML", "Compilers", "Research"]
       },
       "version": "The Definition 1997",
-      "logo": "https://avatars.githubusercontent.com/u/62883579?v=4"
+      "logo": "https://avatars.githubusercontent.com/u/62883579?v=4",
+      "color": "#DC566D"
     },
     {
       "slug": "starlark",
@@ -2905,7 +3043,8 @@
         "ecosystems": ["Build Systems", "Configuration", "Monorepos", "Tooling"]
       },
       "version": "Bazel Starlark",
-      "logo": "https://cdn.simpleicons.org/bazel/43A047"
+      "logo": "https://cdn.simpleicons.org/bazel/43A047",
+      "color": "#43A047"
     },
     {
       "slug": "stata",
@@ -2925,7 +3064,8 @@
         "ecosystems": ["Statistics", "Econometrics", "Research"]
       },
       "version": "19",
-      "logo": "https://www.stata.com/includes/images/stata-logo-blue.svg"
+      "logo": "https://www.stata.com/includes/images/stata-logo-blue.svg",
+      "color": "#1A5276"
     },
     {
       "slug": "stylus",
@@ -2946,7 +3086,8 @@
         "ecosystems": ["CSS", "Web"]
       },
       "version": "0.64.0",
-      "logo": "https://cdn.simpleicons.org/stylus/333333"
+      "logo": "https://cdn.simpleicons.org/stylus/333333",
+      "color": "#333333"
     },
     {
       "slug": "svelte",
@@ -2967,7 +3108,8 @@
         "ecosystems": ["Web", "SvelteKit", "Vite"]
       },
       "version": "5.55.8",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg",
+      "color": "#FF3E00"
     },
     {
       "slug": "svg",
@@ -2987,7 +3129,8 @@
         "ecosystems": ["Web", "Design Tools", "Data Visualization"]
       },
       "version": "SVG 2",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4f/SVG_Logo.svg"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4f/SVG_Logo.svg",
+      "color": "#FFB13B"
     },
     {
       "slug": "svn",
@@ -3007,7 +3150,8 @@
         "ecosystems": ["Version Control", "Source Control", "DevOps", "Enterprise"]
       },
       "version": "1.14.5",
-      "logo": "https://cdn.simpleicons.org/subversion/809CC9"
+      "logo": "https://cdn.simpleicons.org/subversion/809CC9",
+      "color": "#809CC9"
     },
     {
       "slug": "swift",
@@ -3028,7 +3172,8 @@
         "ecosystems": ["Apple", "Server-side Swift"]
       },
       "version": "6.3.1",
-      "logo": "https://www.swift.org/assets/images/swift.svg"
+      "logo": "https://www.swift.org/assets/images/swift.svg",
+      "color": "#F05138"
     },
     {
       "slug": "tcl",
@@ -3049,7 +3194,8 @@
         "ecosystems": ["GUI Applications", "EDA", "Automation", "Embedded Scripting"]
       },
       "version": "9.0.3",
-      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tcl.svg"
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tcl.svg",
+      "color": "#1E5AA8"
     },
     {
       "slug": "tex",
@@ -3070,7 +3216,8 @@
         "ecosystems": ["Publishing", "Academic Writing", "Scientific Documents", "Print"]
       },
       "version": "TeX Live 2026",
-      "logo": "https://cdn.simpleicons.org/latex/008080"
+      "logo": "https://cdn.simpleicons.org/latex/008080",
+      "color": "#008080"
     },
     {
       "slug": "tla-plus",
@@ -3090,7 +3237,8 @@
         "ecosystems": ["Formal Methods", "Distributed Systems", "Verification"]
       },
       "version": "TLA+ 2",
-      "logo": "https://avatars.githubusercontent.com/u/315978?v=4"
+      "logo": "https://avatars.githubusercontent.com/u/315978?v=4",
+      "color": "#4A5568"
     },
     {
       "slug": "toml",
@@ -3107,7 +3255,8 @@
       "paradigms": ["configuration", "declarative", "data-serialization"],
       "tooling": {},
       "version": "1.1.0",
-      "logo": "https://cdn.simpleicons.org/toml/9C4221"
+      "logo": "https://cdn.simpleicons.org/toml/9C4221",
+      "color": "#9C4221"
     },
     {
       "slug": "twig",
@@ -3128,7 +3277,8 @@
         "ecosystems": ["PHP", "Symfony", "Web", "CMS"]
       },
       "version": "3.25.0",
-      "logo": "https://twig.symfony.com/images/logo.png"
+      "logo": "https://twig.symfony.com/images/logo.png",
+      "color": "#A5C53A"
     },
     {
       "slug": "typescript",
@@ -3149,7 +3299,8 @@
         "ecosystems": ["Web", "Node.js"]
       },
       "version": "6.0",
-      "logo": "https://www.typescriptlang.org/icons/icon-512x512.png"
+      "logo": "https://www.typescriptlang.org/icons/icon-512x512.png",
+      "color": "#3178C6"
     },
     {
       "slug": "typst",
@@ -3170,7 +3321,8 @@
         "ecosystems": ["Publishing", "Academic Writing", "Documentation", "Typesetting"]
       },
       "version": "0.14.2",
-      "logo": "https://cdn.simpleicons.org/typst/239DAD"
+      "logo": "https://cdn.simpleicons.org/typst/239DAD",
+      "color": "#239DAD"
     },
     {
       "slug": "v",
@@ -3191,7 +3343,8 @@
         "ecosystems": ["Native", "Web", "Systems"]
       },
       "version": "weekly.2025.49",
-      "logo": "https://cdn.simpleicons.org/v/5D87BF"
+      "logo": "https://cdn.simpleicons.org/v/5D87BF",
+      "color": "#5D87BF"
     },
     {
       "slug": "vala",
@@ -3212,7 +3365,8 @@
         "ecosystems": ["GNOME", "GTK", "Native"]
       },
       "version": "0.56.18",
-      "logo": "https://cdn.simpleicons.org/gnome/4A86CF"
+      "logo": "https://cdn.simpleicons.org/gnome/4A86CF",
+      "color": "#4A86CF"
     },
     {
       "slug": "verilog",
@@ -3233,7 +3387,8 @@
         "ecosystems": ["Hardware Design", "FPGA", "ASIC", "Verification"]
       },
       "version": "IEEE 1800-2023",
-      "logo": "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_verilog.svg"
+      "logo": "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_verilog.svg",
+      "color": "#1488C6"
     },
     {
       "slug": "vhdl",
@@ -3254,7 +3409,8 @@
         "ecosystems": ["Hardware Design", "FPGA", "ASIC", "Verification"]
       },
       "version": "IEEE 1076-2019",
-      "logo": "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_vhdl.svg"
+      "logo": "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_vhdl.svg",
+      "color": "#543978"
     },
     {
       "slug": "visual-basic",
@@ -3275,7 +3431,8 @@
         "ecosystems": [".NET", "Visual Studio", "Windows Forms", "ASP.NET"]
       },
       "version": "17.13",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/4/40/VB.NET_Logo.svg"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/4/40/VB.NET_Logo.svg",
+      "color": "#512BD4"
     },
     {
       "slug": "vue",
@@ -3296,7 +3453,8 @@
         "ecosystems": ["Web", "Vue", "Vite", "Nuxt"]
       },
       "version": "3.5.34",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg",
+      "color": "#4FC08D"
     },
     {
       "slug": "vyper",
@@ -3317,7 +3475,8 @@
         "ecosystems": ["Ethereum", "Smart Contracts", "Web3"]
       },
       "version": "0.4.3",
-      "logo": "https://avatars.githubusercontent.com/u/37288461?v=4"
+      "logo": "https://avatars.githubusercontent.com/u/37288461?v=4",
+      "color": "#3C3C3D"
     },
     {
       "slug": "webassembly",
@@ -3338,7 +3497,8 @@
         "ecosystems": ["Web", "WASI", "WebAssembly Component Model"]
       },
       "version": "3.0",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1f/WebAssembly_Logo.svg"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1f/WebAssembly_Logo.svg",
+      "color": "#654FF0"
     },
     {
       "slug": "wgsl",
@@ -3359,7 +3519,8 @@
         "ecosystems": ["WebGPU", "Graphics", "GPU Programming", "Web"]
       },
       "version": "Candidate Recommendation Draft 2026-05-07",
-      "logo": "https://cdn.simpleicons.org/webgpu/005A9C"
+      "logo": "https://cdn.simpleicons.org/webgpu/005A9C",
+      "color": "#005A9C"
     },
     {
       "slug": "mathematica",
@@ -3379,7 +3540,8 @@
         "ecosystems": ["Scientific Computing", "Symbolic Computing", "Notebooks"]
       },
       "version": "14.3",
-      "logo": "https://cdn.simpleicons.org/wolfram/DD1100"
+      "logo": "https://cdn.simpleicons.org/wolfram/DD1100",
+      "color": "#DD1100"
     },
     {
       "slug": "wren",
@@ -3399,7 +3561,8 @@
         "ecosystems": ["Embedding", "Games", "Scripting"]
       },
       "version": "0.4.0",
-      "logo": "https://avatars.githubusercontent.com/u/8763410?v=4"
+      "logo": "https://avatars.githubusercontent.com/u/8763410?v=4",
+      "color": "#383838"
     },
     {
       "slug": "xaml",
@@ -3419,7 +3582,8 @@
         "ecosystems": ["Windows", ".NET", "Desktop Applications", "Mobile Applications", "UI"]
       },
       "version": "Platform-specific",
-      "logo": "https://cdn.simpleicons.org/dotnet/512BD4"
+      "logo": "https://cdn.simpleicons.org/dotnet/512BD4",
+      "color": "#512BD4"
     },
     {
       "slug": "xml",
@@ -3436,7 +3600,8 @@
       "paradigms": ["declarative", "markup", "data-serialization"],
       "tooling": {},
       "version": "XML 1.0 Fifth Edition",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/6/68/XML.svg"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/6/68/XML.svg",
+      "color": "#E37933"
     },
     {
       "slug": "xquery",
@@ -3457,7 +3622,8 @@
         "ecosystems": ["XML", "Databases", "Publishing", "Enterprise Data"]
       },
       "version": "XQuery 3.1",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/6/68/XML.svg"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/6/68/XML.svg",
+      "color": "#E37933"
     },
     {
       "slug": "xslt",
@@ -3478,7 +3644,8 @@
         "ecosystems": ["XML", "Publishing", "Enterprise Integration", "Document Processing"]
       },
       "version": "XSLT 3.0",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/6/68/XML.svg"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/6/68/XML.svg",
+      "color": "#E37933"
     },
     {
       "slug": "yaml",
@@ -3495,7 +3662,8 @@
       "paradigms": ["data serialization", "declarative"],
       "tooling": {},
       "version": "1.2.2",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Official_YAML_Logo.svg"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Official_YAML_Logo.svg",
+      "color": "#CB171E"
     },
     {
       "slug": "zeek",
@@ -3516,7 +3684,8 @@
         "ecosystems": ["Network Security", "Observability", "Incident Response"]
       },
       "version": "8.0.4",
-      "logo": "https://avatars.githubusercontent.com/u/10666805?v=4"
+      "logo": "https://avatars.githubusercontent.com/u/10666805?v=4",
+      "color": "#8B1E3F"
     },
     {
       "slug": "zig",
@@ -3537,7 +3706,8 @@
         "ecosystems": ["Systems Programming", "Embedded", "Game Development", "Cross-compilation"]
       },
       "version": "0.16.0",
-      "logo": "https://cdn.simpleicons.org/zig/F7A41D"
+      "logo": "https://cdn.simpleicons.org/zig/F7A41D",
+      "color": "#F7A41D"
     },
     {
       "slug": "ziggy",
@@ -3557,7 +3727,8 @@
         "ecosystems": ["Configuration", "Data Formats", "Zig"]
       },
       "version": "0.1.0",
-      "logo": "https://avatars.githubusercontent.com/u/1642052?v=4"
+      "logo": "https://avatars.githubusercontent.com/u/1642052?v=4",
+      "color": "#F7A41D"
     },
     {
       "slug": "zsh",
@@ -3578,7 +3749,8 @@
         "ecosystems": ["Unix", "Linux", "macOS", "DevOps"]
       },
       "version": "5.9",
-      "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Z_Shell_Logo_Color_Horizontal.svg"
+      "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Z_Shell_Logo_Color_Horizontal.svg",
+      "color": "#89E051"
     }
   ]
 }

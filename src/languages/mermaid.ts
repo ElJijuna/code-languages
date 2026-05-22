@@ -14,6 +14,7 @@ export const mermaid = {
   },
   version: "11.15.0",
   logo: "https://cdn.simpleicons.org/mermaid/FF3670",
+  color: "#FF3670",
   i18n: {
     en: {
       name: "Mermaid",

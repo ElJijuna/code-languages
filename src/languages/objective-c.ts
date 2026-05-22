@@ -15,6 +15,7 @@ export const objectiveC = {
   },
   version: "2.0",
   logo: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Apple_logo_grey.svg",
+  color: "#438EFF",
   i18n: {
     en: {
       name: "Objective-C",

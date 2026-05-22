@@ -14,6 +14,7 @@ export const meson = {
   },
   version: "1.11.1",
   logo: "https://raw.githubusercontent.com/mesonbuild/meson/master/graphics/meson_logo.svg",
+  color: "#0077C8",
   i18n: {
     en: {
       name: "Meson",

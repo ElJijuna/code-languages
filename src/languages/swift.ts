@@ -14,6 +14,7 @@ export const swift = {
   },
   version: "6.3.1",
   logo: "https://www.swift.org/assets/images/swift.svg",
+  color: "#F05138",
   i18n: {
     en: {
       name: "Swift",

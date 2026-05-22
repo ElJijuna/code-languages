@@ -14,6 +14,7 @@ export const haxe = {
   },
   version: "4.3.7",
   logo: "https://cdn.simpleicons.org/haxe/EA8220",
+  color: "#EA8220",
   i18n: {
     en: {
       name: "Haxe",

@@ -13,6 +13,7 @@ export const xaml = {
   },
   version: "Platform-specific",
   logo: "https://cdn.simpleicons.org/dotnet/512BD4",
+  color: "#512BD4",
   i18n: {
     en: {
       name: "XAML",

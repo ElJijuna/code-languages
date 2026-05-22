@@ -14,6 +14,7 @@ export const circom = {
   },
   version: "2.2.3",
   logo: "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_circom.svg",
+  color: "#EA7252",
   i18n: {
     en: {
       name: "Circom",

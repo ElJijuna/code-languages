@@ -14,6 +14,7 @@ export const javascript = {
   },
   version: "ECMAScript 2025",
   logo: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+  color: "#F7DF1E",
   i18n: {
     en: {
       name: "JavaScript",

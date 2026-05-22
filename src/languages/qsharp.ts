@@ -14,6 +14,7 @@ export const qsharp = {
   },
   version: "Q# 1.0",
   logo: "https://github.com/microsoft.png",
+  color: "#0078D4",
   i18n: {
     en: {
       name: "Q#",

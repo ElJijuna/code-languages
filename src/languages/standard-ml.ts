@@ -13,6 +13,7 @@ export const standardMl = {
   },
   version: "The Definition 1997",
   logo: "https://avatars.githubusercontent.com/u/62883579?v=4",
+  color: "#DC566D",
   i18n: {
     en: {
       name: "Standard ML",

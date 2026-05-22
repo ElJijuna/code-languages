@@ -14,6 +14,7 @@ export const apex = {
   },
   version: "API 66.0",
   logo: "https://commons.wikimedia.org/wiki/Special:FilePath/Salesforce.com_logo.svg",
+  color: "#00A1E0",
   i18n: {
     en: {
       name: "Apex",

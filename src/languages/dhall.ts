@@ -14,6 +14,7 @@ export const dhall = {
   },
   version: "23.1.0",
   logo: "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_dhall.svg",
+  color: "#184A7D",
   i18n: {
     en: {
       name: "Dhall",

@@ -14,6 +14,7 @@ export const groovy = {
   },
   version: "5.0.6",
   logo: "https://upload.wikimedia.org/wikipedia/commons/3/36/Groovy-logo.svg",
+  color: "#4298B8",
   i18n: {
     en: {
       name: "Groovy",

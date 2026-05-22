@@ -14,6 +14,7 @@ export const lean = {
   },
   version: "4.29.1",
   logo: "https://cdn.simpleicons.org/leanpub/262425",
+  color: "#262425",
   i18n: {
     en: {
       name: "Lean",

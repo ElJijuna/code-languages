@@ -14,6 +14,7 @@ export const hack = {
   },
   version: "HHVM 4.x",
   logo: "https://upload.wikimedia.org/wikipedia/commons/a/a7/Hack_%28programming_language%29_logo.svg",
+  color: "#8892BF",
   i18n: {
     en: {
       name: "Hack",

@@ -13,6 +13,7 @@ export const pineScript = {
   },
   version: "v6",
   logo: "https://cdn.simpleicons.org/tradingview/131722",
+  color: "#131722",
   i18n: {
     en: {
       name: "Pine Script",

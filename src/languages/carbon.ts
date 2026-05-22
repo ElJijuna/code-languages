@@ -14,6 +14,7 @@ export const carbon = {
   },
   version: "0.0.0 nightly",
   logo: "https://upload.wikimedia.org/wikipedia/commons/e/e1/Carbon_logo.png",
+  color: "#4C7CBF",
   i18n: {
     en: {
       name: "Carbon",

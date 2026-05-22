@@ -14,6 +14,7 @@ export const applescript = {
   },
   version: "2.8",
   logo: "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_applescript.svg",
+  color: "#6E6E6E",
   i18n: {
     en: {
       name: "AppleScript",

@@ -13,6 +13,7 @@ export const abap = {
   },
   version: "ABAP Platform 2025 FPS01",
   logo: "https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg",
+  color: "#0FAAFF",
   i18n: {
     en: {
       name: "ABAP",

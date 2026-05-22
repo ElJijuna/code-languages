@@ -14,6 +14,7 @@ export const webassembly = {
   },
   version: "3.0",
   logo: "https://upload.wikimedia.org/wikipedia/commons/1/1f/WebAssembly_Logo.svg",
+  color: "#654FF0",
   i18n: {
     en: {
       name: "WebAssembly",

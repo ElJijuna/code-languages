@@ -14,6 +14,7 @@ export const blade = {
   },
   version: "Laravel 12.x",
   logo: "https://cdn.simpleicons.org/laravel/FF2D20",
+  color: "#FF2D20",
   i18n: {
     en: {
       name: "Blade",

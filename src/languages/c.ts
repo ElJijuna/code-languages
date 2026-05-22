@@ -14,6 +14,7 @@ export const c = {
   },
   version: "C23",
   logo: "https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg",
+  color: "#A8B9CC",
   i18n: {
     en: {
       name: "C",

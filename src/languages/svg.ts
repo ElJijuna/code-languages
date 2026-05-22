@@ -13,6 +13,7 @@ export const svg = {
   },
   version: "SVG 2",
   logo: "https://upload.wikimedia.org/wikipedia/commons/4/4f/SVG_Logo.svg",
+  color: "#FFB13B",
   i18n: {
     en: {
       name: "SVG",

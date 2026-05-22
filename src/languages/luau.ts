@@ -14,6 +14,7 @@ export const luau = {
   },
   version: "0.719",
   logo: "https://cdn.simpleicons.org/roblox/000000",
+  color: "#000000",
   i18n: {
     en: {
       name: "Luau",

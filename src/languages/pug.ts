@@ -14,6 +14,7 @@ export const pug = {
   },
   version: "3.0.4",
   logo: "https://cdn.simpleicons.org/pug/A86454",
+  color: "#A86454",
   i18n: {
     en: {
       name: "Pug",

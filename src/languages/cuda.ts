@@ -14,6 +14,7 @@ export const cuda = {
   },
   version: "13.2.1",
   logo: "https://cdn.simpleicons.org/nvidia/76B900",
+  color: "#76B900",
   i18n: {
     en: {
       name: "CUDA",

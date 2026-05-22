@@ -13,6 +13,7 @@ export const dockerfile = {
   },
   version: "1.10",
   logo: "https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png",
+  color: "#2496ED",
   i18n: {
     en: {
       name: "Dockerfile",

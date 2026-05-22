@@ -13,6 +13,7 @@ export const ziggy = {
   },
   version: "0.1.0",
   logo: "https://avatars.githubusercontent.com/u/1642052?v=4",
+  color: "#F7A41D",
   i18n: {
     en: {
       name: "Ziggy",

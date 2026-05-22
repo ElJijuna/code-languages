@@ -14,6 +14,7 @@ export const fortran = {
   },
   version: "Fortran 2023",
   logo: "https://upload.wikimedia.org/wikipedia/commons/b/b8/Fortran_logo.svg",
+  color: "#734F96",
   i18n: {
     en: {
       name: "Fortran",

@@ -14,6 +14,7 @@ export const jupyterNotebook = {
   },
   version: "nbformat 4.5",
   logo: "https://cdn.simpleicons.org/jupyter/F37626",
+  color: "#F37626",
   i18n: {
     en: {
       name: "Jupyter Notebook",

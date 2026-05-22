@@ -14,6 +14,7 @@ export const handlebars = {
   },
   version: "4.7.9",
   logo: "https://cdn.simpleicons.org/handlebarsdotjs/000000",
+  color: "#000000",
   i18n: {
     en: {
       name: "Handlebars",

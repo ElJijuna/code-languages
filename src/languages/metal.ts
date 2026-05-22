@@ -13,6 +13,7 @@ export const metal = {
   },
   version: "Metal 4",
   logo: "https://developer.apple.com/assets/elements/icons/metal/metal-256x256_2x.png",
+  color: "#999999",
   i18n: {
     en: {
       name: "Metal",

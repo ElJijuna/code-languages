@@ -14,6 +14,7 @@ export const restructuredtext = {
   },
   version: "Docutils 0.22.2",
   logo: "https://cdn.simpleicons.org/readthedocs/8CA1AF",
+  color: "#8CA1AF",
   i18n: {
     en: {
       name: "reStructuredText",

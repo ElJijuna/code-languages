@@ -14,6 +14,7 @@ export const vala = {
   },
   version: "0.56.18",
   logo: "https://cdn.simpleicons.org/gnome/4A86CF",
+  color: "#4A86CF",
   i18n: {
     en: {
       name: "Vala",

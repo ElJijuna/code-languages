@@ -14,6 +14,7 @@ export const erb = {
   },
   version: "Ruby stdlib",
   logo: "https://commons.wikimedia.org/wiki/Special:FilePath/Ruby_logo.svg",
+  color: "#CC342D",
   i18n: {
     en: {
       name: "ERB",

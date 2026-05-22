@@ -14,6 +14,7 @@ export const rust = {
   },
   version: "1.95.0",
   logo: "https://www.rust-lang.org/logos/rust-logo-512x512.png",
+  color: "#DEA584",
   i18n: {
     en: {
       name: "Rust",

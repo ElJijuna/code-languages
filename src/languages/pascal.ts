@@ -14,6 +14,7 @@ export const pascal = {
   },
   version: "3.2.2",
   logo: "https://cdn.simpleicons.org/lazarus/000000",
+  color: "#000000",
   i18n: {
     en: {
       name: "Pascal",

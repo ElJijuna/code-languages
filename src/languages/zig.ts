@@ -14,6 +14,7 @@ export const zig = {
   },
   version: "0.16.0",
   logo: "https://cdn.simpleicons.org/zig/F7A41D",
+  color: "#F7A41D",
   i18n: {
     en: {
       name: "Zig",

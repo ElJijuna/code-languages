@@ -14,6 +14,7 @@ export const solidity = {
   },
   version: "0.8.35",
   logo: "https://cdn.simpleicons.org/solidity/363636",
+  color: "#363636",
   i18n: {
     en: {
       name: "Solidity",

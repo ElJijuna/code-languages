@@ -14,6 +14,7 @@ export const go = {
   },
   version: "1.26.3",
   logo: "https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg",
+  color: "#00ADD8",
   i18n: {
     en: {
       name: "Go",

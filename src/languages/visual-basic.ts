@@ -14,6 +14,7 @@ export const visualBasic = {
   },
   version: "17.13",
   logo: "https://upload.wikimedia.org/wikipedia/commons/4/40/VB.NET_Logo.svg",
+  color: "#512BD4",
   i18n: {
     en: {
       name: "Visual Basic",

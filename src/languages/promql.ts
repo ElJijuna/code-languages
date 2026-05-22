@@ -13,6 +13,7 @@ export const promql = {
   },
   version: "Prometheus 3.x",
   logo: "https://cdn.simpleicons.org/prometheus/E6522C",
+  color: "#E6522C",
   i18n: {
     en: {
       name: "PromQL",

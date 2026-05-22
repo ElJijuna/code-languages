@@ -13,6 +13,7 @@ export const wren = {
   },
   version: "0.4.0",
   logo: "https://avatars.githubusercontent.com/u/8763410?v=4",
+  color: "#383838",
   i18n: {
     en: {
       name: "Wren",

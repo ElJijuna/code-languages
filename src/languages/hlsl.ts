@@ -14,6 +14,7 @@ export const hlsl = {
   },
   version: "Shader Model 6.9",
   logo: "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_hlsl.svg",
+  color: "#0078D4",
   i18n: {
     en: {
       name: "HLSL",

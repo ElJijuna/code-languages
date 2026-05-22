@@ -13,6 +13,7 @@ export const autohotkey = {
   },
   version: "2.0",
   logo: "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_autohotkey.svg",
+  color: "#6594B9",
   i18n: {
     en: {
       name: "AutoHotkey",

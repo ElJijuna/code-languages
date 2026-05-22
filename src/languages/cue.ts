@@ -14,6 +14,7 @@ export const cue = {
   },
   version: "0.16.1",
   logo: "https://avatars.githubusercontent.com/u/43867057?s=200&v=4",
+  color: "#1F6BFF",
   i18n: {
     en: {
       name: "CUE",

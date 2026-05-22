@@ -14,6 +14,7 @@ export const moonbit = {
   },
   version: "0.9.2",
   logo: "https://avatars.githubusercontent.com/u/124476259?v=4",
+  color: "#F4B728",
   i18n: {
     en: {
       name: "MoonBit",

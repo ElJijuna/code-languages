@@ -9,6 +9,7 @@ export const yaml = {
   paradigms: ["data serialization", "declarative"],
   version: "1.2.2",
   logo: "https://upload.wikimedia.org/wikipedia/commons/5/5a/Official_YAML_Logo.svg",
+  color: "#CB171E",
   i18n: {
     en: {
       name: "YAML",

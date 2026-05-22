@@ -14,6 +14,7 @@ export const coq = {
   },
   version: "9.2.0",
   logo: "https://avatars.githubusercontent.com/u/621198?v=4",
+  color: "#C1272D",
   i18n: {
     en: {
       name: "Coq / Rocq",

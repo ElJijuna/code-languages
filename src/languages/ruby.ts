@@ -14,6 +14,7 @@ export const ruby = {
   },
   version: "4.0.4",
   logo: "https://www.ruby-lang.org/images/header-ruby-logo.png",
+  color: "#CC342D",
   i18n: {
     en: {
       name: "Ruby",

@@ -14,6 +14,7 @@ export const starlark = {
   },
   version: "Bazel Starlark",
   logo: "https://cdn.simpleicons.org/bazel/43A047",
+  color: "#43A047",
   i18n: {
     en: {
       name: "Starlark",

@@ -14,6 +14,7 @@ export const perl = {
   },
   version: "5.42.2",
   logo: "https://cdn.simpleicons.org/perl/39457E",
+  color: "#39457E",
   i18n: {
     en: {
       name: "Perl",

@@ -13,6 +13,7 @@ export const apl = {
   },
   version: "ISO/IEC 13751:2001",
   logo: "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_apl.svg",
+  color: "#5A8164",
   i18n: {
     en: {
       name: "APL",

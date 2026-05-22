@@ -9,6 +9,7 @@ export const html = {
   paradigms: ["declarative", "markup"],
   version: "Living Standard",
   logo: "https://www.w3.org/html/logo/downloads/HTML5_Badge.svg",
+  color: "#E34F26",
   i18n: {
     en: {
       name: "HTML",

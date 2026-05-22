@@ -14,6 +14,7 @@ export const haskell = {
   },
   version: "GHC 9.14.1",
   logo: "https://cdn.simpleicons.org/haskell/5D4F85",
+  color: "#5D4F85",
   i18n: {
     en: {
       name: "Haskell",

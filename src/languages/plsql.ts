@@ -13,6 +13,7 @@ export const plsql = {
   },
   version: "Oracle Database 26ai",
   logo: "https://github.com/oracle.png",
+  color: "#F80000",
   i18n: {
     en: {
       name: "Oracle PL/SQL",

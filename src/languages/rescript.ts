@@ -14,6 +14,7 @@ export const rescript = {
   },
   version: "12.0.0",
   logo: "https://cdn.simpleicons.org/rescript/E6484A",
+  color: "#E6484A",
   i18n: {
     en: {
       name: "ReScript",

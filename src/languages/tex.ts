@@ -14,6 +14,7 @@ export const tex = {
   },
   version: "TeX Live 2026",
   logo: "https://cdn.simpleicons.org/latex/008080",
+  color: "#008080",
   i18n: {
     en: {
       name: "TeX",

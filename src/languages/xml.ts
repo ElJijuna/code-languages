@@ -9,6 +9,7 @@ export const xml = {
   paradigms: ["declarative", "markup", "data-serialization"],
   version: "XML 1.0 Fifth Edition",
   logo: "https://upload.wikimedia.org/wikipedia/commons/6/68/XML.svg",
+  color: "#E37933",
   i18n: {
     en: {
       name: "XML",

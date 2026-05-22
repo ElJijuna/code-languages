@@ -14,6 +14,7 @@ export const protobuf = {
   },
   version: "34.1",
   logo: "https://cdn.simpleicons.org/google/4285F4",
+  color: "#4285F4",
   i18n: {
     en: {
       name: "Protocol Buffers",

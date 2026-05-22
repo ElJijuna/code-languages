@@ -14,6 +14,7 @@ export const java = {
   },
   version: "26",
   logo: "https://www.vectorlogo.zone/logos/java/java-icon.svg",
+  color: "#007396",
   i18n: {
     en: {
       name: "Java",

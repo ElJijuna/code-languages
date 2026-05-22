@@ -14,6 +14,7 @@ export const typescript = {
   },
   version: "6.0",
   logo: "https://www.typescriptlang.org/icons/icon-512x512.png",
+  color: "#3178C6",
   i18n: {
     en: {
       name: "TypeScript",

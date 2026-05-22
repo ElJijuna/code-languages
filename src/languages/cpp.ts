@@ -14,6 +14,7 @@ export const cpp = {
   },
   version: "C++23",
   logo: "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
+  color: "#00599C",
   i18n: {
     en: {
       name: "C++",

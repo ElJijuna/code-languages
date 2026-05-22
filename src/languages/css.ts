@@ -9,6 +9,7 @@ export const css = {
   paradigms: ["declarative", "stylesheet"],
   version: "Living Standard",
   logo: "https://upload.wikimedia.org/wikipedia/commons/a/ab/Official_CSS_Logo.svg",
+  color: "#1572B6",
   i18n: {
     en: {
       name: "CSS",

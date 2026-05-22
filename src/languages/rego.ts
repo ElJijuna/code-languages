@@ -14,6 +14,7 @@ export const rego = {
   },
   version: "OPA 1.16.2",
   logo: "https://raw.githubusercontent.com/open-policy-agent/opa/main/logo/logo.svg",
+  color: "#5C4EE5",
   i18n: {
     en: {
       name: "Rego",

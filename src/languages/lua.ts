@@ -14,6 +14,7 @@ export const lua = {
   },
   version: "5.5.0",
   logo: "https://www.lua.org/images/lua-logo.gif",
+  color: "#000080",
   i18n: {
     en: {
       name: "Lua",

@@ -13,6 +13,7 @@ export const cobol = {
   },
   version: "ISO/IEC 1989:2023",
   logo: "https://logo.svgcdn.com/devicon/cobol-original.png",
+  color: "#005CA5",
   i18n: {
     en: {
       name: "COBOL",

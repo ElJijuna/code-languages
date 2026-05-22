@@ -9,6 +9,7 @@ export const json = {
   paradigms: ["data serialization", "declarative"],
   version: "RFC 8259",
   logo: "https://www.json.org/img/json160.gif",
+  color: "#000000",
   i18n: {
     en: {
       name: "JSON",

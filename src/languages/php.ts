@@ -14,6 +14,7 @@ export const php = {
   },
   version: "8.5.6",
   logo: "https://www.php.net/images/logos/new-php-logo.svg",
+  color: "#777BB4",
   i18n: {
     en: {
       name: "PHP",

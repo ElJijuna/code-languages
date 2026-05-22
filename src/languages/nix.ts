@@ -14,6 +14,7 @@ export const nix = {
   },
   version: "2.34.7",
   logo: "https://cdn.simpleicons.org/nixos/5277C3",
+  color: "#5277C3",
   i18n: {
     en: {
       name: "Nix",

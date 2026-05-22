@@ -14,6 +14,7 @@ export const purescript = {
   },
   version: "0.15.15",
   logo: "https://cdn.simpleicons.org/purescript/14161A",
+  color: "#14161A",
   i18n: {
     en: {
       name: "PureScript",

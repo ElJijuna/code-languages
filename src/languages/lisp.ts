@@ -14,6 +14,7 @@ export const lisp = {
   },
   version: "ANSI INCITS 226-1994",
   logo: "https://commons.wikimedia.org/wiki/Special:FilePath/Lisp_logo.svg",
+  color: "#3FB68B",
   i18n: {
     en: {
       name: "Lisp",

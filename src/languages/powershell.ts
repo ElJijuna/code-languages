@@ -14,6 +14,7 @@ export const powershell = {
   },
   version: "7.6.1",
   logo: "https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png",
+  color: "#5391FE",
   i18n: {
     en: {
       name: "PowerShell",

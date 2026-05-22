@@ -13,6 +13,7 @@ export const mathematica = {
   },
   version: "14.3",
   logo: "https://cdn.simpleicons.org/wolfram/DD1100",
+  color: "#DD1100",
   i18n: {
     en: {
       name: "Wolfram Language",

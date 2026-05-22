@@ -55,6 +55,9 @@ export interface Language {
   /** URL to the official language logo or icon. */
   logo: string;
 
+  /** Reference color for the language in #RRGGBB hexadecimal form. */
+  color: `#${string}`;
+
   /** Localized display content. English is required as the fallback locale. */
   i18n: LanguageTranslations;
 }

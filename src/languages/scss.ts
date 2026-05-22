@@ -14,6 +14,7 @@ export const scss = {
   },
   version: "1.99.0",
   logo: "https://sass-lang.com/assets/img/logos/logo.svg",
+  color: "#CC6699",
   i18n: {
     en: {
       name: "Sass",

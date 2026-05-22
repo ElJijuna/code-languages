@@ -14,6 +14,7 @@ export const smarty = {
   },
   version: "5.5.1",
   logo: "https://www.smarty.net/images/logo_print.gif",
+  color: "#F0C040",
   i18n: {
     en: {
       name: "Smarty",

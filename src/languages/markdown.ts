@@ -9,6 +9,7 @@ export const markdown = {
   paradigms: ["declarative", "markup"],
   version: "CommonMark 4.0",
   logo: "https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg",
+  color: "#000000",
   i18n: {
     en: {
       name: "Markdown",

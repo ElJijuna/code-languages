@@ -14,6 +14,7 @@ export const dart = {
   },
   version: "3.11.6",
   logo: "https://commons.wikimedia.org/wiki/Special:FilePath/Dart_programming_language_logo.svg",
+  color: "#0175C2",
   i18n: {
     en: {
       name: "Dart",

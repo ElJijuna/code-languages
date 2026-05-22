@@ -14,6 +14,7 @@ export const v = {
   },
   version: "weekly.2025.49",
   logo: "https://cdn.simpleicons.org/v/5D87BF",
+  color: "#5D87BF",
   i18n: {
     en: {
       name: "V",

@@ -14,6 +14,7 @@ export const liquid = {
   },
   version: "10.27.0",
   logo: "https://cdn.simpleicons.org/shopify/7AB55C",
+  color: "#7AB55C",
   i18n: {
     en: {
       name: "Liquid",

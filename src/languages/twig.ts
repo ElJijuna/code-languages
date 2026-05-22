@@ -14,6 +14,7 @@ export const twig = {
   },
   version: "3.25.0",
   logo: "https://twig.symfony.com/images/logo.png",
+  color: "#A5C53A",
   i18n: {
     en: {
       name: "Twig",

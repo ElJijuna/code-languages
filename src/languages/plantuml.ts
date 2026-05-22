@@ -14,6 +14,7 @@ export const plantuml = {
   },
   version: "1.2026.3",
   logo: "https://plantuml.com/logo3.png",
+  color: "#FBB03B",
   i18n: {
     en: {
       name: "PlantUML",

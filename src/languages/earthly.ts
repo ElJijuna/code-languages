@@ -14,6 +14,7 @@ export const earthly = {
   },
   version: "0.8.16",
   logo: "https://avatars.githubusercontent.com/u/63060917?v=4",
+  color: "#2D7D46",
   i18n: {
     en: {
       name: "Earthly",

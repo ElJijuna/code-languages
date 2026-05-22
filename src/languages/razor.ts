@@ -14,6 +14,7 @@ export const razor = {
   },
   version: "10.0.8",
   logo: "https://cdn.simpleicons.org/dotnet/512BD4",
+  color: "#512BD4",
   i18n: {
     en: {
       name: "Razor",

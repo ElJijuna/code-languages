@@ -14,6 +14,7 @@ export const verilog = {
   },
   version: "IEEE 1800-2023",
   logo: "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_verilog.svg",
+  color: "#1488C6",
   i18n: {
     en: {
       name: "Verilog/SystemVerilog",

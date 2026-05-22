@@ -13,6 +13,7 @@ export const scheme = {
   },
   version: "R7RS small",
   logo: "https://cdn.simpleicons.org/racket/9F1D20",
+  color: "#9F1D20",
   i18n: {
     en: {
       name: "Scheme",

@@ -13,6 +13,7 @@ export const makefile = {
   },
   version: "4.4.1",
   logo: "https://upload.wikimedia.org/wikipedia/commons/7/71/Heckert_gnu.small.png",
+  color: "#427819",
   i18n: {
     en: {
       name: "Makefile",

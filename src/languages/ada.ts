@@ -14,6 +14,7 @@ export const ada = {
   },
   version: "Ada 2022",
   logo: "https://cdn.simpleicons.org/ada/02F88C",
+  color: "#02F88C",
   i18n: {
     en: {
       name: "Ada",

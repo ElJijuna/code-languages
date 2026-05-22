@@ -14,6 +14,7 @@ export const awk = {
   },
   version: "GNU Awk 5.4.0",
   logo: "https://www.gnu.org/graphics/heckert_gnu.small.png",
+  color: "#4E9A06",
   i18n: {
     en: {
       name: "awk",

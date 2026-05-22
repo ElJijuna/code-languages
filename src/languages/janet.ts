@@ -14,6 +14,7 @@ export const janet = {
   },
   version: "1.39.1",
   logo: "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_janet.svg",
+  color: "#A5C8E4",
   i18n: {
     en: {
       name: "Janet",

@@ -14,6 +14,7 @@ export const asp = {
   },
   version: "4.8.1",
   logo: "https://cdn.simpleicons.org/dotnet/512BD4",
+  color: "#512BD4",
   i18n: {
     en: {
       name: "ASP/ASPX",

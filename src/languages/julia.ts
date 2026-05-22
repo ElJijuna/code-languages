@@ -14,6 +14,7 @@ export const julia = {
   },
   version: "1.12.6",
   logo: "https://cdn.simpleicons.org/julia/9558B2",
+  color: "#9558B2",
   i18n: {
     en: {
       name: "Julia",

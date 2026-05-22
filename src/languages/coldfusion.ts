@@ -14,6 +14,7 @@ export const coldfusion = {
   },
   version: "ColdFusion 2025",
   logo: "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_cf.svg",
+  color: "#ED225D",
   i18n: {
     en: {
       name: "ColdFusion",

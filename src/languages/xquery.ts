@@ -14,6 +14,7 @@ export const xquery = {
   },
   version: "XQuery 3.1",
   logo: "https://upload.wikimedia.org/wikipedia/commons/6/68/XML.svg",
+  color: "#E37933",
   i18n: {
     en: {
       name: "XQuery",

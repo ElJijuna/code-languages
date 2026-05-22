@@ -14,6 +14,7 @@ export const xslt = {
   },
   version: "XSLT 3.0",
   logo: "https://upload.wikimedia.org/wikipedia/commons/6/68/XML.svg",
+  color: "#E37933",
   i18n: {
     en: {
       name: "XSLT",

@@ -13,6 +13,7 @@ export const tlaPlus = {
   },
   version: "TLA+ 2",
   logo: "https://avatars.githubusercontent.com/u/315978?v=4",
+  color: "#4A5568",
   i18n: {
     en: {
       name: "TLA+",

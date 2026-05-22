@@ -14,6 +14,7 @@ export const prolog = {
   },
   version: "SWI-Prolog 10.0",
   logo: "https://www.swi-prolog.org/icons/swipl.png",
+  color: "#74283C",
   i18n: {
     en: {
       name: "Prolog",

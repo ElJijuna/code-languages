@@ -14,6 +14,7 @@ export const astro = {
   },
   version: "6.3.5",
   logo: "https://astro.build/assets/press/astro-icon-light.svg",
+  color: "#FF5D01",
   i18n: {
     en: {
       name: "Astro",

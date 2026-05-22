@@ -14,6 +14,7 @@ export const glsl = {
   },
   version: "4.60",
   logo: "https://cdn.simpleicons.org/opengl/5586A4",
+  color: "#5586A4",
   i18n: {
     en: {
       name: "GLSL",

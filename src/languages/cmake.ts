@@ -13,6 +13,7 @@ export const cmake = {
   },
   version: "4.3.2",
   logo: "https://cmake.org/wp-content/uploads/2023/08/CMake-Logo.svg",
+  color: "#064F8C",
   i18n: {
     en: {
       name: "CMake",

@@ -9,7 +9,7 @@
 
 Structured metadata for programming languages, packaged as a typed, tree-shakeable TypeScript library.
 
-`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, and logos in developer tools, docs sites, learning platforms, or editor-like interfaces.
+`code-languages` is useful when you need a small source of truth for language names, slugs, file extensions, release metadata, websites, paradigms, logos, and reference colors in developer tools, docs sites, learning platforms, or editor-like interfaces.
 
 ## Features
 
@@ -728,6 +728,7 @@ export interface Language {
   };
   version: string;
   logo: string;
+  color: `#${string}`;
   i18n: {
     en: LanguageContent;
     es?: LanguageContent;

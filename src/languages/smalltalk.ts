@@ -13,6 +13,7 @@ export const smalltalk = {
   },
   version: "ANSI INCITS 319-1998",
   logo: "https://commons.wikimedia.org/wiki/Special:FilePath/Smalltalk_Balloon.svg",
+  color: "#596FB5",
   i18n: {
     en: {
       name: "Smalltalk",

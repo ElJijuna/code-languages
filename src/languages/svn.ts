@@ -13,6 +13,7 @@ export const svn = {
   },
   version: "1.14.5",
   logo: "https://cdn.simpleicons.org/subversion/809CC9",
+  color: "#809CC9",
   i18n: {
     en: {
       name: "SVN",

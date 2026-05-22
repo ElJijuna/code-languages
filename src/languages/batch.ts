@@ -14,6 +14,7 @@ export const batch = {
   },
   version: "Windows Command Processor",
   logo: "https://icons.iconarchive.com/icons/simpleicons-team/simple/128/windowsterminal-icon.png",
+  color: "#4D4D4D",
   i18n: {
     en: {
       name: "Batch",

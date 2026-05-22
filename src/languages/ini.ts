@@ -12,6 +12,7 @@ export const ini = {
   },
   version: "Informal format",
   logo: "https://commons.wikimedia.org/wiki/Special:FilePath/Configure.svg",
+  color: "#525252",
   i18n: {
     en: {
       name: "INI",

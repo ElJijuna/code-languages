@@ -14,6 +14,7 @@ export const python = {
   },
   version: "3.14.5",
   logo: "https://commons.wikimedia.org/wiki/Special:FilePath/Python-logo-notext.svg",
+  color: "#3776AB",
   i18n: {
     en: {
       name: "Python",

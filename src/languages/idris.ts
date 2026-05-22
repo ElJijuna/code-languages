@@ -14,6 +14,7 @@ export const idris = {
   },
   version: "0.8.0",
   logo: "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_idris.svg",
+  color: "#B30000",
   i18n: {
     en: {
       name: "Idris",

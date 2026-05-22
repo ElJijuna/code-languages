@@ -14,6 +14,7 @@ export const odin = {
   },
   version: "dev-2026-02",
   logo: "https://avatars.githubusercontent.com/u/12533910?v=4",
+  color: "#3882D2",
   i18n: {
     en: {
       name: "Odin",

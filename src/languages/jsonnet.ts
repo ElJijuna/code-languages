@@ -14,6 +14,7 @@ export const jsonnet = {
   },
   version: "0.21.0",
   logo: "https://jsonnet.org/img/isologo.svg",
+  color: "#0064BD",
   i18n: {
     en: {
       name: "Jsonnet",

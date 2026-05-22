@@ -14,6 +14,7 @@ export const r = {
   },
   version: "4.6.0",
   logo: "https://www.r-project.org/logo/Rlogo.svg",
+  color: "#276DC3",
   i18n: {
     en: {
       name: "R",

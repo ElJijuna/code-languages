@@ -14,6 +14,7 @@ export const mako = {
   },
   version: "1.3.10",
   logo: "https://cdn.simpleicons.org/python/3776AB",
+  color: "#3776AB",
   i18n: {
     en: {
       name: "Mako",

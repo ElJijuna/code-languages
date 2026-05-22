@@ -14,6 +14,7 @@ export const mdx = {
   },
   version: "3.1.1",
   logo: "https://cdn.simpleicons.org/mdx/1B1F24",
+  color: "#1B1F24",
   i18n: {
     en: {
       name: "MDX",

@@ -14,6 +14,7 @@ export const fsharp = {
   },
   version: "10",
   logo: "https://cdn.simpleicons.org/fsharp/378BBA",
+  color: "#378BBA",
   i18n: {
     en: {
       name: "F#",

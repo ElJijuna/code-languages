@@ -14,6 +14,7 @@ export const wgsl = {
   },
   version: "Candidate Recommendation Draft 2026-05-07",
   logo: "https://cdn.simpleicons.org/webgpu/005A9C",
+  color: "#005A9C",
   i18n: {
     en: {
       name: "WGSL",

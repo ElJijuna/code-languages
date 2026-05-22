@@ -56,6 +56,9 @@ export interface Language {
 
   /** URL to the official language logo or icon. */
   logo: string;
+
+  /** Reference color in #RRGGBB hexadecimal form. */
+  color: `#${string}`;
 }
 ```
 
@@ -308,6 +311,7 @@ File: `.github/PULL_REQUEST_TEMPLATE.md`
   - [ ] `paradigms` (at least one entry)
   - [ ] `version` (latest stable version)
   - [ ] `logo` (stable HTTPS URL, SVG preferred)
+  - [ ] `color` (reference color in `#RRGGBB` form)
 
 #### Wiring
 - [ ] Named export added to `src/index.ts`

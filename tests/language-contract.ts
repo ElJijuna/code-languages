@@ -20,6 +20,7 @@ export const expectValidLanguage = (language: Language, expectedSlug: string) =>
   expectLanguageTooling(language);
   expectNonEmptyString(language.version);
   expect(language.logo).toMatch(/^https:\/\//);
+  expect(language.color).toMatch(/^#[0-9A-F]{6}$/);
   expectLanguageContent(language.i18n.en);
 
   for (const content of Object.values(language.i18n)) {

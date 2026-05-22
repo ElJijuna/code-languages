@@ -14,6 +14,7 @@ export const graphql = {
   },
   version: "September 2025",
   logo: "https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg",
+  color: "#E10098",
   i18n: {
     en: {
       name: "GraphQL",

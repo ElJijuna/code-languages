@@ -13,6 +13,7 @@ export const nginx = {
   },
   version: "1.30.1",
   logo: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg",
+  color: "#009639",
   i18n: {
     en: {
       name: "nginx",

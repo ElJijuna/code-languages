@@ -14,6 +14,7 @@ export const coffeescript = {
   },
   version: "2.7.0",
   logo: "https://cdn.simpleicons.org/coffeescript/2F2625",
+  color: "#2F2625",
   i18n: {
     en: {
       name: "CoffeeScript",

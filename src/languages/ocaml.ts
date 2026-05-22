@@ -14,6 +14,7 @@ export const ocaml = {
   },
   version: "5.6.0",
   logo: "https://cdn.simpleicons.org/ocaml/EC6813",
+  color: "#EC6813",
   i18n: {
     en: {
       name: "OCaml",

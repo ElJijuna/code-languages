@@ -14,6 +14,7 @@ export const vue = {
   },
   version: "3.5.34",
   logo: "https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg",
+  color: "#4FC08D",
   i18n: {
     en: {
       name: "Vue",

@@ -14,6 +14,7 @@ export const antlr = {
   },
   version: "4.13.2",
   logo: "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_antlr.svg",
+  color: "#9DC3FF",
   i18n: {
     en: {
       name: "ANTLR Grammar",

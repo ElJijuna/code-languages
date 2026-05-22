@@ -14,6 +14,7 @@ export const vyper = {
   },
   version: "0.4.3",
   logo: "https://avatars.githubusercontent.com/u/37288461?v=4",
+  color: "#3C3C3D",
   i18n: {
     en: {
       name: "Vyper",

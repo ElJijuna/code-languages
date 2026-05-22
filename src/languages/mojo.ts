@@ -14,6 +14,7 @@ export const mojo = {
   },
   version: "0.26.1",
   logo: "https://avatars.githubusercontent.com/u/107116314?v=4",
+  color: "#FF5A1F",
   i18n: {
     en: {
       name: "Mojo",

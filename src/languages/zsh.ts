@@ -14,6 +14,7 @@ export const zsh = {
   },
   version: "5.9",
   logo: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Z_Shell_Logo_Color_Horizontal.svg",
+  color: "#89E051",
   i18n: {
     en: {
       name: "zsh",

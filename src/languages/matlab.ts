@@ -14,6 +14,7 @@ export const matlab = {
   },
   version: "R2026a",
   logo: "https://commons.wikimedia.org/wiki/Special:FilePath/Matlab_Logo.png",
+  color: "#E16737",
   i18n: {
     en: {
       name: "MATLAB",

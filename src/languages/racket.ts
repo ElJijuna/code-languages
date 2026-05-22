@@ -14,6 +14,7 @@ export const racket = {
   },
   version: "9.1",
   logo: "https://commons.wikimedia.org/wiki/Special:FilePath/Racket-logo.svg",
+  color: "#9F1D20",
   i18n: {
     en: {
       name: "Racket",

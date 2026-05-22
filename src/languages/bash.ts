@@ -14,6 +14,7 @@ export const bash = {
   },
   version: "5.3",
   logo: "https://bashlogo.com/img/symbol/svg/full_colored_dark.svg",
+  color: "#4EAA25",
   i18n: {
     en: {
       name: "Bash",

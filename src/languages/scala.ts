@@ -14,6 +14,7 @@ export const scala = {
   },
   version: "3.8.3",
   logo: "https://cdn.simpleicons.org/scala/DC322F",
+  color: "#DC322F",
   i18n: {
     en: {
       name: "Scala",

@@ -14,6 +14,7 @@ export const zeek = {
   },
   version: "8.0.4",
   logo: "https://avatars.githubusercontent.com/u/10666805?v=4",
+  color: "#8B1E3F",
   i18n: {
     en: {
       name: "Zeek",

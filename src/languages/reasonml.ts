@@ -14,6 +14,7 @@ export const reasonml = {
   },
   version: "3.13.0",
   logo: "https://cdn.simpleicons.org/reason/DD4B39",
+  color: "#DD4B39",
   i18n: {
     en: {
       name: "ReasonML",

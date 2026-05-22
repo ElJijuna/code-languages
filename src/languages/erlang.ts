@@ -14,6 +14,7 @@ export const erlang = {
   },
   version: "OTP 29.0",
   logo: "https://cdn.simpleicons.org/erlang/A90533",
+  color: "#A90533",
   i18n: {
     en: {
       name: "Erlang",

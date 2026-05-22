@@ -14,6 +14,7 @@ export const asciidoc = {
   },
   version: "pre-spec",
   logo: "https://cdn.simpleicons.org/asciidoctor/E40046",
+  color: "#E40046",
   i18n: {
     en: {
       name: "AsciiDoc",

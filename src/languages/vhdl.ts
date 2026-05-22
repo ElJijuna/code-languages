@@ -14,6 +14,7 @@ export const vhdl = {
   },
   version: "IEEE 1076-2019",
   logo: "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_vhdl.svg",
+  color: "#543978",
   i18n: {
     en: {
       name: "VHDL",

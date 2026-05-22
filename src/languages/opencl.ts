@@ -13,6 +13,7 @@ export const opencl = {
   },
   version: "OpenCL C 3.0",
   logo: "https://cdn.simpleicons.org/khronosgroup/CC3333",
+  color: "#CC3333",
   i18n: {
     en: {
       name: "OpenCL C",

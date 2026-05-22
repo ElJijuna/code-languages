@@ -14,6 +14,7 @@ export const agda = {
   },
   version: "2.8.0",
   logo: "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_agda.svg",
+  color: "#315665",
   i18n: {
     en: {
       name: "Agda",

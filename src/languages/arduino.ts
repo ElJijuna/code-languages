@@ -14,6 +14,7 @@ export const arduino = {
   },
   version: "Arduino API 1.0",
   logo: "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_arduino.svg",
+  color: "#00979D",
   i18n: {
     en: {
       name: "Arduino Sketch",

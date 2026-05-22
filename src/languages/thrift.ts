@@ -14,6 +14,7 @@ export const thrift = {
   },
   version: "0.22.0",
   logo: "https://cdn.simpleicons.org/apache/D22128",
+  color: "#D22128",
   i18n: {
     en: {
       name: "Apache Thrift",

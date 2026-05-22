@@ -14,6 +14,7 @@ export const typst = {
   },
   version: "0.14.2",
   logo: "https://cdn.simpleicons.org/typst/239DAD",
+  color: "#239DAD",
   i18n: {
     en: {
       name: "Typst",

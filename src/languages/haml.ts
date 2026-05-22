@@ -14,6 +14,7 @@ export const haml = {
   },
   version: "7.2.0",
   logo: "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_haml.svg",
+  color: "#ECE2A9",
   i18n: {
     en: {
       name: "Haml",

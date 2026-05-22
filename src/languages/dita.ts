@@ -14,6 +14,7 @@ export const dita = {
   },
   version: "1.3",
   logo: "https://avatars.githubusercontent.com/u/20116735?v=4",
+  color: "#3C6E71",
   i18n: {
     en: {
       name: "DITA",

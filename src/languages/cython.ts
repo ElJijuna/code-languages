@@ -14,6 +14,7 @@ export const cython = {
   },
   version: "3.1.4",
   logo: "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_cython.svg",
+  color: "#FED140",
   i18n: {
     en: {
       name: "Cython",

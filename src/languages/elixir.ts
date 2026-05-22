@@ -14,6 +14,7 @@ export const elixir = {
   },
   version: "1.19.5",
   logo: "https://cdn.simpleicons.org/elixir/4B275F",
+  color: "#4B275F",
   i18n: {
     en: {
       name: "Elixir",

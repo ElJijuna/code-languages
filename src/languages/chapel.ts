@@ -14,6 +14,7 @@ export const chapel = {
   },
   version: "2.6.0",
   logo: "https://chapel-lang.org/images/chapel-logo.png",
+  color: "#8C1AFF",
   i18n: {
     en: {
       name: "Chapel",

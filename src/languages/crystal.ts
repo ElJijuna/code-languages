@@ -14,6 +14,7 @@ export const crystal = {
   },
   version: "1.20.2",
   logo: "https://cdn.simpleicons.org/crystal/000000",
+  color: "#000000",
   i18n: {
     en: {
       name: "Crystal",

@@ -14,6 +14,7 @@ export const stylus = {
   },
   version: "0.64.0",
   logo: "https://cdn.simpleicons.org/stylus/333333",
+  color: "#333333",
   i18n: {
     en: {
       name: "Stylus",

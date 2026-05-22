@@ -14,6 +14,7 @@ export const gdscript = {
   },
   version: "4.6",
   logo: "https://cdn.simpleicons.org/godotengine/478CBF",
+  color: "#478CBF",
   i18n: {
     en: {
       name: "GDScript",

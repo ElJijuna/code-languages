@@ -14,6 +14,7 @@ export const jinja = {
   },
   version: "3.1.6",
   logo: "https://cdn.simpleicons.org/jinja/B41717",
+  color: "#B41717",
   i18n: {
     en: {
       name: "Jinja",

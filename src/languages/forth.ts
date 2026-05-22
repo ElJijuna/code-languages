@@ -13,6 +13,7 @@ export const forth = {
   },
   version: "Forth 2012",
   logo: "https://upload.wikimedia.org/wikipedia/commons/a/a5/Gforth_Logo.png",
+  color: "#341708",
   i18n: {
     en: {
       name: "Forth",

@@ -14,6 +14,7 @@ export const tcl = {
   },
   version: "9.0.3",
   logo: "https://commons.wikimedia.org/wiki/Special:FilePath/Tcl.svg",
+  color: "#1E5AA8",
   i18n: {
     en: {
       name: "Tcl/Tk",

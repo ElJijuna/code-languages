@@ -14,6 +14,7 @@ export const gleam = {
   },
   version: "1.16.0",
   logo: "https://cdn.simpleicons.org/gleam/FFAFF3",
+  color: "#FFAFF3",
   i18n: {
     en: {
       name: "Gleam",

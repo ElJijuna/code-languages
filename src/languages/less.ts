@@ -14,6 +14,7 @@ export const less = {
   },
   version: "4.6.4",
   logo: "https://upload.wikimedia.org/wikipedia/commons/8/81/LESS_Logo.svg",
+  color: "#1D365D",
   i18n: {
     en: {
       name: "Less",

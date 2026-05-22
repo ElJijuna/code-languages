@@ -14,6 +14,7 @@ export const bazel = {
   },
   version: "9.0.2",
   logo: "https://cdn.simpleicons.org/bazel/43A047",
+  color: "#43A047",
   i18n: {
     en: {
       name: "Bazel",

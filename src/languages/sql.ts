@@ -9,6 +9,7 @@ export const sql = {
   paradigms: ["declarative", "data query", "relational"],
   version: "SQL:2023",
   logo: "https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png",
+  color: "#4479A1",
   i18n: {
     en: {
       name: "SQL",

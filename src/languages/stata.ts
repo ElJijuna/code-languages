@@ -13,6 +13,7 @@ export const stata = {
   },
   version: "19",
   logo: "https://www.stata.com/includes/images/stata-logo-blue.svg",
+  color: "#1A5276",
   i18n: {
     en: {
       name: "Stata",

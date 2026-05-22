@@ -14,6 +14,7 @@ export const raku = {
   },
   version: "6.d",
   logo: "https://github.com/Raku.png",
+  color: "#0000FB",
   i18n: {
     en: {
       name: "Raku",

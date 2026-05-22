@@ -13,6 +13,7 @@ export const actionscript = {
   },
   version: "3.0",
   logo: "https://icons.iconarchive.com/icons/fatcow/farm-fresh/32/page-white-actionscript-icon.png",
+  color: "#CF302A",
   i18n: {
     en: {
       name: "ActionScript",

@@ -13,6 +13,7 @@ export const git = {
   },
   version: "2.54.0",
   logo: "https://cdn.simpleicons.org/git/F05032",
+  color: "#F05032",
   i18n: {
     en: {
       name: "Git",

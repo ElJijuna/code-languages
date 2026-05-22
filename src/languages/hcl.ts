@@ -14,6 +14,7 @@ export const hcl = {
   },
   version: "2.24.0",
   logo: "https://cdn.simpleicons.org/hashicorp/844FBA",
+  color: "#844FBA",
   i18n: {
     en: {
       name: "HCL",

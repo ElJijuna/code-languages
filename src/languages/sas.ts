@@ -13,6 +13,7 @@ export const sas = {
   },
   version: "SAS 9.4",
   logo: "https://upload.wikimedia.org/wikipedia/commons/1/10/SAS_logo_horiz.svg",
+  color: "#1E77B3",
   i18n: {
     en: {
       name: "SAS",
