@@ -1,3 +1,10 @@
+# [1.23.0](https://github.com/ElJijuna/code-languages/compare/v1.22.0...v1.23.0) (2026-05-22)
+
+
+### Features
+
+* update language interface and languages to add color hex reference ([77bd61d](https://github.com/ElJijuna/code-languages/commit/77bd61d933551ec40d92f9f180bb19c9759ecc27))
+
 # [1.22.0](https://github.com/ElJijuna/code-languages/compare/v1.21.0...v1.22.0) (2026-05-22)
 
 
