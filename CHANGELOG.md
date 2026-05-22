@@ -1,3 +1,11 @@
+# [1.24.0](https://github.com/ElJijuna/code-languages/compare/v1.23.0...v1.24.0) (2026-05-22)
+
+
+### Features
+
+* add language fr and it translations in language files, update website doc tu support this ([b65ec18](https://github.com/ElJijuna/code-languages/commit/b65ec18138c15ed98f8b40c34b2c1f2ffbd49d44))
+* add normalized API lookups ([511bf87](https://github.com/ElJijuna/code-languages/commit/511bf87ade6dfc2af52ab1501af2a75d13a704b4))
+
 # [1.23.0](https://github.com/ElJijuna/code-languages/compare/v1.22.0...v1.23.0) (2026-05-22)
 
 
