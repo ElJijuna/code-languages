@@ -43,5 +43,19 @@ export const liquid = {
       longDescription:
         "Liquid est un langage de modele concu pour exposer des donnees controlees aux modeles via des balises, des objets, des filtres, des boucles, des conditions et des inclusions. Il favorise le rendu previsible et une logique contrainte, de sorte que les non-developpeurs puissent personnaliser en toute securite la presentation du contenu.\n\nIl est utilise dans les themes Shopify, les sites Jekyll, GitHub Pages, la personnalisation des boutiques, les systemes de gestion de contenu, les modeles d'e-mails et les flux de publication statique.",
     },
+    de: {
+      name: "Liquid",
+      description:
+        "Eine sichere Template-Sprache, die von Shopify, Jekyll und Inhaltsseiten verwendet wird.",
+      longDescription:
+        "Liquid ist eine Template-Sprache, die kontrollierten Daten durch Tags, Objekte, Filter, Schleifen, Bedingungen und Includes an Templates ausgibt. Sie bevorzugt vorhersehbare Rendering- und eingeschr\u00e4nkte Logik, sodass auch Nicht-Entwickler Inhalte sicher anpassen k\u00f6nnen.\n\nSie wird in Shopify-Themes, Jekyll-Sites, GitHub Pages, f\u00fcr die Anpassung von Frontends, in Content-Management-Systemen, E-Mail-Vorlagen und f\u00fcr statische Publishing-Workflows verwendet.",
+    },
+    pt: {
+      name: "Liquid",
+      description:
+        "Linguagem de template segura usada por Shopify, Jekyll e sites baseados em conte\u00fado.",
+      longDescription:
+        "Liquid \u00e9 uma linguagem de template projetada para expor dados controlados a templates por meio de tags, objetos, filtros, loops, condi\u00e7\u00f5es e includes. Ela favorece a renderiza\u00e7\u00e3o previs\u00edvel e a l\u00f3gica restrita, permitindo que usu\u00e1rios sem experi\u00eancia em desenvolvimento personalizem a apresenta\u00e7\u00e3o do conte\u00fado com seguran\u00e7a.\n\n\u00c9 utilizada em temas Shopify, sites Jekyll, GitHub Pages, personaliza\u00e7\u00e3o de storefronts, sistemas de gerenciamento de conte\u00fado, modelos de e-mail e fluxos de publica\u00e7\u00e3o est\u00e1tica.",
+    },
   },
 } satisfies Language;

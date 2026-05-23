@@ -40,5 +40,19 @@ export const wren = {
       longDescription:
         "Wren est un langage dynamique compact avec des classes, des fibres, des modules, des closures et une VM concue pour etre integree proprement dans des applications hotes. Sa syntaxe permet de maintenir des programmes de script courts tout en conservant un modele oriente objet.\n\nIl est utilise pour le script embarque, les experimentations de jeux, les outils, l'enseignement et les applications qui ont besoin d'un petit runtime de langage embarque.",
     },
+    de: {
+      name: "Wren",
+      description:
+        "Eine kleine, klassenbasierte Skriptsprache, die f\u00fcr die Einbettung entwickelt wurde.",
+      longDescription:
+        "Wren ist eine kompakte, dynamische Sprache mit Klassen, Fibers, Modulen, Closures und einer VM, die f\u00fcr eine saubere Einbettung in Host-Anwendungen konzipiert ist. Ihre Syntax erm\u00f6glicht es, Skriptprogramme kurz zu halten und gleichzeitig ein objektorientiertes Modell zu erhalten.\n\nSie wird f\u00fcr eingebettete Skripting, Spiele, Tools, Lehre und Anwendungen verwendet, die eine kleine, einbettbare Sprache ben\u00f6tigen.",
+    },
+    pt: {
+      name: "Wren",
+      description:
+        "Uma pequena linguagem de script baseada em classes, projetada para incorpora\u00e7\u00e3o.",
+      longDescription:
+        "Wren \u00e9 uma linguagem din\u00e2mica compacta com classes, fibras, m\u00f3dulos, closures e uma VM, projetada para ser incorporada de forma limpa em aplica\u00e7\u00f5es hospedeiras. Sua sintaxe mant\u00e9m os programas de script curtos, preservando um modelo orientado a objetos.\n\n\u00c9 usada para scripting embarcado, experimentos de jogos, ferramentas, ensino e aplica\u00e7\u00f5es que precisam de uma pequena linguagem de tempo de execu\u00e7\u00e3o incorpor\u00e1vel.",
+    },
   },
 } satisfies Language;

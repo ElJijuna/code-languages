@@ -40,5 +40,19 @@ export const typescript = {
       longDescription:
         "TypeScript ajoute la typage statique, les interfaces, les generiques et le support des outils modernes a JavaScript tout en conservant la semantique d'execution de JavaScript.\n\nIl est largement utilise pour les grandes applications web, les bibliotheques, les projets Node.js cote serveur et les outils de developpement ou la maintenabilite et les commentaires de l'editeur sont importants.",
     },
+    de: {
+      name: "TypeScript",
+      description:
+        "Eine typisierte Erweiterung von JavaScript, die zu reinem JavaScript kompiliert.",
+      longDescription:
+        "TypeScript f\u00fcgt JavaScript statische Typisierung, Schnittstellen, Generics und moderne Tooling-Unterst\u00fctzung hinzu und bewahrt dabei die JavaScript-Runtime-Semantik.\n\nEs wird h\u00e4ufig f\u00fcr gro\u00dfe Webanwendungen, Bibliotheken, Node.js-Serverprojekte und Entwicklerwerkzeuge verwendet, bei denen Wartbarkeit und Editor-Feedback wichtig sind.",
+    },
+    pt: {
+      name: "TypeScript",
+      description:
+        "Superset de JavaScript com tipagem est\u00e1tica que compila para JavaScript puro.",
+      longDescription:
+        "TypeScript adiciona tipagem est\u00e1tica, interfaces, gen\u00e9ricos e suporte para ferramentas modernas ao JavaScript, preservando a sem\u00e2ntica do runtime do JavaScript.\n\n\u00c9 amplamente utilizado para grandes aplica\u00e7\u00f5es web, bibliotecas, projetos Node.js do lado do servidor e ferramentas de desenvolvimento onde a manuten\u00e7\u00e3o e o feedback do editor s\u00e3o importantes.",
+    },
   },
 } satisfies Language;

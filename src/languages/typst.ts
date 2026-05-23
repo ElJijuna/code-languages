@@ -42,5 +42,19 @@ export const typst = {
       longDescription:
         "Typst combine un balisage leger, des primitives de mise en page, des fonctions, des variables, des paquets, une notation mathematique, des bibliographies, des modeles et un langage de script dans un systeme de composition rapide. Il vise a rendre la production de documents professionnels plus programmable et accessible que les workflows traditionnels TeX.\n\nIl est utilise pour les articles universitaires, les rapports, les livres, les CV, les notes de cours, les modeles, les documents techniques et les flux de travail de publication qui necessitent la generation de PDF reproductible a partir de fichiers sources lisibles.",
     },
+    de: {
+      name: "Typst",
+      description:
+        "Eine moderne Markup- und Skriptsprache f\u00fcr die Typografie und die Erstellung von Dokumenten und PDFs.",
+      longDescription:
+        "Typst kombiniert leichte Markup-Funktionen, Layout-Primitiven, Funktionen, Variablen, Pakete, mathematische Notation, Bibliografien, Vorlagen und Skripting in einem schnellen Typisierungs-System. Es zielt darauf ab, die professionelle Dokumentenerstellung programmierbarer und zug\u00e4nglicher zu machen als herk\u00f6mmliche TeX-Workflows.\n\nEs wird f\u00fcr wissenschaftliche Arbeiten, Berichte, B\u00fccher, Lebensl\u00e4ufe, Vorlesungsnotizen, Vorlagen, technische Dokumente und Publikationsworkflows verwendet, die reproduzierbare PDF-Generierung aus lesbaren Quelldateien ben\u00f6tigen.",
+    },
+    pt: {
+      name: "Typst",
+      description:
+        "Linguagem de marca\u00e7\u00e3o e script moderna para a tipografia de documentos e PDFs.",
+      longDescription:
+        "Typst combina marca\u00e7\u00e3o leve, primitivas de layout, fun\u00e7\u00f5es, vari\u00e1veis, pacotes, nota\u00e7\u00e3o matem\u00e1tica, bibliografias, modelos e scripting em um sistema de tipografia r\u00e1pido. Visa tornar a produ\u00e7\u00e3o de documentos profissionais mais program\u00e1vel e acess\u00edvel do que os fluxos de trabalho tradicionais do TeX.\n\n\u00c9 usado para artigos acad\u00eamicos, relat\u00f3rios, livros, curr\u00edculos, anota\u00e7\u00f5es de aula, modelos, documentos t\u00e9cnicos e fluxos de trabalho de publica\u00e7\u00e3o que precisam de gera\u00e7\u00e3o de PDF reproduz\u00edvel a partir de arquivos de origem leg\u00edveis.",
+    },
   },
 } satisfies Language;

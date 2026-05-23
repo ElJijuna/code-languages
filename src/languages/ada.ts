@@ -44,5 +44,19 @@ export const ada = {
       longDescription:
         "Ada est un langage de programmation general a usage, concu pour la fiabilite, la lisibilite, le typage fort, la modularite, la concurrence et les systemes temps reel. Ada moderne inclut des packages, des generiques, le multithreading, des objets proteges, des contrats, des fonctionnalites orientees objet et un controle precis de la representation.\n\nIl est utilise dans l'aerospatiale, la defense, les transports, les systemes embarques, les applications a haute integrite, le controle industriel et les logiciels ou la maintenabilite et la correction a long terme sont des exigences centrales.",
     },
+    de: {
+      name: "Ada",
+      description:
+        "Eine stark typisierte Sprache f\u00fcr zuverl\u00e4ssige, wartbare und sicherheitskritische Software.",
+      longDescription:
+        "Ada ist eine allgemeine Programmiersprache, die f\u00fcr Zuverl\u00e4ssigkeit, Lesbarkeit, starke Typisierung, Modularit\u00e4t, Nebenl\u00e4ufigkeit und Echtzeit-Systeme entwickelt wurde. Moderne Ada-Versionen umfassen Pakete, Generics, Tasking, gesch\u00fctzte Objekte, Vertr\u00e4ge, objektorientierte Funktionen und pr\u00e4zise Kontrolle \u00fcber die Datenrepr\u00e4sentation.\n\nSie wird in der Luft- und Raumfahrt, Verteidigung, Transport, eingebetteten Systemen, Hochintegrit\u00e4tsanwendungen, industrieller Steuerung und Software eingesetzt, bei der langfristige Wartbarkeit und Korrektheit zentrale Anforderungen sind.",
+    },
+    pt: {
+      name: "Ada",
+      description:
+        "Linguagem fortemente tipada para software confi\u00e1vel, mant\u00edvel e cr\u00edtico para seguran\u00e7a.",
+      longDescription:
+        "Ada \u00e9 uma linguagem de programa\u00e7\u00e3o de prop\u00f3sito geral projetada para confiabilidade, legibilidade, tipagem forte, modularidade, concorr\u00eancia e sistemas em tempo real. Ada moderna inclui pacotes, gen\u00e9ricos, tarefas, objetos protegidos, contratos, recursos orientados a objetos e controle preciso sobre a representa\u00e7\u00e3o.\n\n\u00c9 usada em aeroespacial, defesa, transporte, sistemas embarcados, aplica\u00e7\u00f5es de alta integridade, controle industrial e software onde a manuten\u00e7\u00e3o e a corre\u00e7\u00e3o a longo prazo s\u00e3o requisitos centrais.",
+    },
   },
 } satisfies Language;

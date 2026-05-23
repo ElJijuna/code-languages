@@ -41,5 +41,19 @@ export const stata = {
       longDescription:
         "Les commandes et les fichiers do de Stata couvrent la preparation des donnees, l'estimation, la creation de graphiques, la generation de rapports et les flux de travail programmables, avec Mata disponible pour la programmation orientee matrice. Le langage est lie a l'environnement statistique Stata.\n\nIl est utilise en economie, en sante publique, en sciences sociales, en analyse de politiques, dans l'enseignement et dans la recherche statistique reproductible.",
     },
+    de: {
+      name: "Stata",
+      description:
+        "Eine Programmiersprache f\u00fcr statistische Analyse, Datenverwaltung und Grafik.",
+      longDescription:
+        "Stata-Befehle und Do-Dateien decken Datenvorbereitung, Sch\u00e4tzung, Grafik, Berichterstellung und programmierbare Arbeitsabl\u00e4ufe ab, wobei Mata f\u00fcr matrixorientierte Programmierung verf\u00fcgbar ist. Die Sprache ist an die Stata-Statistikumgebung gebunden.\n\nSie wird in der Wirtschaft, der \u00f6ffentlichen Gesundheit, den Sozialwissenschaften, der Politikanalyse, im Unterricht und f\u00fcr reproduzierbare statistische Forschung eingesetzt.",
+    },
+    pt: {
+      name: "Stata",
+      description:
+        "Uma linguagem de programa\u00e7\u00e3o para an\u00e1lise estat\u00edstica, gerenciamento de dados e gr\u00e1ficos.",
+      longDescription:
+        "Os comandos e arquivos do tipo do Stata cobrem a prepara\u00e7\u00e3o de dados, a estima\u00e7\u00e3o, a cria\u00e7\u00e3o de gr\u00e1ficos, a gera\u00e7\u00e3o de relat\u00f3rios e fluxos de trabalho program\u00e1veis, com o Mata dispon\u00edvel para programa\u00e7\u00e3o orientada a matrizes. A linguagem est\u00e1 integrada ao ambiente estat\u00edstico Stata.\n\n\u00c9 utilizada em economia, sa\u00fade p\u00fablica, ci\u00eancias sociais, an\u00e1lise de pol\u00edticas, ensino e pesquisa estat\u00edstica reprodut\u00edvel.",
+    },
   },
 } satisfies Language;

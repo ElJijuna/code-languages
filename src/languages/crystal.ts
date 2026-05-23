@@ -44,5 +44,19 @@ export const crystal = {
       longDescription:
         "Crystal est un langage de programmation general a usage, avec une syntaxe inspiree de Ruby, un controle de type statique, l'inference de type, des macros, des fibres, des canaux, des liaisons C et une compilation native. Il vise a maintenir le code expressif tout en detectant les erreurs de type au moment de la compilation. \n\nIl est utilise pour les services web, les outils en ligne de commande, l'automatisation, les applications natives, les systemes backend sensibles aux performances et les projets qui souhaitent une ergonomie similaire a Ruby avec un outil de compilation.",
     },
+    de: {
+      name: "Crystal",
+      description:
+        "Eine kompilierte, statisch typisierte Sprache mit Ruby-\u00e4hnlicher Syntax und nativem Leistung.",
+      longDescription:
+        "Crystal ist eine allgemeine Programmiersprache mit Syntax, die von Ruby inspiriert ist, statischer Typ\u00fcberpr\u00fcfung, Typinferenz, Makros, Fibers, Kan\u00e4len, C-Bindings und nativem Kompilieren. Sie zielt darauf ab, Code ausdrucksstark zu halten und gleichzeitig Typfehler zur Kompilierzeit zu erkennen.\n\nEs wird f\u00fcr Webdienste, Kommandozeilen-Tools, Automatisierung, native Anwendungen, performante Backend-Systeme und Projekte verwendet, die die Ergonomie von Ruby mit einer kompilierten Toolchain w\u00fcnschen.",
+    },
+    pt: {
+      name: "Crystal",
+      description:
+        "Linguagem compilada, estaticamente tipada com sintaxe inspirada em Ruby e desempenho nativo.",
+      longDescription:
+        "Crystal \u00e9 uma linguagem de programa\u00e7\u00e3o de prop\u00f3sito geral com sintaxe inspirada em Ruby, verifica\u00e7\u00e3o est\u00e1tica de tipos, infer\u00eancia de tipos, macros, fibras, canais, bindings C e compila\u00e7\u00e3o nativa. Seu objetivo \u00e9 manter o c\u00f3digo expressivo, capturando erros de tipo em tempo de compila\u00e7\u00e3o.\n\n\u00c9 usada para servi\u00e7os web, ferramentas de linha de comando, automa\u00e7\u00e3o, aplicativos nativos, sistemas de backend sens\u00edveis ao desempenho e projetos que desejam a ergonomia semelhante ao Ruby com uma ferramenta compilada.",
+    },
   },
 } satisfies Language;

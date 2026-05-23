@@ -44,5 +44,19 @@ export const zig = {
       longDescription:
         "Zig est un langage et un ensemble d'outils de programmation pour systemes, concu pour un controle explicite, des performances previsibles, la compilation croisee et le maintien de logiciels robustes. Il fournit une gestion manuelle de la memoire, l'execution de comptime, des unions d'erreurs, des outils de construction integres et l'interoperabilite avec C. \n\nIl est utilise pour les logiciels de systemes, les cibles embarquees, les outils en ligne de commande, les moteurs de jeux, les bibliotheques de bas niveau, les applications natives multiplateformes et les projets qui ont besoin d'un langage compact avec de puissantes capacites de compilation.",
     },
+    de: {
+      name: "Zig",
+      description:
+        "Eine Programmiersprache und Toolchain f\u00fcr Systemprogrammierung, die auf Robustheit, Kontrolle und Cross-Compilierung ausgerichtet ist.",
+      longDescription:
+        "Zig ist eine allgemeine Programmiersprache und Toolchain f\u00fcr Systemprogrammierung, die auf explizite Kontrolle, vorhersehbare Leistung, Cross-Compilierung und die Erstellung robuster Software abzielt. Sie bietet manuelle Speicherverwaltung, `comptime`-Ausf\u00fchrung, Fehler-Unionen, integrierte Build-Tools und C-Interoperabilit\u00e4t.\n\nSie wird f\u00fcr Systemsoftware, eingebettete Systeme, Kommandozeilen-Tools, Spiele-Engines, Low-Level-Bibliotheken, plattform\u00fcbergreifende native Anwendungen und Projekte verwendet, die eine kompakte Sprache mit starken Compile-Zeit-Funktionen ben\u00f6tigen.",
+    },
+    pt: {
+      name: "Zig",
+      description:
+        "Linguagem e conjunto de ferramentas de programa\u00e7\u00e3o de sistemas, focada em robustez, controle e compila\u00e7\u00e3o cruzada.",
+      longDescription:
+        "Zig \u00e9 uma linguagem de programa\u00e7\u00e3o de sistemas e conjunto de ferramentas de prop\u00f3sito geral, projetada para controle expl\u00edcito, desempenho previs\u00edvel, compila\u00e7\u00e3o cruzada e manuten\u00e7\u00e3o de software robusto. Fornece gerenciamento manual de mem\u00f3ria, execu\u00e7\u00e3o em tempo de compila\u00e7\u00e3o, uni\u00e3o de erros, ferramentas de constru\u00e7\u00e3o integradas e interoperabilidade com C.\n\n\u00c9 usada para software de sistemas, alvos embarcados, ferramentas de linha de comando, motores de jogos, bibliotecas de baixo n\u00edvel, aplicativos nativos multiplataforma e projetos que precisam de uma linguagem compacta com fortes capacidades de tempo de compila\u00e7\u00e3o.",
+    },
   },
 } satisfies Language;

@@ -44,5 +44,19 @@ export const scss = {
       longDescription:
         "Sass etend CSS avec des fonctionnalites telles que les variables, les regles imbriquees, les mixins, les fonctions, les modules, l'heritage et les outils de compilation qui generent du CSS standard.\n\nIl est largement utilise dans les systemes de conception, les bibliotheques de composants, les grandes applications web, les themes et les projets qui ont besoin de modeles de style reutilisables au-dessus de la plateforme CSS.",
     },
+    de: {
+      name: "Sass",
+      description:
+        "Eine Stylesheet-Sprache und CSS-Pr\u00e4prozessor mit Variablen, Verschachtelung, Mixins, Modulen und Funktionen.",
+      longDescription:
+        "Sass erweitert CSS um Funktionen wie Variablen, verschachtelte Regeln, Mixins, Funktionen, Module, Vererbung und Tools zur Compile-Zeit, die standardm\u00e4\u00dfigen CSS erzeugen.\n\nEs wird h\u00e4ufig in Designsystemen, Komponentenbibliotheken, gro\u00dfen Webanwendungen, Themes und Projekten verwendet, die wiederverwendbare Styling-Muster auf der CSS-Plattform ben\u00f6tigen.",
+    },
+    pt: {
+      name: "Sass",
+      description:
+        "Linguagem de folhas de estilo e pr\u00e9-processador CSS com vari\u00e1veis, aninhamento, mixins, m\u00f3dulos e fun\u00e7\u00f5es.",
+      longDescription:
+        "Sass estende o CSS com recursos como vari\u00e1veis, regras aninhadas, mixins, fun\u00e7\u00f5es, m\u00f3dulos, heran\u00e7a e ferramentas de compila\u00e7\u00e3o que geram CSS padr\u00e3o.\n\n\u00c9 amplamente utilizado em sistemas de design, bibliotecas de componentes, grandes aplica\u00e7\u00f5es web, temas e projetos que precisam de padr\u00f5es de estilo reutiliz\u00e1veis sobre a plataforma CSS.",
+    },
   },
 } satisfies Language;

@@ -44,5 +44,19 @@ export const nim = {
       longDescription:
         "Nim est un langage compile de type statique concu pour l'efficacite, l'expressivite et la flexibilite. Il offre une syntaxe basee sur l'indentation, des generiques, des macros, des modeles, plusieurs strategies de gestion de la memoire, l'interoperabilite C/C++/Objective-C et la compilation vers C, C++, Objective-C ou JavaScript. \n\nIl est utilise pour les outils en ligne de commande, la programmation systeme, les logiciels embarques, les services web, l'automatisation de type script, les applications natives et les projets qui souhaitent un faible encombrement avec une puissante meta-programmation.",
     },
+    de: {
+      name: "Nim",
+      description:
+        "Eine kompilierte Systemsprache mit Python-\u00e4hnlicher Syntax, Makros und effizienter nativem Output.",
+      longDescription:
+        "Nim ist eine statisch typisierte, kompilierte Sprache, die f\u00fcr Effizienz, Ausdrucksst\u00e4rke und Flexibilit\u00e4t entwickelt wurde. Sie bietet eine einr\u00fcckungsbasierte Syntax, Generics, Makros, Templates, mehrere Strategien zur Speicherverwaltung, Interoperabilit\u00e4t mit C/C++/Objective-C und Kompilierung zu C, C++, Objective-C oder JavaScript.\n\nSie wird f\u00fcr Kommandozeilen-Tools, Systems-Programmierung, eingebettete Software, Web-Services, Skripting-\u00e4hnliche Automatisierung, native Anwendungen und Projekte verwendet, die einen geringen Overhead mit leistungsstarker Metaprogrammierung ben\u00f6tigen.",
+    },
+    pt: {
+      name: "Nim",
+      description:
+        "Linguagem compilada de sistemas com sintaxe semelhante \u00e0 Python, macros e sa\u00edda nativa eficiente.",
+      longDescription:
+        "Nim \u00e9 uma linguagem compilada estaticamente tipada, projetada para efici\u00eancia, expressividade e flexibilidade. Oferece sintaxe baseada em indenta\u00e7\u00e3o, gen\u00e9ricos, macros, templates, m\u00faltiplas estrat\u00e9gias de gerenciamento de mem\u00f3ria, interoperabilidade com C/C++/Objective-C e compila\u00e7\u00e3o para C, C++, Objective-C ou JavaScript.\n\n\u00c9 utilizada para ferramentas de linha de comando, programa\u00e7\u00e3o de sistemas, software embarcado, servi\u00e7os web, automa\u00e7\u00e3o de scripts, aplica\u00e7\u00f5es nativas e projetos que buscam baixo overhead com metaprograma\u00e7\u00e3o poderosa.",
+    },
   },
 } satisfies Language;

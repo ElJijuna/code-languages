@@ -42,5 +42,18 @@ export const earthly = {
       longDescription:
         "Earthly est un langage et un outil d'automatisation de la construction axe sur les Earthfiles. Sa syntaxe combine des idees provenant des Dockerfiles et des Makefiles pour definir des constructions reproductibles, des cibles, des artefacts, des images et des workflows adaptes a la CI.\n\nIl est utilise par des equipes qui souhaitent que les constructions locales et CI se comportent de maniere coherente, en particulier dans les projets riches en conteneurs ou le cache, la reproductibilite et des etapes de construction lisibles sont importants.",
     },
+    de: {
+      name: "Earthly",
+      description: "Eine containerbasierte Build-Sprache f\u00fcr wiederholbare CI/CD-Pipelines.",
+      longDescription:
+        "Earthly ist eine Build-Automatisierungssprache und -tool, das auf Earthfiles basiert. Ihre Syntax kombiniert Ideen aus Dockerfiles und Makefiles, um wiederholbare Builds, Ziele, Artefakte, Images und CI-freundliche Workflows zu definieren.\n\nEs wird von Teams verwendet, die lokale und CI-Builds konsistent gestalten m\u00f6chten, insbesondere in containerlastigen Projekten, in denen Caching, Reproduzierbarkeit und lesbare Build-Schritte wichtig sind.",
+    },
+    pt: {
+      name: "Earthly",
+      description:
+        "Linguagem de constru\u00e7\u00e3o orientada a cont\u00eaineres para pipelines de CI/CD repet\u00edveis.",
+      longDescription:
+        "Earthly \u00e9 uma linguagem e ferramenta de automa\u00e7\u00e3o de constru\u00e7\u00e3o centrada em Earthfiles. Sua sintaxe combina ideias de Dockerfiles e Makefiles para definir constru\u00e7\u00f5es, alvos, artefatos, imagens e fluxos de trabalho amig\u00e1veis ao CI.\n\n\u00c9 usada por equipes que desejam que as constru\u00e7\u00f5es locais e do CI se comportem de forma consistente, especialmente em projetos com muitos cont\u00eaineres, onde o cache, a reprodutibilidade e etapas de constru\u00e7\u00e3o leg\u00edveis s\u00e3o importantes.",
+    },
   },
 } satisfies Language;

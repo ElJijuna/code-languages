@@ -43,5 +43,19 @@ export const svn = {
       longDescription:
         "SVN, Apache Subversion, est un systeme de controle de version centralise avec des metadonnees de referentiel, des repertoires de copie de travail, des proprietes d'ignoration, la configuration du serveur, des hooks, des branches, des balises et l'historique des revisions geres via les outils Subversion.\n\nIl est utilise dans les bases de code heritees et d'entreprise, les flux de travail de controle de version centralises, la gestion des versions, les referentiels de documents et les projets qui dependent des serveurs ou des clients Apache Subversion.",
     },
+    de: {
+      name: "SVN",
+      description:
+        "Metadaten und Konfigurationsdateien f\u00fcr Apache Subversion-Repositories und -Clients.",
+      longDescription:
+        "SVN, Apache Subversion, ist ein zentrales Versionskontrollsystem mit Repository-Metadaten, Arbeitsverzeichnis-Verzeichnissen, Ignore-Eigenschaften, Serverkonfiguration, Hooks, Branches, Tags und Revision-Historie, die \u00fcber Subversion-Tools verwaltet werden.\n\nEs wird in Legacy- und Enterprise-Codebasen, zentralen Quellcode-Kontroll-Workflows, Release-Management, Dokumenten-Repositories und Projekten verwendet, die Apache Subversion-Server oder -Clients nutzen.",
+    },
+    pt: {
+      name: "SVN",
+      description:
+        "Metadados e arquivos de configura\u00e7\u00e3o usados por reposit\u00f3rios e clientes do Apache Subversion.",
+      longDescription:
+        "SVN, Apache Subversion, \u00e9 um sistema de controle de vers\u00e3o centralizado que utiliza metadados de reposit\u00f3rio, diret\u00f3rios de c\u00f3pias de trabalho, propriedades de ignorar, configura\u00e7\u00e3o do servidor, hooks, ramos, tags e hist\u00f3rico de revis\u00f5es, gerenciados atrav\u00e9s das ferramentas Subversion.\n\n\u00c9 usado em c\u00f3digo legado e em sistemas de controle de c\u00f3digo centralizados, fluxos de trabalho de gerenciamento de lan\u00e7amentos, reposit\u00f3rios de documentos e projetos que dependem de servidores ou clientes Apache Subversion.",
+    },
   },
 } satisfies Language;

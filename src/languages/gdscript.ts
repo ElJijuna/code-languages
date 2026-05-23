@@ -43,5 +43,19 @@ export const gdscript = {
       longDescription:
         "GDScript est un langage de script de haut niveau concu pour Godot Engine. Il utilise une syntaxe basee sur l'indentation, un typage dynamique et optionnel, des signaux, l'integration des noeuds de scene, des coroutines, des ressources et des outils adaptes a l'editeur, adaptes au developpement de jeux.\n\nIl est utilise pour implementer le gameplay, le comportement de l'interface utilisateur, les outils, la logique d'animation, les prototypes, les plugins d'editeur et les scripts qui interagissent etroitement avec les scenes et les API de Godot.",
     },
+    de: {
+      name: "GDScript",
+      description:
+        "Integrierte Skriptsprache f\u00fcr Godot Engine, f\u00fcr Gameplay und Editor-Logik.",
+      longDescription:
+        "GDScript ist eine High-Level-Skriptsprache, die f\u00fcr den Godot Engine entwickelt wurde. Sie verwendet eine Einr\u00fcckungsbasierte Syntax, dynamische und optionale statische Typisierung, Signale, die Integration von Szenen-Nodern, Coroutinen, Ressourcen und Werkzeuge, die auf die Spieleentwicklung zugeschnitten sind.\n\nSie wird verwendet, um Gameplay, UI-Verhalten, Tools, Animationslogik, Prototypen, Editor-Plugins und Skripte zu implementieren, die eng mit Godot-Szenen und Engine-APIs interagieren.",
+    },
+    pt: {
+      name: "GDScript",
+      description:
+        "Linguagem de script integrada do Godot Engine para l\u00f3gica de jogo e do editor.",
+      longDescription:
+        "GDScript \u00e9 uma linguagem de script de alto n\u00edvel constru\u00edda para o Godot Engine. Utiliza sintaxe baseada em indenta\u00e7\u00e3o, tipagem din\u00e2mica e opcionalmente est\u00e1tica, sinais, integra\u00e7\u00e3o de n\u00f3s de cena, corrotinas, recursos e ferramentas orientadas para o editor, adaptadas para o desenvolvimento de jogos.\n\n\u00c9 usada para implementar l\u00f3gica de jogo, comportamento da interface do usu\u00e1rio, ferramentas, l\u00f3gica de anima\u00e7\u00e3o, prot\u00f3tipos, plugins de editor e scripts que interagem de perto com cenas e APIs do Godot.",
+    },
   },
 } satisfies Language;

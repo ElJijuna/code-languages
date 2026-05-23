@@ -43,5 +43,19 @@ export const mermaid = {
       longDescription:
         "Mermaid est un langage de diagrammes qui convertit du texte structure en diagrammes tels que les schemas, les diagrammes de sequence, les diagrammes de classes, les diagrammes d'etat, les diagrammes de relations entite-relation, les diagrammes de Gantt, les chronologies et les cartes mentales. Il est concu pour coexister confortablement avec la documentation Markdown.\n\nIl est utilise dans les README, les notes d'architecture, les wikis, les sites de documentation, les outils de suivi des problemes, les bases de connaissances et les flux de travail ou les diagrammes doivent etre versionnes sous forme de texte brut.",
     },
+    de: {
+      name: "Mermaid",
+      description:
+        "Eine textbasierte Diagrammiersprache f\u00fcr Flussdiagramme, Sequenzen, Zeitlinien und mehr.",
+      longDescription:
+        "Mermaid ist eine Diagrammiersprache, die strukturierte Texte in Diagramme wie Flussdiagramme, Sequenzdiagramme, Klassendiagramme, Zustandsdiagramme, Entit\u00e4ts-Beziehungsdiagramme, Gantt-Diagramme, Zeitlinien und Mindmaps umwandelt. Sie ist darauf ausgelegt, problemlos mit Markdown-Dokumentation zusammenzuarbeiten.\n\nSie wird in READMEs, Architekturnotizen, Wikis, Dokumentationsseiten, Issue-Trackern, Wissensdatenbanken und Arbeitsabl\u00e4ufen verwendet, in denen Diagramme als reiner Text versioniert werden sollen.",
+    },
+    pt: {
+      name: "Mermaid",
+      description:
+        "Linguagem de diagramas baseada em texto para fluxogramas, sequ\u00eancias, cronogramas e mais.",
+      longDescription:
+        "Mermaid \u00e9 uma linguagem de diagrama\u00e7\u00e3o que converte texto estruturado em diagramas como fluxogramas, diagramas de sequ\u00eancia, diagramas de classes, diagramas de estado, diagramas de rela\u00e7\u00f5es entidade, gr\u00e1ficos de Gantt, cronogramas e mapas mentais. \u00c9 projetada para coexistir confortavelmente com a documenta\u00e7\u00e3o em Markdown.\n\n\u00c9 usada em READMEs, notas de arquitetura, wikis, sites de documenta\u00e7\u00e3o, rastreadores de problemas, bases de conhecimento e fluxos de trabalho onde os diagramas devem ser versionados como texto simples.",
+    },
   },
 } satisfies Language;

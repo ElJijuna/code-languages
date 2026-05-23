@@ -42,5 +42,19 @@ export const v = {
       longDescription:
         "V est un langage compile avec des modules, des types de somme, des generiques, une syntaxe de concurrence, une interoperabilite avec C et un outil qui met l'accent sur la compilation rapide et les workflows de deploiement reduits. Il cible C et des sorties natives grace a son compilateur.\n\nIl est utilise pour les outils en ligne de commande, les applications natives, les experimentations, les services web et les projets qui preferent une chaine d'outils legere et integree.",
     },
+    de: {
+      name: "V",
+      description:
+        "Eine kompilierte, statisch typisierte Sprache f\u00fcr einfache native Anwendungsentwicklung.",
+      longDescription:
+        "V ist eine kompilierte Sprache mit Modulen, Summen-Typen, Generics, Nebenl\u00e4ufigkeitssyntax, C-Interoperabilit\u00e4t und einem Toolchain, der schnelle Kompilierungszeiten und kleine Deployment-Workflows betont. Sie zielt auf C und native Ausgaben durch ihren Compiler.\n\nSie wird f\u00fcr Kommandozeilen-Tools, native Anwendungen, Experimente, Webdienste und Projekte verwendet, die eine integrierte, leichte Toolchain bevorzugen.",
+    },
+    pt: {
+      name: "V",
+      description:
+        "Linguagem compilada estaticamente tipada para a cria\u00e7\u00e3o de aplica\u00e7\u00f5es nativas simples.",
+      longDescription:
+        "V \u00e9 uma linguagem compilada com m\u00f3dulos, tipos de soma, gen\u00e9ricos, sintaxe de concorr\u00eancia, interoperabilidade com C e uma ferramenta que enfatiza a compila\u00e7\u00e3o r\u00e1pida e fluxos de trabalho de implanta\u00e7\u00e3o pequenos. Ela visa C e sa\u00eddas nativas atrav\u00e9s do seu compilador.\n\n\u00c9 usada para ferramentas de linha de comando, aplica\u00e7\u00f5es nativas, experimentos, servi\u00e7os web e projetos que preferem uma ferramenta integrada leve.",
+    },
   },
 } satisfies Language;

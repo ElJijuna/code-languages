@@ -44,5 +44,19 @@ export const awk = {
       longDescription:
         "awk est un langage de traitement de texte compact construit autour de regles modele-action, de records, de champs, d'armoires associatives, d'expressions regulieres et d'entrees en flux. Il est couramment disponible sur les systemes similaires a Unix, avec GNU Awk ajoutant de nombreuses extensions et commodites d'outillage.\n\nIl est utilise pour l'extraction de donnees en ligne de commande, le traitement des journaux, la generation de rapports, les transformations ponctuelles, les pipelines de shell, les taches ETL legeres et les scripts qui necessitent un traitement concis de texte structure ou semi-structure.",
     },
+    de: {
+      name: "awk",
+      description:
+        "Eine Muster-Aktionssprache zum Scannen, Transformieren und Berichten von Textdaten.",
+      longDescription:
+        "awk ist eine kompakte Textverarbeitungs-Sprache, die auf Muster-Aktions-Regeln, Datens\u00e4tzen, Feldern, assoziativen Arrays, regul\u00e4ren Ausdr\u00fccken und Streaming-Eingabe basiert. Sie ist h\u00e4ufig auf Unix-\u00e4hnlichen Systemen verf\u00fcgbar, wobei GNU Awk viele Erweiterungen und Werkzeug-Bequemlichkeiten hinzuf\u00fcgt.\n\nSie wird f\u00fcr die Extraktion von Daten aus der Kommandozeile, die Verarbeitung von Protokollen, die Generierung von Berichten, einmalige Transformationen, Shell-Pipelines, leichte ETL-Aufgaben und Skripte verwendet, die eine pr\u00e4gnante Verarbeitung von strukturiertem oder halbstrukturiertem Text erfordern.",
+    },
+    pt: {
+      name: "awk",
+      description:
+        "Linguagem de padr\u00e3o-a\u00e7\u00e3o para analisar, transformar e gerar relat\u00f3rios a partir de dados textuais.",
+      longDescription:
+        "awk \u00e9 uma linguagem de processamento de texto compacta, baseada em regras de padr\u00e3o-a\u00e7\u00e3o, registros, campos, arrays associativos, express\u00f5es regulares e entrada em fluxo. \u00c9 comumente dispon\u00edvel em sistemas semelhantes a Unix, com GNU Awk adicionando muitas extens\u00f5es e conveni\u00eancias de ferramentas.\n\n\u00c9 utilizada para extra\u00e7\u00e3o de dados na linha de comando, processamento de logs, gera\u00e7\u00e3o de relat\u00f3rios, transforma\u00e7\u00f5es \u00fanicas, pipelines de shell, tarefas ETL leves e scripts que precisam de processamento conciso de texto estruturado ou semiestruturado.",
+    },
   },
 } satisfies Language;

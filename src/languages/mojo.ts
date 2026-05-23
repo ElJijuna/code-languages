@@ -42,5 +42,18 @@ export const mojo = {
       longDescription:
         "Mojo est un langage de Modular qui combine une syntaxe conviviale pour Python avec la gestion de la propriete, la semantique des valeurs, un controle de bas niveau et des fonctionnalites de compilateur visant a optimiser le code sensible aux performances. Son outil cible les architectures CPU et les workflows d'accelerateurs.\n\nIl est utilise dans des experiences sur les noyaux d'IA, le code numerique, la programmation systeme, les bibliotheques Python et les charges de travail necessitant un controle explicite des performances.",
     },
+    de: {
+      name: "Mojo",
+      description: "Eine systemorientierte Sprache f\u00fcr KI und Beschleuniger-Programmierung.",
+      longDescription:
+        "Mojo ist eine Sprache von Modular, die Python-\u00e4hnliche Syntax mit Ownership, Wertsemantik, Low-Level-Kontrolle und Compiler-Funktionen kombiniert, die auf performanzsensiblen Code abzielen. Ihr Toolchain richtet sich an CPUs und Beschleuniger-Workflows.\n\nSie wird in Experimenten mit KI-Kernen, numerischem Code, Systemprogrammierung, Python-nahen Bibliotheken und Workloads eingesetzt, die explizite Performance-Kontrolle ben\u00f6tigen.",
+    },
+    pt: {
+      name: "Mojo",
+      description:
+        "Linguagem orientada a sistemas para IA e programa\u00e7\u00e3o consciente de aceleradores.",
+      longDescription:
+        "Mojo \u00e9 uma linguagem da Modular que combina a sintaxe amig\u00e1vel do Python com propriedade, sem\u00e2ntica de valores, controle de baixo n\u00edvel e recursos de compilador, visando c\u00f3digo sens\u00edvel ao desempenho. Sua ferramenta visa CPUs e fluxos de trabalho de aceleradores.\n\n\u00c9 usada em experimentos com n\u00facleos de IA, c\u00f3digo num\u00e9rico, programa\u00e7\u00e3o de sistemas, bibliotecas pr\u00f3ximas ao Python e cargas de trabalho que exigem controle de desempenho expl\u00edcito.",
+    },
   },
 } satisfies Language;

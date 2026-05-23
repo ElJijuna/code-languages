@@ -39,5 +39,19 @@ export const yaml = {
       longDescription:
         "YAML represente les donnees structurees avec une syntaxe basee sur l'indentation, prenant en charge les mappings, les sequences, les scalaires, les ancres, les alias et plusieurs documents dans un flux.\n\nIl est largement utilise pour les fichiers de configuration, les workflows CI/CD, les definitions d'infrastructure, les parametres d'application et l'echange de donnees ou la lisibilite est importante.",
     },
+    de: {
+      name: "YAML",
+      description:
+        "Eine menschenlesbare Daten-Serialisierungsprache f\u00fcr Konfigurationen und Dokumente.",
+      longDescription:
+        "YAML stellt strukturierte Daten mit einer Einr\u00fcckungsbasierten Syntax dar, unterst\u00fctzt Mappings, Sequenzen, Skalare, Anchors, Aliase und mehrere Dokumente in einem Stream.\n\nEs wird h\u00e4ufig f\u00fcr Konfigurationsdateien, CI/CD-Workflows, Infrastrukturdefinitionen, Anwendungs-Einstellungen und Datenaustausch verwendet, wo Lesbarkeit wichtig ist.",
+    },
+    pt: {
+      name: "YAML",
+      description:
+        "Linguagem de serializa\u00e7\u00e3o de dados leg\u00edvel por humanos usada para configura\u00e7\u00e3o e documentos.",
+      longDescription:
+        "YAML representa dados estruturados com sintaxe baseada em indenta\u00e7\u00e3o, suportando mapeamentos, sequ\u00eancias, escalares, \u00e2ncoras, aliases e m\u00faltiplos documentos em um fluxo.\n\n\u00c9 amplamente utilizada para arquivos de configura\u00e7\u00e3o, fluxos de CI/CD, defini\u00e7\u00f5es de infraestrutura, configura\u00e7\u00f5es de aplicativos e troca de dados onde a legibilidade \u00e9 importante.",
+    },
   },
 } satisfies Language;

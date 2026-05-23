@@ -43,5 +43,19 @@ export const git = {
       longDescription:
         "Les fichiers lies a Git definissent les regles d'ignoration des depots, les attributs, les sous-modules, la configuration locale, les espaces reserves et les metadonnees du depot utilises par les outils Git.\n\nIls sont utilises dans les projets logiciels pour controler quels fichiers sont suivis, comment les chemins sont traites, comment les sous-modules sont lies et comment le comportement de l'automatisation ou des conventions specifiques au depot.",
     },
+    de: {
+      name: "Git",
+      description:
+        "Metadaten und Konfigurationsdateien, die von Git-Repositories und Versionskontroll-Workflows verwendet werden.",
+      longDescription:
+        "Git-bezogene Dateien definieren Regeln f\u00fcr die Ignorierung von Dateien, Attribute, Submodule, lokale Konfiguration, Platzhalter und Metadaten des Repositorys, die von Git-Tools verwendet werden.\n\nSie werden in Softwareprojekten verwendet, um zu steuern, welche Dateien verfolgt werden, wie Pfade behandelt werden, wie Submodule verkn\u00fcpft werden und wie sich Repository-spezifische Automatisierung oder Konventionen verhalten.",
+    },
+    pt: {
+      name: "Git",
+      description:
+        "Metadados e arquivos de configura\u00e7\u00e3o usados por reposit\u00f3rios Git e fluxos de trabalho de controle de vers\u00e3o.",
+      longDescription:
+        "Arquivos relacionados ao Git definem regras de ignorar reposit\u00f3rios, atributos, subm\u00f3dulos, configura\u00e7\u00e3o local, marcadores e metadados do reposit\u00f3rio usados pelas ferramentas do Git.\n\nS\u00e3o usados em projetos de software para controlar quais arquivos s\u00e3o rastreados, como os caminhos s\u00e3o tratados, como os subm\u00f3dulos s\u00e3o vinculados e como o comportamento da automa\u00e7\u00e3o ou conven\u00e7\u00f5es espec\u00edficas do reposit\u00f3rio.",
+    },
   },
 } satisfies Language;

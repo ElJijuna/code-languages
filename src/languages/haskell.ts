@@ -44,5 +44,19 @@ export const haskell = {
       longDescription:
         "Haskell est un langage de programmation fonctionnel general, connu pour sa purete, son evaluation paresseuse, ses types de donnees algebriques, ses classes de types, la correspondance de motifs et un systeme de typage statique puissant. La norme Haskell 2010 est largement prise en charge, tandis que GHC ajoute de nombreuses extensions couramment utilisees.\n\nIl est utilise dans la construction de compilateurs, la recherche sur les langages de programmation, les systemes financiers, les methodes formelles, le traitement des donnees, l'education et les services de production qui beneficient de types forts et d'abstractions de haut niveau.",
     },
+    de: {
+      name: "Haskell",
+      description:
+        "Eine l\u00e4stige, rein funktionale Sprache mit starker statischer Typisierung und ausdrucksstarken Abstraktionen.",
+      longDescription:
+        "Haskell ist eine allgemeine, funktionale Programmiersprache, die f\u00fcr Purity, Lazy-Evaluation, algebraische Datentypen, Typklassen, Pattern Matching und ein leistungsstarkes statisches Typsystem bekannt ist. Der Haskell 2010 Sprachstandard wird weit verbreitet unterst\u00fctzt, w\u00e4hrend GHC viele h\u00e4ufig verwendete Erweiterungen hinzuf\u00fcgt.\n\nEs wird in Compiler-Entwicklung, Programmiersprachenforschung, Finanzsystemen, formalen Methoden, Datenverarbeitung, Bildung und Produktionsdiensten eingesetzt, die von starken Typen und hochrangigen Abstraktionen profitieren.",
+    },
+    pt: {
+      name: "Haskell",
+      description:
+        "Linguagem funcional, estaticamente tipada e com abstra\u00e7\u00f5es expressivas, com avalia\u00e7\u00e3o pregui\u00e7osa.",
+      longDescription:
+        "Haskell \u00e9 uma linguagem de programa\u00e7\u00e3o funcional de prop\u00f3sito geral, conhecida pela sua pureza, avalia\u00e7\u00e3o pregui\u00e7osa, tipos de dados alg\u00e9bricos, classes de tipos, correspond\u00eancia de padr\u00f5es e um poderoso sistema de tipos est\u00e1tico. O padr\u00e3o de linguagem Haskell 2010 \u00e9 amplamente suportado, enquanto o GHC adiciona muitas extens\u00f5es comuns.\n\n\u00c9 utilizada na constru\u00e7\u00e3o de compiladores, pesquisa em linguagens de programa\u00e7\u00e3o, sistemas financeiros, m\u00e9todos formais, processamento de dados, educa\u00e7\u00e3o e servi\u00e7os de produ\u00e7\u00e3o que se beneficiam de tipos fortes e abstra\u00e7\u00f5es de alto n\u00edvel.",
+    },
   },
 } satisfies Language;

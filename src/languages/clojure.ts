@@ -44,5 +44,19 @@ export const clojure = {
       longDescription:
         "Clojure est un dialecte Lisp fonctionnel dynamique concu pour le developpement logiciel pratique sur des environnements d'execution heberges. Il met l'accent sur les structures de donnees persistantes immuables, les fonctions de premiere classe, les macros, les espaces de noms, les protocoles, la memoire transactionnelle et les flux de travail bases sur REPL.\n\nIl est utilise pour les services backend, les pipelines de donnees, les systemes interactifs, le scripting avec Babashka, les applications web, les systemes distribues et les projets qui beneficient d'un noyau de langage compact avec de solides pratiques de programmation orientee donnees.",
     },
+    de: {
+      name: "Clojure",
+      description:
+        "Ein moderner Lisp f\u00fcr die JVM und JavaScript-\u00d6kosysteme mit unver\u00e4nderlichen Daten und interaktiver Entwicklung.",
+      longDescription:
+        "Clojure ist ein dynamischer funktionaler Lisp-Dialekt, der f\u00fcr die praktische Softwareentwicklung auf gehosteten Laufzeitumgebungen entwickelt wurde. Es betont unver\u00e4nderliche, persistente Datenstrukturen, Funktionen von erster Klasse, Makros, Namespaces, Protokolle, Software-Transaktions-Speicher und REPL-gesteuerte Arbeitsabl\u00e4ufe.\n\nEs wird f\u00fcr Backend-Dienste, Datenpipelines, interaktive Systeme, Skripting mit Babashka, Webanwendungen, verteilte Systeme und Projekte verwendet, die von einer kleinen Sprache mit starken Datenorientierungs-Programmierpraktiken profitieren.",
+    },
+    pt: {
+      name: "Clojure",
+      description:
+        "Lisp moderno para os ecossistemas JVM e JavaScript com dados imut\u00e1veis e desenvolvimento interativo.",
+      longDescription:
+        "Clojure \u00e9 um dialeto din\u00e2mico funcional de Lisp projetado para desenvolvimento de software pr\u00e1tico em ambientes de execu\u00e7\u00e3o hospedados. Enfatiza estruturas de dados persistentes imut\u00e1veis, fun\u00e7\u00f5es de primeira classe, macros, namespaces, protocolos, mem\u00f3ria transacional e fluxos de trabalho baseados em REPL.\n\n\u00c9 usado para servi\u00e7os de backend, pipelines de dados, sistemas interativos, scripting com Babashka, aplica\u00e7\u00f5es web, sistemas distribu\u00eddos e projetos que se beneficiam de um n\u00facleo de linguagem pequeno com fortes pr\u00e1ticas de programa\u00e7\u00e3o orientada a dados.",
+    },
   },
 } satisfies Language;

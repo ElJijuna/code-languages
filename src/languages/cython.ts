@@ -44,5 +44,19 @@ export const cython = {
       longDescription:
         "Cython etend Python avec des types statiques optionnels, des declarations C et des appels directs vers les API C et C++, permettant de compiler le code Python en modules d'extension natifs.\n\nIl est largement utilise pour accelerer le code numerique, encapsuler des bibliotheques natives, construire des packages Python scientifiques et ecrire des composants sensibles aux performances tout en conservant une syntaxe similaire a Python.",
     },
+    de: {
+      name: "Cython",
+      description:
+        "Eine Python-Erweiterung zum Kompilieren von typisiertem Python-\u00e4hnlichem Code in C-Erweiterungsmodule.",
+      longDescription:
+        "Cython erweitert Python mit optionalen statischen Typen, C-Deklarationen und direkten Aufrufen in C- und C++-APIs, wodurch Python-Code in native Erweiterungsmodule kompiliert werden kann.\n\nEs wird h\u00e4ufig verwendet, um numerischen Code zu beschleunigen, native Bibliotheken einzubinden, wissenschaftliche Python-Pakete zu erstellen und leistungskritische Komponenten zu schreiben, w\u00e4hrend die Python-\u00e4hnliche Syntax beibehalten wird.",
+    },
+    pt: {
+      name: "Cython",
+      description:
+        "Superset de Python para compilar c\u00f3digo Python com tipagem em m\u00f3dulos de extens\u00e3o C.",
+      longDescription:
+        "Cython estende o Python com tipos est\u00e1ticos opcionais, declara\u00e7\u00f5es C e chamadas diretas para APIs C e C++, permitindo que o c\u00f3digo Python seja compilado em m\u00f3dulos de extens\u00e3o nativos.\n\n\u00c9 amplamente utilizado para acelerar o c\u00f3digo num\u00e9rico, envolver bibliotecas nativas, construir pacotes Python cient\u00edficos e escrever componentes sens\u00edveis ao desempenho, mantendo a sintaxe semelhante ao Python.",
+    },
   },
 } satisfies Language;

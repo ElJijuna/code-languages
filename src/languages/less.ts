@@ -43,5 +43,19 @@ export const less = {
       longDescription:
         "Less est un langage de feuilles de style dynamique qui etend CSS avec des variables, des regles imbriquees, des mixins, des operations, des fonctions et des abstractions reutilisables, tout en maintenant une syntaxe proche de la CSS standard.\n\nIl est couramment utilise dans les applications web, les systemes de conception, les themes, les stacks front-end heritees et les projets qui compilent des fichiers de style plus riches en CSS compatibles avec le navigateur.",
     },
+    de: {
+      name: "Less",
+      description:
+        "Ein CSS-Pr\u00e4prozessor mit Variablen, Verschachtelung, Mixins, Operationen und Funktionen.",
+      longDescription:
+        "Less ist eine dynamische Stylesheet-Sprache, die CSS mit Variablen, verschachtelten Regeln, Mixins, Operationen, Funktionen und wiederverwendbaren Abstraktionen erweitert und dabei die Syntax nahe an der Standard-CSS-Syntax h\u00e4lt.\n\nEs wird h\u00e4ufig in Webanwendungen, Designsystemen, Themes, Legacy-Frontend-Stacks und Projekten verwendet, die umfangreichere Styling-Quelldateien in browserkompatiblen CSS-Code kompilieren.",
+    },
+    pt: {
+      name: "Less",
+      description:
+        "Um pr\u00e9-processador CSS com vari\u00e1veis, aninhamento, mixins, opera\u00e7\u00f5es e fun\u00e7\u00f5es.",
+      longDescription:
+        "O Less \u00e9 uma linguagem de estilo din\u00e2mica que estende o CSS com vari\u00e1veis, regras aninhadas, mixins, opera\u00e7\u00f5es, fun\u00e7\u00f5es e abstra\u00e7\u00f5es reutiliz\u00e1veis, mantendo a sintaxe pr\u00f3xima do CSS padr\u00e3o.\n\n\u00c9 comumente usado em aplica\u00e7\u00f5es web, sistemas de design, temas, stacks front-end legadas e projetos que compilam arquivos de estilo mais ricos em CSS compat\u00edvel com o navegador.",
+    },
   },
 } satisfies Language;

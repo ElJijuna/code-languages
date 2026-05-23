@@ -42,5 +42,19 @@ export const dhall = {
       longDescription:
         "Dhall est un langage de configuration programmable dote d'un systeme de typage statique fort, d'importations, de fonctions, de records et de normalisation garantie. Il est concu pour remplacer les formats de configuration JSON, YAML et similaires repetitifs avec des expressions typees reutilisables.\n\nIl est utilise pour la configuration d'infrastructure, les parametres d'application, la generation de YAML ou de JSON, et les systemes qui necessitent une configuration partagee sans execution de code arbitraire.",
     },
+    de: {
+      name: "Dhall",
+      description:
+        "Eine programmierbare, typisierte Konfigurationssprache, die sicher normalisiert.",
+      longDescription:
+        "Dhall ist eine programmierbare Konfigurationssprache mit einem starken statischen Typsystem, Importen, Funktionen, Records und garantierter Normalisierung. Sie wurde entwickelt, um repetitive JSON-, YAML- und \u00e4hnliche Konfigurationsformate durch wiederverwendbare, typisierte Ausdr\u00fccke zu ersetzen.\n\nSie wird f\u00fcr Infrastrukturkonfiguration, Anwendungs-Einstellungen, generierte YAML- oder JSON-Dateien und Systeme verwendet, die gemeinsame Konfiguration ben\u00f6tigen, ohne dass beliebiger Code ausgef\u00fchrt wird.",
+    },
+    pt: {
+      name: "Dhall",
+      description:
+        "Linguagem de configura\u00e7\u00e3o program\u00e1vel e tipada que normaliza com seguran\u00e7a.",
+      longDescription:
+        "Dhall \u00e9 uma linguagem de configura\u00e7\u00e3o program\u00e1vel com um forte sistema de tipos est\u00e1ticos, importa\u00e7\u00f5es, fun\u00e7\u00f5es, registros e normaliza\u00e7\u00e3o garantida. \u00c9 projetada para substituir formatos de configura\u00e7\u00e3o repetitivos como JSON, YAML, etc., com express\u00f5es tipadas reutiliz\u00e1veis.\n\n\u00c9 usada para configura\u00e7\u00e3o de infraestrutura, configura\u00e7\u00f5es de aplicativos, gera\u00e7\u00e3o de YAML ou JSON e sistemas que precisam de configura\u00e7\u00e3o compartilhada sem execu\u00e7\u00e3o de c\u00f3digo arbitr\u00e1ria.",
+    },
   },
 } satisfies Language;

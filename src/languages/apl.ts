@@ -43,5 +43,19 @@ export const apl = {
       longDescription:
         "APL centre le calcul autour des tableaux, des operations de haut niveau et d'une notation mathematique concise qui peut exprimer des transformations complexes avec tres peu de code.\n\nIl a influence de nombreux langages de tableaux et reste utile pour l'analyse exploratoire, la modelisation financiere, la conception d'algorithmes et les systemes ou une computation interactive concise est precieuse.",
     },
+    de: {
+      name: "APL",
+      description:
+        "Eine Array-orientierte Sprache, bekannt f\u00fcr pr\u00e4gnante symbolische Notation und interaktive Nutzung.",
+      longDescription:
+        "APL konzentriert sich auf Array-basierte Berechnungen, h\u00f6herwertige Operationen und eine kompakte mathematische Notation, die komplexe Transformationen in sehr wenig Code ausdr\u00fccken kann.\n\nSie hat viele Array-Sprachen beeinflusst und ist weiterhin n\u00fctzlich f\u00fcr explorative Analyse, Finanzmodellierung, Algorithmusdesign und Systeme, in denen kurze interaktive Berechnungen von Vorteil sind.",
+    },
+    pt: {
+      name: "APL",
+      description:
+        "Linguagem orientada a arrays, conhecida por nota\u00e7\u00e3o simb\u00f3lica concisa e uso interativo.",
+      longDescription:
+        "APL centraliza a computa\u00e7\u00e3o em arrays, opera\u00e7\u00f5es de ordem superior e uma nota\u00e7\u00e3o matem\u00e1tica compacta que pode expressar transforma\u00e7\u00f5es complexas com muito pouco c\u00f3digo.\n\nInfluenciou muitas linguagens de arrays e continua \u00fatil em an\u00e1lise explorat\u00f3ria, modelagem financeira, design de algoritmos e sistemas onde a computa\u00e7\u00e3o interativa concisa \u00e9 valiosa.",
+    },
   },
 } satisfies Language;

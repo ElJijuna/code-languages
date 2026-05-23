@@ -44,5 +44,19 @@ export const assembly = {
       longDescription:
         "Le langage assembleur represente les instructions du processeur, les registres, les modes d'adressage de la memoire, les etiquettes, les directives et les macros en utilisant du texte symbolique qui est assemble en code machine.\n\nIl est utilise dans les systemes d'exploitation, les firmwares embarques, les chargeurs de demarrage, les pilotes, l'ingenierie inverse, les routines critiques en termes de performance et les supports pedagogiques ou un controle direct du materiel et des instructions est important.",
     },
+    de: {
+      name: "Assembly",
+      description:
+        "Eine Familie von Low-Level-Sprachen, die eng an Maschinensprache-Anweisungen f\u00fcr spezifische CPU-Architekturen angelehnt sind.",
+      longDescription:
+        "Assemblersprache verwendet symbolische Textdarstellung, um Prozessorbefehle, Register, Speicheradressierungsmodi, Labels, Direktiven und Makros in Maschinencode umzuwandeln.\n\nSie wird in Betriebssystemen, eingebetteten Firmware, Bootloadern, Treibern, Reverse Engineering, performance-kritischen Routinen und in Lehrmaterialien verwendet, wo direkter Zugriff auf Hardware und Befehle wichtig ist.",
+    },
+    pt: {
+      name: "Assembly",
+      description:
+        "Uma fam\u00edlia de linguagens de baixo n\u00edvel que correspondem a instru\u00e7\u00f5es de m\u00e1quina para arquiteturas de CPU espec\u00edficas.",
+      longDescription:
+        "A linguagem Assembly representa instru\u00e7\u00f5es de processador, registradores, modos de endere\u00e7amento de mem\u00f3ria, r\u00f3tulos, diretivas e macros usando texto simb\u00f3lico que \u00e9 montado em c\u00f3digo de m\u00e1quina.\n\n\u00c9 usada em sistemas operacionais, firmware embarcado, bootloaders, drivers, engenharia reversa, rotinas cr\u00edticas de desempenho e materiais educacionais onde o controle direto sobre o hardware e as instru\u00e7\u00f5es \u00e9 importante.",
+    },
   },
 } satisfies Language;

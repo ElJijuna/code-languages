@@ -44,5 +44,19 @@ export const razor = {
       longDescription:
         "Razor est une syntaxe de balisage et un langage de modelisation utilise par ASP.NET Core pour combiner HTML avec des expressions, des directives, des mises en page, des helpers de balises, des composants et la logique de rendu cote serveur ou interactif.\n\nIl est utilise dans les vues MVC, les pages Razor, les bibliotheques de classes Razor et les composants Blazor. Les fichiers Razor definissent couramment des modeles de pages, des composants UI reutilisables, des formulaires, des mises en page, le routage, les parametres de composants et les liaisons dans les applications web .NET.",
     },
+    de: {
+      name: "Razor",
+      description:
+        "Microsofts Markup-Syntax f\u00fcr ASP.NET Core Views, Razor Pages und Blazor-Komponenten.",
+      longDescription:
+        "Razor ist eine Markup-Syntax und ein Templating-Sprache, die von ASP.NET Core verwendet wird, um HTML mit C#-Ausdr\u00fccken, Direktiven, Layouts, Tag-Helpers, Komponenten und serverseitiger oder interaktiver Rendering-Logik zu kombinieren.\n\nEs wird in MVC-Views, Razor Pages, Razor Class Libraries und Blazor-Komponenten verwendet. Razor-Dateien definieren typischerweise Seitenvorlagen, wiederverwendbare UI-Komponenten, Formulare, Layouts, Routing, Komponentenparameter und Bindungen in .NET-Webanwendungen.",
+    },
+    pt: {
+      name: "Razor",
+      description:
+        "Sintaxe de marca\u00e7\u00e3o da Microsoft para visualiza\u00e7\u00f5es do ASP.NET Core, p\u00e1ginas Razor e componentes Blazor.",
+      longDescription:
+        "Razor \u00e9 uma sintaxe e linguagem de modelagem usada pelo ASP.NET Core para combinar HTML com express\u00f5es, diretivas, layouts, helpers de tag, componentes e l\u00f3gica de renderiza\u00e7\u00e3o do lado do servidor ou interativa.\n\n\u00c9 usada em visualiza\u00e7\u00f5es MVC, p\u00e1ginas Razor, bibliotecas de classe Razor e componentes Blazor. Os arquivos Razor definem comumente modelos de p\u00e1gina, componentes de UI reutiliz\u00e1veis, formul\u00e1rios, layouts, roteamento, par\u00e2metros de componentes e vincula\u00e7\u00f5es em aplica\u00e7\u00f5es web .NET.",
+    },
   },
 } satisfies Language;

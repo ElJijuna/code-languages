@@ -43,5 +43,19 @@ export const go = {
       longDescription:
         "Go combine une petite specification de langage, la gestion de la memoire, le typage statique et des primitives de concurrence integrees via les goroutines et les canaux.\n\nIl est couramment utilise pour les services cloud, les outils de reseau, les systemes distribues, les applications en ligne de commande et les logiciels d'infrastructure.",
     },
+    de: {
+      name: "Go",
+      description:
+        "Eine kompilierte Sprache, die f\u00fcr Einfachheit, schnelle Builds und Nebenl\u00e4ufigkeit entwickelt wurde.",
+      longDescription:
+        "Go kombiniert eine kleine Sprachspezifikation, Garbage Collection, statische Typisierung und integrierte Nebenl\u00e4ufigkeitsprimitiven durch Goroutinen und Kan\u00e4le.\n\nEs wird h\u00e4ufig f\u00fcr Cloud-Dienste, Netzwerktools, verteilte Systeme, Kommandozeilenanwendungen und Infrastruktursoftware verwendet.",
+    },
+    pt: {
+      name: "Go",
+      description:
+        "Linguagem compilada projetada para simplicidade, tempos de compila\u00e7\u00e3o r\u00e1pidos e concorr\u00eancia.",
+      longDescription:
+        "Go combina uma especifica\u00e7\u00e3o de linguagem pequena, coleta de lixo, tipagem est\u00e1tica e primitivas de concorr\u00eancia embutidas atrav\u00e9s de goroutines e canais.\n\n\u00c9 comumente usada para servi\u00e7os em nuvem, ferramentas de rede, sistemas distribu\u00eddos, aplicativos de linha de comando e software de infraestrutura.",
+    },
   },
 } satisfies Language;

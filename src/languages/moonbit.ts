@@ -42,5 +42,18 @@ export const moonbit = {
       longDescription:
         "MoonBit est un langage et un ensemble d'outils construits autour d'un retour rapide, de types de donnees algebriques, de la correspondance de motifs et de plusieurs backends, notamment WebAssembly. Ses outils de package et de test sont concus comme faisant partie du flux de travail du langage.\n\nIl est utilise pour les bibliotheques WebAssembly, les experiences en ligne de commande, les environnements d'execution web, l'enseignement et les projets qui souhaitent un code type compact avec des outils integres.",
     },
+    de: {
+      name: "MoonBit",
+      description: "Eine statisch typisierte Sprache und Toolchain f\u00fcr WebAssembly-Ausgabe.",
+      longDescription:
+        "MoonBit ist eine Sprache und Toolchain, die auf schnellen R\u00fcckmeldungen, algebraischen Datentypen, Pattern Matching und mehreren Backends, einschlie\u00dflich WebAssembly, basiert. Ihre Paket- und Testwerkzeuge sind Teil des Sprachworkflows.\n\nSie wird f\u00fcr WebAssembly-Bibliotheken, Kommandozeilen-Experimente, Web-Runtimes, Lehre und Projekte verwendet, die kompakten, typisierten Code mit integrierten Werkzeugen ben\u00f6tigen.",
+    },
+    pt: {
+      name: "MoonBit",
+      description:
+        "Linguagem e conjunto de ferramentas estaticamente tipadas, projetado para sa\u00edda WebAssembly.",
+      longDescription:
+        "MoonBit \u00e9 uma linguagem e conjunto de ferramentas constru\u00eddas em torno de feedback r\u00e1pido, tipos de dados alg\u00e9bricos, correspond\u00eancia de padr\u00f5es e v\u00e1rios backends, incluindo WebAssembly. Suas ferramentas de pacote e teste s\u00e3o projetadas como parte do fluxo de trabalho da linguagem.\n\n\u00c9 usado para bibliotecas WebAssembly, experimentos de linha de comando, ambientes de execu\u00e7\u00e3o web, ensino e projetos que desejam c\u00f3digo tipado compacto com ferramentas integradas.",
+    },
   },
 } satisfies Language;

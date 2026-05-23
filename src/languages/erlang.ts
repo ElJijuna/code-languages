@@ -44,5 +44,19 @@ export const erlang = {
       longDescription:
         "Erlang est un langage de programmation et un systeme d'execution fonctionnel concu pour les applications concurrentes, distribuees et tolerantes aux pannes. Erlang/OTP inclut la machine virtuelle BEAM, des processus legers, la communication par messages, des superviseurs, des applications, des versions et des bibliotheques pour construire des systemes resilients.\n\nIl est largement utilise dans les plateformes de telecommunications, les systemes de messagerie, les bases de donnees, les services en temps reel, l'infrastructure reseau, l'IoT et les systemes ou la disponibilite, les mises a jour de code en direct et l'isolement des pannes sont des exigences centrales.",
     },
+    de: {
+      name: "Erlang",
+      description:
+        "Ein konkurrierender funktionaler Programmiersprache f\u00fcr fehlertolerante, verteilte und hochverf\u00fcgbare Systeme.",
+      longDescription:
+        "Erlang ist eine funktionale Programmiersprache und Laufzeitumgebung, die f\u00fcr konkurrierende, verteilte, fehlertolerante Anwendungen entwickelt wurde. Erlang/OTP enth\u00e4lt die BEAM-virtuelle Maschine, leichte Prozesse, Nachrichten\u00fcbertragung, Supervisors, Anwendungen, Releases und Bibliotheken zum Aufbau robuster Systeme.\n\nEs wird h\u00e4ufig in Telekommunikationsplattformen, Messaging-Systemen, Datenbanken, Echtzeitdiensten, Netzwerkinfrastruktur, IoT und Systemen eingesetzt, bei denen Ausfallsicherheit, Hot-Code-Upgrades und Fehlerisolation von zentraler Bedeutung sind.",
+    },
+    pt: {
+      name: "Erlang",
+      description:
+        "Linguagem funcional concorrente para sistemas tolerantes a falhas, distribu\u00eddos e altamente dispon\u00edveis.",
+      longDescription:
+        "Erlang \u00e9 uma linguagem de programa\u00e7\u00e3o e sistema de tempo de execu\u00e7\u00e3o funcional, projetada para aplica\u00e7\u00f5es concorrentes, distribu\u00eddas e tolerantes a falhas. Erlang/OTP inclui a m\u00e1quina virtual BEAM, processos leves, passagem de mensagens, supervisores, aplica\u00e7\u00f5es, releases e bibliotecas para construir sistemas resilientes.\n\n\u00c9 amplamente utilizada em plataformas de telecomunica\u00e7\u00f5es, sistemas de mensagens, bancos de dados, servi\u00e7os em tempo real, infraestrutura de rede, IoT e sistemas onde a disponibilidade, atualiza\u00e7\u00f5es de c\u00f3digo quentes e isolamento de falhas s\u00e3o requisitos centrais.",
+    },
   },
 } satisfies Language;

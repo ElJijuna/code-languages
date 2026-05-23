@@ -44,5 +44,19 @@ export const elm = {
       longDescription:
         "Elm est un langage de programmation fonctionnel concu pour la creation d'applications web pour navigateur avec des types statiques forts, des donnees immuables, des fonctions pures, la correspondance de motifs et un compilateur convivial qui met l'accent sur des messages d'erreur clairs.\n\nIl est utilise pour les applications frontend, les interfaces web interactives, l'apprentissage de la programmation fonctionnelle et les projets qui souhaitent des mises a jour d'etat previsibles grace a The Elm Architecture tout en se compilant en JavaScript.",
     },
+    de: {
+      name: "Elm",
+      description:
+        "Ein funktionales Programmiersprache f\u00fcr zuverl\u00e4ssige Webanwendungen, die zu JavaScript kompiliert.",
+      longDescription:
+        "Elm ist eine funktionale Programmiersprache, die f\u00fcr den Aufbau von Browseranwendungen mit starken statischen Typen, unver\u00e4nderlichen Daten, reinen Funktionen, Pattern Matching und einem benutzerfreundlichen Compiler entwickelt wurde, der klare Fehlermeldungen hervorhebt.\n\nEs wird f\u00fcr Frontend-Anwendungen, interaktive Web-Oberfl\u00e4chen, das Erlernen von funktionaler Programmierung und Projekte verwendet, die durch The Elm Architecture vorhersagbare Zustandsaktualisierungen erreichen m\u00f6chten, w\u00e4hrend sie zu JavaScript kompiliert werden.",
+    },
+    pt: {
+      name: "Elm",
+      description:
+        "Linguagem funcional para aplica\u00e7\u00f5es web confi\u00e1veis que compila para JavaScript.",
+      longDescription:
+        "Elm \u00e9 uma linguagem de programa\u00e7\u00e3o funcional projetada para construir aplica\u00e7\u00f5es de navegador com tipos est\u00e1ticos fortes, dados imut\u00e1veis, fun\u00e7\u00f5es puras, correspond\u00eancia de padr\u00f5es e um compilador amig\u00e1vel que enfatiza mensagens de erro claras.\n\n\u00c9 usada para aplica\u00e7\u00f5es front-end, interfaces web interativas, aprendizado de programa\u00e7\u00e3o funcional e projetos que desejam atualiza\u00e7\u00f5es de estado previs\u00edveis atrav\u00e9s da Arquitetura Elm, compilando para JavaScript.",
+    },
   },
 } satisfies Language;

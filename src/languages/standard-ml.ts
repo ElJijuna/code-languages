@@ -41,5 +41,18 @@ export const standardMl = {
       longDescription:
         "Standard ML definit un langage fonctionnel strict avec des types algebriques, la correspondance de motifs, l'inference de types, les exceptions et un systeme de modules robuste avec des signatures et des fonctions. Sa definition formelle a influence de nombreuses realisations de la famille ML.\n\nIl est utilise dans les compilateurs, les outils de demonstration, l'enseignement, la recherche et les projets qui necessitent un noyau fonctionnel type et robuste.",
     },
+    de: {
+      name: "Standard ML",
+      description: "Eine statisch typisierte ML-Sprache mit Modulen und Musterabgleich.",
+      longDescription:
+        "Standard ML definiert eine strenge funktionale Sprache mit algebraischen Datentypen, Musterabgleich, Typinferenz, Ausnahmen und einem robusten Modulsystem mit Signaturen und Funktoren. Ihre formale Definition hat viel ML-Familienarbeit gepr\u00e4gt.\n\nEs wird in Compilern, Theorem-Werkzeugen, Lehre, Forschung und Projekten verwendet, die eine kleine, typisierte funktionale Kern mit robusten Modulen ben\u00f6tigen.",
+    },
+    pt: {
+      name: "Standard ML",
+      description:
+        "Linguagem ML estaticamente tipada com m\u00f3dulos e correspond\u00eancia de padr\u00f5es.",
+      longDescription:
+        "Standard ML define uma linguagem funcional estrita com tipos alg\u00e9bricos, correspond\u00eancia de padr\u00f5es, infer\u00eancia de tipos, exce\u00e7\u00f5es e um sistema de m\u00f3dulos robusto com assinaturas e funtores. Sua defini\u00e7\u00e3o formal moldou muito o trabalho da fam\u00edlia ML.\n\n\u00c9 usada em compiladores, ferramentas de prova, ensino, pesquisa e projetos que precisam de um n\u00facleo funcional tipado e robusto com m\u00f3dulos.",
+    },
   },
 } satisfies Language;

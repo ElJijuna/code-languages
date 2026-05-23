@@ -44,5 +44,19 @@ export const coffeescript = {
       longDescription:
         "CoffeeScript ajoute une syntaxe concise au-dessus de JavaScript avec un espacement important, des raccourcis de fonction, des comprehensions, la destructuration, les classes, l'interpolation de chaines et d'autres commodites expressives.\n\nIl etait largement utilise dans les anciens stacks d'applications JavaScript et reste pertinent dans les projets herites, les pipelines de construction et les bases de code qui preferent sa syntaxe concise tout en ciblant le JavaScript standard.",
     },
+    de: {
+      name: "CoffeeScript",
+      description:
+        "Eine kleine Sprache, die zu JavaScript kompiliert, mit pr\u00e4gnanter Syntax, inspiriert von Ruby und Python.",
+      longDescription:
+        "CoffeeScript f\u00fcgt JavaScript eine pr\u00e4gnante Syntax mit signifikanter Whitespace, Funktionsabk\u00fcrzungen, Comprehensions, Destrukturierung, Klassen, String-Interpolation und anderen ausdrucksstarken Funktionen hinzu.\n\nEs wurde in fr\u00fcheren JavaScript-Anwendungsumgebungen weit verbreitet und ist auch in Legacy-Projekten, Build-Pipelines und Codebasen relevant, die seine kompakte Syntax bevorzugen, w\u00e4hrend sie auf Standard-JavaScript abzielen.",
+    },
+    pt: {
+      name: "CoffeeScript",
+      description:
+        "Uma linguagem pequena que compila para JavaScript com sintaxe concisa inspirada em Ruby e Python.",
+      longDescription:
+        "CoffeeScript adiciona uma sintaxe concisa ao JavaScript com espa\u00e7os em branco significativos, atalhos de fun\u00e7\u00e3o, comprehensions, destructuring, classes, interpola\u00e7\u00e3o de strings e outras conveni\u00eancias expressivas.\n\nFoi amplamente utilizada em stacks de aplica\u00e7\u00f5es JavaScript anteriores e permanece relevante em projetos legados, pipelines de constru\u00e7\u00e3o e bases de c\u00f3digo que preferem sua sintaxe compacta, ao mesmo tempo que visam JavaScript padr\u00e3o.",
+    },
   },
 } satisfies Language;

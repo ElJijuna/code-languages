@@ -55,9 +55,9 @@ export const expectValidLanguage = (language: Language, expectedSlug: string) =>
   expect(regionalEnglish.resolvedLocale).toBe("en");
   expect(regionalEnglish.name).toBe(language.i18n.en.name);
 
-  const unsupportedLocale = localizeLanguage(language, "de-DE");
+  const unsupportedLocale = localizeLanguage(language, "ja-JP");
 
-  expect(unsupportedLocale.locale).toBe("de-DE");
+  expect(unsupportedLocale.locale).toBe("ja-JP");
   expect(unsupportedLocale.resolvedLocale).toBe("en");
   expect(unsupportedLocale.name).toBe(language.i18n.en.name);
 };

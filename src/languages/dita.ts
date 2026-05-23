@@ -40,5 +40,18 @@ export const dita = {
       longDescription:
         "DITA est l'architecture d'information Darwin, une norme XML basee sur les themes. Elle definit les types de themes, les cartes, les mecanismes de specialisation et de reutilisation, ainsi que les metadonnees orientees vers la publication pour les grands ensembles de documentation.\n\nElle est utilisee dans l'ecriture technique, la documentation de produits, le contenu reglemente, les flux de travail de localisation et les pipelines de publication qui necessitent des themes structures et reutilisables plutot que des documents page par page.",
     },
+    de: {
+      name: "DITA",
+      description: "Eine XML-basierte Architektur f\u00fcr strukturierte technische Dokumentation.",
+      longDescription:
+        "DITA ist die Darwin Information Typing Architecture, ein XML-basierter Standard f\u00fcr themenorientierte Erstellung. Er definiert Topic-Typen, Karten, Spezialisierungs- und Wiederverwendungsm\u00f6glichkeiten sowie Ver\u00f6ffentlichungsmetadaten f\u00fcr gro\u00dfe Dokumentationssets.\n\nDITA wird in technischen Schreibarbeiten, Produktdokumentation, regulierten Inhalten, Lokalisierungsworkflows und Ver\u00f6ffentlichungs-Pipelines eingesetzt, die strukturierte, wiederverwendbare Themen ben\u00f6tigen, anstatt einzelne Seiten.",
+    },
+    pt: {
+      name: "DITA",
+      description:
+        "Arquitetura baseada em XML para documenta\u00e7\u00e3o t\u00e9cnica estruturada.",
+      longDescription:
+        "DITA \u00e9 a Darwin Information Typing Architecture, um padr\u00e3o XML para autoria orientada a t\u00f3picos. Define tipos de t\u00f3picos, mapeamentos, especializa\u00e7\u00f5es, mecanismos de reutiliza\u00e7\u00e3o e metadados orientados \u00e0 publica\u00e7\u00e3o para grandes conjuntos de documenta\u00e7\u00e3o.\n\n\u00c9 utilizada em escrita t\u00e9cnica, documenta\u00e7\u00e3o de produtos, conte\u00fado regulamentado, fluxos de trabalho de localiza\u00e7\u00e3o e pipelines de publica\u00e7\u00e3o que necessitam de t\u00f3picos reutiliz\u00e1veis e estruturados, em vez de documentos p\u00e1gina por p\u00e1gina.",
+    },
   },
 } satisfies Language;

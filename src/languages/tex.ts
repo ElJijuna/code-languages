@@ -44,5 +44,19 @@ export const tex = {
       longDescription:
         "TeX est un systeme de composition de texte programmable base sur des macros, des boites, de la colle, la mise en page mathematique et la composition precise des pages. Plain TeX, LaTeX, ConTeXt et des formats connexes s'appuient sur la famille de moteurs TeX pour produire des documents de haute qualite a partir de fichiers sources de texte.\n\nIl est utilise pour les articles universitaires, les livres, les manuels techniques, les mathematiques, la physique, les publications en informatique, les theses et les flux de travail de publication ou la typographie reproductible et la stabilite a long terme de la source sont importantes.",
     },
+    de: {
+      name: "TeX",
+      description:
+        "Donald Knuths programmierbares Typesetting-System f\u00fcr pr\u00e4zise technische und wissenschaftliche Dokumente.",
+      longDescription:
+        "TeX ist ein programmierbares Typesetting-System, das auf Makros, Boxen, Glue, mathematischer Layout und pr\u00e4ziser Seitenkomposition basiert. Plain TeX, LaTeX, ConTeXt und verwandte Formate basieren auf dem TeX-Engine-Familien, um aus Textquellen hochqualitative Dokumente zu erstellen.\n\nEs wird f\u00fcr akademische Arbeiten, B\u00fccher, technische Handb\u00fccher, Mathematik, Physik, Computerwissenschaftliche Publikationen, Dissertationen und Publishing-Workflows verwendet, bei denen reproduzierbare Typografie und langfristige Quellstabilit\u00e4t wichtig sind.",
+    },
+    pt: {
+      name: "TeX",
+      description:
+        "Sistema de tipografia baseado em macros de Donald Knuth para documentos t\u00e9cnicos e cient\u00edficos precisos.",
+      longDescription:
+        "TeX \u00e9 um sistema de tipografia program\u00e1vel baseado em macros, caixas, cola, layout matem\u00e1tico e composi\u00e7\u00e3o de p\u00e1ginas precisa. Plain TeX, LaTeX, ConTeXt e formatos relacionados constroem sobre o motor TeX para produzir documentos de alta qualidade a partir de arquivos de origem de texto.\n\n\u00c9 usado para artigos acad\u00eamicos, livros, manuais t\u00e9cnicos, matem\u00e1tica, f\u00edsica, publica\u00e7\u00f5es de ci\u00eancia da computa\u00e7\u00e3o, teses e fluxos de trabalho de publica\u00e7\u00e3o onde a tipografia reprodut\u00edvel e a estabilidade de longo prazo da fonte s\u00e3o importantes.",
+    },
   },
 } satisfies Language;

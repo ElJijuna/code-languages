@@ -40,5 +40,17 @@ export const agda = {
       longDescription:
         "Agda est un langage de programmation fonctionnel de type dependant et un assistant de preuve interactif. Il prend en charge les familles inductives, la correspondance de motifs, les modules, les operateurs mixfix, la syntaxe Unicode et un systeme de types suffisamment expressif pour encoder des preuves mathematiques sous forme de programmes.\n\nIl est utilise dans la recherche sur les langages de programmation, la mathematique constructive, les algorithmes certifies et l'education, ou des specifications precises et des preuves verifiees par machine comptent autant que le code executable.",
     },
+    de: {
+      name: "Agda",
+      description: "Abh\u00e4ngig typisierte funktionale Sprache und Beweisf\u00fchrungstool.",
+      longDescription:
+        "Agda ist eine abh\u00e4ngig typisierte funktionale Programmiersprache und interaktives Beweisf\u00fchrungstool. Sie unterst\u00fctzt induktive Familien, Mustervergleich, Module, Mixfix-Operatoren, Unicode-Syntax und ein Typsystem, das ausdrucksstark genug ist, um mathematische Beweise als Programme zu kodieren.\n\nEs wird in der Forschung f\u00fcr Programmiersprachen, konstruktiver Mathematik, zertifizierten Algorithmen und in der Bildung eingesetzt, wo pr\u00e4zise Spezifikationen und maschinell \u00fcberpr\u00fcfte Beweise genauso wichtig sind wie ausf\u00fchrbarer Code.",
+    },
+    pt: {
+      name: "Agda",
+      description: "Linguagem funcional e assistente de provas de tipo dependente.",
+      longDescription:
+        "Agda \u00e9 uma linguagem de programa\u00e7\u00e3o funcional de tipo dependente e assistente de provas interativa. Suporta fam\u00edlias indutivas, correspond\u00eancia de padr\u00f5es, m\u00f3dulos, operadores mixfix, sintaxe Unicode e um sistema de tipos expressivo o suficiente para codificar provas matem\u00e1ticas como programas.\n\n\u00c9 usada em pesquisa de linguagens de programa\u00e7\u00e3o, matem\u00e1tica construtiva, algoritmos certificados e educa\u00e7\u00e3o, onde especifica\u00e7\u00f5es precisas e provas verificadas por m\u00e1quina s\u00e3o t\u00e3o importantes quanto o c\u00f3digo execut\u00e1vel.",
+    },
   },
 } satisfies Language;

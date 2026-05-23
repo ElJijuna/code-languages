@@ -39,5 +39,18 @@ export const ziggy = {
       longDescription:
         "Ziggy est un langage de donnees pour les documents structures lisibles, avec une forme de schema associee pour decrire les formes attendues. Il cible les flux de travail de configuration et d'echange de donnees, avec des outils autour des ecosystemes Zig.\n\nIl est utilise pour les fichiers de configuration, les documents de donnees verifies par schema, les experiences d'outils et les projets qui souhaitent une notation de donnees typee compacte.",
     },
+    de: {
+      name: "Ziggy",
+      description: "Eine Datennotation und Schemalingua f\u00fcr Konfigurations-Stil-Dokumente.",
+      longDescription:
+        "Ziggy ist eine Daten-Lingua f\u00fcr lesbare, strukturierte Dokumente mit einer zugeh\u00f6rigen Schemabindung zur Beschreibung erwarteter Formen. Es richtet sich an Konfigurations- und Daten-Interchange-Workflows mit Werkzeugen im Zig-\u00d6kosystem.\n\nEs wird f\u00fcr Konfigurationsdateien, schemacheckte Daten-Dokumente, Werkzeug-Experimente und Projekte verwendet, die eine kompakte, typisierte Datennotation w\u00fcnschen.",
+    },
+    pt: {
+      name: "Ziggy",
+      description:
+        "Uma linguagem de nota\u00e7\u00e3o e esquema para documentos de estilo de configura\u00e7\u00e3o.",
+      longDescription:
+        "Ziggy \u00e9 uma linguagem de dados para documentos estruturados leg\u00edveis, com uma forma de esquema associada para descrever formas esperadas. \u00c9 projetada para fluxos de trabalho de configura\u00e7\u00e3o e troca de dados, com ferramentas em torno dos ecossistemas Zig.\n\n\u00c9 usada para arquivos de configura\u00e7\u00e3o, documentos de dados verificados por esquema, experimentos de ferramentas e projetos que desejam uma nota\u00e7\u00e3o de dados tipada compacta.",
+    },
   },
 } satisfies Language;

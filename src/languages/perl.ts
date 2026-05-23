@@ -44,5 +44,19 @@ export const perl = {
       longDescription:
         "Perl est un langage de script de haut niveau cree par Larry Wall, connu pour le traitement de texte pratique, les expressions regulieres, le scripting systeme, le typage dynamique, CPAN et une forte culture de modules reutilisables. Perl 5 reste le langage principal de la famille Perl.\n\nIl est utilise pour l'automatisation Unix, le traitement des journaux, les applications web heritees, la bioinformatique, la manipulation de donnees, les outils de publication, les services reseau et les scripts operationnels a long terme ou la gestion expressive du texte et les bibliotheques matures sont importantes.",
     },
+    de: {
+      name: "Perl",
+      description:
+        "Eine flexible Skriptsprache f\u00fcr Textverarbeitung, Automatisierung, Web-Systeme und CPAN-Module.",
+      longDescription:
+        "Perl ist eine High-Level-Skriptsprache, die von Larry Wall entwickelt wurde. Sie ist bekannt f\u00fcr praktische Textverarbeitung, regul\u00e4re Ausdr\u00fccke, System-Skripting, dynamische Typisierung, CPAN und eine starke Kultur wiederverwendbarer Module. Perl 5 ist die Haupt-Produktionssprache innerhalb der Perl-Familie.\n\nSie wird f\u00fcr Unix-Automatisierung, Log-Verarbeitung, Legacy-Webanwendungen, Bioinformatik, Datenmanipulation, Release-Tooling, Netzwerkdienste und langfristige Betriebsscripts verwendet, bei denen eine ausdrucksstarke Textverarbeitung und ausgereifte Bibliotheken wichtig sind.",
+    },
+    pt: {
+      name: "Perl",
+      description:
+        "Linguagem de script flex\u00edvel para processamento de texto, automa\u00e7\u00e3o, sistemas web e m\u00f3dulos CPAN.",
+      longDescription:
+        "Perl \u00e9 uma linguagem de script de alto n\u00edvel criada por Larry Wall, conhecida por seu processamento de texto pr\u00e1tico, express\u00f5es regulares, scripting de sistema, tipagem din\u00e2mica, CPAN e uma forte cultura de m\u00f3dulos reutiliz\u00e1veis. Perl 5 permanece a principal linguagem de produ\u00e7\u00e3o da fam\u00edlia Perl.\n\n\u00c9 usada para automa\u00e7\u00e3o Unix, processamento de logs, aplica\u00e7\u00f5es web legadas, bioinform\u00e1tica, manipula\u00e7\u00e3o de dados, ferramentas de lan\u00e7amento, servi\u00e7os de rede e scripts operacionais de longa dura\u00e7\u00e3o onde o tratamento expressivo de texto e bibliotecas maduras s\u00e3o importantes.",
+    },
   },
 } satisfies Language;

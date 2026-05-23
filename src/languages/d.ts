@@ -44,5 +44,19 @@ export const d = {
       longDescription:
         "D est un langage de programmation systeme general a usage, dote d'une syntaxe semblable a celle de C, de compilation native, de ramasse-miettes, d'options de gestion manuelle de la memoire, de modeles, d'execution de fonctions au moment de la compilation, de plages, de contrats et d'interoperabilite avec C.\n\nIl est utilise pour les outils en ligne de commande, les logiciels systeme, les services natifs, les applications a haute performance, les outils de developpement de jeux, les compilateurs et les projets qui souhaitent un controle de bas niveau, ainsi que des meta-programmation et des fonctionnalites de langage modernes.",
     },
+    de: {
+      name: "D",
+      description:
+        "Ein Systemprogrammiersprache, die native Leistung mit High-Level-Abstraktionen kombiniert.",
+      longDescription:
+        "D ist eine allgemeine Systemprogrammiersprache mit C-\u00e4hnlicher Syntax, nativem Kompilieren, Garbage Collection, manuellen Speicheroptionen, Templates, Compile-Time-Funktionsausf\u00fchrung, Ranges, Vertr\u00e4gen und Interoperabilit\u00e4t mit C.\n\nEs wird f\u00fcr Kommandozeilen-Tools, Systemsoftware, native Dienste, Hochleistungsanwendungen, Game-Tooling, Compiler und Projekte verwendet, die eine Low-Level-Kontrolle zusammen mit ausdrucksstarker Metaprogrammierung und modernen Sprachfunktionen w\u00fcnschen.",
+    },
+    pt: {
+      name: "D",
+      description:
+        "Linguagem de programa\u00e7\u00e3o de sistemas que combina desempenho nativo com abstra\u00e7\u00f5es de alto n\u00edvel.",
+      longDescription:
+        "D \u00e9 uma linguagem de programa\u00e7\u00e3o de sistemas de uso geral com sintaxe semelhante \u00e0 C, compila\u00e7\u00e3o nativa, coleta de lixo, op\u00e7\u00f5es de gerenciamento manual de mem\u00f3ria, templates, execu\u00e7\u00e3o de fun\u00e7\u00f5es em tempo de compila\u00e7\u00e3o, ranges, contratos e interoperabilidade com C.\n\n\u00c9 usada para ferramentas de linha de comando, software de sistemas, servi\u00e7os nativos, aplica\u00e7\u00f5es de alto desempenho, ferramentas de jogos, compiladores e projetos que desejam controle de baixo n\u00edvel, juntamente com metaprograma\u00e7\u00e3o expressiva e recursos de linguagem modernos.",
+    },
   },
 } satisfies Language;

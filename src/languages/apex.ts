@@ -44,5 +44,19 @@ export const apex = {
       longDescription:
         "Apex est un langage de programmation fortement type, oriente objet qui fonctionne sur la plateforme Salesforce. Il combine une syntaxe semblable a Java avec des operations de base de donnees specifiques a la plateforme, des declencheurs, des taches asynchrones, des limites de gouvernance, des regles de partage et des integrations avec les metadonnees et les API de Salesforce.\n\nIl est utilise pour les personnalisations CRM, l'automatisation des processus, les controleurs personnalises, la validation des donnees, les integrations, le traitement par lots, les evenements de la plateforme et les applications d'entreprise construites dans Salesforce.",
     },
+    de: {
+      name: "Apex",
+      description:
+        "Stark typisierte, objektorientierte Programmiersprache f\u00fcr Gesch\u00e4ftslogik auf der Salesforce-Plattform.",
+      longDescription:
+        "Apex ist eine stark typisierte, objektorientierte Programmiersprache, die auf der Salesforce-Plattform ausgef\u00fchrt wird. Sie kombiniert Java-\u00e4hnliche Syntax mit plattformspezifischen Datenbankoperationen, Triggern, asynchronen Jobs, Governor Limits, Sharing Rules und Integrationen mit Salesforce-Metadaten und APIs.\n\nSie wird f\u00fcr CRM-Anpassungen, Gesch\u00e4ftsprozessautomatisierung, benutzerdefinierte Controller, Datenvalidierung, Integrationen, Batch-Verarbeitung, Plattformereignisse und Unternehmensanwendungen, die innerhalb von Salesforce erstellt werden, verwendet.",
+    },
+    pt: {
+      name: "Apex",
+      description:
+        "Linguagem fortemente tipada do Salesforce para l\u00f3gica de neg\u00f3cios da plataforma.",
+      longDescription:
+        "Apex \u00e9 uma linguagem de programa\u00e7\u00e3o fortemente tipada e orientada a objetos que executa na Plataforma Salesforce. Combina a sintaxe semelhante \u00e0 Java com opera\u00e7\u00f5es de banco de dados espec\u00edficas da plataforma, gatilhos, tarefas ass\u00edncronas, limites de governan\u00e7a, regras de compartilhamento e integra\u00e7\u00e3o com metadados e APIs do Salesforce.\n\n\u00c9 usada para personaliza\u00e7\u00f5es de CRM, automa\u00e7\u00e3o de neg\u00f3cios, controladores personalizados, valida\u00e7\u00e3o de dados, integra\u00e7\u00e3o, processamento em lote, eventos da plataforma e aplicativos empresariais constru\u00eddos dentro do Salesforce.",
+    },
   },
 } satisfies Language;

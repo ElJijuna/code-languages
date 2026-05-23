@@ -43,5 +43,18 @@ export const pony = {
       longDescription:
         "Pony combine les acteurs, les capacites d'objets, le typage statique et les capacites de reference pour rendre les programmes concurrents natifs explicites concernant l'aliasing et la mutation. Le runtime du langage planifie des acteurs isoles qui communiquent par des messages.\n\nIl est utilise pour les services concurrents, les experimentations natives, les systemes d'acteurs et les programmes qui souhaitent des garanties au moment de la compilation concernant les courses de donnees.",
     },
+    de: {
+      name: "Pony",
+      description: "Eine Actor-Sprache mit Referenzf\u00e4higkeiten und Daten-Races-Sicherheit.",
+      longDescription:
+        "Pony kombiniert Actors, Objektf\u00e4higkeiten, statische Typisierung und Referenzf\u00e4higkeiten, um explizite Aliasing- und Mutationsverhalten in nativen, nebenl\u00e4ufigen Programmen zu erm\u00f6glichen. Die Sprache verwendet einen Runtime, der isolierte Actors plant, die \u00fcber Nachrichten kommunizieren.\n\nEs wird f\u00fcr nebenl\u00e4ufige Dienste, native Experimente, Actor-Systeme und Programme verwendet, die Compile-Time-Garantien f\u00fcr Daten-Races ben\u00f6tigen.",
+    },
+    pt: {
+      name: "Pony",
+      description:
+        "Uma linguagem baseada em atores com capacidades de refer\u00eancia e seguran\u00e7a contra corridas de dados.",
+      longDescription:
+        "Pony combina atores, capacidades de objeto, tipagem est\u00e1tica e capacidades de refer\u00eancia para tornar os programas nativos concorrentes expl\u00edcitos sobre alias e muta\u00e7\u00e3o. O runtime da linguagem agenda atores isolados que se comunicam por mensagens.\n\n\u00c9 usado para servi\u00e7os concorrentes, experimentos nativos, sistemas de atores e programas que desejam garantias em tempo de compila\u00e7\u00e3o sobre corridas de dados.",
+    },
   },
 } satisfies Language;

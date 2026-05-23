@@ -43,5 +43,19 @@ export const mdx = {
       longDescription:
         "MDX combine la prose Markdown avec des expressions et des composants JSX, permettant aux documents d'inclure des exemples interactifs, des importations, des exportations et des mises en page basees sur des composants. Il est couramment compile en JavaScript pour les pipelines de rendu bases sur React.\n\nIl est utilise dans les sites de documentation, les systemes de conception, les blogs, les tutoriels, les demos de composants, les plateformes de contenu et les generateurs de sites statiques qui ont besoin de prose et de composants d'interface utilisateur dans le meme fichier source.",
     },
+    de: {
+      name: "MDX",
+      description:
+        "Ein Markdown-basierter Format, das JSX-Komponenten in Inhaltsdokumenten einbettet.",
+      longDescription:
+        "MDX kombiniert Markdown-Text mit JSX-Ausdr\u00fccken und -Komponenten, sodass Dokumente interaktive Beispiele, Importe, Exporte und komponentengesteuerte Layouts enthalten k\u00f6nnen. Es wird \u00fcblicherweise in JavaScript kompiliert f\u00fcr React-basierte Rendering-Pipelines.\n\nEs wird in Dokumentationsseiten, Designsystemen, Blogs, Tutorials, Komponenten-Demos, Content-Plattformen und statischen Site-Generatoren verwendet, die sowohl Text als auch UI-Komponenten in derselben Quelldatei ben\u00f6tigen.",
+    },
+    pt: {
+      name: "MDX",
+      description:
+        "Formato baseado em Markdown que incorpora componentes JSX em documentos de conte\u00fado.",
+      longDescription:
+        "O MDX combina a escrita em Markdown com express\u00f5es e componentes JSX, permitindo que os documentos incluam exemplos interativos, importa\u00e7\u00f5es, exporta\u00e7\u00f5es e layouts orientados a componentes. \u00c9 comumente compilado para JavaScript para pipelines de renderiza\u00e7\u00e3o baseadas em React.\n\n\u00c9 usado em sites de documenta\u00e7\u00e3o, sistemas de design, blogs, tutoriais, demonstra\u00e7\u00f5es de componentes, plataformas de conte\u00fado e geradores de sites est\u00e1ticos que precisam de texto e componentes de interface no mesmo arquivo.",
+    },
   },
 } satisfies Language;

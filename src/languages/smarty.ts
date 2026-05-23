@@ -43,5 +43,19 @@ export const smarty = {
       longDescription:
         "Smarty est un systeme de modelisation PHP avec des balises, des modificateurs, des fonctions, des plugins, l'heritage et des fonctionnalites de mise en cache pour separer les modeles de presentation du code de l'application. Les modeles sont compiles pour etre executes par PHP.\n\nIl est utilise dans les applications PHP, les themes, les vues CMS, les e-mails et les projets web rendus cote serveur qui maintiennent des fichiers de modele separes.",
     },
+    de: {
+      name: "Smarty",
+      description:
+        "Eine PHP-Template-Sprache f\u00fcr Pr\u00e4sentationslogik und wiederverwendbare Vorlagen.",
+      longDescription:
+        "Smarty ist ein PHP-Templingsystem mit Tags, Modifikatoren, Funktionen, Plugins, Vererbung und Caching-Funktionen, um Pr\u00e4sentationsvorlagen von Anwendungs-Code zu trennen. Vorlagen werden f\u00fcr die Ausf\u00fchrung von PHP kompiliert.\n\nEs wird in PHP-Anwendungen, Themes, CMS-Vorlagen, E-Mails und serverseitigen Webprojekten verwendet, die separate Template-Dateien beibehalten.",
+    },
+    pt: {
+      name: "Smarty",
+      description:
+        "Linguagem de modelo PHP para l\u00f3gica de apresenta\u00e7\u00e3o e visualiza\u00e7\u00f5es reutiliz\u00e1veis.",
+      longDescription:
+        "Smarty \u00e9 um sistema de modelagem PHP com tags, modificadores, fun\u00e7\u00f5es, plugins, heran\u00e7a e recursos de cache para separar os modelos de apresenta\u00e7\u00e3o do c\u00f3digo da aplica\u00e7\u00e3o. Os modelos s\u00e3o compilados para execu\u00e7\u00e3o pelo PHP.\n\n\u00c9 usado em aplica\u00e7\u00f5es PHP, temas, visualiza\u00e7\u00f5es de CMS, e-mails e projetos web renderizados no servidor que mant\u00eam arquivos de modelo separados.",
+    },
   },
 } satisfies Language;

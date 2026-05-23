@@ -42,5 +42,18 @@ export const restructuredtext = {
       longDescription:
         "reStructuredText est un langage de balisage textuel structure avec des sections, des directives, des roles, des references, des tableaux, des listes et des points d'extension. Docutils definit le modele d'analyseur et Sphinx le etend pour la documentation technique.\n\nIl est utilise pour la documentation Python, les manuels, les references API, les livres, les notes de projet et les flux de travail de publication qui necessitent un balisage semantique a partir de texte lisible.",
     },
+    de: {
+      name: "reStructuredText",
+      description:
+        "Ein reines Text-Markup-Format, das von Docutils und Sphinx f\u00fcr die Dokumentation verwendet wird.",
+      longDescription:
+        "reStructuredText ist eine strukturierte Text-Markup-Sprache mit Abschnitten, Direktiven, Rollen, Referenzen, Tabellen, Listen und Erweiterungspunkten. Docutils definiert das Parser-Modell, und Sphinx erweitert es f\u00fcr technische Dokumentation.\n\nEs wird f\u00fcr Python-Dokumentation, Handb\u00fccher, API-Referenzen, B\u00fccher, Projektnotizen und Publishing-Workflows verwendet, die semantisches Markup aus lesbarem Text ben\u00f6tigen.",
+    },
+    pt: {
+      name: "reStructuredText",
+      description: "Formato de marca\u00e7\u00e3o em texto simples usado por Docutils e Sphinx.",
+      longDescription:
+        "reStructuredText \u00e9 uma linguagem de marca\u00e7\u00e3o em texto simples estruturada com se\u00e7\u00f5es, diretivas, pap\u00e9is, refer\u00eancias, tabelas, listas e pontos de extens\u00e3o. Docutils define o modelo de an\u00e1lise e Sphinx o estende para documenta\u00e7\u00e3o t\u00e9cnica.\n\n\u00c9 usado para documenta\u00e7\u00e3o Python, manuais, refer\u00eancias de API, livros, notas de projeto e fluxos de trabalho de publica\u00e7\u00e3o que requerem marca\u00e7\u00e3o sem\u00e2ntica a partir de texto leg\u00edvel.",
+    },
   },
 } satisfies Language;

@@ -42,5 +42,19 @@ export const abap = {
       longDescription:
         "ABAP est le langage de programmation de SAP pour la mise en oeuvre de la logique metier, des rapports, des modeles de donnees, des services, des ameliorations et des extensions dans les systemes SAP bases sur ABAP.\n\nIl est largement utilise dans SAP S/4HANA, l'environnement ABAP de SAP BTP, les systemes SAP ERP classiques, les applications d'entreprise personnalisees, les services RAP, les modeles CDS, le traitement par lots et les flux de travail d'integration.",
     },
+    de: {
+      name: "ABAP",
+      description:
+        "ABAP: Programmiersprache f\u00fcr Gesch\u00e4ftssysteme und Erweiterungen bei SAP.",
+      longDescription:
+        "ABAP ist die Programmiersprache von SAP zur Implementierung von Gesch\u00e4ftslogik, Berichten, Datenmodellen, Services und Erweiterungen in ABAP-basierten SAP-Systemen.\n\nSie wird h\u00e4ufig in SAP S/4HANA, SAP BTP ABAP Environment, klassischen SAP ERP-Systemen, kundenspezifischen Unternehmensanwendungen, RAP-Services, CDS-Modellen, Batch-Verarbeitung und Integrationsworkflows eingesetzt.",
+    },
+    pt: {
+      name: "ABAP",
+      description:
+        "Linguagem de programa\u00e7\u00e3o empresarial da SAP para sistemas e extens\u00f5es de neg\u00f3cios.",
+      longDescription:
+        "ABAP \u00e9 a linguagem de programa\u00e7\u00e3o da SAP para implementar a l\u00f3gica de neg\u00f3cios, relat\u00f3rios, modelos de dados, servi\u00e7os, melhorias e extens\u00f5es em sistemas SAP baseados em ABAP.\n\n\u00c9 amplamente utilizada em SAP S/4HANA, SAP BTP ABAP Environment, sistemas SAP ERP cl\u00e1ssicos, aplica\u00e7\u00f5es empresariais personalizadas, servi\u00e7os RAP, modelos CDS, processamento em lote e fluxos de integra\u00e7\u00e3o.",
+    },
   },
 } satisfies Language;

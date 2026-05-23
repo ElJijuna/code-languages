@@ -44,5 +44,19 @@ export const vue = {
       longDescription:
         "Vue est un framework progressif pour la creation d'interfaces utilisateur avec des composants a fichier unique, des modeles declaratifs, la reactivite, les API de composition, le routage, la gestion de l'etat et des outils grace a l'ecosysteme Vue plus large.\n\nIl est largement utilise pour les applications monopages, les interfaces interactives, les systemes de conception, les tableaux de bord, les widgets embarques et les applications web completes avec des frameworks tels que Nuxt.",
     },
+    de: {
+      name: "Vue",
+      description:
+        "Ein progressives JavaScript-Framework zum Erstellen von Benutzeroberfl\u00e4chen mit reaktiven Komponenten.",
+      longDescription:
+        "Vue ist ein progressives Framework zum Erstellen von Benutzeroberfl\u00e4chen mit Single-File-Komponenten, deklarativen Templates, Reaktivit\u00e4t, Composition APIs, Routing, State Management und Tools durch das breitere Vue-\u00d6kosystem.\n\nEs wird h\u00e4ufig f\u00fcr Single-Page-Anwendungen, interaktive Oberfl\u00e4chen, Designsysteme, Dashboards, eingebettete Widgets und Full-Stack-Webanwendungen mit Frameworks wie Nuxt verwendet.",
+    },
+    pt: {
+      name: "Vue",
+      description:
+        "Framework JavaScript progressivo para construir interfaces de usu\u00e1rio com componentes reativos.",
+      longDescription:
+        "Vue \u00e9 um framework progressivo para construir interfaces de usu\u00e1rio com componentes de arquivo \u00fanico, modelos declarativos, reatividade, APIs de composi\u00e7\u00e3o, roteamento, gerenciamento de estado e ferramentas atrav\u00e9s do ecossistema Vue mais amplo.\n\n\u00c9 amplamente utilizado para aplica\u00e7\u00f5es de p\u00e1gina \u00fanica, interfaces interativas, sistemas de design, pain\u00e9is, widgets embarcados e aplica\u00e7\u00f5es web completas com frameworks como Nuxt.",
+    },
   },
 } satisfies Language;

@@ -43,5 +43,19 @@ export const c = {
       longDescription:
         "C est un langage compile concu pour la programmation de systemes, les logiciels portables, le developpement embarque, les systemes d'exploitation, les environnements d'execution de langages et les bibliotheques sensibles aux performances.\n\nIl offre une gestion memoire directe, un noyau de langage de petite taille et une interaction etroite avec les concepts de bas niveau, tout en restant portable sur de nombreuses plateformes materielles et systemes d'exploitation.",
     },
+    de: {
+      name: "C",
+      description:
+        "Eine allgemeine Programmiersprache f\u00fcr Systemprogrammierung mit direkter Speicherzugriff.",
+      longDescription:
+        "C ist eine kompilierte Programmiersprache, die f\u00fcr Systemprogrammierung, portables Software, eingebettete Entwicklung, Betriebssysteme, Sprach-Runtime und performanzkritische Bibliotheken entwickelt wurde.\n\nSie bietet direkte Speicherverwaltung, eine kleine Kernsprache und eine enge Interaktion mit maschinellen Konzepten, w\u00e4hrend sie gleichzeitig \u00fcber viele Hardware- und Betriebssystemziele hinweg portabel ist.",
+    },
+    pt: {
+      name: "C",
+      description:
+        "Linguagem de programa\u00e7\u00e3o de sistemas de prop\u00f3sito geral com acesso de baixo n\u00edvel \u00e0 mem\u00f3ria.",
+      longDescription:
+        "C \u00e9 uma linguagem compilada projetada para programa\u00e7\u00e3o de sistemas, software port\u00e1til, desenvolvimento embarcado, sistemas operacionais, runtimes de linguagem e bibliotecas sens\u00edveis ao desempenho.\n\nOferece gerenciamento de mem\u00f3ria direto, um pequeno n\u00facleo de linguagem e intera\u00e7\u00e3o pr\u00f3xima com conceitos de n\u00edvel de m\u00e1quina, mantendo a portabilidade em muitos alvos de hardware e sistemas operacionais.",
+    },
   },
 } satisfies Language;

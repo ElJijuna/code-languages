@@ -43,5 +43,19 @@ export const prolog = {
       longDescription:
         "Prolog exprime les programmes sous forme de relations en utilisant des faits, des regles, des termes, des predicats, l'unification, le retour en arriere, la recursion et la programmation logique par contraintes. Plutot que de specifier un flux de controle etape par etape, les programmes decrivent ce qui est vrai et permettent au moteur de rechercher des solutions.\n\nIl est utilise pour l'IA symbolique, les systemes experts, la demonstration de theoremes, le traitement du langage, les moteurs de regles, la planification, la planification, la resolution de contraintes, l'education et les domaines ou le raisonnement relationnel est plus naturel que le flux de controle imperatif.",
     },
+    de: {
+      name: "Prolog",
+      description:
+        "Eine logische Programmiersprache, die auf Fakten, Regeln, Abfragen und Vereinigung basiert.",
+      longDescription:
+        "Prolog dr\u00fcckt Programme als Beziehungen aus, wobei Fakten, Regeln, Terme, Pr\u00e4dikate, Vereinigung, R\u00fcckverfolgung und Rekursion verwendet werden. Anstatt Schritt-f\u00fcr-Schritt-Steuerung zu definieren, beschreiben Programme, was wahr ist, und lassen den Engine nach L\u00f6sungen suchen.\n\nEs wird f\u00fcr symbolische KI, Expertensysteme, Theorembeweise, Sprachverarbeitung, Regel-Engines, Planung, Terminplanung, Constraint-L\u00f6sung, Bildung und Bereiche verwendet, in denen relationales Schlussfolgern nat\u00fcrlicher ist als imperative Steuerung.",
+    },
+    pt: {
+      name: "Prolog",
+      description:
+        "Linguagem de programa\u00e7\u00e3o l\u00f3gica baseada em fatos, regras, consultas e unifica\u00e7\u00e3o.",
+      longDescription:
+        "Prolog expressa programas como rela\u00e7\u00f5es usando fatos, regras, termos, predicados, unifica\u00e7\u00e3o, retrocesso e recurs\u00e3o. Em vez de especificar o fluxo de controle passo a passo, os programas descrevem o que \u00e9 verdadeiro e permitem que o motor encontre solu\u00e7\u00f5es.\n\n\u00c9 usada para IA simb\u00f3lica, sistemas especialistas, prova de teoremas, processamento de linguagem, motores de regras, planejamento, agendamento, resolu\u00e7\u00e3o de restri\u00e7\u00f5es, educa\u00e7\u00e3o e dom\u00ednios onde o racioc\u00ednio relacional \u00e9 mais natural do que o controle imperativo.",
+    },
   },
 } satisfies Language;

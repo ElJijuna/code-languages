@@ -707,7 +707,7 @@ console.log(zsh.version);
 Every language object satisfies the `Language` interface:
 
 ```ts
-export type BaseLocale = "en" | "es" | "it" | "fr";
+export type BaseLocale = "en" | "es" | "it" | "fr" | "de" | "pt";
 export type Locale = BaseLocale | `${BaseLocale}-${string}` | string;
 
 export interface LanguageContent {
@@ -736,6 +736,8 @@ export interface Language {
     es?: LanguageContent;
     it?: LanguageContent;
     fr?: LanguageContent;
+    de?: LanguageContent;
+    pt?: LanguageContent;
   };
 }
 ```
@@ -782,11 +784,11 @@ console.log(language.resolvedLocale); // "es"
 
 1. Exact locale, for example `es`.
 2. Base language from a regional locale, for example `es-PE` -> `es`.
-3. English fallback, for example `de-DE` -> `en`.
+3. English fallback, for example `ja-JP` -> `en`.
 
-English, Spanish, Italian, and French are supported base locales. The current Italian
-and French translations were initially generated with `translategemma:4b`; translation
-reviews and corrections are welcome.
+English, Spanish, Italian, French, German, and Portuguese are supported base locales.
+The current Italian, French, German, and Portuguese translations were initially
+generated with `translategemma:4b`; translation reviews and corrections are welcome.
 
 Use `detectLanguage` or `detectLanguages` to infer languages from filenames:
 

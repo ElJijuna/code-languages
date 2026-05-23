@@ -42,5 +42,19 @@ export const blade = {
       longDescription:
         "Blade est le langage de modele de Laravel pour composer des vues PHP avec des directives, des mises en page, des sections, des piles, des composants, des emplacements, des conditions, des boucles, des inclusions, des mecanismes d'echappement et des extensions de compilateur personnalisees. Il maintient les modeles proches du HTML tout en s'integrant profondement aux fonctionnalites de Laravel.\n\nIl est utilise pour les applications Laravel, les interfaces cote serveur, les vues de formulaires, les modeles d'e-mails, les composants d'interface utilisateur reutilisables, les panneaux d'administration et les projets PHP qui s'appuient sur la couche de vue de Laravel.",
     },
+    de: {
+      name: "Blade",
+      description:
+        "Blade ist die serverseitige Template-Sprache von Laravel f\u00fcr Views, Komponenten und Layouts.",
+      longDescription:
+        "Blade ist die Template-Sprache von Laravel zum Erstellen von PHP-Views mit Direktiven, Layouts, Sections, Stacks, Komponenten, Slots, Bedingungen, Schleifen, Includes, Escaping und benutzerdefinierten Compiler-Erweiterungen. Sie h\u00e4lt Templates nah an HTML und integriert sich tief in Laravel-Funktionen.\n\nSie wird f\u00fcr Laravel-Anwendungen, serverseitige Benutzeroberfl\u00e4chen, Formular-Views, E-Mail-Vorlagen, wiederverwendbare UI-Komponenten, Admin-Panels und PHP-Projekte verwendet, die auf der Laravel-View-Schicht basieren.",
+    },
+    pt: {
+      name: "Blade",
+      description:
+        "Linguagem de template do lado do servidor do Laravel para visualiza\u00e7\u00f5es, componentes e layouts.",
+      longDescription:
+        "Blade \u00e9 a linguagem de template do Laravel para compor visualiza\u00e7\u00f5es PHP com diretivas, layouts, se\u00e7\u00f5es, stacks, componentes, slots, condicionais, loops, includes, escaping e extens\u00f5es de compilador personalizadas. Mant\u00e9m os templates pr\u00f3ximos ao HTML, integrando-se profundamente com os recursos do Laravel.\n\n\u00c9 usada em aplica\u00e7\u00f5es Laravel, interfaces renderizadas no servidor, visualiza\u00e7\u00f5es de formul\u00e1rios, modelos de e-mail, componentes de UI reutiliz\u00e1veis, pain\u00e9is de administra\u00e7\u00e3o e projetos PHP que dependem da camada de visualiza\u00e7\u00e3o do Laravel.",
+    },
   },
 } satisfies Language;

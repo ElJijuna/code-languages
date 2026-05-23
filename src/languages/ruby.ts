@@ -44,5 +44,19 @@ export const ruby = {
       longDescription:
         "Ruby est un langage dynamique dote d'une syntaxe expressive, de classes ouvertes, de blocs, de mixins, de metaprogrammation, d'exceptions, de modules et d'un modele oriente objet solide, ou presque tout est un objet.\n\nIl est largement utilise pour les applications web avec Ruby on Rails, les outils en ligne de commande, les scripts d'automatisation, les outils d'infrastructure, la generation de sites statiques, les frameworks de test et les flux de travail de productivite des developpeurs.",
     },
+    de: {
+      name: "Ruby",
+      description:
+        "Eine dynamische, objektorientierte Skriptsprache, die auf Produktivit\u00e4t und Entwicklerzufriedenheit ausgerichtet ist.",
+      longDescription:
+        "Ruby ist eine dynamische Sprache mit ausdrucksstarker Syntax, offenen Klassen, Bl\u00f6cken, Mixins, Metaprogrammierung, Ausnahmen, Modulen und einem starken objektorientierten Modell, bei dem fast alles ein Objekt ist.\n\nSie wird h\u00e4ufig f\u00fcr Webanwendungen mit Ruby on Rails, Kommandozeilen-Tools, Automatisierungsskripte, Infrastruktur-Tools, statische Seitengenerierung, Testframeworks und Entwicklerproduktivit\u00e4tsworkflows verwendet.",
+    },
+    pt: {
+      name: "Ruby",
+      description:
+        "Uma linguagem de script din\u00e2mica, orientada a objetos, focada na produtividade e na satisfa\u00e7\u00e3o do desenvolvedor.",
+      longDescription:
+        "Ruby \u00e9 uma linguagem din\u00e2mica com sintaxe expressiva, classes abertas, blocos, mixins, metaprograma\u00e7\u00e3o, exce\u00e7\u00f5es, m\u00f3dulos e um forte modelo orientado a objetos, onde quase tudo \u00e9 um objeto.\n\n\u00c9 amplamente utilizada para aplica\u00e7\u00f5es web com Ruby on Rails, ferramentas de linha de comando, scripts de automa\u00e7\u00e3o, ferramentas de infraestrutura, gera\u00e7\u00e3o de sites est\u00e1ticos, frameworks de teste e fluxos de trabalho de produtividade para desenvolvedores.",
+    },
   },
 } satisfies Language;

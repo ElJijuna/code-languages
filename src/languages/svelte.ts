@@ -42,5 +42,19 @@ export const svelte = {
       longDescription:
         "Les composants Svelte combinent la mise en forme, les styles et la logique de script dans des composants a fichier unique, qui sont compiles en JavaScript efficace pour mettre a jour le DOM.\n\nIl est largement utilise pour les applications web, les interfaces interactives, les sites statiques, les systemes de conception, les tableaux de bord et les projets SvelteKit, ou les developpeurs souhaitent un modele de composants reactif avec une faible surcharge d'execution.",
     },
+    de: {
+      name: "Svelte",
+      description:
+        "Ein kompiliertes Komponenten-Framework zum Erstellen reaktiver Web-Benutzeroberfl\u00e4chen.",
+      longDescription:
+        "Svelte-Komponenten kombinieren Markup, Stile und Skriptlogik in einzelnen Dateien, die kompiliert werden, um effizienten JavaScript f\u00fcr die DOM-Aktualisierung zu erzeugen.\n\nEs wird h\u00e4ufig f\u00fcr Webanwendungen, interaktive Oberfl\u00e4chen, statische Websites, Designsysteme, Dashboards und SvelteKit-Projekte verwendet, in denen Entwickler ein reaktives Komponentenmodell mit minimalem Laufzeitaufwand w\u00fcnschen.",
+    },
+    pt: {
+      name: "Svelte",
+      description:
+        "Um framework de componentes compilado para construir interfaces de usu\u00e1rio web reativas.",
+      longDescription:
+        "Os componentes Svelte combinam marca\u00e7\u00e3o, estilos e l\u00f3gica de script em componentes de arquivo \u00fanico, que s\u00e3o compilados em JavaScript eficiente para atualizar o DOM.\n\n\u00c9 amplamente utilizado para aplica\u00e7\u00f5es web, interfaces interativas, sites est\u00e1ticos, sistemas de design, pain\u00e9is de controle e projetos SvelteKit, onde os desenvolvedores desejam um modelo de componente reativo com m\u00ednimo overhead de tempo de execu\u00e7\u00e3o.",
+    },
   },
 } satisfies Language;

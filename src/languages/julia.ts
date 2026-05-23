@@ -44,5 +44,19 @@ export const julia = {
       longDescription:
         "Julia est un langage de programmation de haut niveau et de haute performance concu pour le calcul et la science numeriques. Il combine l'interactivite dynamique avec la compilation au moment de l'execution, la gestion multiple, la meta-programmation et un ecosysteme de paquets axe sur le travail technique.\n\nIl est largement utilise pour le calcul scientifique, l'analyse de donnees, l'apprentissage automatique, l'optimisation, les simulations, le calcul haute performance et les flux de travail ou les equipes souhaitent un code expressif qui peut s'executer a une vitesse proche de celle du natif.",
     },
+    de: {
+      name: "Julia",
+      description:
+        "Eine leistungsstarke Sprache f\u00fcr technische Berechnungen, Data Science und numerische Arbeit.",
+      longDescription:
+        "Julia ist eine hochleistungsf\u00e4hige, High-Level-Programmiersprache, die f\u00fcr numerische und wissenschaftliche Berechnungen entwickelt wurde. Sie kombiniert dynamische Interaktivit\u00e4t mit Just-in-Time-Kompilierung, Mehrfachdispatch, Metaprogrammierung und ein Paket\u00f6kosystem, das auf technische Anwendungen ausgerichtet ist.\n\nSie wird h\u00e4ufig f\u00fcr wissenschaftliche Berechnungen, Datenanalyse, maschinelles Lernen, Optimierung, Simulationen, Hochleistungsrechnen und Arbeitsabl\u00e4ufe verwendet, bei denen Teams Code w\u00fcnschen, der nahe an der Geschwindigkeit von nativen Anwendungen ausgef\u00fchrt werden kann.",
+    },
+    pt: {
+      name: "Julia",
+      description:
+        "Linguagem de alto desempenho para computa\u00e7\u00e3o t\u00e9cnica, ci\u00eancia de dados e trabalho num\u00e9rico.",
+      longDescription:
+        "Julia \u00e9 uma linguagem de programa\u00e7\u00e3o de alto n\u00edvel e alto desempenho, projetada para computa\u00e7\u00e3o e ci\u00eancia num\u00e9rica. Combina interatividade din\u00e2mica com compila\u00e7\u00e3o just-in-time, despacho m\u00faltiplo, metaprograma\u00e7\u00e3o e um ecossistema de pacotes focado em trabalho t\u00e9cnico.\n\n\u00c9 amplamente utilizada para computa\u00e7\u00e3o cient\u00edfica, an\u00e1lise de dados, aprendizado de m\u00e1quina, otimiza\u00e7\u00e3o, simula\u00e7\u00f5es, computa\u00e7\u00e3o de alto desempenho e fluxos de trabalho onde as equipes desejam c\u00f3digo expressivo que possa executar pr\u00f3ximo \u00e0 velocidade nativa.",
+    },
   },
 } satisfies Language;

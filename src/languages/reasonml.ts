@@ -42,5 +42,19 @@ export const reasonml = {
       longDescription:
         "ReasonML est une couche de syntaxe pour OCaml qui presente des accolades et une ponctuation familieres tout en conservant les modules, la correspondance de motifs, l'inference de type et les fondements fonctionnels d'OCaml. Il a ete utilise avec OCaml natif et des flux de travail de compilation vers JavaScript.\n\nIl est utilise dans des projets lies a OCaml, du code d'interface utilisateur type, des bibliotheques et des bases de code qui preferent la syntaxe Reason a la syntaxe OCaml traditionnelle.",
     },
+    de: {
+      name: "ReasonML",
+      description:
+        "Eine JavaScript-\u00e4hnliche Syntax f\u00fcr OCaml und typisierte funktionale Programmierung.",
+      longDescription:
+        "ReasonML ist eine Syntaxebene f\u00fcr OCaml, die vertraute Klammern und Satzzeichen verwendet, w\u00e4hrend sie die Module, das Pattern Matching, die Typinferenz und die funktionalen Grundlagen von OCaml beibeh\u00e4lt. Es wurde mit nativem OCaml und JavaScript-Kompilierungsabl\u00e4ufen verwendet.\n\nEs wird in OCaml-nahen Projekten, typisierten UI-Code, Bibliotheken und Codebasen verwendet, die den Reason-Syntax gegen\u00fcber der traditionellen OCaml-Syntax bevorzugen.",
+    },
+    pt: {
+      name: "ReasonML",
+      description:
+        "Uma sintaxe semelhante a JavaScript para OCaml e programa\u00e7\u00e3o funcional com tipagem.",
+      longDescription:
+        "ReasonML \u00e9 uma camada de sintaxe para OCaml que apresenta as familiaridades de chaves e pontua\u00e7\u00e3o, mantendo os m\u00f3dulos, correspond\u00eancia de padr\u00f5es, infer\u00eancia de tipo e fundamentos funcionais do OCaml. \u00c9 usado com OCaml nativo e fluxos de trabalho de compila\u00e7\u00e3o para JavaScript.\n\n\u00c9 usado em projetos relacionados ao OCaml, c\u00f3digo de interface de usu\u00e1rio com tipagem, bibliotecas e bases de c\u00f3digo que preferem a sintaxe Reason em vez da sintaxe OCaml tradicional.",
+    },
   },
 } satisfies Language;

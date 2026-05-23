@@ -44,5 +44,19 @@ export const xslt = {
       longDescription:
         "XSLT est un langage de transformation declaratif pour les documents XML. Les feuilles de style utilisent des modeles, des modes, des expressions XPath, des variables, des fonctions, des cles, des importations et des declarations de sortie pour correspondre aux arbres sources et produire des resultats XML, HTML, texte ou autres resultats structures. \n\nIl est utilise dans les systemes de publication, l'echange de donnees d'entreprise, la conversion de documents, les pipelines XML, les integrations basees sur des normes, les flux XML de l'ere des navigateurs et les systemes qui ont besoin de transformations reproductibles entre les formats de documents.",
     },
+    de: {
+      name: "XSLT",
+      description:
+        "Eine W3C-Stylesheet-Sprache zur Transformation von XML-Dokumenten in XML, HTML, Text und mehr.",
+      longDescription:
+        "XSLT ist eine deklarative Transformationssprache f\u00fcr XML-Dokumente. Stylesheets verwenden Vorlagen, Modi, XPath-Ausdr\u00fccke, Variablen, Funktionen, Schl\u00fcssel, Importe und Ausgabedeklarationen, um Quellb\u00e4ume abzugleichen und XML, HTML, Text oder andere strukturierte Ergebnisse zu erzeugen.\n\nEs wird in Publishing-Systemen, Enterprise-Daten-Austausch, Dokumentkonvertierungen, XML-Pipelines, standardsbasierten Integrationen, Browser-\u00c4ra XML-Workflows und Systemen verwendet, die wiederholbare Transformationen zwischen Dokumentformaten ben\u00f6tigen.",
+    },
+    pt: {
+      name: "XSLT",
+      description:
+        "Linguagem de estilo da W3C para transformar documentos XML em XML, HTML, texto e outros formatos.",
+      longDescription:
+        "XSLT \u00e9 uma linguagem de transforma\u00e7\u00e3o declarativa para documentos XML. As linguagens de estilo usam modelos, modos, express\u00f5es XPath, vari\u00e1veis, fun\u00e7\u00f5es, chaves, importa\u00e7\u00f5es e declara\u00e7\u00f5es de sa\u00edda para corresponder \u00e0s \u00e1rvores de origem e produzir XML, HTML, texto ou outros resultados estruturados.\n\n\u00c9 usada em sistemas de publica\u00e7\u00e3o, troca de dados empresariais, convers\u00e3o de documentos, pipelines XML, integra\u00e7\u00f5es baseadas em padr\u00f5es, fluxos de trabalho XML da era do navegador e sistemas que precisam de transforma\u00e7\u00f5es repet\u00edveis entre formatos de documentos.",
+    },
   },
 } satisfies Language;

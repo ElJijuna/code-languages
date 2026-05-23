@@ -44,5 +44,19 @@ export const asciidoc = {
       longDescription:
         "AsciiDoc est un langage de balisage lisible pour ecrire des documents structures avec des sections, des attributs, des listes, des tableaux, des avertissements, des references croisees, des inclusions, des blocs de code et des metadonnees de publication riches. Il est concu pour rester confortable en texte brut tout en prenant en charge les formats de sortie professionnels.\n\nIl est utilise pour la documentation de produits, les livres, les manuels techniques, les guides API, les bases de connaissances, les sites de documentation Antora et les flux de travail de publication qui necessitent des fichiers sources semantiques sous controle de version.",
     },
+    de: {
+      name: "AsciiDoc",
+      description:
+        "Einfache Text-Markup-Sprache f\u00fcr technische Dokumentation, B\u00fccher und Ver\u00f6ffentlichungen.",
+      longDescription:
+        "AsciiDoc ist eine lesbare Markup-Sprache zum Schreiben strukturierter Dokumente mit Abschnitten, Attributen, Listen, Tabellen, Hinweisen, Cross-Referenzen, Includes, Quellbl\u00f6cken und umfassenden Ver\u00f6ffentlichungsmetadaten. Sie ist darauf ausgelegt, in reiner Textform komfortabel zu bleiben und gleichzeitig professionelle Ausgabeformate zu unterst\u00fctzen.\n\nEs wird f\u00fcr Produktdokumentation, B\u00fccher, technische Handb\u00fccher, API-Anleitungen, Wissensdatenbanken, Antora-Dokumentationssites und Ver\u00f6ffentlichungsabl\u00e4ufe verwendet, die semantische Quelldateien unter Versionskontrolle ben\u00f6tigen.",
+    },
+    pt: {
+      name: "AsciiDoc",
+      description:
+        "Linguagem de marca\u00e7\u00e3o em texto simples para documenta\u00e7\u00e3o t\u00e9cnica, livros e publica\u00e7\u00e3o.",
+      longDescription:
+        "AsciiDoc \u00e9 uma linguagem de marca\u00e7\u00e3o leg\u00edvel para escrever documentos estruturados com se\u00e7\u00f5es, atributos, listas, tabelas, avisos, refer\u00eancias cruzadas, includes, blocos de c\u00f3digo e metadados de publica\u00e7\u00e3o ricos. \u00c9 projetada para permanecer confort\u00e1vel em texto simples, ao mesmo tempo em que suporta formatos de sa\u00edda profissionais.\n\n\u00c9 usada para documenta\u00e7\u00e3o de produtos, livros, manuais t\u00e9cnicos, guias de API, bases de conhecimento, sites de documenta\u00e7\u00e3o Antora e fluxos de trabalho de publica\u00e7\u00e3o que precisam de arquivos de origem sem\u00e2nticos sob controle de vers\u00e3o.",
+    },
   },
 } satisfies Language;

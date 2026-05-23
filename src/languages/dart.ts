@@ -44,5 +44,19 @@ export const dart = {
       longDescription:
         "Dart est un langage de programmation de Google concu pour le developpement d'applications oriente client, productif. Il combine une securite nulle, des classes, des generiques, la programmation asynchrone, des isolats, la compilation a l'avance, des flux de travail de developpement just-in-time et la compilation vers JavaScript.\n\nIl est largement utilise avec Flutter pour les applications mobiles, web et de bureau, et prend egalement en charge les outils en ligne de commande, les services backend, les systemes de construction et les equipes qui souhaitent un langage type avec des iterations rapides et des chemins de compilation natifs.",
     },
+    de: {
+      name: "Dart",
+      description:
+        "Eine Client-optimierte Sprache f\u00fcr schnelle Apps auf mobilen, Web-, Desktop- und Serverplattformen.",
+      longDescription:
+        "Dart ist eine von Google entwickelte Programmiersprache, die f\u00fcr produktives, clientorientiertes Anwendungsentwicklung konzipiert ist. Sie kombiniert sichere Null-Sicherheit, Klassen, Generics, asynchrones Programmieren, Isolate, Ahead-of-Time-Kompilierung, Just-in-Time-Entwicklung und Kompilierung zu JavaScript.\n\nSie wird h\u00e4ufig mit Flutter f\u00fcr mobile, Web- und Desktop-Apps verwendet und unterst\u00fctzt auch Kommandozeilen-Tools, Backend-Dienste, Build-Systeme und Teams, die eine typisierte Sprache mit schnellen Iterationszyklen und nativen Kompilierungsoptionen w\u00fcnschen.",
+    },
+    pt: {
+      name: "Dart",
+      description:
+        "Linguagem otimizada para clientes, para aplicativos r\u00e1pidos em mobile, web, desktop e servidor.",
+      longDescription:
+        "Dart \u00e9 uma linguagem de programa\u00e7\u00e3o do Google, projetada para desenvolvimento de aplicativos orientados ao cliente, com foco na produtividade. Combina seguran\u00e7a nula, classes, gen\u00e9ricos, programa\u00e7\u00e3o ass\u00edncrona, isolados, compila\u00e7\u00e3o antecipada, fluxos de desenvolvimento just-in-time e compila\u00e7\u00e3o para JavaScript.\n\n\u00c9 amplamente utilizada com Flutter para aplicativos mobile, web e desktop, e tamb\u00e9m suporta ferramentas de linha de comando, servi\u00e7os de backend, sistemas de constru\u00e7\u00e3o e equipes que desejam uma linguagem tipada com itera\u00e7\u00e3o r\u00e1pida e caminhos de compila\u00e7\u00e3o nativos.",
+    },
   },
 } satisfies Language;

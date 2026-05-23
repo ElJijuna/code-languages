@@ -44,5 +44,19 @@ export const webassembly = {
       longDescription:
         "WebAssembly est un format d'instruction binaire compact avec un format de texte structure, concu comme une cible de compilation securisee et portable pour des langages tels que C, C++, Rust, Go, et bien d'autres.\n\nIl fonctionne dans les navigateurs et les environnements autonomes, prend en charge l'execution sandboxee, et est utilise pour les applications web sensibles aux performances, les plugins, les charges de travail serverless, l'informatique de peripherie, et les composants portables via WASI et le modele de composants.",
     },
+    de: {
+      name: "WebAssembly",
+      description:
+        "Ein portables, Low-Level-Code-Format f\u00fcr sicheres, nahezu nativ ausgef\u00fchrtes Code \u00fcber Web- und Nicht-Web-Runtimes.",
+      longDescription:
+        "WebAssembly ist ein kompakter Bin\u00e4r-Instruktionsformat mit einem strukturierten Textformat, das als sicheres, portables Kompilationsziel f\u00fcr Sprachen wie C, C++, Rust, Go und viele andere dient.\n\nEs l\u00e4uft in Browsern und eigenst\u00e4ndigen Runtimes, unterst\u00fctzt sandboxed Ausf\u00fchrung und wird f\u00fcr performanzkritische Webanwendungen, Plugins, serverlose Workloads, Edge Computing und portable Komponenten \u00fcber WASI und das Component-Modell verwendet.",
+    },
+    pt: {
+      name: "WebAssembly",
+      description:
+        "Formato de c\u00f3digo de baixo n\u00edvel port\u00e1til para execu\u00e7\u00e3o segura e pr\u00f3xima do nativo em web e ambientes n\u00e3o-web.",
+      longDescription:
+        "WebAssembly \u00e9 um formato bin\u00e1rio compacto de instru\u00e7\u00f5es com um formato de texto estruturado, projetado como um alvo de compila\u00e7\u00e3o seguro e port\u00e1til para linguagens como C, C++, Rust, Go e muitas outras.\n\nEle executa em navegadores e ambientes de tempo de execu\u00e7\u00e3o independentes, suporta execu\u00e7\u00e3o em sandbox e \u00e9 usado para aplica\u00e7\u00f5es web de alto desempenho, plugins, cargas de trabalho serverless, computa\u00e7\u00e3o de borda e componentes port\u00e1teis atrav\u00e9s do WASI e do modelo de componentes.",
+    },
   },
 } satisfies Language;

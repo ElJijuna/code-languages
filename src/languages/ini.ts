@@ -42,5 +42,19 @@ export const ini = {
       longDescription:
         "Les fichiers INI stockent la configuration sous forme de sections avec des paires cle-valeur, generalement avec des commentaires et des regles d'analyse specifiques a l'implementation. Le format est intentionnellement simple et n'a pas de norme formelle unique, de sorte que le comportement peut varier selon les interpretes.\n\nLes fichiers de type INI sont courants dans les applications Windows, les logiciels de bureau herites, la configuration des jeux, les outils de developpement et les petits projets qui ont besoin d'une configuration lisible sans un format de serialisation plus lourd.",
     },
+    de: {
+      name: "INI",
+      description:
+        "Ein einfacher, section-basierter Konfigurationsformat, das auf Schl\u00fcsseln, Werten und Kommentaren basiert.",
+      longDescription:
+        "INI-Dateien speichern Konfiguration als Abschnitte mit Schl\u00fcssel-Wert-Paaren, oft mit Kommentaren und parserspezifischen Regeln. Das Format ist absichtlich einfach und hat keinen einzelnen formalen Standard, sodass das Verhalten je nach Parser variieren kann.\n\nINI-basierte Dateien sind in Windows-Anwendungen, \u00e4lterer Desktop-Software, Spielkonfigurationen, Entwickler-Tools und kleinen Projekten \u00fcblich, die eine lesbare Konfiguration ohne ein schwereres Serialisierungsformat ben\u00f6tigen.",
+    },
+    pt: {
+      name: "INI",
+      description:
+        "Um formato de configura\u00e7\u00e3o simples baseado em se\u00e7\u00f5es, chaves, valores e coment\u00e1rios.",
+      longDescription:
+        "Arquivos INI armazenam configura\u00e7\u00f5es em se\u00e7\u00f5es com pares chave-valor, geralmente com coment\u00e1rios e regras de an\u00e1lise espec\u00edficas da implementa\u00e7\u00e3o. O formato \u00e9 intencionalmente simples e n\u00e3o possui um padr\u00e3o formal \u00fanico, portanto, o comportamento pode variar entre os analisadores.\n\nArquivos no estilo INI s\u00e3o comuns em aplicativos Windows, software de desktop legado, configura\u00e7\u00e3o de jogos, ferramentas de desenvolvimento e pequenos projetos que precisam de configura\u00e7\u00f5es leg\u00edveis sem um formato de serializa\u00e7\u00e3o mais pesado.",
+    },
   },
 } satisfies Language;

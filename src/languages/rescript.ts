@@ -41,5 +41,19 @@ export const rescript = {
       longDescription:
         "ReScript est un langage type statiquement pour les cibles JavaScript, avec la correspondance de motifs, les variantes, les modules, les enregistrements, les annotations d'interoperabilite et une syntaxe adaptee au developpement web. Son compilateur et ses outils de construction se concentrent sur la generation JavaScript previsible.\n\nIl est utilise dans les applications front-end, les bases de code React, les bibliotheques partagees et les projets JavaScript qui souhaitent une source compacte et securisee en termes de types avec une interoperabilite explicite.",
     },
+    de: {
+      name: "ReScript",
+      description:
+        "Eine typisierte Sprache und ein Compiler, der auf ergonomische JavaScript-Ausgabe ausgerichtet ist.",
+      longDescription:
+        "ReScript ist eine statisch typisierte Sprache f\u00fcr JavaScript-Ziele mit Pattern Matching, Varianten, Modulen, Records, Interop-Annotationen und einer Syntax, die f\u00fcr die Webentwicklung optimiert ist. Sein Compiler und seine Build-Tools konzentrieren sich auf die Erzeugung von vorhersehbarem JavaScript.\n\nEs wird in Front-End-Anwendungen, React-Codebasen, gemeinsamen Bibliotheken und JavaScript-Projekten verwendet, die eine kompakte, typsichere Quelle mit expliziter Interoperabilit\u00e4t w\u00fcnschen.",
+    },
+    pt: {
+      name: "ReScript",
+      description:
+        "Linguagem e compilador tipados focados em sa\u00edda JavaScript ergon\u00f4mica.",
+      longDescription:
+        "ReScript \u00e9 uma linguagem tipada estaticamente para destinos JavaScript com correspond\u00eancia de padr\u00f5es, variantes, m\u00f3dulos, registros, anota\u00e7\u00f5es de interoperabilidade e uma sintaxe otimizada para desenvolvimento web. Seu compilador e ferramentas de constru\u00e7\u00e3o se concentram em JavaScript gerado previs\u00edvel.\n\n\u00c9 usado em aplica\u00e7\u00f5es front-end, bases de c\u00f3digo React, bibliotecas compartilhadas e projetos JavaScript que desejam c\u00f3digo-fonte compacto e seguro com interoperabilidade expl\u00edcita.",
+    },
   },
 } satisfies Language;

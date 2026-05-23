@@ -43,5 +43,19 @@ export const applescript = {
       longDescription:
         "AppleScript fournit une syntaxe semblable a l'anglais pour controler les applications macOS scriptables, les fichiers, les fenetres, les flux de travail et les services systeme.\n\nIl est couramment utilise pour l'automatisation de bureau, la publication de flux de travail, les operations par lots, le code d'assemblage d'applications et les scripts destines aux utilisateurs qui coordonnent plusieurs applications Mac.",
     },
+    de: {
+      name: "AppleScript",
+      description:
+        "Eine macOS-Skriptsprache zur Automatisierung von Anwendungen \u00fcber Apple-Ereignisse.",
+      longDescription:
+        "AppleScript bietet eine englisch\u00e4hnliche Syntax zur Steuerung von skriptbaren macOS-Anwendungen, Dateien, Fenstern, Workflows und Systemdiensten.\n\nEs wird h\u00e4ufig f\u00fcr die Desktop-Automatisierung, die Erstellung von Arbeitsabl\u00e4ufen, Batch-Operationen, Anwendungsgleicodes und benutzerorientierte Skripte verwendet, die mehrere Mac-Anwendungen koordinieren.",
+    },
+    pt: {
+      name: "AppleScript",
+      description:
+        "Linguagem de script para macOS para automatizar aplicativos atrav\u00e9s de eventos Apple.",
+      longDescription:
+        "AppleScript fornece uma sintaxe semelhante ao ingl\u00eas para controlar aplicativos, arquivos, janelas, fluxos de trabalho e servi\u00e7os do sistema macOS.\n\n\u00c9 comumente usado para automa\u00e7\u00e3o de desktop, fluxos de trabalho de publica\u00e7\u00e3o, opera\u00e7\u00f5es em lote, c\u00f3digo de liga\u00e7\u00e3o de aplicativos e scripts para usu\u00e1rios que coordenam v\u00e1rios aplicativos Mac.",
+    },
   },
 } satisfies Language;

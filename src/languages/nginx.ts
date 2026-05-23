@@ -43,5 +43,19 @@ export const nginx = {
       longDescription:
         "Les fichiers de configuration nginx utilisent une syntaxe basee sur des directives pour definir des serveurs HTTP, des proxys inverses, des upstream, le routage de charge, les parametres TLS, le cache, la journalisation, le controle d'acces et le comportement de proxy de flux ou de courrier.\n\nIls sont utilises dans l'infrastructure web de production, les images de conteneurs, les services de peripherie, les passerelles API, l'hebergement de fichiers statiques, le routage du trafic et les flux de travail DevOps ou nginx ou des serveurs compatibles necessitent une configuration reproductible.",
     },
+    de: {
+      name: "nginx",
+      description:
+        "Eine direktekonfigurationssprache f\u00fcr den nginx-Webserver und Reverse-Proxy.",
+      longDescription:
+        "nginx-Konfigurationsdateien verwenden eine direktekonfigurationssyntax, um HTTP-Server, Reverse-Proxies, Upstreams, Load Balancing, TLS-Einstellungen, Caching, Logging, Zugriffskontrolle und Stream- oder Mail-Proxy-Verhalten zu definieren.\n\nSie werden in Produktions-Webinfrastrukturen, Container-Images, Edge-Services, API-Gateways, statischer Dateizustellung, Traffic-Routing und DevOps-Workflows verwendet, in denen nginx oder kompatible Server wiederholbare Konfigurationen ben\u00f6tigen.",
+    },
+    pt: {
+      name: "nginx",
+      description:
+        "Linguagem de configura\u00e7\u00e3o baseada em diretivas para o servidor web e proxy reverso nginx.",
+      longDescription:
+        "Os arquivos de configura\u00e7\u00e3o do nginx utilizam uma sintaxe baseada em diretivas para definir servidores HTTP, proxies reverso, upstream, balanceamento de carga, configura\u00e7\u00f5es TLS, cache, logging, controle de acesso e comportamento de proxy de stream ou e-mail.\n\nS\u00e3o utilizados em infraestruturas web de produ\u00e7\u00e3o, imagens de cont\u00eainer, servi\u00e7os de borda, gateways de API, hospedagem de arquivos est\u00e1ticos, roteamento de tr\u00e1fego e fluxos de trabalho DevOps onde o nginx ou servidores compat\u00edveis precisam de configura\u00e7\u00f5es repet\u00edveis.",
+    },
   },
 } satisfies Language;

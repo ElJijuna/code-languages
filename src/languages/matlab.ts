@@ -44,5 +44,19 @@ export const matlab = {
       longDescription:
         "MATLAB est un langage de programmation et un environnement de calcul numerique de MathWorks. Il est centre sur les operations matricielles et sur les tableaux, l'analyse interactive, la visualisation, le developpement d'algorithmes et les flux de travail pour les ingenieurs et les scientifiques.\n\nIl est couramment utilise pour le traitement du signal, les systemes de controle, la robotique, l'analyse de donnees, l'optimisation, la simulation, l'education et la conception basee sur des modeles, ainsi que Simulink et les boites a outils MathWorks.",
     },
+    de: {
+      name: "MATLAB",
+      description:
+        "Eine matrixorientierte Sprache und Umgebung f\u00fcr Ingenieurwesen, Wissenschaft, Daten und Simulation.",
+      longDescription:
+        "MATLAB ist eine Programmiersprache und numerische Rechenumgebung von MathWorks. Sie basiert auf Matrix- und Array-Operationen, interaktiver Analyse, Visualisierung, Algorithmusentwicklung und Arbeitsabl\u00e4ufen f\u00fcr Ingenieure und Wissenschaftler.\n\nSie wird h\u00e4ufig f\u00fcr Signalverarbeitung, Steuerungssysteme, Robotik, Datenanalyse, Optimierung, Simulation, Ausbildung und modellbasierte Entwicklung zusammen mit Simulink und MathWorks-Toolboxen verwendet.",
+    },
+    pt: {
+      name: "MATLAB",
+      description:
+        "Linguagem e ambiente orientados a matrizes para engenharia, ci\u00eancia, dados e simula\u00e7\u00e3o.",
+      longDescription:
+        "MATLAB \u00e9 uma linguagem de programa\u00e7\u00e3o e ambiente de computa\u00e7\u00e3o num\u00e9rica da MathWorks. \u00c9 centrado em opera\u00e7\u00f5es de matrizes e arrays, an\u00e1lise interativa, visualiza\u00e7\u00e3o, desenvolvimento de algoritmos e fluxos de trabalho para engenheiros e cientistas.\n\n\u00c9 comumente usado para processamento de sinais, sistemas de controle, rob\u00f3tica, an\u00e1lise de dados, otimiza\u00e7\u00e3o, simula\u00e7\u00e3o, educa\u00e7\u00e3o e design baseado em modelos, juntamente com Simulink e toolboxes da MathWorks.",
+    },
   },
 } satisfies Language;

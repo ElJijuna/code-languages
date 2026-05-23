@@ -43,5 +43,18 @@ export const javascript = {
       longDescription:
         "JavaScript est le langage de programmation principal de la plateforme web, executant nativement dans les navigateurs et dans les environnements d'execution de serveur tels que Node.js, Deno et Bun.\n\nLe langage est standardise sous le nom ECMAScript et prend en charge les styles de programmation evenementiels, fonctionnels, orientes objet et bases sur les prototypes.",
     },
+    de: {
+      name: "JavaScript",
+      description: "Eine dynamische Skriptsprache f\u00fcr Web, Server, Tools und Anwendungen.",
+      longDescription:
+        "JavaScript ist die Hauptprogrammiersprache der Web-Plattform und wird nativ in Browsern und in Server-Runtimes wie Node.js, Deno und Bun ausgef\u00fchrt.\n\nDie Sprache ist als ECMAScript standardisiert und unterst\u00fctzt ereignisgesteuerte, funktionale, objektorientierte und prototypbasierte Programmierstile.",
+    },
+    pt: {
+      name: "JavaScript",
+      description:
+        "Linguagem de script din\u00e2mica para a web, servidores, ferramentas e aplica\u00e7\u00f5es.",
+      longDescription:
+        "JavaScript \u00e9 a principal linguagem de programa\u00e7\u00e3o da plataforma web, executando nativamente nos navegadores e em ambientes de execu\u00e7\u00e3o de servidor, como Node.js, Deno e Bun.\n\nA linguagem \u00e9 padronizada como ECMAScript e suporta estilos de programa\u00e7\u00e3o orientados a eventos, funcionais, orientados a objetos e baseados em prot\u00f3tipos.",
+    },
   },
 } satisfies Language;

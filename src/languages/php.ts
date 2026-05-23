@@ -44,5 +44,19 @@ export const php = {
       longDescription:
         "PHP est un langage de script generaliste, particulierement adapte au developpement web cote serveur, avec un support integre pour la gestion des requetes, le modelisation, les bases de donnees, les extensions, la gestion des paquets et le deploiement sur des plateformes d'hebergement courantes.\n\nIl alimente les systemes de gestion de contenu, les plateformes de commerce electronique, les API, les frameworks, les outils en ligne de commande et les applications web a long terme dans un vaste ecosysteme.",
     },
+    de: {
+      name: "PHP",
+      description:
+        "Eine serverseitige Skriptsprache, die weit verbreitet f\u00fcr Webanwendungen und dynamische Websites verwendet wird.",
+      longDescription:
+        "PHP ist eine allgemeine Skriptsprache, die sich besonders f\u00fcr die serverseitige Webentwicklung eignet. Sie bietet integrierte Unterst\u00fctzung f\u00fcr die Verarbeitung von Anfragen, das Templating, Datenbanken, Erweiterungen, Paketverwaltung und die Bereitstellung auf g\u00e4ngigen Hosting-Plattformen.\n\nSie wird von Content-Management-Systemen, E-Commerce-Plattformen, APIs, Frameworks, Kommandozeilen-Tools und langen Webanwendungen in einem gro\u00dfen \u00d6kosystem eingesetzt.",
+    },
+    pt: {
+      name: "PHP",
+      description:
+        "Linguagem de script do lado do servidor amplamente utilizada para aplica\u00e7\u00f5es web e sites din\u00e2micos.",
+      longDescription:
+        "PHP \u00e9 uma linguagem de script de prop\u00f3sito geral especialmente adequada para o desenvolvimento web do lado do servidor, com suporte integrado para manipula\u00e7\u00e3o de requisi\u00e7\u00f5es, modelagem, bancos de dados, extens\u00f5es, gerenciamento de pacotes e implanta\u00e7\u00e3o em plataformas de hospedagem comuns.\n\nEla alimenta sistemas de gerenciamento de conte\u00fado, plataformas de com\u00e9rcio eletr\u00f4nico, APIs, frameworks, ferramentas de linha de comando e aplica\u00e7\u00f5es web de longa dura\u00e7\u00e3o em um amplo ecossistema.",
+    },
   },
 } satisfies Language;

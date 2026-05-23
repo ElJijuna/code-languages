@@ -43,5 +43,17 @@ export const handlebars = {
       longDescription:
         "Handlebars est un langage de modele et un runtime JavaScript qui etend Mustache avec des helpers, des expressions de blocs, des partials, la precompilation et l'echappement. Il permet de maintenir les modeles axes sur la presentation tout en permettant aux helpers de fournir un comportement reutilisable.\n\nIl est utilise pour la generation de HTML cote serveur, les vues cote client, la generation de sites statiques, les e-mails transactionnels, les outils de documentation et les systemes de build qui ont besoin d'une generation de texte previsible a partir de donnees structurees.",
     },
+    de: {
+      name: "Handlebars",
+      description: "Eine einfache Template-Sprache zum Rendern von HTML und Text aus Daten.",
+      longDescription:
+        "Handlebars ist eine Template-Sprache und JavaScript-Runtime, die Mustache erweitert und Funktionen wie Hilfsfunktionen, Block-Ausdr\u00fccke, Partials, Vorabkompilierung und Escaping bietet. Sie erm\u00f6glicht es, Templates auf die Pr\u00e4sentation zu konzentrieren, w\u00e4hrend Hilfsfunktionen wiederverwendbares Verhalten bereitstellen.\n\nEs wird f\u00fcr serverseitiges HTML, clientseitige Views, statische Seitengenerierung, transaktionale E-Mails, Dokumentationstools und Build-Systeme verwendet, die von strukturierten Daten vorhersehbare Textgenerierung ben\u00f6tigen.",
+    },
+    pt: {
+      name: "Handlebars",
+      description: "Linguagem de modelo leve para renderizar HTML e texto a partir de dados.",
+      longDescription:
+        "Handlebars \u00e9 uma linguagem de modelo e ambiente de tempo de execu\u00e7\u00e3o JavaScript que estende o Mustache com helpers, express\u00f5es de bloco, parti\u00e7\u00f5es, pr\u00e9-compila\u00e7\u00e3o e escapamento. Mant\u00e9m os modelos focados na apresenta\u00e7\u00e3o, permitindo que os helpers forne\u00e7am comportamento reutiliz\u00e1vel.\n\n\u00c9 usada para HTML renderizado no servidor, visualiza\u00e7\u00f5es no lado do cliente, gera\u00e7\u00e3o de sites est\u00e1ticos, e-mails transacionais, ferramentas de documenta\u00e7\u00e3o e sistemas de constru\u00e7\u00e3o que precisam gerar texto previs\u00edvel a partir de dados estruturados.",
+    },
   },
 } satisfies Language;

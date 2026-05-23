@@ -40,5 +40,19 @@ export const qsharp = {
       longDescription:
         "Q# est un langage de programmation quantique pour declarer des operations, des fonctions, l'utilisation de qubits, des mesures, des adjoints, des operations controlees et le controle classique autour de routines quantiques. Il est concu pour modeliser les algorithmes quantiques separement des details materiels.\n\nIl est utilise pour le developpement, la simulation, l'enseignement, les workflows Azure Quantum et les experiences hybrides combinant du code classique et quantique.",
     },
+    de: {
+      name: "Q#",
+      description:
+        "Die Programmiersprache von Microsoft zur Definition von Quantenprogrammen und -operationen.",
+      longDescription:
+        "Q# ist eine Quantenprogrammiersprache zur Definition von Operationen, Funktionen, der Verwendung von Qubits, Messungen, Adjoints, kontrollierten Operationen und klassischer Steuerung f\u00fcr Quantenroutinen. Sie ist darauf ausgelegt, Quantenalgorithmen von Hardware-Details zu trennen.\n\nSie wird f\u00fcr die Entwicklung, Simulation, Lehre, Azure Quantum Workflows und hybride Experimente verwendet, die klassischen und quantenbezogenen Code kombinieren.",
+    },
+    pt: {
+      name: "Q#",
+      description:
+        "Linguagem da Microsoft para expressar programas e opera\u00e7\u00f5es qu\u00e2nticas.",
+      longDescription:
+        "O Q# \u00e9 uma linguagem de programa\u00e7\u00e3o qu\u00e2ntica para declarar opera\u00e7\u00f5es, fun\u00e7\u00f5es, uso de qubits, medi\u00e7\u00e3o, adjointes, opera\u00e7\u00f5es controladas e controle cl\u00e1ssico em torno de rotinas qu\u00e2nticas. \u00c9 projetada para modelar algoritmos qu\u00e2nticos separadamente dos detalhes de hardware.\n\n\u00c9 usada para desenvolvimento, simula\u00e7\u00e3o, ensino, fluxos de trabalho do Azure Quantum e experimentos h\u00edbridos que combinam c\u00f3digo cl\u00e1ssico e qu\u00e2ntico.",
+    },
   },
 } satisfies Language;

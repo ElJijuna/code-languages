@@ -43,5 +43,19 @@ export const hlsl = {
       longDescription:
         "HLSL est un langage de shaders pour Direct3D et les pipelines graphiques associes. Il fournit une syntaxe semblable a C, des types de vecteurs et de matrices, des textures, des echantillonneurs, des tampons constants, des semantiques, des intrinseques et des etapes de shaders pour les charges de travail de vertex, de pixel, de calcul, de geometrie, de coque, de domaine, de maillage, d'amplification et de ray tracing.\n\nIl est utilise dans les jeux Windows, les moteurs de rendu, les taches de calcul GPU, les effets visuels, les simulations en temps reel, les outils DirectX et les flux de travail de shaders compiles pour le materiel graphique moderne.",
     },
+    de: {
+      name: "HLSL",
+      description:
+        "Microsofts High-Level Shading Language f\u00fcr programmierbare Grafik-Pipelines.",
+      longDescription:
+        "HLSL ist eine Shader-Sprache f\u00fcr Direct3D und verwandte Grafik-Pipelines. Sie bietet eine C-\u00e4hnliche Syntax, Vektor- und Matrix-Typen, Texturen, Sampler, konstante Puffer, Semantiken, Intrinsics und Shader-Stufen f\u00fcr Vertex-, Pixel-, Compute-, Geometrie-, Hull-, Domain-, Mesh-, Amplifizierungs- und Raytracing-Workloads.\n\nEs wird in Windows-Spielen, Rendering-Engines, GPU-Compute-Aufgaben, visuellen Effekten, Echtzeit-Simulationen, DirectX-Tools und cross-compiled Shader-Workflows verwendet, die auf moderne Grafik-Hardware abzielen.",
+    },
+    pt: {
+      name: "HLSL",
+      description:
+        "Linguagem de Shading de N\u00edvel Superior da Microsoft para pipelines gr\u00e1ficos program\u00e1veis.",
+      longDescription:
+        "HLSL \u00e9 uma linguagem de shader para Direct3D e pipelines gr\u00e1ficos relacionados. Fornece uma sintaxe semelhante \u00e0 C, tipos de vetores e matrizes, texturas, amostradores, buffers de constantes, sem\u00e2nticas, intrinsics e est\u00e1gios de shader para cargas de trabalho de v\u00e9rtice, pixel, compute, geometria, hull, dom\u00ednio, mesh, amplification e ray tracing.\n\n\u00c9 usada em jogos do Windows, motores de renderiza\u00e7\u00e3o, tarefas de computa\u00e7\u00e3o de GPU, efeitos visuais, simula\u00e7\u00f5es em tempo real, ferramentas DirectX e fluxos de trabalho de shader compilados que visam hardware gr\u00e1fico moderno.",
+    },
   },
 } satisfies Language;

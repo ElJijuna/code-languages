@@ -40,5 +40,18 @@ export const bash = {
       longDescription:
         "Bash est le Bourne Again Shell du projet GNU, un interpreteur compatible avec le shell sh, dote de fonctionnalites issues des shells Bourne, Korn et C.\n\nIl est largement utilise pour les sessions de ligne de commande, les scripts shell, l'automatisation, l'administration systeme, les outils de construction, les workflows CI et les environnements de systemes d'exploitation similaires a Unix.",
     },
+    de: {
+      name: "Bash",
+      description:
+        "Ein Unix-Shell und eine Befehls-Sprache f\u00fcr Skripte und interaktive Nutzung.",
+      longDescription:
+        "Bash ist der GNU-Projekt-Bourne Again Shell, ein sh-kompatibler Shell mit Funktionen aus dem Bourne-, Korn- und C-Shell.\n\nEs wird h\u00e4ufig f\u00fcr Kommandozeitsitzungen, Shell-Skripte, Automatisierung, Systemadministration, Build-Tools, CI-Workflows und Unix-\u00e4hnliche Betriebssystemumgebungen verwendet.",
+    },
+    pt: {
+      name: "Bash",
+      description: "Interface de linha de comando e linguagem de script para o sistema Unix.",
+      longDescription:
+        "Bash \u00e9 a GNU Bourne Again Shell, um shell compat\u00edvel com o sh, com recursos do Bourne shell, Korn shell e C shell.\n\n\u00c9 amplamente utilizado para sess\u00f5es de linha de comando, scripts de shell, automa\u00e7\u00e3o, administra\u00e7\u00e3o de sistemas, ferramentas de constru\u00e7\u00e3o e fluxos de trabalho CI em ambientes de sistemas operacionais semelhantes ao Unix.",
+    },
   },
 } satisfies Language;

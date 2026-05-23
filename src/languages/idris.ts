@@ -41,5 +41,18 @@ export const idris = {
       longDescription:
         "Idris est un langage de programmation fonctionnel de typage dependant qui introduit des idees de verification de theoremes dans le developpement de logiciels general. Idris 2 ajoute un systeme de types quantitatif, la verification de la totalite, la reflexion de l'elaborateur et plusieurs backends de generation de code. \n\nIl est utilise pour le developpement guide par les types, la recherche de langage, la programmation certifiee, l'education et les experiences ou des types riches aident a decrire precisement le comportement du programme.",
     },
+    de: {
+      name: "Idris",
+      description:
+        "Eine dependently typisierte funktionale Sprache, die auf praktische Programme ausgerichtet ist.",
+      longDescription:
+        "Idris ist eine dependently typisierte funktionale Programmiersprache, die theorem-proving-Ideen in die allgemeine Softwareentwicklung einbringt. Idris 2 f\u00fcgt ein quantitatives Typsystem, Totali\u00e4tspr\u00fcfung, Elaborator-Reflexion und mehrere Code-Generierungs-Backends hinzu.\n\nSie wird f\u00fcr typsorientierte Entwicklung, Sprachforschung, zertifiziertes Programmieren, Bildung und Experimente verwendet, bei denen reichhaltige Typen dazu beitragen, das Programmverhalten pr\u00e4zise zu beschreiben.",
+    },
+    pt: {
+      name: "Idris",
+      description: "Linguagem funcional dependente focada em programas pr\u00e1ticos.",
+      longDescription:
+        "Idris \u00e9 uma linguagem de programa\u00e7\u00e3o funcional dependente que traz ideias de prova de teoremas para o desenvolvimento de software de prop\u00f3sito geral. Idris 2 adiciona um sistema de tipos quantitativo, verifica\u00e7\u00e3o de totalidade, reflex\u00e3o do elaborador e m\u00faltiplos backends de gera\u00e7\u00e3o de c\u00f3digo.\n\n\u00c9 usada para desenvolvimento orientado a tipos, pesquisa de linguagem, programa\u00e7\u00e3o certificada, educa\u00e7\u00e3o e experimentos onde tipos ricos ajudam a descrever o comportamento do programa com precis\u00e3o.",
+    },
   },
 } satisfies Language;

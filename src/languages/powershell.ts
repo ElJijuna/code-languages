@@ -44,5 +44,19 @@ export const powershell = {
       longDescription:
         "PowerShell combine un shell en ligne de commande, un langage de script, une pipeline d'objets, un systeme de modules, des fournisseurs, le telemetrie et une integration profonde avec les API .NET et de gestion du systeme d'exploitation.\n\nIl est largement utilise pour l'administration Windows, l'automatisation Azure, les workflows DevOps, la gestion de la configuration, les operations cloud et les taches d'infrastructure repetitives sur Windows, Linux et macOS.",
     },
+    de: {
+      name: "PowerShell",
+      description:
+        "Ein plattform\u00fcbergreifendes Befehlszeilen-Shell und Skriptsprache f\u00fcr Automatisierung und Systemadministration.",
+      longDescription:
+        "PowerShell kombiniert eine Befehlszeilen-Shell, Skriptsprache, Objektpipeline, Modulsystem, Provider, Remoting und tiefe Integration mit .NET und Betriebssystem-Management-APIs.\n\nEs wird h\u00e4ufig f\u00fcr die Windows-Administration, Azure-Automatisierung, DevOps-Workflows, Konfigurationsmanagement, Cloud-Betrieb und wiederholbare Infrastrukturaufgaben auf Windows, Linux und macOS verwendet.",
+    },
+    pt: {
+      name: "PowerShell",
+      description:
+        "Uma interface de linha de comando e linguagem de script multiplataforma para automa\u00e7\u00e3o e administra\u00e7\u00e3o de sistemas.",
+      longDescription:
+        "O PowerShell combina um shell de linha de comando, linguagem de script, pipeline de objetos, sistema de m\u00f3dulos, provedores, remoting e integra\u00e7\u00e3o profunda com APIs de gerenciamento .NET e do sistema operacional.\n\n\u00c9 amplamente utilizado para administra\u00e7\u00e3o do Windows, automa\u00e7\u00e3o do Azure, fluxos de trabalho DevOps, gerenciamento de configura\u00e7\u00e3o, opera\u00e7\u00f5es em nuvem e tarefas de infraestrutura repet\u00edveis em Windows, Linux e macOS.",
+    },
   },
 } satisfies Language;

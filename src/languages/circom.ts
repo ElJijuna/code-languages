@@ -42,5 +42,19 @@ export const circom = {
       longDescription:
         "Circom est un langage specifique a un domaine pour definir des circuits arithmetiques utilises par les systemes de preuve zkSNARK. Son compilateur peut generer des systemes de contraintes ainsi que du code de generation de preuves pour C++ ou WebAssembly.\n\nIl est courant dans les protocoles de preservation de la vie privee, les systemes d'identite, les applications de blockchain et les projets cryptographiques qui ont besoin de circuits reutilisables pour les preuves a zero connaissance.",
     },
+    de: {
+      name: "Circom",
+      description:
+        "Eine DSL zum Schreiben von arithmetischen Schaltkreisen f\u00fcr Zero-Knowledge-Beweise.",
+      longDescription:
+        "Circom ist eine dom\u00e4nenspezifische Sprache zur Definition von arithmetischen Schaltkreisen, die von zkSNARK-Beweissystemen verwendet werden. Ihr Compiler kann Constraint-Systeme sowie Witness-Generierungscode f\u00fcr C++ oder WebAssembly erzeugen.\n\nCircom wird h\u00e4ufig in Datenschutzprotokollen, Identit\u00e4tssystemen, Blockchain-Anwendungen und kryptografischen Projekten verwendet, die wiederverwendbare Schaltkreise f\u00fcr Zero-Knowledge-Beweise ben\u00f6tigen.",
+    },
+    pt: {
+      name: "Circom",
+      description:
+        "Uma DSL para escrever circuitos aritm\u00e9ticos usados em provas de conhecimento zero.",
+      longDescription:
+        "Circom \u00e9 uma linguagem espec\u00edfica de dom\u00ednio para definir circuitos aritm\u00e9ticos usados por sistemas de prova zkSNARK. Seu compilador pode gerar sistemas de restri\u00e7\u00f5es juntamente com c\u00f3digo de gera\u00e7\u00e3o de testemunhos para C++ ou WebAssembly.\n\n\u00c9 comum em protocolos de preserva\u00e7\u00e3o de privacidade, sistemas de identidade, aplica\u00e7\u00f5es de blockchain e projetos criptogr\u00e1ficos que necessitam de circuitos reutiliz\u00e1veis para provas de conhecimento zero.",
+    },
   },
 } satisfies Language;

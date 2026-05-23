@@ -44,5 +44,19 @@ export const arduino = {
       longDescription:
         "Les schemas Arduino encapsulent le developpement en C et C++ embarque dans un modele de projet convivial, avec des points d'entree de configuration et de boucle, des noyaux de carte et des bibliotheques materielles.\n\nIls sont largement utilises pour la prototypage electronique, l'education, la robotique, les capteurs, les appareils IoT et les petits projets de micrologiciel qui interagissent directement avec les composants physiques.",
     },
+    de: {
+      name: "Arduino Sketch",
+      description:
+        "Ein C/C++-basierter Skizten-Format zum Programmieren von Arduino-Boards und eingebetteten Ger\u00e4ten.",
+      longDescription:
+        "Arduino-Skizten b\u00fcndeln eingebettete C- und C++-Entwicklung in einem benutzerfreundlichen Projektmodell mit Setup- und Loop-Eintrittspunkten, Board-Kernen und Hardware-Bibliotheken.\n\nSie werden h\u00e4ufig f\u00fcr die Elektronikentwicklung, Bildung, Robotik, Sensoren, IoT-Ger\u00e4te und kleine Firmware-Projekte verwendet, die direkt mit physischen Komponenten interagieren.",
+    },
+    pt: {
+      name: "Arduino Sketch",
+      description:
+        "Formato de esbo\u00e7o baseado em C/C++ para programar placas Arduino e dispositivos embarcados.",
+      longDescription:
+        "Os esbo\u00e7os Arduino encapsulam o desenvolvimento em C e C++ para iniciantes, com um modelo de projeto amig\u00e1vel, pontos de entrada de setup e loop, n\u00facleos de placa e bibliotecas de hardware.\n\nS\u00e3o amplamente utilizados para prototipagem eletr\u00f4nica, educa\u00e7\u00e3o, rob\u00f3tica, sensores, dispositivos IoT e pequenos projetos de firmware que interagem diretamente com componentes f\u00edsicos.",
+    },
   },
 } satisfies Language;

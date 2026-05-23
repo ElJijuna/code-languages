@@ -43,5 +43,19 @@ export const xaml = {
       longDescription:
         "XAML, Extensible Application Markup Language, est un langage declaratif base sur XML utilise pour instancier des objets, definir des proprietes, declarer des ressources, lier des donnees et composer des interfaces utilisateur.\n\nIl est utilise dans les stacks d'interface utilisateur Microsoft et .NET tels que WPF, UWP, WinUI et .NET MAUI, ainsi que dans des frameworks inspires de XAML comme Avalonia. Les fichiers XAML definissent couramment des pages, des fenetres, des controles, des styles, des modeles, des animations, des ressources et des etats visuels.",
     },
+    de: {
+      name: "XAML",
+      description:
+        "Eine deklarative XML-basierte Sprache zur Definition von Objektgraphen und Anwendungs-Benutzeroberfl\u00e4chen.",
+      longDescription:
+        "XAML, Extensible Application Markup Language, ist eine deklarative XML-basierte Sprache, die zur Instanziierung von Objekten, zum Setzen von Eigenschaften, zum Deklarieren von Ressourcen, zum Binden von Daten und zum Erstellen von Benutzeroberfl\u00e4chen verwendet wird.\n\nEs wird in Microsoft- und .NET-UI-Stacks wie WPF, UWP, WinUI und .NET MAUI sowie in XAML-inspirierten Frameworks wie Avalonia verwendet. XAML-Dateien definieren typischerweise Seiten, Fenster, Steuerelemente, Stile, Vorlagen, Animationen, Ressourcen und visuelle Zust\u00e4nde.",
+    },
+    pt: {
+      name: "XAML",
+      description:
+        "Linguagem declarativa baseada em XML para definir grafos de objetos e interfaces de usu\u00e1rio de aplica\u00e7\u00f5es.",
+      longDescription:
+        "XAML, Extensible Application Markup Language, \u00e9 uma linguagem declarativa baseada em XML usada para instanciar objetos, definir propriedades, declarar recursos, vincular dados e compor interfaces de usu\u00e1rio.\n\n\u00c9 utilizada em v\u00e1rias plataformas Microsoft e .NET, como WPF, UWP, WinUI e .NET MAUI, bem como em frameworks inspirados em XAML, como Avalonia. Os arquivos XAML geralmente definem p\u00e1ginas, janelas, controles, estilos, modelos, anima\u00e7\u00f5es, recursos e estados visuais.",
+    },
   },
 } satisfies Language;

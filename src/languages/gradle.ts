@@ -44,5 +44,19 @@ export const gradle = {
       longDescription:
         "Les scripts de construction Gradle definissent les projets, les plugins, les dependances, les referentiels, les taches, les suites de tests et les regles de publication a l'aide de fichiers DSL Groovy ou Kotlin.\n\nIl est largement utilise dans les projets Java, Kotlin, Android, JVM et polyglottes qui necessitent des constructions reproductibles, la gestion des dependances, l'automatisation personnalisee et l'integration avec les pipelines CI/CD.",
     },
+    de: {
+      name: "Gradle",
+      description:
+        "Ein Build-Automatisierungs-DSL und -Tool zum Definieren, Konfigurieren und Ausf\u00fchren von Software-Builds.",
+      longDescription:
+        "Gradle-Build-Skripte definieren Projekte, Plugins, Abh\u00e4ngigkeiten, Repositories, Aufgaben, Testsuiten, Ver\u00f6ffentlichungsvorschriften und Build-Logik f\u00fcr mehrere Projekte mithilfe von Groovy DSL oder Kotlin DSL-Dateien.\n\nEs wird h\u00e4ufig in Java-, Kotlin-, Android-, JVM- und polyglotten Projekten verwendet, die reproduzierbare Builds, Dependency-Management, benutzerdefinierte Automatisierung und Integration in CI/CD-Pipelines ben\u00f6tigen.",
+    },
+    pt: {
+      name: "Gradle",
+      description:
+        "DSL e ferramenta de automa\u00e7\u00e3o de constru\u00e7\u00e3o para definir, configurar e executar builds de software.",
+      longDescription:
+        "Scripts de constru\u00e7\u00e3o Gradle definem projetos, plugins, depend\u00eancias, reposit\u00f3rios, tarefas, suites de testes e regras de publica\u00e7\u00e3o usando arquivos DSL Groovy ou Kotlin.\n\n\u00c9 amplamente utilizado em projetos Java, Kotlin, Android, JVM e poligl\u00f3ticos que necessitam de constru\u00e7\u00f5es reproduz\u00edveis, gerenciamento de depend\u00eancias, automa\u00e7\u00e3o personalizada e integra\u00e7\u00e3o com pipelines CI/CD.",
+    },
   },
 } satisfies Language;

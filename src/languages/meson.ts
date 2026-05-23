@@ -44,5 +44,19 @@ export const meson = {
       longDescription:
         "Les fichiers de construction Meson decrivent les projets, les cibles, les dependances, les options du compilateur, les tests, les regles d'installation, les sous-projets et les parametres de cross-compilation en utilisant un DSL non Turing-complet, facile a lire.\n\nIl est couramment utilise avec Ninja pour C, C++, C#, D, Fortran, Java, Rust, GNOME, Linux desktop, logiciels systeme, bibliotheques natives et les projets qui necessitent des constructions incrementales rapides avec des definitions de construction claires.",
     },
+    de: {
+      name: "Meson",
+      description:
+        "Ein schnelles, benutzerfreundliches Build-System-DSL zur Beschreibung plattform\u00fcbergreifender nativer Builds.",
+      longDescription:
+        "Meson-Build-Dateien beschreiben Projekte, Ziele, Abh\u00e4ngigkeiten, Compiler-Optionen, Tests, Installationsregeln, Unterprojekte und Cross-Compilation-Einstellungen mithilfe eines lesbaren, nicht Turing-vollst\u00e4ndigen DSL.\n\nEs wird h\u00e4ufig mit Ninja f\u00fcr C, C++, C#, D, Fortran, Java, Rust, GNOME, Linux-Desktop, Systemsoftware, native Bibliotheken und Projekte verwendet, die schnelle, inkrementelle Builds mit klaren Build-Definitionen ben\u00f6tigen.",
+    },
+    pt: {
+      name: "Meson",
+      description:
+        "Um sistema de compila\u00e7\u00e3o DSL r\u00e1pido e f\u00e1cil de usar, usado para descrever projetos de compila\u00e7\u00e3o multiplataforma nativos.",
+      longDescription:
+        "Os arquivos de compila\u00e7\u00e3o Meson descrevem projetos, alvos, depend\u00eancias, op\u00e7\u00f5es do compilador, testes, regras de instala\u00e7\u00e3o, subprojetos e configura\u00e7\u00f5es de compila\u00e7\u00e3o cruzada usando uma DSL leg\u00edvel e n\u00e3o Turing-completa.\n\n\u00c9 comumente usado com Ninja para C, C++, C#, D, Fortran, Java, Rust, GNOME, Linux desktop, software de sistema, bibliotecas nativas e projetos que precisam de compila\u00e7\u00f5es incrementais r\u00e1pidas com defini\u00e7\u00f5es de compila\u00e7\u00e3o claras.",
+    },
   },
 } satisfies Language;

@@ -42,5 +42,19 @@ export const rust = {
       longDescription:
         "Rust offre une securite de la memoire sans collecteur de tas grace a la propriete, au pret, aux durees de vie et a des verifications strictes au moment de la compilation.\n\nIl est utilise pour les logiciels systeme, les outils en ligne de commande, les services web, le developpement embarque, WebAssembly et l'infrastructure critique en termes de performance.",
     },
+    de: {
+      name: "Rust",
+      description:
+        "Eine Programmiersprache f\u00fcr Systemprogrammierung, die auf Sicherheit, Geschwindigkeit und Nebenl\u00e4ufigkeit ausgerichtet ist.",
+      longDescription:
+        "Rust bietet Speichersicherheit ohne Garbage Collector durch Ownership, Borrowing, Lifetimes und starke Compile-Zeit-Pr\u00fcfungen.\n\nEs wird f\u00fcr Systemsoftware, Kommandozeilen-Tools, Webdienste, eingebettete Entwicklung, WebAssembly und performante Infrastruktur verwendet.",
+    },
+    pt: {
+      name: "Rust",
+      description:
+        "Linguagem de programa\u00e7\u00e3o de sistemas focada em seguran\u00e7a, velocidade e concorr\u00eancia.",
+      longDescription:
+        "Rust oferece seguran\u00e7a de mem\u00f3ria sem coletor de lixo atrav\u00e9s de propriedade, empr\u00e9stimo, tempos de vida e verifica\u00e7\u00f5es rigorosas em tempo de compila\u00e7\u00e3o.\n\n\u00c9 usada para software de sistemas, ferramentas de linha de comando, servi\u00e7os web, desenvolvimento embarcado, WebAssembly e infraestrutura de alto desempenho.",
+    },
   },
 } satisfies Language;

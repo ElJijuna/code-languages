@@ -40,5 +40,18 @@ export const chapel = {
       longDescription:
         "Chapel est un langage de programmation parallele cree pour rendre le calcul haute performance et distribue plus accessible. Il fournit des domaines, des tableaux, la parallelisation de taches, la parallelisation de donnees, le controle de la localisation et des abstractions pour ecrire des programmes evolutifs sans avoir recours a un passage de messages de bas niveau partout.\n\nIl est utilise pour la recherche, le calcul numerique, l'analyse de donnees, les simulations et les applications haute performance qui ont besoin d'exprimer clairement les algorithmes paralleles sur les ordinateurs portables, les clusters et les superordinateurs.",
     },
+    de: {
+      name: "Chapel",
+      description: "Eine produktive parallele Programmiersprache f\u00fcr skalierbare Systeme.",
+      longDescription:
+        "Chapel ist eine parallele Programmiersprache, die entwickelt wurde, um Hochleistungs- und verteilte Computing zug\u00e4nglicher zu machen. Sie bietet Domains, Arrays, Task-Parallelit\u00e4t, Datenparallelit\u00e4t, Lokalit\u00e4tskontrolle und Abstraktionen, um skalierbare Programme zu schreiben, ohne st\u00e4ndig auf Low-Level-Messaging zur\u00fcckgreifen zu m\u00fcssen.\n\nSie wird f\u00fcr Forschung, numerische Berechnungen, Datenanalyse, Simulationen und Hochleistungsanwendungen verwendet, die parallele Algorithmen klar ausdr\u00fccken m\u00fcssen, auf Laptops, Clustern und Supercomputern.",
+    },
+    pt: {
+      name: "Chapel",
+      description:
+        "Linguagem de programa\u00e7\u00e3o paralela produtiva para sistemas escal\u00e1veis.",
+      longDescription:
+        "Chapel \u00e9 uma linguagem de programa\u00e7\u00e3o paralela criada para tornar a computa\u00e7\u00e3o de alto desempenho e distribu\u00edda mais acess\u00edvel. Ela oferece dom\u00ednios, arrays, paralelismo de tarefas, paralelismo de dados, controle de localidade e abstra\u00e7\u00f5es para escrever programas escal\u00e1veis sem precisar entrar em detalhes de passagem de mensagens de baixo n\u00edvel em todos os lugares.\n\n\u00c9 usada para pesquisa, computa\u00e7\u00e3o num\u00e9rica, an\u00e1lise de dados, simula\u00e7\u00f5es e aplica\u00e7\u00f5es de alto desempenho que precisam expressar algoritmos paralelos de forma clara em laptops, clusters e supercomputadores.",
+    },
   },
 } satisfies Language;

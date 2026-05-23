@@ -40,5 +40,19 @@ export const janet = {
       longDescription:
         "Janet est un petit langage de type Lisp avec une implementation C compacte, des fibres, des tables, la correspondance de motifs, des macros et un runtime embarquable. Il est concu pour le scripting, les outils et les applications qui ont besoin d'une extension de langage legere.\n\nIl est utilise pour les programmes en ligne de commande, la configuration, l'automatisation, l'integration dans des applications natives et des experiences qui beneficient de la metaprogrammation de type Lisp sans un runtime important.",
     },
+    de: {
+      name: "Janet",
+      description:
+        "Eine kleine, Lisp-\u00e4hnliche Sprache und ein einbettbarer Runtime f\u00fcr das Scripting.",
+      longDescription:
+        "Janet ist eine kleine, Lisp-\u00e4hnliche Programmiersprache mit einer kompakten C-Implementierung, Fibers, Tabellen, Pattern Matching, Makros und einem einbettbaren Runtime. Sie ist f\u00fcr das Scripting, die Erstellung von Tools und Anwendungen konzipiert, die eine leichte Erweiterungssprache ben\u00f6tigen.\n\nSie wird f\u00fcr Kommandozeilenprogramme, Konfiguration, Automatisierung, die Einbettung in native Anwendungen und Experimente verwendet, die von Lisp-\u00e4hnlicher Metaprogrammierung ohne einen gro\u00dfen Runtime profitieren.",
+    },
+    pt: {
+      name: "Janet",
+      description:
+        "Uma pequena linguagem de programa\u00e7\u00e3o semelhante ao Lisp e um runtime embarc\u00e1vel para scripting.",
+      longDescription:
+        "Janet \u00e9 uma pequena linguagem de programa\u00e7\u00e3o semelhante ao Lisp com uma implementa\u00e7\u00e3o C compacta, fibras, tabelas, correspond\u00eancia de padr\u00f5es, macros e um runtime embarc\u00e1vel. \u00c9 projetada para scripting, ferramentas e aplica\u00e7\u00f5es que precisam de uma linguagem de extens\u00e3o leve.\n\n\u00c9 usada para programas de linha de comando, configura\u00e7\u00e3o, automa\u00e7\u00e3o, incorpora\u00e7\u00e3o em aplica\u00e7\u00f5es nativas e experimentos que se beneficiam da metaprograma\u00e7\u00e3o de estilo Lisp sem um grande runtime.",
+    },
   },
 } satisfies Language;

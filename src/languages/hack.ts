@@ -41,5 +41,18 @@ export const hack = {
       longDescription:
         "Hack est un langage de programmation pour HHVM qui a evolue a partir de PHP et ajoute le typage statique, les generiques, les fonctionnalites asynchrones, les types, les collections et des outils bases sur le verificateur de type Hack. Il est concu pour les grandes bases de code web qui ont besoin d'un typage progressif et de commentaires rapides.\n\nIl est principalement utilise dans les deploiements HHVM et les grandes applications cote serveur ou l'ergonomie similaire a PHP est associee a une analyse statique plus forte et a des constructions de langage modernes.",
     },
+    de: {
+      name: "Hack",
+      description:
+        "Ein schrittweise typisierter Sprache f\u00fcr HHVM mit PHP-\u00e4hnlicher Syntax.",
+      longDescription:
+        "Hack ist eine Programmiersprache f\u00fcr HHVM, die von PHP abstammt und statische Typisierung, Generics, asynchrone Funktionen, Shapes, Collections und Werkzeuge zur Typ\u00fcberpr\u00fcfung hinzuf\u00fcgt. Sie ist f\u00fcr gro\u00dfe Webcodebasen konzipiert, die schrittweise Typisierung und schnelles Feedback ben\u00f6tigen.\n\nSie wird haupts\u00e4chlich in HHVM-Umgebungen und gro\u00dfen Serveranwendungen eingesetzt, wo die PHP-\u00e4hnliche Ergonomie mit st\u00e4rkerer statischer Analyse und modernen Sprachkonstrukten kombiniert wird.",
+    },
+    pt: {
+      name: "Hack",
+      description: "Linguagem de tipagem gradual para HHVM, com heran\u00e7a do PHP.",
+      longDescription:
+        "Hack \u00e9 uma linguagem para HHVM que evoluiu do PHP e adiciona tipagem est\u00e1tica, gen\u00e9ricos, recursos ass\u00edncronos, shapes, cole\u00e7\u00f5es e ferramentas baseadas no verificador de tipo Hack. \u00c9 projetada para grandes bases de c\u00f3digo web que precisam de tipagem gradual e feedback r\u00e1pido.\n\n\u00c9 usada principalmente em ambientes HHVM e grandes aplica\u00e7\u00f5es de servidor onde a ergonomia semelhante ao PHP \u00e9 combinada com an\u00e1lise est\u00e1tica mais forte e constru\u00e7\u00f5es de linguagem modernas.",
+    },
   },
 } satisfies Language;

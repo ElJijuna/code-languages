@@ -44,5 +44,19 @@ export const ocaml = {
       longDescription:
         "OCaml combine la programmation fonctionnelle, imperative et orientee objet avec l'inference de type de Hindley-Milner, les types de donnees algebriques, la correspondance de motifs, les fonctions et un systeme de modules puissant.\n\nIl est utilise pour les compilateurs, les prouveurs de theoremes, l'analyse statique, les outils de developpement, les systemes financiers, les logiciels systeme et les services de production ou les types forts, les performances et la maintenabilite sont importants.",
     },
+    de: {
+      name: "OCaml",
+      description:
+        "Eine statisch typisierte ML-Familie mit Modulen, Typinferenz und nativem Kompilieren.",
+      longDescription:
+        "OCaml kombiniert funktionale, imperative und objektorientierte Programmierung mit Hindley-Milner-Typinferenz, algebraischen Datentypen, Mustervergleich, Funktoren und einem leistungsstarken Modulsystem.\n\nEs wird f\u00fcr Compiler, Theorembeweiser, statische Analyse, Entwicklerwerkzeuge, Finanzsysteme, Systemsoftware und Produktionsdienste verwendet, bei denen starke Typen, Leistung und Wartbarkeit wichtig sind.",
+    },
+    pt: {
+      name: "OCaml",
+      description:
+        "Linguagem estaticamente tipada da fam\u00edlia ML, com m\u00f3dulos, infer\u00eancia e compila\u00e7\u00e3o nativa.",
+      longDescription:
+        "OCaml combina programa\u00e7\u00e3o funcional, imperativa e orientada a objetos com infer\u00eancia de tipo Hindley-Milner, tipos de dados alg\u00e9bricos, correspond\u00eancia de padr\u00f5es, functors e um sistema de m\u00f3dulos poderoso.\n\n\u00c9 utilizada para compiladores, sistemas de prova, an\u00e1lise est\u00e1tica, ferramentas de desenvolvimento, sistemas financeiros, software de sistemas e servi\u00e7os de produ\u00e7\u00e3o onde tipos fortes, desempenho e manutenibilidade s\u00e3o importantes.",
+    },
   },
 } satisfies Language;

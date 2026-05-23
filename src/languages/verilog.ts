@@ -43,5 +43,19 @@ export const verilog = {
       longDescription:
         "Verilog et SystemVerilog decrivent le materiel numerique au niveau comportemental, registre-transfert et porte. Le langage prend en charge les modules, les signaux, les affectations continues, les blocs proceduraux, le temps, les bancs de test, les assertions, les interfaces, les classes et la verification par aleatoire contrainte.\n\nIl est utilise pour la conception de FPGA, le developpement d'ASIC, la simulation materielle, la synthese, les environnements de verification, les blocs IP reutilisables et les flux de travail d'automatisation de la conception electronique.",
     },
+    de: {
+      name: "Verilog/SystemVerilog",
+      description:
+        "Eine Programmiersprache f\u00fcr die Beschreibung und Verifizierung digitaler Schaltungen und Systeme.",
+      longDescription:
+        "Verilog und SystemVerilog beschreiben digitale Hardware auf verhaltens-, Register-Transfer- und Gatenebene. Die Sprache unterst\u00fctzt Module, Signale, kontinuierliche Zuweisungen, prozedurale Bl\u00f6cke, Timing, Testb\u00e4nke, Assertions, Schnittstellen, Klassen und eingeschr\u00e4nkte Zufallstests.\n\nSie wird f\u00fcr FPGA-Designs, ASIC-Entwicklung, Hardware-Simulation, Synthese, Verifizierungsumgebungen, wiederverwendbare IP-Bl\u00f6cke und elektronische Designautomatisierung verwendet.",
+    },
+    pt: {
+      name: "Verilog/SystemVerilog",
+      description:
+        "Linguagem de descri\u00e7\u00e3o e verifica\u00e7\u00e3o de hardware para circuitos e sistemas digitais.",
+      longDescription:
+        "Verilog e SystemVerilog descrevem hardware digital em n\u00edveis comportamental, de transfer\u00eancia de registros e de portas l\u00f3gicas. A linguagem suporta m\u00f3dulos, sinais, atribui\u00e7\u00f5es cont\u00ednuas, blocos procedurais, temporiza\u00e7\u00e3o, bancas de teste, asser\u00e7\u00f5es, interfaces, classes e verifica\u00e7\u00e3o por aleatoriedade restrita.\n\n\u00c9 utilizada para projetos de FPGA, desenvolvimento de ASICs, simula\u00e7\u00e3o de hardware, ambientes de s\u00edntese e verifica\u00e7\u00e3o, blocos de IP reutiliz\u00e1veis e fluxos de trabalho de automa\u00e7\u00e3o de design eletr\u00f4nico.",
+    },
   },
 } satisfies Language;

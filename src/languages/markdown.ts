@@ -36,5 +36,18 @@ export const markdown = {
       longDescription:
         "Markdown utilise la syntaxe de texte brut pour representer les titres, les listes, les liens, l'emphase, les blocs de code, les tableaux et autres structures de documents courantes.\n\nIl est largement utilise pour les fichiers README, la documentation, les sites statiques, les notes, les systemes de suivi des problemes et les flux de travail de publication ou le texte source lisible est important.",
     },
+    de: {
+      name: "Markdown",
+      description: "Eine leichte Markup-Sprache zum Schreiben formatierter Textdokumente.",
+      longDescription:
+        "Markdown verwendet einfache Textsyntax zur Darstellung von \u00dcberschriften, Listen, Links, Hervorhebungen, Codebl\u00f6cken, Tabellen und anderen g\u00e4ngigen Dokumentstrukturen.\n\nEs wird h\u00e4ufig f\u00fcr README-Dateien, Dokumentation, statische Websites, Notizen, Issue-Tracker und Publishing-Workflows verwendet, bei denen lesbarer Quelltext wichtig ist.",
+    },
+    pt: {
+      name: "Markdown",
+      description:
+        "Uma linguagem de marca\u00e7\u00e3o leve para escrever documentos de texto formatados.",
+      longDescription:
+        "O Markdown usa a sintaxe de texto simples para representar t\u00edtulos, listas, links, \u00eanfase, blocos de c\u00f3digo, tabelas e outras estruturas de documentos comuns.\n\n\u00c9 amplamente utilizado para arquivos README, documenta\u00e7\u00e3o, sites est\u00e1ticos, notas, rastreadores de problemas e fluxos de trabalho de publica\u00e7\u00e3o onde o texto de origem leg\u00edvel \u00e9 importante.",
+    },
   },
 } satisfies Language;

@@ -44,5 +44,19 @@ export const rego = {
       longDescription:
         "Rego est le langage de politique declaratif utilise par Open Policy Agent pour exprimer des regles, des decisions, des contraintes, des requetes de donnees et la logique d'autorisation. Il est concu autour de donnees structurees telles que JSON et permet aux politiques d'evaluer les entrees par rapport aux regles, aux ensembles, aux objets, aux comprehensions et aux fonctions integrees. \n\nIl est utilise pour le controle d'admission Kubernetes, l'autorisation de service, les verifications de politique d'infrastructure, la validation CI, les API gateways, l'automatisation de la conformite et les systemes natifs du cloud qui ont besoin de politiques separees du code d'application.",
     },
+    de: {
+      name: "Rego",
+      description:
+        "Rego ist die deklarative Policy-Sprache des Open Policy Agent f\u00fcr Autorisierung und Policy as Code.",
+      longDescription:
+        "Rego ist die deklarative Policy-Sprache, die vom Open Policy Agent verwendet wird, um Regeln, Entscheidungen, Einschr\u00e4nkungen, Datenabfragen und Autorisierungslogik auszudr\u00fccken. Sie basiert auf strukturierter Daten wie JSON und erm\u00f6glicht es, Eingaben anhand von Regeln, S\u00e4tzen, Objekten, Comprehensions und eingebauten Funktionen zu evaluieren.\n\nSie wird f\u00fcr Kubernetes-Admission-Control, Service-Autorisierung, Infrastruktur-Policy-Checks, CI-Validierung, API-Gateways, Compliance-Automatisierung und Cloud-native-Systeme verwendet, die separate Policies von Anwendungs-Code ben\u00f6tigen.",
+    },
+    pt: {
+      name: "Rego",
+      description:
+        "Linguagem de pol\u00edtica declarativa do Open Policy Agent para autoriza\u00e7\u00e3o e pol\u00edtica como c\u00f3digo.",
+      longDescription:
+        "Rego \u00e9 a linguagem de pol\u00edtica declarativa usada pelo Open Policy Agent para expressar regras, decis\u00f5es, restri\u00e7\u00f5es, consultas de dados e l\u00f3gica de autoriza\u00e7\u00e3o. \u00c9 projetada para dados estruturados, como JSON, e permite que as pol\u00edticas avaliem entradas em rela\u00e7\u00e3o a regras, conjuntos, objetos, compreens\u00f5es e fun\u00e7\u00f5es integradas.\n\n\u00c9 usada para controle de admiss\u00e3o do Kubernetes, autoriza\u00e7\u00e3o de servi\u00e7os, verifica\u00e7\u00f5es de pol\u00edtica de infraestrutura, valida\u00e7\u00e3o de CI, gateways de API, automa\u00e7\u00e3o de conformidade e sistemas nativos de nuvem que precisam de pol\u00edticas separadas do c\u00f3digo de aplica\u00e7\u00e3o.",
+    },
   },
 } satisfies Language;

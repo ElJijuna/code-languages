@@ -43,5 +43,19 @@ export const actionscript = {
       longDescription:
         "ActionScript est un langage de script base sur ECMAScript cree pour le contenu interactif, l'animation, les applications riches en fonctionnalites et la logique d'application sur la plateforme Flash. ActionScript 3.0 a introduit un systeme de types plus fort, des classes, des packages, des evenements, des espaces de noms et une machine virtuelle concue pour les applications plus importantes.\n\nIl est principalement pertinent aujourd'hui pour la maintenance des projets Flash, AIR et Flex existants, la migration du contenu interactif plus ancien et la comprehension des bases de code construites autour des technologies de runtime d'Adobe.",
     },
+    de: {
+      name: "ActionScript",
+      description:
+        "Eine auf ECMAScript basierende Sprache f\u00fcr Flash, AIR, Flex und interaktive Medienanwendungen.",
+      longDescription:
+        "ActionScript ist eine auf ECMAScript basierende Skriptsprache, die f\u00fcr interaktiven Inhalt, Animationen, Rich-Internet-Anwendungen und Anwendungslogik auf der Flash-Plattform entwickelt wurde. ActionScript 3.0 f\u00fchrte ein st\u00e4rkeres Typsystem, Klassen, Packages, Events, Namespaces und eine virtuelle Maschine f\u00fcr gr\u00f6\u00dfere Anwendungen ein.\n\nHeute ist ActionScript haupts\u00e4chlich relevant f\u00fcr die Wartung von Legacy-Flash-, AIR- und Flex-Projekten, f\u00fcr die Migration \u00e4lterer interaktiver Inhalte und f\u00fcr das Verst\u00e4ndnis von Codebasen, die auf Adobe Runtime-Technologien basieren.",
+    },
+    pt: {
+      name: "ActionScript",
+      description:
+        "Linguagem baseada em ECMAScript usada para Flash, AIR, Flex e aplica\u00e7\u00f5es de m\u00eddia interativa.",
+      longDescription:
+        "ActionScript \u00e9 uma linguagem de script baseada em ECMAScript criada para conte\u00fado interativo, anima\u00e7\u00e3o, aplica\u00e7\u00f5es de internet ricas e l\u00f3gica de aplica\u00e7\u00e3o na plataforma Flash. ActionScript 3.0 introduziu um sistema de tipos mais forte, classes, pacotes, eventos, namespaces e uma m\u00e1quina virtual projetada para aplica\u00e7\u00f5es maiores.\n\n\u00c9 principalmente relevante hoje para manter projetos legados Flash, AIR e Flex, migrar conte\u00fado interativo mais antigo e entender c\u00f3digobases constru\u00eddas em torno de tecnologias de tempo de execu\u00e7\u00e3o da Adobe.",
+    },
   },
 } satisfies Language;

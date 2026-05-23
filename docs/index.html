@@ -623,6 +623,8 @@
               <button data-locale="es" type="button">ES</button>
               <button data-locale="it" type="button">IT</button>
               <button data-locale="fr" type="button">FR</button>
+              <button data-locale="de" type="button">DE</button>
+              <button data-locale="pt" type="button">PT</button>
             </div>
           </div>
           <div class="playground-body">
@@ -757,12 +759,16 @@ const astro = await api
         es: "es-PE",
         it: "it-IT",
         fr: "fr-FR",
+        de: "de-DE",
+        pt: "pt-BR",
       };
       const localeFields = {
         en: { name: "name", description: "description" },
         es: { name: "esName", description: "esDescription" },
         it: { name: "itName", description: "itDescription" },
         fr: { name: "frName", description: "frDescription" },
+        de: { name: "deName", description: "deDescription" },
+        pt: { name: "ptName", description: "ptDescription" },
       };
       const localField = (language, field) => {
         const key = localeFields[state.locale]?.[field] ?? field;
@@ -855,6 +861,8 @@ const result = api
           language.esName,
           language.itName,
           language.frName,
+          language.deName,
+          language.ptName,
           language.slug,
           language.version,
           ...language.extensions,

@@ -44,5 +44,19 @@ export const graphql = {
       longDescription:
         "GraphQL est un langage de requete type, un langage de schema et un modele d'execution pour les API, qui permet aux clients de decrire les donnees exactes dont ils ont besoin et aux serveurs d'exposer des capacites via un graphe fortement type.\n\nIl est largement utilise dans les applications web et mobiles, les API gateways, les graphes de services federes, les plateformes de developpement, les systemes de contenu et les flux de travail d'outillage qui necessitent l'introspection, la validation, la generation de code et des contrats clients-serveurs previsibles.",
     },
+    de: {
+      name: "GraphQL",
+      description:
+        "Eine typisierte Abfragesprache und Schemalingua f\u00fcr APIs, die Clients pr\u00e4zise Datenstrukturen anfordern l\u00e4sst.",
+      longDescription:
+        "GraphQL ist eine typisierte Abfragesprache, Schemalingua und Ausf\u00fchrungsmodell f\u00fcr APIs, das Clients erm\u00f6glicht, die exakt ben\u00f6tigten Daten zu beschreiben, w\u00e4hrend Server \u00fcber ein stark typisiertes Graph M\u00f6glichkeiten bereitstellen. \n\nEs wird h\u00e4ufig in Web- und Mobile-Anwendungen, API-Gateways, federierten Service-Graphen, Entwicklerplattformen, Inhalts-Systemen und Tooling-Workflows verwendet, die Introspektion, Validierung, Code-Generierung und vorhersagbare Client-Server-Vertr\u00e4ge ben\u00f6tigen.",
+    },
+    pt: {
+      name: "GraphQL",
+      description:
+        "Linguagem de consulta e esquema com tipagem para APIs, permitindo que os clientes solicitem formatos de dados exatos.",
+      longDescription:
+        "GraphQL \u00e9 uma linguagem de consulta e esquema com tipagem para APIs, permitindo que os clientes definam os dados exatos que precisam e os servidores exponham capacidades atrav\u00e9s de um grafo fortemente tipado. \n\n\u00c9 amplamente utilizada em aplica\u00e7\u00f5es web e m\u00f3veis, gateways de API, grafos de servi\u00e7os federados, plataformas de desenvolvedores, sistemas de conte\u00fado e fluxos de trabalho de ferramentas que necessitam de introspec\u00e7\u00e3o, valida\u00e7\u00e3o, gera\u00e7\u00e3o de c\u00f3digo e contratos previs\u00edveis entre cliente e servidor.",
+    },
   },
 } satisfies Language;

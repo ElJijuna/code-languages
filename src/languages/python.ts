@@ -44,5 +44,19 @@ export const python = {
       longDescription:
         "Python met l'accent sur la lisibilite, une syntaxe concise et une vaste bibliotheque standard, ce qui le rend populaire pour le script, les services backend, l'analyse de donnees, l'education et le calcul scientifique.\n\nSon ecosysteme comprend des frameworks et des packages majeurs pour le developpement web, l'automatisation, l'apprentissage automatique, le calcul numerique, les tests et les outils en ligne de commande.",
     },
+    de: {
+      name: "Python",
+      description:
+        "Eine hochrangige, leicht verst\u00e4ndliche Sprache f\u00fcr Anwendungen, Automatisierung, Daten und KI.",
+      longDescription:
+        "Python legt Wert auf Lesbarkeit, eine kompakte Syntax und eine umfangreiche Standardbibliothek, was es beliebt f\u00fcr Skripting, Backend-Dienste, Datenanalyse, Bildung und wissenschaftliche Berechnungen macht.\n\nEs umfasst wichtige Frameworks und Pakete f\u00fcr Webentwicklung, Automatisierung, maschinelles Lernen, numerische Berechnungen, Tests und Kommandozeilen-Tools.",
+    },
+    pt: {
+      name: "Python",
+      description:
+        "Linguagem de alto n\u00edvel, f\u00e1cil de ler, usada para aplica\u00e7\u00f5es, automa\u00e7\u00e3o, dados e IA.",
+      longDescription:
+        "O Python enfatiza a legibilidade, uma sintaxe compacta e uma vasta biblioteca padr\u00e3o, tornando-o popular para scripting, servi\u00e7os backend, an\u00e1lise de dados, educa\u00e7\u00e3o e computa\u00e7\u00e3o cient\u00edfica.\n\nSeu ecossistema inclui frameworks e pacotes importantes para desenvolvimento web, automa\u00e7\u00e3o, aprendizado de m\u00e1quina, computa\u00e7\u00e3o num\u00e9rica, testes e ferramentas de linha de comando.",
+    },
   },
 } satisfies Language;

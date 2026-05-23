@@ -42,5 +42,19 @@ export const cobol = {
       longDescription:
         "COBOL est un langage de programmation oriente entreprise cree par CODASYL pour le traitement de donnees portable et lisible sur les systemes informatiques commerciaux. Sa syntaxe met l'accent sur des instructions similaires a l'anglais, des enregistrements structures, l'arithmetique decimale, le traitement par lots et des flux de travail orientes rapports.\n\nIl est utilise dans les banques, les assurances, le secteur public, la paie, le traitement des transactions, les systemes mainframe et les projets de modernisation ou de grandes bases de code d'entreprise continuent de faire fonctionner des operations critiques.",
     },
+    de: {
+      name: "COBOL",
+      description:
+        "Ein gesch\u00e4ftsorientiertes Sprach f\u00fcr langlebige, datenintensive Unternehmenssysteme.",
+      longDescription:
+        "COBOL ist eine gesch\u00e4ftsorientierte Programmiersprache, die von CODASYL f\u00fcr lesbaren, portablen Datenverarbeitung in kommerziellen Computersystemen entwickelt wurde. Ihre Syntax betont englisch\u00e4hnliche Anweisungen, strukturierte Datens\u00e4tze, Dezimalarithmetik, Batch-Verarbeitung und reportorientierte Arbeitsabl\u00e4ufe.\n\nEs wird in Banken, Versicherungen, Regierung, Gehaltsabrechnung, Transaktionsverarbeitung, Mainframe-Systemen und Modernisierungsprojekten eingesetzt, in denen gro\u00dfe, dauerhafte Gesch\u00e4ftsprogrammen weiterhin kritische Operationen ausf\u00fchren.",
+    },
+    pt: {
+      name: "COBOL",
+      description:
+        "Linguagem de neg\u00f3cios para sistemas empresariais de longa dura\u00e7\u00e3o e com grande volume de dados.",
+      longDescription:
+        "COBOL \u00e9 uma linguagem de programa\u00e7\u00e3o de neg\u00f3cios criada pela CODASYL para processamento de dados leg\u00edvel e port\u00e1til em sistemas de computa\u00e7\u00e3o comerciais. Sua sintaxe enfatiza declara\u00e7\u00f5es semelhantes ao ingl\u00eas, registros estruturados, aritm\u00e9tica decimal, processamento em lote e fluxos de trabalho orientados a relat\u00f3rios.\n\n\u00c9 utilizada em bancos, seguros, governo, folha de pagamento, processamento de transa\u00e7\u00f5es, sistemas mainframe e projetos de moderniza\u00e7\u00e3o onde grandes e dur\u00e1veis bases de c\u00f3digo de neg\u00f3cios continuam a executar opera\u00e7\u00f5es cr\u00edticas.",
+    },
   },
 } satisfies Language;

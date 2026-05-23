@@ -42,5 +42,19 @@ export const qml = {
       longDescription:
         "QML est un langage declaratif pour les applications Qt Quick, combinant des arbres d'objets, des proprietes, des liaisons, des signaux, des etats, des animations, des expressions JavaScript et des composants reutilisables. Il est concu pour creer des interfaces dynamiques qui s'integrent naturellement avec C++ et les API Qt.\n\nIl est utilise dans les applications de bureau, les appareils embarques, les interfaces mobiles, les ecrans automobiles, les systemes de controle industriels, les systemes multimedias et les projets Qt multiplateformes qui necessitent des couches d'interface utilisateur reactives et animees.",
     },
+    de: {
+      name: "QML",
+      description:
+        "Qt's deklarative Sprache f\u00fcr den Aufbau flie\u00dfender, komponentbasierter Benutzeroberfl\u00e4chen.",
+      longDescription:
+        "QML ist eine deklarative Sprache f\u00fcr Qt Quick Anwendungen, die Objektb\u00e4ume, Eigenschaften, Bindungen, Signale, Zust\u00e4nde, Animationen, JavaScript-Ausdr\u00fccke und wiederverwendbare Komponenten kombiniert. Sie ist f\u00fcr den Aufbau dynamischer Oberfl\u00e4chen konzipiert, die sich nat\u00fcrlich mit C++ und Qt APIs verbinden.\n\nSie wird in Desktop-Anwendungen, eingebetteten Ger\u00e4ten, mobilen Oberfl\u00e4chen, Automobilanzeigen, industriellen Steuerungssystemen, Mediasystemen und plattform\u00fcbergreifenden Qt-Projekten verwendet, die responsive und animierte UI-Schichten ben\u00f6tigen.",
+    },
+    pt: {
+      name: "QML",
+      description:
+        "Linguagem declarativa do Qt para criar interfaces de usu\u00e1rio fluidas e baseadas em componentes.",
+      longDescription:
+        "QML \u00e9 uma linguagem declarativa para aplica\u00e7\u00f5es Qt Quick, combinando \u00e1rvores de objetos, propriedades, bindings, sinais, estados, anima\u00e7\u00f5es, express\u00f5es JavaScript e componentes reutiliz\u00e1veis. \u00c9 projetada para criar interfaces din\u00e2micas que se conectam naturalmente a APIs C++ e Qt.\n\n\u00c9 utilizada em aplica\u00e7\u00f5es de desktop, dispositivos embarcados, interfaces m\u00f3veis, displays automotivos, controles industriais, sistemas de m\u00eddia e projetos Qt multiplataforma que necessitam de camadas de UI responsivas e animadas.",
+    },
   },
 } satisfies Language;

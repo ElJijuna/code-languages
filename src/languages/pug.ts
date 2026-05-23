@@ -44,5 +44,19 @@ export const pug = {
       longDescription:
         "Pug est un langage de modele performant pour ecrire du HTML avec une syntaxe concise basee sur l'indentation. Il etait auparavant connu sous le nom de Jade et est couramment utilise pour generer du HTML a partir de modeles, de mises en page, d'inclusions, de mixins et d'expressions JavaScript reutilisables.\n\nIl est utilise dans les applications web Node.js, les flux de travail de sites statiques, les prototypes de composants, les modeles d'e-mails et les pipelines de construction ou les equipes souhaitent des modeles compacts qui se compilent en HTML.",
     },
+    de: {
+      name: "Pug",
+      description:
+        "Eine Whitespace-sensitive Template-Sprache zum Generieren von HTML in Node.js und Browsern.",
+      longDescription:
+        "Pug ist eine leistungsstarke Template-Sprache zum Schreiben von HTML mit pr\u00e4gnanter, einr\u00fcckungsbasierter Syntax. Fr\u00fcher hie\u00df sie Jade und wird h\u00e4ufig verwendet, um HTML aus wiederverwendbaren Vorlagen, Layouts, Includes, Mixins und JavaScript-Ausdr\u00fccken zu generieren.\n\nSie wird in Node.js-Webanwendungen, statischen Site-Workflows, Komponentenprototypen, E-Mail-Vorlagen und Build-Pipelines verwendet, wo Teams kompakte Vorlagen ben\u00f6tigen, die zu HTML kompiliert werden.",
+    },
+    pt: {
+      name: "Pug",
+      description:
+        "Linguagem de modelo sens\u00edvel ao espa\u00e7o em branco para gerar HTML em Node.js e navegadores.",
+      longDescription:
+        "Pug \u00e9 uma linguagem de modelo de alto desempenho para escrever HTML com uma sintaxe concisa e baseada em indenta\u00e7\u00e3o. Anteriormente conhecida como Jade, \u00e9 comumente usada para gerar HTML a partir de modelos, layouts, includes, mixins e express\u00f5es JavaScript reutiliz\u00e1veis.\n\n\u00c9 usada em aplica\u00e7\u00f5es web Node.js, fluxos de trabalho de sites est\u00e1ticos, prot\u00f3tipos de componentes, modelos de e-mail e pipelines de constru\u00e7\u00e3o, onde as equipes desejam modelos compactos que compilatem para HTML.",
+    },
   },
 } satisfies Language;

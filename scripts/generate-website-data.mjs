@@ -3,37 +3,49 @@ import { writeFile } from "node:fs/promises";
 import { languages } from "../dist/index.js";
 
 const dataFile = new URL("../docs/data/languages.json", import.meta.url);
+const locales = ["en", "es", "it", "fr", "de", "pt"];
+
+const localizedFieldName = (locale, field) => {
+  if (locale === "en") {
+    return field;
+  }
+
+  return `${locale}${field[0].toUpperCase()}${field.slice(1)}`;
+};
 
 const siteData = {
   generatedAt: new Date().toISOString(),
   total: languages.length,
   extensions: languages.reduce((total, language) => total + language.extensions.length, 0),
-  locales: ["en", "es", "it", "fr"],
+  locales,
   languages: languages
-    .map((language) => ({
-      slug: language.slug,
-      name: language.i18n.en.name,
-      description: language.i18n.en.description,
-      longDescription: language.i18n.en.longDescription,
-      esName: language.i18n.es?.name ?? language.i18n.en.name,
-      esDescription: language.i18n.es?.description ?? language.i18n.en.description,
-      esLongDescription: language.i18n.es?.longDescription ?? language.i18n.en.longDescription,
-      itName: language.i18n.it?.name ?? language.i18n.en.name,
-      itDescription: language.i18n.it?.description ?? language.i18n.en.description,
-      itLongDescription: language.i18n.it?.longDescription ?? language.i18n.en.longDescription,
-      frName: language.i18n.fr?.name ?? language.i18n.en.name,
-      frDescription: language.i18n.fr?.description ?? language.i18n.en.description,
-      frLongDescription: language.i18n.fr?.longDescription ?? language.i18n.en.longDescription,
-      publishedDate: language.publishedDate,
-      extensions: language.extensions,
-      author: language.author,
-      website: language.website,
-      paradigms: language.paradigms,
-      tooling: language.tooling ?? {},
-      version: language.version,
-      logo: language.logo,
-      color: language.color,
-    }))
+    .map((language) => {
+      const localizedContent = Object.fromEntries(
+        locales.flatMap((locale) => {
+          const content = language.i18n[locale] ?? language.i18n.en;
+
+          return [
+            [localizedFieldName(locale, "name"), content.name],
+            [localizedFieldName(locale, "description"), content.description],
+            [localizedFieldName(locale, "longDescription"), content.longDescription],
+          ];
+        }),
+      );
+
+      return {
+        slug: language.slug,
+        ...localizedContent,
+        publishedDate: language.publishedDate,
+        extensions: language.extensions,
+        author: language.author,
+        website: language.website,
+        paradigms: language.paradigms,
+        tooling: language.tooling ?? {},
+        version: language.version,
+        logo: language.logo,
+        color: language.color,
+      };
+    })
     .sort((first, second) => first.name.localeCompare(second.name)),
 };
 

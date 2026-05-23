@@ -44,5 +44,19 @@ export const elixir = {
       longDescription:
         "Elixir fonctionne sur la machine virtuelle BEAM et combine la programmation fonctionnelle, des processus legers, la communication par messages, la correspondance de motifs, les macros et les bibliotheques OTP pour construire des logiciels concurrents et distribues.\n\nIl est largement utilise pour les applications web avec Phoenix, les systemes en temps reel, les taches en arriere-plan, les pipelines de donnees, les systemes embarques et les services qui necessitent une resilience, une observabilite et une forte concurrence.",
     },
+    de: {
+      name: "Elixir",
+      description:
+        "Eine dynamische funktionale Sprache f\u00fcr skalierbare, wartbare und fehlertolerante Systeme.",
+      longDescription:
+        "Elixir l\u00e4uft auf der BEAM-Virtual-Machine und kombiniert funktionale Programmierung, leichte Prozesse, Nachrichten\u00fcbermittlung, Pattern Matching, Makros und OTP-Bibliotheken f\u00fcr den Aufbau von nebenl\u00e4ufiger und verteilter Software.\n\nEs wird h\u00e4ufig f\u00fcr Webanwendungen mit Phoenix, Echtzeit-Systemen, Hintergrundaufgaben, Datenpipelines, eingebettete Systeme und Dienste verwendet, die Resilienz, Observabilit\u00e4t und hohe Konkurrenzf\u00e4higkeit ben\u00f6tigen.",
+    },
+    pt: {
+      name: "Elixir",
+      description:
+        "Linguagem din\u00e2mica e funcional para sistemas escal\u00e1veis, mant\u00edveis e tolerantes a falhas.",
+      longDescription:
+        "Elixir roda na m\u00e1quina virtual BEAM e combina programa\u00e7\u00e3o funcional, processos leves, passagem de mensagens, correspond\u00eancia de padr\u00f5es, macros e bibliotecas OTP para construir software concorrente e distribu\u00eddo.\n\n\u00c9 amplamente utilizada para aplica\u00e7\u00f5es web com Phoenix, sistemas em tempo real, tarefas em segundo plano, pipelines de dados, sistemas embarcados e servi\u00e7os que necessitam de resili\u00eancia, observabilidade e alta concorr\u00eancia.",
+    },
   },
 } satisfies Language;

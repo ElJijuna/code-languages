@@ -44,5 +44,19 @@ export const twig = {
       longDescription:
         "Twig est un langage de modele pour PHP qui separe la presentation de la logique d'application en utilisant des blocs, l'heritage, les inclusions, les filtres, les fonctions, les tests, les macros, l'echappement et le sandbox. Sa syntaxe est concue pour etre lisible pour les concepteurs tout en restant extensible pour les developpeurs.\n\nIl est utilise dans les applications Symfony, les projets web PHP, les themes CMS, les modeles d'e-mails, les flux de generation statique et les systemes qui ont besoin de vues serveur-rendues reutilisables avec un acces controle aux donnees de l'application.",
     },
+    de: {
+      name: "Twig",
+      description:
+        "Eine flexible und sichere Template-Sprache f\u00fcr PHP-Anwendungen und Symfony-Projekte.",
+      longDescription:
+        "Twig ist eine Template-Sprache f\u00fcr PHP, die die Trennung von Pr\u00e4sentation und Anwendungslogik durch Bl\u00f6cke, Vererbung, Includes, Filter, Funktionen, Tests, Makros, Escaping und Sandboxing erm\u00f6glicht. Ihre Syntax ist f\u00fcr Designer lesbar, bleibt aber f\u00fcr Entwickler erweiterbar.\n\nEs wird in Symfony-Anwendungen, PHP-Webprojekten, CMS-Themes, E-Mail-Vorlagen, statischen Generierungsworkflows und Systemen verwendet, die wiederverwendbare, serverseitig gerenderte Views mit kontrolliertem Zugriff auf Anwendungsdaten ben\u00f6tigen.",
+    },
+    pt: {
+      name: "Twig",
+      description:
+        "Linguagem de template flex\u00edvel e segura para aplica\u00e7\u00f5es PHP e projetos Symfony.",
+      longDescription:
+        "Twig \u00e9 uma linguagem de template para PHP que separa a apresenta\u00e7\u00e3o da l\u00f3gica da aplica\u00e7\u00e3o usando blocos, heran\u00e7a, includes, filtros, fun\u00e7\u00f5es, testes, macros, escapamento e sandboxing. Sua sintaxe \u00e9 projetada para ser leg\u00edvel para designers, mantendo a extensibilidade para desenvolvedores.\n\n\u00c9 utilizada em aplica\u00e7\u00f5es Symfony, projetos web PHP, temas de CMS, templates de e-mail, fluxos de gera\u00e7\u00e3o est\u00e1tica e sistemas que necessitam de visualiza\u00e7\u00f5es renderizadas de forma reutiliz\u00e1vel com acesso controlado aos dados da aplica\u00e7\u00e3o.",
+    },
   },
 } satisfies Language;

@@ -42,5 +42,19 @@ export const metal = {
       longDescription:
         "Metal est la technologie graphique et de calcul de bas niveau d'Apple, associee au langage de programmation Metal pour ecrire des noyaux GPU, des fonctions de vertex, des fonctions de fragment, des shaders de maillage, des charges de travail de ray tracing et des pipelines d'apprentissage automatique ou de traitement multimedia.\n\nIl est utilise sur les plateformes Apple pour les jeux, les moteurs de rendu, les applications gourmandes en calcul, les graphiques en temps reel, le traitement d'images, les outils video, les charges de travail scientifiques et les applications natives performantes qui ont besoin d'un acces direct aux capacites de l'Apple GPU.",
     },
+    de: {
+      name: "Metal",
+      description:
+        "Apple's grafische und rechen-Shading-Sprache f\u00fcr High-Performance-GPU-Programmierung.",
+      longDescription:
+        "Metal ist Apples Low-Level-Grafik- und Compute-Technologie, zusammen mit der Metal Shading Language zum Schreiben von GPU-Kerneln, Vertex-Funktionen, Fragment-Funktionen, Mesh-Shader, Raytracing-Workloads und Machine-Learning- oder Media-Processing-Pipelines.\n\nEs wird auf allen Apple-Plattformen f\u00fcr Spiele, Rendering-Engines, rechenintensive Anwendungen, Echtzeit-Grafik, Bildverarbeitung, Videotools, wissenschaftliche Anwendungen und leistungsstarke native Anwendungen verwendet, die direkten Zugriff auf die Apple GPU-Funktionen ben\u00f6tigen.",
+    },
+    pt: {
+      name: "Metal",
+      description:
+        "Linguagem de sombreamento de gr\u00e1ficos e computa\u00e7\u00e3o da Apple para programa\u00e7\u00e3o de GPU de alto desempenho.",
+      longDescription:
+        "Metal \u00e9 a tecnologia de gr\u00e1ficos e computa\u00e7\u00e3o de baixo n\u00edvel da Apple, juntamente com a Linguagem de Sombreamento Metal para escrever kernels de GPU, fun\u00e7\u00f5es de v\u00e9rtice, fun\u00e7\u00f5es de fragmento, shaders de malha, cargas de trabalho de ray tracing e pipelines de aprendizado de m\u00e1quina ou processamento de m\u00eddia.\n\n\u00c9 usada em todas as plataformas da Apple para jogos, engines de renderiza\u00e7\u00e3o, aplicativos de computa\u00e7\u00e3o intensiva, gr\u00e1ficos em tempo real, processamento de imagem, ferramentas de v\u00eddeo, cargas de trabalho cient\u00edficas e aplicativos nativos de alto desempenho que precisam de acesso direto \u00e0s capacidades da GPU da Apple.",
+    },
   },
 } satisfies Language;
