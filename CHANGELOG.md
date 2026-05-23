@@ -1,3 +1,10 @@
+# [1.25.0](https://github.com/ElJijuna/code-languages/compare/v1.24.0...v1.25.0) (2026-05-23)
+
+
+### Features
+
+* add translations "de" and "pr" ([720f855](https://github.com/ElJijuna/code-languages/commit/720f8554228474af6695f281a5cfb254ed912559))
+
 # [1.24.0](https://github.com/ElJijuna/code-languages/compare/v1.23.0...v1.24.0) (2026-05-22)
 
 
