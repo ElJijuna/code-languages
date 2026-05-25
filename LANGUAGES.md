@@ -148,8 +148,14 @@
 
 ### Programming Languages
 
+- [ ] ALGOL (`algol`)
 - [ ] Ante (`ante`)
+- [ ] Austral (`austral`)
 - [ ] Ballerina (`ballerina`)
+- [ ] BCPL (`bcpl`)
+- [ ] Bosque (`bosque`)
+- [ ] BQN (`bqn`)
+- [ ] Curry (`curry`)
 - [ ] Eiffel (`eiffel`)
 - [ ] Factor (`factor`)
 - [ ] Grain (`grain`)
@@ -157,6 +163,7 @@
 - [ ] Koka (`koka`)
 - [ ] Lobster (`lobster`)
 - [ ] Logo (`logo`)
+- [ ] Mercury (`mercury`)
 - [ ] Modula-2 (`modula-2`)
 - [ ] Oberon (`oberon`)
 - [ ] PL/I (`pl-i`)
@@ -164,10 +171,18 @@
 - [ ] Rebol (`rebol`)
 - [ ] Roc (`roc`)
 - [ ] Self (`self`)
+- [ ] Simula (`simula`)
 - [ ] SNOBOL (`snobol`)
 - [ ] SPARK (`spark`)
 - [ ] Unison (`unison`)
 - [ ] Vale (`vale`)
+- [ ] Verse (`verse`)
+
+### Formal Verification
+
+- [ ] Dafny (`dafny`)
+- [ ] F* (`fstar`)
+- [ ] Isabelle (`isabelle`)
 
 ### Blockchain / Smart Contracts
 
@@ -180,25 +195,34 @@
 
 ### Query Languages
 
+- [ ] AQL (`aql`)
 - [ ] CQL (`cql`)
 - [ ] Cypher (`cypher`)
 - [ ] Flux (`flux`)
 - [ ] FQL (`fql`)
+- [ ] Gremlin (`gremlin`)
 - [ ] JMESPath (`jmespath`)
+- [ ] Jsonata (`jsonata`)
 - [ ] KQL (`kql`)
+- [ ] N1QL (`n1ql`)
+- [ ] PL/pgSQL (`plpgsql`)
 - [ ] SOQL (`soql`)
 - [ ] SPARQL (`sparql`)
 - [ ] SPL (`spl`)
+- [ ] T-SQL (`tsql`)
 
 ### Configuration / DSL
 
+- [ ] CEL (`cel`)
 - [ ] HOCON (`hocon`)
 - [ ] JSON5 (`json5`)
 - [ ] JSONC (`jsonc`)
 - [ ] Just (`just`)
 - [ ] KDL (`kdl`)
 - [ ] Nickel (`nickel`)
+- [ ] OpenAPI (`openapi`)
 - [ ] Pkl (`pkl`)
+- [ ] Puppet (`puppet`)
 
 ### Shell / Scripting
 
@@ -214,6 +238,12 @@
 - [ ] Nunjucks (`nunjucks`)
 - [ ] Velocity (`velocity`)
 
+### Serialization Schemas
+
+- [ ] Avro IDL (`avro-idl`)
+- [ ] Cap'n Proto (`capnproto`)
+- [ ] FlatBuffers (`flatbuffers`)
+
 ### Markup / Documentation
 
 - [ ] Org-mode (`org`)
@@ -227,6 +257,20 @@
 - [ ] Modelica (`modelica`)
 - [ ] Octave (`octave`)
 - [ ] SPSS (`spss`)
+
+### Scientific Workflows / Bioinformatics
+
+- [ ] Nextflow (`nextflow`)
+- [ ] Snakemake (`snakemake`)
+- [ ] WDL (`wdl`)
+
+### Game / Narrative Scripting
+
+- [ ] AngelScript (`angelscript`)
+- [ ] GML (`gml`)
+- [ ] Ink (`ink-narrative`)
+- [ ] Squirrel (`squirrel`)
+- [ ] Twee/Twine (`twee`)
 
 ## Lower Priority Languages
 
