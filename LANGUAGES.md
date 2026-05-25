@@ -146,6 +146,88 @@
 
 ## Pending
 
+### Programming Languages
+
+- [ ] Ante (`ante`)
+- [ ] Ballerina (`ballerina`)
+- [ ] Eiffel (`eiffel`)
+- [ ] Factor (`factor`)
+- [ ] Grain (`grain`)
+- [ ] Io (`io`)
+- [ ] Koka (`koka`)
+- [ ] Lobster (`lobster`)
+- [ ] Logo (`logo`)
+- [ ] Modula-2 (`modula-2`)
+- [ ] Oberon (`oberon`)
+- [ ] PL/I (`pl-i`)
+- [ ] Red (`red`)
+- [ ] Rebol (`rebol`)
+- [ ] Roc (`roc`)
+- [ ] Self (`self`)
+- [ ] SNOBOL (`snobol`)
+- [ ] SPARK (`spark`)
+- [ ] Unison (`unison`)
+- [ ] Vale (`vale`)
+
+### Blockchain / Smart Contracts
+
+- [ ] Cairo (`cairo`)
+- [ ] Fe (`fe`)
+- [ ] Ink! (`ink`)
+- [ ] Ligo (`ligo`)
+- [ ] Marlowe (`marlowe`)
+- [ ] Move (`move`)
+
+### Query Languages
+
+- [ ] CQL (`cql`)
+- [ ] Cypher (`cypher`)
+- [ ] Flux (`flux`)
+- [ ] FQL (`fql`)
+- [ ] JMESPath (`jmespath`)
+- [ ] KQL (`kql`)
+- [ ] SOQL (`soql`)
+- [ ] SPARQL (`sparql`)
+- [ ] SPL (`spl`)
+
+### Configuration / DSL
+
+- [ ] HOCON (`hocon`)
+- [ ] JSON5 (`json5`)
+- [ ] JSONC (`jsonc`)
+- [ ] Just (`just`)
+- [ ] KDL (`kdl`)
+- [ ] Nickel (`nickel`)
+- [ ] Pkl (`pkl`)
+
+### Shell / Scripting
+
+- [ ] Fish (`fish`)
+- [ ] Nushell (`nushell`)
+- [ ] Tcsh (`tcsh`)
+
+### Templates
+
+- [ ] EJS (`ejs`)
+- [ ] FreeMarker (`freemarker`)
+- [ ] Mustache (`mustache`)
+- [ ] Nunjucks (`nunjucks`)
+- [ ] Velocity (`velocity`)
+
+### Markup / Documentation
+
+- [ ] Org-mode (`org`)
+- [ ] POD (`pod`)
+- [ ] Textile (`textile`)
+- [ ] Troff/Groff (`troff`)
+
+### Scientific / Academic
+
+- [ ] Maxima (`maxima`)
+- [ ] Modelica (`modelica`)
+- [ ] Octave (`octave`)
+- [ ] SPSS (`spss`)
+
 ## Lower Priority Languages
 
 These languages and formats are valid candidates, but they are less important for the first
