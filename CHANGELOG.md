@@ -1,3 +1,15 @@
+## [1.25.1](https://github.com/ElJijuna/code-languages/compare/v1.25.0...v1.25.1) (2026-05-25)
+
+
+### Bug Fixes
+
+* update Bazel metadata to 9.1.0 ([5d3631e](https://github.com/ElJijuna/code-languages/commit/5d3631e252fc6c559aa55b8f8b2debbd68e1d38a))
+* update Bazel metadata to 9.1.0 ([463b6bf](https://github.com/ElJijuna/code-languages/commit/463b6bf1f32f65a18de42c02a6169caafa197572))
+* update Cython metadata to 3.2.4 ([62bf2c6](https://github.com/ElJijuna/code-languages/commit/62bf2c60fcf0d9b680a0e6280f4db92f95b9753b))
+* update Cython metadata to 3.2.4 ([0930546](https://github.com/ElJijuna/code-languages/commit/09305460752632dc6a7c74505150dea32ee4ab4c))
+* update Jsonnet metadata to 0.22.0 ([15472f7](https://github.com/ElJijuna/code-languages/commit/15472f7924b214f7a02fce4828566c39cba97448))
+* update Jsonnet metadata to 0.22.0 ([af10c1a](https://github.com/ElJijuna/code-languages/commit/af10c1abea87f35525292a10964e9bd3924ac5dd))
+
 # [1.25.0](https://github.com/ElJijuna/code-languages/compare/v1.24.0...v1.25.0) (2026-05-23)
 
 
