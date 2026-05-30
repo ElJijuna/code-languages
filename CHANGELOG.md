@@ -1,3 +1,15 @@
+# [1.26.0](https://github.com/ElJijuna/code-languages/compare/v1.25.1...v1.26.0) (2026-05-30)
+
+
+### Bug Fixes
+
+* format file ([40d440a](https://github.com/ElJijuna/code-languages/commit/40d440a5cd57badadb68e5969e95e57f5b727159))
+
+
+### Features
+
+* add --apply-updates, --request-delay flags and per-request progress logging ([0209900](https://github.com/ElJijuna/code-languages/commit/02099005b077cfac352e8cc51d5bdef1826e4d0c))
+
 ## [1.25.1](https://github.com/ElJijuna/code-languages/compare/v1.25.0...v1.25.1) (2026-05-25)
 
 
