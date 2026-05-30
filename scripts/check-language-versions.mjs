@@ -1150,7 +1150,9 @@ async function buildReport(languages) {
 
       if (isUpdateAvailable(language.version, result.latestVersion)) {
         report.updates.push(item);
-        console.log(`${prefix}: New version detected (${language.version} -> ${result.latestVersion})`);
+        console.log(
+          `${prefix}: New version detected (${language.version} -> ${result.latestVersion})`,
+        );
       } else {
         report.current.push(item);
         console.log(`${prefix}: Nothing to change`);
