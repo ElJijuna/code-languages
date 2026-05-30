@@ -3,7 +3,7 @@ import { join } from "node:path";
 
 const languagesDir = "src/languages";
 const reportPath = "language-version-report.json";
-const githubRequestDelayMs = Number(process.env.GITHUB_REQUEST_DELAY_MS ?? "1200");
+let githubRequestDelayMs = Number(process.env.GITHUB_REQUEST_DELAY_MS ?? "1200");
 const githubRateLimitMaxWaitMs = Number(process.env.GITHUB_RATE_LIMIT_MAX_WAIT_MS ?? "60000");
 let nextGithubRequestAt = 0;
 
@@ -1001,11 +1001,20 @@ const checkers = {
 
 async function main() {
   const options = parseOptions(process.argv.slice(2));
+
+  if (options.requestDelay !== undefined) {
+    githubRequestDelayMs = options.requestDelay;
+  }
+
   const languages = await readLanguages(options.language);
   const report = await buildReport(languages);
 
   await writeFile(reportPath, `${JSON.stringify(report, null, 2)}\n`);
   printReport(report);
+
+  if (options.applyUpdates) {
+    await applyLocalUpdates(report.updates);
+  }
 
   if (options.createIssues) {
     await createIssues(report.updates);
@@ -1022,12 +1031,15 @@ async function main() {
 
 function parseOptions(args) {
   const language = parseLanguageOption(args);
+  const requestDelay = parseNumberOption(args, "--request-delay");
 
   return {
+    applyUpdates: args.includes("--apply-updates"),
     createIssues: args.includes("--create-issues"),
     createPullRequests: args.includes("--create-pull-requests"),
     failOnError: args.includes("--fail-on-error"),
     language,
+    requestDelay,
   };
 }
 
@@ -1050,6 +1062,24 @@ function parseLanguageOption(args) {
   }
 
   return language;
+}
+
+function parseNumberOption(args, flag) {
+  const index = args.indexOf(flag);
+  const inlineValue = args.find((arg) => arg.startsWith(`${flag}=`))?.slice(`${flag}=`.length);
+  const value = inlineValue ?? (index === -1 ? undefined : args[index + 1]);
+
+  if (value === undefined) {
+    return undefined;
+  }
+
+  const number = Number(value);
+
+  if (!Number.isFinite(number) || number < 0) {
+    throw new Error(`${flag} must be a non-negative number`);
+  }
+
+  return number;
 }
 
 async function readLanguages(languageSlug) {
@@ -1090,7 +1120,10 @@ async function buildReport(languages) {
     errors: [],
   };
 
-  for (const language of languages) {
+  const total = languages.length;
+
+  for (const [index, language] of languages.entries()) {
+    const prefix = `${index + 1}/${total}. ${language.name}`;
     const checker = checkers[language.slug];
 
     if (!checker) {
@@ -1098,6 +1131,7 @@ async function buildReport(languages) {
         ...language,
         reason: manualChecks[language.slug] ?? "No automated version checker configured yet.",
       });
+      console.log(`${prefix}: Skipped`);
       continue;
     }
 
@@ -1116,18 +1150,46 @@ async function buildReport(languages) {
 
       if (isUpdateAvailable(language.version, result.latestVersion)) {
         report.updates.push(item);
+        console.log(`${prefix}: New version detected (${language.version} -> ${result.latestVersion})`);
       } else {
         report.current.push(item);
+        console.log(`${prefix}: Nothing to change`);
       }
     } catch (error) {
       report.errors.push({
         ...language,
         message: error instanceof Error ? error.message : String(error),
       });
+      console.log(`${prefix}: Error - ${error instanceof Error ? error.message : String(error)}`);
     }
   }
 
   return report;
+}
+
+async function applyLocalUpdates(updates) {
+  if (updates.length === 0) {
+    console.log("No updates to apply.");
+    return;
+  }
+
+  for (const update of updates) {
+    const languageContent = await readFile(update.filePath, "utf8");
+    const updatedLanguageContent = updateLanguageVersion(languageContent, update);
+
+    if (updatedLanguageContent !== languageContent) {
+      await writeFile(update.filePath, updatedLanguageContent);
+      console.log(`Updated ${update.filePath}: ${update.version} -> ${update.latestVersion}`);
+    }
+
+    const readmeContent = await readFile("README.md", "utf8");
+    const updatedReadmeContent = updateReadmeLanguageVersion(readmeContent, update);
+
+    if (updatedReadmeContent !== readmeContent) {
+      await writeFile("README.md", updatedReadmeContent);
+      console.log(`Updated README.md: ${update.name} ${update.version} -> ${update.latestVersion}`);
+    }
+  }
 }
 
 async function createIssues(updates) {

@@ -11,7 +11,7 @@ export const nginx = {
     runtimes: ["nginx", "NGINX Plus", "OpenResty"],
     ecosystems: ["Web Servers", "Reverse Proxies", "Load Balancing", "DevOps"],
   },
-  version: "1.30.1",
+  version: "1.30.2",
   logo: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg",
   color: "#009639",
   i18n: {

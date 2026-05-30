@@ -12,7 +12,7 @@ export const cython = {
     packageManagers: ["pip", "conda", "Poetry"],
     ecosystems: ["Python", "Native Extensions", "Scientific Computing"],
   },
-  version: "3.2.4",
+  version: "3.2.5",
   logo: "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_cython.svg",
   color: "#FED140",
   i18n: {

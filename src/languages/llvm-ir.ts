@@ -12,7 +12,7 @@ export const llvmIr = {
     packageManagers: ["LLVM releases"],
     ecosystems: ["Compilers", "Systems programming", "Toolchains"],
   },
-  version: "22.1.5",
+  version: "22.1.6",
   logo: "https://cdn.simpleicons.org/llvm/262D3A",
   color: "#262D3A",
   i18n: {
