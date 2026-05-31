@@ -119,6 +119,18 @@ const manualChecks = {
   yaml: "YAML specification updates should be reviewed manually against yaml.org/spec.",
   zeek: "Zeek script language metadata is tied to Zeek platform releases and should be reviewed manually.",
   ziggy: "Ziggy is still evolving and should be reviewed manually against Ziggy project releases.",
+  ballerina:
+    "Ballerina releases follow a date-based version scheme and should be reviewed manually against ballerina.io/downloads.",
+  cypher:
+    "Cypher versions are tied to Neo4j platform releases and should be reviewed manually against Neo4j release notes and the openCypher specification.",
+  eiffel:
+    "EiffelStudio releases should be reviewed manually against the EiffelStudio download page at eiffel.org.",
+  hocon:
+    "HOCON versions are tied to the Lightbend Config library and should be reviewed manually against the GitHub releases of lightbend/config.",
+  mustache:
+    "Mustache is a stable specification at 1.0 and should be reviewed manually against the mustache spec repository.",
+  sparql:
+    "SPARQL 1.1 is a W3C Recommendation and should be reviewed manually against W3C publication history.",
 };
 
 const checkers = {
@@ -379,6 +391,16 @@ const checkers = {
     return {
       latestVersion: String(json.tag_name ?? "").replace(/^OTP-/, "OTP "),
       sourceUrl: "https://api.github.com/repos/erlang/otp/releases/latest",
+    };
+  },
+  async fish() {
+    const json = await fetchJson(
+      "https://api.github.com/repos/fish-shell/fish-shell/releases/latest",
+    );
+
+    return {
+      latestVersion: normalizeVersion(json.tag_name),
+      sourceUrl: "https://api.github.com/repos/fish-shell/fish-shell/releases/latest",
     };
   },
   async fennel() {
@@ -685,6 +707,30 @@ const checkers = {
     return {
       latestVersion: json.info?.version,
       sourceUrl: "https://pypi.org/pypi/meson/json",
+    };
+  },
+  async nunjucks() {
+    const json = await fetchJson("https://registry.npmjs.org/nunjucks/latest");
+
+    return {
+      latestVersion: json.version,
+      sourceUrl: "https://registry.npmjs.org/nunjucks/latest",
+    };
+  },
+  async nushell() {
+    const json = await fetchJson("https://api.github.com/repos/nushell/nushell/releases/latest");
+
+    return {
+      latestVersion: normalizeVersion(json.tag_name),
+      sourceUrl: "https://api.github.com/repos/nushell/nushell/releases/latest",
+    };
+  },
+  async json5() {
+    const json = await fetchJson("https://registry.npmjs.org/json5/latest");
+
+    return {
+      latestVersion: json.version,
+      sourceUrl: "https://registry.npmjs.org/json5/latest",
     };
   },
   async nix() {

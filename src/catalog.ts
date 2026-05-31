@@ -13,6 +13,7 @@ import { assembly } from "./languages/assembly";
 import { astro } from "./languages/astro";
 import { autohotkey } from "./languages/autohotkey";
 import { awk } from "./languages/awk";
+import { ballerina } from "./languages/ballerina";
 import { bash } from "./languages/bash";
 import { batch } from "./languages/batch";
 import { bazel } from "./languages/bazel";
@@ -34,6 +35,7 @@ import { csharp } from "./languages/csharp";
 import { css } from "./languages/css";
 import { cuda } from "./languages/cuda";
 import { cue } from "./languages/cue";
+import { cypher } from "./languages/cypher";
 import { cython } from "./languages/cython";
 import { d } from "./languages/d";
 import { dart } from "./languages/dart";
@@ -41,11 +43,13 @@ import { dhall } from "./languages/dhall";
 import { dita } from "./languages/dita";
 import { dockerfile } from "./languages/dockerfile";
 import { earthly } from "./languages/earthly";
+import { eiffel } from "./languages/eiffel";
 import { elixir } from "./languages/elixir";
 import { elm } from "./languages/elm";
 import { erb } from "./languages/erb";
 import { erlang } from "./languages/erlang";
 import { fennel } from "./languages/fennel";
+import { fish } from "./languages/fish";
 import { forth } from "./languages/forth";
 import { fortran } from "./languages/fortran";
 import { fsharp } from "./languages/fsharp";
@@ -64,6 +68,7 @@ import { haskell } from "./languages/haskell";
 import { haxe } from "./languages/haxe";
 import { hcl } from "./languages/hcl";
 import { hlsl } from "./languages/hlsl";
+import { hocon } from "./languages/hocon";
 import { html } from "./languages/html";
 import { idris } from "./languages/idris";
 import { ini } from "./languages/ini";
@@ -72,6 +77,7 @@ import { java } from "./languages/java";
 import { javascript } from "./languages/javascript";
 import { jinja } from "./languages/jinja";
 import { json } from "./languages/json";
+import { json5 } from "./languages/json5";
 import { jsonnet } from "./languages/jsonnet";
 import { julia } from "./languages/julia";
 import { jupyterNotebook } from "./languages/jupyter-notebook";
@@ -94,9 +100,12 @@ import { meson } from "./languages/meson";
 import { metal } from "./languages/metal";
 import { mojo } from "./languages/mojo";
 import { moonbit } from "./languages/moonbit";
+import { mustache } from "./languages/mustache";
 import { nginx } from "./languages/nginx";
 import { nim } from "./languages/nim";
 import { nix } from "./languages/nix";
+import { nunjucks } from "./languages/nunjucks";
+import { nushell } from "./languages/nushell";
 import { objectiveC } from "./languages/objective-c";
 import { ocaml } from "./languages/ocaml";
 import { odin } from "./languages/odin";
@@ -134,6 +143,7 @@ import { scss } from "./languages/scss";
 import { smalltalk } from "./languages/smalltalk";
 import { smarty } from "./languages/smarty";
 import { solidity } from "./languages/solidity";
+import { sparql } from "./languages/sparql";
 import { sql } from "./languages/sql";
 import { standardMl } from "./languages/standard-ml";
 import { starlark } from "./languages/starlark";
@@ -188,6 +198,7 @@ export const languages = [
   assembly,
   awk,
   autohotkey,
+  ballerina,
   bash,
   batch,
   bazel,
@@ -204,6 +215,7 @@ export const languages = [
   cobol,
   coq,
   cpp,
+  cypher,
   csharp,
   crystal,
   css,
@@ -215,11 +227,13 @@ export const languages = [
   dhall,
   dita,
   dockerfile,
+  eiffel,
   earthly,
   elixir,
   elm,
   erb,
   erlang,
+  fish,
   fennel,
   fortran,
   forth,
@@ -235,6 +249,7 @@ export const languages = [
   handlebars,
   hack,
   haml,
+  hocon,
   haskell,
   haxe,
   hcl,
@@ -247,6 +262,7 @@ export const languages = [
   janet,
   jinja,
   json,
+  json5,
   jsonnet,
   jupyterNotebook,
   julia,
@@ -267,10 +283,13 @@ export const languages = [
   mermaid,
   meson,
   metal,
+  mustache,
   mojo,
   moonbit,
   svn,
   nginx,
+  nunjucks,
+  nushell,
   nim,
   nix,
   ocaml,
@@ -310,6 +329,7 @@ export const languages = [
   smalltalk,
   smarty,
   solidity,
+  sparql,
   sql,
   standardMl,
   starlark,

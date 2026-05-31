@@ -151,12 +151,12 @@
 - [ ] ALGOL (`algol`)
 - [ ] Ante (`ante`)
 - [ ] Austral (`austral`)
-- [ ] Ballerina (`ballerina`)
+- [x] Ballerina (`ballerina`)
 - [ ] BCPL (`bcpl`)
 - [ ] Bosque (`bosque`)
 - [ ] BQN (`bqn`)
 - [ ] Curry (`curry`)
-- [ ] Eiffel (`eiffel`)
+- [x] Eiffel (`eiffel`)
 - [ ] Factor (`factor`)
 - [ ] Grain (`grain`)
 - [ ] Io (`io`)
@@ -197,7 +197,7 @@
 
 - [ ] AQL (`aql`)
 - [ ] CQL (`cql`)
-- [ ] Cypher (`cypher`)
+- [x] Cypher (`cypher`)
 - [ ] Flux (`flux`)
 - [ ] FQL (`fql`)
 - [ ] Gremlin (`gremlin`)
@@ -207,15 +207,15 @@
 - [ ] N1QL (`n1ql`)
 - [ ] PL/pgSQL (`plpgsql`)
 - [ ] SOQL (`soql`)
-- [ ] SPARQL (`sparql`)
+- [x] SPARQL (`sparql`)
 - [ ] SPL (`spl`)
 - [ ] T-SQL (`tsql`)
 
 ### Configuration / DSL
 
 - [ ] CEL (`cel`)
-- [ ] HOCON (`hocon`)
-- [ ] JSON5 (`json5`)
+- [x] HOCON (`hocon`)
+- [x] JSON5 (`json5`)
 - [ ] JSONC (`jsonc`)
 - [ ] Just (`just`)
 - [ ] KDL (`kdl`)
@@ -226,16 +226,16 @@
 
 ### Shell / Scripting
 
-- [ ] Fish (`fish`)
-- [ ] Nushell (`nushell`)
+- [x] Fish (`fish`)
+- [x] Nushell (`nushell`)
 - [ ] Tcsh (`tcsh`)
 
 ### Templates
 
 - [ ] EJS (`ejs`)
 - [ ] FreeMarker (`freemarker`)
-- [ ] Mustache (`mustache`)
-- [ ] Nunjucks (`nunjucks`)
+- [x] Mustache (`mustache`)
+- [x] Nunjucks (`nunjucks`)
 - [ ] Velocity (`velocity`)
 
 ### Serialization Schemas

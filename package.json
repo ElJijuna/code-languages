@@ -81,6 +81,11 @@
       "import": "./dist/languages/assembly.js",
       "require": "./dist/languages/assembly.cjs"
     },
+    "./ballerina": {
+      "types": "./dist/languages/ballerina.d.ts",
+      "import": "./dist/languages/ballerina.js",
+      "require": "./dist/languages/ballerina.cjs"
+    },
     "./bash": {
       "types": "./dist/languages/bash.d.ts",
       "import": "./dist/languages/bash.js",
@@ -125,6 +130,11 @@
       "types": "./dist/languages/csharp.d.ts",
       "import": "./dist/languages/csharp.js",
       "require": "./dist/languages/csharp.cjs"
+    },
+    "./cypher": {
+      "types": "./dist/languages/cypher.d.ts",
+      "import": "./dist/languages/cypher.js",
+      "require": "./dist/languages/cypher.cjs"
     },
     "./crystal": {
       "types": "./dist/languages/crystal.d.ts",
@@ -206,6 +216,11 @@
       "import": "./dist/languages/json.js",
       "require": "./dist/languages/json.cjs"
     },
+    "./json5": {
+      "types": "./dist/languages/json5.d.ts",
+      "import": "./dist/languages/json5.js",
+      "require": "./dist/languages/json5.cjs"
+    },
     "./jupyter-notebook": {
       "types": "./dist/languages/jupyter-notebook.d.ts",
       "import": "./dist/languages/jupyter-notebook.js",
@@ -260,6 +275,11 @@
       "types": "./dist/languages/nginx.d.ts",
       "import": "./dist/languages/nginx.js",
       "require": "./dist/languages/nginx.cjs"
+    },
+    "./sparql": {
+      "types": "./dist/languages/sparql.d.ts",
+      "import": "./dist/languages/sparql.js",
+      "require": "./dist/languages/sparql.cjs"
     },
     "./sql": {
       "types": "./dist/languages/sql.d.ts",
@@ -446,6 +466,11 @@
       "import": "./dist/languages/groovy.js",
       "require": "./dist/languages/groovy.cjs"
     },
+    "./hocon": {
+      "types": "./dist/languages/hocon.d.ts",
+      "import": "./dist/languages/hocon.js",
+      "require": "./dist/languages/hocon.cjs"
+    },
     "./haskell": {
       "types": "./dist/languages/haskell.d.ts",
       "import": "./dist/languages/haskell.js",
@@ -621,6 +646,11 @@
       "import": "./dist/languages/erb.js",
       "require": "./dist/languages/erb.cjs"
     },
+    "./fish": {
+      "types": "./dist/languages/fish.d.ts",
+      "import": "./dist/languages/fish.js",
+      "require": "./dist/languages/fish.cjs"
+    },
     "./fennel": {
       "types": "./dist/languages/fennel.d.ts",
       "import": "./dist/languages/fennel.js",
@@ -645,6 +675,16 @@
       "types": "./dist/languages/jsonnet.d.ts",
       "import": "./dist/languages/jsonnet.js",
       "require": "./dist/languages/jsonnet.cjs"
+    },
+    "./nunjucks": {
+      "types": "./dist/languages/nunjucks.d.ts",
+      "import": "./dist/languages/nunjucks.js",
+      "require": "./dist/languages/nunjucks.cjs"
+    },
+    "./nushell": {
+      "types": "./dist/languages/nushell.d.ts",
+      "import": "./dist/languages/nushell.js",
+      "require": "./dist/languages/nushell.cjs"
     },
     "./nim": {
       "types": "./dist/languages/nim.d.ts",
@@ -711,6 +751,11 @@
       "import": "./dist/languages/dita.js",
       "require": "./dist/languages/dita.cjs"
     },
+    "./eiffel": {
+      "types": "./dist/languages/eiffel.d.ts",
+      "import": "./dist/languages/eiffel.js",
+      "require": "./dist/languages/eiffel.cjs"
+    },
     "./earthly": {
       "types": "./dist/languages/earthly.d.ts",
       "import": "./dist/languages/earthly.js",
@@ -760,6 +805,11 @@
       "types": "./dist/languages/mathematica.d.ts",
       "import": "./dist/languages/mathematica.js",
       "require": "./dist/languages/mathematica.cjs"
+    },
+    "./mustache": {
+      "types": "./dist/languages/mustache.d.ts",
+      "import": "./dist/languages/mustache.js",
+      "require": "./dist/languages/mustache.cjs"
     },
     "./mojo": {
       "types": "./dist/languages/mojo.d.ts",
@@ -922,6 +972,7 @@
     "prepare": "husky",
     "release": "semantic-release",
     "test": "vitest run",
+    "translate:i18n": "node scripts/translate-language-i18n.mjs",
     "typecheck": "tsc --noEmit",
     "website:bench": "node scripts/run-website-benchmarks.mjs",
     "website:data": "node scripts/generate-website-data.mjs",
