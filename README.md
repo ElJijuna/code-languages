@@ -173,6 +173,21 @@ console.log(detectLanguageSlug("src/index.ts")); // "typescript"
 console.log(detectLanguageSlugs("include/config.h")); // ["c", "cpp"]
 ```
 
+Use `detectProjectLanguages` to summarize a project file list by detected language:
+
+```ts
+import { detectProjectLanguages } from "code-languages/detect-slugs";
+
+const files = ["src/index.ts", "src/app.ts", "README.md", "styles/main.css", "LICENSE"];
+
+console.log(detectProjectLanguages(files));
+// [
+//   { slug: "typescript", files: 2 },
+//   { slug: "css", files: 1 },
+//   { slug: "markdown", files: 1 }
+// ]
+```
+
 ## Supported Languages
 
 The catalog currently includes 182 language entries. Each row can be imported directly

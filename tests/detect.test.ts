@@ -15,6 +15,7 @@ import {
   detectLanguageSlug,
   detectLanguageSlugs,
   detectLanguages,
+  detectProjectLanguages,
   dockerfile,
   elixir,
   elm,
@@ -284,5 +285,34 @@ describe("detectLanguageSlug", () => {
 
   it("returns undefined when no language matches", () => {
     expect(detectLanguageSlug("LICENSE")).toBeUndefined();
+  });
+});
+
+describe("detectProjectLanguages", () => {
+  it("counts detected files per language and sorts by frequency", () => {
+    expect(
+      detectProjectLanguages([
+        "src/index.ts",
+        "src/app.tsx",
+        "README.md",
+        "styles/main.css",
+        "styles/theme.css",
+        "LICENSE",
+      ]),
+    ).toEqual([
+      { slug: "css", files: 2 },
+      { slug: "typescript", files: 2 },
+      { slug: "markdown", files: 1 },
+    ]);
+  });
+
+  it("uses the first matching slug for ambiguous extensions", () => {
+    expect(detectProjectLanguages(["include/config.h"])).toEqual([{ slug: "c", files: 1 }]);
+  });
+
+  it("accepts any iterable of filenames", () => {
+    expect(detectProjectLanguages(new Set(["src/index.ts", "src/main.ts"]))).toEqual([
+      { slug: "typescript", files: 2 },
+    ]);
   });
 });
