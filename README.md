@@ -163,6 +163,16 @@ console.log(detectLanguage("Dockerfile")?.slug); // "dockerfile"
 console.log(detectLanguages("include/config.h").map((language) => language.slug)); // ["c", "cpp"]
 ```
 
+Use `detectLanguageSlug` or `detectLanguageSlugs` when you only need the slug
+and want to avoid importing the full language catalog:
+
+```ts
+import { detectLanguageSlug, detectLanguageSlugs } from "code-languages/detect-slugs";
+
+console.log(detectLanguageSlug("src/index.ts")); // "typescript"
+console.log(detectLanguageSlugs("include/config.h")); // ["c", "cpp"]
+```
+
 ## Supported Languages
 
 The catalog currently includes 182 language entries. Each row can be imported directly

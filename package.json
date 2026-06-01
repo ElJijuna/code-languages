@@ -51,6 +51,11 @@
       "import": "./dist/detect.js",
       "require": "./dist/detect.cjs"
     },
+    "./detect-slugs": {
+      "types": "./dist/detect-slugs.d.ts",
+      "import": "./dist/detect-slugs.js",
+      "require": "./dist/detect-slugs.cjs"
+    },
     "./abap": {
       "types": "./dist/languages/abap.d.ts",
       "import": "./dist/languages/abap.js",

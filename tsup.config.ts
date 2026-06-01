@@ -20,6 +20,7 @@ export default defineConfig({
   entry: {
     api: "src/api.ts",
     detect: "src/detect.ts",
+    "detect-slugs": "src/detect-slugs.ts",
     index: "src/index.ts",
     i18n: "src/i18n.ts",
     ...languageEntries,
@@ -29,5 +30,5 @@ export default defineConfig({
   splitting: false,
   clean: true,
   treeshake: true,
-  sourcemap: true,
+  sourcemap: false,
 });

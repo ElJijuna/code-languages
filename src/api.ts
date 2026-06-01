@@ -1,8 +1,7 @@
 import { languages } from "./catalog";
-import { detectLanguage, detectLanguages } from "./detect";
+import { detectLanguageSlug, detectLanguageSlugs } from "./detect-slugs";
 import { localizeLanguage } from "./i18n";
 import { type LanguageSlug, languageIndex, loadLanguage } from "./language-registry";
-import { detectMatchingEntries } from "./match";
 import type { Language, Locale, LocalizedLanguage } from "./types";
 
 type RuntimeLanguageSlug = LanguageSlug | (string & {});
@@ -108,11 +107,18 @@ const createLanguageCollectionRequest = (
 };
 
 const loadDetectedLanguages = (filename: string) =>
-  Promise.all(
-    detectMatchingEntries(languageIndex, filename).map((entry) => loadLanguage(entry.slug)),
-  ).then((detectedLanguages) =>
-    detectedLanguages.filter((language): language is Language => Boolean(language)),
+  Promise.all(detectLanguageSlugs(filename).map((slug) => loadLanguage(slug))).then(
+    (detectedLanguages) =>
+      detectedLanguages.filter((language): language is Language => Boolean(language)),
   );
+
+const getLanguageBySlug = (slug: string): Language | undefined =>
+  languages.find((language) => language.slug === slug);
+
+const getDetectedLanguages = (filename: string) =>
+  detectLanguageSlugs(filename)
+    .map((slug) => getLanguageBySlug(slug))
+    .filter((language): language is Language => Boolean(language));
 
 /**
  * Fluent API for localized language metadata, dynamic loading, and filename detection.
@@ -162,7 +168,11 @@ export const api = {
    */
   detect(filename: string) {
     return createLanguageRequest(
-      () => detectLanguage(filename),
+      () => {
+        const slug = detectLanguageSlug(filename);
+
+        return slug ? getLanguageBySlug(slug) : undefined;
+      },
       async () => (await loadDetectedLanguages(filename)).at(0),
     );
   },
@@ -174,7 +184,7 @@ export const api = {
    */
   detectAll(filename: string) {
     return createLanguageCollectionRequest(
-      () => detectLanguages(filename),
+      () => getDetectedLanguages(filename),
       () => loadDetectedLanguages(filename),
     );
   },

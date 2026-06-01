@@ -212,8 +212,10 @@ export const languageIndex = [
   },
 ] as const satisfies readonly LanguageIndexEntry[];
 
+export type LanguageSlug = (typeof languageIndex)[number]["slug"];
+
 /** Explicit dynamic import map for every language module. */
-export const languageLoaders = {
+export const languageLoaders: Record<LanguageSlug, () => Promise<Language>> = {
   abap: () => import("./languages/abap").then((module) => module.abap),
   actionscript: () => import("./languages/actionscript").then((module) => module.actionscript),
   ada: () => import("./languages/ada").then((module) => module.ada),
@@ -398,9 +400,7 @@ export const languageLoaders = {
   zig: () => import("./languages/zig").then((module) => module.zig),
   ziggy: () => import("./languages/ziggy").then((module) => module.ziggy),
   zsh: () => import("./languages/zsh").then((module) => module.zsh),
-} as const satisfies Record<string, () => Promise<Language>>;
-
-export type LanguageSlug = keyof typeof languageLoaders;
+};
 
 /** Dynamically imports a language module by slug. */
 export const loadLanguage = (slug: string) => languageLoaders[slug as LanguageSlug]?.();

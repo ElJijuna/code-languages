@@ -12,6 +12,8 @@ import {
   cpp,
   d,
   detectLanguage,
+  detectLanguageSlug,
+  detectLanguageSlugs,
   detectLanguages,
   dockerfile,
   elixir,
@@ -268,5 +270,19 @@ describe("detectLanguages", () => {
 
   it("returns an empty array when no language matches", () => {
     expect(detectLanguages("README")).toEqual([]);
+  });
+});
+
+describe("detectLanguageSlug", () => {
+  it("detects the first matching language slug from the lightweight index", () => {
+    expect(detectLanguageSlug("src/index.ts")).toBe("typescript");
+  });
+
+  it("detects every matching language slug from the lightweight index", () => {
+    expect(detectLanguageSlugs("include/config.h")).toEqual(["c", "cpp"]);
+  });
+
+  it("returns undefined when no language matches", () => {
+    expect(detectLanguageSlug("LICENSE")).toBeUndefined();
   });
 });

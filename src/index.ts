@@ -1,6 +1,7 @@
 export { api } from "./api";
 export { languages } from "./catalog";
 export { detectLanguage, detectLanguages } from "./detect";
+export { detectLanguageSlug, detectLanguageSlugs } from "./detect-slugs";
 export { localizeLanguage } from "./i18n";
 export type { LanguageSlug } from "./language-registry";
 export type {
