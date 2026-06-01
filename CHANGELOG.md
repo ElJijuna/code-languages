@@ -1,3 +1,11 @@
+# [1.28.0](https://github.com/ElJijuna/code-languages/compare/v1.27.0...v1.28.0) (2026-06-01)
+
+
+### Features
+
+* add lightweight detect-slugs entrypoint ([9daae97](https://github.com/ElJijuna/code-languages/commit/9daae97029a7e273b9472ba21616ea51d707617d))
+* summarize project languages from file lists ([5bfc4d9](https://github.com/ElJijuna/code-languages/commit/5bfc4d9759ff22f5e62887fbed0e23571642c486))
+
 # [1.27.0](https://github.com/ElJijuna/code-languages/compare/v1.26.0...v1.27.0) (2026-05-31)
 
 
