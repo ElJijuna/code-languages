@@ -131,6 +131,15 @@ const manualChecks = {
     "Mustache is a stable specification at 1.0 and should be reviewed manually against the mustache spec repository.",
   sparql:
     "SPARQL 1.1 is a W3C Recommendation and should be reviewed manually against W3C publication history.",
+  cairo:
+    "Cairo releases should be reviewed manually against the starkware-libs/cairo GitHub releases page.",
+  pkl: "Pkl releases should be reviewed manually against the apple/pkl GitHub releases page.",
+  hare: "Hare releases should be reviewed manually against the harelang.org download page and git.sr.ht/~sircmpwn/hare releases.",
+  unison:
+    "Unison releases should be reviewed manually against the unisonweb/unison GitHub releases page.",
+  move: "Move language versions are tied to Aptos and Sui platform releases and should be reviewed manually against their respective GitHub releases.",
+  yara: "YARA releases should be reviewed manually against the VirusTotal/yara GitHub releases page.",
+  hy: "Hy releases should be reviewed manually against the hylang/hy GitHub releases page and PyPI.",
 };
 
 const checkers = {
@@ -1041,6 +1050,38 @@ const checkers = {
     return {
       latestVersion: latestSemver(versions),
       sourceUrl: "https://zsh.sourceforge.io/Arc/source.html",
+    };
+  },
+  async grain() {
+    const json = await fetchJson("https://api.github.com/repos/grain-lang/grain/releases/latest");
+
+    return {
+      latestVersion: normalizeVersion(json.tag_name),
+      sourceUrl: "https://api.github.com/repos/grain-lang/grain/releases/latest",
+    };
+  },
+  async nickel() {
+    const json = await fetchJson("https://api.github.com/repos/nickel-lang/nickel/releases/latest");
+
+    return {
+      latestVersion: normalizeVersion(json.tag_name),
+      sourceUrl: "https://api.github.com/repos/nickel-lang/nickel/releases/latest",
+    };
+  },
+  async flux() {
+    const json = await fetchJson("https://api.github.com/repos/influxdata/flux/releases/latest");
+
+    return {
+      latestVersion: normalizeVersion(json.tag_name),
+      sourceUrl: "https://api.github.com/repos/influxdata/flux/releases/latest",
+    };
+  },
+  async kcl() {
+    const json = await fetchJson("https://api.github.com/repos/kcl-lang/kcl/releases/latest");
+
+    return {
+      latestVersion: normalizeVersion(json.tag_name),
+      sourceUrl: "https://api.github.com/repos/kcl-lang/kcl/releases/latest",
     };
   },
 };

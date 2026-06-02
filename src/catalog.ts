@@ -20,6 +20,7 @@ import { bazel } from "./languages/bazel";
 import { bicep } from "./languages/bicep";
 import { blade } from "./languages/blade";
 import { c } from "./languages/c";
+import { cairo } from "./languages/cairo";
 import { carbon } from "./languages/carbon";
 import { chapel } from "./languages/chapel";
 import { circom } from "./languages/circom";
@@ -50,6 +51,7 @@ import { erb } from "./languages/erb";
 import { erlang } from "./languages/erlang";
 import { fennel } from "./languages/fennel";
 import { fish } from "./languages/fish";
+import { flux } from "./languages/flux";
 import { forth } from "./languages/forth";
 import { fortran } from "./languages/fortran";
 import { fsharp } from "./languages/fsharp";
@@ -59,17 +61,20 @@ import { gleam } from "./languages/gleam";
 import { glsl } from "./languages/glsl";
 import { go } from "./languages/go";
 import { gradle } from "./languages/gradle";
+import { grain } from "./languages/grain";
 import { graphql } from "./languages/graphql";
 import { groovy } from "./languages/groovy";
 import { hack } from "./languages/hack";
 import { haml } from "./languages/haml";
 import { handlebars } from "./languages/handlebars";
+import { hare } from "./languages/hare";
 import { haskell } from "./languages/haskell";
 import { haxe } from "./languages/haxe";
 import { hcl } from "./languages/hcl";
 import { hlsl } from "./languages/hlsl";
 import { hocon } from "./languages/hocon";
 import { html } from "./languages/html";
+import { hy } from "./languages/hy";
 import { idris } from "./languages/idris";
 import { ini } from "./languages/ini";
 import { janet } from "./languages/janet";
@@ -81,6 +86,7 @@ import { json5 } from "./languages/json5";
 import { jsonnet } from "./languages/jsonnet";
 import { julia } from "./languages/julia";
 import { jupyterNotebook } from "./languages/jupyter-notebook";
+import { kcl } from "./languages/kcl";
 import { kotlin } from "./languages/kotlin";
 import { lean } from "./languages/lean";
 import { less } from "./languages/less";
@@ -100,8 +106,10 @@ import { meson } from "./languages/meson";
 import { metal } from "./languages/metal";
 import { mojo } from "./languages/mojo";
 import { moonbit } from "./languages/moonbit";
+import { move } from "./languages/move";
 import { mustache } from "./languages/mustache";
 import { nginx } from "./languages/nginx";
+import { nickel } from "./languages/nickel";
 import { nim } from "./languages/nim";
 import { nix } from "./languages/nix";
 import { nunjucks } from "./languages/nunjucks";
@@ -114,6 +122,7 @@ import { pascal } from "./languages/pascal";
 import { perl } from "./languages/perl";
 import { php } from "./languages/php";
 import { pineScript } from "./languages/pine-script";
+import { pkl } from "./languages/pkl";
 import { plantuml } from "./languages/plantuml";
 import { plsql } from "./languages/plsql";
 import { pony } from "./languages/pony";
@@ -161,6 +170,7 @@ import { toml } from "./languages/toml";
 import { twig } from "./languages/twig";
 import { typescript } from "./languages/typescript";
 import { typst } from "./languages/typst";
+import { unison } from "./languages/unison";
 import { v } from "./languages/v";
 import { vala } from "./languages/vala";
 import { verilog } from "./languages/verilog";
@@ -176,6 +186,7 @@ import { xml } from "./languages/xml";
 import { xquery } from "./languages/xquery";
 import { xslt } from "./languages/xslt";
 import { yaml } from "./languages/yaml";
+import { yara } from "./languages/yara";
 import { zeek } from "./languages/zeek";
 import { zig } from "./languages/zig";
 import { ziggy } from "./languages/ziggy";
@@ -205,6 +216,7 @@ export const languages = [
   bicep,
   blade,
   c,
+  cairo,
   carbon,
   chapel,
   circom,
@@ -235,6 +247,7 @@ export const languages = [
   erlang,
   fish,
   fennel,
+  flux,
   fortran,
   forth,
   fsharp,
@@ -242,6 +255,7 @@ export const languages = [
   git,
   gleam,
   go,
+  grain,
   gradle,
   glsl,
   graphql,
@@ -249,12 +263,14 @@ export const languages = [
   handlebars,
   hack,
   haml,
+  hare,
   hocon,
   haskell,
   haxe,
   hcl,
   hlsl,
   html,
+  hy,
   idris,
   ini,
   java,
@@ -266,6 +282,7 @@ export const languages = [
   jsonnet,
   jupyterNotebook,
   julia,
+  kcl,
   kotlin,
   lean,
   less,
@@ -284,10 +301,12 @@ export const languages = [
   meson,
   metal,
   mustache,
+  move,
   mojo,
   moonbit,
   svn,
   nginx,
+  nickel,
   nunjucks,
   nushell,
   nim,
@@ -297,6 +316,7 @@ export const languages = [
   odin,
   opencl,
   pascal,
+  pkl,
   perl,
   php,
   pineScript,
@@ -346,6 +366,7 @@ export const languages = [
   twig,
   typescript,
   typst,
+  unison,
   v,
   vala,
   verilog,
@@ -361,6 +382,7 @@ export const languages = [
   xquery,
   xslt,
   yaml,
+  yara,
   zeek,
   zig,
   ziggy,
