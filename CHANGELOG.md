@@ -1,3 +1,10 @@
+## [1.29.1](https://github.com/ElJijuna/code-languages/compare/v1.29.0...v1.29.1) (2026-06-02)
+
+
+### Bug Fixes
+
+* update language version script for single-quoted metadata ([9e8e179](https://github.com/ElJijuna/code-languages/commit/9e8e17902e58d270ab1a56fb443e6bbf3b162218))
+
 # [1.29.0](https://github.com/ElJijuna/code-languages/compare/v1.28.0...v1.29.0) (2026-06-02)
 
 
