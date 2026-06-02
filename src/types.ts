@@ -1,4 +1,4 @@
-export type BaseLocale = "en" | "es" | "it" | "fr" | "de" | "pt";
+export type BaseLocale = 'en' | 'es' | 'it' | 'fr' | 'de' | 'pt';
 export type Locale = BaseLocale | `${BaseLocale}-${string}` | (string & {});
 
 export interface LanguageContent {
@@ -62,7 +62,7 @@ export interface Language {
   i18n: LanguageTranslations;
 }
 
-export type LocalizedLanguage = Omit<Language, "i18n"> &
+export type LocalizedLanguage = Omit<Language, 'i18n'> &
   LanguageContent & {
     /** Locale requested by the caller. */
     locale: Locale;

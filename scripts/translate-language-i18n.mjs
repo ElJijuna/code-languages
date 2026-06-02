@@ -1,14 +1,14 @@
-import { readFile, readdir, writeFile } from "node:fs/promises";
-import path from "node:path";
+import { readdir, readFile, writeFile } from 'node:fs/promises';
+import path from 'node:path';
 
 const targetLocales = [
-  { code: "de", label: "German" },
-  { code: "pt", label: "Portuguese" },
+  { code: 'de', label: 'German' },
+  { code: 'pt', label: 'Portuguese' },
 ];
 
 const options = parseArgs(process.argv.slice(2));
-const languagesDir = path.resolve(options.languagesDir ?? "src/languages");
-const model = options.model ?? "translategemma:4b";
+const languagesDir = path.resolve(options.languagesDir ?? 'src/languages');
+const model = options.model ?? 'translategemma:4b';
 const maxAttempts = 3;
 
 const files = await listLanguageFiles(languagesDir, options.only);
@@ -16,9 +16,9 @@ let changedFiles = 0;
 
 for (const file of files) {
   const filePath = path.join(languagesDir, file);
-  const source = await readFile(filePath, "utf8");
+  const source = await readFile(filePath, 'utf8');
   const languageName = getLanguageName(source);
-  const english = extractLocaleContent(source, "en");
+  const english = extractLocaleContent(source, 'en');
   const missingLocales = targetLocales.filter(
     ({ code }) => options.overwrite || !hasLocale(source, code),
   );
@@ -55,16 +55,16 @@ for (const file of files) {
 
     if (options.dryRun) {
       console.log(
-        `dry-run ${file}: would write ${missingLocales.map(({ code }) => code).join(", ")}`,
+        `dry-run ${file}: would write ${missingLocales.map(({ code }) => code).join(', ')}`,
       );
     } else {
       await writeFile(filePath, nextSource);
-      console.log(`write ${file}: ${missingLocales.map(({ code }) => code).join(", ")}`);
+      console.log(`write ${file}: ${missingLocales.map(({ code }) => code).join(', ')}`);
     }
   }
 }
 
-console.log(`${options.dryRun ? "checked" : "updated"} ${changedFiles} file(s)`);
+console.log(`${options.dryRun ? 'checked' : 'updated'} ${changedFiles} file(s)`);
 
 function parseArgs(args) {
   const parsed = {
@@ -75,32 +75,32 @@ function parseArgs(args) {
   for (let index = 0; index < args.length; index += 1) {
     const arg = args[index];
 
-    if (arg === "--dry-run") {
+    if (arg === '--dry-run') {
       parsed.dryRun = true;
       continue;
     }
 
-    if (arg === "--overwrite") {
+    if (arg === '--overwrite') {
       parsed.overwrite = true;
       continue;
     }
 
-    if (arg === "--model") {
+    if (arg === '--model') {
       index += 1;
       parsed.model = readArgValue(args, index, arg);
       continue;
     }
 
-    if (arg === "--languages-dir") {
+    if (arg === '--languages-dir') {
       index += 1;
       parsed.languagesDir = readArgValue(args, index, arg);
       continue;
     }
 
-    if (arg === "--only") {
+    if (arg === '--only') {
       index += 1;
       parsed.only = readArgValue(args, index, arg)
-        .split(",")
+        .split(',')
         .map((value) => value.trim())
         .filter(Boolean);
       continue;
@@ -115,7 +115,7 @@ function parseArgs(args) {
 function readArgValue(args, index, name) {
   const value = args[index];
 
-  if (!value || value.startsWith("--")) {
+  if (!value || value.startsWith('--')) {
     throw new Error(`Missing value for ${name}`);
   }
 
@@ -123,21 +123,21 @@ function readArgValue(args, index, name) {
 }
 
 async function listLanguageFiles(dir, only) {
-  const requested = new Set(only?.map((file) => (file.endsWith(".ts") ? file : `${file}.ts`)));
+  const requested = new Set(only?.map((file) => (file.endsWith('.ts') ? file : `${file}.ts`)));
   const entries = await readdir(dir);
-  const languageFiles = entries.filter((file) => file.endsWith(".ts")).sort();
+  const languageFiles = entries.filter((file) => file.endsWith('.ts')).sort();
 
   if (!requested.size) {
     return languageFiles;
   }
 
   return languageFiles.filter(
-    (file) => requested.has(file) || requested.has(file.replace(/\.ts$/, "")),
+    (file) => requested.has(file) || requested.has(file.replace(/\.ts$/, '')),
   );
 }
 
 function getLanguageName(source) {
-  return extractLocaleContent(source, "en").name;
+  return extractLocaleContent(source, 'en').name;
 }
 
 function hasLocale(source, locale) {
@@ -148,14 +148,14 @@ function extractLocaleContent(source, locale) {
   const block = extractObjectBlock(source, `${locale}:`);
 
   return {
-    name: extractStringProperty(block, "name"),
-    description: extractStringProperty(block, "description"),
-    longDescription: extractStringProperty(block, "longDescription"),
+    name: extractStringProperty(block, 'name'),
+    description: extractStringProperty(block, 'description'),
+    longDescription: extractStringProperty(block, 'longDescription'),
   };
 }
 
 function extractStringProperty(block, property) {
-  const match = new RegExp(`${property}:\\s*("(?:(?:\\\\.)|[^"\\\\])*")`, "s").exec(block);
+  const match = new RegExp(`${property}:\\s*("(?:(?:\\\\.)|[^"\\\\])*")`, 's').exec(block);
 
   if (!match) {
     throw new Error(`Could not find string property "${property}"`);
@@ -171,7 +171,7 @@ function extractObjectBlock(source, marker) {
     throw new Error(`Could not find object marker "${marker}"`);
   }
 
-  const openIndex = source.indexOf("{", markerIndex);
+  const openIndex = source.indexOf('{', markerIndex);
 
   if (openIndex === -1) {
     throw new Error(`Could not find opening brace for "${marker}"`);
@@ -192,7 +192,7 @@ function findMatchingBrace(source, openIndex) {
     if (quote) {
       if (escaped) {
         escaped = false;
-      } else if (char === "\\") {
+      } else if (char === '\\') {
         escaped = true;
       } else if (char === quote) {
         quote = null;
@@ -201,17 +201,17 @@ function findMatchingBrace(source, openIndex) {
       continue;
     }
 
-    if (char === '"' || char === "'" || char === "`") {
+    if (char === '"' || char === "'" || char === '`') {
       quote = char;
       continue;
     }
 
-    if (char === "{") {
+    if (char === '{') {
       depth += 1;
       continue;
     }
 
-    if (char === "}") {
+    if (char === '}') {
       depth -= 1;
 
       if (depth === 0) {
@@ -220,7 +220,7 @@ function findMatchingBrace(source, openIndex) {
     }
   }
 
-  throw new Error("Could not find matching closing brace");
+  throw new Error('Could not find matching closing brace');
 }
 
 async function translateContent({ content, languageName, model, target }) {
@@ -261,13 +261,13 @@ function buildTranslationPrompt({
 }) {
   const instructions = [
     `Translate the programming-language metadata for ${languageName} into ${target.label}.`,
-    "Return only compact JSON with exactly these keys: description, longDescriptionParagraphs.",
-    "longDescriptionParagraphs must be an array of translated paragraphs.",
+    'Return only compact JSON with exactly these keys: description, longDescriptionParagraphs.',
+    'longDescriptionParagraphs must be an array of translated paragraphs.',
     `longDescriptionParagraphs must contain exactly ${sourceParagraphs.length} strings.`,
-    "Do not merge paragraphs.",
-    "Do not translate the programming language name, product names, runtime names, framework names, or file extensions.",
-    "Keep the description at 160 characters or fewer.",
-    "Preserve plain text only. Do not use Markdown.",
+    'Do not merge paragraphs.',
+    'Do not translate the programming language name, product names, runtime names, framework names, or file extensions.',
+    'Keep the description at 160 characters or fewer.',
+    'Preserve plain text only. Do not use Markdown.',
   ];
 
   if (attempt > 1 && previousError) {
@@ -276,18 +276,18 @@ function buildTranslationPrompt({
 
   return [
     ...instructions,
-    "",
+    '',
     JSON.stringify({
       description: content.description,
       longDescriptionParagraphs: sourceParagraphs,
     }),
-  ].join("\n");
+  ].join('\n');
 }
 
 async function requestTranslation({ model, prompt }) {
-  const response = await fetch("http://127.0.0.1:11434/api/generate", {
+  const response = await fetch('http://127.0.0.1:11434/api/generate', {
     body: JSON.stringify({
-      format: "json",
+      format: 'json',
       model,
       options: {
         temperature: 0,
@@ -296,9 +296,9 @@ async function requestTranslation({ model, prompt }) {
       stream: false,
     }),
     headers: {
-      "Content-Type": "application/json",
+      'Content-Type': 'application/json',
     },
-    method: "POST",
+    method: 'POST',
   });
 
   if (!response.ok) {
@@ -310,7 +310,7 @@ async function requestTranslation({ model, prompt }) {
 }
 
 function normalizeTranslation(translated, locale, expectedParagraphCount) {
-  const description = String(translated.description ?? "").trim();
+  const description = String(translated.description ?? '').trim();
   const longDescription = getLongDescription(translated);
   const paragraphs = splitParagraphs(longDescription);
 
@@ -330,7 +330,7 @@ function normalizeTranslation(translated, locale, expectedParagraphCount) {
 
   return {
     description,
-    longDescription: paragraphs.join("\n\n"),
+    longDescription: paragraphs.join('\n\n'),
   };
 }
 
@@ -338,10 +338,10 @@ function getLongDescription(translated) {
   if (Array.isArray(translated.longDescriptionParagraphs)) {
     return translated.longDescriptionParagraphs
       .map((paragraph) => String(paragraph).trim())
-      .join("\n\n");
+      .join('\n\n');
   }
 
-  return String(translated.longDescription ?? "").trim();
+  return String(translated.longDescription ?? '').trim();
 }
 
 function splitParagraphs(value) {
@@ -356,11 +356,11 @@ function formatLocaleBlock(locale, content) {
   return [
     `    ${locale}: {`,
     `      name: ${formatString(content.name)},`,
-    ...formatStringProperty("description", content.description),
-    "      longDescription:",
+    ...formatStringProperty('description', content.description),
+    '      longDescription:',
     `        ${formatString(content.longDescription)},`,
-    "    },",
-  ].join("\n");
+    '    },',
+  ].join('\n');
 }
 
 function formatStringProperty(property, value) {
@@ -376,20 +376,20 @@ function formatStringProperty(property, value) {
 
 function formatString(value) {
   return JSON.stringify(value).replace(/[\u007f-\uffff]/g, (char) => {
-    return `\\u${char.charCodeAt(0).toString(16).padStart(4, "0")}`;
+    return `\\u${char.charCodeAt(0).toString(16).padStart(4, '0')}`;
   });
 }
 
 function insertLocale(source, localeBlock) {
-  const i18nStart = source.indexOf("  i18n: {");
+  const i18nStart = source.indexOf('  i18n: {');
 
   if (i18nStart === -1) {
-    throw new Error("Could not find i18n object");
+    throw new Error('Could not find i18n object');
   }
 
-  const openIndex = source.indexOf("{", i18nStart);
+  const openIndex = source.indexOf('{', i18nStart);
   const closeIndex = findMatchingBrace(source, openIndex);
-  const closeLineStart = source.lastIndexOf("\n", closeIndex) + 1;
+  const closeLineStart = source.lastIndexOf('\n', closeIndex) + 1;
   return `${source.slice(0, closeLineStart)}${localeBlock}\n${source.slice(closeLineStart)}`;
 }
 
@@ -399,8 +399,8 @@ function replaceLocale(source, locale, localeBlock) {
   }
 
   const blockStart = source.search(new RegExp(`\\n\\s{4}${locale}:\\s*\\{`));
-  const openIndex = source.indexOf("{", blockStart);
+  const openIndex = source.indexOf('{', blockStart);
   const closeIndex = findMatchingBrace(source, openIndex);
-  const trailingCommaEnd = source[closeIndex + 1] === "," ? closeIndex + 2 : closeIndex + 1;
+  const trailingCommaEnd = source[closeIndex + 1] === ',' ? closeIndex + 2 : closeIndex + 1;
   return `${source.slice(0, blockStart + 1)}${localeBlock}${source.slice(trailingCommaEnd)}`;
 }

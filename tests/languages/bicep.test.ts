@@ -1,9 +1,9 @@
-import { describe, it } from "vitest";
-import { bicep } from "../../src/languages/bicep";
-import { expectValidLanguage } from "../language-contract";
+import { describe, it } from 'vitest';
+import { bicep } from '../../src/languages/bicep';
+import { expectValidLanguage } from '../language-contract';
 
-describe("bicep", () => {
-  it("satisfies the Language contract", () => {
-    expectValidLanguage(bicep, "bicep");
+describe('bicep', () => {
+  it('satisfies the Language contract', () => {
+    expectValidLanguage(bicep, 'bicep');
   });
 });

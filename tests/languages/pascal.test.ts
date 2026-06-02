@@ -1,9 +1,9 @@
-import { describe, it } from "vitest";
-import { pascal } from "../../src/languages/pascal";
-import { expectValidLanguage } from "../language-contract";
+import { describe, it } from 'vitest';
+import { pascal } from '../../src/languages/pascal';
+import { expectValidLanguage } from '../language-contract';
 
-describe("pascal", () => {
-  it("satisfies the Language contract", () => {
-    expectValidLanguage(pascal, "pascal");
+describe('pascal', () => {
+  it('satisfies the Language contract', () => {
+    expectValidLanguage(pascal, 'pascal');
   });
 });

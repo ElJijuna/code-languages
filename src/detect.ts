@@ -1,6 +1,6 @@
-import { languages } from "./catalog";
-import { detectMatchingEntries } from "./match";
-import type { Language } from "./types";
+import { languages } from './catalog';
+import { detectMatchingEntries } from './match';
+import type { Language } from './types';
 
 /**
  * Detects all languages that match a filename or path.

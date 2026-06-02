@@ -1,9 +1,9 @@
-import { describe, it } from "vitest";
-import { hack } from "../../src/languages/hack";
-import { expectValidLanguage } from "../language-contract";
+import { describe, it } from 'vitest';
+import { hack } from '../../src/languages/hack';
+import { expectValidLanguage } from '../language-contract';
 
-describe("hack", () => {
-  it("satisfies the Language contract", () => {
-    expectValidLanguage(hack, "hack");
+describe('hack', () => {
+  it('satisfies the Language contract', () => {
+    expectValidLanguage(hack, 'hack');
   });
 });

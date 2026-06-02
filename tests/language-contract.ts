@@ -1,6 +1,6 @@
-import { expect } from "vitest";
-import { localizeLanguage } from "../src";
-import type { Language, LanguageContent } from "../src";
+import { expect } from 'vitest';
+import type { Language, LanguageContent } from '../src';
+import { localizeLanguage } from '../src';
 
 export const expectValidLanguage = (language: Language, expectedSlug: string) => {
   expect(language.slug).toBe(expectedSlug);
@@ -27,38 +27,38 @@ export const expectValidLanguage = (language: Language, expectedSlug: string) =>
     expectLanguageContent(content);
   }
 
-  const localized = localizeLanguage(language, "en");
+  const localized = localizeLanguage(language, 'en');
 
   expect(localized.slug).toBe(language.slug);
-  expect(localized.locale).toBe("en");
-  expect(localized.resolvedLocale).toBe("en");
-  expect(localized.availableLocales).toContain("en");
+  expect(localized.locale).toBe('en');
+  expect(localized.resolvedLocale).toBe('en');
+  expect(localized.availableLocales).toContain('en');
   expect(localized.name).toBe(language.i18n.en.name);
   expect(localized.description).toBe(language.i18n.en.description);
   expect(localized.longDescription).toBe(language.i18n.en.longDescription);
 
-  const fallback = localizeLanguage(language, "es");
+  const fallback = localizeLanguage(language, 'es');
 
-  expect(fallback.locale).toBe("es");
-  expect(fallback.resolvedLocale).toBe(language.i18n.es ? "es" : "en");
+  expect(fallback.locale).toBe('es');
+  expect(fallback.resolvedLocale).toBe(language.i18n.es ? 'es' : 'en');
   expect(fallback.name).toBe((language.i18n.es ?? language.i18n.en).name);
 
-  const regionalSpanish = localizeLanguage(language, "es-PE");
+  const regionalSpanish = localizeLanguage(language, 'es-PE');
 
-  expect(regionalSpanish.locale).toBe("es-PE");
-  expect(regionalSpanish.resolvedLocale).toBe(language.i18n.es ? "es" : "en");
+  expect(regionalSpanish.locale).toBe('es-PE');
+  expect(regionalSpanish.resolvedLocale).toBe(language.i18n.es ? 'es' : 'en');
   expect(regionalSpanish.name).toBe((language.i18n.es ?? language.i18n.en).name);
 
-  const regionalEnglish = localizeLanguage(language, "en-US");
+  const regionalEnglish = localizeLanguage(language, 'en-US');
 
-  expect(regionalEnglish.locale).toBe("en-US");
-  expect(regionalEnglish.resolvedLocale).toBe("en");
+  expect(regionalEnglish.locale).toBe('en-US');
+  expect(regionalEnglish.resolvedLocale).toBe('en');
   expect(regionalEnglish.name).toBe(language.i18n.en.name);
 
-  const unsupportedLocale = localizeLanguage(language, "ja-JP");
+  const unsupportedLocale = localizeLanguage(language, 'ja-JP');
 
-  expect(unsupportedLocale.locale).toBe("ja-JP");
-  expect(unsupportedLocale.resolvedLocale).toBe("en");
+  expect(unsupportedLocale.locale).toBe('ja-JP');
+  expect(unsupportedLocale.resolvedLocale).toBe('en');
   expect(unsupportedLocale.name).toBe(language.i18n.en.name);
 };
 
@@ -82,6 +82,6 @@ const expectLanguageContent = (content: LanguageContent) => {
 };
 
 const expectNonEmptyString = (value: unknown) => {
-  expect(typeof value).toBe("string");
+  expect(typeof value).toBe('string');
   expect((value as string).trim().length).toBeGreaterThan(0);
 };

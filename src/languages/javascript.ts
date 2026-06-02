@@ -1,60 +1,60 @@
-import type { Language } from "../types";
+import type { Language } from '../types';
 
 export const javascript = {
-  slug: "javascript",
-  publishedDate: "1995-12-04",
-  extensions: [".js", ".mjs", ".cjs", ".jsx"],
-  author: "Brendan Eich / Netscape",
-  website: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-  paradigms: ["event-driven", "functional", "imperative", "object-oriented", "prototype-based"],
+  slug: 'javascript',
+  publishedDate: '1995-12-04',
+  extensions: ['.js', '.mjs', '.cjs', '.jsx'],
+  author: 'Brendan Eich / Netscape',
+  website: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+  paradigms: ['event-driven', 'functional', 'imperative', 'object-oriented', 'prototype-based'],
   tooling: {
-    runtimes: ["Browser", "Node.js", "Deno", "Bun"],
-    packageManagers: ["npm", "pnpm", "Yarn", "Bun"],
-    ecosystems: ["Web", "Node.js"],
+    runtimes: ['Browser', 'Node.js', 'Deno', 'Bun'],
+    packageManagers: ['npm', 'pnpm', 'Yarn', 'Bun'],
+    ecosystems: ['Web', 'Node.js'],
   },
-  version: "ECMAScript 2025",
-  logo: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
-  color: "#F7DF1E",
+  version: 'ECMAScript 2025',
+  logo: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png',
+  color: '#F7DF1E',
   i18n: {
     en: {
-      name: "JavaScript",
-      description: "A dynamic scripting language for the web, servers, tools, and applications.",
+      name: 'JavaScript',
+      description: 'A dynamic scripting language for the web, servers, tools, and applications.',
       longDescription:
-        "JavaScript is the primary programming language of the web platform, running natively in browsers and in server runtimes such as Node.js, Deno, and Bun.\n\nThe language is standardized as ECMAScript and supports event-driven, functional, object-oriented, and prototype-based programming styles.",
+        'JavaScript is the primary programming language of the web platform, running natively in browsers and in server runtimes such as Node.js, Deno, and Bun.\n\nThe language is standardized as ECMAScript and supports event-driven, functional, object-oriented, and prototype-based programming styles.',
     },
     es: {
-      name: "JavaScript",
+      name: 'JavaScript',
       description:
-        "Un lenguaje dinamico de scripting para la web, servidores, herramientas y apps.",
+        'Un lenguaje dinamico de scripting para la web, servidores, herramientas y apps.',
       longDescription:
-        "JavaScript es el lenguaje de programacion principal de la plataforma web, ejecutandose de forma nativa en navegadores y en runtimes de servidor como Node.js, Deno y Bun.\n\nEl lenguaje esta estandarizado como ECMAScript y soporta estilos de programacion orientados a eventos, funcionales, orientados a objetos y basados en prototipos.",
+        'JavaScript es el lenguaje de programacion principal de la plataforma web, ejecutandose de forma nativa en navegadores y en runtimes de servidor como Node.js, Deno y Bun.\n\nEl lenguaje esta estandarizado como ECMAScript y soporta estilos de programacion orientados a eventos, funcionales, orientados a objetos y basados en prototipos.',
     },
     it: {
-      name: "JavaScript",
+      name: 'JavaScript',
       description:
-        "Un linguaggio di scripting dinamico per il web, i server, gli strumenti e le applicazioni.",
+        'Un linguaggio di scripting dinamico per il web, i server, gli strumenti e le applicazioni.',
       longDescription:
-        "JavaScript e il linguaggio di programmazione principale della piattaforma web, che viene eseguito nativamente nei browser e nei runtime del server come Node.js, Deno e Bun.\n\nIl linguaggio e standardizzato come ECMAScript e supporta stili di programmazione basati su eventi, funzionali, orientati agli oggetti e basati su prototipi.",
+        'JavaScript e il linguaggio di programmazione principale della piattaforma web, che viene eseguito nativamente nei browser e nei runtime del server come Node.js, Deno e Bun.\n\nIl linguaggio e standardizzato come ECMAScript e supporta stili di programmazione basati su eventi, funzionali, orientati agli oggetti e basati su prototipi.',
     },
     fr: {
-      name: "JavaScript",
+      name: 'JavaScript',
       description:
-        "Un langage de script dynamique pour le web, les serveurs, les outils et les applications.",
+        'Un langage de script dynamique pour le web, les serveurs, les outils et les applications.',
       longDescription:
         "JavaScript est le langage de programmation principal de la plateforme web, executant nativement dans les navigateurs et dans les environnements d'execution de serveur tels que Node.js, Deno et Bun.\n\nLe langage est standardise sous le nom ECMAScript et prend en charge les styles de programmation evenementiels, fonctionnels, orientes objet et bases sur les prototypes.",
     },
     de: {
-      name: "JavaScript",
-      description: "Eine dynamische Skriptsprache f\u00fcr Web, Server, Tools und Anwendungen.",
+      name: 'JavaScript',
+      description: 'Eine dynamische Skriptsprache f\u00fcr Web, Server, Tools und Anwendungen.',
       longDescription:
-        "JavaScript ist die Hauptprogrammiersprache der Web-Plattform und wird nativ in Browsern und in Server-Runtimes wie Node.js, Deno und Bun ausgef\u00fchrt.\n\nDie Sprache ist als ECMAScript standardisiert und unterst\u00fctzt ereignisgesteuerte, funktionale, objektorientierte und prototypbasierte Programmierstile.",
+        'JavaScript ist die Hauptprogrammiersprache der Web-Plattform und wird nativ in Browsern und in Server-Runtimes wie Node.js, Deno und Bun ausgef\u00fchrt.\n\nDie Sprache ist als ECMAScript standardisiert und unterst\u00fctzt ereignisgesteuerte, funktionale, objektorientierte und prototypbasierte Programmierstile.',
     },
     pt: {
-      name: "JavaScript",
+      name: 'JavaScript',
       description:
-        "Linguagem de script din\u00e2mica para a web, servidores, ferramentas e aplica\u00e7\u00f5es.",
+        'Linguagem de script din\u00e2mica para a web, servidores, ferramentas e aplica\u00e7\u00f5es.',
       longDescription:
-        "JavaScript \u00e9 a principal linguagem de programa\u00e7\u00e3o da plataforma web, executando nativamente nos navegadores e em ambientes de execu\u00e7\u00e3o de servidor, como Node.js, Deno e Bun.\n\nA linguagem \u00e9 padronizada como ECMAScript e suporta estilos de programa\u00e7\u00e3o orientados a eventos, funcionais, orientados a objetos e baseados em prot\u00f3tipos.",
+        'JavaScript \u00e9 a principal linguagem de programa\u00e7\u00e3o da plataforma web, executando nativamente nos navegadores e em ambientes de execu\u00e7\u00e3o de servidor, como Node.js, Deno e Bun.\n\nA linguagem \u00e9 padronizada como ECMAScript e suporta estilos de programa\u00e7\u00e3o orientados a eventos, funcionais, orientados a objetos e baseados em prot\u00f3tipos.',
     },
   },
 } satisfies Language;

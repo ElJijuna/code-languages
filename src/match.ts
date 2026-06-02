@@ -6,13 +6,13 @@ const pathSegmentPattern = /[/\\]/;
 
 /** Returns the lowercase basename from a filename or path. */
 export const getBasename = (filename: string) =>
-  filename.trim().split(pathSegmentPattern).at(-1)?.toLowerCase() ?? "";
+  filename.trim().split(pathSegmentPattern).at(-1)?.toLowerCase() ?? '';
 
 /** Checks whether a basename matches an extension or exact filename entry. */
 export const matchesExtension = (basename: string, extension: string) => {
   const normalizedExtension = extension.toLowerCase();
 
-  if (normalizedExtension.startsWith(".")) {
+  if (normalizedExtension.startsWith('.')) {
     return basename.endsWith(normalizedExtension);
   }
 

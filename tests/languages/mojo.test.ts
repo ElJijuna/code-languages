@@ -1,9 +1,9 @@
-import { describe, it } from "vitest";
-import { mojo } from "../../src/languages/mojo";
-import { expectValidLanguage } from "../language-contract";
+import { describe, it } from 'vitest';
+import { mojo } from '../../src/languages/mojo';
+import { expectValidLanguage } from '../language-contract';
 
-describe("mojo", () => {
-  it("satisfies the Language contract", () => {
-    expectValidLanguage(mojo, "mojo");
+describe('mojo', () => {
+  it('satisfies the Language contract', () => {
+    expectValidLanguage(mojo, 'mojo');
   });
 });

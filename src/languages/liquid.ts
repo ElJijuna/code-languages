@@ -1,61 +1,61 @@
-import type { Language } from "../types";
+import type { Language } from '../types';
 
 export const liquid = {
-  slug: "liquid",
-  publishedDate: "2006-06-01",
-  extensions: [".liquid"],
-  author: "Shopify",
-  website: "https://shopify.github.io/liquid/",
-  paradigms: ["templating", "declarative", "logic-less", "server-side"],
+  slug: 'liquid',
+  publishedDate: '2006-06-01',
+  extensions: ['.liquid'],
+  author: 'Shopify',
+  website: 'https://shopify.github.io/liquid/',
+  paradigms: ['templating', 'declarative', 'logic-less', 'server-side'],
   tooling: {
-    runtimes: ["Ruby", "Node.js", "Shopify"],
-    packageManagers: ["RubyGems", "npm"],
-    ecosystems: ["Shopify", "Jekyll", "Static Sites", "E-commerce"],
+    runtimes: ['Ruby', 'Node.js', 'Shopify'],
+    packageManagers: ['RubyGems', 'npm'],
+    ecosystems: ['Shopify', 'Jekyll', 'Static Sites', 'E-commerce'],
   },
-  version: "10.27.0",
-  logo: "https://cdn.simpleicons.org/shopify/7AB55C",
-  color: "#7AB55C",
+  version: '10.27.0',
+  logo: 'https://cdn.simpleicons.org/shopify/7AB55C',
+  color: '#7AB55C',
   i18n: {
     en: {
-      name: "Liquid",
-      description: "A safe template language used by Shopify, Jekyll, and content-driven sites.",
+      name: 'Liquid',
+      description: 'A safe template language used by Shopify, Jekyll, and content-driven sites.',
       longDescription:
-        "Liquid is a template language designed to expose controlled data to templates through tags, objects, filters, loops, conditions, and includes. It favors predictable rendering and constrained logic so non-developers can safely customize content presentation.\n\nIt is used in Shopify themes, Jekyll sites, GitHub Pages, storefront customization, content management systems, email templates, and static publishing workflows.",
+        'Liquid is a template language designed to expose controlled data to templates through tags, objects, filters, loops, conditions, and includes. It favors predictable rendering and constrained logic so non-developers can safely customize content presentation.\n\nIt is used in Shopify themes, Jekyll sites, GitHub Pages, storefront customization, content management systems, email templates, and static publishing workflows.',
     },
     es: {
-      name: "Liquid",
+      name: 'Liquid',
       description:
-        "Un lenguaje de plantillas seguro usado por Shopify, Jekyll y sitios basados en contenido.",
+        'Un lenguaje de plantillas seguro usado por Shopify, Jekyll y sitios basados en contenido.',
       longDescription:
-        "Liquid es un lenguaje de plantillas disenado para exponer datos controlados mediante tags, objetos, filtros, bucles, condiciones e includes. Prioriza renderizado predecible y logica limitada para que personas no desarrolladoras puedan personalizar la presentacion de contenido con seguridad.\n\nSe usa en temas de Shopify, sitios Jekyll, GitHub Pages, personalizacion de tiendas, sistemas de gestion de contenido, plantillas de email y flujos de publicacion estatica.",
+        'Liquid es un lenguaje de plantillas disenado para exponer datos controlados mediante tags, objetos, filtros, bucles, condiciones e includes. Prioriza renderizado predecible y logica limitada para que personas no desarrolladoras puedan personalizar la presentacion de contenido con seguridad.\n\nSe usa en temas de Shopify, sitios Jekyll, GitHub Pages, personalizacion de tiendas, sistemas de gestion de contenido, plantillas de email y flujos de publicacion estatica.',
     },
     it: {
-      name: "Liquid",
+      name: 'Liquid',
       description:
-        "Un linguaggio di template sicuro utilizzato da Shopify, Jekyll e siti basati sui contenuti.",
+        'Un linguaggio di template sicuro utilizzato da Shopify, Jekyll e siti basati sui contenuti.',
       longDescription:
-        "Liquid e un linguaggio di template progettato per esporre dati controllati ai template tramite tag, oggetti, filtri, cicli, condizioni e inclusioni. Favorisce la rendering prevedibile e la logica limitata, in modo che anche chi non e uno sviluppatore possa personalizzare in modo sicuro la presentazione dei contenuti.\n\nE utilizzato in temi Shopify, siti Jekyll, GitHub Pages, personalizzazione dei negozi online, sistemi di gestione dei contenuti, modelli di email e flussi di lavoro di pubblicazione statica.",
+        'Liquid e un linguaggio di template progettato per esporre dati controllati ai template tramite tag, oggetti, filtri, cicli, condizioni e inclusioni. Favorisce la rendering prevedibile e la logica limitata, in modo che anche chi non e uno sviluppatore possa personalizzare in modo sicuro la presentazione dei contenuti.\n\nE utilizzato in temi Shopify, siti Jekyll, GitHub Pages, personalizzazione dei negozi online, sistemi di gestione dei contenuti, modelli di email e flussi di lavoro di pubblicazione statica.',
     },
     fr: {
-      name: "Liquid",
+      name: 'Liquid',
       description:
-        "Un langage de modele securise utilise par Shopify, Jekyll et les sites axes sur le contenu.",
+        'Un langage de modele securise utilise par Shopify, Jekyll et les sites axes sur le contenu.',
       longDescription:
         "Liquid est un langage de modele concu pour exposer des donnees controlees aux modeles via des balises, des objets, des filtres, des boucles, des conditions et des inclusions. Il favorise le rendu previsible et une logique contrainte, de sorte que les non-developpeurs puissent personnaliser en toute securite la presentation du contenu.\n\nIl est utilise dans les themes Shopify, les sites Jekyll, GitHub Pages, la personnalisation des boutiques, les systemes de gestion de contenu, les modeles d'e-mails et les flux de publication statique.",
     },
     de: {
-      name: "Liquid",
+      name: 'Liquid',
       description:
-        "Eine sichere Template-Sprache, die von Shopify, Jekyll und Inhaltsseiten verwendet wird.",
+        'Eine sichere Template-Sprache, die von Shopify, Jekyll und Inhaltsseiten verwendet wird.',
       longDescription:
-        "Liquid ist eine Template-Sprache, die kontrollierten Daten durch Tags, Objekte, Filter, Schleifen, Bedingungen und Includes an Templates ausgibt. Sie bevorzugt vorhersehbare Rendering- und eingeschr\u00e4nkte Logik, sodass auch Nicht-Entwickler Inhalte sicher anpassen k\u00f6nnen.\n\nSie wird in Shopify-Themes, Jekyll-Sites, GitHub Pages, f\u00fcr die Anpassung von Frontends, in Content-Management-Systemen, E-Mail-Vorlagen und f\u00fcr statische Publishing-Workflows verwendet.",
+        'Liquid ist eine Template-Sprache, die kontrollierten Daten durch Tags, Objekte, Filter, Schleifen, Bedingungen und Includes an Templates ausgibt. Sie bevorzugt vorhersehbare Rendering- und eingeschr\u00e4nkte Logik, sodass auch Nicht-Entwickler Inhalte sicher anpassen k\u00f6nnen.\n\nSie wird in Shopify-Themes, Jekyll-Sites, GitHub Pages, f\u00fcr die Anpassung von Frontends, in Content-Management-Systemen, E-Mail-Vorlagen und f\u00fcr statische Publishing-Workflows verwendet.',
     },
     pt: {
-      name: "Liquid",
+      name: 'Liquid',
       description:
-        "Linguagem de template segura usada por Shopify, Jekyll e sites baseados em conte\u00fado.",
+        'Linguagem de template segura usada por Shopify, Jekyll e sites baseados em conte\u00fado.',
       longDescription:
-        "Liquid \u00e9 uma linguagem de template projetada para expor dados controlados a templates por meio de tags, objetos, filtros, loops, condi\u00e7\u00f5es e includes. Ela favorece a renderiza\u00e7\u00e3o previs\u00edvel e a l\u00f3gica restrita, permitindo que usu\u00e1rios sem experi\u00eancia em desenvolvimento personalizem a apresenta\u00e7\u00e3o do conte\u00fado com seguran\u00e7a.\n\n\u00c9 utilizada em temas Shopify, sites Jekyll, GitHub Pages, personaliza\u00e7\u00e3o de storefronts, sistemas de gerenciamento de conte\u00fado, modelos de e-mail e fluxos de publica\u00e7\u00e3o est\u00e1tica.",
+        'Liquid \u00e9 uma linguagem de template projetada para expor dados controlados a templates por meio de tags, objetos, filtros, loops, condi\u00e7\u00f5es e includes. Ela favorece a renderiza\u00e7\u00e3o previs\u00edvel e a l\u00f3gica restrita, permitindo que usu\u00e1rios sem experi\u00eancia em desenvolvimento personalizem a apresenta\u00e7\u00e3o do conte\u00fado com seguran\u00e7a.\n\n\u00c9 utilizada em temas Shopify, sites Jekyll, GitHub Pages, personaliza\u00e7\u00e3o de storefronts, sistemas de gerenciamento de conte\u00fado, modelos de e-mail e fluxos de publica\u00e7\u00e3o est\u00e1tica.',
     },
   },
 } satisfies Language;

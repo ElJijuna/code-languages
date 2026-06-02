@@ -1,61 +1,61 @@
-import type { Language } from "../types";
+import type { Language } from '../types';
 
 export const nginx = {
-  slug: "nginx",
-  publishedDate: "2004-10-04",
-  extensions: ["nginx.conf", ".nginx", ".conf"],
-  author: "Igor Sysoev / NGINX",
-  website: "https://nginx.org",
-  paradigms: ["configuration", "declarative", "directive-based"],
+  slug: 'nginx',
+  publishedDate: '2004-10-04',
+  extensions: ['nginx.conf', '.nginx', '.conf'],
+  author: 'Igor Sysoev / NGINX',
+  website: 'https://nginx.org',
+  paradigms: ['configuration', 'declarative', 'directive-based'],
   tooling: {
-    runtimes: ["nginx", "NGINX Plus", "OpenResty"],
-    ecosystems: ["Web Servers", "Reverse Proxies", "Load Balancing", "DevOps"],
+    runtimes: ['nginx', 'NGINX Plus', 'OpenResty'],
+    ecosystems: ['Web Servers', 'Reverse Proxies', 'Load Balancing', 'DevOps'],
   },
-  version: "1.30.2",
-  logo: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg",
-  color: "#009639",
+  version: '1.30.2',
+  logo: 'https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg',
+  color: '#009639',
   i18n: {
     en: {
-      name: "nginx",
+      name: 'nginx',
       description:
-        "A directive-based configuration language for the nginx web server and reverse proxy.",
+        'A directive-based configuration language for the nginx web server and reverse proxy.',
       longDescription:
-        "nginx configuration files use a directive-based syntax to define HTTP servers, reverse proxies, upstreams, load balancing, TLS settings, caching, logging, access control, and stream or mail proxy behavior.\n\nThey are used in production web infrastructure, container images, edge services, API gateways, static file hosting, traffic routing, and DevOps workflows where nginx or compatible servers need repeatable configuration.",
+        'nginx configuration files use a directive-based syntax to define HTTP servers, reverse proxies, upstreams, load balancing, TLS settings, caching, logging, access control, and stream or mail proxy behavior.\n\nThey are used in production web infrastructure, container images, edge services, API gateways, static file hosting, traffic routing, and DevOps workflows where nginx or compatible servers need repeatable configuration.',
     },
     es: {
-      name: "nginx",
+      name: 'nginx',
       description:
-        "Un lenguaje de configuracion basado en directivas para el servidor web y proxy inverso nginx.",
+        'Un lenguaje de configuracion basado en directivas para el servidor web y proxy inverso nginx.',
       longDescription:
-        "Los archivos de configuracion de nginx usan una sintaxis basada en directivas para definir servidores HTTP, proxies inversos, upstreams, balanceo de carga, ajustes TLS, cache, logging, control de acceso y comportamiento de proxy stream o mail.\n\nSe usan en infraestructura web de produccion, imagenes de contenedores, servicios edge, API gateways, hosting de archivos estaticos, ruteo de trafico y flujos DevOps donde nginx o servidores compatibles necesitan configuracion repetible.",
+        'Los archivos de configuracion de nginx usan una sintaxis basada en directivas para definir servidores HTTP, proxies inversos, upstreams, balanceo de carga, ajustes TLS, cache, logging, control de acceso y comportamiento de proxy stream o mail.\n\nSe usan en infraestructura web de produccion, imagenes de contenedores, servicios edge, API gateways, hosting de archivos estaticos, ruteo de trafico y flujos DevOps donde nginx o servidores compatibles necesitan configuracion repetible.',
     },
     it: {
-      name: "nginx",
+      name: 'nginx',
       description:
-        "Un linguaggio di configurazione basato su direttive per il server web e il reverse proxy nginx.",
+        'Un linguaggio di configurazione basato su direttive per il server web e il reverse proxy nginx.',
       longDescription:
         "I file di configurazione di nginx utilizzano una sintassi basata su direttive per definire server HTTP, reverse proxy, upstream, bilanciamento del carico, impostazioni TLS, caching, logging, controllo degli accessi e il comportamento di proxy per stream o email.\n\nVengono utilizzati nell'infrastruttura web di produzione, immagini di container, servizi edge, gateway API, hosting di file statici, routing del traffico e flussi di lavoro DevOps in cui e necessario una configurazione ripetibile per nginx o server compatibili.",
     },
     fr: {
-      name: "nginx",
+      name: 'nginx',
       description:
-        "Un langage de configuration base sur des directives pour le serveur web et le proxy inverse nginx.",
+        'Un langage de configuration base sur des directives pour le serveur web et le proxy inverse nginx.',
       longDescription:
         "Les fichiers de configuration nginx utilisent une syntaxe basee sur des directives pour definir des serveurs HTTP, des proxys inverses, des upstream, le routage de charge, les parametres TLS, le cache, la journalisation, le controle d'acces et le comportement de proxy de flux ou de courrier.\n\nIls sont utilises dans l'infrastructure web de production, les images de conteneurs, les services de peripherie, les passerelles API, l'hebergement de fichiers statiques, le routage du trafic et les flux de travail DevOps ou nginx ou des serveurs compatibles necessitent une configuration reproductible.",
     },
     de: {
-      name: "nginx",
+      name: 'nginx',
       description:
-        "Eine direktekonfigurationssprache f\u00fcr den nginx-Webserver und Reverse-Proxy.",
+        'Eine direktekonfigurationssprache f\u00fcr den nginx-Webserver und Reverse-Proxy.',
       longDescription:
-        "nginx-Konfigurationsdateien verwenden eine direktekonfigurationssyntax, um HTTP-Server, Reverse-Proxies, Upstreams, Load Balancing, TLS-Einstellungen, Caching, Logging, Zugriffskontrolle und Stream- oder Mail-Proxy-Verhalten zu definieren.\n\nSie werden in Produktions-Webinfrastrukturen, Container-Images, Edge-Services, API-Gateways, statischer Dateizustellung, Traffic-Routing und DevOps-Workflows verwendet, in denen nginx oder kompatible Server wiederholbare Konfigurationen ben\u00f6tigen.",
+        'nginx-Konfigurationsdateien verwenden eine direktekonfigurationssyntax, um HTTP-Server, Reverse-Proxies, Upstreams, Load Balancing, TLS-Einstellungen, Caching, Logging, Zugriffskontrolle und Stream- oder Mail-Proxy-Verhalten zu definieren.\n\nSie werden in Produktions-Webinfrastrukturen, Container-Images, Edge-Services, API-Gateways, statischer Dateizustellung, Traffic-Routing und DevOps-Workflows verwendet, in denen nginx oder kompatible Server wiederholbare Konfigurationen ben\u00f6tigen.',
     },
     pt: {
-      name: "nginx",
+      name: 'nginx',
       description:
-        "Linguagem de configura\u00e7\u00e3o baseada em diretivas para o servidor web e proxy reverso nginx.",
+        'Linguagem de configura\u00e7\u00e3o baseada em diretivas para o servidor web e proxy reverso nginx.',
       longDescription:
-        "Os arquivos de configura\u00e7\u00e3o do nginx utilizam uma sintaxe baseada em diretivas para definir servidores HTTP, proxies reverso, upstream, balanceamento de carga, configura\u00e7\u00f5es TLS, cache, logging, controle de acesso e comportamento de proxy de stream ou e-mail.\n\nS\u00e3o utilizados em infraestruturas web de produ\u00e7\u00e3o, imagens de cont\u00eainer, servi\u00e7os de borda, gateways de API, hospedagem de arquivos est\u00e1ticos, roteamento de tr\u00e1fego e fluxos de trabalho DevOps onde o nginx ou servidores compat\u00edveis precisam de configura\u00e7\u00f5es repet\u00edveis.",
+        'Os arquivos de configura\u00e7\u00e3o do nginx utilizam uma sintaxe baseada em diretivas para definir servidores HTTP, proxies reverso, upstream, balanceamento de carga, configura\u00e7\u00f5es TLS, cache, logging, controle de acesso e comportamento de proxy de stream ou e-mail.\n\nS\u00e3o utilizados em infraestruturas web de produ\u00e7\u00e3o, imagens de cont\u00eainer, servi\u00e7os de borda, gateways de API, hospedagem de arquivos est\u00e1ticos, roteamento de tr\u00e1fego e fluxos de trabalho DevOps onde o nginx ou servidores compat\u00edveis precisam de configura\u00e7\u00f5es repet\u00edveis.',
     },
   },
 } satisfies Language;

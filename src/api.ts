@@ -1,8 +1,8 @@
-import { languages } from "./catalog";
-import { detectLanguageSlug, detectLanguageSlugs } from "./detect-slugs";
-import { localizeLanguage } from "./i18n";
-import { type LanguageSlug, languageIndex, loadLanguage } from "./language-registry";
-import type { Language, Locale, LocalizedLanguage } from "./types";
+import { languages } from './catalog';
+import { detectLanguageSlug, detectLanguageSlugs } from './detect-slugs';
+import { localizeLanguage } from './i18n';
+import { type LanguageSlug, languageIndex, loadLanguage } from './language-registry';
+import type { Language, Locale, LocalizedLanguage } from './types';
 
 type RuntimeLanguageSlug = LanguageSlug | (string & {});
 
@@ -46,14 +46,14 @@ export interface LanguageCollectionRequest {
   load(): Promise<LocalizedLanguage[]>;
 }
 
-const defaultLocale: Locale = "en";
+const defaultLocale: Locale = 'en';
 
 const normalizeLanguageSlug = (slug: RuntimeLanguageSlug) =>
   slug
     .trim()
     .toLowerCase()
-    .replace(/\s+/g, "-")
-    .replace(/[^a-z0-9-]/g, "");
+    .replace(/\s+/g, '-')
+    .replace(/[^a-z0-9-]/g, '');
 
 const localizeOptionalLanguage = (language: Language | undefined, locale: Locale) =>
   language ? localizeLanguage(language, locale) : undefined;

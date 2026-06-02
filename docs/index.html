@@ -1011,7 +1011,7 @@ const result = api
             state.locale = button.dataset.locale;
             document
               .querySelectorAll("[data-locale]")
-              .forEach((localeButton) => localeButton.classList.toggle("active", localeButton === button));
+              .forEach((localeButton) => { localeButton.classList.toggle("active", localeButton === button); });
             renderLanguageOptions();
             renderResult();
             renderLanguages();

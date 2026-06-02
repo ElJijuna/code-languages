@@ -1,6 +1,6 @@
-import type { BaseLocale, Language, Locale, LocalizedLanguage } from "./types";
+import type { BaseLocale, Language, Locale, LocalizedLanguage } from './types';
 
-export const localizeLanguage = (language: Language, locale: Locale = "en"): LocalizedLanguage => {
+export const localizeLanguage = (language: Language, locale: Locale = 'en'): LocalizedLanguage => {
   const { i18n, ...metadata } = language;
   const resolvedLocale = resolveLocale(i18n, locale);
   const content = i18n[resolvedLocale] ?? i18n.en;
@@ -14,7 +14,7 @@ export const localizeLanguage = (language: Language, locale: Locale = "en"): Loc
   };
 };
 
-const resolveLocale = (translations: Language["i18n"], locale: Locale): BaseLocale => {
+const resolveLocale = (translations: Language['i18n'], locale: Locale): BaseLocale => {
   const normalizedLocale = locale.toLowerCase();
   const exactLocale = normalizedLocale as BaseLocale;
 
@@ -22,11 +22,11 @@ const resolveLocale = (translations: Language["i18n"], locale: Locale): BaseLoca
     return exactLocale;
   }
 
-  const baseLocale = normalizedLocale.split("-")[0] as BaseLocale;
+  const baseLocale = normalizedLocale.split('-')[0] as BaseLocale;
 
   if (translations[baseLocale]) {
     return baseLocale;
   }
 
-  return "en";
+  return 'en';
 };

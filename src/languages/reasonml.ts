@@ -1,60 +1,60 @@
-import type { Language } from "../types";
+import type { Language } from '../types';
 
 export const reasonml = {
-  slug: "reasonml",
-  publishedDate: "2016-05-13",
-  extensions: [".re", ".rei"],
-  author: "Jordan Walke / Reason contributors",
-  website: "https://reasonml.github.io",
-  paradigms: ["functional", "statically typed", "multi-paradigm"],
+  slug: 'reasonml',
+  publishedDate: '2016-05-13',
+  extensions: ['.re', '.rei'],
+  author: 'Jordan Walke / Reason contributors',
+  website: 'https://reasonml.github.io',
+  paradigms: ['functional', 'statically typed', 'multi-paradigm'],
   tooling: {
-    runtimes: ["OCaml", "JavaScript"],
-    packageManagers: ["opam", "npm"],
-    ecosystems: ["OCaml", "JavaScript", "Web"],
+    runtimes: ['OCaml', 'JavaScript'],
+    packageManagers: ['opam', 'npm'],
+    ecosystems: ['OCaml', 'JavaScript', 'Web'],
   },
-  version: "3.13.0",
-  logo: "https://cdn.simpleicons.org/reason/DD4B39",
-  color: "#DD4B39",
+  version: '3.13.0',
+  logo: 'https://cdn.simpleicons.org/reason/DD4B39',
+  color: '#DD4B39',
   i18n: {
     en: {
-      name: "ReasonML",
-      description: "A JavaScript-like syntax for OCaml and typed functional programming.",
+      name: 'ReasonML',
+      description: 'A JavaScript-like syntax for OCaml and typed functional programming.',
       longDescription:
         "ReasonML is a syntax layer for OCaml that presents familiar braces and punctuation while retaining OCaml's modules, pattern matching, type inference, and functional foundations. It has been used with native OCaml and JavaScript compilation workflows.\n\nIt is used in OCaml-adjacent projects, typed UI code, libraries, and codebases that prefer Reason syntax over traditional OCaml syntax.",
     },
     es: {
-      name: "ReasonML",
-      description: "Una sintaxis cercana a JavaScript para OCaml y programacion funcional tipada.",
+      name: 'ReasonML',
+      description: 'Una sintaxis cercana a JavaScript para OCaml y programacion funcional tipada.',
       longDescription:
-        "ReasonML es una capa de sintaxis para OCaml que presenta llaves y puntuacion familiares conservando modulos, pattern matching, inferencia de tipos y bases funcionales de OCaml. Se ha usado con flujos nativos y de compilacion a JavaScript.\n\nSe usa en proyectos cercanos a OCaml, UI tipada, bibliotecas y codebases que prefieren la sintaxis Reason frente a la sintaxis tradicional de OCaml.",
+        'ReasonML es una capa de sintaxis para OCaml que presenta llaves y puntuacion familiares conservando modulos, pattern matching, inferencia de tipos y bases funcionales de OCaml. Se ha usado con flujos nativos y de compilacion a JavaScript.\n\nSe usa en proyectos cercanos a OCaml, UI tipada, bibliotecas y codebases que prefieren la sintaxis Reason frente a la sintaxis tradicional de OCaml.',
     },
     it: {
-      name: "ReasonML",
+      name: 'ReasonML',
       description:
-        "Una sintassi simile a JavaScript per OCaml e la programmazione funzionale tipata.",
+        'Una sintassi simile a JavaScript per OCaml e la programmazione funzionale tipata.',
       longDescription:
         "ReasonML e un livello di sintassi per OCaml che presenta parentesi e punteggiatura familiari, mantenendo al contempo i moduli, il pattern matching, l'inferenza dei tipi e le fondamenta funzionali di OCaml. E stato utilizzato con OCaml nativo e flussi di lavoro di compilazione in JavaScript.\n\nE utilizzato in progetti adiacenti a OCaml, codice UI tipato, librerie e codebase che preferiscono la sintassi Reason rispetto alla sintassi OCaml tradizionale.",
     },
     fr: {
-      name: "ReasonML",
+      name: 'ReasonML',
       description:
-        "Une syntaxe semblable a JavaScript pour OCaml et la programmation fonctionnelle typee.",
+        'Une syntaxe semblable a JavaScript pour OCaml et la programmation fonctionnelle typee.',
       longDescription:
         "ReasonML est une couche de syntaxe pour OCaml qui presente des accolades et une ponctuation familieres tout en conservant les modules, la correspondance de motifs, l'inference de type et les fondements fonctionnels d'OCaml. Il a ete utilise avec OCaml natif et des flux de travail de compilation vers JavaScript.\n\nIl est utilise dans des projets lies a OCaml, du code d'interface utilisateur type, des bibliotheques et des bases de code qui preferent la syntaxe Reason a la syntaxe OCaml traditionnelle.",
     },
     de: {
-      name: "ReasonML",
+      name: 'ReasonML',
       description:
-        "Eine JavaScript-\u00e4hnliche Syntax f\u00fcr OCaml und typisierte funktionale Programmierung.",
+        'Eine JavaScript-\u00e4hnliche Syntax f\u00fcr OCaml und typisierte funktionale Programmierung.',
       longDescription:
-        "ReasonML ist eine Syntaxebene f\u00fcr OCaml, die vertraute Klammern und Satzzeichen verwendet, w\u00e4hrend sie die Module, das Pattern Matching, die Typinferenz und die funktionalen Grundlagen von OCaml beibeh\u00e4lt. Es wurde mit nativem OCaml und JavaScript-Kompilierungsabl\u00e4ufen verwendet.\n\nEs wird in OCaml-nahen Projekten, typisierten UI-Code, Bibliotheken und Codebasen verwendet, die den Reason-Syntax gegen\u00fcber der traditionellen OCaml-Syntax bevorzugen.",
+        'ReasonML ist eine Syntaxebene f\u00fcr OCaml, die vertraute Klammern und Satzzeichen verwendet, w\u00e4hrend sie die Module, das Pattern Matching, die Typinferenz und die funktionalen Grundlagen von OCaml beibeh\u00e4lt. Es wurde mit nativem OCaml und JavaScript-Kompilierungsabl\u00e4ufen verwendet.\n\nEs wird in OCaml-nahen Projekten, typisierten UI-Code, Bibliotheken und Codebasen verwendet, die den Reason-Syntax gegen\u00fcber der traditionellen OCaml-Syntax bevorzugen.',
     },
     pt: {
-      name: "ReasonML",
+      name: 'ReasonML',
       description:
-        "Uma sintaxe semelhante a JavaScript para OCaml e programa\u00e7\u00e3o funcional com tipagem.",
+        'Uma sintaxe semelhante a JavaScript para OCaml e programa\u00e7\u00e3o funcional com tipagem.',
       longDescription:
-        "ReasonML \u00e9 uma camada de sintaxe para OCaml que apresenta as familiaridades de chaves e pontua\u00e7\u00e3o, mantendo os m\u00f3dulos, correspond\u00eancia de padr\u00f5es, infer\u00eancia de tipo e fundamentos funcionais do OCaml. \u00c9 usado com OCaml nativo e fluxos de trabalho de compila\u00e7\u00e3o para JavaScript.\n\n\u00c9 usado em projetos relacionados ao OCaml, c\u00f3digo de interface de usu\u00e1rio com tipagem, bibliotecas e bases de c\u00f3digo que preferem a sintaxe Reason em vez da sintaxe OCaml tradicional.",
+        'ReasonML \u00e9 uma camada de sintaxe para OCaml que apresenta as familiaridades de chaves e pontua\u00e7\u00e3o, mantendo os m\u00f3dulos, correspond\u00eancia de padr\u00f5es, infer\u00eancia de tipo e fundamentos funcionais do OCaml. \u00c9 usado com OCaml nativo e fluxos de trabalho de compila\u00e7\u00e3o para JavaScript.\n\n\u00c9 usado em projetos relacionados ao OCaml, c\u00f3digo de interface de usu\u00e1rio com tipagem, bibliotecas e bases de c\u00f3digo que preferem a sintaxe Reason em vez da sintaxe OCaml tradicional.',
     },
   },
 } satisfies Language;

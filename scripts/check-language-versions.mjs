@@ -1,265 +1,265 @@
-import { readFile, readdir, writeFile } from "node:fs/promises";
-import { join } from "node:path";
+import { readdir, readFile, writeFile } from 'node:fs/promises';
+import { join } from 'node:path';
 
-const languagesDir = "src/languages";
-const reportPath = "language-version-report.json";
-let githubRequestDelayMs = Number(process.env.GITHUB_REQUEST_DELAY_MS ?? "1200");
-const githubRateLimitMaxWaitMs = Number(process.env.GITHUB_RATE_LIMIT_MAX_WAIT_MS ?? "60000");
+const languagesDir = 'src/languages';
+const reportPath = 'language-version-report.json';
+let githubRequestDelayMs = Number(process.env.GITHUB_REQUEST_DELAY_MS ?? '1200');
+const githubRateLimitMaxWaitMs = Number(process.env.GITHUB_RATE_LIMIT_MAX_WAIT_MS ?? '60000');
 let nextGithubRequestAt = 0;
 
 const manualChecks = {
-  abap: "ABAP Platform releases should be reviewed manually against SAP Help Portal because the source page is rendered dynamically.",
+  abap: 'ABAP Platform releases should be reviewed manually against SAP Help Portal because the source page is rendered dynamically.',
   actionscript:
-    "ActionScript is effectively stable at 3.0 and should be reviewed manually against Adobe AIR and Flash platform documentation.",
-  ada: "Ada standards should be reviewed manually against ISO/IEC 8652 and Ada Resource Association publications.",
-  apex: "Apex API versions are tied to Salesforce seasonal platform releases and should be reviewed manually against Salesforce release notes.",
-  apl: "APL language versioning is implementation-specific; review ISO/IEC 13751 and major implementation release notes manually.",
+    'ActionScript is effectively stable at 3.0 and should be reviewed manually against Adobe AIR and Flash platform documentation.',
+  ada: 'Ada standards should be reviewed manually against ISO/IEC 8652 and Ada Resource Association publications.',
+  apex: 'Apex API versions are tied to Salesforce seasonal platform releases and should be reviewed manually against Salesforce release notes.',
+  apl: 'APL language versioning is implementation-specific; review ISO/IEC 13751 and major implementation release notes manually.',
   applescript:
-    "AppleScript is tied to macOS platform documentation and should be reviewed manually against Apple Developer documentation.",
+    'AppleScript is tied to macOS platform documentation and should be reviewed manually against Apple Developer documentation.',
   arduino:
-    "Arduino Sketch metadata is tied to Arduino API and board core releases rather than one independent language version.",
+    'Arduino Sketch metadata is tied to Arduino API and board core releases rather than one independent language version.',
   asciidoc:
-    "AsciiDoc language standardization is still pre-spec and should be reviewed manually against asciidoc.org and Asciidoctor releases.",
+    'AsciiDoc language standardization is still pre-spec and should be reviewed manually against asciidoc.org and Asciidoctor releases.',
   assembly:
-    "Assembly versions are architecture-specific and should be reviewed manually against assembler and ISA documentation.",
-  c: "ISO standards do not expose a stable free machine-readable latest-version endpoint.",
+    'Assembly versions are architecture-specific and should be reviewed manually against assembler and ISA documentation.',
+  c: 'ISO standards do not expose a stable free machine-readable latest-version endpoint.',
   batch:
-    "Batch is tied to DOS and Windows Command Processor releases rather than an independent language version.",
+    'Batch is tied to DOS and Windows Command Processor releases rather than an independent language version.',
   blade:
-    "Blade versions are tied to Laravel framework releases and should be reviewed manually against Laravel documentation.",
+    'Blade versions are tied to Laravel framework releases and should be reviewed manually against Laravel documentation.',
   coldfusion:
-    "ColdFusion versions are tied to Adobe ColdFusion and CFML platform releases and should be reviewed manually.",
-  cobol: "COBOL standards should be reviewed manually against ISO/IEC 1989 publications.",
-  cpp: "ISO standards do not expose a stable free machine-readable latest-version endpoint.",
-  css: "CSS is maintained as living specifications rather than one package version.",
+    'ColdFusion versions are tied to Adobe ColdFusion and CFML platform releases and should be reviewed manually.',
+  cobol: 'COBOL standards should be reviewed manually against ISO/IEC 1989 publications.',
+  cpp: 'ISO standards do not expose a stable free machine-readable latest-version endpoint.',
+  css: 'CSS is maintained as living specifications rather than one package version.',
   dockerfile:
-    "Dockerfile syntax versions depend on the BuildKit frontend image and should be reviewed manually.",
-  dita: "DITA specifications should be reviewed manually against OASIS publication history.",
+    'Dockerfile syntax versions depend on the BuildKit frontend image and should be reviewed manually.',
+  dita: 'DITA specifications should be reviewed manually against OASIS publication history.',
   erb: "ERB ships with Ruby's standard library and should be reviewed manually against Ruby stdlib documentation.",
   forth:
-    "Forth standards and implementation versions should be reviewed manually against forth-standard.org and major implementation releases.",
+    'Forth standards and implementation versions should be reviewed manually against forth-standard.org and major implementation releases.',
   fortran:
-    "Fortran standards should be reviewed manually against ISO/IEC JTC1/SC22/WG5 publications.",
-  hlsl: "HLSL shader model support should be reviewed manually against Microsoft DirectX Shader Model documentation.",
-  hack: "Hack versions are tied to HHVM platform releases and should be reviewed manually against HHVM release notes.",
-  html: "HTML is maintained as a living standard.",
-  ini: "INI is an informal configuration format without a single formal versioned specification.",
+    'Fortran standards should be reviewed manually against ISO/IEC JTC1/SC22/WG5 publications.',
+  hlsl: 'HLSL shader model support should be reviewed manually against Microsoft DirectX Shader Model documentation.',
+  hack: 'Hack versions are tied to HHVM platform releases and should be reviewed manually against HHVM release notes.',
+  html: 'HTML is maintained as a living standard.',
+  ini: 'INI is an informal configuration format without a single formal versioned specification.',
   javascript:
-    "ECMAScript editions are published yearly and should be checked against ECMA-262 release status.",
-  json: "RFC 8259 is stable and should be reviewed manually when a replacement RFC appears.",
-  "jupyter-notebook":
-    "Jupyter Notebook schema versions should be reviewed manually against nbformat documentation and schema releases.",
-  lisp: "Common Lisp is standardized as ANSI INCITS 226-1994 and should be reviewed manually against ANSI/INCITS publications.",
-  mako: "Mako metadata should be reviewed manually against Mako release notes and PyPI releases.",
+    'ECMAScript editions are published yearly and should be checked against ECMA-262 release status.',
+  json: 'RFC 8259 is stable and should be reviewed manually when a replacement RFC appears.',
+  'jupyter-notebook':
+    'Jupyter Notebook schema versions should be reviewed manually against nbformat documentation and schema releases.',
+  lisp: 'Common Lisp is standardized as ANSI INCITS 226-1994 and should be reviewed manually against ANSI/INCITS publications.',
+  mako: 'Mako metadata should be reviewed manually against Mako release notes and PyPI releases.',
   mathematica:
-    "Wolfram Language versions are tied to Mathematica and Wolfram platform releases and should be reviewed manually.",
+    'Wolfram Language versions are tied to Mathematica and Wolfram platform releases and should be reviewed manually.',
   metal:
-    "Metal versions are tied to Apple platform SDKs and should be reviewed manually against Apple Developer Metal documentation.",
-  mojo: "Mojo releases should be reviewed manually against Modular release notes while the toolchain and versioning model evolve.",
+    'Metal versions are tied to Apple platform SDKs and should be reviewed manually against Apple Developer Metal documentation.',
+  mojo: 'Mojo releases should be reviewed manually against Modular release notes while the toolchain and versioning model evolve.',
   moonbit:
-    "MoonBit releases should be reviewed manually against MoonBit release notes while its toolchain versioning evolves.",
-  "objective-c":
-    "Objective-C language versioning is effectively stable and should be reviewed manually against Apple documentation and runtime updates.",
-  odin: "Odin metadata tracks development snapshots and should be reviewed manually against Odin release notes.",
+    'MoonBit releases should be reviewed manually against MoonBit release notes while its toolchain versioning evolves.',
+  'objective-c':
+    'Objective-C language versioning is effectively stable and should be reviewed manually against Apple documentation and runtime updates.',
+  odin: 'Odin metadata tracks development snapshots and should be reviewed manually against Odin release notes.',
   opencl:
-    "OpenCL C versions follow Khronos specifications and implementation support and should be reviewed manually.",
-  "pine-script":
-    "Pine Script versions are tied to TradingView documentation and should be reviewed manually.",
+    'OpenCL C versions follow Khronos specifications and implementation support and should be reviewed manually.',
+  'pine-script':
+    'Pine Script versions are tied to TradingView documentation and should be reviewed manually.',
   plsql:
-    "PL/SQL metadata is tied to Oracle Database releases and should be reviewed manually against Oracle documentation.",
-  pony: "Pony releases should be reviewed manually against Pony compiler release notes.",
+    'PL/SQL metadata is tied to Oracle Database releases and should be reviewed manually against Oracle documentation.',
+  pony: 'Pony releases should be reviewed manually against Pony compiler release notes.',
   prolog:
-    "Prolog has ISO standards and multiple implementations; metadata should be reviewed manually against ISO Prolog and SWI-Prolog releases.",
+    'Prolog has ISO standards and multiple implementations; metadata should be reviewed manually against ISO Prolog and SWI-Prolog releases.',
   promql:
-    "PromQL metadata is tied to Prometheus query semantics and Prometheus releases and should be reviewed manually.",
-  purescript: "PureScript releases should be reviewed manually against compiler release notes.",
+    'PromQL metadata is tied to Prometheus query semantics and Prometheus releases and should be reviewed manually.',
+  purescript: 'PureScript releases should be reviewed manually against compiler release notes.',
   qsharp:
-    "Q# language metadata is tied to Microsoft Quantum tooling and should be reviewed manually against Microsoft documentation.",
-  qml: "QML versions are tied to Qt platform releases and should be reviewed manually against Qt documentation.",
-  raku: "Raku language versions should be reviewed manually against Raku language and Rakudo release documentation.",
+    'Q# language metadata is tied to Microsoft Quantum tooling and should be reviewed manually against Microsoft documentation.',
+  qml: 'QML versions are tied to Qt platform releases and should be reviewed manually against Qt documentation.',
+  raku: 'Raku language versions should be reviewed manually against Raku language and Rakudo release documentation.',
   reasonml:
-    "ReasonML is a syntax layer over OCaml workflows and should be reviewed manually against Reason releases.",
+    'ReasonML is a syntax layer over OCaml workflows and should be reviewed manually against Reason releases.',
   rescript:
-    "ReScript releases should be reviewed manually against ReScript compiler release notes.",
+    'ReScript releases should be reviewed manually against ReScript compiler release notes.',
   restructuredtext:
-    "reStructuredText metadata follows Docutils and Sphinx ecosystem releases and should be reviewed manually.",
-  sas: "SAS language metadata is tied to SAS platform releases and should be reviewed manually.",
+    'reStructuredText metadata follows Docutils and Sphinx ecosystem releases and should be reviewed manually.',
+  sas: 'SAS language metadata is tied to SAS platform releases and should be reviewed manually.',
   scheme:
-    "Scheme standards and implementation versions should be reviewed manually against R7RS and major implementations.",
+    'Scheme standards and implementation versions should be reviewed manually against R7RS and major implementations.',
   smalltalk:
-    "Smalltalk metadata spans standards and image-based implementations and should be reviewed manually.",
-  smarty: "Smarty releases should be reviewed manually against Smarty project releases.",
-  sql: "SQL standards should be reviewed manually against ISO/IEC 9075 publications.",
-  "standard-ml":
-    "Standard ML metadata follows the language definition and implementations and should be reviewed manually.",
+    'Smalltalk metadata spans standards and image-based implementations and should be reviewed manually.',
+  smarty: 'Smarty releases should be reviewed manually against Smarty project releases.',
+  sql: 'SQL standards should be reviewed manually against ISO/IEC 9075 publications.',
+  'standard-ml':
+    'Standard ML metadata follows the language definition and implementations and should be reviewed manually.',
   starlark:
-    "Starlark is embedded by host tools and should be reviewed manually against Bazel and Starlark language documentation.",
+    'Starlark is embedded by host tools and should be reviewed manually against Bazel and Starlark language documentation.',
   stata:
-    "Stata language metadata is tied to Stata platform releases and should be reviewed manually.",
-  stylus: "Stylus metadata should be reviewed manually against Stylus package releases.",
-  svg: "SVG specifications should be reviewed manually against w3.org/TR/SVG and W3C publication history.",
+    'Stata language metadata is tied to Stata platform releases and should be reviewed manually.',
+  stylus: 'Stylus metadata should be reviewed manually against Stylus package releases.',
+  svg: 'SVG specifications should be reviewed manually against w3.org/TR/SVG and W3C publication history.',
   thrift:
-    "Thrift IDL metadata should be reviewed manually against Apache Thrift releases and compatibility notes.",
-  "tla-plus":
-    "TLA+ metadata follows its language specification and tooling releases and should be reviewed manually.",
-  v: "V metadata tracks compiler releases and should be reviewed manually against V release notes.",
-  vala: "Vala compiler metadata should be reviewed manually against Vala release announcements.",
+    'Thrift IDL metadata should be reviewed manually against Apache Thrift releases and compatibility notes.',
+  'tla-plus':
+    'TLA+ metadata follows its language specification and tooling releases and should be reviewed manually.',
+  v: 'V metadata tracks compiler releases and should be reviewed manually against V release notes.',
+  vala: 'Vala compiler metadata should be reviewed manually against Vala release announcements.',
   verilog:
-    "Verilog/SystemVerilog standards should be reviewed manually against IEEE 1800 publications.",
-  vhdl: "VHDL standards should be reviewed manually against IEEE 1076 publications.",
-  vyper: "Vyper releases should be reviewed manually against Vyper compiler release notes.",
-  webassembly: "WebAssembly standards should be reviewed manually against webassembly.org/specs.",
-  wgsl: "WGSL is maintained by W3C and should be reviewed manually against W3C GPU for the Web publications.",
-  wren: "Wren releases should be reviewed manually against Wren project releases.",
-  xaml: "XAML support is platform-specific across WPF, UWP, WinUI, .NET MAUI, and related frameworks.",
-  xml: "XML 1.0 Fifth Edition is stable and should be reviewed manually if W3C publishes a new edition.",
+    'Verilog/SystemVerilog standards should be reviewed manually against IEEE 1800 publications.',
+  vhdl: 'VHDL standards should be reviewed manually against IEEE 1076 publications.',
+  vyper: 'Vyper releases should be reviewed manually against Vyper compiler release notes.',
+  webassembly: 'WebAssembly standards should be reviewed manually against webassembly.org/specs.',
+  wgsl: 'WGSL is maintained by W3C and should be reviewed manually against W3C GPU for the Web publications.',
+  wren: 'Wren releases should be reviewed manually against Wren project releases.',
+  xaml: 'XAML support is platform-specific across WPF, UWP, WinUI, .NET MAUI, and related frameworks.',
+  xml: 'XML 1.0 Fifth Edition is stable and should be reviewed manually if W3C publishes a new edition.',
   xquery:
-    "XQuery 3.1 is a W3C Recommendation and should be reviewed manually against W3C publication history.",
-  xslt: "XSLT 3.0 is a W3C Recommendation and should be reviewed manually against W3C publication history.",
-  yaml: "YAML specification updates should be reviewed manually against yaml.org/spec.",
-  zeek: "Zeek script language metadata is tied to Zeek platform releases and should be reviewed manually.",
-  ziggy: "Ziggy is still evolving and should be reviewed manually against Ziggy project releases.",
+    'XQuery 3.1 is a W3C Recommendation and should be reviewed manually against W3C publication history.',
+  xslt: 'XSLT 3.0 is a W3C Recommendation and should be reviewed manually against W3C publication history.',
+  yaml: 'YAML specification updates should be reviewed manually against yaml.org/spec.',
+  zeek: 'Zeek script language metadata is tied to Zeek platform releases and should be reviewed manually.',
+  ziggy: 'Ziggy is still evolving and should be reviewed manually against Ziggy project releases.',
   ballerina:
-    "Ballerina releases follow a date-based version scheme and should be reviewed manually against ballerina.io/downloads.",
+    'Ballerina releases follow a date-based version scheme and should be reviewed manually against ballerina.io/downloads.',
   cypher:
-    "Cypher versions are tied to Neo4j platform releases and should be reviewed manually against Neo4j release notes and the openCypher specification.",
+    'Cypher versions are tied to Neo4j platform releases and should be reviewed manually against Neo4j release notes and the openCypher specification.',
   eiffel:
-    "EiffelStudio releases should be reviewed manually against the EiffelStudio download page at eiffel.org.",
+    'EiffelStudio releases should be reviewed manually against the EiffelStudio download page at eiffel.org.',
   hocon:
-    "HOCON versions are tied to the Lightbend Config library and should be reviewed manually against the GitHub releases of lightbend/config.",
+    'HOCON versions are tied to the Lightbend Config library and should be reviewed manually against the GitHub releases of lightbend/config.',
   mustache:
-    "Mustache is a stable specification at 1.0 and should be reviewed manually against the mustache spec repository.",
+    'Mustache is a stable specification at 1.0 and should be reviewed manually against the mustache spec repository.',
   sparql:
-    "SPARQL 1.1 is a W3C Recommendation and should be reviewed manually against W3C publication history.",
+    'SPARQL 1.1 is a W3C Recommendation and should be reviewed manually against W3C publication history.',
   cairo:
-    "Cairo releases should be reviewed manually against the starkware-libs/cairo GitHub releases page.",
-  pkl: "Pkl releases should be reviewed manually against the apple/pkl GitHub releases page.",
-  hare: "Hare releases should be reviewed manually against the harelang.org download page and git.sr.ht/~sircmpwn/hare releases.",
+    'Cairo releases should be reviewed manually against the starkware-libs/cairo GitHub releases page.',
+  pkl: 'Pkl releases should be reviewed manually against the apple/pkl GitHub releases page.',
+  hare: 'Hare releases should be reviewed manually against the harelang.org download page and git.sr.ht/~sircmpwn/hare releases.',
   unison:
-    "Unison releases should be reviewed manually against the unisonweb/unison GitHub releases page.",
-  move: "Move language versions are tied to Aptos and Sui platform releases and should be reviewed manually against their respective GitHub releases.",
-  yara: "YARA releases should be reviewed manually against the VirusTotal/yara GitHub releases page.",
-  hy: "Hy releases should be reviewed manually against the hylang/hy GitHub releases page and PyPI.",
+    'Unison releases should be reviewed manually against the unisonweb/unison GitHub releases page.',
+  move: 'Move language versions are tied to Aptos and Sui platform releases and should be reviewed manually against their respective GitHub releases.',
+  yara: 'YARA releases should be reviewed manually against the VirusTotal/yara GitHub releases page.',
+  hy: 'Hy releases should be reviewed manually against the hylang/hy GitHub releases page and PyPI.',
 };
 
 const checkers = {
   async astro() {
-    const json = await fetchJson("https://registry.npmjs.org/astro/latest");
+    const json = await fetchJson('https://registry.npmjs.org/astro/latest');
 
     return {
       latestVersion: json.version,
-      sourceUrl: "https://registry.npmjs.org/astro/latest",
+      sourceUrl: 'https://registry.npmjs.org/astro/latest',
     };
   },
   async agda() {
-    const html = await fetchText("https://wiki.portal.chalmers.se/agda/Main/Download");
+    const html = await fetchText('https://wiki.portal.chalmers.se/agda/Main/Download');
     const match = html.match(/Version\s+(\d+\.\d+\.\d+)/i);
 
     return {
       latestVersion: match?.[1],
-      sourceUrl: "https://wiki.portal.chalmers.se/agda/Main/Download",
+      sourceUrl: 'https://wiki.portal.chalmers.se/agda/Main/Download',
     };
   },
   async antlr() {
-    const json = await fetchJson("https://api.github.com/repos/antlr/antlr4/releases/latest");
+    const json = await fetchJson('https://api.github.com/repos/antlr/antlr4/releases/latest');
 
     return {
       latestVersion: normalizeVersion(json.tag_name),
-      sourceUrl: "https://api.github.com/repos/antlr/antlr4/releases/latest",
+      sourceUrl: 'https://api.github.com/repos/antlr/antlr4/releases/latest',
     };
   },
   async asp() {
     const html = await fetchText(
-      "https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-framework",
+      'https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-framework',
     );
     const match = html.match(/\.NET Framework\s+(\d+\.\d+\.\d+)\s+is the latest version/i);
 
     return {
       latestVersion: match?.[1],
-      sourceUrl: "https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-framework",
+      sourceUrl: 'https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-framework',
     };
   },
   async awk() {
-    const html = await fetchText("https://ftp.gnu.org/gnu/gawk/");
+    const html = await fetchText('https://ftp.gnu.org/gnu/gawk/');
     const versions = [...html.matchAll(/gawk-(\d+\.\d+\.\d+)\.tar\.(?:gz|xz|lz)/g)].map(
       (match) => match[1],
     );
 
     return {
       latestVersion: `GNU Awk ${latestSemver(versions)}`,
-      sourceUrl: "https://ftp.gnu.org/gnu/gawk/",
+      sourceUrl: 'https://ftp.gnu.org/gnu/gawk/',
     };
   },
   async autohotkey() {
     const json = await fetchJson(
-      "https://api.github.com/repos/AutoHotkey/AutoHotkey/releases/latest",
+      'https://api.github.com/repos/AutoHotkey/AutoHotkey/releases/latest',
     );
 
     return {
       latestVersion: majorMinor(normalizeVersion(json.tag_name)),
-      sourceUrl: "https://api.github.com/repos/AutoHotkey/AutoHotkey/releases/latest",
+      sourceUrl: 'https://api.github.com/repos/AutoHotkey/AutoHotkey/releases/latest',
     };
   },
   async bash() {
-    const html = await fetchText("https://ftp.gnu.org/gnu/bash/");
+    const html = await fetchText('https://ftp.gnu.org/gnu/bash/');
     const versions = [...html.matchAll(/bash-(\d+\.\d+(?:\.\d+)?)\.tar\.gz/g)].map(
       (match) => match[1],
     );
 
     return {
       latestVersion: latestSemver(versions),
-      sourceUrl: "https://ftp.gnu.org/gnu/bash/",
+      sourceUrl: 'https://ftp.gnu.org/gnu/bash/',
     };
   },
   async bazel() {
-    const json = await fetchJson("https://api.github.com/repos/bazelbuild/bazel/releases");
+    const json = await fetchJson('https://api.github.com/repos/bazelbuild/bazel/releases');
     const versions = json
       .map((entry) => normalizeVersion(entry.tag_name))
       .filter((version) => /^\d+\.\d+\.\d+$/.test(version));
 
     return {
       latestVersion: latestSemver(versions),
-      sourceUrl: "https://api.github.com/repos/bazelbuild/bazel/releases",
+      sourceUrl: 'https://api.github.com/repos/bazelbuild/bazel/releases',
     };
   },
   async bicep() {
-    const json = await fetchJson("https://api.github.com/repos/Azure/bicep/releases/latest");
+    const json = await fetchJson('https://api.github.com/repos/Azure/bicep/releases/latest');
 
     return {
       latestVersion: normalizeVersion(json.tag_name),
-      sourceUrl: "https://api.github.com/repos/Azure/bicep/releases/latest",
+      sourceUrl: 'https://api.github.com/repos/Azure/bicep/releases/latest',
     };
   },
   async carbon() {
-    const json = await fetchJson("https://api.github.com/repos/carbon-language/carbon-lang/tags");
+    const json = await fetchJson('https://api.github.com/repos/carbon-language/carbon-lang/tags');
     const latestNightly = json.find((tag) =>
       /^v0\.0\.0-0\.nightly\.\d{4}\.\d{2}\.\d{2}$/.test(tag.name),
     );
 
     return {
-      latestVersion: latestNightly ? "0.0.0 nightly" : undefined,
-      sourceUrl: "https://api.github.com/repos/carbon-language/carbon-lang/tags",
+      latestVersion: latestNightly ? '0.0.0 nightly' : undefined,
+      sourceUrl: 'https://api.github.com/repos/carbon-language/carbon-lang/tags',
     };
   },
   async chapel() {
-    const json = await fetchJson("https://api.github.com/repos/chapel-lang/chapel/releases/latest");
+    const json = await fetchJson('https://api.github.com/repos/chapel-lang/chapel/releases/latest');
 
     return {
       latestVersion: normalizeVersion(json.tag_name),
-      sourceUrl: "https://api.github.com/repos/chapel-lang/chapel/releases/latest",
+      sourceUrl: 'https://api.github.com/repos/chapel-lang/chapel/releases/latest',
     };
   },
   async circom() {
-    const json = await fetchJson("https://api.github.com/repos/iden3/circom/releases/latest");
+    const json = await fetchJson('https://api.github.com/repos/iden3/circom/releases/latest');
 
     return {
       latestVersion: normalizeVersion(json.tag_name),
-      sourceUrl: "https://api.github.com/repos/iden3/circom/releases/latest",
+      sourceUrl: 'https://api.github.com/repos/iden3/circom/releases/latest',
     };
   },
   async csharp() {
     const markdown = await fetchText(
-      "https://raw.githubusercontent.com/dotnet/docs/main/docs/csharp/whats-new/csharp-version-history.md",
+      'https://raw.githubusercontent.com/dotnet/docs/main/docs/csharp/whats-new/csharp-version-history.md',
     );
     const versions = [...markdown.matchAll(/^## C# version (\d+(?:\.\d+)?)/gm)].map(
       (match) => match[1],
@@ -268,232 +268,232 @@ const checkers = {
     return {
       latestVersion: latestNumeric(versions),
       sourceUrl:
-        "https://raw.githubusercontent.com/dotnet/docs/main/docs/csharp/whats-new/csharp-version-history.md",
+        'https://raw.githubusercontent.com/dotnet/docs/main/docs/csharp/whats-new/csharp-version-history.md',
     };
   },
   async cmake() {
-    const html = await fetchText("https://cmake.org/download/");
+    const html = await fetchText('https://cmake.org/download/');
     const match = html.match(/Latest Release \((\d+\.\d+\.\d+)\)/);
 
     return {
       latestVersion: match?.[1],
-      sourceUrl: "https://cmake.org/download/",
+      sourceUrl: 'https://cmake.org/download/',
     };
   },
   async clojure() {
-    const html = await fetchText("https://clojure.org/releases/downloads");
+    const html = await fetchText('https://clojure.org/releases/downloads');
     const match = html.match(/Stable Release:\s+(\d+\.\d+\.\d+)/i);
 
     return {
       latestVersion: match?.[1],
-      sourceUrl: "https://clojure.org/releases/downloads",
+      sourceUrl: 'https://clojure.org/releases/downloads',
     };
   },
   async cuda() {
-    const html = await fetchText("https://developer.nvidia.com/cuda-toolkit-archive");
+    const html = await fetchText('https://developer.nvidia.com/cuda-toolkit-archive');
     const versions = [...html.matchAll(/CUDA Toolkit\s+(\d+\.\d+\.\d+)/g)].map((match) => match[1]);
 
     return {
       latestVersion: latestSemver(versions),
-      sourceUrl: "https://developer.nvidia.com/cuda-toolkit-archive",
+      sourceUrl: 'https://developer.nvidia.com/cuda-toolkit-archive',
     };
   },
   async cython() {
-    const json = await fetchJson("https://pypi.org/pypi/Cython/json");
+    const json = await fetchJson('https://pypi.org/pypi/Cython/json');
 
     return {
       latestVersion: json.info?.version,
-      sourceUrl: "https://pypi.org/pypi/Cython/json",
+      sourceUrl: 'https://pypi.org/pypi/Cython/json',
     };
   },
   async crystal() {
-    const json = await fetchJson("https://crystal-lang.org/api/versions.json");
+    const json = await fetchJson('https://crystal-lang.org/api/versions.json');
     const latest = json.versions?.find((entry) => entry.released !== false);
 
     return {
       latestVersion: latest?.name,
-      sourceUrl: "https://crystal-lang.org/api/versions.json",
+      sourceUrl: 'https://crystal-lang.org/api/versions.json',
     };
   },
   async cue() {
-    const json = await fetchJson("https://api.github.com/repos/cue-lang/cue/releases/latest");
+    const json = await fetchJson('https://api.github.com/repos/cue-lang/cue/releases/latest');
 
     return {
       latestVersion: normalizeVersion(json.tag_name),
-      sourceUrl: "https://api.github.com/repos/cue-lang/cue/releases/latest",
+      sourceUrl: 'https://api.github.com/repos/cue-lang/cue/releases/latest',
     };
   },
   async coffeescript() {
-    const json = await fetchJson("https://registry.npmjs.org/coffeescript/latest");
+    const json = await fetchJson('https://registry.npmjs.org/coffeescript/latest');
 
     return {
       latestVersion: json.version,
-      sourceUrl: "https://registry.npmjs.org/coffeescript/latest",
+      sourceUrl: 'https://registry.npmjs.org/coffeescript/latest',
     };
   },
   async dart() {
     const json = await fetchJson(
-      "https://storage.googleapis.com/dart-archive/channels/stable/release/latest/VERSION",
+      'https://storage.googleapis.com/dart-archive/channels/stable/release/latest/VERSION',
     );
 
     return {
       latestVersion: json.version,
       sourceUrl:
-        "https://storage.googleapis.com/dart-archive/channels/stable/release/latest/VERSION",
+        'https://storage.googleapis.com/dart-archive/channels/stable/release/latest/VERSION',
     };
   },
   async coq() {
-    const html = await fetchText("https://rocq-prover.org/");
+    const html = await fetchText('https://rocq-prover.org/');
     const match = html.match(/Latest Rocq Prover release:\s*(\d+\.\d+\.\d+)/i);
 
     return {
       latestVersion: match?.[1],
-      sourceUrl: "https://rocq-prover.org/",
+      sourceUrl: 'https://rocq-prover.org/',
     };
   },
   async dhall() {
     const json = await fetchJson(
-      "https://api.github.com/repos/dhall-lang/dhall-lang/releases/latest",
+      'https://api.github.com/repos/dhall-lang/dhall-lang/releases/latest',
     );
 
     return {
       latestVersion: normalizeVersion(json.tag_name),
-      sourceUrl: "https://api.github.com/repos/dhall-lang/dhall-lang/releases/latest",
+      sourceUrl: 'https://api.github.com/repos/dhall-lang/dhall-lang/releases/latest',
     };
   },
   async earthly() {
-    const json = await fetchJson("https://api.github.com/repos/earthly/earthly/releases/latest");
+    const json = await fetchJson('https://api.github.com/repos/earthly/earthly/releases/latest');
 
     return {
       latestVersion: normalizeVersion(json.tag_name),
-      sourceUrl: "https://api.github.com/repos/earthly/earthly/releases/latest",
+      sourceUrl: 'https://api.github.com/repos/earthly/earthly/releases/latest',
     };
   },
   async d() {
-    const html = await fetchText("https://dlang.org/index.html");
+    const html = await fetchText('https://dlang.org/index.html');
     const match = html.match(/Latest version:\s+(\d+\.\d+\.\d+)/i);
 
     return {
       latestVersion: match?.[1],
-      sourceUrl: "https://dlang.org/index.html",
+      sourceUrl: 'https://dlang.org/index.html',
     };
   },
   async elixir() {
-    const json = await fetchJson("https://api.github.com/repos/elixir-lang/elixir/releases/latest");
+    const json = await fetchJson('https://api.github.com/repos/elixir-lang/elixir/releases/latest');
 
     return {
       latestVersion: normalizeVersion(json.tag_name),
-      sourceUrl: "https://api.github.com/repos/elixir-lang/elixir/releases/latest",
+      sourceUrl: 'https://api.github.com/repos/elixir-lang/elixir/releases/latest',
     };
   },
   async elm() {
-    const json = await fetchJson("https://registry.npmjs.org/elm/latest");
+    const json = await fetchJson('https://registry.npmjs.org/elm/latest');
 
     return {
-      latestVersion: json.version?.replace(/-\d+$/, ""),
-      sourceUrl: "https://registry.npmjs.org/elm/latest",
+      latestVersion: json.version?.replace(/-\d+$/, ''),
+      sourceUrl: 'https://registry.npmjs.org/elm/latest',
     };
   },
   async erlang() {
-    const json = await fetchJson("https://api.github.com/repos/erlang/otp/releases/latest");
+    const json = await fetchJson('https://api.github.com/repos/erlang/otp/releases/latest');
 
     return {
-      latestVersion: String(json.tag_name ?? "").replace(/^OTP-/, "OTP "),
-      sourceUrl: "https://api.github.com/repos/erlang/otp/releases/latest",
+      latestVersion: String(json.tag_name ?? '').replace(/^OTP-/, 'OTP '),
+      sourceUrl: 'https://api.github.com/repos/erlang/otp/releases/latest',
     };
   },
   async fish() {
     const json = await fetchJson(
-      "https://api.github.com/repos/fish-shell/fish-shell/releases/latest",
+      'https://api.github.com/repos/fish-shell/fish-shell/releases/latest',
     );
 
     return {
       latestVersion: normalizeVersion(json.tag_name),
-      sourceUrl: "https://api.github.com/repos/fish-shell/fish-shell/releases/latest",
+      sourceUrl: 'https://api.github.com/repos/fish-shell/fish-shell/releases/latest',
     };
   },
   async fennel() {
-    const json = await fetchJson("https://api.github.com/repos/bakpakin/Fennel/releases/latest");
+    const json = await fetchJson('https://api.github.com/repos/bakpakin/Fennel/releases/latest');
 
     return {
       latestVersion: normalizeVersion(json.tag_name),
-      sourceUrl: "https://api.github.com/repos/bakpakin/Fennel/releases/latest",
+      sourceUrl: 'https://api.github.com/repos/bakpakin/Fennel/releases/latest',
     };
   },
   async fsharp() {
-    const html = await fetchText("https://learn.microsoft.com/en-us/dotnet/fsharp/whats-new/");
+    const html = await fetchText('https://learn.microsoft.com/en-us/dotnet/fsharp/whats-new/');
     const versions = [...html.matchAll(/F#\s+(\d+)/g)].map((match) => match[1]);
 
     return {
       latestVersion: latestNumeric(versions),
-      sourceUrl: "https://learn.microsoft.com/en-us/dotnet/fsharp/whats-new/",
+      sourceUrl: 'https://learn.microsoft.com/en-us/dotnet/fsharp/whats-new/',
     };
   },
   async gdscript() {
-    const json = await fetchJson("https://api.github.com/repos/godotengine/godot/releases/latest");
-    const match = String(json.tag_name ?? json.name ?? "").match(/^(\d+\.\d+)/);
+    const json = await fetchJson('https://api.github.com/repos/godotengine/godot/releases/latest');
+    const match = String(json.tag_name ?? json.name ?? '').match(/^(\d+\.\d+)/);
 
     return {
       latestVersion: match?.[1],
-      sourceUrl: "https://api.github.com/repos/godotengine/godot/releases/latest",
+      sourceUrl: 'https://api.github.com/repos/godotengine/godot/releases/latest',
     };
   },
   async git() {
-    const html = await fetchText("https://git-scm.com/docs/git");
+    const html = await fetchText('https://git-scm.com/docs/git');
     const match = html.match(/git last updated in (\d+\.\d+\.\d+)/);
 
     return {
       latestVersion: match?.[1],
-      sourceUrl: "https://git-scm.com/docs/git",
+      sourceUrl: 'https://git-scm.com/docs/git',
     };
   },
   async gleam() {
-    const json = await fetchJson("https://api.github.com/repos/gleam-lang/gleam/releases/latest");
+    const json = await fetchJson('https://api.github.com/repos/gleam-lang/gleam/releases/latest');
 
     return {
       latestVersion: normalizeVersion(json.tag_name),
-      sourceUrl: "https://api.github.com/repos/gleam-lang/gleam/releases/latest",
+      sourceUrl: 'https://api.github.com/repos/gleam-lang/gleam/releases/latest',
     };
   },
   async go() {
-    const text = await fetchText("https://go.dev/VERSION?m=text");
+    const text = await fetchText('https://go.dev/VERSION?m=text');
     const match = text.match(/^go(\d+\.\d+(?:\.\d+)?)/m);
 
     return {
       latestVersion: match?.[1],
-      sourceUrl: "https://go.dev/VERSION?m=text",
+      sourceUrl: 'https://go.dev/VERSION?m=text',
     };
   },
   async glsl() {
-    const html = await fetchText("https://registry.khronos.org/OpenGL/specs/gl/");
+    const html = await fetchText('https://registry.khronos.org/OpenGL/specs/gl/');
     const versions = [...html.matchAll(/GLSLangSpec\.(\d+\.\d+)/g)].map((match) => match[1]);
 
     return {
       latestVersion: latestSemver(versions),
-      sourceUrl: "https://registry.khronos.org/OpenGL/specs/gl/",
+      sourceUrl: 'https://registry.khronos.org/OpenGL/specs/gl/',
     };
   },
   async gradle() {
-    const html = await fetchText("https://docs.gradle.org/current/release-notes.html");
+    const html = await fetchText('https://docs.gradle.org/current/release-notes.html');
     const match = html.match(/Gradle\s+(\d+\.\d+(?:\.\d+)?)/);
 
     return {
       latestVersion: match?.[1],
-      sourceUrl: "https://docs.gradle.org/current/release-notes.html",
+      sourceUrl: 'https://docs.gradle.org/current/release-notes.html',
     };
   },
   async graphql() {
-    const html = await fetchText("https://spec.graphql.org/");
+    const html = await fetchText('https://spec.graphql.org/');
     const match = html.match(/>([A-Z][a-z]+ \d{4})</);
 
     return {
       latestVersion: match?.[1]?.trim(),
-      sourceUrl: "https://spec.graphql.org/",
+      sourceUrl: 'https://spec.graphql.org/',
     };
   },
   async groovy() {
     const xml = await fetchText(
-      "https://repo1.maven.org/maven2/org/apache/groovy/groovy/maven-metadata.xml",
+      'https://repo1.maven.org/maven2/org/apache/groovy/groovy/maven-metadata.xml',
     );
     const versions = [...xml.matchAll(/<version>([^<]+)<\/version>/g)]
       .map((match) => match[1])
@@ -501,587 +501,587 @@ const checkers = {
 
     return {
       latestVersion: latestSemver(versions),
-      sourceUrl: "https://repo1.maven.org/maven2/org/apache/groovy/groovy/maven-metadata.xml",
+      sourceUrl: 'https://repo1.maven.org/maven2/org/apache/groovy/groovy/maven-metadata.xml',
     };
   },
   async handlebars() {
-    const json = await fetchJson("https://registry.npmjs.org/handlebars/latest");
+    const json = await fetchJson('https://registry.npmjs.org/handlebars/latest');
 
     return {
       latestVersion: json.version,
-      sourceUrl: "https://registry.npmjs.org/handlebars/latest",
+      sourceUrl: 'https://registry.npmjs.org/handlebars/latest',
     };
   },
   async jsonnet() {
-    const json = await fetchJson("https://api.github.com/repos/google/jsonnet/releases/latest");
+    const json = await fetchJson('https://api.github.com/repos/google/jsonnet/releases/latest');
 
     return {
       latestVersion: normalizeVersion(json.tag_name),
-      sourceUrl: "https://api.github.com/repos/google/jsonnet/releases/latest",
+      sourceUrl: 'https://api.github.com/repos/google/jsonnet/releases/latest',
     };
   },
   async haskell() {
-    const html = await fetchText("https://downloads.haskell.org/~ghc/latest/");
+    const html = await fetchText('https://downloads.haskell.org/~ghc/latest/');
     const versions = [...html.matchAll(/ghc-(\d+\.\d+\.\d+)-src\.tar\.(?:gz|xz)/g)].map(
       (match) => match[1],
     );
 
     return {
       latestVersion: `GHC ${latestSemver(versions)}`,
-      sourceUrl: "https://downloads.haskell.org/~ghc/latest/",
+      sourceUrl: 'https://downloads.haskell.org/~ghc/latest/',
     };
   },
   async haxe() {
-    const html = await fetchText("https://haxe.org/download/list/");
+    const html = await fetchText('https://haxe.org/download/list/');
     const match = html.match(/current stable version is[\s\S]{0,120}?(\d+\.\d+\.\d+)/i);
 
     return {
       latestVersion: match?.[1],
-      sourceUrl: "https://haxe.org/download/list/",
+      sourceUrl: 'https://haxe.org/download/list/',
     };
   },
   async haml() {
-    const json = await fetchJson("https://rubygems.org/api/v1/versions/haml/latest.json");
+    const json = await fetchJson('https://rubygems.org/api/v1/versions/haml/latest.json');
 
     return {
       latestVersion: json.version,
-      sourceUrl: "https://rubygems.org/api/v1/versions/haml/latest.json",
+      sourceUrl: 'https://rubygems.org/api/v1/versions/haml/latest.json',
     };
   },
   async idris() {
-    const json = await fetchJson("https://api.github.com/repos/idris-lang/Idris2/releases/latest");
+    const json = await fetchJson('https://api.github.com/repos/idris-lang/Idris2/releases/latest');
 
     return {
       latestVersion: normalizeVersion(json.tag_name),
-      sourceUrl: "https://api.github.com/repos/idris-lang/Idris2/releases/latest",
+      sourceUrl: 'https://api.github.com/repos/idris-lang/Idris2/releases/latest',
     };
   },
   async hcl() {
-    const json = await fetchJson("https://api.github.com/repos/hashicorp/hcl/releases/latest");
+    const json = await fetchJson('https://api.github.com/repos/hashicorp/hcl/releases/latest');
 
     return {
       latestVersion: normalizeVersion(json.tag_name),
-      sourceUrl: "https://api.github.com/repos/hashicorp/hcl/releases/latest",
+      sourceUrl: 'https://api.github.com/repos/hashicorp/hcl/releases/latest',
     };
   },
   async java() {
-    const json = await fetchJson("https://api.adoptium.net/v3/info/available_releases");
+    const json = await fetchJson('https://api.adoptium.net/v3/info/available_releases');
     const releases = json.available_releases ?? [];
     const latest = Math.max(...releases.map(Number).filter(Number.isFinite));
 
     return {
       latestVersion: String(latest),
-      sourceUrl: "https://api.adoptium.net/v3/info/available_releases",
+      sourceUrl: 'https://api.adoptium.net/v3/info/available_releases',
     };
   },
   async jinja() {
-    const json = await fetchJson("https://pypi.org/pypi/Jinja2/json");
+    const json = await fetchJson('https://pypi.org/pypi/Jinja2/json');
 
     return {
       latestVersion: json.info?.version,
-      sourceUrl: "https://pypi.org/pypi/Jinja2/json",
+      sourceUrl: 'https://pypi.org/pypi/Jinja2/json',
     };
   },
   async janet() {
-    const json = await fetchJson("https://api.github.com/repos/janet-lang/janet/releases/latest");
+    const json = await fetchJson('https://api.github.com/repos/janet-lang/janet/releases/latest');
 
     return {
       latestVersion: normalizeVersion(json.tag_name),
-      sourceUrl: "https://api.github.com/repos/janet-lang/janet/releases/latest",
+      sourceUrl: 'https://api.github.com/repos/janet-lang/janet/releases/latest',
     };
   },
   async julia() {
-    const json = await fetchJson("https://api.github.com/repos/JuliaLang/julia/releases/latest");
+    const json = await fetchJson('https://api.github.com/repos/JuliaLang/julia/releases/latest');
 
     return {
       latestVersion: normalizeVersion(json.tag_name),
-      sourceUrl: "https://api.github.com/repos/JuliaLang/julia/releases/latest",
+      sourceUrl: 'https://api.github.com/repos/JuliaLang/julia/releases/latest',
     };
   },
   async kotlin() {
-    const json = await fetchJson("https://api.github.com/repos/JetBrains/kotlin/releases/latest");
+    const json = await fetchJson('https://api.github.com/repos/JetBrains/kotlin/releases/latest');
 
     return {
       latestVersion: normalizeVersion(json.tag_name),
-      sourceUrl: "https://api.github.com/repos/JetBrains/kotlin/releases/latest",
+      sourceUrl: 'https://api.github.com/repos/JetBrains/kotlin/releases/latest',
     };
   },
   async lean() {
-    const json = await fetchJson("https://api.github.com/repos/leanprover/lean4/releases/latest");
+    const json = await fetchJson('https://api.github.com/repos/leanprover/lean4/releases/latest');
 
     return {
       latestVersion: normalizeVersion(json.tag_name),
-      sourceUrl: "https://api.github.com/repos/leanprover/lean4/releases/latest",
+      sourceUrl: 'https://api.github.com/repos/leanprover/lean4/releases/latest',
     };
   },
   async less() {
-    const json = await fetchJson("https://registry.npmjs.org/less/latest");
+    const json = await fetchJson('https://registry.npmjs.org/less/latest');
 
     return {
       latestVersion: json.version,
-      sourceUrl: "https://registry.npmjs.org/less/latest",
+      sourceUrl: 'https://registry.npmjs.org/less/latest',
     };
   },
   async liquid() {
-    const json = await fetchJson("https://registry.npmjs.org/liquidjs/latest");
+    const json = await fetchJson('https://registry.npmjs.org/liquidjs/latest');
 
     return {
       latestVersion: json.version,
-      sourceUrl: "https://registry.npmjs.org/liquidjs/latest",
+      sourceUrl: 'https://registry.npmjs.org/liquidjs/latest',
     };
   },
   async lua() {
-    const html = await fetchText("https://www.lua.org/download.html");
+    const html = await fetchText('https://www.lua.org/download.html');
     const match = html.match(/lua-(\d+\.\d+\.\d+)\.tar\.gz/i);
 
     return {
       latestVersion: match?.[1],
-      sourceUrl: "https://www.lua.org/download.html",
+      sourceUrl: 'https://www.lua.org/download.html',
     };
   },
-  async "llvm-ir"() {
-    const html = await fetchText("https://llvm.org/");
+  async 'llvm-ir'() {
+    const html = await fetchText('https://llvm.org/');
     const versions = [...html.matchAll(/LLVM\s+(\d+\.\d+\.\d+)/g)].map((match) => match[1]);
 
     return {
       latestVersion: latestSemver(versions),
-      sourceUrl: "https://llvm.org/",
+      sourceUrl: 'https://llvm.org/',
     };
   },
   async luau() {
-    const json = await fetchJson("https://api.github.com/repos/luau-lang/luau/releases/latest");
+    const json = await fetchJson('https://api.github.com/repos/luau-lang/luau/releases/latest');
 
     return {
       latestVersion: normalizeVersion(json.tag_name),
-      sourceUrl: "https://api.github.com/repos/luau-lang/luau/releases/latest",
+      sourceUrl: 'https://api.github.com/repos/luau-lang/luau/releases/latest',
     };
   },
   async ocaml() {
-    const html = await fetchText("https://ocaml.org/p/ocaml/latest/versions");
+    const html = await fetchText('https://ocaml.org/p/ocaml/latest/versions');
     const versions = [...html.matchAll(/>\s*(\d+\.\d+\.\d+)\s*<\/a>/g)].map((match) => match[1]);
 
     return {
       latestVersion: latestSemver(versions),
-      sourceUrl: "https://ocaml.org/p/ocaml/latest/versions",
+      sourceUrl: 'https://ocaml.org/p/ocaml/latest/versions',
     };
   },
   async makefile() {
-    const html = await fetchText("https://ftp.gnu.org/gnu/make/");
+    const html = await fetchText('https://ftp.gnu.org/gnu/make/');
     const versions = [...html.matchAll(/make-(\d+\.\d+(?:\.\d+)?)\.tar\.gz/g)].map(
       (match) => match[1],
     );
 
     return {
       latestVersion: latestSemver(versions),
-      sourceUrl: "https://ftp.gnu.org/gnu/make/",
+      sourceUrl: 'https://ftp.gnu.org/gnu/make/',
     };
   },
   async matlab() {
-    const html = await fetchText("https://www.mathworks.com/company/newsroom.html");
+    const html = await fetchText('https://www.mathworks.com/company/newsroom.html');
     const match = html.match(/\bR(\d{4}[ab])\b/i);
 
     return {
       latestVersion: match ? `R${match[1]}` : undefined,
-      sourceUrl: "https://www.mathworks.com/company/newsroom.html",
+      sourceUrl: 'https://www.mathworks.com/company/newsroom.html',
     };
   },
   async markdown() {
-    const html = await fetchText("https://spec.commonmark.org/");
+    const html = await fetchText('https://spec.commonmark.org/');
     const versions = [...html.matchAll(/\/(\d+\.\d+(?:\.\d+)?)\//g)].map((match) => match[1]);
 
     return {
       latestVersion: `CommonMark ${latestSemver(versions)}`,
-      sourceUrl: "https://spec.commonmark.org/",
+      sourceUrl: 'https://spec.commonmark.org/',
     };
   },
   async mdx() {
-    const json = await fetchJson("https://registry.npmjs.org/@mdx-js%2fmdx/latest");
+    const json = await fetchJson('https://registry.npmjs.org/@mdx-js%2fmdx/latest');
 
     return {
       latestVersion: json.version,
-      sourceUrl: "https://registry.npmjs.org/@mdx-js%2fmdx/latest",
+      sourceUrl: 'https://registry.npmjs.org/@mdx-js%2fmdx/latest',
     };
   },
   async mermaid() {
-    const json = await fetchJson("https://registry.npmjs.org/mermaid/latest");
+    const json = await fetchJson('https://registry.npmjs.org/mermaid/latest');
 
     return {
       latestVersion: json.version,
-      sourceUrl: "https://registry.npmjs.org/mermaid/latest",
+      sourceUrl: 'https://registry.npmjs.org/mermaid/latest',
     };
   },
   async meson() {
-    const json = await fetchJson("https://pypi.org/pypi/meson/json");
+    const json = await fetchJson('https://pypi.org/pypi/meson/json');
 
     return {
       latestVersion: json.info?.version,
-      sourceUrl: "https://pypi.org/pypi/meson/json",
+      sourceUrl: 'https://pypi.org/pypi/meson/json',
     };
   },
   async nunjucks() {
-    const json = await fetchJson("https://registry.npmjs.org/nunjucks/latest");
+    const json = await fetchJson('https://registry.npmjs.org/nunjucks/latest');
 
     return {
       latestVersion: json.version,
-      sourceUrl: "https://registry.npmjs.org/nunjucks/latest",
+      sourceUrl: 'https://registry.npmjs.org/nunjucks/latest',
     };
   },
   async nushell() {
-    const json = await fetchJson("https://api.github.com/repos/nushell/nushell/releases/latest");
+    const json = await fetchJson('https://api.github.com/repos/nushell/nushell/releases/latest');
 
     return {
       latestVersion: normalizeVersion(json.tag_name),
-      sourceUrl: "https://api.github.com/repos/nushell/nushell/releases/latest",
+      sourceUrl: 'https://api.github.com/repos/nushell/nushell/releases/latest',
     };
   },
   async json5() {
-    const json = await fetchJson("https://registry.npmjs.org/json5/latest");
+    const json = await fetchJson('https://registry.npmjs.org/json5/latest');
 
     return {
       latestVersion: json.version,
-      sourceUrl: "https://registry.npmjs.org/json5/latest",
+      sourceUrl: 'https://registry.npmjs.org/json5/latest',
     };
   },
   async nix() {
-    const html = await fetchText("https://nix.dev/manual/nix/latest/");
+    const html = await fetchText('https://nix.dev/manual/nix/latest/');
     const match = html.match(/Nix\s+(\d+\.\d+\.\d+)\s+Reference Manual/i);
 
     return {
       latestVersion: match?.[1],
-      sourceUrl: "https://nix.dev/manual/nix/latest/",
+      sourceUrl: 'https://nix.dev/manual/nix/latest/',
     };
   },
   async nginx() {
-    const html = await fetchText("https://nginx.org/en/download.html");
+    const html = await fetchText('https://nginx.org/en/download.html');
     const stableSection = html.match(/Stable version[\s\S]*?(?:Legacy versions|Source Code)/i)?.[0];
     const match = stableSection?.match(/nginx-(\d+\.\d+\.\d+)/);
 
     return {
       latestVersion: match?.[1],
-      sourceUrl: "https://nginx.org/en/download.html",
+      sourceUrl: 'https://nginx.org/en/download.html',
     };
   },
   async nim() {
-    const html = await fetchText("https://nim-lang.org/");
+    const html = await fetchText('https://nim-lang.org/');
     const match = html.match(/Nim version\s+(\d+\.\d+\.\d+)\s+released/i);
 
     return {
       latestVersion: match?.[1],
-      sourceUrl: "https://nim-lang.org/",
+      sourceUrl: 'https://nim-lang.org/',
     };
   },
   async pascal() {
-    const html = await fetchText("https://www.freepascal.org/download.html.en");
+    const html = await fetchText('https://www.freepascal.org/download.html.en');
     const match = html.match(/latest release is[\s\S]{0,80}?(\d+\.\d+\.\d+)/i);
 
     return {
       latestVersion: match?.[1],
-      sourceUrl: "https://www.freepascal.org/download.html.en",
+      sourceUrl: 'https://www.freepascal.org/download.html.en',
     };
   },
   async perl() {
-    const html = await fetchText("https://dev.perl.org/perl5/");
+    const html = await fetchText('https://dev.perl.org/perl5/');
     const match = html.match(
       /Perl[\s\S]{0,100}?(\d+\.\d+\.\d+)[\s\S]{0,80}?is the current stable version/i,
     );
 
     return {
       latestVersion: match?.[1],
-      sourceUrl: "https://dev.perl.org/perl5/",
+      sourceUrl: 'https://dev.perl.org/perl5/',
     };
   },
   async php() {
-    const json = await fetchJson("https://api.github.com/repos/php/php-src/releases/latest");
+    const json = await fetchJson('https://api.github.com/repos/php/php-src/releases/latest');
 
     return {
-      latestVersion: normalizeVersion(String(json.tag_name ?? "").replace(/^php-/i, "")),
-      sourceUrl: "https://api.github.com/repos/php/php-src/releases/latest",
+      latestVersion: normalizeVersion(String(json.tag_name ?? '').replace(/^php-/i, '')),
+      sourceUrl: 'https://api.github.com/repos/php/php-src/releases/latest',
     };
   },
   async plantuml() {
-    const json = await fetchJson("https://api.github.com/repos/plantuml/plantuml/releases");
+    const json = await fetchJson('https://api.github.com/repos/plantuml/plantuml/releases');
     const release = json.find(
       (entry) => entry.prerelease !== true && /^v\d+\.\d+\.\d+$/.test(entry.tag_name),
     );
 
     return {
       latestVersion: normalizeVersion(release?.tag_name),
-      sourceUrl: "https://api.github.com/repos/plantuml/plantuml/releases",
+      sourceUrl: 'https://api.github.com/repos/plantuml/plantuml/releases',
     };
   },
   async powershell() {
-    const html = await fetchText("https://github.com/PowerShell/PowerShell/releases");
+    const html = await fetchText('https://github.com/PowerShell/PowerShell/releases');
     const versions = [...html.matchAll(/v(\d+\.\d+\.\d+) Release of PowerShell/g)].map(
       (match) => match[1],
     );
 
     return {
       latestVersion: latestSemver(versions),
-      sourceUrl: "https://github.com/PowerShell/PowerShell/releases",
+      sourceUrl: 'https://github.com/PowerShell/PowerShell/releases',
     };
   },
   async protobuf() {
     const json = await fetchJson(
-      "https://api.github.com/repos/protocolbuffers/protobuf/releases/latest",
+      'https://api.github.com/repos/protocolbuffers/protobuf/releases/latest',
     );
 
     return {
       latestVersion: normalizeVersion(json.tag_name),
-      sourceUrl: "https://api.github.com/repos/protocolbuffers/protobuf/releases/latest",
+      sourceUrl: 'https://api.github.com/repos/protocolbuffers/protobuf/releases/latest',
     };
   },
   async pug() {
-    const json = await fetchJson("https://registry.npmjs.org/pug/latest");
+    const json = await fetchJson('https://registry.npmjs.org/pug/latest');
 
     return {
       latestVersion: json.version,
-      sourceUrl: "https://registry.npmjs.org/pug/latest",
+      sourceUrl: 'https://registry.npmjs.org/pug/latest',
     };
   },
   async python() {
-    const html = await fetchText("https://www.python.org/downloads/");
+    const html = await fetchText('https://www.python.org/downloads/');
     const versions = [...html.matchAll(/Python (\d+\.\d+\.\d+)/g)].map((match) => match[1]);
 
     return {
       latestVersion: latestSemver(versions),
-      sourceUrl: "https://www.python.org/downloads/",
+      sourceUrl: 'https://www.python.org/downloads/',
     };
   },
   async r() {
-    const html = await fetchText("https://www.r-project.org/");
+    const html = await fetchText('https://www.r-project.org/');
     const versions = [...html.matchAll(/R version\s+(\d+\.\d+\.\d+)/g)].map((match) => match[1]);
 
     return {
       latestVersion: latestSemver(versions),
-      sourceUrl: "https://www.r-project.org/",
+      sourceUrl: 'https://www.r-project.org/',
     };
   },
   async racket() {
-    const html = await fetchText("https://download.racket-lang.org/");
+    const html = await fetchText('https://download.racket-lang.org/');
     const match = html.match(/Version\s+(\d+\.\d+(?:\.\d+)?)/i);
 
     return {
       latestVersion: match?.[1],
-      sourceUrl: "https://download.racket-lang.org/",
+      sourceUrl: 'https://download.racket-lang.org/',
     };
   },
   async razor() {
     const json = await fetchJson(
-      "https://builds.dotnet.microsoft.com/dotnet/release-metadata/releases-index.json",
+      'https://builds.dotnet.microsoft.com/dotnet/release-metadata/releases-index.json',
     );
-    const versions = json["releases-index"]
-      ?.map((release) => release["latest-release"])
+    const versions = json['releases-index']
+      ?.map((release) => release['latest-release'])
       .filter((version) => /^\d+\.\d+\.\d+$/.test(version));
 
     return {
       latestVersion: latestSemver(versions),
-      sourceUrl: "https://builds.dotnet.microsoft.com/dotnet/release-metadata/releases-index.json",
+      sourceUrl: 'https://builds.dotnet.microsoft.com/dotnet/release-metadata/releases-index.json',
     };
   },
   async rego() {
     const json = await fetchJson(
-      "https://api.github.com/repos/open-policy-agent/opa/releases/latest",
+      'https://api.github.com/repos/open-policy-agent/opa/releases/latest',
     );
 
     return {
       latestVersion: `OPA ${normalizeVersion(json.tag_name)}`,
-      sourceUrl: "https://api.github.com/repos/open-policy-agent/opa/releases/latest",
+      sourceUrl: 'https://api.github.com/repos/open-policy-agent/opa/releases/latest',
     };
   },
   async rust() {
-    const toml = await fetchText("https://static.rust-lang.org/dist/channel-rust-stable.toml");
+    const toml = await fetchText('https://static.rust-lang.org/dist/channel-rust-stable.toml');
     const match = toml.match(/pkg\.rust\]\s+version = "(\d+\.\d+\.\d+)/);
 
     return {
       latestVersion: match?.[1],
-      sourceUrl: "https://static.rust-lang.org/dist/channel-rust-stable.toml",
+      sourceUrl: 'https://static.rust-lang.org/dist/channel-rust-stable.toml',
     };
   },
   async scala() {
-    const json = await fetchJson("https://api.github.com/repos/scala/scala3/releases/latest");
+    const json = await fetchJson('https://api.github.com/repos/scala/scala3/releases/latest');
 
     return {
       latestVersion: normalizeVersion(json.tag_name),
-      sourceUrl: "https://api.github.com/repos/scala/scala3/releases/latest",
+      sourceUrl: 'https://api.github.com/repos/scala/scala3/releases/latest',
     };
   },
   async ruby() {
-    const html = await fetchText("https://www.ruby-lang.org/en/downloads/");
+    const html = await fetchText('https://www.ruby-lang.org/en/downloads/');
     const match = html.match(/current stable version is (\d+\.\d+\.\d+)/i);
 
     return {
       latestVersion: match?.[1],
-      sourceUrl: "https://www.ruby-lang.org/en/downloads/",
+      sourceUrl: 'https://www.ruby-lang.org/en/downloads/',
     };
   },
   async scss() {
-    const json = await fetchJson("https://registry.npmjs.org/sass/latest");
+    const json = await fetchJson('https://registry.npmjs.org/sass/latest');
 
     return {
       latestVersion: json.version,
-      sourceUrl: "https://registry.npmjs.org/sass/latest",
+      sourceUrl: 'https://registry.npmjs.org/sass/latest',
     };
   },
   async solidity() {
-    const html = await fetchText("https://soliditylang.org/");
+    const html = await fetchText('https://soliditylang.org/');
     const versions = [...html.matchAll(/Solidity Compiler v(\d+\.\d+\.\d+)/g)].map(
       (match) => match[1],
     );
 
     return {
       latestVersion: latestSemver(versions),
-      sourceUrl: "https://soliditylang.org/",
+      sourceUrl: 'https://soliditylang.org/',
     };
   },
   async svelte() {
-    const json = await fetchJson("https://registry.npmjs.org/svelte/latest");
+    const json = await fetchJson('https://registry.npmjs.org/svelte/latest');
 
     return {
       latestVersion: json.version,
-      sourceUrl: "https://registry.npmjs.org/svelte/latest",
+      sourceUrl: 'https://registry.npmjs.org/svelte/latest',
     };
   },
   async svn() {
-    const html = await fetchText("https://subversion.apache.org/");
+    const html = await fetchText('https://subversion.apache.org/');
     const match = html.match(/Apache Subversion\s+(\d+\.\d+\.\d+)\s+Released/i);
 
     return {
       latestVersion: match?.[1],
-      sourceUrl: "https://subversion.apache.org/",
+      sourceUrl: 'https://subversion.apache.org/',
     };
   },
   async swift() {
-    const json = await fetchJson("https://api.github.com/repos/swiftlang/swift/releases/latest");
-    const match = String(json.tag_name ?? json.name ?? "").match(
+    const json = await fetchJson('https://api.github.com/repos/swiftlang/swift/releases/latest');
+    const match = String(json.tag_name ?? json.name ?? '').match(
       /swift-(\d+\.\d+(?:\.\d+)?)-RELEASE/,
     );
 
     return {
       latestVersion: match?.[1],
-      sourceUrl: "https://api.github.com/repos/swiftlang/swift/releases/latest",
+      sourceUrl: 'https://api.github.com/repos/swiftlang/swift/releases/latest',
     };
   },
   async tcl() {
-    const html = await fetchText("https://www.tcl-lang.org/software/tcltk/9.0.html");
+    const html = await fetchText('https://www.tcl-lang.org/software/tcltk/9.0.html');
     const match = html.match(/Latest Release:\s+Tcl\/Tk\s+(\d+\.\d+\.\d+)/i);
 
     return {
       latestVersion: match?.[1],
-      sourceUrl: "https://www.tcl-lang.org/software/tcltk/9.0.html",
+      sourceUrl: 'https://www.tcl-lang.org/software/tcltk/9.0.html',
     };
   },
   async tex() {
-    const json = await fetchJson("https://ctan.org/json/2.0/pkg/texlive");
+    const json = await fetchJson('https://ctan.org/json/2.0/pkg/texlive');
 
     return {
       latestVersion: json.version?.number ? `TeX Live ${json.version.number}` : undefined,
-      sourceUrl: "https://ctan.org/json/2.0/pkg/texlive",
+      sourceUrl: 'https://ctan.org/json/2.0/pkg/texlive',
     };
   },
   async toml() {
-    const json = await fetchJson("https://api.github.com/repos/toml-lang/toml/releases/latest");
+    const json = await fetchJson('https://api.github.com/repos/toml-lang/toml/releases/latest');
 
     return {
       latestVersion: normalizeVersion(json.tag_name),
-      sourceUrl: "https://api.github.com/repos/toml-lang/toml/releases/latest",
+      sourceUrl: 'https://api.github.com/repos/toml-lang/toml/releases/latest',
     };
   },
   async twig() {
-    const json = await fetchJson("https://repo.packagist.org/p2/twig/twig.json");
-    const versions = json.packages?.["twig/twig"]
+    const json = await fetchJson('https://repo.packagist.org/p2/twig/twig.json');
+    const versions = json.packages?.['twig/twig']
       ?.map((entry) => normalizeVersion(entry.version))
       .filter((version) => /^\d+\.\d+\.\d+$/.test(version));
 
     return {
       latestVersion: latestSemver(versions),
-      sourceUrl: "https://repo.packagist.org/p2/twig/twig.json",
+      sourceUrl: 'https://repo.packagist.org/p2/twig/twig.json',
     };
   },
   async typescript() {
-    const json = await fetchJson("https://registry.npmjs.org/typescript/latest");
+    const json = await fetchJson('https://registry.npmjs.org/typescript/latest');
 
     return {
       latestVersion: majorMinor(json.version),
-      sourceUrl: "https://registry.npmjs.org/typescript/latest",
+      sourceUrl: 'https://registry.npmjs.org/typescript/latest',
     };
   },
   async typst() {
-    const json = await fetchJson("https://api.github.com/repos/typst/typst/releases/latest");
+    const json = await fetchJson('https://api.github.com/repos/typst/typst/releases/latest');
 
     return {
       latestVersion: normalizeVersion(json.tag_name),
-      sourceUrl: "https://api.github.com/repos/typst/typst/releases/latest",
+      sourceUrl: 'https://api.github.com/repos/typst/typst/releases/latest',
     };
   },
-  async "visual-basic"() {
+  async 'visual-basic'() {
     const html = await fetchText(
-      "https://learn.microsoft.com/en-us/dotnet/visual-basic/whats-new/",
+      'https://learn.microsoft.com/en-us/dotnet/visual-basic/whats-new/',
     );
     const match = html.match(/Current version[\s\S]*?Visual Basic (\d+\.\d+)/i);
 
     return {
       latestVersion: match?.[1],
-      sourceUrl: "https://learn.microsoft.com/en-us/dotnet/visual-basic/whats-new/",
+      sourceUrl: 'https://learn.microsoft.com/en-us/dotnet/visual-basic/whats-new/',
     };
   },
   async vue() {
-    const json = await fetchJson("https://registry.npmjs.org/vue/latest");
+    const json = await fetchJson('https://registry.npmjs.org/vue/latest');
 
     return {
       latestVersion: json.version,
-      sourceUrl: "https://registry.npmjs.org/vue/latest",
+      sourceUrl: 'https://registry.npmjs.org/vue/latest',
     };
   },
   async zig() {
-    const json = await fetchJson("https://ziglang.org/download/index.json");
+    const json = await fetchJson('https://ziglang.org/download/index.json');
     const versions = Object.keys(json).filter((version) => /^\d+\.\d+\.\d+$/.test(version));
 
     return {
       latestVersion: latestSemver(versions),
-      sourceUrl: "https://ziglang.org/download/index.json",
+      sourceUrl: 'https://ziglang.org/download/index.json',
     };
   },
   async zsh() {
-    const html = await fetchText("https://zsh.sourceforge.io/Arc/source.html");
+    const html = await fetchText('https://zsh.sourceforge.io/Arc/source.html');
     const versions = [...html.matchAll(/Download zsh (\d+\.\d+(?:\.\d+)?)/g)].map(
       (match) => match[1],
     );
 
     return {
       latestVersion: latestSemver(versions),
-      sourceUrl: "https://zsh.sourceforge.io/Arc/source.html",
+      sourceUrl: 'https://zsh.sourceforge.io/Arc/source.html',
     };
   },
   async grain() {
-    const json = await fetchJson("https://api.github.com/repos/grain-lang/grain/releases/latest");
+    const json = await fetchJson('https://api.github.com/repos/grain-lang/grain/releases/latest');
 
     return {
       latestVersion: normalizeVersion(json.tag_name),
-      sourceUrl: "https://api.github.com/repos/grain-lang/grain/releases/latest",
+      sourceUrl: 'https://api.github.com/repos/grain-lang/grain/releases/latest',
     };
   },
   async nickel() {
-    const json = await fetchJson("https://api.github.com/repos/nickel-lang/nickel/releases/latest");
+    const json = await fetchJson('https://api.github.com/repos/nickel-lang/nickel/releases/latest');
 
     return {
       latestVersion: normalizeVersion(json.tag_name),
-      sourceUrl: "https://api.github.com/repos/nickel-lang/nickel/releases/latest",
+      sourceUrl: 'https://api.github.com/repos/nickel-lang/nickel/releases/latest',
     };
   },
   async flux() {
-    const json = await fetchJson("https://api.github.com/repos/influxdata/flux/releases/latest");
+    const json = await fetchJson('https://api.github.com/repos/influxdata/flux/releases/latest');
 
     return {
       latestVersion: normalizeVersion(json.tag_name),
-      sourceUrl: "https://api.github.com/repos/influxdata/flux/releases/latest",
+      sourceUrl: 'https://api.github.com/repos/influxdata/flux/releases/latest',
     };
   },
   async kcl() {
-    const json = await fetchJson("https://api.github.com/repos/kcl-lang/kcl/releases/latest");
+    const json = await fetchJson('https://api.github.com/repos/kcl-lang/kcl/releases/latest');
 
     return {
       latestVersion: normalizeVersion(json.tag_name),
-      sourceUrl: "https://api.github.com/repos/kcl-lang/kcl/releases/latest",
+      sourceUrl: 'https://api.github.com/repos/kcl-lang/kcl/releases/latest',
     };
   },
 };
@@ -1118,25 +1118,25 @@ async function main() {
 
 function parseOptions(args) {
   const language = parseLanguageOption(args);
-  const requestDelay = parseNumberOption(args, "--request-delay");
+  const requestDelay = parseNumberOption(args, '--request-delay');
 
   return {
-    applyUpdates: args.includes("--apply-updates"),
-    createIssues: args.includes("--create-issues"),
-    createPullRequests: args.includes("--create-pull-requests"),
-    failOnError: args.includes("--fail-on-error"),
+    applyUpdates: args.includes('--apply-updates'),
+    createIssues: args.includes('--create-issues'),
+    createPullRequests: args.includes('--create-pull-requests'),
+    failOnError: args.includes('--fail-on-error'),
     language,
     requestDelay,
   };
 }
 
 function parseLanguageOption(args) {
-  const languageFlagIndex = args.indexOf("--language");
+  const languageFlagIndex = args.indexOf('--language');
   const languageFlagValue =
     languageFlagIndex === -1 ? undefined : args[languageFlagIndex + 1]?.trim();
   const inlineLanguageFlagValue = args
-    .find((arg) => arg.startsWith("--language="))
-    ?.slice("--language=".length)
+    .find((arg) => arg.startsWith('--language='))
+    ?.slice('--language='.length)
     .trim();
   const language = inlineLanguageFlagValue || languageFlagValue;
 
@@ -1144,8 +1144,8 @@ function parseLanguageOption(args) {
     return undefined;
   }
 
-  if (language.startsWith("--")) {
-    throw new Error("--language requires a language slug value");
+  if (language.startsWith('--')) {
+    throw new Error('--language requires a language slug value');
   }
 
   return language;
@@ -1173,9 +1173,9 @@ async function readLanguages(languageSlug) {
   const files = await readdir(languagesDir);
   const languages = [];
 
-  for (const file of files.filter((name) => name.endsWith(".ts")).sort()) {
+  for (const file of files.filter((name) => name.endsWith('.ts')).sort()) {
     const filePath = join(languagesDir, file);
-    const source = await readFile(filePath, "utf8");
+    const source = await readFile(filePath, 'utf8');
     const slug = source.match(/slug:\s*"([^"]+)"/)?.[1];
     const version = source.match(/version:\s*"([^"]+)"/)?.[1];
     const name = source.match(/name:\s*"([^"]+)"/)?.[1] ?? slug;
@@ -1216,7 +1216,7 @@ async function buildReport(languages) {
     if (!checker) {
       report.skipped.push({
         ...language,
-        reason: manualChecks[language.slug] ?? "No automated version checker configured yet.",
+        reason: manualChecks[language.slug] ?? 'No automated version checker configured yet.',
       });
       console.log(`${prefix}: Skipped`);
       continue;
@@ -1226,7 +1226,7 @@ async function buildReport(languages) {
       const result = await checker(language);
 
       if (!result.latestVersion) {
-        throw new Error("Could not detect latest version from source");
+        throw new Error('Could not detect latest version from source');
       }
 
       const item = {
@@ -1258,12 +1258,12 @@ async function buildReport(languages) {
 
 async function applyLocalUpdates(updates) {
   if (updates.length === 0) {
-    console.log("No updates to apply.");
+    console.log('No updates to apply.');
     return;
   }
 
   for (const update of updates) {
-    const languageContent = await readFile(update.filePath, "utf8");
+    const languageContent = await readFile(update.filePath, 'utf8');
     const updatedLanguageContent = updateLanguageVersion(languageContent, update);
 
     if (updatedLanguageContent !== languageContent) {
@@ -1271,11 +1271,11 @@ async function applyLocalUpdates(updates) {
       console.log(`Updated ${update.filePath}: ${update.version} -> ${update.latestVersion}`);
     }
 
-    const readmeContent = await readFile("README.md", "utf8");
+    const readmeContent = await readFile('README.md', 'utf8');
     const updatedReadmeContent = updateReadmeLanguageVersion(readmeContent, update);
 
     if (updatedReadmeContent !== readmeContent) {
-      await writeFile("README.md", updatedReadmeContent);
+      await writeFile('README.md', updatedReadmeContent);
       console.log(`Updated README.md: ${update.name} ${update.version} -> ${update.latestVersion}`);
     }
   }
@@ -1286,10 +1286,10 @@ async function createIssues(updates) {
   const repository = process.env.GITHUB_REPOSITORY;
 
   if (!token || !repository) {
-    throw new Error("GITHUB_TOKEN and GITHUB_REPOSITORY are required to create issues");
+    throw new Error('GITHUB_TOKEN and GITHUB_REPOSITORY are required to create issues');
   }
 
-  const [owner, repo] = repository.split("/");
+  const [owner, repo] = repository.split('/');
 
   for (const update of updates) {
     await syncVersionUpdateIssue({ owner, repo, token, update });
@@ -1299,13 +1299,13 @@ async function createIssues(updates) {
 async function createPullRequests(updates) {
   const token = process.env.GITHUB_TOKEN;
   const repository = process.env.GITHUB_REPOSITORY;
-  const baseBranch = process.env.GITHUB_REF_NAME ?? "main";
+  const baseBranch = process.env.GITHUB_REF_NAME ?? 'main';
 
   if (!token || !repository) {
-    throw new Error("GITHUB_TOKEN and GITHUB_REPOSITORY are required to create pull requests");
+    throw new Error('GITHUB_TOKEN and GITHUB_REPOSITORY are required to create pull requests');
   }
 
-  const [owner, repo] = repository.split("/");
+  const [owner, repo] = repository.split('/');
 
   for (const update of updates) {
     await syncVersionUpdatePullRequest({ baseBranch, owner, repo, token, update });
@@ -1319,7 +1319,7 @@ async function syncVersionUpdateIssue({ owner, repo, token, update }) {
 
   if (!existingIssue) {
     await githubRequest(`/repos/${owner}/${repo}/issues`, {
-      method: "POST",
+      method: 'POST',
       token,
       body: {
         title,
@@ -1339,7 +1339,7 @@ async function syncVersionUpdateIssue({ owner, repo, token, update }) {
   }
 
   await githubRequest(`/repos/${owner}/${repo}/issues/${existingIssue.number}`, {
-    method: "PATCH",
+    method: 'PATCH',
     token,
     body: {
       title,
@@ -1348,16 +1348,16 @@ async function syncVersionUpdateIssue({ owner, repo, token, update }) {
   });
 
   await githubRequest(`/repos/${owner}/${repo}/issues/${existingIssue.number}/comments`, {
-    method: "POST",
+    method: 'POST',
     token,
     body: {
       body: [
         `The automated language version check detected a newer ${update.name} version.`,
-        "",
-        `- Previous detected version: ${previousVersion ?? "unknown"}`,
+        '',
+        `- Previous detected version: ${previousVersion ?? 'unknown'}`,
         `- New detected version: ${update.latestVersion}`,
         `- Source: ${update.sourceUrl}`,
-      ].join("\n"),
+      ].join('\n'),
     },
   });
 
@@ -1394,7 +1394,7 @@ async function syncVersionUpdatePullRequest({ baseBranch, owner, repo, token, up
     branch,
     message: issueTitle(update),
     owner,
-    path: "README.md",
+    path: 'README.md',
     repo,
     token,
     update,
@@ -1403,7 +1403,7 @@ async function syncVersionUpdatePullRequest({ baseBranch, owner, repo, token, up
 
   if (!existingPullRequest) {
     await githubRequest(`/repos/${owner}/${repo}/pulls`, {
-      method: "POST",
+      method: 'POST',
       token,
       body: {
         title,
@@ -1419,7 +1419,7 @@ async function syncVersionUpdatePullRequest({ baseBranch, owner, repo, token, up
   }
 
   await githubRequest(`/repos/${owner}/${repo}/pulls/${existingPullRequest.number}`, {
-    method: "PATCH",
+    method: 'PATCH',
     token,
     body: {
       title,
@@ -1490,7 +1490,7 @@ async function ensureBranch({ baseBranch, branch, owner, repo, token }) {
   });
 
   await githubRequest(`/repos/${owner}/${repo}/git/refs`, {
-    method: "POST",
+    method: 'POST',
     token,
     body: {
       ref: `refs/heads/${branch}`,
@@ -1508,7 +1508,7 @@ async function getRepositoryFile({ branch, owner, path, repo, token }) {
   );
 
   return {
-    content: Buffer.from(file.content, "base64").toString("utf8"),
+    content: Buffer.from(file.content, 'base64').toString('utf8'),
     sha: file.sha,
   };
 }
@@ -1553,12 +1553,12 @@ async function updateRepositoryFileContent({
 
 async function updateRepositoryFile({ branch, content, message, owner, path, repo, sha, token }) {
   await githubRequest(`/repos/${owner}/${repo}/contents/${path}`, {
-    method: "PUT",
+    method: 'PUT',
     token,
     body: {
       branch,
       message,
-      content: Buffer.from(content).toString("base64"),
+      content: Buffer.from(content).toString('base64'),
       sha,
     },
   });
@@ -1572,14 +1572,14 @@ function updateReadmeLanguageVersion(content, update) {
   const importPath = `code-languages/${update.slug}`;
   const rowPattern = new RegExp(
     `^(\\| .*? \\| .*? \\| \`${escapeRegExp(update.slug)}\` \\| .*? \\| )\`?[^|\\n]+\`?( \\| \`${escapeRegExp(importPath)}\` \\|)$`,
-    "m",
+    'm',
   );
 
   return content.replace(rowPattern, `$1\`${update.latestVersion}\`$2`);
 }
 
 function escapeRegExp(value) {
-  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
 function issueMarker(slug) {
@@ -1593,39 +1593,39 @@ function issueTitle(update) {
 function issueBody(update) {
   return [
     `The automated language version check found a pending ${update.name} update.`,
-    "",
+    '',
     `- Language: ${update.name} (${update.slug})`,
     `- Current version: ${update.version}`,
     `- Detected version: ${update.latestVersion}`,
     `- Source: ${update.sourceUrl}`,
     `- File: \`${update.filePath}\``,
-    "",
-    "Please verify the upstream source before updating the metadata.",
-    "",
+    '',
+    'Please verify the upstream source before updating the metadata.',
+    '',
     issueMarker(update.slug),
     issueVersionMarker(update.latestVersion),
-  ].join("\n");
+  ].join('\n');
 }
 
 function pullRequestBody(update, issue) {
-  const issueLine = issue ? `Closes #${issue.number}` : "Related issue: not found";
+  const issueLine = issue ? `Closes #${issue.number}` : 'Related issue: not found';
 
   return [
     `Updates ${update.name} metadata to ${update.latestVersion}.`,
-    "",
+    '',
     `- Language: ${update.name} (${update.slug})`,
     `- Previous version: ${update.version}`,
     `- New version: ${update.latestVersion}`,
     `- Source: ${update.sourceUrl}`,
     `- File: \`${update.filePath}\``,
-    "",
+    '',
     issueLine,
-    "",
-    "This pull request was created by the manual language version check workflow.",
-    "",
+    '',
+    'This pull request was created by the manual language version check workflow.',
+    '',
     issueMarker(update.slug),
     issueVersionMarker(update.latestVersion),
-  ].join("\n");
+  ].join('\n');
 }
 
 function issueVersionMarker(version) {
@@ -1654,8 +1654,8 @@ async function fetchText(url) {
 async function fetchWithHeaders(url) {
   const response = await fetchUrl(url, {
     headers: {
-      Accept: "application/json, text/plain, */*",
-      "User-Agent": "code-languages-version-check",
+      Accept: 'application/json, text/plain, */*',
+      'User-Agent': 'code-languages-version-check',
     },
   });
 
@@ -1666,15 +1666,15 @@ async function fetchWithHeaders(url) {
   return response;
 }
 
-async function githubRequest(path, { allowNotFound = false, body, method = "GET", token }) {
+async function githubRequest(path, { allowNotFound = false, body, method = 'GET', token }) {
   const response = await fetchUrl(`https://api.github.com${path}`, {
     method,
     headers: {
-      Accept: "application/vnd.github+json",
+      Accept: 'application/vnd.github+json',
       Authorization: `Bearer ${token}`,
-      "Content-Type": "application/json",
-      "User-Agent": "code-languages-version-check",
-      "X-GitHub-Api-Version": "2022-11-28",
+      'Content-Type': 'application/json',
+      'User-Agent': 'code-languages-version-check',
+      'X-GitHub-Api-Version': '2022-11-28',
     },
     body: body ? JSON.stringify(body) : undefined,
   });
@@ -1716,7 +1716,7 @@ async function fetchUrl(url, options) {
 }
 
 function isGitHubApiUrl(url) {
-  return String(url).startsWith("https://api.github.com/");
+  return String(url).startsWith('https://api.github.com/');
 }
 
 async function waitForGitHubRequestSlot() {
@@ -1736,18 +1736,18 @@ async function waitForGitHubRequestSlot() {
 function shouldRetryGitHubRateLimit(response) {
   return (
     (response.status === 403 || response.status === 429) &&
-    (response.headers.get("x-ratelimit-remaining") === "0" || response.headers.has("retry-after"))
+    (response.headers.get('x-ratelimit-remaining') === '0' || response.headers.has('retry-after'))
   );
 }
 
 function getGitHubRateLimitWaitMs(response) {
-  const retryAfterSeconds = Number(response.headers.get("retry-after"));
+  const retryAfterSeconds = Number(response.headers.get('retry-after'));
 
   if (Number.isFinite(retryAfterSeconds) && retryAfterSeconds > 0) {
     return retryAfterSeconds * 1000;
   }
 
-  const resetSeconds = Number(response.headers.get("x-ratelimit-reset"));
+  const resetSeconds = Number(response.headers.get('x-ratelimit-reset'));
 
   if (Number.isFinite(resetSeconds) && resetSeconds > 0) {
     return Math.max(0, resetSeconds * 1000 - Date.now()) + 1000;
@@ -1774,8 +1774,8 @@ function latestNumeric(versions) {
 }
 
 function compareSemver(left, right) {
-  const a = left.split(".").map(Number);
-  const b = right.split(".").map(Number);
+  const a = left.split('.').map(Number);
+  const b = right.split('.').map(Number);
 
   for (let index = 0; index < Math.max(a.length, b.length); index += 1) {
     const difference = (a[index] ?? 0) - (b[index] ?? 0);
@@ -1789,24 +1789,24 @@ function compareSemver(left, right) {
 }
 
 function normalizeVersion(value) {
-  return String(value ?? "")
-    .replace(/^v/i, "")
-    .replace(/^kotlin-?/i, "")
+  return String(value ?? '')
+    .replace(/^v/i, '')
+    .replace(/^kotlin-?/i, '')
     .trim();
 }
 
 function majorMinor(value) {
-  const match = String(value ?? "").match(/^(\d+\.\d+)/);
+  const match = String(value ?? '').match(/^(\d+\.\d+)/);
 
   return match?.[1] ?? value;
 }
 
 function normalizeComparable(value) {
   return normalizeVersion(value)
-    .replace(/^commonmark\s+/i, "")
-    .replace(/^r(\d{4})a$/i, "$1.1")
-    .replace(/^r(\d{4})b$/i, "$1.2")
-    .replace(/(\d{4})\s+fps(\d+)/i, "$1.$2")
+    .replace(/^commonmark\s+/i, '')
+    .replace(/^r(\d{4})a$/i, '$1.1')
+    .replace(/^r(\d{4})b$/i, '$1.2')
+    .replace(/(\d{4})\s+fps(\d+)/i, '$1.$2')
     .trim()
     .toLowerCase();
 }

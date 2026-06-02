@@ -1,62 +1,62 @@
-import type { Language } from "../types";
+import type { Language } from '../types';
 
 export const webassembly = {
-  slug: "webassembly",
-  publishedDate: "2017-03-07",
-  extensions: [".wasm", ".wat"],
-  author: "W3C WebAssembly Community Group",
-  website: "https://webassembly.org",
-  paradigms: ["stack-based", "assembly", "low-level", "portable"],
+  slug: 'webassembly',
+  publishedDate: '2017-03-07',
+  extensions: ['.wasm', '.wat'],
+  author: 'W3C WebAssembly Community Group',
+  website: 'https://webassembly.org',
+  paradigms: ['stack-based', 'assembly', 'low-level', 'portable'],
   tooling: {
-    runtimes: ["Browser", "Wasmtime", "Wasmer", "Node.js", "WASI"],
-    packageManagers: ["Warg", "npm"],
-    ecosystems: ["Web", "WASI", "WebAssembly Component Model"],
+    runtimes: ['Browser', 'Wasmtime', 'Wasmer', 'Node.js', 'WASI'],
+    packageManagers: ['Warg', 'npm'],
+    ecosystems: ['Web', 'WASI', 'WebAssembly Component Model'],
   },
-  version: "3.0",
-  logo: "https://upload.wikimedia.org/wikipedia/commons/1/1f/WebAssembly_Logo.svg",
-  color: "#654FF0",
+  version: '3.0',
+  logo: 'https://upload.wikimedia.org/wikipedia/commons/1/1f/WebAssembly_Logo.svg',
+  color: '#654FF0',
   i18n: {
     en: {
-      name: "WebAssembly",
+      name: 'WebAssembly',
       description:
-        "A portable low-level code format for safe, near-native execution across web and non-web runtimes.",
+        'A portable low-level code format for safe, near-native execution across web and non-web runtimes.',
       longDescription:
-        "WebAssembly is a compact binary instruction format with a structured text format, designed as a safe, portable compilation target for languages such as C, C++, Rust, Go, and many others.\n\nIt runs in browsers and standalone runtimes, supports sandboxed execution, and is used for performance-sensitive web applications, plugins, serverless workloads, edge computing, and portable components through WASI and the component model.",
+        'WebAssembly is a compact binary instruction format with a structured text format, designed as a safe, portable compilation target for languages such as C, C++, Rust, Go, and many others.\n\nIt runs in browsers and standalone runtimes, supports sandboxed execution, and is used for performance-sensitive web applications, plugins, serverless workloads, edge computing, and portable components through WASI and the component model.',
     },
     es: {
-      name: "WebAssembly",
+      name: 'WebAssembly',
       description:
-        "Un formato de codigo de bajo nivel y portable para ejecucion segura y casi nativa en runtimes web y no web.",
+        'Un formato de codigo de bajo nivel y portable para ejecucion segura y casi nativa en runtimes web y no web.',
       longDescription:
-        "WebAssembly es un formato binario compacto de instrucciones con un formato textual estructurado, disenado como objetivo de compilacion seguro y portable para lenguajes como C, C++, Rust, Go y muchos otros.\n\nSe ejecuta en navegadores y runtimes independientes, soporta ejecucion en sandbox y se usa en aplicaciones web sensibles al rendimiento, plugins, cargas serverless, edge computing y componentes portables mediante WASI y el modelo de componentes.",
+        'WebAssembly es un formato binario compacto de instrucciones con un formato textual estructurado, disenado como objetivo de compilacion seguro y portable para lenguajes como C, C++, Rust, Go y muchos otros.\n\nSe ejecuta en navegadores y runtimes independientes, soporta ejecucion en sandbox y se usa en aplicaciones web sensibles al rendimiento, plugins, cargas serverless, edge computing y componentes portables mediante WASI y el modelo de componentes.',
     },
     it: {
-      name: "WebAssembly",
+      name: 'WebAssembly',
       description:
         "Un formato di codice a basso livello portatile per l'esecuzione sicura e vicina al nativo su runtime web e non-web.",
       longDescription:
         "WebAssembly e un formato di istruzioni binarie compatto con un formato di testo strutturato, progettato come target di compilazione sicuro e portatile per linguaggi come C, C++, Rust, Go e molti altri.\n\nFunziona nei browser e nei runtime autonomi, supporta l'esecuzione in sandbox e viene utilizzato per applicazioni web ad alte prestazioni, plugin, workload serverless, edge computing e componenti portatili tramite WASI e il modello di componenti.",
     },
     fr: {
-      name: "WebAssembly",
+      name: 'WebAssembly',
       description:
-        "Un format de code de bas niveau portable pour une execution securisee et proche du natif sur les environnements web et non-web.",
+        'Un format de code de bas niveau portable pour une execution securisee et proche du natif sur les environnements web et non-web.',
       longDescription:
         "WebAssembly est un format d'instruction binaire compact avec un format de texte structure, concu comme une cible de compilation securisee et portable pour des langages tels que C, C++, Rust, Go, et bien d'autres.\n\nIl fonctionne dans les navigateurs et les environnements autonomes, prend en charge l'execution sandboxee, et est utilise pour les applications web sensibles aux performances, les plugins, les charges de travail serverless, l'informatique de peripherie, et les composants portables via WASI et le modele de composants.",
     },
     de: {
-      name: "WebAssembly",
+      name: 'WebAssembly',
       description:
-        "Ein portables, Low-Level-Code-Format f\u00fcr sicheres, nahezu nativ ausgef\u00fchrtes Code \u00fcber Web- und Nicht-Web-Runtimes.",
+        'Ein portables, Low-Level-Code-Format f\u00fcr sicheres, nahezu nativ ausgef\u00fchrtes Code \u00fcber Web- und Nicht-Web-Runtimes.',
       longDescription:
-        "WebAssembly ist ein kompakter Bin\u00e4r-Instruktionsformat mit einem strukturierten Textformat, das als sicheres, portables Kompilationsziel f\u00fcr Sprachen wie C, C++, Rust, Go und viele andere dient.\n\nEs l\u00e4uft in Browsern und eigenst\u00e4ndigen Runtimes, unterst\u00fctzt sandboxed Ausf\u00fchrung und wird f\u00fcr performanzkritische Webanwendungen, Plugins, serverlose Workloads, Edge Computing und portable Komponenten \u00fcber WASI und das Component-Modell verwendet.",
+        'WebAssembly ist ein kompakter Bin\u00e4r-Instruktionsformat mit einem strukturierten Textformat, das als sicheres, portables Kompilationsziel f\u00fcr Sprachen wie C, C++, Rust, Go und viele andere dient.\n\nEs l\u00e4uft in Browsern und eigenst\u00e4ndigen Runtimes, unterst\u00fctzt sandboxed Ausf\u00fchrung und wird f\u00fcr performanzkritische Webanwendungen, Plugins, serverlose Workloads, Edge Computing und portable Komponenten \u00fcber WASI und das Component-Modell verwendet.',
     },
     pt: {
-      name: "WebAssembly",
+      name: 'WebAssembly',
       description:
-        "Formato de c\u00f3digo de baixo n\u00edvel port\u00e1til para execu\u00e7\u00e3o segura e pr\u00f3xima do nativo em web e ambientes n\u00e3o-web.",
+        'Formato de c\u00f3digo de baixo n\u00edvel port\u00e1til para execu\u00e7\u00e3o segura e pr\u00f3xima do nativo em web e ambientes n\u00e3o-web.',
       longDescription:
-        "WebAssembly \u00e9 um formato bin\u00e1rio compacto de instru\u00e7\u00f5es com um formato de texto estruturado, projetado como um alvo de compila\u00e7\u00e3o seguro e port\u00e1til para linguagens como C, C++, Rust, Go e muitas outras.\n\nEle executa em navegadores e ambientes de tempo de execu\u00e7\u00e3o independentes, suporta execu\u00e7\u00e3o em sandbox e \u00e9 usado para aplica\u00e7\u00f5es web de alto desempenho, plugins, cargas de trabalho serverless, computa\u00e7\u00e3o de borda e componentes port\u00e1teis atrav\u00e9s do WASI e do modelo de componentes.",
+        'WebAssembly \u00e9 um formato bin\u00e1rio compacto de instru\u00e7\u00f5es com um formato de texto estruturado, projetado como um alvo de compila\u00e7\u00e3o seguro e port\u00e1til para linguagens como C, C++, Rust, Go e muitas outras.\n\nEle executa em navegadores e ambientes de tempo de execu\u00e7\u00e3o independentes, suporta execu\u00e7\u00e3o em sandbox e \u00e9 usado para aplica\u00e7\u00f5es web de alto desempenho, plugins, cargas de trabalho serverless, computa\u00e7\u00e3o de borda e componentes port\u00e1teis atrav\u00e9s do WASI e do modelo de componentes.',
     },
   },
 } satisfies Language;

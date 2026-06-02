@@ -1,12 +1,12 @@
-import { writeFile } from "node:fs/promises";
+import { writeFile } from 'node:fs/promises';
 
-import { languages } from "../dist/index.js";
+import { languages } from '../dist/index.js';
 
-const dataFile = new URL("../docs/data/languages.json", import.meta.url);
-const locales = ["en", "es", "it", "fr", "de", "pt"];
+const dataFile = new URL('../docs/data/languages.json', import.meta.url);
+const locales = ['en', 'es', 'it', 'fr', 'de', 'pt'];
 
 const localizedFieldName = (locale, field) => {
-  if (locale === "en") {
+  if (locale === 'en') {
     return field;
   }
 
@@ -25,9 +25,9 @@ const siteData = {
           const content = language.i18n[locale] ?? language.i18n.en;
 
           return [
-            [localizedFieldName(locale, "name"), content.name],
-            [localizedFieldName(locale, "description"), content.description],
-            [localizedFieldName(locale, "longDescription"), content.longDescription],
+            [localizedFieldName(locale, 'name'), content.name],
+            [localizedFieldName(locale, 'description'), content.description],
+            [localizedFieldName(locale, 'longDescription'), content.longDescription],
           ];
         }),
       );
