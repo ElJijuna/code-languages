@@ -11,7 +11,7 @@ export const flux = {
     runtimes: ['InfluxDB', 'Flux CLI'],
     ecosystems: ['Time Series', 'Monitoring', 'Observability', 'InfluxDB'],
   },
-  version: '0.197.0',
+  version: '0.200.0',
   logo: 'https://avatars.githubusercontent.com/u/5713248?v=4',
   color: '#22ADF6',
   i18n: {

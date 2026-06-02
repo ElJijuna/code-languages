@@ -12,7 +12,7 @@ export const grain = {
     packageManagers: ['grain (built-in)'],
     ecosystems: ['WebAssembly', 'Web', 'Server'],
   },
-  version: '0.6.5',
+  version: 'grain-v0.7.2',
   logo: 'https://avatars.githubusercontent.com/u/54953488?v=4',
   color: '#7C4DFF',
   i18n: {

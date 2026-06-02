@@ -12,7 +12,7 @@ export const kcl = {
     packageManagers: ['kcl mod'],
     ecosystems: ['Configuration', 'Kubernetes', 'Cloud Native', 'Infrastructure as Code'],
   },
-  version: '0.11.0',
+  version: '0.11.2',
   logo: 'https://avatars.githubusercontent.com/u/121281745?v=4',
   color: '#4A90D9',
   i18n: {

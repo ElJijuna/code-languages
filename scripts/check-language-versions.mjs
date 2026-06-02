@@ -1176,9 +1176,9 @@ async function readLanguages(languageSlug) {
   for (const file of files.filter((name) => name.endsWith('.ts')).sort()) {
     const filePath = join(languagesDir, file);
     const source = await readFile(filePath, 'utf8');
-    const slug = source.match(/slug:\s*"([^"]+)"/)?.[1];
-    const version = source.match(/version:\s*"([^"]+)"/)?.[1];
-    const name = source.match(/name:\s*"([^"]+)"/)?.[1] ?? slug;
+    const slug = source.match(/slug:\s*['"]([^'"]+)['"]/)?.[1];
+    const version = source.match(/version:\s*['"]([^'"]+)['"]/)?.[1];
+    const name = source.match(/name:\s*['"]([^'"]+)['"]/)?.[1] ?? slug;
 
     if (slug && version) {
       languages.push({ filePath, name, slug, version });
@@ -1565,7 +1565,10 @@ async function updateRepositoryFile({ branch, content, message, owner, path, rep
 }
 
 function updateLanguageVersion(content, update) {
-  return content.replace(/version:\s*"[^"]+"/, `version: "${update.latestVersion}"`);
+  return content.replace(
+    /version:\s*(['"])(.*?)\1/,
+    (_match, quote) => `version: ${quote}${update.latestVersion}${quote}`,
+  );
 }
 
 function updateReadmeLanguageVersion(content, update) {

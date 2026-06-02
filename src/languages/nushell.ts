@@ -12,7 +12,7 @@ export const nushell = {
     packageManagers: ['nupm'],
     ecosystems: ['Shell', 'Unix', 'Windows', 'macOS'],
   },
-  version: '0.103.0',
+  version: '0.113.1',
   logo: 'https://www.nushell.sh/icons/android-chrome-512x512.png',
   color: '#3AA675',
   i18n: {

@@ -11,7 +11,7 @@ export const nickel = {
     runtimes: ['nickel CLI'],
     ecosystems: ['Configuration', 'Infrastructure', 'Nix', 'DevOps'],
   },
-  version: '1.9.1',
+  version: '1.16.0',
   logo: 'https://avatars.githubusercontent.com/u/83021462?v=4',
   color: '#3C6EB4',
   i18n: {

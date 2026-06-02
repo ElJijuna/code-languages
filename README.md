@@ -246,8 +246,8 @@ from its package subpath.
 | <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Elm_logo.svg" alt="Elm logo" width="24" height="24"> | Elm | `elm` | `.elm` | `0.19.1` | `code-languages/elm` |
 | <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ruby_logo.svg" alt="ERB logo" width="24" height="24"> | ERB | `erb` | `.erb`, `.rhtml`, `.html.erb` | `Ruby stdlib` | `code-languages/erb` |
 | <img src="https://cdn.simpleicons.org/erlang/A90533" alt="Erlang logo" width="24" height="24"> | Erlang | `erlang` | `.erl`, `.hrl`, `.app.src`, `.escript`, `.xrl`, `.yrl`, `rebar.config` | `OTP 29.0` | `code-languages/erlang` |
-| <img src="https://fishshell.com/assets/img/Terminal_Logo2_CRT_Flat.png" alt="Fish logo" width="24" height="24"> | Fish | `fish` | `.fish` | `4.0.2` | `code-languages/fish` |
-| <img src="https://avatars.githubusercontent.com/u/5713248?v=4" alt="Flux logo" width="24" height="24"> | Flux | `flux` | `.flux` | `0.197.0` | `code-languages/flux` |
+| <img src="https://fishshell.com/assets/img/Terminal_Logo2_CRT_Flat.png" alt="Fish logo" width="24" height="24"> | Fish | `fish` | `.fish` | `4.7.1` | `code-languages/fish` |
+| <img src="https://avatars.githubusercontent.com/u/5713248?v=4" alt="Flux logo" width="24" height="24"> | Flux | `flux` | `.flux` | `0.200.0` | `code-languages/flux` |
 | <img src="https://fennel-lang.org/logo.svg" alt="Fennel logo" width="24" height="24"> | Fennel | `fennel` | `.fnl` | `1.6.1` | `code-languages/fennel` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Fortran_logo.svg" alt="Fortran logo" width="24" height="24"> | Fortran | `fortran` | `.f`, `.for`, `.ftn`, `.f90`, `.f95`, `.f03`, `.f08`, `.f18`, `.f23` | `Fortran 2023` | `code-languages/fortran` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Gforth_Logo.png" alt="Forth logo" width="24" height="24"> | Forth | `forth` | `.fs`, `.fth`, `.forth`, `.4th` | `Forth 2012` | `code-languages/forth` |
@@ -256,7 +256,7 @@ from its package subpath.
 | <img src="https://cdn.simpleicons.org/git/F05032" alt="Git logo" width="24" height="24"> | Git | `git` | `.git`, `.gitignore`, `.gitattributes`, `.gitmodules`, `.gitkeep` | `2.54.0` | `code-languages/git` |
 | <img src="https://cdn.simpleicons.org/gleam/FFAFF3" alt="Gleam logo" width="24" height="24"> | Gleam | `gleam` | `.gleam` | `1.16.0` | `code-languages/gleam` |
 | <img src="https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg" alt="Go logo" width="24" height="24"> | Go | `go` | `.go` | `1.26.3` | `code-languages/go` |
-| <img src="https://avatars.githubusercontent.com/u/54953488?v=4" alt="Grain logo" width="24" height="24"> | Grain | `grain` | `.gr` | `0.6.5` | `code-languages/grain` |
+| <img src="https://avatars.githubusercontent.com/u/54953488?v=4" alt="Grain logo" width="24" height="24"> | Grain | `grain` | `.gr` | `grain-v0.7.2` | `code-languages/grain` |
 | <img src="https://cdn.simpleicons.org/gradle/02303A" alt="Gradle logo" width="24" height="24"> | Gradle | `gradle` | `.gradle`, `.gradle.kts` | `9.5.1` | `code-languages/gradle` |
 | <img src="https://cdn.simpleicons.org/opengl/5586A4" alt="GLSL logo" width="24" height="24"> | GLSL | `glsl` | `.glsl`, `.vert`, `.frag`, `.geom`, `.tesc`, `.tese`, `.comp`, `.vs`, `.fs` | `4.60` | `code-languages/glsl` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg" alt="GraphQL logo" width="24" height="24"> | GraphQL | `graphql` | `.graphql`, `.gql`, `.graphqls` | `September 2025` | `code-languages/graphql` |
@@ -283,7 +283,7 @@ from its package subpath.
 | <img src="https://jsonnet.org/img/isologo.svg" alt="Jsonnet logo" width="24" height="24"> | Jsonnet | `jsonnet` | `.jsonnet`, `.libsonnet` | `0.22.0` | `code-languages/jsonnet` |
 | <img src="https://cdn.simpleicons.org/jupyter/F37626" alt="Jupyter Notebook logo" width="24" height="24"> | Jupyter Notebook | `jupyter-notebook` | `.ipynb` | `nbformat 4.5` | `code-languages/jupyter-notebook` |
 | <img src="https://cdn.simpleicons.org/julia/9558B2" alt="Julia logo" width="24" height="24"> | Julia | `julia` | `.jl` | `1.12.6` | `code-languages/julia` |
-| <img src="https://avatars.githubusercontent.com/u/121281745?v=4" alt="KCL logo" width="24" height="24"> | KCL | `kcl` | `.k`, `.kcl` | `0.11.0` | `code-languages/kcl` |
+| <img src="https://avatars.githubusercontent.com/u/121281745?v=4" alt="KCL logo" width="24" height="24"> | KCL | `kcl` | `.k`, `.kcl` | `0.11.2` | `code-languages/kcl` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" alt="Kotlin logo" width="24" height="24"> | Kotlin | `kotlin` | `.kt`, `.kts` | `2.3.20` | `code-languages/kotlin` |
 | <img src="https://cdn.simpleicons.org/leanpub/262425" alt="Lean logo" width="24" height="24"> | Lean | `lean` | `.lean` | `4.30.0` | `code-languages/lean` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LESS_Logo.svg" alt="Less logo" width="24" height="24"> | Less | `less` | `.less` | `4.4.1` | `code-languages/less` |
@@ -306,12 +306,12 @@ from its package subpath.
 | <img src="https://avatars.githubusercontent.com/u/108696678?v=4" alt="Move logo" width="24" height="24"> | Move | `move` | `.move` | `2.0.0` | `code-languages/move` |
 | <img src="https://avatars.githubusercontent.com/u/197655?s=200&v=4" alt="Mustache logo" width="24" height="24"> | Mustache | `mustache` | `.mustache`, `.mst` | `1.0` | `code-languages/mustache` |
 | <img src="https://cdn.simpleicons.org/subversion/809CC9" alt="SVN logo" width="24" height="24"> | SVN | `svn` | `.svn`, `svnserve.conf` | `1.14.5` | `code-languages/svn` |
-| <img src="https://avatars.githubusercontent.com/u/83021462?v=4" alt="Nickel logo" width="24" height="24"> | Nickel | `nickel` | `.ncl` | `1.9.1` | `code-languages/nickel` |
+| <img src="https://avatars.githubusercontent.com/u/83021462?v=4" alt="Nickel logo" width="24" height="24"> | Nickel | `nickel` | `.ncl` | `1.16.0` | `code-languages/nickel` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg" alt="nginx logo" width="24" height="24"> | nginx | `nginx` | `nginx.conf`, `.nginx`, `.conf` | `1.30.2` | `code-languages/nginx` |
 | <img src="https://cdn.simpleicons.org/nim/FFE953" alt="Nim logo" width="24" height="24"> | Nim | `nim` | `.nim`, `.nims`, `.nimble` | `2.2.10` | `code-languages/nim` |
 | <img src="https://cdn.simpleicons.org/nixos/5277C3" alt="Nix logo" width="24" height="24"> | Nix | `nix` | `.nix` | `2.34.7` | `code-languages/nix` |
 | <img src="https://avatars.githubusercontent.com/u/131524?v=4" alt="Nunjucks logo" width="24" height="24"> | Nunjucks | `nunjucks` | `.njk`, `.nunjucks` | `3.2.4` | `code-languages/nunjucks` |
-| <img src="https://avatars.githubusercontent.com/u/50749585?v=4" alt="Nushell logo" width="24" height="24"> | Nushell | `nushell` | `.nu` | `0.103.0` | `code-languages/nushell` |
+| <img src="https://avatars.githubusercontent.com/u/50749585?v=4" alt="Nushell logo" width="24" height="24"> | Nushell | `nushell` | `.nu` | `0.113.1` | `code-languages/nushell` |
 | <img src="https://cdn.simpleicons.org/ocaml/EC6813" alt="OCaml logo" width="24" height="24"> | OCaml | `ocaml` | `.ml`, `.mli`, `.mll`, `.mly`, `.mlt`, `.eliom`, `.eliomi` | `5.6.0` | `code-languages/ocaml` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Apple_logo_grey.svg" alt="Objective-C logo" width="24" height="24"> | Objective-C | `objective-c` | `.m`, `.mm` | `2.0` | `code-languages/objective-c` |
 | <img src="https://avatars.githubusercontent.com/u/12533910?v=4" alt="Odin logo" width="24" height="24"> | Odin | `odin` | `.odin` | `dev-2026-02` | `code-languages/odin` |
@@ -357,14 +357,14 @@ from its package subpath.
 | <img src="https://www.stata.com/includes/images/stata-logo-blue.svg" alt="Stata logo" width="24" height="24"> | Stata | `stata` | `.do`, `.ado`, `.mata` | `19` | `code-languages/stata` |
 | <img src="https://cdn.simpleicons.org/stylus/333333" alt="Stylus logo" width="24" height="24"> | Stylus | `stylus` | `.styl` | `0.64.0` | `code-languages/stylus` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/SVG_Logo.svg" alt="SVG logo" width="24" height="24"> | SVG | `svg` | `.svg`, `.svgz` | `SVG 2` | `code-languages/svg` |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" alt="Svelte logo" width="24" height="24"> | Svelte | `svelte` | `.svelte` | `5.56.0` | `code-languages/svelte` |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" alt="Svelte logo" width="24" height="24"> | Svelte | `svelte` | `.svelte` | `5.56.1` | `code-languages/svelte` |
 | <img src="https://www.swift.org/assets/images/swift.svg" alt="Swift logo" width="24" height="24"> | Swift | `swift` | `.swift` | `6.2.2` | `code-languages/swift` |
 | <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Tcl.svg" alt="Tcl/Tk logo" width="24" height="24"> | Tcl/Tk | `tcl` | `.tcl`, `.tm`, `.test` | `9.0.3` | `code-languages/tcl` |
 | <img src="https://cdn.simpleicons.org/latex/008080" alt="TeX logo" width="24" height="24"> | TeX | `tex` | `.tex`, `.sty`, `.cls`, `.dtx`, `.ins`, `.ltx` | `TeX Live 2026` | `code-languages/tex` |
 | <img src="https://cdn.simpleicons.org/apache/D22128" alt="Apache Thrift logo" width="24" height="24"> | Apache Thrift | `thrift` | `.thrift` | `0.22.0` | `code-languages/thrift` |
 | <img src="https://avatars.githubusercontent.com/u/315978?v=4" alt="TLA+ logo" width="24" height="24"> | TLA+ | `tla-plus` | `.tla` | `TLA+ 2` | `code-languages/tla-plus` |
 | <img src="https://cdn.simpleicons.org/toml/9C4221" alt="TOML logo" width="24" height="24"> | TOML | `toml` | `.toml` | `1.1.0` | `code-languages/toml` |
-| <img src="https://twig.symfony.com/images/logo.png" alt="Twig logo" width="24" height="24"> | Twig | `twig` | `.twig` | `3.27.0` | `code-languages/twig` |
+| <img src="https://twig.symfony.com/images/logo.png" alt="Twig logo" width="24" height="24"> | Twig | `twig` | `.twig` | `3.27.1` | `code-languages/twig` |
 | <img src="https://www.typescriptlang.org/icons/icon-512x512.png" alt="TypeScript logo" width="24" height="24"> | TypeScript | `typescript` | `.ts`, `.tsx`, `.mts`, `.cts` | `6.0` | `code-languages/typescript` |
 | <img src="https://cdn.simpleicons.org/typst/239DAD" alt="Typst logo" width="24" height="24"> | Typst | `typst` | `.typ` | `0.14.2` | `code-languages/typst` |
 | <img src="https://avatars.githubusercontent.com/u/18563978?v=4" alt="Unison logo" width="24" height="24"> | Unison | `unison` | `.u`, `.uu` | `0.5.28` | `code-languages/unison` |
@@ -387,7 +387,7 @@ from its package subpath.
 | <img src="https://avatars.githubusercontent.com/u/10666805?v=4" alt="Zeek logo" width="24" height="24"> | Zeek | `zeek` | `.zeek`, `.bro` | `8.0.4` | `code-languages/zeek` |
 | <img src="https://cdn.simpleicons.org/zig/F7A41D" alt="Zig logo" width="24" height="24"> | Zig | `zig` | `.zig`, `.zon` | `0.16.0` | `code-languages/zig` |
 | <img src="https://avatars.githubusercontent.com/u/1642052?v=4" alt="Ziggy logo" width="24" height="24"> | Ziggy | `ziggy` | `.ziggy`, `.ziggy-schema` | `0.1.0` | `code-languages/ziggy` |
-| <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Z_Shell_Logo_Color_Horizontal.svg" alt="zsh logo" width="24" height="24"> | zsh | `zsh` | `.zsh`, `.zshrc`, `.zprofile`, `.zlogin`, `.zlogout`, `.zshenv` | `5.9` | `code-languages/zsh` |
+| <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Z_Shell_Logo_Color_Horizontal.svg" alt="zsh logo" width="24" height="24"> | zsh | `zsh` | `.zsh`, `.zshrc`, `.zprofile`, `.zlogin`, `.zlogout`, `.zshenv` | `5.9.1` | `code-languages/zsh` |
 
 ## Development
 
