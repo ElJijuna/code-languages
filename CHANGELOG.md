@@ -1,3 +1,10 @@
+# [1.30.0](https://github.com/ElJijuna/code-languages/compare/v1.29.1...v1.30.0) (2026-06-03)
+
+
+### Features
+
+* add 10 new language metadata entries ([eba84cc](https://github.com/ElJijuna/code-languages/commit/eba84cc5292f6e9442d6b04c536f6e7700a38fe4))
+
 ## [1.29.1](https://github.com/ElJijuna/code-languages/compare/v1.29.0...v1.29.1) (2026-06-02)
 
 
