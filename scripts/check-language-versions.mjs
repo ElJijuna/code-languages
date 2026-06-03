@@ -32,23 +32,36 @@ const manualChecks = {
   cobol: 'COBOL standards should be reviewed manually against ISO/IEC 1989 publications.',
   cpp: 'ISO standards do not expose a stable free machine-readable latest-version endpoint.',
   css: 'CSS is maintained as living specifications rather than one package version.',
+  dafny:
+    'Dafny releases should be reviewed manually against the dafny-lang/dafny GitHub releases page and dafny.org documentation.',
   dockerfile:
     'Dockerfile syntax versions depend on the BuildKit frontend image and should be reviewed manually.',
   dita: 'DITA specifications should be reviewed manually against OASIS publication history.',
+  ejs: 'EJS releases should be reviewed manually against the ejs npm package and ejs.co documentation.',
   erb: "ERB ships with Ruby's standard library and should be reviewed manually against Ruby stdlib documentation.",
   forth:
     'Forth standards and implementation versions should be reviewed manually against forth-standard.org and major implementation releases.',
   fortran:
     'Fortran standards should be reviewed manually against ISO/IEC JTC1/SC22/WG5 publications.',
+  freemarker:
+    'FreeMarker versions should be reviewed manually against Apache FreeMarker releases and Maven Central.',
+  fstar:
+    'F* releases should be reviewed manually against the F* official website and FStarLang/FStar GitHub releases.',
   hlsl: 'HLSL shader model support should be reviewed manually against Microsoft DirectX Shader Model documentation.',
   hack: 'Hack versions are tied to HHVM platform releases and should be reviewed manually against HHVM release notes.',
   html: 'HTML is maintained as a living standard.',
   ini: 'INI is an informal configuration format without a single formal versioned specification.',
+  isabelle:
+    'Isabelle releases should be reviewed manually against the Isabelle distribution page at isabelle.in.tum.de.',
   javascript:
     'ECMAScript editions are published yearly and should be checked against ECMA-262 release status.',
   json: 'RFC 8259 is stable and should be reviewed manually when a replacement RFC appears.',
+  jsonc:
+    'JSONC is a configuration-oriented JSON-with-comments convention and should be reviewed manually against jsonc.org and VS Code documentation.',
   'jupyter-notebook':
     'Jupyter Notebook schema versions should be reviewed manually against nbformat documentation and schema releases.',
+  just: 'Just releases should be reviewed manually against the casey/just GitHub releases page.',
+  kdl: 'KDL versions should be reviewed manually against the kdl.dev specification and kdl-org/kdl releases.',
   lisp: 'Common Lisp is standardized as ANSI INCITS 226-1994 and should be reviewed manually against ANSI/INCITS publications.',
   mako: 'Mako metadata should be reviewed manually against Mako release notes and PyPI releases.',
   mathematica:
@@ -63,6 +76,8 @@ const manualChecks = {
   odin: 'Odin metadata tracks development snapshots and should be reviewed manually against Odin release notes.',
   opencl:
     'OpenCL C versions follow Khronos specifications and implementation support and should be reviewed manually.',
+  openapi:
+    'OpenAPI Specification versions should be reviewed manually against spec.openapis.org and OpenAPI Initiative publications.',
   'pine-script':
     'Pine Script versions are tied to TradingView documentation and should be reviewed manually.',
   plsql:
@@ -70,6 +85,8 @@ const manualChecks = {
   pony: 'Pony releases should be reviewed manually against Pony compiler release notes.',
   prolog:
     'Prolog has ISO standards and multiple implementations; metadata should be reviewed manually against ISO Prolog and SWI-Prolog releases.',
+  puppet:
+    'Puppet language versions are tied to Puppet platform releases and should be reviewed manually against Puppet documentation and release notes.',
   promql:
     'PromQL metadata is tied to Prometheus query semantics and Prometheus releases and should be reviewed manually.',
   purescript: 'PureScript releases should be reviewed manually against compiler release notes.',

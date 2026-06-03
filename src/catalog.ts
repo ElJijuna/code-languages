@@ -39,12 +39,14 @@ import { cue } from './languages/cue';
 import { cypher } from './languages/cypher';
 import { cython } from './languages/cython';
 import { d } from './languages/d';
+import { dafny } from './languages/dafny';
 import { dart } from './languages/dart';
 import { dhall } from './languages/dhall';
 import { dita } from './languages/dita';
 import { dockerfile } from './languages/dockerfile';
 import { earthly } from './languages/earthly';
 import { eiffel } from './languages/eiffel';
+import { ejs } from './languages/ejs';
 import { elixir } from './languages/elixir';
 import { elm } from './languages/elm';
 import { erb } from './languages/erb';
@@ -54,7 +56,9 @@ import { fish } from './languages/fish';
 import { flux } from './languages/flux';
 import { forth } from './languages/forth';
 import { fortran } from './languages/fortran';
+import { freemarker } from './languages/freemarker';
 import { fsharp } from './languages/fsharp';
+import { fstar } from './languages/fstar';
 import { gdscript } from './languages/gdscript';
 import { git } from './languages/git';
 import { gleam } from './languages/gleam';
@@ -77,16 +81,20 @@ import { html } from './languages/html';
 import { hy } from './languages/hy';
 import { idris } from './languages/idris';
 import { ini } from './languages/ini';
+import { isabelle } from './languages/isabelle';
 import { janet } from './languages/janet';
 import { java } from './languages/java';
 import { javascript } from './languages/javascript';
 import { jinja } from './languages/jinja';
 import { json } from './languages/json';
 import { json5 } from './languages/json5';
+import { jsonc } from './languages/jsonc';
 import { jsonnet } from './languages/jsonnet';
 import { julia } from './languages/julia';
 import { jupyterNotebook } from './languages/jupyter-notebook';
+import { just } from './languages/just';
 import { kcl } from './languages/kcl';
+import { kdl } from './languages/kdl';
 import { kotlin } from './languages/kotlin';
 import { lean } from './languages/lean';
 import { less } from './languages/less';
@@ -117,6 +125,7 @@ import { nushell } from './languages/nushell';
 import { objectiveC } from './languages/objective-c';
 import { ocaml } from './languages/ocaml';
 import { odin } from './languages/odin';
+import { openapi } from './languages/openapi';
 import { opencl } from './languages/opencl';
 import { pascal } from './languages/pascal';
 import { perl } from './languages/perl';
@@ -131,6 +140,7 @@ import { prolog } from './languages/prolog';
 import { promql } from './languages/promql';
 import { protobuf } from './languages/protobuf';
 import { pug } from './languages/pug';
+import { puppet } from './languages/puppet';
 import { purescript } from './languages/purescript';
 import { python } from './languages/python';
 import { qml } from './languages/qml';
@@ -235,10 +245,12 @@ export const languages = [
   cuda,
   cython,
   d,
+  dafny,
   dart,
   dhall,
   dita,
   dockerfile,
+  ejs,
   eiffel,
   earthly,
   elixir,
@@ -248,9 +260,11 @@ export const languages = [
   fish,
   fennel,
   flux,
+  freemarker,
   fortran,
   forth,
   fsharp,
+  fstar,
   gdscript,
   git,
   gleam,
@@ -273,16 +287,20 @@ export const languages = [
   hy,
   idris,
   ini,
+  isabelle,
   java,
   javascript,
   janet,
   jinja,
   json,
   json5,
+  jsonc,
   jsonnet,
   jupyterNotebook,
   julia,
+  just,
   kcl,
+  kdl,
   kotlin,
   lean,
   less,
@@ -315,6 +333,7 @@ export const languages = [
   objectiveC,
   odin,
   opencl,
+  openapi,
   pascal,
   pkl,
   perl,
@@ -328,6 +347,7 @@ export const languages = [
   promql,
   protobuf,
   pug,
+  puppet,
   purescript,
   python,
   qml,

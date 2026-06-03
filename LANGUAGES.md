@@ -180,9 +180,9 @@
 
 ### Formal Verification
 
-- [ ] Dafny (`dafny`)
-- [ ] F* (`fstar`)
-- [ ] Isabelle (`isabelle`)
+- [x] Dafny (`dafny`)
+- [x] F* (`fstar`)
+- [x] Isabelle (`isabelle`)
 
 ### Blockchain / Smart Contracts
 
@@ -216,13 +216,13 @@
 - [ ] CEL (`cel`)
 - [x] HOCON (`hocon`)
 - [x] JSON5 (`json5`)
-- [ ] JSONC (`jsonc`)
-- [ ] Just (`just`)
-- [ ] KDL (`kdl`)
+- [x] JSONC (`jsonc`)
+- [x] Just (`just`)
+- [x] KDL (`kdl`)
 - [ ] Nickel (`nickel`)
-- [ ] OpenAPI (`openapi`)
+- [x] OpenAPI (`openapi`)
 - [ ] Pkl (`pkl`)
-- [ ] Puppet (`puppet`)
+- [x] Puppet (`puppet`)
 
 ### Shell / Scripting
 
@@ -232,8 +232,8 @@
 
 ### Templates
 
-- [ ] EJS (`ejs`)
-- [ ] FreeMarker (`freemarker`)
+- [x] EJS (`ejs`)
+- [x] FreeMarker (`freemarker`)
 - [x] Mustache (`mustache`)
 - [x] Nunjucks (`nunjucks`)
 - [ ] Velocity (`velocity`)

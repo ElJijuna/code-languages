@@ -960,6 +960,56 @@
       "types": "./dist/languages/ziggy.d.ts",
       "import": "./dist/languages/ziggy.js",
       "require": "./dist/languages/ziggy.cjs"
+    },
+    "./dafny": {
+      "types": "./dist/languages/dafny.d.ts",
+      "import": "./dist/languages/dafny.js",
+      "require": "./dist/languages/dafny.cjs"
+    },
+    "./ejs": {
+      "types": "./dist/languages/ejs.d.ts",
+      "import": "./dist/languages/ejs.js",
+      "require": "./dist/languages/ejs.cjs"
+    },
+    "./freemarker": {
+      "types": "./dist/languages/freemarker.d.ts",
+      "import": "./dist/languages/freemarker.js",
+      "require": "./dist/languages/freemarker.cjs"
+    },
+    "./fstar": {
+      "types": "./dist/languages/fstar.d.ts",
+      "import": "./dist/languages/fstar.js",
+      "require": "./dist/languages/fstar.cjs"
+    },
+    "./isabelle": {
+      "types": "./dist/languages/isabelle.d.ts",
+      "import": "./dist/languages/isabelle.js",
+      "require": "./dist/languages/isabelle.cjs"
+    },
+    "./jsonc": {
+      "types": "./dist/languages/jsonc.d.ts",
+      "import": "./dist/languages/jsonc.js",
+      "require": "./dist/languages/jsonc.cjs"
+    },
+    "./just": {
+      "types": "./dist/languages/just.d.ts",
+      "import": "./dist/languages/just.js",
+      "require": "./dist/languages/just.cjs"
+    },
+    "./kdl": {
+      "types": "./dist/languages/kdl.d.ts",
+      "import": "./dist/languages/kdl.js",
+      "require": "./dist/languages/kdl.cjs"
+    },
+    "./openapi": {
+      "types": "./dist/languages/openapi.d.ts",
+      "import": "./dist/languages/openapi.js",
+      "require": "./dist/languages/openapi.cjs"
+    },
+    "./puppet": {
+      "types": "./dist/languages/puppet.d.ts",
+      "import": "./dist/languages/puppet.js",
+      "require": "./dist/languages/puppet.cjs"
     }
   },
   "files": [
