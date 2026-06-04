@@ -1,3 +1,11 @@
+## [1.30.2](https://github.com/ElJijuna/code-languages/compare/v1.30.1...v1.30.2) (2026-06-04)
+
+
+### Bug Fixes
+
+* update Go metadata to 1.26.4 ([934865b](https://github.com/ElJijuna/code-languages/commit/934865bfe6debc6ed38a278f9e2d15bacde6c897))
+* update Go metadata to 1.26.4 ([6320c87](https://github.com/ElJijuna/code-languages/commit/6320c87e45fd1e195ff8a2241ab4c3b7e4e0ec41))
+
 ## [1.30.1](https://github.com/ElJijuna/code-languages/compare/v1.30.0...v1.30.1) (2026-06-04)
 
 
