@@ -18,14 +18,22 @@ jobs:
         id: release
         env:
           GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
           RUN_STARTED_AT: ${{ github.event.workflow_run.created_at }}
         run: |
-          if ! RELEASE_JSON=$(gh release view --json tagName,url,body,publishedAt 2>/dev/null); then
+          if ! RELEASE_JSON=$(gh release view --repo "$GH_REPO" --json tagName,url,body,publishedAt 2>/dev/null); then
             echo "found=false" >> "$GITHUB_OUTPUT"
+            echo "No GitHub release was found for $GH_REPO."
             exit 0
           fi
 
           PUBLISHED_AT=$(jq -r '.publishedAt // empty' <<< "$RELEASE_JSON")
+          if [ -z "$PUBLISHED_AT" ]; then
+            echo "found=false" >> "$GITHUB_OUTPUT"
+            echo "Latest GitHub release has no publishedAt timestamp."
+            exit 0
+          fi
+
           PUBLISHED_EPOCH=$(date -d "$PUBLISHED_AT" +%s)
           RUN_STARTED_EPOCH=$(date -d "$RUN_STARTED_AT" +%s)
 
@@ -34,6 +42,8 @@ jobs:
             echo "Latest release was published before this Release workflow run."
             exit 0
           fi
+
+          echo "Publishing DEV article for $(jq -r '.tagName' <<< "$RELEASE_JSON")."
 
           {
             echo "found=true"
@@ -53,6 +63,11 @@ jobs:
           RELEASE_URL: ${{ steps.release.outputs.url }}
           RELEASE_BODY: ${{ steps.release.outputs.body }}
         run: |
+          if [ -z "$DEVTO_API_KEY" ]; then
+            echo "DEVTO_API_KEY secret is not configured."
+            exit 1
+          fi
+
           BODY=$(
             jq -n \
               --arg title "$PACKAGE_NAME $VERSION released" \
@@ -61,7 +76,7 @@ jobs:
                 article: {
                   title: $title,
                   published: true,
-                  tags: "javascript, opensource, npm, programming-languages, language-metadata, code-languages",
+                  tags: "javascript, opensource, npm, programming",
                   body_markdown: $body
                 }
               }'
