@@ -1,3 +1,11 @@
+## [1.30.1](https://github.com/ElJijuna/code-languages/compare/v1.30.0...v1.30.1) (2026-06-04)
+
+
+### Bug Fixes
+
+* update Kotlin metadata to 2.4.0 ([888b356](https://github.com/ElJijuna/code-languages/commit/888b356ba730296992d63cc2e4ebacbdc8d833b7))
+* update Kotlin metadata to 2.4.0 ([5cf9cc7](https://github.com/ElJijuna/code-languages/commit/5cf9cc7ec80ee99d7d1606cb044694c36b8dc7be))
+
 # [1.30.0](https://github.com/ElJijuna/code-languages/compare/v1.29.1...v1.30.0) (2026-06-03)
 
 
