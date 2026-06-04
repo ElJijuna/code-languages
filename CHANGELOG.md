@@ -1,3 +1,11 @@
+## [1.30.4](https://github.com/ElJijuna/code-languages/compare/v1.30.3...v1.30.4) (2026-06-04)
+
+
+### Bug Fixes
+
+* update Bazel metadata to 9.1.1 ([82c650b](https://github.com/ElJijuna/code-languages/commit/82c650b79efeb01fa04feaaa033c2329e2e34db8))
+* update Bazel metadata to 9.1.1 ([9d39448](https://github.com/ElJijuna/code-languages/commit/9d394480f804408e7f630e192c438074b5555806))
+
 ## [1.30.3](https://github.com/ElJijuna/code-languages/compare/v1.30.2...v1.30.3) (2026-06-04)
 
 
