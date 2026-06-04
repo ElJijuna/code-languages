@@ -8,6 +8,11 @@ on:
         required: false
         type: boolean
         default: false
+      delay:
+        description: Delay in seconds between version checks to avoid hitting API rate limits
+        required: false
+        type: number
+        default: 3000
 
 permissions:
   contents: write
@@ -38,6 +43,10 @@ jobs:
 
           if [ "${{ inputs.create_pull_requests }}" = "true" ]; then
             args="$args --create-pull-requests"
+          fi
+
+          if [ "${{ inputs.delay }}" -gt 0 ]; then
+            args="$args --delay ${{ inputs.delay }}"
           fi
 
           node scripts/check-language-versions.mjs $args
