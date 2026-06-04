@@ -1,3 +1,11 @@
+## [1.30.3](https://github.com/ElJijuna/code-languages/compare/v1.30.2...v1.30.3) (2026-06-04)
+
+
+### Bug Fixes
+
+* update Elixir metadata to 1.20.0 ([5f8763a](https://github.com/ElJijuna/code-languages/commit/5f8763a6c74f1ffb92eb2d55cde977e10966623e))
+* update Elixir metadata to 1.20.0 ([ee1ee7b](https://github.com/ElJijuna/code-languages/commit/ee1ee7b7c34fc077d056470c043b8eacb60ec405))
+
 ## [1.30.2](https://github.com/ElJijuna/code-languages/compare/v1.30.1...v1.30.2) (2026-06-04)
 
 
