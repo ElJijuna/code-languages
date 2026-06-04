@@ -206,7 +206,7 @@ from its package subpath.
 | <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_arduino.svg" alt="Arduino Sketch logo" width="24" height="24"> | Arduino Sketch | `arduino` | `.ino`, `.pde` | `Arduino API 1.0` | `code-languages/arduino` |
 | <img src="https://cdn.simpleicons.org/asciidoctor/E40046" alt="AsciiDoc logo" width="24" height="24"> | AsciiDoc | `asciidoc` | `.adoc`, `.asciidoc`, `.asc` | `pre-spec` | `code-languages/asciidoc` |
 | <img src="https://cdn.simpleicons.org/dotnet/512BD4" alt="ASP/ASPX logo" width="24" height="24"> | ASP/ASPX | `asp` | `.asp`, `.aspx`, `.ascx`, `.ashx`, `.asmx`, `.master` | `4.8.1` | `code-languages/asp` |
-| <img src="https://astro.build/assets/press/astro-icon-light.svg" alt="Astro logo" width="24" height="24"> | Astro | `astro` | `.astro` | `6.4.2` | `code-languages/astro` |
+| <img src="https://astro.build/assets/press/astro-icon-light.svg" alt="Astro logo" width="24" height="24"> | Astro | `astro` | `.astro` | `6.4.4` | `code-languages/astro` |
 | <img src="https://cdn.simpleicons.org/assemblyscript/007AAC" alt="Assembly logo" width="24" height="24"> | Assembly | `assembly` | `.asm`, `.s`, `.S`, `.inc` | `Architecture-specific` | `code-languages/assembly` |
 | <img src="https://www.gnu.org/graphics/heckert_gnu.small.png" alt="awk logo" width="24" height="24"> | awk | `awk` | `.awk` | `GNU Awk 5.4.0` | `code-languages/awk` |
 | <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_autohotkey.svg" alt="AutoHotkey logo" width="24" height="24"> | AutoHotkey | `autohotkey` | `.ahk`, `.ah2` | `2.0` | `code-languages/autohotkey` |
