@@ -1,3 +1,11 @@
+## [1.30.5](https://github.com/ElJijuna/code-languages/compare/v1.30.4...v1.30.5) (2026-06-04)
+
+
+### Bug Fixes
+
+* update Astro metadata to 6.4.4 ([23ffec8](https://github.com/ElJijuna/code-languages/commit/23ffec8374106ae4a5c8859f9ec71878c09252c0))
+* update Astro metadata to 6.4.4 ([acee54e](https://github.com/ElJijuna/code-languages/commit/acee54e69a47eefa89747305ed1e8a79c2114140))
+
 ## [1.30.4](https://github.com/ElJijuna/code-languages/compare/v1.30.3...v1.30.4) (2026-06-04)
 
 
