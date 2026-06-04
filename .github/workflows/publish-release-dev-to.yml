@@ -4,6 +4,7 @@ on:
   workflow_run:
     workflows: ["Release"]
     types: [completed]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -11,7 +12,7 @@ permissions:
 jobs:
   publish-devto:
     runs-on: ubuntu-latest
-    if: github.event.workflow_run.conclusion == 'success'
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
 
     steps:
       - name: Read latest GitHub release
@@ -19,7 +20,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
-          RUN_STARTED_AT: ${{ github.event.workflow_run.created_at }}
+          RELEASE_HEAD_SHA: ${{ github.event.workflow_run.head_sha || '' }}
         run: |
           if ! RELEASE_JSON=$(gh release view --repo "$GH_REPO" --json tagName,url,body,publishedAt 2>/dev/null); then
             echo "found=false" >> "$GITHUB_OUTPUT"
@@ -27,27 +28,36 @@ jobs:
             exit 0
           fi
 
-          PUBLISHED_AT=$(jq -r '.publishedAt // empty' <<< "$RELEASE_JSON")
-          if [ -z "$PUBLISHED_AT" ]; then
+          TAG_NAME=$(jq -r '.tagName // empty' <<< "$RELEASE_JSON")
+          if [ -z "$TAG_NAME" ]; then
             echo "found=false" >> "$GITHUB_OUTPUT"
-            echo "Latest GitHub release has no publishedAt timestamp."
+            echo "Latest GitHub release has no tag name."
             exit 0
           fi
 
-          PUBLISHED_EPOCH=$(date -d "$PUBLISHED_AT" +%s)
-          RUN_STARTED_EPOCH=$(date -d "$RUN_STARTED_AT" +%s)
+          TAG_REF_JSON=$(gh api "repos/$GH_REPO/git/ref/tags/$TAG_NAME")
+          TAG_OBJECT_TYPE=$(jq -r '.object.type' <<< "$TAG_REF_JSON")
+          TAG_OBJECT_SHA=$(jq -r '.object.sha' <<< "$TAG_REF_JSON")
 
-          if [ "$PUBLISHED_EPOCH" -lt "$RUN_STARTED_EPOCH" ]; then
-            echo "found=false" >> "$GITHUB_OUTPUT"
-            echo "Latest release was published before this Release workflow run."
-            exit 0
+          if [ "$TAG_OBJECT_TYPE" = "tag" ]; then
+            TAG_OBJECT_SHA=$(gh api "repos/$GH_REPO/git/tags/$TAG_OBJECT_SHA" --jq '.object.sha')
           fi
 
-          echo "Publishing DEV article for $(jq -r '.tagName' <<< "$RELEASE_JSON")."
+          if [ -n "$RELEASE_HEAD_SHA" ]; then
+            if [ "$TAG_OBJECT_SHA" != "$RELEASE_HEAD_SHA" ]; then
+              echo "found=false" >> "$GITHUB_OUTPUT"
+              echo "Latest release $TAG_NAME points to $TAG_OBJECT_SHA, not this Release workflow SHA $RELEASE_HEAD_SHA."
+              exit 0
+            fi
+          else
+            echo "Manual run detected; publishing latest release $TAG_NAME."
+          fi
+
+          echo "Publishing DEV article for $TAG_NAME."
 
           {
             echo "found=true"
-            echo "tag_name=$(jq -r '.tagName' <<< "$RELEASE_JSON")"
+            echo "tag_name=$TAG_NAME"
             echo "url=$(jq -r '.url' <<< "$RELEASE_JSON")"
             echo "body<<RELEASE_BODY"
             jq -r '.body // ""' <<< "$RELEASE_JSON"
