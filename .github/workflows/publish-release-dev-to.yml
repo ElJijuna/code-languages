@@ -78,10 +78,16 @@ jobs:
             exit 1
           fi
 
+          printf -v ARTICLE_BODY 'New version published: **%s %s**\n\nSee release: %s\n\n## Changes\n\n%s' \
+            "$PACKAGE_NAME" \
+            "$VERSION" \
+            "$RELEASE_URL" \
+            "$RELEASE_BODY"
+
           BODY=$(
             jq -n \
               --arg title "$PACKAGE_NAME $VERSION released" \
-              --arg body "New version published: **$PACKAGE_NAME $VERSION**\n\nSee release: $RELEASE_URL\n\n## Changes\n\n$RELEASE_BODY" \
+              --arg body "$ARTICLE_BODY" \
               '{
                 article: {
                   title: $title,

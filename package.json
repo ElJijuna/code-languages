@@ -316,6 +316,11 @@
       "import": "./dist/languages/toml.js",
       "require": "./dist/languages/toml.cjs"
     },
+    "./tsql": {
+      "types": "./dist/languages/tsql.d.ts",
+      "import": "./dist/languages/tsql.js",
+      "require": "./dist/languages/tsql.cjs"
+    },
     "./swift": {
       "types": "./dist/languages/swift.d.ts",
       "import": "./dist/languages/swift.js",

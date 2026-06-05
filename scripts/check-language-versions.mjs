@@ -107,6 +107,7 @@ const manualChecks = {
     'Smalltalk metadata spans standards and image-based implementations and should be reviewed manually.',
   smarty: 'Smarty releases should be reviewed manually against Smarty project releases.',
   sql: 'SQL standards should be reviewed manually against ISO/IEC 9075 publications.',
+  tsql: 'T-SQL metadata is tied to SQL Server and Azure SQL platform releases and should be reviewed manually against Microsoft Learn.',
   'standard-ml':
     'Standard ML metadata follows the language definition and implementations and should be reviewed manually.',
   starlark:
@@ -1135,7 +1136,8 @@ async function main() {
 
 function parseOptions(args) {
   const language = parseLanguageOption(args);
-  const requestDelay = parseNumberOption(args, '--request-delay');
+  const requestDelay =
+    parseNumberOption(args, '--request-delay') ?? parseNumberOption(args, '--delay');
 
   return {
     applyUpdates: args.includes('--apply-updates'),
@@ -1324,9 +1326,7 @@ async function createPullRequests(updates) {
 
   const [owner, repo] = repository.split('/');
 
-  for (const update of updates) {
-    await syncVersionUpdatePullRequest({ baseBranch, owner, repo, token, update });
-  }
+  await syncVersionUpdatePullRequest({ baseBranch, owner, repo, token, updates });
 }
 
 async function syncVersionUpdateIssue({ owner, repo, token, update }) {
@@ -1381,9 +1381,14 @@ async function syncVersionUpdateIssue({ owner, repo, token, update }) {
   console.log(`Updated issue for ${update.name}: ${existingIssue.html_url}`);
 }
 
-async function syncVersionUpdatePullRequest({ baseBranch, owner, repo, token, update }) {
-  const branch = `chore/update-${update.slug}-metadata`;
-  const title = issueTitle(update);
+async function syncVersionUpdatePullRequest({ baseBranch, owner, repo, token, updates }) {
+  if (updates.length === 0) {
+    console.log('No pull request updates to apply.');
+    return;
+  }
+
+  const branch = 'chore/update-language-metadata-versions';
+  const title = pullRequestTitle(updates);
   const existingPullRequest = await findOpenVersionUpdatePullRequest({
     baseBranch,
     branch,
@@ -1391,32 +1396,24 @@ async function syncVersionUpdatePullRequest({ baseBranch, owner, repo, token, up
     repo,
     token,
   });
-  const issue = await findOpenVersionUpdateIssue({ owner, repo, token, update });
-  const body = pullRequestBody(update, issue);
+  const updateIssues = [];
 
   await ensureBranch({ baseBranch, branch, owner, repo, token });
 
-  await updateRepositoryFileContent({
-    branch,
-    message: issueTitle(update),
-    owner,
-    path: update.filePath,
-    repo,
-    token,
-    update,
-    updateContent: updateLanguageVersion,
-  });
+  for (const update of updates) {
+    const issue = await findOpenVersionUpdateIssue({ owner, repo, token, update });
+    updateIssues.push({ issue, update });
 
-  await updateRepositoryFileContent({
-    branch,
-    message: issueTitle(update),
-    owner,
-    path: 'README.md',
-    repo,
-    token,
-    update,
-    updateContent: updateReadmeLanguageVersion,
-  });
+    await commitVersionUpdate({
+      branch,
+      owner,
+      repo,
+      token,
+      update,
+    });
+  }
+
+  const body = pullRequestBody(updateIssues);
 
   if (!existingPullRequest) {
     await githubRequest(`/repos/${owner}/${repo}/pulls`, {
@@ -1444,7 +1441,7 @@ async function syncVersionUpdatePullRequest({ baseBranch, owner, repo, token, up
     },
   });
 
-  console.log(`Updated pull request for ${update.name}: ${existingPullRequest.html_url}`);
+  console.log(`Updated pull request: ${existingPullRequest.html_url}`);
 }
 
 async function findOpenVersionUpdateIssue({ owner, repo, token, update }) {
@@ -1497,14 +1494,26 @@ async function ensureBranch({ baseBranch, branch, owner, repo, token }) {
     allowNotFound: true,
     token,
   });
-
-  if (existingBranch) {
-    return;
-  }
-
   const baseRef = await githubRequest(`/repos/${owner}/${repo}/git/ref/heads/${baseBranch}`, {
     token,
   });
+
+  if (existingBranch) {
+    if (existingBranch.object.sha !== baseRef.object.sha) {
+      await githubRequest(`/repos/${owner}/${repo}/git/refs/heads/${branch}`, {
+        method: 'PATCH',
+        token,
+        body: {
+          force: true,
+          sha: baseRef.object.sha,
+        },
+      });
+
+      console.log(`Reset branch ${branch} to ${baseBranch}`);
+    }
+
+    return;
+  }
 
   await githubRequest(`/repos/${owner}/${repo}/git/refs`, {
     method: 'POST',
@@ -1518,6 +1527,91 @@ async function ensureBranch({ baseBranch, branch, owner, repo, token }) {
   console.log(`Created branch: ${branch}`);
 }
 
+async function commitVersionUpdate({ branch, owner, repo, token, update }) {
+  const branchRef = await getBranchRef({ branch, owner, repo, token });
+  const currentCommit = await githubRequest(
+    `/repos/${owner}/${repo}/git/commits/${branchRef.object.sha}`,
+    { token },
+  );
+  const tree = [];
+
+  const languageFile = await getRepositoryFile({
+    branch,
+    owner,
+    path: update.filePath,
+    repo,
+    token,
+  });
+  const updatedLanguageContent = updateLanguageVersion(languageFile.content, update);
+
+  if (updatedLanguageContent !== languageFile.content) {
+    tree.push({
+      path: update.filePath,
+      mode: '100644',
+      type: 'blob',
+      content: updatedLanguageContent,
+    });
+  }
+
+  const readmeFile = await getRepositoryFile({
+    branch,
+    owner,
+    path: 'README.md',
+    repo,
+    token,
+  });
+  const updatedReadmeContent = updateReadmeLanguageVersion(readmeFile.content, update);
+
+  if (updatedReadmeContent !== readmeFile.content) {
+    tree.push({
+      path: 'README.md',
+      mode: '100644',
+      type: 'blob',
+      content: updatedReadmeContent,
+    });
+  }
+
+  if (tree.length === 0) {
+    console.log(`${update.name} already has ${update.latestVersion} on ${branch}`);
+    return;
+  }
+
+  const newTree = await githubRequest(`/repos/${owner}/${repo}/git/trees`, {
+    method: 'POST',
+    token,
+    body: {
+      base_tree: currentCommit.tree.sha,
+      tree,
+    },
+  });
+
+  const newCommit = await githubRequest(`/repos/${owner}/${repo}/git/commits`, {
+    method: 'POST',
+    token,
+    body: {
+      message: issueTitle(update),
+      tree: newTree.sha,
+      parents: [branchRef.object.sha],
+    },
+  });
+
+  await githubRequest(`/repos/${owner}/${repo}/git/refs/heads/${branch}`, {
+    method: 'PATCH',
+    token,
+    body: {
+      sha: newCommit.sha,
+    },
+  });
+
+  console.log(`Committed ${update.name} ${update.version} -> ${update.latestVersion} on ${branch}`);
+}
+
+async function getBranchRef({ branch, owner, repo, token }) {
+  return githubRequest(`/repos/${owner}/${repo}/git/ref/heads/${branch}`, {
+    token,
+  });
+}
+
 async function getRepositoryFile({ branch, owner, path, repo, token }) {
   const file = await githubRequest(
     `/repos/${owner}/${repo}/contents/${path}?ref=${encodeURIComponent(branch)}`,
@@ -1528,57 +1622,6 @@ async function getRepositoryFile({ branch, owner, path, repo, token }) {
     content: Buffer.from(file.content, 'base64').toString('utf8'),
     sha: file.sha,
   };
-}
-
-async function updateRepositoryFileContent({
-  branch,
-  message,
-  owner,
-  path,
-  repo,
-  token,
-  update,
-  updateContent,
-}) {
-  const file = await getRepositoryFile({
-    branch,
-    owner,
-    path,
-    repo,
-    token,
-  });
-  const updatedContent = updateContent(file.content, update);
-
-  if (updatedContent === file.content) {
-    console.log(`${path} already has ${update.name} ${update.latestVersion}`);
-    return;
-  }
-
-  await updateRepositoryFile({
-    branch,
-    content: updatedContent,
-    message,
-    owner,
-    path,
-    repo,
-    sha: file.sha,
-    token,
-  });
-
-  console.log(`Updated ${path} on ${branch}`);
-}
-
-async function updateRepositoryFile({ branch, content, message, owner, path, repo, sha, token }) {
-  await githubRequest(`/repos/${owner}/${repo}/contents/${path}`, {
-    method: 'PUT',
-    token,
-    body: {
-      branch,
-      message,
-      content: Buffer.from(content).toString('base64'),
-      sha,
-    },
-  });
 }
 
 function updateLanguageVersion(content, update) {
@@ -1610,6 +1653,14 @@ function issueTitle(update) {
   return `fix: update ${update.name} metadata to ${update.latestVersion}`;
 }
 
+function pullRequestTitle(updates) {
+  if (updates.length === 1) {
+    return issueTitle(updates[0]);
+  }
+
+  return `fix: update ${updates.length} language metadata versions`;
+}
+
 function issueBody(update) {
   return [
     `The automated language version check found a pending ${update.name} update.`,
@@ -1627,25 +1678,43 @@ function issueBody(update) {
   ].join('\n');
 }
 
-function pullRequestBody(update, issue) {
-  const issueLine = issue ? `Closes #${issue.number}` : 'Related issue: not found';
+function pullRequestBody(updateIssues) {
+  const closingLines = updateIssues
+    .map(({ issue }) => issue)
+    .filter(Boolean)
+    .map((issue) => `Closes #${issue.number}`);
 
   return [
-    `Updates ${update.name} metadata to ${update.latestVersion}.`,
+    'Updates language metadata versions detected by the automated language version check.',
     '',
-    `- Language: ${update.name} (${update.slug})`,
-    `- Previous version: ${update.version}`,
-    `- New version: ${update.latestVersion}`,
-    `- Source: ${update.sourceUrl}`,
-    `- File: \`${update.filePath}\``,
+    '## Summary',
     '',
-    issueLine,
+    '| Language | Current version | New version | Issue related |',
+    '| --- | --- | --- | --- |',
+    ...updateIssues
+      .map(({ issue, update }) =>
+        [
+          markdownTableCell(`${update.name} (${update.slug})`),
+          markdownTableCell(update.version),
+          markdownTableCell(update.latestVersion),
+          issue ? `[#${issue.number}](${issue.html_url})` : 'Not found',
+        ].join(' | '),
+      )
+      .map((row) => `| ${row} |`),
+    '',
+    ...closingLines,
     '',
     'This pull request was created by the manual language version check workflow.',
     '',
-    issueMarker(update.slug),
-    issueVersionMarker(update.latestVersion),
+    ...updateIssues.flatMap(({ update }) => [
+      issueMarker(update.slug),
+      issueVersionMarker(update.latestVersion),
+    ]),
   ].join('\n');
+}
+
+function markdownTableCell(value) {
+  return String(value).replace(/\|/g, '\\|');
 }
 
 function issueVersionMarker(version) {

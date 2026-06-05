@@ -174,6 +174,7 @@ export { tex } from './languages/tex';
 export { thrift } from './languages/thrift';
 export { tlaPlus } from './languages/tla-plus';
 export { toml } from './languages/toml';
+export { tsql } from './languages/tsql';
 export { twig } from './languages/twig';
 export { typescript } from './languages/typescript';
 export { typst } from './languages/typst';

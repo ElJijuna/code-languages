@@ -177,6 +177,7 @@ import { tex } from './languages/tex';
 import { thrift } from './languages/thrift';
 import { tlaPlus } from './languages/tla-plus';
 import { toml } from './languages/toml';
+import { tsql } from './languages/tsql';
 import { twig } from './languages/twig';
 import { typescript } from './languages/typescript';
 import { typst } from './languages/typst';
@@ -383,6 +384,7 @@ export const languages = [
   thrift,
   tlaPlus,
   toml,
+  tsql,
   twig,
   typescript,
   typst,
