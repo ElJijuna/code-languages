@@ -367,7 +367,7 @@ from its package subpath.
 | <img src="https://www.stata.com/includes/images/stata-logo-blue.svg" alt="Stata logo" width="24" height="24"> | Stata | `stata` | `.do`, `.ado`, `.mata` | `19` | `code-languages/stata` |
 | <img src="https://cdn.simpleicons.org/stylus/333333" alt="Stylus logo" width="24" height="24"> | Stylus | `stylus` | `.styl` | `0.64.0` | `code-languages/stylus` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/SVG_Logo.svg" alt="SVG logo" width="24" height="24"> | SVG | `svg` | `.svg`, `.svgz` | `SVG 2` | `code-languages/svg` |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" alt="Svelte logo" width="24" height="24"> | Svelte | `svelte` | `.svelte` | `5.56.1` | `code-languages/svelte` |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" alt="Svelte logo" width="24" height="24"> | Svelte | `svelte` | `.svelte` | `5.56.2` | `code-languages/svelte` |
 | <img src="https://www.swift.org/assets/images/swift.svg" alt="Swift logo" width="24" height="24"> | Swift | `swift` | `.swift` | `6.2.2` | `code-languages/swift` |
 | <img src="https://icons.iconarchive.com/icons/simpleicons-team/simple/128/microsoft-sqlserver-icon.png" alt="T-SQL logo" width="24" height="24"> | T-SQL | `tsql` | `.sql`, `.tsql` | `SQL Server 2025 (17.x)` | `code-languages/tsql` |
 | <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Tcl.svg" alt="Tcl/Tk logo" width="24" height="24"> | Tcl/Tk | `tcl` | `.tcl`, `.tm`, `.test` | `9.0.3` | `code-languages/tcl` |
