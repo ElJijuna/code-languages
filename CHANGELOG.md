@@ -1,3 +1,13 @@
+## [1.31.2](https://github.com/ElJijuna/code-languages/compare/v1.31.1...v1.31.2) (2026-06-05)
+
+
+### Bug Fixes
+
+* update Gleam metadata to 1.17.0 ([70c5c1b](https://github.com/ElJijuna/code-languages/commit/70c5c1bce4c79b1523ca08934bcc5b1922e7a5bc))
+* update PHP metadata to 8.5.7 ([cbcf9ae](https://github.com/ElJijuna/code-languages/commit/cbcf9ae463a5a71ea99c091896f852c25f518e11))
+* update Svelte metadata to 5.56.2 ([6d96a97](https://github.com/ElJijuna/code-languages/commit/6d96a97828bcad947ac06f2e00e18cc20eb8d095))
+* update Swift metadata to 6.3.2 ([68aa6d9](https://github.com/ElJijuna/code-languages/commit/68aa6d9cfdbfa42c7924dbc4c816763a27a563fd))
+
 ## [1.31.1](https://github.com/ElJijuna/code-languages/compare/v1.31.0...v1.31.1) (2026-06-05)
 
 
