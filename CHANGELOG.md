@@ -1,3 +1,10 @@
+# [1.31.0](https://github.com/ElJijuna/code-languages/compare/v1.30.5...v1.31.0) (2026-06-05)
+
+
+### Features
+
+* add T-SQL language support with metadata and tests ([9df27df](https://github.com/ElJijuna/code-languages/commit/9df27dffe2151bd2affea4baccd919b38d6fc6e2))
+
 ## [1.30.5](https://github.com/ElJijuna/code-languages/compare/v1.30.4...v1.30.5) (2026-06-04)
 
 
