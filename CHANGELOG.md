@@ -1,3 +1,11 @@
+## [1.31.1](https://github.com/ElJijuna/code-languages/compare/v1.31.0...v1.31.1) (2026-06-05)
+
+
+### Bug Fixes
+
+* update LLVM IR metadata to 22.1.7 ([1c3fb4d](https://github.com/ElJijuna/code-languages/commit/1c3fb4da03244ff0c0d9996a92c3210a4fe904b2))
+* update LLVM IR metadata to 22.1.7 ([7fdb3fb](https://github.com/ElJijuna/code-languages/commit/7fdb3fbad305b5f105d21bf3d699584f80f5b2cd))
+
 # [1.31.0](https://github.com/ElJijuna/code-languages/compare/v1.30.5...v1.31.0) (2026-06-05)
 
 
