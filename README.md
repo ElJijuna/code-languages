@@ -244,7 +244,7 @@ from its package subpath.
 | <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_cython.svg" alt="Cython logo" width="24" height="24"> | Cython | `cython` | `.pyx`, `.pxd`, `.pxi` | `3.2.5` | `code-languages/cython` |
 | <img src="https://cdn.simpleicons.org/d/BA595E" alt="D logo" width="24" height="24"> | D | `d` | `.d`, `.di` | `2.112.0` | `code-languages/d` |
 | <img src="https://dummyimage.com/32x32/0B6D91/ffffff.png&text=D" alt="Dafny logo" width="24" height="24"> | Dafny | `dafny` | `.dfy` | `4.11.0` | `code-languages/dafny` |
-| <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Dart_programming_language_logo.svg" alt="Dart logo" width="24" height="24"> | Dart | `dart` | `.dart` | `3.12.1` | `code-languages/dart` |
+| <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Dart_programming_language_logo.svg" alt="Dart logo" width="24" height="24"> | Dart | `dart` | `.dart` | `3.12.2` | `code-languages/dart` |
 | <img src="https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_dhall.svg" alt="Dhall logo" width="24" height="24"> | Dhall | `dhall` | `.dhall` | `23.1.0` | `code-languages/dhall` |
 | <img src="https://avatars.githubusercontent.com/u/20116735?v=4" alt="DITA logo" width="24" height="24"> | DITA | `dita` | `.dita`, `.ditamap`, `.ditaval` | `1.3` | `code-languages/dita` |
 | <img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="Dockerfile logo" width="24" height="24"> | Dockerfile | `dockerfile` | `Dockerfile`, `.dockerfile` | `1.10` | `code-languages/dockerfile` |
