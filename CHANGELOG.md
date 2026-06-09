@@ -1,3 +1,10 @@
+# [1.32.0](https://github.com/ElJijuna/code-languages/compare/v1.31.2...v1.32.0) (2026-06-09)
+
+
+### Features
+
+* **languages:** add 10 pending language entries ([9977186](https://github.com/ElJijuna/code-languages/commit/997718661ccc3d69859d3fdf5fe4ba3f8f532dfd))
+
 ## [1.31.2](https://github.com/ElJijuna/code-languages/compare/v1.31.1...v1.31.2) (2026-06-05)
 
 
