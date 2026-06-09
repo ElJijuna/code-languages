@@ -2,6 +2,8 @@ import { abap } from './languages/abap';
 import { actionscript } from './languages/actionscript';
 import { ada } from './languages/ada';
 import { agda } from './languages/agda';
+import { algol } from './languages/algol';
+import { ante } from './languages/ante';
 import { antlr } from './languages/antlr';
 import { apex } from './languages/apex';
 import { apl } from './languages/apl';
@@ -11,14 +13,18 @@ import { asciidoc } from './languages/asciidoc';
 import { asp } from './languages/asp';
 import { assembly } from './languages/assembly';
 import { astro } from './languages/astro';
+import { austral } from './languages/austral';
 import { autohotkey } from './languages/autohotkey';
 import { awk } from './languages/awk';
 import { ballerina } from './languages/ballerina';
 import { bash } from './languages/bash';
 import { batch } from './languages/batch';
 import { bazel } from './languages/bazel';
+import { bcpl } from './languages/bcpl';
 import { bicep } from './languages/bicep';
 import { blade } from './languages/blade';
+import { bosque } from './languages/bosque';
+import { bqn } from './languages/bqn';
 import { c } from './languages/c';
 import { cairo } from './languages/cairo';
 import { carbon } from './languages/carbon';
@@ -36,6 +42,7 @@ import { csharp } from './languages/csharp';
 import { css } from './languages/css';
 import { cuda } from './languages/cuda';
 import { cue } from './languages/cue';
+import { curry } from './languages/curry';
 import { cypher } from './languages/cypher';
 import { cython } from './languages/cython';
 import { d } from './languages/d';
@@ -51,6 +58,7 @@ import { elixir } from './languages/elixir';
 import { elm } from './languages/elm';
 import { erb } from './languages/erb';
 import { erlang } from './languages/erlang';
+import { factor } from './languages/factor';
 import { fennel } from './languages/fennel';
 import { fish } from './languages/fish';
 import { flux } from './languages/flux';
@@ -81,6 +89,7 @@ import { html } from './languages/html';
 import { hy } from './languages/hy';
 import { idris } from './languages/idris';
 import { ini } from './languages/ini';
+import { io } from './languages/io';
 import { isabelle } from './languages/isabelle';
 import { janet } from './languages/janet';
 import { java } from './languages/java';
@@ -95,6 +104,7 @@ import { jupyterNotebook } from './languages/jupyter-notebook';
 import { just } from './languages/just';
 import { kcl } from './languages/kcl';
 import { kdl } from './languages/kdl';
+import { koka } from './languages/koka';
 import { kotlin } from './languages/kotlin';
 import { lean } from './languages/lean';
 import { less } from './languages/less';
@@ -202,6 +212,7 @@ import { zeek } from './languages/zeek';
 import { zig } from './languages/zig';
 import { ziggy } from './languages/ziggy';
 import { zsh } from './languages/zsh';
+import type { Language } from './types';
 
 /** Ordered catalog of every language included in the package. */
 export const languages = [
@@ -209,6 +220,8 @@ export const languages = [
   actionscript,
   ada,
   agda,
+  algol,
+  ante,
   antlr,
   apex,
   apl,
@@ -216,34 +229,39 @@ export const languages = [
   arduino,
   asciidoc,
   asp,
-  astro,
   assembly,
-  awk,
+  astro,
+  austral,
   autohotkey,
+  awk,
   ballerina,
   bash,
   batch,
   bazel,
+  bcpl,
   bicep,
   blade,
+  bosque,
+  bqn,
   c,
   cairo,
   carbon,
   chapel,
   circom,
-  cmake,
   clojure,
+  cmake,
+  cobol,
   coffeescript,
   coldfusion,
-  cobol,
   coq,
   cpp,
-  cypher,
-  csharp,
   crystal,
+  csharp,
   css,
-  cue,
   cuda,
+  cue,
+  curry,
+  cypher,
   cython,
   d,
   dafny,
@@ -251,57 +269,60 @@ export const languages = [
   dhall,
   dita,
   dockerfile,
-  ejs,
-  eiffel,
   earthly,
+  eiffel,
+  ejs,
   elixir,
   elm,
   erb,
   erlang,
-  fish,
+  factor,
   fennel,
+  fish,
   flux,
-  freemarker,
-  fortran,
   forth,
+  fortran,
+  freemarker,
   fsharp,
   fstar,
   gdscript,
   git,
   gleam,
-  go,
-  grain,
-  gradle,
   glsl,
+  go,
+  gradle,
+  grain,
   graphql,
   groovy,
-  handlebars,
   hack,
   haml,
+  handlebars,
   hare,
-  hocon,
   haskell,
   haxe,
   hcl,
   hlsl,
+  hocon,
   html,
   hy,
   idris,
   ini,
+  io,
   isabelle,
+  janet,
   java,
   javascript,
-  janet,
   jinja,
   json,
   json5,
   jsonc,
   jsonnet,
-  jupyterNotebook,
   julia,
+  jupyterNotebook,
   just,
   kcl,
   kdl,
+  koka,
   kotlin,
   lean,
   less,
@@ -310,36 +331,35 @@ export const languages = [
   llvmIr,
   lua,
   luau,
-  mako,
   makefile,
+  mako,
+  markdown,
   mathematica,
   matlab,
-  markdown,
   mdx,
   mermaid,
   meson,
   metal,
-  mustache,
-  move,
   mojo,
   moonbit,
-  svn,
+  move,
+  mustache,
   nginx,
   nickel,
-  nunjucks,
-  nushell,
   nim,
   nix,
-  ocaml,
+  nunjucks,
+  nushell,
   objectiveC,
+  ocaml,
   odin,
-  opencl,
   openapi,
+  opencl,
   pascal,
-  pkl,
   perl,
   php,
   pineScript,
+  pkl,
   plantuml,
   plsql,
   pony,
@@ -354,8 +374,8 @@ export const languages = [
   qml,
   qsharp,
   r,
-  raku,
   racket,
+  raku,
   razor,
   reasonml,
   rego,
@@ -365,8 +385,8 @@ export const languages = [
   rust,
   sas,
   scala,
-  scss,
   scheme,
+  scss,
   smalltalk,
   smarty,
   solidity,
@@ -376,8 +396,9 @@ export const languages = [
   starlark,
   stata,
   stylus,
-  svg,
   svelte,
+  svg,
+  svn,
   swift,
   tcl,
   tex,
@@ -409,4 +430,4 @@ export const languages = [
   zig,
   ziggy,
   zsh,
-] as const;
+] as const satisfies readonly Language[];

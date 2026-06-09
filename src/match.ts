@@ -30,7 +30,17 @@ export const detectMatchingEntries = <Entry extends DetectableLanguage>(
     return [];
   }
 
-  return entries.filter((entry) =>
-    entry.extensions.some((extension) => matchesExtension(basename, extension)),
-  );
+  return entries
+    .map((entry, index) => ({
+      entry,
+      index,
+      matchLength: Math.max(
+        ...entry.extensions
+          .filter((extension) => matchesExtension(basename, extension))
+          .map((extension) => extension.length),
+      ),
+    }))
+    .filter(({ matchLength }) => Number.isFinite(matchLength))
+    .sort((first, second) => second.matchLength - first.matchLength || first.index - second.index)
+    .map(({ entry }) => entry);
 };

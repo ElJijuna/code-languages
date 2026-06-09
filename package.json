@@ -66,535 +66,25 @@
       "import": "./dist/languages/actionscript.js",
       "require": "./dist/languages/actionscript.cjs"
     },
-    "./asciidoc": {
-      "types": "./dist/languages/asciidoc.d.ts",
-      "import": "./dist/languages/asciidoc.js",
-      "require": "./dist/languages/asciidoc.cjs"
-    },
-    "./asp": {
-      "types": "./dist/languages/asp.d.ts",
-      "import": "./dist/languages/asp.js",
-      "require": "./dist/languages/asp.cjs"
-    },
-    "./astro": {
-      "types": "./dist/languages/astro.d.ts",
-      "import": "./dist/languages/astro.js",
-      "require": "./dist/languages/astro.cjs"
-    },
-    "./assembly": {
-      "types": "./dist/languages/assembly.d.ts",
-      "import": "./dist/languages/assembly.js",
-      "require": "./dist/languages/assembly.cjs"
-    },
-    "./ballerina": {
-      "types": "./dist/languages/ballerina.d.ts",
-      "import": "./dist/languages/ballerina.js",
-      "require": "./dist/languages/ballerina.cjs"
-    },
-    "./bash": {
-      "types": "./dist/languages/bash.d.ts",
-      "import": "./dist/languages/bash.js",
-      "require": "./dist/languages/bash.cjs"
-    },
-    "./batch": {
-      "types": "./dist/languages/batch.d.ts",
-      "import": "./dist/languages/batch.js",
-      "require": "./dist/languages/batch.cjs"
-    },
-    "./bazel": {
-      "types": "./dist/languages/bazel.d.ts",
-      "import": "./dist/languages/bazel.js",
-      "require": "./dist/languages/bazel.cjs"
-    },
-    "./bicep": {
-      "types": "./dist/languages/bicep.d.ts",
-      "import": "./dist/languages/bicep.js",
-      "require": "./dist/languages/bicep.cjs"
-    },
-    "./blade": {
-      "types": "./dist/languages/blade.d.ts",
-      "import": "./dist/languages/blade.js",
-      "require": "./dist/languages/blade.cjs"
-    },
-    "./c": {
-      "types": "./dist/languages/c.d.ts",
-      "import": "./dist/languages/c.js",
-      "require": "./dist/languages/c.cjs"
-    },
-    "./cmake": {
-      "types": "./dist/languages/cmake.d.ts",
-      "import": "./dist/languages/cmake.js",
-      "require": "./dist/languages/cmake.cjs"
-    },
-    "./coffeescript": {
-      "types": "./dist/languages/coffeescript.d.ts",
-      "import": "./dist/languages/coffeescript.js",
-      "require": "./dist/languages/coffeescript.cjs"
-    },
-    "./csharp": {
-      "types": "./dist/languages/csharp.d.ts",
-      "import": "./dist/languages/csharp.js",
-      "require": "./dist/languages/csharp.cjs"
-    },
-    "./cypher": {
-      "types": "./dist/languages/cypher.d.ts",
-      "import": "./dist/languages/cypher.js",
-      "require": "./dist/languages/cypher.cjs"
-    },
-    "./crystal": {
-      "types": "./dist/languages/crystal.d.ts",
-      "import": "./dist/languages/crystal.js",
-      "require": "./dist/languages/crystal.cjs"
-    },
-    "./cue": {
-      "types": "./dist/languages/cue.d.ts",
-      "import": "./dist/languages/cue.js",
-      "require": "./dist/languages/cue.cjs"
-    },
-    "./cuda": {
-      "types": "./dist/languages/cuda.d.ts",
-      "import": "./dist/languages/cuda.js",
-      "require": "./dist/languages/cuda.cjs"
-    },
-    "./cobol": {
-      "types": "./dist/languages/cobol.d.ts",
-      "import": "./dist/languages/cobol.js",
-      "require": "./dist/languages/cobol.cjs"
-    },
-    "./cpp": {
-      "types": "./dist/languages/cpp.d.ts",
-      "import": "./dist/languages/cpp.js",
-      "require": "./dist/languages/cpp.cjs"
-    },
-    "./dart": {
-      "types": "./dist/languages/dart.d.ts",
-      "import": "./dist/languages/dart.js",
-      "require": "./dist/languages/dart.cjs"
-    },
-    "./elm": {
-      "types": "./dist/languages/elm.d.ts",
-      "import": "./dist/languages/elm.js",
-      "require": "./dist/languages/elm.cjs"
-    },
-    "./erlang": {
-      "types": "./dist/languages/erlang.d.ts",
-      "import": "./dist/languages/erlang.js",
-      "require": "./dist/languages/erlang.cjs"
-    },
-    "./fortran": {
-      "types": "./dist/languages/fortran.d.ts",
-      "import": "./dist/languages/fortran.js",
-      "require": "./dist/languages/fortran.cjs"
-    },
-    "./typescript": {
-      "types": "./dist/languages/typescript.d.ts",
-      "import": "./dist/languages/typescript.js",
-      "require": "./dist/languages/typescript.cjs"
-    },
-    "./typst": {
-      "types": "./dist/languages/typst.d.ts",
-      "import": "./dist/languages/typst.js",
-      "require": "./dist/languages/typst.cjs"
-    },
-    "./verilog": {
-      "types": "./dist/languages/verilog.d.ts",
-      "import": "./dist/languages/verilog.js",
-      "require": "./dist/languages/verilog.cjs"
-    },
-    "./vhdl": {
-      "types": "./dist/languages/vhdl.d.ts",
-      "import": "./dist/languages/vhdl.js",
-      "require": "./dist/languages/vhdl.cjs"
-    },
-    "./visual-basic": {
-      "types": "./dist/languages/visual-basic.d.ts",
-      "import": "./dist/languages/visual-basic.js",
-      "require": "./dist/languages/visual-basic.cjs"
-    },
-    "./javascript": {
-      "types": "./dist/languages/javascript.d.ts",
-      "import": "./dist/languages/javascript.js",
-      "require": "./dist/languages/javascript.cjs"
-    },
-    "./json": {
-      "types": "./dist/languages/json.d.ts",
-      "import": "./dist/languages/json.js",
-      "require": "./dist/languages/json.cjs"
-    },
-    "./json5": {
-      "types": "./dist/languages/json5.d.ts",
-      "import": "./dist/languages/json5.js",
-      "require": "./dist/languages/json5.cjs"
-    },
-    "./jupyter-notebook": {
-      "types": "./dist/languages/jupyter-notebook.d.ts",
-      "import": "./dist/languages/jupyter-notebook.js",
-      "require": "./dist/languages/jupyter-notebook.cjs"
-    },
-    "./julia": {
-      "types": "./dist/languages/julia.d.ts",
-      "import": "./dist/languages/julia.js",
-      "require": "./dist/languages/julia.cjs"
-    },
-    "./kotlin": {
-      "types": "./dist/languages/kotlin.d.ts",
-      "import": "./dist/languages/kotlin.js",
-      "require": "./dist/languages/kotlin.cjs"
-    },
-    "./less": {
-      "types": "./dist/languages/less.d.ts",
-      "import": "./dist/languages/less.js",
-      "require": "./dist/languages/less.cjs"
-    },
-    "./lisp": {
-      "types": "./dist/languages/lisp.d.ts",
-      "import": "./dist/languages/lisp.js",
-      "require": "./dist/languages/lisp.cjs"
-    },
-    "./lua": {
-      "types": "./dist/languages/lua.d.ts",
-      "import": "./dist/languages/lua.js",
-      "require": "./dist/languages/lua.cjs"
-    },
-    "./makefile": {
-      "types": "./dist/languages/makefile.d.ts",
-      "import": "./dist/languages/makefile.js",
-      "require": "./dist/languages/makefile.cjs"
-    },
-    "./matlab": {
-      "types": "./dist/languages/matlab.d.ts",
-      "import": "./dist/languages/matlab.js",
-      "require": "./dist/languages/matlab.cjs"
-    },
-    "./meson": {
-      "types": "./dist/languages/meson.d.ts",
-      "import": "./dist/languages/meson.js",
-      "require": "./dist/languages/meson.cjs"
-    },
-    "./metal": {
-      "types": "./dist/languages/metal.d.ts",
-      "import": "./dist/languages/metal.js",
-      "require": "./dist/languages/metal.cjs"
-    },
-    "./nginx": {
-      "types": "./dist/languages/nginx.d.ts",
-      "import": "./dist/languages/nginx.js",
-      "require": "./dist/languages/nginx.cjs"
-    },
-    "./sparql": {
-      "types": "./dist/languages/sparql.d.ts",
-      "import": "./dist/languages/sparql.js",
-      "require": "./dist/languages/sparql.cjs"
-    },
-    "./sql": {
-      "types": "./dist/languages/sql.d.ts",
-      "import": "./dist/languages/sql.js",
-      "require": "./dist/languages/sql.cjs"
-    },
-    "./starlark": {
-      "types": "./dist/languages/starlark.d.ts",
-      "import": "./dist/languages/starlark.js",
-      "require": "./dist/languages/starlark.cjs"
-    },
-    "./svg": {
-      "types": "./dist/languages/svg.d.ts",
-      "import": "./dist/languages/svg.js",
-      "require": "./dist/languages/svg.cjs"
-    },
-    "./svelte": {
-      "types": "./dist/languages/svelte.d.ts",
-      "import": "./dist/languages/svelte.js",
-      "require": "./dist/languages/svelte.cjs"
-    },
-    "./svn": {
-      "types": "./dist/languages/svn.d.ts",
-      "import": "./dist/languages/svn.js",
-      "require": "./dist/languages/svn.cjs"
-    },
-    "./toml": {
-      "types": "./dist/languages/toml.d.ts",
-      "import": "./dist/languages/toml.js",
-      "require": "./dist/languages/toml.cjs"
-    },
-    "./tsql": {
-      "types": "./dist/languages/tsql.d.ts",
-      "import": "./dist/languages/tsql.js",
-      "require": "./dist/languages/tsql.cjs"
-    },
-    "./swift": {
-      "types": "./dist/languages/swift.d.ts",
-      "import": "./dist/languages/swift.js",
-      "require": "./dist/languages/swift.cjs"
-    },
-    "./java": {
-      "types": "./dist/languages/java.d.ts",
-      "import": "./dist/languages/java.js",
-      "require": "./dist/languages/java.cjs"
-    },
-    "./jinja": {
-      "types": "./dist/languages/jinja.d.ts",
-      "import": "./dist/languages/jinja.js",
-      "require": "./dist/languages/jinja.cjs"
-    },
-    "./liquid": {
-      "types": "./dist/languages/liquid.d.ts",
-      "import": "./dist/languages/liquid.js",
-      "require": "./dist/languages/liquid.cjs"
-    },
-    "./mdx": {
-      "types": "./dist/languages/mdx.d.ts",
-      "import": "./dist/languages/mdx.js",
-      "require": "./dist/languages/mdx.cjs"
-    },
-    "./mermaid": {
-      "types": "./dist/languages/mermaid.d.ts",
-      "import": "./dist/languages/mermaid.js",
-      "require": "./dist/languages/mermaid.cjs"
-    },
-    "./php": {
-      "types": "./dist/languages/php.d.ts",
-      "import": "./dist/languages/php.js",
-      "require": "./dist/languages/php.cjs"
-    },
-    "./plantuml": {
-      "types": "./dist/languages/plantuml.d.ts",
-      "import": "./dist/languages/plantuml.js",
-      "require": "./dist/languages/plantuml.cjs"
-    },
-    "./powershell": {
-      "types": "./dist/languages/powershell.d.ts",
-      "import": "./dist/languages/powershell.js",
-      "require": "./dist/languages/powershell.cjs"
-    },
-    "./prolog": {
-      "types": "./dist/languages/prolog.d.ts",
-      "import": "./dist/languages/prolog.js",
-      "require": "./dist/languages/prolog.cjs"
-    },
-    "./protobuf": {
-      "types": "./dist/languages/protobuf.d.ts",
-      "import": "./dist/languages/protobuf.js",
-      "require": "./dist/languages/protobuf.cjs"
-    },
-    "./pug": {
-      "types": "./dist/languages/pug.d.ts",
-      "import": "./dist/languages/pug.js",
-      "require": "./dist/languages/pug.cjs"
-    },
-    "./qml": {
-      "types": "./dist/languages/qml.d.ts",
-      "import": "./dist/languages/qml.js",
-      "require": "./dist/languages/qml.cjs"
-    },
-    "./python": {
-      "types": "./dist/languages/python.d.ts",
-      "import": "./dist/languages/python.js",
-      "require": "./dist/languages/python.cjs"
-    },
-    "./r": {
-      "types": "./dist/languages/r.d.ts",
-      "import": "./dist/languages/r.js",
-      "require": "./dist/languages/r.cjs"
-    },
-    "./racket": {
-      "types": "./dist/languages/racket.d.ts",
-      "import": "./dist/languages/racket.js",
-      "require": "./dist/languages/racket.cjs"
-    },
-    "./rego": {
-      "types": "./dist/languages/rego.d.ts",
-      "import": "./dist/languages/rego.js",
-      "require": "./dist/languages/rego.cjs"
-    },
-    "./ruby": {
-      "types": "./dist/languages/ruby.d.ts",
-      "import": "./dist/languages/ruby.js",
-      "require": "./dist/languages/ruby.cjs"
-    },
-    "./rust": {
-      "types": "./dist/languages/rust.d.ts",
-      "import": "./dist/languages/rust.js",
-      "require": "./dist/languages/rust.cjs"
-    },
-    "./scala": {
-      "types": "./dist/languages/scala.d.ts",
-      "import": "./dist/languages/scala.js",
-      "require": "./dist/languages/scala.cjs"
-    },
-    "./scss": {
-      "types": "./dist/languages/scss.d.ts",
-      "import": "./dist/languages/scss.js",
-      "require": "./dist/languages/scss.cjs"
-    },
-    "./vue": {
-      "types": "./dist/languages/vue.d.ts",
-      "import": "./dist/languages/vue.js",
-      "require": "./dist/languages/vue.cjs"
-    },
-    "./webassembly": {
-      "types": "./dist/languages/webassembly.d.ts",
-      "import": "./dist/languages/webassembly.js",
-      "require": "./dist/languages/webassembly.cjs"
-    },
-    "./wgsl": {
-      "types": "./dist/languages/wgsl.d.ts",
-      "import": "./dist/languages/wgsl.js",
-      "require": "./dist/languages/wgsl.cjs"
-    },
-    "./xaml": {
-      "types": "./dist/languages/xaml.d.ts",
-      "import": "./dist/languages/xaml.js",
-      "require": "./dist/languages/xaml.cjs"
-    },
-    "./git": {
-      "types": "./dist/languages/git.d.ts",
-      "import": "./dist/languages/git.js",
-      "require": "./dist/languages/git.cjs"
-    },
-    "./go": {
-      "types": "./dist/languages/go.d.ts",
-      "import": "./dist/languages/go.js",
-      "require": "./dist/languages/go.cjs"
-    },
-    "./gradle": {
-      "types": "./dist/languages/gradle.d.ts",
-      "import": "./dist/languages/gradle.js",
-      "require": "./dist/languages/gradle.cjs"
-    },
-    "./glsl": {
-      "types": "./dist/languages/glsl.d.ts",
-      "import": "./dist/languages/glsl.js",
-      "require": "./dist/languages/glsl.cjs"
-    },
-    "./graphql": {
-      "types": "./dist/languages/graphql.d.ts",
-      "import": "./dist/languages/graphql.js",
-      "require": "./dist/languages/graphql.cjs"
-    },
-    "./groovy": {
-      "types": "./dist/languages/groovy.d.ts",
-      "import": "./dist/languages/groovy.js",
-      "require": "./dist/languages/groovy.cjs"
-    },
-    "./hocon": {
-      "types": "./dist/languages/hocon.d.ts",
-      "import": "./dist/languages/hocon.js",
-      "require": "./dist/languages/hocon.cjs"
-    },
-    "./haskell": {
-      "types": "./dist/languages/haskell.d.ts",
-      "import": "./dist/languages/haskell.js",
-      "require": "./dist/languages/haskell.cjs"
-    },
-    "./hcl": {
-      "types": "./dist/languages/hcl.d.ts",
-      "import": "./dist/languages/hcl.js",
-      "require": "./dist/languages/hcl.cjs"
-    },
-    "./hlsl": {
-      "types": "./dist/languages/hlsl.d.ts",
-      "import": "./dist/languages/hlsl.js",
-      "require": "./dist/languages/hlsl.cjs"
-    },
-    "./css": {
-      "types": "./dist/languages/css.d.ts",
-      "import": "./dist/languages/css.js",
-      "require": "./dist/languages/css.cjs"
-    },
-    "./dockerfile": {
-      "types": "./dist/languages/dockerfile.d.ts",
-      "import": "./dist/languages/dockerfile.js",
-      "require": "./dist/languages/dockerfile.cjs"
-    },
-    "./elixir": {
-      "types": "./dist/languages/elixir.d.ts",
-      "import": "./dist/languages/elixir.js",
-      "require": "./dist/languages/elixir.cjs"
-    },
-    "./fsharp": {
-      "types": "./dist/languages/fsharp.d.ts",
-      "import": "./dist/languages/fsharp.js",
-      "require": "./dist/languages/fsharp.cjs"
-    },
-    "./gdscript": {
-      "types": "./dist/languages/gdscript.d.ts",
-      "import": "./dist/languages/gdscript.js",
-      "require": "./dist/languages/gdscript.cjs"
-    },
-    "./handlebars": {
-      "types": "./dist/languages/handlebars.d.ts",
-      "import": "./dist/languages/handlebars.js",
-      "require": "./dist/languages/handlebars.cjs"
-    },
-    "./html": {
-      "types": "./dist/languages/html.d.ts",
-      "import": "./dist/languages/html.js",
-      "require": "./dist/languages/html.cjs"
-    },
-    "./ini": {
-      "types": "./dist/languages/ini.d.ts",
-      "import": "./dist/languages/ini.js",
-      "require": "./dist/languages/ini.cjs"
-    },
-    "./markdown": {
-      "types": "./dist/languages/markdown.d.ts",
-      "import": "./dist/languages/markdown.js",
-      "require": "./dist/languages/markdown.cjs"
-    },
-    "./ocaml": {
-      "types": "./dist/languages/ocaml.d.ts",
-      "import": "./dist/languages/ocaml.js",
-      "require": "./dist/languages/ocaml.cjs"
-    },
-    "./objective-c": {
-      "types": "./dist/languages/objective-c.d.ts",
-      "import": "./dist/languages/objective-c.js",
-      "require": "./dist/languages/objective-c.cjs"
-    },
-    "./pascal": {
-      "types": "./dist/languages/pascal.d.ts",
-      "import": "./dist/languages/pascal.js",
-      "require": "./dist/languages/pascal.cjs"
-    },
-    "./perl": {
-      "types": "./dist/languages/perl.d.ts",
-      "import": "./dist/languages/perl.js",
-      "require": "./dist/languages/perl.cjs"
-    },
-    "./razor": {
-      "types": "./dist/languages/razor.d.ts",
-      "import": "./dist/languages/razor.js",
-      "require": "./dist/languages/razor.cjs"
-    },
-    "./solidity": {
-      "types": "./dist/languages/solidity.d.ts",
-      "import": "./dist/languages/solidity.js",
-      "require": "./dist/languages/solidity.cjs"
-    },
-    "./yaml": {
-      "types": "./dist/languages/yaml.d.ts",
-      "import": "./dist/languages/yaml.js",
-      "require": "./dist/languages/yaml.cjs"
-    },
-    "./zig": {
-      "types": "./dist/languages/zig.d.ts",
-      "import": "./dist/languages/zig.js",
-      "require": "./dist/languages/zig.cjs"
-    },
-    "./xml": {
-      "types": "./dist/languages/xml.d.ts",
-      "import": "./dist/languages/xml.js",
-      "require": "./dist/languages/xml.cjs"
-    },
-    "./zsh": {
-      "types": "./dist/languages/zsh.d.ts",
-      "import": "./dist/languages/zsh.js",
-      "require": "./dist/languages/zsh.cjs"
-    },
     "./ada": {
       "types": "./dist/languages/ada.d.ts",
       "import": "./dist/languages/ada.js",
       "require": "./dist/languages/ada.cjs"
+    },
+    "./agda": {
+      "types": "./dist/languages/agda.d.ts",
+      "import": "./dist/languages/agda.js",
+      "require": "./dist/languages/agda.cjs"
+    },
+    "./algol": {
+      "types": "./dist/languages/algol.d.ts",
+      "import": "./dist/languages/algol.js",
+      "require": "./dist/languages/algol.cjs"
+    },
+    "./ante": {
+      "types": "./dist/languages/ante.d.ts",
+      "import": "./dist/languages/ante.js",
+      "require": "./dist/languages/ante.cjs"
     },
     "./antlr": {
       "types": "./dist/languages/antlr.d.ts",
@@ -621,6 +111,31 @@
       "import": "./dist/languages/arduino.js",
       "require": "./dist/languages/arduino.cjs"
     },
+    "./asciidoc": {
+      "types": "./dist/languages/asciidoc.d.ts",
+      "import": "./dist/languages/asciidoc.js",
+      "require": "./dist/languages/asciidoc.cjs"
+    },
+    "./asp": {
+      "types": "./dist/languages/asp.d.ts",
+      "import": "./dist/languages/asp.js",
+      "require": "./dist/languages/asp.cjs"
+    },
+    "./assembly": {
+      "types": "./dist/languages/assembly.d.ts",
+      "import": "./dist/languages/assembly.js",
+      "require": "./dist/languages/assembly.cjs"
+    },
+    "./astro": {
+      "types": "./dist/languages/astro.d.ts",
+      "import": "./dist/languages/astro.js",
+      "require": "./dist/languages/astro.cjs"
+    },
+    "./austral": {
+      "types": "./dist/languages/austral.d.ts",
+      "import": "./dist/languages/austral.js",
+      "require": "./dist/languages/austral.cjs"
+    },
     "./autohotkey": {
       "types": "./dist/languages/autohotkey.d.ts",
       "import": "./dist/languages/autohotkey.js",
@@ -631,105 +146,60 @@
       "import": "./dist/languages/awk.js",
       "require": "./dist/languages/awk.cjs"
     },
-    "./clojure": {
-      "types": "./dist/languages/clojure.d.ts",
-      "import": "./dist/languages/clojure.js",
-      "require": "./dist/languages/clojure.cjs"
+    "./ballerina": {
+      "types": "./dist/languages/ballerina.d.ts",
+      "import": "./dist/languages/ballerina.js",
+      "require": "./dist/languages/ballerina.cjs"
     },
-    "./coldfusion": {
-      "types": "./dist/languages/coldfusion.d.ts",
-      "import": "./dist/languages/coldfusion.js",
-      "require": "./dist/languages/coldfusion.cjs"
+    "./bash": {
+      "types": "./dist/languages/bash.d.ts",
+      "import": "./dist/languages/bash.js",
+      "require": "./dist/languages/bash.cjs"
     },
-    "./cython": {
-      "types": "./dist/languages/cython.d.ts",
-      "import": "./dist/languages/cython.js",
-      "require": "./dist/languages/cython.cjs"
+    "./batch": {
+      "types": "./dist/languages/batch.d.ts",
+      "import": "./dist/languages/batch.js",
+      "require": "./dist/languages/batch.cjs"
     },
-    "./d": {
-      "types": "./dist/languages/d.d.ts",
-      "import": "./dist/languages/d.js",
-      "require": "./dist/languages/d.cjs"
+    "./bazel": {
+      "types": "./dist/languages/bazel.d.ts",
+      "import": "./dist/languages/bazel.js",
+      "require": "./dist/languages/bazel.cjs"
     },
-    "./erb": {
-      "types": "./dist/languages/erb.d.ts",
-      "import": "./dist/languages/erb.js",
-      "require": "./dist/languages/erb.cjs"
+    "./bcpl": {
+      "types": "./dist/languages/bcpl.d.ts",
+      "import": "./dist/languages/bcpl.js",
+      "require": "./dist/languages/bcpl.cjs"
     },
-    "./fish": {
-      "types": "./dist/languages/fish.d.ts",
-      "import": "./dist/languages/fish.js",
-      "require": "./dist/languages/fish.cjs"
+    "./bicep": {
+      "types": "./dist/languages/bicep.d.ts",
+      "import": "./dist/languages/bicep.js",
+      "require": "./dist/languages/bicep.cjs"
     },
-    "./fennel": {
-      "types": "./dist/languages/fennel.d.ts",
-      "import": "./dist/languages/fennel.js",
-      "require": "./dist/languages/fennel.cjs"
+    "./blade": {
+      "types": "./dist/languages/blade.d.ts",
+      "import": "./dist/languages/blade.js",
+      "require": "./dist/languages/blade.cjs"
     },
-    "./forth": {
-      "types": "./dist/languages/forth.d.ts",
-      "import": "./dist/languages/forth.js",
-      "require": "./dist/languages/forth.cjs"
+    "./bosque": {
+      "types": "./dist/languages/bosque.d.ts",
+      "import": "./dist/languages/bosque.js",
+      "require": "./dist/languages/bosque.cjs"
     },
-    "./gleam": {
-      "types": "./dist/languages/gleam.d.ts",
-      "import": "./dist/languages/gleam.js",
-      "require": "./dist/languages/gleam.cjs"
+    "./bqn": {
+      "types": "./dist/languages/bqn.d.ts",
+      "import": "./dist/languages/bqn.js",
+      "require": "./dist/languages/bqn.cjs"
     },
-    "./haxe": {
-      "types": "./dist/languages/haxe.d.ts",
-      "import": "./dist/languages/haxe.js",
-      "require": "./dist/languages/haxe.cjs"
+    "./c": {
+      "types": "./dist/languages/c.d.ts",
+      "import": "./dist/languages/c.js",
+      "require": "./dist/languages/c.cjs"
     },
-    "./jsonnet": {
-      "types": "./dist/languages/jsonnet.d.ts",
-      "import": "./dist/languages/jsonnet.js",
-      "require": "./dist/languages/jsonnet.cjs"
-    },
-    "./nunjucks": {
-      "types": "./dist/languages/nunjucks.d.ts",
-      "import": "./dist/languages/nunjucks.js",
-      "require": "./dist/languages/nunjucks.cjs"
-    },
-    "./nushell": {
-      "types": "./dist/languages/nushell.d.ts",
-      "import": "./dist/languages/nushell.js",
-      "require": "./dist/languages/nushell.cjs"
-    },
-    "./nim": {
-      "types": "./dist/languages/nim.d.ts",
-      "import": "./dist/languages/nim.js",
-      "require": "./dist/languages/nim.cjs"
-    },
-    "./tcl": {
-      "types": "./dist/languages/tcl.d.ts",
-      "import": "./dist/languages/tcl.js",
-      "require": "./dist/languages/tcl.cjs"
-    },
-    "./tex": {
-      "types": "./dist/languages/tex.d.ts",
-      "import": "./dist/languages/tex.js",
-      "require": "./dist/languages/tex.cjs"
-    },
-    "./twig": {
-      "types": "./dist/languages/twig.d.ts",
-      "import": "./dist/languages/twig.js",
-      "require": "./dist/languages/twig.cjs"
-    },
-    "./xquery": {
-      "types": "./dist/languages/xquery.d.ts",
-      "import": "./dist/languages/xquery.js",
-      "require": "./dist/languages/xquery.cjs"
-    },
-    "./xslt": {
-      "types": "./dist/languages/xslt.d.ts",
-      "import": "./dist/languages/xslt.js",
-      "require": "./dist/languages/xslt.cjs"
-    },
-    "./agda": {
-      "types": "./dist/languages/agda.d.ts",
-      "import": "./dist/languages/agda.js",
-      "require": "./dist/languages/agda.cjs"
+    "./cairo": {
+      "types": "./dist/languages/cairo.d.ts",
+      "import": "./dist/languages/cairo.js",
+      "require": "./dist/languages/cairo.cjs"
     },
     "./carbon": {
       "types": "./dist/languages/carbon.d.ts",
@@ -746,10 +216,95 @@
       "import": "./dist/languages/circom.js",
       "require": "./dist/languages/circom.cjs"
     },
+    "./clojure": {
+      "types": "./dist/languages/clojure.d.ts",
+      "import": "./dist/languages/clojure.js",
+      "require": "./dist/languages/clojure.cjs"
+    },
+    "./cmake": {
+      "types": "./dist/languages/cmake.d.ts",
+      "import": "./dist/languages/cmake.js",
+      "require": "./dist/languages/cmake.cjs"
+    },
+    "./cobol": {
+      "types": "./dist/languages/cobol.d.ts",
+      "import": "./dist/languages/cobol.js",
+      "require": "./dist/languages/cobol.cjs"
+    },
+    "./coffeescript": {
+      "types": "./dist/languages/coffeescript.d.ts",
+      "import": "./dist/languages/coffeescript.js",
+      "require": "./dist/languages/coffeescript.cjs"
+    },
+    "./coldfusion": {
+      "types": "./dist/languages/coldfusion.d.ts",
+      "import": "./dist/languages/coldfusion.js",
+      "require": "./dist/languages/coldfusion.cjs"
+    },
     "./coq": {
       "types": "./dist/languages/coq.d.ts",
       "import": "./dist/languages/coq.js",
       "require": "./dist/languages/coq.cjs"
+    },
+    "./cpp": {
+      "types": "./dist/languages/cpp.d.ts",
+      "import": "./dist/languages/cpp.js",
+      "require": "./dist/languages/cpp.cjs"
+    },
+    "./crystal": {
+      "types": "./dist/languages/crystal.d.ts",
+      "import": "./dist/languages/crystal.js",
+      "require": "./dist/languages/crystal.cjs"
+    },
+    "./csharp": {
+      "types": "./dist/languages/csharp.d.ts",
+      "import": "./dist/languages/csharp.js",
+      "require": "./dist/languages/csharp.cjs"
+    },
+    "./css": {
+      "types": "./dist/languages/css.d.ts",
+      "import": "./dist/languages/css.js",
+      "require": "./dist/languages/css.cjs"
+    },
+    "./cuda": {
+      "types": "./dist/languages/cuda.d.ts",
+      "import": "./dist/languages/cuda.js",
+      "require": "./dist/languages/cuda.cjs"
+    },
+    "./cue": {
+      "types": "./dist/languages/cue.d.ts",
+      "import": "./dist/languages/cue.js",
+      "require": "./dist/languages/cue.cjs"
+    },
+    "./curry": {
+      "types": "./dist/languages/curry.d.ts",
+      "import": "./dist/languages/curry.js",
+      "require": "./dist/languages/curry.cjs"
+    },
+    "./cypher": {
+      "types": "./dist/languages/cypher.d.ts",
+      "import": "./dist/languages/cypher.js",
+      "require": "./dist/languages/cypher.cjs"
+    },
+    "./cython": {
+      "types": "./dist/languages/cython.d.ts",
+      "import": "./dist/languages/cython.js",
+      "require": "./dist/languages/cython.cjs"
+    },
+    "./d": {
+      "types": "./dist/languages/d.d.ts",
+      "import": "./dist/languages/d.js",
+      "require": "./dist/languages/d.cjs"
+    },
+    "./dafny": {
+      "types": "./dist/languages/dafny.d.ts",
+      "import": "./dist/languages/dafny.js",
+      "require": "./dist/languages/dafny.cjs"
+    },
+    "./dart": {
+      "types": "./dist/languages/dart.d.ts",
+      "import": "./dist/languages/dart.js",
+      "require": "./dist/languages/dart.cjs"
     },
     "./dhall": {
       "types": "./dist/languages/dhall.d.ts",
@@ -761,15 +316,135 @@
       "import": "./dist/languages/dita.js",
       "require": "./dist/languages/dita.cjs"
     },
-    "./eiffel": {
-      "types": "./dist/languages/eiffel.d.ts",
-      "import": "./dist/languages/eiffel.js",
-      "require": "./dist/languages/eiffel.cjs"
+    "./dockerfile": {
+      "types": "./dist/languages/dockerfile.d.ts",
+      "import": "./dist/languages/dockerfile.js",
+      "require": "./dist/languages/dockerfile.cjs"
     },
     "./earthly": {
       "types": "./dist/languages/earthly.d.ts",
       "import": "./dist/languages/earthly.js",
       "require": "./dist/languages/earthly.cjs"
+    },
+    "./eiffel": {
+      "types": "./dist/languages/eiffel.d.ts",
+      "import": "./dist/languages/eiffel.js",
+      "require": "./dist/languages/eiffel.cjs"
+    },
+    "./ejs": {
+      "types": "./dist/languages/ejs.d.ts",
+      "import": "./dist/languages/ejs.js",
+      "require": "./dist/languages/ejs.cjs"
+    },
+    "./elixir": {
+      "types": "./dist/languages/elixir.d.ts",
+      "import": "./dist/languages/elixir.js",
+      "require": "./dist/languages/elixir.cjs"
+    },
+    "./elm": {
+      "types": "./dist/languages/elm.d.ts",
+      "import": "./dist/languages/elm.js",
+      "require": "./dist/languages/elm.cjs"
+    },
+    "./erb": {
+      "types": "./dist/languages/erb.d.ts",
+      "import": "./dist/languages/erb.js",
+      "require": "./dist/languages/erb.cjs"
+    },
+    "./erlang": {
+      "types": "./dist/languages/erlang.d.ts",
+      "import": "./dist/languages/erlang.js",
+      "require": "./dist/languages/erlang.cjs"
+    },
+    "./factor": {
+      "types": "./dist/languages/factor.d.ts",
+      "import": "./dist/languages/factor.js",
+      "require": "./dist/languages/factor.cjs"
+    },
+    "./fennel": {
+      "types": "./dist/languages/fennel.d.ts",
+      "import": "./dist/languages/fennel.js",
+      "require": "./dist/languages/fennel.cjs"
+    },
+    "./fish": {
+      "types": "./dist/languages/fish.d.ts",
+      "import": "./dist/languages/fish.js",
+      "require": "./dist/languages/fish.cjs"
+    },
+    "./flux": {
+      "types": "./dist/languages/flux.d.ts",
+      "import": "./dist/languages/flux.js",
+      "require": "./dist/languages/flux.cjs"
+    },
+    "./forth": {
+      "types": "./dist/languages/forth.d.ts",
+      "import": "./dist/languages/forth.js",
+      "require": "./dist/languages/forth.cjs"
+    },
+    "./fortran": {
+      "types": "./dist/languages/fortran.d.ts",
+      "import": "./dist/languages/fortran.js",
+      "require": "./dist/languages/fortran.cjs"
+    },
+    "./freemarker": {
+      "types": "./dist/languages/freemarker.d.ts",
+      "import": "./dist/languages/freemarker.js",
+      "require": "./dist/languages/freemarker.cjs"
+    },
+    "./fsharp": {
+      "types": "./dist/languages/fsharp.d.ts",
+      "import": "./dist/languages/fsharp.js",
+      "require": "./dist/languages/fsharp.cjs"
+    },
+    "./fstar": {
+      "types": "./dist/languages/fstar.d.ts",
+      "import": "./dist/languages/fstar.js",
+      "require": "./dist/languages/fstar.cjs"
+    },
+    "./gdscript": {
+      "types": "./dist/languages/gdscript.d.ts",
+      "import": "./dist/languages/gdscript.js",
+      "require": "./dist/languages/gdscript.cjs"
+    },
+    "./git": {
+      "types": "./dist/languages/git.d.ts",
+      "import": "./dist/languages/git.js",
+      "require": "./dist/languages/git.cjs"
+    },
+    "./gleam": {
+      "types": "./dist/languages/gleam.d.ts",
+      "import": "./dist/languages/gleam.js",
+      "require": "./dist/languages/gleam.cjs"
+    },
+    "./glsl": {
+      "types": "./dist/languages/glsl.d.ts",
+      "import": "./dist/languages/glsl.js",
+      "require": "./dist/languages/glsl.cjs"
+    },
+    "./go": {
+      "types": "./dist/languages/go.d.ts",
+      "import": "./dist/languages/go.js",
+      "require": "./dist/languages/go.cjs"
+    },
+    "./gradle": {
+      "types": "./dist/languages/gradle.d.ts",
+      "import": "./dist/languages/gradle.js",
+      "require": "./dist/languages/gradle.cjs"
+    },
+    "./grain": {
+      "types": "./dist/languages/grain.d.ts",
+      "import": "./dist/languages/grain.js",
+      "require": "./dist/languages/grain.cjs"
+    },
+    "./graphql": {
+      "types": "./dist/languages/graphql.d.ts",
+      "import": "./dist/languages/graphql.js",
+      "require": "./dist/languages/graphql.cjs"
+    },
+    "./groovy": {
+      "types": "./dist/languages/groovy.d.ts",
+      "import": "./dist/languages/groovy.js",
+      "require": "./dist/languages/groovy.cjs"
     },
     "./hack": {
       "types": "./dist/languages/hack.d.ts",
@@ -781,45 +456,225 @@
       "import": "./dist/languages/haml.js",
       "require": "./dist/languages/haml.cjs"
     },
+    "./handlebars": {
+      "types": "./dist/languages/handlebars.d.ts",
+      "import": "./dist/languages/handlebars.js",
+      "require": "./dist/languages/handlebars.cjs"
+    },
+    "./hare": {
+      "types": "./dist/languages/hare.d.ts",
+      "import": "./dist/languages/hare.js",
+      "require": "./dist/languages/hare.cjs"
+    },
+    "./haskell": {
+      "types": "./dist/languages/haskell.d.ts",
+      "import": "./dist/languages/haskell.js",
+      "require": "./dist/languages/haskell.cjs"
+    },
+    "./haxe": {
+      "types": "./dist/languages/haxe.d.ts",
+      "import": "./dist/languages/haxe.js",
+      "require": "./dist/languages/haxe.cjs"
+    },
+    "./hcl": {
+      "types": "./dist/languages/hcl.d.ts",
+      "import": "./dist/languages/hcl.js",
+      "require": "./dist/languages/hcl.cjs"
+    },
+    "./hlsl": {
+      "types": "./dist/languages/hlsl.d.ts",
+      "import": "./dist/languages/hlsl.js",
+      "require": "./dist/languages/hlsl.cjs"
+    },
+    "./hocon": {
+      "types": "./dist/languages/hocon.d.ts",
+      "import": "./dist/languages/hocon.js",
+      "require": "./dist/languages/hocon.cjs"
+    },
+    "./html": {
+      "types": "./dist/languages/html.d.ts",
+      "import": "./dist/languages/html.js",
+      "require": "./dist/languages/html.cjs"
+    },
+    "./hy": {
+      "types": "./dist/languages/hy.d.ts",
+      "import": "./dist/languages/hy.js",
+      "require": "./dist/languages/hy.cjs"
+    },
     "./idris": {
       "types": "./dist/languages/idris.d.ts",
       "import": "./dist/languages/idris.js",
       "require": "./dist/languages/idris.cjs"
+    },
+    "./ini": {
+      "types": "./dist/languages/ini.d.ts",
+      "import": "./dist/languages/ini.js",
+      "require": "./dist/languages/ini.cjs"
+    },
+    "./io": {
+      "types": "./dist/languages/io.d.ts",
+      "import": "./dist/languages/io.js",
+      "require": "./dist/languages/io.cjs"
+    },
+    "./isabelle": {
+      "types": "./dist/languages/isabelle.d.ts",
+      "import": "./dist/languages/isabelle.js",
+      "require": "./dist/languages/isabelle.cjs"
     },
     "./janet": {
       "types": "./dist/languages/janet.d.ts",
       "import": "./dist/languages/janet.js",
       "require": "./dist/languages/janet.cjs"
     },
+    "./java": {
+      "types": "./dist/languages/java.d.ts",
+      "import": "./dist/languages/java.js",
+      "require": "./dist/languages/java.cjs"
+    },
+    "./javascript": {
+      "types": "./dist/languages/javascript.d.ts",
+      "import": "./dist/languages/javascript.js",
+      "require": "./dist/languages/javascript.cjs"
+    },
+    "./jinja": {
+      "types": "./dist/languages/jinja.d.ts",
+      "import": "./dist/languages/jinja.js",
+      "require": "./dist/languages/jinja.cjs"
+    },
+    "./json": {
+      "types": "./dist/languages/json.d.ts",
+      "import": "./dist/languages/json.js",
+      "require": "./dist/languages/json.cjs"
+    },
+    "./json5": {
+      "types": "./dist/languages/json5.d.ts",
+      "import": "./dist/languages/json5.js",
+      "require": "./dist/languages/json5.cjs"
+    },
+    "./jsonc": {
+      "types": "./dist/languages/jsonc.d.ts",
+      "import": "./dist/languages/jsonc.js",
+      "require": "./dist/languages/jsonc.cjs"
+    },
+    "./jsonnet": {
+      "types": "./dist/languages/jsonnet.d.ts",
+      "import": "./dist/languages/jsonnet.js",
+      "require": "./dist/languages/jsonnet.cjs"
+    },
+    "./julia": {
+      "types": "./dist/languages/julia.d.ts",
+      "import": "./dist/languages/julia.js",
+      "require": "./dist/languages/julia.cjs"
+    },
+    "./jupyter-notebook": {
+      "types": "./dist/languages/jupyter-notebook.d.ts",
+      "import": "./dist/languages/jupyter-notebook.js",
+      "require": "./dist/languages/jupyter-notebook.cjs"
+    },
+    "./just": {
+      "types": "./dist/languages/just.d.ts",
+      "import": "./dist/languages/just.js",
+      "require": "./dist/languages/just.cjs"
+    },
+    "./kcl": {
+      "types": "./dist/languages/kcl.d.ts",
+      "import": "./dist/languages/kcl.js",
+      "require": "./dist/languages/kcl.cjs"
+    },
+    "./kdl": {
+      "types": "./dist/languages/kdl.d.ts",
+      "import": "./dist/languages/kdl.js",
+      "require": "./dist/languages/kdl.cjs"
+    },
+    "./koka": {
+      "types": "./dist/languages/koka.d.ts",
+      "import": "./dist/languages/koka.js",
+      "require": "./dist/languages/koka.cjs"
+    },
+    "./kotlin": {
+      "types": "./dist/languages/kotlin.d.ts",
+      "import": "./dist/languages/kotlin.js",
+      "require": "./dist/languages/kotlin.cjs"
+    },
     "./lean": {
       "types": "./dist/languages/lean.d.ts",
       "import": "./dist/languages/lean.js",
       "require": "./dist/languages/lean.cjs"
+    },
+    "./less": {
+      "types": "./dist/languages/less.d.ts",
+      "import": "./dist/languages/less.js",
+      "require": "./dist/languages/less.cjs"
+    },
+    "./liquid": {
+      "types": "./dist/languages/liquid.d.ts",
+      "import": "./dist/languages/liquid.js",
+      "require": "./dist/languages/liquid.cjs"
+    },
+    "./lisp": {
+      "types": "./dist/languages/lisp.d.ts",
+      "import": "./dist/languages/lisp.js",
+      "require": "./dist/languages/lisp.cjs"
     },
     "./llvm-ir": {
       "types": "./dist/languages/llvm-ir.d.ts",
       "import": "./dist/languages/llvm-ir.js",
       "require": "./dist/languages/llvm-ir.cjs"
     },
+    "./lua": {
+      "types": "./dist/languages/lua.d.ts",
+      "import": "./dist/languages/lua.js",
+      "require": "./dist/languages/lua.cjs"
+    },
     "./luau": {
       "types": "./dist/languages/luau.d.ts",
       "import": "./dist/languages/luau.js",
       "require": "./dist/languages/luau.cjs"
+    },
+    "./makefile": {
+      "types": "./dist/languages/makefile.d.ts",
+      "import": "./dist/languages/makefile.js",
+      "require": "./dist/languages/makefile.cjs"
     },
     "./mako": {
       "types": "./dist/languages/mako.d.ts",
       "import": "./dist/languages/mako.js",
       "require": "./dist/languages/mako.cjs"
     },
+    "./markdown": {
+      "types": "./dist/languages/markdown.d.ts",
+      "import": "./dist/languages/markdown.js",
+      "require": "./dist/languages/markdown.cjs"
+    },
     "./mathematica": {
       "types": "./dist/languages/mathematica.d.ts",
       "import": "./dist/languages/mathematica.js",
       "require": "./dist/languages/mathematica.cjs"
     },
-    "./mustache": {
-      "types": "./dist/languages/mustache.d.ts",
-      "import": "./dist/languages/mustache.js",
-      "require": "./dist/languages/mustache.cjs"
+    "./matlab": {
+      "types": "./dist/languages/matlab.d.ts",
+      "import": "./dist/languages/matlab.js",
+      "require": "./dist/languages/matlab.cjs"
+    },
+    "./mdx": {
+      "types": "./dist/languages/mdx.d.ts",
+      "import": "./dist/languages/mdx.js",
+      "require": "./dist/languages/mdx.cjs"
+    },
+    "./mermaid": {
+      "types": "./dist/languages/mermaid.d.ts",
+      "import": "./dist/languages/mermaid.js",
+      "require": "./dist/languages/mermaid.cjs"
+    },
+    "./meson": {
+      "types": "./dist/languages/meson.d.ts",
+      "import": "./dist/languages/meson.js",
+      "require": "./dist/languages/meson.cjs"
+    },
+    "./metal": {
+      "types": "./dist/languages/metal.d.ts",
+      "import": "./dist/languages/metal.js",
+      "require": "./dist/languages/metal.cjs"
     },
     "./mojo": {
       "types": "./dist/languages/mojo.d.ts",
@@ -831,20 +686,100 @@
       "import": "./dist/languages/moonbit.js",
       "require": "./dist/languages/moonbit.cjs"
     },
+    "./move": {
+      "types": "./dist/languages/move.d.ts",
+      "import": "./dist/languages/move.js",
+      "require": "./dist/languages/move.cjs"
+    },
+    "./mustache": {
+      "types": "./dist/languages/mustache.d.ts",
+      "import": "./dist/languages/mustache.js",
+      "require": "./dist/languages/mustache.cjs"
+    },
+    "./nginx": {
+      "types": "./dist/languages/nginx.d.ts",
+      "import": "./dist/languages/nginx.js",
+      "require": "./dist/languages/nginx.cjs"
+    },
+    "./nickel": {
+      "types": "./dist/languages/nickel.d.ts",
+      "import": "./dist/languages/nickel.js",
+      "require": "./dist/languages/nickel.cjs"
+    },
+    "./nim": {
+      "types": "./dist/languages/nim.d.ts",
+      "import": "./dist/languages/nim.js",
+      "require": "./dist/languages/nim.cjs"
+    },
+    "./nix": {
+      "types": "./dist/languages/nix.d.ts",
+      "import": "./dist/languages/nix.js",
+      "require": "./dist/languages/nix.cjs"
+    },
+    "./nunjucks": {
+      "types": "./dist/languages/nunjucks.d.ts",
+      "import": "./dist/languages/nunjucks.js",
+      "require": "./dist/languages/nunjucks.cjs"
+    },
+    "./nushell": {
+      "types": "./dist/languages/nushell.d.ts",
+      "import": "./dist/languages/nushell.js",
+      "require": "./dist/languages/nushell.cjs"
+    },
+    "./objective-c": {
+      "types": "./dist/languages/objective-c.d.ts",
+      "import": "./dist/languages/objective-c.js",
+      "require": "./dist/languages/objective-c.cjs"
+    },
+    "./ocaml": {
+      "types": "./dist/languages/ocaml.d.ts",
+      "import": "./dist/languages/ocaml.js",
+      "require": "./dist/languages/ocaml.cjs"
+    },
     "./odin": {
       "types": "./dist/languages/odin.d.ts",
       "import": "./dist/languages/odin.js",
       "require": "./dist/languages/odin.cjs"
+    },
+    "./openapi": {
+      "types": "./dist/languages/openapi.d.ts",
+      "import": "./dist/languages/openapi.js",
+      "require": "./dist/languages/openapi.cjs"
     },
     "./opencl": {
       "types": "./dist/languages/opencl.d.ts",
       "import": "./dist/languages/opencl.js",
       "require": "./dist/languages/opencl.cjs"
     },
+    "./pascal": {
+      "types": "./dist/languages/pascal.d.ts",
+      "import": "./dist/languages/pascal.js",
+      "require": "./dist/languages/pascal.cjs"
+    },
+    "./perl": {
+      "types": "./dist/languages/perl.d.ts",
+      "import": "./dist/languages/perl.js",
+      "require": "./dist/languages/perl.cjs"
+    },
+    "./php": {
+      "types": "./dist/languages/php.d.ts",
+      "import": "./dist/languages/php.js",
+      "require": "./dist/languages/php.cjs"
+    },
     "./pine-script": {
       "types": "./dist/languages/pine-script.d.ts",
       "import": "./dist/languages/pine-script.js",
       "require": "./dist/languages/pine-script.cjs"
+    },
+    "./pkl": {
+      "types": "./dist/languages/pkl.d.ts",
+      "import": "./dist/languages/pkl.js",
+      "require": "./dist/languages/pkl.cjs"
+    },
+    "./plantuml": {
+      "types": "./dist/languages/plantuml.d.ts",
+      "import": "./dist/languages/plantuml.js",
+      "require": "./dist/languages/plantuml.cjs"
     },
     "./plsql": {
       "types": "./dist/languages/plsql.d.ts",
@@ -856,30 +791,85 @@
       "import": "./dist/languages/pony.js",
       "require": "./dist/languages/pony.cjs"
     },
+    "./powershell": {
+      "types": "./dist/languages/powershell.d.ts",
+      "import": "./dist/languages/powershell.js",
+      "require": "./dist/languages/powershell.cjs"
+    },
+    "./prolog": {
+      "types": "./dist/languages/prolog.d.ts",
+      "import": "./dist/languages/prolog.js",
+      "require": "./dist/languages/prolog.cjs"
+    },
     "./promql": {
       "types": "./dist/languages/promql.d.ts",
       "import": "./dist/languages/promql.js",
       "require": "./dist/languages/promql.cjs"
+    },
+    "./protobuf": {
+      "types": "./dist/languages/protobuf.d.ts",
+      "import": "./dist/languages/protobuf.js",
+      "require": "./dist/languages/protobuf.cjs"
+    },
+    "./pug": {
+      "types": "./dist/languages/pug.d.ts",
+      "import": "./dist/languages/pug.js",
+      "require": "./dist/languages/pug.cjs"
+    },
+    "./puppet": {
+      "types": "./dist/languages/puppet.d.ts",
+      "import": "./dist/languages/puppet.js",
+      "require": "./dist/languages/puppet.cjs"
     },
     "./purescript": {
       "types": "./dist/languages/purescript.d.ts",
       "import": "./dist/languages/purescript.js",
       "require": "./dist/languages/purescript.cjs"
     },
+    "./python": {
+      "types": "./dist/languages/python.d.ts",
+      "import": "./dist/languages/python.js",
+      "require": "./dist/languages/python.cjs"
+    },
+    "./qml": {
+      "types": "./dist/languages/qml.d.ts",
+      "import": "./dist/languages/qml.js",
+      "require": "./dist/languages/qml.cjs"
+    },
     "./qsharp": {
       "types": "./dist/languages/qsharp.d.ts",
       "import": "./dist/languages/qsharp.js",
       "require": "./dist/languages/qsharp.cjs"
+    },
+    "./r": {
+      "types": "./dist/languages/r.d.ts",
+      "import": "./dist/languages/r.js",
+      "require": "./dist/languages/r.cjs"
+    },
+    "./racket": {
+      "types": "./dist/languages/racket.d.ts",
+      "import": "./dist/languages/racket.js",
+      "require": "./dist/languages/racket.cjs"
     },
     "./raku": {
       "types": "./dist/languages/raku.d.ts",
       "import": "./dist/languages/raku.js",
       "require": "./dist/languages/raku.cjs"
     },
+    "./razor": {
+      "types": "./dist/languages/razor.d.ts",
+      "import": "./dist/languages/razor.js",
+      "require": "./dist/languages/razor.cjs"
+    },
     "./reasonml": {
       "types": "./dist/languages/reasonml.d.ts",
       "import": "./dist/languages/reasonml.js",
       "require": "./dist/languages/reasonml.cjs"
+    },
+    "./rego": {
+      "types": "./dist/languages/rego.d.ts",
+      "import": "./dist/languages/rego.js",
+      "require": "./dist/languages/rego.cjs"
     },
     "./rescript": {
       "types": "./dist/languages/rescript.d.ts",
@@ -891,15 +881,35 @@
       "import": "./dist/languages/restructuredtext.js",
       "require": "./dist/languages/restructuredtext.cjs"
     },
+    "./ruby": {
+      "types": "./dist/languages/ruby.d.ts",
+      "import": "./dist/languages/ruby.js",
+      "require": "./dist/languages/ruby.cjs"
+    },
+    "./rust": {
+      "types": "./dist/languages/rust.d.ts",
+      "import": "./dist/languages/rust.js",
+      "require": "./dist/languages/rust.cjs"
+    },
     "./sas": {
       "types": "./dist/languages/sas.d.ts",
       "import": "./dist/languages/sas.js",
       "require": "./dist/languages/sas.cjs"
     },
+    "./scala": {
+      "types": "./dist/languages/scala.d.ts",
+      "import": "./dist/languages/scala.js",
+      "require": "./dist/languages/scala.cjs"
+    },
     "./scheme": {
       "types": "./dist/languages/scheme.d.ts",
       "import": "./dist/languages/scheme.js",
       "require": "./dist/languages/scheme.cjs"
+    },
+    "./scss": {
+      "types": "./dist/languages/scss.d.ts",
+      "import": "./dist/languages/scss.js",
+      "require": "./dist/languages/scss.cjs"
     },
     "./smalltalk": {
       "types": "./dist/languages/smalltalk.d.ts",
@@ -911,10 +921,30 @@
       "import": "./dist/languages/smarty.js",
       "require": "./dist/languages/smarty.cjs"
     },
+    "./solidity": {
+      "types": "./dist/languages/solidity.d.ts",
+      "import": "./dist/languages/solidity.js",
+      "require": "./dist/languages/solidity.cjs"
+    },
+    "./sparql": {
+      "types": "./dist/languages/sparql.d.ts",
+      "import": "./dist/languages/sparql.js",
+      "require": "./dist/languages/sparql.cjs"
+    },
+    "./sql": {
+      "types": "./dist/languages/sql.d.ts",
+      "import": "./dist/languages/sql.js",
+      "require": "./dist/languages/sql.cjs"
+    },
     "./standard-ml": {
       "types": "./dist/languages/standard-ml.d.ts",
       "import": "./dist/languages/standard-ml.js",
       "require": "./dist/languages/standard-ml.cjs"
+    },
+    "./starlark": {
+      "types": "./dist/languages/starlark.d.ts",
+      "import": "./dist/languages/starlark.js",
+      "require": "./dist/languages/starlark.cjs"
     },
     "./stata": {
       "types": "./dist/languages/stata.d.ts",
@@ -926,6 +956,36 @@
       "import": "./dist/languages/stylus.js",
       "require": "./dist/languages/stylus.cjs"
     },
+    "./svelte": {
+      "types": "./dist/languages/svelte.d.ts",
+      "import": "./dist/languages/svelte.js",
+      "require": "./dist/languages/svelte.cjs"
+    },
+    "./svg": {
+      "types": "./dist/languages/svg.d.ts",
+      "import": "./dist/languages/svg.js",
+      "require": "./dist/languages/svg.cjs"
+    },
+    "./svn": {
+      "types": "./dist/languages/svn.d.ts",
+      "import": "./dist/languages/svn.js",
+      "require": "./dist/languages/svn.cjs"
+    },
+    "./swift": {
+      "types": "./dist/languages/swift.d.ts",
+      "import": "./dist/languages/swift.js",
+      "require": "./dist/languages/swift.cjs"
+    },
+    "./tcl": {
+      "types": "./dist/languages/tcl.d.ts",
+      "import": "./dist/languages/tcl.js",
+      "require": "./dist/languages/tcl.cjs"
+    },
+    "./tex": {
+      "types": "./dist/languages/tex.d.ts",
+      "import": "./dist/languages/tex.js",
+      "require": "./dist/languages/tex.cjs"
+    },
     "./thrift": {
       "types": "./dist/languages/thrift.d.ts",
       "import": "./dist/languages/thrift.js",
@@ -935,6 +995,36 @@
       "types": "./dist/languages/tla-plus.d.ts",
       "import": "./dist/languages/tla-plus.js",
       "require": "./dist/languages/tla-plus.cjs"
+    },
+    "./toml": {
+      "types": "./dist/languages/toml.d.ts",
+      "import": "./dist/languages/toml.js",
+      "require": "./dist/languages/toml.cjs"
+    },
+    "./tsql": {
+      "types": "./dist/languages/tsql.d.ts",
+      "import": "./dist/languages/tsql.js",
+      "require": "./dist/languages/tsql.cjs"
+    },
+    "./twig": {
+      "types": "./dist/languages/twig.d.ts",
+      "import": "./dist/languages/twig.js",
+      "require": "./dist/languages/twig.cjs"
+    },
+    "./typescript": {
+      "types": "./dist/languages/typescript.d.ts",
+      "import": "./dist/languages/typescript.js",
+      "require": "./dist/languages/typescript.cjs"
+    },
+    "./typst": {
+      "types": "./dist/languages/typst.d.ts",
+      "import": "./dist/languages/typst.js",
+      "require": "./dist/languages/typst.cjs"
+    },
+    "./unison": {
+      "types": "./dist/languages/unison.d.ts",
+      "import": "./dist/languages/unison.js",
+      "require": "./dist/languages/unison.cjs"
     },
     "./v": {
       "types": "./dist/languages/v.d.ts",
@@ -946,75 +1036,95 @@
       "import": "./dist/languages/vala.js",
       "require": "./dist/languages/vala.cjs"
     },
+    "./verilog": {
+      "types": "./dist/languages/verilog.d.ts",
+      "import": "./dist/languages/verilog.js",
+      "require": "./dist/languages/verilog.cjs"
+    },
+    "./vhdl": {
+      "types": "./dist/languages/vhdl.d.ts",
+      "import": "./dist/languages/vhdl.js",
+      "require": "./dist/languages/vhdl.cjs"
+    },
+    "./visual-basic": {
+      "types": "./dist/languages/visual-basic.d.ts",
+      "import": "./dist/languages/visual-basic.js",
+      "require": "./dist/languages/visual-basic.cjs"
+    },
+    "./vue": {
+      "types": "./dist/languages/vue.d.ts",
+      "import": "./dist/languages/vue.js",
+      "require": "./dist/languages/vue.cjs"
+    },
     "./vyper": {
       "types": "./dist/languages/vyper.d.ts",
       "import": "./dist/languages/vyper.js",
       "require": "./dist/languages/vyper.cjs"
+    },
+    "./webassembly": {
+      "types": "./dist/languages/webassembly.d.ts",
+      "import": "./dist/languages/webassembly.js",
+      "require": "./dist/languages/webassembly.cjs"
+    },
+    "./wgsl": {
+      "types": "./dist/languages/wgsl.d.ts",
+      "import": "./dist/languages/wgsl.js",
+      "require": "./dist/languages/wgsl.cjs"
     },
     "./wren": {
       "types": "./dist/languages/wren.d.ts",
       "import": "./dist/languages/wren.js",
       "require": "./dist/languages/wren.cjs"
     },
+    "./xaml": {
+      "types": "./dist/languages/xaml.d.ts",
+      "import": "./dist/languages/xaml.js",
+      "require": "./dist/languages/xaml.cjs"
+    },
+    "./xml": {
+      "types": "./dist/languages/xml.d.ts",
+      "import": "./dist/languages/xml.js",
+      "require": "./dist/languages/xml.cjs"
+    },
+    "./xquery": {
+      "types": "./dist/languages/xquery.d.ts",
+      "import": "./dist/languages/xquery.js",
+      "require": "./dist/languages/xquery.cjs"
+    },
+    "./xslt": {
+      "types": "./dist/languages/xslt.d.ts",
+      "import": "./dist/languages/xslt.js",
+      "require": "./dist/languages/xslt.cjs"
+    },
+    "./yaml": {
+      "types": "./dist/languages/yaml.d.ts",
+      "import": "./dist/languages/yaml.js",
+      "require": "./dist/languages/yaml.cjs"
+    },
+    "./yara": {
+      "types": "./dist/languages/yara.d.ts",
+      "import": "./dist/languages/yara.js",
+      "require": "./dist/languages/yara.cjs"
+    },
     "./zeek": {
       "types": "./dist/languages/zeek.d.ts",
       "import": "./dist/languages/zeek.js",
       "require": "./dist/languages/zeek.cjs"
+    },
+    "./zig": {
+      "types": "./dist/languages/zig.d.ts",
+      "import": "./dist/languages/zig.js",
+      "require": "./dist/languages/zig.cjs"
     },
     "./ziggy": {
       "types": "./dist/languages/ziggy.d.ts",
       "import": "./dist/languages/ziggy.js",
       "require": "./dist/languages/ziggy.cjs"
     },
-    "./dafny": {
-      "types": "./dist/languages/dafny.d.ts",
-      "import": "./dist/languages/dafny.js",
-      "require": "./dist/languages/dafny.cjs"
-    },
-    "./ejs": {
-      "types": "./dist/languages/ejs.d.ts",
-      "import": "./dist/languages/ejs.js",
-      "require": "./dist/languages/ejs.cjs"
-    },
-    "./freemarker": {
-      "types": "./dist/languages/freemarker.d.ts",
-      "import": "./dist/languages/freemarker.js",
-      "require": "./dist/languages/freemarker.cjs"
-    },
-    "./fstar": {
-      "types": "./dist/languages/fstar.d.ts",
-      "import": "./dist/languages/fstar.js",
-      "require": "./dist/languages/fstar.cjs"
-    },
-    "./isabelle": {
-      "types": "./dist/languages/isabelle.d.ts",
-      "import": "./dist/languages/isabelle.js",
-      "require": "./dist/languages/isabelle.cjs"
-    },
-    "./jsonc": {
-      "types": "./dist/languages/jsonc.d.ts",
-      "import": "./dist/languages/jsonc.js",
-      "require": "./dist/languages/jsonc.cjs"
-    },
-    "./just": {
-      "types": "./dist/languages/just.d.ts",
-      "import": "./dist/languages/just.js",
-      "require": "./dist/languages/just.cjs"
-    },
-    "./kdl": {
-      "types": "./dist/languages/kdl.d.ts",
-      "import": "./dist/languages/kdl.js",
-      "require": "./dist/languages/kdl.cjs"
-    },
-    "./openapi": {
-      "types": "./dist/languages/openapi.d.ts",
-      "import": "./dist/languages/openapi.js",
-      "require": "./dist/languages/openapi.cjs"
-    },
-    "./puppet": {
-      "types": "./dist/languages/puppet.d.ts",
-      "import": "./dist/languages/puppet.js",
-      "require": "./dist/languages/puppet.cjs"
+    "./zsh": {
+      "types": "./dist/languages/zsh.d.ts",
+      "import": "./dist/languages/zsh.js",
+      "require": "./dist/languages/zsh.cjs"
     }
   },
   "files": [
