@@ -1,3 +1,19 @@
+## [1.32.1](https://github.com/ElJijuna/code-languages/compare/v1.32.0...v1.32.1) (2026-06-09)
+
+
+### Bug Fixes
+
+* update Astro metadata to 6.4.5 ([a3de41a](https://github.com/ElJijuna/code-languages/commit/a3de41afa637d48a4d4e0a807cd7c90cead07641))
+* update Dart metadata to 3.12.2 ([0d15619](https://github.com/ElJijuna/code-languages/commit/0d156190e7c449a75053c269c4a26b7d725cb562))
+* update Elixir metadata to 1.20.1 ([5aabcf2](https://github.com/ElJijuna/code-languages/commit/5aabcf2b0865e7344792027c0710e828df4c5629))
+* update Luau metadata to 0.724 ([b0ba1ed](https://github.com/ElJijuna/code-languages/commit/b0ba1ed17661d9313587726974d6daa9e04e7ebc))
+* update Nickel metadata to 1.17.0 ([146ec31](https://github.com/ElJijuna/code-languages/commit/146ec31c049c9d91ce2b252c53bdaa2b515fb263))
+* update PlantUML metadata to 1.2026.6 ([249ded9](https://github.com/ElJijuna/code-languages/commit/249ded91ab2eb5902e6c0487a816de17ab1639c4))
+* update Razor metadata to 10.0.9 ([661778c](https://github.com/ElJijuna/code-languages/commit/661778cc9e6129a13355bf620c4ed47047a54366))
+* update Rego metadata to OPA 1.17.1 ([e0db45b](https://github.com/ElJijuna/code-languages/commit/e0db45b6dde94224a88e9e7ae30ad109e3e9479e))
+* update Scala metadata to 3.8.4 ([8a58eb2](https://github.com/ElJijuna/code-languages/commit/8a58eb258439229056199efb1c21eee7cc3074bc))
+* update Svelte metadata to 5.56.3 ([168d872](https://github.com/ElJijuna/code-languages/commit/168d8728b2c7a56a9b7f9d151790a664cc02b83d))
+
 # [1.32.0](https://github.com/ElJijuna/code-languages/compare/v1.31.2...v1.32.0) (2026-06-09)
 
 
