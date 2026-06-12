@@ -63,16 +63,25 @@ const manualChecks = {
   just: 'Just releases should be reviewed manually against the casey/just GitHub releases page.',
   kdl: 'KDL versions should be reviewed manually against the kdl.dev specification and kdl-org/kdl releases.',
   lisp: 'Common Lisp is standardized as ANSI INCITS 226-1994 and should be reviewed manually against ANSI/INCITS publications.',
+  lobster:
+    'Lobster releases should be reviewed manually against the official Lobster site and git repository because snapshots do not expose a stable release API.',
+  logo: 'Logo dialect versions should be reviewed manually against UCBLogo, FMSLogo, and other implementation release notes.',
   mako: 'Mako metadata should be reviewed manually against Mako release notes and PyPI releases.',
   mathematica:
     'Wolfram Language versions are tied to Mathematica and Wolfram platform releases and should be reviewed manually.',
+  mercury:
+    'Mercury releases should be reviewed manually against the Mercury download page and compiler release announcements.',
   metal:
     'Metal versions are tied to Apple platform SDKs and should be reviewed manually against Apple Developer Metal documentation.',
+  'modula-2':
+    'Modula-2 standards and compiler releases should be reviewed manually against ISO/IEC 10514 and maintained compiler documentation.',
   mojo: 'Mojo releases should be reviewed manually against Modular release notes while the toolchain and versioning model evolve.',
   moonbit:
     'MoonBit releases should be reviewed manually against MoonBit release notes while its toolchain versioning evolves.',
   'objective-c':
     'Objective-C language versioning is effectively stable and should be reviewed manually against Apple documentation and runtime updates.',
+  oberon:
+    'Oberon versions vary by language revision and implementation; review Wirth publications and maintained compiler releases manually.',
   odin: 'Odin metadata tracks development snapshots and should be reviewed manually against Odin release notes.',
   opencl:
     'OpenCL C versions follow Khronos specifications and implementation support and should be reviewed manually.',
@@ -80,6 +89,8 @@ const manualChecks = {
     'OpenAPI Specification versions should be reviewed manually against spec.openapis.org and OpenAPI Initiative publications.',
   'pine-script':
     'Pine Script versions are tied to TradingView documentation and should be reviewed manually.',
+  'pl-i':
+    'PL/I versions are tied to IBM Enterprise PL/I and related compilers; review IBM documentation and release notes manually.',
   plsql:
     'PL/SQL metadata is tied to Oracle Database releases and should be reviewed manually against Oracle documentation.',
   pony: 'Pony releases should be reviewed manually against Pony compiler release notes.',
@@ -94,15 +105,20 @@ const manualChecks = {
     'Q# language metadata is tied to Microsoft Quantum tooling and should be reviewed manually against Microsoft documentation.',
   qml: 'QML versions are tied to Qt platform releases and should be reviewed manually against Qt documentation.',
   raku: 'Raku language versions should be reviewed manually against Raku language and Rakudo release documentation.',
+  rebol:
+    'Rebol versions are implementation-specific across REBOL 2, Rebol 3, and community branches; review project documentation manually.',
+  red: 'Red releases should be reviewed manually against red-lang.org and the red/red GitHub releases page.',
   reasonml:
     'ReasonML is a syntax layer over OCaml workflows and should be reviewed manually against Reason releases.',
   rescript:
     'ReScript releases should be reviewed manually against ReScript compiler release notes.',
   restructuredtext:
     'reStructuredText metadata follows Docutils and Sphinx ecosystem releases and should be reviewed manually.',
+  roc: 'Roc releases should be reviewed manually against roc-lang.org and roc-lang/roc release notes while the language evolves.',
   sas: 'SAS language metadata is tied to SAS platform releases and should be reviewed manually.',
   scheme:
     'Scheme standards and implementation versions should be reviewed manually against R7RS and major implementations.',
+  self: 'Self releases should be reviewed manually against selflanguage.org and Self VM release notes.',
   smalltalk:
     'Smalltalk metadata spans standards and image-based implementations and should be reviewed manually.',
   smarty: 'Smarty releases should be reviewed manually against Smarty project releases.',

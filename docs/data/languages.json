@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-09T21:06:08.955Z",
-  "total": 214,
-  "extensions": 498,
+  "generatedAt": "2026-06-12T04:17:05.081Z",
+  "total": 224,
+  "extensions": 515,
   "locales": ["en", "es", "it", "fr", "de", "pt"],
   "languages": [
     {
@@ -550,7 +550,7 @@
         "packageManagers": ["npm", "pnpm", "Yarn", "Bun"],
         "ecosystems": ["Web", "Static Sites", "Content"]
       },
-      "version": "6.4.4",
+      "version": "6.4.5",
       "logo": "https://astro.build/assets/press/astro-icon-light.svg",
       "color": "#FF5D01"
     },
@@ -1733,7 +1733,7 @@
         "packageManagers": ["pub"],
         "ecosystems": ["Flutter", "Web", "Server-side"]
       },
-      "version": "3.12.1",
+      "version": "3.12.2",
       "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Dart_programming_language_logo.svg",
       "color": "#0175C2"
     },
@@ -1903,7 +1903,7 @@
         "ecosystems": ["Enterprise", "Systems"]
       },
       "version": "24.05",
-      "logo": "https://www.eiffel.org/images/eiffel_logo.png",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Eiffel_logo.svg",
       "color": "#4D6977"
     },
     {
@@ -1970,7 +1970,7 @@
         "packageManagers": ["Mix", "Hex"],
         "ecosystems": ["Web", "Distributed Systems", "Fault-tolerant Systems", "Data Processing"]
       },
-      "version": "1.20.0",
+      "version": "1.20.1",
       "logo": "https://cdn.simpleicons.org/elixir/4B275F",
       "color": "#4B275F"
     },
@@ -2986,7 +2986,7 @@
         "ecosystems": ["JVM", "Scala", "Akka", "Play Framework", "Configuration"]
       },
       "version": "1.4.3",
-      "logo": "https://www.lightbend.com/assets/images/brand/lightbend-icon-reverse.svg",
+      "logo": "https://dummyimage.com/32x32/F26822/ffffff.png&text=HC",
       "color": "#F26822"
     },
     {
@@ -3388,7 +3388,7 @@
         "ecosystems": ["Configuration", "Web", "Node.js"]
       },
       "version": "2.2.3",
-      "logo": "https://json5.org/assets/logo.svg",
+      "logo": "https://dummyimage.com/32x32/267CB9/ffffff.png&text=J5",
       "color": "#267CB9"
     },
     {
@@ -3871,6 +3871,72 @@
       "color": "#262D3A"
     },
     {
+      "slug": "lobster",
+      "name": "Lobster",
+      "description": "A statically typed language for games and graphical applications with fast iteration.",
+      "longDescription": "Lobster is a statically typed programming language designed for game programming, interactive graphics, and rapid iteration. It combines functional-style values with imperative code and a compiler intended to keep feedback loops short.\n\nIts ecosystem is small, but the language is useful as a compact environment for prototypes, graphics experiments, and language design work focused on games and real-time programs.",
+      "esName": "Lobster",
+      "esDescription": "Lenguaje tipado estaticamente para juegos y aplicaciones graficas con iteracion rapida.",
+      "esLongDescription": "Lobster es un lenguaje de programacion tipado estaticamente para juegos, graficos interactivos e iteracion rapida. Combina valores de estilo funcional con codigo imperativo y un compilador pensado para ciclos de feedback cortos.\n\nSu ecosistema es pequeno, pero sirve para prototipos, experimentos graficos y trabajo de diseno de lenguajes orientado a programas en tiempo real.",
+      "itName": "Lobster",
+      "itDescription": "A statically typed language for games and graphical applications with fast iteration.",
+      "itLongDescription": "Lobster is a statically typed programming language designed for game programming, interactive graphics, and rapid iteration. It combines functional-style values with imperative code and a compiler intended to keep feedback loops short.\n\nIts ecosystem is small, but the language is useful as a compact environment for prototypes, graphics experiments, and language design work focused on games and real-time programs.",
+      "frName": "Lobster",
+      "frDescription": "A statically typed language for games and graphical applications with fast iteration.",
+      "frLongDescription": "Lobster is a statically typed programming language designed for game programming, interactive graphics, and rapid iteration. It combines functional-style values with imperative code and a compiler intended to keep feedback loops short.\n\nIts ecosystem is small, but the language is useful as a compact environment for prototypes, graphics experiments, and language design work focused on games and real-time programs.",
+      "deName": "Lobster",
+      "deDescription": "A statically typed language for games and graphical applications with fast iteration.",
+      "deLongDescription": "Lobster is a statically typed programming language designed for game programming, interactive graphics, and rapid iteration. It combines functional-style values with imperative code and a compiler intended to keep feedback loops short.\n\nIts ecosystem is small, but the language is useful as a compact environment for prototypes, graphics experiments, and language design work focused on games and real-time programs.",
+      "ptName": "Lobster",
+      "ptDescription": "A statically typed language for games and graphical applications with fast iteration.",
+      "ptLongDescription": "Lobster is a statically typed programming language designed for game programming, interactive graphics, and rapid iteration. It combines functional-style values with imperative code and a compiler intended to keep feedback loops short.\n\nIts ecosystem is small, but the language is useful as a compact environment for prototypes, graphics experiments, and language design work focused on games and real-time programs.",
+      "publishedDate": "2014-01-01",
+      "extensions": [".lobster"],
+      "author": "Wouter van Oortmerssen",
+      "website": "https://strlen.com/lobster/",
+      "paradigms": ["functional", "imperative", "game-development"],
+      "tooling": {
+        "runtimes": ["Lobster compiler"],
+        "ecosystems": ["Games", "Interactive Graphics", "Language Experiments"]
+      },
+      "version": "development snapshot",
+      "logo": "https://dummyimage.com/32x32/DC2626/ffffff.png&text=Lo",
+      "color": "#DC2626"
+    },
+    {
+      "slug": "logo",
+      "name": "Logo",
+      "description": "An educational language known for turtle graphics, interactivity, and procedural ideas.",
+      "longDescription": "Logo is an educational programming language created to help learners explore procedures, recursion, geometry, and interactive problem solving. Its turtle graphics model made programming visual and concrete for generations of students.\n\nLogo dialects are still used in teaching, creative coding, and language-history contexts where immediate feedback and simple commands make computational ideas easier to explore.",
+      "esName": "Logo",
+      "esDescription": "Lenguaje educativo conocido por graficos de tortuga, interactividad e ideas procedurales.",
+      "esLongDescription": "Logo es un lenguaje educativo creado para explorar procedimientos, recursion, geometria y resolucion interactiva de problemas. Su modelo de graficos de tortuga hizo la programacion visual y concreta para generaciones de estudiantes.\n\nSus dialectos siguen presentes en ensenanza, codigo creativo e historia de lenguajes, donde el feedback inmediato facilita explorar ideas computacionales.",
+      "itName": "Logo",
+      "itDescription": "An educational language known for turtle graphics, interactivity, and procedural ideas.",
+      "itLongDescription": "Logo is an educational programming language created to help learners explore procedures, recursion, geometry, and interactive problem solving. Its turtle graphics model made programming visual and concrete for generations of students.\n\nLogo dialects are still used in teaching, creative coding, and language-history contexts where immediate feedback and simple commands make computational ideas easier to explore.",
+      "frName": "Logo",
+      "frDescription": "An educational language known for turtle graphics, interactivity, and procedural ideas.",
+      "frLongDescription": "Logo is an educational programming language created to help learners explore procedures, recursion, geometry, and interactive problem solving. Its turtle graphics model made programming visual and concrete for generations of students.\n\nLogo dialects are still used in teaching, creative coding, and language-history contexts where immediate feedback and simple commands make computational ideas easier to explore.",
+      "deName": "Logo",
+      "deDescription": "An educational language known for turtle graphics, interactivity, and procedural ideas.",
+      "deLongDescription": "Logo is an educational programming language created to help learners explore procedures, recursion, geometry, and interactive problem solving. Its turtle graphics model made programming visual and concrete for generations of students.\n\nLogo dialects are still used in teaching, creative coding, and language-history contexts where immediate feedback and simple commands make computational ideas easier to explore.",
+      "ptName": "Logo",
+      "ptDescription": "An educational language known for turtle graphics, interactivity, and procedural ideas.",
+      "ptLongDescription": "Logo is an educational programming language created to help learners explore procedures, recursion, geometry, and interactive problem solving. Its turtle graphics model made programming visual and concrete for generations of students.\n\nLogo dialects are still used in teaching, creative coding, and language-history contexts where immediate feedback and simple commands make computational ideas easier to explore.",
+      "publishedDate": "1967-01-01",
+      "extensions": [".logo", ".lgo"],
+      "author": "Wally Feurzeig, Seymour Papert, and Cynthia Solomon",
+      "website": "https://people.eecs.berkeley.edu/~bh/logo.html",
+      "paradigms": ["educational", "procedural", "interactive"],
+      "tooling": {
+        "runtimes": ["UCBLogo", "FMSLogo", "Logo interpreters"],
+        "ecosystems": ["Education", "Turtle Graphics", "Creative Coding"]
+      },
+      "version": "UCBLogo 6.2",
+      "logo": "https://dummyimage.com/32x32/16A34A/ffffff.png&text=Lg",
+      "color": "#16A34A"
+    },
+    {
       "slug": "lua",
       "name": "Lua",
       "description": "A lightweight, embeddable scripting language designed for extension and portability.",
@@ -3934,7 +4000,7 @@
         "packageManagers": ["Wally", "Pesde"],
         "ecosystems": ["Roblox", "Games", "Embedded scripting"]
       },
-      "version": "0.723",
+      "version": "0.724",
       "logo": "https://cdn.simpleicons.org/roblox/000000",
       "color": "#000000"
     },
@@ -4104,6 +4170,40 @@
       "color": "#1B1F24"
     },
     {
+      "slug": "mercury",
+      "name": "Mercury",
+      "description": "A pure logic and functional language with strong static typing and determinism analysis.",
+      "longDescription": "Mercury is a declarative programming language that combines logic programming with functional programming, strong static typing, modes, and determinism analysis. It aims to make logic programs more reliable and efficient for larger software.\n\nMercury is used in research, compiler work, and specialized systems where Prolog-like relations benefit from compile-time checks, explicit module structure, and predictable execution behavior.",
+      "esName": "Mercury",
+      "esDescription": "Lenguaje logico y funcional puro con tipado estatico fuerte y analisis de determinismo.",
+      "esLongDescription": "Mercury es un lenguaje declarativo que combina programacion logica y funcional con tipado estatico fuerte, modos y analisis de determinismo. Busca que programas de estilo logico sean mas fiables y eficientes en software grande.\n\nSe usa en investigacion, compiladores y sistemas especializados donde relaciones estilo Prolog se benefician de chequeos en compilacion, modulos explicitos y ejecucion predecible.",
+      "itName": "Mercury",
+      "itDescription": "A pure logic and functional language with strong static typing and determinism analysis.",
+      "itLongDescription": "Mercury is a declarative programming language that combines logic programming with functional programming, strong static typing, modes, and determinism analysis. It aims to make logic programs more reliable and efficient for larger software.\n\nMercury is used in research, compiler work, and specialized systems where Prolog-like relations benefit from compile-time checks, explicit module structure, and predictable execution behavior.",
+      "frName": "Mercury",
+      "frDescription": "A pure logic and functional language with strong static typing and determinism analysis.",
+      "frLongDescription": "Mercury is a declarative programming language that combines logic programming with functional programming, strong static typing, modes, and determinism analysis. It aims to make logic programs more reliable and efficient for larger software.\n\nMercury is used in research, compiler work, and specialized systems where Prolog-like relations benefit from compile-time checks, explicit module structure, and predictable execution behavior.",
+      "deName": "Mercury",
+      "deDescription": "A pure logic and functional language with strong static typing and determinism analysis.",
+      "deLongDescription": "Mercury is a declarative programming language that combines logic programming with functional programming, strong static typing, modes, and determinism analysis. It aims to make logic programs more reliable and efficient for larger software.\n\nMercury is used in research, compiler work, and specialized systems where Prolog-like relations benefit from compile-time checks, explicit module structure, and predictable execution behavior.",
+      "ptName": "Mercury",
+      "ptDescription": "A pure logic and functional language with strong static typing and determinism analysis.",
+      "ptLongDescription": "Mercury is a declarative programming language that combines logic programming with functional programming, strong static typing, modes, and determinism analysis. It aims to make logic programs more reliable and efficient for larger software.\n\nMercury is used in research, compiler work, and specialized systems where Prolog-like relations benefit from compile-time checks, explicit module structure, and predictable execution behavior.",
+      "publishedDate": "1995-04-08",
+      "extensions": [".m"],
+      "author": "University of Melbourne",
+      "website": "https://www.mercurylang.org",
+      "paradigms": ["logic", "functional", "declarative"],
+      "tooling": {
+        "runtimes": ["Melbourne Mercury Compiler"],
+        "packageManagers": ["mmc build tooling"],
+        "ecosystems": ["Logic Programming", "Declarative Systems", "Academic Computing"]
+      },
+      "version": "22.01.8",
+      "logo": "https://dummyimage.com/32x32/0891B2/ffffff.png&text=Me",
+      "color": "#0891B2"
+    },
+    {
       "slug": "mermaid",
       "name": "Mermaid",
       "description": "A text-based diagram language for flowcharts, sequences, timelines, and more.",
@@ -4203,6 +4303,39 @@
       "version": "Metal 4",
       "logo": "https://developer.apple.com/assets/elements/icons/metal/metal-256x256_2x.png",
       "color": "#999999"
+    },
+    {
+      "slug": "modula-2",
+      "name": "Modula-2",
+      "description": "A modular systems language from Niklaus Wirth with explicit interfaces and modules.",
+      "longDescription": "Modula-2 was designed as a successor to Pascal for systems programming and teaching. It emphasizes separate compilation, explicit definition modules, strong typing, coroutines, and structured imperative programming.\n\nThe language influenced later modular languages and remains relevant in compiler history, embedded systems, and educational settings where clear module boundaries and small language design matter.",
+      "esName": "Modula-2",
+      "esDescription": "Lenguaje modular de sistemas de Niklaus Wirth con interfaces y modulos explicitos.",
+      "esLongDescription": "Modula-2 fue disenado como sucesor de Pascal para sistemas y ensenanza. Enfatiza compilacion separada, modulos de definicion explicitos, tipado fuerte, corrutinas y programacion imperativa estructurada.\n\nInfluyo en lenguajes modulares posteriores y sigue siendo relevante en historia de compiladores, sistemas embebidos y contextos educativos.",
+      "itName": "Modula-2",
+      "itDescription": "A modular systems language from Niklaus Wirth with explicit interfaces and modules.",
+      "itLongDescription": "Modula-2 was designed as a successor to Pascal for systems programming and teaching. It emphasizes separate compilation, explicit definition modules, strong typing, coroutines, and structured imperative programming.\n\nThe language influenced later modular languages and remains relevant in compiler history, embedded systems, and educational settings where clear module boundaries and small language design matter.",
+      "frName": "Modula-2",
+      "frDescription": "A modular systems language from Niklaus Wirth with explicit interfaces and modules.",
+      "frLongDescription": "Modula-2 was designed as a successor to Pascal for systems programming and teaching. It emphasizes separate compilation, explicit definition modules, strong typing, coroutines, and structured imperative programming.\n\nThe language influenced later modular languages and remains relevant in compiler history, embedded systems, and educational settings where clear module boundaries and small language design matter.",
+      "deName": "Modula-2",
+      "deDescription": "A modular systems language from Niklaus Wirth with explicit interfaces and modules.",
+      "deLongDescription": "Modula-2 was designed as a successor to Pascal for systems programming and teaching. It emphasizes separate compilation, explicit definition modules, strong typing, coroutines, and structured imperative programming.\n\nThe language influenced later modular languages and remains relevant in compiler history, embedded systems, and educational settings where clear module boundaries and small language design matter.",
+      "ptName": "Modula-2",
+      "ptDescription": "A modular systems language from Niklaus Wirth with explicit interfaces and modules.",
+      "ptLongDescription": "Modula-2 was designed as a successor to Pascal for systems programming and teaching. It emphasizes separate compilation, explicit definition modules, strong typing, coroutines, and structured imperative programming.\n\nThe language influenced later modular languages and remains relevant in compiler history, embedded systems, and educational settings where clear module boundaries and small language design matter.",
+      "publishedDate": "1978-01-01",
+      "extensions": [".mod", ".def"],
+      "author": "Niklaus Wirth",
+      "website": "https://www.modula2.org",
+      "paradigms": ["imperative", "procedural", "modular"],
+      "tooling": {
+        "runtimes": ["GNU Modula-2", "ADW Modula-2", "Classic compilers"],
+        "ecosystems": ["Systems Programming", "Education", "Language History"]
+      },
+      "version": "ISO/IEC 10514-1:1996",
+      "logo": "https://dummyimage.com/32x32/2563EB/ffffff.png&text=M2",
+      "color": "#2563EB"
     },
     {
       "slug": "mojo",
@@ -4335,7 +4468,7 @@
         "ecosystems": ["Web", "Node.js", "Ruby", "Python", "Java", "Go"]
       },
       "version": "1.0",
-      "logo": "https://mustache.github.io/images/mustache.png",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Mustache-js-logo.png",
       "color": "#974A01"
     },
     {
@@ -4400,7 +4533,7 @@
         "runtimes": ["nickel CLI"],
         "ecosystems": ["Configuration", "Infrastructure", "Nix", "DevOps"]
       },
-      "version": "1.16.0",
+      "version": "1.17.0",
       "logo": "https://avatars.githubusercontent.com/u/83021462?v=4",
       "color": "#3C6EB4"
     },
@@ -4503,7 +4636,7 @@
         "ecosystems": ["Web", "Node.js", "Static Sites"]
       },
       "version": "3.2.4",
-      "logo": "https://mozilla.github.io/nunjucks/img/nunjucks-logo.png",
+      "logo": "https://cdn.simpleicons.org/nunjucks/1C4A1C",
       "color": "#1C4A1C"
     },
     {
@@ -4537,8 +4670,41 @@
         "ecosystems": ["Shell", "Unix", "Windows", "macOS"]
       },
       "version": "0.113.1",
-      "logo": "https://www.nushell.sh/icons/android-chrome-512x512.png",
+      "logo": "https://cdn.simpleicons.org/nushell/3AA675",
       "color": "#3AA675"
+    },
+    {
+      "slug": "oberon",
+      "name": "Oberon",
+      "description": "A compact Pascal-family language with modules, type extension, and system roots.",
+      "longDescription": "Oberon is a compact language and operating-system project created by Niklaus Wirth and Jurg Gutknecht. The language simplifies Modula-2 while adding type extension and a small, strongly typed module system.\n\nOberon is important in operating-system research, compiler construction, and teaching because it shows how a small language, compiler, and environment can form a coherent software system.",
+      "esName": "Oberon",
+      "esDescription": "Lenguaje compacto de la familia Pascal con modulos, extension de tipos y raices de sistema.",
+      "esLongDescription": "Oberon es un lenguaje y proyecto de sistema operativo creado por Niklaus Wirth y Jurg Gutknecht. Simplifica Modula-2 y agrega extension de tipos junto con un sistema de modulos pequeno y fuertemente tipado.\n\nEs importante en investigacion de sistemas operativos, construccion de compiladores y ensenanza porque muestra como lenguaje, compilador y entorno pueden formar un sistema coherente.",
+      "itName": "Oberon",
+      "itDescription": "A compact Pascal-family language with modules, type extension, and system roots.",
+      "itLongDescription": "Oberon is a compact language and operating-system project created by Niklaus Wirth and Jurg Gutknecht. The language simplifies Modula-2 while adding type extension and a small, strongly typed module system.\n\nOberon is important in operating-system research, compiler construction, and teaching because it shows how a small language, compiler, and environment can form a coherent software system.",
+      "frName": "Oberon",
+      "frDescription": "A compact Pascal-family language with modules, type extension, and system roots.",
+      "frLongDescription": "Oberon is a compact language and operating-system project created by Niklaus Wirth and Jurg Gutknecht. The language simplifies Modula-2 while adding type extension and a small, strongly typed module system.\n\nOberon is important in operating-system research, compiler construction, and teaching because it shows how a small language, compiler, and environment can form a coherent software system.",
+      "deName": "Oberon",
+      "deDescription": "A compact Pascal-family language with modules, type extension, and system roots.",
+      "deLongDescription": "Oberon is a compact language and operating-system project created by Niklaus Wirth and Jurg Gutknecht. The language simplifies Modula-2 while adding type extension and a small, strongly typed module system.\n\nOberon is important in operating-system research, compiler construction, and teaching because it shows how a small language, compiler, and environment can form a coherent software system.",
+      "ptName": "Oberon",
+      "ptDescription": "A compact Pascal-family language with modules, type extension, and system roots.",
+      "ptLongDescription": "Oberon is a compact language and operating-system project created by Niklaus Wirth and Jurg Gutknecht. The language simplifies Modula-2 while adding type extension and a small, strongly typed module system.\n\nOberon is important in operating-system research, compiler construction, and teaching because it shows how a small language, compiler, and environment can form a coherent software system.",
+      "publishedDate": "1987-01-01",
+      "extensions": [".ob", ".mod"],
+      "author": "Niklaus Wirth",
+      "website": "https://people.inf.ethz.ch/wirth/Oberon/",
+      "paradigms": ["imperative", "procedural", "modular"],
+      "tooling": {
+        "runtimes": ["Oberon System", "Oxford Oberon-2 compiler", "Classic compilers"],
+        "ecosystems": ["Operating Systems", "Education", "Language Design"]
+      },
+      "version": "Oberon-2",
+      "logo": "https://dummyimage.com/32x32/0F766E/ffffff.png&text=Ob",
+      "color": "#0F766E"
     },
     {
       "slug": "objective-c",
@@ -4912,6 +5078,39 @@
       "color": "#72AE44"
     },
     {
+      "slug": "pl-i",
+      "name": "PL/I",
+      "description": "An IBM language combining business, scientific, and systems programming features.",
+      "longDescription": "PL/I was designed by IBM to cover business data processing, scientific computing, and systems programming in one language. It combines block structure, strong data-description facilities, exceptions, concurrency features, and rich numeric support.\n\nPL/I remains associated with mainframe and enterprise systems, where long-lived applications depend on its data handling, batch processing, and compatibility with IBM tooling.",
+      "esName": "PL/I",
+      "esDescription": "Lenguaje de IBM que combina rasgos de programacion empresarial, cientifica y de sistemas.",
+      "esLongDescription": "PL/I fue disenado por IBM para cubrir procesamiento empresarial, computacion cientifica y programacion de sistemas en un solo lenguaje. Combina estructura de bloques, descripciones de datos, excepciones, concurrencia y soporte numerico amplio.\n\nSigue asociado a mainframes y sistemas empresariales donde aplicaciones de larga vida dependen de su manejo de datos, procesos batch y herramientas IBM.",
+      "itName": "PL/I",
+      "itDescription": "An IBM language combining business, scientific, and systems programming features.",
+      "itLongDescription": "PL/I was designed by IBM to cover business data processing, scientific computing, and systems programming in one language. It combines block structure, strong data-description facilities, exceptions, concurrency features, and rich numeric support.\n\nPL/I remains associated with mainframe and enterprise systems, where long-lived applications depend on its data handling, batch processing, and compatibility with IBM tooling.",
+      "frName": "PL/I",
+      "frDescription": "An IBM language combining business, scientific, and systems programming features.",
+      "frLongDescription": "PL/I was designed by IBM to cover business data processing, scientific computing, and systems programming in one language. It combines block structure, strong data-description facilities, exceptions, concurrency features, and rich numeric support.\n\nPL/I remains associated with mainframe and enterprise systems, where long-lived applications depend on its data handling, batch processing, and compatibility with IBM tooling.",
+      "deName": "PL/I",
+      "deDescription": "An IBM language combining business, scientific, and systems programming features.",
+      "deLongDescription": "PL/I was designed by IBM to cover business data processing, scientific computing, and systems programming in one language. It combines block structure, strong data-description facilities, exceptions, concurrency features, and rich numeric support.\n\nPL/I remains associated with mainframe and enterprise systems, where long-lived applications depend on its data handling, batch processing, and compatibility with IBM tooling.",
+      "ptName": "PL/I",
+      "ptDescription": "An IBM language combining business, scientific, and systems programming features.",
+      "ptLongDescription": "PL/I was designed by IBM to cover business data processing, scientific computing, and systems programming in one language. It combines block structure, strong data-description facilities, exceptions, concurrency features, and rich numeric support.\n\nPL/I remains associated with mainframe and enterprise systems, where long-lived applications depend on its data handling, batch processing, and compatibility with IBM tooling.",
+      "publishedDate": "1964-01-01",
+      "extensions": [".pli", ".pl1"],
+      "author": "IBM",
+      "website": "https://www.ibm.com/products/pli-compiler-aix",
+      "paradigms": ["imperative", "procedural", "structured"],
+      "tooling": {
+        "runtimes": ["IBM Enterprise PL/I", "Open PL/I compilers"],
+        "ecosystems": ["Mainframe", "Enterprise", "Scientific Computing"]
+      },
+      "version": "Enterprise PL/I 6.2",
+      "logo": "https://dummyimage.com/32x32/1F2937/ffffff.png&text=PL1",
+      "color": "#1F2937"
+    },
+    {
       "slug": "plantuml",
       "name": "PlantUML",
       "description": "A text-based diagram language for UML, architecture, and documentation diagrams.",
@@ -4941,7 +5140,7 @@
         "packageManagers": ["Maven", "Gradle", "npm"],
         "ecosystems": ["UML", "Architecture", "Documentation", "Diagrams"]
       },
-      "version": "1.2026.5",
+      "version": "1.2026.6",
       "logo": "https://plantuml.com/logo3.png",
       "color": "#FBB03B"
     },
@@ -5450,7 +5649,7 @@
         "packageManagers": ["NuGet"],
         "ecosystems": [".NET", "ASP.NET Core", "Web", "Blazor"]
       },
-      "version": "10.0.8",
+      "version": "10.0.9",
       "logo": "https://cdn.simpleicons.org/dotnet/512BD4",
       "color": "#512BD4"
     },
@@ -5489,6 +5688,72 @@
       "color": "#DD4B39"
     },
     {
+      "slug": "rebol",
+      "name": "Rebol",
+      "description": "A compact messaging language built around code-as-data blocks and dialects.",
+      "longDescription": "Rebol is a small language created around the idea of relative expressions, blocks as data, and domain-specific dialects. Its syntax makes structured data and executable code share one compact representation.\n\nRebol has been used for network utilities, GUIs, automation, lightweight data exchange, and DSL experiments. Its influence is visible in Red and other languages interested in homoiconic, message-oriented scripting.",
+      "esName": "Rebol",
+      "esDescription": "Lenguaje compacto de mensajeria basado en bloques de codigo como datos y dialectos.",
+      "esLongDescription": "Rebol es un lenguaje pequeno creado alrededor de expresiones relativas, bloques como datos y dialectos especificos de dominio. Su sintaxis hace que datos estructurados y codigo ejecutable compartan una representacion compacta.\n\nSe ha usado en utilidades de red, GUIs, automatizacion, intercambio ligero de datos y experimentos de DSL. Su influencia se ve en Red y otros lenguajes de scripting homoiconico.",
+      "itName": "Rebol",
+      "itDescription": "A compact messaging language built around code-as-data blocks and dialects.",
+      "itLongDescription": "Rebol is a small language created around the idea of relative expressions, blocks as data, and domain-specific dialects. Its syntax makes structured data and executable code share one compact representation.\n\nRebol has been used for network utilities, GUIs, automation, lightweight data exchange, and DSL experiments. Its influence is visible in Red and other languages interested in homoiconic, message-oriented scripting.",
+      "frName": "Rebol",
+      "frDescription": "A compact messaging language built around code-as-data blocks and dialects.",
+      "frLongDescription": "Rebol is a small language created around the idea of relative expressions, blocks as data, and domain-specific dialects. Its syntax makes structured data and executable code share one compact representation.\n\nRebol has been used for network utilities, GUIs, automation, lightweight data exchange, and DSL experiments. Its influence is visible in Red and other languages interested in homoiconic, message-oriented scripting.",
+      "deName": "Rebol",
+      "deDescription": "A compact messaging language built around code-as-data blocks and dialects.",
+      "deLongDescription": "Rebol is a small language created around the idea of relative expressions, blocks as data, and domain-specific dialects. Its syntax makes structured data and executable code share one compact representation.\n\nRebol has been used for network utilities, GUIs, automation, lightweight data exchange, and DSL experiments. Its influence is visible in Red and other languages interested in homoiconic, message-oriented scripting.",
+      "ptName": "Rebol",
+      "ptDescription": "A compact messaging language built around code-as-data blocks and dialects.",
+      "ptLongDescription": "Rebol is a small language created around the idea of relative expressions, blocks as data, and domain-specific dialects. Its syntax makes structured data and executable code share one compact representation.\n\nRebol has been used for network utilities, GUIs, automation, lightweight data exchange, and DSL experiments. Its influence is visible in Red and other languages interested in homoiconic, message-oriented scripting.",
+      "publishedDate": "1997-01-01",
+      "extensions": [".r", ".reb", ".rebol"],
+      "author": "Carl Sassenrath",
+      "website": "https://www.rebol.com",
+      "paradigms": ["functional", "dataflow", "scripting"],
+      "tooling": {
+        "runtimes": ["REBOL 2", "Rebol 3", "Ren-C"],
+        "ecosystems": ["Scripting", "DSLs", "Network Tools"]
+      },
+      "version": "Rebol 3",
+      "logo": "https://dummyimage.com/32x32/7C2D12/ffffff.png&text=Re",
+      "color": "#7C2D12"
+    },
+    {
+      "slug": "red",
+      "name": "Red",
+      "description": "A Rebol-inspired language spanning high-level scripting and low-level Red/System code.",
+      "longDescription": "Red is a language inspired by Rebol that aims to cover a broad range from symbolic high-level scripting to lower-level systems programming through Red/System. It emphasizes compact syntax, DSL-friendly data notation, and GUI-oriented workflows.\n\nThe project is used for scripts, small desktop tools, experiments, and applications that benefit from homoiconic data, concise notation, and a single distribution with compiler and runtime pieces.",
+      "esName": "Red",
+      "esDescription": "Lenguaje inspirado en Rebol que cubre scripting de alto nivel y codigo Red/System.",
+      "esLongDescription": "Red es un lenguaje inspirado en Rebol que busca cubrir desde scripting simbolico de alto nivel hasta programacion de sistemas con Red/System. Enfatiza sintaxis compacta, notacion de datos apta para DSLs y flujos orientados a GUI.\n\nSe usa en scripts, herramientas pequenas de escritorio, experimentos y apps que aprovechan datos homoiconicos, notacion concisa y una distribucion con compilador y runtime.",
+      "itName": "Red",
+      "itDescription": "A Rebol-inspired language spanning high-level scripting and low-level Red/System code.",
+      "itLongDescription": "Red is a language inspired by Rebol that aims to cover a broad range from symbolic high-level scripting to lower-level systems programming through Red/System. It emphasizes compact syntax, DSL-friendly data notation, and GUI-oriented workflows.\n\nThe project is used for scripts, small desktop tools, experiments, and applications that benefit from homoiconic data, concise notation, and a single distribution with compiler and runtime pieces.",
+      "frName": "Red",
+      "frDescription": "A Rebol-inspired language spanning high-level scripting and low-level Red/System code.",
+      "frLongDescription": "Red is a language inspired by Rebol that aims to cover a broad range from symbolic high-level scripting to lower-level systems programming through Red/System. It emphasizes compact syntax, DSL-friendly data notation, and GUI-oriented workflows.\n\nThe project is used for scripts, small desktop tools, experiments, and applications that benefit from homoiconic data, concise notation, and a single distribution with compiler and runtime pieces.",
+      "deName": "Red",
+      "deDescription": "A Rebol-inspired language spanning high-level scripting and low-level Red/System code.",
+      "deLongDescription": "Red is a language inspired by Rebol that aims to cover a broad range from symbolic high-level scripting to lower-level systems programming through Red/System. It emphasizes compact syntax, DSL-friendly data notation, and GUI-oriented workflows.\n\nThe project is used for scripts, small desktop tools, experiments, and applications that benefit from homoiconic data, concise notation, and a single distribution with compiler and runtime pieces.",
+      "ptName": "Red",
+      "ptDescription": "A Rebol-inspired language spanning high-level scripting and low-level Red/System code.",
+      "ptLongDescription": "Red is a language inspired by Rebol that aims to cover a broad range from symbolic high-level scripting to lower-level systems programming through Red/System. It emphasizes compact syntax, DSL-friendly data notation, and GUI-oriented workflows.\n\nThe project is used for scripts, small desktop tools, experiments, and applications that benefit from homoiconic data, concise notation, and a single distribution with compiler and runtime pieces.",
+      "publishedDate": "2011-02-26",
+      "extensions": [".red", ".reds"],
+      "author": "Nenad Rakocevic",
+      "website": "https://www.red-lang.org",
+      "paradigms": ["imperative", "functional", "symbolic"],
+      "tooling": {
+        "runtimes": ["Red toolchain", "Red/System"],
+        "ecosystems": ["Scripting", "GUI Applications", "Systems Experiments"]
+      },
+      "version": "0.6.6",
+      "logo": "https://static.red-lang.org/red-logo.svg",
+      "color": "#F00000"
+    },
+    {
       "slug": "rego",
       "name": "Rego",
       "description": "Open Policy Agent's declarative policy language for authorization and policy as code.",
@@ -5518,7 +5783,7 @@
         "packageManagers": ["OPA bundles"],
         "ecosystems": ["Policy as Code", "Kubernetes", "Cloud Native", "Authorization"]
       },
-      "version": "OPA 1.17.0",
+      "version": "OPA 1.17.1",
       "logo": "https://raw.githubusercontent.com/open-policy-agent/opa/main/logo/logo.svg",
       "color": "#5C4EE5"
     },
@@ -5589,6 +5854,40 @@
       "version": "Docutils 0.22.2",
       "logo": "https://cdn.simpleicons.org/readthedocs/8CA1AF",
       "color": "#8CA1AF"
+    },
+    {
+      "slug": "roc",
+      "name": "Roc",
+      "description": "A fast, pure functional language focused on friendly syntax and platform-based apps.",
+      "longDescription": "Roc is a pure functional programming language focused on fast execution, approachable syntax, static typing, and a platform model where hosts provide capabilities to applications. It aims to make functional programming practical for command-line tools, services, and WebAssembly.\n\nThe language is still evolving, but its design explores abilities, automatic memory management without tracing GC pauses, and packaging workflows that separate application code from platform code.",
+      "esName": "Roc",
+      "esDescription": "Lenguaje funcional puro y rapido con sintaxis amigable y apps basadas en plataformas.",
+      "esLongDescription": "Roc es un lenguaje funcional puro enfocado en ejecucion rapida, sintaxis accesible, tipado estatico y un modelo de plataformas donde el host provee capacidades a las aplicaciones. Busca hacer practica la programacion funcional para CLIs, servicios y WebAssembly.\n\nEl lenguaje sigue evolucionando, pero explora abilities, manejo automatico de memoria sin pausas de GC por trazado y paquetes que separan codigo de app y plataforma.",
+      "itName": "Roc",
+      "itDescription": "A fast, pure functional language focused on friendly syntax and platform-based apps.",
+      "itLongDescription": "Roc is a pure functional programming language focused on fast execution, approachable syntax, static typing, and a platform model where hosts provide capabilities to applications. It aims to make functional programming practical for command-line tools, services, and WebAssembly.\n\nThe language is still evolving, but its design explores abilities, automatic memory management without tracing GC pauses, and packaging workflows that separate application code from platform code.",
+      "frName": "Roc",
+      "frDescription": "A fast, pure functional language focused on friendly syntax and platform-based apps.",
+      "frLongDescription": "Roc is a pure functional programming language focused on fast execution, approachable syntax, static typing, and a platform model where hosts provide capabilities to applications. It aims to make functional programming practical for command-line tools, services, and WebAssembly.\n\nThe language is still evolving, but its design explores abilities, automatic memory management without tracing GC pauses, and packaging workflows that separate application code from platform code.",
+      "deName": "Roc",
+      "deDescription": "A fast, pure functional language focused on friendly syntax and platform-based apps.",
+      "deLongDescription": "Roc is a pure functional programming language focused on fast execution, approachable syntax, static typing, and a platform model where hosts provide capabilities to applications. It aims to make functional programming practical for command-line tools, services, and WebAssembly.\n\nThe language is still evolving, but its design explores abilities, automatic memory management without tracing GC pauses, and packaging workflows that separate application code from platform code.",
+      "ptName": "Roc",
+      "ptDescription": "A fast, pure functional language focused on friendly syntax and platform-based apps.",
+      "ptLongDescription": "Roc is a pure functional programming language focused on fast execution, approachable syntax, static typing, and a platform model where hosts provide capabilities to applications. It aims to make functional programming practical for command-line tools, services, and WebAssembly.\n\nThe language is still evolving, but its design explores abilities, automatic memory management without tracing GC pauses, and packaging workflows that separate application code from platform code.",
+      "publishedDate": "2021-01-01",
+      "extensions": [".roc"],
+      "author": "Richard Feldman and contributors",
+      "website": "https://www.roc-lang.org",
+      "paradigms": ["functional", "pure", "static"],
+      "tooling": {
+        "runtimes": ["Roc compiler"],
+        "packageManagers": ["Roc packages"],
+        "ecosystems": ["CLI Tools", "WebAssembly", "Functional Programming"]
+      },
+      "version": "development snapshot",
+      "logo": "https://avatars.githubusercontent.com/u/96867701?v=4",
+      "color": "#7C3AED"
     },
     {
       "slug": "ruby",
@@ -5755,7 +6054,7 @@
         "packageManagers": ["sbt", "Maven", "Gradle", "Scala CLI"],
         "ecosystems": ["JVM", "Web", "Data Engineering", "Distributed Systems"]
       },
-      "version": "3.8.3",
+      "version": "3.8.4",
       "logo": "https://cdn.simpleicons.org/scala/DC322F",
       "color": "#DC322F"
     },
@@ -5791,6 +6090,39 @@
       "version": "R7RS small",
       "logo": "https://cdn.simpleicons.org/racket/9F1D20",
       "color": "#9F1D20"
+    },
+    {
+      "slug": "self",
+      "name": "Self",
+      "description": "A prototype-based object language that influenced JavaScript, VM design, and live IDEs.",
+      "longDescription": "Self is a dynamic object-oriented language based on prototypes and message passing rather than classes. It was created as a research language for exploring object systems, live programming environments, and high-performance dynamic dispatch.\n\nSelf influenced JavaScript, Smalltalk VM work, adaptive optimization, and interactive development systems where objects can be inspected, changed, and extended while the program is running.",
+      "esName": "Self",
+      "esDescription": "Lenguaje de objetos basado en prototipos que influyo en JavaScript, VMs e IDEs vivos.",
+      "esLongDescription": "Self es un lenguaje orientado a objetos dinamico basado en prototipos y envio de mensajes, no en clases. Fue creado como lenguaje de investigacion para explorar sistemas de objetos, entornos vivos y dispatch dinamico de alto rendimiento.\n\nInfluyo en JavaScript, trabajo de VMs de Smalltalk, optimizacion adaptativa y entornos interactivos donde los objetos pueden inspeccionarse y cambiarse mientras el programa corre.",
+      "itName": "Self",
+      "itDescription": "A prototype-based object language that influenced JavaScript, VM design, and live IDEs.",
+      "itLongDescription": "Self is a dynamic object-oriented language based on prototypes and message passing rather than classes. It was created as a research language for exploring object systems, live programming environments, and high-performance dynamic dispatch.\n\nSelf influenced JavaScript, Smalltalk VM work, adaptive optimization, and interactive development systems where objects can be inspected, changed, and extended while the program is running.",
+      "frName": "Self",
+      "frDescription": "A prototype-based object language that influenced JavaScript, VM design, and live IDEs.",
+      "frLongDescription": "Self is a dynamic object-oriented language based on prototypes and message passing rather than classes. It was created as a research language for exploring object systems, live programming environments, and high-performance dynamic dispatch.\n\nSelf influenced JavaScript, Smalltalk VM work, adaptive optimization, and interactive development systems where objects can be inspected, changed, and extended while the program is running.",
+      "deName": "Self",
+      "deDescription": "A prototype-based object language that influenced JavaScript, VM design, and live IDEs.",
+      "deLongDescription": "Self is a dynamic object-oriented language based on prototypes and message passing rather than classes. It was created as a research language for exploring object systems, live programming environments, and high-performance dynamic dispatch.\n\nSelf influenced JavaScript, Smalltalk VM work, adaptive optimization, and interactive development systems where objects can be inspected, changed, and extended while the program is running.",
+      "ptName": "Self",
+      "ptDescription": "A prototype-based object language that influenced JavaScript, VM design, and live IDEs.",
+      "ptLongDescription": "Self is a dynamic object-oriented language based on prototypes and message passing rather than classes. It was created as a research language for exploring object systems, live programming environments, and high-performance dynamic dispatch.\n\nSelf influenced JavaScript, Smalltalk VM work, adaptive optimization, and interactive development systems where objects can be inspected, changed, and extended while the program is running.",
+      "publishedDate": "1987-01-01",
+      "extensions": [".self"],
+      "author": "David Ungar and Randall Smith",
+      "website": "https://selflanguage.org",
+      "paradigms": ["prototype-based", "object-oriented", "dynamic"],
+      "tooling": {
+        "runtimes": ["Self VM"],
+        "ecosystems": ["Language Research", "Interactive Environments", "Prototype OO"]
+      },
+      "version": "2024.1",
+      "logo": "https://dummyimage.com/32x32/EA580C/ffffff.png&text=Se",
+      "color": "#EA580C"
     },
     {
       "slug": "smalltalk",
@@ -6120,7 +6452,7 @@
         "packageManagers": ["npm", "pnpm", "Yarn", "Bun"],
         "ecosystems": ["Web", "SvelteKit", "Vite"]
       },
-      "version": "5.56.2",
+      "version": "5.56.3",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg",
       "color": "#FF3E00"
     },

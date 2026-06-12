@@ -13,7 +13,7 @@ export const eiffel = {
     ecosystems: ['Enterprise', 'Systems'],
   },
   version: '24.05',
-  logo: 'https://www.eiffel.org/images/eiffel_logo.png',
+  logo: 'https://commons.wikimedia.org/wiki/Special:FilePath/Eiffel_logo.svg',
   color: '#4D6977',
   i18n: {
     en: {

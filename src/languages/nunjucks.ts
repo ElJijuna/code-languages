@@ -13,7 +13,7 @@ export const nunjucks = {
     ecosystems: ['Web', 'Node.js', 'Static Sites'],
   },
   version: '3.2.4',
-  logo: 'https://mozilla.github.io/nunjucks/img/nunjucks-logo.png',
+  logo: 'https://cdn.simpleicons.org/nunjucks/1C4A1C',
   color: '#1C4A1C',
   i18n: {
     en: {

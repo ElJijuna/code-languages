@@ -621,6 +621,16 @@
       "import": "./dist/languages/llvm-ir.js",
       "require": "./dist/languages/llvm-ir.cjs"
     },
+    "./lobster": {
+      "types": "./dist/languages/lobster.d.ts",
+      "import": "./dist/languages/lobster.js",
+      "require": "./dist/languages/lobster.cjs"
+    },
+    "./logo": {
+      "types": "./dist/languages/logo.d.ts",
+      "import": "./dist/languages/logo.js",
+      "require": "./dist/languages/logo.cjs"
+    },
     "./lua": {
       "types": "./dist/languages/lua.d.ts",
       "import": "./dist/languages/lua.js",
@@ -671,6 +681,11 @@
       "import": "./dist/languages/meson.js",
       "require": "./dist/languages/meson.cjs"
     },
+    "./mercury": {
+      "types": "./dist/languages/mercury.d.ts",
+      "import": "./dist/languages/mercury.js",
+      "require": "./dist/languages/mercury.cjs"
+    },
     "./metal": {
       "types": "./dist/languages/metal.d.ts",
       "import": "./dist/languages/metal.js",
@@ -680,6 +695,11 @@
       "types": "./dist/languages/mojo.d.ts",
       "import": "./dist/languages/mojo.js",
       "require": "./dist/languages/mojo.cjs"
+    },
+    "./modula-2": {
+      "types": "./dist/languages/modula-2.d.ts",
+      "import": "./dist/languages/modula-2.js",
+      "require": "./dist/languages/modula-2.cjs"
     },
     "./moonbit": {
       "types": "./dist/languages/moonbit.d.ts",
@@ -736,6 +756,11 @@
       "import": "./dist/languages/ocaml.js",
       "require": "./dist/languages/ocaml.cjs"
     },
+    "./oberon": {
+      "types": "./dist/languages/oberon.d.ts",
+      "import": "./dist/languages/oberon.js",
+      "require": "./dist/languages/oberon.cjs"
+    },
     "./odin": {
       "types": "./dist/languages/odin.d.ts",
       "import": "./dist/languages/odin.js",
@@ -770,6 +795,11 @@
       "types": "./dist/languages/pine-script.d.ts",
       "import": "./dist/languages/pine-script.js",
       "require": "./dist/languages/pine-script.cjs"
+    },
+    "./pl-i": {
+      "types": "./dist/languages/pl-i.d.ts",
+      "import": "./dist/languages/pl-i.js",
+      "require": "./dist/languages/pl-i.cjs"
     },
     "./pkl": {
       "types": "./dist/languages/pkl.d.ts",
@@ -861,6 +891,16 @@
       "import": "./dist/languages/razor.js",
       "require": "./dist/languages/razor.cjs"
     },
+    "./rebol": {
+      "types": "./dist/languages/rebol.d.ts",
+      "import": "./dist/languages/rebol.js",
+      "require": "./dist/languages/rebol.cjs"
+    },
+    "./red": {
+      "types": "./dist/languages/red.d.ts",
+      "import": "./dist/languages/red.js",
+      "require": "./dist/languages/red.cjs"
+    },
     "./reasonml": {
       "types": "./dist/languages/reasonml.d.ts",
       "import": "./dist/languages/reasonml.js",
@@ -880,6 +920,11 @@
       "types": "./dist/languages/restructuredtext.d.ts",
       "import": "./dist/languages/restructuredtext.js",
       "require": "./dist/languages/restructuredtext.cjs"
+    },
+    "./roc": {
+      "types": "./dist/languages/roc.d.ts",
+      "import": "./dist/languages/roc.js",
+      "require": "./dist/languages/roc.cjs"
     },
     "./ruby": {
       "types": "./dist/languages/ruby.d.ts",
@@ -910,6 +955,11 @@
       "types": "./dist/languages/scss.d.ts",
       "import": "./dist/languages/scss.js",
       "require": "./dist/languages/scss.cjs"
+    },
+    "./self": {
+      "types": "./dist/languages/self.d.ts",
+      "import": "./dist/languages/self.js",
+      "require": "./dist/languages/self.cjs"
     },
     "./smalltalk": {
       "types": "./dist/languages/smalltalk.d.ts",

@@ -11,7 +11,7 @@ export const mustache = {
     ecosystems: ['Web', 'Node.js', 'Ruby', 'Python', 'Java', 'Go'],
   },
   version: '1.0',
-  logo: 'https://mustache.github.io/images/mustache.png',
+  logo: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mustache-js-logo.png',
   color: '#974A01',
   i18n: {
     en: {

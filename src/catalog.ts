@@ -111,6 +111,8 @@ import { less } from './languages/less';
 import { liquid } from './languages/liquid';
 import { lisp } from './languages/lisp';
 import { llvmIr } from './languages/llvm-ir';
+import { lobster } from './languages/lobster';
+import { logo } from './languages/logo';
 import { lua } from './languages/lua';
 import { luau } from './languages/luau';
 import { makefile } from './languages/makefile';
@@ -119,9 +121,11 @@ import { markdown } from './languages/markdown';
 import { mathematica } from './languages/mathematica';
 import { matlab } from './languages/matlab';
 import { mdx } from './languages/mdx';
+import { mercury } from './languages/mercury';
 import { mermaid } from './languages/mermaid';
 import { meson } from './languages/meson';
 import { metal } from './languages/metal';
+import { modula2 } from './languages/modula-2';
 import { mojo } from './languages/mojo';
 import { moonbit } from './languages/moonbit';
 import { move } from './languages/move';
@@ -132,6 +136,7 @@ import { nim } from './languages/nim';
 import { nix } from './languages/nix';
 import { nunjucks } from './languages/nunjucks';
 import { nushell } from './languages/nushell';
+import { oberon } from './languages/oberon';
 import { objectiveC } from './languages/objective-c';
 import { ocaml } from './languages/ocaml';
 import { odin } from './languages/odin';
@@ -142,6 +147,7 @@ import { perl } from './languages/perl';
 import { php } from './languages/php';
 import { pineScript } from './languages/pine-script';
 import { pkl } from './languages/pkl';
+import { plI } from './languages/pl-i';
 import { plantuml } from './languages/plantuml';
 import { plsql } from './languages/plsql';
 import { pony } from './languages/pony';
@@ -160,15 +166,19 @@ import { racket } from './languages/racket';
 import { raku } from './languages/raku';
 import { razor } from './languages/razor';
 import { reasonml } from './languages/reasonml';
+import { rebol } from './languages/rebol';
+import { red } from './languages/red';
 import { rego } from './languages/rego';
 import { rescript } from './languages/rescript';
 import { restructuredtext } from './languages/restructuredtext';
+import { roc } from './languages/roc';
 import { ruby } from './languages/ruby';
 import { rust } from './languages/rust';
 import { sas } from './languages/sas';
 import { scala } from './languages/scala';
 import { scheme } from './languages/scheme';
 import { scss } from './languages/scss';
+import { self } from './languages/self';
 import { smalltalk } from './languages/smalltalk';
 import { smarty } from './languages/smarty';
 import { solidity } from './languages/solidity';
@@ -329,6 +339,8 @@ export const languages = [
   liquid,
   lisp,
   llvmIr,
+  lobster,
+  logo,
   lua,
   luau,
   makefile,
@@ -339,8 +351,10 @@ export const languages = [
   mdx,
   mermaid,
   meson,
+  mercury,
   metal,
   mojo,
+  modula2,
   moonbit,
   move,
   mustache,
@@ -352,6 +366,7 @@ export const languages = [
   nushell,
   objectiveC,
   ocaml,
+  oberon,
   odin,
   openapi,
   opencl,
@@ -359,6 +374,7 @@ export const languages = [
   perl,
   php,
   pineScript,
+  plI,
   pkl,
   plantuml,
   plsql,
@@ -377,16 +393,20 @@ export const languages = [
   racket,
   raku,
   razor,
+  rebol,
+  red,
   reasonml,
   rego,
   rescript,
   restructuredtext,
+  roc,
   ruby,
   rust,
   sas,
   scala,
   scheme,
   scss,
+  self,
   smalltalk,
   smarty,
   solidity,

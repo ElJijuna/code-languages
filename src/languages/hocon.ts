@@ -11,7 +11,7 @@ export const hocon = {
     ecosystems: ['JVM', 'Scala', 'Akka', 'Play Framework', 'Configuration'],
   },
   version: '1.4.3',
-  logo: 'https://www.lightbend.com/assets/images/brand/lightbend-icon-reverse.svg',
+  logo: 'https://dummyimage.com/32x32/F26822/ffffff.png&text=HC',
   color: '#F26822',
   i18n: {
     en: {
