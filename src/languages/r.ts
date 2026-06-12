@@ -47,16 +47,16 @@ export const r = {
     de: {
       name: 'R',
       description:
-        'Eine statistische Programmiersprache und -umgebung f\u00fcr Datenanalyse, Grafik und Forschung.',
+        'Eine statistische Programmiersprache und -umgebung für Datenanalyse, Grafik und Forschung.',
       longDescription:
-        'R ist eine Programmiersprache und Softwareumgebung f\u00fcr statistische Berechnungen, Datenanalyse, Grafik und reproduzierbare Forschung. Sie bietet vektorisierte Operationen, Datenrahmen, Formeln, Pakete, interaktive Arbeitsabl\u00e4ufe und ein gro\u00dfes \u00d6kosystem, das sich um CRAN dreht.\n\nSie wird h\u00e4ufig in Statistik, Bioinformatik, Datenwissenschaft, akademischer Forschung, Visualisierung, Berichterstellung, Modellierung und analytischen Arbeitsabl\u00e4ufen verwendet, die Code, Daten, Diagramme und narrative Dokumente kombinieren.',
+        'R ist eine Programmiersprache und Softwareumgebung für statistische Berechnungen, Datenanalyse, Grafik und reproduzierbare Forschung. Sie bietet vektorisierte Operationen, Datenrahmen, Formeln, Pakete, interaktive Arbeitsabläufe und ein großes Ökosystem, das sich um CRAN dreht.\n\nSie wird häufig in Statistik, Bioinformatik, Datenwissenschaft, akademischer Forschung, Visualisierung, Berichterstellung, Modellierung und analytischen Arbeitsabläufen verwendet, die Code, Daten, Diagramme und narrative Dokumente kombinieren.',
     },
     pt: {
       name: 'R',
       description:
-        'Linguagem e ambiente de computa\u00e7\u00e3o estat\u00edstica para an\u00e1lise de dados, gr\u00e1ficos e pesquisa.',
+        'Linguagem e ambiente de computação estatística para análise de dados, gráficos e pesquisa.',
       longDescription:
-        'R \u00e9 uma linguagem e ambiente de software para computa\u00e7\u00e3o estat\u00edstica, an\u00e1lise de dados, gr\u00e1ficos e pesquisa reprodut\u00edvel. Fornece opera\u00e7\u00f5es vetorizadas, data frames, f\u00f3rmulas, pacotes, fluxos de trabalho interativos e um grande ecossistema centrado no CRAN.\n\n\u00c9 amplamente utilizado em estat\u00edstica, bioinform\u00e1tica, ci\u00eancia de dados, pesquisa acad\u00eamica, visualiza\u00e7\u00e3o, relat\u00f3rios, modelagem e fluxos de trabalho anal\u00edticos que combinam c\u00f3digo, dados, gr\u00e1ficos e documentos narrativos.',
+        'R é uma linguagem e ambiente de software para computação estatística, análise de dados, gráficos e pesquisa reprodutível. Fornece operações vetorizadas, data frames, fórmulas, pacotes, fluxos de trabalho interativos e um grande ecossistema centrado no CRAN.\n\nÉ amplamente utilizado em estatística, bioinformática, ciência de dados, pesquisa acadêmica, visualização, relatórios, modelagem e fluxos de trabalho analíticos que combinam código, dados, gráficos e documentos narrativos.',
     },
   },
 } satisfies Language;

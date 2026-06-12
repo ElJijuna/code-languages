@@ -45,16 +45,16 @@ export const pony = {
     },
     de: {
       name: 'Pony',
-      description: 'Eine Actor-Sprache mit Referenzf\u00e4higkeiten und Daten-Races-Sicherheit.',
+      description: 'Eine Actor-Sprache mit Referenzfähigkeiten und Daten-Races-Sicherheit.',
       longDescription:
-        'Pony kombiniert Actors, Objektf\u00e4higkeiten, statische Typisierung und Referenzf\u00e4higkeiten, um explizite Aliasing- und Mutationsverhalten in nativen, nebenl\u00e4ufigen Programmen zu erm\u00f6glichen. Die Sprache verwendet einen Runtime, der isolierte Actors plant, die \u00fcber Nachrichten kommunizieren.\n\nEs wird f\u00fcr nebenl\u00e4ufige Dienste, native Experimente, Actor-Systeme und Programme verwendet, die Compile-Time-Garantien f\u00fcr Daten-Races ben\u00f6tigen.',
+        'Pony kombiniert Actors, Objektfähigkeiten, statische Typisierung und Referenzfähigkeiten, um explizite Aliasing- und Mutationsverhalten in nativen, nebenläufigen Programmen zu ermöglichen. Die Sprache verwendet einen Runtime, der isolierte Actors plant, die über Nachrichten kommunizieren.\n\nEs wird für nebenläufige Dienste, native Experimente, Actor-Systeme und Programme verwendet, die Compile-Time-Garantien für Daten-Races benötigen.',
     },
     pt: {
       name: 'Pony',
       description:
-        'Uma linguagem baseada em atores com capacidades de refer\u00eancia e seguran\u00e7a contra corridas de dados.',
+        'Uma linguagem baseada em atores com capacidades de referência e segurança contra corridas de dados.',
       longDescription:
-        'Pony combina atores, capacidades de objeto, tipagem est\u00e1tica e capacidades de refer\u00eancia para tornar os programas nativos concorrentes expl\u00edcitos sobre alias e muta\u00e7\u00e3o. O runtime da linguagem agenda atores isolados que se comunicam por mensagens.\n\n\u00c9 usado para servi\u00e7os concorrentes, experimentos nativos, sistemas de atores e programas que desejam garantias em tempo de compila\u00e7\u00e3o sobre corridas de dados.',
+        'Pony combina atores, capacidades de objeto, tipagem estática e capacidades de referência para tornar os programas nativos concorrentes explícitos sobre alias e mutação. O runtime da linguagem agenda atores isolados que se comunicam por mensagens.\n\nÉ usado para serviços concorrentes, experimentos nativos, sistemas de atores e programas que desejam garantias em tempo de compilação sobre corridas de dados.',
     },
   },
 } satisfies Language;

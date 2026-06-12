@@ -45,16 +45,16 @@ export const svelte = {
     de: {
       name: 'Svelte',
       description:
-        'Ein kompiliertes Komponenten-Framework zum Erstellen reaktiver Web-Benutzeroberfl\u00e4chen.',
+        'Ein kompiliertes Komponenten-Framework zum Erstellen reaktiver Web-Benutzeroberflächen.',
       longDescription:
-        'Svelte-Komponenten kombinieren Markup, Stile und Skriptlogik in einzelnen Dateien, die kompiliert werden, um effizienten JavaScript f\u00fcr die DOM-Aktualisierung zu erzeugen.\n\nEs wird h\u00e4ufig f\u00fcr Webanwendungen, interaktive Oberfl\u00e4chen, statische Websites, Designsysteme, Dashboards und SvelteKit-Projekte verwendet, in denen Entwickler ein reaktives Komponentenmodell mit minimalem Laufzeitaufwand w\u00fcnschen.',
+        'Svelte-Komponenten kombinieren Markup, Stile und Skriptlogik in einzelnen Dateien, die kompiliert werden, um effizienten JavaScript für die DOM-Aktualisierung zu erzeugen.\n\nEs wird häufig für Webanwendungen, interaktive Oberflächen, statische Websites, Designsysteme, Dashboards und SvelteKit-Projekte verwendet, in denen Entwickler ein reaktives Komponentenmodell mit minimalem Laufzeitaufwand wünschen.',
     },
     pt: {
       name: 'Svelte',
       description:
-        'Um framework de componentes compilado para construir interfaces de usu\u00e1rio web reativas.',
+        'Um framework de componentes compilado para construir interfaces de usuário web reativas.',
       longDescription:
-        'Os componentes Svelte combinam marca\u00e7\u00e3o, estilos e l\u00f3gica de script em componentes de arquivo \u00fanico, que s\u00e3o compilados em JavaScript eficiente para atualizar o DOM.\n\n\u00c9 amplamente utilizado para aplica\u00e7\u00f5es web, interfaces interativas, sites est\u00e1ticos, sistemas de design, pain\u00e9is de controle e projetos SvelteKit, onde os desenvolvedores desejam um modelo de componente reativo com m\u00ednimo overhead de tempo de execu\u00e7\u00e3o.',
+        'Os componentes Svelte combinam marcação, estilos e lógica de script em componentes de arquivo único, que são compilados em JavaScript eficiente para atualizar o DOM.\n\nÉ amplamente utilizado para aplicações web, interfaces interativas, sites estáticos, sistemas de design, painéis de controle e projetos SvelteKit, onde os desenvolvedores desejam um modelo de componente reativo com mínimo overhead de tempo de execução.',
     },
   },
 } satisfies Language;

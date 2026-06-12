@@ -49,14 +49,14 @@ export const ocaml = {
       description:
         'Eine statisch typisierte ML-Familie mit Modulen, Typinferenz und nativem Kompilieren.',
       longDescription:
-        'OCaml kombiniert funktionale, imperative und objektorientierte Programmierung mit Hindley-Milner-Typinferenz, algebraischen Datentypen, Mustervergleich, Funktoren und einem leistungsstarken Modulsystem.\n\nEs wird f\u00fcr Compiler, Theorembeweiser, statische Analyse, Entwicklerwerkzeuge, Finanzsysteme, Systemsoftware und Produktionsdienste verwendet, bei denen starke Typen, Leistung und Wartbarkeit wichtig sind.',
+        'OCaml kombiniert funktionale, imperative und objektorientierte Programmierung mit Hindley-Milner-Typinferenz, algebraischen Datentypen, Mustervergleich, Funktoren und einem leistungsstarken Modulsystem.\n\nEs wird für Compiler, Theorembeweiser, statische Analyse, Entwicklerwerkzeuge, Finanzsysteme, Systemsoftware und Produktionsdienste verwendet, bei denen starke Typen, Leistung und Wartbarkeit wichtig sind.',
     },
     pt: {
       name: 'OCaml',
       description:
-        'Linguagem estaticamente tipada da fam\u00edlia ML, com m\u00f3dulos, infer\u00eancia e compila\u00e7\u00e3o nativa.',
+        'Linguagem estaticamente tipada da família ML, com módulos, inferência e compilação nativa.',
       longDescription:
-        'OCaml combina programa\u00e7\u00e3o funcional, imperativa e orientada a objetos com infer\u00eancia de tipo Hindley-Milner, tipos de dados alg\u00e9bricos, correspond\u00eancia de padr\u00f5es, functors e um sistema de m\u00f3dulos poderoso.\n\n\u00c9 utilizada para compiladores, sistemas de prova, an\u00e1lise est\u00e1tica, ferramentas de desenvolvimento, sistemas financeiros, software de sistemas e servi\u00e7os de produ\u00e7\u00e3o onde tipos fortes, desempenho e manutenibilidade s\u00e3o importantes.',
+        'OCaml combina programação funcional, imperativa e orientada a objetos com inferência de tipo Hindley-Milner, tipos de dados algébricos, correspondência de padrões, functors e um sistema de módulos poderoso.\n\nÉ utilizada para compiladores, sistemas de prova, análise estática, ferramentas de desenvolvimento, sistemas financeiros, software de sistemas e serviços de produção onde tipos fortes, desempenho e manutenibilidade são importantes.',
     },
   },
 } satisfies Language;

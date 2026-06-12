@@ -47,16 +47,16 @@ export const kotlin = {
     de: {
       name: 'Kotlin',
       description:
-        'Eine pr\u00e4gnante, plattform\u00fcbergreifende Sprache f\u00fcr JVM, Android, native und Web-Entwicklung.',
+        'Eine prägnante, plattformübergreifende Sprache für JVM, Android, native und Web-Entwicklung.',
       longDescription:
-        'Kotlin ist eine statisch typisierte Sprache von JetBrains, die f\u00fcr die Interoperabilit\u00e4t mit Java, eine pr\u00e4gnante Syntax, Null-Sicherheit, Coroutinen und plattform\u00fcbergreifende Entwicklung entwickelt wurde.\n\nSie wird h\u00e4ufig f\u00fcr Android-Apps, Backend-Dienste, Kotlin Multiplatform-Projekte, Skripting, Datenwerkzeuge und Anwendungen verwendet, die auf JVM, JavaScript, Native und WebAssembly abzielen.',
+        'Kotlin ist eine statisch typisierte Sprache von JetBrains, die für die Interoperabilität mit Java, eine prägnante Syntax, Null-Sicherheit, Coroutinen und plattformübergreifende Entwicklung entwickelt wurde.\n\nSie wird häufig für Android-Apps, Backend-Dienste, Kotlin Multiplatform-Projekte, Skripting, Datenwerkzeuge und Anwendungen verwendet, die auf JVM, JavaScript, Native und WebAssembly abzielen.',
     },
     pt: {
       name: 'Kotlin',
       description:
         'Linguagem concisa e multiplataforma para JVM, Android, nativo e desenvolvimento web.',
       longDescription:
-        'Kotlin \u00e9 uma linguagem estaticamente tipada desenvolvida pela JetBrains, projetada para interoperabilidade com Java, sintaxe concisa, seguran\u00e7a contra nulos, corrotinas e desenvolvimento multiplataforma.\n\n\u00c9 amplamente utilizada para aplicativos Android, servi\u00e7os de backend, projetos Kotlin Multiplatform, scripting, ferramentas de dados e aplica\u00e7\u00f5es direcionadas para JVM, JavaScript, Nativo e WebAssembly.',
+        'Kotlin é uma linguagem estaticamente tipada desenvolvida pela JetBrains, projetada para interoperabilidade com Java, sintaxe concisa, segurança contra nulos, corrotinas e desenvolvimento multiplataforma.\n\nÉ amplamente utilizada para aplicativos Android, serviços de backend, projetos Kotlin Multiplatform, scripting, ferramentas de dados e aplicações direcionadas para JVM, JavaScript, Nativo e WebAssembly.',
     },
   },
 } satisfies Language;

@@ -47,16 +47,16 @@ export const hcl = {
     de: {
       name: 'HCL',
       description:
-        'HCL: Programmiersprache von HashiCorp f\u00fcr lesbare Infrastruktur- und Anwendungs-Konfiguration.',
+        'HCL: Programmiersprache von HashiCorp für lesbare Infrastruktur- und Anwendungs-Konfiguration.',
       longDescription:
-        'HCL ist die HashiCorp Configuration Language, eine strukturierte Konfigurationssprache, die f\u00fcr Menschen lesbar ist und gleichzeitig einfach von Tools zu parsen ist. Sie unterst\u00fctzt Bl\u00f6cke, Attribute, Ausdr\u00fccke, Variablen, Funktionen, Objektwerte und Referenzen, um Infrastruktur- und Anwendungs-Einstellungen zu beschreiben.\n\nSie ist vor allem bekannt durch Terraform, wird aber auch in anderen HashiCorp-Tools wie Packer, Nomad, Vault und Consul verwendet. HCL-Dateien definieren h\u00e4ufig Cloud-Ressourcen, Module, Provider, Jobs, Richtlinien, Vorlagen und Umgebungsvariablen.',
+        'HCL ist die HashiCorp Configuration Language, eine strukturierte Konfigurationssprache, die für Menschen lesbar ist und gleichzeitig einfach von Tools zu parsen ist. Sie unterstützt Blöcke, Attribute, Ausdrücke, Variablen, Funktionen, Objektwerte und Referenzen, um Infrastruktur- und Anwendungs-Einstellungen zu beschreiben.\n\nSie ist vor allem bekannt durch Terraform, wird aber auch in anderen HashiCorp-Tools wie Packer, Nomad, Vault und Consul verwendet. HCL-Dateien definieren häufig Cloud-Ressourcen, Module, Provider, Jobs, Richtlinien, Vorlagen und Umgebungsvariablen.',
     },
     pt: {
       name: 'HCL',
       description:
-        'Linguagem de Configura\u00e7\u00e3o da HashiCorp para configura\u00e7\u00f5es de infraestrutura e aplica\u00e7\u00f5es leg\u00edveis por humanos.',
+        'Linguagem de Configuração da HashiCorp para configurações de infraestrutura e aplicações legíveis por humanos.',
       longDescription:
-        'HCL \u00e9 a Linguagem de Configura\u00e7\u00e3o da HashiCorp, uma linguagem de configura\u00e7\u00e3o estruturada projetada para ser leg\u00edvel por humanos, mantendo a facilidade de an\u00e1lise por ferramentas. Suporta blocos, atributos, express\u00f5es, vari\u00e1veis, fun\u00e7\u00f5es, valores de objetos e refer\u00eancias para descrever configura\u00e7\u00f5es de infraestrutura e aplica\u00e7\u00f5es.\n\n\u00c9 mais conhecida atrav\u00e9s do Terraform, mas tamb\u00e9m \u00e9 usada em outras ferramentas da HashiCorp, como Packer, Nomad, Vault e Consul. Os arquivos HCL definem frequentemente recursos de nuvem, m\u00f3dulos, provedores, jobs, pol\u00edticas, templates e vari\u00e1veis espec\u00edficas do ambiente.',
+        'HCL é a Linguagem de Configuração da HashiCorp, uma linguagem de configuração estruturada projetada para ser legível por humanos, mantendo a facilidade de análise por ferramentas. Suporta blocos, atributos, expressões, variáveis, funções, valores de objetos e referências para descrever configurações de infraestrutura e aplicações.\n\nÉ mais conhecida através do Terraform, mas também é usada em outras ferramentas da HashiCorp, como Packer, Nomad, Vault e Consul. Os arquivos HCL definem frequentemente recursos de nuvem, módulos, provedores, jobs, políticas, templates e variáveis específicas do ambiente.',
     },
   },
 } satisfies Language;

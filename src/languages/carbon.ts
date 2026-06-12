@@ -44,16 +44,15 @@ export const carbon = {
     },
     de: {
       name: 'Carbon',
-      description:
-        'Ein experimentelles Nachfolgelanguage f\u00fcr C++-Interoperabilit\u00e4t und Migration.',
+      description: 'Ein experimentelles Nachfolgelanguage für C++-Interoperabilität und Migration.',
       longDescription:
-        'Carbon ist eine experimentelle Programmiersprache f\u00fcr Systemprogrammierung, die als m\u00f6glicher Nachfolger von C++ konzipiert wurde. Sie konzentriert sich auf lesbare Syntax, starke Generics, moderne Werkzeuge und inkrementelle Migrationspfade f\u00fcr gro\u00dfe C++-Codebasen.\n\nDas Projekt befindet sich noch in der experimentellen Phase, daher konzentriert sich die praktische Anwendung auf Experimente, Designbewertungen, Compilerentwicklung und Diskussionen \u00fcber langfristige Interoperabilit\u00e4t mit bestehenden C++-\u00d6kosystemen.',
+        'Carbon ist eine experimentelle Programmiersprache für Systemprogrammierung, die als möglicher Nachfolger von C++ konzipiert wurde. Sie konzentriert sich auf lesbare Syntax, starke Generics, moderne Werkzeuge und inkrementelle Migrationspfade für große C++-Codebasen.\n\nDas Projekt befindet sich noch in der experimentellen Phase, daher konzentriert sich die praktische Anwendung auf Experimente, Designbewertungen, Compilerentwicklung und Diskussionen über langfristige Interoperabilität mit bestehenden C++-Ökosystemen.',
     },
     pt: {
       name: 'Carbon',
-      description: 'Linguagem experimental para interoperabilidade e migra\u00e7\u00e3o do C++.',
+      description: 'Linguagem experimental para interoperabilidade e migração do C++.',
       longDescription:
-        'Carbon \u00e9 uma linguagem de programa\u00e7\u00e3o de sistemas experimental, projetada como um poss\u00edvel sucessor do C++. Ela se concentra em sintaxe leg\u00edvel, gen\u00e9ricos fortes, ferramentas modernas e caminhos de migra\u00e7\u00e3o incrementais para grandes bases de c\u00f3digo C++.\n\nO projeto ainda est\u00e1 em fase de pr\u00e9-estabilidade, portanto, o uso pr\u00e1tico se concentra em experimentos, avalia\u00e7\u00e3o de design, desenvolvimento de compiladores e discuss\u00f5es sobre a interoperabilidade a longo prazo com os ecossistemas C++ existentes.',
+        'Carbon é uma linguagem de programação de sistemas experimental, projetada como um possível sucessor do C++. Ela se concentra em sintaxe legível, genéricos fortes, ferramentas modernas e caminhos de migração incrementais para grandes bases de código C++.\n\nO projeto ainda está em fase de pré-estabilidade, portanto, o uso prático se concentra em experimentos, avaliação de design, desenvolvimento de compiladores e discussões sobre a interoperabilidade a longo prazo com os ecossistemas C++ existentes.',
     },
   },
 } satisfies Language;

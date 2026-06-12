@@ -45,16 +45,16 @@ export const metal = {
     de: {
       name: 'Metal',
       description:
-        "Apple's grafische und rechen-Shading-Sprache f\u00fcr High-Performance-GPU-Programmierung.",
+        "Apple's grafische und rechen-Shading-Sprache für High-Performance-GPU-Programmierung.",
       longDescription:
-        'Metal ist Apples Low-Level-Grafik- und Compute-Technologie, zusammen mit der Metal Shading Language zum Schreiben von GPU-Kerneln, Vertex-Funktionen, Fragment-Funktionen, Mesh-Shader, Raytracing-Workloads und Machine-Learning- oder Media-Processing-Pipelines.\n\nEs wird auf allen Apple-Plattformen f\u00fcr Spiele, Rendering-Engines, rechenintensive Anwendungen, Echtzeit-Grafik, Bildverarbeitung, Videotools, wissenschaftliche Anwendungen und leistungsstarke native Anwendungen verwendet, die direkten Zugriff auf die Apple GPU-Funktionen ben\u00f6tigen.',
+        'Metal ist Apples Low-Level-Grafik- und Compute-Technologie, zusammen mit der Metal Shading Language zum Schreiben von GPU-Kerneln, Vertex-Funktionen, Fragment-Funktionen, Mesh-Shader, Raytracing-Workloads und Machine-Learning- oder Media-Processing-Pipelines.\n\nEs wird auf allen Apple-Plattformen für Spiele, Rendering-Engines, rechenintensive Anwendungen, Echtzeit-Grafik, Bildverarbeitung, Videotools, wissenschaftliche Anwendungen und leistungsstarke native Anwendungen verwendet, die direkten Zugriff auf die Apple GPU-Funktionen benötigen.',
     },
     pt: {
       name: 'Metal',
       description:
-        'Linguagem de sombreamento de gr\u00e1ficos e computa\u00e7\u00e3o da Apple para programa\u00e7\u00e3o de GPU de alto desempenho.',
+        'Linguagem de sombreamento de gráficos e computação da Apple para programação de GPU de alto desempenho.',
       longDescription:
-        'Metal \u00e9 a tecnologia de gr\u00e1ficos e computa\u00e7\u00e3o de baixo n\u00edvel da Apple, juntamente com a Linguagem de Sombreamento Metal para escrever kernels de GPU, fun\u00e7\u00f5es de v\u00e9rtice, fun\u00e7\u00f5es de fragmento, shaders de malha, cargas de trabalho de ray tracing e pipelines de aprendizado de m\u00e1quina ou processamento de m\u00eddia.\n\n\u00c9 usada em todas as plataformas da Apple para jogos, engines de renderiza\u00e7\u00e3o, aplicativos de computa\u00e7\u00e3o intensiva, gr\u00e1ficos em tempo real, processamento de imagem, ferramentas de v\u00eddeo, cargas de trabalho cient\u00edficas e aplicativos nativos de alto desempenho que precisam de acesso direto \u00e0s capacidades da GPU da Apple.',
+        'Metal é a tecnologia de gráficos e computação de baixo nível da Apple, juntamente com a Linguagem de Sombreamento Metal para escrever kernels de GPU, funções de vértice, funções de fragmento, shaders de malha, cargas de trabalho de ray tracing e pipelines de aprendizado de máquina ou processamento de mídia.\n\nÉ usada em todas as plataformas da Apple para jogos, engines de renderização, aplicativos de computação intensiva, gráficos em tempo real, processamento de imagem, ferramentas de vídeo, cargas de trabalho científicas e aplicativos nativos de alto desempenho que precisam de acesso direto às capacidades da GPU da Apple.',
     },
   },
 } satisfies Language;

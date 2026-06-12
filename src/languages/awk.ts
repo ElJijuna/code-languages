@@ -49,14 +49,14 @@ export const awk = {
       description:
         'Eine Muster-Aktionssprache zum Scannen, Transformieren und Berichten von Textdaten.',
       longDescription:
-        'awk ist eine kompakte Textverarbeitungs-Sprache, die auf Muster-Aktions-Regeln, Datens\u00e4tzen, Feldern, assoziativen Arrays, regul\u00e4ren Ausdr\u00fccken und Streaming-Eingabe basiert. Sie ist h\u00e4ufig auf Unix-\u00e4hnlichen Systemen verf\u00fcgbar, wobei GNU Awk viele Erweiterungen und Werkzeug-Bequemlichkeiten hinzuf\u00fcgt.\n\nSie wird f\u00fcr die Extraktion von Daten aus der Kommandozeile, die Verarbeitung von Protokollen, die Generierung von Berichten, einmalige Transformationen, Shell-Pipelines, leichte ETL-Aufgaben und Skripte verwendet, die eine pr\u00e4gnante Verarbeitung von strukturiertem oder halbstrukturiertem Text erfordern.',
+        'awk ist eine kompakte Textverarbeitungs-Sprache, die auf Muster-Aktions-Regeln, Datensätzen, Feldern, assoziativen Arrays, regulären Ausdrücken und Streaming-Eingabe basiert. Sie ist häufig auf Unix-ähnlichen Systemen verfügbar, wobei GNU Awk viele Erweiterungen und Werkzeug-Bequemlichkeiten hinzufügt.\n\nSie wird für die Extraktion von Daten aus der Kommandozeile, die Verarbeitung von Protokollen, die Generierung von Berichten, einmalige Transformationen, Shell-Pipelines, leichte ETL-Aufgaben und Skripte verwendet, die eine prägnante Verarbeitung von strukturiertem oder halbstrukturiertem Text erfordern.',
     },
     pt: {
       name: 'awk',
       description:
-        'Linguagem de padr\u00e3o-a\u00e7\u00e3o para analisar, transformar e gerar relat\u00f3rios a partir de dados textuais.',
+        'Linguagem de padrão-ação para analisar, transformar e gerar relatórios a partir de dados textuais.',
       longDescription:
-        'awk \u00e9 uma linguagem de processamento de texto compacta, baseada em regras de padr\u00e3o-a\u00e7\u00e3o, registros, campos, arrays associativos, express\u00f5es regulares e entrada em fluxo. \u00c9 comumente dispon\u00edvel em sistemas semelhantes a Unix, com GNU Awk adicionando muitas extens\u00f5es e conveni\u00eancias de ferramentas.\n\n\u00c9 utilizada para extra\u00e7\u00e3o de dados na linha de comando, processamento de logs, gera\u00e7\u00e3o de relat\u00f3rios, transforma\u00e7\u00f5es \u00fanicas, pipelines de shell, tarefas ETL leves e scripts que precisam de processamento conciso de texto estruturado ou semiestruturado.',
+        'awk é uma linguagem de processamento de texto compacta, baseada em regras de padrão-ação, registros, campos, arrays associativos, expressões regulares e entrada em fluxo. É comumente disponível em sistemas semelhantes a Unix, com GNU Awk adicionando muitas extensões e conveniências de ferramentas.\n\nÉ utilizada para extração de dados na linha de comando, processamento de logs, geração de relatórios, transformações únicas, pipelines de shell, tarefas ETL leves e scripts que precisam de processamento conciso de texto estruturado ou semiestruturado.',
     },
   },
 } satisfies Language;

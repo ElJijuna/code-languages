@@ -46,16 +46,16 @@ export const applescript = {
     de: {
       name: 'AppleScript',
       description:
-        'Eine macOS-Skriptsprache zur Automatisierung von Anwendungen \u00fcber Apple-Ereignisse.',
+        'Eine macOS-Skriptsprache zur Automatisierung von Anwendungen über Apple-Ereignisse.',
       longDescription:
-        'AppleScript bietet eine englisch\u00e4hnliche Syntax zur Steuerung von skriptbaren macOS-Anwendungen, Dateien, Fenstern, Workflows und Systemdiensten.\n\nEs wird h\u00e4ufig f\u00fcr die Desktop-Automatisierung, die Erstellung von Arbeitsabl\u00e4ufen, Batch-Operationen, Anwendungsgleicodes und benutzerorientierte Skripte verwendet, die mehrere Mac-Anwendungen koordinieren.',
+        'AppleScript bietet eine englischähnliche Syntax zur Steuerung von skriptbaren macOS-Anwendungen, Dateien, Fenstern, Workflows und Systemdiensten.\n\nEs wird häufig für die Desktop-Automatisierung, die Erstellung von Arbeitsabläufen, Batch-Operationen, Anwendungsgleicodes und benutzerorientierte Skripte verwendet, die mehrere Mac-Anwendungen koordinieren.',
     },
     pt: {
       name: 'AppleScript',
       description:
-        'Linguagem de script para macOS para automatizar aplicativos atrav\u00e9s de eventos Apple.',
+        'Linguagem de script para macOS para automatizar aplicativos através de eventos Apple.',
       longDescription:
-        'AppleScript fornece uma sintaxe semelhante ao ingl\u00eas para controlar aplicativos, arquivos, janelas, fluxos de trabalho e servi\u00e7os do sistema macOS.\n\n\u00c9 comumente usado para automa\u00e7\u00e3o de desktop, fluxos de trabalho de publica\u00e7\u00e3o, opera\u00e7\u00f5es em lote, c\u00f3digo de liga\u00e7\u00e3o de aplicativos e scripts para usu\u00e1rios que coordenam v\u00e1rios aplicativos Mac.',
+        'AppleScript fornece uma sintaxe semelhante ao inglês para controlar aplicativos, arquivos, janelas, fluxos de trabalho e serviços do sistema macOS.\n\nÉ comumente usado para automação de desktop, fluxos de trabalho de publicação, operações em lote, código de ligação de aplicativos e scripts para usuários que coordenam vários aplicativos Mac.',
     },
   },
 } satisfies Language;

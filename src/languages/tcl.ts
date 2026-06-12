@@ -47,16 +47,16 @@ export const tcl = {
     de: {
       name: 'Tcl/Tk',
       description:
-        'Ein einbettbares Befehls- und GUI-Toolkit f\u00fcr Automatisierung, Tools und Anwendungen.',
+        'Ein einbettbares Befehls- und GUI-Toolkit für Automatisierung, Tools und Anwendungen.',
       longDescription:
-        'Tcl ist eine dynamische Befehls-Sprache, die f\u00fcr Einbettung, Skripting, Automatisierung und Erweiterung entwickelt wurde. Tk ist sein plattform\u00fcbergreifendes GUI-Toolkit. Gemeinsam bieten sie eine einfache Befehls-Syntax, einen Ereignis-Loop, ein Datenmodell, das Strings verwendet, Einbettbarkeit und portable UI-Komponenten.\n\nTcl/Tk wird f\u00fcr Desktop-Tools, EDA- und CAD-Automatisierung, Test-Harness, eingebettetes Skripting, Build- und Deployment-Skripte, schnelle Prototypen und Anwendungen verwendet, die eine kleine, erweiterbare Befehls-Sprache ben\u00f6tigen.',
+        'Tcl ist eine dynamische Befehls-Sprache, die für Einbettung, Skripting, Automatisierung und Erweiterung entwickelt wurde. Tk ist sein plattformübergreifendes GUI-Toolkit. Gemeinsam bieten sie eine einfache Befehls-Syntax, einen Ereignis-Loop, ein Datenmodell, das Strings verwendet, Einbettbarkeit und portable UI-Komponenten.\n\nTcl/Tk wird für Desktop-Tools, EDA- und CAD-Automatisierung, Test-Harness, eingebettetes Skripting, Build- und Deployment-Skripte, schnelle Prototypen und Anwendungen verwendet, die eine kleine, erweiterbare Befehls-Sprache benötigen.',
     },
     pt: {
       name: 'Tcl/Tk',
       description:
-        'Toolkit de linguagem de comando e GUI para automa\u00e7\u00e3o, ferramentas e aplica\u00e7\u00f5es.',
+        'Toolkit de linguagem de comando e GUI para automação, ferramentas e aplicações.',
       longDescription:
-        'Tcl \u00e9 uma linguagem de comando din\u00e2mica projetada para incorpora\u00e7\u00e3o, scripting, automa\u00e7\u00e3o e extens\u00e3o. Tk \u00e9 seu toolkit de GUI multiplataforma. Juntos, fornecem uma sintaxe de comando simples, loop de eventos, modelo de strings como dados, incorporabilidade e componentes de interface de usu\u00e1rio port\u00e1teis.\n\nTcl/Tk \u00e9 usado para ferramentas de desktop, automa\u00e7\u00e3o de EDA e CAD, harnesses de teste, scripting embarcado, scripts de constru\u00e7\u00e3o e implanta\u00e7\u00e3o, prot\u00f3tipos r\u00e1pidos e aplica\u00e7\u00f5es que precisam de uma linguagem de comando pequena e extens\u00edvel.',
+        'Tcl é uma linguagem de comando dinâmica projetada para incorporação, scripting, automação e extensão. Tk é seu toolkit de GUI multiplataforma. Juntos, fornecem uma sintaxe de comando simples, loop de eventos, modelo de strings como dados, incorporabilidade e componentes de interface de usuário portáteis.\n\nTcl/Tk é usado para ferramentas de desktop, automação de EDA e CAD, harnesses de teste, scripting embarcado, scripts de construção e implantação, protótipos rápidos e aplicações que precisam de uma linguagem de comando pequena e extensível.',
     },
   },
 } satisfies Language;

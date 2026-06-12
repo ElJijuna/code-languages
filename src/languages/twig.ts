@@ -47,16 +47,16 @@ export const twig = {
     de: {
       name: 'Twig',
       description:
-        'Eine flexible und sichere Template-Sprache f\u00fcr PHP-Anwendungen und Symfony-Projekte.',
+        'Eine flexible und sichere Template-Sprache für PHP-Anwendungen und Symfony-Projekte.',
       longDescription:
-        'Twig ist eine Template-Sprache f\u00fcr PHP, die die Trennung von Pr\u00e4sentation und Anwendungslogik durch Bl\u00f6cke, Vererbung, Includes, Filter, Funktionen, Tests, Makros, Escaping und Sandboxing erm\u00f6glicht. Ihre Syntax ist f\u00fcr Designer lesbar, bleibt aber f\u00fcr Entwickler erweiterbar.\n\nEs wird in Symfony-Anwendungen, PHP-Webprojekten, CMS-Themes, E-Mail-Vorlagen, statischen Generierungsworkflows und Systemen verwendet, die wiederverwendbare, serverseitig gerenderte Views mit kontrolliertem Zugriff auf Anwendungsdaten ben\u00f6tigen.',
+        'Twig ist eine Template-Sprache für PHP, die die Trennung von Präsentation und Anwendungslogik durch Blöcke, Vererbung, Includes, Filter, Funktionen, Tests, Makros, Escaping und Sandboxing ermöglicht. Ihre Syntax ist für Designer lesbar, bleibt aber für Entwickler erweiterbar.\n\nEs wird in Symfony-Anwendungen, PHP-Webprojekten, CMS-Themes, E-Mail-Vorlagen, statischen Generierungsworkflows und Systemen verwendet, die wiederverwendbare, serverseitig gerenderte Views mit kontrolliertem Zugriff auf Anwendungsdaten benötigen.',
     },
     pt: {
       name: 'Twig',
       description:
-        'Linguagem de template flex\u00edvel e segura para aplica\u00e7\u00f5es PHP e projetos Symfony.',
+        'Linguagem de template flexível e segura para aplicações PHP e projetos Symfony.',
       longDescription:
-        'Twig \u00e9 uma linguagem de template para PHP que separa a apresenta\u00e7\u00e3o da l\u00f3gica da aplica\u00e7\u00e3o usando blocos, heran\u00e7a, includes, filtros, fun\u00e7\u00f5es, testes, macros, escapamento e sandboxing. Sua sintaxe \u00e9 projetada para ser leg\u00edvel para designers, mantendo a extensibilidade para desenvolvedores.\n\n\u00c9 utilizada em aplica\u00e7\u00f5es Symfony, projetos web PHP, temas de CMS, templates de e-mail, fluxos de gera\u00e7\u00e3o est\u00e1tica e sistemas que necessitam de visualiza\u00e7\u00f5es renderizadas de forma reutiliz\u00e1vel com acesso controlado aos dados da aplica\u00e7\u00e3o.',
+        'Twig é uma linguagem de template para PHP que separa a apresentação da lógica da aplicação usando blocos, herança, includes, filtros, funções, testes, macros, escapamento e sandboxing. Sua sintaxe é projetada para ser legível para designers, mantendo a extensibilidade para desenvolvedores.\n\nÉ utilizada em aplicações Symfony, projetos web PHP, temas de CMS, templates de e-mail, fluxos de geração estática e sistemas que necessitam de visualizações renderizadas de forma reutilizável com acesso controlado aos dados da aplicação.',
     },
   },
 } satisfies Language;

@@ -46,16 +46,16 @@ export const apl = {
     de: {
       name: 'APL',
       description:
-        'Eine Array-orientierte Sprache, bekannt f\u00fcr pr\u00e4gnante symbolische Notation und interaktive Nutzung.',
+        'Eine Array-orientierte Sprache, bekannt für prägnante symbolische Notation und interaktive Nutzung.',
       longDescription:
-        'APL konzentriert sich auf Array-basierte Berechnungen, h\u00f6herwertige Operationen und eine kompakte mathematische Notation, die komplexe Transformationen in sehr wenig Code ausdr\u00fccken kann.\n\nSie hat viele Array-Sprachen beeinflusst und ist weiterhin n\u00fctzlich f\u00fcr explorative Analyse, Finanzmodellierung, Algorithmusdesign und Systeme, in denen kurze interaktive Berechnungen von Vorteil sind.',
+        'APL konzentriert sich auf Array-basierte Berechnungen, höherwertige Operationen und eine kompakte mathematische Notation, die komplexe Transformationen in sehr wenig Code ausdrücken kann.\n\nSie hat viele Array-Sprachen beeinflusst und ist weiterhin nützlich für explorative Analyse, Finanzmodellierung, Algorithmusdesign und Systeme, in denen kurze interaktive Berechnungen von Vorteil sind.',
     },
     pt: {
       name: 'APL',
       description:
-        'Linguagem orientada a arrays, conhecida por nota\u00e7\u00e3o simb\u00f3lica concisa e uso interativo.',
+        'Linguagem orientada a arrays, conhecida por notação simbólica concisa e uso interativo.',
       longDescription:
-        'APL centraliza a computa\u00e7\u00e3o em arrays, opera\u00e7\u00f5es de ordem superior e uma nota\u00e7\u00e3o matem\u00e1tica compacta que pode expressar transforma\u00e7\u00f5es complexas com muito pouco c\u00f3digo.\n\nInfluenciou muitas linguagens de arrays e continua \u00fatil em an\u00e1lise explorat\u00f3ria, modelagem financeira, design de algoritmos e sistemas onde a computa\u00e7\u00e3o interativa concisa \u00e9 valiosa.',
+        'APL centraliza a computação em arrays, operações de ordem superior e uma notação matemática compacta que pode expressar transformações complexas com muito pouco código.\n\nInfluenciou muitas linguagens de arrays e continua útil em análise exploratória, modelagem financeira, design de algoritmos e sistemas onde a computação interativa concisa é valiosa.',
     },
   },
 } satisfies Language;

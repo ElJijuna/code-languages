@@ -47,16 +47,16 @@ export const fortran = {
     de: {
       name: 'Fortran',
       description:
-        'Eine kompilierte Sprache f\u00fcr numerische Berechnungen, wissenschaftliche Software und Hochleistungs-Systeme.',
+        'Eine kompilierte Sprache für numerische Berechnungen, wissenschaftliche Software und Hochleistungs-Systeme.',
       longDescription:
-        'Fortran ist eine der fr\u00fchesten High-Level-Programmiersprachen und bleibt wichtig f\u00fcr numerische Berechnungen, wissenschaftliche Simulationen, Ingenieurssoftware und Hochleistungsrechnen. Moderne Fortran-Versionen umfassen Module, Array-Programmierung, generische Schnittstellen, abgeleitete Typen, Coarrays und Interoperabilit\u00e4t mit C.\n\nEs wird weit verbreitet in Klimamodellen, physikalischen Simulationen, Computerkemie, Luft- und Raumfahrt, numerischen Bibliotheken, Wettervorhersage und langfristigen wissenschaftlichen Codebasen verwendet, bei denen Leistung und stabile Sprachstandards wichtig sind.',
+        'Fortran ist eine der frühesten High-Level-Programmiersprachen und bleibt wichtig für numerische Berechnungen, wissenschaftliche Simulationen, Ingenieurssoftware und Hochleistungsrechnen. Moderne Fortran-Versionen umfassen Module, Array-Programmierung, generische Schnittstellen, abgeleitete Typen, Coarrays und Interoperabilität mit C.\n\nEs wird weit verbreitet in Klimamodellen, physikalischen Simulationen, Computerkemie, Luft- und Raumfahrt, numerischen Bibliotheken, Wettervorhersage und langfristigen wissenschaftlichen Codebasen verwendet, bei denen Leistung und stabile Sprachstandards wichtig sind.',
     },
     pt: {
       name: 'Fortran',
       description:
-        'Linguagem compilada para computa\u00e7\u00e3o num\u00e9rica, software cient\u00edfico e sistemas de alto desempenho.',
+        'Linguagem compilada para computação numérica, software científico e sistemas de alto desempenho.',
       longDescription:
-        'Fortran \u00e9 uma das primeiras linguagens de programa\u00e7\u00e3o de alto n\u00edvel e continua sendo importante para computa\u00e7\u00e3o num\u00e9rica, simula\u00e7\u00e3o cient\u00edfica, software de engenharia e computa\u00e7\u00e3o de alto desempenho. Fortran moderno inclui m\u00f3dulos, programa\u00e7\u00e3o de arrays, interfaces gen\u00e9ricas, tipos derivados, coarrays e interoperabilidade com C.\n\n\u00c9 amplamente utilizada em modelos clim\u00e1ticos, simula\u00e7\u00f5es de f\u00edsica, qu\u00edmica computacional, aeroespacial, bibliotecas num\u00e9ricas, previs\u00e3o do tempo e bases de c\u00f3digo cient\u00edfico de longa dura\u00e7\u00e3o onde o desempenho e os padr\u00f5es de linguagem est\u00e1veis s\u00e3o importantes.',
+        'Fortran é uma das primeiras linguagens de programação de alto nível e continua sendo importante para computação numérica, simulação científica, software de engenharia e computação de alto desempenho. Fortran moderno inclui módulos, programação de arrays, interfaces genéricas, tipos derivados, coarrays e interoperabilidade com C.\n\nÉ amplamente utilizada em modelos climáticos, simulações de física, química computacional, aeroespacial, bibliotecas numéricas, previsão do tempo e bases de código científico de longa duração onde o desempenho e os padrões de linguagem estáveis são importantes.',
     },
   },
 } satisfies Language;

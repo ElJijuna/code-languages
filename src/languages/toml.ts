@@ -23,7 +23,7 @@ export const toml = {
       description:
         'Un formato de configuracion minimo y legible que mapea claramente a estructuras de datos.',
       longDescription:
-        'TOML es un formato de archivos de configuracion disenado para ser facil de leer y escribir por humanos mientras mapea sin ambiguedad a estructuras de datos como tablas hash. Soporta pares clave-valor, tablas, arreglos, strings, numeros, booleanos y valores de fecha y hora.\n\nSe usa en configuracion de proyectos, manifiestos de paquetes, ajustes de build, configuracion de herramientas, metadata de infraestructura y aplicaciones que necesitan datos estructurados concisos sin el ruido visual de formatos mas verbosos.',
+        'TOML es un formato de archivos de configuracion disenado para ser facil de leer y escribir por humanos mientras mapea sin ambig a estructuras de datos como tablas hash. Soporta pares clave-valor, tablas, arreglos, strings, numeros, booleanos y valores de fecha y hora.\n\nSe usa en configuracion de proyectos, manifiestos de paquetes, ajustes de build, configuracion de herramientas, metadata de infraestructura y aplicaciones que necesitan datos estructurados concisos sin el ruido visual de formatos mas verbosos.',
     },
     it: {
       name: 'TOML',
@@ -44,14 +44,14 @@ export const toml = {
       description:
         'Ein minimales, menschenlesbares Konfigurationsformat, das klar auf Datenstrukturen abgebildet ist.',
       longDescription:
-        'TOML ist ein Konfigurationsdateiformat, das darauf ausgelegt ist, leicht von Menschen gelesen und geschrieben zu werden und gleichzeitig eindeutig auf Datenstrukturen wie Hash-Tabellen abgebildet ist. Es unterst\u00fctzt Schl\u00fcssel-Wert-Paare, Tabellen, Arrays, Strings, Zahlen, Booleans und Datums-/Zeitwerte.\n\nEs wird f\u00fcr Projektkonfigurationen, Paketmanifeste, Build-Einstellungen, Werkzeugkonfigurationen, Infrastrukturmetadaten und Anwendungen verwendet, die pr\u00e4zise strukturierte Daten ben\u00f6tigen, ohne die visuelle Ablenkung ausf\u00fchrlicher Formate.',
+        'TOML ist ein Konfigurationsdateiformat, das darauf ausgelegt ist, leicht von Menschen gelesen und geschrieben zu werden und gleichzeitig eindeutig auf Datenstrukturen wie Hash-Tabellen abgebildet ist. Es unterstützt Schlüssel-Wert-Paare, Tabellen, Arrays, Strings, Zahlen, Booleans und Datums-/Zeitwerte.\n\nEs wird für Projektkonfigurationen, Paketmanifeste, Build-Einstellungen, Werkzeugkonfigurationen, Infrastrukturmetadaten und Anwendungen verwendet, die präzise strukturierte Daten benötigen, ohne die visuelle Ablenkung ausführlicher Formate.',
     },
     pt: {
       name: 'TOML',
       description:
-        'Um formato de configura\u00e7\u00e3o m\u00ednimo e leg\u00edvel, que se mapeia claramente para estruturas de dados.',
+        'Um formato de configuração mínimo e legível, que se mapeia claramente para estruturas de dados.',
       longDescription:
-        'O TOML \u00e9 um formato de arquivo de configura\u00e7\u00e3o projetado para ser f\u00e1cil de ler e escrever para humanos, enquanto se mapeia de forma inequ\u00edvoca para estruturas de dados, como tabelas de hash. Suporta pares chave-valor, tabelas, arrays, strings, n\u00fameros, booleanos e valores de data/hora.\n\n\u00c9 usado para configura\u00e7\u00e3o de projetos, manifestos de pacotes, configura\u00e7\u00f5es de constru\u00e7\u00e3o, configura\u00e7\u00e3o de ferramentas, metadados de infraestrutura e aplicativos que precisam de dados estruturados concisos sem o ru\u00eddo visual de formatos mais verbosos.',
+        'O TOML é um formato de arquivo de configuração projetado para ser fácil de ler e escrever para humanos, enquanto se mapeia de forma inequívoca para estruturas de dados, como tabelas de hash. Suporta pares chave-valor, tabelas, arrays, strings, números, booleanos e valores de data/hora.\n\nÉ usado para configuração de projetos, manifestos de pacotes, configurações de construção, configuração de ferramentas, metadados de infraestrutura e aplicativos que precisam de dados estruturados concisos sem o ruído visual de formatos mais verbosos.',
     },
   },
 } satisfies Language;

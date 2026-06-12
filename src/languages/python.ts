@@ -47,16 +47,16 @@ export const python = {
     de: {
       name: 'Python',
       description:
-        'Eine hochrangige, leicht verst\u00e4ndliche Sprache f\u00fcr Anwendungen, Automatisierung, Daten und KI.',
+        'Eine hochrangige, leicht verständliche Sprache für Anwendungen, Automatisierung, Daten und KI.',
       longDescription:
-        'Python legt Wert auf Lesbarkeit, eine kompakte Syntax und eine umfangreiche Standardbibliothek, was es beliebt f\u00fcr Skripting, Backend-Dienste, Datenanalyse, Bildung und wissenschaftliche Berechnungen macht.\n\nEs umfasst wichtige Frameworks und Pakete f\u00fcr Webentwicklung, Automatisierung, maschinelles Lernen, numerische Berechnungen, Tests und Kommandozeilen-Tools.',
+        'Python legt Wert auf Lesbarkeit, eine kompakte Syntax und eine umfangreiche Standardbibliothek, was es beliebt für Skripting, Backend-Dienste, Datenanalyse, Bildung und wissenschaftliche Berechnungen macht.\n\nEs umfasst wichtige Frameworks und Pakete für Webentwicklung, Automatisierung, maschinelles Lernen, numerische Berechnungen, Tests und Kommandozeilen-Tools.',
     },
     pt: {
       name: 'Python',
       description:
-        'Linguagem de alto n\u00edvel, f\u00e1cil de ler, usada para aplica\u00e7\u00f5es, automa\u00e7\u00e3o, dados e IA.',
+        'Linguagem de alto nível, fácil de ler, usada para aplicações, automação, dados e IA.',
       longDescription:
-        'O Python enfatiza a legibilidade, uma sintaxe compacta e uma vasta biblioteca padr\u00e3o, tornando-o popular para scripting, servi\u00e7os backend, an\u00e1lise de dados, educa\u00e7\u00e3o e computa\u00e7\u00e3o cient\u00edfica.\n\nSeu ecossistema inclui frameworks e pacotes importantes para desenvolvimento web, automa\u00e7\u00e3o, aprendizado de m\u00e1quina, computa\u00e7\u00e3o num\u00e9rica, testes e ferramentas de linha de comando.',
+        'O Python enfatiza a legibilidade, uma sintaxe compacta e uma vasta biblioteca padrão, tornando-o popular para scripting, serviços backend, análise de dados, educação e computação científica.\n\nSeu ecossistema inclui frameworks e pacotes importantes para desenvolvimento web, automação, aprendizado de máquina, computação numérica, testes e ferramentas de linha de comando.',
     },
   },
 } satisfies Language;

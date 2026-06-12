@@ -47,16 +47,16 @@ export const bazel = {
     de: {
       name: 'Bazel',
       description:
-        'Eine Build- und Testkonfigurationssprache f\u00fcr schnelle, reproduzierbare Builds in mehreren Sprachen.',
+        'Eine Build- und Testkonfigurationssprache für schnelle, reproduzierbare Builds in mehreren Sprachen.',
       longDescription:
-        'Bazel-Dateien beschreiben Pakete, Ziele, Abh\u00e4ngigkeiten, Toolchains, Plattformen, Module und Build-Regeln f\u00fcr Bazels hermetischen Build-Graph. BUILD- und MODULE-Dateien sind deklarativ, w\u00e4hrend die Erweiterungslogik h\u00e4ufig in Starlark geschrieben wird.\n\nEs wird in Monorepos, gro\u00dfen CI-Systemen, polyglotten Projekten, Remote-Execution-Workflows, reproduzierbaren Builds, Dependency-Graph-Analysen und Teams verwendet, die konsistente Builds \u00fcber verschiedene Maschinen und Sprachen ben\u00f6tigen.',
+        'Bazel-Dateien beschreiben Pakete, Ziele, Abhängigkeiten, Toolchains, Plattformen, Module und Build-Regeln für Bazels hermetischen Build-Graph. BUILD- und MODULE-Dateien sind deklarativ, während die Erweiterungslogik häufig in Starlark geschrieben wird.\n\nEs wird in Monorepos, großen CI-Systemen, polyglotten Projekten, Remote-Execution-Workflows, reproduzierbaren Builds, Dependency-Graph-Analysen und Teams verwendet, die konsistente Builds über verschiedene Maschinen und Sprachen benötigen.',
     },
     pt: {
       name: 'Bazel',
       description:
-        'Linguagem de configura\u00e7\u00e3o para construir e testar, para builds multi-linguagem r\u00e1pidos e reproduz\u00edveis.',
+        'Linguagem de configuração para construir e testar, para builds multi-linguagem rápidos e reproduzíveis.',
       longDescription:
-        'Arquivos Bazel descrevem pacotes, alvos, depend\u00eancias, toolchains, plataformas, m\u00f3dulos e regras de constru\u00e7\u00e3o para o grafo de constru\u00e7\u00e3o herm\u00e9tico do Bazel. Os arquivos BUILD e MODULE s\u00e3o declarativos, enquanto a l\u00f3gica de extens\u00e3o \u00e9 frequentemente escrita em Starlark.\n\n\u00c9 usada em reposit\u00f3rios monorepo, sistemas CI em larga escala, projetos poligl\u00f3ticos, fluxos de trabalho de execu\u00e7\u00e3o remota, builds reproduz\u00edveis, an\u00e1lise de grafo de depend\u00eancias e equipes que precisam de builds consistentes em diferentes m\u00e1quinas e linguagens.',
+        'Arquivos Bazel descrevem pacotes, alvos, dependências, toolchains, plataformas, módulos e regras de construção para o grafo de construção hermético do Bazel. Os arquivos BUILD e MODULE são declarativos, enquanto a lógica de extensão é frequentemente escrita em Starlark.\n\nÉ usada em repositórios monorepo, sistemas CI em larga escala, projetos poliglóticos, fluxos de trabalho de execução remota, builds reproduzíveis, análise de grafo de dependências e equipes que precisam de builds consistentes em diferentes máquinas e linguagens.',
     },
   },
 } satisfies Language;

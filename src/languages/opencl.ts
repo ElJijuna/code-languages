@@ -41,17 +41,16 @@ export const opencl = {
     },
     de: {
       name: 'OpenCL C',
-      description:
-        'Die C-basierte Kernel-Sprache f\u00fcr OpenCL-heterogene Berechnungsanwendungen.',
+      description: 'Die C-basierte Kernel-Sprache für OpenCL-heterogene Berechnungsanwendungen.',
       longDescription:
-        'OpenCL C ist die Kernel-Programmiersprache, die von OpenCL verwendet wird, um parallele Aufgaben \u00fcber Ger\u00e4te wie CPUs, GPUs und Beschleuniger zu beschreiben. Sie erweitert ein C-\u00e4hnliches Modell mit Adressr\u00e4umen, Vektor-Typen, Work-Items und Synchronisationsprimitiven.\n\nEs wird f\u00fcr Berechnungs-Kernel, Bildverarbeitung, Simulationen, numerische Arbeitslasten und portable heterogene Programme verwendet, die OpenCL-Runtime-Umgebungen ansprechen.',
+        'OpenCL C ist die Kernel-Programmiersprache, die von OpenCL verwendet wird, um parallele Aufgaben über Geräte wie CPUs, GPUs und Beschleuniger zu beschreiben. Sie erweitert ein C-ähnliches Modell mit Adressräumen, Vektor-Typen, Work-Items und Synchronisationsprimitiven.\n\nEs wird für Berechnungs-Kernel, Bildverarbeitung, Simulationen, numerische Arbeitslasten und portable heterogene Programme verwendet, die OpenCL-Runtime-Umgebungen ansprechen.',
     },
     pt: {
       name: 'OpenCL C',
       description:
-        'Linguagem de kernel baseada em C para programas de computa\u00e7\u00e3o heterog\u00eaneos OpenCL.',
+        'Linguagem de kernel baseada em C para programas de computação heterogêneos OpenCL.',
       longDescription:
-        'OpenCL C \u00e9 a linguagem de programa\u00e7\u00e3o de kernel usada pelo OpenCL para descrever trabalho paralelo em dispositivos como CPUs, GPUs e aceleradores. Ela estende um modelo baseado em C com espa\u00e7os de endere\u00e7o, tipos de vetores, itens de trabalho e primitivas de sincroniza\u00e7\u00e3o.\n\n\u00c9 usada para kernels de computa\u00e7\u00e3o, processamento de imagens, simula\u00e7\u00f5es, cargas de trabalho num\u00e9ricas e programas heterog\u00eaneos port\u00e1teis que visam as plataformas OpenCL.',
+        'OpenCL C é a linguagem de programação de kernel usada pelo OpenCL para descrever trabalho paralelo em dispositivos como CPUs, GPUs e aceleradores. Ela estende um modelo baseado em C com espaços de endereço, tipos de vetores, itens de trabalho e primitivas de sincronização.\n\nÉ usada para kernels de computação, processamento de imagens, simulações, cargas de trabalho numéricas e programas heterogêneos portáteis que visam as plataformas OpenCL.',
     },
   },
 } satisfies Language;

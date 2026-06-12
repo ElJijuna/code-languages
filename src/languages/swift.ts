@@ -45,16 +45,16 @@ export const swift = {
     de: {
       name: 'Swift',
       description:
-        'Eine sichere, schnelle Programmiersprache f\u00fcr Apps, Systeme und Server-Software.',
+        'Eine sichere, schnelle Programmiersprache für Apps, Systeme und Server-Software.',
       longDescription:
-        'Swift ist eine kompilierte Programmiersprache, die f\u00fcr Sicherheit, Leistung, Ausdrucksst\u00e4rke und Interoperabilit\u00e4t mit Apple-Plattform-\u00d6kosystemen entwickelt wurde.\n\nSie wird f\u00fcr iOS, macOS, watchOS, tvOS, Server-Anwendungen, Kommandozeilen-Tools, Systemprogrammierung und plattform\u00fcbergreifende Software verwendet.',
+        'Swift ist eine kompilierte Programmiersprache, die für Sicherheit, Leistung, Ausdrucksstärke und Interoperabilität mit Apple-Plattform-Ökosystemen entwickelt wurde.\n\nSie wird für iOS, macOS, watchOS, tvOS, Server-Anwendungen, Kommandozeilen-Tools, Systemprogrammierung und plattformübergreifende Software verwendet.',
     },
     pt: {
       name: 'Swift',
       description:
-        'Uma linguagem de programa\u00e7\u00e3o segura e r\u00e1pida para aplicativos, sistemas e software de servidor.',
+        'Uma linguagem de programação segura e rápida para aplicativos, sistemas e software de servidor.',
       longDescription:
-        'Swift \u00e9 uma linguagem de programa\u00e7\u00e3o compilada projetada para seguran\u00e7a, desempenho, expressividade e interoperabilidade com os ecossistemas da plataforma Apple.\n\n\u00c9 usada para iOS, macOS, watchOS, tvOS, aplicativos de servidor, ferramentas de linha de comando, programa\u00e7\u00e3o de sistemas e software multiplataforma.',
+        'Swift é uma linguagem de programação compilada projetada para segurança, desempenho, expressividade e interoperabilidade com os ecossistemas da plataforma Apple.\n\nÉ usada para iOS, macOS, watchOS, tvOS, aplicativos de servidor, ferramentas de linha de comando, programação de sistemas e software multiplataforma.',
     },
   },
 } satisfies Language;

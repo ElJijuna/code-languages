@@ -46,16 +46,16 @@ export const plantuml = {
     de: {
       name: 'PlantUML',
       description:
-        'Eine textbasierte Diagrammsprache f\u00fcr UML, Architektur- und Dokumentationsdiagramme.',
+        'Eine textbasierte Diagrammsprache für UML, Architektur- und Dokumentationsdiagramme.',
       longDescription:
-        'PlantUML ist eine Diagrammsprache und -renderer f\u00fcr Sequenz-, Klass-, Aktivit\u00e4ts-, Komponenten-, Zustands-, Objekt-, Deployment-, Timing-, Mindmap- und Architekturdagramme. Es erm\u00f6glicht Teams, Diagramme im Quellcode zu verwalten und Bilder aus kompaktem Text zu generieren.\n\nEs wird in der Softwarearchitekturdokumentation, Design-Reviews, technischen Spezifikationen, Wikis, CI-generierten Diagrammen und Projekten verwendet, die versionierbare Diagramme gegen\u00fcber manuell bearbeiteten Zeichnungsvorlagen bevorzugen.',
+        'PlantUML ist eine Diagrammsprache und -renderer für Sequenz-, Klass-, Aktivitäts-, Komponenten-, Zustands-, Objekt-, Deployment-, Timing-, Mindmap- und Architekturdagramme. Es ermöglicht Teams, Diagramme im Quellcode zu verwalten und Bilder aus kompaktem Text zu generieren.\n\nEs wird in der Softwarearchitekturdokumentation, Design-Reviews, technischen Spezifikationen, Wikis, CI-generierten Diagrammen und Projekten verwendet, die versionierbare Diagramme gegenüber manuell bearbeiteten Zeichnungsvorlagen bevorzugen.',
     },
     pt: {
       name: 'PlantUML',
       description:
-        'Linguagem de diagramas baseada em texto para UML, diagramas de arquitetura e documenta\u00e7\u00e3o.',
+        'Linguagem de diagramas baseada em texto para UML, diagramas de arquitetura e documentação.',
       longDescription:
-        'PlantUML \u00e9 uma linguagem e renderizador de diagramas para diagramas de sequ\u00eancia, classe, atividade, componente, estado, objeto, implanta\u00e7\u00e3o, temporiza\u00e7\u00e3o, mapa mental e arquitetura. Permite que as equipes mantenham os diagramas no controle de vers\u00e3o e gerem imagens a partir de texto conciso.\n\n\u00c9 usado em documenta\u00e7\u00e3o de arquitetura de software, revis\u00f5es de design, especifica\u00e7\u00f5es t\u00e9cnicas, wikis, diagramas gerados por CI e projetos que preferem diagramas version\u00e1veis em vez de arquivos de desenho editados manualmente.',
+        'PlantUML é uma linguagem e renderizador de diagramas para diagramas de sequência, classe, atividade, componente, estado, objeto, implantação, temporização, mapa mental e arquitetura. Permite que as equipes mantenham os diagramas no controle de versão e gerem imagens a partir de texto conciso.\n\nÉ usado em documentação de arquitetura de software, revisões de design, especificações técnicas, wikis, diagramas gerados por CI e projetos que preferem diagramas versionáveis em vez de arquivos de desenho editados manualmente.',
     },
   },
 } satisfies Language;

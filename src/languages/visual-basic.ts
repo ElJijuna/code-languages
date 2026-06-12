@@ -45,16 +45,15 @@ export const visualBasic = {
     de: {
       name: 'Visual Basic',
       description:
-        'Eine benutzerfreundliche .NET-Sprache f\u00fcr typsichere, objektorientierte Anwendungen.',
+        'Eine benutzerfreundliche .NET-Sprache für typsichere, objektorientierte Anwendungen.',
       longDescription:
-        'Visual Basic ist eine .NET-Programmiersprache von Microsoft mit einer lesbaren Syntax, statischer Typisierung, objektorientierten Funktionen, Unterst\u00fctzung f\u00fcr ereignisgesteuerte Programmierung, Generics, LINQ, asynchrone Arbeitsabl\u00e4ufe und Zugriff auf das .NET-\u00d6kosystem.\n\nEs wird f\u00fcr Windows-Desktop-Anwendungen, Gesch\u00e4ftsanwendungen, Automatisierung, \u00e4ltere .NET-Systeme, ASP.NET-Anwendungen, Bibliotheken und Teams verwendet, die eine ausf\u00fchrliche, leicht verst\u00e4ndliche Syntax auf dem .NET-Runtime bevorzugen.',
+        'Visual Basic ist eine .NET-Programmiersprache von Microsoft mit einer lesbaren Syntax, statischer Typisierung, objektorientierten Funktionen, Unterstützung für ereignisgesteuerte Programmierung, Generics, LINQ, asynchrone Arbeitsabläufe und Zugriff auf das .NET-Ökosystem.\n\nEs wird für Windows-Desktop-Anwendungen, Geschäftsanwendungen, Automatisierung, ältere .NET-Systeme, ASP.NET-Anwendungen, Bibliotheken und Teams verwendet, die eine ausführliche, leicht verständliche Syntax auf dem .NET-Runtime bevorzugen.',
     },
     pt: {
       name: 'Visual Basic',
-      description:
-        'Linguagem .NET acess\u00edvel para aplica\u00e7\u00f5es orientadas a objetos e seguras.',
+      description: 'Linguagem .NET acessível para aplicações orientadas a objetos e seguras.',
       longDescription:
-        'Visual Basic \u00e9 uma linguagem de programa\u00e7\u00e3o .NET da Microsoft com uma sintaxe leg\u00edvel, tipagem est\u00e1tica, recursos orientados a objetos, suporte \u00e0 programa\u00e7\u00e3o orientada a eventos, gen\u00e9ricos, LINQ, fluxos ass\u00edncronos e acesso ao ecossistema .NET.\n\n\u00c9 utilizada para aplica\u00e7\u00f5es de desktop do Windows, software empresarial, automa\u00e7\u00e3o, sistemas .NET legados, aplica\u00e7\u00f5es ASP.NET, bibliotecas e equipes que valorizam uma sintaxe verbosa e acess\u00edvel sobre o runtime .NET.',
+        'Visual Basic é uma linguagem de programação .NET da Microsoft com uma sintaxe legível, tipagem estática, recursos orientados a objetos, suporte à programação orientada a eventos, genéricos, LINQ, fluxos assíncronos e acesso ao ecossistema .NET.\n\nÉ utilizada para aplicações de desktop do Windows, software empresarial, automação, sistemas .NET legados, aplicações ASP.NET, bibliotecas e equipes que valorizam uma sintaxe verbosa e acessível sobre o runtime .NET.',
     },
   },
 } satisfies Language;

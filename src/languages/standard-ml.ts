@@ -45,14 +45,13 @@ export const standardMl = {
       name: 'Standard ML',
       description: 'Eine statisch typisierte ML-Sprache mit Modulen und Musterabgleich.',
       longDescription:
-        'Standard ML definiert eine strenge funktionale Sprache mit algebraischen Datentypen, Musterabgleich, Typinferenz, Ausnahmen und einem robusten Modulsystem mit Signaturen und Funktoren. Ihre formale Definition hat viel ML-Familienarbeit gepr\u00e4gt.\n\nEs wird in Compilern, Theorem-Werkzeugen, Lehre, Forschung und Projekten verwendet, die eine kleine, typisierte funktionale Kern mit robusten Modulen ben\u00f6tigen.',
+        'Standard ML definiert eine strenge funktionale Sprache mit algebraischen Datentypen, Musterabgleich, Typinferenz, Ausnahmen und einem robusten Modulsystem mit Signaturen und Funktoren. Ihre formale Definition hat viel ML-Familienarbeit geprägt.\n\nEs wird in Compilern, Theorem-Werkzeugen, Lehre, Forschung und Projekten verwendet, die eine kleine, typisierte funktionale Kern mit robusten Modulen benötigen.',
     },
     pt: {
       name: 'Standard ML',
-      description:
-        'Linguagem ML estaticamente tipada com m\u00f3dulos e correspond\u00eancia de padr\u00f5es.',
+      description: 'Linguagem ML estaticamente tipada com módulos e correspondência de padrões.',
       longDescription:
-        'Standard ML define uma linguagem funcional estrita com tipos alg\u00e9bricos, correspond\u00eancia de padr\u00f5es, infer\u00eancia de tipos, exce\u00e7\u00f5es e um sistema de m\u00f3dulos robusto com assinaturas e funtores. Sua defini\u00e7\u00e3o formal moldou muito o trabalho da fam\u00edlia ML.\n\n\u00c9 usada em compiladores, ferramentas de prova, ensino, pesquisa e projetos que precisam de um n\u00facleo funcional tipado e robusto com m\u00f3dulos.',
+        'Standard ML define uma linguagem funcional estrita com tipos algébricos, correspondência de padrões, inferência de tipos, exceções e um sistema de módulos robusto com assinaturas e funtores. Sua definição formal moldou muito o trabalho da família ML.\n\nÉ usada em compiladores, ferramentas de prova, ensino, pesquisa e projetos que precisam de um núcleo funcional tipado e robusto com módulos.',
     },
   },
 } satisfies Language;

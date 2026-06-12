@@ -45,15 +45,15 @@ export const vyper = {
     de: {
       name: 'Vyper',
       description:
-        'Eine Python-\u00e4hnliche Sprache f\u00fcr Smart Contracts f\u00fcr die Ethereum Virtual Machine.',
+        'Eine Python-ähnliche Sprache für Smart Contracts für die Ethereum Virtual Machine.',
       longDescription:
-        'Vyper ist eine Vertragssprache f\u00fcr Ethereum, die explizites Verhalten, Grenzen und Pr\u00fcfbarkeit gegen\u00fcber einem breiten Sprachumfang priorisiert. Ihre Syntax \u00e4hnelt Python, w\u00e4hrend ihr Compiler EVM-Bytecode erzeugt.\n\nSie wird f\u00fcr Ethereum-Smart Contracts, Finanzprotokolle, On-Chain-Experimente und Codebasen verwendet, die eine absichtlich eingeschr\u00e4nkte Vertragssprache bevorzugen.',
+        'Vyper ist eine Vertragssprache für Ethereum, die explizites Verhalten, Grenzen und Prüfbarkeit gegenüber einem breiten Sprachumfang priorisiert. Ihre Syntax ähnelt Python, während ihr Compiler EVM-Bytecode erzeugt.\n\nSie wird für Ethereum-Smart Contracts, Finanzprotokolle, On-Chain-Experimente und Codebasen verwendet, die eine absichtlich eingeschränkte Vertragssprache bevorzugen.',
     },
     pt: {
       name: 'Vyper',
-      description: 'Linguagem de contrato Pythonic para a M\u00e1quina Virtual Ethereum.',
+      description: 'Linguagem de contrato Pythonic para a Máquina Virtual Ethereum.',
       longDescription:
-        'Vyper \u00e9 uma linguagem de contrato para Ethereum que favorece o comportamento expl\u00edcito, limites e auditabilidade em vez de uma ampla superf\u00edcie de linguagem. Sua sintaxe \u00e9 semelhante \u00e0 do Python, enquanto seu compilador emite bytecode EVM.\n\n\u00c9 usada para contratos inteligentes Ethereum, protocolos financeiros, experimentos on-chain e c\u00f3digo que prefere uma linguagem de contrato deliberadamente restrita.',
+        'Vyper é uma linguagem de contrato para Ethereum que favorece o comportamento explícito, limites e auditabilidade em vez de uma ampla superfície de linguagem. Sua sintaxe é semelhante à do Python, enquanto seu compilador emite bytecode EVM.\n\nÉ usada para contratos inteligentes Ethereum, protocolos financeiros, experimentos on-chain e código que prefere uma linguagem de contrato deliberadamente restrita.',
     },
   },
 } satisfies Language;

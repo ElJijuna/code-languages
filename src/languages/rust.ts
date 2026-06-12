@@ -45,16 +45,16 @@ export const rust = {
     de: {
       name: 'Rust',
       description:
-        'Eine Programmiersprache f\u00fcr Systemprogrammierung, die auf Sicherheit, Geschwindigkeit und Nebenl\u00e4ufigkeit ausgerichtet ist.',
+        'Eine Programmiersprache für Systemprogrammierung, die auf Sicherheit, Geschwindigkeit und Nebenläufigkeit ausgerichtet ist.',
       longDescription:
-        'Rust bietet Speichersicherheit ohne Garbage Collector durch Ownership, Borrowing, Lifetimes und starke Compile-Zeit-Pr\u00fcfungen.\n\nEs wird f\u00fcr Systemsoftware, Kommandozeilen-Tools, Webdienste, eingebettete Entwicklung, WebAssembly und performante Infrastruktur verwendet.',
+        'Rust bietet Speichersicherheit ohne Garbage Collector durch Ownership, Borrowing, Lifetimes und starke Compile-Zeit-Prüfungen.\n\nEs wird für Systemsoftware, Kommandozeilen-Tools, Webdienste, eingebettete Entwicklung, WebAssembly und performante Infrastruktur verwendet.',
     },
     pt: {
       name: 'Rust',
       description:
-        'Linguagem de programa\u00e7\u00e3o de sistemas focada em seguran\u00e7a, velocidade e concorr\u00eancia.',
+        'Linguagem de programação de sistemas focada em segurança, velocidade e concorrência.',
       longDescription:
-        'Rust oferece seguran\u00e7a de mem\u00f3ria sem coletor de lixo atrav\u00e9s de propriedade, empr\u00e9stimo, tempos de vida e verifica\u00e7\u00f5es rigorosas em tempo de compila\u00e7\u00e3o.\n\n\u00c9 usada para software de sistemas, ferramentas de linha de comando, servi\u00e7os web, desenvolvimento embarcado, WebAssembly e infraestrutura de alto desempenho.',
+        'Rust oferece segurança de memória sem coletor de lixo através de propriedade, empréstimo, tempos de vida e verificações rigorosas em tempo de compilação.\n\nÉ usada para software de sistemas, ferramentas de linha de comando, serviços web, desenvolvimento embarcado, WebAssembly e infraestrutura de alto desempenho.',
     },
   },
 } satisfies Language;

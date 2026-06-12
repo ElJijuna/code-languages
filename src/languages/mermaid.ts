@@ -46,16 +46,16 @@ export const mermaid = {
     de: {
       name: 'Mermaid',
       description:
-        'Eine textbasierte Diagrammiersprache f\u00fcr Flussdiagramme, Sequenzen, Zeitlinien und mehr.',
+        'Eine textbasierte Diagrammiersprache für Flussdiagramme, Sequenzen, Zeitlinien und mehr.',
       longDescription:
-        'Mermaid ist eine Diagrammiersprache, die strukturierte Texte in Diagramme wie Flussdiagramme, Sequenzdiagramme, Klassendiagramme, Zustandsdiagramme, Entit\u00e4ts-Beziehungsdiagramme, Gantt-Diagramme, Zeitlinien und Mindmaps umwandelt. Sie ist darauf ausgelegt, problemlos mit Markdown-Dokumentation zusammenzuarbeiten.\n\nSie wird in READMEs, Architekturnotizen, Wikis, Dokumentationsseiten, Issue-Trackern, Wissensdatenbanken und Arbeitsabl\u00e4ufen verwendet, in denen Diagramme als reiner Text versioniert werden sollen.',
+        'Mermaid ist eine Diagrammiersprache, die strukturierte Texte in Diagramme wie Flussdiagramme, Sequenzdiagramme, Klassendiagramme, Zustandsdiagramme, Entitäts-Beziehungsdiagramme, Gantt-Diagramme, Zeitlinien und Mindmaps umwandelt. Sie ist darauf ausgelegt, problemlos mit Markdown-Dokumentation zusammenzuarbeiten.\n\nSie wird in READMEs, Architekturnotizen, Wikis, Dokumentationsseiten, Issue-Trackern, Wissensdatenbanken und Arbeitsabläufen verwendet, in denen Diagramme als reiner Text versioniert werden sollen.',
     },
     pt: {
       name: 'Mermaid',
       description:
-        'Linguagem de diagramas baseada em texto para fluxogramas, sequ\u00eancias, cronogramas e mais.',
+        'Linguagem de diagramas baseada em texto para fluxogramas, sequências, cronogramas e mais.',
       longDescription:
-        'Mermaid \u00e9 uma linguagem de diagrama\u00e7\u00e3o que converte texto estruturado em diagramas como fluxogramas, diagramas de sequ\u00eancia, diagramas de classes, diagramas de estado, diagramas de rela\u00e7\u00f5es entidade, gr\u00e1ficos de Gantt, cronogramas e mapas mentais. \u00c9 projetada para coexistir confortavelmente com a documenta\u00e7\u00e3o em Markdown.\n\n\u00c9 usada em READMEs, notas de arquitetura, wikis, sites de documenta\u00e7\u00e3o, rastreadores de problemas, bases de conhecimento e fluxos de trabalho onde os diagramas devem ser versionados como texto simples.',
+        'Mermaid é uma linguagem de diagramação que converte texto estruturado em diagramas como fluxogramas, diagramas de sequência, diagramas de classes, diagramas de estado, diagramas de relações entidade, gráficos de Gantt, cronogramas e mapas mentais. É projetada para coexistir confortavelmente com a documentação em Markdown.\n\nÉ usada em READMEs, notas de arquitetura, wikis, sites de documentação, rastreadores de problemas, bases de conhecimento e fluxos de trabalho onde os diagramas devem ser versionados como texto simples.',
     },
   },
 } satisfies Language;

@@ -42,15 +42,15 @@ export const promql = {
     },
     de: {
       name: 'PromQL',
-      description: 'Die Prometheus-Abfragesprache zum Ausw\u00e4hlen und Aggregieren von Metriken.',
+      description: 'Die Prometheus-Abfragesprache zum Auswählen und Aggregieren von Metriken.',
       longDescription:
-        'PromQL ist die Ausdruckssprache, die von Prometheus verwendet wird, um momentane Werte, Bereichswerte, Skalare und Strings aus Zeitreihendaten auszuw\u00e4hlen. Sie umfasst Label-Matching, arithmetische Operationen, Aggregation und Funktionen zur Metrikanalyse.\n\nSie wird in Dashboards, Alarmen, Aufzeichnungsschemen, zur Fehlerbehebung, zur Kapazit\u00e4tsanalyse und in Observability-Systemen verwendet, die Prometheus-Abfragen unterst\u00fctzen.',
+        'PromQL ist die Ausdruckssprache, die von Prometheus verwendet wird, um momentane Werte, Bereichswerte, Skalare und Strings aus Zeitreihendaten auszuwählen. Sie umfasst Label-Matching, arithmetische Operationen, Aggregation und Funktionen zur Metrikanalyse.\n\nSie wird in Dashboards, Alarmen, Aufzeichnungsschemen, zur Fehlerbehebung, zur Kapazitätsanalyse und in Observability-Systemen verwendet, die Prometheus-Abfragen unterstützen.',
     },
     pt: {
       name: 'PromQL',
-      description: 'A linguagem de consulta do Prometheus para selecionar e agregar m\u00e9tricas.',
+      description: 'A linguagem de consulta do Prometheus para selecionar e agregar métricas.',
       longDescription:
-        'A PromQL \u00e9 a linguagem de express\u00e3o usada pelo Prometheus para selecionar vetores instant\u00e2neos, vetores de intervalo, escalares e strings de dados de s\u00e9ries temporais. Inclui correspond\u00eancia de r\u00f3tulos, opera\u00e7\u00f5es aritm\u00e9ticas, agrega\u00e7\u00e3o e fun\u00e7\u00f5es para an\u00e1lise de m\u00e9tricas.\n\n\u00c9 usada em pain\u00e9is, alertas, regras de registro, solu\u00e7\u00e3o de problemas, an\u00e1lise de capacidade e sistemas de observabilidade compat\u00edveis com consultas do Prometheus.',
+        'A PromQL é a linguagem de expressão usada pelo Prometheus para selecionar vetores instantâneos, vetores de intervalo, escalares e strings de dados de séries temporais. Inclui correspondência de rótulos, operações aritméticas, agregação e funções para análise de métricas.\n\nÉ usada em painéis, alertas, regras de registro, solução de problemas, análise de capacidade e sistemas de observabilidade compatíveis com consultas do Prometheus.',
     },
   },
 } satisfies Language;

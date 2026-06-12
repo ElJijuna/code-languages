@@ -47,16 +47,16 @@ export const cue = {
     de: {
       name: 'CUE',
       description:
-        'Eine constraint-basierte Sprache f\u00fcr Konfiguration, Datenvalidierung und -generierung.',
+        'Eine constraint-basierte Sprache für Konfiguration, Datenvalidierung und -generierung.',
       longDescription:
-        'CUE kombiniert Konfigurationsdaten, Schemas, Validierungsregeln und Richtlinien in einer einzigen Sprache. Ihre Werte k\u00f6nnen unvollst\u00e4ndig, vereinheitlicht, exportiert und anhand von strukturellen Einschr\u00e4nkungen \u00fcberpr\u00fcft werden, was sie f\u00fcr die Verwaltung komplexer Datendefinitionen n\u00fctzlich macht.\n\nEs wird mit Kubernetes-Manifesten, JSON, YAML, OpenAPI, Protobuf, CI-Konfigurationen, Infrastrukturdefinitionen und Systemen verwendet, die eine einzige Quelle f\u00fcr die Datenstruktur und -validierung ben\u00f6tigen.',
+        'CUE kombiniert Konfigurationsdaten, Schemas, Validierungsregeln und Richtlinien in einer einzigen Sprache. Ihre Werte können unvollständig, vereinheitlicht, exportiert und anhand von strukturellen Einschränkungen überprüft werden, was sie für die Verwaltung komplexer Datendefinitionen nützlich macht.\n\nEs wird mit Kubernetes-Manifesten, JSON, YAML, OpenAPI, Protobuf, CI-Konfigurationen, Infrastrukturdefinitionen und Systemen verwendet, die eine einzige Quelle für die Datenstruktur und -validierung benötigen.',
     },
     pt: {
       name: 'CUE',
       description:
-        'Linguagem baseada em restri\u00e7\u00f5es para configura\u00e7\u00e3o, valida\u00e7\u00e3o e gera\u00e7\u00e3o de dados.',
+        'Linguagem baseada em restrições para configuração, validação e geração de dados.',
       longDescription:
-        'CUE combina dados de configura\u00e7\u00e3o, esquemas, regras de valida\u00e7\u00e3o e restri\u00e7\u00f5es de pol\u00edtica em uma \u00fanica linguagem. Seus valores podem ser incompletos, unificados, exportados e verificados contra restri\u00e7\u00f5es estruturais, tornando-o \u00fatil para gerenciar defini\u00e7\u00f5es de dados complexas.\n\n\u00c9 usado com manifests do Kubernetes, JSON, YAML, OpenAPI, Protobuf, configura\u00e7\u00e3o de CI, defini\u00e7\u00f5es de infraestrutura e sistemas que precisam de uma \u00fanica fonte de verdade para a forma e valida\u00e7\u00e3o dos dados.',
+        'CUE combina dados de configuração, esquemas, regras de validação e restrições de política em uma única linguagem. Seus valores podem ser incompletos, unificados, exportados e verificados contra restrições estruturais, tornando-o útil para gerenciar definições de dados complexas.\n\nÉ usado com manifests do Kubernetes, JSON, YAML, OpenAPI, Protobuf, configuração de CI, definições de infraestrutura e sistemas que precisam de uma única fonte de verdade para a forma e validação dos dados.',
     },
   },
 } satisfies Language;

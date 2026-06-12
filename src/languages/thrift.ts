@@ -43,16 +43,15 @@ export const thrift = {
     },
     de: {
       name: 'Apache Thrift',
-      description: 'Eine IDL f\u00fcr mehrsprachige Dienste und serialisierbare Datentypen.',
+      description: 'Eine IDL für mehrsprachige Dienste und serialisierbare Datentypen.',
       longDescription:
-        'Thrift-Dateien definieren Dienste, Strukturen, Felder, Enums, Ausnahmen, Namespaces und Wire-Level-Auswahlen, die Generatoren in Code f\u00fcr viele Sprachen umwandeln. Das Projekt umfasst Protokolle und Transports f\u00fcr RPC-Nutzung.\n\nEs wird f\u00fcr Service-Vertr\u00e4ge, Schema-Sharing, Code-Generierung, verteilte Systeme und mehrsprachige APIs verwendet.',
+        'Thrift-Dateien definieren Dienste, Strukturen, Felder, Enums, Ausnahmen, Namespaces und Wire-Level-Auswahlen, die Generatoren in Code für viele Sprachen umwandeln. Das Projekt umfasst Protokolle und Transports für RPC-Nutzung.\n\nEs wird für Service-Verträge, Schema-Sharing, Code-Generierung, verteilte Systeme und mehrsprachige APIs verwendet.',
     },
     pt: {
       name: 'Apache Thrift',
-      description:
-        'Uma IDL para servi\u00e7os e tipos de dados serializ\u00e1veis em diferentes linguagens.',
+      description: 'Uma IDL para serviços e tipos de dados serializáveis em diferentes linguagens.',
       longDescription:
-        'Os arquivos Thrift definem servi\u00e7os, structs, campos, enums, exce\u00e7\u00f5es, namespaces e escolhas de n\u00edvel de wire que os geradores transformam em c\u00f3digo para v\u00e1rias linguagens. O projeto inclui protocolos e transportes para uso de RPC.\n\n\u00c9 usado para contratos de servi\u00e7os, compartilhamento de esquema, gera\u00e7\u00e3o de c\u00f3digo, sistemas distribu\u00eddos e APIs entre linguagens.',
+        'Os arquivos Thrift definem serviços, structs, campos, enums, exceções, namespaces e escolhas de nível de wire que os geradores transformam em código para várias linguagens. O projeto inclui protocolos e transportes para uso de RPC.\n\nÉ usado para contratos de serviços, compartilhamento de esquema, geração de código, sistemas distribuídos e APIs entre linguagens.',
     },
   },
 } satisfies Language;

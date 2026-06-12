@@ -47,16 +47,16 @@ export const elm = {
     de: {
       name: 'Elm',
       description:
-        'Ein funktionales Programmiersprache f\u00fcr zuverl\u00e4ssige Webanwendungen, die zu JavaScript kompiliert.',
+        'Ein funktionales Programmiersprache für zuverlässige Webanwendungen, die zu JavaScript kompiliert.',
       longDescription:
-        'Elm ist eine funktionale Programmiersprache, die f\u00fcr den Aufbau von Browseranwendungen mit starken statischen Typen, unver\u00e4nderlichen Daten, reinen Funktionen, Pattern Matching und einem benutzerfreundlichen Compiler entwickelt wurde, der klare Fehlermeldungen hervorhebt.\n\nEs wird f\u00fcr Frontend-Anwendungen, interaktive Web-Oberfl\u00e4chen, das Erlernen von funktionaler Programmierung und Projekte verwendet, die durch The Elm Architecture vorhersagbare Zustandsaktualisierungen erreichen m\u00f6chten, w\u00e4hrend sie zu JavaScript kompiliert werden.',
+        'Elm ist eine funktionale Programmiersprache, die für den Aufbau von Browseranwendungen mit starken statischen Typen, unveränderlichen Daten, reinen Funktionen, Pattern Matching und einem benutzerfreundlichen Compiler entwickelt wurde, der klare Fehlermeldungen hervorhebt.\n\nEs wird für Frontend-Anwendungen, interaktive Web-Oberflächen, das Erlernen von funktionaler Programmierung und Projekte verwendet, die durch The Elm Architecture vorhersagbare Zustandsaktualisierungen erreichen möchten, während sie zu JavaScript kompiliert werden.',
     },
     pt: {
       name: 'Elm',
       description:
-        'Linguagem funcional para aplica\u00e7\u00f5es web confi\u00e1veis que compila para JavaScript.',
+        'Linguagem funcional para aplicações web confiáveis que compila para JavaScript.',
       longDescription:
-        'Elm \u00e9 uma linguagem de programa\u00e7\u00e3o funcional projetada para construir aplica\u00e7\u00f5es de navegador com tipos est\u00e1ticos fortes, dados imut\u00e1veis, fun\u00e7\u00f5es puras, correspond\u00eancia de padr\u00f5es e um compilador amig\u00e1vel que enfatiza mensagens de erro claras.\n\n\u00c9 usada para aplica\u00e7\u00f5es front-end, interfaces web interativas, aprendizado de programa\u00e7\u00e3o funcional e projetos que desejam atualiza\u00e7\u00f5es de estado previs\u00edveis atrav\u00e9s da Arquitetura Elm, compilando para JavaScript.',
+        'Elm é uma linguagem de programação funcional projetada para construir aplicações de navegador com tipos estáticos fortes, dados imutáveis, funções puras, correspondência de padrões e um compilador amigável que enfatiza mensagens de erro claras.\n\nÉ usada para aplicações front-end, interfaces web interativas, aprendizado de programação funcional e projetos que desejam atualizações de estado previsíveis através da Arquitetura Elm, compilando para JavaScript.',
     },
   },
 } satisfies Language;

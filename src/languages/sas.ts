@@ -42,17 +42,15 @@ export const sas = {
     },
     de: {
       name: 'SAS',
-      description:
-        'Eine Sprache und ein System f\u00fcr statistische Analyse und Datenverarbeitung.',
+      description: 'Eine Sprache und ein System für statistische Analyse und Datenverarbeitung.',
       longDescription:
-        'SAS-Programme kombinieren DATA-Schritte, Prozeduren, Makros, Formate, Bibliotheken und analytisch ausgerichtete Anweisungen, um Daten zu transformieren und zu analysieren. Die Sprache ist eng mit der SAS-Plattform und ihren statistischen Werkzeugen verbunden.\n\nSie wird in der Analyse, der regulatorischen Berichterstattung, klinischen Arbeitsabl\u00e4ufen, der Datenvorbereitung, der Prognose und in Unternehmensstatistischen Systemen eingesetzt.',
+        'SAS-Programme kombinieren DATA-Schritte, Prozeduren, Makros, Formate, Bibliotheken und analytisch ausgerichtete Anweisungen, um Daten zu transformieren und zu analysieren. Die Sprache ist eng mit der SAS-Plattform und ihren statistischen Werkzeugen verbunden.\n\nSie wird in der Analyse, der regulatorischen Berichterstattung, klinischen Arbeitsabläufen, der Datenvorbereitung, der Prognose und in Unternehmensstatistischen Systemen eingesetzt.',
     },
     pt: {
       name: 'SAS',
-      description:
-        'Uma linguagem e sistema para an\u00e1lise estat\u00edstica e processamento de dados.',
+      description: 'Uma linguagem e sistema para análise estatística e processamento de dados.',
       longDescription:
-        'Os programas SAS combinam etapas DATA, procedimentos, macros, formatos, bibliotecas e declara\u00e7\u00f5es orientadas \u00e0 an\u00e1lise para transformar e analisar dados. A linguagem est\u00e1 intimamente ligada \u00e0 plataforma SAS e suas ferramentas estat\u00edsticas.\n\n\u00c9 utilizada em an\u00e1lise, relat\u00f3rios regulamentados, fluxos de trabalho cl\u00ednicos, prepara\u00e7\u00e3o de dados, previs\u00e3o e sistemas estat\u00edsticos empresariais.',
+        'Os programas SAS combinam etapas DATA, procedimentos, macros, formatos, bibliotecas e declarações orientadas à análise para transformar e analisar dados. A linguagem está intimamente ligada à plataforma SAS e suas ferramentas estatísticas.\n\nÉ utilizada em análise, relatórios regulamentados, fluxos de trabalho clínicos, preparação de dados, previsão e sistemas estatísticos empresariais.',
     },
   },
 } satisfies Language;

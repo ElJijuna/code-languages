@@ -48,14 +48,14 @@ export const prolog = {
       description:
         'Eine logische Programmiersprache, die auf Fakten, Regeln, Abfragen und Vereinigung basiert.',
       longDescription:
-        'Prolog dr\u00fcckt Programme als Beziehungen aus, wobei Fakten, Regeln, Terme, Pr\u00e4dikate, Vereinigung, R\u00fcckverfolgung und Rekursion verwendet werden. Anstatt Schritt-f\u00fcr-Schritt-Steuerung zu definieren, beschreiben Programme, was wahr ist, und lassen den Engine nach L\u00f6sungen suchen.\n\nEs wird f\u00fcr symbolische KI, Expertensysteme, Theorembeweise, Sprachverarbeitung, Regel-Engines, Planung, Terminplanung, Constraint-L\u00f6sung, Bildung und Bereiche verwendet, in denen relationales Schlussfolgern nat\u00fcrlicher ist als imperative Steuerung.',
+        'Prolog drückt Programme als Beziehungen aus, wobei Fakten, Regeln, Terme, Prädikate, Vereinigung, Rückverfolgung und Rekursion verwendet werden. Anstatt Schritt-für-Schritt-Steuerung zu definieren, beschreiben Programme, was wahr ist, und lassen den Engine nach Lösungen suchen.\n\nEs wird für symbolische KI, Expertensysteme, Theorembeweise, Sprachverarbeitung, Regel-Engines, Planung, Terminplanung, Constraint-Lösung, Bildung und Bereiche verwendet, in denen relationales Schlussfolgern natürlicher ist als imperative Steuerung.',
     },
     pt: {
       name: 'Prolog',
       description:
-        'Linguagem de programa\u00e7\u00e3o l\u00f3gica baseada em fatos, regras, consultas e unifica\u00e7\u00e3o.',
+        'Linguagem de programação lógica baseada em fatos, regras, consultas e unificação.',
       longDescription:
-        'Prolog expressa programas como rela\u00e7\u00f5es usando fatos, regras, termos, predicados, unifica\u00e7\u00e3o, retrocesso e recurs\u00e3o. Em vez de especificar o fluxo de controle passo a passo, os programas descrevem o que \u00e9 verdadeiro e permitem que o motor encontre solu\u00e7\u00f5es.\n\n\u00c9 usada para IA simb\u00f3lica, sistemas especialistas, prova de teoremas, processamento de linguagem, motores de regras, planejamento, agendamento, resolu\u00e7\u00e3o de restri\u00e7\u00f5es, educa\u00e7\u00e3o e dom\u00ednios onde o racioc\u00ednio relacional \u00e9 mais natural do que o controle imperativo.',
+        'Prolog expressa programas como relações usando fatos, regras, termos, predicados, unificação, retrocesso e recursão. Em vez de especificar o fluxo de controle passo a passo, os programas descrevem o que é verdadeiro e permitem que o motor encontre soluções.\n\nÉ usada para IA simbólica, sistemas especialistas, prova de teoremas, processamento de linguagem, motores de regras, planejamento, agendamento, resolução de restrições, educação e domínios onde o raciocínio relacional é mais natural do que o controle imperativo.',
     },
   },
 } satisfies Language;

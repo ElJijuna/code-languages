@@ -44,16 +44,15 @@ export const raku = {
     de: {
       name: 'Raku',
       description:
-        'Eine mehrparadigmige Sprache mit Grammatiken, Nebenl\u00e4ufigkeit und umfangreicher Dispatch-Funktionalit\u00e4t.',
+        'Eine mehrparadigmige Sprache mit Grammatiken, Nebenläufigkeit und umfangreicher Dispatch-Funktionalität.',
       longDescription:
-        'Raku ist ein Verwandter von Perl mit progressiver Typisierung, Signatur, Mehrfachdispatch, Grammatiken, Junctions, Nebenl\u00e4ufigkeitsprimitiven und ausdrucksstarken Operatoren. Es ist f\u00fcr kleine Skripte und gr\u00f6\u00dfere, sprachorientierte Programme konzipiert.\n\nEs wird f\u00fcr Textverarbeitung, Kommandozeilen-Tools, Parser, Automatisierung, Experimente und Anwendungen verwendet, die von integrierter Grammatikunterst\u00fctzung profitieren.',
+        'Raku ist ein Verwandter von Perl mit progressiver Typisierung, Signatur, Mehrfachdispatch, Grammatiken, Junctions, Nebenläufigkeitsprimitiven und ausdrucksstarken Operatoren. Es ist für kleine Skripte und größere, sprachorientierte Programme konzipiert.\n\nEs wird für Textverarbeitung, Kommandozeilen-Tools, Parser, Automatisierung, Experimente und Anwendungen verwendet, die von integrierter Grammatikunterstützung profitieren.',
     },
     pt: {
       name: 'Raku',
-      description:
-        'Linguagem multi-paradigma com gram\u00e1ticas, concorr\u00eancia e despacho rico.',
+      description: 'Linguagem multi-paradigma com gramáticas, concorrência e despacho rico.',
       longDescription:
-        'Raku \u00e9 um parente do Perl com tipagem gradual, assinaturas, despacho m\u00faltiplo, gram\u00e1ticas, jun\u00e7\u00f5es, primitivas de concorr\u00eancia e operadores expressivos. \u00c9 projetado para scripts pequenos e programas maiores orientados por linguagem.\n\n\u00c9 usado para processamento de texto, ferramentas de linha de comando, analisadores, automa\u00e7\u00e3o, experimenta\u00e7\u00e3o e aplica\u00e7\u00f5es que se beneficiam do suporte de gram\u00e1tica embutido.',
+        'Raku é um parente do Perl com tipagem gradual, assinaturas, despacho múltiplo, gramáticas, junções, primitivas de concorrência e operadores expressivos. É projetado para scripts pequenos e programas maiores orientados por linguagem.\n\nÉ usado para processamento de texto, ferramentas de linha de comando, analisadores, automação, experimentação e aplicações que se beneficiam do suporte de gramática embutido.',
     },
   },
 } satisfies Language;

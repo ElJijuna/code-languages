@@ -43,15 +43,15 @@ export const fennel = {
     de: {
       name: 'Fennel',
       description:
-        'Ein Lisp, das zu Lua kompiliert und gleichzeitig den Zugriff auf das Lua-\u00d6kosystem beibeh\u00e4lt.',
+        'Ein Lisp, das zu Lua kompiliert und gleichzeitig den Zugriff auf das Lua-Ökosystem beibehält.',
       longDescription:
-        "Fennel ist ein Lisp-Dialekt, der zu Lua kompiliert und dabei Klammern, Makros, Mustervergleich, Destrukturierung, funktionale Programmierung und interaktive Entwicklung erm\u00f6glicht, w\u00e4hrend gleichzeitig die Kompatibilit\u00e4t mit Lua-Runtimes und -Bibliotheken erhalten bleibt.\n\nEs wird f\u00fcr Lua-Anwendungen, Neovim-Konfigurationen, Spiel-Skripting, eingebettete Erweiterungssprachen, Tools und Projekte verwendet, die Lisp-\u00e4hnliche Syntax und Makros mit Lua's Portabilit\u00e4t und kleinem Laufzeitbedarf ben\u00f6tigen.",
+        "Fennel ist ein Lisp-Dialekt, der zu Lua kompiliert und dabei Klammern, Makros, Mustervergleich, Destrukturierung, funktionale Programmierung und interaktive Entwicklung ermöglicht, während gleichzeitig die Kompatibilität mit Lua-Runtimes und -Bibliotheken erhalten bleibt.\n\nEs wird für Lua-Anwendungen, Neovim-Konfigurationen, Spiel-Skripting, eingebettete Erweiterungssprachen, Tools und Projekte verwendet, die Lisp-ähnliche Syntax und Makros mit Lua's Portabilität und kleinem Laufzeitbedarf benötigen.",
     },
     pt: {
       name: 'Fennel',
       description: 'Um Lisp que compila para Lua, preservando o acesso ao ecossistema Lua.',
       longDescription:
-        'Fennel \u00e9 um dialeto Lisp que compila para Lua, oferecendo par\u00eanteses, macros, correspond\u00eancia de padr\u00f5es, destructuring, estilo funcional e desenvolvimento interativo, mantendo a compatibilidade com as runtimes e bibliotecas Lua.\n\n\u00c9 usado para aplica\u00e7\u00f5es Lua, configura\u00e7\u00e3o do Neovim, scripting de jogos, linguagens de extens\u00e3o embarcadas, ferramentas e projetos que desejam a sintaxe e macros de estilo Lisp com a portabilidade e o pequeno tamanho do runtime Lua.',
+        'Fennel é um dialeto Lisp que compila para Lua, oferecendo parênteses, macros, correspondência de padrões, destructuring, estilo funcional e desenvolvimento interativo, mantendo a compatibilidade com as runtimes e bibliotecas Lua.\n\nÉ usado para aplicações Lua, configuração do Neovim, scripting de jogos, linguagens de extensão embarcadas, ferramentas e projetos que desejam a sintaxe e macros de estilo Lisp com a portabilidade e o pequeno tamanho do runtime Lua.',
     },
   },
 } satisfies Language;

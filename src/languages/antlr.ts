@@ -47,16 +47,16 @@ export const antlr = {
     de: {
       name: 'ANTLR Grammar',
       description:
-        'Grammatiknotation f\u00fcr ANTLR zur Generierung von Lexern, Parsern und Sprachwerkzeugen.',
+        'Grammatiknotation für ANTLR zur Generierung von Lexern, Parsern und Sprachwerkzeugen.',
       longDescription:
-        'ANTLR-Grammatiken beschreiben lexikalische Token und Parserregeln f\u00fcr Programmiersprachen, Datenformate, Abfragesprachen und dom\u00e4nenspezifische Syntaxen.\n\nDie generierten Parser werden in Compilern, Interpretern, Code-Analysatoren, Migrationswerkzeugen, Editoren und anderen Systemen verwendet, die strukturierte Spracherkennung ben\u00f6tigen.',
+        'ANTLR-Grammatiken beschreiben lexikalische Token und Parserregeln für Programmiersprachen, Datenformate, Abfragesprachen und domänenspezifische Syntaxen.\n\nDie generierten Parser werden in Compilern, Interpretern, Code-Analysatoren, Migrationswerkzeugen, Editoren und anderen Systemen verwendet, die strukturierte Spracherkennung benötigen.',
     },
     pt: {
       name: 'ANTLR Grammar',
       description:
-        'Nota\u00e7\u00e3o gramatical usada com ANTLR para gerar lexers, parsers e ferramentas de linguagem.',
+        'Notação gramatical usada com ANTLR para gerar lexers, parsers e ferramentas de linguagem.',
       longDescription:
-        'As gram\u00e1ticas ANTLR descrevem tokens lexicais e regras de an\u00e1lise para linguagens de programa\u00e7\u00e3o, formatos de dados, linguagens de consulta e sintaxes espec\u00edficas de dom\u00ednio.\n\nOs parsers gerados s\u00e3o usados em compiladores, interpretadores, analisadores de c\u00f3digo, ferramentas de migra\u00e7\u00e3o, editores e outros sistemas que precisam de reconhecimento estruturado de linguagem.',
+        'As gramáticas ANTLR descrevem tokens lexicais e regras de análise para linguagens de programação, formatos de dados, linguagens de consulta e sintaxes específicas de domínio.\n\nOs parsers gerados são usados em compiladores, interpretadores, analisadores de código, ferramentas de migração, editores e outros sistemas que precisam de reconhecimento estruturado de linguagem.',
     },
   },
 } satisfies Language;

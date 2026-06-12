@@ -46,16 +46,16 @@ export const stylus = {
     de: {
       name: 'Stylus',
       description:
-        'Ein flexibler CSS-Pr\u00e4prozessor mit optionaler Syntax f\u00fcr Zeichensetzung und Einr\u00fcckung.',
+        'Ein flexibler CSS-Präprozessor mit optionaler Syntax für Zeichensetzung und Einrückung.',
       longDescription:
-        'Stylus erweitert die Stil-Autorisierung mit Variablen, Mixins, Funktionen, Imports, Verschachtelung und einer Syntax, die Klammern, Doppelpunkte und Semikolons weglassen kann. Es kompiliert Stil-Dateien in CSS.\n\nEs wird in Web-Styling-Pipelines, Design-Systemen, Legacy-Frontend-Builds und Projekten verwendet, die eine pr\u00e4gnante Stil-Syntax bevorzugen.',
+        'Stylus erweitert die Stil-Autorisierung mit Variablen, Mixins, Funktionen, Imports, Verschachtelung und einer Syntax, die Klammern, Doppelpunkte und Semikolons weglassen kann. Es kompiliert Stil-Dateien in CSS.\n\nEs wird in Web-Styling-Pipelines, Design-Systemen, Legacy-Frontend-Builds und Projekten verwendet, die eine prägnante Stil-Syntax bevorzugen.',
     },
     pt: {
       name: 'Stylus',
       description:
-        'Um pr\u00e9-processador CSS flex\u00edvel com sintaxe opcional de pontua\u00e7\u00e3o e indenta\u00e7\u00e3o.',
+        'Um pré-processador CSS flexível com sintaxe opcional de pontuação e indentação.',
       longDescription:
-        'O Stylus estende a cria\u00e7\u00e3o de estilos CSS com vari\u00e1veis, mixins, fun\u00e7\u00f5es, importa\u00e7\u00f5es, aninhamento e uma sintaxe que pode omitir chaves, dois-pontos e ponto e v\u00edrgulas. Ele compila arquivos de autor, convertendo-os em CSS.\n\n\u00c9 usado em pipelines de estiliza\u00e7\u00e3o web, sistemas de design, builds front-end legados e projetos que preferem uma sintaxe concisa de estilos.',
+        'O Stylus estende a criação de estilos CSS com variáveis, mixins, funções, importações, aninhamento e uma sintaxe que pode omitir chaves, dois-pontos e ponto e vírgulas. Ele compila arquivos de autor, convertendo-os em CSS.\n\nÉ usado em pipelines de estilização web, sistemas de design, builds front-end legados e projetos que preferem uma sintaxe concisa de estilos.',
     },
   },
 } satisfies Language;

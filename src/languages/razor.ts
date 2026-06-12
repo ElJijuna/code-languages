@@ -47,16 +47,16 @@ export const razor = {
     de: {
       name: 'Razor',
       description:
-        'Microsofts Markup-Syntax f\u00fcr ASP.NET Core Views, Razor Pages und Blazor-Komponenten.',
+        'Microsofts Markup-Syntax für ASP.NET Core Views, Razor Pages und Blazor-Komponenten.',
       longDescription:
-        'Razor ist eine Markup-Syntax und ein Templating-Sprache, die von ASP.NET Core verwendet wird, um HTML mit C#-Ausdr\u00fccken, Direktiven, Layouts, Tag-Helpers, Komponenten und serverseitiger oder interaktiver Rendering-Logik zu kombinieren.\n\nEs wird in MVC-Views, Razor Pages, Razor Class Libraries und Blazor-Komponenten verwendet. Razor-Dateien definieren typischerweise Seitenvorlagen, wiederverwendbare UI-Komponenten, Formulare, Layouts, Routing, Komponentenparameter und Bindungen in .NET-Webanwendungen.',
+        'Razor ist eine Markup-Syntax und ein Templating-Sprache, die von ASP.NET Core verwendet wird, um HTML mit C#-Ausdrücken, Direktiven, Layouts, Tag-Helpers, Komponenten und serverseitiger oder interaktiver Rendering-Logik zu kombinieren.\n\nEs wird in MVC-Views, Razor Pages, Razor Class Libraries und Blazor-Komponenten verwendet. Razor-Dateien definieren typischerweise Seitenvorlagen, wiederverwendbare UI-Komponenten, Formulare, Layouts, Routing, Komponentenparameter und Bindungen in .NET-Webanwendungen.',
     },
     pt: {
       name: 'Razor',
       description:
-        'Sintaxe de marca\u00e7\u00e3o da Microsoft para visualiza\u00e7\u00f5es do ASP.NET Core, p\u00e1ginas Razor e componentes Blazor.',
+        'Sintaxe de marcação da Microsoft para visualizações do ASP.NET Core, páginas Razor e componentes Blazor.',
       longDescription:
-        'Razor \u00e9 uma sintaxe e linguagem de modelagem usada pelo ASP.NET Core para combinar HTML com express\u00f5es, diretivas, layouts, helpers de tag, componentes e l\u00f3gica de renderiza\u00e7\u00e3o do lado do servidor ou interativa.\n\n\u00c9 usada em visualiza\u00e7\u00f5es MVC, p\u00e1ginas Razor, bibliotecas de classe Razor e componentes Blazor. Os arquivos Razor definem comumente modelos de p\u00e1gina, componentes de UI reutiliz\u00e1veis, formul\u00e1rios, layouts, roteamento, par\u00e2metros de componentes e vincula\u00e7\u00f5es em aplica\u00e7\u00f5es web .NET.',
+        'Razor é uma sintaxe e linguagem de modelagem usada pelo ASP.NET Core para combinar HTML com expressões, diretivas, layouts, helpers de tag, componentes e lógica de renderização do lado do servidor ou interativa.\n\nÉ usada em visualizações MVC, páginas Razor, bibliotecas de classe Razor e componentes Blazor. Os arquivos Razor definem comumente modelos de página, componentes de UI reutilizáveis, formulários, layouts, roteamento, parâmetros de componentes e vinculações em aplicações web .NET.',
     },
   },
 } satisfies Language;

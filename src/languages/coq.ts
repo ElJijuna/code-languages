@@ -47,16 +47,16 @@ export const coq = {
     de: {
       name: 'Coq / Rocq',
       description:
-        'Ein Beweisassistent und eine dependently typisierte Sprache f\u00fcr zertifizierte Mathematik und Software.',
+        'Ein Beweisassistent und eine dependently typisierte Sprache für zertifizierte Mathematik und Software.',
       longDescription:
-        'Coq, jetzt unter dem Namen Rocq Prover ver\u00f6ffentlicht, ist ein interaktiver Theorembeweiser und eine dependently typisierte Sprache. Sie erm\u00f6glicht es Benutzern, Definitionen, ausf\u00fchrbaren Programme, Theoreme und maschinell \u00fcberpr\u00fcfte Beweise in einer Umgebung zu schreiben.\n\nEs wird h\u00e4ufig in der formalen Verifikation, der Metatheorie von Programmiersprachen, zertifizierten Compilern, Mathematik, Kryptographie und Projekten verwendet, bei denen Korrektheitsargumente mit hoher Sicherheit \u00fcberpr\u00fcft werden m\u00fcssen.',
+        'Coq, jetzt unter dem Namen Rocq Prover veröffentlicht, ist ein interaktiver Theorembeweiser und eine dependently typisierte Sprache. Sie ermöglicht es Benutzern, Definitionen, ausführbaren Programme, Theoreme und maschinell überprüfte Beweise in einer Umgebung zu schreiben.\n\nEs wird häufig in der formalen Verifikation, der Metatheorie von Programmiersprachen, zertifizierten Compilern, Mathematik, Kryptographie und Projekten verwendet, bei denen Korrektheitsargumente mit hoher Sicherheit überprüft werden müssen.',
     },
     pt: {
       name: 'Coq / Rocq',
       description:
-        'Assistente de prova e linguagem de tipos dependentes para matem\u00e1tica e software certificados.',
+        'Assistente de prova e linguagem de tipos dependentes para matemática e software certificados.',
       longDescription:
-        'Coq, agora sob o nome Rocq Prover, \u00e9 um provedor de teoremas interativo e uma linguagem de tipos dependentes. Permite aos usu\u00e1rios escrever defini\u00e7\u00f5es, programas execut\u00e1veis, teoremas e provas verificadas por m\u00e1quina em um \u00fanico ambiente.\n\n\u00c9 amplamente utilizado em verifica\u00e7\u00e3o formal, teoria da linguagem de programa\u00e7\u00e3o, compiladores certificados, matem\u00e1tica, criptografia e projetos onde argumentos de corre\u00e7\u00e3o precisam ser verificados com alta confian\u00e7a.',
+        'Coq, agora sob o nome Rocq Prover, é um provedor de teoremas interativo e uma linguagem de tipos dependentes. Permite aos usuários escrever definições, programas executáveis, teoremas e provas verificadas por máquina em um único ambiente.\n\nÉ amplamente utilizado em verificação formal, teoria da linguagem de programação, compiladores certificados, matemática, criptografia e projetos onde argumentos de correção precisam ser verificados com alta confiança.',
     },
   },
 } satisfies Language;

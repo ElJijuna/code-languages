@@ -45,17 +45,16 @@ export const haml = {
     },
     de: {
       name: 'Haml',
-      description:
-        'Eine Whitespace-sensitive Template-Sprache zum pr\u00e4gnanten Schreiben von HTML.',
+      description: 'Eine Whitespace-sensitive Template-Sprache zum prägnanten Schreiben von HTML.',
       longDescription:
-        'Haml ist eine Markup- und Template-Sprache zum Generieren von HTML mit einer Struktur, die auf Einr\u00fcckung basiert. Sie entfernt schlie\u00dfende Tags, reduziert Boilerplate und integriert sich in Ruby-Frameworks wie Ruby on Rails.\n\nEs wird in Webanwendungen und statischen Rendering-Pipelines verwendet, die pr\u00e4gnante Templates, lesbare Verschachtelung und Ruby-basierte Interpolation gegen\u00fcber expliziter HTML-Syntax bevorzugen.',
+        'Haml ist eine Markup- und Template-Sprache zum Generieren von HTML mit einer Struktur, die auf Einrückung basiert. Sie entfernt schließende Tags, reduziert Boilerplate und integriert sich in Ruby-Frameworks wie Ruby on Rails.\n\nEs wird in Webanwendungen und statischen Rendering-Pipelines verwendet, die prägnante Templates, lesbare Verschachtelung und Ruby-basierte Interpolation gegenüber expliziter HTML-Syntax bevorzugen.',
     },
     pt: {
       name: 'Haml',
       description:
-        'Linguagem de template sens\u00edvel a espa\u00e7os em branco para escrever HTML de forma concisa.',
+        'Linguagem de template sensível a espaços em branco para escrever HTML de forma concisa.',
       longDescription:
-        'Haml \u00e9 uma linguagem de marca\u00e7\u00e3o e template para gerar HTML com estrutura baseada em indenta\u00e7\u00e3o. Remove tags de fechamento, reduz c\u00f3digo repetitivo e integra-se com frameworks Ruby como Ruby on Rails.\n\n\u00c9 utilizada em aplica\u00e7\u00f5es web e pipelines de renderiza\u00e7\u00e3o est\u00e1tica que preferem templates concisos, estrutura de aninhamento leg\u00edvel e interpola\u00e7\u00e3o Ruby em vez de sintaxe HTML expl\u00edcita.',
+        'Haml é uma linguagem de marcação e template para gerar HTML com estrutura baseada em indentação. Remove tags de fechamento, reduz código repetitivo e integra-se com frameworks Ruby como Ruby on Rails.\n\nÉ utilizada em aplicações web e pipelines de renderização estática que preferem templates concisos, estrutura de aninhamento legível e interpolação Ruby em vez de sintaxe HTML explícita.',
     },
   },
 } satisfies Language;

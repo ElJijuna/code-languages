@@ -49,14 +49,14 @@ export const lisp = {
       description:
         'Eine Familie von programmierbaren, ausdrucksorientierten Sprachen, die vor allem durch Common Lisp bekannt sind.',
       longDescription:
-        'Lisp ist eine der \u00e4ltesten Familien von High-Level-Programmiersprachen, die auf symbolischen Ausdr\u00fccken, Listen, Makros, interaktiver Entwicklung, dynamischer Typisierung und programmierbarer Sprachsyntax basiert. Dieser Eintrag konzentriert sich auf Common Lisp-Quelldateien und -Systeme.\n\nCommon Lisp wird f\u00fcr symbolische Berechnungen, KI-Forschung, Compiler, DSLs, Expertensysteme, Automatisierung, langfristige Serveranwendungen, Entwicklerwerkzeuge und explorative Programmierung verwendet, bei der Makros und interaktive Arbeitsabl\u00e4ufe im Vordergrund stehen.',
+        'Lisp ist eine der ältesten Familien von High-Level-Programmiersprachen, die auf symbolischen Ausdrücken, Listen, Makros, interaktiver Entwicklung, dynamischer Typisierung und programmierbarer Sprachsyntax basiert. Dieser Eintrag konzentriert sich auf Common Lisp-Quelldateien und -Systeme.\n\nCommon Lisp wird für symbolische Berechnungen, KI-Forschung, Compiler, DSLs, Expertensysteme, Automatisierung, langfristige Serveranwendungen, Entwicklerwerkzeuge und explorative Programmierung verwendet, bei der Makros und interaktive Arbeitsabläufe im Vordergrund stehen.',
     },
     pt: {
       name: 'Lisp',
       description:
-        'Uma fam\u00edlia de linguagens de programa\u00e7\u00e3o, orientadas a express\u00f5es, mais conhecida atrav\u00e9s do Common Lisp.',
+        'Uma família de linguagens de programação, orientadas a expressões, mais conhecida através do Common Lisp.',
       longDescription:
-        'Lisp \u00e9 uma das fam\u00edlias de linguagens de programa\u00e7\u00e3o de alto n\u00edvel mais antigas, constru\u00edda em torno de express\u00f5es simb\u00f3licas, listas, macros, desenvolvimento interativo, tipagem din\u00e2mica e sintaxe de linguagem program\u00e1vel. Esta entrada se concentra em arquivos e sistemas de Common Lisp.\n\nCommon Lisp \u00e9 usado para computa\u00e7\u00e3o simb\u00f3lica, pesquisa em IA, compiladores, DSLs, sistemas especialistas, automa\u00e7\u00e3o, aplica\u00e7\u00f5es de servidor de longa dura\u00e7\u00e3o, ferramentas de desenvolvimento e programa\u00e7\u00e3o explorat\u00f3ria onde macros e fluxos de trabalho interativos s\u00e3o centrais.',
+        'Lisp é uma das famílias de linguagens de programação de alto nível mais antigas, construída em torno de expressões simbólicas, listas, macros, desenvolvimento interativo, tipagem dinâmica e sintaxe de linguagem programável. Esta entrada se concentra em arquivos e sistemas de Common Lisp.\n\nCommon Lisp é usado para computação simbólica, pesquisa em IA, compiladores, DSLs, sistemas especialistas, automação, aplicações de servidor de longa duração, ferramentas de desenvolvimento e programação exploratória onde macros e fluxos de trabalho interativos são centrais.',
     },
   },
 } satisfies Language;

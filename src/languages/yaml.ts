@@ -42,16 +42,16 @@ export const yaml = {
     de: {
       name: 'YAML',
       description:
-        'Eine menschenlesbare Daten-Serialisierungsprache f\u00fcr Konfigurationen und Dokumente.',
+        'Eine menschenlesbare Daten-Serialisierungsprache für Konfigurationen und Dokumente.',
       longDescription:
-        'YAML stellt strukturierte Daten mit einer Einr\u00fcckungsbasierten Syntax dar, unterst\u00fctzt Mappings, Sequenzen, Skalare, Anchors, Aliase und mehrere Dokumente in einem Stream.\n\nEs wird h\u00e4ufig f\u00fcr Konfigurationsdateien, CI/CD-Workflows, Infrastrukturdefinitionen, Anwendungs-Einstellungen und Datenaustausch verwendet, wo Lesbarkeit wichtig ist.',
+        'YAML stellt strukturierte Daten mit einer Einrückungsbasierten Syntax dar, unterstützt Mappings, Sequenzen, Skalare, Anchors, Aliase und mehrere Dokumente in einem Stream.\n\nEs wird häufig für Konfigurationsdateien, CI/CD-Workflows, Infrastrukturdefinitionen, Anwendungs-Einstellungen und Datenaustausch verwendet, wo Lesbarkeit wichtig ist.',
     },
     pt: {
       name: 'YAML',
       description:
-        'Linguagem de serializa\u00e7\u00e3o de dados leg\u00edvel por humanos usada para configura\u00e7\u00e3o e documentos.',
+        'Linguagem de serialização de dados legível por humanos usada para configuração e documentos.',
       longDescription:
-        'YAML representa dados estruturados com sintaxe baseada em indenta\u00e7\u00e3o, suportando mapeamentos, sequ\u00eancias, escalares, \u00e2ncoras, aliases e m\u00faltiplos documentos em um fluxo.\n\n\u00c9 amplamente utilizada para arquivos de configura\u00e7\u00e3o, fluxos de CI/CD, defini\u00e7\u00f5es de infraestrutura, configura\u00e7\u00f5es de aplicativos e troca de dados onde a legibilidade \u00e9 importante.',
+        'YAML representa dados estruturados com sintaxe baseada em indentação, suportando mapeamentos, sequências, escalares, âncoras, aliases e múltiplos documentos em um fluxo.\n\nÉ amplamente utilizada para arquivos de configuração, fluxos de CI/CD, definições de infraestrutura, configurações de aplicativos e troca de dados onde a legibilidade é importante.',
     },
   },
 } satisfies Language;

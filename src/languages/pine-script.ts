@@ -44,16 +44,15 @@ export const pineScript = {
     de: {
       name: 'Pine Script',
       description:
-        'Die Programmiersprache f\u00fcr Indikatoren, Strategien und Chart-Studien von TradingView.',
+        'Die Programmiersprache für Indikatoren, Strategien und Chart-Studien von TradingView.',
       longDescription:
-        'Pine Script ist eine dom\u00e4nenspezifische Sprache zur Auswertung von Berechnungen \u00fcber Chart-Balken, Serienwerte, Indikatoren, Alarme und Handelsstrategien in TradingView. Ihr Ausf\u00fchrungsmodell basiert auf Zeitreihendaten.\n\nSie wird f\u00fcr benutzerdefinierte technische Indikatoren, backtestete Strategien, Chart-\u00dcberlagerungen, Alarme und Marktanalyse verwendet, die \u00fcber TradingView geteilt werden.',
+        'Pine Script ist eine domänenspezifische Sprache zur Auswertung von Berechnungen über Chart-Balken, Serienwerte, Indikatoren, Alarme und Handelsstrategien in TradingView. Ihr Ausführungsmodell basiert auf Zeitreihendaten.\n\nSie wird für benutzerdefinierte technische Indikatoren, backtestete Strategien, Chart-Überlagerungen, Alarme und Marktanalyse verwendet, die über TradingView geteilt werden.',
     },
     pt: {
       name: 'Pine Script',
-      description:
-        'Linguagem de TradingView para indicadores, estrat\u00e9gias e estudos de gr\u00e1ficos.',
+      description: 'Linguagem de TradingView para indicadores, estratégias e estudos de gráficos.',
       longDescription:
-        'Pine Script \u00e9 uma linguagem espec\u00edfica para expressar c\u00e1lculos sobre barras de gr\u00e1ficos, valores de s\u00e9ries, indicadores, alertas e estrat\u00e9gias de negocia\u00e7\u00e3o no TradingView. Seu modelo de execu\u00e7\u00e3o \u00e9 centrado em dados de s\u00e9ries temporais.\n\n\u00c9 utilizada para indicadores t\u00e9cnicos personalizados, estrat\u00e9gias testadas, sobreposi\u00e7\u00f5es de gr\u00e1ficos, alertas e an\u00e1lise de mercado compartilhadas no TradingView.',
+        'Pine Script é uma linguagem específica para expressar cálculos sobre barras de gráficos, valores de séries, indicadores, alertas e estratégias de negociação no TradingView. Seu modelo de execução é centrado em dados de séries temporais.\n\nÉ utilizada para indicadores técnicos personalizados, estratégias testadas, sobreposições de gráficos, alertas e análise de mercado compartilhadas no TradingView.',
     },
   },
 } satisfies Language;

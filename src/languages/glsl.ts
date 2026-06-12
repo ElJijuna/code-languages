@@ -45,16 +45,16 @@ export const glsl = {
     de: {
       name: 'GLSL',
       description:
-        'Die OpenGL Shading Language f\u00fcr das Schreiben von programmierbaren GPU-Shader-Stufen.',
+        'Die OpenGL Shading Language für das Schreiben von programmierbaren GPU-Shader-Stufen.',
       longDescription:
-        'GLSL ist die OpenGL Shading Language, die zum Schreiben von GPU-Programmen f\u00fcr Vertex-, Fragment-, Geometry-, Tessellation- und Compute-Shader-Stufen verwendet wird. Sie bietet eine C-\u00e4hnliche Syntax, Vektor- und Matrixtypen, Textur-Sampling, Uniformen, Varyings und integrierte Funktionen f\u00fcr Grafikpipelines.\n\nSie wird in Spiel-Engines, Visualisierungstools, WebGL-Anwendungen, kreativem Coding, Rendering-Systemen, Simulationen und Echtzeit-Grafikprojekten verwendet, die programmierbares GPU-Verhalten ben\u00f6tigen.',
+        'GLSL ist die OpenGL Shading Language, die zum Schreiben von GPU-Programmen für Vertex-, Fragment-, Geometry-, Tessellation- und Compute-Shader-Stufen verwendet wird. Sie bietet eine C-ähnliche Syntax, Vektor- und Matrixtypen, Textur-Sampling, Uniformen, Varyings und integrierte Funktionen für Grafikpipelines.\n\nSie wird in Spiel-Engines, Visualisierungstools, WebGL-Anwendungen, kreativem Coding, Rendering-Systemen, Simulationen und Echtzeit-Grafikprojekten verwendet, die programmierbares GPU-Verhalten benötigen.',
     },
     pt: {
       name: 'GLSL',
       description:
-        'A linguagem de programa\u00e7\u00e3o GLSL para escrever est\u00e1gios de shaders GPU program\u00e1veis.',
+        'A linguagem de programação GLSL para escrever estágios de shaders GPU programáveis.',
       longDescription:
-        'GLSL \u00e9 a linguagem de programa\u00e7\u00e3o GLSL usada para escrever programas GPU para est\u00e1gios de vertex, fragment, geometria, tessela\u00e7\u00e3o e compute. Fornece uma sintaxe semelhante \u00e0 C, tipos de vetores e matrizes, amostragem de texturas, uniformes, vari\u00e1veis e fun\u00e7\u00f5es embutidas para pipelines de gr\u00e1ficos.\n\n\u00c9 usada em motores de jogos, ferramentas de visualiza\u00e7\u00e3o, aplica\u00e7\u00f5es WebGL, codifica\u00e7\u00e3o criativa, sistemas de renderiza\u00e7\u00e3o, simula\u00e7\u00f5es e projetos de gr\u00e1ficos em tempo real que precisam de comportamento de GPU program\u00e1vel.',
+        'GLSL é a linguagem de programação GLSL usada para escrever programas GPU para estágios de vertex, fragment, geometria, tesselação e compute. Fornece uma sintaxe semelhante à C, tipos de vetores e matrizes, amostragem de texturas, uniformes, variáveis e funções embutidas para pipelines de gráficos.\n\nÉ usada em motores de jogos, ferramentas de visualização, aplicações WebGL, codificação criativa, sistemas de renderização, simulações e projetos de gráficos em tempo real que precisam de comportamento de GPU programável.',
     },
   },
 } satisfies Language;

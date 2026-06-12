@@ -47,16 +47,16 @@ export const asciidoc = {
     de: {
       name: 'AsciiDoc',
       description:
-        'Einfache Text-Markup-Sprache f\u00fcr technische Dokumentation, B\u00fccher und Ver\u00f6ffentlichungen.',
+        'Einfache Text-Markup-Sprache für technische Dokumentation, Bücher und Veröffentlichungen.',
       longDescription:
-        'AsciiDoc ist eine lesbare Markup-Sprache zum Schreiben strukturierter Dokumente mit Abschnitten, Attributen, Listen, Tabellen, Hinweisen, Cross-Referenzen, Includes, Quellbl\u00f6cken und umfassenden Ver\u00f6ffentlichungsmetadaten. Sie ist darauf ausgelegt, in reiner Textform komfortabel zu bleiben und gleichzeitig professionelle Ausgabeformate zu unterst\u00fctzen.\n\nEs wird f\u00fcr Produktdokumentation, B\u00fccher, technische Handb\u00fccher, API-Anleitungen, Wissensdatenbanken, Antora-Dokumentationssites und Ver\u00f6ffentlichungsabl\u00e4ufe verwendet, die semantische Quelldateien unter Versionskontrolle ben\u00f6tigen.',
+        'AsciiDoc ist eine lesbare Markup-Sprache zum Schreiben strukturierter Dokumente mit Abschnitten, Attributen, Listen, Tabellen, Hinweisen, Cross-Referenzen, Includes, Quellblöcken und umfassenden Veröffentlichungsmetadaten. Sie ist darauf ausgelegt, in reiner Textform komfortabel zu bleiben und gleichzeitig professionelle Ausgabeformate zu unterstützen.\n\nEs wird für Produktdokumentation, Bücher, technische Handbücher, API-Anleitungen, Wissensdatenbanken, Antora-Dokumentationssites und Veröffentlichungsabläufe verwendet, die semantische Quelldateien unter Versionskontrolle benötigen.',
     },
     pt: {
       name: 'AsciiDoc',
       description:
-        'Linguagem de marca\u00e7\u00e3o em texto simples para documenta\u00e7\u00e3o t\u00e9cnica, livros e publica\u00e7\u00e3o.',
+        'Linguagem de marcação em texto simples para documentação técnica, livros e publicação.',
       longDescription:
-        'AsciiDoc \u00e9 uma linguagem de marca\u00e7\u00e3o leg\u00edvel para escrever documentos estruturados com se\u00e7\u00f5es, atributos, listas, tabelas, avisos, refer\u00eancias cruzadas, includes, blocos de c\u00f3digo e metadados de publica\u00e7\u00e3o ricos. \u00c9 projetada para permanecer confort\u00e1vel em texto simples, ao mesmo tempo em que suporta formatos de sa\u00edda profissionais.\n\n\u00c9 usada para documenta\u00e7\u00e3o de produtos, livros, manuais t\u00e9cnicos, guias de API, bases de conhecimento, sites de documenta\u00e7\u00e3o Antora e fluxos de trabalho de publica\u00e7\u00e3o que precisam de arquivos de origem sem\u00e2nticos sob controle de vers\u00e3o.',
+        'AsciiDoc é uma linguagem de marcação legível para escrever documentos estruturados com seções, atributos, listas, tabelas, avisos, referências cruzadas, includes, blocos de código e metadados de publicação ricos. É projetada para permanecer confortável em texto simples, ao mesmo tempo em que suporta formatos de saída profissionais.\n\nÉ usada para documentação de produtos, livros, manuais técnicos, guias de API, bases de conhecimento, sites de documentação Antora e fluxos de trabalho de publicação que precisam de arquivos de origem semânticos sob controle de versão.',
     },
   },
 } satisfies Language;

@@ -47,16 +47,16 @@ export const zsh = {
     de: {
       name: 'zsh',
       description:
-        'Ein Unix-Shell und eine Befehls-Sprache f\u00fcr interaktive Nutzung, Skripte und Automatisierung.',
+        'Ein Unix-Shell und eine Befehls-Sprache für interaktive Nutzung, Skripte und Automatisierung.',
       longDescription:
-        'zsh ist ein Unix-Shell, das f\u00fcr interaktive Kommandozeilen-Nutzung und Shell-Skripte entwickelt wurde, mit erweiterten Funktionen wie Autovervollst\u00e4ndigung, Globbing, Prompt-Anpassung und Shell-Emulation.\n\nEs wird h\u00e4ufig als Login-Shell verwendet, insbesondere auf Unix-\u00e4hnlichen Systemen und macOS, und ist in Entwickler-Workflows, Terminal-Anpassungen, Automatisierungsskripten und Systemadministration weit verbreitet.',
+        'zsh ist ein Unix-Shell, das für interaktive Kommandozeilen-Nutzung und Shell-Skripte entwickelt wurde, mit erweiterten Funktionen wie Autovervollständigung, Globbing, Prompt-Anpassung und Shell-Emulation.\n\nEs wird häufig als Login-Shell verwendet, insbesondere auf Unix-ähnlichen Systemen und macOS, und ist in Entwickler-Workflows, Terminal-Anpassungen, Automatisierungsskripten und Systemadministration weit verbreitet.',
     },
     pt: {
       name: 'zsh',
       description:
-        'Uma shell e linguagem de comando Unix para uso interativo, scripting e automa\u00e7\u00e3o.',
+        'Uma shell e linguagem de comando Unix para uso interativo, scripting e automação.',
       longDescription:
-        'zsh \u00e9 uma shell Unix projetada para uso interativo na linha de comando e scripting de shell, com recursos avan\u00e7ados de autocompletar, expans\u00e3o de glob, personaliza\u00e7\u00e3o do prompt e emula\u00e7\u00e3o de shell.\n\n\u00c9 amplamente utilizada como shell de login, especialmente em sistemas Unix-like e macOS, e \u00e9 comum em fluxos de trabalho de desenvolvedores, personaliza\u00e7\u00e3o de terminais, scripts de automa\u00e7\u00e3o e administra\u00e7\u00e3o de sistemas.',
+        'zsh é uma shell Unix projetada para uso interativo na linha de comando e scripting de shell, com recursos avançados de autocompletar, expansão de glob, personalização do prompt e emulação de shell.\n\nÉ amplamente utilizada como shell de login, especialmente em sistemas Unix-like e macOS, e é comum em fluxos de trabalho de desenvolvedores, personalização de terminais, scripts de automação e administração de sistemas.',
     },
   },
 } satisfies Language;

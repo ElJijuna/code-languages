@@ -47,16 +47,16 @@ export const lean = {
     de: {
       name: 'Lean',
       description:
-        'Ein Theorem-Prover und funktionale Sprache f\u00fcr formalisierte Mathematik und Software.',
+        'Ein Theorem-Prover und funktionale Sprache für formalisierte Mathematik und Software.',
       longDescription:
-        'Lean ist ein Theorem-Prover und eine dependently typisierte funktionale Programmiersprache. Lean 4 enth\u00e4lt einen effizienten Compiler, erweiterbare Syntax, Metaprogrammierungsfunktionen, Taktiken und Werkzeuge f\u00fcr gro\u00dfe Formalisierungs-Projekte.\n\nEs wird in formalisierter Mathematik, Programmv\u00e9rifizierung, Theorem-Probing-Forschung, Bildungsspielen und Software-Projekten verwendet, in denen Beweise und ausf\u00fchrbare Definitionen zusammen existieren.',
+        'Lean ist ein Theorem-Prover und eine dependently typisierte funktionale Programmiersprache. Lean 4 enthält einen effizienten Compiler, erweiterbare Syntax, Metaprogrammierungsfunktionen, Taktiken und Werkzeuge für große Formalisierungs-Projekte.\n\nEs wird in formalisierter Mathematik, Programmvérifizierung, Theorem-Probing-Forschung, Bildungsspielen und Software-Projekten verwendet, in denen Beweise und ausführbare Definitionen zusammen existieren.',
     },
     pt: {
       name: 'Lean',
       description:
-        'Um solucionador de teoremas e linguagem funcional para matem\u00e1tica e software formalizados.',
+        'Um solucionador de teoremas e linguagem funcional para matemática e software formalizados.',
       longDescription:
-        'Lean \u00e9 um solucionador de teoremas e linguagem funcional de tipos dependentes. Lean 4 inclui um compilador eficiente, sintaxe extens\u00edvel, recursos de metaprograma\u00e7\u00e3o, t\u00e1ticas e ferramentas para grandes projetos de formaliza\u00e7\u00e3o.\n\n\u00c9 usado em matem\u00e1tica formalizada, verifica\u00e7\u00e3o de programas, pesquisa em prova de teoremas, jogos educativos e projetos de software onde provas e defini\u00e7\u00f5es execut\u00e1veis podem evoluir juntas.',
+        'Lean é um solucionador de teoremas e linguagem funcional de tipos dependentes. Lean 4 inclui um compilador eficiente, sintaxe extensível, recursos de metaprogramação, táticas e ferramentas para grandes projetos de formalização.\n\nÉ usado em matemática formalizada, verificação de programas, pesquisa em prova de teoremas, jogos educativos e projetos de software onde provas e definições executáveis podem evoluir juntas.',
     },
   },
 } satisfies Language;

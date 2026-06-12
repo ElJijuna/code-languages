@@ -47,16 +47,16 @@ export const csharp = {
     de: {
       name: 'C#',
       description:
-        'Eine moderne, objektorientierte Sprache f\u00fcr .NET-Anwendungen, -Dienste, -Spiele und -Tools.',
+        'Eine moderne, objektorientierte Sprache für .NET-Anwendungen, -Dienste, -Spiele und -Tools.',
       longDescription:
-        'C# ist eine statisch typisierte Sprache, die von Microsoft f\u00fcr die .NET-Plattform entwickelt wurde und objektorientierte Programmierung, Generics, asynchrone Arbeitsabl\u00e4ufe, Pattern Matching und eine starke Tooling-Unterst\u00fctzung kombiniert.\n\nSie wird h\u00e4ufig f\u00fcr Webdienste, Desktop-Anwendungen, Cloud-Systeme, Spieleentwicklung mit Unity, Unternehmenssoftware, mobile Apps und plattform\u00fcbergreifende Tools, die auf .NET basieren, verwendet.',
+        'C# ist eine statisch typisierte Sprache, die von Microsoft für die .NET-Plattform entwickelt wurde und objektorientierte Programmierung, Generics, asynchrone Arbeitsabläufe, Pattern Matching und eine starke Tooling-Unterstützung kombiniert.\n\nSie wird häufig für Webdienste, Desktop-Anwendungen, Cloud-Systeme, Spieleentwicklung mit Unity, Unternehmenssoftware, mobile Apps und plattformübergreifende Tools, die auf .NET basieren, verwendet.',
     },
     pt: {
       name: 'C#',
       description:
-        'Linguagem moderna, orientada a objetos para aplica\u00e7\u00f5es .NET, servi\u00e7os, jogos e ferramentas.',
+        'Linguagem moderna, orientada a objetos para aplicações .NET, serviços, jogos e ferramentas.',
       longDescription:
-        'C# \u00e9 uma linguagem estaticamente tipada criada pela Microsoft para a plataforma .NET, combinando programa\u00e7\u00e3o orientada a objetos, gen\u00e9ricos, fluxos ass\u00edncronos, correspond\u00eancia de padr\u00f5es e forte suporte a ferramentas.\n\n\u00c9 amplamente utilizada para servi\u00e7os web, aplica\u00e7\u00f5es de desktop, sistemas em nuvem, desenvolvimento de jogos com Unity, software empresarial, aplica\u00e7\u00f5es m\u00f3veis e ferramentas multiplataforma constru\u00eddas em .NET.',
+        'C# é uma linguagem estaticamente tipada criada pela Microsoft para a plataforma .NET, combinando programação orientada a objetos, genéricos, fluxos assíncronos, correspondência de padrões e forte suporte a ferramentas.\n\nÉ amplamente utilizada para serviços web, aplicações de desktop, sistemas em nuvem, desenvolvimento de jogos com Unity, software empresarial, aplicações móveis e ferramentas multiplataforma construídas em .NET.',
     },
   },
 } satisfies Language;

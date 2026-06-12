@@ -47,16 +47,16 @@ export const nix = {
     de: {
       name: 'Nix',
       description:
-        'Eine rein funktionale, lazy-auswertende Sprache f\u00fcr reproduzierbare Paketverwaltung und Systemkonfiguration.',
+        'Eine rein funktionale, lazy-auswertende Sprache für reproduzierbare Paketverwaltung und Systemkonfiguration.',
       longDescription:
-        'Nix ist eine rein funktionale, lazy-auswertende Ausdruckssprache, die vom Nix-Paketmanager und NixOS verwendet wird. Sie behandelt Pakete und Systemkonfigurationen als reine Funktionen ihrer Eingaben, wodurch reproduzierbare Builds und atomare Upgrades ohne Seiteneffekte gew\u00e4hrleistet werden.\n\nSie wird verwendet, um Pakete in Nixpkgs zu definieren, NixOS-Systeme deklarativ zu konfigurieren und Entwicklungsumgebungen \u00fcber nix-shell und nix flakes zu verwalten. Ihr lazy-Evaluierungsmodell erm\u00f6glicht endliche Datenstrukturen und verz\u00f6gerte Berechnungen, was es f\u00fcr die Verwaltung gro\u00dfer Konfigurationen geeignet macht.',
+        'Nix ist eine rein funktionale, lazy-auswertende Ausdruckssprache, die vom Nix-Paketmanager und NixOS verwendet wird. Sie behandelt Pakete und Systemkonfigurationen als reine Funktionen ihrer Eingaben, wodurch reproduzierbare Builds und atomare Upgrades ohne Seiteneffekte gewährleistet werden.\n\nSie wird verwendet, um Pakete in Nixpkgs zu definieren, NixOS-Systeme deklarativ zu konfigurieren und Entwicklungsumgebungen über nix-shell und nix flakes zu verwalten. Ihr lazy-Evaluierungsmodell ermöglicht endliche Datenstrukturen und verzögerte Berechnungen, was es für die Verwaltung großer Konfigurationen geeignet macht.',
     },
     pt: {
       name: 'Nix',
       description:
-        'Linguagem funcional e pregui\u00e7osa para gerenciamento de pacotes e configura\u00e7\u00e3o de sistemas, garantindo reprodutibilidade.',
+        'Linguagem funcional e preguiçosa para gerenciamento de pacotes e configuração de sistemas, garantindo reprodutibilidade.',
       longDescription:
-        'Nix \u00e9 uma linguagem de express\u00e3o funcional e pregui\u00e7osa usada pelo gerenciador de pacotes Nix e pelo NixOS. Ela trata pacotes e configura\u00e7\u00f5es de sistema como fun\u00e7\u00f5es puras, garantindo builds reprodut\u00edveis e atualiza\u00e7\u00f5es at\u00f4micas sem efeitos colaterais.\n\n\u00c9 usada para definir pacotes no Nixpkgs, configurar sistemas NixOS de forma declarativa e gerenciar ambientes de desenvolvimento usando nix-shell e nix flakes. Seu modelo de avalia\u00e7\u00e3o pregui\u00e7osa permite estruturas de dados infinitas e computa\u00e7\u00e3o adiada, tornando-a adequada para gerenciamento de configura\u00e7\u00e3o em larga escala.',
+        'Nix é uma linguagem de expressão funcional e preguiçosa usada pelo gerenciador de pacotes Nix e pelo NixOS. Ela trata pacotes e configurações de sistema como funções puras, garantindo builds reprodutíveis e atualizações atômicas sem efeitos colaterais.\n\nÉ usada para definir pacotes no Nixpkgs, configurar sistemas NixOS de forma declarativa e gerenciar ambientes de desenvolvimento usando nix-shell e nix flakes. Seu modelo de avaliação preguiçosa permite estruturas de dados infinitas e computação adiada, tornando-a adequada para gerenciamento de configuração em larga escala.',
     },
   },
 } satisfies Language;

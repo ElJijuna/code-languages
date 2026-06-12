@@ -44,17 +44,16 @@ export const abap = {
     },
     de: {
       name: 'ABAP',
-      description:
-        'ABAP: Programmiersprache f\u00fcr Gesch\u00e4ftssysteme und Erweiterungen bei SAP.',
+      description: 'ABAP: Programmiersprache für Geschäftssysteme und Erweiterungen bei SAP.',
       longDescription:
-        'ABAP ist die Programmiersprache von SAP zur Implementierung von Gesch\u00e4ftslogik, Berichten, Datenmodellen, Services und Erweiterungen in ABAP-basierten SAP-Systemen.\n\nSie wird h\u00e4ufig in SAP S/4HANA, SAP BTP ABAP Environment, klassischen SAP ERP-Systemen, kundenspezifischen Unternehmensanwendungen, RAP-Services, CDS-Modellen, Batch-Verarbeitung und Integrationsworkflows eingesetzt.',
+        'ABAP ist die Programmiersprache von SAP zur Implementierung von Geschäftslogik, Berichten, Datenmodellen, Services und Erweiterungen in ABAP-basierten SAP-Systemen.\n\nSie wird häufig in SAP S/4HANA, SAP BTP ABAP Environment, klassischen SAP ERP-Systemen, kundenspezifischen Unternehmensanwendungen, RAP-Services, CDS-Modellen, Batch-Verarbeitung und Integrationsworkflows eingesetzt.',
     },
     pt: {
       name: 'ABAP',
       description:
-        'Linguagem de programa\u00e7\u00e3o empresarial da SAP para sistemas e extens\u00f5es de neg\u00f3cios.',
+        'Linguagem de programação empresarial da SAP para sistemas e extensões de negócios.',
       longDescription:
-        'ABAP \u00e9 a linguagem de programa\u00e7\u00e3o da SAP para implementar a l\u00f3gica de neg\u00f3cios, relat\u00f3rios, modelos de dados, servi\u00e7os, melhorias e extens\u00f5es em sistemas SAP baseados em ABAP.\n\n\u00c9 amplamente utilizada em SAP S/4HANA, SAP BTP ABAP Environment, sistemas SAP ERP cl\u00e1ssicos, aplica\u00e7\u00f5es empresariais personalizadas, servi\u00e7os RAP, modelos CDS, processamento em lote e fluxos de integra\u00e7\u00e3o.',
+        'ABAP é a linguagem de programação da SAP para implementar a lógica de negócios, relatórios, modelos de dados, serviços, melhorias e extensões em sistemas SAP baseados em ABAP.\n\nÉ amplamente utilizada em SAP S/4HANA, SAP BTP ABAP Environment, sistemas SAP ERP clássicos, aplicações empresariais personalizadas, serviços RAP, modelos CDS, processamento em lote e fluxos de integração.',
     },
   },
 } satisfies Language;

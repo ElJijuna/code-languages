@@ -49,14 +49,14 @@ export const xslt = {
       description:
         'Eine W3C-Stylesheet-Sprache zur Transformation von XML-Dokumenten in XML, HTML, Text und mehr.',
       longDescription:
-        'XSLT ist eine deklarative Transformationssprache f\u00fcr XML-Dokumente. Stylesheets verwenden Vorlagen, Modi, XPath-Ausdr\u00fccke, Variablen, Funktionen, Schl\u00fcssel, Importe und Ausgabedeklarationen, um Quellb\u00e4ume abzugleichen und XML, HTML, Text oder andere strukturierte Ergebnisse zu erzeugen.\n\nEs wird in Publishing-Systemen, Enterprise-Daten-Austausch, Dokumentkonvertierungen, XML-Pipelines, standardsbasierten Integrationen, Browser-\u00c4ra XML-Workflows und Systemen verwendet, die wiederholbare Transformationen zwischen Dokumentformaten ben\u00f6tigen.',
+        'XSLT ist eine deklarative Transformationssprache für XML-Dokumente. Stylesheets verwenden Vorlagen, Modi, XPath-Ausdrücke, Variablen, Funktionen, Schlüssel, Importe und Ausgabedeklarationen, um Quellbäume abzugleichen und XML, HTML, Text oder andere strukturierte Ergebnisse zu erzeugen.\n\nEs wird in Publishing-Systemen, Enterprise-Daten-Austausch, Dokumentkonvertierungen, XML-Pipelines, standardsbasierten Integrationen, Browser-Ära XML-Workflows und Systemen verwendet, die wiederholbare Transformationen zwischen Dokumentformaten benötigen.',
     },
     pt: {
       name: 'XSLT',
       description:
         'Linguagem de estilo da W3C para transformar documentos XML em XML, HTML, texto e outros formatos.',
       longDescription:
-        'XSLT \u00e9 uma linguagem de transforma\u00e7\u00e3o declarativa para documentos XML. As linguagens de estilo usam modelos, modos, express\u00f5es XPath, vari\u00e1veis, fun\u00e7\u00f5es, chaves, importa\u00e7\u00f5es e declara\u00e7\u00f5es de sa\u00edda para corresponder \u00e0s \u00e1rvores de origem e produzir XML, HTML, texto ou outros resultados estruturados.\n\n\u00c9 usada em sistemas de publica\u00e7\u00e3o, troca de dados empresariais, convers\u00e3o de documentos, pipelines XML, integra\u00e7\u00f5es baseadas em padr\u00f5es, fluxos de trabalho XML da era do navegador e sistemas que precisam de transforma\u00e7\u00f5es repet\u00edveis entre formatos de documentos.',
+        'XSLT é uma linguagem de transformação declarativa para documentos XML. As linguagens de estilo usam modelos, modos, expressões XPath, variáveis, funções, chaves, importações e declarações de saída para corresponder às árvores de origem e produzir XML, HTML, texto ou outros resultados estruturados.\n\nÉ usada em sistemas de publicação, troca de dados empresariais, conversão de documentos, pipelines XML, integrações baseadas em padrões, fluxos de trabalho XML da era do navegador e sistemas que precisam de transformações repetíveis entre formatos de documentos.',
     },
   },
 } satisfies Language;

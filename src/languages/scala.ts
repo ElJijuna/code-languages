@@ -49,14 +49,14 @@ export const scala = {
       description:
         'Eine JVM-Sprache, die objektorientierte und funktionale Programmierung mit starker statischer Typisierung kombiniert.',
       longDescription:
-        'Scala ist eine allgemeine Programmiersprache, die objektorientierte und funktionale Programmierung auf der JVM kombiniert. Sie bietet starke statische Typisierung, Typinferenz, Pattern Matching, Higher-Order-Funktionen, Traits, Implizite und Interoperabilit\u00e4t mit Java-Bibliotheken.\n\nSie wird f\u00fcr Backend-Dienste, Daten-Engineering, verteilte Systeme, Streaming-Pipelines, Domain-Modellierung und Anwendungen verwendet, die von ausdrucksstarken Abstraktionen profitieren und gleichzeitig mit dem JVM-\u00d6kosystem verbunden bleiben.',
+        'Scala ist eine allgemeine Programmiersprache, die objektorientierte und funktionale Programmierung auf der JVM kombiniert. Sie bietet starke statische Typisierung, Typinferenz, Pattern Matching, Higher-Order-Funktionen, Traits, Implizite und Interoperabilität mit Java-Bibliotheken.\n\nSie wird für Backend-Dienste, Daten-Engineering, verteilte Systeme, Streaming-Pipelines, Domain-Modellierung und Anwendungen verwendet, die von ausdrucksstarken Abstraktionen profitieren und gleichzeitig mit dem JVM-Ökosystem verbunden bleiben.',
     },
     pt: {
       name: 'Scala',
       description:
-        'Linguagem JVM que combina programa\u00e7\u00e3o orientada a objetos e funcional com tipagem est\u00e1tica forte.',
+        'Linguagem JVM que combina programação orientada a objetos e funcional com tipagem estática forte.',
       longDescription:
-        'Scala \u00e9 uma linguagem de programa\u00e7\u00e3o de prop\u00f3sito geral que combina programa\u00e7\u00e3o orientada a objetos e funcional na JVM. Inclui tipagem est\u00e1tica forte, infer\u00eancia de tipos, correspond\u00eancia de padr\u00f5es, fun\u00e7\u00f5es de ordem superior, traits, implicits ou givens e interoperabilidade com bibliotecas Java.\n\n\u00c9 usada para servi\u00e7os backend, engenharia de dados, sistemas distribu\u00eddos, pipelines de streaming, modelagem de dom\u00ednio e aplica\u00e7\u00f5es que se beneficiam de abstra\u00e7\u00f5es expressivas, mantendo a conex\u00e3o com o ecossistema JVM.',
+        'Scala é uma linguagem de programação de propósito geral que combina programação orientada a objetos e funcional na JVM. Inclui tipagem estática forte, inferência de tipos, correspondência de padrões, funções de ordem superior, traits, implicits ou givens e interoperabilidade com bibliotecas Java.\n\nÉ usada para serviços backend, engenharia de dados, sistemas distribuídos, pipelines de streaming, modelagem de domínio e aplicações que se beneficiam de abstrações expressivas, mantendo a conexão com o ecossistema JVM.',
     },
   },
 } satisfies Language;

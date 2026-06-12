@@ -40,14 +40,13 @@ export const css = {
       name: 'CSS',
       description: 'Eine Stylesheet-Sprache zur Beschreibung der Darstellung von Web-Dokumenten.',
       longDescription:
-        'CSS definiert, wie strukturierte Dokumente dargestellt werden, einschlie\u00dflich Layout, Typografie, Farben, Animationen, responsiven Verhalten und visuellen Zust\u00e4nden.\n\nEs ist eine der Kerntechnologien der Web-Plattform und wird durch modulare Spezifikationen, anstatt einer einzelnen, versionierten Sprachausgabe, gepflegt.',
+        'CSS definiert, wie strukturierte Dokumente dargestellt werden, einschließlich Layout, Typografie, Farben, Animationen, responsiven Verhalten und visuellen Zuständen.\n\nEs ist eine der Kerntechnologien der Web-Plattform und wird durch modulare Spezifikationen, anstatt einer einzelnen, versionierten Sprachausgabe, gepflegt.',
     },
     pt: {
       name: 'CSS',
-      description:
-        'Linguagem de estilo para descrever a apresenta\u00e7\u00e3o de documentos da web.',
+      description: 'Linguagem de estilo para descrever a apresentação de documentos da web.',
       longDescription:
-        'CSS define como documentos estruturados s\u00e3o apresentados, incluindo layout, tipografia, cores, anima\u00e7\u00f5es, comportamento responsivo e estados visuais.\n\n\u00c9 uma das tecnologias centrais da plataforma web e \u00e9 mantida atrav\u00e9s de especifica\u00e7\u00f5es modulares, em vez de uma \u00fanica vers\u00e3o de linguagem.',
+        'CSS define como documentos estruturados são apresentados, incluindo layout, tipografia, cores, animações, comportamento responsivo e estados visuais.\n\nÉ uma das tecnologias centrais da plataforma web e é mantida através de especificações modulares, em vez de uma única versão de linguagem.',
     },
   },
 } satisfies Language;

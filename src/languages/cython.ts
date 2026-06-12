@@ -47,16 +47,16 @@ export const cython = {
     de: {
       name: 'Cython',
       description:
-        'Eine Python-Erweiterung zum Kompilieren von typisiertem Python-\u00e4hnlichem Code in C-Erweiterungsmodule.',
+        'Eine Python-Erweiterung zum Kompilieren von typisiertem Python-ähnlichem Code in C-Erweiterungsmodule.',
       longDescription:
-        'Cython erweitert Python mit optionalen statischen Typen, C-Deklarationen und direkten Aufrufen in C- und C++-APIs, wodurch Python-Code in native Erweiterungsmodule kompiliert werden kann.\n\nEs wird h\u00e4ufig verwendet, um numerischen Code zu beschleunigen, native Bibliotheken einzubinden, wissenschaftliche Python-Pakete zu erstellen und leistungskritische Komponenten zu schreiben, w\u00e4hrend die Python-\u00e4hnliche Syntax beibehalten wird.',
+        'Cython erweitert Python mit optionalen statischen Typen, C-Deklarationen und direkten Aufrufen in C- und C++-APIs, wodurch Python-Code in native Erweiterungsmodule kompiliert werden kann.\n\nEs wird häufig verwendet, um numerischen Code zu beschleunigen, native Bibliotheken einzubinden, wissenschaftliche Python-Pakete zu erstellen und leistungskritische Komponenten zu schreiben, während die Python-ähnliche Syntax beibehalten wird.',
     },
     pt: {
       name: 'Cython',
       description:
-        'Superset de Python para compilar c\u00f3digo Python com tipagem em m\u00f3dulos de extens\u00e3o C.',
+        'Superset de Python para compilar código Python com tipagem em módulos de extensão C.',
       longDescription:
-        'Cython estende o Python com tipos est\u00e1ticos opcionais, declara\u00e7\u00f5es C e chamadas diretas para APIs C e C++, permitindo que o c\u00f3digo Python seja compilado em m\u00f3dulos de extens\u00e3o nativos.\n\n\u00c9 amplamente utilizado para acelerar o c\u00f3digo num\u00e9rico, envolver bibliotecas nativas, construir pacotes Python cient\u00edficos e escrever componentes sens\u00edveis ao desempenho, mantendo a sintaxe semelhante ao Python.',
+        'Cython estende o Python com tipos estáticos opcionais, declarações C e chamadas diretas para APIs C e C++, permitindo que o código Python seja compilado em módulos de extensão nativos.\n\nÉ amplamente utilizado para acelerar o código numérico, envolver bibliotecas nativas, construir pacotes Python científicos e escrever componentes sensíveis ao desempenho, mantendo a sintaxe semelhante ao Python.',
     },
   },
 } satisfies Language;

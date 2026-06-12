@@ -48,14 +48,14 @@ export const mdx = {
       description:
         'Ein Markdown-basierter Format, das JSX-Komponenten in Inhaltsdokumenten einbettet.',
       longDescription:
-        'MDX kombiniert Markdown-Text mit JSX-Ausdr\u00fccken und -Komponenten, sodass Dokumente interaktive Beispiele, Importe, Exporte und komponentengesteuerte Layouts enthalten k\u00f6nnen. Es wird \u00fcblicherweise in JavaScript kompiliert f\u00fcr React-basierte Rendering-Pipelines.\n\nEs wird in Dokumentationsseiten, Designsystemen, Blogs, Tutorials, Komponenten-Demos, Content-Plattformen und statischen Site-Generatoren verwendet, die sowohl Text als auch UI-Komponenten in derselben Quelldatei ben\u00f6tigen.',
+        'MDX kombiniert Markdown-Text mit JSX-Ausdrücken und -Komponenten, sodass Dokumente interaktive Beispiele, Importe, Exporte und komponentengesteuerte Layouts enthalten können. Es wird üblicherweise in JavaScript kompiliert für React-basierte Rendering-Pipelines.\n\nEs wird in Dokumentationsseiten, Designsystemen, Blogs, Tutorials, Komponenten-Demos, Content-Plattformen und statischen Site-Generatoren verwendet, die sowohl Text als auch UI-Komponenten in derselben Quelldatei benötigen.',
     },
     pt: {
       name: 'MDX',
       description:
-        'Formato baseado em Markdown que incorpora componentes JSX em documentos de conte\u00fado.',
+        'Formato baseado em Markdown que incorpora componentes JSX em documentos de conteúdo.',
       longDescription:
-        'O MDX combina a escrita em Markdown com express\u00f5es e componentes JSX, permitindo que os documentos incluam exemplos interativos, importa\u00e7\u00f5es, exporta\u00e7\u00f5es e layouts orientados a componentes. \u00c9 comumente compilado para JavaScript para pipelines de renderiza\u00e7\u00e3o baseadas em React.\n\n\u00c9 usado em sites de documenta\u00e7\u00e3o, sistemas de design, blogs, tutoriais, demonstra\u00e7\u00f5es de componentes, plataformas de conte\u00fado e geradores de sites est\u00e1ticos que precisam de texto e componentes de interface no mesmo arquivo.',
+        'O MDX combina a escrita em Markdown com expressões e componentes JSX, permitindo que os documentos incluam exemplos interativos, importações, exportações e layouts orientados a componentes. É comumente compilado para JavaScript para pipelines de renderização baseadas em React.\n\nÉ usado em sites de documentação, sistemas de design, blogs, tutoriais, demonstrações de componentes, plataformas de conteúdo e geradores de sites estáticos que precisam de texto e componentes de interface no mesmo arquivo.',
     },
   },
 } satisfies Language;

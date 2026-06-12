@@ -43,17 +43,16 @@ export const stata = {
     },
     de: {
       name: 'Stata',
-      description:
-        'Eine Programmiersprache f\u00fcr statistische Analyse, Datenverwaltung und Grafik.',
+      description: 'Eine Programmiersprache für statistische Analyse, Datenverwaltung und Grafik.',
       longDescription:
-        'Stata-Befehle und Do-Dateien decken Datenvorbereitung, Sch\u00e4tzung, Grafik, Berichterstellung und programmierbare Arbeitsabl\u00e4ufe ab, wobei Mata f\u00fcr matrixorientierte Programmierung verf\u00fcgbar ist. Die Sprache ist an die Stata-Statistikumgebung gebunden.\n\nSie wird in der Wirtschaft, der \u00f6ffentlichen Gesundheit, den Sozialwissenschaften, der Politikanalyse, im Unterricht und f\u00fcr reproduzierbare statistische Forschung eingesetzt.',
+        'Stata-Befehle und Do-Dateien decken Datenvorbereitung, Schätzung, Grafik, Berichterstellung und programmierbare Arbeitsabläufe ab, wobei Mata für matrixorientierte Programmierung verfügbar ist. Die Sprache ist an die Stata-Statistikumgebung gebunden.\n\nSie wird in der Wirtschaft, der öffentlichen Gesundheit, den Sozialwissenschaften, der Politikanalyse, im Unterricht und für reproduzierbare statistische Forschung eingesetzt.',
     },
     pt: {
       name: 'Stata',
       description:
-        'Uma linguagem de programa\u00e7\u00e3o para an\u00e1lise estat\u00edstica, gerenciamento de dados e gr\u00e1ficos.',
+        'Uma linguagem de programação para análise estatística, gerenciamento de dados e gráficos.',
       longDescription:
-        'Os comandos e arquivos do tipo do Stata cobrem a prepara\u00e7\u00e3o de dados, a estima\u00e7\u00e3o, a cria\u00e7\u00e3o de gr\u00e1ficos, a gera\u00e7\u00e3o de relat\u00f3rios e fluxos de trabalho program\u00e1veis, com o Mata dispon\u00edvel para programa\u00e7\u00e3o orientada a matrizes. A linguagem est\u00e1 integrada ao ambiente estat\u00edstico Stata.\n\n\u00c9 utilizada em economia, sa\u00fade p\u00fablica, ci\u00eancias sociais, an\u00e1lise de pol\u00edticas, ensino e pesquisa estat\u00edstica reprodut\u00edvel.',
+        'Os comandos e arquivos do tipo do Stata cobrem a preparação de dados, a estimação, a criação de gráficos, a geração de relatórios e fluxos de trabalho programáveis, com o Mata disponível para programação orientada a matrizes. A linguagem está integrada ao ambiente estatístico Stata.\n\nÉ utilizada em economia, saúde pública, ciências sociais, análise de políticas, ensino e pesquisa estatística reprodutível.',
     },
   },
 } satisfies Language;

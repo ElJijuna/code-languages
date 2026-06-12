@@ -47,16 +47,16 @@ export const fsharp = {
     de: {
       name: 'F#',
       description:
-        'Ein pr\u00e4gnantes, funktionales .NET-Sprache f\u00fcr robuste Anwendungen, Skripte und Datenworkflows.',
+        'Ein prägnantes, funktionales .NET-Sprache für robuste Anwendungen, Skripte und Datenworkflows.',
       longDescription:
-        'F# ist eine funktional-orientierte Programmiersprache im .NET-\u00d6kosystem. Sie kombiniert Typinferenz, unver\u00e4nderliche Daten (standardm\u00e4\u00dfig), Mustervergleich, diskriminierte Unions, Berechnungs-Ausdr\u00fccke und Interoperabilit\u00e4t mit C# und anderen .NET-Sprachen.\n\nEs wird f\u00fcr Backend-Dienste, Datenverarbeitung, Skripting, Domain-Modellierung, Finanzsysteme, Cloud-Anwendungen und Teams verwendet, die pr\u00e4gnanten Code mit starker statischer Typisierung und Zugriff auf die breitere .NET-Plattform w\u00fcnschen.',
+        'F# ist eine funktional-orientierte Programmiersprache im .NET-Ökosystem. Sie kombiniert Typinferenz, unveränderliche Daten (standardmäßig), Mustervergleich, diskriminierte Unions, Berechnungs-Ausdrücke und Interoperabilität mit C# und anderen .NET-Sprachen.\n\nEs wird für Backend-Dienste, Datenverarbeitung, Skripting, Domain-Modellierung, Finanzsysteme, Cloud-Anwendungen und Teams verwendet, die prägnanten Code mit starker statischer Typisierung und Zugriff auf die breitere .NET-Plattform wünschen.',
     },
     pt: {
       name: 'F#',
       description:
-        'Linguagem .NET funcional, ideal para aplica\u00e7\u00f5es robustas, scripts e fluxos de dados.',
+        'Linguagem .NET funcional, ideal para aplicações robustas, scripts e fluxos de dados.',
       longDescription:
-        'F# \u00e9 uma linguagem de programa\u00e7\u00e3o funcional no ecossistema .NET. Combina infer\u00eancia de tipo, dados imut\u00e1veis por padr\u00e3o, correspond\u00eancia de padr\u00f5es, uni\u00f5es discriminadas, express\u00f5es de computa\u00e7\u00e3o e interoperabilidade com C# e outras linguagens .NET.\n\n\u00c9 utilizada para servi\u00e7os de backend, processamento de dados, scripting, modelagem de dom\u00ednio, sistemas financeiros, aplica\u00e7\u00f5es em nuvem e equipes que desejam c\u00f3digo conciso com tipagem est\u00e1tica forte e acesso \u00e0 plataforma .NET mais ampla.',
+        'F# é uma linguagem de programação funcional no ecossistema .NET. Combina inferência de tipo, dados imutáveis por padrão, correspondência de padrões, uniões discriminadas, expressões de computação e interoperabilidade com C# e outras linguagens .NET.\n\nÉ utilizada para serviços de backend, processamento de dados, scripting, modelagem de domínio, sistemas financeiros, aplicações em nuvem e equipes que desejam código conciso com tipagem estática forte e acesso à plataforma .NET mais ampla.',
     },
   },
 } satisfies Language;

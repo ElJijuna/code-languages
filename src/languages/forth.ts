@@ -46,16 +46,16 @@ export const forth = {
     de: {
       name: 'Forth',
       description:
-        'Eine stackbasierte, erweiterbare Sprache f\u00fcr eingebettete Systeme, Firmware und Tools.',
+        'Eine stackbasierte, erweiterbare Sprache für eingebettete Systeme, Firmware und Tools.',
       longDescription:
-        'Forth-Programme werden aus kleinen W\u00f6rtern erstellt, die auf einem Daten-Stack operieren, was interaktive Entwicklung, kompakte Laufzeitumgebungen und die M\u00f6glichkeit zur sprachlichen Erweiterung innerhalb des Programms selbst f\u00f6rdert.\n\nEs hat eine lange Geschichte in eingebetteten Systemen, Boot-Firmware, Instrumentierung, Raumfahrzeugtechnik und benutzerdefinierten Steuerungsumgebungen, wo Einfachheit und direkter Hardwarezugriff wichtig sind.',
+        'Forth-Programme werden aus kleinen Wörtern erstellt, die auf einem Daten-Stack operieren, was interaktive Entwicklung, kompakte Laufzeitumgebungen und die Möglichkeit zur sprachlichen Erweiterung innerhalb des Programms selbst fördert.\n\nEs hat eine lange Geschichte in eingebetteten Systemen, Boot-Firmware, Instrumentierung, Raumfahrzeugtechnik und benutzerdefinierten Steuerungsumgebungen, wo Einfachheit und direkter Hardwarezugriff wichtig sind.',
     },
     pt: {
       name: 'Forth',
       description:
-        'Linguagem baseada em pilha, extens\u00edvel, usada para sistemas embarcados, firmware e ferramentas.',
+        'Linguagem baseada em pilha, extensível, usada para sistemas embarcados, firmware e ferramentas.',
       longDescription:
-        'Programas Forth s\u00e3o constru\u00eddos a partir de pequenas palavras que operam em uma pilha de dados, incentivando o desenvolvimento interativo, tempos de execu\u00e7\u00e3o compactos e a extens\u00e3o da linguagem dentro do pr\u00f3prio programa.\n\nPossui uma longa hist\u00f3ria em sistemas embarcados, firmware de inicializa\u00e7\u00e3o, instrumenta\u00e7\u00e3o, hardware espacial e ambientes de controle personalizados onde a simplicidade e o acesso direto ao hardware s\u00e3o importantes.',
+        'Programas Forth são construídos a partir de pequenas palavras que operam em uma pilha de dados, incentivando o desenvolvimento interativo, tempos de execução compactos e a extensão da linguagem dentro do próprio programa.\n\nPossui uma longa história em sistemas embarcados, firmware de inicialização, instrumentação, hardware espacial e ambientes de controle personalizados onde a simplicidade e o acesso direto ao hardware são importantes.',
     },
   },
 } satisfies Language;

@@ -44,13 +44,13 @@ export const vala = {
       name: 'Vala',
       description: 'Eine GNOME-orientierte Sprache, die eine High-Level-Syntax in C kompiliert.',
       longDescription:
-        'Vala bietet Klassen, Interfaces, Eigenschaften, Generics, Signale und asynchrone Syntax \u00fcber GLib und GObject-Konventionen, wobei der Quellcode in C kompiliert wird. VAPI-Dateien beschreiben Bindungen zu bestehenden C-Bibliotheken.\n\nEs wird f\u00fcr GTK-Anwendungen, GNOME-Bibliotheken, native Tools, Bindungen und Projekte verwendet, die eine High-Level-Quelle ben\u00f6tigen und gleichzeitig mit C-APIs interagieren.',
+        'Vala bietet Klassen, Interfaces, Eigenschaften, Generics, Signale und asynchrone Syntax über GLib und GObject-Konventionen, wobei der Quellcode in C kompiliert wird. VAPI-Dateien beschreiben Bindungen zu bestehenden C-Bibliotheken.\n\nEs wird für GTK-Anwendungen, GNOME-Bibliotheken, native Tools, Bindungen und Projekte verwendet, die eine High-Level-Quelle benötigen und gleichzeitig mit C-APIs interagieren.',
     },
     pt: {
       name: 'Vala',
-      description: 'Linguagem orientada ao GNOME que compila a sintaxe de alto n\u00edvel para C.',
+      description: 'Linguagem orientada ao GNOME que compila a sintaxe de alto nível para C.',
       longDescription:
-        'O Vala fornece classes, interfaces, propriedades, gen\u00e9ricos, sinais e sintaxe ass\u00edncrona sobre as conven\u00e7\u00f5es GLib e GObject, compilando o c\u00f3digo fonte para C. Os arquivos .vapi descrevem as vincula\u00e7\u00f5es para bibliotecas C existentes.\n\n\u00c9 usado para aplica\u00e7\u00f5es GTK, bibliotecas GNOME, ferramentas nativas, vincula\u00e7\u00f5es e projetos que desejam uma sintaxe de alto n\u00edvel, integrando-se com APIs C.',
+        'O Vala fornece classes, interfaces, propriedades, genéricos, sinais e sintaxe assíncrona sobre as convenções GLib e GObject, compilando o código fonte para C. Os arquivos .vapi descrevem as vinculações para bibliotecas C existentes.\n\nÉ usado para aplicações GTK, bibliotecas GNOME, ferramentas nativas, vinculações e projetos que desejam uma sintaxe de alto nível, integrando-se com APIs C.',
     },
   },
 } satisfies Language;

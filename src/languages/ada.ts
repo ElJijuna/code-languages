@@ -47,16 +47,16 @@ export const ada = {
     de: {
       name: 'Ada',
       description:
-        'Eine stark typisierte Sprache f\u00fcr zuverl\u00e4ssige, wartbare und sicherheitskritische Software.',
+        'Eine stark typisierte Sprache für zuverlässige, wartbare und sicherheitskritische Software.',
       longDescription:
-        'Ada ist eine allgemeine Programmiersprache, die f\u00fcr Zuverl\u00e4ssigkeit, Lesbarkeit, starke Typisierung, Modularit\u00e4t, Nebenl\u00e4ufigkeit und Echtzeit-Systeme entwickelt wurde. Moderne Ada-Versionen umfassen Pakete, Generics, Tasking, gesch\u00fctzte Objekte, Vertr\u00e4ge, objektorientierte Funktionen und pr\u00e4zise Kontrolle \u00fcber die Datenrepr\u00e4sentation.\n\nSie wird in der Luft- und Raumfahrt, Verteidigung, Transport, eingebetteten Systemen, Hochintegrit\u00e4tsanwendungen, industrieller Steuerung und Software eingesetzt, bei der langfristige Wartbarkeit und Korrektheit zentrale Anforderungen sind.',
+        'Ada ist eine allgemeine Programmiersprache, die für Zuverlässigkeit, Lesbarkeit, starke Typisierung, Modularität, Nebenläufigkeit und Echtzeit-Systeme entwickelt wurde. Moderne Ada-Versionen umfassen Pakete, Generics, Tasking, geschützte Objekte, Verträge, objektorientierte Funktionen und präzise Kontrolle über die Datenrepräsentation.\n\nSie wird in der Luft- und Raumfahrt, Verteidigung, Transport, eingebetteten Systemen, Hochintegritätsanwendungen, industrieller Steuerung und Software eingesetzt, bei der langfristige Wartbarkeit und Korrektheit zentrale Anforderungen sind.',
     },
     pt: {
       name: 'Ada',
       description:
-        'Linguagem fortemente tipada para software confi\u00e1vel, mant\u00edvel e cr\u00edtico para seguran\u00e7a.',
+        'Linguagem fortemente tipada para software confiável, mantível e crítico para segurança.',
       longDescription:
-        'Ada \u00e9 uma linguagem de programa\u00e7\u00e3o de prop\u00f3sito geral projetada para confiabilidade, legibilidade, tipagem forte, modularidade, concorr\u00eancia e sistemas em tempo real. Ada moderna inclui pacotes, gen\u00e9ricos, tarefas, objetos protegidos, contratos, recursos orientados a objetos e controle preciso sobre a representa\u00e7\u00e3o.\n\n\u00c9 usada em aeroespacial, defesa, transporte, sistemas embarcados, aplica\u00e7\u00f5es de alta integridade, controle industrial e software onde a manuten\u00e7\u00e3o e a corre\u00e7\u00e3o a longo prazo s\u00e3o requisitos centrais.',
+        'Ada é uma linguagem de programação de propósito geral projetada para confiabilidade, legibilidade, tipagem forte, modularidade, concorrência e sistemas em tempo real. Ada moderna inclui pacotes, genéricos, tarefas, objetos protegidos, contratos, recursos orientados a objetos e controle preciso sobre a representação.\n\nÉ usada em aeroespacial, defesa, transporte, sistemas embarcados, aplicações de alta integridade, controle industrial e software onde a manutenção e a correção a longo prazo são requisitos centrais.',
     },
   },
 } satisfies Language;

@@ -46,13 +46,13 @@ export const idris = {
       description:
         'Eine dependently typisierte funktionale Sprache, die auf praktische Programme ausgerichtet ist.',
       longDescription:
-        'Idris ist eine dependently typisierte funktionale Programmiersprache, die theorem-proving-Ideen in die allgemeine Softwareentwicklung einbringt. Idris 2 f\u00fcgt ein quantitatives Typsystem, Totali\u00e4tspr\u00fcfung, Elaborator-Reflexion und mehrere Code-Generierungs-Backends hinzu.\n\nSie wird f\u00fcr typsorientierte Entwicklung, Sprachforschung, zertifiziertes Programmieren, Bildung und Experimente verwendet, bei denen reichhaltige Typen dazu beitragen, das Programmverhalten pr\u00e4zise zu beschreiben.',
+        'Idris ist eine dependently typisierte funktionale Programmiersprache, die theorem-proving-Ideen in die allgemeine Softwareentwicklung einbringt. Idris 2 fügt ein quantitatives Typsystem, Totaliätsprüfung, Elaborator-Reflexion und mehrere Code-Generierungs-Backends hinzu.\n\nSie wird für typsorientierte Entwicklung, Sprachforschung, zertifiziertes Programmieren, Bildung und Experimente verwendet, bei denen reichhaltige Typen dazu beitragen, das Programmverhalten präzise zu beschreiben.',
     },
     pt: {
       name: 'Idris',
-      description: 'Linguagem funcional dependente focada em programas pr\u00e1ticos.',
+      description: 'Linguagem funcional dependente focada em programas práticos.',
       longDescription:
-        'Idris \u00e9 uma linguagem de programa\u00e7\u00e3o funcional dependente que traz ideias de prova de teoremas para o desenvolvimento de software de prop\u00f3sito geral. Idris 2 adiciona um sistema de tipos quantitativo, verifica\u00e7\u00e3o de totalidade, reflex\u00e3o do elaborador e m\u00faltiplos backends de gera\u00e7\u00e3o de c\u00f3digo.\n\n\u00c9 usada para desenvolvimento orientado a tipos, pesquisa de linguagem, programa\u00e7\u00e3o certificada, educa\u00e7\u00e3o e experimentos onde tipos ricos ajudam a descrever o comportamento do programa com precis\u00e3o.',
+        'Idris é uma linguagem de programação funcional dependente que traz ideias de prova de teoremas para o desenvolvimento de software de propósito geral. Idris 2 adiciona um sistema de tipos quantitativo, verificação de totalidade, reflexão do elaborador e múltiplos backends de geração de código.\n\nÉ usada para desenvolvimento orientado a tipos, pesquisa de linguagem, programação certificada, educação e experimentos onde tipos ricos ajudam a descrever o comportamento do programa com precisão.',
     },
   },
 } satisfies Language;

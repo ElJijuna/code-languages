@@ -45,16 +45,16 @@ export const zeek = {
     de: {
       name: 'Zeek',
       description:
-        'Eine ereignisgesteuerte Skriptsprache f\u00fcr die Netzwerk-Analyse und Sicherheitsrichtlinien.',
+        'Eine ereignisgesteuerte Skriptsprache für die Netzwerk-Analyse und Sicherheitsrichtlinien.',
       longDescription:
-        'Zeek-Skripte beschreiben Ereignisse, Aufzeichnungen, Analyzer, Benachrichtigungen, Protokollierung und Richtlinienlogik im Netzwerkverkehr, der von dem Zeek-Monitor beobachtet wird. Die Sprache erm\u00f6glicht es Analysten, das Verhalten von Protokollen und Erkennung zu erweitern.\n\nSie wird in der Netzwerk-Sicherheits\u00fcberwachung, der Incident Response, der Verkehrs-Analyse, der Telemetrie-Pipeline und der spezifischen Sicherheitsrichtlinien verwendet.',
+        'Zeek-Skripte beschreiben Ereignisse, Aufzeichnungen, Analyzer, Benachrichtigungen, Protokollierung und Richtlinienlogik im Netzwerkverkehr, der von dem Zeek-Monitor beobachtet wird. Die Sprache ermöglicht es Analysten, das Verhalten von Protokollen und Erkennung zu erweitern.\n\nSie wird in der Netzwerk-Sicherheitsüberwachung, der Incident Response, der Verkehrs-Analyse, der Telemetrie-Pipeline und der spezifischen Sicherheitsrichtlinien verwendet.',
     },
     pt: {
       name: 'Zeek',
       description:
-        'Uma linguagem de scripting orientada a eventos para an\u00e1lise de rede e pol\u00edticas de seguran\u00e7a.',
+        'Uma linguagem de scripting orientada a eventos para análise de rede e políticas de segurança.',
       longDescription:
-        'Os scripts Zeek descrevem eventos, registros, analisadores, avisos, registro e l\u00f3gica de pol\u00edtica sobre o tr\u00e1fego de rede observado pelo monitor Zeek. A linguagem permite que os analistas estendam o comportamento de protocolos e detec\u00e7\u00e3o.\n\n\u00c9 utilizada em monitoramento de seguran\u00e7a de rede, resposta a incidentes, an\u00e1lise de tr\u00e1fego, pipelines de telemetria e pol\u00edticas de seguran\u00e7a espec\u00edficas do site.',
+        'Os scripts Zeek descrevem eventos, registros, analisadores, avisos, registro e lógica de política sobre o tráfego de rede observado pelo monitor Zeek. A linguagem permite que os analistas estendam o comportamento de protocolos e detecção.\n\nÉ utilizada em monitoramento de segurança de rede, resposta a incidentes, análise de tráfego, pipelines de telemetria e políticas de segurança específicas do site.',
     },
   },
 } satisfies Language;

@@ -45,17 +45,16 @@ export const hlsl = {
     },
     de: {
       name: 'HLSL',
-      description:
-        'Microsofts High-Level Shading Language f\u00fcr programmierbare Grafik-Pipelines.',
+      description: 'Microsofts High-Level Shading Language für programmierbare Grafik-Pipelines.',
       longDescription:
-        'HLSL ist eine Shader-Sprache f\u00fcr Direct3D und verwandte Grafik-Pipelines. Sie bietet eine C-\u00e4hnliche Syntax, Vektor- und Matrix-Typen, Texturen, Sampler, konstante Puffer, Semantiken, Intrinsics und Shader-Stufen f\u00fcr Vertex-, Pixel-, Compute-, Geometrie-, Hull-, Domain-, Mesh-, Amplifizierungs- und Raytracing-Workloads.\n\nEs wird in Windows-Spielen, Rendering-Engines, GPU-Compute-Aufgaben, visuellen Effekten, Echtzeit-Simulationen, DirectX-Tools und cross-compiled Shader-Workflows verwendet, die auf moderne Grafik-Hardware abzielen.',
+        'HLSL ist eine Shader-Sprache für Direct3D und verwandte Grafik-Pipelines. Sie bietet eine C-ähnliche Syntax, Vektor- und Matrix-Typen, Texturen, Sampler, konstante Puffer, Semantiken, Intrinsics und Shader-Stufen für Vertex-, Pixel-, Compute-, Geometrie-, Hull-, Domain-, Mesh-, Amplifizierungs- und Raytracing-Workloads.\n\nEs wird in Windows-Spielen, Rendering-Engines, GPU-Compute-Aufgaben, visuellen Effekten, Echtzeit-Simulationen, DirectX-Tools und cross-compiled Shader-Workflows verwendet, die auf moderne Grafik-Hardware abzielen.',
     },
     pt: {
       name: 'HLSL',
       description:
-        'Linguagem de Shading de N\u00edvel Superior da Microsoft para pipelines gr\u00e1ficos program\u00e1veis.',
+        'Linguagem de Shading de Nível Superior da Microsoft para pipelines gráficos programáveis.',
       longDescription:
-        'HLSL \u00e9 uma linguagem de shader para Direct3D e pipelines gr\u00e1ficos relacionados. Fornece uma sintaxe semelhante \u00e0 C, tipos de vetores e matrizes, texturas, amostradores, buffers de constantes, sem\u00e2nticas, intrinsics e est\u00e1gios de shader para cargas de trabalho de v\u00e9rtice, pixel, compute, geometria, hull, dom\u00ednio, mesh, amplification e ray tracing.\n\n\u00c9 usada em jogos do Windows, motores de renderiza\u00e7\u00e3o, tarefas de computa\u00e7\u00e3o de GPU, efeitos visuais, simula\u00e7\u00f5es em tempo real, ferramentas DirectX e fluxos de trabalho de shader compilados que visam hardware gr\u00e1fico moderno.',
+        'HLSL é uma linguagem de shader para Direct3D e pipelines gráficos relacionados. Fornece uma sintaxe semelhante à C, tipos de vetores e matrizes, texturas, amostradores, buffers de constantes, semânticas, intrinsics e estágios de shader para cargas de trabalho de vértice, pixel, compute, geometria, hull, domínio, mesh, amplification e ray tracing.\n\nÉ usada em jogos do Windows, motores de renderização, tarefas de computação de GPU, efeitos visuais, simulações em tempo real, ferramentas DirectX e fluxos de trabalho de shader compilados que visam hardware gráfico moderno.',
     },
   },
 } satisfies Language;

@@ -46,16 +46,16 @@ export const xaml = {
     de: {
       name: 'XAML',
       description:
-        'Eine deklarative XML-basierte Sprache zur Definition von Objektgraphen und Anwendungs-Benutzeroberfl\u00e4chen.',
+        'Eine deklarative XML-basierte Sprache zur Definition von Objektgraphen und Anwendungs-Benutzeroberflächen.',
       longDescription:
-        'XAML, Extensible Application Markup Language, ist eine deklarative XML-basierte Sprache, die zur Instanziierung von Objekten, zum Setzen von Eigenschaften, zum Deklarieren von Ressourcen, zum Binden von Daten und zum Erstellen von Benutzeroberfl\u00e4chen verwendet wird.\n\nEs wird in Microsoft- und .NET-UI-Stacks wie WPF, UWP, WinUI und .NET MAUI sowie in XAML-inspirierten Frameworks wie Avalonia verwendet. XAML-Dateien definieren typischerweise Seiten, Fenster, Steuerelemente, Stile, Vorlagen, Animationen, Ressourcen und visuelle Zust\u00e4nde.',
+        'XAML, Extensible Application Markup Language, ist eine deklarative XML-basierte Sprache, die zur Instanziierung von Objekten, zum Setzen von Eigenschaften, zum Deklarieren von Ressourcen, zum Binden von Daten und zum Erstellen von Benutzeroberflächen verwendet wird.\n\nEs wird in Microsoft- und .NET-UI-Stacks wie WPF, UWP, WinUI und .NET MAUI sowie in XAML-inspirierten Frameworks wie Avalonia verwendet. XAML-Dateien definieren typischerweise Seiten, Fenster, Steuerelemente, Stile, Vorlagen, Animationen, Ressourcen und visuelle Zustände.',
     },
     pt: {
       name: 'XAML',
       description:
-        'Linguagem declarativa baseada em XML para definir grafos de objetos e interfaces de usu\u00e1rio de aplica\u00e7\u00f5es.',
+        'Linguagem declarativa baseada em XML para definir grafos de objetos e interfaces de usuário de aplicações.',
       longDescription:
-        'XAML, Extensible Application Markup Language, \u00e9 uma linguagem declarativa baseada em XML usada para instanciar objetos, definir propriedades, declarar recursos, vincular dados e compor interfaces de usu\u00e1rio.\n\n\u00c9 utilizada em v\u00e1rias plataformas Microsoft e .NET, como WPF, UWP, WinUI e .NET MAUI, bem como em frameworks inspirados em XAML, como Avalonia. Os arquivos XAML geralmente definem p\u00e1ginas, janelas, controles, estilos, modelos, anima\u00e7\u00f5es, recursos e estados visuais.',
+        'XAML, Extensible Application Markup Language, é uma linguagem declarativa baseada em XML usada para instanciar objetos, definir propriedades, declarar recursos, vincular dados e compor interfaces de usuário.\n\nÉ utilizada em várias plataformas Microsoft e .NET, como WPF, UWP, WinUI e .NET MAUI, bem como em frameworks inspirados em XAML, como Avalonia. Os arquivos XAML geralmente definem páginas, janelas, controles, estilos, modelos, animações, recursos e estados visuais.',
     },
   },
 } satisfies Language;

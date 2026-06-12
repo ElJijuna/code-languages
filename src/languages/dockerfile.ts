@@ -42,16 +42,15 @@ export const dockerfile = {
     },
     de: {
       name: 'Dockerfile',
-      description:
-        'Ein Format f\u00fcr Build-Anweisungen zum Erstellen von Docker-Container-Images.',
+      description: 'Ein Format für Build-Anweisungen zum Erstellen von Docker-Container-Images.',
       longDescription:
-        'Dockerfile ist ein textbasiertes Format, das verwendet wird, um zu definieren, wie Docker-Images erstellt werden, einschlie\u00dflich Basis-Images, kopierten Dateien, Umgebungsvariablen, Befehlen und Laufzeit-Metadaten.\n\nEs wird h\u00e4ufig f\u00fcr die Verpackung von Anwendungen, die Definition reproduzierbarer Build-Umgebungen und den Einsatz von Software auf Container-Plattformen verwendet.',
+        'Dockerfile ist ein textbasiertes Format, das verwendet wird, um zu definieren, wie Docker-Images erstellt werden, einschließlich Basis-Images, kopierten Dateien, Umgebungsvariablen, Befehlen und Laufzeit-Metadaten.\n\nEs wird häufig für die Verpackung von Anwendungen, die Definition reproduzierbarer Build-Umgebungen und den Einsatz von Software auf Container-Plattformen verwendet.',
     },
     pt: {
       name: 'Dockerfile',
-      description: 'Formato de instru\u00e7\u00e3o para construir imagens Docker.',
+      description: 'Formato de instrução para construir imagens Docker.',
       longDescription:
-        'Dockerfile \u00e9 um formato de instru\u00e7\u00e3o baseado em texto usado para definir como as imagens Docker s\u00e3o constru\u00eddas, incluindo imagens base, arquivos copiados, vari\u00e1veis de ambiente, comandos e metadados de tempo de execu\u00e7\u00e3o.\n\n\u00c9 comumente usado para empacotar aplicativos, definir ambientes de constru\u00e7\u00e3o reproduz\u00edveis e implantar software em plataformas de cont\u00eainer.',
+        'Dockerfile é um formato de instrução baseado em texto usado para definir como as imagens Docker são construídas, incluindo imagens base, arquivos copiados, variáveis de ambiente, comandos e metadados de tempo de execução.\n\nÉ comumente usado para empacotar aplicativos, definir ambientes de construção reproduzíveis e implantar software em plataformas de contêiner.',
     },
   },
 } satisfies Language;

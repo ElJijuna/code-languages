@@ -43,16 +43,15 @@ export const tlaPlus = {
     de: {
       name: 'TLA+',
       description:
-        'Eine formale Spezifikationssprache f\u00fcr Zustandsautomaten und zeitliche Eigenschaften.',
+        'Eine formale Spezifikationssprache für Zustandsautomaten und zeitliche Eigenschaften.',
       longDescription:
-        'TLA+ beschreibt Systeme als mathematische Zustands\u00fcberg\u00e4nge mit Aktionen, Invarianten, zeitlichen Formeln, Modulen und auf Refinement ausgerichteten Spezifikationen. Werkzeuge wie TLC untersuchen Verhaltensweisen, um Modelle zu \u00fcberpr\u00fcfen.\n\nEs wird verwendet, um \u00fcber verteilte Algorithmen, Protokolle, Nebenl\u00e4ufigkeit, Sicherheitsmerkmale, Design\u00fcberpr\u00fcfungen und Systeme zu argumentieren, bei denen eine pr\u00e4zise Spezifikation fr\u00fchzeitig Fehler aufdeckt.',
+        'TLA+ beschreibt Systeme als mathematische Zustandsübergänge mit Aktionen, Invarianten, zeitlichen Formeln, Modulen und auf Refinement ausgerichteten Spezifikationen. Werkzeuge wie TLC untersuchen Verhaltensweisen, um Modelle zu überprüfen.\n\nEs wird verwendet, um über verteilte Algorithmen, Protokolle, Nebenläufigkeit, Sicherheitsmerkmale, Designüberprüfungen und Systeme zu argumentieren, bei denen eine präzise Spezifikation frühzeitig Fehler a﷬kt.',
     },
     pt: {
       name: 'TLA+',
-      description:
-        'Linguagem formal para especificar m\u00e1quinas de estado e propriedades temporais.',
+      description: 'Linguagem formal para especificar máquinas de estado e propriedades temporais.',
       longDescription:
-        'O TLA+ descreve sistemas como transi\u00e7\u00f5es estatais matem\u00e1ticas com a\u00e7\u00f5es, invariantes, f\u00f3rmulas temporais, m\u00f3dulos e especifica\u00e7\u00f5es orientadas \u00e0 refinamento. Ferramentas como o TLC exploram comportamentos para verificar modelos.\n\n\u00c9 usado para raciocinar sobre algoritmos distribu\u00eddos, protocolos, concorr\u00eancia, propriedades de seguran\u00e7a, revis\u00f5es de design e sistemas onde uma especifica\u00e7\u00e3o precisa detecta falhas precocemente.',
+        'O TLA+ descreve sistemas como transições estatais matemáticas com ações, invariantes, fórmulas temporais, módulos e especificações orientadas à refinamento. Ferramentas como o TLC exploram comportamentos para verificar modelos.\n\nÉ usado para raciocinar sobre algoritmos distribuídos, protocolos, concorrência, propriedades de segurança, revisões de design e sistemas onde uma especificação precisa detecta falhas precocemente.',
     },
   },
 } satisfies Language;

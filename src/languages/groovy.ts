@@ -46,16 +46,16 @@ export const groovy = {
     de: {
       name: 'Groovy',
       description:
-        'Eine dynamische Sprache f\u00fcr die JVM mit Java-\u00e4hnlicher Syntax und Skriptfunktionen.',
+        'Eine dynamische Sprache für die JVM mit Java-ähnlicher Syntax und Skriptfunktionen.',
       longDescription:
-        'Groovy ist eine JVM-Sprache, die mit Java interagiert und dynamische Typisierung, pr\u00e4gnante Syntax, Closures, Builder, Metaprogrammierung und Skriptf\u00e4higkeiten hinzuf\u00fcgt.\n\nSie wird f\u00fcr Automatisierung, Tests, Build-Skripte, Gradle-Plugins, Webanwendungen und JVM-Projekte verwendet, die von einer ausdrucksstarken Syntax und Java-Interoperabilit\u00e4t profitieren.',
+        'Groovy ist eine JVM-Sprache, die mit Java interagiert und dynamische Typisierung, prägnante Syntax, Closures, Builder, Metaprogrammierung und Skriptfähigkeiten hinzufügt.\n\nSie wird für Automatisierung, Tests, Build-Skripte, Gradle-Plugins, Webanwendungen und JVM-Projekte verwendet, die von einer ausdrucksstarken Syntax und Java-Interoperabilität profitieren.',
     },
     pt: {
       name: 'Groovy',
       description:
-        'Linguagem din\u00e2mica para a JVM com sintaxe semelhante \u00e0 Java e recursos de scripting.',
+        'Linguagem dinâmica para a JVM com sintaxe semelhante à Java e recursos de scripting.',
       longDescription:
-        'Groovy \u00e9 uma linguagem JVM que se integra com o Java, adicionando tipagem din\u00e2mica, sintaxe concisa, closures, builders, metaprograma\u00e7\u00e3o e capacidades de scripting.\n\n\u00c9 usada para automa\u00e7\u00e3o, testes, scripts de constru\u00e7\u00e3o, plugins Gradle, aplica\u00e7\u00f5es web e projetos JVM que se beneficiam de uma sintaxe expressiva e interoperabilidade com Java.',
+        'Groovy é uma linguagem JVM que se integra com o Java, adicionando tipagem dinâmica, sintaxe concisa, closures, builders, metaprogramação e capacidades de scripting.\n\nÉ usada para automação, testes, scripts de construção, plugins Gradle, aplicações web e projetos JVM que se beneficiam de uma sintaxe expressiva e interoperabilidade com Java.',
     },
   },
 } satisfies Language;

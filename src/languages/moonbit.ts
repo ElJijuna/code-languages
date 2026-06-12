@@ -44,16 +44,16 @@ export const moonbit = {
     },
     de: {
       name: 'MoonBit',
-      description: 'Eine statisch typisierte Sprache und Toolchain f\u00fcr WebAssembly-Ausgabe.',
+      description: 'Eine statisch typisierte Sprache und Toolchain für WebAssembly-Ausgabe.',
       longDescription:
-        'MoonBit ist eine Sprache und Toolchain, die auf schnellen R\u00fcckmeldungen, algebraischen Datentypen, Pattern Matching und mehreren Backends, einschlie\u00dflich WebAssembly, basiert. Ihre Paket- und Testwerkzeuge sind Teil des Sprachworkflows.\n\nSie wird f\u00fcr WebAssembly-Bibliotheken, Kommandozeilen-Experimente, Web-Runtimes, Lehre und Projekte verwendet, die kompakten, typisierten Code mit integrierten Werkzeugen ben\u00f6tigen.',
+        'MoonBit ist eine Sprache und Toolchain, die auf schnellen Rückmeldungen, algebraischen Datentypen, Pattern Matching und mehreren Backends, einschließlich WebAssembly, basiert. Ihre Paket- und Testwerkzeuge sind Teil des Sprachworkflows.\n\nSie wird für WebAssembly-Bibliotheken, Kommandozeilen-Experimente, Web-Runtimes, Lehre und Projekte verwendet, die kompakten, typisierten Code mit integrierten Werkzeugen benötigen.',
     },
     pt: {
       name: 'MoonBit',
       description:
-        'Linguagem e conjunto de ferramentas estaticamente tipadas, projetado para sa\u00edda WebAssembly.',
+        'Linguagem e conjunto de ferramentas estaticamente tipadas, projetado para saída WebAssembly.',
       longDescription:
-        'MoonBit \u00e9 uma linguagem e conjunto de ferramentas constru\u00eddas em torno de feedback r\u00e1pido, tipos de dados alg\u00e9bricos, correspond\u00eancia de padr\u00f5es e v\u00e1rios backends, incluindo WebAssembly. Suas ferramentas de pacote e teste s\u00e3o projetadas como parte do fluxo de trabalho da linguagem.\n\n\u00c9 usado para bibliotecas WebAssembly, experimentos de linha de comando, ambientes de execu\u00e7\u00e3o web, ensino e projetos que desejam c\u00f3digo tipado compacto com ferramentas integradas.',
+        'MoonBit é uma linguagem e conjunto de ferramentas construídas em torno de feedback rápido, tipos de dados algébricos, correspondência de padrões e vários backends, incluindo WebAssembly. Suas ferramentas de pacote e teste são projetadas como parte do fluxo de trabalho da linguagem.\n\nÉ usado para bibliotecas WebAssembly, experimentos de linha de comando, ambientes de execução web, ensino e projetos que desejam código tipado compacto com ferramentas integradas.',
     },
   },
 } satisfies Language;

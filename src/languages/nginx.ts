@@ -45,17 +45,16 @@ export const nginx = {
     },
     de: {
       name: 'nginx',
-      description:
-        'Eine direktekonfigurationssprache f\u00fcr den nginx-Webserver und Reverse-Proxy.',
+      description: 'Eine direktekonfigurationssprache für den nginx-Webserver und Reverse-Proxy.',
       longDescription:
-        'nginx-Konfigurationsdateien verwenden eine direktekonfigurationssyntax, um HTTP-Server, Reverse-Proxies, Upstreams, Load Balancing, TLS-Einstellungen, Caching, Logging, Zugriffskontrolle und Stream- oder Mail-Proxy-Verhalten zu definieren.\n\nSie werden in Produktions-Webinfrastrukturen, Container-Images, Edge-Services, API-Gateways, statischer Dateizustellung, Traffic-Routing und DevOps-Workflows verwendet, in denen nginx oder kompatible Server wiederholbare Konfigurationen ben\u00f6tigen.',
+        'nginx-Konfigurationsdateien verwenden eine direktekonfigurationssyntax, um HTTP-Server, Reverse-Proxies, Upstreams, Load Balancing, TLS-Einstellungen, Caching, Logging, Zugriffskontrolle und Stream- oder Mail-Proxy-Verhalten zu definieren.\n\nSie werden in Produktions-Webinfrastrukturen, Container-Images, Edge-Services, API-Gateways, statischer Dateizustellung, Traffic-Routing und DevOps-Workflows verwendet, in denen nginx oder kompatible Server wiederholbare Konfigurationen benötigen.',
     },
     pt: {
       name: 'nginx',
       description:
-        'Linguagem de configura\u00e7\u00e3o baseada em diretivas para o servidor web e proxy reverso nginx.',
+        'Linguagem de configuração baseada em diretivas para o servidor web e proxy reverso nginx.',
       longDescription:
-        'Os arquivos de configura\u00e7\u00e3o do nginx utilizam uma sintaxe baseada em diretivas para definir servidores HTTP, proxies reverso, upstream, balanceamento de carga, configura\u00e7\u00f5es TLS, cache, logging, controle de acesso e comportamento de proxy de stream ou e-mail.\n\nS\u00e3o utilizados em infraestruturas web de produ\u00e7\u00e3o, imagens de cont\u00eainer, servi\u00e7os de borda, gateways de API, hospedagem de arquivos est\u00e1ticos, roteamento de tr\u00e1fego e fluxos de trabalho DevOps onde o nginx ou servidores compat\u00edveis precisam de configura\u00e7\u00f5es repet\u00edveis.',
+        'Os arquivos de configuração do nginx utilizam uma sintaxe baseada em diretivas para definir servidores HTTP, proxies reverso, upstream, balanceamento de carga, configurações TLS, cache, logging, controle de acesso e comportamento de proxy de stream ou e-mail.\n\nSão utilizados em infraestruturas web de produção, imagens de contêiner, serviços de borda, gateways de API, hospedagem de arquivos estáticos, roteamento de tráfego e fluxos de trabalho DevOps onde o nginx ou servidores compatíveis precisam de configurações repetíveis.',
     },
   },
 } satisfies Language;

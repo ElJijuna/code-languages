@@ -45,16 +45,16 @@ export const v = {
     de: {
       name: 'V',
       description:
-        'Eine kompilierte, statisch typisierte Sprache f\u00fcr einfache native Anwendungsentwicklung.',
+        'Eine kompilierte, statisch typisierte Sprache für einfache native Anwendungsentwicklung.',
       longDescription:
-        'V ist eine kompilierte Sprache mit Modulen, Summen-Typen, Generics, Nebenl\u00e4ufigkeitssyntax, C-Interoperabilit\u00e4t und einem Toolchain, der schnelle Kompilierungszeiten und kleine Deployment-Workflows betont. Sie zielt auf C und native Ausgaben durch ihren Compiler.\n\nSie wird f\u00fcr Kommandozeilen-Tools, native Anwendungen, Experimente, Webdienste und Projekte verwendet, die eine integrierte, leichte Toolchain bevorzugen.',
+        'V ist eine kompilierte Sprache mit Modulen, Summen-Typen, Generics, Nebenläufigkeitssyntax, C-Interoperabilität und einem Toolchain, der schnelle Kompilierungszeiten und kleine Deployment-Workflows betont. Sie zielt auf C und native Ausgaben durch ihren Compiler.\n\nSie wird für Kommandozeilen-Tools, native Anwendungen, Experimente, Webdienste und Projekte verwendet, die eine integrierte, leichte Toolchain bevorzugen.',
     },
     pt: {
       name: 'V',
       description:
-        'Linguagem compilada estaticamente tipada para a cria\u00e7\u00e3o de aplica\u00e7\u00f5es nativas simples.',
+        'Linguagem compilada estaticamente tipada para a criação de aplicações nativas simples.',
       longDescription:
-        'V \u00e9 uma linguagem compilada com m\u00f3dulos, tipos de soma, gen\u00e9ricos, sintaxe de concorr\u00eancia, interoperabilidade com C e uma ferramenta que enfatiza a compila\u00e7\u00e3o r\u00e1pida e fluxos de trabalho de implanta\u00e7\u00e3o pequenos. Ela visa C e sa\u00eddas nativas atrav\u00e9s do seu compilador.\n\n\u00c9 usada para ferramentas de linha de comando, aplica\u00e7\u00f5es nativas, experimentos, servi\u00e7os web e projetos que preferem uma ferramenta integrada leve.',
+        'V é uma linguagem compilada com módulos, tipos de soma, genéricos, sintaxe de concorrência, interoperabilidade com C e uma ferramenta que enfatiza a compilação rápida e fluxos de trabalho de implantação pequenos. Ela visa C e saídas nativas através do seu compilador.\n\nÉ usada para ferramentas de linha de comando, aplicações nativas, experimentos, serviços web e projetos que preferem uma ferramenta integrada leve.',
     },
   },
 } satisfies Language;

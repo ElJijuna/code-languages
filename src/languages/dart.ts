@@ -47,16 +47,16 @@ export const dart = {
     de: {
       name: 'Dart',
       description:
-        'Eine Client-optimierte Sprache f\u00fcr schnelle Apps auf mobilen, Web-, Desktop- und Serverplattformen.',
+        'Eine Client-optimierte Sprache für schnelle Apps auf mobilen, Web-, Desktop- und Serverplattformen.',
       longDescription:
-        'Dart ist eine von Google entwickelte Programmiersprache, die f\u00fcr produktives, clientorientiertes Anwendungsentwicklung konzipiert ist. Sie kombiniert sichere Null-Sicherheit, Klassen, Generics, asynchrones Programmieren, Isolate, Ahead-of-Time-Kompilierung, Just-in-Time-Entwicklung und Kompilierung zu JavaScript.\n\nSie wird h\u00e4ufig mit Flutter f\u00fcr mobile, Web- und Desktop-Apps verwendet und unterst\u00fctzt auch Kommandozeilen-Tools, Backend-Dienste, Build-Systeme und Teams, die eine typisierte Sprache mit schnellen Iterationszyklen und nativen Kompilierungsoptionen w\u00fcnschen.',
+        'Dart ist eine von Google entwickelte Programmiersprache, die für produktives, clientorientiertes Anwendungsentwicklung konzipiert ist. Sie kombiniert sichere Null-Sicherheit, Klassen, Generics, asynchrones Programmieren, Isolate, Ahead-of-Time-Kompilierung, Just-in-Time-Entwicklung und Kompilierung zu JavaScript.\n\nSie wird häufig mit Flutter für mobile, Web- und Desktop-Apps verwendet und unterstützt auch Kommandozeilen-Tools, Backend-Dienste, Build-Systeme und Teams, die eine typisierte Sprache mit schnellen Iterationszyklen und nativen Kompilierungsoptionen wünschen.',
     },
     pt: {
       name: 'Dart',
       description:
-        'Linguagem otimizada para clientes, para aplicativos r\u00e1pidos em mobile, web, desktop e servidor.',
+        'Linguagem otimizada para clientes, para aplicativos rápidos em mobile, web, desktop e servidor.',
       longDescription:
-        'Dart \u00e9 uma linguagem de programa\u00e7\u00e3o do Google, projetada para desenvolvimento de aplicativos orientados ao cliente, com foco na produtividade. Combina seguran\u00e7a nula, classes, gen\u00e9ricos, programa\u00e7\u00e3o ass\u00edncrona, isolados, compila\u00e7\u00e3o antecipada, fluxos de desenvolvimento just-in-time e compila\u00e7\u00e3o para JavaScript.\n\n\u00c9 amplamente utilizada com Flutter para aplicativos mobile, web e desktop, e tamb\u00e9m suporta ferramentas de linha de comando, servi\u00e7os de backend, sistemas de constru\u00e7\u00e3o e equipes que desejam uma linguagem tipada com itera\u00e7\u00e3o r\u00e1pida e caminhos de compila\u00e7\u00e3o nativos.',
+        'Dart é uma linguagem de programação do Google, projetada para desenvolvimento de aplicativos orientados ao cliente, com foco na produtividade. Combina segurança nula, classes, genéricos, programação assíncrona, isolados, compilação antecipada, fluxos de desenvolvimento just-in-time e compilação para JavaScript.\n\nÉ amplamente utilizada com Flutter para aplicativos mobile, web e desktop, e também suporta ferramentas de linha de comando, serviços de backend, sistemas de construção e equipes que desejam uma linguagem tipada com iteração rápida e caminhos de compilação nativos.',
     },
   },
 } satisfies Language;

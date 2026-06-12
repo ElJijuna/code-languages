@@ -47,16 +47,16 @@ export const solidity = {
     de: {
       name: 'Solidity',
       description:
-        'Eine statisch typisierte Smart-Contract-Sprache f\u00fcr Ethereum und EVM-kompatible Blockchains.',
+        'Eine statisch typisierte Smart-Contract-Sprache für Ethereum und EVM-kompatible Blockchains.',
       longDescription:
-        'Solidity ist eine statisch typisierte, auf Vertr\u00e4ge ausgerichtete Programmiersprache, die f\u00fcr das Schreiben von Smart Contracts entwickelt wurde, die auf der Ethereum Virtual Machine und kompatiblen Blockchain-Netzwerken ausgef\u00fchrt werden. Sie unterst\u00fctzt Vertr\u00e4ge, Bibliotheken, Schnittstellen, Vererbung, Modifikatoren, Ereignisse, benutzerdefinierte Fehler, ABI-Kodierung und explizite Regeln f\u00fcr Sichtbarkeit und Ver\u00e4nderbarkeit.\n\nSie wird verwendet, um dezentrale Anwendungen, Token-Vertr\u00e4ge, DAOs, DeFi-Protokolle, NFT-Vertr\u00e4ge, Governance-Systeme und andere On-Chain-Programme zu erstellen, bei denen deterministische Ausf\u00fchrung und \u00fcberpr\u00fcfbare Zustands\u00fcberg\u00e4nge erforderlich sind.',
+        'Solidity ist eine statisch typisierte, auf Verträge ausgerichtete Programmiersprache, die für das Schreiben von Smart Contracts entwickelt wurde, die auf der Ethereum Virtual Machine und kompatiblen Blockchain-Netzwerken ausgeführt werden. Sie unterstützt Verträge, Bibliotheken, Schnittstellen, Vererbung, Modifikatoren, Ereignisse, benutzerdefinierte Fehler, ABI-Kodierung und explizite Regeln für Sichtbarkeit und Veränderbarkeit.\n\nSie wird verwendet, um dezentrale Anwendungen, Token-Verträge, DAOs, DeFi-Protokolle, NFT-Verträge, Governance-Systeme und andere On-Chain-Programme zu erstellen, bei denen deterministische Ausführung und überprüfbare Zustandsübergänge erforderlich sind.',
     },
     pt: {
       name: 'Solidity',
       description:
-        'Linguagem de contrato estaticamente tipada para Ethereum e blockchains compat\u00edveis com EVM.',
+        'Linguagem de contrato estaticamente tipada para Ethereum e blockchains compatíveis com EVM.',
       longDescription:
-        'Solidity \u00e9 uma linguagem de programa\u00e7\u00e3o estaticamente tipada, orientada a contratos, projetada para escrever contratos inteligentes que executam na M\u00e1quina Virtual Ethereum e em redes blockchain compat\u00edveis. Suporta contratos, bibliotecas, interfaces, heran\u00e7a, modificadores, eventos, erros personalizados, codifica\u00e7\u00e3o ABI e regras expl\u00edcitas de visibilidade e mutabilidade.\n\n\u00c9 usada para construir aplica\u00e7\u00f5es descentralizadas, contratos de tokens, DAOs, protocolos DeFi, contratos de NFT, sistemas de governan\u00e7a e outros programas on-chain onde a execu\u00e7\u00e3o determin\u00edstica e as transi\u00e7\u00f5es de estado verific\u00e1veis s\u00e3o necess\u00e1rias.',
+        'Solidity é uma linguagem de programação estaticamente tipada, orientada a contratos, projetada para escrever contratos inteligentes que executam na Máquina Virtual Ethereum e em redes blockchain compatíveis. Suporta contratos, bibliotecas, interfaces, herança, modificadores, eventos, erros personalizados, codificação ABI e regras explícitas de visibilidade e mutabilidade.\n\nÉ usada para construir aplicações descentralizadas, contratos de tokens, DAOs, protocolos DeFi, contratos de NFT, sistemas de governança e outros programas on-chain onde a execução determinística e as transições de estado verificáveis são necessárias.',
     },
   },
 } satisfies Language;

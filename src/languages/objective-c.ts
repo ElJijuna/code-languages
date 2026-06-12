@@ -47,16 +47,16 @@ export const objectiveC = {
     de: {
       name: 'Objective-C',
       description:
-        'Eine C-Erweiterung mit Smalltalk-\u00e4hnlicher Nachrichten\u00fcbermittlung und einer dynamischen Objekt-Runtime.',
+        'Eine C-Erweiterung mit Smalltalk-ähnlicher Nachrichtenübermittlung und einer dynamischen Objekt-Runtime.',
       longDescription:
-        'Objective-C ist eine objektorientierte Erweiterung von C, die Smalltalk-\u00e4hnliche Nachrichten\u00fcbermittlung, dynamische Dispatch, Klassen, Protokolle, Kategorien und Laufzeit-Reflexion hinzuf\u00fcgt.\n\nEs war historisch zentral f\u00fcr die Entwicklung von NeXTSTEP, macOS, iOS, Cocoa und Cocoa Touch und ist weiterhin wichtig f\u00fcr die Wartung von Apple-Plattformcodebasen und die Interoperabilit\u00e4t mit C, C++ und Swift.',
+        'Objective-C ist eine objektorientierte Erweiterung von C, die Smalltalk-ähnliche Nachrichtenübermittlung, dynamische Dispatch, Klassen, Protokolle, Kategorien und Laufzeit-Reflexion hinzufügt.\n\nEs war historisch zentral für die Entwicklung von NeXTSTEP, macOS, iOS, Cocoa und Cocoa Touch und ist weiterhin wichtig für die Wartung von Apple-Plattformcodebasen und die Interoperabilität mit C, C++ und Swift.',
     },
     pt: {
       name: 'Objective-C',
       description:
-        'Um superset de C com mensagens no estilo Smalltalk e um ambiente de execu\u00e7\u00e3o de objetos din\u00e2mico.',
+        'Um superset de C com mensagens no estilo Smalltalk e um ambiente de execução de objetos dinâmico.',
       longDescription:
-        'Objective-C \u00e9 uma extens\u00e3o orientada a objetos de C que adiciona a passagem de mensagens no estilo Smalltalk, despacho din\u00e2mico, classes, protocolos, categorias e reflex\u00e3o em tempo de execu\u00e7\u00e3o.\n\nHistoricamente, foi central para o desenvolvimento de NeXTSTEP, macOS, iOS, Cocoa e Cocoa Touch, e continua sendo importante para manter os c\u00f3digos das plataformas da Apple e para interoperar com C, C++ e Swift.',
+        'Objective-C é uma extensão orientada a objetos de C que adiciona a passagem de mensagens no estilo Smalltalk, despacho dinâmico, classes, protocolos, categorias e reflexão em tempo de execução.\n\nHistoricamente, foi central para o desenvolvimento de NeXTSTEP, macOS, iOS, Cocoa e Cocoa Touch, e continua sendo importante para manter os códigos das plataformas da Apple e para interoperar com C, C++ e Swift.',
     },
   },
 } satisfies Language;

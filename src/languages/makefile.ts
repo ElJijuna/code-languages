@@ -46,16 +46,16 @@ export const makefile = {
     de: {
       name: 'Makefile',
       description:
-        'Ein regelbasiertes Build-Automatisierungsformat, das von Make-Tools verwendet wird, um reproduzierbare Aufgaben auszuf\u00fchren.',
+        'Ein regelbasiertes Build-Automatisierungsformat, das von Make-Tools verwendet wird, um reproduzierbare Aufgaben auszuführen.',
       longDescription:
-        'Makefiles definieren Ziele, Abh\u00e4ngigkeiten, Variablen und Shell-Rezepte, die Make-Tools verwenden, um zu entscheiden, welche Aufgaben neu erstellt werden m\u00fcssen und welche Befehle ausgef\u00fchrt werden sollen.\n\nSie werden h\u00e4ufig f\u00fcr die Kompilierung von C- und C++-Projekten, das Steuern von Unix-Build-Pipelines, das Verpacken von Software, das Ausf\u00fchren von Entwicklungstasks, das Generieren von Artefakten und die Koordination von Befehlen in verschiedenen Programmiersprachen-\u00d6kosystemen verwendet.',
+        'Makefiles definieren Ziele, Abhängigkeiten, Variablen und Shell-Rezepte, die Make-Tools verwenden, um zu entscheiden, welche Aufgaben neu erstellt werden müssen und welche Befehle ausgeführt werden sollen.\n\nSie werden häufig für die Kompilierung von C- und C++-Projekten, das Steuern von Unix-Build-Pipelines, das Verpacken von Software, das Ausführen von Entwicklungstasks, das Generieren von Artefakten und die Koordination von Befehlen in verschiedenen Programmiersprachen-Ökosystemen verwendet.',
     },
     pt: {
       name: 'Makefile',
       description:
-        'Formato de automa\u00e7\u00e3o de constru\u00e7\u00e3o baseado em regras usado pela ferramenta make para executar tarefas reproduz\u00edveis.',
+        'Formato de automação de construção baseado em regras usado pela ferramenta make para executar tarefas reproduzíveis.',
       longDescription:
-        'Arquivos make descrevem alvos, depend\u00eancias, vari\u00e1veis e receitas de shell que as ferramentas make usam para decidir quais tarefas devem ser reconstru\u00eddas e quais comandos devem ser executados.\n\nS\u00e3o amplamente utilizados para compilar projetos C e C++, para impulsionar pipelines de constru\u00e7\u00e3o Unix, para empacotar software, para executar tarefas de desenvolvimento, para gerar artefatos e para coordenar comandos em v\u00e1rios ecossistemas de linguagens de programa\u00e7\u00e3o.',
+        'Arquivos make descrevem alvos, dependências, variáveis e receitas de shell que as ferramentas make usam para decidir quais tarefas devem ser reconstruídas e quais comandos devem ser executados.\n\nSão amplamente utilizados para compilar projetos C e C++, para impulsionar pipelines de construção Unix, para empacotar software, para executar tarefas de desenvolvimento, para gerar artefatos e para coordenar comandos em vários ecossistemas de linguagens de programação.',
     },
   },
 } satisfies Language;

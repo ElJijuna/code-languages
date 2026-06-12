@@ -47,16 +47,16 @@ export const lua = {
     de: {
       name: 'Lua',
       description:
-        'Eine leichte, einbettbare Skriptsprache, die f\u00fcr Erweiterbarkeit und Portabilit\u00e4t entwickelt wurde.',
+        'Eine leichte, einbettbare Skriptsprache, die für Erweiterbarkeit und Portabilität entwickelt wurde.',
       longDescription:
-        'Lua ist eine kleine, schnelle Skriptsprache mit Tabellen, Funktionen von erster Klasse, Closures, Coroutinen, Metatabellen, dynamischer Typisierung und einer kompakten C-API f\u00fcr Einbettung und Erweiterung.\n\nSie wird h\u00e4ufig in Spiel-Engines, eingebetteten Systemen, Anwendungs-Skripten, Konfigurationsdateien, Plugins, Netzwerk-Tools, Redis-Skripten, Neovim-Konfigurationen und Produkten verwendet, die eine portable Skriptsprache ben\u00f6tigen.',
+        'Lua ist eine kleine, schnelle Skriptsprache mit Tabellen, Funktionen von erster Klasse, Closures, Coroutinen, Metatabellen, dynamischer Typisierung und einer kompakten C-API für Einbettung und Erweiterung.\n\nSie wird häufig in Spiel-Engines, eingebetteten Systemen, Anwendungs-Skripten, Konfigurationsdateien, Plugins, Netzwerk-Tools, Redis-Skripten, Neovim-Konfigurationen und Produkten verwendet, die eine portable Skriptsprache benötigen.',
     },
     pt: {
       name: 'Lua',
       description:
-        'Uma linguagem de scripting leve e incorpor\u00e1vel, projetada para extens\u00e3o e portabilidade.',
+        'Uma linguagem de scripting leve e incorporável, projetada para extensão e portabilidade.',
       longDescription:
-        'Lua \u00e9 uma linguagem de scripting pequena e r\u00e1pida com tabelas, fun\u00e7\u00f5es de primeira classe, closures, coroutines, metatabelas, tipagem din\u00e2mica e uma API C compacta para incorpora\u00e7\u00e3o e extens\u00e3o.\n\n\u00c9 amplamente utilizada em motores de jogos, sistemas embarcados, scripting de aplica\u00e7\u00f5es, arquivos de configura\u00e7\u00e3o, plugins, ferramentas de rede, scripts do Redis, configura\u00e7\u00e3o do Neovim e produtos que necessitam de uma linguagem de extens\u00e3o port\u00e1til.',
+        'Lua é uma linguagem de scripting pequena e rápida com tabelas, funções de primeira classe, closures, coroutines, metatabelas, tipagem dinâmica e uma API C compacta para incorporação e extensão.\n\nÉ amplamente utilizada em motores de jogos, sistemas embarcados, scripting de aplicações, arquivos de configuração, plugins, ferramentas de rede, scripts do Redis, configuração do Neovim e produtos que necessitam de uma linguagem de extensão portátil.',
     },
   },
 } satisfies Language;

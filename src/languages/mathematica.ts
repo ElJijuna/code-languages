@@ -46,14 +46,13 @@ export const mathematica = {
       description:
         'Eine symbolische Programmiersprache, die in Mathematica und Wolfram-Tools verwendet wird.',
       longDescription:
-        'Die Wolfram-Sprache kombiniert symbolische Ausdr\u00fccke, funktionale Programmierung, Musterregeln, Notizen, Visualisierung und eine umfangreiche, wissensbasierte Standardbibliothek. Mathematica ist ihre bekannteste interaktive Umgebung.\n\nSie wird f\u00fcr Mathematik, Modellierung, Data Science, Forschungsnotizen, Bildung, Automatisierung und rechnergest\u00fctzte Berichte verwendet, die von symbolischen und numerischen Arbeitsabl\u00e4ufen profitieren.',
+        'Die Wolfram-Sprache kombiniert symbolische Ausdrücke, funktionale Programmierung, Musterregeln, Notizen, Visualisierung und eine umfangreiche, wissensbasierte Standardbibliothek. Mathematica ist ihre bekannteste interaktive Umgebung.\n\nSie wird für Mathematik, Modellierung, Data Science, Forschungsnotizen, Bildung, Automatisierung und rechnergestützte Berichte verwendet, die von symbolischen und numerischen Arbeitsabläufen profitieren.',
     },
     pt: {
       name: 'Wolfram Language',
-      description:
-        'Linguagem de computa\u00e7\u00e3o simb\u00f3lica usada em Mathematica e ferramentas Wolfram.',
+      description: 'Linguagem de computação simbólica usada em Mathematica e ferramentas Wolfram.',
       longDescription:
-        'A Wolfram Language combina express\u00f5es simb\u00f3licas, programa\u00e7\u00e3o funcional, regras de padr\u00e3o, notebooks, visualiza\u00e7\u00e3o e uma grande biblioteca padr\u00e3o orientada ao conhecimento. Mathematica \u00e9 seu ambiente interativo mais conhecido.\n\n\u00c9 usada para matem\u00e1tica, modelagem, ci\u00eancia de dados, notebooks de pesquisa, educa\u00e7\u00e3o, automa\u00e7\u00e3o e relat\u00f3rios computacionais que se beneficiam de fluxos de trabalho simb\u00f3licos e num\u00e9ricos.',
+        'A Wolfram Language combina expressões simbólicas, programação funcional, regras de padrão, notebooks, visualização e uma grande biblioteca padrão orientada ao conhecimento. Mathematica é seu ambiente interativo mais conhecido.\n\nÉ usada para matemática, modelagem, ciência de dados, notebooks de pesquisa, educação, automação e relatórios computacionais que se beneficiam de fluxos de trabalho simbólicos e numéricos.',
     },
   },
 } satisfies Language;

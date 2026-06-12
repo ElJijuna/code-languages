@@ -47,16 +47,16 @@ export const ruby = {
     de: {
       name: 'Ruby',
       description:
-        'Eine dynamische, objektorientierte Skriptsprache, die auf Produktivit\u00e4t und Entwicklerzufriedenheit ausgerichtet ist.',
+        'Eine dynamische, objektorientierte Skriptsprache, die auf Produktivität und Entwicklerzufriedenheit ausgerichtet ist.',
       longDescription:
-        'Ruby ist eine dynamische Sprache mit ausdrucksstarker Syntax, offenen Klassen, Bl\u00f6cken, Mixins, Metaprogrammierung, Ausnahmen, Modulen und einem starken objektorientierten Modell, bei dem fast alles ein Objekt ist.\n\nSie wird h\u00e4ufig f\u00fcr Webanwendungen mit Ruby on Rails, Kommandozeilen-Tools, Automatisierungsskripte, Infrastruktur-Tools, statische Seitengenerierung, Testframeworks und Entwicklerproduktivit\u00e4tsworkflows verwendet.',
+        'Ruby ist eine dynamische Sprache mit ausdrucksstarker Syntax, offenen Klassen, Blöcken, Mixins, Metaprogrammierung, Ausnahmen, Modulen und einem starken objektorientierten Modell, bei dem fast alles ein Objekt ist.\n\nSie wird häufig für Webanwendungen mit Ruby on Rails, Kommandozeilen-Tools, Automatisierungsskripte, Infrastruktur-Tools, statische Seitengenerierung, Testframeworks und Entwicklerproduktivitätsworkflows verwendet.',
     },
     pt: {
       name: 'Ruby',
       description:
-        'Uma linguagem de script din\u00e2mica, orientada a objetos, focada na produtividade e na satisfa\u00e7\u00e3o do desenvolvedor.',
+        'Uma linguagem de script dinâmica, orientada a objetos, focada na produtividade e na satisfação do desenvolvedor.',
       longDescription:
-        'Ruby \u00e9 uma linguagem din\u00e2mica com sintaxe expressiva, classes abertas, blocos, mixins, metaprograma\u00e7\u00e3o, exce\u00e7\u00f5es, m\u00f3dulos e um forte modelo orientado a objetos, onde quase tudo \u00e9 um objeto.\n\n\u00c9 amplamente utilizada para aplica\u00e7\u00f5es web com Ruby on Rails, ferramentas de linha de comando, scripts de automa\u00e7\u00e3o, ferramentas de infraestrutura, gera\u00e7\u00e3o de sites est\u00e1ticos, frameworks de teste e fluxos de trabalho de produtividade para desenvolvedores.',
+        'Ruby é uma linguagem dinâmica com sintaxe expressiva, classes abertas, blocos, mixins, metaprogramação, exceções, módulos e um forte modelo orientado a objetos, onde quase tudo é um objeto.\n\nÉ amplamente utilizada para aplicações web com Ruby on Rails, ferramentas de linha de comando, scripts de automação, ferramentas de infraestrutura, geração de sites estáticos, frameworks de teste e fluxos de trabalho de produtividade para desenvolvedores.',
     },
   },
 } satisfies Language;

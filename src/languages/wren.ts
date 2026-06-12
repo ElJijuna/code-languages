@@ -43,16 +43,16 @@ export const wren = {
     de: {
       name: 'Wren',
       description:
-        'Eine kleine, klassenbasierte Skriptsprache, die f\u00fcr die Einbettung entwickelt wurde.',
+        'Eine kleine, klassenbasierte Skriptsprache, die für die Einbettung entwickelt wurde.',
       longDescription:
-        'Wren ist eine kompakte, dynamische Sprache mit Klassen, Fibers, Modulen, Closures und einer VM, die f\u00fcr eine saubere Einbettung in Host-Anwendungen konzipiert ist. Ihre Syntax erm\u00f6glicht es, Skriptprogramme kurz zu halten und gleichzeitig ein objektorientiertes Modell zu erhalten.\n\nSie wird f\u00fcr eingebettete Skripting, Spiele, Tools, Lehre und Anwendungen verwendet, die eine kleine, einbettbare Sprache ben\u00f6tigen.',
+        'Wren ist eine kompakte, dynamische Sprache mit Klassen, Fibers, Modulen, Closures und einer VM, die für eine saubere Einbettung in Host-Anwendungen konzipiert ist. Ihre Syntax ermöglicht es, Skriptprogramme kurz zu halten und gleichzeitig ein objektorientiertes Modell zu erhalten.\n\nSie wird für eingebettete Skripting, Spiele, Tools, Lehre und Anwendungen verwendet, die eine kleine, einbettbare Sprache benötigen.',
     },
     pt: {
       name: 'Wren',
       description:
-        'Uma pequena linguagem de script baseada em classes, projetada para incorpora\u00e7\u00e3o.',
+        'Uma pequena linguagem de script baseada em classes, projetada para incorporação.',
       longDescription:
-        'Wren \u00e9 uma linguagem din\u00e2mica compacta com classes, fibras, m\u00f3dulos, closures e uma VM, projetada para ser incorporada de forma limpa em aplica\u00e7\u00f5es hospedeiras. Sua sintaxe mant\u00e9m os programas de script curtos, preservando um modelo orientado a objetos.\n\n\u00c9 usada para scripting embarcado, experimentos de jogos, ferramentas, ensino e aplica\u00e7\u00f5es que precisam de uma pequena linguagem de tempo de execu\u00e7\u00e3o incorpor\u00e1vel.',
+        'Wren é uma linguagem dinâmica compacta com classes, fibras, módulos, closures e uma VM, projetada para ser incorporada de forma limpa em aplicações hospedeiras. Sua sintaxe mantém os programas de script curtos, preservando um modelo orientado a objetos.\n\nÉ usada para scripting embarcado, experimentos de jogos, ferramentas, ensino e aplicações que precisam de uma pequena linguagem de tempo de execução incorporável.',
     },
   },
 } satisfies Language;

@@ -47,16 +47,16 @@ export const racket = {
     de: {
       name: 'Racket',
       description:
-        'Eine Scheme-basierte Sprache und Plattform f\u00fcr funktionale, lehrhafte und sprachorientierte Programmierung.',
+        'Eine Scheme-basierte Sprache und Plattform für funktionale, lehrhafte und sprachorientierte Programmierung.',
       longDescription:
-        'Racket ist eine allgemeine Programmiersprache, die zur Scheme-Familie geh\u00f6rt, und wurde als Plattform f\u00fcr die Erstellung von Sprachen sowie Anwendungen entwickelt. Sie enth\u00e4lt Module, Makros, Vertr\u00e4ge, Mustervergleich, eine umfangreiche Standardbibliothek, DrRacket und Werkzeuge zum Aufbau von dom\u00e4nenspezifischen Sprachen.\n\nSie wird in der Programmierausbildung, der Forschung im Bereich der Sprachgestaltung, f\u00fcr DSLs, Compiler, Skripting, Webanwendungen, Dokumentation mit Scribble und Projekten verwendet, die von programmierbarer Syntax und interaktiver Entwicklung profitieren.',
+        'Racket ist eine allgemeine Programmiersprache, die zur Scheme-Familie gehört, und wurde als Plattform für die Erstellung von Sprachen sowie Anwendungen entwickelt. Sie enthält Module, Makros, Verträge, Mustervergleich, eine umfangreiche Standardbibliothek, DrRacket und Werkzeuge zum Aufbau von domänenspezifischen Sprachen.\n\nSie wird in der Programmierausbildung, der Forschung im Bereich der Sprachgestaltung, für DSLs, Compiler, Skripting, Webanwendungen, Dokumentation mit Scribble und Projekten verwendet, die von programmierbarer Syntax und interaktiver Entwicklung profitieren.',
     },
     pt: {
       name: 'Racket',
       description:
-        'Linguagem e plataforma Scheme, para programa\u00e7\u00e3o funcional, educacional e orientada a linguagens.',
+        'Linguagem e plataforma Scheme, para programação funcional, educacional e orientada a linguagens.',
       longDescription:
-        'Racket \u00e9 uma linguagem de programa\u00e7\u00e3o de prop\u00f3sito geral da fam\u00edlia Scheme e Lisp, projetada como uma plataforma para criar linguagens, bem como aplica\u00e7\u00f5es. Inclui m\u00f3dulos, macros, contratos, correspond\u00eancia de padr\u00f5es, uma biblioteca padr\u00e3o rica, DrRacket e ferramentas para construir linguagens espec\u00edficas de dom\u00ednio.\n\n\u00c9 usada em educa\u00e7\u00e3o em programa\u00e7\u00e3o, pesquisa em design de linguagens, DSLs, compiladores, scripting, aplica\u00e7\u00f5es web, documenta\u00e7\u00e3o com Scribble e projetos que se beneficiam de sintaxe program\u00e1vel e desenvolvimento interativo.',
+        'Racket é uma linguagem de programação de propósito geral da família Scheme e Lisp, projetada como uma plataforma para criar linguagens, bem como aplicações. Inclui módulos, macros, contratos, correspondência de padrões, uma biblioteca padrão rica, DrRacket e ferramentas para construir linguagens específicas de domínio.\n\nÉ usada em educação em programação, pesquisa em design de linguagens, DSLs, compiladores, scripting, aplicações web, documentação com Scribble e projetos que se beneficiam de sintaxe programável e desenvolvimento interativo.',
     },
   },
 } satisfies Language;

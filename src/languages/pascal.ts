@@ -47,16 +47,16 @@ export const pascal = {
     de: {
       name: 'Pascal',
       description:
-        'Eine strukturierte Programmiersprache und die Object Pascal-Familie, die f\u00fcr native Anwendungen verwendet wird.',
+        'Eine strukturierte Programmiersprache und die Object Pascal-Familie, die für native Anwendungen verwendet wird.',
       longDescription:
-        'Pascal ist eine strukturierte Programmiersprache, die von Niklaus Wirth entwickelt wurde und sp\u00e4ter durch Dialekte wie Object Pascal, Delphi und Free Pascal erweitert wurde. Sie betont eine lesbare Syntax, eine klare Programmstruktur, starke Typisierung, Prozeduren, Datens\u00e4tze, Einheiten und native Kompilierung.\n\nSie wird in der Bildung, Desktop-Software, plattform\u00fcbergreifenden nativen Anwendungen, eingebetteten Systemen, Legacy-Gesch\u00e4ftstools und Lazarus- oder Delphi-Projekten verwendet, die auf Pascal und Object Pascal-Quellcode basieren.',
+        'Pascal ist eine strukturierte Programmiersprache, die von Niklaus Wirth entwickelt wurde und später durch Dialekte wie Object Pascal, Delphi und Free Pascal erweitert wurde. Sie betont eine lesbare Syntax, eine klare Programmstruktur, starke Typisierung, Prozeduren, Datensätze, Einheiten und native Kompilierung.\n\nSie wird in der Bildung, Desktop-Software, plattformübergreifenden nativen Anwendungen, eingebetteten Systemen, Legacy-Geschäftstools und Lazarus- oder Delphi-Projekten verwendet, die auf Pascal und Object Pascal-Quellcode basieren.',
     },
     pt: {
       name: 'Pascal',
       description:
-        'Linguagem de programa\u00e7\u00e3o estruturada e a fam\u00edlia Object Pascal, usada para aplica\u00e7\u00f5es nativas.',
+        'Linguagem de programação estruturada e a família Object Pascal, usada para aplicações nativas.',
       longDescription:
-        'Pascal \u00e9 uma linguagem de programa\u00e7\u00e3o estruturada criada por Niklaus Wirth e posteriormente expandida atrav\u00e9s de dialetos Object Pascal como Delphi e Free Pascal. Enfatiza uma sintaxe leg\u00edvel, uma estrutura de programa clara, tipagem forte, procedimentos, registros, unidades e compila\u00e7\u00e3o nativa.\n\n\u00c9 utilizada em educa\u00e7\u00e3o, software de desktop, aplica\u00e7\u00f5es nativas multiplataforma, sistemas embarcados, ferramentas de neg\u00f3cios legadas e projetos Lazarus ou Delphi que dependem de arquivos de c\u00f3digo fonte em Pascal e Object Pascal.',
+        'Pascal é uma linguagem de programação estruturada criada por Niklaus Wirth e posteriormente expandida através de dialetos Object Pascal como Delphi e Free Pascal. Enfatiza uma sintaxe legível, uma estrutura de programa clara, tipagem forte, procedimentos, registros, unidades e compilação nativa.\n\nÉ utilizada em educação, software de desktop, aplicações nativas multiplataforma, sistemas embarcados, ferramentas de negócios legadas e projetos Lazarus ou Delphi que dependem de arquivos de código fonte em Pascal e Object Pascal.',
     },
   },
 } satisfies Language;

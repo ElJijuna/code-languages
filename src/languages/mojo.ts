@@ -44,16 +44,16 @@ export const mojo = {
     },
     de: {
       name: 'Mojo',
-      description: 'Eine systemorientierte Sprache f\u00fcr KI und Beschleuniger-Programmierung.',
+      description: 'Eine systemorientierte Sprache für KI und Beschleuniger-Programmierung.',
       longDescription:
-        'Mojo ist eine Sprache von Modular, die Python-\u00e4hnliche Syntax mit Ownership, Wertsemantik, Low-Level-Kontrolle und Compiler-Funktionen kombiniert, die auf performanzsensiblen Code abzielen. Ihr Toolchain richtet sich an CPUs und Beschleuniger-Workflows.\n\nSie wird in Experimenten mit KI-Kernen, numerischem Code, Systemprogrammierung, Python-nahen Bibliotheken und Workloads eingesetzt, die explizite Performance-Kontrolle ben\u00f6tigen.',
+        'Mojo ist eine Sprache von Modular, die Python-ähnliche Syntax mit Ownership, Wertsemantik, Low-Level-Kontrolle und Compiler-Funktionen kombiniert, die auf performanzsensiblen Code abzielen. Ihr Toolchain richtet sich an CPUs und Beschleuniger-Workflows.\n\nSie wird in Experimenten mit KI-Kernen, numerischem Code, Systemprogrammierung, Python-nahen Bibliotheken und Workloads eingesetzt, die explizite Performance-Kontrolle benötigen.',
     },
     pt: {
       name: 'Mojo',
       description:
-        'Linguagem orientada a sistemas para IA e programa\u00e7\u00e3o consciente de aceleradores.',
+        'Linguagem orientada a sistemas para IA e programação consciente de aceleradores.',
       longDescription:
-        'Mojo \u00e9 uma linguagem da Modular que combina a sintaxe amig\u00e1vel do Python com propriedade, sem\u00e2ntica de valores, controle de baixo n\u00edvel e recursos de compilador, visando c\u00f3digo sens\u00edvel ao desempenho. Sua ferramenta visa CPUs e fluxos de trabalho de aceleradores.\n\n\u00c9 usada em experimentos com n\u00facleos de IA, c\u00f3digo num\u00e9rico, programa\u00e7\u00e3o de sistemas, bibliotecas pr\u00f3ximas ao Python e cargas de trabalho que exigem controle de desempenho expl\u00edcito.',
+        'Mojo é uma linguagem da Modular que combina a sintaxe amigável do Python com propriedade, semântica de valores, controle de baixo nível e recursos de compilador, visando código sensível ao desempenho. Sua ferramenta visa CPUs e fluxos de trabalho de aceleradores.\n\nÉ usada em experimentos com núcleos de IA, código numérico, programação de sistemas, bibliotecas próximas ao Python e cargas de trabalho que exigem controle de desempenho explícito.',
     },
   },
 } satisfies Language;

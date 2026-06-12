@@ -41,15 +41,15 @@ export const json = {
     de: {
       name: 'JSON',
       description:
-        'Ein leichtgewichtiges Datenformat f\u00fcr den Datenaustausch, basierend auf der JavaScript-Objekt-Syntax.',
+        'Ein leichtgewichtiges Datenformat für den Datenaustausch, basierend auf der JavaScript-Objekt-Syntax.',
       longDescription:
-        'JSON stellt strukturierte Daten mit Objekten, Arrays, Strings, Zahlen, Booleans und Null dar, unter Verwendung eines kompakten Textformats, das f\u00fcr Programme leicht zu parsen und zu generieren ist.\n\nEs wird h\u00e4ufig f\u00fcr Web-APIs, Konfigurationsdateien, Protokolle, Paketmanifeste, Anwendungszust\u00e4nde und den Datenaustausch zwischen Diensten verwendet.',
+        'JSON stellt strukturierte Daten mit Objekten, Arrays, Strings, Zahlen, Booleans und Null dar, unter Verwendung eines kompakten Textformats, das für Programme leicht zu parsen und zu generieren ist.\n\nEs wird häufig für Web-APIs, Konfigurationsdateien, Protokolle, Paketmanifeste, Anwendungszustände und den Datenaustausch zwischen Diensten verwendet.',
     },
     pt: {
       name: 'JSON',
       description: 'Um formato leve de troca de dados baseado na sintaxe de objetos JavaScript.',
       longDescription:
-        'O JSON representa dados estruturados com objetos, arrays, strings, n\u00fameros, booleanos e null, usando um formato de texto compacto que \u00e9 f\u00e1cil para os programas analisarem e gerarem.\n\n\u00c9 amplamente utilizado para APIs web, arquivos de configura\u00e7\u00e3o, logs, manifestos de pacotes, estado da aplica\u00e7\u00e3o e troca de dados entre servi\u00e7os.',
+        'O JSON representa dados estruturados com objetos, arrays, strings, números, booleanos e null, usando um formato de texto compacto que é fácil para os programas analisarem e gerarem.\n\nÉ amplamente utilizado para APIs web, arquivos de configuração, logs, manifestos de pacotes, estado da aplicação e troca de dados entre serviços.',
     },
   },
 } satisfies Language;

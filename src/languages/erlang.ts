@@ -47,16 +47,16 @@ export const erlang = {
     de: {
       name: 'Erlang',
       description:
-        'Ein konkurrierender funktionaler Programmiersprache f\u00fcr fehlertolerante, verteilte und hochverf\u00fcgbare Systeme.',
+        'Ein konkurrierender funktionaler Programmiersprache für fehlertolerante, verteilte und hochverfügbare Systeme.',
       longDescription:
-        'Erlang ist eine funktionale Programmiersprache und Laufzeitumgebung, die f\u00fcr konkurrierende, verteilte, fehlertolerante Anwendungen entwickelt wurde. Erlang/OTP enth\u00e4lt die BEAM-virtuelle Maschine, leichte Prozesse, Nachrichten\u00fcbertragung, Supervisors, Anwendungen, Releases und Bibliotheken zum Aufbau robuster Systeme.\n\nEs wird h\u00e4ufig in Telekommunikationsplattformen, Messaging-Systemen, Datenbanken, Echtzeitdiensten, Netzwerkinfrastruktur, IoT und Systemen eingesetzt, bei denen Ausfallsicherheit, Hot-Code-Upgrades und Fehlerisolation von zentraler Bedeutung sind.',
+        'Erlang ist eine funktionale Programmiersprache und Laufzeitumgebung, die für konkurrierende, verteilte, fehlertolerante Anwendungen entwickelt wurde. Erlang/OTP enthält die BEAM-virtuelle Maschine, leichte Prozesse, Nachrichtenübertragung, Supervisors, Anwendungen, Releases und Bibliotheken zum Aufbau robuster Systeme.\n\nEs wird häufig in Telekommunikationsplattformen, Messaging-Systemen, Datenbanken, Echtzeitdiensten, Netzwerkinfrastruktur, IoT und Systemen eingesetzt, bei denen Ausfallsicherheit, Hot-Code-Upgrades und Fehlerisolation von zentraler Bedeutung sind.',
     },
     pt: {
       name: 'Erlang',
       description:
-        'Linguagem funcional concorrente para sistemas tolerantes a falhas, distribu\u00eddos e altamente dispon\u00edveis.',
+        'Linguagem funcional concorrente para sistemas tolerantes a falhas, distribuídos e altamente disponíveis.',
       longDescription:
-        'Erlang \u00e9 uma linguagem de programa\u00e7\u00e3o e sistema de tempo de execu\u00e7\u00e3o funcional, projetada para aplica\u00e7\u00f5es concorrentes, distribu\u00eddas e tolerantes a falhas. Erlang/OTP inclui a m\u00e1quina virtual BEAM, processos leves, passagem de mensagens, supervisores, aplica\u00e7\u00f5es, releases e bibliotecas para construir sistemas resilientes.\n\n\u00c9 amplamente utilizada em plataformas de telecomunica\u00e7\u00f5es, sistemas de mensagens, bancos de dados, servi\u00e7os em tempo real, infraestrutura de rede, IoT e sistemas onde a disponibilidade, atualiza\u00e7\u00f5es de c\u00f3digo quentes e isolamento de falhas s\u00e3o requisitos centrais.',
+        'Erlang é uma linguagem de programação e sistema de tempo de execução funcional, projetada para aplicações concorrentes, distribuídas e tolerantes a falhas. Erlang/OTP inclui a máquina virtual BEAM, processos leves, passagem de mensagens, supervisores, aplicações, releases e bibliotecas para construir sistemas resilientes.\n\nÉ amplamente utilizada em plataformas de telecomunicações, sistemas de mensagens, bancos de dados, serviços em tempo real, infraestrutura de rede, IoT e sistemas onde a disponibilidade, atualizações de código quentes e isolamento de falhas são requisitos centrais.',
     },
   },
 } satisfies Language;

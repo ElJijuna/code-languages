@@ -45,16 +45,16 @@ export const ini = {
     de: {
       name: 'INI',
       description:
-        'Ein einfacher, section-basierter Konfigurationsformat, das auf Schl\u00fcsseln, Werten und Kommentaren basiert.',
+        'Ein einfacher, section-basierter Konfigurationsformat, das auf Schlüsseln, Werten und Kommentaren basiert.',
       longDescription:
-        'INI-Dateien speichern Konfiguration als Abschnitte mit Schl\u00fcssel-Wert-Paaren, oft mit Kommentaren und parserspezifischen Regeln. Das Format ist absichtlich einfach und hat keinen einzelnen formalen Standard, sodass das Verhalten je nach Parser variieren kann.\n\nINI-basierte Dateien sind in Windows-Anwendungen, \u00e4lterer Desktop-Software, Spielkonfigurationen, Entwickler-Tools und kleinen Projekten \u00fcblich, die eine lesbare Konfiguration ohne ein schwereres Serialisierungsformat ben\u00f6tigen.',
+        'INI-Dateien speichern Konfiguration als Abschnitte mit Schlüssel-Wert-Paaren, oft mit Kommentaren und parserspezifischen Regeln. Das Format ist absichtlich einfach und hat keinen einzelnen formalen Standard, sodass das Verhalten je nach Parser variieren kann.\n\nINI-basierte Dateien sind in Windows-Anwendungen, älterer Desktop-Software, Spielkonfigurationen, Entwickler-Tools und kleinen Projekten üblich, die eine lesbare Konfiguration ohne ein schwereres Serialisierungsformat benötigen.',
     },
     pt: {
       name: 'INI',
       description:
-        'Um formato de configura\u00e7\u00e3o simples baseado em se\u00e7\u00f5es, chaves, valores e coment\u00e1rios.',
+        'Um formato de configuração simples baseado em seções, chaves, valores e comentários.',
       longDescription:
-        'Arquivos INI armazenam configura\u00e7\u00f5es em se\u00e7\u00f5es com pares chave-valor, geralmente com coment\u00e1rios e regras de an\u00e1lise espec\u00edficas da implementa\u00e7\u00e3o. O formato \u00e9 intencionalmente simples e n\u00e3o possui um padr\u00e3o formal \u00fanico, portanto, o comportamento pode variar entre os analisadores.\n\nArquivos no estilo INI s\u00e3o comuns em aplicativos Windows, software de desktop legado, configura\u00e7\u00e3o de jogos, ferramentas de desenvolvimento e pequenos projetos que precisam de configura\u00e7\u00f5es leg\u00edveis sem um formato de serializa\u00e7\u00e3o mais pesado.',
+        'Arquivos INI armazenam configurações em seções com pares chave-valor, geralmente com comentários e regras de análise específicas da implementação. O formato é intencionalmente simples e não possui um padrão formal único, portanto, o comportamento pode variar entre os analisadores.\n\nArquivos no estilo INI são comuns em aplicativos Windows, software de desktop legado, configuração de jogos, ferramentas de desenvolvimento e pequenos projetos que precisam de configurações legíveis sem um formato de serialização mais pesado.',
     },
   },
 } satisfies Language;

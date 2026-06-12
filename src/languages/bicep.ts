@@ -44,14 +44,13 @@ export const bicep = {
       name: 'Bicep',
       description: 'Eine deklarative Sprache zur Beschreibung der Azure-Infrastruktur als Code.',
       longDescription:
-        'Bicep ist eine dom\u00e4nenspezifische Sprache zum Erstellen von Azure Resource Manager-Bereitstellungen mit einer pr\u00e4gnanten Syntax, Modulen, Parametern, symbolischen Namen, Schleifen, Bedingungen und typsicherem Werkzeug. Es kompiliert zu ARM-Vorlagen, bietet aber Autoren ein freundlicheres Quellformat.\n\nEs wird f\u00fcr wiederholte Bereitstellungen der Azure-Infrastruktur, Plattformentwicklung, Cloud-Governance, wiederverwendbare Module, CI/CD-Bereitstellung und ressourcenbezogene Definitionen verwendet, die auf bestimmte Umgebungen zugeschnitten sind.',
+        'Bicep ist eine domänenspezifische Sprache zum Erstellen von Azure Resource Manager-Bereitstellungen mit einer prägnanten Syntax, Modulen, Parametern, symbolischen Namen, Schleifen, Bedingungen und typsicherem Werkzeug. Es kompiliert zu ARM-Vorlagen, bietet aber Autoren ein freundlicheres Quellformat.\n\nEs wird für wiederholte Bereitstellungen der Azure-Infrastruktur, Plattformentwicklung, Cloud-Governance, wiederverwendbare Module, CI/CD-Bereitstellung und ressourcenbezogene Definitionen verwendet, die auf bestimmte Umgebungen zugeschnitten sind.',
     },
     pt: {
       name: 'Bicep',
-      description:
-        'Linguagem declarativa para descrever a infraestrutura do Azure como c\u00f3digo.',
+      description: 'Linguagem declarativa para descrever a infraestrutura do Azure como código.',
       longDescription:
-        'Bicep \u00e9 uma linguagem espec\u00edfica para a cria\u00e7\u00e3o de implanta\u00e7\u00f5es do Azure Resource Manager com uma sintaxe concisa, m\u00f3dulos, par\u00e2metros, nomes simb\u00f3licos, loops, condi\u00e7\u00f5es e ferramentas com suporte a tipos. Compila para modelos ARM, oferecendo um formato de c\u00f3digo mais amig\u00e1vel aos autores.\n\n\u00c9 utilizada para implanta\u00e7\u00f5es repet\u00edveis de infraestrutura do Azure, engenharia de plataforma, governan\u00e7a em nuvem, m\u00f3dulos reutiliz\u00e1veis, provisionamento CI/CD e defini\u00e7\u00f5es de recursos espec\u00edficas do ambiente.',
+        'Bicep é uma linguagem específica para a criação de implantações do Azure Resource Manager com uma sintaxe concisa, módulos, parâmetros, nomes simbólicos, loops, condições e ferramentas com suporte a tipos. Compila para modelos ARM, oferecendo um formato de código mais amigável aos autores.\n\nÉ utilizada para implantações repetíveis de infraestrutura do Azure, engenharia de plataforma, governança em nuvem, módulos reutilizáveis, provisionamento CI/CD e definições de recursos específicas do ambiente.',
     },
   },
 } satisfies Language;

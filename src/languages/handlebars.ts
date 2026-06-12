@@ -47,13 +47,13 @@ export const handlebars = {
       name: 'Handlebars',
       description: 'Eine einfache Template-Sprache zum Rendern von HTML und Text aus Daten.',
       longDescription:
-        'Handlebars ist eine Template-Sprache und JavaScript-Runtime, die Mustache erweitert und Funktionen wie Hilfsfunktionen, Block-Ausdr\u00fccke, Partials, Vorabkompilierung und Escaping bietet. Sie erm\u00f6glicht es, Templates auf die Pr\u00e4sentation zu konzentrieren, w\u00e4hrend Hilfsfunktionen wiederverwendbares Verhalten bereitstellen.\n\nEs wird f\u00fcr serverseitiges HTML, clientseitige Views, statische Seitengenerierung, transaktionale E-Mails, Dokumentationstools und Build-Systeme verwendet, die von strukturierten Daten vorhersehbare Textgenerierung ben\u00f6tigen.',
+        'Handlebars ist eine Template-Sprache und JavaScript-Runtime, die Mustache erweitert und Funktionen wie Hilfsfunktionen, Block-Ausdrücke, Partials, Vorabkompilierung und Escaping bietet. Sie ermöglicht es, Templates auf die Präsentation zu konzentrieren, während Hilfsfunktionen wiederverwendbares Verhalten bereitstellen.\n\nEs wird für serverseitiges HTML, clientseitige Views, statische Seitengenerierung, transaktionale E-Mails, Dokumentationstools und Build-Systeme verwendet, die von strukturierten Daten vorhersehbare Textgenerierung benötigen.',
     },
     pt: {
       name: 'Handlebars',
       description: 'Linguagem de modelo leve para renderizar HTML e texto a partir de dados.',
       longDescription:
-        'Handlebars \u00e9 uma linguagem de modelo e ambiente de tempo de execu\u00e7\u00e3o JavaScript que estende o Mustache com helpers, express\u00f5es de bloco, parti\u00e7\u00f5es, pr\u00e9-compila\u00e7\u00e3o e escapamento. Mant\u00e9m os modelos focados na apresenta\u00e7\u00e3o, permitindo que os helpers forne\u00e7am comportamento reutiliz\u00e1vel.\n\n\u00c9 usada para HTML renderizado no servidor, visualiza\u00e7\u00f5es no lado do cliente, gera\u00e7\u00e3o de sites est\u00e1ticos, e-mails transacionais, ferramentas de documenta\u00e7\u00e3o e sistemas de constru\u00e7\u00e3o que precisam gerar texto previs\u00edvel a partir de dados estruturados.',
+        'Handlebars é uma linguagem de modelo e ambiente de tempo de execução JavaScript que estende o Mustache com helpers, expressões de bloco, partições, pré-compilação e escapamento. Mantém os modelos focados na apresentação, permitindo que os helpers forneçam comportamento reutilizável.\n\nÉ usada para HTML renderizado no servidor, visualizações no lado do cliente, geração de sites estáticos, e-mails transacionais, ferramentas de documentação e sistemas de construção que precisam gerar texto previsível a partir de dados estruturados.',
     },
   },
 } satisfies Language;

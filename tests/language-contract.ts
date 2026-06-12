@@ -3,6 +3,8 @@ import type { Language, LanguageContent } from '../src';
 import { localizeLanguage } from '../src';
 
 export const expectValidLanguage = (language: Language, expectedSlug: string) => {
+  const requiredLocales = ['en', 'es', 'it', 'fr', 'de', 'pt'] as const;
+
   expect(language.slug).toBe(expectedSlug);
   expect(language.slug).toMatch(/^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$/);
   expect(language.publishedDate).toMatch(/^\d{4}-\d{2}-\d{2}$/);
@@ -21,7 +23,17 @@ export const expectValidLanguage = (language: Language, expectedSlug: string) =>
   expectNonEmptyString(language.version);
   expect(language.logo).toMatch(/^https:\/\//);
   expect(language.color).toMatch(/^#[0-9A-F]{6}$/);
-  expectLanguageContent(language.i18n.en);
+  for (const locale of requiredLocales) {
+    const content = language.i18n[locale];
+
+    expect(content, `${language.slug} is missing ${locale} content`).toBeDefined();
+
+    if (!content) {
+      throw new Error(`${language.slug} is missing ${locale} content`);
+    }
+
+    expectLanguageContent(content);
+  }
 
   for (const content of Object.values(language.i18n)) {
     expectLanguageContent(content);

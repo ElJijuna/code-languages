@@ -47,16 +47,16 @@ export const crystal = {
     de: {
       name: 'Crystal',
       description:
-        'Eine kompilierte, statisch typisierte Sprache mit Ruby-\u00e4hnlicher Syntax und nativem Leistung.',
+        'Eine kompilierte, statisch typisierte Sprache mit Ruby-ähnlicher Syntax und nativem Leistung.',
       longDescription:
-        'Crystal ist eine allgemeine Programmiersprache mit Syntax, die von Ruby inspiriert ist, statischer Typ\u00fcberpr\u00fcfung, Typinferenz, Makros, Fibers, Kan\u00e4len, C-Bindings und nativem Kompilieren. Sie zielt darauf ab, Code ausdrucksstark zu halten und gleichzeitig Typfehler zur Kompilierzeit zu erkennen.\n\nEs wird f\u00fcr Webdienste, Kommandozeilen-Tools, Automatisierung, native Anwendungen, performante Backend-Systeme und Projekte verwendet, die die Ergonomie von Ruby mit einer kompilierten Toolchain w\u00fcnschen.',
+        'Crystal ist eine allgemeine Programmiersprache mit Syntax, die von Ruby inspiriert ist, statischer Typüberprüfung, Typinferenz, Makros, Fibers, Kanälen, C-Bindings und nativem Kompilieren. Sie zielt darauf ab, Code ausdrucksstark zu halten und gleichzeitig Typfehler zur Kompilierzeit zu erkennen.\n\nEs wird für Webdienste, Kommandozeilen-Tools, Automatisierung, native Anwendungen, performante Backend-Systeme und Projekte verwendet, die die Ergonomie von Ruby mit einer kompilierten Toolchain wünschen.',
     },
     pt: {
       name: 'Crystal',
       description:
         'Linguagem compilada, estaticamente tipada com sintaxe inspirada em Ruby e desempenho nativo.',
       longDescription:
-        'Crystal \u00e9 uma linguagem de programa\u00e7\u00e3o de prop\u00f3sito geral com sintaxe inspirada em Ruby, verifica\u00e7\u00e3o est\u00e1tica de tipos, infer\u00eancia de tipos, macros, fibras, canais, bindings C e compila\u00e7\u00e3o nativa. Seu objetivo \u00e9 manter o c\u00f3digo expressivo, capturando erros de tipo em tempo de compila\u00e7\u00e3o.\n\n\u00c9 usada para servi\u00e7os web, ferramentas de linha de comando, automa\u00e7\u00e3o, aplicativos nativos, sistemas de backend sens\u00edveis ao desempenho e projetos que desejam a ergonomia semelhante ao Ruby com uma ferramenta compilada.',
+        'Crystal é uma linguagem de programação de propósito geral com sintaxe inspirada em Ruby, verificação estática de tipos, inferência de tipos, macros, fibras, canais, bindings C e compilação nativa. Seu objetivo é manter o código expressivo, capturando erros de tipo em tempo de compilação.\n\nÉ usada para serviços web, ferramentas de linha de comando, automação, aplicativos nativos, sistemas de backend sensíveis ao desempenho e projetos que desejam a ergonomia semelhante ao Ruby com uma ferramenta compilada.',
     },
   },
 } satisfies Language;

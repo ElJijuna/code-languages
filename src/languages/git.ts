@@ -48,14 +48,14 @@ export const git = {
       description:
         'Metadaten und Konfigurationsdateien, die von Git-Repositories und Versionskontroll-Workflows verwendet werden.',
       longDescription:
-        'Git-bezogene Dateien definieren Regeln f\u00fcr die Ignorierung von Dateien, Attribute, Submodule, lokale Konfiguration, Platzhalter und Metadaten des Repositorys, die von Git-Tools verwendet werden.\n\nSie werden in Softwareprojekten verwendet, um zu steuern, welche Dateien verfolgt werden, wie Pfade behandelt werden, wie Submodule verkn\u00fcpft werden und wie sich Repository-spezifische Automatisierung oder Konventionen verhalten.',
+        'Git-bezogene Dateien definieren Regeln für die Ignorierung von Dateien, Attribute, Submodule, lokale Konfiguration, Platzhalter und Metadaten des Repositorys, die von Git-Tools verwendet werden.\n\nSie werden in Softwareprojekten verwendet, um zu steuern, welche Dateien verfolgt werden, wie Pfade behandelt werden, wie Submodule verknüpft werden und wie sich Repository-spezifische Automatisierung oder Konventionen verhalten.',
     },
     pt: {
       name: 'Git',
       description:
-        'Metadados e arquivos de configura\u00e7\u00e3o usados por reposit\u00f3rios Git e fluxos de trabalho de controle de vers\u00e3o.',
+        'Metadados e arquivos de configuração usados por repositórios Git e fluxos de trabalho de controle de versão.',
       longDescription:
-        'Arquivos relacionados ao Git definem regras de ignorar reposit\u00f3rios, atributos, subm\u00f3dulos, configura\u00e7\u00e3o local, marcadores e metadados do reposit\u00f3rio usados pelas ferramentas do Git.\n\nS\u00e3o usados em projetos de software para controlar quais arquivos s\u00e3o rastreados, como os caminhos s\u00e3o tratados, como os subm\u00f3dulos s\u00e3o vinculados e como o comportamento da automa\u00e7\u00e3o ou conven\u00e7\u00f5es espec\u00edficas do reposit\u00f3rio.',
+        'Arquivos relacionados ao Git definem regras de ignorar repositórios, atributos, submódulos, configuração local, marcadores e metadados do repositório usados pelas ferramentas do Git.\n\nSão usados em projetos de software para controlar quais arquivos são rastreados, como os caminhos são tratados, como os submódulos são vinculados e como o comportamento da automação ou convenções específicas do repositório.',
     },
   },
 } satisfies Language;

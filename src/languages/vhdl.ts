@@ -47,16 +47,16 @@ export const vhdl = {
     de: {
       name: 'VHDL',
       description:
-        'Eine Hardware-Beschreibung und -Verifikationssprache f\u00fcr digitale elektronische Systeme.',
+        'Eine Hardware-Beschreibung und -Verifikationssprache für digitale elektronische Systeme.',
       longDescription:
-        'VHDL beschreibt digitale Systeme mithilfe von Entit\u00e4ten, Architekturen, Signalen, Prozessen, nebenl\u00e4ufigen Anweisungen, Paketen, Generics und stark typisierten Designeinheiten. Es unterst\u00fctzt Simulation, Synthese und Verifikation auf verschiedenen Abstraktionsebenen.\n\nEs wird f\u00fcr FPGA-Entwicklung, ASIC-Design, Hardware-Verifikation, wiederverwendbare IP-Bl\u00f6cke, digitale Signalverarbeitung, sicherheitskritische Hardware und elektronische Designautomatisierung verwendet.',
+        'VHDL beschreibt digitale Systeme mithilfe von Entitäten, Architekturen, Signalen, Prozessen, nebenläufigen Anweisungen, Paketen, Generics und stark typisierten Designeinheiten. Es unterstützt Simulation, Synthese und Verifikation auf verschiedenen Abstraktionsebenen.\n\nEs wird für FPGA-Entwicklung, ASIC-Design, Hardware-Verifikation, wiederverwendbare IP-Blöcke, digitale Signalverarbeitung, sicherheitskritische Hardware und elektronische Designautomatisierung verwendet.',
     },
     pt: {
       name: 'VHDL',
       description:
-        'Linguagem de descri\u00e7\u00e3o e verifica\u00e7\u00e3o de hardware para sistemas eletr\u00f4nicos digitais.',
+        'Linguagem de descrição e verificação de hardware para sistemas eletrônicos digitais.',
       longDescription:
-        'VHDL descreve sistemas digitais usando entidades, arquiteturas, sinais, processos, declara\u00e7\u00f5es concorrentes, pacotes, gen\u00e9ricos, configura\u00e7\u00f5es, bancas de teste e unidades de projeto fortemente tipadas. Suporta simula\u00e7\u00e3o, s\u00edntese e verifica\u00e7\u00e3o em v\u00e1rios n\u00edveis de abstra\u00e7\u00e3o.\n\n\u00c9 usada para desenvolvimento de FPGA, design de ASIC, verifica\u00e7\u00e3o de hardware, blocos de IP reutiliz\u00e1veis, processamento de sinais digitais, hardware cr\u00edtico para seguran\u00e7a e fluxos de trabalho de automa\u00e7\u00e3o de design eletr\u00f4nico.',
+        'VHDL descreve sistemas digitais usando entidades, arquiteturas, sinais, processos, declarações concorrentes, pacotes, genéricos, configurações, bancas de teste e unidades de projeto fortemente tipadas. Suporta simulação, síntese e verificação em vários níveis de abstração.\n\nÉ usada para desenvolvimento de FPGA, design de ASIC, verificação de hardware, blocos de IP reutilizáveis, processamento de sinais digitais, hardware crítico para segurança e fluxos de trabalho de automação de design eletrônico.',
     },
   },
 } satisfies Language;

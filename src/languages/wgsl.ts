@@ -45,16 +45,16 @@ export const wgsl = {
     de: {
       name: 'WGSL',
       description:
-        'Die WebGPU-Shader-Sprache f\u00fcr portables Browser- und natives GPU-Programmieren.',
+        'Die WebGPU-Shader-Sprache für portables Browser- und natives GPU-Programmieren.',
       longDescription:
-        'WGSL ist die Shader-Sprache f\u00fcr WebGPU, die f\u00fcr vorhersehbare Validierung, Portabilit\u00e4t und Sicherheit \u00fcber verschiedene Grafik-Backends hinweg entwickelt wurde. Sie enth\u00e4lt explizite Typen, Adressr\u00e4ume, Eintrittspunkte, Bindungen, Uniformen, Speicherpuffer, Texturen, Workgroups und integrierte Funktionen f\u00fcr Grafik- und Compute-Shader.\n\nSie wird in WebGPU-Anwendungen, Browser-Rendering, nativen wgpu-Projekten, Visualisierungstools, Compute-Workloads, kreativem Coding und Grafik-Engines verwendet, die eine portable GPU-Ausf\u00fchrung anvisieren.',
+        'WGSL ist die Shader-Sprache für WebGPU, die für vorhersehbare Validierung, Portabilität und Sicherheit über verschiedene Grafik-Backends hinweg entwickelt wurde. Sie enthält explizite Typen, Adressräume, Eintrittspunkte, Bindungen, Uniformen, Speicherpuffer, Texturen, Workgroups und integrierte Funktionen für Grafik- und Compute-Shader.\n\nSie wird in WebGPU-Anwendungen, Browser-Rendering, nativen wgpu-Projekten, Visualisierungstools, Compute-Workloads, kreativem Coding und Grafik-Engines verwendet, die eine portable GPU-Ausführung anvisieren.',
     },
     pt: {
       name: 'WGSL',
       description:
-        'A linguagem de shader WebGPU para programas port\u00e1teis no navegador e em GPUs nativas.',
+        'A linguagem de shader WebGPU para programas portáteis no navegador e em GPUs nativas.',
       longDescription:
-        'WGSL \u00e9 a linguagem de shader para WebGPU, projetada para valida\u00e7\u00e3o previs\u00edvel, portabilidade e seguran\u00e7a em diferentes backends gr\u00e1ficos. Inclui tipos expl\u00edcitos, espa\u00e7os de endere\u00e7o, pontos de entrada, bindings, uniforms, buffers de armazenamento, texturas, workgroups e fun\u00e7\u00f5es embutidas para shaders gr\u00e1ficos e de computa\u00e7\u00e3o.\n\n\u00c9 utilizada em aplica\u00e7\u00f5es WebGPU, renderiza\u00e7\u00e3o no navegador, projetos nativos wgpu, ferramentas de visualiza\u00e7\u00e3o, cargas de trabalho de computa\u00e7\u00e3o, programa\u00e7\u00e3o criativa e engines gr\u00e1ficas que visam a execu\u00e7\u00e3o port\u00e1til em GPUs.',
+        'WGSL é a linguagem de shader para WebGPU, projetada para validação previsível, portabilidade e segurança em diferentes backends gráficos. Inclui tipos explícitos, espaços de endereço, pontos de entrada, bindings, uniforms, buffers de armazenamento, texturas, workgroups e funções embutidas para shaders gráficos e de computação.\n\nÉ utilizada em aplicações WebGPU, renderização no navegador, projetos nativos wgpu, ferramentas de visualização, cargas de trabalho de computação, programação criativa e engines gráficas que visam a execução portátil em GPUs.',
     },
   },
 } satisfies Language;

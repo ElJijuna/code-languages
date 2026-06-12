@@ -47,16 +47,16 @@ export const xquery = {
     de: {
       name: 'XQuery',
       description:
-        'Eine W3C-Abfragesprache und -Anwendungssprache f\u00fcr XML, strukturierte und halbstrukturierte Daten.',
+        'Eine W3C-Abfragesprache und -Anwendungssprache für XML, strukturierte und halbstrukturierte Daten.',
       longDescription:
-        'XQuery ist eine deklarative Abfragesprache f\u00fcr XML und verwandte strukturierte Daten. Sie kombiniert XPath-Ausdr\u00fccke, FLWOR-Abfragen, Funktionen, Module, Sequenzverarbeitung, Namespaces und typsichere Operationen, um XML oder andere serialisierte Ergebnisse zu extrahieren, zu transformieren, zu verkn\u00fcpfen und zu erstellen.\n\nEs wird in nativen XML-Datenbanken, Ver\u00f6ffentlichungs-Pipelines, Dokumenten-Repositories, Unternehmensintegrationen, digitalen Geisteswissenschaften, Metadatenverarbeitung und Anwendungen verwendet, die gro\u00dfe Sammlungen von XML- oder halbstrukturierter Inhalte abfragen.',
+        'XQuery ist eine deklarative Abfragesprache für XML und verwandte strukturierte Daten. Sie kombiniert XPath-Ausdrücke, FLWOR-Abfragen, Funktionen, Module, Sequenzverarbeitung, Namespaces und typsichere Operationen, um XML oder andere serialisierte Ergebnisse zu extrahieren, zu transformieren, zu verknüpfen und zu erstellen.\n\nEs wird in nativen XML-Datenbanken, Veröffentlichungs-Pipelines, Dokumenten-Repositories, Unternehmensintegrationen, digitalen Geisteswissenschaften, Metadatenverarbeitung und Anwendungen verwendet, die große Sammlungen von XML- oder halbstrukturierter Inhalte abfragen.',
     },
     pt: {
       name: 'XQuery',
       description:
-        'Linguagem de consulta e aplica\u00e7\u00e3o da W3C para XML, dados estruturados e semiestruturados.',
+        'Linguagem de consulta e aplicação da W3C para XML, dados estruturados e semiestruturados.',
       longDescription:
-        'XQuery \u00e9 uma linguagem de consulta declarativa para XML e dados estruturados relacionados. Combina express\u00f5es XPath, consultas FLWOR, fun\u00e7\u00f5es, m\u00f3dulos, processamento de sequ\u00eancias, namespaces e opera\u00e7\u00f5es conscientes de tipo para extrair, transformar, juntar e construir resultados XML ou serializados.\n\n\u00c9 utilizada em bancos de dados XML nativos, pipelines de publica\u00e7\u00e3o, reposit\u00f3rios de documentos, integra\u00e7\u00e3o empresarial, humanidades digitais, processamento de metadados e aplica\u00e7\u00f5es que consultam grandes cole\u00e7\u00f5es de XML ou conte\u00fado semiestruturado.',
+        'XQuery é uma linguagem de consulta declarativa para XML e dados estruturados relacionados. Combina expressões XPath, consultas FLWOR, funções, módulos, processamento de sequências, namespaces e operações conscientes de tipo para extrair, transformar, juntar e construir resultados XML ou serializados.\n\nÉ utilizada em bancos de dados XML nativos, pipelines de publicação, repositórios de documentos, integração empresarial, humanidades digitais, processamento de metadados e aplicações que consultam grandes coleções de XML ou conteúdo semiestruturado.',
     },
   },
 } satisfies Language;

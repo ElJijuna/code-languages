@@ -44,15 +44,15 @@ export const gleam = {
     de: {
       name: 'Gleam',
       description:
-        'Ein freundlicher, statisch typisierter funktionaler Programmiersprache f\u00fcr BEAM und JavaScript.',
+        'Ein freundlicher, statisch typisierter funktionaler Programmiersprache für BEAM und JavaScript.',
       longDescription:
-        'Gleam ist eine statisch typisierte funktionale Programmiersprache, die auf Erlang und JavaScript kompiliert. Sie bietet algebraische Datentypen, Pattern Matching, unver\u00e4nderliche Daten, eine kleine Syntax, hilfreiche Compiler-Fehlermeldungen und Interoperabilit\u00e4t mit Erlang- und Elixir-Bibliotheken auf BEAM.\n\nSie wird f\u00fcr Webdienste, nebenl\u00e4ufige Systeme, Kommandozeilen-Tools, Full-Stack-Anwendungen und Projekte verwendet, die BEAM-Zuverl\u00e4ssigkeit mit einem leichten Typsystem und einem zug\u00e4nglichen funktionalen Programmiermodell w\u00fcnschen.',
+        'Gleam ist eine statisch typisierte funktionale Programmiersprache, die auf Erlang und JavaScript kompiliert. Sie bietet algebraische Datentypen, Pattern Matching, unveränderliche Daten, eine kleine Syntax, hilfreiche Compiler-Fehlermeldungen und Interoperabilität mit Erlang- und Elixir-Bibliotheken auf BEAM.\n\nSie wird für Webdienste, nebenläufige Systeme, Kommandozeilen-Tools, Full-Stack-Anwendungen und Projekte verwendet, die BEAM-Zuverlässigkeit mit einem leichten Typsystem und einem zugänglichen funktionalen Programmiermodell wünschen.',
     },
     pt: {
       name: 'Gleam',
-      description: 'Linguagem funcional estaticamente tipada amig\u00e1vel para BEAM e JavaScript.',
+      description: 'Linguagem funcional estaticamente tipada amigável para BEAM e JavaScript.',
       longDescription:
-        'Gleam \u00e9 uma linguagem de programa\u00e7\u00e3o funcional estaticamente tipada que compila para Erlang e JavaScript. Oferece tipos de dados alg\u00e9bricos, correspond\u00eancia de padr\u00f5es, dados imut\u00e1veis, uma sintaxe pequena, mensagens de erro de compilador \u00fateis e interoperabilidade com bibliotecas Erlang e Elixir no BEAM.\n\n\u00c9 usada para servi\u00e7os web, sistemas concorrentes, ferramentas de linha de comando, aplica\u00e7\u00f5es full-stack e projetos que desejam a confiabilidade do BEAM com um sistema de tipos leve e um modelo de programa\u00e7\u00e3o funcional acess\u00edvel.',
+        'Gleam é uma linguagem de programação funcional estaticamente tipada que compila para Erlang e JavaScript. Oferece tipos de dados algébricos, correspondência de padrões, dados imutáveis, uma sintaxe pequena, mensagens de erro de compilador úteis e interoperabilidade com bibliotecas Erlang e Elixir no BEAM.\n\nÉ usada para serviços web, sistemas concorrentes, ferramentas de linha de comando, aplicações full-stack e projetos que desejam a confiabilidade do BEAM com um sistema de tipos leve e um modelo de programação funcional acessível.',
     },
   },
 } satisfies Language;

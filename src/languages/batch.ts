@@ -49,14 +49,14 @@ export const batch = {
       description:
         'Ein Windows-Befehls-Skriptformat, das zum Automatisieren von Befehlszeitanwendungen mit cmd.exe verwendet wird.',
       longDescription:
-        'Batch-Dateien enthalten Befehle, die vom Windows Command Processor interpretiert werden, einschlie\u00dflich Befehlsausf\u00fchrung, Variablen, Labels, Bedingungen, Schleifen, Argumentbearbeitung und Prozesssteuerung.\n\nSie werden f\u00fcr Windows-Installationsskripte, Entwickler-Abk\u00fcrzungen, administrative Automatisierung, \u00e4ltere DOS-Workflows und einfache Befehlszeitanwendungen auf Windows-Systemen verwendet.',
+        'Batch-Dateien enthalten Befehle, die vom Windows Command Processor interpretiert werden, einschließlich Befehlsausführung, Variablen, Labels, Bedingungen, Schleifen, Argumentbearbeitung und Prozesssteuerung.\n\nSie werden für Windows-Installationsskripte, Entwickler-Abkürzungen, administrative Automatisierung, ältere DOS-Workflows und einfache Befehlszeitanwendungen auf Windows-Systemen verwendet.',
     },
     pt: {
       name: 'Batch',
       description:
         'Formato de script de comandos do Windows usado para automatizar tarefas de linha de comando com cmd.exe.',
       longDescription:
-        'Os arquivos Batch cont\u00eam comandos interpretados pelo Windows Command Processor, incluindo a invoca\u00e7\u00e3o de comandos, vari\u00e1veis, r\u00f3tulos, condicionais, loops, manipula\u00e7\u00e3o de argumentos e controle de processos.\n\nS\u00e3o usados para scripts de instala\u00e7\u00e3o do Windows, atalhos para desenvolvedores, automa\u00e7\u00e3o administrativa, fluxos de trabalho legados do DOS e orquestra\u00e7\u00e3o simples de tarefas de linha de comando em sistemas Windows.',
+        'Os arquivos Batch contêm comandos interpretados pelo Windows Command Processor, incluindo a invocação de comandos, variáveis, rótulos, condicionais, loops, manipulação de argumentos e controle de processos.\n\nSão usados para scripts de instalação do Windows, atalhos para desenvolvedores, automação administrativa, fluxos de trabalho legados do DOS e orquestração simples de tarefas de linha de comando em sistemas Windows.',
     },
   },
 } satisfies Language;

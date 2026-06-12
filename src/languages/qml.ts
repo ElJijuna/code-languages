@@ -45,16 +45,16 @@ export const qml = {
     de: {
       name: 'QML',
       description:
-        "Qt's deklarative Sprache f\u00fcr den Aufbau flie\u00dfender, komponentbasierter Benutzeroberfl\u00e4chen.",
+        "Qt's deklarative Sprache für den Aufbau fließender, komponentbasierter Benutzeroberflächen.",
       longDescription:
-        'QML ist eine deklarative Sprache f\u00fcr Qt Quick Anwendungen, die Objektb\u00e4ume, Eigenschaften, Bindungen, Signale, Zust\u00e4nde, Animationen, JavaScript-Ausdr\u00fccke und wiederverwendbare Komponenten kombiniert. Sie ist f\u00fcr den Aufbau dynamischer Oberfl\u00e4chen konzipiert, die sich nat\u00fcrlich mit C++ und Qt APIs verbinden.\n\nSie wird in Desktop-Anwendungen, eingebetteten Ger\u00e4ten, mobilen Oberfl\u00e4chen, Automobilanzeigen, industriellen Steuerungssystemen, Mediasystemen und plattform\u00fcbergreifenden Qt-Projekten verwendet, die responsive und animierte UI-Schichten ben\u00f6tigen.',
+        'QML ist eine deklarative Sprache für Qt Quick Anwendungen, die Objektbäume, Eigenschaften, Bindungen, Signale, Zustände, Animationen, JavaScript-Ausdrücke und wiederverwendbare Komponenten kombiniert. Sie ist für den Aufbau dynamischer Oberflächen konzipiert, die sich natürlich mit C++ und Qt APIs verbinden.\n\nSie wird in Desktop-Anwendungen, eingebetteten Geräten, mobilen Oberflächen, Automobilanzeigen, industriellen Steuerungssystemen, Mediasystemen und plattformübergreifenden Qt-Projekten verwendet, die responsive und animierte UI-Schichten benötigen.',
     },
     pt: {
       name: 'QML',
       description:
-        'Linguagem declarativa do Qt para criar interfaces de usu\u00e1rio fluidas e baseadas em componentes.',
+        'Linguagem declarativa do Qt para criar interfaces de usuário fluidas e baseadas em componentes.',
       longDescription:
-        'QML \u00e9 uma linguagem declarativa para aplica\u00e7\u00f5es Qt Quick, combinando \u00e1rvores de objetos, propriedades, bindings, sinais, estados, anima\u00e7\u00f5es, express\u00f5es JavaScript e componentes reutiliz\u00e1veis. \u00c9 projetada para criar interfaces din\u00e2micas que se conectam naturalmente a APIs C++ e Qt.\n\n\u00c9 utilizada em aplica\u00e7\u00f5es de desktop, dispositivos embarcados, interfaces m\u00f3veis, displays automotivos, controles industriais, sistemas de m\u00eddia e projetos Qt multiplataforma que necessitam de camadas de UI responsivas e animadas.',
+        'QML é uma linguagem declarativa para aplicações Qt Quick, combinando árvores de objetos, propriedades, bindings, sinais, estados, animações, expressões JavaScript e componentes reutilizáveis. É projetada para criar interfaces dinâmicas que se conectam naturalmente a APIs C++ e Qt.\n\nÉ utilizada em aplicações de desktop, dispositivos embarcados, interfaces móveis, displays automotivos, controles industriais, sistemas de mídia e projetos Qt multiplataforma que necessitam de camadas de UI responsivas e animadas.',
     },
   },
 } satisfies Language;

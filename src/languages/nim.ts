@@ -47,16 +47,16 @@ export const nim = {
     de: {
       name: 'Nim',
       description:
-        'Eine kompilierte Systemsprache mit Python-\u00e4hnlicher Syntax, Makros und effizienter nativem Output.',
+        'Eine kompilierte Systemsprache mit Python-ähnlicher Syntax, Makros und effizienter nativem Output.',
       longDescription:
-        'Nim ist eine statisch typisierte, kompilierte Sprache, die f\u00fcr Effizienz, Ausdrucksst\u00e4rke und Flexibilit\u00e4t entwickelt wurde. Sie bietet eine einr\u00fcckungsbasierte Syntax, Generics, Makros, Templates, mehrere Strategien zur Speicherverwaltung, Interoperabilit\u00e4t mit C/C++/Objective-C und Kompilierung zu C, C++, Objective-C oder JavaScript.\n\nSie wird f\u00fcr Kommandozeilen-Tools, Systems-Programmierung, eingebettete Software, Web-Services, Skripting-\u00e4hnliche Automatisierung, native Anwendungen und Projekte verwendet, die einen geringen Overhead mit leistungsstarker Metaprogrammierung ben\u00f6tigen.',
+        'Nim ist eine statisch typisierte, kompilierte Sprache, die für Effizienz, Ausdrucksstärke und Flexibilität entwickelt wurde. Sie bietet eine einrückungsbasierte Syntax, Generics, Makros, Templates, mehrere Strategien zur Speicherverwaltung, Interoperabilität mit C/C++/Objective-C und Kompilierung zu C, C++, Objective-C oder JavaScript.\n\nSie wird für Kommandozeilen-Tools, Systems-Programmierung, eingebettete Software, Web-Services, Skripting-ähnliche Automatisierung, native Anwendungen und Projekte verwendet, die einen geringen Overhead mit leistungsstarker Metaprogrammierung benötigen.',
     },
     pt: {
       name: 'Nim',
       description:
-        'Linguagem compilada de sistemas com sintaxe semelhante \u00e0 Python, macros e sa\u00edda nativa eficiente.',
+        'Linguagem compilada de sistemas com sintaxe semelhante à Python, macros e saída nativa eficiente.',
       longDescription:
-        'Nim \u00e9 uma linguagem compilada estaticamente tipada, projetada para efici\u00eancia, expressividade e flexibilidade. Oferece sintaxe baseada em indenta\u00e7\u00e3o, gen\u00e9ricos, macros, templates, m\u00faltiplas estrat\u00e9gias de gerenciamento de mem\u00f3ria, interoperabilidade com C/C++/Objective-C e compila\u00e7\u00e3o para C, C++, Objective-C ou JavaScript.\n\n\u00c9 utilizada para ferramentas de linha de comando, programa\u00e7\u00e3o de sistemas, software embarcado, servi\u00e7os web, automa\u00e7\u00e3o de scripts, aplica\u00e7\u00f5es nativas e projetos que buscam baixo overhead com metaprograma\u00e7\u00e3o poderosa.',
+        'Nim é uma linguagem compilada estaticamente tipada, projetada para eficiência, expressividade e flexibilidade. Oferece sintaxe baseada em indentação, genéricos, macros, templates, múltiplas estratégias de gerenciamento de memória, interoperabilidade com C/C++/Objective-C e compilação para C, C++, Objective-C ou JavaScript.\n\nÉ utilizada para ferramentas de linha de comando, programação de sistemas, software embarcado, serviços web, automação de scripts, aplicações nativas e projetos que buscam baixo overhead com metaprogramação poderosa.',
     },
   },
 } satisfies Language;

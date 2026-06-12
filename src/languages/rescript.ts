@@ -46,14 +46,13 @@ export const rescript = {
       description:
         'Eine typisierte Sprache und ein Compiler, der auf ergonomische JavaScript-Ausgabe ausgerichtet ist.',
       longDescription:
-        'ReScript ist eine statisch typisierte Sprache f\u00fcr JavaScript-Ziele mit Pattern Matching, Varianten, Modulen, Records, Interop-Annotationen und einer Syntax, die f\u00fcr die Webentwicklung optimiert ist. Sein Compiler und seine Build-Tools konzentrieren sich auf die Erzeugung von vorhersehbarem JavaScript.\n\nEs wird in Front-End-Anwendungen, React-Codebasen, gemeinsamen Bibliotheken und JavaScript-Projekten verwendet, die eine kompakte, typsichere Quelle mit expliziter Interoperabilit\u00e4t w\u00fcnschen.',
+        'ReScript ist eine statisch typisierte Sprache für JavaScript-Ziele mit Pattern Matching, Varianten, Modulen, Records, Interop-Annotationen und einer Syntax, die für die Webentwicklung optimiert ist. Sein Compiler und seine Build-Tools konzentrieren sich auf die Erzeugung von vorhersehbarem JavaScript.\n\nEs wird in Front-End-Anwendungen, React-Codebasen, gemeinsamen Bibliotheken und JavaScript-Projekten verwendet, die eine kompakte, typsichere Quelle mit expliziter Interoperabilität wünschen.',
     },
     pt: {
       name: 'ReScript',
-      description:
-        'Linguagem e compilador tipados focados em sa\u00edda JavaScript ergon\u00f4mica.',
+      description: 'Linguagem e compilador tipados focados em saída JavaScript ergonômica.',
       longDescription:
-        'ReScript \u00e9 uma linguagem tipada estaticamente para destinos JavaScript com correspond\u00eancia de padr\u00f5es, variantes, m\u00f3dulos, registros, anota\u00e7\u00f5es de interoperabilidade e uma sintaxe otimizada para desenvolvimento web. Seu compilador e ferramentas de constru\u00e7\u00e3o se concentram em JavaScript gerado previs\u00edvel.\n\n\u00c9 usado em aplica\u00e7\u00f5es front-end, bases de c\u00f3digo React, bibliotecas compartilhadas e projetos JavaScript que desejam c\u00f3digo-fonte compacto e seguro com interoperabilidade expl\u00edcita.',
+        'ReScript é uma linguagem tipada estaticamente para destinos JavaScript com correspondência de padrões, variantes, módulos, registros, anotações de interoperabilidade e uma sintaxe otimizada para desenvolvimento web. Seu compilador e ferramentas de construção se concentram em JavaScript gerado previsível.\n\nÉ usado em aplicações front-end, bases de código React, bibliotecas compartilhadas e projetos JavaScript que desejam código-fonte compacto e seguro com interoperabilidade explícita.',
     },
   },
 } satisfies Language;

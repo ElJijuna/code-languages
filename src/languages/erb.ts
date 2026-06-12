@@ -45,16 +45,15 @@ export const erb = {
     },
     de: {
       name: 'ERB',
-      description: 'Ein Ruby-Templating-System zum Einf\u00fcgen von Ruby-Code in Textdokumente.',
+      description: 'Ein Ruby-Templating-System zum Einfügen von Ruby-Code in Textdokumente.',
       longDescription:
-        'ERB-Vorlagen kombinieren reinen Text, HTML, XML oder Konfigurationsausgabe mit eingebetteten Ruby-Ausdr\u00fccken und Steuerungssymbolen.\n\nSie werden h\u00e4ufig in Ruby on Rails-Views, statischen Seitengeneratoren, Konfigurationsgenerierung, E-Mail-Vorlagen und jeder anderen Ruby-Workflow verwendet, die programmatische Textrendierung ben\u00f6tigt.',
+        'ERB-Vorlagen kombinieren reinen Text, HTML, XML oder Konfigurationsausgabe mit eingebetteten Ruby-Ausdrücken und Steuerungssymbolen.\n\nSie werden häufig in Ruby on Rails-Views, statischen Seitengeneratoren, Konfigurationsgenerierung, E-Mail-Vorlagen und jeder anderen Ruby-Workflow verwendet, die programmatische Textrendierung benötigt.',
     },
     pt: {
       name: 'ERB',
-      description:
-        'Sistema de modelagem Ruby para incorporar c\u00f3digo Ruby em documentos de texto.',
+      description: 'Sistema de modelagem Ruby para incorporar código Ruby em documentos de texto.',
       longDescription:
-        'Modelos ERB combinam texto simples, HTML, XML ou sa\u00edda de configura\u00e7\u00e3o com express\u00f5es Ruby e marcadores de controle.\n\nS\u00e3o comumente usados em visualiza\u00e7\u00f5es do Ruby on Rails, geradores de sites est\u00e1ticos, gera\u00e7\u00e3o de configura\u00e7\u00e3o, modelos de e-mail e qualquer fluxo de trabalho Ruby que precise de renderiza\u00e7\u00e3o de texto program\u00e1vel.',
+        'Modelos ERB combinam texto simples, HTML, XML ou saída de configuração com expressões Ruby e marcadores de controle.\n\nSão comumente usados em visualizações do Ruby on Rails, geradores de sites estáticos, geração de configuração, modelos de e-mail e qualquer fluxo de trabalho Ruby que precise de renderização de texto programável.',
     },
   },
 } satisfies Language;

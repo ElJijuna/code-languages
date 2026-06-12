@@ -45,16 +45,16 @@ export const svg = {
     de: {
       name: 'SVG',
       description:
-        'Eine XML-basierte Markup-Sprache f\u00fcr skalierbare zweidimensionale Vektor-Grafiken.',
+        'Eine XML-basierte Markup-Sprache für skalierbare zweidimensionale Vektor-Grafiken.',
       longDescription:
-        'SVG, oder Scalable Vector Graphics, ist eine XML-basierte Markup-Sprache zur Beschreibung von zweidimensionalen Vektor- und gemischten Vektor/Raster-Grafiken, die sauber auf unterschiedlichen Bildschirmgr\u00f6\u00dfen skaliert werden k\u00f6nnen.\n\nEs wird h\u00e4ufig f\u00fcr Icons, Illustrationen, Diagramme, Diagramme, Karten, Animationen, interaktive Grafiken und Web-Oberfl\u00e4chen verwendet, bei denen Grafiken scharf, stylbar, skriptf\u00e4hig und zug\u00e4nglich bleiben m\u00fcssen.',
+        'SVG, oder Scalable Vector Graphics, ist eine XML-basierte Markup-Sprache zur Beschreibung von zweidimensionalen Vektor- und gemischten Vektor/Raster-Grafiken, die sauber auf unterschiedlichen Bildschirmgrößen skaliert werden können.\n\nEs wird häufig für Icons, Illustrationen, Diagramme, Diagramme, Karten, Animationen, interaktive Grafiken und Web-Oberflächen verwendet, bei denen Grafiken scharf, stylbar, skriptfähig und zugänglich bleiben müssen.',
     },
     pt: {
       name: 'SVG',
       description:
-        'Linguagem de marca\u00e7\u00e3o baseada em XML para gr\u00e1ficos vetoriais bidimensionais escal\u00e1veis.',
+        'Linguagem de marcação baseada em XML para gráficos vetoriais bidimensionais escaláveis.',
       longDescription:
-        'SVG, ou Scalable Vector Graphics, \u00e9 uma linguagem de marca\u00e7\u00e3o baseada em XML para descrever gr\u00e1ficos vetoriais e mistos vetoriais/raster bidimensionais que podem ser escalados de forma limpa em diferentes tamanhos de tela.\n\n\u00c9 amplamente utilizada para \u00edcones, ilustra\u00e7\u00f5es, gr\u00e1ficos, diagramas, mapas, anima\u00e7\u00f5es, gr\u00e1ficos interativos e interfaces web onde os gr\u00e1ficos precisam permanecer n\u00edtidos, estil\u00e1veis, script\u00e1veis e acess\u00edveis.',
+        'SVG, ou Scalable Vector Graphics, é uma linguagem de marcação baseada em XML para descrever gráficos vetoriais e mistos vetoriais/raster bidimensionais que podem ser escalados de forma limpa em diferentes tamanhos de tela.\n\nÉ amplamente utilizada para ícones, ilustrações, gráficos, diagramas, mapas, animações, gráficos interativos e interfaces web onde os gráficos precisam permanecer nítidos, estiláveis, scriptáveis e acessíveis.',
     },
   },
 } satisfies Language;

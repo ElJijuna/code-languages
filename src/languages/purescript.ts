@@ -45,14 +45,14 @@ export const purescript = {
       name: 'PureScript',
       description: 'Eine stark typisierte, rein funktionale Sprache, die zu JavaScript kompiliert.',
       longDescription:
-        'PureScript bringt algebraische Datentypen, Typklassen, Effekte, Module, Row-Polymorphie und ein Haskell-\u00e4hnliches funktionales Modell zu JavaScript-Zielen. Der Compiler erzeugt lesbaren JavaScript-Code und arbeitet mit externen JavaScript-Modulen.\n\nEs wird f\u00fcr Front-End-Anwendungen, Bibliotheken, typisierte Domain-Modelle, funktionale Architekturen und JavaScript-Projekte verwendet, die explizite Effektbehandlung ben\u00f6tigen.',
+        'PureScript bringt algebraische Datentypen, Typklassen, Effekte, Module, Row-Polymorphie und ein Haskell-ähnliches funktionales Modell zu JavaScript-Zielen. Der Compiler erzeugt lesbaren JavaScript-Code und arbeitet mit externen JavaScript-Modulen.\n\nEs wird für Front-End-Anwendungen, Bibliotheken, typisierte Domain-Modelle, funktionale Architekturen und JavaScript-Projekte verwendet, die explizite Effektbehandlung benötigen.',
     },
     pt: {
       name: 'PureScript',
       description:
         'Uma linguagem puramente funcional e fortemente tipada que compila para JavaScript.',
       longDescription:
-        'PureScript traz tipos de dados alg\u00e9bricos, classes de tipo, efeitos, m\u00f3dulos, polimorfismo de linha e um modelo funcional influenciado pelo Haskell para destinos JavaScript. Seu compilador emite JavaScript leg\u00edvel e funciona com m\u00f3dulos JavaScript estrangeiros.\n\n\u00c9 usado para aplica\u00e7\u00f5es front-end, bibliotecas, modelos de dom\u00ednio tipados, arquitetura funcional e projetos JavaScript que desejam manipula\u00e7\u00e3o expl\u00edcita de efeitos.',
+        'PureScript traz tipos de dados algébricos, classes de tipo, efeitos, módulos, polimorfismo de linha e um modelo funcional influenciado pelo Haskell para destinos JavaScript. Seu compilador emite JavaScript legível e funciona com módulos JavaScript estrangeiros.\n\nÉ usado para aplicações front-end, bibliotecas, modelos de domínio tipados, arquitetura funcional e projetos JavaScript que desejam manipulação explícita de efeitos.',
     },
   },
 } satisfies Language;

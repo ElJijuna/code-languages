@@ -45,16 +45,15 @@ export const typst = {
     de: {
       name: 'Typst',
       description:
-        'Eine moderne Markup- und Skriptsprache f\u00fcr die Typografie und die Erstellung von Dokumenten und PDFs.',
+        'Eine moderne Markup- und Skriptsprache für die Typografie und die Erstellung von Dokumenten und PDFs.',
       longDescription:
-        'Typst kombiniert leichte Markup-Funktionen, Layout-Primitiven, Funktionen, Variablen, Pakete, mathematische Notation, Bibliografien, Vorlagen und Skripting in einem schnellen Typisierungs-System. Es zielt darauf ab, die professionelle Dokumentenerstellung programmierbarer und zug\u00e4nglicher zu machen als herk\u00f6mmliche TeX-Workflows.\n\nEs wird f\u00fcr wissenschaftliche Arbeiten, Berichte, B\u00fccher, Lebensl\u00e4ufe, Vorlesungsnotizen, Vorlagen, technische Dokumente und Publikationsworkflows verwendet, die reproduzierbare PDF-Generierung aus lesbaren Quelldateien ben\u00f6tigen.',
+        'Typst kombiniert leichte Markup-Funktionen, Layout-Primitiven, Funktionen, Variablen, Pakete, mathematische Notation, Bibliografien, Vorlagen und Skripting in einem schnellen Typisierungs-System. Es zielt darauf ab, die professionelle Dokumentenerstellung programmierbarer und zugänglicher zu machen als herkömmliche TeX-Workflows.\n\nEs wird für wissenschaftliche Arbeiten, Berichte, Bücher, Lebensläufe, Vorlesungsnotizen, Vorlagen, technische Dokumente und Publikationsworkflows verwendet, die reproduzierbare PDF-Generierung aus lesbaren Quelldateien benötigen.',
     },
     pt: {
       name: 'Typst',
-      description:
-        'Linguagem de marca\u00e7\u00e3o e script moderna para a tipografia de documentos e PDFs.',
+      description: 'Linguagem de marcação e script moderna para a tipografia de documentos e PDFs.',
       longDescription:
-        'Typst combina marca\u00e7\u00e3o leve, primitivas de layout, fun\u00e7\u00f5es, vari\u00e1veis, pacotes, nota\u00e7\u00e3o matem\u00e1tica, bibliografias, modelos e scripting em um sistema de tipografia r\u00e1pido. Visa tornar a produ\u00e7\u00e3o de documentos profissionais mais program\u00e1vel e acess\u00edvel do que os fluxos de trabalho tradicionais do TeX.\n\n\u00c9 usado para artigos acad\u00eamicos, relat\u00f3rios, livros, curr\u00edculos, anota\u00e7\u00f5es de aula, modelos, documentos t\u00e9cnicos e fluxos de trabalho de publica\u00e7\u00e3o que precisam de gera\u00e7\u00e3o de PDF reproduz\u00edvel a partir de arquivos de origem leg\u00edveis.',
+        'Typst combina marcação leve, primitivas de layout, funções, variáveis, pacotes, notação matemática, bibliografias, modelos e scripting em um sistema de tipografia rápido. Visa tornar a produção de documentos profissionais mais programável e acessível do que os fluxos de trabalho tradicionais do TeX.\n\nÉ usado para artigos acadêmicos, relatórios, livros, currículos, anotações de aula, modelos, documentos técnicos e fluxos de trabalho de publicação que precisam de geração de PDF reproduzível a partir de arquivos de origem legíveis.',
     },
   },
 } satisfies Language;

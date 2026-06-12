@@ -47,16 +47,16 @@ export const apex = {
     de: {
       name: 'Apex',
       description:
-        'Stark typisierte, objektorientierte Programmiersprache f\u00fcr Gesch\u00e4ftslogik auf der Salesforce-Plattform.',
+        'Stark typisierte, objektorientierte Programmiersprache für Geschäftslogik auf der Salesforce-Plattform.',
       longDescription:
-        'Apex ist eine stark typisierte, objektorientierte Programmiersprache, die auf der Salesforce-Plattform ausgef\u00fchrt wird. Sie kombiniert Java-\u00e4hnliche Syntax mit plattformspezifischen Datenbankoperationen, Triggern, asynchronen Jobs, Governor Limits, Sharing Rules und Integrationen mit Salesforce-Metadaten und APIs.\n\nSie wird f\u00fcr CRM-Anpassungen, Gesch\u00e4ftsprozessautomatisierung, benutzerdefinierte Controller, Datenvalidierung, Integrationen, Batch-Verarbeitung, Plattformereignisse und Unternehmensanwendungen, die innerhalb von Salesforce erstellt werden, verwendet.',
+        'Apex ist eine stark typisierte, objektorientierte Programmiersprache, die auf der Salesforce-Plattform ausgeführt wird. Sie kombiniert Java-ähnliche Syntax mit plattformspezifischen Datenbankoperationen, Triggern, asynchronen Jobs, Governor Limits, Sharing Rules und Integrationen mit Salesforce-Metadaten und APIs.\n\nSie wird für CRM-Anpassungen, Geschäftsprozessautomatisierung, benutzerdefinierte Controller, Datenvalidierung, Integrationen, Batch-Verarbeitung, Plattformereignisse und Unternehmensanwendungen, die innerhalb von Salesforce erstellt werden, verwendet.',
     },
     pt: {
       name: 'Apex',
       description:
-        'Linguagem fortemente tipada do Salesforce para l\u00f3gica de neg\u00f3cios da plataforma.',
+        'Linguagem fortemente tipada do Salesforce para lógica de negócios da plataforma.',
       longDescription:
-        'Apex \u00e9 uma linguagem de programa\u00e7\u00e3o fortemente tipada e orientada a objetos que executa na Plataforma Salesforce. Combina a sintaxe semelhante \u00e0 Java com opera\u00e7\u00f5es de banco de dados espec\u00edficas da plataforma, gatilhos, tarefas ass\u00edncronas, limites de governan\u00e7a, regras de compartilhamento e integra\u00e7\u00e3o com metadados e APIs do Salesforce.\n\n\u00c9 usada para personaliza\u00e7\u00f5es de CRM, automa\u00e7\u00e3o de neg\u00f3cios, controladores personalizados, valida\u00e7\u00e3o de dados, integra\u00e7\u00e3o, processamento em lote, eventos da plataforma e aplicativos empresariais constru\u00eddos dentro do Salesforce.',
+        'Apex é uma linguagem de programação fortemente tipada e orientada a objetos que executa na Plataforma Salesforce. Combina a sintaxe semelhante à Java com operações de banco de dados específicas da plataforma, gatilhos, tarefas assíncronas, limites de governança, regras de compartilhamento e integração com metadados e APIs do Salesforce.\n\nÉ usada para personalizações de CRM, automação de negócios, controladores personalizados, validação de dados, integração, processamento em lote, eventos da plataforma e aplicativos empresariais construídos dentro do Salesforce.',
     },
   },
 } satisfies Language;

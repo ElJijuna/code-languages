@@ -42,15 +42,15 @@ export const agda = {
     },
     de: {
       name: 'Agda',
-      description: 'Abh\u00e4ngig typisierte funktionale Sprache und Beweisf\u00fchrungstool.',
+      description: 'Abhängig typisierte funktionale Sprache und Beweisführungstool.',
       longDescription:
-        'Agda ist eine abh\u00e4ngig typisierte funktionale Programmiersprache und interaktives Beweisf\u00fchrungstool. Sie unterst\u00fctzt induktive Familien, Mustervergleich, Module, Mixfix-Operatoren, Unicode-Syntax und ein Typsystem, das ausdrucksstark genug ist, um mathematische Beweise als Programme zu kodieren.\n\nEs wird in der Forschung f\u00fcr Programmiersprachen, konstruktiver Mathematik, zertifizierten Algorithmen und in der Bildung eingesetzt, wo pr\u00e4zise Spezifikationen und maschinell \u00fcberpr\u00fcfte Beweise genauso wichtig sind wie ausf\u00fchrbarer Code.',
+        'Agda ist eine abhängig typisierte funktionale Programmiersprache und interaktives Beweisführungstool. Sie unterstützt induktive Familien, Mustervergleich, Module, Mixfix-Operatoren, Unicode-Syntax und ein Typsystem, das ausdrucksstark genug ist, um mathematische Beweise als Programme zu kodieren.\n\nEs wird in der Forschung für Programmiersprachen, konstruktiver Mathematik, zertifizierten Algorithmen und in der Bildung eingesetzt, wo präzise Spezifikationen und maschinell überprüfte Beweise genauso wichtig sind wie ausführbarer Code.',
     },
     pt: {
       name: 'Agda',
       description: 'Linguagem funcional e assistente de provas de tipo dependente.',
       longDescription:
-        'Agda \u00e9 uma linguagem de programa\u00e7\u00e3o funcional de tipo dependente e assistente de provas interativa. Suporta fam\u00edlias indutivas, correspond\u00eancia de padr\u00f5es, m\u00f3dulos, operadores mixfix, sintaxe Unicode e um sistema de tipos expressivo o suficiente para codificar provas matem\u00e1ticas como programas.\n\n\u00c9 usada em pesquisa de linguagens de programa\u00e7\u00e3o, matem\u00e1tica construtiva, algoritmos certificados e educa\u00e7\u00e3o, onde especifica\u00e7\u00f5es precisas e provas verificadas por m\u00e1quina s\u00e3o t\u00e3o importantes quanto o c\u00f3digo execut\u00e1vel.',
+        'Agda é uma linguagem de programação funcional de tipo dependente e assistente de provas interativa. Suporta famílias indutivas, correspondência de padrões, módulos, operadores mixfix, sintaxe Unicode e um sistema de tipos expressivo o suficiente para codificar provas matemáticas como programas.\n\nÉ usada em pesquisa de linguagens de programação, matemática construtiva, algoritmos certificados e educação, onde especificações precisas e provas verificadas por máquina são tão importantes quanto o código executável.',
     },
   },
 } satisfies Language;

@@ -41,16 +41,15 @@ export const ziggy = {
     },
     de: {
       name: 'Ziggy',
-      description: 'Eine Datennotation und Schemalingua f\u00fcr Konfigurations-Stil-Dokumente.',
+      description: 'Eine Datennotation und Schemalingua für Konfigurations-Stil-Dokumente.',
       longDescription:
-        'Ziggy ist eine Daten-Lingua f\u00fcr lesbare, strukturierte Dokumente mit einer zugeh\u00f6rigen Schemabindung zur Beschreibung erwarteter Formen. Es richtet sich an Konfigurations- und Daten-Interchange-Workflows mit Werkzeugen im Zig-\u00d6kosystem.\n\nEs wird f\u00fcr Konfigurationsdateien, schemacheckte Daten-Dokumente, Werkzeug-Experimente und Projekte verwendet, die eine kompakte, typisierte Datennotation w\u00fcnschen.',
+        'Ziggy ist eine Daten-Lingua für lesbare, strukturierte Dokumente mit einer zugehörigen Schemabindung zur Beschreibung erwarteter Formen. Es richtet sich an Konfigurations- und Daten-Interchange-Workflows mit Werkzeugen im Zig-Ökosystem.\n\nEs wird für Konfigurationsdateien, schemacheckte Daten-Dokumente, Werkzeug-Experimente und Projekte verwendet, die eine kompakte, typisierte Datennotation wünschen.',
     },
     pt: {
       name: 'Ziggy',
-      description:
-        'Uma linguagem de nota\u00e7\u00e3o e esquema para documentos de estilo de configura\u00e7\u00e3o.',
+      description: 'Uma linguagem de notação e esquema para documentos de estilo de configuração.',
       longDescription:
-        'Ziggy \u00e9 uma linguagem de dados para documentos estruturados leg\u00edveis, com uma forma de esquema associada para descrever formas esperadas. \u00c9 projetada para fluxos de trabalho de configura\u00e7\u00e3o e troca de dados, com ferramentas em torno dos ecossistemas Zig.\n\n\u00c9 usada para arquivos de configura\u00e7\u00e3o, documentos de dados verificados por esquema, experimentos de ferramentas e projetos que desejam uma nota\u00e7\u00e3o de dados tipada compacta.',
+        'Ziggy é uma linguagem de dados para documentos estruturados legíveis, com uma forma de esquema associada para descrever formas esperadas. É projetada para fluxos de trabalho de configuração e troca de dados, com ferramentas em torno dos ecossistemas Zig.\n\nÉ usada para arquivos de configuração, documentos de dados verificados por esquema, experimentos de ferramentas e projetos que desejam uma notação de dados tipada compacta.',
     },
   },
 } satisfies Language;

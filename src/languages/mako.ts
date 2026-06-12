@@ -47,13 +47,13 @@ export const mako = {
       name: 'Mako',
       description: 'Eine Python-Template-Sprache zum Generieren von Text, HTML und Quellcode.',
       longDescription:
-        'Mako ist eine Python-Template-Sprache, die Text mit Ausdr\u00fccken, Kontrollbl\u00f6cken, Vererbung, Includes und wiederverwendbaren Definitionen kombiniert. Templates kompilieren sich zu Python-Code, was sie eng mit der Host-Sprache verbindet.\n\nSie wird f\u00fcr Web-Views, Dokumentation, Code-Generierung, Konfigurationsrendering und Projekte verwendet, die expressive, Python-basierte Templates ben\u00f6tigen.',
+        'Mako ist eine Python-Template-Sprache, die Text mit Ausdrücken, Kontrollblöcken, Vererbung, Includes und wiederverwendbaren Definitionen kombiniert. Templates kompilieren sich zu Python-Code, was sie eng mit der Host-Sprache verbindet.\n\nSie wird für Web-Views, Dokumentation, Code-Generierung, Konfigurationsrendering und Projekte verwendet, die expressive, Python-basierte Templates benötigen.',
     },
     pt: {
       name: 'Mako',
-      description: 'Linguagem de modelo Python para gerar texto, HTML e artefatos de c\u00f3digo.',
+      description: 'Linguagem de modelo Python para gerar texto, HTML e artefatos de código.',
       longDescription:
-        'Mako \u00e9 uma linguagem de modelo Python que combina texto com express\u00f5es, blocos de controle, heran\u00e7a, inclus\u00f5es e defini\u00e7\u00f5es reutiliz\u00e1veis. Os modelos s\u00e3o compilados para c\u00f3digo Python, mantendo-os pr\u00f3ximos da linguagem hospedeira.\n\n\u00c9 usada para visualiza\u00e7\u00f5es web, documenta\u00e7\u00e3o, gera\u00e7\u00e3o de c\u00f3digo, renderiza\u00e7\u00e3o de configura\u00e7\u00e3o e projetos que precisam de modelos Python expressivos.',
+        'Mako é uma linguagem de modelo Python que combina texto com expressões, blocos de controle, herança, inclusões e definições reutilizáveis. Os modelos são compilados para código Python, mantendo-os próximos da linguagem hospedeira.\n\nÉ usada para visualizações web, documentação, geração de código, renderização de configuração e projetos que precisam de modelos Python expressivos.',
     },
   },
 } satisfies Language;

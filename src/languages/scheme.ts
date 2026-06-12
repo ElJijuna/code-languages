@@ -45,13 +45,13 @@ export const scheme = {
       name: 'Scheme',
       description: 'Eine kleine Lisp-Familie, die auf lexikalischer Scope und Prozeduren basiert.',
       longDescription:
-        'Scheme ist ein Lisp-Dialekt, der f\u00fcr einen kompakten Kern, lexikalische Scope, Prozeduren erster Klasse, Makros, Continuations und eine Tradition der Sprachexperimente bekannt ist. Standards definieren eine portable Basis, w\u00e4hrend Implementierungen Bibliotheken und Werkzeuge hinzuf\u00fcgen.\n\nEs wird in Lehre, Compilern, Skripten, Forschung, eingebetteten Erweiterungssystemen und Programmen verwendet, die einen kleinen, ausdrucksstarken Kern ben\u00f6tigen.',
+        'Scheme ist ein Lisp-Dialekt, der für einen kompakten Kern, lexikalische Scope, Prozeduren erster Klasse, Makros, Continuations und eine Tradition der Sprachexperimente bekannt ist. Standards definieren eine portable Basis, während Implementierungen Bibliotheken und Werkzeuge hinzufügen.\n\nEs wird in Lehre, Compilern, Skripten, Forschung, eingebetteten Erweiterungssystemen und Programmen verwendet, die einen kleinen, ausdrucksstarken Kern benötigen.',
     },
     pt: {
       name: 'Scheme',
       description: 'Linguagem Lisp pequena, focada em escopo lexical e procedimentos.',
       longDescription:
-        'Scheme \u00e9 um dialeto Lisp conhecido por seu n\u00facleo compacto, escopo lexical, procedimentos de primeira classe, macros, continua\u00e7\u00f5es e uma tradi\u00e7\u00e3o de experimenta\u00e7\u00e3o de linguagem. Os padr\u00f5es definem uma base port\u00e1til, enquanto as implementa\u00e7\u00f5es adicionam bibliotecas e ferramentas.\n\n\u00c9 usado em ensino, compiladores, scripting, pesquisa, sistemas de extens\u00e3o embarcados e programas que valorizam um n\u00facleo de linguagem expressivo pequeno.',
+        'Scheme é um dialeto Lisp conhecido por seu núcleo compacto, escopo lexical, procedimentos de primeira classe, macros, continuações e uma tradição de experimentação de linguagem. Os padrões definem uma base portátil, enquanto as implementações adicionam bibliotecas e ferramentas.\n\nÉ usado em ensino, compiladores, scripting, pesquisa, sistemas de extensão embarcados e programas que valorizam um núcleo de linguagem expressivo pequeno.',
     },
   },
 } satisfies Language;

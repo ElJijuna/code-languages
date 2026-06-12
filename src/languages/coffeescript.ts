@@ -47,16 +47,16 @@ export const coffeescript = {
     de: {
       name: 'CoffeeScript',
       description:
-        'Eine kleine Sprache, die zu JavaScript kompiliert, mit pr\u00e4gnanter Syntax, inspiriert von Ruby und Python.',
+        'Eine kleine Sprache, die zu JavaScript kompiliert, mit prägnanter Syntax, inspiriert von Ruby und Python.',
       longDescription:
-        'CoffeeScript f\u00fcgt JavaScript eine pr\u00e4gnante Syntax mit signifikanter Whitespace, Funktionsabk\u00fcrzungen, Comprehensions, Destrukturierung, Klassen, String-Interpolation und anderen ausdrucksstarken Funktionen hinzu.\n\nEs wurde in fr\u00fcheren JavaScript-Anwendungsumgebungen weit verbreitet und ist auch in Legacy-Projekten, Build-Pipelines und Codebasen relevant, die seine kompakte Syntax bevorzugen, w\u00e4hrend sie auf Standard-JavaScript abzielen.',
+        'CoffeeScript fügt JavaScript eine prägnante Syntax mit signifikanter Whitespace, Funktionsabkürzungen, Comprehensions, Destrukturierung, Klassen, String-Interpolation und anderen ausdrucksstarken Funktionen hinzu.\n\nEs wurde in früheren JavaScript-Anwendungsumgebungen weit verbreitet und ist auch in Legacy-Projekten, Build-Pipelines und Codebasen relevant, die seine kompakte Syntax bevorzugen, während sie auf Standard-JavaScript abzielen.',
     },
     pt: {
       name: 'CoffeeScript',
       description:
         'Uma linguagem pequena que compila para JavaScript com sintaxe concisa inspirada em Ruby e Python.',
       longDescription:
-        'CoffeeScript adiciona uma sintaxe concisa ao JavaScript com espa\u00e7os em branco significativos, atalhos de fun\u00e7\u00e3o, comprehensions, destructuring, classes, interpola\u00e7\u00e3o de strings e outras conveni\u00eancias expressivas.\n\nFoi amplamente utilizada em stacks de aplica\u00e7\u00f5es JavaScript anteriores e permanece relevante em projetos legados, pipelines de constru\u00e7\u00e3o e bases de c\u00f3digo que preferem sua sintaxe compacta, ao mesmo tempo que visam JavaScript padr\u00e3o.',
+        'CoffeeScript adiciona uma sintaxe concisa ao JavaScript com espaços em branco significativos, atalhos de função, comprehensions, destructuring, classes, interpolação de strings e outras conveniências expressivas.\n\nFoi amplamente utilizada em stacks de aplicações JavaScript anteriores e permanece relevante em projetos legados, pipelines de construção e bases de código que preferem sua sintaxe compacta, ao mesmo tempo que visam JavaScript padrão.',
     },
   },
 } satisfies Language;

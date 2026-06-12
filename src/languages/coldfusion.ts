@@ -49,14 +49,14 @@ export const coldfusion = {
       description:
         'Eine JVM-basierte Web-Sprache und -Plattform, die CFML-Tags, Skripte und Komponenten verwendet.',
       longDescription:
-        'ColdFusion verwendet CFML, um serverseitige Webanwendungen, APIs, geplante Jobs und Unternehmensintegrationen zu erstellen, mit einer Mischung aus tag-basierter Markup- und Skriptsyntax.\n\nDas \u00d6kosystem umfasst Adobe ColdFusion, Lucee, CFML-Komponenten, Datenbankzugriff, Templating, E-Mail, Dateiverarbeitung und Werkzeuge f\u00fcr langfristige Gesch\u00e4ftsanwendungen.',
+        'ColdFusion verwendet CFML, um serverseitige Webanwendungen, APIs, geplante Jobs und Unternehmensintegrationen zu erstellen, mit einer Mischung aus tag-basierter Markup- und Skriptsyntax.\n\nDas Ökosystem umfasst Adobe ColdFusion, Lucee, CFML-Komponenten, Datenbankzugriff, Templating, E-Mail, Dateiverarbeitung und Werkzeuge für langfristige Geschäftsanwendungen.',
     },
     pt: {
       name: 'ColdFusion',
       description:
         'Linguagem e plataforma web baseada em JVM usando tags, scripts e componentes CFML.',
       longDescription:
-        'ColdFusion usa CFML para construir aplica\u00e7\u00f5es web, APIs, tarefas agendadas e integra\u00e7\u00f5es empresariais, combinando marca\u00e7\u00e3o baseada em tags e sintaxe de script.\n\nSeu ecossistema inclui Adobe ColdFusion, Lucee, componentes CFML, acesso a bancos de dados, modelagem, e-mail, processamento de arquivos e ferramentas para aplica\u00e7\u00f5es de longo prazo.',
+        'ColdFusion usa CFML para construir aplicações web, APIs, tarefas agendadas e integrações empresariais, combinando marcação baseada em tags e sintaxe de script.\n\nSeu ecossistema inclui Adobe ColdFusion, Lucee, componentes CFML, acesso a bancos de dados, modelagem, e-mail, processamento de arquivos e ferramentas para aplicações de longo prazo.',
     },
   },
 } satisfies Language;

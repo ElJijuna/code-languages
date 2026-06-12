@@ -47,16 +47,16 @@ export const perl = {
     de: {
       name: 'Perl',
       description:
-        'Eine flexible Skriptsprache f\u00fcr Textverarbeitung, Automatisierung, Web-Systeme und CPAN-Module.',
+        'Eine flexible Skriptsprache für Textverarbeitung, Automatisierung, Web-Systeme und CPAN-Module.',
       longDescription:
-        'Perl ist eine High-Level-Skriptsprache, die von Larry Wall entwickelt wurde. Sie ist bekannt f\u00fcr praktische Textverarbeitung, regul\u00e4re Ausdr\u00fccke, System-Skripting, dynamische Typisierung, CPAN und eine starke Kultur wiederverwendbarer Module. Perl 5 ist die Haupt-Produktionssprache innerhalb der Perl-Familie.\n\nSie wird f\u00fcr Unix-Automatisierung, Log-Verarbeitung, Legacy-Webanwendungen, Bioinformatik, Datenmanipulation, Release-Tooling, Netzwerkdienste und langfristige Betriebsscripts verwendet, bei denen eine ausdrucksstarke Textverarbeitung und ausgereifte Bibliotheken wichtig sind.',
+        'Perl ist eine High-Level-Skriptsprache, die von Larry Wall entwickelt wurde. Sie ist bekannt für praktische Textverarbeitung, reguläre Ausdrücke, System-Skripting, dynamische Typisierung, CPAN und eine starke Kultur wiederverwendbarer Module. Perl 5 ist die Haupt-Produktionssprache innerhalb der Perl-Familie.\n\nSie wird für Unix-Automatisierung, Log-Verarbeitung, Legacy-Webanwendungen, Bioinformatik, Datenmanipulation, Release-Tooling, Netzwerkdienste und langfristige Betriebsscripts verwendet, bei denen eine ausdrucksstarke Textverarbeitung und ausgereifte Bibliotheken wichtig sind.',
     },
     pt: {
       name: 'Perl',
       description:
-        'Linguagem de script flex\u00edvel para processamento de texto, automa\u00e7\u00e3o, sistemas web e m\u00f3dulos CPAN.',
+        'Linguagem de script flexível para processamento de texto, automação, sistemas web e módulos CPAN.',
       longDescription:
-        'Perl \u00e9 uma linguagem de script de alto n\u00edvel criada por Larry Wall, conhecida por seu processamento de texto pr\u00e1tico, express\u00f5es regulares, scripting de sistema, tipagem din\u00e2mica, CPAN e uma forte cultura de m\u00f3dulos reutiliz\u00e1veis. Perl 5 permanece a principal linguagem de produ\u00e7\u00e3o da fam\u00edlia Perl.\n\n\u00c9 usada para automa\u00e7\u00e3o Unix, processamento de logs, aplica\u00e7\u00f5es web legadas, bioinform\u00e1tica, manipula\u00e7\u00e3o de dados, ferramentas de lan\u00e7amento, servi\u00e7os de rede e scripts operacionais de longa dura\u00e7\u00e3o onde o tratamento expressivo de texto e bibliotecas maduras s\u00e3o importantes.',
+        'Perl é uma linguagem de script de alto nível criada por Larry Wall, conhecida por seu processamento de texto prático, expressões regulares, scripting de sistema, tipagem dinâmica, CPAN e uma forte cultura de módulos reutilizáveis. Perl 5 permanece a principal linguagem de produção da família Perl.\n\nÉ usada para automação Unix, processamento de logs, aplicações web legadas, bioinformática, manipulação de dados, ferramentas de lançamento, serviços de rede e scripts operacionais de longa duração onde o tratamento expressivo de texto e bibliotecas maduras são importantes.',
     },
   },
 } satisfies Language;

@@ -47,16 +47,16 @@ export const astro = {
     de: {
       name: 'Astro',
       description:
-        'Ein Web-Framework und eine Komponentendateiformat f\u00fcr Content-basierte Websites und schnelle Frontends.',
+        'Ein Web-Framework und eine Komponentendateiformat für Content-basierte Websites und schnelle Frontends.',
       longDescription:
-        'Astro kombiniert ein HTML-basiertes Komponentenformat mit der Inselarchitektur, Content-Sammlungen, Routing, Server-Rendering, statische Generierung und Integrationen f\u00fcr UI-Frameworks wie React, Vue, Svelte und Solid.\n\nEs wird h\u00e4ufig f\u00fcr Dokumentation, Blogs, Marketing-Websites, E-Commerce-Frontends und andere Content-intensive Anwendungen verwendet, bei denen Performance, einfache Erstellung und flexible Rendering wichtig sind.',
+        'Astro kombiniert ein HTML-basiertes Komponentenformat mit der Inselarchitektur, Content-Sammlungen, Routing, Server-Rendering, statische Generierung und Integrationen für UI-Frameworks wie React, Vue, Svelte und Solid.\n\nEs wird häufig für Dokumentation, Blogs, Marketing-Websites, E-Commerce-Frontends und andere Content-intensive Anwendungen verwendet, bei denen Performance, einfache Erstellung und flexible Rendering wichtig sind.',
     },
     pt: {
       name: 'Astro',
       description:
-        'Framework e formato de arquivo de componentes para sites e frontends orientados a conte\u00fado.',
+        'Framework e formato de arquivo de componentes para sites e frontends orientados a conteúdo.',
       longDescription:
-        'O Astro combina um formato de componentes baseado em HTML com a arquitetura de ilhas, cole\u00e7\u00f5es de conte\u00fado, roteamento, renderiza\u00e7\u00e3o no servidor e gera\u00e7\u00e3o est\u00e1tica, al\u00e9m de integra\u00e7\u00f5es para frameworks de UI como React, Vue, Svelte e Solid.\n\n\u00c9 comumente usado para documenta\u00e7\u00e3o, blogs, sites de marketing, front-ends de e-commerce e outras experi\u00eancias com conte\u00fado intensivo, onde desempenho, autoria simples e renderiza\u00e7\u00e3o flex\u00edvel s\u00e3o importantes.',
+        'O Astro combina um formato de componentes baseado em HTML com a arquitetura de ilhas, coleções de conteúdo, roteamento, renderização no servidor e geração estática, além de integrações para frameworks de UI como React, Vue, Svelte e Solid.\n\nÉ comumente usado para documentação, blogs, sites de marketing, front-ends de e-commerce e outras experiências com conteúdo intensivo, onde desempenho, autoria simples e renderização flexível são importantes.',
     },
   },
 } satisfies Language;

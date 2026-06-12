@@ -43,16 +43,15 @@ export const hack = {
     },
     de: {
       name: 'Hack',
-      description:
-        'Ein schrittweise typisierter Sprache f\u00fcr HHVM mit PHP-\u00e4hnlicher Syntax.',
+      description: 'Ein schrittweise typisierter Sprache für HHVM mit PHP-ähnlicher Syntax.',
       longDescription:
-        'Hack ist eine Programmiersprache f\u00fcr HHVM, die von PHP abstammt und statische Typisierung, Generics, asynchrone Funktionen, Shapes, Collections und Werkzeuge zur Typ\u00fcberpr\u00fcfung hinzuf\u00fcgt. Sie ist f\u00fcr gro\u00dfe Webcodebasen konzipiert, die schrittweise Typisierung und schnelles Feedback ben\u00f6tigen.\n\nSie wird haupts\u00e4chlich in HHVM-Umgebungen und gro\u00dfen Serveranwendungen eingesetzt, wo die PHP-\u00e4hnliche Ergonomie mit st\u00e4rkerer statischer Analyse und modernen Sprachkonstrukten kombiniert wird.',
+        'Hack ist eine Programmiersprache für HHVM, die von PHP abstammt und statische Typisierung, Generics, asynchrone Funktionen, Shapes, Collections und Werkzeuge zur Typüberprüfung hinzufügt. Sie ist für große Webcodebasen konzipiert, die schrittweise Typisierung und schnelles Feedback benötigen.\n\nSie wird hauptsächlich in HHVM-Umgebungen und großen Serveranwendungen eingesetzt, wo die PHP-ähnliche Ergonomie mit stärkerer statischer Analyse und modernen Sprachkonstrukten kombiniert wird.',
     },
     pt: {
       name: 'Hack',
-      description: 'Linguagem de tipagem gradual para HHVM, com heran\u00e7a do PHP.',
+      description: 'Linguagem de tipagem gradual para HHVM, com herança do PHP.',
       longDescription:
-        'Hack \u00e9 uma linguagem para HHVM que evoluiu do PHP e adiciona tipagem est\u00e1tica, gen\u00e9ricos, recursos ass\u00edncronos, shapes, cole\u00e7\u00f5es e ferramentas baseadas no verificador de tipo Hack. \u00c9 projetada para grandes bases de c\u00f3digo web que precisam de tipagem gradual e feedback r\u00e1pido.\n\n\u00c9 usada principalmente em ambientes HHVM e grandes aplica\u00e7\u00f5es de servidor onde a ergonomia semelhante ao PHP \u00e9 combinada com an\u00e1lise est\u00e1tica mais forte e constru\u00e7\u00f5es de linguagem modernas.',
+        'Hack é uma linguagem para HHVM que evoluiu do PHP e adiciona tipagem estática, genéricos, recursos assíncronos, shapes, coleções e ferramentas baseadas no verificador de tipo Hack. É projetada para grandes bases de código web que precisam de tipagem gradual e feedback rápido.\n\nÉ usada principalmente em ambientes HHVM e grandes aplicações de servidor onde a ergonomia semelhante ao PHP é combinada com análise estática mais forte e construções de linguagem modernas.',
     },
   },
 } satisfies Language;

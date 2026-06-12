@@ -45,16 +45,16 @@ export const cuda = {
     de: {
       name: 'CUDA',
       description:
-        'NVIDIAs GPU-Programmierungsplattform und C/C++-Erweiterungen f\u00fcr parallele Berechnungen.',
+        'NVIDIAs GPU-Programmierungsplattform und C/C++-Erweiterungen für parallele Berechnungen.',
       longDescription:
-        'CUDA ist NVIDIAs parallele Berechnungsplattform und Programmiermodell f\u00fcr GPU-beschleunigte Anwendungen. CUDA C/C++-Quellcode verwendet Erweiterungen f\u00fcr Kernel, Ger\u00e4tefunktionen, Speicherbereiche, Gitter, Bl\u00f6cke und Threads, die auf NVIDIA GPUs ausgef\u00fchrt werden.\n\nEs wird in maschinellem Lernen, wissenschaftlichen Berechnungen, Simulationen, Bildverarbeitung, Rendering, Hochleistungsrechnen und Anwendungen verwendet, die massiv parallele Arbeitslasten auf GPU-Hardware auslagern m\u00fcssen.',
+        'CUDA ist NVIDIAs parallele Berechnungsplattform und Programmiermodell für GPU-beschleunigte Anwendungen. CUDA C/C++-Quellcode verwendet Erweiterungen für Kernel, Gerätefunktionen, Speicherbereiche, Gitter, Blöcke und Threads, die auf NVIDIA GPUs ausgeführt werden.\n\nEs wird in maschinellem Lernen, wissenschaftlichen Berechnungen, Simulationen, Bildverarbeitung, Rendering, Hochleistungsrechnen und Anwendungen verwendet, die massiv parallele Arbeitslasten auf GPU-Hardware auslagern müssen.',
     },
     pt: {
       name: 'CUDA',
       description:
-        'Plataforma de programa\u00e7\u00e3o para GPUs da NVIDIA e extens\u00f5es C/C++ para computa\u00e7\u00e3o paralela.',
+        'Plataforma de programação para GPUs da NVIDIA e extensões C/C++ para computação paralela.',
       longDescription:
-        'CUDA \u00e9 a plataforma de computa\u00e7\u00e3o paralela e modelo de programa\u00e7\u00e3o da NVIDIA para aplica\u00e7\u00f5es aceleradas por GPU. Os arquivos de c\u00f3digo fonte CUDA C/C++ usam extens\u00f5es para kernels, fun\u00e7\u00f5es de dispositivo, espa\u00e7os de mem\u00f3ria, grids, blocos e threads que executam em GPUs NVIDIA.\n\n\u00c9 usado em aprendizado de m\u00e1quina, computa\u00e7\u00e3o cient\u00edfica, simula\u00e7\u00f5es, processamento de imagem, renderiza\u00e7\u00e3o, computa\u00e7\u00e3o de alto desempenho e aplica\u00e7\u00f5es que precisam transferir cargas de trabalho altamente paralelas para o hardware da GPU.',
+        'CUDA é a plataforma de computação paralela e modelo de programação da NVIDIA para aplicações aceleradas por GPU. Os arquivos de código fonte CUDA C/C++ usam extensões para kernels, funções de dispositivo, espaços de memória, grids, blocos e threads que executam em GPUs NVIDIA.\n\nÉ usado em aprendizado de máquina, computação científica, simulações, processamento de imagem, renderização, computação de alto desempenho e aplicações que precisam transferir cargas de trabalho altamente paralelas para o hardware da GPU.',
     },
   },
 } satisfies Language;

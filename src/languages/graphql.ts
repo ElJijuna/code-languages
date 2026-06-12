@@ -47,16 +47,16 @@ export const graphql = {
     de: {
       name: 'GraphQL',
       description:
-        'Eine typisierte Abfragesprache und Schemalingua f\u00fcr APIs, die Clients pr\u00e4zise Datenstrukturen anfordern l\u00e4sst.',
+        'Eine typisierte Abfragesprache und Schemalingua für APIs, die Clients präzise Datenstrukturen anfordern lässt.',
       longDescription:
-        'GraphQL ist eine typisierte Abfragesprache, Schemalingua und Ausf\u00fchrungsmodell f\u00fcr APIs, das Clients erm\u00f6glicht, die exakt ben\u00f6tigten Daten zu beschreiben, w\u00e4hrend Server \u00fcber ein stark typisiertes Graph M\u00f6glichkeiten bereitstellen. \n\nEs wird h\u00e4ufig in Web- und Mobile-Anwendungen, API-Gateways, federierten Service-Graphen, Entwicklerplattformen, Inhalts-Systemen und Tooling-Workflows verwendet, die Introspektion, Validierung, Code-Generierung und vorhersagbare Client-Server-Vertr\u00e4ge ben\u00f6tigen.',
+        'GraphQL ist eine typisierte Abfragesprache, Schemalingua und Ausführungsmodell für APIs, das Clients ermöglicht, die exakt benötigten Daten zu beschreiben, während Server über ein stark typisiertes Graph Möglichkeiten bereitstellen. \n\nEs wird häufig in Web- und Mobile-Anwendungen, API-Gateways, federierten Service-Graphen, Entwicklerplattformen, Inhalts-Systemen und Tooling-Workflows verwendet, die Introspektion, Validierung, Code-Generierung und vorhersagbare Client-Server-Verträge benötigen.',
     },
     pt: {
       name: 'GraphQL',
       description:
         'Linguagem de consulta e esquema com tipagem para APIs, permitindo que os clientes solicitem formatos de dados exatos.',
       longDescription:
-        'GraphQL \u00e9 uma linguagem de consulta e esquema com tipagem para APIs, permitindo que os clientes definam os dados exatos que precisam e os servidores exponham capacidades atrav\u00e9s de um grafo fortemente tipado. \n\n\u00c9 amplamente utilizada em aplica\u00e7\u00f5es web e m\u00f3veis, gateways de API, grafos de servi\u00e7os federados, plataformas de desenvolvedores, sistemas de conte\u00fado e fluxos de trabalho de ferramentas que necessitam de introspec\u00e7\u00e3o, valida\u00e7\u00e3o, gera\u00e7\u00e3o de c\u00f3digo e contratos previs\u00edveis entre cliente e servidor.',
+        'GraphQL é uma linguagem de consulta e esquema com tipagem para APIs, permitindo que os clientes definam os dados exatos que precisam e os servidores exponham capacidades através de um grafo fortemente tipado. \n\nÉ amplamente utilizada em aplicações web e móveis, gateways de API, grafos de serviços federados, plataformas de desenvolvedores, sistemas de conteúdo e fluxos de trabalho de ferramentas que necessitam de introspecção, validação, geração de código e contratos previsíveis entre cliente e servidor.',
     },
   },
 } satisfies Language;

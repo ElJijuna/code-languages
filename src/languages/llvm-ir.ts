@@ -47,16 +47,16 @@ export const llvmIr = {
     de: {
       name: 'LLVM IR',
       description:
-        'Die typisierte Zwischenrepr\u00e4sentation, die vom LLVM-Compiler-Infrastruktur verwendet wird.',
+        'Die typisierte Zwischenrepräsentation, die vom LLVM-Compiler-Infrastruktur verwendet wird.',
       longDescription:
-        'LLVM IR ist die typisierte, Low-Level-Zwischenrepr\u00e4sentation, die von der LLVM-Compiler-Infrastruktur verwendet wird. Sie hat eine textuelle Form, Bitcode-Form, SSA-basierte Werte, expliziten Kontrollfluss und eine Sprachreferenz, die Anweisungen, Typen, Attribute und Metadaten definiert.\n\nSie wird von Compilern, Optimierern, statischen Analysatoren, JIT-Systemen, Sprachimplementierungen und Tools verwendet, die eine portable Darstellung zwischen Quellsprachen und Maschinencode ben\u00f6tigen.',
+        'LLVM IR ist die typisierte, Low-Level-Zwischenrepräsentation, die von der LLVM-Compiler-Infrastruktur verwendet wird. Sie hat eine textuelle Form, Bitcode-Form, SSA-basierte Werte, expliziten Kontrollfluss und eine Sprachreferenz, die Anweisungen, Typen, Attribute und Metadaten definiert.\n\nSie wird von Compilern, Optimierern, statischen Analysatoren, JIT-Systemen, Sprachimplementierungen und Tools verwendet, die eine portable Darstellung zwischen Quellsprachen und Maschinencode benötigen.',
     },
     pt: {
       name: 'LLVM IR',
       description:
-        'Representa\u00e7\u00e3o intermedi\u00e1ria tipada usada pela infraestrutura do compilador LLVM.',
+        'Representação intermediária tipada usada pela infraestrutura do compilador LLVM.',
       longDescription:
-        'LLVM IR \u00e9 a representa\u00e7\u00e3o intermedi\u00e1ria tipada e de baixo n\u00edvel usada pela infraestrutura do compilador LLVM. Possui uma forma textual, forma de bitcode, valores baseados em SSA, fluxo de controle expl\u00edcito e uma refer\u00eancia da linguagem que define instru\u00e7\u00f5es, tipos, atributos e metadados.\n\n\u00c9 usada por compiladores, otimizadores, analisadores est\u00e1ticos, sistemas JIT, implementa\u00e7\u00f5es de linguagem e ferramentas que precisam de uma representa\u00e7\u00e3o port\u00e1til entre linguagens de origem e c\u00f3digo de m\u00e1quina.',
+        'LLVM IR é a representação intermediária tipada e de baixo nível usada pela infraestrutura do compilador LLVM. Possui uma forma textual, forma de bitcode, valores baseados em SSA, fluxo de controle explícito e uma referência da linguagem que define instruções, tipos, atributos e metadados.\n\nÉ usada por compiladores, otimizadores, analisadores estáticos, sistemas JIT, implementações de linguagem e ferramentas que precisam de uma representação portátil entre linguagens de origem e código de máquina.',
     },
   },
 } satisfies Language;

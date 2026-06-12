@@ -42,16 +42,16 @@ export const xml = {
     de: {
       name: 'XML',
       description:
-        'Eine Markup-Sprache f\u00fcr strukturierte Dokumente, Konfigurationsdateien und Datenaustausch.',
+        'Eine Markup-Sprache für strukturierte Dokumente, Konfigurationsdateien und Datenaustausch.',
       longDescription:
-        'XML definiert ein textbasiertes Format zur Darstellung strukturierter Informationen mit benutzerdefinierten Elementen, Attributen, Namespaces, Schemata und Transformationsprozessen.\n\nEs wird h\u00e4ufig in Konfigurationsdateien, Unternehmensintegrationen, Dokumentformaten, Webdiensten, Ver\u00f6ffentlichungs- und Standardsystemen verwendet, die portable, selbstbeschreibende Daten erfordern.',
+        'XML definiert ein textbasiertes Format zur Darstellung strukturierter Informationen mit benutzerdefinierten Elementen, Attributen, Namespaces, Schemata und Transformationsprozessen.\n\nEs wird häufig in Konfigurationsdateien, Unternehmensintegrationen, Dokumentformaten, Webdiensten, Veröffentlichungs- und Standardsystemen verwendet, die portable, selbstbeschreibende Daten erfordern.',
     },
     pt: {
       name: 'XML',
       description:
-        'Uma linguagem de marca\u00e7\u00e3o para documentos estruturados, arquivos de configura\u00e7\u00e3o e troca de dados.',
+        'Uma linguagem de marcação para documentos estruturados, arquivos de configuração e troca de dados.',
       longDescription:
-        'O XML define um formato baseado em texto para representar informa\u00e7\u00f5es estruturadas com elementos, atributos, namespaces e esquemas personalizados.\n\n\u00c9 amplamente utilizado em arquivos de configura\u00e7\u00e3o, integra\u00e7\u00e3o empresarial, formatos de documentos, servi\u00e7os web, sistemas de publica\u00e7\u00e3o e padr\u00f5es que exigem dados port\u00e1teis e auto-descritivos.',
+        'O XML define um formato baseado em texto para representar informações estruturadas com elementos, atributos, namespaces e esquemas personalizados.\n\nÉ amplamente utilizado em arquivos de configuração, integração empresarial, formatos de documentos, serviços web, sistemas de publicação e padrões que exigem dados portáteis e auto-descritivos.',
     },
   },
 } satisfies Language;

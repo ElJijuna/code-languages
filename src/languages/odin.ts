@@ -45,15 +45,15 @@ export const odin = {
     de: {
       name: 'Odin',
       description:
-        'Eine datenorientierte Programmiersprache f\u00fcr native Software und Spieleentwicklung.',
+        'Eine datenorientierte Programmiersprache für native Software und Spieleentwicklung.',
       longDescription:
-        'Odin ist eine prozedurale Programmiersprache f\u00fcr Systemprogrammierung mit expliziter Speicherverwaltung, Paketen, externen Schnittstellen, benutzerdefinierten Allokatoren und Sprachfunktionen, die auf die Datenlayout-Orientierung ausgerichtet sind. Sie bevorzugt einfachen, nativen Code gegen\u00fcber umfangreicher Laufzeit-Maschinerie.\n\nSie wird f\u00fcr Engines, Tools, Grafikprogramme, native Utilities und leistungskritische Anwendungen verwendet, bei denen eine vorhersehbare Kontrolle \u00fcber die Daten wichtig ist.',
+        'Odin ist eine prozedurale Programmiersprache für Systemprogrammierung mit expliziter Speicherverwaltung, Paketen, externen Schnittstellen, benutzerdefinierten Allokatoren und Sprachfunktionen, die auf die Datenlayout-Orientierung ausgerichtet sind. Sie bevorzugt einfachen, nativen Code gegenüber umfangreicher Laufzeit-Maschinerie.\n\nSie wird für Engines, Tools, Grafikprogramme, native Utilities und leistungskritische Anwendungen verwendet, bei denen eine vorhersehbare Kontrolle über die Daten wichtig ist.',
     },
     pt: {
       name: 'Odin',
       description: 'Linguagem orientada a dados para software nativo e ferramentas de jogos.',
       longDescription:
-        'Odin \u00e9 uma linguagem de programa\u00e7\u00e3o procedural de sistemas com controle expl\u00edcito de mem\u00f3ria, pacotes, interfaces estrangeiras, alocadores personalizados e recursos de linguagem orientados ao layout de dados. Ela favorece c\u00f3digo nativo simples em vez de grande maquinaria de tempo de execu\u00e7\u00e3o.\n\n\u00c9 usada para engines, ferramentas, programas de gr\u00e1ficos, utilit\u00e1rios nativos e aplica\u00e7\u00f5es sens\u00edveis ao desempenho onde o controle previs\u00edvel sobre os dados \u00e9 importante.',
+        'Odin é uma linguagem de programação procedural de sistemas com controle explícito de memória, pacotes, interfaces estrangeiras, alocadores personalizados e recursos de linguagem orientados ao layout de dados. Ela favorece código nativo simples em vez de grande maquinaria de tempo de execução.\n\nÉ usada para engines, ferramentas, programas de gráficos, utilitários nativos e aplicações sensíveis ao desempenho onde o controle previsível sobre os dados é importante.',
     },
   },
 } satisfies Language;

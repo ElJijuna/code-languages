@@ -46,14 +46,14 @@ export const smalltalk = {
       description:
         'Eine Nachrichten-orientierte objektorientierte Sprache mit interaktiven, bildbasierten Umgebungen.',
       longDescription:
-        'Smalltalk hat die objektorientierte Programmierung durch Nachrichten, Klassen, Bl\u00f6cke, Reflexion und interaktive Bildumgebungen definiert. Viele Implementierungen verwenden die Sprache zusammen mit Live-Browsern, Inspektoren und Debuggern.\n\nSie wird f\u00fcr Bildung, Forschung, langfristige Gesch\u00e4ftssysteme, Simulationen und exploratives Programmieren in Live-Objektumgebungen verwendet.',
+        'Smalltalk hat die objektorientierte Programmierung durch Nachrichten, Klassen, Blöcke, Reflexion und interaktive Bildumgebungen definiert. Viele Implementierungen verwenden die Sprache zusammen mit Live-Browsern, Inspektoren und Debuggern.\n\nSie wird für Bildung, Forschung, langfristige Geschäftssysteme, Simulationen und exploratives Programmieren in Live-Objektumgebungen verwendet.',
     },
     pt: {
       name: 'Smalltalk',
       description:
         'Linguagem orientada a objetos baseada em mensagens com ambientes baseados em imagens em tempo real.',
       longDescription:
-        'Smalltalk ajudou a definir a programa\u00e7\u00e3o orientada a objetos atrav\u00e9s de mensagens, classes, blocos, reflex\u00e3o e ambientes interativos baseados em imagens. Muitas implementa\u00e7\u00f5es combinam a linguagem com navegadores, inspetores e depuradores em tempo real.\n\n\u00c9 utilizada para educa\u00e7\u00e3o, pesquisa, sistemas de neg\u00f3cios de longa dura\u00e7\u00e3o, simula\u00e7\u00f5es e programa\u00e7\u00e3o explorat\u00f3ria em ambientes de objetos em tempo real.',
+        'Smalltalk ajudou a definir a programação orientada a objetos através de mensagens, classes, blocos, reflexão e ambientes interativos baseados em imagens. Muitas implementações combinam a linguagem com navegadores, inspetores e depuradores em tempo real.\n\nÉ utilizada para educação, pesquisa, sistemas de negócios de longa duração, simulações e programação exploratória em ambientes de objetos em tempo real.',
     },
   },
 } satisfies Language;

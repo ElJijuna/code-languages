@@ -47,14 +47,13 @@ export const dhall = {
       description:
         'Eine programmierbare, typisierte Konfigurationssprache, die sicher normalisiert.',
       longDescription:
-        'Dhall ist eine programmierbare Konfigurationssprache mit einem starken statischen Typsystem, Importen, Funktionen, Records und garantierter Normalisierung. Sie wurde entwickelt, um repetitive JSON-, YAML- und \u00e4hnliche Konfigurationsformate durch wiederverwendbare, typisierte Ausdr\u00fccke zu ersetzen.\n\nSie wird f\u00fcr Infrastrukturkonfiguration, Anwendungs-Einstellungen, generierte YAML- oder JSON-Dateien und Systeme verwendet, die gemeinsame Konfiguration ben\u00f6tigen, ohne dass beliebiger Code ausgef\u00fchrt wird.',
+        'Dhall ist eine programmierbare Konfigurationssprache mit einem starken statischen Typsystem, Importen, Funktionen, Records und garantierter Normalisierung. Sie wurde entwickelt, um repetitive JSON-, YAML- und ähnliche Konfigurationsformate durch wiederverwendbare, typisierte Ausdrücke zu ersetzen.\n\nSie wird für Infrastrukturkonfiguration, Anwendungs-Einstellungen, generierte YAML- oder JSON-Dateien und Systeme verwendet, die gemeinsame Konfiguration benötigen, ohne dass beliebiger Code ausgeführt wird.',
     },
     pt: {
       name: 'Dhall',
-      description:
-        'Linguagem de configura\u00e7\u00e3o program\u00e1vel e tipada que normaliza com seguran\u00e7a.',
+      description: 'Linguagem de configuração programável e tipada que normaliza com segurança.',
       longDescription:
-        'Dhall \u00e9 uma linguagem de configura\u00e7\u00e3o program\u00e1vel com um forte sistema de tipos est\u00e1ticos, importa\u00e7\u00f5es, fun\u00e7\u00f5es, registros e normaliza\u00e7\u00e3o garantida. \u00c9 projetada para substituir formatos de configura\u00e7\u00e3o repetitivos como JSON, YAML, etc., com express\u00f5es tipadas reutiliz\u00e1veis.\n\n\u00c9 usada para configura\u00e7\u00e3o de infraestrutura, configura\u00e7\u00f5es de aplicativos, gera\u00e7\u00e3o de YAML ou JSON e sistemas que precisam de configura\u00e7\u00e3o compartilhada sem execu\u00e7\u00e3o de c\u00f3digo arbitr\u00e1ria.',
+        'Dhall é uma linguagem de configuração programável com um forte sistema de tipos estáticos, importações, funções, registros e normalização garantida. É projetada para substituir formatos de configuração repetitivos como JSON, YAML, etc., com expressões tipadas reutilizáveis.\n\nÉ usada para configuração de infraestrutura, configurações de aplicativos, geração de YAML ou JSON e sistemas que precisam de configuração compartilhada sem execução de código arbitrária.',
     },
   },
 } satisfies Language;

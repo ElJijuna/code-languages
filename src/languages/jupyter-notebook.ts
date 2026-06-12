@@ -49,14 +49,14 @@ export const jupyterNotebook = {
       description:
         'Ein JSON-basiertes Notebook-Format zur Kombination von Live-Code, Text, Ausgaben und Medien.',
       longDescription:
-        'Jupyter Notebook-Dateien speichern ausf\u00fchrbaren Code, Markdown-Text, umfangreiche Ausgaben, Metadaten und Kernel-Informationen in einem JSON-Dokument mit der Erweiterung .ipynb.\n\nSie werden h\u00e4ufig f\u00fcr Datenanalyse, maschinelles Lernen, wissenschaftliche Berechnungen, Bildung, Tutorials, Berichte und reproduzierbare Berechnungsabl\u00e4ufe verwendet.',
+        'Jupyter Notebook-Dateien speichern ausführbaren Code, Markdown-Text, umfangreiche Ausgaben, Metadaten und Kernel-Informationen in einem JSON-Dokument mit der Erweiterung .ipynb.\n\nSie werden häufig für Datenanalyse, maschinelles Lernen, wissenschaftliche Berechnungen, Bildung, Tutorials, Berichte und reproduzierbare Berechnungsabläufe verwendet.',
     },
     pt: {
       name: 'Jupyter Notebook',
       description:
-        'Formato de notebook baseado em JSON para combinar c\u00f3digo, texto narrativo, resultados e m\u00eddia.',
+        'Formato de notebook baseado em JSON para combinar código, texto narrativo, resultados e mídia.',
       longDescription:
-        'Arquivos Jupyter Notebook armazenam c\u00e9lulas de c\u00f3digo execut\u00e1veis, narrativa Markdown, resultados ricos, metadados e informa\u00e7\u00f5es do kernel em um documento JSON com a extens\u00e3o .ipynb.\n\nS\u00e3o amplamente utilizados para an\u00e1lise de dados, experimentos de aprendizado de m\u00e1quina, computa\u00e7\u00e3o cient\u00edfica, educa\u00e7\u00e3o, tutoriais, relat\u00f3rios e fluxos de trabalho computacionais reprodut\u00edveis.',
+        'Arquivos Jupyter Notebook armazenam células de código executáveis, narrativa Markdown, resultados ricos, metadados e informações do kernel em um documento JSON com a extensão .ipynb.\n\nSão amplamente utilizados para análise de dados, experimentos de aprendizado de máquina, computação científica, educação, tutoriais, relatórios e fluxos de trabalho computacionais reprodutíveis.',
     },
   },
 } satisfies Language;

@@ -47,16 +47,16 @@ export const arduino = {
     de: {
       name: 'Arduino Sketch',
       description:
-        'Ein C/C++-basierter Skizten-Format zum Programmieren von Arduino-Boards und eingebetteten Ger\u00e4ten.',
+        'Ein C/C++-basierter Skizten-Format zum Programmieren von Arduino-Boards und eingebetteten Geräten.',
       longDescription:
-        'Arduino-Skizten b\u00fcndeln eingebettete C- und C++-Entwicklung in einem benutzerfreundlichen Projektmodell mit Setup- und Loop-Eintrittspunkten, Board-Kernen und Hardware-Bibliotheken.\n\nSie werden h\u00e4ufig f\u00fcr die Elektronikentwicklung, Bildung, Robotik, Sensoren, IoT-Ger\u00e4te und kleine Firmware-Projekte verwendet, die direkt mit physischen Komponenten interagieren.',
+        'Arduino-Skizten bündeln eingebettete C- und C++-Entwicklung in einem benutzerfreundlichen Projektmodell mit Setup- und Loop-Eintrittspunkten, Board-Kernen und Hardware-Bibliotheken.\n\nSie werden häufig für die Elektronikentwicklung, Bildung, Robotik, Sensoren, IoT-Geräte und kleine Firmware-Projekte verwendet, die direkt mit physischen Komponenten interagieren.',
     },
     pt: {
       name: 'Arduino Sketch',
       description:
-        'Formato de esbo\u00e7o baseado em C/C++ para programar placas Arduino e dispositivos embarcados.',
+        'Formato de esboço baseado em C/C++ para programar placas Arduino e dispositivos embarcados.',
       longDescription:
-        'Os esbo\u00e7os Arduino encapsulam o desenvolvimento em C e C++ para iniciantes, com um modelo de projeto amig\u00e1vel, pontos de entrada de setup e loop, n\u00facleos de placa e bibliotecas de hardware.\n\nS\u00e3o amplamente utilizados para prototipagem eletr\u00f4nica, educa\u00e7\u00e3o, rob\u00f3tica, sensores, dispositivos IoT e pequenos projetos de firmware que interagem diretamente com componentes f\u00edsicos.',
+        'Os esboços Arduino encapsulam o desenvolvimento em C e C++ para iniciantes, com um modelo de projeto amigável, pontos de entrada de setup e loop, núcleos de placa e bibliotecas de hardware.\n\nSão amplamente utilizados para prototipagem eletrônica, educação, robótica, sensores, dispositivos IoT e pequenos projetos de firmware que interagem diretamente com componentes físicos.',
     },
   },
 } satisfies Language;

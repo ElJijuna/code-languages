@@ -46,16 +46,16 @@ export const autohotkey = {
     de: {
       name: 'AutoHotkey',
       description:
-        'Eine Windows-Skriptsprache f\u00fcr Tastenkombinationen, Makros, Automatisierung und kleine Tools.',
+        'Eine Windows-Skriptsprache für Tastenkombinationen, Makros, Automatisierung und kleine Tools.',
       longDescription:
-        'AutoHotkey-Skripte automatisieren Windows-Workflows \u00fcber Tastenkombinationen, Textausweitung, GUI-Automatisierung, Fensterverwaltung, Tastatur- und Maussteuerung sowie benutzerdefinierte Skripte.\n\nEs ist beliebt f\u00fcr die pers\u00f6nliche Produktivit\u00e4t, die Automatisierung sich wiederholender Aufgaben, schnelle Desktop-Tools, Anwendungsstarter und zug\u00e4ngliche Arbeitsabl\u00e4ufe.',
+        'AutoHotkey-Skripte automatisieren Windows-Workflows über Tastenkombinationen, Textausweitung, GUI-Automatisierung, Fensterverwaltung, Tastatur- und Maussteuerung sowie benutzerdefinierte Skripte.\n\nEs ist beliebt für die persönliche Produktivität, die Automatisierung sich wiederholender Aufgaben, schnelle Desktop-Tools, Anwendungsstarter und zugängliche Arbeitsabläufe.',
     },
     pt: {
       name: 'AutoHotkey',
       description:
-        'Linguagem de script para Windows para atalhos, macros, automa\u00e7\u00e3o e pequenas utilidades.',
+        'Linguagem de script para Windows para atalhos, macros, automação e pequenas utilidades.',
       longDescription:
-        'Os scripts AutoHotkey automatizam fluxos de trabalho do Windows atrav\u00e9s de atalhos, expans\u00e3o de texto, automa\u00e7\u00e3o de GUI, gerenciamento de janelas, controle de teclado e mouse e scripts de utilidade personalizados.\n\n\u00c9 popular para produtividade pessoal, automa\u00e7\u00e3o de tarefas repetitivas, ferramentas de desktop r\u00e1pidas, lan\u00e7adores de aplicativos e fluxos de trabalho orientados \u00e0 acessibilidade.',
+        'Os scripts AutoHotkey automatizam fluxos de trabalho do Windows através de atalhos, expansão de texto, automação de GUI, gerenciamento de janelas, controle de teclado e mouse e scripts de utilidade personalizados.\n\nÉ popular para produtividade pessoal, automação de tarefas repetitivas, ferramentas de desktop rápidas, lançadores de aplicativos e fluxos de trabalho orientados à acessibilidade.',
     },
   },
 } satisfies Language;

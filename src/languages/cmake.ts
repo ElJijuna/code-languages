@@ -46,16 +46,16 @@ export const cmake = {
     de: {
       name: 'CMake',
       description:
-        'Eine plattform\u00fcbergreifende Build-System-Sprache zur Konfiguration, Generierung und Verwaltung von Builds.',
+        'Eine plattformübergreifende Build-System-Sprache zur Konfiguration, Generierung und Verwaltung von Builds.',
       longDescription:
-        'CMake-Dateien beschreiben Projekte, Ziele, Abh\u00e4ngigkeiten, Compiler-Optionen, Installationsregeln, Tests und plattformspezifisches Build-Verhalten mithilfe einer command-basierten Skriptsprache.\n\nSie werden h\u00e4ufig verwendet, um native Build-Dateien f\u00fcr Tools wie Ninja, Make, Visual Studio und Xcode zu generieren, insbesondere in C-, C++-, Fortran-, eingebetteten, wissenschaftlichen und plattform\u00fcbergreifenden Softwareprojekten.',
+        'CMake-Dateien beschreiben Projekte, Ziele, Abhängigkeiten, Compiler-Optionen, Installationsregeln, Tests und plattformspezifisches Build-Verhalten mithilfe einer command-basierten Skriptsprache.\n\nSie werden häufig verwendet, um native Build-Dateien für Tools wie Ninja, Make, Visual Studio und Xcode zu generieren, insbesondere in C-, C++-, Fortran-, eingebetteten, wissenschaftlichen und plattformübergreifenden Softwareprojekten.',
     },
     pt: {
       name: 'CMake',
       description:
-        'Linguagem de sistema de constru\u00e7\u00e3o multiplataforma usada para configurar, gerar e gerenciar constru\u00e7\u00f5es.',
+        'Linguagem de sistema de construção multiplataforma usada para configurar, gerar e gerenciar construções.',
       longDescription:
-        'Arquivos CMake descrevem projetos, alvos, depend\u00eancias, op\u00e7\u00f5es do compilador, regras de instala\u00e7\u00e3o e comportamento de constru\u00e7\u00e3o espec\u00edfico da plataforma usando uma linguagem de script baseada em comandos.\n\nS\u00e3o amplamente utilizados para gerar arquivos de constru\u00e7\u00e3o nativos para ferramentas como Ninja, Make, Visual Studio e Xcode, especialmente em projetos de software C, C++, Fortran, embarcado, cient\u00edfico e multiplataforma.',
+        'Arquivos CMake descrevem projetos, alvos, dependências, opções do compilador, regras de instalação e comportamento de construção específico da plataforma usando uma linguagem de script baseada em comandos.\n\nSão amplamente utilizados para gerar arquivos de construção nativos para ferramentas como Ninja, Make, Visual Studio e Xcode, especialmente em projetos de software C, C++, Fortran, embarcado, científico e multiplataforma.',
     },
   },
 } satisfies Language;

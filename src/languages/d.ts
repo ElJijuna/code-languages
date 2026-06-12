@@ -49,14 +49,14 @@ export const d = {
       description:
         'Ein Systemprogrammiersprache, die native Leistung mit High-Level-Abstraktionen kombiniert.',
       longDescription:
-        'D ist eine allgemeine Systemprogrammiersprache mit C-\u00e4hnlicher Syntax, nativem Kompilieren, Garbage Collection, manuellen Speicheroptionen, Templates, Compile-Time-Funktionsausf\u00fchrung, Ranges, Vertr\u00e4gen und Interoperabilit\u00e4t mit C.\n\nEs wird f\u00fcr Kommandozeilen-Tools, Systemsoftware, native Dienste, Hochleistungsanwendungen, Game-Tooling, Compiler und Projekte verwendet, die eine Low-Level-Kontrolle zusammen mit ausdrucksstarker Metaprogrammierung und modernen Sprachfunktionen w\u00fcnschen.',
+        'D ist eine allgemeine Systemprogrammiersprache mit C-ähnlicher Syntax, nativem Kompilieren, Garbage Collection, manuellen Speicheroptionen, Templates, Compile-Time-Funktionsausführung, Ranges, Verträgen und Interoperabilität mit C.\n\nEs wird für Kommandozeilen-Tools, Systemsoftware, native Dienste, Hochleistungsanwendungen, Game-Tooling, Compiler und Projekte verwendet, die eine Low-Level-Kontrolle zusammen mit ausdrucksstarker Metaprogrammierung und modernen Sprachfunktionen wünschen.',
     },
     pt: {
       name: 'D',
       description:
-        'Linguagem de programa\u00e7\u00e3o de sistemas que combina desempenho nativo com abstra\u00e7\u00f5es de alto n\u00edvel.',
+        'Linguagem de programação de sistemas que combina desempenho nativo com abstrações de alto nível.',
       longDescription:
-        'D \u00e9 uma linguagem de programa\u00e7\u00e3o de sistemas de uso geral com sintaxe semelhante \u00e0 C, compila\u00e7\u00e3o nativa, coleta de lixo, op\u00e7\u00f5es de gerenciamento manual de mem\u00f3ria, templates, execu\u00e7\u00e3o de fun\u00e7\u00f5es em tempo de compila\u00e7\u00e3o, ranges, contratos e interoperabilidade com C.\n\n\u00c9 usada para ferramentas de linha de comando, software de sistemas, servi\u00e7os nativos, aplica\u00e7\u00f5es de alto desempenho, ferramentas de jogos, compiladores e projetos que desejam controle de baixo n\u00edvel, juntamente com metaprograma\u00e7\u00e3o expressiva e recursos de linguagem modernos.',
+        'D é uma linguagem de programação de sistemas de uso geral com sintaxe semelhante à C, compilação nativa, coleta de lixo, opções de gerenciamento manual de memória, templates, execução de funções em tempo de compilação, ranges, contratos e interoperabilidade com C.\n\nÉ usada para ferramentas de linha de comando, software de sistemas, serviços nativos, aplicações de alto desempenho, ferramentas de jogos, compiladores e projetos que desejam controle de baixo nível, juntamente com metaprogramação expressiva e recursos de linguagem modernos.',
     },
   },
 } satisfies Language;

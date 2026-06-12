@@ -47,16 +47,16 @@ export const php = {
     de: {
       name: 'PHP',
       description:
-        'Eine serverseitige Skriptsprache, die weit verbreitet f\u00fcr Webanwendungen und dynamische Websites verwendet wird.',
+        'Eine serverseitige Skriptsprache, die weit verbreitet für Webanwendungen und dynamische Websites verwendet wird.',
       longDescription:
-        'PHP ist eine allgemeine Skriptsprache, die sich besonders f\u00fcr die serverseitige Webentwicklung eignet. Sie bietet integrierte Unterst\u00fctzung f\u00fcr die Verarbeitung von Anfragen, das Templating, Datenbanken, Erweiterungen, Paketverwaltung und die Bereitstellung auf g\u00e4ngigen Hosting-Plattformen.\n\nSie wird von Content-Management-Systemen, E-Commerce-Plattformen, APIs, Frameworks, Kommandozeilen-Tools und langen Webanwendungen in einem gro\u00dfen \u00d6kosystem eingesetzt.',
+        'PHP ist eine allgemeine Skriptsprache, die sich besonders für die serverseitige Webentwicklung eignet. Sie bietet integrierte Unterstützung für die Verarbeitung von Anfragen, das Templating, Datenbanken, Erweiterungen, Paketverwaltung und die Bereitstellung auf gängigen Hosting-Plattformen.\n\nSie wird von Content-Management-Systemen, E-Commerce-Plattformen, APIs, Frameworks, Kommandozeilen-Tools und langen Webanwendungen in einem großen Ökosystem eingesetzt.',
     },
     pt: {
       name: 'PHP',
       description:
-        'Linguagem de script do lado do servidor amplamente utilizada para aplica\u00e7\u00f5es web e sites din\u00e2micos.',
+        'Linguagem de script do lado do servidor amplamente utilizada para aplicações web e sites dinâmicos.',
       longDescription:
-        'PHP \u00e9 uma linguagem de script de prop\u00f3sito geral especialmente adequada para o desenvolvimento web do lado do servidor, com suporte integrado para manipula\u00e7\u00e3o de requisi\u00e7\u00f5es, modelagem, bancos de dados, extens\u00f5es, gerenciamento de pacotes e implanta\u00e7\u00e3o em plataformas de hospedagem comuns.\n\nEla alimenta sistemas de gerenciamento de conte\u00fado, plataformas de com\u00e9rcio eletr\u00f4nico, APIs, frameworks, ferramentas de linha de comando e aplica\u00e7\u00f5es web de longa dura\u00e7\u00e3o em um amplo ecossistema.',
+        'PHP é uma linguagem de script de propósito geral especialmente adequada para o desenvolvimento web do lado do servidor, com suporte integrado para manipulação de requisições, modelagem, bancos de dados, extensões, gerenciamento de pacotes e implantação em plataformas de hospedagem comuns.\n\nEla alimenta sistemas de gerenciamento de conteúdo, plataformas de comércio eletrônico, APIs, frameworks, ferramentas de linha de comando e aplicações web de longa duração em um amplo ecossistema.',
     },
   },
 } satisfies Language;

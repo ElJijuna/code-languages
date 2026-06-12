@@ -47,16 +47,16 @@ export const assembly = {
     de: {
       name: 'Assembly',
       description:
-        'Eine Familie von Low-Level-Sprachen, die eng an Maschinensprache-Anweisungen f\u00fcr spezifische CPU-Architekturen angelehnt sind.',
+        'Eine Familie von Low-Level-Sprachen, die eng an Maschinensprache-Anweisungen für spezifische CPU-Architekturen angelehnt sind.',
       longDescription:
         'Assemblersprache verwendet symbolische Textdarstellung, um Prozessorbefehle, Register, Speicheradressierungsmodi, Labels, Direktiven und Makros in Maschinencode umzuwandeln.\n\nSie wird in Betriebssystemen, eingebetteten Firmware, Bootloadern, Treibern, Reverse Engineering, performance-kritischen Routinen und in Lehrmaterialien verwendet, wo direkter Zugriff auf Hardware und Befehle wichtig ist.',
     },
     pt: {
       name: 'Assembly',
       description:
-        'Uma fam\u00edlia de linguagens de baixo n\u00edvel que correspondem a instru\u00e7\u00f5es de m\u00e1quina para arquiteturas de CPU espec\u00edficas.',
+        'Uma família de linguagens de baixo nível que correspondem a instruções de máquina para arquiteturas de CPU específicas.',
       longDescription:
-        'A linguagem Assembly representa instru\u00e7\u00f5es de processador, registradores, modos de endere\u00e7amento de mem\u00f3ria, r\u00f3tulos, diretivas e macros usando texto simb\u00f3lico que \u00e9 montado em c\u00f3digo de m\u00e1quina.\n\n\u00c9 usada em sistemas operacionais, firmware embarcado, bootloaders, drivers, engenharia reversa, rotinas cr\u00edticas de desempenho e materiais educacionais onde o controle direto sobre o hardware e as instru\u00e7\u00f5es \u00e9 importante.',
+        'A linguagem Assembly representa instruções de processador, registradores, modos de endereçamento de memória, rótulos, diretivas e macros usando texto simbólico que é montado em código de máquina.\n\nÉ usada em sistemas operacionais, firmware embarcado, bootloaders, drivers, engenharia reversa, rotinas críticas de desempenho e materiais educacionais onde o controle direto sobre o hardware e as instruções é importante.',
     },
   },
 } satisfies Language;

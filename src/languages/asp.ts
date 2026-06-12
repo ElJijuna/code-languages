@@ -45,16 +45,16 @@ export const asp = {
     de: {
       name: 'ASP/ASPX',
       description:
-        'Microsofts serverseitige Web-Vorlagen und -Seiten f\u00fcr Classic ASP und ASP.NET Web Forms.',
+        'Microsofts serverseitige Web-Vorlagen und -Seiten für Classic ASP und ASP.NET Web Forms.',
       longDescription:
-        'ASP- und ASPX-Dateien repr\u00e4sentieren Microsofts serverseitige Web-Technologien. Classic ASP verwendet `.asp`-Dateien mit Skriptbl\u00f6cken, w\u00e4hrend ASP.NET Web Forms `.aspx`-Dateien, Benutzerkontrollen, Handler, Services und Master Pages auf dem .NET Framework verwendet. \n\nSie sind h\u00e4ufig in \u00e4lteren und langlebigen Windows-Webanwendungen, die auf IIS gehostet werden, zu finden, oft zusammen mit C#, Visual Basic, HTML, CSS, JavaScript und .NET Framework-Abh\u00e4ngigkeiten, die auf NuGet basieren.',
+        'ASP- und ASPX-Dateien repräsentieren Microsofts serverseitige Web-Technologien. Classic ASP verwendet `.asp`-Dateien mit Skriptblöcken, während ASP.NET Web Forms `.aspx`-Dateien, Benutzerkontrollen, Handler, Services und Master Pages auf dem .NET Framework verwendet. \n\nSie sind häufig in älteren und langlebigen Windows-Webanwendungen, die auf IIS gehostet werden, zu finden, oft zusammen mit C#, Visual Basic, HTML, CSS, JavaScript und .NET Framework-Abhängigkeiten, die auf NuGet basieren.',
     },
     pt: {
       name: 'ASP/ASPX',
       description:
-        'Templates e p\u00e1ginas web do lado do servidor da Microsoft para Classic ASP e ASP.NET Web Forms.',
+        'Templates e páginas web do lado do servidor da Microsoft para Classic ASP e ASP.NET Web Forms.',
       longDescription:
-        'Arquivos ASP e ASPX representam tecnologias de p\u00e1ginas web do lado do servidor da Microsoft. Classic ASP usa arquivos `.asp` com blocos de script, enquanto ASP.NET Web Forms usa `.aspx`, controles de usu\u00e1rio, manipuladores, servi\u00e7os e p\u00e1ginas mestras sobre o .NET Framework.\n\nS\u00e3o comumente encontrados em aplica\u00e7\u00f5es web Windows legadas e de longa dura\u00e7\u00e3o hospedadas no IIS, frequentemente em conjunto com C#, Visual Basic, HTML, CSS, JavaScript e depend\u00eancias do .NET Framework baseadas em NuGet.',
+        'Arquivos ASP e ASPX representam tecnologias de páginas web do lado do servidor da Microsoft. Classic ASP usa arquivos `.asp` com blocos de script, enquanto ASP.NET Web Forms usa `.aspx`, controles de usuário, manipuladores, serviços e páginas mestras sobre o .NET Framework.\n\nSão comumente encontrados em aplicações web Windows legadas e de longa duração hospedadas no IIS, frequentemente em conjunto com C#, Visual Basic, HTML, CSS, JavaScript e dependências do .NET Framework baseadas em NuGet.',
     },
   },
 } satisfies Language;

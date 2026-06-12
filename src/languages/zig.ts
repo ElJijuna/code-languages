@@ -47,16 +47,16 @@ export const zig = {
     de: {
       name: 'Zig',
       description:
-        'Eine Programmiersprache und Toolchain f\u00fcr Systemprogrammierung, die auf Robustheit, Kontrolle und Cross-Compilierung ausgerichtet ist.',
+        'Eine Programmiersprache und Toolchain für Systemprogrammierung, die auf Robustheit, Kontrolle und Cross-Compilierung ausgerichtet ist.',
       longDescription:
-        'Zig ist eine allgemeine Programmiersprache und Toolchain f\u00fcr Systemprogrammierung, die auf explizite Kontrolle, vorhersehbare Leistung, Cross-Compilierung und die Erstellung robuster Software abzielt. Sie bietet manuelle Speicherverwaltung, `comptime`-Ausf\u00fchrung, Fehler-Unionen, integrierte Build-Tools und C-Interoperabilit\u00e4t.\n\nSie wird f\u00fcr Systemsoftware, eingebettete Systeme, Kommandozeilen-Tools, Spiele-Engines, Low-Level-Bibliotheken, plattform\u00fcbergreifende native Anwendungen und Projekte verwendet, die eine kompakte Sprache mit starken Compile-Zeit-Funktionen ben\u00f6tigen.',
+        'Zig ist eine allgemeine Programmiersprache und Toolchain für Systemprogrammierung, die auf explizite Kontrolle, vorhersehbare Leistung, Cross-Compilierung und die Erstellung robuster Software abzielt. Sie bietet manuelle Speicherverwaltung, `comptime`-Ausführung, Fehler-Unionen, integrierte Build-Tools und C-Interoperabilität.\n\nSie wird für Systemsoftware, eingebettete Systeme, Kommandozeilen-Tools, Spiele-Engines, Low-Level-Bibliotheken, plattformübergreifende native Anwendungen und Projekte verwendet, die eine kompakte Sprache mit starken Compile-Zeit-Funktionen benötigen.',
     },
     pt: {
       name: 'Zig',
       description:
-        'Linguagem e conjunto de ferramentas de programa\u00e7\u00e3o de sistemas, focada em robustez, controle e compila\u00e7\u00e3o cruzada.',
+        'Linguagem e conjunto de ferramentas de programação de sistemas, focada em robustez, controle e compilação cruzada.',
       longDescription:
-        'Zig \u00e9 uma linguagem de programa\u00e7\u00e3o de sistemas e conjunto de ferramentas de prop\u00f3sito geral, projetada para controle expl\u00edcito, desempenho previs\u00edvel, compila\u00e7\u00e3o cruzada e manuten\u00e7\u00e3o de software robusto. Fornece gerenciamento manual de mem\u00f3ria, execu\u00e7\u00e3o em tempo de compila\u00e7\u00e3o, uni\u00e3o de erros, ferramentas de constru\u00e7\u00e3o integradas e interoperabilidade com C.\n\n\u00c9 usada para software de sistemas, alvos embarcados, ferramentas de linha de comando, motores de jogos, bibliotecas de baixo n\u00edvel, aplicativos nativos multiplataforma e projetos que precisam de uma linguagem compacta com fortes capacidades de tempo de compila\u00e7\u00e3o.',
+        'Zig é uma linguagem de programação de sistemas e conjunto de ferramentas de propósito geral, projetada para controle explícito, desempenho previsível, compilação cruzada e manutenção de software robusto. Fornece gerenciamento manual de memória, execução em tempo de compilação, união de erros, ferramentas de construção integradas e interoperabilidade com C.\n\nÉ usada para software de sistemas, alvos embarcados, ferramentas de linha de comando, motores de jogos, bibliotecas de baixo nível, aplicativos nativos multiplataforma e projetos que precisam de uma linguagem compacta com fortes capacidades de tempo de compilação.',
     },
   },
 } satisfies Language;

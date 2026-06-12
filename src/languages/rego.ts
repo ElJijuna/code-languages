@@ -47,16 +47,16 @@ export const rego = {
     de: {
       name: 'Rego',
       description:
-        'Rego ist die deklarative Policy-Sprache des Open Policy Agent f\u00fcr Autorisierung und Policy as Code.',
+        'Rego ist die deklarative Policy-Sprache des Open Policy Agent für Autorisierung und Policy as Code.',
       longDescription:
-        'Rego ist die deklarative Policy-Sprache, die vom Open Policy Agent verwendet wird, um Regeln, Entscheidungen, Einschr\u00e4nkungen, Datenabfragen und Autorisierungslogik auszudr\u00fccken. Sie basiert auf strukturierter Daten wie JSON und erm\u00f6glicht es, Eingaben anhand von Regeln, S\u00e4tzen, Objekten, Comprehensions und eingebauten Funktionen zu evaluieren.\n\nSie wird f\u00fcr Kubernetes-Admission-Control, Service-Autorisierung, Infrastruktur-Policy-Checks, CI-Validierung, API-Gateways, Compliance-Automatisierung und Cloud-native-Systeme verwendet, die separate Policies von Anwendungs-Code ben\u00f6tigen.',
+        'Rego ist die deklarative Policy-Sprache, die vom Open Policy Agent verwendet wird, um Regeln, Entscheidungen, Einschränkungen, Datenabfragen und Autorisierungslogik auszudrücken. Sie basiert auf strukturierter Daten wie JSON und ermöglicht es, Eingaben anhand von Regeln, Sätzen, Objekten, Comprehensions und eingebauten Funktionen zu evaluieren.\n\nSie wird für Kubernetes-Admission-Control, Service-Autorisierung, Infrastruktur-Policy-Checks, CI-Validierung, API-Gateways, Compliance-Automatisierung und Cloud-native-Systeme verwendet, die separate Policies von Anwendungs-Code benötigen.',
     },
     pt: {
       name: 'Rego',
       description:
-        'Linguagem de pol\u00edtica declarativa do Open Policy Agent para autoriza\u00e7\u00e3o e pol\u00edtica como c\u00f3digo.',
+        'Linguagem de política declarativa do Open Policy Agent para autorização e política como código.',
       longDescription:
-        'Rego \u00e9 a linguagem de pol\u00edtica declarativa usada pelo Open Policy Agent para expressar regras, decis\u00f5es, restri\u00e7\u00f5es, consultas de dados e l\u00f3gica de autoriza\u00e7\u00e3o. \u00c9 projetada para dados estruturados, como JSON, e permite que as pol\u00edticas avaliem entradas em rela\u00e7\u00e3o a regras, conjuntos, objetos, compreens\u00f5es e fun\u00e7\u00f5es integradas.\n\n\u00c9 usada para controle de admiss\u00e3o do Kubernetes, autoriza\u00e7\u00e3o de servi\u00e7os, verifica\u00e7\u00f5es de pol\u00edtica de infraestrutura, valida\u00e7\u00e3o de CI, gateways de API, automa\u00e7\u00e3o de conformidade e sistemas nativos de nuvem que precisam de pol\u00edticas separadas do c\u00f3digo de aplica\u00e7\u00e3o.',
+        'Rego é a linguagem de política declarativa usada pelo Open Policy Agent para expressar regras, decisões, restrições, consultas de dados e lógica de autorização. É projetada para dados estruturados, como JSON, e permite que as políticas avaliem entradas em relação a regras, conjuntos, objetos, compreensões e funções integradas.\n\nÉ usada para controle de admissão do Kubernetes, autorização de serviços, verificações de política de infraestrutura, validação de CI, gateways de API, automação de conformidade e sistemas nativos de nuvem que precisam de políticas separadas do código de aplicação.',
     },
   },
 } satisfies Language;

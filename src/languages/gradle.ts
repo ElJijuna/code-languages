@@ -47,16 +47,16 @@ export const gradle = {
     de: {
       name: 'Gradle',
       description:
-        'Ein Build-Automatisierungs-DSL und -Tool zum Definieren, Konfigurieren und Ausf\u00fchren von Software-Builds.',
+        'Ein Build-Automatisierungs-DSL und -Tool zum Definieren, Konfigurieren und Ausführen von Software-Builds.',
       longDescription:
-        'Gradle-Build-Skripte definieren Projekte, Plugins, Abh\u00e4ngigkeiten, Repositories, Aufgaben, Testsuiten, Ver\u00f6ffentlichungsvorschriften und Build-Logik f\u00fcr mehrere Projekte mithilfe von Groovy DSL oder Kotlin DSL-Dateien.\n\nEs wird h\u00e4ufig in Java-, Kotlin-, Android-, JVM- und polyglotten Projekten verwendet, die reproduzierbare Builds, Dependency-Management, benutzerdefinierte Automatisierung und Integration in CI/CD-Pipelines ben\u00f6tigen.',
+        'Gradle-Build-Skripte definieren Projekte, Plugins, Abhängigkeiten, Repositories, Aufgaben, Testsuiten, Veröffentlichungsvorschriften und Build-Logik für mehrere Projekte mithilfe von Groovy DSL oder Kotlin DSL-Dateien.\n\nEs wird häufig in Java-, Kotlin-, Android-, JVM- und polyglotten Projekten verwendet, die reproduzierbare Builds, Dependency-Management, benutzerdefinierte Automatisierung und Integration in CI/CD-Pipelines benötigen.',
     },
     pt: {
       name: 'Gradle',
       description:
-        'DSL e ferramenta de automa\u00e7\u00e3o de constru\u00e7\u00e3o para definir, configurar e executar builds de software.',
+        'DSL e ferramenta de automação de construção para definir, configurar e executar builds de software.',
       longDescription:
-        'Scripts de constru\u00e7\u00e3o Gradle definem projetos, plugins, depend\u00eancias, reposit\u00f3rios, tarefas, suites de testes e regras de publica\u00e7\u00e3o usando arquivos DSL Groovy ou Kotlin.\n\n\u00c9 amplamente utilizado em projetos Java, Kotlin, Android, JVM e poligl\u00f3ticos que necessitam de constru\u00e7\u00f5es reproduz\u00edveis, gerenciamento de depend\u00eancias, automa\u00e7\u00e3o personalizada e integra\u00e7\u00e3o com pipelines CI/CD.',
+        'Scripts de construção Gradle definem projetos, plugins, dependências, repositórios, tarefas, suites de testes e regras de publicação usando arquivos DSL Groovy ou Kotlin.\n\nÉ amplamente utilizado em projetos Java, Kotlin, Android, JVM e poliglóticos que necessitam de construções reproduzíveis, gerenciamento de dependências, automação personalizada e integração com pipelines CI/CD.',
     },
   },
 } satisfies Language;

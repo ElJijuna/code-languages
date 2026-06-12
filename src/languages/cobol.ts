@@ -45,16 +45,16 @@ export const cobol = {
     de: {
       name: 'COBOL',
       description:
-        'Ein gesch\u00e4ftsorientiertes Sprach f\u00fcr langlebige, datenintensive Unternehmenssysteme.',
+        'Ein geschäftsorientiertes Sprach für langlebige, datenintensive Unternehmenssysteme.',
       longDescription:
-        'COBOL ist eine gesch\u00e4ftsorientierte Programmiersprache, die von CODASYL f\u00fcr lesbaren, portablen Datenverarbeitung in kommerziellen Computersystemen entwickelt wurde. Ihre Syntax betont englisch\u00e4hnliche Anweisungen, strukturierte Datens\u00e4tze, Dezimalarithmetik, Batch-Verarbeitung und reportorientierte Arbeitsabl\u00e4ufe.\n\nEs wird in Banken, Versicherungen, Regierung, Gehaltsabrechnung, Transaktionsverarbeitung, Mainframe-Systemen und Modernisierungsprojekten eingesetzt, in denen gro\u00dfe, dauerhafte Gesch\u00e4ftsprogrammen weiterhin kritische Operationen ausf\u00fchren.',
+        'COBOL ist eine geschäftsorientierte Programmiersprache, die von CODASYL für lesbaren, portablen Datenverarbeitung in kommerziellen Computersystemen entwickelt wurde. Ihre Syntax betont englischähnliche Anweisungen, strukturierte Datensätze, Dezimalarithmetik, Batch-Verarbeitung und reportorientierte Arbeitsabläufe.\n\nEs wird in Banken, Versicherungen, Regierung, Gehaltsabrechnung, Transaktionsverarbeitung, Mainframe-Systemen und Modernisierungsprojekten eingesetzt, in denen große, dauerhafte Geschäftsprogrammen weiterhin kritische Operationen ausführen.',
     },
     pt: {
       name: 'COBOL',
       description:
-        'Linguagem de neg\u00f3cios para sistemas empresariais de longa dura\u00e7\u00e3o e com grande volume de dados.',
+        'Linguagem de negócios para sistemas empresariais de longa duração e com grande volume de dados.',
       longDescription:
-        'COBOL \u00e9 uma linguagem de programa\u00e7\u00e3o de neg\u00f3cios criada pela CODASYL para processamento de dados leg\u00edvel e port\u00e1til em sistemas de computa\u00e7\u00e3o comerciais. Sua sintaxe enfatiza declara\u00e7\u00f5es semelhantes ao ingl\u00eas, registros estruturados, aritm\u00e9tica decimal, processamento em lote e fluxos de trabalho orientados a relat\u00f3rios.\n\n\u00c9 utilizada em bancos, seguros, governo, folha de pagamento, processamento de transa\u00e7\u00f5es, sistemas mainframe e projetos de moderniza\u00e7\u00e3o onde grandes e dur\u00e1veis bases de c\u00f3digo de neg\u00f3cios continuam a executar opera\u00e7\u00f5es cr\u00edticas.',
+        'COBOL é uma linguagem de programação de negócios criada pela CODASYL para processamento de dados legível e portátil em sistemas de computação comerciais. Sua sintaxe enfatiza declarações semelhantes ao inglês, registros estruturados, aritmética decimal, processamento em lote e fluxos de trabalho orientados a relatórios.\n\nÉ utilizada em bancos, seguros, governo, folha de pagamento, processamento de transações, sistemas mainframe e projetos de modernização onde grandes e duráveis bases de código de negócios continuam a executar operações críticas.',
     },
   },
 } satisfies Language;
