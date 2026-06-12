@@ -218,7 +218,7 @@ from its package subpath.
 | <img src="https://icons.iconarchive.com/icons/simpleicons-team/simple/128/windowsterminal-icon.png" alt="Batch logo" width="24" height="24"> | Batch | `batch` | `.bat`, `.cmd` | `Windows Command Processor` | `code-languages/batch` |
 | <img src="https://cdn.simpleicons.org/bazel/43A047" alt="Bazel logo" width="24" height="24"> | Bazel | `bazel` | `BUILD.bazel`, `WORKSPACE`, `WORKSPACE.bazel`, `MODULE.bazel` | `9.1.1` | `code-languages/bazel` |
 | <img src="https://dummyimage.com/32x32/374151/ffffff.png&text=BC" alt="BCPL logo" width="24" height="24"> | BCPL | `bcpl` | `.bcpl` | `Cintsys BCPL` | `code-languages/bcpl` |
-| <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/azure-bicep.svg" alt="Bicep logo" width="24" height="24"> | Bicep | `bicep` | `.bicep`, `.bicepparam` | `0.43.8` | `code-languages/bicep` |
+| <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/azure-bicep.svg" alt="Bicep logo" width="24" height="24"> | Bicep | `bicep` | `.bicep`, `.bicepparam` | `0.44.1` | `code-languages/bicep` |
 | <img src="https://cdn.simpleicons.org/laravel/FF2D20" alt="Blade logo" width="24" height="24"> | Blade | `blade` | `.blade.php` | `Laravel 12.x` | `code-languages/blade` |
 | <img src="https://dummyimage.com/32x32/0078D4/ffffff.png&text=B" alt="Bosque logo" width="24" height="24"> | Bosque | `bosque` | `.bsq` | `experimental` | `code-languages/bosque` |
 | <img src="https://dummyimage.com/32x32/7C3AED/ffffff.png&text=BQN" alt="BQN logo" width="24" height="24"> | BQN | `bqn` | `.bqn` | `BQN specification` | `code-languages/bqn` |
