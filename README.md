@@ -374,7 +374,7 @@ from its package subpath.
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/SAS_logo_horiz.svg" alt="SAS logo" width="24" height="24"> | SAS | `sas` | `.sas` | `SAS 9.4` | `code-languages/sas` |
 | <img src="https://cdn.simpleicons.org/scala/DC322F" alt="Scala logo" width="24" height="24"> | Scala | `scala` | `.scala`, `.sc` | `3.8.4` | `code-languages/scala` |
 | <img src="https://cdn.simpleicons.org/racket/9F1D20" alt="Scheme logo" width="24" height="24"> | Scheme | `scheme` | `.scm`, `.ss`, `.sld`, `.sls` | `R7RS small` | `code-languages/scheme` |
-| <img src="https://sass-lang.com/assets/img/logos/logo.svg" alt="Sass logo" width="24" height="24"> | Sass | `scss` | `.scss`, `.sass` | `1.100.0` | `code-languages/scss` |
+| <img src="https://sass-lang.com/assets/img/logos/logo.svg" alt="Sass logo" width="24" height="24"> | Sass | `scss` | `.scss`, `.sass` | `1.101.0` | `code-languages/scss` |
 | <img src="https://dummyimage.com/32x32/EA580C/ffffff.png&text=Se" alt="Self logo" width="24" height="24"> | Self | `self` | `.self` | `2024.1` | `code-languages/self` |
 | <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Smalltalk_Balloon.svg" alt="Smalltalk logo" width="24" height="24"> | Smalltalk | `smalltalk` | `.st` | `ANSI INCITS 319-1998` | `code-languages/smalltalk` |
 | <img src="https://www.smarty.net/images/logo_print.gif" alt="Smarty logo" width="24" height="24"> | Smarty | `smarty` | `.tpl`, `.smarty` | `5.5.1` | `code-languages/smarty` |
