@@ -12,7 +12,7 @@ export const python = {
     packageManagers: ['pip', 'Poetry', 'uv', 'conda'],
     ecosystems: ['Web', 'Data Science', 'Machine Learning', 'Automation'],
   },
-  version: '3.14.5',
+  version: '3.14.6',
   logo: 'https://commons.wikimedia.org/wiki/Special:FilePath/Python-logo-notext.svg',
   color: '#3776AB',
   i18n: {
