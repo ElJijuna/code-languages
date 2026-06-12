@@ -1,3 +1,10 @@
+## [1.33.1](https://github.com/ElJijuna/code-languages/compare/v1.33.0...v1.33.1) (2026-06-12)
+
+
+### Bug Fixes
+
+* **i18n:** update locale coverage and translations ([a199244](https://github.com/ElJijuna/code-languages/commit/a19924494bdef5984d94c705e0aeb85d3d3e1c65))
+
 # [1.33.0](https://github.com/ElJijuna/code-languages/compare/v1.32.1...v1.33.0) (2026-06-12)
 
 
