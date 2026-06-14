@@ -1,3 +1,15 @@
+## [1.33.2](https://github.com/ElJijuna/code-languages/compare/v1.33.1...v1.33.2) (2026-06-14)
+
+
+### Bug Fixes
+
+* update Astro metadata to 6.4.6 ([af331b6](https://github.com/ElJijuna/code-languages/commit/af331b65d06dc02445e597ff33ced83c7cb3610b))
+* update Bicep metadata to 0.44.1 ([75b33c9](https://github.com/ElJijuna/code-languages/commit/75b33c9343a1053d9b5a8985bb92ae6c053d2714))
+* update Protocol Buffers metadata to 35.1 ([4a7521a](https://github.com/ElJijuna/code-languages/commit/4a7521a359a0c51519c78de0616cf33a20361bcd))
+* update Python metadata to 3.14.6 ([143cdbe](https://github.com/ElJijuna/code-languages/commit/143cdbeed4a9d91d2977a818d211cb7041b8413e))
+* update Sass metadata to 1.101.0 ([73d5a39](https://github.com/ElJijuna/code-languages/commit/73d5a3921e0cc14f794b0b8999f969c8b752bfc6))
+* update Vue metadata to 3.5.38 ([9ce572b](https://github.com/ElJijuna/code-languages/commit/9ce572b61824eb665c6b94e4e51f6ddce4f4a965))
+
 ## [1.33.1](https://github.com/ElJijuna/code-languages/compare/v1.33.0...v1.33.1) (2026-06-12)
 
 
