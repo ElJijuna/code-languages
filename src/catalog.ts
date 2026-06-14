@@ -8,6 +8,7 @@ import { antlr } from './languages/antlr';
 import { apex } from './languages/apex';
 import { apl } from './languages/apl';
 import { applescript } from './languages/applescript';
+import { aql } from './languages/aql';
 import { arduino } from './languages/arduino';
 import { asciidoc } from './languages/asciidoc';
 import { asp } from './languages/asp';
@@ -59,6 +60,7 @@ import { elm } from './languages/elm';
 import { erb } from './languages/erb';
 import { erlang } from './languages/erlang';
 import { factor } from './languages/factor';
+import { fe } from './languages/fe';
 import { fennel } from './languages/fennel';
 import { fish } from './languages/fish';
 import { flux } from './languages/flux';
@@ -89,6 +91,7 @@ import { html } from './languages/html';
 import { hy } from './languages/hy';
 import { idris } from './languages/idris';
 import { ini } from './languages/ini';
+import { ink } from './languages/ink';
 import { io } from './languages/io';
 import { isabelle } from './languages/isabelle';
 import { janet } from './languages/janet';
@@ -108,6 +111,7 @@ import { koka } from './languages/koka';
 import { kotlin } from './languages/kotlin';
 import { lean } from './languages/lean';
 import { less } from './languages/less';
+import { ligo } from './languages/ligo';
 import { liquid } from './languages/liquid';
 import { lisp } from './languages/lisp';
 import { llvmIr } from './languages/llvm-ir';
@@ -118,6 +122,7 @@ import { luau } from './languages/luau';
 import { makefile } from './languages/makefile';
 import { mako } from './languages/mako';
 import { markdown } from './languages/markdown';
+import { marlowe } from './languages/marlowe';
 import { mathematica } from './languages/mathematica';
 import { matlab } from './languages/matlab';
 import { mdx } from './languages/mdx';
@@ -179,9 +184,12 @@ import { scala } from './languages/scala';
 import { scheme } from './languages/scheme';
 import { scss } from './languages/scss';
 import { self } from './languages/self';
+import { simula } from './languages/simula';
 import { smalltalk } from './languages/smalltalk';
 import { smarty } from './languages/smarty';
+import { snobol } from './languages/snobol';
 import { solidity } from './languages/solidity';
+import { spark } from './languages/spark';
 import { sparql } from './languages/sparql';
 import { sql } from './languages/sql';
 import { standardMl } from './languages/standard-ml';
@@ -204,7 +212,9 @@ import { typst } from './languages/typst';
 import { unison } from './languages/unison';
 import { v } from './languages/v';
 import { vala } from './languages/vala';
+import { vale } from './languages/vale';
 import { verilog } from './languages/verilog';
+import { verse } from './languages/verse';
 import { vhdl } from './languages/vhdl';
 import { visualBasic } from './languages/visual-basic';
 import { vue } from './languages/vue';
@@ -237,6 +247,7 @@ export const languages = [
   apl,
   applescript,
   arduino,
+  aql,
   asciidoc,
   asp,
   assembly,
@@ -287,6 +298,7 @@ export const languages = [
   erb,
   erlang,
   factor,
+  fe,
   fennel,
   fish,
   flux,
@@ -317,6 +329,7 @@ export const languages = [
   hy,
   idris,
   ini,
+  ink,
   io,
   isabelle,
   janet,
@@ -336,6 +349,7 @@ export const languages = [
   kotlin,
   lean,
   less,
+  ligo,
   liquid,
   lisp,
   llvmIr,
@@ -346,6 +360,7 @@ export const languages = [
   makefile,
   mako,
   markdown,
+  marlowe,
   mathematica,
   matlab,
   mdx,
@@ -407,10 +422,13 @@ export const languages = [
   scheme,
   scss,
   self,
+  simula,
   smalltalk,
   smarty,
+  snobol,
   solidity,
   sparql,
+  spark,
   sql,
   standardMl,
   starlark,
@@ -432,7 +450,9 @@ export const languages = [
   unison,
   v,
   vala,
+  vale,
   verilog,
+  verse,
   vhdl,
   visualBasic,
   vue,

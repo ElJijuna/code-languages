@@ -16,6 +16,7 @@ const manualChecks = {
   apl: 'APL language versioning is implementation-specific; review ISO/IEC 13751 and major implementation release notes manually.',
   applescript:
     'AppleScript is tied to macOS platform documentation and should be reviewed manually against Apple Developer documentation.',
+  aql: 'AQL metadata is tied to ArangoDB server releases and should be reviewed manually against ArangoDB documentation.',
   arduino:
     'Arduino Sketch metadata is tied to Arduino API and board core releases rather than one independent language version.',
   asciidoc:
@@ -47,10 +48,12 @@ const manualChecks = {
     'FreeMarker versions should be reviewed manually against Apache FreeMarker releases and Maven Central.',
   fstar:
     'F* releases should be reviewed manually against the F* official website and FStarLang/FStar GitHub releases.',
+  fe: 'Fe releases should be reviewed manually against fe-lang.org and the ethereum/fe GitHub releases.',
   hlsl: 'HLSL shader model support should be reviewed manually against Microsoft DirectX Shader Model documentation.',
   hack: 'Hack versions are tied to HHVM platform releases and should be reviewed manually against HHVM release notes.',
   html: 'HTML is maintained as a living standard.',
   ini: 'INI is an informal configuration format without a single formal versioned specification.',
+  ink: 'Ink! releases should be reviewed manually against use.ink and paritytech/ink GitHub releases.',
   isabelle:
     'Isabelle releases should be reviewed manually against the Isabelle distribution page at isabelle.in.tum.de.',
   javascript:
@@ -62,11 +65,14 @@ const manualChecks = {
     'Jupyter Notebook schema versions should be reviewed manually against nbformat documentation and schema releases.',
   just: 'Just releases should be reviewed manually against the casey/just GitHub releases page.',
   kdl: 'KDL versions should be reviewed manually against the kdl.dev specification and kdl-org/kdl releases.',
+  ligo: 'Ligo releases should be reviewed manually against ligolang.org and LigoLANG/ligo release notes.',
   lisp: 'Common Lisp is standardized as ANSI INCITS 226-1994 and should be reviewed manually against ANSI/INCITS publications.',
   lobster:
     'Lobster releases should be reviewed manually against the official Lobster site and git repository because snapshots do not expose a stable release API.',
   logo: 'Logo dialect versions should be reviewed manually against UCBLogo, FMSLogo, and other implementation release notes.',
   mako: 'Mako metadata should be reviewed manually against Mako release notes and PyPI releases.',
+  marlowe:
+    'Marlowe versions are tied to Cardano tooling and should be reviewed manually against Marlowe documentation and IOG release notes.',
   mathematica:
     'Wolfram Language versions are tied to Mathematica and Wolfram platform releases and should be reviewed manually.',
   mercury:
@@ -119,10 +125,16 @@ const manualChecks = {
   scheme:
     'Scheme standards and implementation versions should be reviewed manually against R7RS and major implementations.',
   self: 'Self releases should be reviewed manually against selflanguage.org and Self VM release notes.',
+  simula:
+    'Simula is historically stable around Simula 67 and should be reviewed manually against simula67.info and maintained compiler documentation.',
   smalltalk:
     'Smalltalk metadata spans standards and image-based implementations and should be reviewed manually.',
   smarty: 'Smarty releases should be reviewed manually against Smarty project releases.',
+  snobol:
+    'SNOBOL metadata is historically stable around SNOBOL4 and should be reviewed manually against maintained SNOBOL4 and SPITBOL implementations.',
   sql: 'SQL standards should be reviewed manually against ISO/IEC 9075 publications.',
+  spark:
+    'SPARK releases are tied to AdaCore tooling and should be reviewed manually against SPARK and GNAT Pro documentation.',
   tsql: 'T-SQL metadata is tied to SQL Server and Azure SQL platform releases and should be reviewed manually against Microsoft Learn.',
   'standard-ml':
     'Standard ML metadata follows the language definition and implementations and should be reviewed manually.',
@@ -138,8 +150,11 @@ const manualChecks = {
     'TLA+ metadata follows its language specification and tooling releases and should be reviewed manually.',
   v: 'V metadata tracks compiler releases and should be reviewed manually against V release notes.',
   vala: 'Vala compiler metadata should be reviewed manually against Vala release announcements.',
+  vale: 'Vale releases should be reviewed manually against vale.dev and the Vale compiler repository.',
   verilog:
     'Verilog/SystemVerilog standards should be reviewed manually against IEEE 1800 publications.',
+  verse:
+    'Verse versions are tied to Unreal Editor for Fortnite and Unreal Engine documentation and should be reviewed manually against Epic Games release notes.',
   vhdl: 'VHDL standards should be reviewed manually against IEEE 1076 publications.',
   vyper: 'Vyper releases should be reviewed manually against Vyper compiler release notes.',
   webassembly: 'WebAssembly standards should be reviewed manually against webassembly.org/specs.',

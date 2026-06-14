@@ -111,6 +111,11 @@
       "import": "./dist/languages/arduino.js",
       "require": "./dist/languages/arduino.cjs"
     },
+    "./aql": {
+      "types": "./dist/languages/aql.d.ts",
+      "import": "./dist/languages/aql.js",
+      "require": "./dist/languages/aql.cjs"
+    },
     "./asciidoc": {
       "types": "./dist/languages/asciidoc.d.ts",
       "import": "./dist/languages/asciidoc.js",
@@ -361,6 +366,11 @@
       "import": "./dist/languages/factor.js",
       "require": "./dist/languages/factor.cjs"
     },
+    "./fe": {
+      "types": "./dist/languages/fe.d.ts",
+      "import": "./dist/languages/fe.js",
+      "require": "./dist/languages/fe.cjs"
+    },
     "./fennel": {
       "types": "./dist/languages/fennel.d.ts",
       "import": "./dist/languages/fennel.js",
@@ -511,6 +521,11 @@
       "import": "./dist/languages/ini.js",
       "require": "./dist/languages/ini.cjs"
     },
+    "./ink": {
+      "types": "./dist/languages/ink.d.ts",
+      "import": "./dist/languages/ink.js",
+      "require": "./dist/languages/ink.cjs"
+    },
     "./io": {
       "types": "./dist/languages/io.d.ts",
       "import": "./dist/languages/io.js",
@@ -606,6 +621,11 @@
       "import": "./dist/languages/less.js",
       "require": "./dist/languages/less.cjs"
     },
+    "./ligo": {
+      "types": "./dist/languages/ligo.d.ts",
+      "import": "./dist/languages/ligo.js",
+      "require": "./dist/languages/ligo.cjs"
+    },
     "./liquid": {
       "types": "./dist/languages/liquid.d.ts",
       "import": "./dist/languages/liquid.js",
@@ -655,6 +675,11 @@
       "types": "./dist/languages/markdown.d.ts",
       "import": "./dist/languages/markdown.js",
       "require": "./dist/languages/markdown.cjs"
+    },
+    "./marlowe": {
+      "types": "./dist/languages/marlowe.d.ts",
+      "import": "./dist/languages/marlowe.js",
+      "require": "./dist/languages/marlowe.cjs"
     },
     "./mathematica": {
       "types": "./dist/languages/mathematica.d.ts",
@@ -961,6 +986,11 @@
       "import": "./dist/languages/self.js",
       "require": "./dist/languages/self.cjs"
     },
+    "./simula": {
+      "types": "./dist/languages/simula.d.ts",
+      "import": "./dist/languages/simula.js",
+      "require": "./dist/languages/simula.cjs"
+    },
     "./smalltalk": {
       "types": "./dist/languages/smalltalk.d.ts",
       "import": "./dist/languages/smalltalk.js",
@@ -971,6 +1001,11 @@
       "import": "./dist/languages/smarty.js",
       "require": "./dist/languages/smarty.cjs"
     },
+    "./snobol": {
+      "types": "./dist/languages/snobol.d.ts",
+      "import": "./dist/languages/snobol.js",
+      "require": "./dist/languages/snobol.cjs"
+    },
     "./solidity": {
       "types": "./dist/languages/solidity.d.ts",
       "import": "./dist/languages/solidity.js",
@@ -980,6 +1015,11 @@
       "types": "./dist/languages/sparql.d.ts",
       "import": "./dist/languages/sparql.js",
       "require": "./dist/languages/sparql.cjs"
+    },
+    "./spark": {
+      "types": "./dist/languages/spark.d.ts",
+      "import": "./dist/languages/spark.js",
+      "require": "./dist/languages/spark.cjs"
     },
     "./sql": {
       "types": "./dist/languages/sql.d.ts",
@@ -1086,10 +1126,20 @@
       "import": "./dist/languages/vala.js",
       "require": "./dist/languages/vala.cjs"
     },
+    "./vale": {
+      "types": "./dist/languages/vale.d.ts",
+      "import": "./dist/languages/vale.js",
+      "require": "./dist/languages/vale.cjs"
+    },
     "./verilog": {
       "types": "./dist/languages/verilog.d.ts",
       "import": "./dist/languages/verilog.js",
       "require": "./dist/languages/verilog.cjs"
+    },
+    "./verse": {
+      "types": "./dist/languages/verse.d.ts",
+      "import": "./dist/languages/verse.js",
+      "require": "./dist/languages/verse.cjs"
     },
     "./vhdl": {
       "types": "./dist/languages/vhdl.d.ts",

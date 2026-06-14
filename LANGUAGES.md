@@ -158,7 +158,7 @@
 - [x] Curry (`curry`)
 - [x] Eiffel (`eiffel`)
 - [x] Factor (`factor`)
-- [ ] Grain (`grain`)
+- [x] Grain (`grain`)
 - [x] Io (`io`)
 - [x] Koka (`koka`)
 - [x] Lobster (`lobster`)
@@ -171,12 +171,12 @@
 - [x] Rebol (`rebol`)
 - [x] Roc (`roc`)
 - [x] Self (`self`)
-- [ ] Simula (`simula`)
-- [ ] SNOBOL (`snobol`)
-- [ ] SPARK (`spark`)
-- [ ] Unison (`unison`)
-- [ ] Vale (`vale`)
-- [ ] Verse (`verse`)
+- [x] Simula (`simula`)
+- [x] SNOBOL (`snobol`)
+- [x] SPARK (`spark`)
+- [x] Unison (`unison`)
+- [x] Vale (`vale`)
+- [x] Verse (`verse`)
 
 ### Formal Verification
 
@@ -186,19 +186,19 @@
 
 ### Blockchain / Smart Contracts
 
-- [ ] Cairo (`cairo`)
-- [ ] Fe (`fe`)
-- [ ] Ink! (`ink`)
-- [ ] Ligo (`ligo`)
-- [ ] Marlowe (`marlowe`)
-- [ ] Move (`move`)
+- [x] Cairo (`cairo`)
+- [x] Fe (`fe`)
+- [x] Ink! (`ink`)
+- [x] Ligo (`ligo`)
+- [x] Marlowe (`marlowe`)
+- [x] Move (`move`)
 
 ### Query Languages
 
-- [ ] AQL (`aql`)
+- [x] AQL (`aql`)
 - [ ] CQL (`cql`)
 - [x] Cypher (`cypher`)
-- [ ] Flux (`flux`)
+- [x] Flux (`flux`)
 - [ ] FQL (`fql`)
 - [ ] Gremlin (`gremlin`)
 - [ ] JMESPath (`jmespath`)
@@ -209,7 +209,7 @@
 - [ ] SOQL (`soql`)
 - [x] SPARQL (`sparql`)
 - [ ] SPL (`spl`)
-- [ ] T-SQL (`tsql`)
+- [x] T-SQL (`tsql`)
 
 ### Configuration / DSL
 
@@ -219,9 +219,9 @@
 - [x] JSONC (`jsonc`)
 - [x] Just (`just`)
 - [x] KDL (`kdl`)
-- [ ] Nickel (`nickel`)
+- [x] Nickel (`nickel`)
 - [x] OpenAPI (`openapi`)
-- [ ] Pkl (`pkl`)
+- [x] Pkl (`pkl`)
 - [x] Puppet (`puppet`)
 
 ### Shell / Scripting
