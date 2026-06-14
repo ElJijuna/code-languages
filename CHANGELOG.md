@@ -1,3 +1,10 @@
+# [1.34.0](https://github.com/ElJijuna/code-languages/compare/v1.33.2...v1.34.0) (2026-06-14)
+
+
+### Features
+
+* add aql, fe, ink, ligo, marlowe, simula, snobol, spark, vale and verse languages ([6805664](https://github.com/ElJijuna/code-languages/commit/680566405d3f3b51e2d7fb47f8d1115c8b24b92b))
+
 ## [1.33.2](https://github.com/ElJijuna/code-languages/compare/v1.33.1...v1.33.2) (2026-06-14)
 
 
