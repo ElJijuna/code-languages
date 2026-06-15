@@ -1,3 +1,11 @@
+## [1.34.1](https://github.com/ElJijuna/code-languages/compare/v1.34.0...v1.34.1) (2026-06-15)
+
+
+### Bug Fixes
+
+* update Less metadata to 4.6.6 ([5c172db](https://github.com/ElJijuna/code-languages/commit/5c172db4d71b411b60eceed9b93cabe697d5bf14))
+* update Luau metadata to 0.725 ([3f9e7e7](https://github.com/ElJijuna/code-languages/commit/3f9e7e7736964b36701001349db023a5b1ecf1f5))
+
 # [1.34.0](https://github.com/ElJijuna/code-languages/compare/v1.33.2...v1.34.0) (2026-06-14)
 
 
