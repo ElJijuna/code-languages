@@ -1,3 +1,11 @@
+# [1.35.0](https://github.com/ElJijuna/code-languages/compare/v1.34.1...v1.35.0) (2026-06-16)
+
+
+### Features
+
+* add new language definitions and corresponding tests ([904c248](https://github.com/ElJijuna/code-languages/commit/904c2487a07cf57bb8b4e0d068586682cef00f1b))
+* add support for various query languages and their tests ([b025555](https://github.com/ElJijuna/code-languages/commit/b025555f062a0fb7de10803f85277898f969a8cd))
+
 ## [1.34.1](https://github.com/ElJijuna/code-languages/compare/v1.34.0...v1.34.1) (2026-06-15)
 
 
