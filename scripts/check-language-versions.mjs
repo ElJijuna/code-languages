@@ -189,6 +189,53 @@ const manualChecks = {
   move: 'Move language versions are tied to Aptos and Sui platform releases and should be reviewed manually against their respective GitHub releases.',
   yara: 'YARA releases should be reviewed manually against the VirusTotal/yara GitHub releases page.',
   hy: 'Hy releases should be reviewed manually against the hylang/hy GitHub releases page and PyPI.',
+  algol:
+    'ALGOL metadata follows historical standards and should be reviewed manually against ALGOL 60 and ALGOL 68 references.',
+  ampl: 'AMPL metadata should be reviewed manually against AMPL documentation and solver ecosystem release notes.',
+  ante: 'Ante releases should be reviewed manually against the Ante language repository and project documentation.',
+  austral:
+    'Austral releases should be reviewed manually against the austral language repository and project notes.',
+  bcpl: 'BCPL metadata is implementation-specific and should be reviewed manually against Cintsys BCPL and historical references.',
+  bibtex:
+    'BibTeX metadata is tied to TeX distributions and should be reviewed manually against CTAN and TeX Live documentation.',
+  bosque:
+    'Bosque is a research language and should be reviewed manually against Microsoft Research archives and the Bosque repository.',
+  bqn: 'BQN releases should be reviewed manually against mlochbaum/BQN and related implementation release notes.',
+  brainfuck:
+    'Brainfuck is historically stable and should be reviewed manually against esolangs references and maintained interpreter conventions.',
+  capnproto:
+    'Capn Proto schema language metadata should be reviewed manually against capnproto.org and capnproto release notes.',
+  cql: 'CQL metadata is tied to Apache Cassandra releases and should be reviewed manually against Cassandra CQL documentation.',
+  curry:
+    'Curry versions are implementation-specific and should be reviewed manually against KiCS2, PAKCS, and Curry language documentation.',
+  dot: 'DOT metadata is tied to Graphviz and should be reviewed manually against Graphviz language documentation and releases.',
+  editorconfig:
+    'EditorConfig is a stable configuration format and should be reviewed manually against editorconfig.org and core project releases.',
+  factor:
+    'Factor releases should be reviewed manually against factorcode.org and Factor project release notes.',
+  fql: 'FQL is a legacy Facebook Platform language and should be reviewed manually against archived Facebook developer documentation.',
+  gcode:
+    'G-code dialects are machine- and controller-specific and should be reviewed manually against RS-274 and vendor documentation.',
+  gettext:
+    'Gettext PO/POT metadata is tied to GNU gettext releases and should be reviewed manually against GNU release notes.',
+  gremlin:
+    'Gremlin metadata is tied to Apache TinkerPop releases and should be reviewed manually against TinkerPop documentation.',
+  io: 'Io releases should be reviewed manually against the Io language project and maintained VM repositories.',
+  jmespath:
+    'JMESPath is a stable JSON query specification and should be reviewed manually against jmespath.org and implementation releases.',
+  jsonata:
+    'JSONata releases should be reviewed manually against jsonata.org, documentation, and implementation package releases.',
+  koka: 'Koka releases should be reviewed manually against koka-lang.github.io and Koka compiler release notes.',
+  kql: 'KQL metadata is tied to Microsoft Kusto services and should be reviewed manually against Microsoft Learn documentation.',
+  linkerscript:
+    'Linker Script metadata is tied to GNU ld and LLD behavior and should be reviewed manually against binutils and LLVM documentation.',
+  n1ql: 'N1QL metadata is tied to Couchbase Server releases and should be reviewed manually against Couchbase documentation.',
+  plpgsql:
+    'PL/pgSQL metadata is tied to PostgreSQL releases and should be reviewed manually against PostgreSQL documentation.',
+  qmake:
+    'qmake metadata is tied to Qt releases and should be reviewed manually against Qt qmake documentation.',
+  soql: 'SOQL metadata is tied to Salesforce API versions and should be reviewed manually against Salesforce developer documentation.',
+  spl: 'SPL metadata is tied to Splunk platform releases and should be reviewed manually against Splunk Search Reference documentation.',
 };
 
 const checkers = {

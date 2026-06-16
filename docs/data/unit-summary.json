@@ -1,2136 +1,2316 @@
 {
-  "generatedAt": "2026-06-14T15:32:26.576Z",
+  "generatedAt": "2026-06-16T21:24:24.167Z",
   "success": true,
-  "totalSuites": 479,
-  "passedSuites": 479,
+  "totalSuites": 519,
+  "passedSuites": 519,
   "failedSuites": 0,
-  "totalTests": 296,
-  "passedTests": 296,
+  "totalTests": 316,
+  "passedTests": 316,
   "failedTests": 0,
   "files": [
     {
       "file": "abap.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/abap.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/abap.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.301513671875
+      "durationMs": 16.20849609375
     },
     {
       "file": "actionscript.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/actionscript.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/actionscript.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.328125
+      "durationMs": 11.80517578125
     },
     {
       "file": "ada.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/ada.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/ada.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.052490234375
+      "durationMs": 15.131591796875
     },
     {
       "file": "agda.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/agda.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/agda.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.239990234375
+      "durationMs": 13.434814453125
     },
     {
       "file": "algol.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/algol.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/algol.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.05908203125
+      "durationMs": 15.922119140625
+    },
+    {
+      "file": "ampl.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/ampl.test.ts",
+      "status": "passed",
+      "tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "durationMs": 13.877685546875
     },
     {
       "file": "ante.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/ante.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/ante.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.39111328125
+      "durationMs": 12.319580078125
     },
     {
       "file": "antlr.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/antlr.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/antlr.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.38232421875
+      "durationMs": 20.989013671875
     },
     {
       "file": "apex.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/apex.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/apex.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.0498046875
+      "durationMs": 15.368408203125
     },
     {
       "file": "api.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/api.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/api.test.ts",
       "status": "passed",
       "tests": 12,
       "passed": 12,
       "failed": 0,
-      "durationMs": 8.279541015625
+      "durationMs": 79.75048828125
     },
     {
       "file": "apl.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/apl.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/apl.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.83544921875
+      "durationMs": 12.197998046875
     },
     {
       "file": "applescript.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/applescript.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/applescript.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.24951171875
+      "durationMs": 20.573486328125
     },
     {
       "file": "aql.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/aql.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/aql.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.77880859375
+      "durationMs": 14.829345703125
     },
     {
       "file": "arduino.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/arduino.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/arduino.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.344970703125
+      "durationMs": 14.889892578125
     },
     {
       "file": "asciidoc.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/asciidoc.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/asciidoc.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.52197265625
+      "durationMs": 8.68896484375
     },
     {
       "file": "asp.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/asp.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/asp.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.0390625
+      "durationMs": 31.713623046875
     },
     {
       "file": "assembly.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/assembly.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/assembly.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.4296875
+      "durationMs": 26.942138671875
     },
     {
       "file": "astro.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/astro.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/astro.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.987548828125
+      "durationMs": 18.2646484375
     },
     {
       "file": "austral.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/austral.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/austral.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.37353515625
+      "durationMs": 14.291015625
     },
     {
       "file": "autohotkey.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/autohotkey.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/autohotkey.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.5185546875
+      "durationMs": 13.593994140625
     },
     {
       "file": "awk.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/awk.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/awk.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.135498046875
+      "durationMs": 21.98388671875
     },
     {
       "file": "ballerina.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/ballerina.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/ballerina.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.538818359375
+      "durationMs": 13.625244140625
     },
     {
       "file": "bash.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/bash.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/bash.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.334228515625
+      "durationMs": 13.76611328125
     },
     {
       "file": "batch.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/batch.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/batch.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.011962890625
+      "durationMs": 15.960205078125
     },
     {
       "file": "bazel.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/bazel.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/bazel.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.5498046875
+      "durationMs": 13.543701171875
     },
     {
       "file": "bcpl.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/bcpl.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/bcpl.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.972900390625
+      "durationMs": 14.188232421875
+    },
+    {
+      "file": "bibtex.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/bibtex.test.ts",
+      "status": "passed",
+      "tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "durationMs": 12.646484375
     },
     {
       "file": "bicep.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/bicep.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/bicep.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.146240234375
+      "durationMs": 13.043212890625
     },
     {
       "file": "blade.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/blade.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/blade.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 3.039794921875
+      "durationMs": 14.580078125
     },
     {
       "file": "bosque.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/bosque.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/bosque.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.357177734375
+      "durationMs": 9.70458984375
     },
     {
       "file": "bqn.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/bqn.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/bqn.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.6259765625
+      "durationMs": 14.679443359375
+    },
+    {
+      "file": "brainfuck.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/brainfuck.test.ts",
+      "status": "passed",
+      "tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "durationMs": 14.786865234375
     },
     {
       "file": "c.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/c.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/c.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.77587890625
+      "durationMs": 13.48876953125
     },
     {
       "file": "cairo.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/cairo.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/cairo.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.511962890625
+      "durationMs": 14.621337890625
+    },
+    {
+      "file": "capnproto.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/capnproto.test.ts",
+      "status": "passed",
+      "tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "durationMs": 13.36181640625
     },
     {
       "file": "carbon.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/carbon.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/carbon.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.913818359375
+      "durationMs": 13.49853515625
     },
     {
       "file": "chapel.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/chapel.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/chapel.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.572998046875
+      "durationMs": 10.240478515625
     },
     {
       "file": "circom.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/circom.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/circom.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.574462890625
+      "durationMs": 16.584228515625
     },
     {
       "file": "clojure.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/clojure.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/clojure.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.5751953125
+      "durationMs": 11.274169921875
     },
     {
       "file": "cmake.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/cmake.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/cmake.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.362548828125
+      "durationMs": 15.92431640625
     },
     {
       "file": "cobol.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/cobol.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/cobol.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.311279296875
+      "durationMs": 13.643310546875
     },
     {
       "file": "coffeescript.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/coffeescript.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/coffeescript.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.464599609375
+      "durationMs": 14.28076171875
     },
     {
       "file": "coldfusion.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/coldfusion.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/coldfusion.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.017333984375
+      "durationMs": 11.47314453125
     },
     {
       "file": "coq.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/coq.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/coq.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.930419921875
+      "durationMs": 15.319091796875
     },
     {
       "file": "cpp.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/cpp.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/cpp.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.35302734375
+      "durationMs": 13.46533203125
+    },
+    {
+      "file": "cql.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/cql.test.ts",
+      "status": "passed",
+      "tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "durationMs": 15.435302734375
     },
     {
       "file": "crystal.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/crystal.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/crystal.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.0244140625
+      "durationMs": 10.1865234375
     },
     {
       "file": "csharp.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/csharp.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/csharp.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.4921875
+      "durationMs": 10.07763671875
     },
     {
       "file": "css.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/css.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/css.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.748291015625
+      "durationMs": 23.340087890625
     },
     {
       "file": "cuda.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/cuda.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/cuda.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.147705078125
+      "durationMs": 17.074462890625
     },
     {
       "file": "cue.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/cue.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/cue.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.244140625
+      "durationMs": 25.01611328125
     },
     {
       "file": "curry.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/curry.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/curry.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.351806640625
+      "durationMs": 13.683837890625
     },
     {
       "file": "cypher.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/cypher.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/cypher.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.504638671875
+      "durationMs": 16.12255859375
     },
     {
       "file": "cython.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/cython.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/cython.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.577880859375
+      "durationMs": 24.13134765625
     },
     {
       "file": "d.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/d.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/d.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.55322265625
+      "durationMs": 15.04345703125
     },
     {
       "file": "dafny.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/dafny.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/dafny.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.201171875
+      "durationMs": 16.81005859375
     },
     {
       "file": "dart.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/dart.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/dart.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.162841796875
+      "durationMs": 15.829345703125
     },
     {
       "file": "detect.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/detect.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/detect.test.ts",
       "status": "passed",
       "tests": 50,
       "passed": 50,
       "failed": 0,
-      "durationMs": 15.21044921875
+      "durationMs": 89.6220703125
     },
     {
       "file": "dhall.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/dhall.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/dhall.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.34619140625
+      "durationMs": 16.265380859375
     },
     {
       "file": "dita.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/dita.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/dita.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.368408203125
+      "durationMs": 12.4033203125
     },
     {
       "file": "dockerfile.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/dockerfile.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/dockerfile.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.89453125
+      "durationMs": 9.07470703125
+    },
+    {
+      "file": "dot.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/dot.test.ts",
+      "status": "passed",
+      "tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "durationMs": 15.081787109375
     },
     {
       "file": "earthly.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/earthly.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/earthly.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.49462890625
+      "durationMs": 26.94482421875
+    },
+    {
+      "file": "editorconfig.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/editorconfig.test.ts",
+      "status": "passed",
+      "tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "durationMs": 14.770263671875
     },
     {
       "file": "eiffel.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/eiffel.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/eiffel.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.9296875
+      "durationMs": 14.04638671875
     },
     {
       "file": "ejs.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/ejs.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/ejs.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.028564453125
+      "durationMs": 18.14892578125
     },
     {
       "file": "elixir.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/elixir.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/elixir.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 3.141845703125
+      "durationMs": 16.79345703125
     },
     {
       "file": "elm.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/elm.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/elm.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.30810546875
+      "durationMs": 14.428466796875
     },
     {
       "file": "erb.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/erb.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/erb.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.2958984375
+      "durationMs": 17.684814453125
     },
     {
       "file": "erlang.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/erlang.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/erlang.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.85791015625
+      "durationMs": 11.416748046875
     },
     {
       "file": "factor.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/factor.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/factor.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.478759765625
+      "durationMs": 10.25439453125
     },
     {
       "file": "fe.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/fe.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/fe.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.524658203125
+      "durationMs": 20.96875
     },
     {
       "file": "fennel.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/fennel.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/fennel.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.49951171875
+      "durationMs": 25.740234375
     },
     {
       "file": "fish.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/fish.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/fish.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.177734375
+      "durationMs": 16.560302734375
     },
     {
       "file": "flux.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/flux.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/flux.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.866455078125
+      "durationMs": 18.890625
     },
     {
       "file": "forth.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/forth.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/forth.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.29345703125
+      "durationMs": 14.04345703125
     },
     {
       "file": "fortran.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/fortran.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/fortran.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.8232421875
+      "durationMs": 16.09423828125
+    },
+    {
+      "file": "fql.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/fql.test.ts",
+      "status": "passed",
+      "tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "durationMs": 12.73388671875
     },
     {
       "file": "freemarker.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/freemarker.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/freemarker.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.11572265625
+      "durationMs": 13.58544921875
     },
     {
       "file": "fsharp.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/fsharp.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/fsharp.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.450439453125
+      "durationMs": 13.80908203125
     },
     {
       "file": "fstar.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/fstar.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/fstar.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.415771484375
+      "durationMs": 14.9404296875
+    },
+    {
+      "file": "gcode.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/gcode.test.ts",
+      "status": "passed",
+      "tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "durationMs": 16.565673828125
     },
     {
       "file": "gdscript.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/gdscript.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/gdscript.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.8466796875
+      "durationMs": 14.673095703125
+    },
+    {
+      "file": "gettext.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/gettext.test.ts",
+      "status": "passed",
+      "tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "durationMs": 14.899658203125
     },
     {
       "file": "git.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/git.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/git.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.753662109375
+      "durationMs": 13.85498046875
     },
     {
       "file": "gleam.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/gleam.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/gleam.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.83544921875
+      "durationMs": 11.074462890625
     },
     {
       "file": "glsl.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/glsl.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/glsl.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.00830078125
+      "durationMs": 14.336669921875
     },
     {
       "file": "go.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/go.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/go.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.335205078125
+      "durationMs": 14.425048828125
     },
     {
       "file": "gradle.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/gradle.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/gradle.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.60693359375
+      "durationMs": 21.775390625
     },
     {
       "file": "grain.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/grain.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/grain.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.47021484375
+      "durationMs": 14.12548828125
     },
     {
       "file": "graphql.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/graphql.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/graphql.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.370849609375
+      "durationMs": 13.382568359375
+    },
+    {
+      "file": "gremlin.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/gremlin.test.ts",
+      "status": "passed",
+      "tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "durationMs": 9.092041015625
     },
     {
       "file": "groovy.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/groovy.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/groovy.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.835205078125
+      "durationMs": 23.947998046875
     },
     {
       "file": "hack.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/hack.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/hack.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.2236328125
+      "durationMs": 13.311279296875
     },
     {
       "file": "haml.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/haml.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/haml.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.7744140625
+      "durationMs": 11.786865234375
     },
     {
       "file": "handlebars.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/handlebars.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/handlebars.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.77001953125
+      "durationMs": 9.1279296875
     },
     {
       "file": "hare.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/hare.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/hare.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.76171875
+      "durationMs": 11.189208984375
     },
     {
       "file": "haskell.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/haskell.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/haskell.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.495361328125
+      "durationMs": 14.26513671875
     },
     {
       "file": "haxe.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/haxe.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/haxe.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.477783203125
+      "durationMs": 20.28759765625
     },
     {
       "file": "hcl.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/hcl.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/hcl.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.719482421875
+      "durationMs": 14.66455078125
     },
     {
       "file": "hlsl.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/hlsl.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/hlsl.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.454833984375
+      "durationMs": 19.027099609375
     },
     {
       "file": "hocon.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/hocon.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/hocon.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.04248046875
+      "durationMs": 12.9404296875
     },
     {
       "file": "html.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/html.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/html.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.109375
+      "durationMs": 12.177978515625
     },
     {
       "file": "hy.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/hy.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/hy.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.75048828125
+      "durationMs": 18.553466796875
     },
     {
       "file": "idris.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/idris.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/idris.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.34326171875
+      "durationMs": 9.42138671875
     },
     {
       "file": "ini.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/ini.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/ini.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.545654296875
+      "durationMs": 12.998779296875
     },
     {
       "file": "ink.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/ink.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/ink.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.875732421875
+      "durationMs": 13.944091796875
     },
     {
       "file": "io.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/io.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/io.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.45458984375
+      "durationMs": 14.009765625
     },
     {
       "file": "isabelle.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/isabelle.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/isabelle.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.032958984375
+      "durationMs": 9.36962890625
     },
     {
       "file": "janet.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/janet.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/janet.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.39013671875
+      "durationMs": 16.177490234375
     },
     {
       "file": "java.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/java.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/java.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.964599609375
+      "durationMs": 9.15966796875
     },
     {
       "file": "javascript.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/javascript.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/javascript.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.821533203125
+      "durationMs": 12.337646484375
     },
     {
       "file": "jinja.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/jinja.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/jinja.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.7158203125
+      "durationMs": 10.81640625
+    },
+    {
+      "file": "jmespath.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/jmespath.test.ts",
+      "status": "passed",
+      "tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "durationMs": 13.227783203125
     },
     {
       "file": "json.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/json.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/json.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.87255859375
+      "durationMs": 13.86865234375
     },
     {
       "file": "json5.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/json5.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/json5.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.987548828125
+      "durationMs": 15.28857421875
+    },
+    {
+      "file": "jsonata.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/jsonata.test.ts",
+      "status": "passed",
+      "tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "durationMs": 15.033203125
     },
     {
       "file": "jsonc.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/jsonc.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/jsonc.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.420166015625
+      "durationMs": 13.90380859375
     },
     {
       "file": "jsonnet.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/jsonnet.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/jsonnet.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.609619140625
+      "durationMs": 10.87744140625
     },
     {
       "file": "julia.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/julia.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/julia.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.765380859375
+      "durationMs": 10.9853515625
     },
     {
       "file": "jupyter-notebook.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/jupyter-notebook.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/jupyter-notebook.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.547119140625
+      "durationMs": 15.5625
     },
     {
       "file": "just.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/just.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/just.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.485107421875
+      "durationMs": 11.984375
     },
     {
       "file": "kcl.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/kcl.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/kcl.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.805419921875
+      "durationMs": 14.491943359375
     },
     {
       "file": "kdl.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/kdl.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/kdl.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.004638671875
+      "durationMs": 11.1064453125
     },
     {
       "file": "koka.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/koka.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/koka.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.270751953125
+      "durationMs": 14.671142578125
     },
     {
       "file": "kotlin.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/kotlin.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/kotlin.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 3.1201171875
+      "durationMs": 13.65234375
+    },
+    {
+      "file": "kql.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/kql.test.ts",
+      "status": "passed",
+      "tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "durationMs": 11.20654296875
     },
     {
       "file": "lean.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/lean.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/lean.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.017822265625
+      "durationMs": 24.34130859375
     },
     {
       "file": "less.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/less.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/less.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.464111328125
+      "durationMs": 13.504150390625
     },
     {
       "file": "ligo.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/ligo.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/ligo.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.461181640625
+      "durationMs": 10.9091796875
+    },
+    {
+      "file": "linkerscript.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/linkerscript.test.ts",
+      "status": "passed",
+      "tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "durationMs": 17.334716796875
     },
     {
       "file": "liquid.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/liquid.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/liquid.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.794189453125
+      "durationMs": 13.613037109375
     },
     {
       "file": "lisp.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/lisp.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/lisp.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.44091796875
+      "durationMs": 17.47314453125
     },
     {
       "file": "llvm-ir.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/llvm-ir.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/llvm-ir.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.456298828125
+      "durationMs": 11.81396484375
     },
     {
       "file": "lobster.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/lobster.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/lobster.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.217041015625
+      "durationMs": 14.986572265625
     },
     {
       "file": "logo.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/logo.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/logo.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.771240234375
+      "durationMs": 16.29638671875
     },
     {
       "file": "lua.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/lua.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/lua.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.4521484375
+      "durationMs": 15.941162109375
     },
     {
       "file": "luau.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/luau.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/luau.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.307861328125
+      "durationMs": 18.44677734375
     },
     {
       "file": "makefile.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/makefile.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/makefile.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.25634765625
+      "durationMs": 20.93994140625
     },
     {
       "file": "mako.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/mako.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/mako.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.284912109375
+      "durationMs": 18.84521484375
     },
     {
       "file": "markdown.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/markdown.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/markdown.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.33203125
+      "durationMs": 16.93115234375
     },
     {
       "file": "marlowe.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/marlowe.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/marlowe.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.55615234375
+      "durationMs": 9.90576171875
     },
     {
       "file": "mathematica.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/mathematica.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/mathematica.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.407958984375
+      "durationMs": 13.0078125
     },
     {
       "file": "matlab.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/matlab.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/matlab.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.57568359375
+      "durationMs": 13.566162109375
     },
     {
       "file": "mdx.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/mdx.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/mdx.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.50439453125
+      "durationMs": 18.333984375
     },
     {
       "file": "mercury.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/mercury.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/mercury.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.080810546875
+      "durationMs": 11.980712890625
     },
     {
       "file": "mermaid.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/mermaid.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/mermaid.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.384521484375
+      "durationMs": 13.033935546875
     },
     {
       "file": "meson.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/meson.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/meson.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.337890625
+      "durationMs": 14.138427734375
     },
     {
       "file": "metal.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/metal.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/metal.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.1806640625
+      "durationMs": 13.802978515625
     },
     {
       "file": "modula-2.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/modula-2.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/modula-2.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.24169921875
+      "durationMs": 12.80322265625
     },
     {
       "file": "mojo.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/mojo.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/mojo.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.019287109375
+      "durationMs": 15.061279296875
     },
     {
       "file": "moonbit.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/moonbit.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/moonbit.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.96728515625
+      "durationMs": 11.378173828125
     },
     {
       "file": "move.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/move.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/move.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.056884765625
+      "durationMs": 24.682861328125
     },
     {
       "file": "mustache.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/mustache.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/mustache.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.006103515625
+      "durationMs": 10.923095703125
+    },
+    {
+      "file": "n1ql.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/n1ql.test.ts",
+      "status": "passed",
+      "tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "durationMs": 15.06787109375
     },
     {
       "file": "nginx.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/nginx.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/nginx.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.151123046875
+      "durationMs": 14.239501953125
     },
     {
       "file": "nickel.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/nickel.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/nickel.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.161376953125
+      "durationMs": 14.73974609375
     },
     {
       "file": "nim.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/nim.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/nim.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.3466796875
+      "durationMs": 13.66552734375
     },
     {
       "file": "nix.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/nix.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/nix.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.465087890625
+      "durationMs": 15.594482421875
     },
     {
       "file": "nunjucks.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/nunjucks.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/nunjucks.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.4228515625
+      "durationMs": 14.871826171875
     },
     {
       "file": "nushell.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/nushell.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/nushell.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.34814453125
+      "durationMs": 15.713623046875
     },
     {
       "file": "oberon.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/oberon.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/oberon.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.991943359375
+      "durationMs": 13.500732421875
     },
     {
       "file": "objective-c.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/objective-c.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/objective-c.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.15869140625
+      "durationMs": 11.078857421875
     },
     {
       "file": "ocaml.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/ocaml.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/ocaml.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.864501953125
+      "durationMs": 14.284423828125
     },
     {
       "file": "odin.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/odin.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/odin.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.4384765625
+      "durationMs": 15.1201171875
     },
     {
       "file": "openapi.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/openapi.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/openapi.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.5166015625
+      "durationMs": 14.279052734375
     },
     {
       "file": "opencl.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/opencl.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/opencl.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.816162109375
+      "durationMs": 12.332275390625
     },
     {
       "file": "pascal.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/pascal.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/pascal.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.3447265625
+      "durationMs": 18.769775390625
     },
     {
       "file": "perl.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/perl.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/perl.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.474609375
+      "durationMs": 12.297607421875
     },
     {
       "file": "php.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/php.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/php.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.153564453125
+      "durationMs": 15.96728515625
     },
     {
       "file": "pine-script.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/pine-script.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/pine-script.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.9248046875
+      "durationMs": 12.858154296875
     },
     {
       "file": "pkl.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/pkl.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/pkl.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.884033203125
+      "durationMs": 16.249267578125
     },
     {
       "file": "pl-i.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/pl-i.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/pl-i.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.664306640625
+      "durationMs": 13.292724609375
     },
     {
       "file": "plantuml.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/plantuml.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/plantuml.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.85693359375
+      "durationMs": 14.113525390625
+    },
+    {
+      "file": "plpgsql.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/plpgsql.test.ts",
+      "status": "passed",
+      "tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "durationMs": 15.43505859375
     },
     {
       "file": "plsql.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/plsql.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/plsql.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.31640625
+      "durationMs": 14.6103515625
     },
     {
       "file": "pony.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/pony.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/pony.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.12841796875
+      "durationMs": 14.0380859375
     },
     {
       "file": "powershell.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/powershell.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/powershell.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.767578125
+      "durationMs": 21.509765625
     },
     {
       "file": "prolog.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/prolog.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/prolog.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.897216796875
+      "durationMs": 16.6103515625
     },
     {
       "file": "promql.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/promql.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/promql.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.83740234375
+      "durationMs": 16.774169921875
     },
     {
       "file": "protobuf.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/protobuf.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/protobuf.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.370361328125
+      "durationMs": 30.487548828125
     },
     {
       "file": "pug.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/pug.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/pug.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.060791015625
+      "durationMs": 18.921875
     },
     {
       "file": "puppet.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/puppet.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/puppet.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.9658203125
+      "durationMs": 21.8056640625
     },
     {
       "file": "purescript.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/purescript.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/purescript.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.333251953125
+      "durationMs": 19.312744140625
     },
     {
       "file": "python.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/python.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/python.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.166015625
+      "durationMs": 15.182373046875
+    },
+    {
+      "file": "qmake.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/qmake.test.ts",
+      "status": "passed",
+      "tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "durationMs": 13.717041015625
     },
     {
       "file": "qml.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/qml.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/qml.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.96484375
+      "durationMs": 27.92626953125
     },
     {
       "file": "qsharp.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/qsharp.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/qsharp.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.874267578125
+      "durationMs": 15.7607421875
     },
     {
       "file": "r.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/r.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/r.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.10693359375
+      "durationMs": 17.1474609375
     },
     {
       "file": "racket.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/racket.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/racket.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 3.4404296875
+      "durationMs": 13.959228515625
     },
     {
       "file": "raku.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/raku.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/raku.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.522705078125
+      "durationMs": 16.182861328125
     },
     {
       "file": "razor.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/razor.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/razor.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.811767578125
+      "durationMs": 16.443359375
     },
     {
       "file": "reasonml.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/reasonml.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/reasonml.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.533447265625
+      "durationMs": 10.18896484375
     },
     {
       "file": "rebol.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/rebol.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/rebol.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.74560546875
+      "durationMs": 14.67431640625
     },
     {
       "file": "red.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/red.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/red.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.25439453125
+      "durationMs": 16.3291015625
     },
     {
       "file": "rego.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/rego.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/rego.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.880615234375
+      "durationMs": 12.940185546875
     },
     {
       "file": "rescript.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/rescript.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/rescript.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.78369140625
+      "durationMs": 12.1474609375
     },
     {
       "file": "restructuredtext.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/restructuredtext.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/restructuredtext.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.92578125
+      "durationMs": 12.207275390625
     },
     {
       "file": "roc.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/roc.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/roc.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.033203125
+      "durationMs": 11.306396484375
     },
     {
       "file": "ruby.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/ruby.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/ruby.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.241943359375
+      "durationMs": 14.406494140625
     },
     {
       "file": "rust.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/rust.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/rust.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.583984375
+      "durationMs": 9.490234375
     },
     {
       "file": "sas.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/sas.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/sas.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.01611328125
+      "durationMs": 15.00048828125
     },
     {
       "file": "scala.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/scala.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/scala.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.91064453125
+      "durationMs": 13.7470703125
     },
     {
       "file": "scheme.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/scheme.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/scheme.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.37353515625
+      "durationMs": 9.237060546875
     },
     {
       "file": "scss.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/scss.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/scss.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.44775390625
+      "durationMs": 19.09619140625
     },
     {
       "file": "self.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/self.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/self.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.84765625
+      "durationMs": 15.850830078125
     },
     {
       "file": "simula.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/simula.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/simula.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.197509765625
+      "durationMs": 12.053955078125
     },
     {
       "file": "smalltalk.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/smalltalk.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/smalltalk.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.477783203125
+      "durationMs": 12.8408203125
     },
     {
       "file": "smarty.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/smarty.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/smarty.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.2548828125
+      "durationMs": 15.834716796875
     },
     {
       "file": "snobol.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/snobol.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/snobol.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.395263671875
+      "durationMs": 21.999267578125
     },
     {
       "file": "solidity.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/solidity.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/solidity.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.05078125
+      "durationMs": 14.171142578125
+    },
+    {
+      "file": "soql.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/soql.test.ts",
+      "status": "passed",
+      "tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "durationMs": 14.69189453125
     },
     {
       "file": "spark.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/spark.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/spark.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 3.028076171875
+      "durationMs": 17.4521484375
     },
     {
       "file": "sparql.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/sparql.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/sparql.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 3.265625
+      "durationMs": 9.5556640625
+    },
+    {
+      "file": "spl.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/spl.test.ts",
+      "status": "passed",
+      "tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "durationMs": 17.02587890625
     },
     {
       "file": "sql.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/sql.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/sql.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.894775390625
+      "durationMs": 8.96435546875
     },
     {
       "file": "standard-ml.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/standard-ml.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/standard-ml.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.510498046875
+      "durationMs": 13.044921875
     },
     {
       "file": "starlark.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/starlark.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/starlark.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.33935546875
+      "durationMs": 9.22509765625
     },
     {
       "file": "stata.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/stata.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/stata.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.810302734375
+      "durationMs": 9.10546875
     },
     {
       "file": "stylus.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/stylus.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/stylus.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.171630859375
+      "durationMs": 14.703125
     },
     {
       "file": "svelte.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/svelte.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/svelte.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.4560546875
+      "durationMs": 14.2783203125
     },
     {
       "file": "svg.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/svg.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/svg.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.42431640625
+      "durationMs": 14.109619140625
     },
     {
       "file": "svn.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/svn.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/svn.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.345458984375
+      "durationMs": 11.317138671875
     },
     {
       "file": "swift.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/swift.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/swift.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.658203125
+      "durationMs": 12.911376953125
     },
     {
       "file": "tcl.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/tcl.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/tcl.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.755615234375
+      "durationMs": 13.69287109375
     },
     {
       "file": "tex.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/tex.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/tex.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.35302734375
+      "durationMs": 15.682373046875
     },
     {
       "file": "thrift.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/thrift.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/thrift.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.919921875
+      "durationMs": 11.54052734375
     },
     {
       "file": "tla-plus.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/tla-plus.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/tla-plus.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.4365234375
+      "durationMs": 14.768310546875
     },
     {
       "file": "toml.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/toml.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/toml.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.19287109375
+      "durationMs": 13.812744140625
     },
     {
       "file": "tsql.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/tsql.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/tsql.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.3994140625
+      "durationMs": 13.521484375
     },
     {
       "file": "twig.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/twig.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/twig.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.495361328125
+      "durationMs": 18.1474609375
     },
     {
       "file": "typescript.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/typescript.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/typescript.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.32568359375
+      "durationMs": 14.297119140625
     },
     {
       "file": "typst.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/typst.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/typst.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.355224609375
+      "durationMs": 10.13134765625
     },
     {
       "file": "unison.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/unison.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/unison.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.99462890625
+      "durationMs": 16.970703125
     },
     {
       "file": "v.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/v.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/v.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 1.759033203125
+      "durationMs": 13.37060546875
     },
     {
       "file": "vala.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/vala.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/vala.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.2724609375
+      "durationMs": 14.866943359375
     },
     {
       "file": "vale.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/vale.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/vale.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.2705078125
+      "durationMs": 15.046630859375
     },
     {
       "file": "verilog.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/verilog.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/verilog.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.484619140625
+      "durationMs": 15.6962890625
     },
     {
       "file": "verse.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/verse.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/verse.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.62548828125
+      "durationMs": 14.5869140625
     },
     {
       "file": "vhdl.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/vhdl.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/vhdl.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.39111328125
+      "durationMs": 23.192138671875
     },
     {
       "file": "visual-basic.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/visual-basic.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/visual-basic.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.289306640625
+      "durationMs": 25.576171875
     },
     {
       "file": "vue.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/vue.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/vue.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.43505859375
+      "durationMs": 15.69189453125
     },
     {
       "file": "vyper.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/vyper.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/vyper.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.358154296875
+      "durationMs": 22.1025390625
     },
     {
       "file": "webassembly.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/webassembly.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/webassembly.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.316650390625
+      "durationMs": 13.934326171875
     },
     {
       "file": "wgsl.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/wgsl.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/wgsl.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.4375
+      "durationMs": 14.327392578125
     },
     {
       "file": "wren.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/wren.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/wren.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.54052734375
+      "durationMs": 13.55078125
     },
     {
       "file": "xaml.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/xaml.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/xaml.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.423095703125
+      "durationMs": 21.25244140625
     },
     {
       "file": "xml.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/xml.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/xml.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.50439453125
+      "durationMs": 11.716552734375
     },
     {
       "file": "xquery.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/xquery.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/xquery.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.267578125
+      "durationMs": 13.0205078125
     },
     {
       "file": "xslt.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/xslt.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/xslt.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.62646484375
+      "durationMs": 11.140625
     },
     {
       "file": "yaml.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/yaml.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/yaml.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.154541015625
+      "durationMs": 13.47265625
     },
     {
       "file": "yara.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/yara.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/yara.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.834716796875
+      "durationMs": 16.867431640625
     },
     {
       "file": "zeek.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/zeek.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/zeek.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.041015625
+      "durationMs": 16.76904296875
     },
     {
       "file": "zig.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/zig.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/zig.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.905517578125
+      "durationMs": 21.214111328125
     },
     {
       "file": "ziggy.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/ziggy.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/ziggy.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.041015625
+      "durationMs": 22.458740234375
     },
     {
       "file": "zsh.test.ts",
-      "path": "/Users/pilmee/Documents/Github/simple-languages/tests/languages/zsh.test.ts",
+      "path": "/home/pilmee/Documentos/Github/code-languages/tests/languages/zsh.test.ts",
       "status": "passed",
       "tests": 1,
       "passed": 1,
       "failed": 0,
-      "durationMs": 2.578857421875
+      "durationMs": 16.371337890625
     }
   ]
 }

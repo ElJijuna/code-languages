@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-14T15:32:30.107Z",
-  "total": 234,
-  "extensions": 532,
+  "generatedAt": "2026-06-16T21:24:42.704Z",
+  "total": 254,
+  "extensions": 568,
   "locales": [
     "en",
     "es",
@@ -265,6 +265,51 @@
       "version": "ALGOL 68",
       "logo": "https://dummyimage.com/32x32/6B7280/ffffff.png&text=ALG",
       "color": "#6B7280"
+    },
+    {
+      "slug": "ampl",
+      "name": "AMPL",
+      "description": "A declarative language for describing optimization models and data for mathematical solvers.",
+      "longDescription": "AMPL is a modeling language for linear, nonlinear, integer, and constraint optimization. It lets modelers express sets, parameters, variables, objectives, and constraints close to mathematical notation.\n\nThe language is widely used in operations research, logistics, energy planning, finance, and industrial scheduling. AMPL separates model structure from data and connects to many commercial and open source solvers.",
+      "esName": "AMPL",
+      "esDescription": "Lenguaje declarativo para describir modelos y datos de optimizacion para solvers matematicos.",
+      "esLongDescription": "AMPL es un lenguaje de modelado para optimizacion lineal, no lineal, entera y con restricciones. Permite expresar conjuntos, parametros, variables, objetivos y restricciones cerca de la notacion matematica.\n\nEl lenguaje se usa en investigacion de operaciones, logistica, planificacion energetica, finanzas y programacion industrial. AMPL separa la estructura del modelo de los datos y se conecta con muchos solvers comerciales y abiertos.",
+      "itName": "AMPL",
+      "itDescription": "Linguaggio dichiarativo per descrivere modelli e dati di ottimizzazione per solver matematici.",
+      "itLongDescription": "AMPL e un linguaggio di modellazione per ottimizzazione lineare, non lineare, intera e vincolata. Permette di esprimere insiemi, parametri, variabili, obiettivi e vincoli vicino alla notazione matematica.\n\nIl linguaggio e usato in ricerca operativa, logistica, pianificazione energetica, finanza e schedulazione industriale. AMPL separa la struttura del modello dai dati e si collega a molti solver commerciali e open source.",
+      "frName": "AMPL",
+      "frDescription": "Langage declaratif pour decrire modeles et donnees d optimisation pour solveurs mathematiques.",
+      "frLongDescription": "AMPL est un langage de modelisation pour l optimisation lineaire, non lineaire, entiere et sous contraintes. Il permet d exprimer ensembles, parametres, variables, objectifs et contraintes pres de la notation mathematique.\n\nLe langage est utilise en recherche operationnelle, logistique, planification energetique, finance et ordonnancement industriel. AMPL separe la structure du modele des donnees et se connecte a de nombreux solveurs commerciaux et ouverts.",
+      "deName": "AMPL",
+      "deDescription": "Deklarative Sprache fur Optimierungsmodelle und Daten fur mathematische Solver.",
+      "deLongDescription": "AMPL ist eine Modellierungssprache fur lineare, nichtlineare, ganzzahlige und eingeschrankte Optimierung. Sie beschreibt Mengen, Parameter, Variablen, Ziele und Nebenbedingungen nahe an mathematischer Notation.\n\nDie Sprache wird in Operations Research, Logistik, Energieplanung, Finanzwesen und industrieller Planung genutzt. AMPL trennt Modellstruktur von Daten und bindet viele kommerzielle und offene Solver an.",
+      "ptName": "AMPL",
+      "ptDescription": "Linguagem declarativa para descrever modelos e dados de otimizacao para solvers matematicos.",
+      "ptLongDescription": "AMPL e uma linguagem de modelagem para otimizacao linear, nao linear, inteira e com restricoes. Ela permite expressar conjuntos, parametros, variaveis, objetivos e restricoes perto da notacao matematica.\n\nA linguagem e usada em pesquisa operacional, logistica, planejamento energetico, financas e escalonamento industrial. AMPL separa a estrutura do modelo dos dados e se conecta a muitos solvers comerciais e abertos.",
+      "publishedDate": "1985-01-01",
+      "extensions": [
+        ".mod",
+        ".dat",
+        ".run"
+      ],
+      "author": "Robert Fourer, David Gay, and Brian Kernighan",
+      "website": "https://ampl.com",
+      "paradigms": [
+        "declarative",
+        "mathematical modeling"
+      ],
+      "tooling": {
+        "runtimes": [
+          "AMPL"
+        ],
+        "ecosystems": [
+          "Optimization",
+          "Operations research"
+        ]
+      },
+      "version": "stable",
+      "logo": "https://dummyimage.com/32x32/1D4ED8/ffffff.png&text=AM",
+      "color": "#1D4ED8"
     },
     {
       "slug": "ante",
@@ -1286,6 +1331,52 @@
       "color": "#374151"
     },
     {
+      "slug": "bibtex",
+      "name": "BibTeX",
+      "description": "A bibliography data format and toolchain used with TeX and LaTeX documents.",
+      "longDescription": "BibTeX is both a bibliography processing program and a structured text format for citation records. Entries describe books, articles, proceedings, theses, and other sources with fields such as author, title, year, and publisher.\n\nIt is central to many TeX and LaTeX workflows, especially in academic publishing. BibTeX files can be edited by hand, exported by reference managers, and rendered through style files into formatted bibliographies.",
+      "esName": "BibTeX",
+      "esDescription": "Formato de datos bibliograficos y herramienta usada con documentos TeX y LaTeX.",
+      "esLongDescription": "BibTeX es un programa de procesamiento bibliografico y un formato de texto estructurado para registros de citas. Las entradas describen libros, articulos, actas, tesis y otras fuentes con campos como autor, titulo, ano y editorial.\n\nEs central en muchos flujos de TeX y LaTeX, sobre todo en publicacion academica. Los archivos BibTeX pueden editarse a mano, exportarse desde gestores de referencias y renderizarse con estilos como bibliografias formateadas.",
+      "itName": "BibTeX",
+      "itDescription": "Formato di dati bibliografici e toolchain usati con documenti TeX e LaTeX.",
+      "itLongDescription": "BibTeX e sia un programma di elaborazione bibliografica sia un formato testuale strutturato per record di citazioni. Le voci descrivono libri, articoli, atti, tesi e altre fonti con campi come autore, titolo, anno ed editore.\n\nE centrale in molti flussi TeX e LaTeX, specialmente nella pubblicazione accademica. I file BibTeX possono essere modificati a mano, esportati da gestori di riferimenti e resi tramite file di stile in bibliografie formattate.",
+      "frName": "BibTeX",
+      "frDescription": "Format de donnees bibliographiques et chaine d outils utilises avec TeX et LaTeX.",
+      "frLongDescription": "BibTeX est a la fois un programme de traitement bibliographique et un format texte structure pour les citations. Les entrees decrivent livres, articles, actes, theses et autres sources avec des champs comme auteur, titre, annee et editeur.\n\nIl est central dans de nombreux flux TeX et LaTeX, surtout pour l edition academique. Les fichiers BibTeX peuvent etre modifies a la main, exportes par des gestionnaires de references et rendus via des styles en bibliographies formatees.",
+      "deName": "BibTeX",
+      "deDescription": "Bibliografisches Datenformat und Werkzeugkette fur TeX- und LaTeX-Dokumente.",
+      "deLongDescription": "BibTeX ist ein Bibliografieprogramm und ein strukturiertes Textformat fur Zitationsdaten. Eintrage beschreiben Bucher, Artikel, Tagungsbande, Arbeiten und andere Quellen mit Feldern wie Autor, Titel, Jahr und Verlag.\n\nEs ist zentral in vielen TeX- und LaTeX-Ablaufen, besonders im akademischen Publizieren. BibTeX-Dateien konnen von Hand gepflegt, aus Literaturverwaltungen exportiert und uber Stildateien zu formatierten Bibliografien gerendert werden.",
+      "ptName": "BibTeX",
+      "ptDescription": "Formato de dados bibliograficos e cadeia de ferramentas usada com TeX e LaTeX.",
+      "ptLongDescription": "BibTeX e ao mesmo tempo um programa de processamento bibliografico e um formato de texto estruturado para registros de citacao. As entradas descrevem livros, artigos, anais, teses e outras fontes com campos como autor, titulo, ano e editora.\n\nEle e central em muitos fluxos TeX e LaTeX, especialmente na publicacao academica. Arquivos BibTeX podem ser editados a mao, exportados por gerenciadores de referencias e renderizados por estilos em bibliografias formatadas.",
+      "publishedDate": "1985-01-01",
+      "extensions": [
+        ".bib",
+        ".bibtex"
+      ],
+      "author": "Oren Patashnik and Leslie Lamport",
+      "website": "https://ctan.org/pkg/bibtex",
+      "paradigms": [
+        "data",
+        "bibliography"
+      ],
+      "tooling": {
+        "runtimes": [
+          "BibTeX",
+          "Biber"
+        ],
+        "ecosystems": [
+          "TeX",
+          "LaTeX",
+          "Academic publishing"
+        ]
+      },
+      "version": "stable",
+      "logo": "https://dummyimage.com/32x32/2563EB/ffffff.png&text=Bi",
+      "color": "#2563EB"
+    },
+    {
       "slug": "bicep",
       "name": "Bicep",
       "description": "A declarative language for describing Azure infrastructure as code.",
@@ -1477,6 +1568,50 @@
       "version": "BQN specification",
       "logo": "https://dummyimage.com/32x32/7C3AED/ffffff.png&text=BQN",
       "color": "#7C3AED"
+    },
+    {
+      "slug": "brainfuck",
+      "name": "Brainfuck",
+      "description": "An esoteric minimal language built around a tape, a pointer, and eight commands.",
+      "longDescription": "Brainfuck is an intentionally tiny esoteric programming language with only eight commands. Programs move a pointer across a memory tape, mutate cells, read or write bytes, and use bracketed loops for control flow.\n\nThe language is rarely used for practical software, but it is influential as a teaching, golfing, interpreter, and compiler exercise. Its extreme simplicity makes it a compact test case for parsers, virtual machines, and code generation.",
+      "esName": "Brainfuck",
+      "esDescription": "Lenguaje esoterico minimo basado en una cinta, un puntero y ocho comandos.",
+      "esLongDescription": "Brainfuck es un lenguaje de programacion esoterico deliberadamente pequeno con solo ocho comandos. Los programas mueven un puntero sobre una cinta de memoria, mutan celdas, leen o escriben bytes y usan bucles con corchetes para control de flujo.\n\nEl lenguaje casi nunca se usa para software practico, pero influye como ejercicio de ensenanza, code golf, interpretes y compiladores. Su simplicidad extrema lo vuelve un caso de prueba compacto para parsers, maquinas virtuales y generacion de codigo.",
+      "itName": "Brainfuck",
+      "itDescription": "Linguaggio esoterico minimo basato su nastro, puntatore e otto comandi.",
+      "itLongDescription": "Brainfuck e un linguaggio di programmazione esoterico volutamente minuscolo con solo otto comandi. I programmi muovono un puntatore su un nastro di memoria, modificano celle, leggono o scrivono byte e usano cicli tra parentesi quadre per il flusso di controllo.\n\nIl linguaggio e usato raramente per software pratico, ma e influente come esercizio didattico, di code golf, interpreti e compilatori. La sua estrema semplicita lo rende un caso di prova compatto per parser, macchine virtuali e generazione di codice.",
+      "frName": "Brainfuck",
+      "frDescription": "Langage esoterique minimal fonde sur un ruban, un pointeur et huit commandes.",
+      "frLongDescription": "Brainfuck est un langage de programmation esoterique volontairement minuscule avec seulement huit commandes. Les programmes deplacent un pointeur sur un ruban memoire, modifient des cellules, lisent ou ecrivent des octets et utilisent des boucles entre crochets.\n\nLe langage est rarement utilise pour du logiciel pratique, mais il est influent comme exercice d enseignement, de code golf, d interpreteur et de compilateur. Sa simplicite extreme en fait un cas de test compact pour parseurs, machines virtuelles et generation de code.",
+      "deName": "Brainfuck",
+      "deDescription": "Esoterische minimale Sprache mit Speicherband, Zeiger und acht Befehlen.",
+      "deLongDescription": "Brainfuck ist eine absichtlich winzige esoterische Programmiersprache mit nur acht Befehlen. Programme bewegen einen Zeiger uber ein Speicherband, verandern Zellen, lesen oder schreiben Bytes und nutzen geklammerte Schleifen fur Kontrollfluss.\n\nDie Sprache wird selten fur praktische Software genutzt, ist aber einflussreich als Ubung fur Lehre, Code Golf, Interpreter und Compiler. Ihre extreme Einfachheit macht sie zu einem kompakten Testfall fur Parser, virtuelle Maschinen und Codegenerierung.",
+      "ptName": "Brainfuck",
+      "ptDescription": "Linguagem esoterica minima baseada em fita, ponteiro e oito comandos.",
+      "ptLongDescription": "Brainfuck e uma linguagem de programacao esoterica intencionalmente pequena com apenas oito comandos. Programas movem um ponteiro por uma fita de memoria, alteram celulas, leem ou escrevem bytes e usam loops entre colchetes para fluxo de controle.\n\nA linguagem raramente e usada para software pratico, mas e influente como exercicio de ensino, code golf, interpretadores e compiladores. Sua simplicidade extrema a torna um caso de teste compacto para parsers, maquinas virtuais e geracao de codigo.",
+      "publishedDate": "1993-01-01",
+      "extensions": [
+        ".bf",
+        ".b"
+      ],
+      "author": "Urban Muller",
+      "website": "https://esolangs.org/wiki/Brainfuck",
+      "paradigms": [
+        "esoteric",
+        "imperative"
+      ],
+      "tooling": {
+        "runtimes": [
+          "Interpreters",
+          "Compilers"
+        ],
+        "ecosystems": [
+          "Esoteric programming"
+        ]
+      },
+      "version": "stable",
+      "logo": "https://dummyimage.com/32x32/111827/ffffff.png&text=BF",
+      "color": "#111827"
     },
     {
       "slug": "c",
@@ -1685,6 +1820,49 @@
       "version": "2.11.4",
       "logo": "https://avatars.githubusercontent.com/u/65030650?v=4",
       "color": "#FF6B35"
+    },
+    {
+      "slug": "capnproto",
+      "name": "Cap'n Proto",
+      "description": "A schema language for fast serialization and capability-oriented RPC interfaces.",
+      "longDescription": "Capn Proto schemas define structured messages, enums, interfaces, and constants for a zero-copy serialization system. The format is designed so data can often be used directly from its encoded representation.\n\nThe language supports code generation for multiple host languages and is paired with an RPC system built around capabilities. It is used when low latency, cross-language contracts, and efficient binary interchange matter.",
+      "esName": "Cap'n Proto",
+      "esDescription": "Lenguaje de esquemas para serializacion rapida e interfaces RPC orientadas a capacidades.",
+      "esLongDescription": "Los esquemas Capn Proto definen mensajes estructurados, enums, interfaces y constantes para un sistema de serializacion zero-copy. El formato esta disenado para que los datos puedan usarse a menudo desde su representacion codificada.\n\nEl lenguaje soporta generacion de codigo para multiples lenguajes anfitriones y se combina con un sistema RPC basado en capacidades. Se usa cuando importan baja latencia, contratos entre lenguajes e intercambio binario eficiente.",
+      "itName": "Cap'n Proto",
+      "itDescription": "Linguaggio di schema per serializzazione veloce e interfacce RPC orientate a capability.",
+      "itLongDescription": "Gli schemi Capn Proto definiscono messaggi strutturati, enum, interfacce e costanti per un sistema di serializzazione zero-copy. Il formato e progettato per usare spesso i dati direttamente dalla rappresentazione codificata.\n\nIl linguaggio supporta generazione di codice per molti linguaggi host ed e abbinato a un sistema RPC basato su capability. E usato quando contano bassa latenza, contratti cross-language e scambio binario efficiente.",
+      "frName": "Cap'n Proto",
+      "frDescription": "Langage de schema pour serialisation rapide et interfaces RPC orientees capacites.",
+      "frLongDescription": "Les schemas Capn Proto definissent messages structures, enums, interfaces et constantes pour un systeme de serialisation zero-copy. Le format est concu pour permettre souvent l usage direct des donnees depuis leur representation encodee.\n\nLe langage prend en charge la generation de code pour plusieurs langages hotes et s accompagne d un systeme RPC fonde sur les capacites. Il est utilise quand faible latence, contrats inter-langages et echange binaire efficace comptent.",
+      "deName": "Cap'n Proto",
+      "deDescription": "Schemasprache fur schnelle Serialisierung und capability-orientierte RPC-Schnittstellen.",
+      "deLongDescription": "Capn Proto-Schemas definieren strukturierte Nachrichten, Enums, Schnittstellen und Konstanten fur ein Zero-Copy-Serialisierungssystem. Das Format ist so entworfen, dass Daten oft direkt aus ihrer kodierten Darstellung nutzbar sind.\n\nDie Sprache unterstutzt Codegenerierung fur mehrere Hostsprachen und ist mit einem RPC-System rund um Capabilities gekoppelt. Sie wird genutzt, wenn niedrige Latenz, sprachubergreifende Vertrage und effizienter Binar-Austausch wichtig sind.",
+      "ptName": "Cap'n Proto",
+      "ptDescription": "Linguagem de esquema para serializacao rapida e interfaces RPC orientadas a capacidades.",
+      "ptLongDescription": "Esquemas Capn Proto definem mensagens estruturadas, enums, interfaces e constantes para um sistema de serializacao zero-copy. O formato e projetado para que dados muitas vezes possam ser usados diretamente da representacao codificada.\n\nA linguagem suporta geracao de codigo para varias linguagens hospedeiras e vem junto de um sistema RPC baseado em capacidades. Ela e usada quando baixa latencia, contratos entre linguagens e intercambio binario eficiente importam.",
+      "publishedDate": "2013-01-01",
+      "extensions": [
+        ".capnp"
+      ],
+      "author": "Kenton Varda",
+      "website": "https://capnproto.org",
+      "paradigms": [
+        "schema",
+        "interface definition"
+      ],
+      "tooling": {
+        "runtimes": [
+          "Capn Proto compiler"
+        ],
+        "ecosystems": [
+          "RPC",
+          "Serialization"
+        ]
+      },
+      "version": "stable",
+      "logo": "https://dummyimage.com/32x32/F97316/ffffff.png&text=CP",
+      "color": "#F97316"
     },
     {
       "slug": "carbon",
@@ -2151,6 +2329,49 @@
       "version": "9.2.0",
       "logo": "https://avatars.githubusercontent.com/u/621198?v=4",
       "color": "#C1272D"
+    },
+    {
+      "slug": "cql",
+      "name": "CQL",
+      "description": "A SQL-like query language for Apache Cassandra tables and keyspaces.",
+      "longDescription": "Cassandra Query Language is the primary interface for defining and querying data in Apache Cassandra. It models keyspaces, tables, columns, indexes, materialized views, and statements for reading and writing partitioned data.\n\nCQL looks familiar to SQL users, but its behavior follows Cassandra storage and distribution rules. Effective CQL design focuses on partition keys, clustering columns, denormalized tables, and queries shaped around access patterns.",
+      "esName": "CQL",
+      "esDescription": "Lenguaje de consultas tipo SQL para tablas y keyspaces de Apache Cassandra.",
+      "esLongDescription": "Cassandra Query Language es la interfaz principal para definir y consultar datos en Apache Cassandra. Modela keyspaces, tablas, columnas, indices, vistas materializadas y sentencias para leer y escribir datos particionados.\n\nCQL resulta familiar para usuarios de SQL, pero su comportamiento sigue las reglas de almacenamiento y distribucion de Cassandra. Un buen diseno CQL se centra en claves de particion, columnas de ordenamiento, tablas desnormalizadas y consultas guiadas por patrones de acceso.",
+      "itName": "CQL",
+      "itDescription": "Linguaggio di query simile a SQL per tabelle e keyspace Apache Cassandra.",
+      "itLongDescription": "Cassandra Query Language e l interfaccia principale per definire e interrogare dati in Apache Cassandra. Modella keyspace, tabelle, colonne, indici, viste materializzate e istruzioni per leggere e scrivere dati partizionati.\n\nCQL risulta familiare agli utenti SQL, ma il suo comportamento segue le regole di archiviazione e distribuzione di Cassandra. Un buon design CQL si concentra su chiavi di partizione, colonne di clustering, tabelle denormalizzate e query modellate sui pattern di accesso.",
+      "frName": "CQL",
+      "frDescription": "Langage de requete proche de SQL pour tables et keyspaces Apache Cassandra.",
+      "frLongDescription": "Cassandra Query Language est l interface principale pour definir et interroger les donnees dans Apache Cassandra. Il modelise keyspaces, tables, colonnes, index, vues materialisees et instructions pour lire et ecrire des donnees partitionnees.\n\nCQL parait familier aux utilisateurs SQL, mais son comportement suit les regles de stockage et de distribution de Cassandra. Une bonne conception CQL se concentre sur cles de partition, colonnes de clustering, tables denormalisees et requetes guidees par les acces.",
+      "deName": "CQL",
+      "deDescription": "SQL-ahnliche Abfragesprache fur Apache-Cassandra-Tabellen und Keyspaces.",
+      "deLongDescription": "Cassandra Query Language ist die wichtigste Schnittstelle zum Definieren und Abfragen von Daten in Apache Cassandra. Sie modelliert Keyspaces, Tabellen, Spalten, Indizes, materialisierte Views und Anweisungen zum Lesen und Schreiben partitionierter Daten.\n\nCQL wirkt fur SQL-Nutzer vertraut, folgt aber den Speicher- und Verteilungsregeln von Cassandra. Gutes CQL-Design konzentriert sich auf Partitionsschlussel, Clustering-Spalten, denormalisierte Tabellen und Abfragen nach Zugriffsmustern.",
+      "ptName": "CQL",
+      "ptDescription": "Linguagem de consulta parecida com SQL para tabelas e keyspaces Cassandra.",
+      "ptLongDescription": "Cassandra Query Language e a principal interface para definir e consultar dados no Apache Cassandra. Ela modela keyspaces, tabelas, colunas, indices, visoes materializadas e comandos para ler e gravar dados particionados.\n\nCQL parece familiar para usuarios de SQL, mas seu comportamento segue as regras de armazenamento e distribuicao do Cassandra. Bom design em CQL foca chaves de particao, colunas de clustering, tabelas desnormalizadas e consultas moldadas por padroes de acesso.",
+      "publishedDate": "2008-01-01",
+      "extensions": [
+        ".cql"
+      ],
+      "author": "Apache Cassandra project",
+      "website": "https://cassandra.apache.org/doc/latest/cassandra/developing/cql/index.html",
+      "paradigms": [
+        "query",
+        "declarative"
+      ],
+      "tooling": {
+        "runtimes": [
+          "Apache Cassandra"
+        ],
+        "ecosystems": [
+          "NoSQL",
+          "Distributed databases"
+        ]
+      },
+      "version": "CQL 3",
+      "logo": "https://cdn.simpleicons.org/apachecassandra/1287B1",
+      "color": "#1287B1"
     },
     {
       "slug": "crystal",
@@ -2800,6 +3021,50 @@
       "color": "#2496ED"
     },
     {
+      "slug": "dot",
+      "name": "DOT",
+      "description": "A declarative graph description language used by Graphviz for diagrams and layouts.",
+      "longDescription": "DOT is a text language for describing directed and undirected graphs. It defines nodes, edges, subgraphs, attributes, labels, and layout hints that Graphviz tools render into diagrams.\n\nThe language is common in documentation, architecture diagrams, compiler output, dependency graphs, state machines, and generated reports. Its compact syntax makes graphs easy to version, review, and produce from programs.",
+      "esName": "DOT",
+      "esDescription": "Lenguaje declarativo de grafos usado por Graphviz para diagramas y layouts.",
+      "esLongDescription": "DOT es un lenguaje de texto para describir grafos dirigidos y no dirigidos. Define nodos, aristas, subgrafos, atributos, etiquetas y pistas de layout que las herramientas Graphviz renderizan como diagramas.\n\nEl lenguaje es comun en documentacion, diagramas de arquitectura, salida de compiladores, grafos de dependencias, maquinas de estado e informes generados. Su sintaxis compacta facilita versionar, revisar y producir grafos desde programas.",
+      "itName": "DOT",
+      "itDescription": "Linguaggio dichiarativo per grafi usato da Graphviz per diagrammi e layout.",
+      "itLongDescription": "DOT e un linguaggio testuale per descrivere grafi diretti e non diretti. Definisce nodi, archi, sottografi, attributi, etichette e suggerimenti di layout che gli strumenti Graphviz rendono come diagrammi.\n\nIl linguaggio e comune in documentazione, diagrammi architetturali, output di compilatori, grafi di dipendenze, macchine a stati e report generati. La sua sintassi compatta rende i grafi facili da versionare, revisionare e produrre da programmi.",
+      "frName": "DOT",
+      "frDescription": "Langage declaratif de graphes utilise par Graphviz pour diagrammes et mises en page.",
+      "frLongDescription": "DOT est un langage texte pour decrire des graphes orientes et non orientes. Il definit noeuds, aretes, sous-graphes, attributs, libelles et indications de mise en page que les outils Graphviz rendent en diagrammes.\n\nLe langage est courant dans la documentation, les diagrammes d architecture, les sorties de compilateurs, les graphes de dependances, les machines a etats et les rapports generes. Sa syntaxe compacte facilite le versionnement, la revue et la production de graphes depuis des programmes.",
+      "deName": "DOT",
+      "deDescription": "Deklarative Graphbeschreibungssprache von Graphviz fur Diagramme und Layouts.",
+      "deLongDescription": "DOT ist eine Textsprache zum Beschreiben gerichteter und ungerichteter Graphen. Sie definiert Knoten, Kanten, Teilgraphen, Attribute, Beschriftungen und Layout-Hinweise, die Graphviz-Werkzeuge als Diagramme rendern.\n\nDie Sprache ist verbreitet in Dokumentation, Architekturdiagrammen, Compiler-Ausgaben, Abhangigkeitsgraphen, Zustandsmaschinen und generierten Berichten. Ihre kompakte Syntax macht Graphen leicht versionierbar, reviewbar und aus Programmen erzeugbar.",
+      "ptName": "DOT",
+      "ptDescription": "Linguagem declarativa de grafos usada pelo Graphviz para diagramas e layouts.",
+      "ptLongDescription": "DOT e uma linguagem de texto para descrever grafos dirigidos e nao dirigidos. Ela define nos, arestas, subgrafos, atributos, rotulos e dicas de layout que ferramentas Graphviz renderizam como diagramas.\n\nA linguagem e comum em documentacao, diagramas de arquitetura, saida de compiladores, grafos de dependencias, maquinas de estado e relatorios gerados. Sua sintaxe compacta facilita versionar, revisar e produzir grafos a partir de programas.",
+      "publishedDate": "1991-01-01",
+      "extensions": [
+        ".dot",
+        ".gv"
+      ],
+      "author": "AT&T Bell Laboratories",
+      "website": "https://graphviz.org/doc/info/lang.html",
+      "paradigms": [
+        "declarative",
+        "graph description"
+      ],
+      "tooling": {
+        "runtimes": [
+          "Graphviz"
+        ],
+        "ecosystems": [
+          "Visualization",
+          "Documentation"
+        ]
+      },
+      "version": "stable",
+      "logo": "https://dummyimage.com/32x32/16A34A/ffffff.png&text=GV",
+      "color": "#16A34A"
+    },
+    {
       "slug": "earthly",
       "name": "Earthly",
       "description": "A container-oriented build language for repeatable CI/CD pipelines.",
@@ -2848,6 +3113,45 @@
       "version": "0.8.16",
       "logo": "https://avatars.githubusercontent.com/u/63060917?v=4",
       "color": "#2D7D46"
+    },
+    {
+      "slug": "editorconfig",
+      "name": "EditorConfig",
+      "description": "A configuration format for sharing indentation, newline, and charset rules across editors.",
+      "longDescription": "EditorConfig files define coding style settings that editors and IDEs can apply consistently. Sections target filename globs and assign properties such as indentation style, indent size, end-of-line mode, charset, and trailing whitespace handling.\n\nThe format helps projects keep basic formatting stable across teams and tools. It is often committed at repository roots so contributors get consistent editor behavior without manual setup.",
+      "esName": "EditorConfig",
+      "esDescription": "Formato de configuracion para compartir indentacion, saltos de linea y charset entre editores.",
+      "esLongDescription": "Los archivos EditorConfig definen ajustes de estilo que editores e IDEs pueden aplicar de forma consistente. Las secciones apuntan a globs de nombres de archivo y asignan propiedades como estilo de indentacion, tamano, modo de fin de linea, charset y manejo de espacios finales.\n\nEl formato ayuda a mantener estable el formato basico entre equipos y herramientas. Suele versionarse en la raiz del repositorio para que colaboradores obtengan comportamiento consistente sin configuracion manual.",
+      "itName": "EditorConfig",
+      "itDescription": "Formato di configurazione per condividere indentazione, newline e charset tra editor.",
+      "itLongDescription": "I file EditorConfig definiscono impostazioni di stile che editor e IDE possono applicare in modo coerente. Le sezioni puntano a glob di nomi file e assegnano proprieta come stile e dimensione di indentazione, fine riga, charset e gestione degli spazi finali.\n\nIl formato aiuta i progetti a mantenere stabile la formattazione di base tra team e strumenti. Spesso viene committato alla radice del repository per dare ai contributori un comportamento editor coerente senza setup manuale.",
+      "frName": "EditorConfig",
+      "frDescription": "Format de configuration pour partager indentation, fins de ligne et charset entre editeurs.",
+      "frLongDescription": "Les fichiers EditorConfig definissent des reglages de style que les editeurs et IDE peuvent appliquer de facon coherente. Les sections ciblent des globs de fichiers et assignent des proprietes comme style d indentation, taille, fin de ligne, charset et gestion des espaces finaux.\n\nLe format aide les projets a garder un formatage de base stable entre equipes et outils. Il est souvent versionne a la racine du depot pour offrir un comportement editeur coherent sans configuration manuelle.",
+      "deName": "EditorConfig",
+      "deDescription": "Konfigurationsformat fur Einruckung, Zeilenenden und Zeichensatze uber Editoren hinweg.",
+      "deLongDescription": "EditorConfig-Dateien definieren Stilvorgaben, die Editoren und IDEs konsistent anwenden konnen. Abschnitte zielen auf Dateinamen-Globs und setzen Eigenschaften wie Einruckungsstil, Einruckungsbreite, Zeilenende, Zeichensatz und Behandlung nachgestellter Leerzeichen.\n\nDas Format hilft Projekten, grundlegende Formatierung uber Teams und Werkzeuge stabil zu halten. Es liegt oft im Repository-Wurzelverzeichnis, damit Beitragende ohne manuelles Setup konsistentes Editorverhalten erhalten.",
+      "ptName": "EditorConfig",
+      "ptDescription": "Formato de configuracao para compartilhar indentacao, quebras de linha e charset entre editores.",
+      "ptLongDescription": "Arquivos EditorConfig definem ajustes de estilo que editores e IDEs podem aplicar de forma consistente. Secoes miram globs de nomes de arquivo e atribuem propriedades como estilo de indentacao, tamanho, modo de fim de linha, charset e tratamento de espacos finais.\n\nO formato ajuda projetos a manter a formatacao basica estavel entre equipes e ferramentas. Ele costuma ser versionado na raiz do repositorio para que colaboradores tenham comportamento consistente no editor sem setup manual.",
+      "publishedDate": "2011-01-01",
+      "extensions": [
+        ".editorconfig"
+      ],
+      "author": "EditorConfig project",
+      "website": "https://editorconfig.org",
+      "paradigms": [
+        "configuration"
+      ],
+      "tooling": {
+        "ecosystems": [
+          "Editors",
+          "Code formatting"
+        ]
+      },
+      "version": "stable",
+      "logo": "https://dummyimage.com/32x32/0F766E/ffffff.png&text=EC",
+      "color": "#0F766E"
     },
     {
       "slug": "eiffel",
@@ -3625,6 +3929,49 @@
       "color": "#734F96"
     },
     {
+      "slug": "fql",
+      "name": "FQL",
+      "description": "A legacy SQL-like query language formerly used by Facebook Platform APIs.",
+      "longDescription": "Facebook Query Language was a SQL-like language for reading data from the Facebook social graph through older platform APIs. Queries selected fields from virtual tables representing users, pages, events, photos, and related objects.\n\nFQL is now mainly of historical interest, because Facebook replaced it with newer Graph API patterns. It remains useful to recognize in old integrations, archived examples, migrations, and documentation for legacy social applications.",
+      "esName": "FQL",
+      "esDescription": "Lenguaje de consultas legado tipo SQL usado antes por APIs de Facebook.",
+      "esLongDescription": "Facebook Query Language fue un lenguaje tipo SQL para leer datos del grafo social de Facebook mediante APIs antiguas de la plataforma. Las consultas seleccionaban campos de tablas virtuales que representaban usuarios, paginas, eventos, fotos y objetos relacionados.\n\nFQL hoy tiene interes sobre todo historico, porque Facebook lo reemplazo con patrones mas nuevos de Graph API. Sigue siendo util reconocerlo en integraciones viejas, ejemplos archivados, migraciones y documentacion de apps sociales legadas.",
+      "itName": "FQL",
+      "itDescription": "Linguaggio di query legacy simile a SQL usato dalle vecchie API Facebook.",
+      "itLongDescription": "Facebook Query Language era un linguaggio simile a SQL per leggere dati dal grafo sociale di Facebook tramite vecchie API della piattaforma. Le query selezionavano campi da tabelle virtuali che rappresentavano utenti, pagine, eventi, foto e oggetti correlati.\n\nFQL oggi ha soprattutto valore storico, perche Facebook lo ha sostituito con pattern piu nuovi della Graph API. Rimane utile riconoscerlo in integrazioni vecchie, esempi archiviati, migrazioni e documentazione di applicazioni social legacy.",
+      "frName": "FQL",
+      "frDescription": "Ancien langage de requete proche de SQL utilise par les API Facebook.",
+      "frLongDescription": "Facebook Query Language etait un langage proche de SQL pour lire les donnees du graphe social Facebook via les anciennes API de la plateforme. Les requetes selectionnaient des champs dans des tables virtuelles representant utilisateurs, pages, evenements, photos et objets lies.\n\nFQL a surtout un interet historique, car Facebook l a remplace par des modeles plus recents de Graph API. Il reste utile a reconnaitre dans anciennes integrations, exemples archives, migrations et docs d applications sociales leguees.",
+      "deName": "FQL",
+      "deDescription": "Alte SQL-ahnliche Abfragesprache fruherer Facebook-Platform-APIs.",
+      "deLongDescription": "Facebook Query Language war eine SQL-ahnliche Sprache zum Lesen von Daten aus dem sozialen Graphen von Facebook uber altere Platform-APIs. Abfragen wahlten Felder aus virtuellen Tabellen fur Nutzer, Seiten, Events, Fotos und verwandte Objekte.\n\nFQL ist heute vor allem historisch relevant, weil Facebook es durch neuere Graph-API-Muster ersetzt hat. Es bleibt nutzlich in alten Integrationen, archivierten Beispielen, Migrationen und Dokumentation fur Legacy-Social-Apps.",
+      "ptName": "FQL",
+      "ptDescription": "Linguagem de consulta legada parecida com SQL usada por APIs do Facebook.",
+      "ptLongDescription": "Facebook Query Language foi uma linguagem parecida com SQL para ler dados do grafo social do Facebook por APIs antigas da plataforma. Consultas selecionavam campos de tabelas virtuais que representavam usuarios, paginas, eventos, fotos e objetos relacionados.\n\nFQL hoje tem valor principalmente historico, pois o Facebook o substituiu por padroes mais novos da Graph API. Ainda e util reconhece-lo em integracoes antigas, exemplos arquivados, migracoes e documentacao de apps sociais legados.",
+      "publishedDate": "2012-01-01",
+      "extensions": [
+        ".fql"
+      ],
+      "author": "Facebook",
+      "website": "https://developers.facebook.com/docs/reference/fql/",
+      "paradigms": [
+        "query",
+        "declarative"
+      ],
+      "tooling": {
+        "runtimes": [
+          "Facebook Platform"
+        ],
+        "ecosystems": [
+          "Social APIs",
+          "Legacy web APIs"
+        ]
+      },
+      "version": "legacy",
+      "logo": "https://cdn.simpleicons.org/facebook/1877F2",
+      "color": "#1877F2"
+    },
+    {
       "slug": "freemarker",
       "name": "FreeMarker",
       "description": "A JVM template language used to generate HTML, emails, configuration files, and other text output.",
@@ -3675,6 +4022,54 @@
       "color": "#326CE5"
     },
     {
+      "slug": "gcode",
+      "name": "G-code",
+      "description": "A machine-control language for CNC tools, mills, lathes, routers, and 3D printers.",
+      "longDescription": "G-code is a family of machine-control languages used to command motion, speed, coordinates, tools, temperatures, and other manufacturing operations. Programs are usually generated by CAM or slicer software, then interpreted by machine controllers.\n\nIt is common in CNC machining, laser cutting, routing, milling, turning, and additive manufacturing. Dialects vary by controller and vendor, so practical G-code often depends on a specific machine profile.",
+      "esName": "G-code",
+      "esDescription": "Lenguaje de control de maquinas para CNC, fresadoras, tornos, routers e impresoras 3D.",
+      "esLongDescription": "G-code es una familia de lenguajes de control de maquinas usada para ordenar movimiento, velocidad, coordenadas, herramientas, temperaturas y otras operaciones de fabricacion. Los programas suelen generarse con software CAM o slicers y luego los interpretan controladores de maquina.\n\nEs comun en mecanizado CNC, corte laser, routing, fresado, torneado y fabricacion aditiva. Los dialectos varian por controlador y proveedor, asi que el G-code practico suele depender de un perfil de maquina especifico.",
+      "itName": "G-code",
+      "itDescription": "Linguaggio di controllo macchina per utensili CNC, frese, torni, router e stampanti 3D.",
+      "itLongDescription": "G-code e una famiglia di linguaggi di controllo macchina usata per comandare movimento, velocita, coordinate, utensili, temperature e altre operazioni di produzione. I programmi sono di solito generati da software CAM o slicer e poi interpretati dai controller.\n\nE comune in lavorazione CNC, taglio laser, routing, fresatura, tornitura e produzione additiva. I dialetti variano per controller e fornitore, quindi il G-code pratico dipende spesso da un profilo macchina specifico.",
+      "frName": "G-code",
+      "frDescription": "Langage de controle machine pour outils CNC, fraiseuses, tours, routeurs et imprimantes 3D.",
+      "frLongDescription": "G-code est une famille de langages de controle machine pour commander mouvement, vitesse, coordonnees, outils, temperatures et autres operations de fabrication. Les programmes sont souvent generes par logiciel CAM ou slicer, puis interpretes par des controleurs.\n\nIl est courant en usinage CNC, decoupe laser, routage, fraisage, tournage et fabrication additive. Les dialectes varient selon controleur et fournisseur, donc le G-code pratique depend souvent d un profil machine precis.",
+      "deName": "G-code",
+      "deDescription": "Maschinensteuerungssprache fur CNC-Werkzeuge, Frasen, Drehbanken, Router und 3D-Drucker.",
+      "deLongDescription": "G-code ist eine Familie von Maschinensteuerungssprachen fur Bewegung, Geschwindigkeit, Koordinaten, Werkzeuge, Temperaturen und andere Fertigungsablaufe. Programme werden meist von CAM- oder Slicer-Software erzeugt und dann von Maschinensteuerungen interpretiert.\n\nEr ist verbreitet in CNC-Bearbeitung, Laserschneiden, Routing, Frasen, Drehen und additiver Fertigung. Dialekte unterscheiden sich nach Steuerung und Anbieter, daher hangt praktischer G-code oft von einem konkreten Maschinenprofil ab.",
+      "ptName": "G-code",
+      "ptDescription": "Linguagem de controle de maquinas para CNC, fresadoras, tornos, routers e impressoras 3D.",
+      "ptLongDescription": "G-code e uma familia de linguagens de controle de maquinas usada para comandar movimento, velocidade, coordenadas, ferramentas, temperaturas e outras operacoes de fabricacao. Programas geralmente sao gerados por software CAM ou slicers e depois interpretados por controladores.\n\nEle e comum em usinagem CNC, corte a laser, roteamento, fresamento, torneamento e manufatura aditiva. Dialetos variam por controlador e fornecedor, entao G-code pratico costuma depender de um perfil de maquina especifico.",
+      "publishedDate": "1958-01-01",
+      "extensions": [
+        ".gcode",
+        ".gco",
+        ".nc",
+        ".cnc",
+        ".tap"
+      ],
+      "author": "MIT Servomechanisms Laboratory",
+      "website": "https://www.nist.gov/publications/nist-rs274ngc-interpreter-version-3",
+      "paradigms": [
+        "machine control",
+        "imperative"
+      ],
+      "tooling": {
+        "runtimes": [
+          "CNC controllers",
+          "3D printer firmware"
+        ],
+        "ecosystems": [
+          "CNC machining",
+          "Additive manufacturing"
+        ]
+      },
+      "version": "RS-274",
+      "logo": "https://dummyimage.com/32x32/DC2626/ffffff.png&text=G",
+      "color": "#DC2626"
+    },
+    {
       "slug": "gdscript",
       "name": "GDScript",
       "description": "Godot Engine's integrated scripting language for gameplay and editor logic.",
@@ -3722,6 +4117,50 @@
       "version": "4.6",
       "logo": "https://cdn.simpleicons.org/godotengine/478CBF",
       "color": "#478CBF"
+    },
+    {
+      "slug": "gettext",
+      "name": "Gettext",
+      "description": "A localization message catalog format for translating software strings.",
+      "longDescription": "Gettext PO and POT files store translatable messages, translations, contexts, plural forms, comments, and source references. The format is line-oriented text, designed for extraction tools and translation workflows.\n\nIt is widely used in free software, desktop applications, command-line tools, web frameworks, and content systems. Gettext catalogs let source strings stay in code while translators work in separate message files.",
+      "esName": "Gettext",
+      "esDescription": "Formato de catalogo de mensajes de localizacion para traducir cadenas de software.",
+      "esLongDescription": "Los archivos PO y POT de Gettext almacenan mensajes traducibles, traducciones, contextos, formas plurales, comentarios y referencias de origen. El formato es texto orientado a lineas, disenado para herramientas de extraccion y flujos de traduccion.\n\nSe usa ampliamente en software libre, aplicaciones de escritorio, herramientas de linea de comandos, frameworks web y sistemas de contenido. Los catalogos Gettext permiten mantener cadenas fuente en codigo mientras traductores trabajan en archivos separados.",
+      "itName": "Gettext",
+      "itDescription": "Formato di catalogo messaggi per localizzazione e traduzione di stringhe software.",
+      "itLongDescription": "I file PO e POT di Gettext memorizzano messaggi traducibili, traduzioni, contesti, forme plurali, commenti e riferimenti sorgente. Il formato e testo orientato alle righe, progettato per strumenti di estrazione e flussi di traduzione.\n\nE molto usato in software libero, applicazioni desktop, strumenti a riga di comando, framework web e sistemi di contenuto. I cataloghi Gettext permettono di tenere le stringhe sorgente nel codice mentre i traduttori lavorano in file separati.",
+      "frName": "Gettext",
+      "frDescription": "Format de catalogue de messages de localisation pour traduire les chaines logicielles.",
+      "frLongDescription": "Les fichiers PO et POT de Gettext stockent messages traduisibles, traductions, contextes, formes plurielles, commentaires et references source. Le format est un texte oriente lignes, concu pour les outils d extraction et les flux de traduction.\n\nIl est tres utilise dans le logiciel libre, les applications de bureau, les outils en ligne de commande, les frameworks web et les systemes de contenu. Les catalogues Gettext gardent les chaines source dans le code tandis que les traducteurs travaillent dans des fichiers separes.",
+      "deName": "Gettext",
+      "deDescription": "Lokalisierungs-Katalogformat zum Ubersetzen von Software-Zeichenketten.",
+      "deLongDescription": "Gettext-PO- und POT-Dateien speichern ubersetzbare Meldungen, Ubersetzungen, Kontexte, Pluralformen, Kommentare und Quellreferenzen. Das Format ist zeilenorientierter Text fur Extraktionswerkzeuge und Ubersetzungsablaufe.\n\nEs wird breit in freier Software, Desktop-Anwendungen, Kommandozeilenwerkzeugen, Webframeworks und Content-Systemen genutzt. Gettext-Kataloge lassen Quellstrings im Code, wahrend Ubersetzer in separaten Meldungsdateien arbeiten.",
+      "ptName": "Gettext",
+      "ptDescription": "Formato de catalogo de mensagens de localizacao para traduzir strings de software.",
+      "ptLongDescription": "Arquivos PO e POT de Gettext armazenam mensagens traduziveis, traducoes, contextos, formas plurais, comentarios e referencias de origem. O formato e texto orientado a linhas, feito para ferramentas de extracao e fluxos de traducao.\n\nEle e muito usado em software livre, aplicativos desktop, ferramentas de linha de comando, frameworks web e sistemas de conteudo. Catalogos Gettext deixam strings fonte no codigo enquanto tradutores trabalham em arquivos separados.",
+      "publishedDate": "1995-01-01",
+      "extensions": [
+        ".po",
+        ".pot"
+      ],
+      "author": "GNU Project",
+      "website": "https://www.gnu.org/software/gettext",
+      "paradigms": [
+        "localization",
+        "data"
+      ],
+      "tooling": {
+        "runtimes": [
+          "GNU gettext"
+        ],
+        "ecosystems": [
+          "Internationalization",
+          "Localization"
+        ]
+      },
+      "version": "stable",
+      "logo": "https://dummyimage.com/32x32/7C3AED/ffffff.png&text=PO",
+      "color": "#7C3AED"
     },
     {
       "slug": "git",
@@ -4095,6 +4534,51 @@
       "version": "September 2025",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg",
       "color": "#E10098"
+    },
+    {
+      "slug": "gremlin",
+      "name": "Gremlin",
+      "description": "A graph traversal language for Apache TinkerPop-compatible graph systems.",
+      "longDescription": "Gremlin is a graph traversal language from Apache TinkerPop. It describes walks through vertices and edges using steps for filtering, mapping, branching, aggregation, mutation, and path analysis.\n\nThe language is used across graph databases and services that implement the TinkerPop stack. It fits recommendation systems, network analysis, fraud detection, identity graphs, and applications where relationships are queried as first-class structure.",
+      "esName": "Gremlin",
+      "esDescription": "Lenguaje de recorrido de grafos para sistemas compatibles con TinkerPop.",
+      "esLongDescription": "Gremlin es un lenguaje de recorrido de grafos de Apache TinkerPop. Describe caminos por vertices y aristas usando pasos para filtrar, mapear, ramificar, agregar, mutar y analizar rutas.\n\nEl lenguaje se usa en bases de datos y servicios de grafos que implementan el stack TinkerPop. Encaja en recomendadores, analisis de redes, deteccion de fraude, grafos de identidad y apps donde las relaciones se consultan como estructura principal.",
+      "itName": "Gremlin",
+      "itDescription": "Linguaggio di attraversamento grafi per sistemi compatibili con TinkerPop.",
+      "itLongDescription": "Gremlin e un linguaggio di attraversamento grafi di Apache TinkerPop. Descrive cammini tra vertici e archi usando step per filtrare, mappare, ramificare, aggregare, modificare e analizzare percorsi.\n\nIl linguaggio e usato in database e servizi graph che implementano lo stack TinkerPop. Si adatta a raccomandazioni, analisi di reti, rilevamento frodi, grafi di identita e app dove le relazioni sono interrogate come struttura primaria.",
+      "frName": "Gremlin",
+      "frDescription": "Langage de parcours de graphes pour systemes compatibles TinkerPop.",
+      "frLongDescription": "Gremlin est un langage de parcours de graphes issu d Apache TinkerPop. Il decrit des trajets dans sommets et aretes avec des etapes de filtrage, projection, branchement, agregation, mutation et analyse de chemins.\n\nLe langage est utilise dans bases et services de graphes qui implementent TinkerPop. Il convient aux recommandations, analyses de reseaux, detection de fraude, graphes d identite et apps ou les relations sont une structure de requete centrale.",
+      "deName": "Gremlin",
+      "deDescription": "Graph-Traversal-Sprache fur Apache-TinkerPop-kompatible Systeme.",
+      "deLongDescription": "Gremlin ist eine Graph-Traversal-Sprache aus Apache TinkerPop. Sie beschreibt Wege durch Vertices und Edges mit Schritten fur Filtern, Mapping, Verzweigung, Aggregation, Mutation und Pfadanalyse.\n\nDie Sprache wird in Graphdatenbanken und Diensten genutzt, die den TinkerPop-Stack implementieren. Sie passt zu Empfehlungen, Netzwerkanalyse, Betrugserkennung, Identitatsgraphen und Anwendungen, in denen Beziehungen als zentrale Struktur abgefragt werden.",
+      "ptName": "Gremlin",
+      "ptDescription": "Linguagem de travessia de grafos para sistemas compativeis com TinkerPop.",
+      "ptLongDescription": "Gremlin e uma linguagem de travessia de grafos do Apache TinkerPop. Ela descreve caminhadas por vertices e arestas usando passos para filtrar, mapear, ramificar, agregar, alterar e analisar caminhos.\n\nA linguagem e usada em bancos e servicos de grafos que implementam o stack TinkerPop. Ela serve para recomendacao, analise de redes, deteccao de fraude, grafos de identidade e apps onde relacoes sao consultadas como estrutura principal.",
+      "publishedDate": "2009-10-01",
+      "extensions": [
+        ".gremlin",
+        ".grem"
+      ],
+      "author": "Apache TinkerPop project",
+      "website": "https://tinkerpop.apache.org/gremlin.html",
+      "paradigms": [
+        "graph query",
+        "traversal"
+      ],
+      "tooling": {
+        "runtimes": [
+          "Apache TinkerPop",
+          "Gremlin Console"
+        ],
+        "ecosystems": [
+          "Graph databases",
+          "Knowledge graphs"
+        ]
+      },
+      "version": "stable",
+      "logo": "https://cdn.simpleicons.org/apache/6B7280",
+      "color": "#6B7280"
     },
     {
       "slug": "groovy",
@@ -5157,6 +5641,51 @@
       "color": "#B41717"
     },
     {
+      "slug": "jmespath",
+      "name": "JMESPath",
+      "description": "A declarative query language for extracting and transforming JSON data.",
+      "longDescription": "JMESPath is a query language for selecting, projecting, filtering, and reshaping JSON documents. Expressions navigate objects and arrays, apply functions, flatten nested data, and produce JSON-compatible results.\n\nIt is embedded in command-line tools, SDKs, and automation systems, notably cloud workflows that need stable client-side JSON extraction. Its portable spec lets the same expression run across implementations in many host languages.",
+      "esName": "JMESPath",
+      "esDescription": "Lenguaje declarativo para extraer y transformar datos JSON.",
+      "esLongDescription": "JMESPath es un lenguaje de consultas para seleccionar, proyectar, filtrar y remodelar documentos JSON. Las expresiones navegan objetos y arreglos, aplican funciones, aplanan datos anidados y producen resultados compatibles con JSON.\n\nSe integra en herramientas de linea de comandos, SDKs y sistemas de automatizacion, especialmente flujos cloud que necesitan extraccion JSON estable del lado cliente. Su especificacion portable permite usar la misma expresion en implementaciones de muchos lenguajes anfitriones.",
+      "itName": "JMESPath",
+      "itDescription": "Linguaggio dichiarativo per estrarre e trasformare dati JSON.",
+      "itLongDescription": "JMESPath e un linguaggio di query per selezionare, proiettare, filtrare e rimodellare documenti JSON. Le espressioni navigano oggetti e array, applicano funzioni, appiattiscono dati annidati e producono risultati compatibili con JSON.\n\nE integrato in strumenti CLI, SDK e sistemi di automazione, soprattutto workflow cloud che richiedono estrazione JSON stabile lato client. La sua specifica portabile permette alla stessa espressione di girare in implementazioni per molti linguaggi host.",
+      "frName": "JMESPath",
+      "frDescription": "Langage declaratif pour extraire et transformer des donnees JSON.",
+      "frLongDescription": "JMESPath est un langage de requete pour selectionner, projeter, filtrer et remodeler des documents JSON. Les expressions parcourent objets et tableaux, appliquent des fonctions, aplatissent des donnees imbriquees et produisent des resultats compatibles JSON.\n\nIl est integre dans outils en ligne de commande, SDK et systemes d automatisation, notamment les flux cloud qui ont besoin d extraction JSON stable cote client. Sa specification portable permet la meme expression dans beaucoup de langages hotes.",
+      "deName": "JMESPath",
+      "deDescription": "Deklarative Abfragesprache zum Extrahieren und Transformieren von JSON.",
+      "deLongDescription": "JMESPath ist eine Abfragesprache zum Auswahlen, Projizieren, Filtern und Umformen von JSON-Dokumenten. Ausdruecke navigieren Objekte und Arrays, wenden Funktionen an, flachen verschachtelte Daten ab und erzeugen JSON-kompatible Ergebnisse.\n\nSie ist in Kommandozeilenwerkzeuge, SDKs und Automationssysteme eingebettet, besonders in Cloud-Ablaufe mit stabiler clientseitiger JSON-Extraktion. Die portable Spezifikation lasst denselben Ausdruck in vielen Hostsprachen laufen.",
+      "ptName": "JMESPath",
+      "ptDescription": "Linguagem declarativa para extrair e transformar dados JSON.",
+      "ptLongDescription": "JMESPath e uma linguagem de consulta para selecionar, projetar, filtrar e remodelar documentos JSON. Expressoes navegam objetos e arrays, aplicam funcoes, achatam dados aninhados e produzem resultados compativeis com JSON.\n\nEla aparece em ferramentas de linha de comando, SDKs e sistemas de automacao, especialmente fluxos cloud que precisam de extracao JSON estavel no cliente. Sua especificacao portavel permite usar a mesma expressao em implementacoes de muitas linguagens hospedeiras.",
+      "publishedDate": "2013-01-01",
+      "extensions": [
+        ".jmespath",
+        ".jp"
+      ],
+      "author": "James Saryerwinnie",
+      "website": "https://jmespath.org",
+      "paradigms": [
+        "query",
+        "functional"
+      ],
+      "tooling": {
+        "runtimes": [
+          "JMESPath libraries",
+          "AWS CLI"
+        ],
+        "ecosystems": [
+          "JSON",
+          "Cloud tooling"
+        ]
+      },
+      "version": "stable",
+      "logo": "https://dummyimage.com/32x32/2F80ED/ffffff.png",
+      "color": "#2F80ED"
+    },
+    {
       "slug": "json",
       "name": "JSON",
       "description": "A lightweight data interchange format based on JavaScript object syntax.",
@@ -5239,6 +5768,49 @@
       "version": "2.2.3",
       "logo": "https://dummyimage.com/32x32/267CB9/ffffff.png&text=J5",
       "color": "#267CB9"
+    },
+    {
+      "slug": "jsonata",
+      "name": "JSONata",
+      "description": "A functional query and transformation language for JSON documents.",
+      "longDescription": "JSONata is a compact expression language for querying and transforming JSON data. It combines path navigation, predicates, operators, variables, functions, object construction, grouping, and aggregation.\n\nThe language is used in integration tools, message processing, automation platforms, and applications that need declarative JSON reshaping. Its functional features make complex transformations possible without writing a full host-language program.",
+      "esName": "JSONata",
+      "esDescription": "Lenguaje funcional de consulta y transformacion para documentos JSON.",
+      "esLongDescription": "JSONata es un lenguaje compacto de expresiones para consultar y transformar datos JSON. Combina navegacion por rutas, predicados, operadores, variables, funciones, construccion de objetos, agrupacion y agregacion.\n\nEl lenguaje se usa en herramientas de integracion, procesamiento de mensajes, plataformas de automatizacion y apps que necesitan remodelar JSON de forma declarativa. Sus rasgos funcionales permiten transformaciones complejas sin escribir un programa completo en el lenguaje anfitrion.",
+      "itName": "JSONata",
+      "itDescription": "Linguaggio funzionale di query e trasformazione per documenti JSON.",
+      "itLongDescription": "JSONata e un linguaggio compatto di espressioni per interrogare e trasformare dati JSON. Combina navigazione per percorsi, predicati, operatori, variabili, funzioni, costruzione di oggetti, raggruppamento e aggregazione.\n\nIl linguaggio e usato in strumenti di integrazione, elaborazione messaggi, piattaforme di automazione e app che richiedono rimodellamento JSON dichiarativo. Le sue funzioni rendono possibili trasformazioni complesse senza scrivere un programma completo nel linguaggio host.",
+      "frName": "JSONata",
+      "frDescription": "Langage fonctionnel de requete et transformation pour documents JSON.",
+      "frLongDescription": "JSONata est un langage d expressions compact pour interroger et transformer des donnees JSON. Il combine navigation par chemins, predicats, operateurs, variables, fonctions, construction d objets, groupement et agregation.\n\nLe langage est utilise dans outils d integration, traitement de messages, plateformes d automatisation et apps qui doivent remodeler JSON declarativement. Ses fonctions permettent des transformations complexes sans ecrire un programme complet dans le langage hote.",
+      "deName": "JSONata",
+      "deDescription": "Funktionale Abfrage- und Transformationssprache fur JSON-Dokumente.",
+      "deLongDescription": "JSONata ist eine kompakte Ausdruckssprache zum Abfragen und Transformieren von JSON-Daten. Sie kombiniert Pfadnavigation, Pradikate, Operatoren, Variablen, Funktionen, Objektaufbau, Gruppierung und Aggregation.\n\nDie Sprache wird in Integrationswerkzeugen, Nachrichtenverarbeitung, Automationsplattformen und Anwendungen genutzt, die JSON deklarativ umformen mussen. Ihre funktionalen Eigenschaften ermoglichen komplexe Transformationen ohne ein vollstandiges Hostsprachen-Programm.",
+      "ptName": "JSONata",
+      "ptDescription": "Linguagem funcional de consulta e transformacao para documentos JSON.",
+      "ptLongDescription": "JSONata e uma linguagem compacta de expressoes para consultar e transformar dados JSON. Ela combina navegacao por caminhos, predicados, operadores, variaveis, funcoes, construcao de objetos, agrupamento e agregacao.\n\nA linguagem e usada em ferramentas de integracao, processamento de mensagens, plataformas de automacao e apps que precisam remodelar JSON de forma declarativa. Seus recursos funcionais permitem transformacoes complexas sem escrever um programa completo na linguagem hospedeira.",
+      "publishedDate": "2016-01-01",
+      "extensions": [
+        ".jsonata"
+      ],
+      "author": "IBM",
+      "website": "https://jsonata.org",
+      "paradigms": [
+        "query",
+        "functional"
+      ],
+      "tooling": {
+        "runtimes": [
+          "JSONata engine"
+        ],
+        "ecosystems": [
+          "JSON",
+          "Low-code automation"
+        ]
+      },
+      "version": "stable",
+      "logo": "https://jsonata.org/images/jsonata-button.png",
+      "color": "#D23669"
     },
     {
       "slug": "jsonc",
@@ -5690,6 +6262,51 @@
       "color": "#7F52FF"
     },
     {
+      "slug": "kql",
+      "name": "KQL",
+      "description": "A query language for Kusto, logs, telemetry, and security analytics.",
+      "longDescription": "Kusto Query Language is used to explore, filter, aggregate, and visualize large volumes of structured and semi-structured data. Queries flow through tabular operators for projection, summarization, joins, time windows, parsing, and rendering.\n\nKQL is central to Azure Data Explorer, Azure Monitor, Microsoft Sentinel, and related telemetry platforms. It is common in observability, incident response, threat hunting, performance analysis, and operational dashboards.",
+      "esName": "KQL",
+      "esDescription": "Lenguaje de consultas para Kusto, logs, telemetria y analitica de seguridad.",
+      "esLongDescription": "Kusto Query Language se usa para explorar, filtrar, agregar y visualizar grandes volumenes de datos estructurados y semiestructurados. Las consultas fluyen por operadores tabulares para proyectar, resumir, unir, analizar ventanas de tiempo, parsear y renderizar.\n\nKQL es central en Azure Data Explorer, Azure Monitor, Microsoft Sentinel y plataformas de telemetria relacionadas. Es comun en observabilidad, respuesta a incidentes, threat hunting, analisis de rendimiento y dashboards operativos.",
+      "itName": "KQL",
+      "itDescription": "Linguaggio di query per Kusto, log, telemetria e security analytics.",
+      "itLongDescription": "Kusto Query Language e usato per esplorare, filtrare, aggregare e visualizzare grandi volumi di dati strutturati e semistrutturati. Le query scorrono attraverso operatori tabellari per proiezione, riepilogo, join, finestre temporali, parsing e rendering.\n\nKQL e centrale in Azure Data Explorer, Azure Monitor, Microsoft Sentinel e piattaforme di telemetria collegate. E comune in osservabilita, risposta agli incidenti, threat hunting, analisi performance e dashboard operative.",
+      "frName": "KQL",
+      "frDescription": "Langage de requete pour Kusto, logs, telemetrie et analyse securite.",
+      "frLongDescription": "Kusto Query Language sert a explorer, filtrer, agreger et visualiser de grands volumes de donnees structurees ou semi-structurees. Les requetes passent par des operateurs tabulaires pour projection, synthese, jointures, fenetres temporelles, parsing et rendu.\n\nKQL est central dans Azure Data Explorer, Azure Monitor, Microsoft Sentinel et plateformes de telemetrie liees. Il est courant en observabilite, reponse a incident, threat hunting, analyse performance et tableaux de bord operationnels.",
+      "deName": "KQL",
+      "deDescription": "Abfragesprache fur Kusto, Logs, Telemetrie und Sicherheitsanalyse.",
+      "deLongDescription": "Kusto Query Language wird genutzt, um grosse Mengen strukturierter und halbstrukturierter Daten zu untersuchen, filtern, aggregieren und visualisieren. Abfragen laufen durch tabellarische Operatoren fur Projektion, Zusammenfassung, Joins, Zeitfenster, Parsing und Darstellung.\n\nKQL ist zentral in Azure Data Explorer, Azure Monitor, Microsoft Sentinel und verwandten Telemetrieplattformen. Es ist verbreitet in Observability, Incident Response, Threat Hunting, Performanceanalyse und operativen Dashboards.",
+      "ptName": "KQL",
+      "ptDescription": "Linguagem de consulta para Kusto, logs, telemetria e analise de seguranca.",
+      "ptLongDescription": "Kusto Query Language e usada para explorar, filtrar, agregar e visualizar grandes volumes de dados estruturados e semiestruturados. Consultas passam por operadores tabulares para projecao, resumo, joins, janelas de tempo, parsing e renderizacao.\n\nKQL e central no Azure Data Explorer, Azure Monitor, Microsoft Sentinel e plataformas de telemetria relacionadas. E comum em observabilidade, resposta a incidentes, threat hunting, analise de desempenho e dashboards operacionais.",
+      "publishedDate": "2014-01-01",
+      "extensions": [
+        ".kql"
+      ],
+      "author": "Microsoft",
+      "website": "https://learn.microsoft.com/en-us/kusto/query/",
+      "paradigms": [
+        "query",
+        "data analysis"
+      ],
+      "tooling": {
+        "runtimes": [
+          "Azure Data Explorer",
+          "Microsoft Sentinel",
+          "Azure Monitor"
+        ],
+        "ecosystems": [
+          "Observability",
+          "Security analytics"
+        ]
+      },
+      "version": "stable",
+      "logo": "https://learn.microsoft.com/favicon.ico",
+      "color": "#0078D4"
+    },
+    {
       "slug": "lean",
       "name": "Lean",
       "description": "A theorem prover and functional language for formalized mathematics and software.",
@@ -5788,7 +6405,7 @@
           "Bootstrap"
         ]
       },
-      "version": "4.6.4",
+      "version": "4.6.6",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/8/81/LESS_Logo.svg",
       "color": "#1D365D"
     },
@@ -5840,6 +6457,52 @@
       "version": "1.x",
       "logo": "https://dummyimage.com/32x32/0D9488/ffffff.png&text=Li",
       "color": "#0D9488"
+    },
+    {
+      "slug": "linkerscript",
+      "name": "Linker Script",
+      "description": "A script language for controlling memory layout and section placement during linking.",
+      "longDescription": "Linker scripts describe how object files are combined into an executable or image. They define memory regions, output sections, symbol assignments, entry points, and placement rules used by linkers.\n\nThey are especially important in embedded systems, kernels, bootloaders, firmware, and bare-metal programs where exact addresses and memory maps matter. Linker scripts connect compiler output to hardware and runtime constraints.",
+      "esName": "Linker Script",
+      "esDescription": "Lenguaje de scripts para controlar layout de memoria y secciones durante el enlazado.",
+      "esLongDescription": "Los linker scripts describen como se combinan archivos objeto en un ejecutable o imagen. Definen regiones de memoria, secciones de salida, asignaciones de simbolos, puntos de entrada y reglas de ubicacion usadas por enlazadores.\n\nSon especialmente importantes en sistemas embebidos, kernels, bootloaders, firmware y programas bare-metal donde importan direcciones exactas y mapas de memoria. Los linker scripts conectan la salida del compilador con hardware y restricciones de runtime.",
+      "itName": "Linker Script",
+      "itDescription": "Linguaggio di script per controllare layout memoria e sezioni durante il linking.",
+      "itLongDescription": "I linker script descrivono come i file oggetto vengono combinati in un eseguibile o immagine. Definiscono regioni di memoria, sezioni di output, assegnazioni di simboli, entry point e regole di posizionamento usate dai linker.\n\nSono particolarmente importanti in sistemi embedded, kernel, bootloader, firmware e programmi bare-metal dove contano indirizzi esatti e mappe di memoria. I linker script collegano l output del compilatore a vincoli hardware e runtime.",
+      "frName": "Linker Script",
+      "frDescription": "Langage de script pour controler layout memoire et placement de sections au link.",
+      "frLongDescription": "Les linker scripts decrivent comment des fichiers objet sont combines en executable ou image. Ils definissent regions memoire, sections de sortie, affectations de symboles, points d entree et regles de placement utilisees par les linkers.\n\nIls sont particulierement importants dans les systemes embarques, noyaux, bootloaders, firmwares et programmes bare-metal ou adresses exactes et cartes memoire comptent. Les linker scripts relient la sortie du compilateur aux contraintes materiel et runtime.",
+      "deName": "Linker Script",
+      "deDescription": "Skriptsprache zur Steuerung von Speicherlayout und Section-Platzierung beim Linken.",
+      "deLongDescription": "Linker-Skripte beschreiben, wie Objektdateien zu einer ausfuhrbaren Datei oder einem Image kombiniert werden. Sie definieren Speicherbereiche, Ausgabesections, Symbolzuweisungen, Einstiegspunkte und Platzierungsregeln fur Linker.\n\nSie sind besonders wichtig in Embedded-Systemen, Kerneln, Bootloadern, Firmware und Bare-Metal-Programmen, wo genaue Adressen und Speicherkarten zahlen. Linker-Skripte verbinden Compiler-Ausgabe mit Hardware- und Laufzeitgrenzen.",
+      "ptName": "Linker Script",
+      "ptDescription": "Linguagem de script para controlar layout de memoria e secoes durante linkagem.",
+      "ptLongDescription": "Linker scripts descrevem como arquivos objeto sao combinados em um executavel ou imagem. Eles definem regioes de memoria, secoes de saida, atribuicoes de simbolos, pontos de entrada e regras de posicionamento usadas por linkers.\n\nSao especialmente importantes em sistemas embarcados, kernels, bootloaders, firmware e programas bare-metal, onde enderecos exatos e mapas de memoria importam. Linker scripts conectam a saida do compilador a restricoes de hardware e runtime.",
+      "publishedDate": "1988-01-01",
+      "extensions": [
+        ".ld",
+        ".lds",
+        ".x"
+      ],
+      "author": "GNU Project",
+      "website": "https://sourceware.org/binutils/docs/ld/Scripts.html",
+      "paradigms": [
+        "configuration",
+        "systems"
+      ],
+      "tooling": {
+        "runtimes": [
+          "GNU ld",
+          "LLD"
+        ],
+        "ecosystems": [
+          "Embedded systems",
+          "Operating systems"
+        ]
+      },
+      "version": "stable",
+      "logo": "https://dummyimage.com/32x32/475569/ffffff.png&text=LD",
+      "color": "#475569"
     },
     {
       "slug": "liquid",
@@ -6197,7 +6860,7 @@
           "Embedded scripting"
         ]
       },
-      "version": "0.724",
+      "version": "0.725",
       "logo": "https://cdn.simpleicons.org/roblox/000000",
       "color": "#000000"
     },
@@ -6940,6 +7603,49 @@
       "version": "1.0",
       "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Mustache-js-logo.png",
       "color": "#974A01"
+    },
+    {
+      "slug": "n1ql",
+      "name": "N1QL",
+      "description": "A SQL-like query language for JSON documents stored in Couchbase.",
+      "longDescription": "N1QL is a declarative query language for Couchbase that brings SQL-style selection, filtering, joins, grouping, indexing, and mutation to JSON documents. It treats buckets, scopes, collections, and document fields as queryable data structures.\n\nThe language is used by Couchbase applications that need familiar relational-style queries over flexible document data. It supports operational queries, analytics-style exploration, and migrations from SQL-shaped data access patterns.",
+      "esName": "N1QL",
+      "esDescription": "Lenguaje de consultas tipo SQL para documentos JSON almacenados en Couchbase.",
+      "esLongDescription": "N1QL es un lenguaje declarativo de consultas para Couchbase que lleva seleccion, filtrado, joins, agrupacion, indexado y mutacion al estilo SQL sobre documentos JSON. Trata buckets, scopes, colecciones y campos de documentos como estructuras consultables.\n\nEl lenguaje se usa en apps Couchbase que necesitan consultas familiares tipo relacional sobre datos documentales flexibles. Soporta consultas operativas, exploracion analitica y migraciones desde patrones de acceso con forma SQL.",
+      "itName": "N1QL",
+      "itDescription": "Linguaggio di query simile a SQL per documenti JSON in Couchbase.",
+      "itLongDescription": "N1QL e un linguaggio dichiarativo di query per Couchbase che porta selezione, filtri, join, raggruppamento, indicizzazione e mutazione in stile SQL sui documenti JSON. Tratta bucket, scope, collection e campi documento come strutture interrogabili.\n\nIl linguaggio e usato da applicazioni Couchbase che richiedono query familiari di stile relazionale su dati documentali flessibili. Supporta query operative, esplorazione analitica e migrazioni da pattern di accesso simili a SQL.",
+      "frName": "N1QL",
+      "frDescription": "Langage de requete proche de SQL pour documents JSON dans Couchbase.",
+      "frLongDescription": "N1QL est un langage de requete declaratif pour Couchbase qui apporte selection, filtrage, jointures, groupement, indexation et mutation de style SQL aux documents JSON. Il traite buckets, scopes, collections et champs de documents comme structures interrogeables.\n\nLe langage est utilise par les applications Couchbase qui veulent des requetes relationnelles familieres sur donnees documentaires flexibles. Il prend en charge requetes operationnelles, exploration analytique et migrations depuis des acces proches de SQL.",
+      "deName": "N1QL",
+      "deDescription": "SQL-ahnliche Abfragesprache fur JSON-Dokumente in Couchbase.",
+      "deLongDescription": "N1QL ist eine deklarative Abfragesprache fur Couchbase, die SQL-artige Auswahl, Filter, Joins, Gruppierung, Indexierung und Mutation auf JSON-Dokumente bringt. Buckets, Scopes, Collections und Dokumentfelder werden als abfragbare Datenstrukturen behandelt.\n\nDie Sprache wird von Couchbase-Anwendungen genutzt, die vertraute relationale Abfragen auf flexible Dokumentdaten brauchen. Sie unterstutzt operative Abfragen, analytische Exploration und Migrationen von SQL-gepragten Zugriffsmustern.",
+      "ptName": "N1QL",
+      "ptDescription": "Linguagem de consulta parecida com SQL para documentos JSON no Couchbase.",
+      "ptLongDescription": "N1QL e uma linguagem declarativa de consulta para Couchbase que leva selecao, filtros, joins, agrupamento, indexacao e mutacao em estilo SQL para documentos JSON. Ela trata buckets, scopes, colecoes e campos de documentos como estruturas consultaveis.\n\nA linguagem e usada por apps Couchbase que precisam de consultas familiares de estilo relacional sobre dados documentais flexiveis. Ela suporta consultas operacionais, exploracao analitica e migracoes de padroes de acesso parecidos com SQL.",
+      "publishedDate": "2015-01-01",
+      "extensions": [
+        ".n1ql"
+      ],
+      "author": "Couchbase",
+      "website": "https://docs.couchbase.com/server/current/n1ql/n1ql-language-reference/index.html",
+      "paradigms": [
+        "query",
+        "declarative"
+      ],
+      "tooling": {
+        "runtimes": [
+          "Couchbase Server"
+        ],
+        "ecosystems": [
+          "NoSQL",
+          "JSON databases"
+        ]
+      },
+      "version": "stable",
+      "logo": "https://cdn.simpleicons.org/couchbase/EA2328",
+      "color": "#EA2328"
     },
     {
       "slug": "nginx",
@@ -7917,6 +8623,50 @@
       "color": "#1F2937"
     },
     {
+      "slug": "plpgsql",
+      "name": "PL/pgSQL",
+      "description": "PostgreSQL procedural language for functions, triggers, and stored logic.",
+      "longDescription": "PL/pgSQL is PostgreSQLs procedural language for writing functions, trigger procedures, and server-side business logic. It combines SQL statements with variables, control flow, cursors, error handling, records, and dynamic execution.\n\nThe language is used when logic should run close to relational data, inside transactions, or behind database APIs. It supports validation, auditing, data transformation, maintenance jobs, and performance-sensitive routines that benefit from avoiding client round trips.",
+      "esName": "PL/pgSQL",
+      "esDescription": "Lenguaje procedural de PostgreSQL para funciones, triggers y logica almacenada.",
+      "esLongDescription": "PL/pgSQL es el lenguaje procedural de PostgreSQL para escribir funciones, procedimientos de trigger y logica de negocio del lado servidor. Combina sentencias SQL con variables, control de flujo, cursores, manejo de errores, registros y ejecucion dinamica.\n\nEl lenguaje se usa cuando la logica debe correr cerca de datos relacionales, dentro de transacciones o detras de APIs de base de datos. Soporta validacion, auditoria, transformacion de datos, tareas de mantenimiento y rutinas sensibles a rendimiento que evitan viajes al cliente.",
+      "itName": "PL/pgSQL",
+      "itDescription": "Linguaggio procedurale PostgreSQL per funzioni, trigger e logica salvata.",
+      "itLongDescription": "PL/pgSQL e il linguaggio procedurale di PostgreSQL per scrivere funzioni, procedure trigger e logica business lato server. Combina istruzioni SQL con variabili, controllo di flusso, cursori, gestione errori, record ed esecuzione dinamica.\n\nIl linguaggio e usato quando la logica deve girare vicino ai dati relazionali, dentro transazioni o dietro API database. Supporta validazione, auditing, trasformazione dati, job di manutenzione e routine sensibili alle prestazioni che evitano round trip al client.",
+      "frName": "PL/pgSQL",
+      "frDescription": "Langage procedural PostgreSQL pour fonctions, triggers et logique stockee.",
+      "frLongDescription": "PL/pgSQL est le langage procedural de PostgreSQL pour ecrire fonctions, procedures de trigger et logique metier cote serveur. Il combine instructions SQL avec variables, controle de flux, curseurs, gestion d erreurs, enregistrements et execution dynamique.\n\nLe langage est utilise quand la logique doit tourner pres des donnees relationnelles, dans des transactions ou derriere des API de base de donnees. Il sert a validation, audit, transformation de donnees, maintenance et routines sensibles aux performances.",
+      "deName": "PL/pgSQL",
+      "deDescription": "Prozedurale PostgreSQL-Sprache fur Funktionen, Trigger und gespeicherte Logik.",
+      "deLongDescription": "PL/pgSQL ist die prozedurale Sprache von PostgreSQL fur Funktionen, Trigger-Prozeduren und serverseitige Geschaftslogik. Sie kombiniert SQL-Anweisungen mit Variablen, Kontrollfluss, Cursorn, Fehlerbehandlung, Records und dynamischer Ausfuhrung.\n\nDie Sprache wird genutzt, wenn Logik nahe an relationalen Daten, innerhalb von Transaktionen oder hinter Datenbank-APIs laufen soll. Sie unterstutzt Validierung, Auditing, Datentransformation, Wartungsjobs und performanzkritische Routinen mit weniger Client-Roundtrips.",
+      "ptName": "PL/pgSQL",
+      "ptDescription": "Linguagem procedural do PostgreSQL para funcoes, triggers e logica armazenada.",
+      "ptLongDescription": "PL/pgSQL e a linguagem procedural do PostgreSQL para escrever funcoes, procedimentos de trigger e logica de negocio no servidor. Ela combina comandos SQL com variaveis, controle de fluxo, cursores, tratamento de erros, registros e execucao dinamica.\n\nA linguagem e usada quando a logica deve rodar perto dos dados relacionais, dentro de transacoes ou atras de APIs de banco. Suporta validacao, auditoria, transformacao de dados, tarefas de manutencao e rotinas sensiveis a desempenho que evitam idas ao cliente.",
+      "publishedDate": "1997-01-01",
+      "extensions": [
+        ".pgsql",
+        ".plpgsql"
+      ],
+      "author": "PostgreSQL Global Development Group",
+      "website": "https://www.postgresql.org/docs/current/plpgsql.html",
+      "paradigms": [
+        "procedural",
+        "database"
+      ],
+      "tooling": {
+        "runtimes": [
+          "PostgreSQL"
+        ],
+        "ecosystems": [
+          "Relational databases",
+          "Stored procedures"
+        ]
+      },
+      "version": "stable",
+      "logo": "https://cdn.simpleicons.org/postgresql/4169E1",
+      "color": "#4169E1"
+    },
+    {
       "slug": "plantuml",
       "name": "PlantUML",
       "description": "A text-based diagram language for UML, architecture, and documentation diagrams.",
@@ -8495,6 +9245,49 @@
       "version": "Q# 1.0",
       "logo": "https://github.com/microsoft.png",
       "color": "#0078D4"
+    },
+    {
+      "slug": "qmake",
+      "name": "qmake",
+      "description": "A Qt build configuration language for generating platform-specific Makefiles and projects.",
+      "longDescription": "qmake project files describe Qt and C++ builds with variables, scopes, conditions, templates, sources, headers, resources, and platform-specific settings. qmake reads these files and generates native build files for the target environment.\n\nThe language is strongly associated with Qt applications and libraries, especially older and long-lived projects. It remains useful for maintaining Qt codebases that predate or choose not to migrate to CMake.",
+      "esName": "qmake",
+      "esDescription": "Lenguaje de configuracion de builds Qt para generar Makefiles y proyectos por plataforma.",
+      "esLongDescription": "Los archivos de proyecto qmake describen builds Qt y C++ con variables, scopes, condiciones, templates, fuentes, headers, recursos y ajustes por plataforma. qmake lee estos archivos y genera archivos de build nativos para el entorno destino.\n\nEl lenguaje esta muy asociado a aplicaciones y bibliotecas Qt, sobre todo proyectos antiguos o de larga vida. Sigue siendo util para mantener bases Qt anteriores a CMake o que eligen no migrar.",
+      "itName": "qmake",
+      "itDescription": "Linguaggio di configurazione build Qt per generare Makefile e progetti specifici.",
+      "itLongDescription": "I file progetto qmake descrivono build Qt e C++ con variabili, scope, condizioni, template, sorgenti, header, risorse e impostazioni specifiche di piattaforma. qmake legge questi file e genera file di build nativi per l ambiente target.\n\nIl linguaggio e fortemente associato ad applicazioni e librerie Qt, specialmente progetti vecchi e longevi. Rimane utile per mantenere codebase Qt precedenti a CMake o che scelgono di non migrare.",
+      "frName": "qmake",
+      "frDescription": "Langage de configuration build Qt pour generer Makefiles et projets par plateforme.",
+      "frLongDescription": "Les fichiers projet qmake decrivent des builds Qt et C++ avec variables, scopes, conditions, templates, sources, headers, ressources et reglages par plateforme. qmake lit ces fichiers et genere des fichiers de build natifs pour l environnement cible.\n\nLe langage est fortement associe aux applications et bibliotheques Qt, surtout les projets anciens ou durables. Il reste utile pour maintenir des bases Qt anterieures a CMake ou qui choisissent de ne pas migrer.",
+      "deName": "qmake",
+      "deDescription": "Qt-Build-Konfigurationssprache zum Erzeugen plattformspezifischer Makefiles und Projekte.",
+      "deLongDescription": "qmake-Projektdateien beschreiben Qt- und C++-Builds mit Variablen, Scopes, Bedingungen, Templates, Quellen, Headern, Ressourcen und plattformspezifischen Einstellungen. qmake liest diese Dateien und erzeugt native Build-Dateien fur die Zielumgebung.\n\nDie Sprache ist eng mit Qt-Anwendungen und Bibliotheken verbunden, besonders mit alteren und langlebigen Projekten. Sie bleibt nutzlich fur Qt-Codebasen, die vor CMake entstanden sind oder nicht migrieren wollen.",
+      "ptName": "qmake",
+      "ptDescription": "Linguagem de configuracao de build Qt para gerar Makefiles e projetos por plataforma.",
+      "ptLongDescription": "Arquivos de projeto qmake descrevem builds Qt e C++ com variaveis, escopos, condicoes, templates, fontes, headers, recursos e ajustes por plataforma. qmake le esses arquivos e gera arquivos de build nativos para o ambiente alvo.\n\nA linguagem e fortemente associada a aplicativos e bibliotecas Qt, especialmente projetos antigos e duradouros. Continua util para manter bases Qt anteriores ao CMake ou que escolhem nao migrar.",
+      "publishedDate": "2002-01-01",
+      "extensions": [
+        ".pri",
+        ".prf"
+      ],
+      "author": "Trolltech",
+      "website": "https://doc.qt.io/qt-6/qmake-manual.html",
+      "paradigms": [
+        "build configuration"
+      ],
+      "tooling": {
+        "runtimes": [
+          "qmake"
+        ],
+        "ecosystems": [
+          "Qt",
+          "C++"
+        ]
+      },
+      "version": "stable",
+      "logo": "https://dummyimage.com/32x32/41CD52/ffffff.png&text=Qt",
+      "color": "#41CD52"
     },
     {
       "slug": "qml",
@@ -9726,6 +10519,49 @@
       "color": "#363636"
     },
     {
+      "slug": "soql",
+      "name": "SOQL",
+      "description": "Salesforce Object Query Language for reading records from Salesforce data.",
+      "longDescription": "Salesforce Object Query Language is used to retrieve records from Salesforce objects. It selects fields, filters rows, traverses relationships, orders results, aggregates data, and feeds Apex code, APIs, reports, and integrations.\n\nSOQL resembles SQL, but it is shaped by Salesforce metadata, object relationships, governor limits, sharing rules, and multi-tenant execution. It is central to custom Salesforce apps, admin automation, data migration, and CRM integrations.",
+      "esName": "SOQL",
+      "esDescription": "Salesforce Object Query Language para leer registros de datos Salesforce.",
+      "esLongDescription": "Salesforce Object Query Language se usa para recuperar registros de objetos Salesforce. Selecciona campos, filtra filas, recorre relaciones, ordena resultados, agrega datos y alimenta codigo Apex, APIs, reportes e integraciones.\n\nSOQL se parece a SQL, pero esta moldeado por metadatos Salesforce, relaciones entre objetos, limites de gobernador, reglas de comparticion y ejecucion multi-tenant. Es central en apps Salesforce personalizadas, automatizacion admin, migracion de datos e integraciones CRM.",
+      "itName": "SOQL",
+      "itDescription": "Salesforce Object Query Language per leggere record dai dati Salesforce.",
+      "itLongDescription": "Salesforce Object Query Language e usato per recuperare record dagli oggetti Salesforce. Seleziona campi, filtra righe, attraversa relazioni, ordina risultati, aggrega dati e alimenta codice Apex, API, report e integrazioni.\n\nSOQL assomiglia a SQL, ma e modellato da metadati Salesforce, relazioni tra oggetti, governor limit, regole di condivisione ed esecuzione multi-tenant. E centrale in app Salesforce custom, automazione admin, migrazione dati e integrazioni CRM.",
+      "frName": "SOQL",
+      "frDescription": "Salesforce Object Query Language pour lire des enregistrements Salesforce.",
+      "frLongDescription": "Salesforce Object Query Language sert a recuperer des enregistrements depuis les objets Salesforce. Il selectionne des champs, filtre des lignes, traverse relations, trie resultats, agrege donnees et alimente code Apex, API, rapports et integrations.\n\nSOQL ressemble a SQL, mais il est modele par metadonnees Salesforce, relations d objets, governor limits, regles de partage et execution multi-tenant. Il est central dans apps Salesforce personnalisees, automatisation admin, migrations de donnees et integrations CRM.",
+      "deName": "SOQL",
+      "deDescription": "Salesforce Object Query Language zum Lesen von Salesforce-Datensatzen.",
+      "deLongDescription": "Salesforce Object Query Language wird genutzt, um Datensatze aus Salesforce-Objekten abzurufen. Sie wahlt Felder, filtert Zeilen, folgt Beziehungen, sortiert Ergebnisse, aggregiert Daten und versorgt Apex-Code, APIs, Reports und Integrationen.\n\nSOQL ahnelt SQL, wird aber durch Salesforce-Metadaten, Objektbeziehungen, Governor Limits, Sharing-Regeln und Multi-Tenant-Ausfuhrung gepragt. Es ist zentral fur angepasste Salesforce-Apps, Admin-Automation, Datenmigration und CRM-Integrationen.",
+      "ptName": "SOQL",
+      "ptDescription": "Salesforce Object Query Language para ler registros de dados Salesforce.",
+      "ptLongDescription": "Salesforce Object Query Language e usada para recuperar registros de objetos Salesforce. Ela seleciona campos, filtra linhas, atravessa relacionamentos, ordena resultados, agrega dados e alimenta codigo Apex, APIs, relatorios e integracoes.\n\nSOQL lembra SQL, mas e moldada por metadados Salesforce, relacionamentos entre objetos, governor limits, regras de compartilhamento e execucao multi-tenant. E central em apps Salesforce customizados, automacao admin, migracao de dados e integracoes CRM.",
+      "publishedDate": "2005-01-01",
+      "extensions": [
+        ".soql"
+      ],
+      "author": "Salesforce",
+      "website": "https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/",
+      "paradigms": [
+        "query",
+        "declarative"
+      ],
+      "tooling": {
+        "runtimes": [
+          "Salesforce Platform"
+        ],
+        "ecosystems": [
+          "CRM",
+          "Apex"
+        ]
+      },
+      "version": "stable",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Salesforce.com_logo.svg",
+      "color": "#00A1E0"
+    },
+    {
       "slug": "spark",
       "name": "SPARK",
       "description": "A formally verifiable Ada-based language for high-integrity and safety-critical software.",
@@ -9821,6 +10657,50 @@
       "version": "1.1",
       "logo": "https://www.w3.org/RDF/icons/rdf_flyer.svg",
       "color": "#0E75B6"
+    },
+    {
+      "slug": "spl",
+      "name": "SPL",
+      "description": "Splunk Search Processing Language for searching and analyzing machine data.",
+      "longDescription": "Splunk Search Processing Language is a pipeline language for searching, transforming, correlating, and visualizing machine data. Commands filter events, extract fields, calculate statistics, join streams, build time series, and produce dashboard-ready results.\n\nSPL is used in log analytics, observability, security operations, incident response, compliance, and operational intelligence. Its command pipeline lets analysts move from raw events to metrics, alerts, reports, and investigations.",
+      "esName": "SPL",
+      "esDescription": "Splunk Search Processing Language para buscar y analizar datos de maquinas.",
+      "esLongDescription": "Splunk Search Processing Language es un lenguaje de pipelines para buscar, transformar, correlacionar y visualizar datos de maquinas. Los comandos filtran eventos, extraen campos, calculan estadisticas, unen flujos, crean series temporales y producen resultados listos para dashboards.\n\nSPL se usa en analitica de logs, observabilidad, operaciones de seguridad, respuesta a incidentes, cumplimiento e inteligencia operativa. Su pipeline permite pasar de eventos crudos a metricas, alertas, reportes e investigaciones.",
+      "itName": "SPL",
+      "itDescription": "Splunk Search Processing Language per cercare e analizzare dati macchina.",
+      "itLongDescription": "Splunk Search Processing Language e un linguaggio a pipeline per cercare, trasformare, correlare e visualizzare dati macchina. I comandi filtrano eventi, estraggono campi, calcolano statistiche, uniscono flussi, creano serie temporali e producono risultati pronti per dashboard.\n\nSPL e usato in log analytics, osservabilita, security operations, risposta incidenti, compliance e intelligence operativa. La sua pipeline permette agli analisti di passare da eventi grezzi a metriche, alert, report e indagini.",
+      "frName": "SPL",
+      "frDescription": "Splunk Search Processing Language pour chercher et analyser donnees machine.",
+      "frLongDescription": "Splunk Search Processing Language est un langage en pipeline pour chercher, transformer, correler et visualiser des donnees machine. Les commandes filtrent evenements, extraient champs, calculent statistiques, joignent flux, construisent series temporelles et produisent des resultats pour tableaux de bord.\n\nSPL est utilise en analyse de logs, observabilite, operations securite, reponse a incident, conformite et intelligence operationnelle. Son pipeline aide a passer des evenements bruts aux metriques, alertes, rapports et enquetes.",
+      "deName": "SPL",
+      "deDescription": "Splunk Search Processing Language zum Suchen und Analysieren von Maschinendaten.",
+      "deLongDescription": "Splunk Search Processing Language ist eine Pipeline-Sprache zum Suchen, Transformieren, Korrelieren und Visualisieren von Maschinendaten. Befehle filtern Events, extrahieren Felder, berechnen Statistiken, verbinden Streams, bauen Zeitreihen und erzeugen Dashboard-Ergebnisse.\n\nSPL wird in Log Analytics, Observability, Security Operations, Incident Response, Compliance und operativer Intelligenz genutzt. Die Befehlspipeline fuhrt von Rohereignissen zu Metriken, Alerts, Reports und Untersuchungen.",
+      "ptName": "SPL",
+      "ptDescription": "Splunk Search Processing Language para buscar e analisar dados de maquinas.",
+      "ptLongDescription": "Splunk Search Processing Language e uma linguagem de pipeline para buscar, transformar, correlacionar e visualizar dados de maquinas. Comandos filtram eventos, extraem campos, calculam estatisticas, juntam fluxos, criam series temporais e produzem resultados para dashboards.\n\nSPL e usada em analise de logs, observabilidade, operacoes de seguranca, resposta a incidentes, conformidade e inteligencia operacional. Seu pipeline leva analistas de eventos brutos a metricas, alertas, relatorios e investigacoes.",
+      "publishedDate": "2006-01-01",
+      "extensions": [
+        ".spl"
+      ],
+      "author": "Splunk",
+      "website": "https://docs.splunk.com/Documentation/Splunk/latest/SearchReference/WhatsInThisManual",
+      "paradigms": [
+        "query",
+        "pipeline"
+      ],
+      "tooling": {
+        "runtimes": [
+          "Splunk Enterprise",
+          "Splunk Cloud Platform"
+        ],
+        "ecosystems": [
+          "Observability",
+          "Security analytics"
+        ]
+      },
+      "version": "stable",
+      "logo": "https://cdn.simpleicons.org/splunk/000000",
+      "color": "#000000"
     },
     {
       "slug": "sql",

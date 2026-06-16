@@ -42,6 +42,7 @@ import { coffeescript } from './languages/coffeescript';
 import { coldfusion } from './languages/coldfusion';
 import { coq } from './languages/coq';
 import { cpp } from './languages/cpp';
+import { cql } from './languages/cql';
 import { crystal } from './languages/crystal';
 import { csharp } from './languages/csharp';
 import { css } from './languages/css';
@@ -72,6 +73,7 @@ import { fish } from './languages/fish';
 import { flux } from './languages/flux';
 import { forth } from './languages/forth';
 import { fortran } from './languages/fortran';
+import { fql } from './languages/fql';
 import { freemarker } from './languages/freemarker';
 import { fsharp } from './languages/fsharp';
 import { fstar } from './languages/fstar';
@@ -85,6 +87,7 @@ import { go } from './languages/go';
 import { gradle } from './languages/gradle';
 import { grain } from './languages/grain';
 import { graphql } from './languages/graphql';
+import { gremlin } from './languages/gremlin';
 import { groovy } from './languages/groovy';
 import { hack } from './languages/hack';
 import { haml } from './languages/haml';
@@ -106,8 +109,10 @@ import { janet } from './languages/janet';
 import { java } from './languages/java';
 import { javascript } from './languages/javascript';
 import { jinja } from './languages/jinja';
+import { jmespath } from './languages/jmespath';
 import { json } from './languages/json';
 import { json5 } from './languages/json5';
+import { jsonata } from './languages/jsonata';
 import { jsonc } from './languages/jsonc';
 import { jsonnet } from './languages/jsonnet';
 import { julia } from './languages/julia';
@@ -117,6 +122,7 @@ import { kcl } from './languages/kcl';
 import { kdl } from './languages/kdl';
 import { koka } from './languages/koka';
 import { kotlin } from './languages/kotlin';
+import { kql } from './languages/kql';
 import { lean } from './languages/lean';
 import { less } from './languages/less';
 import { ligo } from './languages/ligo';
@@ -144,6 +150,7 @@ import { mojo } from './languages/mojo';
 import { moonbit } from './languages/moonbit';
 import { move } from './languages/move';
 import { mustache } from './languages/mustache';
+import { n1ql } from './languages/n1ql';
 import { nginx } from './languages/nginx';
 import { nickel } from './languages/nickel';
 import { nim } from './languages/nim';
@@ -163,6 +170,7 @@ import { pineScript } from './languages/pine-script';
 import { pkl } from './languages/pkl';
 import { plI } from './languages/pl-i';
 import { plantuml } from './languages/plantuml';
+import { plpgsql } from './languages/plpgsql';
 import { plsql } from './languages/plsql';
 import { pony } from './languages/pony';
 import { powershell } from './languages/powershell';
@@ -199,8 +207,10 @@ import { smalltalk } from './languages/smalltalk';
 import { smarty } from './languages/smarty';
 import { snobol } from './languages/snobol';
 import { solidity } from './languages/solidity';
+import { soql } from './languages/soql';
 import { spark } from './languages/spark';
 import { sparql } from './languages/sparql';
+import { spl } from './languages/spl';
 import { sql } from './languages/sql';
 import { standardMl } from './languages/standard-ml';
 import { starlark } from './languages/starlark';
@@ -291,6 +301,7 @@ export const languages = [
   coq,
   cpp,
   crystal,
+  cql,
   csharp,
   css,
   cuda,
@@ -321,6 +332,7 @@ export const languages = [
   forth,
   fortran,
   freemarker,
+  fql,
   fsharp,
   fstar,
   gdscript,
@@ -333,6 +345,7 @@ export const languages = [
   gradle,
   grain,
   graphql,
+  gremlin,
   groovy,
   hack,
   haml,
@@ -354,8 +367,10 @@ export const languages = [
   java,
   javascript,
   jinja,
+  jmespath,
   json,
   json5,
+  jsonata,
   jsonc,
   jsonnet,
   julia,
@@ -365,6 +380,7 @@ export const languages = [
   kdl,
   koka,
   kotlin,
+  kql,
   lean,
   less,
   ligo,
@@ -392,6 +408,7 @@ export const languages = [
   moonbit,
   move,
   mustache,
+  n1ql,
   nginx,
   nickel,
   nim,
@@ -411,6 +428,7 @@ export const languages = [
   plI,
   pkl,
   plantuml,
+  plpgsql,
   plsql,
   pony,
   powershell,
@@ -447,8 +465,10 @@ export const languages = [
   smarty,
   snobol,
   solidity,
+  soql,
   sparql,
   spark,
+  spl,
   sql,
   standardMl,
   starlark,

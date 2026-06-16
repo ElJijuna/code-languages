@@ -281,6 +281,11 @@
       "import": "./dist/languages/crystal.js",
       "require": "./dist/languages/crystal.cjs"
     },
+    "./cql": {
+      "types": "./dist/languages/cql.d.ts",
+      "import": "./dist/languages/cql.js",
+      "require": "./dist/languages/cql.cjs"
+    },
     "./csharp": {
       "types": "./dist/languages/csharp.d.ts",
       "import": "./dist/languages/csharp.js",
@@ -431,6 +436,11 @@
       "import": "./dist/languages/freemarker.js",
       "require": "./dist/languages/freemarker.cjs"
     },
+    "./fql": {
+      "types": "./dist/languages/fql.d.ts",
+      "import": "./dist/languages/fql.js",
+      "require": "./dist/languages/fql.cjs"
+    },
     "./fsharp": {
       "types": "./dist/languages/fsharp.d.ts",
       "import": "./dist/languages/fsharp.js",
@@ -490,6 +500,11 @@
       "types": "./dist/languages/graphql.d.ts",
       "import": "./dist/languages/graphql.js",
       "require": "./dist/languages/graphql.cjs"
+    },
+    "./gremlin": {
+      "types": "./dist/languages/gremlin.d.ts",
+      "import": "./dist/languages/gremlin.js",
+      "require": "./dist/languages/gremlin.cjs"
     },
     "./groovy": {
       "types": "./dist/languages/groovy.d.ts",
@@ -596,6 +611,11 @@
       "import": "./dist/languages/jinja.js",
       "require": "./dist/languages/jinja.cjs"
     },
+    "./jmespath": {
+      "types": "./dist/languages/jmespath.d.ts",
+      "import": "./dist/languages/jmespath.js",
+      "require": "./dist/languages/jmespath.cjs"
+    },
     "./json": {
       "types": "./dist/languages/json.d.ts",
       "import": "./dist/languages/json.js",
@@ -605,6 +625,11 @@
       "types": "./dist/languages/json5.d.ts",
       "import": "./dist/languages/json5.js",
       "require": "./dist/languages/json5.cjs"
+    },
+    "./jsonata": {
+      "types": "./dist/languages/jsonata.d.ts",
+      "import": "./dist/languages/jsonata.js",
+      "require": "./dist/languages/jsonata.cjs"
     },
     "./jsonc": {
       "types": "./dist/languages/jsonc.d.ts",
@@ -650,6 +675,11 @@
       "types": "./dist/languages/kotlin.d.ts",
       "import": "./dist/languages/kotlin.js",
       "require": "./dist/languages/kotlin.cjs"
+    },
+    "./kql": {
+      "types": "./dist/languages/kql.d.ts",
+      "import": "./dist/languages/kql.js",
+      "require": "./dist/languages/kql.cjs"
     },
     "./lean": {
       "types": "./dist/languages/lean.d.ts",
@@ -786,6 +816,11 @@
       "import": "./dist/languages/mustache.js",
       "require": "./dist/languages/mustache.cjs"
     },
+    "./n1ql": {
+      "types": "./dist/languages/n1ql.d.ts",
+      "import": "./dist/languages/n1ql.js",
+      "require": "./dist/languages/n1ql.cjs"
+    },
     "./nginx": {
       "types": "./dist/languages/nginx.d.ts",
       "import": "./dist/languages/nginx.js",
@@ -880,6 +915,11 @@
       "types": "./dist/languages/plantuml.d.ts",
       "import": "./dist/languages/plantuml.js",
       "require": "./dist/languages/plantuml.cjs"
+    },
+    "./plpgsql": {
+      "types": "./dist/languages/plpgsql.d.ts",
+      "import": "./dist/languages/plpgsql.js",
+      "require": "./dist/languages/plpgsql.cjs"
     },
     "./plsql": {
       "types": "./dist/languages/plsql.d.ts",
@@ -1061,6 +1101,11 @@
       "import": "./dist/languages/solidity.js",
       "require": "./dist/languages/solidity.cjs"
     },
+    "./soql": {
+      "types": "./dist/languages/soql.d.ts",
+      "import": "./dist/languages/soql.js",
+      "require": "./dist/languages/soql.cjs"
+    },
     "./sparql": {
       "types": "./dist/languages/sparql.d.ts",
       "import": "./dist/languages/sparql.js",
@@ -1070,6 +1115,11 @@
       "types": "./dist/languages/spark.d.ts",
       "import": "./dist/languages/spark.js",
       "require": "./dist/languages/spark.cjs"
+    },
+    "./spl": {
+      "types": "./dist/languages/spl.d.ts",
+      "import": "./dist/languages/spl.js",
+      "require": "./dist/languages/spl.cjs"
     },
     "./sql": {
       "types": "./dist/languages/sql.d.ts",
