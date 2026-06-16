@@ -149,12 +149,14 @@
 ### Programming Languages
 
 - [x] ALGOL (`algol`)
+- [x] AMPL (`ampl`)
 - [x] Ante (`ante`)
 - [x] Austral (`austral`)
 - [x] Ballerina (`ballerina`)
 - [x] BCPL (`bcpl`)
 - [x] Bosque (`bosque`)
 - [x] BQN (`bqn`)
+- [x] Brainfuck (`brainfuck`)
 - [x] Curry (`curry`)
 - [x] Eiffel (`eiffel`)
 - [x] Factor (`factor`)
@@ -214,6 +216,7 @@
 ### Configuration / DSL
 
 - [ ] CEL (`cel`)
+- [x] EditorConfig (`editorconfig`)
 - [x] HOCON (`hocon`)
 - [x] JSON5 (`json5`)
 - [x] JSONC (`jsonc`)
@@ -241,7 +244,7 @@
 ### Serialization Schemas
 
 - [ ] Avro IDL (`avro-idl`)
-- [ ] Cap'n Proto (`capnproto`)
+- [x] Cap'n Proto (`capnproto`)
 - [ ] FlatBuffers (`flatbuffers`)
 
 ### Markup / Documentation
@@ -253,6 +256,7 @@
 
 ### Scientific / Academic
 
+- [x] BibTeX (`bibtex`)
 - [ ] Maxima (`maxima`)
 - [ ] Modelica (`modelica`)
 - [ ] Octave (`octave`)
@@ -310,13 +314,18 @@ broader language entry.
 - [x] Zeek (`zeek`)
 - [x] Ziggy (`ziggy`)
 - [x] Cairo (`cairo`)
+- [x] DOT (`dot`)
+- [x] G-code (`gcode`)
+- [x] Gettext (`gettext`)
 - [x] Flux (`flux`)
 - [x] Grain (`grain`)
 - [x] Hare (`hare`)
 - [x] Hy (`hy`)
 - [x] KCL (`kcl`)
+- [x] Linker Script (`linkerscript`)
 - [x] Move (`move`)
 - [x] Nickel (`nickel`)
 - [x] Pkl (`pkl`)
+- [x] qmake (`qmake`)
 - [x] Unison (`unison`)
 - [x] YARA (`yara`)

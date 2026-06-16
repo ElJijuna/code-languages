@@ -81,6 +81,11 @@
       "import": "./dist/languages/algol.js",
       "require": "./dist/languages/algol.cjs"
     },
+    "./ampl": {
+      "types": "./dist/languages/ampl.d.ts",
+      "import": "./dist/languages/ampl.js",
+      "require": "./dist/languages/ampl.cjs"
+    },
     "./ante": {
       "types": "./dist/languages/ante.d.ts",
       "import": "./dist/languages/ante.js",
@@ -181,6 +186,11 @@
       "import": "./dist/languages/bicep.js",
       "require": "./dist/languages/bicep.cjs"
     },
+    "./bibtex": {
+      "types": "./dist/languages/bibtex.d.ts",
+      "import": "./dist/languages/bibtex.js",
+      "require": "./dist/languages/bibtex.cjs"
+    },
     "./blade": {
       "types": "./dist/languages/blade.d.ts",
       "import": "./dist/languages/blade.js",
@@ -196,6 +206,11 @@
       "import": "./dist/languages/bqn.js",
       "require": "./dist/languages/bqn.cjs"
     },
+    "./brainfuck": {
+      "types": "./dist/languages/brainfuck.d.ts",
+      "import": "./dist/languages/brainfuck.js",
+      "require": "./dist/languages/brainfuck.cjs"
+    },
     "./c": {
       "types": "./dist/languages/c.d.ts",
       "import": "./dist/languages/c.js",
@@ -205,6 +220,11 @@
       "types": "./dist/languages/cairo.d.ts",
       "import": "./dist/languages/cairo.js",
       "require": "./dist/languages/cairo.cjs"
+    },
+    "./capnproto": {
+      "types": "./dist/languages/capnproto.d.ts",
+      "import": "./dist/languages/capnproto.js",
+      "require": "./dist/languages/capnproto.cjs"
     },
     "./carbon": {
       "types": "./dist/languages/carbon.d.ts",
@@ -326,10 +346,20 @@
       "import": "./dist/languages/dockerfile.js",
       "require": "./dist/languages/dockerfile.cjs"
     },
+    "./dot": {
+      "types": "./dist/languages/dot.d.ts",
+      "import": "./dist/languages/dot.js",
+      "require": "./dist/languages/dot.cjs"
+    },
     "./earthly": {
       "types": "./dist/languages/earthly.d.ts",
       "import": "./dist/languages/earthly.js",
       "require": "./dist/languages/earthly.cjs"
+    },
+    "./editorconfig": {
+      "types": "./dist/languages/editorconfig.d.ts",
+      "import": "./dist/languages/editorconfig.js",
+      "require": "./dist/languages/editorconfig.cjs"
     },
     "./eiffel": {
       "types": "./dist/languages/eiffel.d.ts",
@@ -415,6 +445,16 @@
       "types": "./dist/languages/gdscript.d.ts",
       "import": "./dist/languages/gdscript.js",
       "require": "./dist/languages/gdscript.cjs"
+    },
+    "./gcode": {
+      "types": "./dist/languages/gcode.d.ts",
+      "import": "./dist/languages/gcode.js",
+      "require": "./dist/languages/gcode.cjs"
+    },
+    "./gettext": {
+      "types": "./dist/languages/gettext.d.ts",
+      "import": "./dist/languages/gettext.js",
+      "require": "./dist/languages/gettext.cjs"
     },
     "./git": {
       "types": "./dist/languages/git.d.ts",
@@ -630,6 +670,11 @@
       "types": "./dist/languages/liquid.d.ts",
       "import": "./dist/languages/liquid.js",
       "require": "./dist/languages/liquid.cjs"
+    },
+    "./linkerscript": {
+      "types": "./dist/languages/linkerscript.d.ts",
+      "import": "./dist/languages/linkerscript.js",
+      "require": "./dist/languages/linkerscript.cjs"
     },
     "./lisp": {
       "types": "./dist/languages/lisp.d.ts",
@@ -890,6 +935,11 @@
       "types": "./dist/languages/qml.d.ts",
       "import": "./dist/languages/qml.js",
       "require": "./dist/languages/qml.cjs"
+    },
+    "./qmake": {
+      "types": "./dist/languages/qmake.d.ts",
+      "import": "./dist/languages/qmake.js",
+      "require": "./dist/languages/qmake.cjs"
     },
     "./qsharp": {
       "types": "./dist/languages/qsharp.d.ts",

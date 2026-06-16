@@ -3,6 +3,7 @@ import { actionscript } from './languages/actionscript';
 import { ada } from './languages/ada';
 import { agda } from './languages/agda';
 import { algol } from './languages/algol';
+import { ampl } from './languages/ampl';
 import { ante } from './languages/ante';
 import { antlr } from './languages/antlr';
 import { apex } from './languages/apex';
@@ -22,12 +23,15 @@ import { bash } from './languages/bash';
 import { batch } from './languages/batch';
 import { bazel } from './languages/bazel';
 import { bcpl } from './languages/bcpl';
+import { bibtex } from './languages/bibtex';
 import { bicep } from './languages/bicep';
 import { blade } from './languages/blade';
 import { bosque } from './languages/bosque';
 import { bqn } from './languages/bqn';
+import { brainfuck } from './languages/brainfuck';
 import { c } from './languages/c';
 import { cairo } from './languages/cairo';
+import { capnproto } from './languages/capnproto';
 import { carbon } from './languages/carbon';
 import { chapel } from './languages/chapel';
 import { circom } from './languages/circom';
@@ -52,7 +56,9 @@ import { dart } from './languages/dart';
 import { dhall } from './languages/dhall';
 import { dita } from './languages/dita';
 import { dockerfile } from './languages/dockerfile';
+import { dot } from './languages/dot';
 import { earthly } from './languages/earthly';
+import { editorconfig } from './languages/editorconfig';
 import { eiffel } from './languages/eiffel';
 import { ejs } from './languages/ejs';
 import { elixir } from './languages/elixir';
@@ -69,7 +75,9 @@ import { fortran } from './languages/fortran';
 import { freemarker } from './languages/freemarker';
 import { fsharp } from './languages/fsharp';
 import { fstar } from './languages/fstar';
+import { gcode } from './languages/gcode';
 import { gdscript } from './languages/gdscript';
+import { gettext } from './languages/gettext';
 import { git } from './languages/git';
 import { gleam } from './languages/gleam';
 import { glsl } from './languages/glsl';
@@ -112,6 +120,7 @@ import { kotlin } from './languages/kotlin';
 import { lean } from './languages/lean';
 import { less } from './languages/less';
 import { ligo } from './languages/ligo';
+import { linkerscript } from './languages/linkerscript';
 import { liquid } from './languages/liquid';
 import { lisp } from './languages/lisp';
 import { llvmIr } from './languages/llvm-ir';
@@ -164,6 +173,7 @@ import { pug } from './languages/pug';
 import { puppet } from './languages/puppet';
 import { purescript } from './languages/purescript';
 import { python } from './languages/python';
+import { qmake } from './languages/qmake';
 import { qml } from './languages/qml';
 import { qsharp } from './languages/qsharp';
 import { r } from './languages/r';
@@ -241,6 +251,7 @@ export const languages = [
   ada,
   agda,
   algol,
+  ampl,
   ante,
   antlr,
   apex,
@@ -261,11 +272,14 @@ export const languages = [
   bazel,
   bcpl,
   bicep,
+  bibtex,
   blade,
   bosque,
   bqn,
+  brainfuck,
   c,
   cairo,
+  capnproto,
   carbon,
   chapel,
   circom,
@@ -290,7 +304,9 @@ export const languages = [
   dhall,
   dita,
   dockerfile,
+  dot,
   earthly,
+  editorconfig,
   eiffel,
   ejs,
   elixir,
@@ -308,6 +324,8 @@ export const languages = [
   fsharp,
   fstar,
   gdscript,
+  gcode,
+  gettext,
   git,
   gleam,
   glsl,
@@ -351,6 +369,7 @@ export const languages = [
   less,
   ligo,
   liquid,
+  linkerscript,
   lisp,
   llvmIr,
   lobster,
@@ -403,6 +422,7 @@ export const languages = [
   purescript,
   python,
   qml,
+  qmake,
   qsharp,
   r,
   racket,
