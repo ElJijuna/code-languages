@@ -17,6 +17,7 @@ import { assembly } from './languages/assembly';
 import { astro } from './languages/astro';
 import { austral } from './languages/austral';
 import { autohotkey } from './languages/autohotkey';
+import { avroIdl } from './languages/avro-idl';
 import { awk } from './languages/awk';
 import { ballerina } from './languages/ballerina';
 import { bash } from './languages/bash';
@@ -33,6 +34,7 @@ import { c } from './languages/c';
 import { cairo } from './languages/cairo';
 import { capnproto } from './languages/capnproto';
 import { carbon } from './languages/carbon';
+import { cel } from './languages/cel';
 import { chapel } from './languages/chapel';
 import { circom } from './languages/circom';
 import { clojure } from './languages/clojure';
@@ -70,6 +72,7 @@ import { factor } from './languages/factor';
 import { fe } from './languages/fe';
 import { fennel } from './languages/fennel';
 import { fish } from './languages/fish';
+import { flatbuffers } from './languages/flatbuffers';
 import { flux } from './languages/flux';
 import { forth } from './languages/forth';
 import { fortran } from './languages/fortran';
@@ -140,6 +143,7 @@ import { markdown } from './languages/markdown';
 import { marlowe } from './languages/marlowe';
 import { mathematica } from './languages/mathematica';
 import { matlab } from './languages/matlab';
+import { maxima } from './languages/maxima';
 import { mdx } from './languages/mdx';
 import { mercury } from './languages/mercury';
 import { mermaid } from './languages/mermaid';
@@ -163,6 +167,7 @@ import { ocaml } from './languages/ocaml';
 import { odin } from './languages/odin';
 import { openapi } from './languages/openapi';
 import { opencl } from './languages/opencl';
+import { org } from './languages/org';
 import { pascal } from './languages/pascal';
 import { perl } from './languages/perl';
 import { php } from './languages/php';
@@ -172,6 +177,7 @@ import { plI } from './languages/pl-i';
 import { plantuml } from './languages/plantuml';
 import { plpgsql } from './languages/plpgsql';
 import { plsql } from './languages/plsql';
+import { pod } from './languages/pod';
 import { pony } from './languages/pony';
 import { powershell } from './languages/powershell';
 import { prolog } from './languages/prolog';
@@ -221,10 +227,13 @@ import { svg } from './languages/svg';
 import { svn } from './languages/svn';
 import { swift } from './languages/swift';
 import { tcl } from './languages/tcl';
+import { tcsh } from './languages/tcsh';
 import { tex } from './languages/tex';
+import { textile } from './languages/textile';
 import { thrift } from './languages/thrift';
 import { tlaPlus } from './languages/tla-plus';
 import { toml } from './languages/toml';
+import { troff } from './languages/troff';
 import { tsql } from './languages/tsql';
 import { twig } from './languages/twig';
 import { typescript } from './languages/typescript';
@@ -233,6 +242,7 @@ import { unison } from './languages/unison';
 import { v } from './languages/v';
 import { vala } from './languages/vala';
 import { vale } from './languages/vale';
+import { velocity } from './languages/velocity';
 import { verilog } from './languages/verilog';
 import { verse } from './languages/verse';
 import { vhdl } from './languages/vhdl';
@@ -275,6 +285,7 @@ export const languages = [
   astro,
   austral,
   autohotkey,
+  avroIdl,
   awk,
   ballerina,
   bash,
@@ -291,6 +302,7 @@ export const languages = [
   cairo,
   capnproto,
   carbon,
+  cel,
   chapel,
   circom,
   clojure,
@@ -328,6 +340,7 @@ export const languages = [
   fe,
   fennel,
   fish,
+  flatbuffers,
   flux,
   forth,
   fortran,
@@ -398,6 +411,7 @@ export const languages = [
   marlowe,
   mathematica,
   matlab,
+  maxima,
   mdx,
   mermaid,
   meson,
@@ -421,6 +435,7 @@ export const languages = [
   odin,
   openapi,
   opencl,
+  org,
   pascal,
   perl,
   php,
@@ -430,6 +445,7 @@ export const languages = [
   plantuml,
   plpgsql,
   plsql,
+  pod,
   pony,
   powershell,
   prolog,
@@ -479,10 +495,13 @@ export const languages = [
   svn,
   swift,
   tcl,
+  tcsh,
   tex,
+  textile,
   thrift,
   tlaPlus,
   toml,
+  troff,
   tsql,
   twig,
   typescript,
@@ -491,6 +510,7 @@ export const languages = [
   v,
   vala,
   vale,
+  velocity,
   verilog,
   verse,
   vhdl,

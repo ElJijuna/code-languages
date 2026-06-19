@@ -296,6 +296,17 @@ const checkers = {
       sourceUrl: 'https://api.github.com/repos/AutoHotkey/AutoHotkey/releases/latest',
     };
   },
+  async 'avro-idl'() {
+    const xml = await fetchText(
+      'https://repo1.maven.org/maven2/org/apache/avro/avro/maven-metadata.xml',
+    );
+    const match = xml.match(/<release>(\d+\.\d+\.\d+)<\/release>/);
+
+    return {
+      latestVersion: match?.[1],
+      sourceUrl: 'https://repo1.maven.org/maven2/org/apache/avro/avro/maven-metadata.xml',
+    };
+  },
   async bash() {
     const html = await fetchText('https://ftp.gnu.org/gnu/bash/');
     const versions = [...html.matchAll(/bash-(\d+\.\d+(?:\.\d+)?)\.tar\.gz/g)].map(
@@ -335,6 +346,14 @@ const checkers = {
     return {
       latestVersion: latestNightly ? '0.0.0 nightly' : undefined,
       sourceUrl: 'https://api.github.com/repos/carbon-language/carbon-lang/tags',
+    };
+  },
+  async cel() {
+    const json = await fetchJson('https://api.github.com/repos/cel-expr/cel-spec/releases/latest');
+
+    return {
+      latestVersion: normalizeVersion(json.tag_name),
+      sourceUrl: 'https://api.github.com/repos/cel-expr/cel-spec/releases/latest',
     };
   },
   async chapel() {
@@ -506,6 +525,15 @@ const checkers = {
     return {
       latestVersion: normalizeVersion(json.tag_name),
       sourceUrl: 'https://api.github.com/repos/fish-shell/fish-shell/releases/latest',
+    };
+  },
+  async flatbuffers() {
+    const json = await fetchJson('https://api.github.com/repos/google/flatbuffers/releases/latest');
+    const match = String(json.tag_name ?? '').match(/^v(\d+\.\d+\.\d+)/);
+
+    return {
+      latestVersion: match?.[1],
+      sourceUrl: 'https://api.github.com/repos/google/flatbuffers/releases/latest',
     };
   },
   async fennel() {
@@ -781,6 +809,17 @@ const checkers = {
       sourceUrl: 'https://www.mathworks.com/company/newsroom.html',
     };
   },
+  async maxima() {
+    const html = await fetchText('https://sourceforge.net/projects/maxima/files/Maxima-source/');
+    const versions = [...html.matchAll(/5\.(\d+)\.(\d+)-source/g)].map(
+      (match) => `5.${match[1]}.${match[2]}`,
+    );
+
+    return {
+      latestVersion: latestSemver(versions),
+      sourceUrl: 'https://sourceforge.net/projects/maxima/files/Maxima-source/',
+    };
+  },
   async markdown() {
     const html = await fetchText('https://spec.commonmark.org/');
     const versions = [...html.matchAll(/\/(\d+\.\d+(?:\.\d+)?)\//g)].map((match) => match[1]);
@@ -866,6 +905,15 @@ const checkers = {
       sourceUrl: 'https://nim-lang.org/',
     };
   },
+  async org() {
+    const html = await fetchText('https://orgmode.org/Changes.html');
+    const match = html.match(/Version\s+(\d+\.\d+(?:\.\d+)?)/i);
+
+    return {
+      latestVersion: match?.[1],
+      sourceUrl: 'https://orgmode.org/Changes.html',
+    };
+  },
   async pascal() {
     const html = await fetchText('https://www.freepascal.org/download.html.en');
     const match = html.match(/latest release is[\s\S]{0,80}?(\d+\.\d+\.\d+)/i);
@@ -883,6 +931,17 @@ const checkers = {
 
     return {
       latestVersion: match?.[1],
+      sourceUrl: 'https://dev.perl.org/perl5/',
+    };
+  },
+  async pod() {
+    const html = await fetchText('https://dev.perl.org/perl5/');
+    const match = html.match(
+      /Perl[\s\S]{0,100}?(\d+\.\d+\.\d+)[\s\S]{0,80}?is the current stable version/i,
+    );
+
+    return {
+      latestVersion: match ? `Perl ${match[1]}` : undefined,
       sourceUrl: 'https://dev.perl.org/perl5/',
     };
   },
@@ -1066,6 +1125,15 @@ const checkers = {
       sourceUrl: 'https://www.tcl-lang.org/software/tcltk/9.0.html',
     };
   },
+  async tcsh() {
+    const html = await fetchText('http://ftp.astron.com/pub/tcsh/');
+    const versions = [...html.matchAll(/tcsh-(\d+\.\d+\.\d+)\.tar\.gz/g)].map((match) => match[1]);
+
+    return {
+      latestVersion: latestSemver(versions),
+      sourceUrl: 'http://ftp.astron.com/pub/tcsh/',
+    };
+  },
   async tex() {
     const json = await fetchJson('https://ctan.org/json/2.0/pkg/texlive');
 
@@ -1074,12 +1142,31 @@ const checkers = {
       sourceUrl: 'https://ctan.org/json/2.0/pkg/texlive',
     };
   },
+  async textile() {
+    const json = await fetchJson(
+      'https://api.github.com/repos/textile/php-textile/releases/latest',
+    );
+
+    return {
+      latestVersion: normalizeVersion(json.tag_name),
+      sourceUrl: 'https://api.github.com/repos/textile/php-textile/releases/latest',
+    };
+  },
   async toml() {
     const json = await fetchJson('https://api.github.com/repos/toml-lang/toml/releases/latest');
 
     return {
       latestVersion: normalizeVersion(json.tag_name),
       sourceUrl: 'https://api.github.com/repos/toml-lang/toml/releases/latest',
+    };
+  },
+  async troff() {
+    const html = await fetchText('https://ftp.gnu.org/gnu/groff/');
+    const versions = [...html.matchAll(/groff-(\d+\.\d+\.\d+)\.tar\.gz/g)].map((match) => match[1]);
+
+    return {
+      latestVersion: `GNU groff ${latestSemver(versions)}`,
+      sourceUrl: 'https://ftp.gnu.org/gnu/groff/',
     };
   },
   async twig() {
@@ -1118,6 +1205,18 @@ const checkers = {
     return {
       latestVersion: match?.[1],
       sourceUrl: 'https://learn.microsoft.com/en-us/dotnet/visual-basic/whats-new/',
+    };
+  },
+  async velocity() {
+    const xml = await fetchText(
+      'https://repo1.maven.org/maven2/org/apache/velocity/velocity-engine-core/maven-metadata.xml',
+    );
+    const match = xml.match(/<release>(\d+\.\d+\.\d+)<\/release>/);
+
+    return {
+      latestVersion: match?.[1],
+      sourceUrl:
+        'https://repo1.maven.org/maven2/org/apache/velocity/velocity-engine-core/maven-metadata.xml',
     };
   },
   async vue() {

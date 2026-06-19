@@ -151,6 +151,11 @@
       "import": "./dist/languages/autohotkey.js",
       "require": "./dist/languages/autohotkey.cjs"
     },
+    "./avro-idl": {
+      "types": "./dist/languages/avro-idl.d.ts",
+      "import": "./dist/languages/avro-idl.js",
+      "require": "./dist/languages/avro-idl.cjs"
+    },
     "./awk": {
       "types": "./dist/languages/awk.d.ts",
       "import": "./dist/languages/awk.js",
@@ -230,6 +235,11 @@
       "types": "./dist/languages/carbon.d.ts",
       "import": "./dist/languages/carbon.js",
       "require": "./dist/languages/carbon.cjs"
+    },
+    "./cel": {
+      "types": "./dist/languages/cel.d.ts",
+      "import": "./dist/languages/cel.js",
+      "require": "./dist/languages/cel.cjs"
     },
     "./chapel": {
       "types": "./dist/languages/chapel.d.ts",
@@ -415,6 +425,11 @@
       "types": "./dist/languages/fish.d.ts",
       "import": "./dist/languages/fish.js",
       "require": "./dist/languages/fish.cjs"
+    },
+    "./flatbuffers": {
+      "types": "./dist/languages/flatbuffers.d.ts",
+      "import": "./dist/languages/flatbuffers.js",
+      "require": "./dist/languages/flatbuffers.cjs"
     },
     "./flux": {
       "types": "./dist/languages/flux.d.ts",
@@ -766,6 +781,11 @@
       "import": "./dist/languages/matlab.js",
       "require": "./dist/languages/matlab.cjs"
     },
+    "./maxima": {
+      "types": "./dist/languages/maxima.d.ts",
+      "import": "./dist/languages/maxima.js",
+      "require": "./dist/languages/maxima.cjs"
+    },
     "./mdx": {
       "types": "./dist/languages/mdx.d.ts",
       "import": "./dist/languages/mdx.js",
@@ -881,6 +901,11 @@
       "import": "./dist/languages/opencl.js",
       "require": "./dist/languages/opencl.cjs"
     },
+    "./org": {
+      "types": "./dist/languages/org.d.ts",
+      "import": "./dist/languages/org.js",
+      "require": "./dist/languages/org.cjs"
+    },
     "./pascal": {
       "types": "./dist/languages/pascal.d.ts",
       "import": "./dist/languages/pascal.js",
@@ -925,6 +950,11 @@
       "types": "./dist/languages/plsql.d.ts",
       "import": "./dist/languages/plsql.js",
       "require": "./dist/languages/plsql.cjs"
+    },
+    "./pod": {
+      "types": "./dist/languages/pod.d.ts",
+      "import": "./dist/languages/pod.js",
+      "require": "./dist/languages/pod.cjs"
     },
     "./pony": {
       "types": "./dist/languages/pony.d.ts",
@@ -1171,10 +1201,20 @@
       "import": "./dist/languages/tcl.js",
       "require": "./dist/languages/tcl.cjs"
     },
+    "./tcsh": {
+      "types": "./dist/languages/tcsh.d.ts",
+      "import": "./dist/languages/tcsh.js",
+      "require": "./dist/languages/tcsh.cjs"
+    },
     "./tex": {
       "types": "./dist/languages/tex.d.ts",
       "import": "./dist/languages/tex.js",
       "require": "./dist/languages/tex.cjs"
+    },
+    "./textile": {
+      "types": "./dist/languages/textile.d.ts",
+      "import": "./dist/languages/textile.js",
+      "require": "./dist/languages/textile.cjs"
     },
     "./thrift": {
       "types": "./dist/languages/thrift.d.ts",
@@ -1190,6 +1230,11 @@
       "types": "./dist/languages/toml.d.ts",
       "import": "./dist/languages/toml.js",
       "require": "./dist/languages/toml.cjs"
+    },
+    "./troff": {
+      "types": "./dist/languages/troff.d.ts",
+      "import": "./dist/languages/troff.js",
+      "require": "./dist/languages/troff.cjs"
     },
     "./tsql": {
       "types": "./dist/languages/tsql.d.ts",
@@ -1230,6 +1275,11 @@
       "types": "./dist/languages/vale.d.ts",
       "import": "./dist/languages/vale.js",
       "require": "./dist/languages/vale.cjs"
+    },
+    "./velocity": {
+      "types": "./dist/languages/velocity.d.ts",
+      "import": "./dist/languages/velocity.js",
+      "require": "./dist/languages/velocity.cjs"
     },
     "./verilog": {
       "types": "./dist/languages/verilog.d.ts",
