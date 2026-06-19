@@ -12,7 +12,7 @@ export const marlowe = {
     ecosystems: ['Cardano', 'Financial contracts'],
   },
   version: 'Marlowe Runtime',
-  logo: 'https://dummyimage.com/32x32/6D28D9/ffffff.png&text=Ma',
+  logo: 'https://marlowe.iohk.io/marlowe-footer-logo-large-dark-mode.svg',
   color: '#6D28D9',
   i18n: {
     en: {

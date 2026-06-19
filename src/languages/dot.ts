@@ -12,7 +12,7 @@ export const dot = {
     ecosystems: ['Visualization', 'Documentation'],
   },
   version: 'stable',
-  logo: 'https://dummyimage.com/32x32/16A34A/ffffff.png&text=GV',
+  logo: 'https://graphviz.org/Resources/favicon.png',
   color: '#16A34A',
   i18n: {
     en: {

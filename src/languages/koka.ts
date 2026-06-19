@@ -13,7 +13,7 @@ export const koka = {
     ecosystems: ['Effect Systems', 'Functional Programming', 'Research'],
   },
   version: '3.2.2',
-  logo: 'https://dummyimage.com/32x32/0891B2/ffffff.png&text=K',
+  logo: 'https://koka-lang.github.io/koka/doc/images/koka-logo-filled.png',
   color: '#0891B2',
   i18n: {
     en: {

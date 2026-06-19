@@ -12,7 +12,7 @@ export const aql = {
     ecosystems: ['Graph databases', 'Document databases'],
   },
   version: 'ArangoDB AQL',
-  logo: 'https://dummyimage.com/32x32/16A34A/ffffff.png&text=AQ',
+  logo: 'https://cdn.simpleicons.org/arangodb/DDE072',
   color: '#16A34A',
   i18n: {
     en: {

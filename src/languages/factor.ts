@@ -13,7 +13,7 @@ export const factor = {
     ecosystems: ['Interactive Development', 'Language Research', 'Desktop Tools'],
   },
   version: '0.101',
-  logo: 'https://dummyimage.com/32x32/F97316/ffffff.png&text=F',
+  logo: 'https://factorcode.org/favicon-96x96.png',
   color: '#F97316',
   i18n: {
     en: {

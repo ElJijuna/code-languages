@@ -11,7 +11,7 @@ export const editorconfig = {
     ecosystems: ['Editors', 'Code formatting'],
   },
   version: 'stable',
-  logo: 'https://dummyimage.com/32x32/0F766E/ffffff.png&text=EC',
+  logo: 'https://editorconfig.org/logo.png',
   color: '#0F766E',
   i18n: {
     en: {

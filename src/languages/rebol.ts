@@ -12,7 +12,7 @@ export const rebol = {
     ecosystems: ['Scripting', 'DSLs', 'Network Tools'],
   },
   version: 'Rebol 3',
-  logo: 'https://dummyimage.com/32x32/7C2D12/ffffff.png&text=Re',
+  logo: 'https://www.rebol.com/graphics/reb-logo.gif',
   color: '#7C2D12',
   i18n: {
     en: {

@@ -12,7 +12,7 @@ export const jmespath = {
     ecosystems: ['JSON', 'Cloud tooling'],
   },
   version: 'stable',
-  logo: 'https://dummyimage.com/32x32/2F80ED/ffffff.png',
+  logo: 'https://jmespath.org/_static/img/logo.png',
   color: '#2F80ED',
   i18n: {
     en: {

@@ -13,7 +13,7 @@ export const ante = {
     ecosystems: ['Systems Programming', 'Research', 'Compiler Development'],
   },
   version: 'experimental',
-  logo: 'https://dummyimage.com/32x32/4F46E5/ffffff.png&text=A',
+  logo: 'https://antelang.org/img/apple-touch-icon.png',
   color: '#4F46E5',
   i18n: {
     en: {

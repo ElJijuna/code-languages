@@ -13,7 +13,7 @@ export const mercury = {
     ecosystems: ['Logic Programming', 'Declarative Systems', 'Academic Computing'],
   },
   version: '22.01.8',
-  logo: 'https://dummyimage.com/32x32/0891B2/ffffff.png&text=Me',
+  logo: 'https://www.mercurylang.org/favicon.ico',
   color: '#0891B2',
   i18n: {
     en: {

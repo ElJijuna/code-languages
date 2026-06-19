@@ -13,7 +13,7 @@ export const ligo = {
     ecosystems: ['Tezos'],
   },
   version: '1.x',
-  logo: 'https://dummyimage.com/32x32/0D9488/ffffff.png&text=Li',
+  logo: 'https://ligolang.org/img/logo/logo.png',
   color: '#0D9488',
   i18n: {
     en: {

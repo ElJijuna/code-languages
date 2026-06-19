@@ -12,7 +12,7 @@ export const capnproto = {
     ecosystems: ['RPC', 'Serialization'],
   },
   version: 'stable',
-  logo: 'https://dummyimage.com/32x32/F97316/ffffff.png&text=CP',
+  logo: 'https://capnproto.org/images/logo.png',
   color: '#F97316',
   i18n: {
     en: {

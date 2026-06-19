@@ -12,7 +12,7 @@ export const maxima = {
     ecosystems: ['Computer Algebra', 'Mathematics', 'Scientific Computing'],
   },
   version: '5.49.0',
-  logo: 'https://dummyimage.com/32x32/92278F/ffffff.png&text=MX',
+  logo: 'https://maxima.sourceforge.io/img/maxima.svg',
   color: '#92278F',
   i18n: {
     en: {

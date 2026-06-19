@@ -12,7 +12,7 @@ export const fe = {
     ecosystems: ['Ethereum', 'EVM'],
   },
   version: 'experimental',
-  logo: 'https://dummyimage.com/32x32/4F46E5/ffffff.png&text=Fe',
+  logo: 'https://fe-lang.org/favicon.png',
   color: '#4F46E5',
   i18n: {
     en: {

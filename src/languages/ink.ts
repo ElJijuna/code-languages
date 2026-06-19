@@ -13,7 +13,7 @@ export const ink = {
     ecosystems: ['Polkadot', 'Substrate', 'Rust'],
   },
   version: 'Ink! 6',
-  logo: 'https://dummyimage.com/32x32/EC4899/ffffff.png&text=In',
+  logo: 'https://use.ink/img/favicon.png',
   color: '#EC4899',
   i18n: {
     en: {

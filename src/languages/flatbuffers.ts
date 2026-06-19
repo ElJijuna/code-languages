@@ -12,7 +12,7 @@ export const flatbuffers = {
     ecosystems: ['Serialization', 'Games', 'Mobile'],
   },
   version: '25.12.19',
-  logo: 'https://dummyimage.com/32x32/0F9D58/ffffff.png&text=FB',
+  logo: 'https://flatbuffers.dev/assets/images/favicon.png',
   color: '#0F9D58',
   i18n: {
     en: {

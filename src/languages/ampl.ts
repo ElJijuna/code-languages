@@ -12,7 +12,7 @@ export const ampl = {
     ecosystems: ['Optimization', 'Operations research'],
   },
   version: 'stable',
-  logo: 'https://dummyimage.com/32x32/1D4ED8/ffffff.png&text=AM',
+  logo: 'https://ampl.com/wp-content/uploads/AMPL-favicon-36x29-1.svg',
   color: '#1D4ED8',
   i18n: {
     en: {

@@ -13,7 +13,7 @@ export const awk = {
     ecosystems: ['Unix', 'Text Processing', 'Shell', 'Data Extraction'],
   },
   version: 'GNU Awk 5.4.0',
-  logo: 'https://www.gnu.org/graphics/heckert_gnu.small.png',
+  logo: 'https://cdn.simpleicons.org/gnu/A42E2B',
   color: '#4E9A06',
   i18n: {
     en: {

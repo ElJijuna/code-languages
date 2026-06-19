@@ -12,7 +12,7 @@ export const isabelle = {
     ecosystems: ['Formal Methods', 'Proof Assistants', 'Higher-order Logic'],
   },
   version: 'Isabelle2025-2',
-  logo: 'https://dummyimage.com/32x32/6A5ACD/ffffff.png&text=Is',
+  logo: 'https://isabelle.in.tum.de/img/favicon.ico',
   color: '#6A5ACD',
   i18n: {
     en: {

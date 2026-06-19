@@ -13,7 +13,7 @@ export const dafny = {
     ecosystems: ['Formal Methods', '.NET', 'Verification'],
   },
   version: '4.11.0',
-  logo: 'https://dummyimage.com/32x32/0B6D91/ffffff.png&text=D',
+  logo: 'https://dafny.org/images/dafny-favicon.svg',
   color: '#0B6D91',
   i18n: {
     en: {

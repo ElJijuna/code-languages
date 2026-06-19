@@ -11,7 +11,7 @@ export const textile = {
     ecosystems: ['Web', 'CMS', 'Documentation'],
   },
   version: '4.1.4',
-  logo: 'https://dummyimage.com/32x32/CC0000/ffffff.png&text=TX',
+  logo: 'https://textile-lang.com/icon.svg',
   color: '#CC0000',
   i18n: {
     en: {

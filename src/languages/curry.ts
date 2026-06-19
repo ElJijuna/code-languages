@@ -13,7 +13,7 @@ export const curry = {
     ecosystems: ['Functional Logic Programming', 'Constraint Solving', 'Research'],
   },
   version: 'Curry 0.9.0',
-  logo: 'https://dummyimage.com/32x32/BE123C/ffffff.png&text=Cu',
+  logo: 'https://www.curry-language.org/assets/img/curry-32x32.png',
   color: '#BE123C',
   i18n: {
     en: {

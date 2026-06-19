@@ -13,7 +13,7 @@ export const freemarker = {
     ecosystems: ['Java', 'Web', 'Apache'],
   },
   version: '2.3.34',
-  logo: 'https://dummyimage.com/32x32/326CE5/ffffff.png&text=FM',
+  logo: 'https://freemarker.apache.org/favicon.png',
   color: '#326CE5',
   i18n: {
     en: {

@@ -12,7 +12,7 @@ export const avroIdl = {
     ecosystems: ['Serialization', 'RPC', 'Data Engineering'],
   },
   version: '1.12.1',
-  logo: 'https://dummyimage.com/32x32/1E88E5/ffffff.png&text=AV',
+  logo: 'https://commons.wikimedia.org/wiki/Special:FilePath/Apache_Avro_Logo.svg',
   color: '#1E88E5',
   i18n: {
     en: {

@@ -12,7 +12,7 @@ export const logo = {
     ecosystems: ['Education', 'Turtle Graphics', 'Creative Coding'],
   },
   version: 'UCBLogo 6.2',
-  logo: 'https://dummyimage.com/32x32/16A34A/ffffff.png&text=Lg',
+  logo: 'https://people.eecs.berkeley.edu/~bh/ucblogo.png',
   color: '#16A34A',
   i18n: {
     en: {

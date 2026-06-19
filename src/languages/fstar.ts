@@ -13,7 +13,7 @@ export const fstar = {
     ecosystems: ['Formal Methods', 'ML', 'Low-level Verification'],
   },
   version: '2026.04.17',
-  logo: 'https://dummyimage.com/32x32/572E91/ffffff.png&text=F%2A',
+  logo: 'https://fstar-lang.org/favicon.ico',
   color: '#572E91',
   i18n: {
     en: {

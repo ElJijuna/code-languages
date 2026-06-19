@@ -12,7 +12,7 @@ export const kdl = {
     ecosystems: ['Configuration', 'Rust', 'Structured Documents'],
   },
   version: '2.0.0',
-  logo: 'https://dummyimage.com/32x32/6B4E9B/ffffff.png&text=KDL',
+  logo: 'https://kdl.dev/assets/apple-touch-icon-DYakp7eY.png',
   color: '#6B4E9B',
   i18n: {
     en: {

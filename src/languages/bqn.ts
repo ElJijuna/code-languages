@@ -12,7 +12,7 @@ export const bqn = {
     ecosystems: ['Array Programming', 'Data Transformation', 'Recreational Computing'],
   },
   version: 'BQN specification',
-  logo: 'https://dummyimage.com/32x32/7C3AED/ffffff.png&text=BQN',
+  logo: 'https://mlochbaum.github.io/BQN/favicon.ico',
   color: '#7C3AED',
   i18n: {
     en: {

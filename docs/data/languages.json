@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-16T21:24:42.704Z",
-  "total": 254,
-  "extensions": 568,
+  "generatedAt": "2026-06-19T03:17:36.431Z",
+  "total": 264,
+  "extensions": 587,
   "locales": [
     "en",
     "es",
@@ -308,7 +308,7 @@
         ]
       },
       "version": "stable",
-      "logo": "https://dummyimage.com/32x32/1D4ED8/ffffff.png&text=AM",
+      "logo": "https://ampl.com/wp-content/uploads/AMPL-favicon-36x29-1.svg",
       "color": "#1D4ED8"
     },
     {
@@ -356,7 +356,7 @@
         ]
       },
       "version": "experimental",
-      "logo": "https://dummyimage.com/32x32/4F46E5/ffffff.png&text=A",
+      "logo": "https://antelang.org/img/apple-touch-icon.png",
       "color": "#4F46E5"
     },
     {
@@ -462,6 +462,51 @@
       "version": "0.22.0",
       "logo": "https://cdn.simpleicons.org/apache/D22128",
       "color": "#D22128"
+    },
+    {
+      "slug": "velocity",
+      "name": "Apache Velocity",
+      "description": "A Java template language for generating text from application data and objects.",
+      "longDescription": "Apache Velocity Template Language combines references, directives, loops, conditions, and macros to render text from Java objects. Templates remain separate from application code and can target HTML, email, source code, or configuration files.\n\nVelocity is commonly embedded in Java applications, build tools, generators, and web frameworks. Its engine supplies the context that templates read while controlling resource loading, escaping, and execution behavior.",
+      "esName": "Apache Velocity",
+      "esDescription": "Lenguaje de plantillas Java para generar texto desde datos y objetos de aplicaciones.",
+      "esLongDescription": "Apache Velocity Template Language combina referencias, directivas, bucles, condiciones y macros para renderizar texto desde objetos Java. Las plantillas permanecen separadas del codigo y pueden producir HTML, correos, codigo fuente o configuracion.\n\nVelocity suele integrarse en aplicaciones Java, herramientas de construccion, generadores y frameworks web. Su motor aporta el contexto que leen las plantillas y controla carga de recursos, escape y ejecucion.",
+      "itName": "Apache Velocity",
+      "itDescription": "Linguaggio di template Java per generare testo da dati e oggetti applicativi.",
+      "itLongDescription": "Apache Velocity Template Language combina riferimenti, direttive, cicli, condizioni e macro per produrre testo da oggetti Java. I template restano separati dal codice e possono generare HTML, email, codice sorgente o configurazioni.\n\nVelocity viene incorporato in applicazioni Java, strumenti di build, generatori e framework web. Il motore fornisce il contesto letto dai template e controlla caricamento delle risorse, escaping ed esecuzione.",
+      "frName": "Apache Velocity",
+      "frDescription": "Langage de templates Java pour generer du texte depuis les donnees et objets applicatifs.",
+      "frLongDescription": "Apache Velocity Template Language combine references, directives, boucles, conditions et macros pour produire du texte a partir d objets Java. Les templates restent separes du code et peuvent generer HTML, courriels, code source ou configuration.\n\nVelocity est integre aux applications Java, outils de build, generateurs et frameworks web. Son moteur fournit le contexte lu par les templates et controle chargement des ressources, echappement et execution.",
+      "deName": "Apache Velocity",
+      "deDescription": "Java-Templatesprache zur Texterzeugung aus Anwendungsdaten und Objekten.",
+      "deLongDescription": "Apache Velocity Template Language kombiniert Referenzen, Direktiven, Schleifen, Bedingungen und Makros, um Text aus Java-Objekten zu erzeugen. Templates bleiben vom Anwendungscode getrennt und konnen HTML, E-Mails, Quellcode oder Konfiguration ausgeben.\n\nVelocity wird in Java-Anwendungen, Build-Werkzeuge, Generatoren und Web-Frameworks eingebettet. Die Engine liefert den Template-Kontext und steuert Ressourcenladen, Escaping und Ausfuhrung.",
+      "ptName": "Apache Velocity",
+      "ptDescription": "Linguagem de templates Java para gerar texto a partir de dados e objetos da aplicacao.",
+      "ptLongDescription": "Apache Velocity Template Language combina referencias, diretivas, lacos, condicoes e macros para produzir texto a partir de objetos Java. Templates ficam separados do codigo e podem gerar HTML, emails, codigo-fonte ou configuracao.\n\nVelocity e incorporado em aplicacoes Java, ferramentas de build, geradores e frameworks web. Seu motor fornece o contexto lido pelos templates e controla carregamento de recursos, escape e execucao.",
+      "publishedDate": "2001-01-01",
+      "extensions": [
+        ".vm",
+        ".vtl"
+      ],
+      "author": "Apache Software Foundation",
+      "website": "https://velocity.apache.org",
+      "paradigms": [
+        "template",
+        "declarative"
+      ],
+      "tooling": {
+        "runtimes": [
+          "Apache Velocity Engine"
+        ],
+        "ecosystems": [
+          "Java",
+          "Web",
+          "Code Generation"
+        ]
+      },
+      "version": "2.4.1",
+      "logo": "https://velocity.apache.org/engine/devel/images/velocity-logo.png",
+      "color": "#2D3E50"
     },
     {
       "slug": "apex",
@@ -652,7 +697,7 @@
         ]
       },
       "version": "ArangoDB AQL",
-      "logo": "https://dummyimage.com/32x32/16A34A/ffffff.png&text=AQ",
+      "logo": "https://cdn.simpleicons.org/arangodb/DDE072",
       "color": "#16A34A"
     },
     {
@@ -1017,6 +1062,50 @@
       "color": "#6594B9"
     },
     {
+      "slug": "avro-idl",
+      "name": "Avro IDL",
+      "description": "A human-readable interface definition language for Apache Avro schemas and protocols.",
+      "longDescription": "Avro IDL defines records, enums, fixed values, errors, messages, namespaces, and imports using a syntax designed for human authors. The Avro compiler converts .avdl files into JSON protocol and schema representations.\n\nIt is used to describe serialized data and RPC interfaces shared by services and data pipelines. Generated schemas participate in Avro compatibility rules and support code generation across multiple programming languages.",
+      "esName": "Avro IDL",
+      "esDescription": "Lenguaje legible de definicion de interfaces para esquemas y protocolos Apache Avro.",
+      "esLongDescription": "Avro IDL define registros, enums, valores fijos, errores, mensajes, espacios de nombres e imports con una sintaxis pensada para personas. El compilador Avro convierte archivos .avdl en protocolos y esquemas JSON.\n\nSe usa para describir datos serializados e interfaces RPC compartidas por servicios y pipelines. Los esquemas generados siguen reglas de compatibilidad Avro y permiten generar codigo en varios lenguajes.",
+      "itName": "Avro IDL",
+      "itDescription": "Linguaggio leggibile di definizione interfacce per schemi e protocolli Apache Avro.",
+      "itLongDescription": "Avro IDL definisce record, enum, valori fissi, errori, messaggi, namespace e import con una sintassi pensata per gli autori. Il compilatore Avro converte i file .avdl in protocolli e schemi JSON.\n\nViene usato per descrivere dati serializzati e interfacce RPC condivise da servizi e pipeline. Gli schemi generati seguono le regole di compatibilita Avro e supportano generazione di codice in diversi linguaggi.",
+      "frName": "Avro IDL",
+      "frDescription": "Langage lisible de definition d interfaces pour schemas et protocoles Apache Avro.",
+      "frLongDescription": "Avro IDL definit enregistrements, enums, valeurs fixes, erreurs, messages, espaces de noms et imports avec une syntaxe destinee aux auteurs humains. Le compilateur Avro convertit les fichiers .avdl en protocoles et schemas JSON.\n\nIl sert a decrire donnees serialisees et interfaces RPC partagees par services et pipelines. Les schemas generes suivent les regles de compatibilite Avro et permettent la generation de code dans plusieurs langages.",
+      "deName": "Avro IDL",
+      "deDescription": "Menschenlesbare Schnittstellensprache fur Apache-Avro-Schemas und Protokolle.",
+      "deLongDescription": "Avro IDL definiert Records, Enums, feste Werte, Fehler, Nachrichten, Namensraume und Importe mit einer fur Menschen entworfenen Syntax. Der Avro-Compiler wandelt .avdl-Dateien in JSON-Protokolle und Schemas um.\n\nDie Sprache beschreibt serialisierte Daten und RPC-Schnittstellen fur Dienste und Datenpipelines. Erzeugte Schemas folgen Avro-Kompatibilitatsregeln und unterstutzen Codegenerierung fur mehrere Programmiersprachen.",
+      "ptName": "Avro IDL",
+      "ptDescription": "Linguagem legivel de definicao de interfaces para esquemas e protocolos Apache Avro.",
+      "ptLongDescription": "Avro IDL define registros, enums, valores fixos, erros, mensagens, namespaces e imports com sintaxe voltada a autores humanos. O compilador Avro converte arquivos .avdl em protocolos e esquemas JSON.\n\nE usada para descrever dados serializados e interfaces RPC compartilhadas por servicos e pipelines. Esquemas gerados seguem regras de compatibilidade Avro e permitem geracao de codigo em varias linguagens.",
+      "publishedDate": "2009-11-02",
+      "extensions": [
+        ".avdl"
+      ],
+      "author": "Apache Software Foundation",
+      "website": "https://avro.apache.org/docs/current/idl-language/",
+      "paradigms": [
+        "schema",
+        "interface definition"
+      ],
+      "tooling": {
+        "runtimes": [
+          "Apache Avro compiler"
+        ],
+        "ecosystems": [
+          "Serialization",
+          "RPC",
+          "Data Engineering"
+        ]
+      },
+      "version": "1.12.1",
+      "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Apache_Avro_Logo.svg",
+      "color": "#1E88E5"
+    },
+    {
       "slug": "awk",
       "name": "awk",
       "description": "A pattern-action language for scanning, transforming, and reporting on text data.",
@@ -1069,7 +1158,7 @@
         ]
       },
       "version": "GNU Awk 5.4.0",
-      "logo": "https://www.gnu.org/graphics/heckert_gnu.small.png",
+      "logo": "https://cdn.simpleicons.org/gnu/A42E2B",
       "color": "#4E9A06"
     },
     {
@@ -1566,7 +1655,7 @@
         ]
       },
       "version": "BQN specification",
-      "logo": "https://dummyimage.com/32x32/7C3AED/ffffff.png&text=BQN",
+      "logo": "https://mlochbaum.github.io/BQN/favicon.ico",
       "color": "#7C3AED"
     },
     {
@@ -1861,7 +1950,7 @@
         ]
       },
       "version": "stable",
-      "logo": "https://dummyimage.com/32x32/F97316/ffffff.png&text=CP",
+      "logo": "https://capnproto.org/images/logo.png",
       "color": "#F97316"
     },
     {
@@ -2280,6 +2369,53 @@
       "color": "#ED225D"
     },
     {
+      "slug": "cel",
+      "name": "Common Expression Language",
+      "description": "A portable, non-Turing-complete language for fast and safe expression evaluation.",
+      "longDescription": "Common Expression Language provides a compact syntax for evaluating conditions, transformations, and policy rules inside host applications. Its non-Turing-complete design keeps evaluation predictable and suitable for untrusted expressions.\n\nCEL is embedded in cloud APIs, validation systems, authorization policies, and configuration tools. A shared specification and conformance tests support compatible implementations across several host languages.",
+      "esName": "Lenguaje Comun de Expresiones",
+      "esDescription": "Lenguaje portable y no Turing-completo para evaluar expresiones de forma rapida y segura.",
+      "esLongDescription": "Common Expression Language ofrece una sintaxis compacta para evaluar condiciones, transformaciones y reglas de politica dentro de aplicaciones anfitrionas. Su diseno no Turing-completo mantiene la evaluacion predecible y apta para expresiones no confiables.\n\nCEL se integra en API de nube, sistemas de validacion, politicas de autorizacion y herramientas de configuracion. Una especificacion comun y pruebas de conformidad permiten implementaciones compatibles en varios lenguajes.",
+      "itName": "Common Expression Language",
+      "itDescription": "Linguaggio portabile e non Turing-completo per valutare espressioni in modo rapido e sicuro.",
+      "itLongDescription": "Common Expression Language offre una sintassi compatta per valutare condizioni, trasformazioni e regole di policy nelle applicazioni host. Il design non Turing-completo rende la valutazione prevedibile e adatta a espressioni non attendibili.\n\nCEL viene incorporato in API cloud, sistemi di validazione, policy di autorizzazione e strumenti di configurazione. Una specifica comune e test di conformita supportano implementazioni compatibili in diversi linguaggi.",
+      "frName": "Common Expression Language",
+      "frDescription": "Langage portable et non Turing-complet pour evaluer des expressions rapidement et surement.",
+      "frLongDescription": "Common Expression Language fournit une syntaxe compacte pour evaluer conditions, transformations et regles de politique dans des applications hotes. Sa conception non Turing-complete rend l evaluation previsible et adaptee aux expressions non fiables.\n\nCEL est integre aux API cloud, systemes de validation, politiques d autorisation et outils de configuration. Une specification commune et des tests de conformite assurent des implementations compatibles dans plusieurs langages.",
+      "deName": "Common Expression Language",
+      "deDescription": "Portable, nicht Turing-vollstandige Sprache zur schnellen und sicheren Ausdrucksauswertung.",
+      "deLongDescription": "Common Expression Language bietet eine kompakte Syntax zur Auswertung von Bedingungen, Transformationen und Richtlinien in Host-Anwendungen. Das nicht Turing-vollstandige Design macht die Auswertung vorhersehbar und fur nicht vertrauenswurdige Ausdrucke geeignet.\n\nCEL wird in Cloud-APIs, Validierungssysteme, Autorisierungsrichtlinien und Konfigurationswerkzeuge eingebettet. Eine gemeinsame Spezifikation und Konformitatstests ermoglichen kompatible Implementierungen in mehreren Sprachen.",
+      "ptName": "Common Expression Language",
+      "ptDescription": "Linguagem portavel e nao Turing-completa para avaliar expressoes com rapidez e seguranca.",
+      "ptLongDescription": "Common Expression Language oferece sintaxe compacta para avaliar condicoes, transformacoes e regras de politica em aplicacoes hospedeiras. Seu design nao Turing-completo torna a avaliacao previsivel e adequada para expressoes nao confiaveis.\n\nCEL e incorporada em APIs de nuvem, sistemas de validacao, politicas de autorizacao e ferramentas de configuracao. Uma especificacao comum e testes de conformidade sustentam implementacoes compativeis em varias linguagens.",
+      "publishedDate": "2018-01-01",
+      "extensions": [
+        ".cel"
+      ],
+      "author": "Google / CEL community",
+      "website": "https://cel.dev",
+      "paradigms": [
+        "expression",
+        "declarative",
+        "configuration"
+      ],
+      "tooling": {
+        "runtimes": [
+          "cel-go",
+          "cel-java",
+          "cel-cpp"
+        ],
+        "ecosystems": [
+          "Cloud Native",
+          "Policy",
+          "Configuration"
+        ]
+      },
+      "version": "0.25.2",
+      "logo": "https://www.gstatic.com/devrel-devsite/prod/v20cdb2337f656fc22df509b6d5402b3836a1b55334a8eea3301423a87970c4d5/cel/images/touchicon-180.png",
+      "color": "#4285F4"
+    },
+    {
       "slug": "coq",
       "name": "Coq / Rocq",
       "description": "A proof assistant and dependently typed language for certified mathematics and software.",
@@ -2609,7 +2745,7 @@
         ]
       },
       "version": "Curry 0.9.0",
-      "logo": "https://dummyimage.com/32x32/BE123C/ffffff.png&text=Cu",
+      "logo": "https://www.curry-language.org/assets/img/curry-32x32.png",
       "color": "#BE123C"
     },
     {
@@ -2815,7 +2951,7 @@
         ]
       },
       "version": "4.11.0",
-      "logo": "https://dummyimage.com/32x32/0B6D91/ffffff.png&text=D",
+      "logo": "https://dafny.org/images/dafny-favicon.svg",
       "color": "#0B6D91"
     },
     {
@@ -3061,7 +3197,7 @@
         ]
       },
       "version": "stable",
-      "logo": "https://dummyimage.com/32x32/16A34A/ffffff.png&text=GV",
+      "logo": "https://graphviz.org/Resources/favicon.png",
       "color": "#16A34A"
     },
     {
@@ -3150,7 +3286,7 @@
         ]
       },
       "version": "stable",
-      "logo": "https://dummyimage.com/32x32/0F766E/ffffff.png&text=EC",
+      "logo": "https://editorconfig.org/logo.png",
       "color": "#0F766E"
     },
     {
@@ -3522,7 +3658,7 @@
         ]
       },
       "version": "2026.04.17",
-      "logo": "https://dummyimage.com/32x32/572E91/ffffff.png&text=F%2A",
+      "logo": "https://fstar-lang.org/favicon.ico",
       "color": "#572E91"
     },
     {
@@ -3624,7 +3760,7 @@
         ]
       },
       "version": "0.101",
-      "logo": "https://dummyimage.com/32x32/F97316/ffffff.png&text=F",
+      "logo": "https://factorcode.org/favicon-96x96.png",
       "color": "#F97316"
     },
     {
@@ -3668,7 +3804,7 @@
         ]
       },
       "version": "experimental",
-      "logo": "https://dummyimage.com/32x32/4F46E5/ffffff.png&text=Fe",
+      "logo": "https://fe-lang.org/favicon.png",
       "color": "#4F46E5"
     },
     {
@@ -3770,6 +3906,50 @@
       "version": "4.7.1",
       "logo": "https://fishshell.com/assets/img/Terminal_Logo2_CRT_Flat.png",
       "color": "#4AAE21"
+    },
+    {
+      "slug": "flatbuffers",
+      "name": "FlatBuffers",
+      "description": "A schema language for memory-efficient, cross-platform serialization without unpacking.",
+      "longDescription": "FlatBuffers schemas define tables, structs, enums, unions, services, and namespaces for compact binary data. The flatc compiler generates strongly typed access code for many host languages.\n\nIts format lets applications read serialized data without a separate parsing or unpacking step. It is used in games, mobile applications, embedded systems, and performance-sensitive services where allocation and latency matter.",
+      "esName": "FlatBuffers",
+      "esDescription": "Lenguaje de esquemas para serializacion eficiente y multiplataforma sin desempaquetado.",
+      "esLongDescription": "Los esquemas FlatBuffers definen tablas, structs, enums, uniones, servicios y espacios de nombres para datos binarios compactos. El compilador flatc genera acceso tipado para muchos lenguajes anfitriones.\n\nEl formato permite leer datos serializados sin una fase separada de parseo o desempaquetado. Se usa en juegos, aplicaciones moviles, sistemas embebidos y servicios sensibles a asignaciones y latencia.",
+      "itName": "FlatBuffers",
+      "itDescription": "Linguaggio di schema per serializzazione efficiente e multipiattaforma senza unpacking.",
+      "itLongDescription": "Gli schemi FlatBuffers definiscono tabelle, struct, enum, unioni, servizi e namespace per dati binari compatti. Il compilatore flatc genera accesso fortemente tipizzato per molti linguaggi host.\n\nIl formato consente di leggere dati serializzati senza una fase separata di parsing o unpacking. E usato in giochi, applicazioni mobili, sistemi embedded e servizi sensibili ad allocazioni e latenza.",
+      "frName": "FlatBuffers",
+      "frDescription": "Langage de schema pour serialisation efficace et multiplateforme sans depaquetage.",
+      "frLongDescription": "Les schemas FlatBuffers definissent tables, structures, enums, unions, services et espaces de noms pour des donnees binaires compactes. Le compilateur flatc genere un acces fortement type pour de nombreux langages hotes.\n\nLe format permet de lire les donnees serialisees sans phase distincte d analyse ou de depaquetage. Il est utilise dans jeux, applications mobiles, systemes embarques et services sensibles aux allocations et a la latence.",
+      "deName": "FlatBuffers",
+      "deDescription": "Schemasprache fur speichereffiziente, plattformubergreifende Serialisierung ohne Entpacken.",
+      "deLongDescription": "FlatBuffers-Schemas definieren Tabellen, Structs, Enums, Unions, Dienste und Namensraume fur kompakte Binardaten. Der flatc-Compiler erzeugt stark typisierten Zugriffscode fur viele Hostsprachen.\n\nDas Format erlaubt direkten Zugriff auf serialisierte Daten ohne separaten Parsing- oder Entpackschritt. Es wird in Spielen, mobilen Anwendungen, eingebetteten Systemen und latenzkritischen Diensten eingesetzt.",
+      "ptName": "FlatBuffers",
+      "ptDescription": "Linguagem de esquema para serializacao eficiente e multiplataforma sem desempacotar.",
+      "ptLongDescription": "Esquemas FlatBuffers definem tabelas, structs, enums, unioes, servicos e namespaces para dados binarios compactos. O compilador flatc gera acesso fortemente tipado para varias linguagens hospedeiras.\n\nO formato permite ler dados serializados sem etapa separada de parsing ou desempacotamento. E usado em jogos, apps moveis, sistemas embarcados e servicos sensiveis a alocacao e latencia.",
+      "publishedDate": "2014-06-17",
+      "extensions": [
+        ".fbs"
+      ],
+      "author": "Wouter van Oortmerssen / Google",
+      "website": "https://flatbuffers.dev",
+      "paradigms": [
+        "schema",
+        "interface definition"
+      ],
+      "tooling": {
+        "runtimes": [
+          "flatc"
+        ],
+        "ecosystems": [
+          "Serialization",
+          "Games",
+          "Mobile"
+        ]
+      },
+      "version": "25.12.19",
+      "logo": "https://flatbuffers.dev/assets/images/favicon.png",
+      "color": "#0F9D58"
     },
     {
       "slug": "flux",
@@ -4018,7 +4198,7 @@
         ]
       },
       "version": "2.3.34",
-      "logo": "https://dummyimage.com/32x32/326CE5/ffffff.png&text=FM",
+      "logo": "https://freemarker.apache.org/favicon.png",
       "color": "#326CE5"
     },
     {
@@ -5332,7 +5512,7 @@
         ]
       },
       "version": "Ink! 6",
-      "logo": "https://dummyimage.com/32x32/EC4899/ffffff.png&text=In",
+      "logo": "https://use.ink/img/favicon.png",
       "color": "#EC4899"
     },
     {
@@ -5424,7 +5604,7 @@
         ]
       },
       "version": "Isabelle2025-2",
-      "logo": "https://dummyimage.com/32x32/6A5ACD/ffffff.png&text=Is",
+      "logo": "https://isabelle.in.tum.de/img/favicon.ico",
       "color": "#6A5ACD"
     },
     {
@@ -5682,7 +5862,7 @@
         ]
       },
       "version": "stable",
-      "logo": "https://dummyimage.com/32x32/2F80ED/ffffff.png",
+      "logo": "https://jmespath.org/_static/img/logo.png",
       "color": "#2F80ED"
     },
     {
@@ -5766,7 +5946,7 @@
         ]
       },
       "version": "2.2.3",
-      "logo": "https://dummyimage.com/32x32/267CB9/ffffff.png&text=J5",
+      "logo": "https://json5.dev/favicon.svg",
       "color": "#267CB9"
     },
     {
@@ -6155,7 +6335,7 @@
         ]
       },
       "version": "2.0.0",
-      "logo": "https://dummyimage.com/32x32/6B4E9B/ffffff.png&text=KDL",
+      "logo": "https://kdl.dev/assets/apple-touch-icon-DYakp7eY.png",
       "color": "#6B4E9B"
     },
     {
@@ -6203,7 +6383,7 @@
         ]
       },
       "version": "3.2.2",
-      "logo": "https://dummyimage.com/32x32/0891B2/ffffff.png&text=K",
+      "logo": "https://koka-lang.github.io/koka/doc/images/koka-logo-filled.png",
       "color": "#0891B2"
     },
     {
@@ -6455,7 +6635,7 @@
         ]
       },
       "version": "1.x",
-      "logo": "https://dummyimage.com/32x32/0D9488/ffffff.png&text=Li",
+      "logo": "https://ligolang.org/img/logo/logo.png",
       "color": "#0D9488"
     },
     {
@@ -6757,7 +6937,7 @@
         ]
       },
       "version": "UCBLogo 6.2",
-      "logo": "https://dummyimage.com/32x32/16A34A/ffffff.png&text=Lg",
+      "logo": "https://people.eecs.berkeley.edu/~bh/ucblogo.png",
       "color": "#16A34A"
     },
     {
@@ -7048,7 +7228,7 @@
         ]
       },
       "version": "Marlowe Runtime",
-      "logo": "https://dummyimage.com/32x32/6D28D9/ffffff.png&text=Ma",
+      "logo": "https://marlowe.iohk.io/marlowe-footer-logo-large-dark-mode.svg",
       "color": "#6D28D9"
     },
     {
@@ -7101,6 +7281,52 @@
       "version": "R2026a",
       "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Matlab_Logo.png",
       "color": "#E16737"
+    },
+    {
+      "slug": "maxima",
+      "name": "Maxima",
+      "description": "A symbolic computation language and computer algebra system descended from Macsyma.",
+      "longDescription": "Maxima evaluates symbolic and numeric expressions for algebra, calculus, differential equations, linear algebra, number theory, and plotting. Its interactive language supports functions, rules, pattern matching, lists, matrices, and reusable packages.\n\nThe system descends from Macsyma and is implemented primarily in Common Lisp. It is used in education, research, engineering, and automated mathematical workflows through command-line and graphical interfaces.",
+      "esName": "Maxima",
+      "esDescription": "Lenguaje de computacion simbolica y sistema algebraico descendiente de Macsyma.",
+      "esLongDescription": "Maxima evalua expresiones simbolicas y numericas para algebra, calculo, ecuaciones diferenciales, algebra lineal, teoria de numeros y graficos. Su lenguaje interactivo incluye funciones, reglas, patrones, listas, matrices y paquetes reutilizables.\n\nEl sistema desciende de Macsyma y esta implementado principalmente en Common Lisp. Se usa en educacion, investigacion, ingenieria y flujos matematicos automatizados mediante interfaces de terminal y graficas.",
+      "itName": "Maxima",
+      "itDescription": "Linguaggio di calcolo simbolico e sistema di algebra derivato da Macsyma.",
+      "itLongDescription": "Maxima valuta espressioni simboliche e numeriche per algebra, analisi, equazioni differenziali, algebra lineare, teoria dei numeri e grafici. Il linguaggio interattivo supporta funzioni, regole, pattern, liste, matrici e pacchetti riutilizzabili.\n\nIl sistema discende da Macsyma ed e implementato soprattutto in Common Lisp. Viene usato in didattica, ricerca, ingegneria e workflow matematici automatizzati tramite interfacce testuali e grafiche.",
+      "frName": "Maxima",
+      "frDescription": "Langage de calcul symbolique et systeme d algebre descendant de Macsyma.",
+      "frLongDescription": "Maxima evalue des expressions symboliques et numeriques pour algebre, calcul, equations differentielles, algebre lineaire, theorie des nombres et graphiques. Son langage interactif prend en charge fonctions, regles, motifs, listes, matrices et paquets reutilisables.\n\nLe systeme descend de Macsyma et est principalement implemente en Common Lisp. Il sert en enseignement, recherche, ingenierie et automatisation mathematique via interfaces texte et graphiques.",
+      "deName": "Maxima",
+      "deDescription": "Sprache fur symbolisches Rechnen und Computeralgebrasystem auf Basis von Macsyma.",
+      "deLongDescription": "Maxima wertet symbolische und numerische Ausdrucke fur Algebra, Analysis, Differentialgleichungen, lineare Algebra, Zahlentheorie und Diagramme aus. Die interaktive Sprache unterstutzt Funktionen, Regeln, Muster, Listen, Matrizen und wiederverwendbare Pakete.\n\nDas System stammt von Macsyma ab und ist hauptsachlich in Common Lisp implementiert. Es wird in Lehre, Forschung, Technik und automatisierten Mathematik-Workflows uber Text- und Grafikoberflachen eingesetzt.",
+      "ptName": "Maxima",
+      "ptDescription": "Linguagem de computacao simbolica e sistema de algebra descendente do Macsyma.",
+      "ptLongDescription": "Maxima avalia expressoes simbolicas e numericas para algebra, calculo, equacoes diferenciais, algebra linear, teoria dos numeros e graficos. Sua linguagem interativa suporta funcoes, regras, padroes, listas, matrizes e pacotes reutilizaveis.\n\nO sistema descende do Macsyma e e implementado principalmente em Common Lisp. E usado em ensino, pesquisa, engenharia e fluxos matematicos automatizados por interfaces de terminal e graficas.",
+      "publishedDate": "1982-01-01",
+      "extensions": [
+        ".mac",
+        ".wxm"
+      ],
+      "author": "MIT Project MAC and the Maxima community",
+      "website": "https://maxima.sourceforge.io",
+      "paradigms": [
+        "symbolic",
+        "functional",
+        "scientific"
+      ],
+      "tooling": {
+        "runtimes": [
+          "Maxima"
+        ],
+        "ecosystems": [
+          "Computer Algebra",
+          "Mathematics",
+          "Scientific Computing"
+        ]
+      },
+      "version": "5.49.0",
+      "logo": "https://maxima.sourceforge.io/img/maxima.svg",
+      "color": "#92278F"
     },
     {
       "slug": "mdx",
@@ -7200,7 +7426,7 @@
         ]
       },
       "version": "22.01.8",
-      "logo": "https://dummyimage.com/32x32/0891B2/ffffff.png&text=Me",
+      "logo": "https://www.mercurylang.org/favicon.ico",
       "color": "#0891B2"
     },
     {
@@ -8307,6 +8533,51 @@
       "color": "#F80000"
     },
     {
+      "slug": "org",
+      "name": "Org-mode",
+      "description": "A plain-text markup format for outlines, notes, planning, and literate programming.",
+      "longDescription": "Org syntax structures plain-text documents with headings, lists, links, tables, properties, timestamps, tasks, and source blocks. Files remain readable without specialized software while GNU Emacs provides rich editing and agenda features.\n\nOrg-mode supports note-taking, project planning, publishing, spreadsheets, code execution, and reproducible research. Exporters convert documents to formats such as HTML, LaTeX, Markdown, and OpenDocument.",
+      "esName": "Org-mode",
+      "esDescription": "Formato de texto plano para esquemas, notas, planificacion y programacion literaria.",
+      "esLongDescription": "La sintaxis Org estructura documentos de texto con encabezados, listas, enlaces, tablas, propiedades, fechas, tareas y bloques de codigo. Los archivos siguen siendo legibles sin software especial, mientras GNU Emacs aporta edicion y agendas avanzadas.\n\nOrg-mode permite tomar notas, planificar proyectos, publicar, usar hojas de calculo, ejecutar codigo y crear investigacion reproducible. Sus exportadores generan HTML, LaTeX, Markdown y OpenDocument.",
+      "itName": "Org-mode",
+      "itDescription": "Formato di testo semplice per outline, note, pianificazione e programmazione letterata.",
+      "itLongDescription": "La sintassi Org struttura documenti di testo con titoli, liste, link, tabelle, proprieta, timestamp, attivita e blocchi di codice. I file restano leggibili senza software speciale, mentre GNU Emacs offre modifica e agenda avanzate.\n\nOrg-mode supporta note, pianificazione, pubblicazione, fogli di calcolo, esecuzione di codice e ricerca riproducibile. Gli esportatori convertono i documenti in HTML, LaTeX, Markdown e OpenDocument.",
+      "frName": "Org-mode",
+      "frDescription": "Format texte pour plans, notes, planification et programmation litteraire.",
+      "frLongDescription": "La syntaxe Org structure les documents texte avec titres, listes, liens, tableaux, proprietes, horodatages, taches et blocs de code. Les fichiers restent lisibles sans logiciel specialise, tandis que GNU Emacs fournit edition et agendas avances.\n\nOrg-mode prend en charge notes, gestion de projets, publication, feuilles de calcul, execution de code et recherche reproductible. Ses exportateurs produisent HTML, LaTeX, Markdown et OpenDocument.",
+      "deName": "Org-mode",
+      "deDescription": "Klartext-Markupformat fur Gliederungen, Notizen, Planung und literarisches Programmieren.",
+      "deLongDescription": "Org-Syntax strukturiert Klartextdokumente mit Uberschriften, Listen, Links, Tabellen, Eigenschaften, Zeitangaben, Aufgaben und Codeblocken. Dateien bleiben ohne Spezialsoftware lesbar, wahrend GNU Emacs umfangreiche Bearbeitungs- und Agenda-Funktionen bietet.\n\nOrg-mode unterstutzt Notizen, Projektplanung, Publikation, Tabellenkalkulation, Codeausfuhrung und reproduzierbare Forschung. Exporter erzeugen HTML, LaTeX, Markdown und OpenDocument.",
+      "ptName": "Org-mode",
+      "ptDescription": "Formato de texto simples para estruturas, notas, planejamento e programacao literaria.",
+      "ptLongDescription": "A sintaxe Org estrutura documentos de texto com titulos, listas, links, tabelas, propriedades, datas, tarefas e blocos de codigo. Arquivos continuam legiveis sem software especial, enquanto GNU Emacs oferece edicao e agendas avancadas.\n\nOrg-mode suporta notas, planejamento de projetos, publicacao, planilhas, execucao de codigo e pesquisa reproduzivel. Exportadores convertem documentos para HTML, LaTeX, Markdown e OpenDocument.",
+      "publishedDate": "2003-01-01",
+      "extensions": [
+        ".org"
+      ],
+      "author": "Carsten Dominik and Org mode contributors",
+      "website": "https://orgmode.org",
+      "paradigms": [
+        "markup",
+        "outlining",
+        "literate programming"
+      ],
+      "tooling": {
+        "runtimes": [
+          "GNU Emacs"
+        ],
+        "ecosystems": [
+          "Documentation",
+          "Knowledge Management",
+          "Reproducible Research"
+        ]
+      },
+      "version": "9.8",
+      "logo": "https://orgmode.org/resources/img/org-mode-unicorn.svg",
+      "color": "#77AA99"
+    },
+    {
       "slug": "pascal",
       "name": "Pascal",
       "description": "A structured programming language and Object Pascal family used for native applications.",
@@ -8665,6 +8936,50 @@
       "version": "stable",
       "logo": "https://cdn.simpleicons.org/postgresql/4169E1",
       "color": "#4169E1"
+    },
+    {
+      "slug": "pod",
+      "name": "Plain Old Documentation",
+      "description": "A lightweight documentation markup format distributed with Perl.",
+      "longDescription": "Plain Old Documentation uses paragraph-oriented directives for headings, lists, links, code, formatting, and embedded metadata. POD can live in standalone .pod files or alongside Perl source code after the interpreter has finished reading executable statements.\n\nPerl tooling converts POD into terminal help, manual pages, HTML, and other formats. It is the standard documentation source for Perl modules, commands, language manuals, and CPAN distributions.",
+      "esName": "Plain Old Documentation",
+      "esDescription": "Formato ligero de documentacion distribuido con Perl.",
+      "esLongDescription": "Plain Old Documentation usa directivas orientadas a parrafos para encabezados, listas, enlaces, codigo, formato y metadatos. POD puede vivir en archivos .pod independientes o junto al codigo Perl despues de las sentencias ejecutables.\n\nLas herramientas Perl convierten POD en ayuda de terminal, paginas man, HTML y otros formatos. Es la fuente estandar de documentacion para modulos, comandos, manuales y distribuciones CPAN.",
+      "itName": "Plain Old Documentation",
+      "itDescription": "Formato leggero di documentazione distribuito con Perl.",
+      "itLongDescription": "Plain Old Documentation usa direttive orientate ai paragrafi per titoli, liste, link, codice, formattazione e metadati. POD puo vivere in file .pod autonomi o insieme al codice Perl dopo le istruzioni eseguibili.\n\nGli strumenti Perl convertono POD in aiuto da terminale, pagine man, HTML e altri formati. E la fonte standard di documentazione per moduli, comandi, manuali e distribuzioni CPAN.",
+      "frName": "Plain Old Documentation",
+      "frDescription": "Format leger de documentation distribue avec Perl.",
+      "frLongDescription": "Plain Old Documentation utilise des directives par paragraphes pour titres, listes, liens, code, mise en forme et metadonnees. POD peut vivre dans des fichiers .pod autonomes ou avec le code Perl apres les instructions executables.\n\nLes outils Perl convertissent POD en aide terminal, pages man, HTML et autres formats. Il constitue la source standard de documentation pour modules, commandes, manuels et distributions CPAN.",
+      "deName": "Plain Old Documentation",
+      "deDescription": "Leichtgewichtiges Dokumentationsformat, das mit Perl ausgeliefert wird.",
+      "deLongDescription": "Plain Old Documentation verwendet absatzorientierte Direktiven fur Uberschriften, Listen, Links, Code, Formatierung und Metadaten. POD kann in eigenstandigen .pod-Dateien oder nach ausfuhrbaren Anweisungen direkt im Perl-Quellcode stehen.\n\nPerl-Werkzeuge wandeln POD in Terminalhilfe, Handbuchseiten, HTML und weitere Formate um. Es ist die Standardquelle fur Dokumentation von Modulen, Befehlen, Sprachhandbuchern und CPAN-Distributionen.",
+      "ptName": "Plain Old Documentation",
+      "ptDescription": "Formato leve de documentacao distribuido com Perl.",
+      "ptLongDescription": "Plain Old Documentation usa diretivas orientadas a paragrafos para titulos, listas, links, codigo, formatacao e metadados. POD pode existir em arquivos .pod independentes ou junto ao codigo Perl apos instrucoes executaveis.\n\nFerramentas Perl convertem POD em ajuda de terminal, paginas man, HTML e outros formatos. E a fonte padrao de documentacao para modulos, comandos, manuais e distribuicoes CPAN.",
+      "publishedDate": "1994-01-01",
+      "extensions": [
+        ".pod"
+      ],
+      "author": "Larry Wall and the Perl community",
+      "website": "https://perldoc.perl.org/perlpod",
+      "paradigms": [
+        "markup",
+        "documentation"
+      ],
+      "tooling": {
+        "runtimes": [
+          "perldoc",
+          "Pod::Simple"
+        ],
+        "ecosystems": [
+          "Perl",
+          "Documentation"
+        ]
+      },
+      "version": "Perl 5.42.2",
+      "logo": "https://cdn.simpleicons.org/perl/39457E",
+      "color": "#39457E"
     },
     {
       "slug": "plantuml",
@@ -9286,7 +9601,7 @@
         ]
       },
       "version": "stable",
-      "logo": "https://dummyimage.com/32x32/41CD52/ffffff.png&text=Qt",
+      "logo": "https://d33sqmjvzgs8hq.cloudfront.net/wp-content/themes/oneqt/assets/images/favicon-32x32.png",
       "color": "#41CD52"
     },
     {
@@ -9662,7 +9977,7 @@
         ]
       },
       "version": "Rebol 3",
-      "logo": "https://dummyimage.com/32x32/7C2D12/ffffff.png&text=Re",
+      "logo": "https://www.rebol.com/graphics/reb-logo.gif",
       "color": "#7C2D12"
     },
     {
@@ -10275,7 +10590,7 @@
         ]
       },
       "version": "2024.1",
-      "logo": "https://dummyimage.com/32x32/EA580C/ffffff.png&text=Se",
+      "logo": "https://selflanguage.org/img/self-logo.png",
       "color": "#EA580C"
     },
     {
@@ -11247,6 +11562,53 @@
       "color": "#1E5AA8"
     },
     {
+      "slug": "tcsh",
+      "name": "Tcsh",
+      "description": "A C shell-compatible Unix command interpreter with editing and programmable completion.",
+      "longDescription": "Tcsh extends the C shell with command-line editing, history, aliases, job control, and programmable completion. It remains largely compatible with csh scripts while providing a more interactive command environment.\n\nThe shell is available across Unix-like systems and has longstanding use in BSD environments, engineering workstations, and legacy automation. Scripts typically use csh-style control flow and variable syntax.",
+      "esName": "Tcsh",
+      "esDescription": "Interprete Unix compatible con C shell, con edicion y completado programable.",
+      "esLongDescription": "Tcsh amplia C shell con edicion de linea, historial, alias, control de trabajos y completado programable. Mantiene amplia compatibilidad con scripts csh y ofrece un entorno de comandos mas interactivo.\n\nEl shell esta disponible en sistemas tipo Unix y tiene una larga presencia en entornos BSD, estaciones de ingenieria y automatizacion heredada. Sus scripts usan control de flujo y variables al estilo csh.",
+      "itName": "Tcsh",
+      "itDescription": "Interprete Unix compatibile con C shell, con modifica e completamento programmabile.",
+      "itLongDescription": "Tcsh estende C shell con modifica della riga di comando, cronologia, alias, controllo dei job e completamento programmabile. Mantiene ampia compatibilita con gli script csh offrendo un ambiente interattivo piu ricco.\n\nLa shell e disponibile sui sistemi Unix-like ed e usata da tempo in ambienti BSD, workstation tecniche e automazione legacy. Gli script adottano flusso di controllo e sintassi delle variabili in stile csh.",
+      "frName": "Tcsh",
+      "frDescription": "Interpreteur Unix compatible C shell avec edition et completion programmable.",
+      "frLongDescription": "Tcsh etend C shell avec edition de ligne, historique, alias, controle des taches et completion programmable. Il conserve une large compatibilite avec les scripts csh tout en offrant un environnement interactif plus riche.\n\nLe shell est disponible sur les systemes de type Unix et reste utilise dans les environnements BSD, les stations techniques et l automatisation historique. Les scripts emploient le controle de flux et les variables de style csh.",
+      "deName": "Tcsh",
+      "deDescription": "C-Shell-kompatibler Unix-Interpreter mit Bearbeitung und programmierbarer Erganzung.",
+      "deLongDescription": "Tcsh erweitert die C Shell um Kommandozeilenbearbeitung, Verlauf, Aliase, Job-Steuerung und programmierbare Vervollstandigung. Die Sprache bleibt weitgehend mit csh-Skripten kompatibel und bietet eine reichere interaktive Umgebung.\n\nDie Shell ist auf Unix-artigen Systemen verfugbar und wird seit langem in BSD-Umgebungen, technischen Workstations und alterer Automatisierung eingesetzt. Skripte verwenden Kontrollfluss und Variablensyntax im csh-Stil.",
+      "ptName": "Tcsh",
+      "ptDescription": "Interpretador Unix compativel com C shell, com edicao e conclusao programavel.",
+      "ptLongDescription": "Tcsh estende C shell com edicao de linha, historico, aliases, controle de tarefas e conclusao programavel. Mantem ampla compatibilidade com scripts csh e oferece um ambiente interativo mais rico.\n\nO shell esta disponivel em sistemas semelhantes ao Unix e tem uso historico em ambientes BSD, estacoes tecnicas e automacao legada. Scripts usam fluxo de controle e sintaxe de variaveis no estilo csh.",
+      "publishedDate": "1981-01-01",
+      "extensions": [
+        ".tcsh",
+        ".csh",
+        ".tcshrc",
+        ".cshrc"
+      ],
+      "author": "Ken Greer, Paul Placeway, Christos Zoulas, and contributors",
+      "website": "https://www.tcsh.org",
+      "paradigms": [
+        "shell",
+        "scripting",
+        "imperative"
+      ],
+      "tooling": {
+        "runtimes": [
+          "tcsh"
+        ],
+        "ecosystems": [
+          "Unix",
+          "BSD"
+        ]
+      },
+      "version": "6.24.16",
+      "logo": "https://dummyimage.com/32x32/2563EB/ffffff.png&text=TC",
+      "color": "#2563EB"
+    },
+    {
       "slug": "tex",
       "name": "TeX",
       "description": "Donald Knuth's macro-based typesetting system for precise technical and scientific documents.",
@@ -11306,6 +11668,47 @@
       "version": "TeX Live 2026",
       "logo": "https://cdn.simpleicons.org/latex/008080",
       "color": "#008080"
+    },
+    {
+      "slug": "textile",
+      "name": "Textile",
+      "description": "A lightweight markup language that converts readable plain text into structured HTML.",
+      "longDescription": "Textile provides concise syntax for headings, emphasis, links, images, lists, tables, code, and typographic substitutions. Processors transform the source into HTML while preserving readable authoring text.\n\nThe format has been used by content management systems, issue trackers, forums, and publishing tools. Multiple implementations exist, with PHP Textile serving as a maintained reference in the current ecosystem.",
+      "esName": "Textile",
+      "esDescription": "Lenguaje de marcado ligero que convierte texto legible en HTML estructurado.",
+      "esLongDescription": "Textile ofrece sintaxis concisa para encabezados, enfasis, enlaces, imagenes, listas, tablas, codigo y sustituciones tipograficas. Sus procesadores convierten la fuente en HTML manteniendo un texto facil de escribir y leer.\n\nEl formato se ha usado en gestores de contenido, trackers, foros y herramientas de publicacion. Existen varias implementaciones; PHP Textile funciona como referencia mantenida del ecosistema actual.",
+      "itName": "Textile",
+      "itDescription": "Linguaggio di markup leggero che converte testo leggibile in HTML strutturato.",
+      "itLongDescription": "Textile offre una sintassi concisa per titoli, enfasi, link, immagini, liste, tabelle, codice e sostituzioni tipografiche. I processori trasformano il sorgente in HTML mantenendo il testo facile da scrivere e leggere.\n\nIl formato e stato usato in CMS, issue tracker, forum e strumenti di pubblicazione. Esistono diverse implementazioni; PHP Textile funge da riferimento mantenuto nell ecosistema attuale.",
+      "frName": "Textile",
+      "frDescription": "Langage de balisage leger convertissant un texte lisible en HTML structure.",
+      "frLongDescription": "Textile fournit une syntaxe concise pour titres, emphase, liens, images, listes, tableaux, code et substitutions typographiques. Les processeurs transforment la source en HTML tout en gardant un texte facile a ecrire et lire.\n\nLe format a servi dans gestionnaires de contenu, suivis de problemes, forums et outils de publication. Plusieurs implementations existent; PHP Textile reste une reference maintenue de l ecosysteme actuel.",
+      "deName": "Textile",
+      "deDescription": "Leichtgewichtige Markup-Sprache, die lesbaren Klartext in strukturiertes HTML umwandelt.",
+      "deLongDescription": "Textile bietet kompakte Syntax fur Uberschriften, Hervorhebung, Links, Bilder, Listen, Tabellen, Code und typografische Ersetzungen. Prozessoren wandeln den Quelltext in HTML um, wahrend der Autorentext lesbar bleibt.\n\nDas Format wurde in Content-Management-Systemen, Issue-Trackern, Foren und Publikationswerkzeugen eingesetzt. Mehrere Implementierungen existieren; PHP Textile dient als gepflegte Referenz.",
+      "ptName": "Textile",
+      "ptDescription": "Linguagem de marcacao leve que converte texto legivel em HTML estruturado.",
+      "ptLongDescription": "Textile oferece sintaxe concisa para titulos, enfase, links, imagens, listas, tabelas, codigo e substituicoes tipograficas. Processadores transformam a fonte em HTML mantendo texto facil de escrever e ler.\n\nO formato foi usado em gestores de conteudo, rastreadores, foruns e ferramentas de publicacao. Existem varias implementacoes; PHP Textile funciona como referencia mantida no ecossistema atual.",
+      "publishedDate": "2002-12-26",
+      "extensions": [
+        ".textile"
+      ],
+      "author": "Dean Allen",
+      "website": "https://textile-lang.com",
+      "paradigms": [
+        "markup",
+        "documentation"
+      ],
+      "tooling": {
+        "ecosystems": [
+          "Web",
+          "CMS",
+          "Documentation"
+        ]
+      },
+      "version": "4.1.4",
+      "logo": "https://textile-lang.com/icon.svg",
+      "color": "#CC0000"
     },
     {
       "slug": "tla-plus",
@@ -11390,6 +11793,56 @@
       "version": "1.1.0",
       "logo": "https://cdn.simpleicons.org/toml/9C4221",
       "color": "#9C4221"
+    },
+    {
+      "slug": "troff",
+      "name": "Troff/Groff",
+      "description": "A typesetting markup language and GNU implementation used for Unix documents and man pages.",
+      "longDescription": "Troff source combines text with requests, escapes, registers, strings, and macros that control layout and typography. Macro packages such as man, mdoc, ms, me, and mom provide higher-level document conventions.\n\nGNU groff is the maintained free implementation of the historical Unix troff system. It formats manual pages, technical papers, books, and other documents for terminals, PostScript, PDF, HTML, and additional output devices.",
+      "esName": "Troff/Groff",
+      "esDescription": "Lenguaje tipografico e implementacion GNU usado para documentos Unix y paginas man.",
+      "esLongDescription": "La fuente Troff combina texto con peticiones, escapes, registros, cadenas y macros que controlan maquetacion y tipografia. Paquetes como man, mdoc, ms, me y mom ofrecen convenciones documentales de mayor nivel.\n\nGNU groff es la implementacion libre mantenida del sistema troff historico de Unix. Formatea paginas man, articulos tecnicos, libros y otros documentos para terminal, PostScript, PDF, HTML y mas destinos.",
+      "itName": "Troff/Groff",
+      "itDescription": "Linguaggio tipografico e implementazione GNU per documenti Unix e pagine man.",
+      "itLongDescription": "Il sorgente Troff combina testo con richieste, escape, registri, stringhe e macro che controllano impaginazione e tipografia. Pacchetti come man, mdoc, ms, me e mom offrono convenzioni documentali di livello superiore.\n\nGNU groff e l implementazione libera mantenuta dello storico sistema troff Unix. Formatta pagine man, articoli tecnici, libri e altri documenti per terminale, PostScript, PDF, HTML e ulteriori dispositivi.",
+      "frName": "Troff/Groff",
+      "frDescription": "Langage de composition et implementation GNU pour documents Unix et pages man.",
+      "frLongDescription": "Une source Troff combine texte, requetes, echappements, registres, chaines et macros qui controlent mise en page et typographie. Les paquets man, mdoc, ms, me et mom fournissent des conventions documentaires de plus haut niveau.\n\nGNU groff est l implementation libre maintenue du systeme troff historique d Unix. Il formate pages man, articles techniques, livres et autres documents pour terminal, PostScript, PDF, HTML et autres sorties.",
+      "deName": "Troff/Groff",
+      "deDescription": "Satz-Markup-Sprache und GNU-Implementierung fur Unix-Dokumente und Handbuchseiten.",
+      "deLongDescription": "Troff-Quelltext kombiniert Text mit Befehlen, Escape-Sequenzen, Registern, Zeichenketten und Makros zur Steuerung von Layout und Typografie. Pakete wie man, mdoc, ms, me und mom bieten hohere Dokumentkonventionen.\n\nGNU groff ist die gepflegte freie Implementierung des historischen Unix-troff-Systems. Es formatiert Handbuchseiten, technische Artikel, Bucher und andere Dokumente fur Terminal, PostScript, PDF, HTML und weitere Ausgaben.",
+      "ptName": "Troff/Groff",
+      "ptDescription": "Linguagem tipografica e implementacao GNU usada em documentos Unix e paginas man.",
+      "ptLongDescription": "Fontes Troff combinam texto com requisicoes, escapes, registradores, strings e macros que controlam layout e tipografia. Pacotes como man, mdoc, ms, me e mom oferecem convencoes documentais de nivel mais alto.\n\nGNU groff e a implementacao livre mantida do sistema troff historico do Unix. Formata paginas man, artigos tecnicos, livros e outros documentos para terminal, PostScript, PDF, HTML e outras saidas.",
+      "publishedDate": "1973-01-01",
+      "extensions": [
+        ".roff",
+        ".troff",
+        ".man",
+        ".me",
+        ".ms"
+      ],
+      "author": "Joe Ossanna, Brian Kernighan, and GNU contributors",
+      "website": "https://www.gnu.org/software/groff/",
+      "paradigms": [
+        "markup",
+        "typesetting"
+      ],
+      "tooling": {
+        "runtimes": [
+          "GNU groff",
+          "troff",
+          "nroff"
+        ],
+        "ecosystems": [
+          "Unix",
+          "Documentation",
+          "Typesetting"
+        ]
+      },
+      "version": "GNU groff 1.24.1",
+      "logo": "https://cdn.simpleicons.org/gnu/A42E2B",
+      "color": "#8F5902"
     },
     {
       "slug": "twig",

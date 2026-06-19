@@ -12,7 +12,7 @@ export const self = {
     ecosystems: ['Language Research', 'Interactive Environments', 'Prototype OO'],
   },
   version: '2024.1',
-  logo: 'https://dummyimage.com/32x32/EA580C/ffffff.png&text=Se',
+  logo: 'https://selflanguage.org/img/self-logo.png',
   color: '#EA580C',
   i18n: {
     en: {

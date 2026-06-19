@@ -12,7 +12,7 @@ export const qmake = {
     ecosystems: ['Qt', 'C++'],
   },
   version: 'stable',
-  logo: 'https://dummyimage.com/32x32/41CD52/ffffff.png&text=Qt',
+  logo: 'https://d33sqmjvzgs8hq.cloudfront.net/wp-content/themes/oneqt/assets/images/favicon-32x32.png',
   color: '#41CD52',
   i18n: {
     en: {

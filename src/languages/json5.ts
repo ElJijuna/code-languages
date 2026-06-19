@@ -13,7 +13,7 @@ export const json5 = {
     ecosystems: ['Configuration', 'Web', 'Node.js'],
   },
   version: '2.2.3',
-  logo: 'https://dummyimage.com/32x32/267CB9/ffffff.png&text=J5',
+  logo: 'https://json5.dev/favicon.svg',
   color: '#267CB9',
   i18n: {
     en: {

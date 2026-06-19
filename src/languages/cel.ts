@@ -12,7 +12,7 @@ export const cel = {
     ecosystems: ['Cloud Native', 'Policy', 'Configuration'],
   },
   version: '0.25.2',
-  logo: 'https://dummyimage.com/32x32/4285F4/ffffff.png&text=CEL',
+  logo: 'https://www.gstatic.com/devrel-devsite/prod/v20cdb2337f656fc22df509b6d5402b3836a1b55334a8eea3301423a87970c4d5/cel/images/touchicon-180.png',
   color: '#4285F4',
   i18n: {
     en: {
