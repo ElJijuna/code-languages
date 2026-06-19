@@ -1,3 +1,11 @@
+# [1.36.0](https://github.com/ElJijuna/code-languages/compare/v1.35.0...v1.36.0) (2026-06-19)
+
+
+### Features
+
+* add new language definitions ([fb00608](https://github.com/ElJijuna/code-languages/commit/fb00608e5594ff388263a223a493476f3a322e4e))
+* add new logo SVG and update logos for various languages ([90e9217](https://github.com/ElJijuna/code-languages/commit/90e9217bea25febca4f96112eb42c5ae528b871b))
+
 # [1.35.0](https://github.com/ElJijuna/code-languages/compare/v1.34.1...v1.35.0) (2026-06-16)
 
 
