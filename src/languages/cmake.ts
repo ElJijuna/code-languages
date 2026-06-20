@@ -11,7 +11,7 @@ export const cmake = {
     runtimes: ['CMake'],
     ecosystems: ['C', 'C++', 'Fortran', 'Cross-platform Builds', 'Embedded Systems'],
   },
-  version: '4.3.3',
+  version: '4.3.4',
   logo: 'https://cmake.org/wp-content/uploads/2023/08/CMake-Logo.svg',
   color: '#064F8C',
   i18n: {
