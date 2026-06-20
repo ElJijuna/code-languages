@@ -1,3 +1,22 @@
+## [1.36.1](https://github.com/ElJijuna/code-languages/compare/v1.36.0...v1.36.1) (2026-06-20)
+
+
+### Bug Fixes
+
+* update Astro metadata to 6.4.8 ([79ef83e](https://github.com/ElJijuna/code-languages/commit/79ef83eee8f019f1ef2976319b89c03f2d1126a9))
+* update Chapel metadata to 2.9.0 ([8f192b9](https://github.com/ElJijuna/code-languages/commit/8f192b9d0af1a8269415e6c4933313bd04a309c7))
+* update CMake metadata to 4.3.4 ([89b6e0e](https://github.com/ElJijuna/code-languages/commit/89b6e0e699036450883052c77e86c80b78276d01))
+* update Erlang metadata to OTP 29.0.2 ([2672fa6](https://github.com/ElJijuna/code-languages/commit/2672fa69ebab38f946704961f1397ba0c8ef857f))
+* update GDScript metadata to 4.7 ([f9678a6](https://github.com/ElJijuna/code-languages/commit/f9678a64f3c52357193bb8ad2550604823f3c96e))
+* update Gradle metadata to 9.6.0 ([0c1348c](https://github.com/ElJijuna/code-languages/commit/0c1348cfc6549ef3b8ac82378355e174cddc86ac))
+* update Lean metadata to 4.31.0 ([45c1b09](https://github.com/ElJijuna/code-languages/commit/45c1b0932292b8bb878e357c87ab883e677612d2))
+* update LLVM IR metadata to 22.1.8 ([c49d31c](https://github.com/ElJijuna/code-languages/commit/c49d31c64f45b19b369e825ddc39444c2db72a73))
+* update Luau metadata to 0.726 ([b43f154](https://github.com/ElJijuna/code-languages/commit/b43f154c8578575e13882cace3b67ab528f80bab))
+* update nginx metadata to 1.30.3 ([163b56e](https://github.com/ElJijuna/code-languages/commit/163b56e484824323c134ef930f75fb2e60394201))
+* update Nix metadata to 2.34.8 ([e874dc1](https://github.com/ElJijuna/code-languages/commit/e874dc19ab25e159e5fc114c1725dd437a5d40e1))
+* update PowerShell metadata to 7.6.3 ([cf6f27c](https://github.com/ElJijuna/code-languages/commit/cf6f27c2acf8ae0562e4ab10319173511d728139))
+* update Typst metadata to 0.15.0 ([5bf55a8](https://github.com/ElJijuna/code-languages/commit/5bf55a882556d7a591cac92071a11671471022b7))
+
 # [1.36.0](https://github.com/ElJijuna/code-languages/compare/v1.35.0...v1.36.0) (2026-06-19)
 
 
