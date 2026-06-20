@@ -12,7 +12,7 @@ export const erlang = {
     packageManagers: ['rebar3', 'Hex'],
     ecosystems: ['BEAM', 'Telecom', 'Distributed Systems', 'Fault-tolerant Systems'],
   },
-  version: 'OTP 29.0',
+  version: 'OTP 29.0.2',
   logo: 'https://cdn.simpleicons.org/erlang/A90533',
   color: '#A90533',
   i18n: {
