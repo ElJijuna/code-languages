@@ -12,7 +12,7 @@ export const nix = {
     packageManagers: ['nix', 'nix flakes'],
     ecosystems: ['Linux', 'macOS', 'NixOS', 'DevOps'],
   },
-  version: '2.34.7',
+  version: '2.34.8',
   logo: 'https://cdn.simpleicons.org/nixos/5277C3',
   color: '#5277C3',
   i18n: {
