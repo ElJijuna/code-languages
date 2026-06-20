@@ -12,7 +12,7 @@ export const gdscript = {
     packageManagers: ['Godot Asset Library'],
     ecosystems: ['Game Development', '2D Games', '3D Games'],
   },
-  version: '4.6',
+  version: '4.7',
   logo: 'https://cdn.simpleicons.org/godotengine/478CBF',
   color: '#478CBF',
   i18n: {
