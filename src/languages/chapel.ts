@@ -12,7 +12,7 @@ export const chapel = {
     packageManagers: ['Mason'],
     ecosystems: ['High-performance computing', 'Parallel computing'],
   },
-  version: '2.8.0',
+  version: '2.9.0',
   logo: 'https://chapel-lang.org/images/chapel-logo.png',
   color: '#8C1AFF',
   i18n: {
