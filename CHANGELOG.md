@@ -1,3 +1,11 @@
+## [1.36.2](https://github.com/ElJijuna/code-languages/compare/v1.36.1...v1.36.2) (2026-06-23)
+
+
+### Bug Fixes
+
+* update Astro metadata to 7.0.0 ([7a4e88b](https://github.com/ElJijuna/code-languages/commit/7a4e88ba71232ddb5d6b69e94ace5a7173754c49))
+* update Less metadata to 4.6.7 ([ad9b469](https://github.com/ElJijuna/code-languages/commit/ad9b46937c7dbd7854e0cee4f49080e2cbb2c38f))
+
 ## [1.36.1](https://github.com/ElJijuna/code-languages/compare/v1.36.0...v1.36.1) (2026-06-20)
 
 
