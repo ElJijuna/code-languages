@@ -1,3 +1,15 @@
+## [1.36.3](https://github.com/ElJijuna/code-languages/compare/v1.36.2...v1.36.3) (2026-06-24)
+
+
+### Bug Fixes
+
+* update Astro metadata to 7.0.2 ([1d8cfb7](https://github.com/ElJijuna/code-languages/commit/1d8cfb7f6afcfaa8637284e83ad682df0c1a62bd))
+* update Elixir metadata to 1.20.2 ([5657f09](https://github.com/ElJijuna/code-languages/commit/5657f09a8ce96afed0a5375faac917255e448565))
+* update Fish metadata to 4.8.0 ([5dcbf2e](https://github.com/ElJijuna/code-languages/commit/5dcbf2ede5f8f388eccef033abb06c80e846395b))
+* update Liquid metadata to 10.27.1 ([609929e](https://github.com/ElJijuna/code-languages/commit/609929e7716024287a10637cfa698f16dda010f3))
+* update R metadata to 4.6.1 ([a2d4eff](https://github.com/ElJijuna/code-languages/commit/a2d4eff5eed2de8db046130129cb746ae9413653))
+* update Svelte metadata to 5.56.4 ([83337aa](https://github.com/ElJijuna/code-languages/commit/83337aae7d1cf038aa27d786d07bcf2e1dd1678f))
+
 ## [1.36.2](https://github.com/ElJijuna/code-languages/compare/v1.36.1...v1.36.2) (2026-06-23)
 
 
