@@ -12,7 +12,7 @@ export const elixir = {
     packageManagers: ['Mix', 'Hex'],
     ecosystems: ['Web', 'Distributed Systems', 'Fault-tolerant Systems', 'Data Processing'],
   },
-  version: '1.20.1',
+  version: '1.20.2',
   logo: 'https://cdn.simpleicons.org/elixir/4B275F',
   color: '#4B275F',
   i18n: {
