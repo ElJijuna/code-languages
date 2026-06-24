@@ -331,7 +331,7 @@ from its package subpath.
 | <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LESS_Logo.svg" alt="Less logo" width="24" height="24"> | Less | `less` | `.less` | `4.6.7` | `code-languages/less` |
 | <img src="https://ligolang.org/img/logo/logo.png" alt="Ligo logo" width="24" height="24"> | Ligo | `ligo` | `.ligo`, `.mligo`, `.religo`, `.jsligo` | `1.x` | `code-languages/ligo` |
 | <img src="https://dummyimage.com/32x32/475569/ffffff.png&text=LD" alt="Linker Script logo" width="24" height="24"> | Linker Script | `linkerscript` | `.ld`, `.lds`, `.x` | `stable` | `code-languages/linkerscript` |
-| <img src="https://cdn.simpleicons.org/shopify/7AB55C" alt="Liquid logo" width="24" height="24"> | Liquid | `liquid` | `.liquid` | `10.27.0` | `code-languages/liquid` |
+| <img src="https://cdn.simpleicons.org/shopify/7AB55C" alt="Liquid logo" width="24" height="24"> | Liquid | `liquid` | `.liquid` | `10.27.1` | `code-languages/liquid` |
 | <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Lisp_logo.svg" alt="Lisp logo" width="24" height="24"> | Lisp | `lisp` | `.lisp`, `.lsp`, `.cl`, `.asd` | `ANSI INCITS 226-1994` | `code-languages/lisp` |
 | <img src="https://cdn.simpleicons.org/llvm/262D3A" alt="LLVM IR logo" width="24" height="24"> | LLVM IR | `llvm-ir` | `.ll`, `.bc` | `22.1.8` | `code-languages/llvm-ir` |
 | <img src="https://dummyimage.com/32x32/DC2626/ffffff.png&text=Lo" alt="Lobster logo" width="24" height="24"> | Lobster | `lobster` | `.lobster` | `development snapshot` | `code-languages/lobster` |
