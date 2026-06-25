@@ -1,3 +1,10 @@
+## [1.36.4](https://github.com/ElJijuna/code-languages/compare/v1.36.3...v1.36.4) (2026-06-25)
+
+
+### Bug Fixes
+
+* update Cython metadata to 3.2.6 ([d4de6b1](https://github.com/ElJijuna/code-languages/commit/d4de6b1f67f9c75f3793e731feb1e1963777b6f6))
+
 ## [1.36.3](https://github.com/ElJijuna/code-languages/compare/v1.36.2...v1.36.3) (2026-06-24)
 
 
