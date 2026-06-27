@@ -12,7 +12,7 @@ export const tcl = {
     packageManagers: ['Teapot', 'Tcl Modules'],
     ecosystems: ['GUI Applications', 'EDA', 'Automation', 'Embedded Scripting'],
   },
-  version: '9.0.3',
+  version: '9.0.4',
   logo: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tcl.svg',
   color: '#1E5AA8',
   i18n: {
