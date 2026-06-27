@@ -12,7 +12,7 @@ export const vue = {
     packageManagers: ['npm', 'pnpm', 'Yarn', 'Bun'],
     ecosystems: ['Web', 'Vue', 'Vite', 'Nuxt'],
   },
-  version: '3.5.38',
+  version: '3.5.39',
   logo: 'https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg',
   color: '#4FC08D',
   i18n: {
