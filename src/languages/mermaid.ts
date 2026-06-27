@@ -12,7 +12,7 @@ export const mermaid = {
     packageManagers: ['npm', 'Yarn', 'pnpm'],
     ecosystems: ['Documentation', 'Markdown', 'Diagrams', 'Knowledge Management'],
   },
-  version: '11.15.0',
+  version: '11.16.0',
   logo: 'https://cdn.simpleicons.org/mermaid/FF3670',
   color: '#FF3670',
   i18n: {
