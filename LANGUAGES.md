@@ -215,7 +215,7 @@
 
 ### Configuration / DSL
 
-- [ ] CEL (`cel`)
+- [x] CEL (`cel`)
 - [x] EditorConfig (`editorconfig`)
 - [x] HOCON (`hocon`)
 - [x] JSON5 (`json5`)
@@ -231,7 +231,7 @@
 
 - [x] Fish (`fish`)
 - [x] Nushell (`nushell`)
-- [ ] Tcsh (`tcsh`)
+- [x] Tcsh (`tcsh`)
 
 ### Templates
 
@@ -239,25 +239,25 @@
 - [x] FreeMarker (`freemarker`)
 - [x] Mustache (`mustache`)
 - [x] Nunjucks (`nunjucks`)
-- [ ] Velocity (`velocity`)
+- [x] Velocity (`velocity`)
 
 ### Serialization Schemas
 
-- [ ] Avro IDL (`avro-idl`)
+- [x] Avro IDL (`avro-idl`)
 - [x] Cap'n Proto (`capnproto`)
-- [ ] FlatBuffers (`flatbuffers`)
+- [x] FlatBuffers (`flatbuffers`)
 
 ### Markup / Documentation
 
-- [ ] Org-mode (`org`)
-- [ ] POD (`pod`)
-- [ ] Textile (`textile`)
-- [ ] Troff/Groff (`troff`)
+- [x] Org-mode (`org`)
+- [x] POD (`pod`)
+- [x] Textile (`textile`)
+- [x] Troff/Groff (`troff`)
 
 ### Scientific / Academic
 
 - [x] BibTeX (`bibtex`)
-- [ ] Maxima (`maxima`)
+- [x] Maxima (`maxima`)
 - [ ] Modelica (`modelica`)
 - [ ] Octave (`octave`)
 - [ ] SPSS (`spss`)
