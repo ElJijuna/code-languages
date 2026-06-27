@@ -1,3 +1,16 @@
+## [1.36.5](https://github.com/ElJijuna/code-languages/compare/v1.36.4...v1.36.5) (2026-06-27)
+
+
+### Bug Fixes
+
+* update Astro metadata to 7.0.3 ([ab254c9](https://github.com/ElJijuna/code-languages/commit/ab254c9ed48c06415f5ab8e447cfe5a82d86deea))
+* update Gradle metadata to 9.6.1 ([0116f37](https://github.com/ElJijuna/code-languages/commit/0116f37966246aa699ece4514e4fc71714d27a8d))
+* update Luau metadata to 0.727 ([6c58d1d](https://github.com/ElJijuna/code-languages/commit/6c58d1d03d6055bec5b84801405348e6d277454b))
+* update Mermaid metadata to 11.16.0 ([1846e98](https://github.com/ElJijuna/code-languages/commit/1846e9834cad36dd1ef7229081f50acab197347a))
+* update Rego metadata to OPA 1.18.0 ([517dcc2](https://github.com/ElJijuna/code-languages/commit/517dcc2e959b9520438f90f0173cd7bb70127f64))
+* update Tcl/Tk metadata to 9.0.4 ([93054ae](https://github.com/ElJijuna/code-languages/commit/93054ae4dd664a5b58523c358fb567408d7f0559))
+* update Vue metadata to 3.5.39 ([10f464f](https://github.com/ElJijuna/code-languages/commit/10f464f3da958517f4af19ff60b1baee3c3164a0))
+
 ## [1.36.4](https://github.com/ElJijuna/code-languages/compare/v1.36.3...v1.36.4) (2026-06-25)
 
 
