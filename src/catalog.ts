@@ -4,6 +4,7 @@ import { ada } from './languages/ada';
 import { agda } from './languages/agda';
 import { algol } from './languages/algol';
 import { ampl } from './languages/ampl';
+import { angelscript } from './languages/angelscript';
 import { ante } from './languages/ante';
 import { antlr } from './languages/antlr';
 import { apex } from './languages/apex';
@@ -86,6 +87,7 @@ import { gettext } from './languages/gettext';
 import { git } from './languages/git';
 import { gleam } from './languages/gleam';
 import { glsl } from './languages/glsl';
+import { gml } from './languages/gml';
 import { go } from './languages/go';
 import { gradle } from './languages/gradle';
 import { grain } from './languages/grain';
@@ -106,6 +108,7 @@ import { hy } from './languages/hy';
 import { idris } from './languages/idris';
 import { ini } from './languages/ini';
 import { ink } from './languages/ink';
+import { inkNarrative } from './languages/ink-narrative';
 import { io } from './languages/io';
 import { isabelle } from './languages/isabelle';
 import { janet } from './languages/janet';
@@ -149,12 +152,14 @@ import { mercury } from './languages/mercury';
 import { mermaid } from './languages/mermaid';
 import { meson } from './languages/meson';
 import { metal } from './languages/metal';
+import { modelica } from './languages/modelica';
 import { modula2 } from './languages/modula-2';
 import { mojo } from './languages/mojo';
 import { moonbit } from './languages/moonbit';
 import { move } from './languages/move';
 import { mustache } from './languages/mustache';
 import { n1ql } from './languages/n1ql';
+import { nextflow } from './languages/nextflow';
 import { nginx } from './languages/nginx';
 import { nickel } from './languages/nickel';
 import { nim } from './languages/nim';
@@ -164,6 +169,7 @@ import { nushell } from './languages/nushell';
 import { oberon } from './languages/oberon';
 import { objectiveC } from './languages/objective-c';
 import { ocaml } from './languages/ocaml';
+import { octave } from './languages/octave';
 import { odin } from './languages/odin';
 import { openapi } from './languages/openapi';
 import { opencl } from './languages/opencl';
@@ -211,13 +217,16 @@ import { self } from './languages/self';
 import { simula } from './languages/simula';
 import { smalltalk } from './languages/smalltalk';
 import { smarty } from './languages/smarty';
+import { snakemake } from './languages/snakemake';
 import { snobol } from './languages/snobol';
 import { solidity } from './languages/solidity';
 import { soql } from './languages/soql';
 import { spark } from './languages/spark';
 import { sparql } from './languages/sparql';
 import { spl } from './languages/spl';
+import { spss } from './languages/spss';
 import { sql } from './languages/sql';
+import { squirrel } from './languages/squirrel';
 import { standardMl } from './languages/standard-ml';
 import { starlark } from './languages/starlark';
 import { stata } from './languages/stata';
@@ -235,6 +244,7 @@ import { tlaPlus } from './languages/tla-plus';
 import { toml } from './languages/toml';
 import { troff } from './languages/troff';
 import { tsql } from './languages/tsql';
+import { twee } from './languages/twee';
 import { twig } from './languages/twig';
 import { typescript } from './languages/typescript';
 import { typst } from './languages/typst';
@@ -249,6 +259,7 @@ import { vhdl } from './languages/vhdl';
 import { visualBasic } from './languages/visual-basic';
 import { vue } from './languages/vue';
 import { vyper } from './languages/vyper';
+import { wdl } from './languages/wdl';
 import { webassembly } from './languages/webassembly';
 import { wgsl } from './languages/wgsl';
 import { wren } from './languages/wren';
@@ -282,6 +293,7 @@ export const languages = [
   asciidoc,
   asp,
   assembly,
+  angelscript,
   astro,
   austral,
   autohotkey,
@@ -353,6 +365,7 @@ export const languages = [
   gettext,
   git,
   gleam,
+  gml,
   glsl,
   go,
   gradle,
@@ -374,6 +387,7 @@ export const languages = [
   idris,
   ini,
   ink,
+  inkNarrative,
   io,
   isabelle,
   janet,
@@ -417,12 +431,14 @@ export const languages = [
   meson,
   mercury,
   metal,
+  modelica,
   mojo,
   modula2,
   moonbit,
   move,
   mustache,
   n1ql,
+  nextflow,
   nginx,
   nickel,
   nim,
@@ -431,6 +447,7 @@ export const languages = [
   nushell,
   objectiveC,
   ocaml,
+  octave,
   oberon,
   odin,
   openapi,
@@ -479,13 +496,16 @@ export const languages = [
   simula,
   smalltalk,
   smarty,
+  snakemake,
   snobol,
   solidity,
   soql,
   sparql,
   spark,
   spl,
+  spss,
   sql,
+  squirrel,
   standardMl,
   starlark,
   stata,
@@ -503,6 +523,7 @@ export const languages = [
   toml,
   troff,
   tsql,
+  twee,
   twig,
   typescript,
   typst,
@@ -518,6 +539,7 @@ export const languages = [
   vue,
   vyper,
   webassembly,
+  wdl,
   wgsl,
   wren,
   xaml,

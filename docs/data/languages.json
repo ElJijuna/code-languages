@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-19T03:17:36.431Z",
-  "total": 264,
-  "extensions": 587,
+  "generatedAt": "2026-06-27T21:28:59.030Z",
+  "total": 275,
+  "extensions": 604,
   "locales": [
     "en",
     "es",
@@ -310,6 +310,52 @@
       "version": "stable",
       "logo": "https://ampl.com/wp-content/uploads/AMPL-favicon-36x29-1.svg",
       "color": "#1D4ED8"
+    },
+    {
+      "slug": "angelscript",
+      "name": "AngelScript",
+      "description": "A statically typed scripting language designed for embedding in C++ game engines.",
+      "longDescription": "AngelScript is a scripting language designed to be embedded in C++ applications and game engines. It uses a syntax close to C++ and Java, making it familiar to game developers, while being compiled to bytecode and executed by a lightweight virtual machine with low overhead.\n\nCreated by Andreas Jonsson at AngelCode, the language provides strong typing, automatic memory management via reference counting, and a flexible registration API for exposing C++ classes and functions to scripts. It is used in commercial games and tools such as Crimsonland, Age of Wonders, and several modding communities.",
+      "esName": "AngelScript",
+      "esDescription": "Lenguaje de scripting tipado estaticamente disenado para incrustar en motores de juego C++.",
+      "esLongDescription": "AngelScript es un lenguaje de scripting disenado para incrustarse en aplicaciones C++ y motores de juego. Usa una sintaxis cercana a C++ y Java, familiar para desarrolladores de juegos, compilandose a bytecode y ejecutandose mediante una maquina virtual ligera con minima sobrecarga.\n\nCreado por Andreas Jonsson en AngelCode, el lenguaje ofrece tipado fuerte, gestion automatica de memoria mediante conteo de referencias y una API de registro flexible para exponer clases y funciones C++ a los scripts. Se usa en juegos comerciales y herramientas como Crimsonland, Age of Wonders y comunidades de mods.",
+      "itName": "AngelScript",
+      "itDescription": "Linguaggio di scripting tipato staticamente progettato per essere incorporato in motori di gioco C++.",
+      "itLongDescription": "AngelScript e un linguaggio di scripting progettato per essere incorporato in applicazioni C++ e motori di gioco. Usa una sintassi simile a C++ e Java, familiare agli sviluppatori di giochi, compilando a bytecode ed eseguito da una macchina virtuale leggera con basso overhead.\n\nCreato da Andreas Jonsson di AngelCode, il linguaggio offre tipizzazione statica, gestione automatica della memoria tramite conteggio dei riferimenti e un API di registrazione flessibile per esporre classi e funzioni C++ agli script. E usato in giochi commerciali come Crimsonland, Age of Wonders e comunita di modding.",
+      "frName": "AngelScript",
+      "frDescription": "Langage de script a typage statique concu pour etre integre dans les moteurs de jeu C++.",
+      "frLongDescription": "AngelScript est un langage de script concu pour etre integre dans des applications C++ et des moteurs de jeu. Il utilise une syntaxe proche de C++ et Java, familiere aux developpeurs de jeux, avec une compilation en bytecode executee par une machine virtuelle legere a faible surcharge.\n\nCree par Andreas Jonsson chez AngelCode, le langage offre un typage statique, une gestion automatique de la memoire par comptage de references et une API d enregistrement flexible pour exposer des classes et fonctions C++ aux scripts. Il est utilise dans des jeux commerciaux comme Crimsonland, Age of Wonders et diverses communautes de mods.",
+      "deName": "AngelScript",
+      "deDescription": "Statisch typisierte Skriptsprache fur die Einbettung in C++-Spiel-Engines.",
+      "deLongDescription": "AngelScript ist eine Skriptsprache, die fur die Einbettung in C++-Anwendungen und Spiel-Engines entwickelt wurde. Sie verwendet eine Syntax ahnlich C++ und Java, die Spieleentwicklern vertraut ist, wird zu Bytecode kompiliert und von einer leichtgewichtigen virtuellen Maschine mit geringem Overhead ausgefuhrt.\n\nVon Andreas Jonsson bei AngelCode entwickelt, bietet die Sprache starke Typisierung, automatische Speicherverwaltung uber Referenzzahlung und eine flexible Registrierungs-API zum Bereitstellen von C++-Klassen und -Funktionen fur Skripte. Sie wird in kommerziellen Spielen wie Crimsonland, Age of Wonders und verschiedenen Modding-Communities eingesetzt.",
+      "ptName": "AngelScript",
+      "ptDescription": "Linguagem de script estaticamente tipada projetada para incorporacao em engines de jogos C++.",
+      "ptLongDescription": "AngelScript e uma linguagem de script projetada para ser incorporada em aplicacoes C++ e engines de jogos. Usa uma sintaxe proxima de C++ e Java, familiar a desenvolvedores de jogos, compilando para bytecode executado por uma maquina virtual leve com baixa sobrecarga.\n\nCriada por Andreas Jonsson na AngelCode, a linguagem oferece tipagem estatica, gerenciamento automatico de memoria por contagem de referencias e uma API de registro flexivel para expor classes e funcoes C++ aos scripts. E usada em jogos comerciais como Crimsonland, Age of Wonders e comunidades de mods.",
+      "publishedDate": "2003-01-01",
+      "extensions": [
+        ".as",
+        ".angelscript"
+      ],
+      "author": "Andreas Jonsson (AngelCode)",
+      "website": "https://www.angelcode.com/angelscript",
+      "paradigms": [
+        "object-oriented",
+        "procedural",
+        "scripting"
+      ],
+      "tooling": {
+        "runtimes": [
+          "AngelScript Engine"
+        ],
+        "ecosystems": [
+          "Game Development",
+          "Embedded Scripting",
+          "Modding"
+        ]
+      },
+      "version": "2.36.1",
+      "logo": "https://dummyimage.com/32x32/2D5FA0/ffffff.png&text=AS",
+      "color": "#2D5FA0"
     },
     {
       "slug": "ante",
@@ -965,7 +1011,7 @@
           "Content"
         ]
       },
-      "version": "6.4.6",
+      "version": "7.0.3",
       "logo": "https://astro.build/assets/press/astro-icon-light.svg",
       "color": "#FF5D01"
     },
@@ -2045,7 +2091,7 @@
           "Parallel computing"
         ]
       },
-      "version": "2.8.0",
+      "version": "2.9.0",
       "logo": "https://chapel-lang.org/images/chapel-logo.png",
       "color": "#8C1AFF"
     },
@@ -2207,7 +2253,7 @@
           "Embedded Systems"
         ]
       },
-      "version": "4.3.3",
+      "version": "4.3.4",
       "logo": "https://cmake.org/wp-content/uploads/2023/08/CMake-Logo.svg",
       "color": "#064F8C"
     },
@@ -2843,7 +2889,7 @@
           "Scientific Computing"
         ]
       },
-      "version": "3.2.5",
+      "version": "3.2.6",
       "logo": "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_cython.svg",
       "color": "#FED140"
     },
@@ -3441,7 +3487,7 @@
           "Data Processing"
         ]
       },
-      "version": "1.20.1",
+      "version": "1.20.2",
       "logo": "https://cdn.simpleicons.org/elixir/4B275F",
       "color": "#4B275F"
     },
@@ -3604,7 +3650,7 @@
           "Fault-tolerant Systems"
         ]
       },
-      "version": "OTP 29.0",
+      "version": "OTP 29.0.2",
       "logo": "https://cdn.simpleicons.org/erlang/A90533",
       "color": "#A90533"
     },
@@ -3903,7 +3949,7 @@
           "Linux"
         ]
       },
-      "version": "4.7.1",
+      "version": "4.8.0",
       "logo": "https://fishshell.com/assets/img/Terminal_Logo2_CRT_Flat.png",
       "color": "#4AAE21"
     },
@@ -4294,7 +4340,7 @@
           "3D Games"
         ]
       },
-      "version": "4.6",
+      "version": "4.7",
       "logo": "https://cdn.simpleicons.org/godotengine/478CBF",
       "color": "#478CBF"
     },
@@ -4509,6 +4555,52 @@
       "color": "#5586A4"
     },
     {
+      "slug": "gml",
+      "name": "GML",
+      "description": "GameMaker Language: a scripting language for 2D game development in GameMaker Studio.",
+      "longDescription": "GML (GameMaker Language) is the scripting language used in GameMaker Studio for creating 2D games. It combines an event-driven architecture with a procedural scripting syntax inspired by C, allowing developers to control sprites, objects, rooms, and game logic through code attached to game object events.\n\nGML supports functions, arrays, structs, and lambdas, and has evolved from a simplified drag-and-drop companion into a full-featured language. It targets multiple export platforms including Windows, macOS, Linux, Android, iOS, and consoles. Its accessible design makes it a popular entry point for independent game developers.",
+      "esName": "GML",
+      "esDescription": "GameMaker Language: lenguaje de scripting para desarrollo de juegos 2D en GameMaker Studio.",
+      "esLongDescription": "GML (GameMaker Language) es el lenguaje de scripting utilizado en GameMaker Studio para crear juegos 2D. Combina una arquitectura orientada a eventos con una sintaxis procedural inspirada en C, permitiendo controlar sprites, objetos, salas y logica de juego mediante codigo adjunto a los eventos de los objetos.\n\nGML admite funciones, arrays, structs y lambdas, y ha evolucionado de un complemento simplificado de arrastrar y soltar a un lenguaje completo. Exporta a multiples plataformas como Windows, macOS, Linux, Android, iOS y consolas. Su diseno accesible lo hace popular entre desarrolladores de juegos independientes.",
+      "itName": "GML",
+      "itDescription": "GameMaker Language: linguaggio di scripting per lo sviluppo di giochi 2D in GameMaker Studio.",
+      "itLongDescription": "GML (GameMaker Language) e il linguaggio di scripting utilizzato in GameMaker Studio per creare giochi 2D. Combina un architettura event-driven con una sintassi procedurale ispirata al C, consentendo di controllare sprite, oggetti, stanze e logica di gioco tramite codice allegato agli eventi degli oggetti di gioco.\n\nGML supporta funzioni, array, struct e lambda, ed e evoluto da un semplice strumento drag-and-drop a un linguaggio completo. Supporta l esportazione su piu piattaforme tra cui Windows, macOS, Linux, Android, iOS e console. Il suo design accessibile lo rende un punto di ingresso popolare per gli sviluppatori indie.",
+      "frName": "GML",
+      "frDescription": "GameMaker Language: langage de script pour le developpement de jeux 2D dans GameMaker Studio.",
+      "frLongDescription": "GML (GameMaker Language) est le langage de script utilise dans GameMaker Studio pour creer des jeux 2D. Il combine une architecture evenementielle avec une syntaxe procedurale inspiree du C, permettant de controler sprites, objets, salles et logique de jeu via du code attache aux evenements des objets de jeu.\n\nGML prend en charge les fonctions, tableaux, structures et lambdas, et a evolue d un simple outil glisser-deposer vers un langage complet. Il cible de nombreuses plateformes d export dont Windows, macOS, Linux, Android, iOS et consoles. Sa conception accessible en fait un point d entree populaire pour les developpeurs independants.",
+      "deName": "GML",
+      "deDescription": "GameMaker Language: Skriptsprache fur 2D-Spieleentwicklung in GameMaker Studio.",
+      "deLongDescription": "GML (GameMaker Language) ist die Skriptsprache von GameMaker Studio fur die Entwicklung von 2D-Spielen. Sie kombiniert eine ereignisgesteuerte Architektur mit einer prozeduralen, an C angelehnten Syntax und ermoglicht die Steuerung von Sprites, Objekten, Raumen und Spiellogik uber an Ereignisse gebundenen Code.\n\nGML unterstutzt Funktionen, Arrays, Structs und Lambdas und hat sich von einem einfachen Drag-and-Drop-Werkzeug zu einer vollwertigen Sprache entwickelt. Es exportiert auf mehrere Plattformen wie Windows, macOS, Linux, Android, iOS und Konsolen. Sein zugangliches Design macht es zum beliebten Einstiegspunkt fur Indie-Spieleentwickler.",
+      "ptName": "GML",
+      "ptDescription": "GameMaker Language: linguagem de script para desenvolvimento de jogos 2D no GameMaker Studio.",
+      "ptLongDescription": "GML (GameMaker Language) e a linguagem de script usada no GameMaker Studio para criar jogos 2D. Combina uma arquitetura orientada a eventos com uma sintaxe procedural inspirada em C, permitindo controlar sprites, objetos, salas e logica de jogo por meio de codigo vinculado aos eventos dos objetos.\n\nGML suporta funcoes, arrays, structs e lambdas, e evoluiu de um simples complemento de arrastar e soltar para uma linguagem completa. Exporta para multiplas plataformas como Windows, macOS, Linux, Android, iOS e consoles. Seu design acessivel o torna um ponto de entrada popular para desenvolvedores de jogos independentes.",
+      "publishedDate": "1999-01-01",
+      "extensions": [
+        ".gml"
+      ],
+      "author": "YoYo Games",
+      "website": "https://gamemaker.io",
+      "paradigms": [
+        "object-oriented",
+        "event-driven",
+        "scripting",
+        "procedural"
+      ],
+      "tooling": {
+        "runtimes": [
+          "GameMaker"
+        ],
+        "ecosystems": [
+          "Game Development",
+          "2D Games",
+          "Indie Games"
+        ]
+      },
+      "version": "2024.13.0",
+      "logo": "https://cdn.simpleicons.org/gamemaker/000000",
+      "color": "#71B33C"
+    },
+    {
       "slug": "go",
       "name": "Go",
       "description": "A compiled language designed for simplicity, fast builds, and concurrency.",
@@ -4605,7 +4697,7 @@
           "Groovy"
         ]
       },
-      "version": "9.5.1",
+      "version": "9.6.1",
       "logo": "https://cdn.simpleicons.org/gradle/02303A",
       "color": "#02303A"
     },
@@ -5465,6 +5557,53 @@
       "version": "Informal format",
       "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Configure.svg",
       "color": "#525252"
+    },
+    {
+      "slug": "ink-narrative",
+      "name": "Ink",
+      "description": "A narrative scripting language for writing branching interactive fiction and story games.",
+      "longDescription": "Ink is a narrative scripting language developed by Inkle Studios for writing branching interactive stories. Its plain-text syntax uses knots, stitches, choices, and diverts to build nonlinear narratives that compile to JSON and integrate with game engines such as Unity via the Inkle runtime library.\n\nThe language is designed to be written by authors and narrative designers rather than just programmers, with a readable format close to plain prose. Ink has been used to write acclaimed games such as 80 Days, Heaven's Vault, and Overboard!, and is supported by the open-source Inky editor for authoring and testing stories.",
+      "esName": "Ink",
+      "esDescription": "Lenguaje de scripting narrativo para escribir ficcion interactiva y juegos de historia ramificados.",
+      "esLongDescription": "Ink es un lenguaje de scripting narrativo desarrollado por Inkle Studios para escribir historias interactivas ramificadas. Su sintaxis de texto plano usa nudos, puntadas, elecciones y desvios para construir narrativas no lineales que se compilan a JSON y se integran con motores como Unity mediante la biblioteca de runtime de Inkle.\n\nEl lenguaje esta disenado para ser escrito por autores y disenadores narrativos, con un formato legible cercano a la prosa. Ink se ha utilizado en juegos aclamados como 80 Days, Heaven's Vault y Overboard!, y cuenta con el editor de codigo abierto Inky para crear y probar historias.",
+      "itName": "Ink",
+      "itDescription": "Linguaggio di scripting narrativo per scrivere narrativa interattiva e giochi di storia ramificata.",
+      "itLongDescription": "Ink e un linguaggio di scripting narrativo sviluppato da Inkle Studios per scrivere storie interattive ramificate. La sua sintassi in testo semplice usa nodi, cuciture, scelte e deviazioni per costruire narrazioni non lineari che si compilano in JSON e si integrano con motori come Unity tramite la libreria di runtime Inkle.\n\nIl linguaggio e progettato per essere scritto da autori e designer narrativi, con un formato leggibile vicino alla prosa. Ink e stato usato in giochi acclamati come 80 Days, Heaven's Vault e Overboard!, ed e supportato dall editor open-source Inky per la creazione e il test delle storie.",
+      "frName": "Ink",
+      "frDescription": "Langage de script narratif pour ecrire des fictions interactives et jeux a embranchements.",
+      "frLongDescription": "Ink est un langage de script narratif developpe par Inkle Studios pour ecrire des histoires interactives ramifiees. Sa syntaxe en texte brut utilise des noeuds, des points, des choix et des deviations pour construire des recits non lineaires qui se compilent en JSON et s integrent avec des moteurs comme Unity via la bibliotheque de runtime Inkle.\n\nLe langage est concu pour etre ecrit par des auteurs et des narrateurs, avec un format lisible proche de la prose. Ink a ete utilise dans des jeux acclamEs comme 80 Days, Heaven's Vault et Overboard!, et est supporte par l editeur open-source Inky pour la creation et les tests d histoires.",
+      "deName": "Ink",
+      "deDescription": "Narrative Skriptsprache fur das Schreiben verzweigter interaktiver Fiktion und Story-Spiele.",
+      "deLongDescription": "Ink ist eine narrative Skriptsprache, die von Inkle Studios fur das Schreiben verzweigter interaktiver Geschichten entwickelt wurde. Die Klartextsyntax verwendet Knoten, Nahte, Entscheidungen und Weiterleitungen, um nichtlineare Erzahlungen zu konstruieren, die zu JSON kompiliert und uber die Inkle-Runtime-Bibliothek in Spiel-Engines wie Unity integriert werden.\n\nDie Sprache ist so gestaltet, dass sie von Autoren und Narrativdesignern geschrieben werden kann, mit einem lesbaren Format nahe an Prosa. Ink wurde in gefeierten Spielen wie 80 Days, Heaven's Vault und Overboard! eingesetzt und wird vom Open-Source-Editor Inky fur das Erstellen und Testen von Geschichten unterstutzt.",
+      "ptName": "Ink",
+      "ptDescription": "Linguagem de script narrativo para escrever ficcao interativa e jogos de historia ramificados.",
+      "ptLongDescription": "Ink e uma linguagem de script narrativo desenvolvida pela Inkle Studios para escrever historias interativas ramificadas. Sua sintaxe em texto simples usa nos, pontos, escolhas e desvios para construir narrativas nao lineares que compilam para JSON e se integram com engines como Unity via biblioteca de runtime da Inkle.\n\nA linguagem foi projetada para ser escrita por autores e designers narrativos, com um formato legivel proximo a prosa. O Ink foi usado em jogos aclamados como 80 Days, Heaven's Vault e Overboard!, e e suportado pelo editor de codigo aberto Inky para criacao e teste de historias.",
+      "publishedDate": "2016-01-01",
+      "extensions": [
+        ".ink"
+      ],
+      "author": "Inkle Studios",
+      "website": "https://www.inklestudios.com/ink",
+      "paradigms": [
+        "narrative",
+        "declarative",
+        "functional",
+        "scripting"
+      ],
+      "tooling": {
+        "runtimes": [
+          "Ink Runtime",
+          "Inky"
+        ],
+        "ecosystems": [
+          "Game Development",
+          "Interactive Fiction",
+          "Narrative Games"
+        ]
+      },
+      "version": "1.2.0",
+      "logo": "https://avatars.githubusercontent.com/u/3352266?v=4",
+      "color": "#FF6666"
     },
     {
       "slug": "ink",
@@ -6532,7 +6671,7 @@
           "Proof assistants"
         ]
       },
-      "version": "4.30.0",
+      "version": "4.31.0",
       "logo": "https://cdn.simpleicons.org/leanpub/262425",
       "color": "#262425"
     },
@@ -6585,7 +6724,7 @@
           "Bootstrap"
         ]
       },
-      "version": "4.6.6",
+      "version": "4.6.7",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/8/81/LESS_Logo.svg",
       "color": "#1D365D"
     },
@@ -6733,7 +6872,7 @@
           "E-commerce"
         ]
       },
-      "version": "10.27.0",
+      "version": "10.27.1",
       "logo": "https://cdn.simpleicons.org/shopify/7AB55C",
       "color": "#7AB55C"
     },
@@ -6843,7 +6982,7 @@
           "Toolchains"
         ]
       },
-      "version": "22.1.7",
+      "version": "22.1.8",
       "logo": "https://cdn.simpleicons.org/llvm/262D3A",
       "color": "#262D3A"
     },
@@ -7040,7 +7179,7 @@
           "Embedded scripting"
         ]
       },
-      "version": "0.725",
+      "version": "0.727",
       "logo": "https://cdn.simpleicons.org/roblox/000000",
       "color": "#000000"
     },
@@ -7478,7 +7617,7 @@
           "Knowledge Management"
         ]
       },
-      "version": "11.15.0",
+      "version": "11.16.0",
       "logo": "https://cdn.simpleicons.org/mermaid/FF3670",
       "color": "#FF3670"
     },
@@ -7584,6 +7723,55 @@
       "version": "Metal 4",
       "logo": "https://developer.apple.com/assets/elements/icons/metal/metal-256x256_2x.png",
       "color": "#999999"
+    },
+    {
+      "slug": "modelica",
+      "name": "Modelica",
+      "description": "An object-oriented, equation-based language for modeling and simulation of physical systems.",
+      "longDescription": "Modelica is a non-proprietary modeling language for describing complex physical systems in domains such as mechanical, electrical, thermal, hydraulic, and control engineering. It uses equations rather than assignment statements, enabling acausal modeling where the system structure is described independently of the computation direction.\n\nDeveloped by the Modelica Association, the language supports component-based design through class hierarchies, packages, and connectors. OpenModelica and Dymola are the most widely used environments, applied in automotive, aerospace, and energy simulation workflows.",
+      "esName": "Modelica",
+      "esDescription": "Lenguaje orientado a objetos basado en ecuaciones para modelar y simular sistemas fisicos.",
+      "esLongDescription": "Modelica es un lenguaje de modelado no propietario para describir sistemas fisicos complejos en dominios como mecanica, electronica, termofluidos, hidraulica e ingenieria de control. Usa ecuaciones en lugar de asignaciones, permitiendo el modelado acausal donde la estructura del sistema se describe independientemente de la direccion de calculo.\n\nDesarrollado por la Asociacion Modelica, el lenguaje soporta diseno basado en componentes mediante jerarquias de clases, paquetes y conectores. OpenModelica y Dymola son los entornos mas utilizados, aplicados en simulacion automotriz, aeroespacial y energetica.",
+      "itName": "Modelica",
+      "itDescription": "Linguaggio orientato agli oggetti basato su equazioni per la modellazione di sistemi fisici.",
+      "itLongDescription": "Modelica e un linguaggio di modellazione non proprietario per descrivere sistemi fisici complessi in domini come meccanica, elettronica, termodinamica, idraulica e controllo. Usa equazioni invece di assegnazioni, abilitando la modellazione acausale in cui la struttura del sistema e indipendente dalla direzione di calcolo.\n\nSviluppato dalla Modelica Association, supporta la progettazione basata su componenti tramite gerarchie di classi, pacchetti e connettori. OpenModelica e Dymola sono gli ambienti piu utilizzati, impiegati in simulazioni automotive, aerospaziali ed energetiche.",
+      "frName": "Modelica",
+      "frDescription": "Langage oriente objet base sur des equations pour la modelisation de systemes physiques.",
+      "frLongDescription": "Modelica est un langage de modelisation non proprietaire pour decrire des systemes physiques complexes dans des domaines tels que la mecanique, l electronique, la thermodynamique, l hydraulique et le controle. Il utilise des equations plutot que des affectations, permettant une modelisation acausale independante de la direction de calcul.\n\nDeveloppe par la Modelica Association, il prend en charge la conception par composants via des hierarchies de classes, des packages et des connecteurs. OpenModelica et Dymola sont les environnements les plus utilises, appliques aux simulations automobile, aerospatiale et energetique.",
+      "deName": "Modelica",
+      "deDescription": "Objektorientierte gleichungsbasierte Sprache zur Modellierung und Simulation physikalischer Systeme.",
+      "deLongDescription": "Modelica ist eine nicht-proprietare Modellierungssprache zur Beschreibung komplexer physikalischer Systeme in Bereichen wie Mechanik, Elektrotechnik, Thermodynamik, Hydraulik und Regelungstechnik. Sie verwendet Gleichungen statt Zuweisungen und ermoglicht akausale Modellierung, bei der die Systemstruktur unabhangig von der Berechnungsrichtung beschrieben wird.\n\nEntwickelt von der Modelica Association, unterstutzt die Sprache komponentenbasiertes Design durch Klassenhierarchien, Pakete und Konnektoren. OpenModelica und Dymola sind die am weitesten verbreiteten Umgebungen fur Simulation in Automobil-, Luft- und Energietechnik.",
+      "ptName": "Modelica",
+      "ptDescription": "Linguagem orientada a objetos baseada em equacoes para modelagem e simulacao de sistemas fisicos.",
+      "ptLongDescription": "Modelica e uma linguagem de modelagem nao proprietaria para descrever sistemas fisicos complexos em dominios como mecanica, eletronica, termodinamica, hidraulica e controle. Usa equacoes em vez de atribuicoes, permitindo modelagem acausal onde a estrutura do sistema e descrita independentemente da direcao de calculo.\n\nDesenvolvida pela Modelica Association, suporta design baseado em componentes por meio de hierarquias de classes, pacotes e conectores. OpenModelica e Dymola sao os ambientes mais utilizados em simulacoes automotivas, aeroespaciais e energeticas.",
+      "publishedDate": "1997-09-01",
+      "extensions": [
+        ".mo"
+      ],
+      "author": "Modelica Association",
+      "website": "https://modelica.org",
+      "paradigms": [
+        "object-oriented",
+        "declarative",
+        "equation-based",
+        "modeling"
+      ],
+      "tooling": {
+        "runtimes": [
+          "OpenModelica",
+          "Dymola",
+          "MapleSim"
+        ],
+        "ecosystems": [
+          "Physical Modeling",
+          "Simulation",
+          "Control Systems",
+          "Scientific Computing"
+        ]
+      },
+      "version": "3.6.1",
+      "logo": "https://avatars.githubusercontent.com/u/3727943?v=4",
+      "color": "#FF7300"
     },
     {
       "slug": "modula-2",
@@ -7874,6 +8062,53 @@
       "color": "#EA2328"
     },
     {
+      "slug": "nextflow",
+      "name": "Nextflow",
+      "description": "A workflow language for scalable and reproducible scientific data analysis pipelines.",
+      "longDescription": "Nextflow is a domain-specific language and runtime for writing scientific workflows that can be executed transparently on local machines, HPC clusters, and cloud platforms such as AWS, Google Cloud, and Azure. Pipelines are composed of processes connected by channels, using a dataflow programming model that enables parallelism by default.\n\nOriginally developed for bioinformatics, Nextflow has become a standard tool in genomics, proteomics, and computational biology. It supports container technologies such as Docker and Singularity, version-controlled pipeline sharing via Nextflow Tower, and full integration with popular workflow registries.",
+      "esName": "Nextflow",
+      "esDescription": "Lenguaje de flujo de trabajo para pipelines de analisis cientifico escalables y reproducibles.",
+      "esLongDescription": "Nextflow es un lenguaje de dominio especifico y entorno de ejecucion para escribir flujos de trabajo cientificos que pueden ejecutarse transparentemente en maquinas locales, clusters HPC y plataformas en la nube como AWS, Google Cloud y Azure. Los pipelines se componen de procesos conectados por canales, usando un modelo de programacion de flujo de datos con paralelismo por defecto.\n\nDesarrollado originalmente para bioinformatica, Nextflow se ha convertido en una herramienta estandar en genomica, proteomica y biologia computacional. Admite contenedores Docker y Singularity, intercambio de pipelines con control de versiones mediante Nextflow Tower e integracion con registros de flujos de trabajo.",
+      "itName": "Nextflow",
+      "itDescription": "Linguaggio per pipeline di analisi scientifica scalabili e riproducibili.",
+      "itLongDescription": "Nextflow e un linguaggio specifico di dominio e runtime per scrivere flussi di lavoro scientifici eseguibili su macchine locali, cluster HPC e piattaforme cloud come AWS, Google Cloud e Azure. Le pipeline sono composte da processi connessi da canali, usando un modello di programmazione a flusso di dati con parallelismo predefinito.\n\nSviluppato originariamente per la bioinformatica, Nextflow e diventato uno strumento standard in genomica, proteomica e biologia computazionale. Supporta container Docker e Singularity, condivisione di pipeline con controllo versione tramite Nextflow Tower e integrazione con i principali registri di workflow.",
+      "frName": "Nextflow",
+      "frDescription": "Langage de workflow pour pipelines d analyse scientifique evolutifs et reproductibles.",
+      "frLongDescription": "Nextflow est un langage dedie et un environnement d execution pour ecrire des workflows scientifiques pouvant etre executes sur des machines locales, des clusters HPC et des plateformes cloud telles qu AWS, Google Cloud et Azure. Les pipelines sont composes de processus connectes par des canaux, utilisant un modele de programmation par flux de donnees avec parallelisme natif.\n\nDeveloppe initialement pour la bioinformatique, Nextflow est devenu un outil standard en genomique, proteomique et biologie computationnelle. Il prend en charge les conteneurs Docker et Singularity, le partage de pipelines avec Nextflow Tower et l integration avec les registres de workflows.",
+      "deName": "Nextflow",
+      "deDescription": "Workflow-Sprache fur skalierbare und reproduzierbare wissenschaftliche Analyse-Pipelines.",
+      "deLongDescription": "Nextflow ist eine domainenspezifische Sprache und Laufzeitumgebung fur wissenschaftliche Workflows, die transparent auf lokalen Rechnern, HPC-Clustern und Cloud-Plattformen wie AWS, Google Cloud und Azure ausgefuhrt werden konnen. Pipelines bestehen aus durch Kanale verbundenen Prozessen und nutzen ein Datenflussprogrammiermodell mit standardmassiger Parallelisierung.\n\nUrsprunglich fur die Bioinformatik entwickelt, ist Nextflow zum Standardwerkzeug in Genomik, Proteomik und Computerbiologie geworden. Es unterstutzt Container wie Docker und Singularity, versionskontrolliertes Pipeline-Sharing uber Nextflow Tower und Integration mit gangigen Workflow-Registries.",
+      "ptName": "Nextflow",
+      "ptDescription": "Linguagem de workflow para pipelines de analise cientifica escalaveis e reproduziveis.",
+      "ptLongDescription": "Nextflow e uma linguagem de dominio especifico e ambiente de execucao para escrever fluxos de trabalho cientificos que podem ser executados em maquinas locais, clusters HPC e plataformas em nuvem como AWS, Google Cloud e Azure. Os pipelines sao compostos por processos conectados por canais, usando um modelo de programacao por fluxo de dados com paralelismo padrao.\n\nDesenvolvido originalmente para bioinformatica, o Nextflow se tornou uma ferramenta padrao em genomica, proteomica e biologia computacional. Suporta containers Docker e Singularity, compartilhamento de pipelines com controle de versao via Nextflow Tower e integracao com registros de workflows.",
+      "publishedDate": "2013-01-01",
+      "extensions": [
+        ".nf"
+      ],
+      "author": "Paolo Di Tommaso and contributors",
+      "website": "https://nextflow.io",
+      "paradigms": [
+        "dataflow",
+        "reactive",
+        "declarative",
+        "pipeline"
+      ],
+      "tooling": {
+        "runtimes": [
+          "Nextflow"
+        ],
+        "ecosystems": [
+          "Bioinformatics",
+          "Scientific Workflows",
+          "HPC",
+          "Cloud Computing"
+        ]
+      },
+      "version": "24.10.4",
+      "logo": "https://avatars.githubusercontent.com/u/6698688?v=4",
+      "color": "#0DC09D"
+    },
+    {
       "slug": "nginx",
       "name": "nginx",
       "description": "A directive-based configuration language for the nginx web server and reverse proxy.",
@@ -7919,7 +8154,7 @@
           "DevOps"
         ]
       },
-      "version": "1.30.2",
+      "version": "1.30.3",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg",
       "color": "#009639"
     },
@@ -8070,7 +8305,7 @@
           "DevOps"
         ]
       },
-      "version": "2.34.7",
+      "version": "2.34.8",
       "logo": "https://cdn.simpleicons.org/nixos/5277C3",
       "color": "#5277C3"
     },
@@ -8334,6 +8569,54 @@
       "version": "5.6.0",
       "logo": "https://cdn.simpleicons.org/ocaml/EC6813",
       "color": "#EC6813"
+    },
+    {
+      "slug": "octave",
+      "name": "Octave",
+      "description": "A scientific programming language mostly compatible with MATLAB for numerical computation.",
+      "longDescription": "GNU Octave is a high-level language primarily intended for numerical computations. It provides a convenient command-line interface for solving linear and nonlinear problems, performing matrix arithmetic, plotting data, and implementing algorithms in areas such as signal processing and statistics.\n\nOctave is largely compatible with MATLAB, allowing users to run many MATLAB scripts without modification. It is free software distributed under the GNU General Public License, widely used in academia and engineering for prototyping and teaching numerical methods.",
+      "esName": "Octave",
+      "esDescription": "Lenguaje de programacion cientifica mayormente compatible con MATLAB para calculo numerico.",
+      "esLongDescription": "GNU Octave es un lenguaje de alto nivel orientado principalmente al calculo numerico. Proporciona una interfaz de linea de comandos para resolver problemas lineales y no lineales, aritmetica matricial, visualizacion de datos e implementacion de algoritmos en procesamiento de senales y estadistica.\n\nOctave es ampliamente compatible con MATLAB, lo que permite ejecutar muchos scripts de MATLAB sin modificaciones. Es software libre bajo licencia GNU GPL, ampliamente usado en academia e ingenieria para prototipado y ensenanza de metodos numericos.",
+      "itName": "Octave",
+      "itDescription": "Linguaggio di programmazione scientifica largamente compatibile con MATLAB per il calcolo numerico.",
+      "itLongDescription": "GNU Octave e un linguaggio ad alto livello orientato principalmente al calcolo numerico. Offre un comodo ambiente a riga di comando per risolvere problemi lineari e non lineari, eseguire aritmetica matriciale, tracciare grafici e implementare algoritmi in elaborazione del segnale e statistica.\n\nOctave e ampiamente compatibile con MATLAB, consentendo l esecuzione di molti script MATLAB senza modifiche. E software libero distribuito sotto licenza GNU GPL, usato in ambito accademico e ingegneristico per la prototipazione e l insegnamento dei metodi numerici.",
+      "frName": "Octave",
+      "frDescription": "Langage de programmation scientifique largement compatible avec MATLAB pour le calcul numerique.",
+      "frLongDescription": "GNU Octave est un langage de haut niveau principalement destine au calcul numerique. Il fournit une interface en ligne de commande pratique pour resoudre des problemes lineaires et non lineaires, effectuer des operations matricielles, tracer des graphiques et implementer des algorithmes en traitement du signal et statistiques.\n\nOctave est largement compatible avec MATLAB, permettant d executer de nombreux scripts MATLAB sans modification. C est un logiciel libre sous licence GNU GPL, largement utilise dans l enseignement superieur et l ingenierie pour le prototypage et l enseignement des methodes numeriques.",
+      "deName": "Octave",
+      "deDescription": "Wissenschaftliche Programmiersprache weitgehend kompatibel mit MATLAB fur numerische Berechnungen.",
+      "deLongDescription": "GNU Octave ist eine Hochsprache, die hauptsachlich fur numerische Berechnungen entwickelt wurde. Sie bietet eine komfortable Kommandozeilenschnittstelle fur lineare und nichtlineare Probleme, Matrixarithmetik, Datenvisualisierung und Algorithmenimplementierung in Signalverarbeitung und Statistik.\n\nOctave ist weitgehend MATLAB-kompatibel und erlaubt das Ausfuhren vieler MATLAB-Skripte ohne Anderungen. Es ist freie Software unter der GNU GPL, verbreitet in Hochschulen und Ingenieurwesen fur Prototypentwicklung und die Lehre numerischer Methoden.",
+      "ptName": "Octave",
+      "ptDescription": "Linguagem de programacao cientifica amplamente compativel com MATLAB para calculo numerico.",
+      "ptLongDescription": "GNU Octave e uma linguagem de alto nivel voltada principalmente para computacao numerica. Fornece uma interface de linha de comando conveniente para resolver problemas lineares e nao lineares, aritmetica matricial, visualizacao de dados e implementacao de algoritmos em processamento de sinais e estatistica.\n\nOctave e amplamente compativel com MATLAB, permitindo executar muitos scripts MATLAB sem modificacoes. E software livre sob a licenca GNU GPL, amplamente utilizado em universidades e engenharia para prototipagem e ensino de metodos numericos.",
+      "publishedDate": "1993-01-01",
+      "extensions": [
+        ".m",
+        ".octave"
+      ],
+      "author": "John W. Eaton and GNU Project contributors",
+      "website": "https://octave.org",
+      "paradigms": [
+        "procedural",
+        "functional",
+        "object-oriented",
+        "scientific"
+      ],
+      "tooling": {
+        "runtimes": [
+          "GNU Octave"
+        ],
+        "ecosystems": [
+          "Scientific Computing",
+          "Numerical Analysis",
+          "Mathematics",
+          "Signal Processing"
+        ]
+      },
+      "version": "9.3.0",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Gnu-octave-logo.svg",
+      "color": "#0790C0"
     },
     {
       "slug": "odin",
@@ -9139,7 +9422,7 @@
           "Automation"
         ]
       },
-      "version": "7.6.2",
+      "version": "7.6.3",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png",
       "color": "#5391FE"
     },
@@ -9712,7 +9995,7 @@
           "Scientific Computing"
         ]
       },
-      "version": "4.6.0",
+      "version": "4.6.1",
       "logo": "https://www.r-project.org/logo/Rlogo.svg",
       "color": "#276DC3"
     },
@@ -10076,7 +10359,7 @@
           "Authorization"
         ]
       },
-      "version": "OPA 1.17.1",
+      "version": "OPA 1.18.0",
       "logo": "https://raw.githubusercontent.com/open-policy-agent/opa/main/logo/logo.svg",
       "color": "#5C4EE5"
     },
@@ -10735,6 +11018,54 @@
       "color": "#F0C040"
     },
     {
+      "slug": "snakemake",
+      "name": "Snakemake",
+      "description": "A Python-based workflow management system for reproducible and scalable data analyses.",
+      "longDescription": "Snakemake is a workflow management system that uses a Python-based domain-specific language to define pipelines as sets of rules. Each rule specifies input files, output files, and the shell command or Python code needed to produce the outputs, with automatic dependency resolution and parallelization across cores and clusters.\n\nWidely adopted in bioinformatics, Snakemake supports execution on local machines, cluster engines, and cloud platforms. It integrates with Conda environments and container systems for full reproducibility, and its modular design allows workflows to be shared through the Snakemake workflow catalog.",
+      "esName": "Snakemake",
+      "esDescription": "Sistema de gestion de flujos de trabajo basado en Python para analisis de datos reproducibles.",
+      "esLongDescription": "Snakemake es un sistema de gestion de flujos de trabajo que usa un lenguaje especifico de dominio basado en Python para definir pipelines como conjuntos de reglas. Cada regla especifica archivos de entrada, salida y el comando o codigo Python necesario para producirlos, con resolucion automatica de dependencias y paralelizacion.\n\nAmplimente adoptado en bioinformatica, Snakemake admite ejecucion en maquinas locales, clusters y plataformas en la nube. Se integra con entornos Conda y contenedores para reproducibilidad completa, y su diseno modular permite compartir flujos de trabajo en el catalogo de Snakemake.",
+      "itName": "Snakemake",
+      "itDescription": "Sistema di gestione dei workflow basato su Python per analisi dati riproducibili e scalabili.",
+      "itLongDescription": "Snakemake e un sistema di gestione dei workflow che usa un linguaggio specifico di dominio basato su Python per definire pipeline come insiemi di regole. Ogni regola specifica file di input, output e il comando shell o codice Python necessario per produrli, con risoluzione automatica delle dipendenze e parallelizzazione.\n\nAmpiamente adottato in bioinformatica, Snakemake supporta l esecuzione su macchine locali, cluster e piattaforme cloud. Si integra con ambienti Conda e container per piena riproducibilita, e il suo design modulare permette di condividere workflow tramite il catalogo Snakemake.",
+      "frName": "Snakemake",
+      "frDescription": "Systeme de gestion de workflows base sur Python pour des analyses de donnees reproductibles.",
+      "frLongDescription": "Snakemake est un systeme de gestion de workflows qui utilise un langage dedie base sur Python pour definir des pipelines sous forme d ensembles de regles. Chaque regle specifie des fichiers d entree, de sortie et la commande ou le code Python necessaire, avec resolution automatique des dependances et parallelisation.\n\nLargement adopte en bioinformatique, Snakemake prend en charge l execution sur des machines locales, des clusters et des plateformes cloud. Il s integre avec les environnements Conda et les conteneurs pour une reproductibilite complete, et son design modulaire permet le partage de workflows via le catalogue Snakemake.",
+      "deName": "Snakemake",
+      "deDescription": "Python-basiertes Workflow-Management-System fur reproduzierbare und skalierbare Datenanalysen.",
+      "deLongDescription": "Snakemake ist ein Workflow-Management-System, das eine Python-basierte DSL verwendet, um Pipelines als Regelmengen zu definieren. Jede Regel gibt Eingabe-, Ausgabedateien und den Shell-Befehl oder Python-Code an, der zur Erzeugung der Ausgaben benotigt wird, mit automatischer Abhangigkeitsauflosung und Parallelisierung.\n\nWeit verbreitet in der Bioinformatik, unterstutzt Snakemake die Ausfuhrung auf lokalen Rechnern, Cluster-Engines und Cloud-Plattformen. Es integriert sich mit Conda-Umgebungen und Container-Systemen fur vollstandige Reproduzierbarkeit, und sein modulares Design erlaubt das Teilen von Workflows im Snakemake-Workflow-Katalog.",
+      "ptName": "Snakemake",
+      "ptDescription": "Sistema de gerenciamento de workflows baseado em Python para analises de dados reproduziveis.",
+      "ptLongDescription": "Snakemake e um sistema de gerenciamento de workflows que usa uma linguagem de dominio especifico baseada em Python para definir pipelines como conjuntos de regras. Cada regra especifica arquivos de entrada, saida e o comando shell ou codigo Python necessario para produzi-los, com resolucao automatica de dependencias e paralelizacao.\n\nAmplamente adotado em bioinformatica, o Snakemake suporta execucao em maquinas locais, clusters e plataformas em nuvem. Integra-se com ambientes Conda e sistemas de containers para reprodutibilidade total, e seu design modular permite compartilhar workflows pelo catalogo do Snakemake.",
+      "publishedDate": "2012-01-01",
+      "extensions": [
+        ".smk",
+        "Snakefile"
+      ],
+      "author": "Johannes Koster and contributors",
+      "website": "https://snakemake.github.io",
+      "paradigms": [
+        "declarative",
+        "dataflow",
+        "rule-based",
+        "pipeline"
+      ],
+      "tooling": {
+        "runtimes": [
+          "Snakemake"
+        ],
+        "ecosystems": [
+          "Bioinformatics",
+          "Scientific Workflows",
+          "Python",
+          "HPC"
+        ]
+      },
+      "version": "8.25.0",
+      "logo": "https://avatars.githubusercontent.com/u/33450111?v=4",
+      "color": "#419544"
+    },
+    {
       "slug": "snobol",
       "name": "SNOBOL",
       "description": "A text-processing language known for pattern matching, symbolic programming, and string manipulation.",
@@ -11018,6 +11349,54 @@
       "color": "#000000"
     },
     {
+      "slug": "spss",
+      "name": "SPSS",
+      "description": "A statistical software language for data management, analysis, and predictive modeling.",
+      "longDescription": "SPSS (Statistical Package for the Social Sciences) is a software suite and syntax language for statistical analysis widely used in academic research, market research, health studies, and government data analysis. Its command syntax allows users to automate data transformations, run descriptive statistics, hypothesis tests, regression models, and produce publication-ready output.\n\nOriginally developed at Stanford in 1968 and now owned by IBM, SPSS combines a graphical interface with a procedural scripting language. The syntax files enable reproducible analyses and batch processing, making it a staple tool in the social, behavioral, and health sciences.",
+      "esName": "SPSS",
+      "esDescription": "Lenguaje estadistico para gestion de datos, analisis y modelado predictivo en ciencias sociales.",
+      "esLongDescription": "SPSS (Paquete Estadistico para Ciencias Sociales) es una suite de software y lenguaje de sintaxis para analisis estadistico ampliamente utilizado en investigacion academica, investigacion de mercados, estudios de salud y analisis gubernamental. Su sintaxis permite automatizar transformaciones de datos, estadisticas descriptivas, pruebas de hipotesis, modelos de regresion y producir informes publicables.\n\nDesarrollado originalmente en Stanford en 1968 y actualmente propiedad de IBM, SPSS combina una interfaz grafica con un lenguaje de scripting procedural. Los archivos de sintaxis permiten analisis reproducibles y procesamiento por lotes, siendo una herramienta fundamental en ciencias sociales, conductuales y de la salud.",
+      "itName": "SPSS",
+      "itDescription": "Linguaggio statistico per la gestione dei dati, l analisi e la modellazione predittiva.",
+      "itLongDescription": "SPSS (Statistical Package for the Social Sciences) e una suite software e linguaggio di sintassi per l analisi statistica ampiamente usato nella ricerca accademica, di mercato, sanitaria e governativa. La sua sintassi consente di automatizzare trasformazioni dei dati, statistiche descrittive, test di ipotesi, modelli di regressione e output pronti per la pubblicazione.\n\nSviluppato originariamente a Stanford nel 1968 e ora di proprieta IBM, SPSS combina un interfaccia grafica con un linguaggio di scripting procedurale. I file di sintassi abilitano analisi riproducibili ed elaborazione batch, rendendolo uno strumento fondamentale nelle scienze sociali, comportamentali e della salute.",
+      "frName": "SPSS",
+      "frDescription": "Langage statistique pour la gestion des donnees, l analyse et la modelisation predictive.",
+      "frLongDescription": "SPSS (Statistical Package for the Social Sciences) est une suite logicielle et un langage de syntaxe pour l analyse statistique largement utilise dans la recherche academique, les etudes de marche, la sante et l analyse gouvernementale. Sa syntaxe permet d automatiser les transformations de donnees, les statistiques descriptives, les tests d hypotheses, les modeles de regression et produire des sorties publiables.\n\nDeveloppe a l origine a Stanford en 1968 et maintenant detenu par IBM, SPSS combine une interface graphique avec un langage de script procedural. Les fichiers de syntaxe permettent des analyses reproductibles et un traitement par lots, en faisant un outil incontournable dans les sciences sociales, comportementales et de la sante.",
+      "deName": "SPSS",
+      "deDescription": "Statistische Softwaresprache fur Datenverwaltung, Analyse und pradiktive Modellierung.",
+      "deLongDescription": "SPSS (Statistical Package for the Social Sciences) ist eine Softwaresuite und Syntaxsprache fur statistische Analysen, die in akademischer Forschung, Marktforschung, Gesundheitsstudien und Regierungsanalysen weit verbreitet ist. Die Befehlssyntax ermoglicht die Automatisierung von Datentransformationen, deskriptiver Statistik, Hypothesentests, Regressionsmodellen und publikationsreifen Ausgaben.\n\nUrsprunglich 1968 an der Stanford University entwickelt und jetzt im Besitz von IBM, kombiniert SPSS eine grafische Oberflache mit einer prozeduralen Skriptsprache. Syntaxdateien ermoglichen reproduzierbare Analysen und Stapelverarbeitung, was SPSS zu einem unverzichtbaren Werkzeug in den Sozial-, Verhaltens- und Gesundheitswissenschaften macht.",
+      "ptName": "SPSS",
+      "ptDescription": "Linguagem estatistica para gestao de dados, analise e modelagem preditiva em ciencias sociais.",
+      "ptLongDescription": "SPSS (Statistical Package for the Social Sciences) e uma suite de software e linguagem de sintaxe para analise estatistica amplamente utilizada em pesquisa academica, pesquisa de mercado, estudos de saude e analise governamental. Sua sintaxe permite automatizar transformacoes de dados, estatisticas descritivas, testes de hipoteses, modelos de regressao e producao de saidas publicaveis.\n\nDesenvolvido originalmente em Stanford em 1968 e agora de propriedade da IBM, o SPSS combina uma interface grafica com uma linguagem de scripting procedural. Os arquivos de sintaxe permitem analises reproduziveis e processamento em lote, tornando-o uma ferramenta essencial nas ciencias sociais, comportamentais e da saude.",
+      "publishedDate": "1968-01-01",
+      "extensions": [
+        ".sps",
+        ".spss"
+      ],
+      "author": "IBM SPSS Statistics",
+      "website": "https://www.ibm.com/spss",
+      "paradigms": [
+        "procedural",
+        "statistical",
+        "declarative"
+      ],
+      "tooling": {
+        "runtimes": [
+          "SPSS Statistics",
+          "SPSS Modeler"
+        ],
+        "ecosystems": [
+          "Statistics",
+          "Data Analysis",
+          "Social Sciences",
+          "Business Intelligence"
+        ]
+      },
+      "version": "29.0",
+      "logo": "https://dummyimage.com/32x32/052FAD/ffffff.png&text=SPSS",
+      "color": "#052FAD"
+    },
+    {
       "slug": "sql",
       "name": "SQL",
       "description": "A standard language for querying, defining, and managing relational databases.",
@@ -11052,6 +11431,52 @@
       "version": "SQL:2023",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png",
       "color": "#4479A1"
+    },
+    {
+      "slug": "squirrel",
+      "name": "Squirrel",
+      "description": "A lightweight scripting language designed for embedding in games and C/C++ applications.",
+      "longDescription": "Squirrel is a high-level, lightweight scripting language designed to be embedded in applications and game engines. Its syntax is heavily influenced by C, C++, and Java, and it features a stack-based virtual machine, closures, generators, and automatic memory management through reference counting with cycle detection.\n\nCreated by Alberto Demichelis, Squirrel gained wide adoption through the Valve Source Engine, where it powers scripts in games such as Left 4 Dead 2 and Team Fortress 2. The language trades some runtime safety for performance and a small footprint, making it well suited to real-time applications where scripting overhead must be minimal.",
+      "esName": "Squirrel",
+      "esDescription": "Lenguaje de scripting ligero disenado para incrustar en juegos y aplicaciones C/C++.",
+      "esLongDescription": "Squirrel es un lenguaje de scripting de alto nivel y bajo peso disenado para incrustarse en aplicaciones y motores de juego. Su sintaxis esta influenciada por C, C++ y Java, con una maquina virtual basada en pila, closures, generadores y gestion automatica de memoria mediante conteo de referencias con deteccion de ciclos.\n\nCreado por Alberto Demichelis, Squirrel obtuvo amplia adopcion a traves del motor Valve Source, donde impulsa scripts en juegos como Left 4 Dead 2 y Team Fortress 2. El lenguaje ofrece rendimiento y huella reducida a cambio de algo de seguridad en tiempo de ejecucion, siendo ideal para aplicaciones en tiempo real.",
+      "itName": "Squirrel",
+      "itDescription": "Linguaggio di scripting leggero progettato per essere incorporato in giochi e applicazioni C/C++.",
+      "itLongDescription": "Squirrel e un linguaggio di scripting ad alto livello e leggero progettato per essere incorporato in applicazioni e motori di gioco. La sua sintassi e fortemente influenzata da C, C++ e Java, con una macchina virtuale basata su stack, closure, generatori e gestione automatica della memoria tramite conteggio dei riferimenti con rilevamento dei cicli.\n\nCreato da Alberto Demichelis, Squirrel ha ottenuto ampia adozione attraverso il Valve Source Engine, dove alimenta script in giochi come Left 4 Dead 2 e Team Fortress 2. Il linguaggio privilegia prestazioni e ridotto ingombro rispetto ad alcune garanzie di sicurezza, rendendolo adatto ad applicazioni in tempo reale.",
+      "frName": "Squirrel",
+      "frDescription": "Langage de script leger concu pour etre integre dans des jeux et applications C/C++.",
+      "frLongDescription": "Squirrel est un langage de script leger et haut niveau concu pour etre integre dans des applications et moteurs de jeu. Sa syntaxe est fortement inspiree de C, C++ et Java, avec une machine virtuelle a pile, des closures, des generateurs et une gestion automatique de la memoire par comptage de references avec detection des cycles.\n\nCree par Alberto Demichelis, Squirrel a ete largement adopte via le Valve Source Engine, ou il alimente les scripts de jeux tels que Left 4 Dead 2 et Team Fortress 2. Il privilegia performances et encombrement minimal au detriment de certaines garanties de securite, ce qui le rend adapte aux applications temps reel.",
+      "deName": "Squirrel",
+      "deDescription": "Leichtgewichtige Skriptsprache fur die Einbettung in Spiele und C/C++-Anwendungen.",
+      "deLongDescription": "Squirrel ist eine hochwertige, leichtgewichtige Skriptsprache, die fur die Einbettung in Anwendungen und Spiel-Engines entwickelt wurde. Die Syntax ist stark von C, C++ und Java beeinflusst und umfasst eine stapelbasierte virtuelle Maschine, Closures, Generatoren und automatische Speicherverwaltung durch Referenzzahlung mit Zykluserkennung.\n\nVon Alberto Demichelis entwickelt, wurde Squirrel durch die Valve Source Engine weit verbreitet, wo es Skripte in Spielen wie Left 4 Dead 2 und Team Fortress 2 antreibt. Die Sprache tauscht einige Laufzeitsicherheiten gegen Leistung und geringen Speicherbedarf, was sie fur Echtzeitanwendungen geeignet macht.",
+      "ptName": "Squirrel",
+      "ptDescription": "Linguagem de script leve projetada para incorporacao em jogos e aplicacoes C/C++.",
+      "ptLongDescription": "Squirrel e uma linguagem de script de alto nivel e baixo peso projetada para ser incorporada em aplicacoes e engines de jogos. Sua sintaxe e fortemente influenciada por C, C++ e Java, com uma maquina virtual baseada em pilha, closures, geradores e gerenciamento automatico de memoria por contagem de referencias com deteccao de ciclos.\n\nCriada por Alberto Demichelis, o Squirrel obteve ampla adocao pelo Valve Source Engine, onde impulsiona scripts em jogos como Left 4 Dead 2 e Team Fortress 2. A linguagem privilegia desempenho e pegada reduzida em detrimento de algumas garantias de seguranca, sendo ideal para aplicacoes em tempo real.",
+      "publishedDate": "2003-01-01",
+      "extensions": [
+        ".nut"
+      ],
+      "author": "Alberto Demichelis",
+      "website": "https://github.com/albertodemichelis/squirrel",
+      "paradigms": [
+        "object-oriented",
+        "scripting",
+        "procedural",
+        "functional"
+      ],
+      "tooling": {
+        "runtimes": [
+          "Squirrel VM"
+        ],
+        "ecosystems": [
+          "Game Development",
+          "Embedded Scripting",
+          "Valve Source Engine"
+        ]
+      },
+      "version": "3.2",
+      "logo": "https://dummyimage.com/32x32/CC4A00/ffffff.png&text=SQ",
+      "color": "#CC4A00"
     },
     {
       "slug": "standard-ml",
@@ -11303,7 +11728,7 @@
           "Vite"
         ]
       },
-      "version": "5.56.3",
+      "version": "5.56.4",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg",
       "color": "#FF3E00"
     },
@@ -11557,7 +11982,7 @@
           "Embedded Scripting"
         ]
       },
-      "version": "9.0.3",
+      "version": "9.0.4",
       "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tcl.svg",
       "color": "#1E5AA8"
     },
@@ -11845,6 +12270,55 @@
       "color": "#8F5902"
     },
     {
+      "slug": "twee",
+      "name": "Twee/Twine",
+      "description": "A plain-text format for writing interactive hypertext fiction in the Twine ecosystem.",
+      "longDescription": "Twee is the plain-text source format underlying the Twine interactive fiction ecosystem. Passages are defined with double-bracket links and special markup that compiles to story formats such as Harlowe, Sugarcube, and Chapbook, producing self-contained HTML files that run in any browser without plugins.\n\nOriginally created by Chris Klimas as a visual tool for non-programmers, Twine and its Twee format have become a popular entry point for interactive fiction authors. The command-line compiler Tweego enables version-controlled, file-based authoring workflows, while the graphical Twine editor supports visual story mapping.",
+      "esName": "Twee/Twine",
+      "esDescription": "Formato de texto plano para escribir ficcion interactiva de hipertexto en el ecosistema Twine.",
+      "esLongDescription": "Twee es el formato de texto plano subyacente al ecosistema de ficcion interactiva Twine. Los pasajes se definen con enlaces de doble corchete y marcado especial que se compila a formatos de historia como Harlowe, Sugarcube y Chapbook, produciendo archivos HTML autocontenidos que funcionan en cualquier navegador sin complementos.\n\nCreado originalmente por Chris Klimas como herramienta visual para no programadores, Twine y su formato Twee se han convertido en un popular punto de entrada para autores de ficcion interactiva. El compilador de linea de comandos Tweego permite flujos de trabajo basados en archivos con control de versiones, mientras que el editor grafico Twine admite mapeo visual de historias.",
+      "itName": "Twee/Twine",
+      "itDescription": "Formato in testo semplice per scrivere narrativa interattiva ipertestuale nell ecosistema Twine.",
+      "itLongDescription": "Twee e il formato in testo semplice alla base dell ecosistema di narrativa interattiva Twine. I passaggi sono definiti con link a doppie parentesi e markup speciale che si compila in formati come Harlowe, Sugarcube e Chapbook, producendo file HTML autonomi eseguibili in qualsiasi browser senza plugin.\n\nOriginariamente creato da Chris Klimas come strumento visivo per non programmatori, Twine e il formato Twee sono diventati un punto di ingresso popolare per gli autori di narrativa interattiva. Il compilatore da riga di comando Tweego abilita flussi di lavoro basati su file con controllo versione, mentre l editor grafico Twine supporta la mappatura visiva delle storie.",
+      "frName": "Twee/Twine",
+      "frDescription": "Format texte brut pour ecrire de la fiction interactive hypertextuelle dans l ecosysteme Twine.",
+      "frLongDescription": "Twee est le format texte brut sous-jacent a l ecosysteme de fiction interactive Twine. Les passages sont definis avec des liens a double crochet et un balisage special qui se compile vers des formats d histoire comme Harlowe, Sugarcube et Chapbook, produisant des fichiers HTML autonomes fonctionnant dans n importe quel navigateur sans plugin.\n\nCree initialement par Chris Klimas comme outil visuel pour les non-programmeurs, Twine et son format Twee sont devenus un point d entree populaire pour les auteurs de fiction interactive. Le compilateur en ligne de commande Tweego permet des flux de travail bases sur des fichiers avec controle de version, tandis que l editeur graphique Twine permet la cartographie visuelle des histoires.",
+      "deName": "Twee/Twine",
+      "deDescription": "Klartextformat fur das Schreiben interaktiver Hypertextfiction im Twine-Okosystem.",
+      "deLongDescription": "Twee ist das Klartextquellenformat des Twine-Interaktivfiction-Okosystems. Passagen werden mit doppeleckigen Klammern und speziellem Markup definiert, das zu Story-Formaten wie Harlowe, Sugarcube und Chapbook kompiliert wird und eigenstandige HTML-Dateien erzeugt, die ohne Plugins in jedem Browser laufen.\n\nUrsprunglich von Chris Klimas als visuelles Werkzeug fur Nicht-Programmierer entwickelt, sind Twine und das Twee-Format zu einem beliebten Einstiegspunkt fur Interaktivfiction-Autoren geworden. Der Kommandozeilencompiler Tweego ermoglicht dateibasierte Arbeitsablaufe mit Versionskontrolle, wahrend der grafische Twine-Editor visuelles Story-Mapping unterstutzt.",
+      "ptName": "Twee/Twine",
+      "ptDescription": "Formato de texto simples para escrever ficcao interativa de hipertexto no ecossistema Twine.",
+      "ptLongDescription": "Twee e o formato de texto simples subjacente ao ecossistema de ficcao interativa Twine. As passagens sao definidas com links de duplo colchete e marcacao especial que compila para formatos de historia como Harlowe, Sugarcube e Chapbook, produzindo arquivos HTML autocontidos que funcionam em qualquer navegador sem plugins.\n\nCriado originalmente por Chris Klimas como ferramenta visual para nao-programadores, Twine e seu formato Twee tornaram-se um ponto de entrada popular para autores de ficcao interativa. O compilador de linha de comando Tweego permite fluxos de trabalho baseados em arquivos com controle de versao, enquanto o editor grafico Twine suporta mapeamento visual de historias.",
+      "publishedDate": "2009-01-01",
+      "extensions": [
+        ".tw",
+        ".twee",
+        ".tw2"
+      ],
+      "author": "Chris Klimas and contributors",
+      "website": "https://twinery.org",
+      "paradigms": [
+        "narrative",
+        "declarative",
+        "markup",
+        "hypertext"
+      ],
+      "tooling": {
+        "runtimes": [
+          "Twine",
+          "Tweego"
+        ],
+        "ecosystems": [
+          "Interactive Fiction",
+          "Narrative Games",
+          "Game Development"
+        ]
+      },
+      "version": "2.10.0",
+      "logo": "https://avatars.githubusercontent.com/u/2966890?v=4",
+      "color": "#0A6D91"
+    },
+    {
       "slug": "twig",
       "name": "Twig",
       "description": "A flexible, secure template language for PHP applications and Symfony projects.",
@@ -11999,7 +12473,7 @@
           "Typesetting"
         ]
       },
-      "version": "0.14.2",
+      "version": "0.15.0",
       "logo": "https://cdn.simpleicons.org/typst/239DAD",
       "color": "#239DAD"
     },
@@ -12451,7 +12925,7 @@
           "Nuxt"
         ]
       },
-      "version": "3.5.38",
+      "version": "3.5.39",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg",
       "color": "#4FC08D"
     },
@@ -12504,6 +12978,54 @@
       "version": "0.4.3",
       "logo": "https://avatars.githubusercontent.com/u/37288461?v=4",
       "color": "#3C3C3D"
+    },
+    {
+      "slug": "wdl",
+      "name": "WDL",
+      "description": "A workflow definition language for describing portable and reproducible data pipelines.",
+      "longDescription": "WDL (Workflow Description Language) is a human-readable specification language for defining tasks, workflows, and their dependencies in a portable and reproducible way. Each task describes a command to run with typed inputs, outputs, and runtime requirements such as CPU, memory, and container images.\n\nOriginally developed at the Broad Institute, WDL is governed by the OpenWDL community and widely used in genomics and precision medicine on platforms such as Terra, Google Life Sciences, and AWS Batch. Its declarative syntax makes pipelines easy to read, maintain, and share across research groups and cloud environments.",
+      "esName": "WDL",
+      "esDescription": "Lenguaje de definicion de flujos de trabajo para describir pipelines portables y reproducibles.",
+      "esLongDescription": "WDL (Workflow Description Language) es un lenguaje de especificacion legible para definir tareas, flujos de trabajo y sus dependencias de forma portable y reproducible. Cada tarea describe un comando a ejecutar con entradas y salidas tipadas y requisitos de ejecucion como CPU, memoria e imagenes de contenedor.\n\nDesarrollado originalmente en el Broad Institute, WDL es gobernado por la comunidad OpenWDL y ampliamente utilizado en genomica y medicina de precision en plataformas como Terra, Google Life Sciences y AWS Batch. Su sintaxis declarativa facilita la lectura, mantenimiento y comparticion de pipelines entre grupos de investigacion.",
+      "itName": "WDL",
+      "itDescription": "Linguaggio di definizione dei workflow per descrivere pipeline dati portabili e riproducibili.",
+      "itLongDescription": "WDL (Workflow Description Language) e un linguaggio di specifica leggibile per definire task, workflow e dipendenze in modo portabile e riproducibile. Ogni task descrive un comando da eseguire con input e output tipizzati e requisiti di runtime come CPU, memoria e immagini container.\n\nSviluppato originariamente al Broad Institute, WDL e gestito dalla community OpenWDL ed e ampiamente usato in genomica e medicina di precisione su piattaforme come Terra, Google Life Sciences e AWS Batch. La sua sintassi dichiarativa rende le pipeline facili da leggere, mantenere e condividere tra gruppi di ricerca.",
+      "frName": "WDL",
+      "frDescription": "Langage de definition de workflows pour decrire des pipelines de donnees portables et reproductibles.",
+      "frLongDescription": "WDL (Workflow Description Language) est un langage de specification lisible pour definir des taches, des workflows et leurs dependances de maniere portable et reproductible. Chaque tache decrit une commande a executer avec des entrees et sorties typees et des exigences d execution telles que CPU, memoire et images conteneur.\n\nDeveloppe initialement au Broad Institute, WDL est gere par la communaute OpenWDL et largement utilise en genomique et medecine de precision sur des plateformes telles que Terra, Google Life Sciences et AWS Batch. Sa syntaxe declarative facilite la lecture, la maintenance et le partage des pipelines.",
+      "deName": "WDL",
+      "deDescription": "Workflow-Definitionssprache fur portable und reproduzierbare Daten-Pipelines.",
+      "deLongDescription": "WDL (Workflow Description Language) ist eine menschenlesbare Spezifikationssprache zur Definition von Tasks, Workflows und deren Abhangigkeiten auf portable und reproduzierbare Weise. Jeder Task beschreibt einen auszufuhrenden Befehl mit typisierten Ein- und Ausgaben sowie Laufzeitanforderungen wie CPU, Speicher und Container-Images.\n\nUrsprunglich am Broad Institute entwickelt, wird WDL von der OpenWDL-Community betreut und ist weit verbreitet in Genomik und Prazisionsmedizin auf Plattformen wie Terra, Google Life Sciences und AWS Batch. Die deklarative Syntax erleichtert das Lesen, Pflegen und Teilen von Pipelines zwischen Forschungsgruppen.",
+      "ptName": "WDL",
+      "ptDescription": "Linguagem de definicao de workflow para descrever pipelines de dados portaveis e reproduziveis.",
+      "ptLongDescription": "WDL (Workflow Description Language) e uma linguagem de especificacao legivel para definir tarefas, workflows e suas dependencias de forma portavel e reproduzivel. Cada tarefa descreve um comando a ser executado com entradas e saidas tipadas e requisitos de execucao como CPU, memoria e imagens de container.\n\nDesenvolvido originalmente no Broad Institute, o WDL e gerenciado pela comunidade OpenWDL e amplamente utilizado em genomica e medicina de precisao em plataformas como Terra, Google Life Sciences e AWS Batch. Sua sintaxe declarativa facilita a leitura, manutencao e compartilhamento de pipelines entre grupos de pesquisa.",
+      "publishedDate": "2016-01-01",
+      "extensions": [
+        ".wdl"
+      ],
+      "author": "Broad Institute and OpenWDL community",
+      "website": "https://openwdl.org",
+      "paradigms": [
+        "declarative",
+        "dataflow",
+        "pipeline"
+      ],
+      "tooling": {
+        "runtimes": [
+          "Cromwell",
+          "miniwdl",
+          "Terra"
+        ],
+        "ecosystems": [
+          "Bioinformatics",
+          "Scientific Workflows",
+          "Cloud Computing",
+          "Genomics"
+        ]
+      },
+      "version": "1.2.0",
+      "logo": "https://avatars.githubusercontent.com/u/23492081?v=4",
+      "color": "#3C6DA6"
     },
     {
       "slug": "webassembly",

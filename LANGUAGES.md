@@ -258,23 +258,23 @@
 
 - [x] BibTeX (`bibtex`)
 - [x] Maxima (`maxima`)
-- [ ] Modelica (`modelica`)
-- [ ] Octave (`octave`)
-- [ ] SPSS (`spss`)
+- [x] Modelica (`modelica`)
+- [x] Octave (`octave`)
+- [x] SPSS (`spss`)
 
 ### Scientific Workflows / Bioinformatics
 
-- [ ] Nextflow (`nextflow`)
-- [ ] Snakemake (`snakemake`)
-- [ ] WDL (`wdl`)
+- [x] Nextflow (`nextflow`)
+- [x] Snakemake (`snakemake`)
+- [x] WDL (`wdl`)
 
 ### Game / Narrative Scripting
 
-- [ ] AngelScript (`angelscript`)
-- [ ] GML (`gml`)
-- [ ] Ink (`ink-narrative`)
-- [ ] Squirrel (`squirrel`)
-- [ ] Twee/Twine (`twee`)
+- [x] AngelScript (`angelscript`)
+- [x] GML (`gml`)
+- [x] Ink (`ink-narrative`)
+- [x] Squirrel (`squirrel`)
+- [x] Twee/Twine (`twee`)
 
 ## Lower Priority Languages
 

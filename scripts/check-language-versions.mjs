@@ -236,6 +236,24 @@ const manualChecks = {
     'qmake metadata is tied to Qt releases and should be reviewed manually against Qt qmake documentation.',
   soql: 'SOQL metadata is tied to Salesforce API versions and should be reviewed manually against Salesforce developer documentation.',
   spl: 'SPL metadata is tied to Splunk platform releases and should be reviewed manually against Splunk Search Reference documentation.',
+  angelscript:
+    'AngelScript releases should be reviewed manually against angelcode.com/angelscript and the AngelScript GitHub releases page.',
+  gml: 'GML versions are tied to GameMaker Studio platform releases and should be reviewed manually against GameMaker release notes and gamemaker.io.',
+  'ink-narrative':
+    'Ink narrative releases should be reviewed manually against the inkle/ink GitHub releases page and inklestudios.com/ink documentation.',
+  modelica:
+    'Modelica Specification versions should be reviewed manually against modelica.org/documents and Modelica Association publications.',
+  nextflow:
+    'Nextflow releases should be reviewed manually against nextflow.io release notes and the nextflow-io/nextflow GitHub releases page.',
+  octave:
+    'GNU Octave releases should be reviewed manually against ftp.gnu.org/gnu/octave and octave.org download page.',
+  snakemake:
+    'Snakemake releases should be reviewed manually against snakemake.github.io and the snakemake/snakemake GitHub releases page.',
+  spss: 'SPSS Statistics versions are tied to IBM platform releases and should be reviewed manually against IBM SPSS product documentation.',
+  squirrel:
+    'Squirrel releases should be reviewed manually against the squirrel-lang.org and albertodemichelis/squirrel GitHub tags.',
+  twee: 'Twee/Twine releases should be reviewed manually against twinery.org and the tweego/tweego GitHub releases page.',
+  wdl: 'WDL specification versions should be reviewed manually against openwdl.org and the openwdl/wdl GitHub releases page.',
 };
 
 const checkers = {
