@@ -1,3 +1,10 @@
+# [1.38.0](https://github.com/ElJijuna/code-languages/compare/v1.37.0...v1.38.0) (2026-06-28)
+
+
+### Features
+
+* add new language definitions ([9882948](https://github.com/ElJijuna/code-languages/commit/9882948f17e632456fcfc6e13dc9930f1baabd19))
+
 # [1.37.0](https://github.com/ElJijuna/code-languages/compare/v1.36.5...v1.37.0) (2026-06-28)
 
 
