@@ -141,6 +141,11 @@
       "import": "./dist/languages/assembly.js",
       "require": "./dist/languages/assembly.cjs"
     },
+    "./assemblyscript": {
+      "types": "./dist/languages/assemblyscript.d.ts",
+      "import": "./dist/languages/assemblyscript.js",
+      "require": "./dist/languages/assemblyscript.cjs"
+    },
     "./astro": {
       "types": "./dist/languages/astro.d.ts",
       "import": "./dist/languages/astro.js",
@@ -175,6 +180,11 @@
       "types": "./dist/languages/bash.d.ts",
       "import": "./dist/languages/bash.js",
       "require": "./dist/languages/bash.cjs"
+    },
+    "./basic": {
+      "types": "./dist/languages/basic.d.ts",
+      "import": "./dist/languages/basic.js",
+      "require": "./dist/languages/basic.cjs"
     },
     "./batch": {
       "types": "./dist/languages/batch.d.ts",
@@ -350,6 +360,11 @@
       "types": "./dist/languages/dart.d.ts",
       "import": "./dist/languages/dart.js",
       "require": "./dist/languages/dart.cjs"
+    },
+    "./dax": {
+      "types": "./dist/languages/dax.d.ts",
+      "import": "./dist/languages/dax.js",
+      "require": "./dist/languages/dax.cjs"
     },
     "./dhall": {
       "types": "./dist/languages/dhall.d.ts",
@@ -851,6 +866,11 @@
       "import": "./dist/languages/move.js",
       "require": "./dist/languages/move.cjs"
     },
+    "./mumps": {
+      "types": "./dist/languages/mumps.d.ts",
+      "import": "./dist/languages/mumps.js",
+      "require": "./dist/languages/mumps.cjs"
+    },
     "./mustache": {
       "types": "./dist/languages/mustache.d.ts",
       "import": "./dist/languages/mustache.js",
@@ -931,6 +951,11 @@
       "import": "./dist/languages/opencl.js",
       "require": "./dist/languages/opencl.cjs"
     },
+    "./openscad": {
+      "types": "./dist/languages/openscad.d.ts",
+      "import": "./dist/languages/openscad.js",
+      "require": "./dist/languages/openscad.cjs"
+    },
     "./org": {
       "types": "./dist/languages/org.d.ts",
       "import": "./dist/languages/org.js",
@@ -991,10 +1016,25 @@
       "import": "./dist/languages/pony.js",
       "require": "./dist/languages/pony.cjs"
     },
+    "./postscript": {
+      "types": "./dist/languages/postscript.d.ts",
+      "import": "./dist/languages/postscript.js",
+      "require": "./dist/languages/postscript.cjs"
+    },
+    "./powerquery": {
+      "types": "./dist/languages/powerquery.d.ts",
+      "import": "./dist/languages/powerquery.js",
+      "require": "./dist/languages/powerquery.cjs"
+    },
     "./powershell": {
       "types": "./dist/languages/powershell.d.ts",
       "import": "./dist/languages/powershell.js",
       "require": "./dist/languages/powershell.cjs"
+    },
+    "./processing": {
+      "types": "./dist/languages/processing.d.ts",
+      "import": "./dist/languages/processing.js",
+      "require": "./dist/languages/processing.cjs"
     },
     "./prolog": {
       "types": "./dist/languages/prolog.d.ts",
@@ -1100,6 +1140,11 @@
       "types": "./dist/languages/roc.d.ts",
       "import": "./dist/languages/roc.js",
       "require": "./dist/languages/roc.cjs"
+    },
+    "./rpg": {
+      "types": "./dist/languages/rpg.d.ts",
+      "import": "./dist/languages/rpg.js",
+      "require": "./dist/languages/rpg.cjs"
     },
     "./ruby": {
       "types": "./dist/languages/ruby.d.ts",
@@ -1326,6 +1371,11 @@
       "import": "./dist/languages/vale.js",
       "require": "./dist/languages/vale.cjs"
     },
+    "./vba": {
+      "types": "./dist/languages/vba.d.ts",
+      "import": "./dist/languages/vba.js",
+      "require": "./dist/languages/vba.cjs"
+    },
     "./velocity": {
       "types": "./dist/languages/velocity.d.ts",
       "import": "./dist/languages/velocity.js",
@@ -1390,6 +1440,11 @@
       "types": "./dist/languages/xml.d.ts",
       "import": "./dist/languages/xml.js",
       "require": "./dist/languages/xml.cjs"
+    },
+    "./xpath": {
+      "types": "./dist/languages/xpath.d.ts",
+      "import": "./dist/languages/xpath.js",
+      "require": "./dist/languages/xpath.cjs"
     },
     "./xquery": {
       "types": "./dist/languages/xquery.d.ts",

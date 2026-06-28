@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T01:52:34.648Z",
+  "generatedAt": "2026-06-28T15:48:15.579Z",
   "runtimes": [
     {
       "slug": "node",
@@ -89,7 +89,7 @@
       "color": "#007396",
       "aliases": ["jvm", "java"],
       "packageManagers": ["Maven", "Gradle"],
-      "languageCount": 29
+      "languageCount": 30
     },
     {
       "slug": "android",
@@ -189,7 +189,7 @@
       "color": "#654FF0",
       "aliases": ["wasm", "webassembly", "wasi"],
       "packageManagers": [],
-      "languageCount": 8
+      "languageCount": 9
     },
     {
       "slug": "sql",
@@ -199,7 +199,7 @@
       "color": "#003B57",
       "aliases": ["sql"],
       "packageManagers": [],
-      "languageCount": 5
+      "languageCount": 6
     },
     {
       "slug": "postgres",
@@ -389,7 +389,7 @@
       "color": "#0078D4",
       "aliases": ["azure"],
       "packageManagers": [],
-      "languageCount": 5
+      "languageCount": 7
     },
     {
       "slug": "docker",
@@ -479,7 +479,7 @@
       "color": "#276DC3",
       "aliases": ["r", "r-lang", "cran"],
       "packageManagers": ["CRAN", "renv"],
-      "languageCount": 237
+      "languageCount": 245
     },
     {
       "slug": "ocaml",

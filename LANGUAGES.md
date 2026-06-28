@@ -144,6 +144,38 @@
 - [x] VHDL (`vhdl`)
 - [x] WGSL (`wgsl`)
 
+### Analytics / Data
+
+- [x] DAX (`dax`)
+- [x] Power Query M (`powerquery`)
+
+### Creative Coding
+
+- [x] Processing (`processing`)
+
+### Legacy / Foundational
+
+- [x] BASIC (`basic`)
+- [x] MUMPS (`mumps`)
+- [x] PostScript (`postscript`)
+- [x] RPG (`rpg`)
+
+### Office Automation
+
+- [x] VBA (`vba`)
+
+### Systems / CAD
+
+- [x] OpenSCAD (`openscad`)
+
+### WebAssembly Ecosystem
+
+- [x] AssemblyScript (`assemblyscript`)
+
+### XML / Query
+
+- [x] XPath (`xpath`)
+
 ## Pending
 
 ### Programming Languages
@@ -313,19 +345,12 @@ broader language entry.
 - [x] Wren (`wren`)
 - [x] Zeek (`zeek`)
 - [x] Ziggy (`ziggy`)
-- [x] Cairo (`cairo`)
 - [x] DOT (`dot`)
 - [x] G-code (`gcode`)
 - [x] Gettext (`gettext`)
-- [x] Flux (`flux`)
-- [x] Grain (`grain`)
 - [x] Hare (`hare`)
 - [x] Hy (`hy`)
 - [x] KCL (`kcl`)
 - [x] Linker Script (`linkerscript`)
-- [x] Move (`move`)
-- [x] Nickel (`nickel`)
-- [x] Pkl (`pkl`)
 - [x] qmake (`qmake`)
-- [x] Unison (`unison`)
 - [x] YARA (`yara`)

@@ -15,6 +15,7 @@ import { arduino } from '../../languages/arduino';
 import { asciidoc } from '../../languages/asciidoc';
 import { asp } from '../../languages/asp';
 import { assembly } from '../../languages/assembly';
+import { assemblyscript } from '../../languages/assemblyscript';
 import { astro } from '../../languages/astro';
 import { austral } from '../../languages/austral';
 import { autohotkey } from '../../languages/autohotkey';
@@ -22,6 +23,7 @@ import { avroIdl } from '../../languages/avro-idl';
 import { awk } from '../../languages/awk';
 import { ballerina } from '../../languages/ballerina';
 import { bash } from '../../languages/bash';
+import { basic } from '../../languages/basic';
 import { batch } from '../../languages/batch';
 import { bazel } from '../../languages/bazel';
 import { bcpl } from '../../languages/bcpl';
@@ -57,6 +59,7 @@ import { cython } from '../../languages/cython';
 import { d } from '../../languages/d';
 import { dafny } from '../../languages/dafny';
 import { dart } from '../../languages/dart';
+import { dax } from '../../languages/dax';
 import { dhall } from '../../languages/dhall';
 import { dita } from '../../languages/dita';
 import { dockerfile } from '../../languages/dockerfile';
@@ -157,6 +160,7 @@ import { modula2 } from '../../languages/modula-2';
 import { mojo } from '../../languages/mojo';
 import { moonbit } from '../../languages/moonbit';
 import { move } from '../../languages/move';
+import { mumps } from '../../languages/mumps';
 import { mustache } from '../../languages/mustache';
 import { n1ql } from '../../languages/n1ql';
 import { nextflow } from '../../languages/nextflow';
@@ -173,6 +177,7 @@ import { octave } from '../../languages/octave';
 import { odin } from '../../languages/odin';
 import { openapi } from '../../languages/openapi';
 import { opencl } from '../../languages/opencl';
+import { openscad } from '../../languages/openscad';
 import { org } from '../../languages/org';
 import { pascal } from '../../languages/pascal';
 import { perl } from '../../languages/perl';
@@ -185,7 +190,10 @@ import { plpgsql } from '../../languages/plpgsql';
 import { plsql } from '../../languages/plsql';
 import { pod } from '../../languages/pod';
 import { pony } from '../../languages/pony';
+import { postscript } from '../../languages/postscript';
+import { powerquery } from '../../languages/powerquery';
 import { powershell } from '../../languages/powershell';
+import { processing } from '../../languages/processing';
 import { prolog } from '../../languages/prolog';
 import { promql } from '../../languages/promql';
 import { protobuf } from '../../languages/protobuf';
@@ -207,6 +215,7 @@ import { rego } from '../../languages/rego';
 import { rescript } from '../../languages/rescript';
 import { restructuredtext } from '../../languages/restructuredtext';
 import { roc } from '../../languages/roc';
+import { rpg } from '../../languages/rpg';
 import { ruby } from '../../languages/ruby';
 import { rust } from '../../languages/rust';
 import { sas } from '../../languages/sas';
@@ -252,6 +261,7 @@ import { unison } from '../../languages/unison';
 import { v } from '../../languages/v';
 import { vala } from '../../languages/vala';
 import { vale } from '../../languages/vale';
+import { vba } from '../../languages/vba';
 import { velocity } from '../../languages/velocity';
 import { verilog } from '../../languages/verilog';
 import { verse } from '../../languages/verse';
@@ -265,6 +275,7 @@ import { wgsl } from '../../languages/wgsl';
 import { wren } from '../../languages/wren';
 import { xaml } from '../../languages/xaml';
 import { xml } from '../../languages/xml';
+import { xpath } from '../../languages/xpath';
 import { xquery } from '../../languages/xquery';
 import { xslt } from '../../languages/xslt';
 import { yaml } from '../../languages/yaml';
@@ -293,6 +304,7 @@ export const languages = [
   asciidoc,
   asp,
   assembly,
+  assemblyscript,
   angelscript,
   astro,
   austral,
@@ -300,6 +312,7 @@ export const languages = [
   avroIdl,
   awk,
   ballerina,
+  basic,
   bash,
   batch,
   bazel,
@@ -336,6 +349,7 @@ export const languages = [
   d,
   dafny,
   dart,
+  dax,
   dhall,
   dita,
   dockerfile,
@@ -436,6 +450,7 @@ export const languages = [
   modula2,
   moonbit,
   move,
+  mumps,
   mustache,
   n1ql,
   nextflow,
@@ -452,6 +467,7 @@ export const languages = [
   odin,
   openapi,
   opencl,
+  openscad,
   org,
   pascal,
   perl,
@@ -464,7 +480,10 @@ export const languages = [
   plsql,
   pod,
   pony,
+  postscript,
+  powerquery,
   powershell,
+  processing,
   prolog,
   promql,
   protobuf,
@@ -486,6 +505,7 @@ export const languages = [
   rescript,
   restructuredtext,
   roc,
+  rpg,
   ruby,
   rust,
   sas,
@@ -530,6 +550,7 @@ export const languages = [
   unison,
   v,
   vala,
+  vba,
   vale,
   velocity,
   verilog,
@@ -544,6 +565,7 @@ export const languages = [
   wren,
   xaml,
   xml,
+  xpath,
   xquery,
   xslt,
   yaml,

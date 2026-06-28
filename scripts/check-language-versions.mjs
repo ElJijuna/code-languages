@@ -257,6 +257,25 @@ const manualChecks = {
     'Squirrel releases should be reviewed manually against the squirrel-lang.org and albertodemichelis/squirrel GitHub tags.',
   twee: 'Twee/Twine releases should be reviewed manually against twinery.org and the tweego/tweego GitHub releases page.',
   wdl: 'WDL specification versions should be reviewed manually against openwdl.org and the openwdl/wdl GitHub releases page.',
+  assemblyscript:
+    'AssemblyScript releases should be reviewed manually against assemblyscript.org and the AssemblyBlocks/assemblyscript npm package.',
+  basic:
+    'FreeBASIC releases should be reviewed manually against freebasic.net and the freebasic/fbc GitHub releases page.',
+  dax: 'DAX versioning is tied to Power BI and Analysis Services platform releases and should be reviewed manually against Microsoft Learn documentation.',
+  mumps:
+    'InterSystems IRIS versioning is proprietary and should be reviewed manually against docs.intersystems.com release notes.',
+  openscad:
+    'OpenSCAD releases should be reviewed manually against openscad.org and the openscad/openscad GitHub releases page.',
+  postscript:
+    'PostScript is stable at level 3 since 1997 and should be reviewed manually against Adobe developer documentation.',
+  powerquery:
+    'Power Query M versioning is tied to Power BI and Microsoft Fabric platform releases and should be reviewed manually against Microsoft Learn documentation.',
+  processing:
+    'Processing releases should be reviewed manually against processing.org and the processing/processing4 GitHub releases page.',
+  rpg: 'RPG versioning is tied to IBM i OS releases and should be reviewed manually against IBM Knowledge Center documentation.',
+  vba: 'VBA versioning is tied to Microsoft Office platform releases and should be reviewed manually against Microsoft Learn VBA documentation.',
+  xpath:
+    'XPath versioning is governed by W3C specification publications and should be reviewed manually against w3.org/TR/xpath.',
 };
 const checkers = {
   async astro() {

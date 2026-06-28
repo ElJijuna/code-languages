@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-28T01:52:34.641Z",
-  "total": 275,
-  "extensions": 604,
+  "generatedAt": "2026-06-28T15:48:15.573Z",
+  "total": 286,
+  "extensions": 630,
   "locales": [
     "en",
     "es",
@@ -963,6 +963,50 @@
       "color": "#007AAC"
     },
     {
+      "slug": "assemblyscript",
+      "name": "AssemblyScript",
+      "description": "A TypeScript-like language that compiles to WebAssembly.",
+      "longDescription": "AssemblyScript is a variant of TypeScript designed to compile to WebAssembly using the Binaryen toolkit.\n\nIt offers TypeScript-like syntax with explicit integer and floating-point types, linear memory access, and low-level control, enabling near-native performance in browser and server environments that support WebAssembly.",
+      "esName": "AssemblyScript",
+      "esDescription": "Un lenguaje similar a TypeScript que compila a WebAssembly.",
+      "esLongDescription": "AssemblyScript es una variante de TypeScript diseñada para compilar a WebAssembly mediante el toolkit Binaryen.\n\nOfrece sintaxis similar a TypeScript con tipos enteros y de punto flotante explícitos, acceso a memoria lineal y control de bajo nivel, permitiendo rendimiento cercano al nativo en entornos de navegador y servidor que soportan WebAssembly.",
+      "itName": "AssemblyScript",
+      "itDescription": "Un linguaggio simile a TypeScript che compila in WebAssembly.",
+      "itLongDescription": "AssemblyScript è una variante di TypeScript progettata per compilare in WebAssembly utilizzando il toolkit Binaryen.\n\nOffre una sintassi simile a TypeScript con tipi interi e in virgola mobile espliciti, accesso alla memoria lineare e controllo di basso livello, consentendo prestazioni vicine a quelle native in ambienti browser e server che supportano WebAssembly.",
+      "frName": "AssemblyScript",
+      "frDescription": "Un langage similaire à TypeScript qui compile en WebAssembly.",
+      "frLongDescription": "AssemblyScript est une variante de TypeScript conçue pour compiler en WebAssembly à l'aide du toolkit Binaryen.\n\nIl offre une syntaxe similaire à TypeScript avec des types entiers et à virgule flottante explicites, un accès à la mémoire linéaire et un contrôle de bas niveau, permettant des performances quasi natives dans les environnements navigateur et serveur prenant en charge WebAssembly.",
+      "deName": "AssemblyScript",
+      "deDescription": "Eine TypeScript-ähnliche Sprache, die zu WebAssembly kompiliert.",
+      "deLongDescription": "AssemblyScript ist eine TypeScript-Variante, die mit dem Binaryen-Toolkit zu WebAssembly kompiliert.\n\nEs bietet TypeScript-ähnliche Syntax mit expliziten Integer- und Gleitkommatypen, linearem Speicherzugriff und Low-Level-Kontrolle und ermöglicht Near-Native-Performance in Browser- und Serverumgebungen, die WebAssembly unterstützen.",
+      "ptName": "AssemblyScript",
+      "ptDescription": "Uma linguagem semelhante ao TypeScript que compila para WebAssembly.",
+      "ptLongDescription": "AssemblyScript é uma variante do TypeScript projetada para compilar em WebAssembly usando o toolkit Binaryen.\n\nOferece sintaxe semelhante ao TypeScript com tipos inteiros e de ponto flutuante explícitos, acesso à memória linear e controle de baixo nível, permitindo desempenho quase nativo em ambientes de navegador e servidor que suportam WebAssembly.",
+      "publishedDate": "2017-06-06",
+      "extensions": [
+        ".as"
+      ],
+      "author": "Daniel Wirtz / AssemblyScript Contributors",
+      "website": "https://www.assemblyscript.org",
+      "paradigms": [
+        "imperative",
+        "object-oriented",
+        "compiled"
+      ],
+      "tooling": {
+        "runtimes": [
+          "Wasm",
+          "WASI"
+        ],
+        "ecosystems": [
+          "WebAssembly"
+        ]
+      },
+      "version": "0.27.32",
+      "logo": "https://avatars.githubusercontent.com/u/28916798?v=4",
+      "color": "#007AAC"
+    },
+    {
       "slug": "astro",
       "name": "Astro",
       "description": "A web framework and component file format for content-driven sites and fast frontends.",
@@ -1315,6 +1359,44 @@
       "version": "5.3",
       "logo": "https://bashlogo.com/img/symbol/svg/full_colored_dark.svg",
       "color": "#4EAA25"
+    },
+    {
+      "slug": "basic",
+      "name": "BASIC",
+      "description": "A family of general-purpose high-level programming languages designed for ease of use.",
+      "longDescription": "BASIC (Beginners' All-purpose Symbolic Instruction Code) was designed in 1964 to enable non-science students to use computers.\n\nModern descendants include FreeBASIC, QB64, and Visual Basic. FreeBASIC remains actively maintained, offering compiled programs, inline assembly, and compatibility with classic BASIC code while adding modern structures like objects, pointers, and preprocessor directives.",
+      "esName": "BASIC",
+      "esDescription": "Una familia de lenguajes de programación de alto nivel de propósito general diseñados para la facilidad de uso.",
+      "esLongDescription": "BASIC (Beginners' All-purpose Symbolic Instruction Code) fue diseñado en 1964 para permitir a estudiantes no científicos usar computadoras.\n\nLos descendientes modernos incluyen FreeBASIC, QB64 y Visual Basic. FreeBASIC sigue mantenido activamente, ofreciendo programas compilados, ensamblador en línea y compatibilidad con código BASIC clásico, al tiempo que añade estructuras modernas como objetos, punteros y directivas de preprocesador.",
+      "itName": "BASIC",
+      "itDescription": "Una famiglia di linguaggi di programmazione di alto livello a uso generale progettati per la facilità d'uso.",
+      "itLongDescription": "BASIC (Beginners' All-purpose Symbolic Instruction Code) fu progettato nel 1964 per consentire agli studenti non scientifici di usare i computer.\n\nI discendenti moderni includono FreeBASIC, QB64 e Visual Basic. FreeBASIC e ancora attivamente mantenuto, offrendo programmi compilati, assembly inline e compatibilita con il codice BASIC classico, aggiungendo strutture moderne come oggetti, puntatori e direttive del preprocessore.",
+      "frName": "BASIC",
+      "frDescription": "Une famille de langages de programmation de haut niveau à usage général conçus pour la facilité d'utilisation.",
+      "frLongDescription": "BASIC (Beginners' All-purpose Symbolic Instruction Code) a été conçu en 1964 pour permettre aux étudiants non scientifiques d'utiliser des ordinateurs.\n\nLes descendants modernes comprennent FreeBASIC, QB64 et Visual Basic. FreeBASIC est encore activement maintenu, offrant des programmes compilés, de l'assembleur en ligne et une compatibilité avec le code BASIC classique tout en ajoutant des structures modernes comme des objets, des pointeurs et des directives de préprocesseur.",
+      "deName": "BASIC",
+      "deDescription": "Eine Familie von allgemeinen Hochsprachen, die auf Benutzerfreundlichkeit ausgelegt sind.",
+      "deLongDescription": "BASIC (Beginner's All-purpose Symbolic Instruction Code) wurde 1964 entwickelt, um Nicht-Informatikstudenten die Nutzung von Computern zu ermöglichen.\n\nModerne Nachfolger sind FreeBASIC, QB64 und Visual Basic. FreeBASIC wird aktiv gepflegt und bietet kompilierte Programme, Inline-Assembler und Kompatibilität mit klassischem BASIC-Code, während moderne Strukturen wie Objekte, Zeiger und Präprozessor-Direktiven hinzugefügt werden.",
+      "ptName": "BASIC",
+      "ptDescription": "Uma família de linguagens de programação de alto nível de propósito geral projetadas para facilidade de uso.",
+      "ptLongDescription": "BASIC (Beginners' All-purpose Symbolic Instruction Code) foi projetado em 1964 para permitir que estudantes de áreas não científicas usassem computadores.\n\nOs descendentes modernos incluem FreeBASIC, QB64 e Visual Basic. O FreeBASIC ainda é ativamente mantido, oferecendo programas compilados, assembly inline e compatibilidade com código BASIC clássico, enquanto adiciona estruturas modernas como objetos, ponteiros e diretivas de pré-processador.",
+      "publishedDate": "1964-05-01",
+      "extensions": [
+        ".bas",
+        ".bi",
+        ".bb"
+      ],
+      "author": "John G. Kemeny, Thomas E. Kurtz",
+      "website": "https://freebasic.net",
+      "paradigms": [
+        "imperative",
+        "procedural",
+        "structured"
+      ],
+      "tooling": {},
+      "version": "FreeBASIC 1.10.1",
+      "logo": "https://avatars.githubusercontent.com/u/5598624?v=4",
+      "color": "#00599C"
     },
     {
       "slug": "batch",
@@ -3050,6 +3132,48 @@
       "version": "3.12.2",
       "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Dart_programming_language_logo.svg",
       "color": "#0175C2"
+    },
+    {
+      "slug": "dax",
+      "name": "DAX",
+      "description": "A formula language for data modeling and analysis in Microsoft Power BI and Excel.",
+      "longDescription": "Data Analysis Expressions (DAX) is a formula language used in Power BI, Power Pivot for Excel, and Analysis Services.\n\nDAX provides functions and operators for calculations on tables and columns in tabular data models, supporting measures, calculated columns, and KPIs for business intelligence reporting.",
+      "esName": "DAX",
+      "esDescription": "Un lenguaje de fórmulas para modelado y análisis de datos en Microsoft Power BI y Excel.",
+      "esLongDescription": "Data Analysis Expressions (DAX) es un lenguaje de fórmulas utilizado en Power BI, Power Pivot para Excel y Analysis Services.\n\nDAX proporciona funciones y operadores para calculos sobre tablas y columnas en modelos de datos tabulares, soportando medidas, columnas calculadas y KPIs para informes de inteligencia de negocio.",
+      "itName": "DAX",
+      "itDescription": "Un linguaggio di formule per la modellazione e analisi dei dati in Microsoft Power BI ed Excel.",
+      "itLongDescription": "Data Analysis Expressions (DAX) e un linguaggio di formule utilizzato in Power BI, Power Pivot per Excel e Analysis Services.\n\nDAX fornisce funzioni e operatori per i calcoli su tabelle e colonne in modelli di dati tabulari, supportando misure, colonne calcolate e KPI per i report di business intelligence.",
+      "frName": "DAX",
+      "frDescription": "Un langage de formules pour la modélisation et l'analyse des données dans Microsoft Power BI et Excel.",
+      "frLongDescription": "Data Analysis Expressions (DAX) est un langage de formules utilisé dans Power BI, Power Pivot pour Excel et Analysis Services.\n\nDAX fournit des fonctions et des opérateurs pour les calculs sur des tables et des colonnes dans des modèles de données tabulaires, prenant en charge les mesures, les colonnes calculées et les indicateurs clés de performance pour les rapports d'informatique décisionnelle.",
+      "deName": "DAX",
+      "deDescription": "Eine Formelsprache für Datenmodellierung und -analyse in Microsoft Power BI und Excel.",
+      "deLongDescription": "Data Analysis Expressions (DAX) ist eine Formelsprache, die in Power BI, Power Pivot für Excel und Analysis Services verwendet wird.\n\nDAX bietet Funktionen und Operatoren für Berechnungen über Tabellen und Spalten in tabellarischen Datenmodellen und unterstützt Measures, berechnete Spalten und KPIs für Business-Intelligence-Berichte.",
+      "ptName": "DAX",
+      "ptDescription": "Uma linguagem de fórmulas para modelagem e análise de dados no Microsoft Power BI e Excel.",
+      "ptLongDescription": "Data Analysis Expressions (DAX) é uma linguagem de fórmulas usada no Power BI, Power Pivot para Excel e Analysis Services.\n\nO DAX fornece funções e operadores para cálculos em tabelas e colunas em modelos de dados tabulares, suportando medidas, colunas calculadas e KPIs para relatórios de business intelligence.",
+      "publishedDate": "2009-07-01",
+      "extensions": [
+        ".dax"
+      ],
+      "author": "Microsoft",
+      "website": "https://learn.microsoft.com/en-us/dax/",
+      "paradigms": [
+        "declarative",
+        "functional"
+      ],
+      "tooling": {
+        "ecosystems": [
+          "Microsoft Power BI",
+          "Excel",
+          "Azure Analysis Services",
+          "SQL Server Analysis Services"
+        ]
+      },
+      "version": "DAX 2025",
+      "logo": "https://dummyimage.com/32x32/F2C811/000000.png&text=DAX",
+      "color": "#F2C811"
     },
     {
       "slug": "dhall",
@@ -7974,6 +8098,50 @@
       "color": "#1C8F9C"
     },
     {
+      "slug": "mumps",
+      "name": "MUMPS",
+      "description": "A general-purpose programming language with hierarchical database built in, widely used in healthcare IT.",
+      "longDescription": "MUMPS (Massachusetts General Hospital Utility Multi-Programming System), also known as M or Cache ObjectScript in its InterSystems implementation, is a language with a hierarchical key-value database built directly into the runtime.\n\nIt powers major healthcare information systems, including Epic and many electronic health record (EHR) platforms, making it one of the most widely deployed languages in healthcare IT despite its obscurity outside the domain.",
+      "esName": "MUMPS",
+      "esDescription": "Un lenguaje de programación de propósito general con base de datos jerárquica integrada, ampliamente usado en TI sanitaria.",
+      "esLongDescription": "MUMPS (Massachusetts General Hospital Utility Multi-Programming System), conocido como M o Cache ObjectScript en su implementación de InterSystems, es un lenguaje con una base de datos jerárquica de clave-valor integrada directamente en el runtime.\n\nImpulsa los principales sistemas de información sanitaria, incluyendo Epic y muchas plataformas de historia clínica electrónica (EHR), convirtiéndolo en uno de los lenguajes más ampliamente desplegados en TI sanitaria a pesar de su oscuridad fuera del dominio.",
+      "itName": "MUMPS",
+      "itDescription": "Un linguaggio di programmazione generico con database gerarchico integrato, ampiamente usato nell'informatica sanitaria.",
+      "itLongDescription": "MUMPS (Massachusetts General Hospital Utility Multi-Programming System), noto come M o Cache ObjectScript nell'implementazione InterSystems, e un linguaggio con un database gerarchico chiave-valore integrato direttamente nel runtime.\n\nAlimenta i principali sistemi informativi sanitari, tra cui Epic e molte piattaforme di cartella clinica elettronica (EHR), rendendolo uno dei linguaggi piu ampiamente distribuiti nell'informatica sanitaria nonostante la sua oscurita al di fuori del dominio.",
+      "frName": "MUMPS",
+      "frDescription": "Un langage de programmation à usage général avec base de données hiérarchique intégrée, largement utilisé en informatique de santé.",
+      "frLongDescription": "MUMPS (Massachusetts General Hospital Utility Multi-Programming System), également connu sous le nom de M ou Cache ObjectScript dans son implémentation InterSystems, est un langage avec une base de données hiérarchique clé-valeur intégrée directement dans le runtime.\n\nIl alimente les principaux systèmes d'information de santé, notamment Epic et de nombreuses plateformes de dossier médical électronique (DME), ce qui en fait l'un des langages les plus déployés en informatique de santé malgré son obscurité en dehors du domaine.",
+      "deName": "MUMPS",
+      "deDescription": "Eine Allzweck-Programmiersprache mit eingebetteter hierarchischer Datenbank, weit verbreitet in der Healthcare-IT.",
+      "deLongDescription": "MUMPS (Massachusetts General Hospital Utility Multi-Programming System), auch bekannt als M oder Cache ObjectScript in der InterSystems-Implementierung, ist eine Sprache mit einer hierarchischen Schlüssel-Wert-Datenbank, die direkt in die Laufzeitumgebung integriert ist.\n\nEs treibt große Gesundheitsinformationssysteme an, darunter Epic und viele Plattformen für elektronische Gesundheitsakten (EHR), was es trotz seiner Obscurität außerhalb des Bereichs zu einer der am häufigsten eingesetzten Sprachen in der Healthcare-IT macht.",
+      "ptName": "MUMPS",
+      "ptDescription": "Uma linguagem de programação de propósito geral com banco de dados hierárquico integrado, amplamente usada em TI de saúde.",
+      "ptLongDescription": "MUMPS (Massachusetts General Hospital Utility Multi-Programming System), também conhecido como M ou Cache ObjectScript em sua implementação InterSystems, é uma linguagem com um banco de dados hierárquico de chave-valor integrado diretamente no runtime.\n\nImpulsiona os principais sistemas de informação em saúde, incluindo o Epic e muitas plataformas de prontuário eletrônico (EHR), tornando-o um dos linguagens mais amplamente implantados em TI de saúde, apesar de sua obscuridade fora do domínio.",
+      "publishedDate": "1966-01-01",
+      "extensions": [
+        ".mac",
+        ".int",
+        ".ro",
+        ".mro"
+      ],
+      "author": "Neil Pappalardo",
+      "website": "https://docs.intersystems.com",
+      "paradigms": [
+        "imperative",
+        "procedural"
+      ],
+      "tooling": {
+        "ecosystems": [
+          "Healthcare IT",
+          "InterSystems IRIS",
+          "InterSystems Caché"
+        ]
+      },
+      "version": "InterSystems IRIS 2025.1",
+      "logo": "https://avatars.githubusercontent.com/u/1506671?v=4",
+      "color": "#00B4E3"
+    },
+    {
       "slug": "mustache",
       "name": "Mustache",
       "description": "A logic-less template language with implementations in many programming languages, using double-brace delimiters.",
@@ -8767,6 +8935,47 @@
       "color": "#CC3333"
     },
     {
+      "slug": "openscad",
+      "name": "OpenSCAD",
+      "description": "A script-based 3D CAD modeler for creating solid 3D models.",
+      "longDescription": "OpenSCAD is a free and open-source application for creating solid 3D CAD objects using a scripting language.\n\nUnlike interactive 3D modelers, OpenSCAD uses a purely functional script to describe geometry using constructive solid geometry (CSG) operations, making it popular for parametric design and 3D printing.",
+      "esName": "OpenSCAD",
+      "esDescription": "Un modelador 3D CAD basado en scripts para crear modelos sólidos 3D.",
+      "esLongDescription": "OpenSCAD es una aplicación libre y de código abierto para crear objetos sólidos 3D CAD mediante un lenguaje de scripting.\n\nA diferencia de los modeladores 3D interactivos, OpenSCAD utiliza un script puramente funcional para describir geometría mediante operaciones de geometría sólida constructiva (CSG), siendo popular para el diseño paramétrico y la impresión 3D.",
+      "itName": "OpenSCAD",
+      "itDescription": "Un modellatore CAD 3D basato su script per la creazione di modelli solidi 3D.",
+      "itLongDescription": "OpenSCAD e un'applicazione libera e open source per la creazione di oggetti CAD 3D solidi tramite un linguaggio di scripting.\n\nA differenza dei modellatori 3D interattivi, OpenSCAD utilizza uno script puramente funzionale per descrivere la geometria tramite operazioni di geometria solida costruttiva (CSG), rendendolo popolare per il design parametrico e la stampa 3D.",
+      "frName": "OpenSCAD",
+      "frDescription": "Un modeleur CAO 3D basé sur des scripts pour créer des modèles solides 3D.",
+      "frLongDescription": "OpenSCAD est une application libre et open source pour créer des objets CAO 3D solides à l'aide d'un langage de script.\n\nContrairement aux modeleurs 3D interactifs, OpenSCAD utilise un script purement fonctionnel pour décrire la géométrie à l'aide d'opérations de géométrie solide constructive (CSG), ce qui le rend populaire pour la conception paramétrique et l'impression 3D.",
+      "deName": "OpenSCAD",
+      "deDescription": "Ein skriptbasierter 3D-CAD-Modellierer zur Erstellung solider 3D-Modelle.",
+      "deLongDescription": "OpenSCAD ist eine freie und quelloffene Anwendung zur Erstellung solider 3D-CAD-Objekte mit einer Skriptsprache.\n\nIm Gegensatz zu interaktiven 3D-Modellierern verwendet OpenSCAD ein rein funktionales Skript zur Beschreibung der Geometrie mittels konstruktiver Festkörpergeometrie (CSG) und ist beliebt für parametrisches Design und 3D-Druck.",
+      "ptName": "OpenSCAD",
+      "ptDescription": "Um modelador CAD 3D baseado em scripts para criar modelos sólidos 3D.",
+      "ptLongDescription": "OpenSCAD é uma aplicação livre e de código aberto para criar objetos CAD 3D sólidos usando uma linguagem de scripting.\n\nAo contrário dos modeladores 3D interativos, o OpenSCAD usa um script puramente funcional para descrever a geometria usando operações de geometria sólida construtiva (CSG), sendo popular para design paramétrico e impressão 3D.",
+      "publishedDate": "2010-01-01",
+      "extensions": [
+        ".scad"
+      ],
+      "author": "Marius Kintel, Clifford Wolf",
+      "website": "https://openscad.org",
+      "paradigms": [
+        "functional",
+        "declarative",
+        "imperative"
+      ],
+      "tooling": {
+        "ecosystems": [
+          "3D modeling",
+          "CAD"
+        ]
+      },
+      "version": "2021.01",
+      "logo": "https://avatars.githubusercontent.com/u/1864477?v=4",
+      "color": "#F5CD2F"
+    },
+    {
       "slug": "plsql",
       "name": "Oracle PL/SQL",
       "description": "Oracle's procedural extension to SQL for database programs and packages.",
@@ -9369,6 +9578,91 @@
       "color": "#7D5BA6"
     },
     {
+      "slug": "postscript",
+      "name": "PostScript",
+      "description": "A stack-based page description language used in professional printing and as the foundation of PDF.",
+      "longDescription": "PostScript is a stack-based, Turing-complete programming language and page description language developed by Adobe Systems.\n\nIt describes pages to be rendered by a printer or viewer using vector graphics commands, text layout, and image data. PostScript is the technical foundation for the PDF format and remains widely used in professional typesetting and print workflows.",
+      "esName": "PostScript",
+      "esDescription": "Un lenguaje de descripción de página basado en pila usado en impresión profesional y como base del PDF.",
+      "esLongDescription": "PostScript es un lenguaje de programación basado en pila, Turing completo, y lenguaje de descripción de página desarrollado por Adobe Systems.\n\nDescribe páginas a renderizar por una impresora o visor mediante comandos de gráficos vectoriales, diseño de texto y datos de imagen. PostScript es la base técnica del formato PDF y sigue siendo ampliamente utilizado en composición tipográfica profesional y flujos de trabajo de impresión.",
+      "itName": "PostScript",
+      "itDescription": "Un linguaggio di descrizione delle pagine basato su stack utilizzato nella stampa professionale e come base del PDF.",
+      "itLongDescription": "PostScript e un linguaggio di programmazione basato su stack, Turing-completo, e linguaggio di descrizione delle pagine sviluppato da Adobe Systems.\n\nDescrive le pagine da renderizzare da una stampante o da un visualizzatore tramite comandi di grafica vettoriale, layout del testo e dati immagine. PostScript e la base tecnica del formato PDF e rimane ampiamente utilizzato nella composizione tipografica professionale e nei flussi di lavoro di stampa.",
+      "frName": "PostScript",
+      "frDescription": "Un langage de description de page basé sur une pile utilisé dans l'impression professionnelle et comme fondement du PDF.",
+      "frLongDescription": "PostScript est un langage de programmation basé sur une pile, Turing-complet, et un langage de description de page développé par Adobe Systems.\n\nIl décrit les pages à rendre par une imprimante ou un visualiseur à l'aide de commandes graphiques vectorielles, de mise en page de texte et de données d'image. PostScript est la base technique du format PDF et reste largement utilisé dans la composition professionnelle et les flux de travail d'impression.",
+      "deName": "PostScript",
+      "deDescription": "Eine stapelbasierte Seitenbeschreibungssprache für professionellen Druck und als Grundlage von PDF.",
+      "deLongDescription": "PostScript ist eine stapelbasierte, Turing-vollständige Programmiersprache und Seitenbeschreibungssprache, die von Adobe Systems entwickelt wurde.\n\nSie beschreibt Seiten, die von einem Drucker oder Viewer mithilfe von Vektorgrafik-Befehlen, Textlayout und Bilddaten gerendert werden sollen. PostScript ist die technische Grundlage des PDF-Formats und wird weiterhin häufig im professionellen Satz und in Druckworkflows eingesetzt.",
+      "ptName": "PostScript",
+      "ptDescription": "Uma linguagem de descrição de página baseada em pilha usada em impressão profissional e como base do PDF.",
+      "ptLongDescription": "PostScript é uma linguagem de programação baseada em pilha, Turing-completa, e linguagem de descrição de página desenvolvida pela Adobe Systems.\n\nDescreve páginas a serem renderizadas por uma impressora ou visualizador usando comandos de gráficos vetoriais, layout de texto e dados de imagem. O PostScript é a base técnica do formato PDF e continua amplamente utilizado na composição tipográfica profissional e nos fluxos de trabalho de impressão.",
+      "publishedDate": "1984-01-01",
+      "extensions": [
+        ".ps",
+        ".eps"
+      ],
+      "author": "John Warnock, Charles Geschke / Adobe Systems",
+      "website": "https://www.adobe.com/products/postscript.html",
+      "paradigms": [
+        "stack-based",
+        "declarative",
+        "procedural"
+      ],
+      "tooling": {
+        "ecosystems": [
+          "Print",
+          "PDF"
+        ]
+      },
+      "version": "PostScript 3",
+      "logo": "https://dummyimage.com/32x32/EC1C24/ffffff.png&text=PS",
+      "color": "#EC1C24"
+    },
+    {
+      "slug": "powerquery",
+      "name": "Power Query M",
+      "description": "A functional language for data transformation and ETL in Microsoft Power BI and Excel.",
+      "longDescription": "Power Query M (also called the M formula language) is a functional language used in Microsoft Power BI, Excel, Azure Data Factory, and Microsoft Fabric for data transformation and ETL (extract, transform, load) workflows.\n\nM expressions describe a sequence of data transformation steps, from connecting to data sources to reshaping, filtering, and combining data for loading into a data model.",
+      "esName": "Power Query M",
+      "esDescription": "Un lenguaje funcional para transformación de datos y ETL en Microsoft Power BI y Excel.",
+      "esLongDescription": "Power Query M (también llamado lenguaje de fórmulas M) es un lenguaje funcional utilizado en Microsoft Power BI, Excel, Azure Data Factory y Microsoft Fabric para transformación de datos y flujos de trabajo ETL.\n\nLas expresiones M describen una secuencia de pasos de transformación de datos, desde la conexión con fuentes de datos hasta el reshaping, filtrado y combinación de datos para su carga en un modelo de datos.",
+      "itName": "Power Query M",
+      "itDescription": "Un linguaggio funzionale per la trasformazione dei dati e ETL in Microsoft Power BI ed Excel.",
+      "itLongDescription": "Power Query M (detto anche linguaggio di formule M) e un linguaggio funzionale utilizzato in Microsoft Power BI, Excel, Azure Data Factory e Microsoft Fabric per la trasformazione dei dati e i flussi di lavoro ETL.\n\nLe espressioni M descrivono una sequenza di passaggi di trasformazione dei dati, dalla connessione alle origini dati alla rimodellazione, al filtraggio e alla combinazione dei dati per il caricamento in un modello di dati.",
+      "frName": "Power Query M",
+      "frDescription": "Un langage fonctionnel pour la transformation des données et ETL dans Microsoft Power BI et Excel.",
+      "frLongDescription": "Power Query M (également appelé langage de formules M) est un langage fonctionnel utilisé dans Microsoft Power BI, Excel, Azure Data Factory et Microsoft Fabric pour la transformation des données et les flux de travail ETL.\n\nLes expressions M décrivent une séquence d'étapes de transformation des données, de la connexion aux sources de données à la mise en forme, au filtrage et à la combinaison des données pour leur chargement dans un modèle de données.",
+      "deName": "Power Query M",
+      "deDescription": "Eine funktionale Sprache für Datentransformation und ETL in Microsoft Power BI und Excel.",
+      "deLongDescription": "Power Query M (auch M-Formelsprache genannt) ist eine funktionale Sprache, die in Microsoft Power BI, Excel, Azure Data Factory und Microsoft Fabric für Datentransformation und ETL-Workflows verwendet wird.\n\nM-Ausdrücke beschreiben eine Abfolge von Datentransformationsschritten, von der Verbindung mit Datenquellen bis zur Umgestaltung, Filterung und Kombination von Daten für das Laden in ein Datenmodell.",
+      "ptName": "Power Query M",
+      "ptDescription": "Uma linguagem funcional para transformação de dados e ETL no Microsoft Power BI e Excel.",
+      "ptLongDescription": "Power Query M (também chamado de linguagem de fórmulas M) é uma linguagem funcional usada no Microsoft Power BI, Excel, Azure Data Factory e Microsoft Fabric para transformação de dados e fluxos de trabalho ETL.\n\nAs expressões M descrevem uma sequência de etapas de transformação de dados, desde a conexão com fontes de dados até a reformulação, filtragem e combinação de dados para carregamento em um modelo de dados.",
+      "publishedDate": "2013-01-01",
+      "extensions": [
+        ".pq",
+        ".pqm"
+      ],
+      "author": "Microsoft",
+      "website": "https://learn.microsoft.com/en-us/powerquery-m/",
+      "paradigms": [
+        "functional",
+        "declarative"
+      ],
+      "tooling": {
+        "ecosystems": [
+          "Microsoft Power BI",
+          "Excel",
+          "Azure Data Factory",
+          "Microsoft Fabric"
+        ]
+      },
+      "version": "Power Query M 2025",
+      "logo": "https://dummyimage.com/32x32/F2C811/000000.png&text=PQ",
+      "color": "#F2C811"
+    },
+    {
       "slug": "powershell",
       "name": "PowerShell",
       "description": "A cross-platform command shell and scripting language for automation and system administration.",
@@ -9425,6 +9719,51 @@
       "version": "7.6.3",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png",
       "color": "#5391FE"
+    },
+    {
+      "slug": "processing",
+      "name": "Processing",
+      "description": "A flexible software sketchbook and language for learning to code in the context of the visual arts.",
+      "longDescription": "Processing is an open-source graphical language and environment built for the electronic arts and visual design communities.\n\nIt combines a simplified Java-like syntax with a rich set of 2D and 3D drawing APIs, making it a popular choice for creative coding, generative art, data visualization, and interactive installations.",
+      "esName": "Processing",
+      "esDescription": "Un cuaderno de código flexible y lenguaje para aprender a programar en el contexto de las artes visuales.",
+      "esLongDescription": "Processing es un lenguaje y entorno gráfico de código abierto construido para las comunidades de artes electrónicas y diseño visual.\n\nCombina una sintaxis simplificada similar a Java con un rico conjunto de APIs de dibujo 2D y 3D, convirtiéndose en una opción popular para la codificación creativa, el arte generativo, la visualización de datos y las instalaciones interactivas.",
+      "itName": "Processing",
+      "itDescription": "Un taccuino di codice flessibile e un linguaggio per imparare a programmare nel contesto delle arti visive.",
+      "itLongDescription": "Processing e un linguaggio e ambiente grafico open source costruito per le comunita delle arti elettroniche e del design visivo.\n\nCombina una sintassi semplificata simile a Java con un ricco insieme di API di disegno 2D e 3D, rendendolo una scelta popolare per il creative coding, l'arte generativa, la visualizzazione dei dati e le installazioni interattive.",
+      "frName": "Processing",
+      "frDescription": "Un carnet de code flexible et un langage pour apprendre à programmer dans le contexte des arts visuels.",
+      "frLongDescription": "Processing est un langage et un environnement graphique open source conçu pour les communautés des arts électroniques et du design visuel.\n\nIl combine une syntaxe simplifiée de type Java avec un riche ensemble d'API de dessin 2D et 3D, ce qui en fait un choix populaire pour le codage créatif, l'art génératif, la visualisation de données et les installations interactives.",
+      "deName": "Processing",
+      "deDescription": "Ein flexibles Software-Skizzenbuch und eine Sprache zum Programmierenlernen im Kontext der visuellen Künste.",
+      "deLongDescription": "Processing ist eine Open-Source-Grafiksprache und -umgebung, die für die Gemeinschaft der elektronischen Künste und des visuellen Designs entwickelt wurde.\n\nEs kombiniert eine vereinfachte Java-ähnliche Syntax mit einem umfangreichen Satz von 2D- und 3D-Zeichen-APIs und ist eine beliebte Wahl für kreatives Coding, generative Kunst, Datenvisualisierung und interaktive Installationen.",
+      "ptName": "Processing",
+      "ptDescription": "Um caderno de software flexível e linguagem para aprender a programar no contexto das artes visuais.",
+      "ptLongDescription": "Processing é uma linguagem e ambiente gráfico de código aberto criado para as comunidades de artes eletrônicas e design visual.\n\nCombina uma sintaxe simplificada semelhante ao Java com um rico conjunto de APIs de desenho 2D e 3D, tornando-se uma escolha popular para codificação criativa, arte generativa, visualização de dados e instalações interativas.",
+      "publishedDate": "2001-08-01",
+      "extensions": [
+        ".pde"
+      ],
+      "author": "Casey Reas, Ben Fry",
+      "website": "https://processing.org",
+      "paradigms": [
+        "imperative",
+        "object-oriented",
+        "visual"
+      ],
+      "tooling": {
+        "runtimes": [
+          "JVM",
+          "Java"
+        ],
+        "ecosystems": [
+          "Creative coding",
+          "Java"
+        ]
+      },
+      "version": "4.4.5",
+      "logo": "https://cdn.simpleicons.org/processingfoundation/006699",
+      "color": "#006699"
     },
     {
       "slug": "prolog",
@@ -10514,6 +10853,51 @@
       "version": "development snapshot",
       "logo": "https://avatars.githubusercontent.com/u/96867701?v=4",
       "color": "#7C3AED"
+    },
+    {
+      "slug": "rpg",
+      "name": "RPG",
+      "description": "A high-level programming language for business applications on IBM i (formerly AS/400).",
+      "longDescription": "Report Program Generator (RPG) is a high-level programming language created by IBM for business data processing on IBM midrange systems.\n\nRPG IV (RPGLE), the modern free-format iteration, supports object-oriented features, embedded SQL, and service programs. It remains the dominant language for ERP systems, banking, and government workloads running on IBM i (iSeries, AS/400).",
+      "esName": "RPG",
+      "esDescription": "Un lenguaje de programación de alto nivel para aplicaciones empresariales en IBM i (anteriormente AS/400).",
+      "esLongDescription": "Report Program Generator (RPG) es un lenguaje de programación de alto nivel creado por IBM para el procesamiento de datos empresariales en sistemas midrange de IBM.\n\nRPG IV (RPGLE), la iteración moderna en formato libre, soporta características orientadas a objetos, SQL embebido y programas de servicio. Sigue siendo el lenguaje dominante para sistemas ERP, banca y cargas de trabajo gubernamentales que se ejecutan en IBM i (iSeries, AS/400).",
+      "itName": "RPG",
+      "itDescription": "Un linguaggio di programmazione ad alto livello per applicazioni aziendali su IBM i (ex AS/400).",
+      "itLongDescription": "Report Program Generator (RPG) e un linguaggio di programmazione ad alto livello creato da IBM per l'elaborazione dei dati aziendali sui sistemi midrange IBM.\n\nRPG IV (RPGLE), la moderna iterazione in formato libero, supporta funzionalita orientate agli oggetti, SQL incorporato e programmi di servizio. Rimane il linguaggio dominante per i sistemi ERP, il settore bancario e i carichi di lavoro governativi in esecuzione su IBM i (iSeries, AS/400).",
+      "frName": "RPG",
+      "frDescription": "Un langage de programmation de haut niveau pour les applications d'entreprise sur IBM i (anciennement AS/400).",
+      "frLongDescription": "Report Program Generator (RPG) est un langage de programmation de haut niveau créé par IBM pour le traitement de données d'entreprise sur les systèmes midrange IBM.\n\nRPG IV (RPGLE), l'itération moderne au format libre, prend en charge les fonctionnalités orientées objet, SQL intégré et les programmes de service. Il reste le langage dominant pour les systèmes ERP, les activités bancaires et les charges de travail gouvernementales exécutées sur IBM i (iSeries, AS/400).",
+      "deName": "RPG",
+      "deDescription": "Eine High-Level-Programmiersprache für Business-Anwendungen auf IBM i (früher AS/400).",
+      "deLongDescription": "Report Program Generator (RPG) ist eine von IBM entwickelte Hochsprache für die Verarbeitung von Geschäftsdaten auf IBM-Midrange-Systemen.\n\nRPG IV (RPGLE), die moderne Freiformat-Iteration, unterstützt objektorientierte Funktionen, eingebettetes SQL und Service-Programme. Es bleibt die dominierende Sprache für ERP-Systeme, Bankwesen und behördliche Workloads auf IBM i (iSeries, AS/400).",
+      "ptName": "RPG",
+      "ptDescription": "Uma linguagem de programação de alto nível para aplicações empresariais no IBM i (anteriormente AS/400).",
+      "ptLongDescription": "Report Program Generator (RPG) é uma linguagem de programação de alto nível criada pela IBM para processamento de dados empresariais em sistemas midrange IBM.\n\nRPG IV (RPGLE), a iteração moderna em formato livre, suporta recursos orientados a objetos, SQL incorporado e programas de serviço. Permanece a linguagem dominante para sistemas ERP, setor bancário e cargas de trabalho governamentais em execução no IBM i (iSeries, AS/400).",
+      "publishedDate": "1959-01-01",
+      "extensions": [
+        ".rpg",
+        ".rpgle",
+        ".sqlrpgle",
+        ".clle",
+        ".dspf"
+      ],
+      "author": "IBM",
+      "website": "https://www.ibm.com/docs/en/i/7.5?topic=programming-rpg",
+      "paradigms": [
+        "procedural",
+        "object-oriented"
+      ],
+      "tooling": {
+        "ecosystems": [
+          "IBM i",
+          "AS/400",
+          "iSeries"
+        ]
+      },
+      "version": "RPG IV Free-Form (IBM i 7.5)",
+      "logo": "https://avatars.githubusercontent.com/u/733939?v=4",
+      "color": "#052FAD"
     },
     {
       "slug": "ruby",
@@ -12672,6 +13056,53 @@
       "color": "#059669"
     },
     {
+      "slug": "vba",
+      "name": "VBA",
+      "description": "A macro language embedded in Microsoft Office applications.",
+      "longDescription": "Visual Basic for Applications (VBA) is an event-driven programming language built into most Microsoft Office applications.\n\nIt enables automation of repetitive tasks, creation of custom functions, interaction with Windows APIs, and integration between Office applications such as Excel, Word, Access, and Outlook.",
+      "esName": "VBA",
+      "esDescription": "Un lenguaje de macros integrado en las aplicaciones de Microsoft Office.",
+      "esLongDescription": "Visual Basic for Applications (VBA) es un lenguaje de programacion orientado a eventos integrado en la mayoria de las aplicaciones de Microsoft Office.\n\nPermite automatizar tareas repetitivas, crear funciones personalizadas, interactuar con las APIs de Windows e integrar aplicaciones de Office como Excel, Word, Access y Outlook.",
+      "itName": "VBA",
+      "itDescription": "Un linguaggio macro integrato nelle applicazioni Microsoft Office.",
+      "itLongDescription": "Visual Basic for Applications (VBA) e un linguaggio di programmazione orientato agli eventi integrato nella maggior parte delle applicazioni Microsoft Office.\n\nConsente di automatizzare le attivita ripetitive, creare funzioni personalizzate, interagire con le API di Windows e integrare applicazioni Office come Excel, Word, Access e Outlook.",
+      "frName": "VBA",
+      "frDescription": "Un langage de macros intégré aux applications Microsoft Office.",
+      "frLongDescription": "Visual Basic for Applications (VBA) est un langage de programmation orienté événements intégré dans la plupart des applications Microsoft Office.\n\nIl permet d'automatiser les tâches répétitives, de créer des fonctions personnalisées, d'interagir avec les API Windows et d'intégrer des applications Office comme Excel, Word, Access et Outlook.",
+      "deName": "VBA",
+      "deDescription": "Eine in Microsoft Office-Anwendungen eingebettete Makrosprache.",
+      "deLongDescription": "Visual Basic for Applications (VBA) ist eine ereignisgesteuerte Programmiersprache, die in die meisten Microsoft Office-Anwendungen integriert ist.\n\nSie ermöglicht die Automatisierung von Routineaufgaben, die Erstellung benutzerdefinierter Funktionen, die Interaktion mit Windows-APIs und die Integration von Office-Anwendungen wie Excel, Word, Access und Outlook.",
+      "ptName": "VBA",
+      "ptDescription": "Uma linguagem de macros incorporada nos aplicativos do Microsoft Office.",
+      "ptLongDescription": "Visual Basic for Applications (VBA) é uma linguagem de programação orientada a eventos integrada à maioria dos aplicativos Microsoft Office.\n\nPermite automatizar tarefas repetitivas, criar funções personalizadas, interagir com APIs do Windows e integrar aplicativos Office como Excel, Word, Access e Outlook.",
+      "publishedDate": "1993-04-01",
+      "extensions": [
+        ".bas",
+        ".cls",
+        ".frm",
+        ".vba"
+      ],
+      "author": "Microsoft",
+      "website": "https://learn.microsoft.com/en-us/office/vba/api/overview/",
+      "paradigms": [
+        "imperative",
+        "object-oriented",
+        "event-driven"
+      ],
+      "tooling": {
+        "ecosystems": [
+          "Microsoft Office",
+          "Excel",
+          "Access",
+          "Word",
+          "Outlook"
+        ]
+      },
+      "version": "VBA 7.1",
+      "logo": "https://dummyimage.com/32x32/217346/ffffff.png&text=VBA",
+      "color": "#217346"
+    },
+    {
       "slug": "verilog",
       "name": "Verilog/SystemVerilog",
       "description": "A hardware description and verification language for digital circuits and systems.",
@@ -13322,6 +13753,49 @@
       "version": "XML 1.0 Fifth Edition",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/6/68/XML.svg",
       "color": "#E37933"
+    },
+    {
+      "slug": "xpath",
+      "name": "XPath",
+      "description": "A query language for selecting nodes from XML and HTML documents.",
+      "longDescription": "XPath (XML Path Language) is a query language for selecting nodes from XML and HTML documents and computing values from their content.\n\nIt uses a path syntax to navigate the document tree and is embedded in XSLT, XQuery, XSD, and many XML-aware APIs. XPath 3.1 adds functional programming features including higher-order functions and maps.",
+      "esName": "XPath",
+      "esDescription": "Un lenguaje de consulta para seleccionar nodos de documentos XML y HTML.",
+      "esLongDescription": "XPath (XML Path Language) es un lenguaje de consulta para seleccionar nodos de documentos XML y HTML y calcular valores a partir de su contenido.\n\nUtiliza una sintaxis de ruta para navegar por el árbol del documento y está integrado en XSLT, XQuery, XSD y muchas APIs compatibles con XML. XPath 3.1 añade características de programación funcional incluyendo funciones de orden superior y mapas.",
+      "itName": "XPath",
+      "itDescription": "Un linguaggio di query per selezionare nodi da documenti XML e HTML.",
+      "itLongDescription": "XPath (XML Path Language) e un linguaggio di query per selezionare nodi da documenti XML e HTML e calcolare valori dal loro contenuto.\n\nUtilizza una sintassi di percorso per navigare nell'albero del documento ed e incorporato in XSLT, XQuery, XSD e molte API compatibili con XML. XPath 3.1 aggiunge funzionalita di programmazione funzionale tra cui funzioni di ordine superiore e mappe.",
+      "frName": "XPath",
+      "frDescription": "Un langage de requête pour sélectionner des nœuds dans des documents XML et HTML.",
+      "frLongDescription": "XPath (XML Path Language) est un langage de requête pour sélectionner des nœuds dans des documents XML et HTML et calculer des valeurs à partir de leur contenu.\n\nIl utilise une syntaxe de chemin pour naviguer dans l'arborescence du document et est intégré dans XSLT, XQuery, XSD et de nombreuses API compatibles XML. XPath 3.1 ajoute des fonctionnalités de programmation fonctionnelle, notamment des fonctions d'ordre supérieur et des cartes.",
+      "deName": "XPath",
+      "deDescription": "Eine Abfragesprache zum Auswählen von Knoten aus XML- und HTML-Dokumenten.",
+      "deLongDescription": "XPath (XML Path Language) ist eine Abfragesprache zum Auswählen von Knoten aus XML- und HTML-Dokumenten und zum Berechnen von Werten aus deren Inhalt.\n\nSie verwendet eine Pfadsyntax zur Navigation im Dokumentenbaum und ist in XSLT, XQuery, XSD und viele XML-fähige APIs eingebettet. XPath 3.1 fügt funktionale Programmierfunktionen hinzu, einschließlich Funktionen höherer Ordnung und Maps.",
+      "ptName": "XPath",
+      "ptDescription": "Uma linguagem de consulta para selecionar nós de documentos XML e HTML.",
+      "ptLongDescription": "XPath (XML Path Language) é uma linguagem de consulta para selecionar nós de documentos XML e HTML e calcular valores a partir de seu conteúdo.\n\nUsa uma sintaxe de caminho para navegar na árvore de documentos e está incorporado em XSLT, XQuery, XSD e muitas APIs compatíveis com XML. O XPath 3.1 adiciona recursos de programação funcional, incluindo funções de ordem superior e mapas.",
+      "publishedDate": "1999-11-16",
+      "extensions": [
+        ".xpath",
+        ".xpth"
+      ],
+      "author": "W3C",
+      "website": "https://www.w3.org/TR/xpath-31/",
+      "paradigms": [
+        "declarative",
+        "functional"
+      ],
+      "tooling": {
+        "ecosystems": [
+          "XML",
+          "HTML",
+          "XSLT",
+          "XQuery"
+        ]
+      },
+      "version": "XPath 3.1",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/6/68/XML.svg",
+      "color": "#0076A8"
     },
     {
       "slug": "xquery",
