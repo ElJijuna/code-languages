@@ -1,3 +1,20 @@
+# [1.37.0](https://github.com/ElJijuna/code-languages/compare/v1.36.5...v1.37.0) (2026-06-28)
+
+
+### Bug Fixes
+
+* update to implemented ([0c10d97](https://github.com/ElJijuna/code-languages/commit/0c10d9706969992012a37959cf8e18312992da72))
+
+
+### Features
+
+* add new language definitions ([bd60087](https://github.com/ElJijuna/code-languages/commit/bd6008721088fadb2cdaf83a79c6dcfb0d380137))
+* add runtime and package manager registry ([e3b3cd4](https://github.com/ElJijuna/code-languages/commit/e3b3cd4b49ef9f35627a2670e1f81a7168357484))
+* add runtime and package manager support to API ([73c09cc](https://github.com/ElJijuna/code-languages/commit/73c09cc694fa4bce6602a65c4c52a2186805744e))
+* add tooling data for runtimes and pms ([5c68f94](https://github.com/ElJijuna/code-languages/commit/5c68f9480e4820f4d0a97c1148f5bb4f65046e6a))
+* enhance runtimeInfoFromDefinition and add runtimesForPackageManager function ([75ce294](https://github.com/ElJijuna/code-languages/commit/75ce2940ac71dce193627cb8f3c6f067a5fd8951))
+* refactor runtime and package manager handling in API and add tests ([a86d7dc](https://github.com/ElJijuna/code-languages/commit/a86d7dcd4ab9ec062430949d1701c54f18e7ce1a))
+
 ## [1.36.5](https://github.com/ElJijuna/code-languages/compare/v1.36.4...v1.36.5) (2026-06-27)
 
 
