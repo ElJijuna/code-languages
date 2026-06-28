@@ -7,9 +7,11 @@ import {
   findRuntime,
   matchesPackageManager,
   matchesRuntime,
-  runtimeInfoFromDefinition,
   type PackageManagerInfo,
+  packageManagerInfoFromDefinition,
   type RuntimeInfo,
+  runtimeInfoFromDefinition,
+  runtimesForPackageManager,
 } from './runtime-registry';
 import type { Language, Locale, LocalizedLanguage } from './types';
 
@@ -248,9 +250,7 @@ export const api = {
 
     return {
       info() {
-        if (!definition) return undefined;
-        const { targets: _, ...rest } = definition;
-        return { slug: rest.aliases[0], ...rest };
+        return definition ? packageManagerInfoFromDefinition(definition) : undefined;
       },
       langs() {
         const filtered = () => languages.filter((lang) => matchesPackageManager(lang, targets));
@@ -262,13 +262,7 @@ export const api = {
         );
       },
       runtimes() {
-        return (
-          RUNTIME_REGISTRY_FOR_PM_LOOKUP?.filter((r) =>
-            targets.some((t) =>
-              r.packageManagers.some((pm) => pm.toLowerCase().includes(t.toLowerCase())),
-            ),
-          ).map(runtimeInfoFromDefinition) ?? []
-        );
+        return runtimesForPackageManager(targets);
       },
     };
   },

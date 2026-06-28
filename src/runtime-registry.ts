@@ -388,7 +388,13 @@ const RUNTIME_REGISTRY: RuntimeDefinition[] = [
     website: 'https://azure.microsoft.com',
     aliases: ['azure'],
     packageManagers: [],
-    targets: ['Azure', 'Azure Data Explorer', 'Azure Monitor', 'Azure Quantum', 'Azure Resource Manager'],
+    targets: [
+      'Azure',
+      'Azure Data Explorer',
+      'Azure Monitor',
+      'Azure Quantum',
+      'Azure Resource Manager',
+    ],
   },
   {
     name: 'Docker',
@@ -703,13 +709,20 @@ export function matchesPackageManager(lang: Language, targets: string[]): boolea
 
 export function runtimeInfoFromDefinition(def: RuntimeDefinition): RuntimeInfo {
   const { targets: _, ...rest } = def;
-  return { slug: rest.aliases[0] ?? rest.name.toLowerCase(), ...rest };
+  const slug: string = rest.aliases[0] ?? rest.name.toLowerCase();
+  return { slug, ...rest };
+}
+
+export function packageManagerInfoFromDefinition(
+  def: PackageManagerDefinition,
+): PackageManagerInfo {
+  const { targets: _, ...rest } = def;
+  const slug: string = rest.aliases[0] ?? rest.name.toLowerCase();
+  return { slug, ...rest };
 }
 
 export function runtimesForPackageManager(targets: string[]): RuntimeInfo[] {
   return RUNTIME_REGISTRY.filter((r) =>
-    targets.some((t) =>
-      r.packageManagers.some((pm) => pm.toLowerCase().includes(t.toLowerCase())),
-    ),
+    targets.some((t) => r.packageManagers.some((pm) => pm.toLowerCase().includes(t.toLowerCase()))),
   ).map(runtimeInfoFromDefinition);
 }
