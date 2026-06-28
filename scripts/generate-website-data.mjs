@@ -1,8 +1,9 @@
 import { writeFile } from 'node:fs/promises';
 
-import { languages } from '../dist/index.js';
+import { api, getPackageManagers, getRuntimes, languages } from '../dist/index.js';
 
 const dataFile = new URL('../docs/data/languages.json', import.meta.url);
+const toolingFile = new URL('../docs/data/tooling.json', import.meta.url);
 const locales = ['en', 'es', 'it', 'fr', 'de', 'pt'];
 const localizedFieldName = (locale, field) => {
   if (locale === 'en') {
@@ -46,9 +47,26 @@ const siteData = {
     })
     .sort((first, second) => first.name.localeCompare(second.name)),
 };
+const toolingData = {
+  generatedAt: new Date().toISOString(),
+  runtimes: getRuntimes().map((runtime) => ({
+    ...runtime,
+    languageCount: api.runtime(runtime.aliases[0]).langs().get().length,
+  })),
+  packageManagers: getPackageManagers().map((pm) => ({
+    ...pm,
+    languageCount: api.packageManager(pm.aliases[0]).langs().get().length,
+  })),
+};
 
-await writeFile(dataFile, `${JSON.stringify(siteData, null, 2)}\n`);
+await Promise.all([
+  writeFile(dataFile, `${JSON.stringify(siteData, null, 2)}\n`),
+  writeFile(toolingFile, `${JSON.stringify(toolingData, null, 2)}\n`),
+]);
 
 console.log(
   `Generated website language data for ${siteData.total} languages and ${siteData.extensions} extensions.`,
+);
+console.log(
+  `Generated tooling data for ${toolingData.runtimes.length} runtimes and ${toolingData.packageManagers.length} package managers.`,
 );

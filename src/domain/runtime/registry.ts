@@ -513,3 +513,7 @@ export function runtimesForPackageManager(targets: string[]): RuntimeInfo[] {
     targets.some((t) => r.packageManagers.some((pm) => pm.toLowerCase().includes(t.toLowerCase()))),
   ).map(runtimeInfoFromDefinition);
 }
+
+export function getRuntimes(): RuntimeInfo[] {
+  return RUNTIME_REGISTRY.map(runtimeInfoFromDefinition);
+}

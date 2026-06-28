@@ -524,6 +524,25 @@
         text-align: center;
       }
 
+      .tooling-card {
+        cursor: pointer;
+        transition: border-color 0.15s;
+      }
+
+      .tooling-card:hover {
+        border-color: var(--accent);
+      }
+
+      .chip-runtime {
+        background: #eef3fb;
+        color: #1e4a8c;
+      }
+
+      .chip-pm {
+        background: #fef4ec;
+        color: #8c4a1e;
+      }
+
       footer {
         padding: 38px 0;
         border-top: 1px solid var(--line);
@@ -581,6 +600,8 @@
         <nav class="nav-links" aria-label="Primary navigation">
           <a href="#playground">Playground</a>
           <a href="#languages">Languages</a>
+          <a href="#runtimes">Runtimes</a>
+          <a href="#package-managers">Package Managers</a>
           <a href="#quality">Quality</a>
           <a href="#api">API</a>
           <a href="https://github.com/ElJijuna/code-languages">GitHub</a>
@@ -663,6 +684,32 @@
         <div class="grid" id="language-grid"></div>
       </section>
 
+      <section class="shell" id="runtimes">
+        <div class="section-head">
+          <div>
+            <h2>Runtimes</h2>
+            <p>
+              Runtime platforms and ecosystems supported across the catalog. Click a card to filter
+              the language list.
+            </p>
+          </div>
+        </div>
+        <div class="grid" id="runtime-grid"></div>
+      </section>
+
+      <section class="shell" id="package-managers">
+        <div class="section-head">
+          <div>
+            <h2>Package Managers</h2>
+            <p>
+              Package managers referenced in language tooling metadata. Click a card to filter the
+              language list.
+            </p>
+          </div>
+        </div>
+        <div class="grid" id="pm-grid"></div>
+      </section>
+
       <section class="shell" id="quality">
         <div class="section-head">
           <div>
@@ -728,6 +775,36 @@ const astro = await api
   .load();</code></pre>
             </div>
           </article>
+          <article class="quality-panel">
+            <div class="panel-header">
+              <p class="panel-title">Runtime platform query</p>
+            </div>
+            <div class="quality-body">
+              <pre><code>import { api } from "code-languages";
+
+const info = api.runtime("node").info();
+// { name: "Node.js", slug: "node", ... }
+
+const langs = api.runtime("jvm")
+  .langs()
+  .locale("es")
+  .get();</code></pre>
+            </div>
+          </article>
+          <article class="quality-panel">
+            <div class="panel-header">
+              <p class="panel-title">Package manager query</p>
+            </div>
+            <div class="quality-body">
+              <pre><code>import { api } from "code-languages";
+
+const info = api.packageManager("cargo").info();
+const langs = api.packageManager("npm").langs().get();
+
+// Runtimes that include this package manager
+const runtimes = api.packageManager("pip").runtimes();</code></pre>
+            </div>
+          </article>
         </div>
       </section>
     </main>
@@ -741,6 +818,7 @@ const astro = await api
     <script type="module">
       const state = {
         catalog: null,
+        tooling: null,
         locale: "en",
         selectedSlug: "vue",
         filename: "src/App.vue",
@@ -874,6 +952,65 @@ const result = api
           .join(" ")
           .toLowerCase();
 
+      const filterByTooling = (searchTerm) => {
+        const input = $("#language-search");
+        input.value = searchTerm;
+        input.dispatchEvent(new Event("input"));
+        document.querySelector("#languages").scrollIntoView({ behavior: "smooth" });
+      };
+
+      const renderToolingCard = (entry, type) => {
+        const searchTerm = entry.name;
+        const onclick = `document.querySelector('#language-search').value=${JSON.stringify(searchTerm)};document.querySelector('#language-search').dispatchEvent(new Event('input'));document.querySelector('#languages').scrollIntoView({behavior:'smooth'})`;
+        const extraChips =
+          type === "runtime"
+            ? (entry.packageManagers ?? [])
+                .slice(0, 3)
+                .map((pm) => `<span class="chip">${pm}</span>`)
+                .join("")
+            : (entry.aliases ?? [])
+                .slice(1, 3)
+                .map((a) => `<span class="chip">${a}</span>`)
+                .join("");
+
+        return `
+          <article class="language-card tooling-card" onclick="${onclick}" title="Filter by ${entry.name}">
+            <div class="card-top">
+              <span class="mini-logo">
+                <img src="${entry.logo}" alt="" loading="lazy" onerror="this.src='${placeholderLogo}'" />
+              </span>
+              <div>
+                <h3>${entry.name}</h3>
+                <span class="tag">${entry.languageCount} language${entry.languageCount === 1 ? "" : "s"}</span>
+              </div>
+            </div>
+            <div class="chips">
+              <span class="chip" style="--language-color:${entry.color}">
+                <span class="color-swatch" style="--language-color:${entry.color}"></span>
+                ${entry.slug}
+              </span>
+              ${extraChips}
+            </div>
+          </article>
+        `;
+      };
+
+      const renderRuntimes = () => {
+        if (!state.tooling) { return; }
+        const runtimes = state.tooling.runtimes.filter((r) => r.languageCount > 0);
+        document.getElementById("runtime-grid").innerHTML = runtimes
+          .map((r) => renderToolingCard(r, "runtime"))
+          .join("");
+      };
+
+      const renderPackageManagers = () => {
+        if (!state.tooling) { return; }
+        const pms = state.tooling.packageManagers.filter((pm) => pm.languageCount > 0);
+        document.getElementById("pm-grid").innerHTML = pms
+          .map((pm) => renderToolingCard(pm, "pm"))
+          .join("");
+      };
+
       const renderLanguages = () => {
         const search = $("#language-search").value.trim().toLowerCase();
         const sort = $("#language-sort").value;
@@ -898,8 +1035,15 @@ const result = api
         }
 
         languageGrid.innerHTML = languages
-          .map(
-            (language) => `
+          .map((language) => {
+            const runtime = (language.tooling?.runtimes ?? [])[0];
+            const pm = (language.tooling?.packageManagers ?? [])[0];
+            const toolingChips = [
+              runtime ? `<span class="chip chip-runtime">${runtime}</span>` : "",
+              pm ? `<span class="chip chip-pm">${pm}</span>` : "",
+            ].join("");
+
+            return `
               <article class="language-card">
                 <div class="card-top">
                   ${renderLogo(language, "mini-logo")}
@@ -912,11 +1056,12 @@ const result = api
                 <div class="chips">
                   <span class="chip">v${language.version}</span>
                   ${renderColorChip(language)}
-                  <span class="chip">${language.extensions.slice(0, 4).join(", ")}</span>
+                  <span class="chip">${language.extensions.slice(0, 3).join(", ")}</span>
+                  ${toolingChips}
                 </div>
               </article>
-            `,
-          )
+            `;
+          })
           .join("");
       };
 
@@ -985,13 +1130,15 @@ const result = api
       };
 
       const init = async () => {
-        const [catalog, unitSummary, benchmarks] = await Promise.all([
+        const [catalog, tooling, unitSummary, benchmarks] = await Promise.all([
           loadJson("./data/languages.json"),
+          loadJson("./data/tooling.json"),
           loadJson("./data/unit-summary.json"),
           loadJson("./data/bench-results.json"),
         ]);
 
         state.catalog = catalog;
+        state.tooling = tooling;
 
         $("#stat-languages").textContent = formatNumber(catalog.total);
         $("#stat-extensions").textContent = formatNumber(catalog.extensions);
@@ -1035,6 +1182,8 @@ const result = api
 
         renderResult();
         renderLanguages();
+        renderRuntimes();
+        renderPackageManagers();
         renderUnitSummary(unitSummary);
         renderBenchmarks(benchmarks);
       };

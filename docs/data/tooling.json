@@ -1,0 +1,713 @@
+{
+  "generatedAt": "2026-06-28T01:52:34.648Z",
+  "runtimes": [
+    {
+      "slug": "node",
+      "name": "Node.js",
+      "website": "https://nodejs.org",
+      "logo": "https://cdn.simpleicons.org/nodedotjs",
+      "color": "#339933",
+      "aliases": ["node", "nodejs", "node.js"],
+      "packageManagers": ["npm", "pnpm", "Yarn", "Bun"],
+      "languageCount": 21
+    },
+    {
+      "slug": "bun",
+      "name": "Bun",
+      "website": "https://bun.sh",
+      "logo": "https://cdn.simpleicons.org/bun",
+      "color": "#14151A",
+      "aliases": ["bun"],
+      "packageManagers": ["Bun"],
+      "languageCount": 2
+    },
+    {
+      "slug": "deno",
+      "name": "Deno",
+      "website": "https://deno.com",
+      "logo": "https://cdn.simpleicons.org/deno",
+      "color": "#070708",
+      "aliases": ["deno"],
+      "packageManagers": ["jsr", "npm"],
+      "languageCount": 3
+    },
+    {
+      "slug": "browser",
+      "name": "Browser",
+      "website": "https://developer.mozilla.org",
+      "logo": "https://cdn.simpleicons.org/googlechrome",
+      "color": "#4285F4",
+      "aliases": ["browser", "web-browser"],
+      "packageManagers": [],
+      "languageCount": 18
+    },
+    {
+      "slug": "net",
+      "name": ".NET",
+      "website": "https://dotnet.microsoft.com",
+      "logo": "https://cdn.simpleicons.org/dotnet",
+      "color": "#512BD4",
+      "aliases": ["net", ".net", "dotnet"],
+      "packageManagers": ["NuGet"],
+      "languageCount": 8
+    },
+    {
+      "slug": "net-core",
+      "name": ".NET Core",
+      "website": "https://dotnet.microsoft.com",
+      "logo": "https://cdn.simpleicons.org/dotnet",
+      "color": "#512BD4",
+      "aliases": ["net-core", "dotnet-core", "netcore"],
+      "packageManagers": ["NuGet"],
+      "languageCount": 1
+    },
+    {
+      "slug": "net-framework",
+      "name": ".NET Framework",
+      "website": "https://dotnet.microsoft.com",
+      "logo": "https://cdn.simpleicons.org/dotnet",
+      "color": "#512BD4",
+      "aliases": ["net-framework", "dotnet-framework"],
+      "packageManagers": ["NuGet"],
+      "languageCount": 2
+    },
+    {
+      "slug": "maui",
+      "name": ".NET MAUI",
+      "website": "https://dotnet.microsoft.com/apps/maui",
+      "logo": "https://cdn.simpleicons.org/dotnet",
+      "color": "#512BD4",
+      "aliases": ["maui", "net-maui"],
+      "packageManagers": ["NuGet"],
+      "languageCount": 1
+    },
+    {
+      "slug": "jvm",
+      "name": "JVM",
+      "website": "https://java.com",
+      "logo": "https://cdn.simpleicons.org/openjdk",
+      "color": "#007396",
+      "aliases": ["jvm", "java"],
+      "packageManagers": ["Maven", "Gradle"],
+      "languageCount": 29
+    },
+    {
+      "slug": "android",
+      "name": "Android",
+      "website": "https://developer.android.com",
+      "logo": "https://cdn.simpleicons.org/android",
+      "color": "#3DDC84",
+      "aliases": ["android"],
+      "packageManagers": ["Gradle"],
+      "languageCount": 3
+    },
+    {
+      "slug": "ios",
+      "name": "iOS",
+      "website": "https://developer.apple.com/ios",
+      "logo": "https://cdn.simpleicons.org/apple",
+      "color": "#000000",
+      "aliases": ["ios"],
+      "packageManagers": ["Swift Package Manager", "CocoaPods"],
+      "languageCount": 1
+    },
+    {
+      "slug": "apple",
+      "name": "Apple",
+      "website": "https://developer.apple.com",
+      "logo": "https://cdn.simpleicons.org/apple",
+      "color": "#000000",
+      "aliases": ["apple", "apple-platforms"],
+      "packageManagers": ["Swift Package Manager", "CocoaPods"],
+      "languageCount": 3
+    },
+    {
+      "slug": "python",
+      "name": "Python",
+      "website": "https://python.org",
+      "logo": "https://cdn.simpleicons.org/python",
+      "color": "#3776AB",
+      "aliases": ["python", "cpython"],
+      "packageManagers": ["pip", "Poetry", "uv", "conda"],
+      "languageCount": 12
+    },
+    {
+      "slug": "ruby",
+      "name": "Ruby",
+      "website": "https://ruby-lang.org",
+      "logo": "https://cdn.simpleicons.org/ruby",
+      "color": "#CC342D",
+      "aliases": ["ruby", "mri"],
+      "packageManagers": ["RubyGems", "Bundler"],
+      "languageCount": 5
+    },
+    {
+      "slug": "lua",
+      "name": "Lua",
+      "website": "https://lua.org",
+      "logo": "https://cdn.simpleicons.org/lua",
+      "color": "#2C2D72",
+      "aliases": ["lua", "luajit"],
+      "packageManagers": ["LuaRocks"],
+      "languageCount": 5
+    },
+    {
+      "slug": "beam",
+      "name": "BEAM",
+      "website": "https://erlang.org",
+      "logo": "https://cdn.simpleicons.org/erlang",
+      "color": "#A90533",
+      "aliases": ["beam", "erlang"],
+      "packageManagers": ["Hex", "rebar3", "Mix"],
+      "languageCount": 3
+    },
+    {
+      "slug": "go",
+      "name": "Go",
+      "website": "https://go.dev",
+      "logo": "https://cdn.simpleicons.org/go",
+      "color": "#00ADD8",
+      "aliases": ["go", "golang"],
+      "packageManagers": ["Go modules"],
+      "languageCount": 13
+    },
+    {
+      "slug": "rust",
+      "name": "Rust",
+      "website": "https://rust-lang.org",
+      "logo": "https://cdn.simpleicons.org/rust",
+      "color": "#CE422B",
+      "aliases": ["rust"],
+      "packageManagers": ["Cargo"],
+      "languageCount": 2
+    },
+    {
+      "slug": "wasm",
+      "name": "WebAssembly",
+      "website": "https://webassembly.org",
+      "logo": "https://cdn.simpleicons.org/webassembly",
+      "color": "#654FF0",
+      "aliases": ["wasm", "webassembly", "wasi"],
+      "packageManagers": [],
+      "languageCount": 8
+    },
+    {
+      "slug": "sql",
+      "name": "SQL",
+      "website": "https://www.iso.org/standard/63555.html",
+      "logo": "https://cdn.simpleicons.org/sqlite",
+      "color": "#003B57",
+      "aliases": ["sql"],
+      "packageManagers": [],
+      "languageCount": 5
+    },
+    {
+      "slug": "postgres",
+      "name": "PostgreSQL",
+      "website": "https://postgresql.org",
+      "logo": "https://cdn.simpleicons.org/postgresql",
+      "color": "#4169E1",
+      "aliases": ["postgres", "postgresql", "pg"],
+      "packageManagers": [],
+      "languageCount": 1
+    },
+    {
+      "slug": "influxdb",
+      "name": "InfluxDB",
+      "website": "https://influxdata.com",
+      "logo": "https://cdn.simpleicons.org/influxdb",
+      "color": "#22ADF6",
+      "aliases": ["influxdb", "influx"],
+      "packageManagers": [],
+      "languageCount": 1
+    },
+    {
+      "slug": "splunk",
+      "name": "Splunk",
+      "website": "https://splunk.com",
+      "logo": "https://cdn.simpleicons.org/splunk",
+      "color": "#65A637",
+      "aliases": ["splunk"],
+      "packageManagers": [],
+      "languageCount": 1
+    },
+    {
+      "slug": "cuda",
+      "name": "CUDA",
+      "website": "https://developer.nvidia.com/cuda-zone",
+      "logo": "https://cdn.simpleicons.org/nvidia",
+      "color": "#76B900",
+      "aliases": ["cuda", "nvidia"],
+      "packageManagers": [],
+      "languageCount": 1
+    },
+    {
+      "slug": "metal",
+      "name": "Metal",
+      "website": "https://developer.apple.com/metal",
+      "logo": "https://cdn.simpleicons.org/apple",
+      "color": "#000000",
+      "aliases": ["metal"],
+      "packageManagers": [],
+      "languageCount": 1
+    },
+    {
+      "slug": "webgl",
+      "name": "WebGL",
+      "website": "https://khronos.org/webgl",
+      "logo": "https://cdn.simpleicons.org/opengl",
+      "color": "#990000",
+      "aliases": ["webgl"],
+      "packageManagers": [],
+      "languageCount": 1
+    },
+    {
+      "slug": "webgpu",
+      "name": "WebGPU",
+      "website": "https://gpuweb.github.io/gpuweb",
+      "logo": "https://avatars.githubusercontent.com/u/46742612?v=4",
+      "color": "#005A9C",
+      "aliases": ["webgpu"],
+      "packageManagers": [],
+      "languageCount": 1
+    },
+    {
+      "slug": "vulkan",
+      "name": "Vulkan",
+      "website": "https://vulkan.org",
+      "logo": "https://cdn.simpleicons.org/vulkan",
+      "color": "#AC162C",
+      "aliases": ["vulkan"],
+      "packageManagers": [],
+      "languageCount": 1
+    },
+    {
+      "slug": "directx",
+      "name": "DirectX",
+      "website": "https://devblogs.microsoft.com/directx",
+      "logo": "https://cdn.simpleicons.org/microsoft",
+      "color": "#0078D4",
+      "aliases": ["directx", "direct3d", "d3d"],
+      "packageManagers": [],
+      "languageCount": 1
+    },
+    {
+      "slug": "opencl",
+      "name": "OpenCL",
+      "website": "https://khronos.org/opencl",
+      "logo": "https://cdn.simpleicons.org/opengl",
+      "color": "#ED1C24",
+      "aliases": ["opencl"],
+      "packageManagers": [],
+      "languageCount": 1
+    },
+    {
+      "slug": "opengl",
+      "name": "OpenGL",
+      "website": "https://opengl.org",
+      "logo": "https://cdn.simpleicons.org/opengl",
+      "color": "#5586A4",
+      "aliases": ["opengl"],
+      "packageManagers": [],
+      "languageCount": 1
+    },
+    {
+      "slug": "unity",
+      "name": "Unity",
+      "website": "https://unity.com",
+      "logo": "https://cdn.simpleicons.org/unity",
+      "color": "#FFFFFF",
+      "aliases": ["unity"],
+      "packageManagers": [],
+      "languageCount": 1
+    },
+    {
+      "slug": "unreal",
+      "name": "Unreal Engine",
+      "website": "https://unrealengine.com",
+      "logo": "https://cdn.simpleicons.org/unrealengine",
+      "color": "#0E1128",
+      "aliases": ["unreal", "unreal-engine", "ue"],
+      "packageManagers": [],
+      "languageCount": 1
+    },
+    {
+      "slug": "godot",
+      "name": "Godot",
+      "website": "https://godotengine.org",
+      "logo": "https://cdn.simpleicons.org/godotengine",
+      "color": "#478CBF",
+      "aliases": ["godot"],
+      "packageManagers": ["Godot Asset Library"],
+      "languageCount": 1
+    },
+    {
+      "slug": "gamemaker",
+      "name": "GameMaker",
+      "website": "https://gamemaker.io",
+      "logo": "https://cdn.simpleicons.org/gamemaker",
+      "color": "#71B33C",
+      "aliases": ["gamemaker", "game-maker"],
+      "packageManagers": [],
+      "languageCount": 1
+    },
+    {
+      "slug": "roblox",
+      "name": "Roblox",
+      "website": "https://roblox.com",
+      "logo": "https://cdn.simpleicons.org/roblox",
+      "color": "#E31F26",
+      "aliases": ["roblox"],
+      "packageManagers": ["Wally"],
+      "languageCount": 1
+    },
+    {
+      "slug": "llvm",
+      "name": "LLVM",
+      "website": "https://llvm.org",
+      "logo": "https://avatars.githubusercontent.com/u/1466038?v=4",
+      "color": "#262D3A",
+      "aliases": ["llvm"],
+      "packageManagers": [],
+      "languageCount": 2
+    },
+    {
+      "slug": "embedded",
+      "name": "Embedded",
+      "website": "https://en.wikipedia.org/wiki/Embedded_system",
+      "logo": "https://cdn.simpleicons.org/arduino",
+      "color": "#00878A",
+      "aliases": ["embedded", "arduino", "microcontroller"],
+      "packageManagers": ["PlatformIO"],
+      "languageCount": 24
+    },
+    {
+      "slug": "azure",
+      "name": "Azure",
+      "website": "https://azure.microsoft.com",
+      "logo": "https://cdn.simpleicons.org/microsoftazure",
+      "color": "#0078D4",
+      "aliases": ["azure"],
+      "packageManagers": [],
+      "languageCount": 5
+    },
+    {
+      "slug": "docker",
+      "name": "Docker",
+      "website": "https://docker.com",
+      "logo": "https://cdn.simpleicons.org/docker",
+      "color": "#2496ED",
+      "aliases": ["docker", "containers"],
+      "packageManagers": [],
+      "languageCount": 2
+    },
+    {
+      "slug": "kubernetes",
+      "name": "Kubernetes",
+      "website": "https://kubernetes.io",
+      "logo": "https://cdn.simpleicons.org/kubernetes",
+      "color": "#326CE5",
+      "aliases": ["kubernetes", "k8s"],
+      "packageManagers": ["Helm"],
+      "languageCount": 5
+    },
+    {
+      "slug": "windows",
+      "name": "Windows",
+      "website": "https://microsoft.com/windows",
+      "logo": "https://cdn.simpleicons.org/windows",
+      "color": "#0078D4",
+      "aliases": ["windows"],
+      "packageManagers": ["winget", "Chocolatey", "Scoop"],
+      "languageCount": 9
+    },
+    {
+      "slug": "macos",
+      "name": "macOS",
+      "website": "https://apple.com/macos",
+      "logo": "https://cdn.simpleicons.org/apple",
+      "color": "#000000",
+      "aliases": ["macos", "osx"],
+      "packageManagers": ["Homebrew"],
+      "languageCount": 7
+    },
+    {
+      "slug": "linux",
+      "name": "Linux",
+      "website": "https://kernel.org",
+      "logo": "https://cdn.simpleicons.org/linux",
+      "color": "#FCC624",
+      "aliases": ["linux"],
+      "packageManagers": ["apt", "dnf", "pacman"],
+      "languageCount": 8
+    },
+    {
+      "slug": "salesforce",
+      "name": "Salesforce",
+      "website": "https://salesforce.com",
+      "logo": "https://cdn.simpleicons.org/salesforce",
+      "color": "#00A1E0",
+      "aliases": ["salesforce", "sfdc"],
+      "packageManagers": ["Salesforce CLI"],
+      "languageCount": 2
+    },
+    {
+      "slug": "sap",
+      "name": "SAP",
+      "website": "https://sap.com",
+      "logo": "https://cdn.simpleicons.org/sap",
+      "color": "#0070F2",
+      "aliases": ["sap"],
+      "packageManagers": [],
+      "languageCount": 1
+    },
+    {
+      "slug": "ethereum",
+      "name": "Ethereum",
+      "website": "https://ethereum.org",
+      "logo": "https://cdn.simpleicons.org/ethereum",
+      "color": "#627EEA",
+      "aliases": ["ethereum", "evm"],
+      "packageManagers": ["Foundry", "Hardhat"],
+      "languageCount": 4
+    },
+    {
+      "slug": "r",
+      "name": "R",
+      "website": "https://r-project.org",
+      "logo": "https://cdn.simpleicons.org/r",
+      "color": "#276DC3",
+      "aliases": ["r", "r-lang", "cran"],
+      "packageManagers": ["CRAN", "renv"],
+      "languageCount": 237
+    },
+    {
+      "slug": "ocaml",
+      "name": "OCaml",
+      "website": "https://ocaml.org",
+      "logo": "https://avatars.githubusercontent.com/u/1841483?v=4",
+      "color": "#EF7A08",
+      "aliases": ["ocaml"],
+      "packageManagers": ["opam"],
+      "languageCount": 4
+    }
+  ],
+  "packageManagers": [
+    {
+      "slug": "npm",
+      "name": "npm",
+      "website": "https://npmjs.com",
+      "logo": "https://cdn.simpleicons.org/npm",
+      "color": "#CB3837",
+      "aliases": ["npm"],
+      "languageCount": 35
+    },
+    {
+      "slug": "pnpm",
+      "name": "pnpm",
+      "website": "https://pnpm.io",
+      "logo": "https://cdn.simpleicons.org/pnpm",
+      "color": "#F69220",
+      "aliases": ["pnpm"],
+      "languageCount": 19
+    },
+    {
+      "slug": "yarn",
+      "name": "Yarn",
+      "website": "https://yarnpkg.com",
+      "logo": "https://cdn.simpleicons.org/yarn",
+      "color": "#2C8EBB",
+      "aliases": ["yarn"],
+      "languageCount": 19
+    },
+    {
+      "slug": "pip",
+      "name": "pip",
+      "website": "https://pip.pypa.io",
+      "logo": "https://cdn.simpleicons.org/pypi",
+      "color": "#3775A9",
+      "aliases": ["pip"],
+      "languageCount": 11
+    },
+    {
+      "slug": "poetry",
+      "name": "Poetry",
+      "website": "https://python-poetry.org",
+      "logo": "https://cdn.simpleicons.org/poetry",
+      "color": "#60A5FA",
+      "aliases": ["poetry"],
+      "languageCount": 4
+    },
+    {
+      "slug": "uv",
+      "name": "uv",
+      "website": "https://docs.astral.sh/uv",
+      "logo": "https://avatars.githubusercontent.com/u/115962839?v=4",
+      "color": "#DE5FE9",
+      "aliases": ["uv"],
+      "languageCount": 4
+    },
+    {
+      "slug": "conda",
+      "name": "conda",
+      "website": "https://conda.io",
+      "logo": "https://cdn.simpleicons.org/anaconda",
+      "color": "#44A833",
+      "aliases": ["conda"],
+      "languageCount": 4
+    },
+    {
+      "slug": "cargo",
+      "name": "Cargo",
+      "website": "https://doc.rust-lang.org/cargo",
+      "logo": "https://cdn.simpleicons.org/rust",
+      "color": "#CE422B",
+      "aliases": ["cargo"],
+      "languageCount": 5
+    },
+    {
+      "slug": "maven",
+      "name": "Maven",
+      "website": "https://maven.apache.org",
+      "logo": "https://cdn.simpleicons.org/apachemaven",
+      "color": "#C71A36",
+      "aliases": ["maven"],
+      "languageCount": 14
+    },
+    {
+      "slug": "gradle",
+      "name": "Gradle",
+      "website": "https://gradle.org",
+      "logo": "https://cdn.simpleicons.org/gradle",
+      "color": "#02303A",
+      "aliases": ["gradle"],
+      "languageCount": 7
+    },
+    {
+      "slug": "nuget",
+      "name": "NuGet",
+      "website": "https://nuget.org",
+      "logo": "https://cdn.simpleicons.org/nuget",
+      "color": "#004880",
+      "aliases": ["nuget"],
+      "languageCount": 12
+    },
+    {
+      "slug": "composer",
+      "name": "Composer",
+      "website": "https://getcomposer.org",
+      "logo": "https://cdn.simpleicons.org/composer",
+      "color": "#885630",
+      "aliases": ["composer"],
+      "languageCount": 5
+    },
+    {
+      "slug": "hex",
+      "name": "Hex",
+      "website": "https://hex.pm",
+      "logo": "https://cdn.simpleicons.org/elixir",
+      "color": "#6E4A7E",
+      "aliases": ["hex"],
+      "languageCount": 3
+    },
+    {
+      "slug": "mix",
+      "name": "Mix",
+      "website": "https://elixir-lang.org",
+      "logo": "https://cdn.simpleicons.org/elixir",
+      "color": "#6E4A7E",
+      "aliases": ["mix"],
+      "languageCount": 1
+    },
+    {
+      "slug": "cabal",
+      "name": "Cabal",
+      "website": "https://cabal.readthedocs.io",
+      "logo": "https://cdn.simpleicons.org/haskell",
+      "color": "#5D4F85",
+      "aliases": ["cabal"],
+      "languageCount": 3
+    },
+    {
+      "slug": "stack",
+      "name": "Stack",
+      "website": "https://haskellstack.org",
+      "logo": "https://cdn.simpleicons.org/haskell",
+      "color": "#5D4F85",
+      "aliases": ["stack"],
+      "languageCount": 3
+    },
+    {
+      "slug": "pub",
+      "name": "pub",
+      "website": "https://pub.dev",
+      "logo": "https://cdn.simpleicons.org/dart",
+      "color": "#0175C2",
+      "aliases": ["pub", "dart-pub"],
+      "languageCount": 1
+    },
+    {
+      "slug": "cocoapods",
+      "name": "CocoaPods",
+      "website": "https://cocoapods.org",
+      "logo": "https://cdn.simpleicons.org/cocoapods",
+      "color": "#EE3322",
+      "aliases": ["cocoapods", "pods"],
+      "languageCount": 1
+    },
+    {
+      "slug": "spm",
+      "name": "Swift PM",
+      "website": "https://swift.org/package-manager",
+      "logo": "https://cdn.simpleicons.org/swift",
+      "color": "#F05138",
+      "aliases": ["spm", "swift-pm", "swiftpm"],
+      "languageCount": 2
+    },
+    {
+      "slug": "rubygems",
+      "name": "RubyGems",
+      "website": "https://rubygems.org",
+      "logo": "https://cdn.simpleicons.org/rubygems",
+      "color": "#E9573F",
+      "aliases": ["rubygems", "gem", "bundler"],
+      "languageCount": 6
+    },
+    {
+      "slug": "go-mod",
+      "name": "Go modules",
+      "website": "https://go.dev/ref/mod",
+      "logo": "https://cdn.simpleicons.org/go",
+      "color": "#00ADD8",
+      "aliases": ["go-mod", "go-modules", "gomod"],
+      "languageCount": 4
+    },
+    {
+      "slug": "luarocks",
+      "name": "LuaRocks",
+      "website": "https://luarocks.org",
+      "logo": "https://cdn.simpleicons.org/lua",
+      "color": "#2C2D72",
+      "aliases": ["luarocks"],
+      "languageCount": 2
+    },
+    {
+      "slug": "opam",
+      "name": "Opam",
+      "website": "https://opam.ocaml.org",
+      "logo": "https://avatars.githubusercontent.com/u/1841483?v=4",
+      "color": "#EF7A08",
+      "aliases": ["opam"],
+      "languageCount": 4
+    },
+    {
+      "slug": "cpan",
+      "name": "CPAN",
+      "website": "https://cpan.org",
+      "logo": "https://cdn.simpleicons.org/perl",
+      "color": "#39457E",
+      "aliases": ["cpan"],
+      "languageCount": 1
+    }
+  ]
+}

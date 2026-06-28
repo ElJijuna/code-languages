@@ -18,10 +18,10 @@ const languageEntries = existsSync(languagesDir)
 export default defineConfig({
   entry: {
     api: 'src/api.ts',
-    detect: 'src/detect.ts',
-    'detect-slugs': 'src/detect-slugs.ts',
+    detect: 'src/domain/detection/detect.ts',
+    'detect-slugs': 'src/domain/detection/detect-slugs.ts',
     index: 'src/index.ts',
-    i18n: 'src/i18n.ts',
+    i18n: 'src/domain/i18n/index.ts',
     ...languageEntries,
   },
   format: ['esm', 'cjs'],

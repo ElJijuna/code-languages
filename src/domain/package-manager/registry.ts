@@ -254,3 +254,7 @@ export function packageManagerInfoFromDefinition(
     aliases: def.aliases,
   };
 }
+
+export function getPackageManagers(): PackageManagerInfo[] {
+  return PACKAGE_MANAGER_REGISTRY.map(packageManagerInfoFromDefinition);
+}

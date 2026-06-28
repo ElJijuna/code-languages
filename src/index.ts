@@ -9,6 +9,10 @@ export {
 export { localizeLanguage } from './domain/i18n';
 export { languages } from './domain/language/catalog';
 export type { LanguageSlug } from './domain/language/registry';
+export type { PackageManagerInfo } from './domain/package-manager/registry';
+export { getPackageManagers } from './domain/package-manager/registry';
+export type { RuntimeInfo } from './domain/runtime/registry';
+export { getRuntimes } from './domain/runtime/registry';
 export { abap } from './languages/abap';
 export { actionscript } from './languages/actionscript';
 export { ada } from './languages/ada';
