@@ -2,6 +2,15 @@ import { languages } from './catalog';
 import { detectLanguageSlug, detectLanguageSlugs } from './detect-slugs';
 import { localizeLanguage } from './i18n';
 import { type LanguageSlug, languageIndex, loadLanguage } from './language-registry';
+import {
+  findPackageManager,
+  findRuntime,
+  matchesPackageManager,
+  matchesRuntime,
+  runtimeInfoFromDefinition,
+  type PackageManagerInfo,
+  type RuntimeInfo,
+} from './runtime-registry';
 import type { Language, Locale, LocalizedLanguage } from './types';
 
 type RuntimeLanguageSlug = LanguageSlug | (string & {});
@@ -27,6 +36,22 @@ export interface LanguageRequest {
    * Returns `undefined` when the slug does not exist.
    */
   load(): Promise<LocalizedLanguage | undefined>;
+}
+
+export interface RuntimeRequest {
+  /** Metadata about the matched runtime platform. Returns undefined for unknown values. */
+  info(): RuntimeInfo | undefined;
+  /** Languages that run on or target this platform. */
+  langs(): LanguageCollectionRequest;
+}
+
+export interface PackageManagerRequest {
+  /** Metadata about the matched package manager. Returns undefined for unknown values. */
+  info(): PackageManagerInfo | undefined;
+  /** Languages that use this package manager. */
+  langs(): LanguageCollectionRequest;
+  /** Runtime platforms that include this package manager. */
+  runtimes(): RuntimeInfo[];
 }
 
 export interface LanguageCollectionRequest {
@@ -175,6 +200,77 @@ export const api = {
       },
       async () => (await loadDetectedLanguages(filename)).at(0),
     );
+  },
+
+  /**
+   * Selects every language that runs on or targets the given platform or runtime.
+   *
+   * Accepts common aliases: 'node', 'nodejs', 'bun', 'deno', '.net', 'jvm', 'android', 'ios', etc.
+   * Searches both `tooling.runtimes` and `tooling.ecosystems`.
+   *
+   * @example
+   * api.runtime('node').langs().locale('es').get();
+   * api.runtime('.net').info();
+   */
+  runtime(value: string): RuntimeRequest {
+    const definition = findRuntime(value);
+    const targets = definition?.targets ?? [value];
+
+    return {
+      info() {
+        return definition ? runtimeInfoFromDefinition(definition) : undefined;
+      },
+      langs() {
+        const filtered = () => languages.filter((lang) => matchesRuntime(lang, targets));
+
+        return createLanguageCollectionRequest(filtered, () =>
+          Promise.all(filtered().map((lang) => loadLanguage(lang.slug))).then((loaded) =>
+            loaded.filter((lang): lang is Language => Boolean(lang)),
+          ),
+        );
+      },
+    };
+  },
+
+  /**
+   * Selects every language that uses the given package manager.
+   *
+   * Accepts common aliases: 'npm', 'pnpm', 'yarn', 'pip', 'cargo', 'maven', 'nuget', etc.
+   * Searches `tooling.packageManagers`.
+   *
+   * @example
+   * api.packageManager('npm').langs().locale('es').get();
+   * api.packageManager('npm').runtimes();
+   */
+  packageManager(value: string): PackageManagerRequest {
+    const definition = findPackageManager(value);
+    const targets = definition?.targets ?? [value];
+
+    return {
+      info() {
+        if (!definition) return undefined;
+        const { targets: _, ...rest } = definition;
+        return { slug: rest.aliases[0], ...rest };
+      },
+      langs() {
+        const filtered = () => languages.filter((lang) => matchesPackageManager(lang, targets));
+
+        return createLanguageCollectionRequest(filtered, () =>
+          Promise.all(filtered().map((lang) => loadLanguage(lang.slug))).then((loaded) =>
+            loaded.filter((lang): lang is Language => Boolean(lang)),
+          ),
+        );
+      },
+      runtimes() {
+        return (
+          RUNTIME_REGISTRY_FOR_PM_LOOKUP?.filter((r) =>
+            targets.some((t) =>
+              r.packageManagers.some((pm) => pm.toLowerCase().includes(t.toLowerCase())),
+            ),
+          ).map(runtimeInfoFromDefinition) ?? []
+        );
+      },
+    };
   },
 
   /**
