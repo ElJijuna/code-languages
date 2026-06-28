@@ -74,17 +74,14 @@ export interface LanguageCollectionRequest {
 }
 
 const defaultLocale: Locale = 'en';
-
 const normalizeLanguageSlug = (slug: RuntimeLanguageSlug) =>
   slug
     .trim()
     .toLowerCase()
     .replace(/\s+/g, '-')
     .replace(/[^a-z0-9-]/g, '');
-
 const localizeOptionalLanguage = (language: Language | undefined, locale: Locale) =>
   language ? localizeLanguage(language, locale) : undefined;
-
 const createLanguageRequest = (
   getLanguage: () => Language | undefined,
   loadLanguageModule: () => Promise<Language | undefined>,
@@ -107,7 +104,6 @@ const createLanguageRequest = (
 
   return request;
 };
-
 const createLanguageCollectionRequest = (
   getLanguageList: () => Language[],
   loadLanguageList: () => Promise<Language[]>,
@@ -132,16 +128,15 @@ const createLanguageCollectionRequest = (
 
   return request;
 };
-
-const loadDetectedLanguages = (filename: string) =>
-  Promise.all(detectLanguageSlugs(filename).map((slug) => loadLanguage(slug))).then(
-    (detectedLanguages) =>
-      detectedLanguages.filter((language): language is Language => Boolean(language)),
+const loadDetectedLanguages = async (filename: string) => {
+  const detectedLanguages = await Promise.all(
+    detectLanguageSlugs(filename).map((slug) => loadLanguage(slug)),
   );
 
+  return detectedLanguages.filter((language): language is Language => Boolean(language));
+};
 const getLanguageBySlug = (slug: string): Language | undefined =>
   languages.find((language) => language.slug === slug);
-
 const getDetectedLanguages = (filename: string) =>
   detectLanguageSlugs(filename)
     .map((slug) => getLanguageBySlug(slug))
@@ -180,10 +175,11 @@ export const api = {
   languages() {
     return createLanguageCollectionRequest(
       () => [...languages],
-      () =>
-        Promise.all(languageIndex.map((entry) => loadLanguage(entry.slug))).then((loaded) =>
-          loaded.filter((language): language is Language => Boolean(language)),
-        ),
+      async () => {
+        const loaded = await Promise.all(languageIndex.map((entry) => loadLanguage(entry.slug)));
+
+        return loaded.filter((language): language is Language => Boolean(language));
+      },
     );
   },
 
@@ -225,11 +221,11 @@ export const api = {
       langs() {
         const filtered = () => languages.filter((lang) => matchesRuntime(lang, targets));
 
-        return createLanguageCollectionRequest(filtered, () =>
-          Promise.all(filtered().map((lang) => loadLanguage(lang.slug))).then((loaded) =>
-            loaded.filter((lang): lang is Language => Boolean(lang)),
-          ),
-        );
+        return createLanguageCollectionRequest(filtered, async () => {
+          const loaded = await Promise.all(filtered().map((lang) => loadLanguage(lang.slug)));
+
+          return loaded.filter((lang): lang is Language => Boolean(lang));
+        });
       },
     };
   },
@@ -255,11 +251,11 @@ export const api = {
       langs() {
         const filtered = () => languages.filter((lang) => matchesPackageManager(lang, targets));
 
-        return createLanguageCollectionRequest(filtered, () =>
-          Promise.all(filtered().map((lang) => loadLanguage(lang.slug))).then((loaded) =>
-            loaded.filter((lang): lang is Language => Boolean(lang)),
-          ),
-        );
+        return createLanguageCollectionRequest(filtered, async () => {
+          const loaded = await Promise.all(filtered().map((lang) => loadLanguage(lang.slug)));
+
+          return loaded.filter((lang): lang is Language => Boolean(lang));
+        });
       },
       runtimes() {
         return runtimesForPackageManager(targets);

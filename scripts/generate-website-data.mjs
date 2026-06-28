@@ -4,7 +4,6 @@ import { languages } from '../dist/index.js';
 
 const dataFile = new URL('../docs/data/languages.json', import.meta.url);
 const locales = ['en', 'es', 'it', 'fr', 'de', 'pt'];
-
 const localizedFieldName = (locale, field) => {
   if (locale === 'en') {
     return field;
@@ -12,7 +11,6 @@ const localizedFieldName = (locale, field) => {
 
   return `${locale}${field[0].toUpperCase()}${field.slice(1)}`;
 };
-
 const siteData = {
   generatedAt: new Date().toISOString(),
   total: languages.length,

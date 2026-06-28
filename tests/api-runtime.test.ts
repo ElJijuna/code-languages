@@ -13,6 +13,7 @@ describe('api.runtime()', () => {
 
     it('includes logo, color, website, slug, aliases', () => {
       const info = api.runtime('node').info();
+
       expect(info).toHaveProperty('slug', 'node');
       expect(info).toHaveProperty('logo');
       expect(info?.color).toMatch(/^#[0-9A-Fa-f]{6}$/);
@@ -37,6 +38,7 @@ describe('api.runtime()', () => {
         .langs()
         .get()
         .map((l) => l.slug);
+
       expect(slugs).toContain('javascript');
       expect(slugs).toContain('typescript');
     });
@@ -52,6 +54,7 @@ describe('api.runtime()', () => {
         .langs()
         .get()
         .map((l) => l.slug);
+
       expect(a).toEqual(b);
     });
 
@@ -102,6 +105,7 @@ describe('api.runtime()', () => {
         .get()
         .map((l) => l.slug);
       const lazy = (await api.runtime('jvm').langs().load()).map((l) => l.slug);
+
       expect(sync).toEqual(lazy);
     });
   });
@@ -115,6 +119,7 @@ describe('api.packageManager()', () => {
 
     it('includes slug, logo, color, website, aliases', () => {
       const info = api.packageManager('npm').info();
+
       expect(info).toHaveProperty('slug', 'npm');
       expect(info).toHaveProperty('logo');
       expect(info?.color).toMatch(/^#[0-9A-Fa-f]{6}$/);
@@ -134,6 +139,7 @@ describe('api.packageManager()', () => {
         .langs()
         .get()
         .map((l) => l.slug);
+
       expect(slugs).toContain('javascript');
       expect(slugs).toContain('typescript');
     });
@@ -173,6 +179,7 @@ describe('api.packageManager()', () => {
         .get()
         .map((l) => l.slug);
       const lazy = (await api.packageManager('maven').langs().load()).map((l) => l.slug);
+
       expect(sync).toEqual(lazy);
     });
   });
@@ -183,6 +190,7 @@ describe('api.packageManager()', () => {
         .packageManager('npm')
         .runtimes()
         .map((r) => r.name);
+
       expect(names).toContain('Node.js');
     });
 
@@ -191,6 +199,7 @@ describe('api.packageManager()', () => {
         .packageManager('cargo')
         .runtimes()
         .map((r) => r.name);
+
       expect(names).toContain('Rust');
     });
 
@@ -199,6 +208,7 @@ describe('api.packageManager()', () => {
         .packageManager('nuget')
         .runtimes()
         .map((r) => r.name);
+
       expect(names).toContain('.NET');
     });
 
@@ -207,7 +217,8 @@ describe('api.packageManager()', () => {
     });
 
     it('runtime entries have all required fields', () => {
-      const rt = api.packageManager('npm').runtimes()[0];
+      const [rt] = api.packageManager('npm').runtimes();
+
       expect(rt).toHaveProperty('slug');
       expect(rt).toHaveProperty('name');
       expect(rt).toHaveProperty('website');

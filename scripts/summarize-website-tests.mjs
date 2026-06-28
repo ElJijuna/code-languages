@@ -3,9 +3,7 @@ import { basename } from 'node:path';
 
 const inputFile = new URL('../docs/data/unit-results.json', import.meta.url);
 const outputFile = new URL('../docs/data/unit-summary.json', import.meta.url);
-
 const report = JSON.parse(await readFile(inputFile, 'utf8'));
-
 const files = report.testResults.map((result) => {
   const assertions = result.assertionResults ?? [];
 
@@ -19,7 +17,6 @@ const files = report.testResults.map((result) => {
     durationMs: Math.max(0, (result.endTime ?? result.startTime) - result.startTime),
   };
 });
-
 const summary = {
   generatedAt: new Date().toISOString(),
   success: report.success,

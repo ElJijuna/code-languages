@@ -11,7 +11,6 @@ import {
 } from '../dist/index.js';
 
 const outputFile = new URL('../docs/data/bench-results.json', import.meta.url);
-
 const filenames = [
   'src/index.ts',
   'src/App.vue',
@@ -26,7 +25,6 @@ const filenames = [
   'Cargo.toml',
   'web/app.wasm',
 ];
-
 const measure = (name, group, iterations, fn) => {
   fn(0);
 
@@ -47,7 +45,6 @@ const measure = (name, group, iterations, fn) => {
     opsPerSecond: Number(((iterations / totalMs) * 1000).toFixed(0)),
   };
 };
-
 const measureAsync = async (name, group, iterations, fn) => {
   await fn(0);
 
@@ -68,7 +65,6 @@ const measureAsync = async (name, group, iterations, fn) => {
     opsPerSecond: Number(((iterations / totalMs) * 1000).toFixed(0)),
   };
 };
-
 const results = [
   measure('detectLanguage for TypeScript file', 'detect', 100_000, () =>
     detectLanguage('src/index.ts'),

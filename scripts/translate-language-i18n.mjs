@@ -5,13 +5,12 @@ const targetLocales = [
   { code: 'de', label: 'German' },
   { code: 'pt', label: 'Portuguese' },
 ];
-
 const options = parseArgs(process.argv.slice(2));
 const languagesDir = path.resolve(options.languagesDir ?? 'src/languages');
 const model = options.model ?? 'translategemma:4b';
 const maxAttempts = 3;
-
 const files = await listLanguageFiles(languagesDir, options.only);
+
 let changedFiles = 0;
 
 for (const file of files) {
@@ -38,7 +37,6 @@ for (const file of files) {
       model,
       target,
     });
-
     const localeBlock = formatLocaleBlock(target.code, {
       name: english.name,
       description: translated.description,
@@ -178,6 +176,7 @@ function extractObjectBlock(source, marker) {
   }
 
   const closeIndex = findMatchingBrace(source, openIndex);
+
   return source.slice(openIndex, closeIndex + 1);
 }
 
@@ -225,6 +224,7 @@ function findMatchingBrace(source, openIndex) {
 
 async function translateContent({ content, languageName, model, target }) {
   const sourceParagraphs = splitParagraphs(content.longDescription);
+
   let previousError;
 
   for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
@@ -306,6 +306,7 @@ async function requestTranslation({ model, prompt }) {
   }
 
   const payload = await response.json();
+
   return JSON.parse(payload.response);
 }
 
@@ -390,6 +391,7 @@ function insertLocale(source, localeBlock) {
   const openIndex = source.indexOf('{', i18nStart);
   const closeIndex = findMatchingBrace(source, openIndex);
   const closeLineStart = source.lastIndexOf('\n', closeIndex) + 1;
+
   return `${source.slice(0, closeLineStart)}${localeBlock}\n${source.slice(closeLineStart)}`;
 }
 
@@ -402,5 +404,6 @@ function replaceLocale(source, locale, localeBlock) {
   const openIndex = source.indexOf('{', blockStart);
   const closeIndex = findMatchingBrace(source, openIndex);
   const trailingCommaEnd = source[closeIndex + 1] === ',' ? closeIndex + 2 : closeIndex + 1;
+
   return `${source.slice(0, blockStart + 1)}${localeBlock}${source.slice(trailingCommaEnd)}`;
 }

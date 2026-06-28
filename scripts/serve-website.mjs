@@ -8,7 +8,6 @@ const docsDir = fileURLToPath(new URL('../docs/', import.meta.url));
 const portIndex = process.argv.indexOf('--port');
 const portValue = portIndex >= 0 ? process.argv[portIndex + 1] : process.env.PORT;
 const port = Number(portValue ?? 4173);
-
 const mimeTypes = {
   '.css': 'text/css; charset=utf-8',
   '.html': 'text/html; charset=utf-8',
@@ -16,14 +15,12 @@ const mimeTypes = {
   '.json': 'application/json; charset=utf-8',
   '.svg': 'image/svg+xml',
 };
-
 const resolvePath = (urlPath) => {
   const decodedPath = decodeURIComponent(new URL(urlPath, 'http://localhost').pathname);
   const requestedPath = normalize(join(docsDir, decodedPath === '/' ? 'index.html' : decodedPath));
 
   return requestedPath.startsWith(docsDir) ? requestedPath : join(docsDir, 'index.html');
 };
-
 const server = createServer(async (request, response) => {
   const filePath = resolvePath(request.url ?? '/');
 
@@ -33,6 +30,7 @@ const server = createServer(async (request, response) => {
     if (!fileStat.isFile()) {
       response.writeHead(404);
       response.end('Not found');
+
       return;
     }
 

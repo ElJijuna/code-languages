@@ -3,8 +3,11 @@ import { join } from 'node:path';
 
 const languagesDir = 'src/languages';
 const reportPath = 'language-version-report.json';
+
 let githubRequestDelayMs = Number(process.env.GITHUB_REQUEST_DELAY_MS ?? '1200');
+
 const githubRateLimitMaxWaitMs = Number(process.env.GITHUB_RATE_LIMIT_MAX_WAIT_MS ?? '60000');
+
 let nextGithubRequestAt = 0;
 
 const manualChecks = {
@@ -255,7 +258,6 @@ const manualChecks = {
   twee: 'Twee/Twine releases should be reviewed manually against twinery.org and the tweego/tweego GitHub releases page.',
   wdl: 'WDL specification versions should be reviewed manually against openwdl.org and the openwdl/wdl GitHub releases page.',
 };
-
 const checkers = {
   async astro() {
     const json = await fetchJson('https://registry.npmjs.org/astro/latest');
@@ -1420,7 +1422,6 @@ async function buildReport(languages) {
     skipped: [],
     errors: [],
   };
-
   const total = languages.length;
 
   for (const [index, language] of languages.entries()) {
@@ -1473,6 +1474,7 @@ async function buildReport(languages) {
 async function applyLocalUpdates(updates) {
   if (updates.length === 0) {
     console.log('No updates to apply.');
+
     return;
   }
 
@@ -1540,6 +1542,7 @@ async function syncVersionUpdateIssue({ owner, repo, token, update }) {
     });
 
     console.log(`Created issue: ${title}`);
+
     return;
   }
 
@@ -1547,6 +1550,7 @@ async function syncVersionUpdateIssue({ owner, repo, token, update }) {
 
   if (normalizeComparable(previousVersion) === normalizeComparable(update.latestVersion)) {
     console.log(`Issue already up to date for ${update.name}: ${existingIssue.html_url}`);
+
     return;
   }
 
@@ -1579,6 +1583,7 @@ async function syncVersionUpdateIssue({ owner, repo, token, update }) {
 async function syncVersionUpdatePullRequest({ baseBranch, owner, repo, token, updates }) {
   if (updates.length === 0) {
     console.log('No pull request updates to apply.');
+
     return;
   }
 
@@ -1597,6 +1602,7 @@ async function syncVersionUpdatePullRequest({ baseBranch, owner, repo, token, up
 
   for (const update of updates) {
     const issue = await findOpenVersionUpdateIssue({ owner, repo, token, update });
+
     updateIssues.push({ issue, update });
 
     await commitVersionUpdate({
@@ -1624,6 +1630,7 @@ async function syncVersionUpdatePullRequest({ baseBranch, owner, repo, token, up
     });
 
     console.log(`Created pull request: ${title}`);
+
     return;
   }
 
@@ -1646,7 +1653,6 @@ async function findOpenVersionUpdateIssue({ owner, repo, token, update }) {
   const result = await githubRequest(`/search/issues?q=${encodeURIComponent(query)}`, {
     token,
   });
-
   const markerMatch = result.items?.find((issue) => issue.body?.includes(marker));
 
   if (markerMatch) {
@@ -1729,7 +1735,6 @@ async function commitVersionUpdate({ branch, owner, repo, token, update }) {
     { token },
   );
   const tree = [];
-
   const languageFile = await getRepositoryFile({
     branch,
     owner,
@@ -1768,6 +1773,7 @@ async function commitVersionUpdate({ branch, owner, repo, token, update }) {
 
   if (tree.length === 0) {
     console.log(`${update.name} already has ${update.latestVersion} on ${branch}`);
+
     return;
   }
 
@@ -1779,7 +1785,6 @@ async function commitVersionUpdate({ branch, owner, repo, token, update }) {
       tree,
     },
   });
-
   const newCommit = await githubRequest(`/repos/${owner}/${repo}/git/commits`, {
     method: 'POST',
     token,
@@ -1969,6 +1974,7 @@ async function githubRequest(path, { allowNotFound = false, body, method = 'GET'
 
   if (!response.ok) {
     const text = await response.text();
+
     throw new Error(`GitHub request failed with ${response.status}: ${text}`);
   }
 
@@ -2010,6 +2016,7 @@ async function waitForGitHubRequestSlot() {
 
   const now = Date.now();
   const waitMs = Math.max(0, nextGithubRequestAt - now);
+
   nextGithubRequestAt = Math.max(now, nextGithubRequestAt) + githubRequestDelayMs;
 
   if (waitMs > 0) {

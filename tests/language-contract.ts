@@ -23,6 +23,7 @@ export const expectValidLanguage = (language: Language, expectedSlug: string) =>
   expectNonEmptyString(language.version);
   expect(language.logo).toMatch(/^https:\/\//);
   expect(language.color).toMatch(/^#[0-9A-F]{6}$/);
+
   for (const locale of requiredLocales) {
     const content = language.i18n[locale];
 
@@ -84,7 +85,6 @@ const expectLanguageTooling = (language: Language) => {
     expect(values.every((value: string) => value.trim().length > 0)).toBe(true);
   }
 };
-
 const expectLanguageContent = (content: LanguageContent) => {
   expectNonEmptyString(content.name);
   expectNonEmptyString(content.description);
@@ -92,7 +92,6 @@ const expectLanguageContent = (content: LanguageContent) => {
   expectNonEmptyString(content.longDescription);
   expect(content.longDescription.split(/\n\s*\n/).length).toBeGreaterThanOrEqual(2);
 };
-
 const expectNonEmptyString = (value: unknown) => {
   expect(typeof value).toBe('string');
   expect((value as string).trim().length).toBeGreaterThan(0);

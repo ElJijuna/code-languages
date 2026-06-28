@@ -491,7 +491,6 @@ const RUNTIME_REGISTRY: RuntimeDefinition[] = [
     targets: ['OCaml Runtime', 'OCaml'],
   },
 ];
-
 const PACKAGE_MANAGER_REGISTRY: PackageManagerDefinition[] = [
   {
     name: 'npm',
@@ -689,36 +688,55 @@ const PACKAGE_MANAGER_REGISTRY: PackageManagerDefinition[] = [
 
 export function findRuntime(value: string): RuntimeDefinition | undefined {
   const key = value.trim().toLowerCase();
+
   return RUNTIME_REGISTRY.find((r) => r.aliases.includes(key));
 }
 
 export function findPackageManager(value: string): PackageManagerDefinition | undefined {
   const key = value.trim().toLowerCase();
+
   return PACKAGE_MANAGER_REGISTRY.find((r) => r.aliases.includes(key));
 }
 
 export function matchesRuntime(lang: Language, targets: string[]): boolean {
   const pool = [...(lang.tooling?.runtimes ?? []), ...(lang.tooling?.ecosystems ?? [])];
+
   return targets.some((t) => pool.some((s) => s.toLowerCase().includes(t.toLowerCase())));
 }
 
 export function matchesPackageManager(lang: Language, targets: string[]): boolean {
   const pool = lang.tooling?.packageManagers ?? [];
+
   return targets.some((t) => pool.some((s) => s.toLowerCase().includes(t.toLowerCase())));
 }
 
 export function runtimeInfoFromDefinition(def: RuntimeDefinition): RuntimeInfo {
-  const { targets: _, ...rest } = def;
-  const slug: string = rest.aliases[0] ?? rest.name.toLowerCase();
-  return { slug, ...rest };
+  const slug: string = def.aliases[0] ?? def.name.toLowerCase();
+
+  return {
+    slug,
+    name: def.name,
+    website: def.website,
+    logo: def.logo,
+    color: def.color,
+    aliases: def.aliases,
+    packageManagers: def.packageManagers,
+  };
 }
 
 export function packageManagerInfoFromDefinition(
   def: PackageManagerDefinition,
 ): PackageManagerInfo {
-  const { targets: _, ...rest } = def;
-  const slug: string = rest.aliases[0] ?? rest.name.toLowerCase();
-  return { slug, ...rest };
+  const slug: string = def.aliases[0] ?? def.name.toLowerCase();
+
+  return {
+    slug,
+    name: def.name,
+    website: def.website,
+    logo: def.logo,
+    color: def.color,
+    aliases: def.aliases,
+  };
 }
 
 export function runtimesForPackageManager(targets: string[]): RuntimeInfo[] {

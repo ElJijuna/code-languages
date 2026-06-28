@@ -19,7 +19,6 @@ const filenames = [
   'Shaders/Lighting.metal',
   'unknown/file.not-a-language',
 ];
-
 const repeatedFilenames = Array.from({ length: 1_000 }, (_, index) => {
   const filename = filenames[index % filenames.length];
 

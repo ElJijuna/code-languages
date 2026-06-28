@@ -3,7 +3,6 @@ import { join } from 'node:path';
 import { defineConfig } from 'tsup';
 
 const languagesDir = 'src/languages';
-
 const languageEntries = existsSync(languagesDir)
   ? Object.fromEntries(
       readdirSync(languagesDir)
