@@ -703,5 +703,13 @@ export function matchesPackageManager(lang: Language, targets: string[]): boolea
 
 export function runtimeInfoFromDefinition(def: RuntimeDefinition): RuntimeInfo {
   const { targets: _, ...rest } = def;
-  return { slug: rest.aliases[0], ...rest };
+  return { slug: rest.aliases[0] ?? rest.name.toLowerCase(), ...rest };
+}
+
+export function runtimesForPackageManager(targets: string[]): RuntimeInfo[] {
+  return RUNTIME_REGISTRY.filter((r) =>
+    targets.some((t) =>
+      r.packageManagers.some((pm) => pm.toLowerCase().includes(t.toLowerCase())),
+    ),
+  ).map(runtimeInfoFromDefinition);
 }
