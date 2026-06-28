@@ -134,6 +134,71 @@ such as `"Visual Basic"` and `"Jupyter Notebook!"` resolve to `visual-basic` and
 imports so bundlers can lazy-load individual language modules when the consumer
 build supports code splitting.
 
+Use `api.runtime(value)` to query languages that run on a specific platform or runtime environment:
+
+```ts
+import { api } from "code-languages/api";
+
+// Get runtime metadata
+const info = api.runtime('node').info();
+// {
+//   slug: 'node',
+//   name: 'Node.js',
+//   color: '#339933',
+//   logo: 'https://cdn.simpleicons.org/nodedotjs',
+//   website: 'https://nodejs.org',
+//   aliases: ['node', 'nodejs', 'node.js'],
+//   packageManagers: ['npm', 'pnpm', 'Yarn', 'Bun'],
+// }
+
+// Get languages that target this runtime
+const langs = api.runtime('node').langs().get();
+const langsEs = api.runtime('.net').langs().locale('es').get();
+await api.runtime('jvm').langs().load();
+
+// Returns undefined / [] for unknown values
+api.runtime('unknown-xyz').info();         // undefined
+api.runtime('unknown-xyz').langs().get();  // []
+```
+
+Supported runtime aliases include: `node` / `nodejs` / `node.js`, `bun`, `deno`, `browser`,
+`.net` / `dotnet`, `jvm` / `java`, `android`, `ios`, `python`, `ruby`, `rust`, `go` / `golang`,
+`wasm`, `sql`, and many more. Searches `tooling.runtimes` and `tooling.ecosystems` on each language.
+
+Use `api.packageManager(value)` to query languages that use a specific package manager:
+
+```ts
+import { api } from "code-languages/api";
+
+// Get package manager metadata
+const info = api.packageManager('npm').info();
+// {
+//   slug: 'npm',
+//   name: 'npm',
+//   color: '#CB3837',
+//   logo: 'https://cdn.simpleicons.org/npm',
+//   website: 'https://npmjs.com',
+//   aliases: ['npm'],
+// }
+
+// Get languages that use this package manager
+const langs = api.packageManager('cargo').langs().get();
+const langsEs = api.packageManager('pip').langs().locale('es').get();
+
+// Get runtime platforms that include this package manager
+const runtimes = api.packageManager('npm').runtimes();
+// [{ name: 'Node.js', ... }, { name: 'Bun', ... }, { name: 'Deno', ... }]
+
+// Returns undefined / [] for unknown values
+api.packageManager('unknown-xyz').info();      // undefined
+api.packageManager('unknown-xyz').langs().get(); // []
+api.packageManager('unknown-xyz').runtimes();  // []
+```
+
+Supported package manager aliases include: `npm`, `pnpm`, `yarn`, `pip`, `poetry`, `uv`,
+`cargo`, `maven`, `gradle`, `nuget`, `composer`, `hex`, `spm`, `rubygems`, `go-mod`,
+`luarocks`, `opam`, `cpan`, and more. Searches `tooling.packageManagers` on each language.
+
 Use `localizeLanguage` to read localized display content with English fallback:
 
 ```ts
@@ -487,12 +552,15 @@ Common scripts:
 
 | Script | Purpose |
 |---|---|
-| `npm run lint` | Run Biome checks |
+| `npm run format` | Format and auto-fix with Biome |
+| `npm run format:check` | Check formatting with Biome (read-only) |
+| `npm run lint` | Run ESLint |
+| `npm run lint:fix` | Run ESLint with auto-fix |
 | `npm run typecheck` | Run TypeScript without emitting files |
 | `npm test` | Run Vitest |
 | `npm run bench` | Run manual performance benchmarks |
 | `npm run build` | Build ESM, CommonJS, and declaration files |
-| `npm run check` | Run lint, typecheck, and tests |
+| `npm run check` | Run format:check, lint, typecheck, and tests |
 | `npm run check:language-versions -- --language typescript` | Check release metadata for one language |
 | `npm run website:prepare` | Build the static website data, unit test summary, and benchmark summary |
 | `npm run website:serve` | Preview the static website locally |

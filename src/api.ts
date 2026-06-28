@@ -1,18 +1,20 @@
-import { languages } from './catalog';
-import { detectLanguageSlug, detectLanguageSlugs } from './detect-slugs';
-import { localizeLanguage } from './i18n';
-import { type LanguageSlug, languageIndex, loadLanguage } from './language-registry';
+import { detectLanguageSlug, detectLanguageSlugs } from './domain/detection/detect-slugs';
+import { localizeLanguage } from './domain/i18n';
+import { languages } from './domain/language/catalog';
+import { type LanguageSlug, languageIndex, loadLanguage } from './domain/language/registry';
 import {
   findPackageManager,
-  findRuntime,
   matchesPackageManager,
-  matchesRuntime,
   type PackageManagerInfo,
   packageManagerInfoFromDefinition,
+} from './domain/package-manager/registry';
+import {
+  findRuntime,
+  matchesRuntime,
   type RuntimeInfo,
   runtimeInfoFromDefinition,
   runtimesForPackageManager,
-} from './runtime-registry';
+} from './domain/runtime/registry';
 import type { Language, Locale, LocalizedLanguage } from './types';
 
 type RuntimeLanguageSlug = LanguageSlug | (string & {});

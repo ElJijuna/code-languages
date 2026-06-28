@@ -1,4 +1,4 @@
-import { type LanguageSlug, languageIndex } from './language-registry';
+import { type LanguageSlug, languageIndex } from '../language/registry';
 import { detectMatchingEntries } from './match';
 
 export interface ProjectLanguageDetection {

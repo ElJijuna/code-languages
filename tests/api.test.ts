@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { api, languages } from '../src';
-import { languageIndex } from '../src/language-registry';
+import { languageIndex } from '../src/domain/language/registry';
 
 describe('api.language', () => {
   it('returns a localized language from the synchronous catalog', () => {

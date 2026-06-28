@@ -1,4 +1,4 @@
-import type { BaseLocale, Language, Locale, LocalizedLanguage } from './types';
+import type { BaseLocale, Language, Locale, LocalizedLanguage } from '../../types';
 
 export const localizeLanguage = (language: Language, locale: Locale = 'en'): LocalizedLanguage => {
   const { i18n, ...metadata } = language;

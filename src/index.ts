@@ -1,10 +1,14 @@
 export { api } from './api';
-export { languages } from './catalog';
-export { detectLanguage, detectLanguages } from './detect';
-export type { ProjectLanguageDetection } from './detect-slugs';
-export { detectLanguageSlug, detectLanguageSlugs, detectProjectLanguages } from './detect-slugs';
-export { localizeLanguage } from './i18n';
-export type { LanguageSlug } from './language-registry';
+export { detectLanguage, detectLanguages } from './domain/detection/detect';
+export type { ProjectLanguageDetection } from './domain/detection/detect-slugs';
+export {
+  detectLanguageSlug,
+  detectLanguageSlugs,
+  detectProjectLanguages,
+} from './domain/detection/detect-slugs';
+export { localizeLanguage } from './domain/i18n';
+export { languages } from './domain/language/catalog';
+export type { LanguageSlug } from './domain/language/registry';
 export { abap } from './languages/abap';
 export { actionscript } from './languages/actionscript';
 export { ada } from './languages/ada';
