@@ -3,6 +3,7 @@ import type { BaseLocale, Language, Locale, LocalizedLanguage } from '../../type
 export const localizeLanguage = (language: Language, locale: Locale = 'en'): LocalizedLanguage => {
   const { i18n, ...metadata } = language;
   const resolvedLocale = resolveLocale(i18n, locale);
+  /* v8 ignore next -- resolveLocale always returns a locale present in i18n */
   const content = i18n[resolvedLocale] ?? i18n.en;
 
   return {

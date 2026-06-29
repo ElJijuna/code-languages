@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest';
+import { getPackageManagers, getRuntimes } from '../src';
 import { api } from '../src/api';
 
 describe('api.runtime()', () => {
@@ -108,6 +109,26 @@ describe('api.runtime()', () => {
 
       expect(sync).toEqual(lazy);
     });
+  });
+});
+
+describe('getRuntimes()', () => {
+  it('returns a non-empty list of all runtimes', () => {
+    const runtimes = getRuntimes();
+
+    expect(runtimes.length).toBeGreaterThan(0);
+    expect(runtimes[0]).toHaveProperty('slug');
+    expect(runtimes[0]).toHaveProperty('name');
+  });
+});
+
+describe('getPackageManagers()', () => {
+  it('returns a non-empty list of all package managers', () => {
+    const pms = getPackageManagers();
+
+    expect(pms.length).toBeGreaterThan(0);
+    expect(pms[0]).toHaveProperty('slug');
+    expect(pms[0]).toHaveProperty('name');
   });
 });
 

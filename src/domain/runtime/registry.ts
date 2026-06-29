@@ -495,6 +495,7 @@ export function matchesRuntime(lang: Language, targets: string[]): boolean {
 }
 
 export function runtimeInfoFromDefinition(def: RuntimeDefinition): RuntimeInfo {
+  /* v8 ignore next -- all registry entries have at least one alias */
   const slug: string = def.aliases[0] ?? def.name.toLowerCase();
 
   return {

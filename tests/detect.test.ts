@@ -262,6 +262,10 @@ describe('detectLanguage', () => {
   it('returns undefined when no language matches', () => {
     expect(detectLanguage('LICENSE')).toBeUndefined();
   });
+
+  it('returns undefined for empty filename', () => {
+    expect(detectLanguage('')).toBeUndefined();
+  });
 });
 
 describe('detectLanguages', () => {

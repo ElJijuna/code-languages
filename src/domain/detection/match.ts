@@ -5,8 +5,11 @@ export interface DetectableLanguage {
 const pathSegmentPattern = /[/\\]/;
 
 /** Returns the lowercase basename from a filename or path. */
-export const getBasename = (filename: string) =>
-  filename.trim().split(pathSegmentPattern).at(-1)?.toLowerCase() ?? '';
+export const getBasename = (filename: string): string => {
+  const parts = filename.trim().split(pathSegmentPattern);
+
+  return (parts.at(-1) as string).toLowerCase();
+};
 
 /** Checks whether a basename matches an extension or exact filename entry. */
 export const matchesExtension = (basename: string, extension: string) => {
