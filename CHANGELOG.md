@@ -1,3 +1,11 @@
+# [1.39.0](https://github.com/ElJijuna/code-languages/compare/v1.38.0...v1.39.0) (2026-06-29)
+
+
+### Features
+
+* add test coverage command and integrate coverage reporting ([8a786f6](https://github.com/ElJijuna/code-languages/commit/8a786f6666bf4aa0ab1e277aed7d29b7ed5f1b30))
+* implement language categorization API and add tests ([b02b94e](https://github.com/ElJijuna/code-languages/commit/b02b94e9d40fbc3a5308495b8a0340293eaccf74))
+
 # [1.38.0](https://github.com/ElJijuna/code-languages/compare/v1.37.0...v1.38.0) (2026-06-28)
 
 
