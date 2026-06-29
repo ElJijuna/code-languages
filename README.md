@@ -199,6 +199,45 @@ Supported package manager aliases include: `npm`, `pnpm`, `yarn`, `pip`, `poetry
 `cargo`, `maven`, `gradle`, `nuget`, `composer`, `hex`, `spm`, `rubygems`, `go-mod`,
 `luarocks`, `opam`, `cpan`, and more. Searches `tooling.packageManagers` on each language.
 
+Use `api.category(value)` to filter languages by their domain of use:
+
+```ts
+import { api, getCategories } from "code-languages";
+
+// frontend  — targets the browser only (CSS, HTML, WGSL…)
+api.category('frontend').langs().get();
+
+// backend   — runs on a server runtime (Python, Go, Ruby, PHP, Java, C#…)
+api.category('backend').langs().locale('es').get();
+
+// fullstack — targets both browser and server (JavaScript, TypeScript…)
+api.category('fullstack').langs().get();
+
+// systems   — low-level / native / embedded (C, C++, Rust, Zig…)
+api.category('systems').langs().get();
+
+// data-science — data, ML, scientific computing (R, Julia, Python…)
+api.category('data-science').langs().locale('pt').get();
+
+// scripting — shell and scripting languages (Bash, Zsh, PowerShell…)
+api.category('scripting').langs().get();
+
+// other     — everything that does not match any of the above
+api.category('other').langs().get();
+
+// async load and locale chaining work the same as other collection methods
+await api.category('backend').langs().locale('pt').load();
+
+// list all available categories
+getCategories();
+// → ['frontend', 'backend', 'fullstack', 'systems', 'data-science', 'scripting', 'other']
+```
+
+Categories are inferred from each language's `tooling.runtimes` and `tooling.ecosystems` —
+no extra data is needed in individual language files.  
+`frontend`, `backend`, and `fullstack` are mutually exclusive; the remaining categories
+can overlap (Python appears in both `backend` and `data-science`).
+
 Use `localizeLanguage` to read localized display content with English fallback:
 
 ```ts

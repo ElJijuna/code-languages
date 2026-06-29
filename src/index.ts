@@ -1,4 +1,6 @@
+export type { CategoryRequest, LanguageCategory } from './api';
 export { api } from './api';
+export { getCategories } from './domain/category/registry';
 export { detectLanguage, detectLanguages } from './domain/detection/detect';
 export type { ProjectLanguageDetection } from './domain/detection/detect-slugs';
 export {

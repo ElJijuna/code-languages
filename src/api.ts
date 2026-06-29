@@ -1,3 +1,4 @@
+import { type LanguageCategory, matchesCategory } from './domain/category/registry';
 import { detectLanguageSlug, detectLanguageSlugs } from './domain/detection/detect-slugs';
 import { localizeLanguage } from './domain/i18n';
 import { languages } from './domain/language/catalog';
@@ -56,6 +57,11 @@ export interface PackageManagerRequest {
   langs(): LanguageCollectionRequest;
   /** Runtime platforms that include this package manager. */
   runtimes(): RuntimeInfo[];
+}
+
+export interface CategoryRequest {
+  /** Languages that belong to this category. */
+  langs(): LanguageCollectionRequest;
 }
 
 export interface LanguageCollectionRequest {
@@ -266,6 +272,38 @@ export const api = {
   },
 
   /**
+   * Selects every language that belongs to the given category.
+   *
+   * Categories are inferred from each language's `tooling.runtimes` and `tooling.ecosystems`:
+   * - `frontend`    — targets the browser only (CSS, HTML, GLSL…)
+   * - `backend`     — runs on a server runtime (Python, Go, Ruby, PHP…)
+   * - `fullstack`   — targets both browser and server (JavaScript, TypeScript…)
+   * - `systems`     — low-level / native / embedded (C, C++, Rust, Zig…)
+   * - `data-science`— data, ML, scientific computing (R, Julia, MATLAB…)
+   * - `scripting`   — shell and scripting languages (Bash, Zsh, PowerShell…)
+   * - `other`       — everything that does not match any of the above
+   *
+   * Categories are not mutually exclusive: Python appears in both `backend` and `data-science`.
+   *
+   * @example
+   * api.category('backend').langs().locale('es').get();
+   * await api.category('data-science').langs().load();
+   */
+  category(value: LanguageCategory): CategoryRequest {
+    return {
+      langs() {
+        const filtered = () => languages.filter((lang) => matchesCategory(lang, value));
+
+        return createLanguageCollectionRequest(filtered, async () => {
+          const loaded = await Promise.all(filtered().map((lang) => loadLanguage(lang.slug)));
+
+          return loaded.filter((lang): lang is Language => Boolean(lang));
+        });
+      },
+    };
+  },
+
+  /**
    * Detects every matching language for a filename or path.
    *
    * Useful for ambiguous extensions such as `.h`, which can match C and C++.
@@ -278,4 +316,5 @@ export const api = {
   },
 };
 
+export type { LanguageCategory } from './domain/category/registry';
 export type { LanguageSlug };
