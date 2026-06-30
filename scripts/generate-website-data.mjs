@@ -1,6 +1,13 @@
 import { writeFile } from 'node:fs/promises';
 
-import { api, getPackageManagers, getRuntimes, languages } from '../dist/index.js';
+import {
+  api,
+  getEcosystems,
+  getPackageManagers,
+  getParadigms,
+  getRuntimes,
+  languages,
+} from '../dist/index.js';
 
 const dataFile = new URL('../docs/data/languages.json', import.meta.url);
 const toolingFile = new URL('../docs/data/tooling.json', import.meta.url);
@@ -57,6 +64,14 @@ const toolingData = {
     ...pm,
     languageCount: api.packageManager(pm.aliases[0]).langs().get().length,
   })),
+  paradigms: getParadigms().map((paradigm) => ({
+    ...paradigm,
+    languageCount: api.paradigm(paradigm.aliases[0]).langs().get().length,
+  })),
+  ecosystems: getEcosystems().map((ecosystem) => ({
+    ...ecosystem,
+    languageCount: api.ecosystem(ecosystem.aliases[0]).langs().get().length,
+  })),
 };
 
 await Promise.all([
@@ -68,5 +83,5 @@ console.log(
   `Generated website language data for ${siteData.total} languages and ${siteData.extensions} extensions.`,
 );
 console.log(
-  `Generated tooling data for ${toolingData.runtimes.length} runtimes and ${toolingData.packageManagers.length} package managers.`,
+  `Generated tooling data for ${toolingData.runtimes.length} runtimes, ${toolingData.packageManagers.length} package managers, ${toolingData.paradigms.length} paradigms, and ${toolingData.ecosystems.length} ecosystems.`,
 );

@@ -1,5 +1,11 @@
 import { type LanguageCategory, matchesCategory } from './domain/category/registry';
 import { detectLanguageSlug, detectLanguageSlugs } from './domain/detection/detect-slugs';
+import {
+  type EcosystemInfo,
+  ecosystemInfoFromDefinition,
+  findEcosystem,
+  matchesEcosystem,
+} from './domain/ecosystem/registry';
 import { localizeLanguage } from './domain/i18n';
 import { languages } from './domain/language/catalog';
 import { type LanguageSlug, languageIndex, loadLanguage } from './domain/language/registry';
@@ -9,6 +15,12 @@ import {
   type PackageManagerInfo,
   packageManagerInfoFromDefinition,
 } from './domain/package-manager/registry';
+import {
+  findParadigm,
+  matchesParadigm,
+  type ParadigmInfo,
+  paradigmInfoFromDefinition,
+} from './domain/paradigm/registry';
 import {
   findRuntime,
   matchesRuntime,
@@ -64,6 +76,20 @@ export interface CategoryRequest {
   langs(): LanguageCollectionRequest;
 }
 
+export interface ParadigmRequest {
+  /** Metadata about the matched paradigm. Returns undefined for unknown values. */
+  info(): ParadigmInfo | undefined;
+  /** Languages that use this programming paradigm. */
+  langs(): LanguageCollectionRequest;
+}
+
+export interface EcosystemRequest {
+  /** Metadata about the matched ecosystem. Returns undefined for unknown values. */
+  info(): EcosystemInfo | undefined;
+  /** Languages that belong to this ecosystem. */
+  langs(): LanguageCollectionRequest;
+}
+
 export interface LanguageCollectionRequest {
   /**
    * Sets the requested locale for every language returned by this collection lookup.
@@ -82,6 +108,7 @@ export interface LanguageCollectionRequest {
 }
 
 const defaultLocale: Locale = 'en';
+const languageMap = new Map(languages.map((l) => [l.slug, l]));
 const normalizeLanguageSlug = (slug: RuntimeLanguageSlug) =>
   slug
     .trim()
@@ -143,8 +170,7 @@ const loadDetectedLanguages = async (filename: string) => {
 
   return detectedLanguages.filter((language): language is Language => Boolean(language));
 };
-const getLanguageBySlug = (slug: string): Language | undefined =>
-  languages.find((language) => language.slug === slug);
+const getLanguageBySlug = (slug: string): Language | undefined => languageMap.get(slug);
 const getDetectedLanguages = (filename: string) =>
   detectLanguageSlugs(filename)
     .map((slug) => getLanguageBySlug(slug))
@@ -169,7 +195,7 @@ export const api = {
     const normalizedSlug = normalizeLanguageSlug(slug);
 
     return createLanguageRequest(
-      () => languages.find((language) => language.slug === normalizedSlug),
+      () => languageMap.get(normalizedSlug),
       () => loadLanguage(normalizedSlug),
     );
   },
@@ -304,6 +330,66 @@ export const api = {
   },
 
   /**
+   * Selects every language that uses the given programming paradigm.
+   *
+   * Accepts common aliases: 'functional', 'fp', 'object-oriented', 'oop', 'declarative', etc.
+   * Searches `language.paradigms`.
+   *
+   * @example
+   * api.paradigm('functional').langs().locale('es').get();
+   * api.paradigm('oop').info();
+   */
+  paradigm(value: string): ParadigmRequest {
+    const definition = findParadigm(value);
+    const targets = definition?.targets ?? [value];
+
+    return {
+      info() {
+        return definition ? paradigmInfoFromDefinition(definition) : undefined;
+      },
+      langs() {
+        const filtered = () => languages.filter((lang) => matchesParadigm(lang, targets));
+
+        return createLanguageCollectionRequest(filtered, async () => {
+          const loaded = await Promise.all(filtered().map((lang) => loadLanguage(lang.slug)));
+
+          return loaded.filter((lang): lang is Language => Boolean(lang));
+        });
+      },
+    };
+  },
+
+  /**
+   * Selects every language that belongs to the given ecosystem.
+   *
+   * Accepts common aliases: 'web', 'jvm', 'dotnet', 'devops', 'data-science', 'embedded', etc.
+   * Searches `tooling.ecosystems`.
+   *
+   * @example
+   * api.ecosystem('jvm').langs().locale('es').get();
+   * api.ecosystem('blockchain').info();
+   */
+  ecosystem(value: string): EcosystemRequest {
+    const definition = findEcosystem(value);
+    const targets = definition?.targets ?? [value];
+
+    return {
+      info() {
+        return definition ? ecosystemInfoFromDefinition(definition) : undefined;
+      },
+      langs() {
+        const filtered = () => languages.filter((lang) => matchesEcosystem(lang, targets));
+
+        return createLanguageCollectionRequest(filtered, async () => {
+          const loaded = await Promise.all(filtered().map((lang) => loadLanguage(lang.slug)));
+
+          return loaded.filter((lang): lang is Language => Boolean(lang));
+        });
+      },
+    };
+  },
+
+  /**
    * Detects every matching language for a filename or path.
    *
    * Useful for ambiguous extensions such as `.h`, which can match C and C++.
@@ -317,4 +403,6 @@ export const api = {
 };
 
 export type { LanguageCategory } from './domain/category/registry';
+export type { EcosystemInfo } from './domain/ecosystem/registry';
+export type { ParadigmInfo } from './domain/paradigm/registry';
 export type { LanguageSlug };

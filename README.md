@@ -238,6 +238,70 @@ no extra data is needed in individual language files.
 `frontend`, `backend`, and `fullstack` are mutually exclusive; the remaining categories
 can overlap (Python appears in both `backend` and `data-science`).
 
+Use `api.paradigm(value)` to filter languages by programming paradigm:
+
+```ts
+import { api, getParadigms } from "code-languages";
+
+// Get paradigm metadata
+const info = api.paradigm('functional').info();
+// {
+//   slug: 'functional',
+//   name: 'Functional',
+//   description: 'Computation through function evaluation, immutability, and avoiding side effects.',
+//   aliases: ['functional', 'fp', 'pure-functional'],
+// }
+
+// Get languages that belong to this paradigm
+const langs = api.paradigm('functional').langs().get();
+const langsEs = api.paradigm('oop').langs().locale('es').get();
+await api.paradigm('object-oriented').langs().load();
+
+// Returns undefined / [] for unknown values
+api.paradigm('unknown-xyz').info();         // undefined
+api.paradigm('unknown-xyz').langs().get();  // []
+
+// List all available paradigms
+getParadigms();
+```
+
+Supported paradigm aliases include: `functional` / `fp`, `object-oriented` / `oop`,
+`imperative` / `procedural`, `declarative`, `logic`, `concurrent`, `reactive`, `scripting` / `shell`,
+`query`, `markup`, `templating`, `array`, `systems` / `low-level`, `stack-based` / `concatenative`,
+`shader` / `gpu`, and more. Searches `paradigms` on each language.
+
+Use `api.ecosystem(value)` to filter languages by technology ecosystem:
+
+```ts
+import { api, getEcosystems } from "code-languages";
+
+// Get ecosystem metadata
+const info = api.ecosystem('jvm').info();
+// {
+//   slug: 'jvm',
+//   name: 'JVM',
+//   description: 'Languages that run on the Java Virtual Machine.',
+//   aliases: ['jvm', 'java'],
+// }
+
+// Get languages that belong to this ecosystem
+const langs = api.ecosystem('jvm').langs().get();
+const langsEs = api.ecosystem('data-science').langs().locale('es').get();
+await api.ecosystem('web').langs().load();
+
+// Returns undefined / [] for unknown values
+api.ecosystem('unknown-xyz').info();         // undefined
+api.ecosystem('unknown-xyz').langs().get();  // []
+
+// List all available ecosystems
+getEcosystems();
+```
+
+Supported ecosystem aliases include: `web` / `frontend`, `node` / `nodejs`, `jvm` / `java`,
+`dotnet` / `.net`, `data-science` / `ml`, `embedded` / `iot`, `game-dev` / `games`,
+`blockchain` / `web3`, `mobile`, `wasm`, `cloud`, `kubernetes` / `k8s`, `systems`,
+`formal-methods` / `verification`, `gpu` / `graphics`, and more. Searches `tooling.ecosystems` on each language.
+
 Use `localizeLanguage` to read localized display content with English fallback:
 
 ```ts

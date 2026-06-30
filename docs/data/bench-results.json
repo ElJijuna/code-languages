@@ -1,70 +1,70 @@
 {
-  "generatedAt": "2026-06-28T15:48:15.357Z",
+  "generatedAt": "2026-06-30T03:06:26.500Z",
   "runtime": "v26.3.1",
   "results": [
     {
       "name": "detectLanguage for TypeScript file",
       "group": "detect",
       "iterations": 100000,
-      "totalMs": 834.819,
-      "meanMs": 0.008348,
-      "opsPerSecond": 119786
+      "totalMs": 824.166,
+      "meanMs": 0.008242,
+      "opsPerSecond": 121335
     },
     {
       "name": "detectLanguages for ambiguous header",
       "group": "detect",
       "iterations": 100000,
-      "totalMs": 781.268,
-      "meanMs": 0.007813,
-      "opsPerSecond": 127997
+      "totalMs": 780.212,
+      "meanMs": 0.007802,
+      "opsPerSecond": 128170
     },
     {
       "name": "detectLanguage mixed filenames",
       "group": "detect",
       "iterations": 20000,
-      "totalMs": 166.562,
-      "meanMs": 0.008328,
-      "opsPerSecond": 120075
+      "totalMs": 171.248,
+      "meanMs": 0.008562,
+      "opsPerSecond": 116790
     },
     {
       "name": "localize TypeScript to es-PE",
       "group": "i18n",
       "iterations": 250000,
-      "totalMs": 61.111,
-      "meanMs": 0.000244,
-      "opsPerSecond": 4090897
+      "totalMs": 60.022,
+      "meanMs": 0.00024,
+      "opsPerSecond": 4165131
     },
     {
       "name": "localize complete catalog to Spanish",
       "group": "i18n",
       "iterations": 10000,
-      "totalMs": 781.786,
-      "meanMs": 0.078179,
-      "opsPerSecond": 12791
+      "totalMs": 796.172,
+      "meanMs": 0.079617,
+      "opsPerSecond": 12560
     },
     {
       "name": "api.language().locale().get()",
       "group": "api",
       "iterations": 100000,
-      "totalMs": 80.108,
-      "meanMs": 0.000801,
-      "opsPerSecond": 1248310
+      "totalMs": 40.884,
+      "meanMs": 0.000409,
+      "opsPerSecond": 2445935
     },
     {
       "name": "api.detect().locale().get()",
       "group": "api",
       "iterations": 100000,
-      "totalMs": 944.206,
-      "meanMs": 0.009442,
-      "opsPerSecond": 105909
+      "totalMs": 856.59,
+      "meanMs": 0.008566,
+      "opsPerSecond": 116742
     },
     {
       "name": "api.language().locale().load()",
       "group": "api",
       "iterations": 10000,
-      "totalMs": 4.795,
-      "meanMs": 0.00048,
-      "opsPerSecond": 2085470
+      "totalMs": 5.003,
+      "meanMs": 0.0005,
+      "opsPerSecond": 1999000
     }
   ]
 }

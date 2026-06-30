@@ -1,4 +1,9 @@
-export type { CategoryRequest, LanguageCategory } from './api';
+export type {
+  CategoryRequest,
+  EcosystemRequest,
+  LanguageCategory,
+  ParadigmRequest,
+} from './api';
 export { api } from './api';
 export { getCategories } from './domain/category/registry';
 export { detectLanguage, detectLanguages } from './domain/detection/detect';
@@ -8,11 +13,15 @@ export {
   detectLanguageSlugs,
   detectProjectLanguages,
 } from './domain/detection/detect-slugs';
+export type { EcosystemInfo } from './domain/ecosystem/registry';
+export { getEcosystems } from './domain/ecosystem/registry';
 export { localizeLanguage } from './domain/i18n';
 export { languages } from './domain/language/catalog';
 export type { LanguageSlug } from './domain/language/registry';
 export type { PackageManagerInfo } from './domain/package-manager/registry';
 export { getPackageManagers } from './domain/package-manager/registry';
+export type { ParadigmInfo } from './domain/paradigm/registry';
+export { getParadigms } from './domain/paradigm/registry';
 export type { RuntimeInfo } from './domain/runtime/registry';
 export { getRuntimes } from './domain/runtime/registry';
 export { abap } from './languages/abap';

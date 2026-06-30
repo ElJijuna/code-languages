@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T15:48:15.579Z",
+  "generatedAt": "2026-06-30T03:06:26.728Z",
   "runtimes": [
     {
       "slug": "node",
@@ -708,6 +708,311 @@
       "color": "#39457E",
       "aliases": ["cpan"],
       "languageCount": 1
+    }
+  ],
+  "paradigms": [
+    {
+      "slug": "functional",
+      "name": "Functional",
+      "description": "Computation through function evaluation, immutability, and avoiding side effects.",
+      "aliases": ["functional", "fp", "pure-functional"],
+      "languageCount": 93
+    },
+    {
+      "slug": "object-oriented",
+      "name": "Object-Oriented",
+      "description": "Organizes code around objects with encapsulation, inheritance, and polymorphism.",
+      "aliases": ["object-oriented", "oop", "object-oriented-programming"],
+      "languageCount": 66
+    },
+    {
+      "slug": "imperative",
+      "name": "Imperative",
+      "description": "Specifies sequences of statements that change program state step by step.",
+      "aliases": ["imperative", "procedural"],
+      "languageCount": 106
+    },
+    {
+      "slug": "declarative",
+      "name": "Declarative",
+      "description": "Expresses the logic of a computation without describing control flow.",
+      "aliases": ["declarative"],
+      "languageCount": 104
+    },
+    {
+      "slug": "logic",
+      "name": "Logic",
+      "description": "Programs expressed as logical facts, rules, and constraints.",
+      "aliases": ["logic", "logic-programming", "constraint"],
+      "languageCount": 11
+    },
+    {
+      "slug": "concurrent",
+      "name": "Concurrent",
+      "description": "Languages with first-class support for concurrency, actors, and message passing.",
+      "aliases": ["concurrent", "actor-model", "parallel"],
+      "languageCount": 24
+    },
+    {
+      "slug": "reactive",
+      "name": "Reactive",
+      "description": "Languages oriented around data flows and propagation of change.",
+      "aliases": ["reactive", "dataflow", "event-driven"],
+      "languageCount": 23
+    },
+    {
+      "slug": "generic",
+      "name": "Generic",
+      "description": "Languages with parametric polymorphism and generic type abstractions.",
+      "aliases": ["generic", "generics"],
+      "languageCount": 10
+    },
+    {
+      "slug": "scripting",
+      "name": "Scripting",
+      "description": "Languages designed for automation, shell scripting, and task execution.",
+      "aliases": ["scripting", "shell"],
+      "languageCount": 38
+    },
+    {
+      "slug": "query",
+      "name": "Query",
+      "description": "Languages for querying structured data sources and databases.",
+      "aliases": ["query", "querying"],
+      "languageCount": 17
+    },
+    {
+      "slug": "markup",
+      "name": "Markup",
+      "description": "Languages for annotating documents with structural tags and formatting.",
+      "aliases": ["markup"],
+      "languageCount": 23
+    },
+    {
+      "slug": "templating",
+      "name": "Templating",
+      "description": "Languages for generating text documents from parameterized templates.",
+      "aliases": ["templating", "template"],
+      "languageCount": 17
+    },
+    {
+      "slug": "array",
+      "name": "Array",
+      "description": "Languages built around vectorized array and matrix operations.",
+      "aliases": ["array", "array-oriented"],
+      "languageCount": 5
+    },
+    {
+      "slug": "metaprogramming",
+      "name": "Metaprogramming",
+      "description": "Languages with strong support for macros, code generation, and reflection.",
+      "aliases": ["metaprogramming", "meta", "macro"],
+      "languageCount": 10
+    },
+    {
+      "slug": "systems",
+      "name": "Systems",
+      "description": "Low-level languages designed for systems, embedded, and OS programming.",
+      "aliases": ["systems", "low-level"],
+      "languageCount": 16
+    },
+    {
+      "slug": "stack-based",
+      "name": "Stack-Based",
+      "description": "Languages where computation operates on an explicit stack.",
+      "aliases": ["stack-based", "concatenative", "stack"],
+      "languageCount": 4
+    },
+    {
+      "slug": "shader",
+      "name": "Shader",
+      "description": "Languages for GPU programming, graphics pipelines, and shader stages.",
+      "aliases": ["shader", "shading", "gpu"],
+      "languageCount": 4
+    }
+  ],
+  "ecosystems": [
+    {
+      "slug": "web",
+      "name": "Web",
+      "description": "Languages used for building websites, web apps, and web standards.",
+      "aliases": ["web", "frontend", "browser"],
+      "languageCount": 68
+    },
+    {
+      "slug": "node",
+      "name": "Node.js",
+      "description": "Languages that run on or integrate with the Node.js server-side runtime.",
+      "aliases": ["node", "nodejs", "node.js"],
+      "languageCount": 7
+    },
+    {
+      "slug": "jvm",
+      "name": "JVM",
+      "description": "Languages that run on the Java Virtual Machine.",
+      "aliases": ["jvm", "java"],
+      "languageCount": 19
+    },
+    {
+      "slug": "dotnet",
+      "name": ".NET",
+      "description": "Languages that target the .NET platform and runtime.",
+      "aliases": ["dotnet", ".net", "net"],
+      "languageCount": 7
+    },
+    {
+      "slug": "devops",
+      "name": "DevOps",
+      "description": "Languages used for CI/CD, infrastructure, and automation pipelines.",
+      "aliases": ["devops", "cicd", "ci-cd"],
+      "languageCount": 21
+    },
+    {
+      "slug": "cloud",
+      "name": "Cloud",
+      "description": "Languages used for cloud computing, cloud-native applications, and IaC.",
+      "aliases": ["cloud", "cloud-native"],
+      "languageCount": 17
+    },
+    {
+      "slug": "kubernetes",
+      "name": "Kubernetes",
+      "description": "Languages and tools used in the Kubernetes ecosystem.",
+      "aliases": ["kubernetes", "k8s"],
+      "languageCount": 5
+    },
+    {
+      "slug": "data-science",
+      "name": "Data Science",
+      "description": "Languages used for data analysis, machine learning, and statistical computing.",
+      "aliases": ["data-science", "ml", "machine-learning", "ai"],
+      "languageCount": 37
+    },
+    {
+      "slug": "scientific",
+      "name": "Scientific Computing",
+      "description": "Languages used in research, numerical computing, and scientific simulations.",
+      "aliases": ["scientific", "scientific-computing", "hpc", "research"],
+      "languageCount": 32
+    },
+    {
+      "slug": "systems",
+      "name": "Systems",
+      "description": "Languages used for operating systems, system utilities, and native development.",
+      "aliases": ["systems", "systems-programming", "native"],
+      "languageCount": 53
+    },
+    {
+      "slug": "embedded",
+      "name": "Embedded",
+      "description": "Languages used in firmware, microcontrollers, and embedded hardware.",
+      "aliases": ["embedded", "firmware", "iot"],
+      "languageCount": 24
+    },
+    {
+      "slug": "game-dev",
+      "name": "Game Development",
+      "description": "Languages used for building video games and game engines.",
+      "aliases": ["game-dev", "games", "game-development", "gamedev"],
+      "languageCount": 19
+    },
+    {
+      "slug": "mobile",
+      "name": "Mobile",
+      "description": "Languages used for iOS, Android, and cross-platform mobile development.",
+      "aliases": ["mobile", "ios", "android"],
+      "languageCount": 9
+    },
+    {
+      "slug": "blockchain",
+      "name": "Blockchain",
+      "description": "Languages used for smart contracts, DeFi, and blockchain development.",
+      "aliases": ["blockchain", "web3", "smart-contracts", "crypto"],
+      "languageCount": 6
+    },
+    {
+      "slug": "gpu",
+      "name": "GPU",
+      "description": "Languages used for GPU computing, graphics, and shader programming.",
+      "aliases": ["gpu", "graphics", "gpu-programming"],
+      "languageCount": 7
+    },
+    {
+      "slug": "wasm",
+      "name": "WebAssembly",
+      "description": "Languages that compile to or run on WebAssembly.",
+      "aliases": ["wasm", "webassembly"],
+      "languageCount": 6
+    },
+    {
+      "slug": "enterprise",
+      "name": "Enterprise",
+      "description": "Languages used in large-scale enterprise software and business applications.",
+      "aliases": ["enterprise"],
+      "languageCount": 11
+    },
+    {
+      "slug": "formal-methods",
+      "name": "Formal Methods",
+      "description": "Languages used for formal proofs, verification, and correctness guarantees.",
+      "aliases": ["formal-methods", "verification", "proof-assistants"],
+      "languageCount": 12
+    },
+    {
+      "slug": "compilers",
+      "name": "Compilers",
+      "description": "Languages used in compiler development, language design, and tooling.",
+      "aliases": ["compilers", "language-design", "language-tooling"],
+      "languageCount": 13
+    },
+    {
+      "slug": "unix",
+      "name": "Unix",
+      "description": "Languages and tools used in Unix-like operating systems and shell environments.",
+      "aliases": ["unix", "linux", "posix"],
+      "languageCount": 17
+    },
+    {
+      "slug": "documentation",
+      "name": "Documentation",
+      "description": "Languages used for writing, publishing, and technical documentation.",
+      "aliases": ["documentation", "publishing", "technical-writing"],
+      "languageCount": 18
+    },
+    {
+      "slug": "configuration",
+      "name": "Configuration",
+      "description": "Languages used for application and infrastructure configuration.",
+      "aliases": ["configuration", "config"],
+      "languageCount": 16
+    },
+    {
+      "slug": "automation",
+      "name": "Automation",
+      "description": "Languages used for task automation, scripting, and workflow orchestration.",
+      "aliases": ["automation", "scripting"],
+      "languageCount": 42
+    },
+    {
+      "slug": "apple",
+      "name": "Apple",
+      "description": "Languages used for macOS, iOS, and the broader Apple platform.",
+      "aliases": ["apple", "macos", "apple-platforms"],
+      "languageCount": 9
+    },
+    {
+      "slug": "windows",
+      "name": "Windows",
+      "description": "Languages used for Windows application and system development.",
+      "aliases": ["windows"],
+      "languageCount": 8
+    },
+    {
+      "slug": "observability",
+      "name": "Observability",
+      "description": "Languages used for monitoring, metrics, logging, and security analytics.",
+      "aliases": ["observability", "monitoring", "metrics"],
+      "languageCount": 6
     }
   ]
 }

@@ -9,11 +9,10 @@ export interface PackageManagerInfo {
   aliases: string[];
 }
 
-type PackageManagerDefinition = PackageManagerInfo & { targets: string[] };
+type PackageManagerDefinition = Omit<PackageManagerInfo, 'slug'> & { targets: string[] };
 
 const PACKAGE_MANAGER_REGISTRY: PackageManagerDefinition[] = [
   {
-    slug: 'npm',
     name: 'npm',
     color: '#CB3837',
     logo: 'https://cdn.simpleicons.org/npm',
@@ -22,7 +21,6 @@ const PACKAGE_MANAGER_REGISTRY: PackageManagerDefinition[] = [
     targets: ['npm'],
   },
   {
-    slug: 'pnpm',
     name: 'pnpm',
     color: '#F69220',
     logo: 'https://cdn.simpleicons.org/pnpm',
@@ -31,7 +29,6 @@ const PACKAGE_MANAGER_REGISTRY: PackageManagerDefinition[] = [
     targets: ['pnpm'],
   },
   {
-    slug: 'yarn',
     name: 'Yarn',
     color: '#2C8EBB',
     logo: 'https://cdn.simpleicons.org/yarn',
@@ -40,7 +37,6 @@ const PACKAGE_MANAGER_REGISTRY: PackageManagerDefinition[] = [
     targets: ['Yarn'],
   },
   {
-    slug: 'pip',
     name: 'pip',
     color: '#3775A9',
     logo: 'https://cdn.simpleicons.org/pypi',
@@ -49,7 +45,6 @@ const PACKAGE_MANAGER_REGISTRY: PackageManagerDefinition[] = [
     targets: ['pip'],
   },
   {
-    slug: 'poetry',
     name: 'Poetry',
     color: '#60A5FA',
     logo: 'https://cdn.simpleicons.org/poetry',
@@ -58,7 +53,6 @@ const PACKAGE_MANAGER_REGISTRY: PackageManagerDefinition[] = [
     targets: ['Poetry'],
   },
   {
-    slug: 'uv',
     name: 'uv',
     color: '#DE5FE9',
     logo: 'https://avatars.githubusercontent.com/u/115962839?v=4',
@@ -67,7 +61,6 @@ const PACKAGE_MANAGER_REGISTRY: PackageManagerDefinition[] = [
     targets: ['uv'],
   },
   {
-    slug: 'conda',
     name: 'conda',
     color: '#44A833',
     logo: 'https://cdn.simpleicons.org/anaconda',
@@ -76,7 +69,6 @@ const PACKAGE_MANAGER_REGISTRY: PackageManagerDefinition[] = [
     targets: ['conda'],
   },
   {
-    slug: 'cargo',
     name: 'Cargo',
     color: '#CE422B',
     logo: 'https://cdn.simpleicons.org/rust',
@@ -85,7 +77,6 @@ const PACKAGE_MANAGER_REGISTRY: PackageManagerDefinition[] = [
     targets: ['Cargo'],
   },
   {
-    slug: 'maven',
     name: 'Maven',
     color: '#C71A36',
     logo: 'https://cdn.simpleicons.org/apachemaven',
@@ -94,7 +85,6 @@ const PACKAGE_MANAGER_REGISTRY: PackageManagerDefinition[] = [
     targets: ['Maven'],
   },
   {
-    slug: 'gradle',
     name: 'Gradle',
     color: '#02303A',
     logo: 'https://cdn.simpleicons.org/gradle',
@@ -103,7 +93,6 @@ const PACKAGE_MANAGER_REGISTRY: PackageManagerDefinition[] = [
     targets: ['Gradle'],
   },
   {
-    slug: 'nuget',
     name: 'NuGet',
     color: '#004880',
     logo: 'https://cdn.simpleicons.org/nuget',
@@ -112,7 +101,6 @@ const PACKAGE_MANAGER_REGISTRY: PackageManagerDefinition[] = [
     targets: ['NuGet'],
   },
   {
-    slug: 'composer',
     name: 'Composer',
     color: '#885630',
     logo: 'https://cdn.simpleicons.org/composer',
@@ -121,7 +109,6 @@ const PACKAGE_MANAGER_REGISTRY: PackageManagerDefinition[] = [
     targets: ['Composer'],
   },
   {
-    slug: 'hex',
     name: 'Hex',
     color: '#6E4A7E',
     logo: 'https://cdn.simpleicons.org/elixir',
@@ -130,7 +117,6 @@ const PACKAGE_MANAGER_REGISTRY: PackageManagerDefinition[] = [
     targets: ['Hex'],
   },
   {
-    slug: 'mix',
     name: 'Mix',
     color: '#6E4A7E',
     logo: 'https://cdn.simpleicons.org/elixir',
@@ -139,7 +125,6 @@ const PACKAGE_MANAGER_REGISTRY: PackageManagerDefinition[] = [
     targets: ['Mix'],
   },
   {
-    slug: 'cabal',
     name: 'Cabal',
     color: '#5D4F85',
     logo: 'https://cdn.simpleicons.org/haskell',
@@ -148,7 +133,6 @@ const PACKAGE_MANAGER_REGISTRY: PackageManagerDefinition[] = [
     targets: ['Cabal'],
   },
   {
-    slug: 'stack',
     name: 'Stack',
     color: '#5D4F85',
     logo: 'https://cdn.simpleicons.org/haskell',
@@ -157,7 +141,6 @@ const PACKAGE_MANAGER_REGISTRY: PackageManagerDefinition[] = [
     targets: ['Stack'],
   },
   {
-    slug: 'pub',
     name: 'pub',
     color: '#0175C2',
     logo: 'https://cdn.simpleicons.org/dart',
@@ -166,7 +149,6 @@ const PACKAGE_MANAGER_REGISTRY: PackageManagerDefinition[] = [
     targets: ['pub'],
   },
   {
-    slug: 'cocoapods',
     name: 'CocoaPods',
     color: '#EE3322',
     logo: 'https://cdn.simpleicons.org/cocoapods',
@@ -175,7 +157,6 @@ const PACKAGE_MANAGER_REGISTRY: PackageManagerDefinition[] = [
     targets: ['CocoaPods'],
   },
   {
-    slug: 'spm',
     name: 'Swift PM',
     color: '#F05138',
     logo: 'https://cdn.simpleicons.org/swift',
@@ -184,7 +165,6 @@ const PACKAGE_MANAGER_REGISTRY: PackageManagerDefinition[] = [
     targets: ['Swift Package Manager'],
   },
   {
-    slug: 'rubygems',
     name: 'RubyGems',
     color: '#E9573F',
     logo: 'https://cdn.simpleicons.org/rubygems',
@@ -193,7 +173,6 @@ const PACKAGE_MANAGER_REGISTRY: PackageManagerDefinition[] = [
     targets: ['RubyGems', 'Bundler'],
   },
   {
-    slug: 'go-mod',
     name: 'Go modules',
     color: '#00ADD8',
     logo: 'https://cdn.simpleicons.org/go',
@@ -202,7 +181,6 @@ const PACKAGE_MANAGER_REGISTRY: PackageManagerDefinition[] = [
     targets: ['Go modules'],
   },
   {
-    slug: 'luarocks',
     name: 'LuaRocks',
     color: '#2C2D72',
     logo: 'https://cdn.simpleicons.org/lua',
@@ -211,7 +189,6 @@ const PACKAGE_MANAGER_REGISTRY: PackageManagerDefinition[] = [
     targets: ['LuaRocks'],
   },
   {
-    slug: 'opam',
     name: 'Opam',
     color: '#EF7A08',
     logo: 'https://avatars.githubusercontent.com/u/1841483?v=4',
@@ -220,7 +197,6 @@ const PACKAGE_MANAGER_REGISTRY: PackageManagerDefinition[] = [
     targets: ['opam'],
   },
   {
-    slug: 'cpan',
     name: 'CPAN',
     color: '#39457E',
     logo: 'https://cdn.simpleicons.org/perl',
@@ -245,8 +221,11 @@ export function matchesPackageManager(lang: Language, targets: string[]): boolea
 export function packageManagerInfoFromDefinition(
   def: PackageManagerDefinition,
 ): PackageManagerInfo {
+  /* v8 ignore next -- all registry entries have at least one alias */
+  const slug: string = def.aliases[0] ?? def.name.toLowerCase();
+
   return {
-    slug: def.slug,
+    slug,
     name: def.name,
     website: def.website,
     logo: def.logo,
