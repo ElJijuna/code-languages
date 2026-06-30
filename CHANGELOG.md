@@ -1,3 +1,10 @@
+# [1.40.0](https://github.com/ElJijuna/code-languages/compare/v1.39.0...v1.40.0) (2026-06-30)
+
+
+### Features
+
+* add ecosystems and paradigms to API ([719438e](https://github.com/ElJijuna/code-languages/commit/719438ef542c318da855e96da6d00ebb5c7a2d2f))
+
 # [1.39.0](https://github.com/ElJijuna/code-languages/compare/v1.38.0...v1.39.0) (2026-06-29)
 
 
