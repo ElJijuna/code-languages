@@ -1,3 +1,14 @@
+## [1.40.1](https://github.com/ElJijuna/code-languages/compare/v1.40.0...v1.40.1) (2026-06-30)
+
+
+### Bug Fixes
+
+* update CUDA metadata to 13.3.1 ([4173b40](https://github.com/ElJijuna/code-languages/commit/4173b40ef8d0d8dde9f0858a5045b8a2d8bfb166))
+* update CUE metadata to 0.17.0 ([2fe02e3](https://github.com/ElJijuna/code-languages/commit/2fe02e39ed885692b433db59da1f8f6a8c92db45))
+* update Cython metadata to 3.2.8 ([f14d210](https://github.com/ElJijuna/code-languages/commit/f14d21000d0c48a1cee171608e9021878d98df3e))
+* update Git metadata to 2.55.0 ([538660b](https://github.com/ElJijuna/code-languages/commit/538660b385cf10bdfd17a9c148853b60ede8c328))
+* update Rego metadata to OPA 1.18.1 ([beee4b2](https://github.com/ElJijuna/code-languages/commit/beee4b288ffcfa4de9461724b51a3dab855f9a12))
+
 # [1.40.0](https://github.com/ElJijuna/code-languages/compare/v1.39.0...v1.40.0) (2026-06-30)
 
 
