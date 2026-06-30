@@ -12,7 +12,7 @@ export const cue = {
     packageManagers: ['Go modules'],
     ecosystems: ['Configuration', 'Validation', 'Kubernetes', 'DevOps'],
   },
-  version: '0.16.1',
+  version: '0.17.0',
   logo: 'https://avatars.githubusercontent.com/u/43867057?s=200&v=4',
   color: '#1F6BFF',
   i18n: {
