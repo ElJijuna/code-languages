@@ -12,7 +12,7 @@ export const cuda = {
     packageManagers: ['CUDA Toolkit', 'conda'],
     ecosystems: ['GPU Computing', 'HPC', 'Machine Learning', 'Scientific Computing'],
   },
-  version: '13.3.0',
+  version: '13.3.1',
   logo: 'https://cdn.simpleicons.org/nvidia/76B900',
   color: '#76B900',
   i18n: {
