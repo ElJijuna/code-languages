@@ -11,7 +11,7 @@ export const git = {
     runtimes: ['Git'],
     ecosystems: ['Version Control', 'DevOps', 'Source Control'],
   },
-  version: '2.54.0',
+  version: '2.55.0',
   logo: 'https://cdn.simpleicons.org/git/F05032',
   color: '#F05032',
   i18n: {
