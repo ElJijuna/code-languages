@@ -455,7 +455,7 @@ from its package subpath.
 | <img src="https://dummyimage.com/32x32/DC2626/ffffff.png&text=G" alt="G-code logo" width="24" height="24"> | G-code | `gcode` | `.gcode`, `.gco`, `.nc`, `.cnc`, `.tap` | `RS-274` | `code-languages/gcode` |
 | <img src="https://cdn.simpleicons.org/godotengine/478CBF" alt="GDScript logo" width="24" height="24"> | GDScript | `gdscript` | `.gd` | `4.7` | `code-languages/gdscript` |
 | <img src="https://dummyimage.com/32x32/7C3AED/ffffff.png&text=PO" alt="Gettext logo" width="24" height="24"> | Gettext | `gettext` | `.po`, `.pot` | `stable` | `code-languages/gettext` |
-| <img src="https://cdn.simpleicons.org/git/F05032" alt="Git logo" width="24" height="24"> | Git | `git` | `.git`, `.gitignore`, `.gitattributes`, `.gitmodules`, `.gitkeep` | `2.54.0` | `code-languages/git` |
+| <img src="https://cdn.simpleicons.org/git/F05032" alt="Git logo" width="24" height="24"> | Git | `git` | `.git`, `.gitignore`, `.gitattributes`, `.gitmodules`, `.gitkeep` | `2.55.0` | `code-languages/git` |
 | <img src="https://dummyimage.com/32x32/2D5FA0/ffffff.png&text=AS" alt="AngelScript logo" width="24" height="24"> | AngelScript | `angelscript` | `.as`, `.angelscript` | `2.36.1` | `code-languages/angelscript` |
 | <img src="https://cdn.simpleicons.org/gleam/FFAFF3" alt="Gleam logo" width="24" height="24"> | Gleam | `gleam` | `.gleam` | `1.17.0` | `code-languages/gleam` |
 | <img src="https://cdn.simpleicons.org/gamemaker/000000" alt="GML logo" width="24" height="24"> | GML | `gml` | `.gml` | `2024.13.0` | `code-languages/gml` |
