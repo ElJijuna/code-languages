@@ -12,7 +12,7 @@ export const yara = {
     packageManagers: ['pip (yara-python)'],
     ecosystems: ['Security', 'Malware Analysis', 'Threat Intelligence', 'Forensics'],
   },
-  version: '4.5.2',
+  version: '4.5.5',
   logo: 'https://avatars.githubusercontent.com/u/6306898?v=4',
   color: '#C62D42',
   i18n: {

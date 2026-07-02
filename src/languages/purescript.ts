@@ -12,7 +12,7 @@ export const purescript = {
     packageManagers: ['Spago', 'npm'],
     ecosystems: ['Web', 'Functional Programming', 'JavaScript'],
   },
-  version: '0.15.15',
+  version: '0.15.16',
   logo: 'https://cdn.simpleicons.org/purescript/14161A',
   color: '#14161A',
   i18n: {

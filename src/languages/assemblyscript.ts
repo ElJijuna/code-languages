@@ -11,7 +11,7 @@ export const assemblyscript = {
     runtimes: ['Wasm', 'WASI'],
     ecosystems: ['WebAssembly'],
   },
-  version: '0.27.32',
+  version: '0.28.19',
   logo: 'https://avatars.githubusercontent.com/u/28916798?v=4',
   color: '#007AAC',
   i18n: {

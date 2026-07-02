@@ -12,7 +12,7 @@ export const thrift = {
     packageManagers: ['Maven', 'npm', 'PyPI', 'Go modules'],
     ecosystems: ['RPC', 'APIs', 'Distributed Systems'],
   },
-  version: '0.22.0',
+  version: '0.23.0',
   logo: 'https://cdn.simpleicons.org/apache/D22128',
   color: '#D22128',
   i18n: {

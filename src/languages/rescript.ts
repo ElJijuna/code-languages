@@ -12,7 +12,7 @@ export const rescript = {
     packageManagers: ['npm', 'pnpm', 'Yarn'],
     ecosystems: ['Web', 'React', 'JavaScript'],
   },
-  version: '12.0.0',
+  version: '12.3.0',
   logo: 'https://cdn.simpleicons.org/rescript/E6484A',
   color: '#E6484A',
   i18n: {

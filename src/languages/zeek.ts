@@ -12,7 +12,7 @@ export const zeek = {
     packageManagers: ['zkg'],
     ecosystems: ['Network Security', 'Observability', 'Incident Response'],
   },
-  version: '8.0.4',
+  version: '8.0.8',
   logo: 'https://avatars.githubusercontent.com/u/10666805?v=4',
   color: '#8B1E3F',
   i18n: {

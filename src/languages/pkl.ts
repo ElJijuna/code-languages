@@ -12,7 +12,7 @@ export const pkl = {
     packageManagers: ['pkl package'],
     ecosystems: ['Configuration', 'Infrastructure', 'Cloud', 'Kubernetes'],
   },
-  version: '0.28.2',
+  version: '0.31.1',
   logo: 'https://avatars.githubusercontent.com/u/10639145?v=4',
   color: '#72AE44',
   i18n: {
