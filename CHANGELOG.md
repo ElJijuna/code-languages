@@ -1,3 +1,11 @@
+## [1.40.3](https://github.com/ElJijuna/code-languages/compare/v1.40.2...v1.40.3) (2026-07-02)
+
+
+### Bug Fixes
+
+* update check-language-versions workflow to handle input parameters correctly ([901d090](https://github.com/ElJijuna/code-languages/commit/901d090ec50649bcdac928b3cb7f54933eb1adb0))
+* update language versions for ([44aa356](https://github.com/ElJijuna/code-languages/commit/44aa35651ca8145c2487b1814bedaf218ec64771))
+
 ## [1.40.2](https://github.com/ElJijuna/code-languages/compare/v1.40.1...v1.40.2) (2026-07-02)
 
 
