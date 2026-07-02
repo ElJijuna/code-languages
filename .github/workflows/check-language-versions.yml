@@ -1,6 +1,8 @@
 name: Check Language Versions
 
 on:
+  schedule:
+    - cron: '0 8 * * *'
   workflow_dispatch:
     inputs:
       create_pull_requests:
@@ -40,13 +42,23 @@ jobs:
       - name: Check language versions and create issues
         run: |
           args="--create-issues"
+          create_pull_requests="${{ inputs.create_pull_requests }}"
+          delay="${{ inputs.delay }}"
 
-          if [ "${{ inputs.create_pull_requests }}" = "true" ]; then
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            create_pull_requests="true"
+          fi
+
+          if [ -z "$delay" ]; then
+            delay="3000"
+          fi
+
+          if [ "$create_pull_requests" = "true" ]; then
             args="$args --create-pull-requests"
           fi
 
-          if [ "${{ inputs.delay }}" -gt 0 ]; then
-            args="$args --delay ${{ inputs.delay }}"
+          if [ "$delay" -gt 0 ]; then
+            args="$args --delay $delay"
           fi
 
           node scripts/check-language-versions.mjs $args
