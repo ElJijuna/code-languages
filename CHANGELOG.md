@@ -1,3 +1,12 @@
+## [1.40.2](https://github.com/ElJijuna/code-languages/compare/v1.40.1...v1.40.2) (2026-07-02)
+
+
+### Bug Fixes
+
+* update Astro metadata to 7.0.5 ([9cfa22e](https://github.com/ElJijuna/code-languages/commit/9cfa22e8eeea3ef56e8b28af5888b6cadf7cd463))
+* update Rust metadata to 1.96.1 ([169333f](https://github.com/ElJijuna/code-languages/commit/169333fbf7fed3e913186d5b36023965cc4d477d))
+* update Swift metadata to 6.3.3 ([8a29cc5](https://github.com/ElJijuna/code-languages/commit/8a29cc51549d0ea15c18dcd177a5f8c1925add01))
+
 ## [1.40.1](https://github.com/ElJijuna/code-languages/compare/v1.40.0...v1.40.1) (2026-06-30)
 
 
