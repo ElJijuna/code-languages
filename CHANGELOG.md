@@ -1,3 +1,13 @@
+## [1.40.4](https://github.com/ElJijuna/code-languages/compare/v1.40.3...v1.40.4) (2026-07-03)
+
+
+### Bug Fixes
+
+* update Astro metadata to 7.0.6 ([7f6755e](https://github.com/ElJijuna/code-languages/commit/7f6755ef634252dec48c6db13bd1a112ede44541))
+* update Crystal metadata to 1.20.3 ([9ac8f61](https://github.com/ElJijuna/code-languages/commit/9ac8f61de11f67cdec837faada2ae6a8a6c2c594))
+* update Erlang metadata to OTP 29.0.3 ([1f956a2](https://github.com/ElJijuna/code-languages/commit/1f956a276fc1600d7e6c8829ce8d2c0de18d2177))
+* update Rego metadata to OPA 1.18.2 ([fd6d993](https://github.com/ElJijuna/code-languages/commit/fd6d9930995cc119cbf1be972bcf29233d011edf))
+
 ## [1.40.3](https://github.com/ElJijuna/code-languages/compare/v1.40.2...v1.40.3) (2026-07-02)
 
 
