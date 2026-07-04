@@ -12,7 +12,7 @@ export const twig = {
     packageManagers: ['Composer'],
     ecosystems: ['PHP', 'Symfony', 'Web', 'CMS'],
   },
-  version: '3.27.1',
+  version: '3.28.0',
   logo: 'https://twig.symfony.com/images/logo.png',
   color: '#A5C53A',
   i18n: {
