@@ -12,7 +12,7 @@ export const groovy = {
     packageManagers: ['Gradle', 'Maven'],
     ecosystems: ['JVM', 'Gradle'],
   },
-  version: '5.0.6',
+  version: '5.0.7',
   logo: 'https://upload.wikimedia.org/wikipedia/commons/3/36/Groovy-logo.svg',
   color: '#4298B8',
   i18n: {
