@@ -12,7 +12,7 @@ export const php = {
     packageManagers: ['Composer'],
     ecosystems: ['Web', 'WordPress', 'Laravel', 'Symfony'],
   },
-  version: '8.5.7',
+  version: '8.5.8',
   logo: 'https://www.php.net/images/logos/new-php-logo.svg',
   color: '#777BB4',
   i18n: {
