@@ -1,3 +1,13 @@
+## [1.40.5](https://github.com/ElJijuna/code-languages/compare/v1.40.4...v1.40.5) (2026-07-04)
+
+
+### Bug Fixes
+
+* update Groovy metadata to 5.0.7 ([1b41a18](https://github.com/ElJijuna/code-languages/commit/1b41a181b012d1da91edbd67ae213602a03faff3))
+* update Luau metadata to 0.728 ([5235b51](https://github.com/ElJijuna/code-languages/commit/5235b51f02580bebe74f70b65941e6f855382e42))
+* update PHP metadata to 8.5.8 ([a6efc96](https://github.com/ElJijuna/code-languages/commit/a6efc96dbb715c6cef5e44998d25ab14d0e94321))
+* update Twig metadata to 3.28.0 ([459132c](https://github.com/ElJijuna/code-languages/commit/459132c028ec2c5f01ecf4f216e336368208ada2))
+
 ## [1.40.4](https://github.com/ElJijuna/code-languages/compare/v1.40.3...v1.40.4) (2026-07-03)
 
 
