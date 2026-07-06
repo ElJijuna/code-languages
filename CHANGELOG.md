@@ -1,3 +1,10 @@
+## [1.40.7](https://github.com/ElJijuna/code-languages/compare/v1.40.6...v1.40.7) (2026-07-06)
+
+
+### Bug Fixes
+
+* update Node.js version to 22 in workflows ([e43bc3f](https://github.com/ElJijuna/code-languages/commit/e43bc3f989fccddde5ad14688cc7931287f36939))
+
 ## [1.40.6](https://github.com/ElJijuna/code-languages/compare/v1.40.5...v1.40.6) (2026-07-05)
 
 
