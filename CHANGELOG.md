@@ -1,3 +1,10 @@
+## [1.40.8](https://github.com/ElJijuna/code-languages/compare/v1.40.7...v1.40.8) (2026-07-07)
+
+
+### Bug Fixes
+
+* update Elm metadata to 0.19.2 ([11c7705](https://github.com/ElJijuna/code-languages/commit/11c7705337d184dd8f1949a8098c65949100199f))
+
 ## [1.40.7](https://github.com/ElJijuna/code-languages/compare/v1.40.6...v1.40.7) (2026-07-06)
 
 
