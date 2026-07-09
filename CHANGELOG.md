@@ -1,3 +1,11 @@
+## [1.40.10](https://github.com/ElJijuna/code-languages/compare/v1.40.9...v1.40.10) (2026-07-09)
+
+
+### Bug Fixes
+
+* update Astro metadata to 7.0.7 ([4e0848d](https://github.com/ElJijuna/code-languages/commit/4e0848da571e0b79e97f8747e2269511c2365b3d))
+* update TypeScript metadata to 7.0 ([2866fc0](https://github.com/ElJijuna/code-languages/commit/2866fc0f49ad4e97e3352cbbc5cd06fb6e307177))
+
 ## [1.40.9](https://github.com/ElJijuna/code-languages/compare/v1.40.8...v1.40.9) (2026-07-08)
 
 
