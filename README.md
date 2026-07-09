@@ -624,7 +624,7 @@ from its package subpath.
 | <img src="https://icons.iconarchive.com/icons/simpleicons-team/simple/128/microsoft-sqlserver-icon.png" alt="T-SQL logo" width="24" height="24"> | T-SQL | `tsql` | `.sql`, `.tsql` | `SQL Server 2025 (17.x)` | `code-languages/tsql` |
 | <img src="https://avatars.githubusercontent.com/u/2966890?v=4" alt="Twee/Twine logo" width="24" height="24"> | Twee/Twine | `twee` | `.tw`, `.twee`, `.tw2` | `2.10.0` | `code-languages/twee` |
 | <img src="https://twig.symfony.com/images/logo.png" alt="Twig logo" width="24" height="24"> | Twig | `twig` | `.twig` | `3.28.0` | `code-languages/twig` |
-| <img src="https://www.typescriptlang.org/icons/icon-512x512.png" alt="TypeScript logo" width="24" height="24"> | TypeScript | `typescript` | `.ts`, `.tsx`, `.mts`, `.cts` | `6.0` | `code-languages/typescript` |
+| <img src="https://www.typescriptlang.org/icons/icon-512x512.png" alt="TypeScript logo" width="24" height="24"> | TypeScript | `typescript` | `.ts`, `.tsx`, `.mts`, `.cts` | `7.0` | `code-languages/typescript` |
 | <img src="https://cdn.simpleicons.org/typst/239DAD" alt="Typst logo" width="24" height="24"> | Typst | `typst` | `.typ` | `0.15.0` | `code-languages/typst` |
 | <img src="https://avatars.githubusercontent.com/u/18563978?v=4" alt="Unison logo" width="24" height="24"> | Unison | `unison` | `.u`, `.uu` | `0.5.28` | `code-languages/unison` |
 | <img src="https://cdn.simpleicons.org/v/5D87BF" alt="V logo" width="24" height="24"> | V | `v` | `.v`, `.vsh` | `weekly.2025.49` | `code-languages/v` |

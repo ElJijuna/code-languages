@@ -12,7 +12,7 @@ export const typescript = {
     packageManagers: ['npm', 'pnpm', 'Yarn', 'Bun'],
     ecosystems: ['Web', 'Node.js'],
   },
-  version: '6.0',
+  version: '7.0',
   logo: 'https://www.typescriptlang.org/icons/icon-512x512.png',
   color: '#3178C6',
   i18n: {
