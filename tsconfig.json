@@ -12,6 +12,7 @@
     "exactOptionalPropertyTypes": true,
     "isolatedModules": true,
     "verbatimModuleSyntax": true,
+    "ignoreDeprecations": "6.0",
     "skipLibCheck": true,
     "noEmit": true
   },
