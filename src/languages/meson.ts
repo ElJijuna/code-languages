@@ -12,7 +12,7 @@ export const meson = {
     packageManagers: ['WrapDB'],
     ecosystems: ['C', 'C++', 'GNOME', 'Linux', 'Cross-platform Builds'],
   },
-  version: '1.11.1',
+  version: '1.11.2',
   logo: 'https://raw.githubusercontent.com/mesonbuild/meson/master/graphics/meson_logo.svg',
   color: '#0077C8',
   i18n: {
