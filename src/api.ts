@@ -1,34 +1,34 @@
-import { type LanguageCategory, matchesCategory } from './domain/category/registry';
-import { detectLanguageSlug, detectLanguageSlugs } from './domain/detection/detect-slugs';
+import { type LanguageCategory, matchesCategory } from '@/domain/category/registry';
+import { detectLanguageSlug, detectLanguageSlugs } from '@/domain/detection/detect-slugs';
 import {
   type EcosystemInfo,
   ecosystemInfoFromDefinition,
   findEcosystem,
   matchesEcosystem,
-} from './domain/ecosystem/registry';
-import { localizeLanguage } from './domain/i18n';
-import { languages } from './domain/language/catalog';
-import { type LanguageSlug, languageIndex, loadLanguage } from './domain/language/registry';
+} from '@/domain/ecosystem/registry';
+import { localizeLanguage } from '@/domain/i18n';
+import { languages } from '@/domain/language/catalog';
+import { type LanguageSlug, languageIndex, loadLanguage } from '@/domain/language/registry';
 import {
   findPackageManager,
   matchesPackageManager,
   type PackageManagerInfo,
   packageManagerInfoFromDefinition,
-} from './domain/package-manager/registry';
+} from '@/domain/package-manager/registry';
 import {
   findParadigm,
   matchesParadigm,
   type ParadigmInfo,
   paradigmInfoFromDefinition,
-} from './domain/paradigm/registry';
+} from '@/domain/paradigm/registry';
 import {
   findRuntime,
   matchesRuntime,
   type RuntimeInfo,
   runtimeInfoFromDefinition,
   runtimesForPackageManager,
-} from './domain/runtime/registry';
-import type { Language, Locale, LocalizedLanguage } from './types';
+} from '@/domain/runtime/registry';
+import type { Language, Locale, LocalizedLanguage } from '@/types';
 
 type RuntimeLanguageSlug = LanguageSlug | (string & {});
 
@@ -402,7 +402,7 @@ export const api = {
   },
 };
 
-export type { LanguageCategory } from './domain/category/registry';
-export type { EcosystemInfo } from './domain/ecosystem/registry';
-export type { ParadigmInfo } from './domain/paradigm/registry';
+export type { LanguageCategory } from '@/domain/category/registry';
+export type { EcosystemInfo } from '@/domain/ecosystem/registry';
+export type { ParadigmInfo } from '@/domain/paradigm/registry';
 export type { LanguageSlug };
