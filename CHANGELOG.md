@@ -1,3 +1,17 @@
+## [1.40.11](https://github.com/ElJijuna/code-languages/compare/v1.40.10...v1.40.11) (2026-07-11)
+
+
+### Bug Fixes
+
+* update awk metadata to GNU Awk 5.4.1 ([45e0555](https://github.com/ElJijuna/code-languages/commit/45e0555b5a5bde371ba4f92c3bd461413de169b4))
+* update Bicep metadata to 0.45.6 ([faf25b6](https://github.com/ElJijuna/code-languages/commit/faf25b6fb1deb49fa55a301c25580efda8597296))
+* update CMake metadata to 4.4.0 ([d2f276b](https://github.com/ElJijuna/code-languages/commit/d2f276b6014bab791aea9ce6cfdb603e50968a5b))
+* update Liquid metadata to 10.27.2 ([1ca6377](https://github.com/ElJijuna/code-languages/commit/1ca63777644f52b3a2f1093736308aa6f60ec43a))
+* update Luau metadata to 0.729 ([46c3fb1](https://github.com/ElJijuna/code-languages/commit/46c3fb1aac31a42affc6f3bde202107fbe88b81e))
+* update Meson metadata to 1.11.2 ([31a8bf2](https://github.com/ElJijuna/code-languages/commit/31a8bf265bf41f0bb5d447f4a0de889fe3633ace))
+* update Rust metadata to 1.97.0 ([6479c25](https://github.com/ElJijuna/code-languages/commit/6479c2510fdc6f2c880e6ef5463bba6f0f0f8b54))
+* update Solidity metadata to 0.8.36 ([35b00e1](https://github.com/ElJijuna/code-languages/commit/35b00e128ff53172377c6eb4e59751b45c2d54f5))
+
 ## [1.40.10](https://github.com/ElJijuna/code-languages/compare/v1.40.9...v1.40.10) (2026-07-09)
 
 
