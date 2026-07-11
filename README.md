@@ -511,7 +511,7 @@ from its package subpath.
 | <img src="https://dummyimage.com/32x32/DC2626/ffffff.png&text=Lo" alt="Lobster logo" width="24" height="24"> | Lobster | `lobster` | `.lobster` | `development snapshot` | `code-languages/lobster` |
 | <img src="https://people.eecs.berkeley.edu/~bh/ucblogo.png" alt="Logo logo" width="24" height="24"> | Logo | `logo` | `.logo`, `.lgo` | `UCBLogo 6.2` | `code-languages/logo` |
 | <img src="https://www.lua.org/images/lua-logo.gif" alt="Lua logo" width="24" height="24"> | Lua | `lua` | `.lua`, `.rockspec` | `5.5.0` | `code-languages/lua` |
-| <img src="https://cdn.simpleicons.org/roblox/000000" alt="Luau logo" width="24" height="24"> | Luau | `luau` | `.luau` | `0.728` | `code-languages/luau` |
+| <img src="https://cdn.simpleicons.org/roblox/000000" alt="Luau logo" width="24" height="24"> | Luau | `luau` | `.luau` | `0.729` | `code-languages/luau` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Heckert_gnu.small.png" alt="Makefile logo" width="24" height="24"> | Makefile | `makefile` | `Makefile`, `makefile`, `GNUmakefile`, `.mk`, `.mak` | `4.4.1` | `code-languages/makefile` |
 | <img src="https://cdn.simpleicons.org/python/3776AB" alt="Mako logo" width="24" height="24"> | Mako | `mako` | `.mako`, `.mao` | `1.3.10` | `code-languages/mako` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg" alt="Markdown logo" width="24" height="24"> | Markdown | `markdown` | `.md`, `.markdown`, `.mdown`, `.mkd` | `CommonMark 4.0` | `code-languages/markdown` |
