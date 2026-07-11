@@ -597,7 +597,7 @@ from its package subpath.
 | <img src="https://www.smarty.net/images/logo_print.gif" alt="Smarty logo" width="24" height="24"> | Smarty | `smarty` | `.tpl`, `.smarty` | `5.5.1` | `code-languages/smarty` |
 | <img src="https://avatars.githubusercontent.com/u/33450111?v=4" alt="Snakemake logo" width="24" height="24"> | Snakemake | `snakemake` | `.smk`, `Snakefile` | `9.23.1` | `code-languages/snakemake` |
 | <img src="https://dummyimage.com/32x32/7C2D12/ffffff.png&text=SN" alt="SNOBOL logo" width="24" height="24"> | SNOBOL | `snobol` | `.sno`, `.snobol` | `SNOBOL4` | `code-languages/snobol` |
-| <img src="https://cdn.simpleicons.org/solidity/363636" alt="Solidity logo" width="24" height="24"> | Solidity | `solidity` | `.sol` | `0.8.35` | `code-languages/solidity` |
+| <img src="https://cdn.simpleicons.org/solidity/363636" alt="Solidity logo" width="24" height="24"> | Solidity | `solidity` | `.sol` | `0.8.36` | `code-languages/solidity` |
 | <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Salesforce.com_logo.svg" alt="SOQL logo" width="24" height="24"> | SOQL | `soql` | `.soql` | `stable` | `code-languages/soql` |
 | <img src="https://www.w3.org/RDF/icons/rdf_flyer.svg" alt="SPARQL logo" width="24" height="24"> | SPARQL | `sparql` | `.sparql`, `.rq` | `1.1` | `code-languages/sparql` |
 | <img src="https://dummyimage.com/32x32/DC2626/ffffff.png&text=SP" alt="SPARK logo" width="24" height="24"> | SPARK | `spark` | `.spark`, `.adb`, `.ads` | `SPARK Community 2021` | `code-languages/spark` |
