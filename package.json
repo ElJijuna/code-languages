@@ -1497,6 +1497,7 @@
     "build": "tsup",
     "check": "npm run format:check && npm run lint && tsc --noEmit && vitest run",
     "check:language-versions": "node scripts/check-language-versions.mjs",
+    "codegen": "node scripts/generate-language-artifacts.mjs && biome check --write src/index.ts src/domain/language/catalog.ts src/domain/language/registry.ts",
     "format": "biome check --write .",
     "format:check": "biome check .",
     "lint": "eslint .",

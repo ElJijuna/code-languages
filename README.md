@@ -373,13 +373,14 @@ from its package subpath.
 | <img src="https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_agda.svg" alt="Agda logo" width="24" height="24"> | Agda | `agda` | `.agda`, `.lagda`, `.lagda.md`, `.lagda.rst`, `.lagda.tex` | `2.8.0` | `code-languages/agda` |
 | <img src="https://dummyimage.com/32x32/6B7280/ffffff.png&text=ALG" alt="ALGOL logo" width="24" height="24"> | ALGOL | `algol` | `.alg`, `.algol` | `ALGOL 68` | `code-languages/algol` |
 | <img src="https://ampl.com/wp-content/uploads/AMPL-favicon-36x29-1.svg" alt="AMPL logo" width="24" height="24"> | AMPL | `ampl` | `.mod`, `.dat`, `.run` | `stable` | `code-languages/ampl` |
+| <img src="https://dummyimage.com/32x32/2D5FA0/ffffff.png&text=AS" alt="AngelScript logo" width="24" height="24"> | AngelScript | `angelscript` | `.as`, `.angelscript` | `2.36.1` | `code-languages/angelscript` |
 | <img src="https://antelang.org/img/apple-touch-icon.png" alt="Ante logo" width="24" height="24"> | Ante | `ante` | `.ante` | `experimental` | `code-languages/ante` |
 | <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_antlr.svg" alt="ANTLR Grammar logo" width="24" height="24"> | ANTLR Grammar | `antlr` | `.g4` | `4.13.2` | `code-languages/antlr` |
 | <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Salesforce.com_logo.svg" alt="Apex logo" width="24" height="24"> | Apex | `apex` | `.cls`, `.trigger` | `API 66.0` | `code-languages/apex` |
 | <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_apl.svg" alt="APL logo" width="24" height="24"> | APL | `apl` | `.apl`, `.dyalog` | `ISO/IEC 13751:2001` | `code-languages/apl` |
 | <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_applescript.svg" alt="AppleScript logo" width="24" height="24"> | AppleScript | `applescript` | `.applescript`, `.scpt`, `.scptd` | `2.8` | `code-languages/applescript` |
-| <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_arduino.svg" alt="Arduino Sketch logo" width="24" height="24"> | Arduino Sketch | `arduino` | `.ino`, `.pde` | `Arduino API 1.0` | `code-languages/arduino` |
 | <img src="https://cdn.simpleicons.org/arangodb/DDE072" alt="AQL logo" width="24" height="24"> | AQL | `aql` | `.aql` | `ArangoDB AQL` | `code-languages/aql` |
+| <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_arduino.svg" alt="Arduino Sketch logo" width="24" height="24"> | Arduino Sketch | `arduino` | `.ino`, `.pde` | `Arduino API 1.0` | `code-languages/arduino` |
 | <img src="https://cdn.simpleicons.org/asciidoctor/E40046" alt="AsciiDoc logo" width="24" height="24"> | AsciiDoc | `asciidoc` | `.adoc`, `.asciidoc`, `.asc` | `pre-spec` | `code-languages/asciidoc` |
 | <img src="https://cdn.simpleicons.org/dotnet/512BD4" alt="ASP/ASPX logo" width="24" height="24"> | ASP/ASPX | `asp` | `.asp`, `.aspx`, `.ascx`, `.ashx`, `.asmx`, `.master` | `4.8.1` | `code-languages/asp` |
 | <img src="https://cdn.simpleicons.org/assemblyscript/007AAC" alt="Assembly logo" width="24" height="24"> | Assembly | `assembly` | `.asm`, `.s`, `.S`, `.inc` | `Architecture-specific` | `code-languages/assembly` |
@@ -415,8 +416,8 @@ from its package subpath.
 | <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_cf.svg" alt="ColdFusion logo" width="24" height="24"> | ColdFusion | `coldfusion` | `.cfm`, `.cfml`, `.cfc` | `ColdFusion 2025` | `code-languages/coldfusion` |
 | <img src="https://avatars.githubusercontent.com/u/621198?v=4" alt="Coq / Rocq logo" width="24" height="24"> | Coq / Rocq | `coq` | `.v` | `9.2.0` | `code-languages/coq` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="C++ logo" width="24" height="24"> | C++ | `cpp` | `.cpp`, `.cc`, `.cxx`, `.h`, `.hpp`, `.hh`, `.hxx` | `C++23` | `code-languages/cpp` |
-| <img src="https://cdn.simpleicons.org/crystal/000000" alt="Crystal logo" width="24" height="24"> | Crystal | `crystal` | `.cr` | `1.20.3` | `code-languages/crystal` |
 | <img src="https://cdn.simpleicons.org/apachecassandra/1287B1" alt="CQL logo" width="24" height="24"> | CQL | `cql` | `.cql` | `CQL 3` | `code-languages/cql` |
+| <img src="https://cdn.simpleicons.org/crystal/000000" alt="Crystal logo" width="24" height="24"> | Crystal | `crystal` | `.cr` | `1.20.3` | `code-languages/crystal` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_C_sharp.svg" alt="C# logo" width="24" height="24"> | C# | `csharp` | `.cs`, `.csx` | `14` | `code-languages/csharp` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Official_CSS_Logo.svg" alt="CSS logo" width="24" height="24"> | CSS | `css` | `.css` | `Living Standard` | `code-languages/css` |
 | <img src="https://cdn.simpleicons.org/nvidia/76B900" alt="CUDA logo" width="24" height="24"> | CUDA | `cuda` | `.cu`, `.cuh` | `13.3.1` | `code-languages/cuda` |
@@ -448,18 +449,17 @@ from its package subpath.
 | <img src="https://avatars.githubusercontent.com/u/5713248?v=4" alt="Flux logo" width="24" height="24"> | Flux | `flux` | `.flux` | `0.200.0` | `code-languages/flux` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Gforth_Logo.png" alt="Forth logo" width="24" height="24"> | Forth | `forth` | `.fs`, `.fth`, `.forth`, `.4th` | `Forth 2012` | `code-languages/forth` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Fortran_logo.svg" alt="Fortran logo" width="24" height="24"> | Fortran | `fortran` | `.f`, `.for`, `.ftn`, `.f90`, `.f95`, `.f03`, `.f08`, `.f18`, `.f23` | `Fortran 2023` | `code-languages/fortran` |
-| <img src="https://freemarker.apache.org/favicon.png" alt="FreeMarker logo" width="24" height="24"> | FreeMarker | `freemarker` | `.ftl`, `.ftlh`, `.ftlx` | `2.3.34` | `code-languages/freemarker` |
 | <img src="https://cdn.simpleicons.org/facebook/1877F2" alt="FQL logo" width="24" height="24"> | FQL | `fql` | `.fql` | `legacy` | `code-languages/fql` |
+| <img src="https://freemarker.apache.org/favicon.png" alt="FreeMarker logo" width="24" height="24"> | FreeMarker | `freemarker` | `.ftl`, `.ftlh`, `.ftlx` | `2.3.34` | `code-languages/freemarker` |
 | <img src="https://cdn.simpleicons.org/fsharp/378BBA" alt="F# logo" width="24" height="24"> | F# | `fsharp` | `.fs`, `.fsi`, `.fsx`, `.fsscript` | `10` | `code-languages/fsharp` |
 | <img src="https://fstar-lang.org/favicon.ico" alt="F* logo" width="24" height="24"> | F* | `fstar` | `.fst`, `.fsti` | `2026.04.17` | `code-languages/fstar` |
 | <img src="https://dummyimage.com/32x32/DC2626/ffffff.png&text=G" alt="G-code logo" width="24" height="24"> | G-code | `gcode` | `.gcode`, `.gco`, `.nc`, `.cnc`, `.tap` | `RS-274` | `code-languages/gcode` |
 | <img src="https://cdn.simpleicons.org/godotengine/478CBF" alt="GDScript logo" width="24" height="24"> | GDScript | `gdscript` | `.gd` | `4.7` | `code-languages/gdscript` |
 | <img src="https://dummyimage.com/32x32/7C3AED/ffffff.png&text=PO" alt="Gettext logo" width="24" height="24"> | Gettext | `gettext` | `.po`, `.pot` | `stable` | `code-languages/gettext` |
 | <img src="https://cdn.simpleicons.org/git/F05032" alt="Git logo" width="24" height="24"> | Git | `git` | `.git`, `.gitignore`, `.gitattributes`, `.gitmodules`, `.gitkeep` | `2.55.0` | `code-languages/git` |
-| <img src="https://dummyimage.com/32x32/2D5FA0/ffffff.png&text=AS" alt="AngelScript logo" width="24" height="24"> | AngelScript | `angelscript` | `.as`, `.angelscript` | `2.36.1` | `code-languages/angelscript` |
 | <img src="https://cdn.simpleicons.org/gleam/FFAFF3" alt="Gleam logo" width="24" height="24"> | Gleam | `gleam` | `.gleam` | `1.17.0` | `code-languages/gleam` |
-| <img src="https://cdn.simpleicons.org/gamemaker/000000" alt="GML logo" width="24" height="24"> | GML | `gml` | `.gml` | `2024.13.0` | `code-languages/gml` |
 | <img src="https://cdn.simpleicons.org/opengl/5586A4" alt="GLSL logo" width="24" height="24"> | GLSL | `glsl` | `.glsl`, `.vert`, `.frag`, `.geom`, `.tesc`, `.tese`, `.comp`, `.vs`, `.fs` | `4.60` | `code-languages/glsl` |
+| <img src="https://cdn.simpleicons.org/gamemaker/000000" alt="GML logo" width="24" height="24"> | GML | `gml` | `.gml` | `2024.13.0` | `code-languages/gml` |
 | <img src="https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg" alt="Go logo" width="24" height="24"> | Go | `go` | `.go` | `1.26.5` | `code-languages/go` |
 | <img src="https://cdn.simpleicons.org/gradle/02303A" alt="Gradle logo" width="24" height="24"> | Gradle | `gradle` | `.gradle`, `.gradle.kts` | `9.6.1` | `code-languages/gradle` |
 | <img src="https://avatars.githubusercontent.com/u/54953488?v=4" alt="Grain logo" width="24" height="24"> | Grain | `grain` | `.gr` | `grain-v0.7.2` | `code-languages/grain` |
@@ -520,13 +520,13 @@ from its package subpath.
 | <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Matlab_Logo.png" alt="MATLAB logo" width="24" height="24"> | MATLAB | `matlab` | `.m`, `.mlx` | `R2026a` | `code-languages/matlab` |
 | <img src="https://maxima.sourceforge.io/img/maxima.svg" alt="Maxima logo" width="24" height="24"> | Maxima | `maxima` | `.mac`, `.wxm` | `5.49.0` | `code-languages/maxima` |
 | <img src="https://cdn.simpleicons.org/mdx/1B1F24" alt="MDX logo" width="24" height="24"> | MDX | `mdx` | `.mdx` | `3.1.1` | `code-languages/mdx` |
+| <img src="https://www.mercurylang.org/favicon.ico" alt="Mercury logo" width="24" height="24"> | Mercury | `mercury` | `.m` | `22.01.8` | `code-languages/mercury` |
 | <img src="https://cdn.simpleicons.org/mermaid/FF3670" alt="Mermaid logo" width="24" height="24"> | Mermaid | `mermaid` | `.mmd`, `.mermaid` | `11.16.0` | `code-languages/mermaid` |
 | <img src="https://raw.githubusercontent.com/mesonbuild/meson/master/graphics/meson_logo.svg" alt="Meson logo" width="24" height="24"> | Meson | `meson` | `meson.build`, `meson_options.txt`, `meson.options`, `.wrap` | `1.11.2` | `code-languages/meson` |
-| <img src="https://www.mercurylang.org/favicon.ico" alt="Mercury logo" width="24" height="24"> | Mercury | `mercury` | `.m` | `22.01.8` | `code-languages/mercury` |
 | <img src="https://developer.apple.com/assets/elements/icons/metal/metal-256x256_2x.png" alt="Metal logo" width="24" height="24"> | Metal | `metal` | `.metal` | `Metal 4` | `code-languages/metal` |
 | <img src="https://avatars.githubusercontent.com/u/3727943?v=4" alt="Modelica logo" width="24" height="24"> | Modelica | `modelica` | `.mo` | `3.6.1` | `code-languages/modelica` |
-| <img src="https://avatars.githubusercontent.com/u/107116314?v=4" alt="Mojo logo" width="24" height="24"> | Mojo | `mojo` | `.mojo` | `0.26.1` | `code-languages/mojo` |
 | <img src="https://dummyimage.com/32x32/2563EB/ffffff.png&text=M2" alt="Modula-2 logo" width="24" height="24"> | Modula-2 | `modula-2` | `.mod`, `.def` | `ISO/IEC 10514-1:1996` | `code-languages/modula-2` |
+| <img src="https://avatars.githubusercontent.com/u/107116314?v=4" alt="Mojo logo" width="24" height="24"> | Mojo | `mojo` | `.mojo` | `0.26.1` | `code-languages/mojo` |
 | <img src="https://avatars.githubusercontent.com/u/124476259?v=4" alt="MoonBit logo" width="24" height="24"> | MoonBit | `moonbit` | `.mbt` | `0.9.2` | `code-languages/moonbit` |
 | <img src="https://avatars.githubusercontent.com/u/108696678?v=4" alt="Move logo" width="24" height="24"> | Move | `move` | `.move` | `2.0.0` | `code-languages/move` |
 | <img src="https://avatars.githubusercontent.com/u/1506671?v=4" alt="MUMPS logo" width="24" height="24"> | MUMPS | `mumps` | `.mac`, `.int`, `.ro`, `.mro` | `InterSystems IRIS 2025.1` | `code-languages/mumps` |
@@ -539,10 +539,10 @@ from its package subpath.
 | <img src="https://cdn.simpleicons.org/nixos/5277C3" alt="Nix logo" width="24" height="24"> | Nix | `nix` | `.nix` | `2.34.8` | `code-languages/nix` |
 | <img src="https://cdn.simpleicons.org/nunjucks/1C4A1C" alt="Nunjucks logo" width="24" height="24"> | Nunjucks | `nunjucks` | `.njk`, `.nunjucks` | `3.2.4` | `code-languages/nunjucks` |
 | <img src="https://cdn.simpleicons.org/nushell/3AA675" alt="Nushell logo" width="24" height="24"> | Nushell | `nushell` | `.nu` | `0.114.0` | `code-languages/nushell` |
+| <img src="https://dummyimage.com/32x32/0F766E/ffffff.png&text=Ob" alt="Oberon logo" width="24" height="24"> | Oberon | `oberon` | `.ob`, `.mod` | `Oberon-2` | `code-languages/oberon` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Apple_logo_grey.svg" alt="Objective-C logo" width="24" height="24"> | Objective-C | `objective-c` | `.m`, `.mm` | `2.0` | `code-languages/objective-c` |
 | <img src="https://cdn.simpleicons.org/ocaml/EC6813" alt="OCaml logo" width="24" height="24"> | OCaml | `ocaml` | `.ml`, `.mli`, `.mll`, `.mly`, `.mlt`, `.eliom`, `.eliomi` | `5.6.0` | `code-languages/ocaml` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Gnu-octave-logo.svg" alt="Octave logo" width="24" height="24"> | Octave | `octave` | `.m`, `.octave` | `9.3.0` | `code-languages/octave` |
-| <img src="https://dummyimage.com/32x32/0F766E/ffffff.png&text=Ob" alt="Oberon logo" width="24" height="24"> | Oberon | `oberon` | `.ob`, `.mod` | `Oberon-2` | `code-languages/oberon` |
 | <img src="https://avatars.githubusercontent.com/u/12533910?v=4" alt="Odin logo" width="24" height="24"> | Odin | `odin` | `.odin` | `dev-2026-02` | `code-languages/odin` |
 | <img src="https://cdn.simpleicons.org/openapiinitiative/6BA539" alt="OpenAPI logo" width="24" height="24"> | OpenAPI | `openapi` | `.openapi.json`, `.openapi.yaml`, `.openapi.yml` | `3.2.0` | `code-languages/openapi` |
 | <img src="https://cdn.simpleicons.org/khronosgroup/CC3333" alt="OpenCL C logo" width="24" height="24"> | OpenCL C | `opencl` | `.cl`, `.clh` | `OpenCL C 3.0` | `code-languages/opencl` |
@@ -552,8 +552,8 @@ from its package subpath.
 | <img src="https://cdn.simpleicons.org/perl/39457E" alt="Perl logo" width="24" height="24"> | Perl | `perl` | `.pl`, `.pm`, `.pod`, `.t`, `.psgi` | `5.42.2` | `code-languages/perl` |
 | <img src="https://www.php.net/images/logos/new-php-logo.svg" alt="PHP logo" width="24" height="24"> | PHP | `php` | `.php`, `.phtml`, `.php3`, `.php4`, `.php5`, `.phps` | `8.5.8` | `code-languages/php` |
 | <img src="https://cdn.simpleicons.org/tradingview/131722" alt="Pine Script logo" width="24" height="24"> | Pine Script | `pine-script` | `.pine` | `v6` | `code-languages/pine-script` |
-| <img src="https://dummyimage.com/32x32/1F2937/ffffff.png&text=PL1" alt="PL/I logo" width="24" height="24"> | PL/I | `pl-i` | `.pli`, `.pl1` | `Enterprise PL/I 6.2` | `code-languages/pl-i` |
 | <img src="https://avatars.githubusercontent.com/u/10639145?v=4" alt="Pkl logo" width="24" height="24"> | Pkl | `pkl` | `.pkl` | `0.31.1` | `code-languages/pkl` |
+| <img src="https://dummyimage.com/32x32/1F2937/ffffff.png&text=PL1" alt="PL/I logo" width="24" height="24"> | PL/I | `pl-i` | `.pli`, `.pl1` | `Enterprise PL/I 6.2` | `code-languages/pl-i` |
 | <img src="https://plantuml.com/logo3.png" alt="PlantUML logo" width="24" height="24"> | PlantUML | `plantuml` | `.puml`, `.plantuml`, `.iuml` | `1.2026.6` | `code-languages/plantuml` |
 | <img src="https://cdn.simpleicons.org/postgresql/4169E1" alt="PL/pgSQL logo" width="24" height="24"> | PL/pgSQL | `plpgsql` | `.pgsql`, `.plpgsql` | `stable` | `code-languages/plpgsql` |
 | <img src="https://github.com/oracle.png" alt="Oracle PL/SQL logo" width="24" height="24"> | Oracle PL/SQL | `plsql` | `.pls`, `.pks`, `.pkb`, `.plsql` | `Oracle Database 26ai` | `code-languages/plsql` |
@@ -577,9 +577,9 @@ from its package subpath.
 | <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Racket-logo.svg" alt="Racket logo" width="24" height="24"> | Racket | `racket` | `.rkt`, `.rktd`, `.rktl`, `.scrbl` | `9.2` | `code-languages/racket` |
 | <img src="https://github.com/Raku.png" alt="Raku logo" width="24" height="24"> | Raku | `raku` | `.raku`, `.rakumod`, `.rakudoc`, `.rakutest`, `.p6`, `.pm6` | `6.d` | `code-languages/raku` |
 | <img src="https://cdn.simpleicons.org/dotnet/512BD4" alt="Razor logo" width="24" height="24"> | Razor | `razor` | `.cshtml`, `.razor` | `10.0.9` | `code-languages/razor` |
+| <img src="https://cdn.simpleicons.org/reason/DD4B39" alt="ReasonML logo" width="24" height="24"> | ReasonML | `reasonml` | `.re`, `.rei` | `3.13.0` | `code-languages/reasonml` |
 | <img src="https://www.rebol.com/graphics/reb-logo.gif" alt="Rebol logo" width="24" height="24"> | Rebol | `rebol` | `.r`, `.reb`, `.rebol` | `Rebol 3` | `code-languages/rebol` |
 | <img src="https://static.red-lang.org/red-logo.svg" alt="Red logo" width="24" height="24"> | Red | `red` | `.red`, `.reds` | `0.6.6` | `code-languages/red` |
-| <img src="https://cdn.simpleicons.org/reason/DD4B39" alt="ReasonML logo" width="24" height="24"> | ReasonML | `reasonml` | `.re`, `.rei` | `3.13.0` | `code-languages/reasonml` |
 | <img src="https://raw.githubusercontent.com/open-policy-agent/opa/main/logo/logo.svg" alt="Rego logo" width="24" height="24"> | Rego | `rego` | `.rego` | `OPA 1.18.2` | `code-languages/rego` |
 | <img src="https://cdn.simpleicons.org/rescript/E6484A" alt="ReScript logo" width="24" height="24"> | ReScript | `rescript` | `.res`, `.resi` | `12.3.0` | `code-languages/rescript` |
 | <img src="https://cdn.simpleicons.org/readthedocs/8CA1AF" alt="reStructuredText logo" width="24" height="24"> | reStructuredText | `restructuredtext` | `.rst`, `.rest` | `Docutils 0.22.2` | `code-languages/restructuredtext` |
@@ -599,8 +599,8 @@ from its package subpath.
 | <img src="https://dummyimage.com/32x32/7C2D12/ffffff.png&text=SN" alt="SNOBOL logo" width="24" height="24"> | SNOBOL | `snobol` | `.sno`, `.snobol` | `SNOBOL4` | `code-languages/snobol` |
 | <img src="https://cdn.simpleicons.org/solidity/363636" alt="Solidity logo" width="24" height="24"> | Solidity | `solidity` | `.sol` | `0.8.36` | `code-languages/solidity` |
 | <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Salesforce.com_logo.svg" alt="SOQL logo" width="24" height="24"> | SOQL | `soql` | `.soql` | `stable` | `code-languages/soql` |
-| <img src="https://www.w3.org/RDF/icons/rdf_flyer.svg" alt="SPARQL logo" width="24" height="24"> | SPARQL | `sparql` | `.sparql`, `.rq` | `1.1` | `code-languages/sparql` |
 | <img src="https://dummyimage.com/32x32/DC2626/ffffff.png&text=SP" alt="SPARK logo" width="24" height="24"> | SPARK | `spark` | `.spark`, `.adb`, `.ads` | `SPARK Community 2021` | `code-languages/spark` |
+| <img src="https://www.w3.org/RDF/icons/rdf_flyer.svg" alt="SPARQL logo" width="24" height="24"> | SPARQL | `sparql` | `.sparql`, `.rq` | `1.1` | `code-languages/sparql` |
 | <img src="https://cdn.simpleicons.org/splunk/000000" alt="SPL logo" width="24" height="24"> | SPL | `spl` | `.spl` | `stable` | `code-languages/spl` |
 | <img src="https://dummyimage.com/32x32/052FAD/ffffff.png&text=SPSS" alt="SPSS logo" width="24" height="24"> | SPSS | `spss` | `.sps`, `.spss` | `29.0` | `code-languages/spss` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" alt="SQL logo" width="24" height="24"> | SQL | `sql` | `.sql` | `SQL:2023` | `code-languages/sql` |
@@ -638,8 +638,8 @@ from its package subpath.
 | <img src="https://upload.wikimedia.org/wikipedia/commons/4/40/VB.NET_Logo.svg" alt="Visual Basic logo" width="24" height="24"> | Visual Basic | `visual-basic` | `.vb` | `17.13` | `code-languages/visual-basic` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg" alt="Vue logo" width="24" height="24"> | Vue | `vue` | `.vue` | `3.5.39` | `code-languages/vue` |
 | <img src="https://avatars.githubusercontent.com/u/37288461?v=4" alt="Vyper logo" width="24" height="24"> | Vyper | `vyper` | `.vy` | `0.4.3` | `code-languages/vyper` |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/1/1f/WebAssembly_Logo.svg" alt="WebAssembly logo" width="24" height="24"> | WebAssembly | `webassembly` | `.wasm`, `.wat` | `3.0` | `code-languages/webassembly` |
 | <img src="https://avatars.githubusercontent.com/u/23492081?v=4" alt="WDL logo" width="24" height="24"> | WDL | `wdl` | `.wdl` | `1.2.0` | `code-languages/wdl` |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/1/1f/WebAssembly_Logo.svg" alt="WebAssembly logo" width="24" height="24"> | WebAssembly | `webassembly` | `.wasm`, `.wat` | `3.0` | `code-languages/webassembly` |
 | <img src="https://cdn.simpleicons.org/webgpu/005A9C" alt="WGSL logo" width="24" height="24"> | WGSL | `wgsl` | `.wgsl` | `Candidate Recommendation Draft 2026-05-07` | `code-languages/wgsl` |
 | <img src="https://avatars.githubusercontent.com/u/8763410?v=4" alt="Wren logo" width="24" height="24"> | Wren | `wren` | `.wren` | `0.4.0` | `code-languages/wren` |
 | <img src="https://cdn.simpleicons.org/dotnet/512BD4" alt="XAML logo" width="24" height="24"> | XAML | `xaml` | `.xaml`, `.baml` | `Platform-specific` | `code-languages/xaml` |
