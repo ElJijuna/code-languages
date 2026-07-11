@@ -348,6 +348,12 @@ Things that would meaningfully improve the project but aren't committed to a ver
   bootstrapping goal, not a ceiling — the vision has always been broad, community-driven coverage.
   There is no fixed list of "next languages to add"; PRs proposing new languages are the
   mechanism.
+- **Candidate languages proposed for future PRs (not committed):** Scratch (visual/block-based,
+  MIT Media Lab — fills a gap in the visual-programming category), Emacs Lisp (Lisp dialect for
+  Emacs configuration/extension, distinct from the generic `lisp` entry), Vimscript/VimL
+  (Vim/Neovim configuration and scripting language), and Delphi/Object Pascal (Embarcadero's
+  commercial Pascal dialect, distinct from the generic `pascal` entry). None are scheduled; each
+  still requires a PR following the "Adding a Language" steps in CONTRIBUTING.md.
 - **Locale coverage is fixed at six base locales.** Adding a new base locale (e.g. `ja`, `zh`)
   would touch `BaseLocale` in `src/types.ts`, the i18n domain, `translate-language-i18n.mjs`, and
   every language file's `i18n` object — a larger, breaking-ish change that hasn't been scoped.
