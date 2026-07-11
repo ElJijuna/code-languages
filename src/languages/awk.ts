@@ -12,7 +12,7 @@ export const awk = {
     packageManagers: ['APT', 'DNF', 'Pacman', 'Homebrew'],
     ecosystems: ['Unix', 'Text Processing', 'Shell', 'Data Extraction'],
   },
-  version: 'GNU Awk 5.4.0',
+  version: 'GNU Awk 5.4.1',
   logo: 'https://cdn.simpleicons.org/gnu/A42E2B',
   color: '#4E9A06',
   i18n: {

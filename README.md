@@ -388,7 +388,7 @@ from its package subpath.
 | <img src="https://dummyimage.com/32x32/0F766E/ffffff.png&text=Au" alt="Austral logo" width="24" height="24"> | Austral | `austral` | `.aum`, `.aui` | `0.1.0` | `code-languages/austral` |
 | <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_autohotkey.svg" alt="AutoHotkey logo" width="24" height="24"> | AutoHotkey | `autohotkey` | `.ahk`, `.ah2` | `2.0` | `code-languages/autohotkey` |
 | <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Apache_Avro_Logo.svg" alt="Avro IDL logo" width="24" height="24"> | Avro IDL | `avro-idl` | `.avdl` | `1.12.1` | `code-languages/avro-idl` |
-| <img src="https://cdn.simpleicons.org/gnu/A42E2B" alt="awk logo" width="24" height="24"> | awk | `awk` | `.awk` | `GNU Awk 5.4.0` | `code-languages/awk` |
+| <img src="https://cdn.simpleicons.org/gnu/A42E2B" alt="awk logo" width="24" height="24"> | awk | `awk` | `.awk` | `GNU Awk 5.4.1` | `code-languages/awk` |
 | <img src="https://ballerina.io/images/ballerina-logo.svg" alt="Ballerina logo" width="24" height="24"> | Ballerina | `ballerina` | `.bal` | `2201.12.0` | `code-languages/ballerina` |
 | <img src="https://bashlogo.com/img/symbol/svg/full_colored_dark.svg" alt="Bash logo" width="24" height="24"> | Bash | `bash` | `.sh`, `.bash`, `.bashrc`, `.bash_profile`, `.bash_login`, `.profile` | `5.3` | `code-languages/bash` |
 | <img src="https://avatars.githubusercontent.com/u/5598624?v=4" alt="BASIC logo" width="24" height="24"> | BASIC | `basic` | `.bas`, `.bi`, `.bb` | `FreeBASIC 1.10.1` | `code-languages/basic` |
