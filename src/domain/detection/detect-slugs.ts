@@ -1,5 +1,5 @@
-import { type LanguageSlug, languageIndex } from '../language/registry';
-import { detectMatchingEntries } from './match';
+import { detectMatchingEntries } from '@/domain/detection/match';
+import { type LanguageSlug, languageIndex } from '@/domain/language/registry';
 
 export interface ProjectLanguageDetection {
   /** Detected language slug. */
