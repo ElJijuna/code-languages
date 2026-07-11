@@ -1,4 +1,4 @@
-import type { Language } from '../types';
+import type { Language } from '@/types';
 
 export const modula2 = {
   slug: 'modula-2',
