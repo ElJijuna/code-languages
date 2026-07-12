@@ -1,3 +1,34 @@
+# [1.42.0](https://github.com/ElJijuna/code-languages/compare/v1.41.0...v1.42.0) (2026-07-12)
+
+
+### Bug Fixes
+
+* update Nushell metadata to 0.114.1 ([2cdd736](https://github.com/ElJijuna/code-languages/commit/2cdd7367efe61df7036afb1ae018fb3223dc4848))
+
+
+### Features
+
+* add Alloy language definition with multilingual support and tooling details ([b308fd3](https://github.com/ElJijuna/code-languages/commit/b308fd38484d84d24b6e227bf9c0fb9c584db4a9))
+* add C3 language definition with multilingual support and tooling details ([abe12d2](https://github.com/ElJijuna/code-languages/commit/abe12d2f03f4d110b2133a263c2ab75310f223ec))
+* add category chips and shebang detection improvements ([854c056](https://github.com/ElJijuna/code-languages/commit/854c056b87a0de27bce0c9a93e065e22de8c84b9))
+* add Clarity language definition with multilingual support and tooling details ([c9f1c00](https://github.com/ElJijuna/code-languages/commit/c9f1c003b920b5251840647985c124f014639a21))
+* add Common Workflow Language (CWL) definition with multilingual support and tooling details ([4841c45](https://github.com/ElJijuna/code-languages/commit/4841c45c4fd7184bec4924a7137ec35e5ce3e597))
+* add EdgeQL language definition with multilingual support and tooling details ([3b04581](https://github.com/ElJijuna/code-languages/commit/3b04581b4e8d4ba622aa8d41cb4879cf9b906ce8))
+* add Faust language definition with multilingual support and tooling details ([1d8df5b](https://github.com/ElJijuna/code-languages/commit/1d8df5bba67c5d66cd66a7fb9cdf75e1a80d453e))
+* add Flix language definition with multilingual support and tooling details ([cef70d3](https://github.com/ElJijuna/code-languages/commit/cef70d327a288691a506afb20fad08ba0a54ac61))
+* add Futhark language definition with multilingual support and tooling details ([8b45bf3](https://github.com/ElJijuna/code-languages/commit/8b45bf3f169d92302aa49234bd6fea1948650a26))
+* add J language definition with multilingual support and tooling details ([3d07580](https://github.com/ElJijuna/code-languages/commit/3d07580c885c38f1bc4f94b7ad90a5c435c2d719))
+* add Noir language definition with multilingual support and tooling details ([2dbcd95](https://github.com/ElJijuna/code-languages/commit/2dbcd9501563b2dbffad0e7455fc31995996c459))
+* add PRQL language definition with multilingual support and tooling details ([22b3684](https://github.com/ElJijuna/code-languages/commit/22b36844a6b4efa9e04a68c776c096d00dc32a93))
+* add q language definition with multilingual support and tooling details ([3cd49c7](https://github.com/ElJijuna/code-languages/commit/3cd49c7a3894a792ca64f5561a33872da5e1771d))
+* add Ren'Py language definition with multilingual support and tooling details ([780ad56](https://github.com/ElJijuna/code-languages/commit/780ad5690a073b041d38117061fd89f47d115931))
+* add Slang language definition with multilingual support and tooling details ([18ddb15](https://github.com/ElJijuna/code-languages/commit/18ddb1534f22a689ea755300fc8c8e567b5660b1))
+* add Smithy language definition with multilingual support and tooling details ([0ed43f9](https://github.com/ElJijuna/code-languages/commit/0ed43f92813f7605bdca82237f654d726fdc075e))
+* add SuperCollider language definition with multilingual support and tooling details ([dbbfc04](https://github.com/ElJijuna/code-languages/commit/dbbfc045f743eb14a010fd0a10a6d133e42d67f0))
+* add Sway language definition with multilingual support and tooling details ([7fa4575](https://github.com/ElJijuna/code-languages/commit/7fa4575cd4f5b31b17247e5825ff871efc038d0a))
+* add TypeSpec language definition with multilingual support and tooling details ([2a210ed](https://github.com/ElJijuna/code-languages/commit/2a210edce7c9baecad44163783109fe4aefa0829))
+* enhance language API with relations and lifecycle status filtering ([74ea399](https://github.com/ElJijuna/code-languages/commit/74ea3996a425eefb6112b8c2c2fbbe1e92bb813a))
+
 # [1.41.0](https://github.com/ElJijuna/code-languages/compare/v1.40.11...v1.41.0) (2026-07-12)
 
 
