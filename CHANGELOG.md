@@ -1,3 +1,17 @@
+# [1.41.0](https://github.com/ElJijuna/code-languages/compare/v1.40.11...v1.41.0) (2026-07-12)
+
+
+### Features
+
+* add code generation script and update language artifacts ([e28684f](https://github.com/ElJijuna/code-languages/commit/e28684f431c212317606dceba022502e0af9d026))
+* add language artifact generation script and update index exports ([b341d48](https://github.com/ElJijuna/code-languages/commit/b341d48f8dc3458a9334bbddcbc7df5f45368ef6))
+* enhance language catalog with status and aliases ([3733685](https://github.com/ElJijuna/code-languages/commit/373368574a237a034028837f50f59d68a16c3060))
+* improve shebang detection logic and add test cases for edge scenarios ([5861d5d](https://github.com/ElJijuna/code-languages/commit/5861d5d7cabf39629368d0faa53255cfddf88c42))
+* remove tests for various languages and add a new test for language registry synchronization ([e4bf02a](https://github.com/ElJijuna/code-languages/commit/e4bf02a8d53d9d2172bbee6f41a8fc5e19f774c8))
+* update contribution guidelines and architecture documentation ([130f241](https://github.com/ElJijuna/code-languages/commit/130f241d0e49bf4cab3e4b6b9f5a5a4d7e69650c))
+* update logos for various languages in the language definitions ([fe3c563](https://github.com/ElJijuna/code-languages/commit/fe3c563fe69776d502e5e77d255a0d2b1f84cf48))
+* upgrade GitHub Actions to use checkout@v5 and setup-node@v5 ([ea899aa](https://github.com/ElJijuna/code-languages/commit/ea899aaf3cc56ac4692cc40c3af139d2d32aae3f))
+
 ## [1.40.11](https://github.com/ElJijuna/code-languages/compare/v1.40.10...v1.40.11) (2026-07-11)
 
 
