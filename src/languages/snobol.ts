@@ -2,6 +2,7 @@ import type { Language } from '@/types';
 
 export const snobol = {
   slug: 'snobol',
+  status: 'historical',
   publishedDate: '1962-01-01',
   extensions: ['.sno', '.snobol'],
   author: 'David J. Farber, Ralph Griswold, and Ivan P. Polonsky',

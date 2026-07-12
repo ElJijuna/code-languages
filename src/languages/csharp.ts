@@ -2,6 +2,7 @@ import type { Language } from '@/types';
 
 export const csharp = {
   slug: 'csharp',
+  aliases: ['c#', 'cs'],
   publishedDate: '2000-06-26',
   extensions: ['.cs', '.csx'],
   author: 'Anders Hejlsberg / Microsoft',

@@ -2,6 +2,7 @@ import type { Language } from '@/types';
 
 export const bcpl = {
   slug: 'bcpl',
+  status: 'historical',
   publishedDate: '1967-01-01',
   extensions: ['.bcpl'],
   author: 'Martin Richards',

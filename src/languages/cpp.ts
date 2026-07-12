@@ -2,6 +2,7 @@ import type { Language } from '@/types';
 
 export const cpp = {
   slug: 'cpp',
+  aliases: ['c++', 'cplusplus'],
   publishedDate: '1985-10-01',
   extensions: ['.cpp', '.cc', '.cxx', '.h', '.hpp', '.hh', '.hxx'],
   author: 'Bjarne Stroustrup',

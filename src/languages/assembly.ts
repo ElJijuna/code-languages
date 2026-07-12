@@ -2,6 +2,7 @@ import type { Language } from '@/types';
 
 export const assembly = {
   slug: 'assembly',
+  aliases: ['asm'],
   publishedDate: '1949-01-01',
   extensions: ['.asm', '.s', '.S', '.inc'],
   author: 'Machine architecture vendors and assembler implementers',

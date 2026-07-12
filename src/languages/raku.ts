@@ -2,6 +2,7 @@ import type { Language } from '@/types';
 
 export const raku = {
   slug: 'raku',
+  aliases: ['perl6', 'perl 6'],
   publishedDate: '2015-12-25',
   extensions: ['.raku', '.rakumod', '.rakudoc', '.rakutest', '.p6', '.pm6'],
   author: 'Raku Community',

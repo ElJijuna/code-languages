@@ -2,6 +2,7 @@ import type { Language } from '@/types';
 
 export const javascript = {
   slug: 'javascript',
+  aliases: ['js', 'ecmascript'],
   publishedDate: '1995-12-04',
   extensions: ['.js', '.mjs', '.cjs', '.jsx'],
   author: 'Brendan Eich / Netscape',

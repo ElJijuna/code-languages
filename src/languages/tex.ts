@@ -2,6 +2,7 @@ import type { Language } from '@/types';
 
 export const tex = {
   slug: 'tex',
+  aliases: ['latex'],
   publishedDate: '1978-01-01',
   extensions: ['.tex', '.sty', '.cls', '.dtx', '.ins', '.ltx'],
   author: 'Donald Knuth',

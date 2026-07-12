@@ -2,6 +2,7 @@ import type { Language } from '@/types';
 
 export const markdown = {
   slug: 'markdown',
+  aliases: ['md'],
   publishedDate: '2004-03-19',
   extensions: ['.md', '.markdown', '.mdown', '.mkd'],
   author: 'John Gruber / Aaron Swartz',

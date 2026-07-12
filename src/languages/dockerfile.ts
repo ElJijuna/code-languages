@@ -2,6 +2,7 @@ import type { Language } from '@/types';
 
 export const dockerfile = {
   slug: 'dockerfile',
+  aliases: ['docker'],
   publishedDate: '2013-03-20',
   extensions: ['Dockerfile', '.dockerfile'],
   author: 'Docker, Inc.',

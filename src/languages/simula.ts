@@ -2,6 +2,7 @@ import type { Language } from '@/types';
 
 export const simula = {
   slug: 'simula',
+  status: 'historical',
   publishedDate: '1962-01-01',
   extensions: ['.sim', '.simula'],
   author: 'Ole-Johan Dahl and Kristen Nygaard',

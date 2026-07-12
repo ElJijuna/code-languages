@@ -2,6 +2,7 @@ import type { Language } from '@/types';
 
 export const coq = {
   slug: 'coq',
+  aliases: ['rocq'],
   publishedDate: '1989-01-01',
   extensions: ['.v'],
   author: 'INRIA / Rocq Prover Development Team',

@@ -2,6 +2,7 @@ import type { Language } from '@/types';
 
 export const vale = {
   slug: 'vale',
+  status: 'experimental',
   publishedDate: '2018-01-01',
   extensions: ['.vale'],
   author: 'Evan Ovadia',

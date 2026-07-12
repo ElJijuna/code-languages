@@ -2,6 +2,7 @@ import type { Language } from '@/types';
 
 export const austral = {
   slug: 'austral',
+  status: 'experimental',
   publishedDate: '2021-01-01',
   extensions: ['.aum', '.aui'],
   author: 'Fernando Borretti',

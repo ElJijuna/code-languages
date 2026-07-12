@@ -2,6 +2,7 @@ import type { Language } from '@/types';
 
 export const visualBasic = {
   slug: 'visual-basic',
+  aliases: ['vb', 'vb.net'],
   publishedDate: '2001-02-13',
   extensions: ['.vb'],
   author: 'Microsoft',

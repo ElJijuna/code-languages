@@ -16,6 +16,16 @@ export type LanguageTranslations = { en: LanguageContent } & Partial<
   Record<BaseLocale, LanguageContent>
 >;
 
+/**
+ * Lifecycle status of a language. Absent means `active`.
+ *
+ * - `active`: maintained and in current use.
+ * - `experimental`: pre-1.0 or research language without stability guarantees.
+ * - `legacy`: deprecated or superseded, but still found in production systems.
+ * - `historical`: of historical significance, no longer in practical use.
+ */
+export type LanguageStatus = 'active' | 'experimental' | 'legacy' | 'historical';
+
 export interface LanguageTooling {
   /** Execution environments, virtual machines, shells, or platforms. e.g. ["Node.js", "Browser"] */
   runtimes?: string[];
@@ -30,6 +40,12 @@ export interface LanguageTooling {
 export interface Language {
   /** URL-safe identifier. e.g. "typescript" */
   slug: string;
+
+  /** Alternative lookup names resolved by `api.language()`. e.g. ["golang"] */
+  aliases?: string[];
+
+  /** Lifecycle status. Absent means `active`. */
+  status?: LanguageStatus;
 
   /** ISO 8601 date of first public release. e.g. "2012-10-01" */
   publishedDate: string;

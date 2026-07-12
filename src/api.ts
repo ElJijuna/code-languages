@@ -55,6 +55,21 @@ export interface LanguageRequest {
   load(): Promise<LocalizedLanguage | undefined>;
 }
 
+/**
+ * A `LanguageRequest` for a slug that is statically known to exist in the catalog,
+ * so `get()` and `load()` never return `undefined`.
+ */
+export interface ResolvedLanguageRequest {
+  /** Sets the requested locale for this language lookup. */
+  locale(locale: Locale): ResolvedLanguageRequest;
+
+  /** Reads the language from the in-memory catalog and localizes it. */
+  get(): LocalizedLanguage;
+
+  /** Dynamically imports the language module and localizes it. */
+  load(): Promise<LocalizedLanguage>;
+}
+
 export interface RuntimeRequest {
   /** Metadata about the matched runtime platform. Returns undefined for unknown values. */
   info(): RuntimeInfo | undefined;
@@ -90,6 +105,11 @@ export interface EcosystemRequest {
   langs(): LanguageCollectionRequest;
 }
 
+export interface ExtensionRequest {
+  /** Languages whose extensions include this extension or exact filename. */
+  langs(): LanguageCollectionRequest;
+}
+
 export interface LanguageCollectionRequest {
   /**
    * Sets the requested locale for every language returned by this collection lookup.
@@ -109,12 +129,33 @@ export interface LanguageCollectionRequest {
 
 const defaultLocale: Locale = 'en';
 const languageMap = new Map(languages.map((l) => [l.slug, l]));
+const languageAliasMap = new Map<string, string>();
+
+for (const language of languages) {
+  for (const alias of language.aliases ?? []) {
+    languageAliasMap.set(alias.toLowerCase(), language.slug);
+  }
+}
+
 const normalizeLanguageSlug = (slug: RuntimeLanguageSlug) =>
   slug
     .trim()
     .toLowerCase()
     .replace(/\s+/g, '-')
     .replace(/[^a-z0-9-]/g, '');
+
+/**
+ * Resolves a lookup value to a catalog slug.
+ *
+ * Aliases are checked before slug normalization so values such as `C#` or `golang`
+ * resolve to `csharp` and `go` instead of being mangled by symbol stripping.
+ */
+const resolveLanguageLookup = (value: string) => {
+  const raw = value.trim().toLowerCase();
+  const normalized = normalizeLanguageSlug(value);
+
+  return languageAliasMap.get(raw) ?? languageAliasMap.get(normalized) ?? normalized;
+};
 const localizeOptionalLanguage = (language: Language | undefined, locale: Locale) =>
   language ? localizeLanguage(language, locale) : undefined;
 const createLanguageRequest = (
@@ -163,6 +204,17 @@ const createLanguageCollectionRequest = (
 
   return request;
 };
+
+/** Builds a collection request over the catalog languages matching a predicate. */
+const createFilteredLanguageCollection = (predicate: (language: Language) => boolean) => {
+  const filtered = () => languages.filter(predicate);
+
+  return createLanguageCollectionRequest(filtered, async () => {
+    const loaded = await Promise.all(filtered().map((language) => loadLanguage(language.slug)));
+
+    return loaded.filter((language): language is Language => Boolean(language));
+  });
+};
 const loadDetectedLanguages = async (filename: string) => {
   const detectedLanguages = await Promise.all(
     detectLanguageSlugs(filename).map((slug) => loadLanguage(slug)),
@@ -184,20 +236,26 @@ const getDetectedLanguages = (filename: string) =>
  */
 export const api = {
   /**
-   * Selects a language by slug.
+   * Selects a language by slug or alias.
    *
-   * Input is normalized to the package slug format before lookup.
+   * Input is normalized to the package slug format before lookup, and language
+   * aliases such as `golang`, `C#`, or `wasm` resolve to their catalog slug.
+   * When the slug is a known literal, `get()` and `load()` are typed as
+   * always returning a language.
    *
    * @example
    * api.language("astro").locale("es-PE").get();
+   * api.language("golang").get()?.slug; // "go"
    */
-  language(slug: RuntimeLanguageSlug) {
-    const normalizedSlug = normalizeLanguageSlug(slug);
+  language<Slug extends string>(
+    slug: Slug,
+  ): Slug extends LanguageSlug ? ResolvedLanguageRequest : LanguageRequest {
+    const resolvedSlug = resolveLanguageLookup(slug);
 
     return createLanguageRequest(
-      () => languageMap.get(normalizedSlug),
-      () => loadLanguage(normalizedSlug),
-    );
+      () => languageMap.get(resolvedSlug),
+      () => loadLanguage(resolvedSlug),
+    ) as Slug extends LanguageSlug ? ResolvedLanguageRequest : LanguageRequest;
   },
 
   /**
@@ -235,6 +293,33 @@ export const api = {
   },
 
   /**
+   * Selects every language that registers the given file extension or exact filename.
+   *
+   * Accepts values with or without the leading dot: `.ts`, `ts`, or `Dockerfile`.
+   * Unlike `detect`, this matches the extension entry exactly instead of ranking
+   * suffix matches, so `api.extension('.h')` returns both C and C++.
+   *
+   * @example
+   * api.extension('.h').langs().get().map((language) => language.slug); // ["c", "cpp"]
+   * api.extension('ts').langs().locale('es').get();
+   */
+  extension(value: string): ExtensionRequest {
+    const normalized = value.trim().toLowerCase();
+
+    return {
+      langs() {
+        return createFilteredLanguageCollection((language) =>
+          language.extensions.some((extension) => {
+            const normalizedExtension = extension.toLowerCase();
+
+            return normalizedExtension === normalized || normalizedExtension === `.${normalized}`;
+          }),
+        );
+      },
+    };
+  },
+
+  /**
    * Selects every language that runs on or targets the given platform or runtime.
    *
    * Accepts common aliases: 'node', 'nodejs', 'bun', 'deno', '.net', 'jvm', 'android', 'ios', etc.
@@ -253,13 +338,7 @@ export const api = {
         return definition ? runtimeInfoFromDefinition(definition) : undefined;
       },
       langs() {
-        const filtered = () => languages.filter((lang) => matchesRuntime(lang, targets));
-
-        return createLanguageCollectionRequest(filtered, async () => {
-          const loaded = await Promise.all(filtered().map((lang) => loadLanguage(lang.slug)));
-
-          return loaded.filter((lang): lang is Language => Boolean(lang));
-        });
+        return createFilteredLanguageCollection((language) => matchesRuntime(language, targets));
       },
     };
   },
@@ -283,13 +362,9 @@ export const api = {
         return definition ? packageManagerInfoFromDefinition(definition) : undefined;
       },
       langs() {
-        const filtered = () => languages.filter((lang) => matchesPackageManager(lang, targets));
-
-        return createLanguageCollectionRequest(filtered, async () => {
-          const loaded = await Promise.all(filtered().map((lang) => loadLanguage(lang.slug)));
-
-          return loaded.filter((lang): lang is Language => Boolean(lang));
-        });
+        return createFilteredLanguageCollection((language) =>
+          matchesPackageManager(language, targets),
+        );
       },
       runtimes() {
         return runtimesForPackageManager(targets);
@@ -318,13 +393,7 @@ export const api = {
   category(value: LanguageCategory): CategoryRequest {
     return {
       langs() {
-        const filtered = () => languages.filter((lang) => matchesCategory(lang, value));
-
-        return createLanguageCollectionRequest(filtered, async () => {
-          const loaded = await Promise.all(filtered().map((lang) => loadLanguage(lang.slug)));
-
-          return loaded.filter((lang): lang is Language => Boolean(lang));
-        });
+        return createFilteredLanguageCollection((language) => matchesCategory(language, value));
       },
     };
   },
@@ -348,13 +417,7 @@ export const api = {
         return definition ? paradigmInfoFromDefinition(definition) : undefined;
       },
       langs() {
-        const filtered = () => languages.filter((lang) => matchesParadigm(lang, targets));
-
-        return createLanguageCollectionRequest(filtered, async () => {
-          const loaded = await Promise.all(filtered().map((lang) => loadLanguage(lang.slug)));
-
-          return loaded.filter((lang): lang is Language => Boolean(lang));
-        });
+        return createFilteredLanguageCollection((language) => matchesParadigm(language, targets));
       },
     };
   },
@@ -378,13 +441,7 @@ export const api = {
         return definition ? ecosystemInfoFromDefinition(definition) : undefined;
       },
       langs() {
-        const filtered = () => languages.filter((lang) => matchesEcosystem(lang, targets));
-
-        return createLanguageCollectionRequest(filtered, async () => {
-          const loaded = await Promise.all(filtered().map((lang) => loadLanguage(lang.slug)));
-
-          return loaded.filter((lang): lang is Language => Boolean(lang));
-        });
+        return createFilteredLanguageCollection((language) => matchesEcosystem(language, targets));
       },
     };
   },

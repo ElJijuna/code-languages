@@ -2,6 +2,7 @@ import type { Language } from '@/types';
 
 export const carbon = {
   slug: 'carbon',
+  status: 'experimental',
   publishedDate: '2022-07-19',
   extensions: ['.carbon'],
   author: 'Carbon Language Project',

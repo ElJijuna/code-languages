@@ -2,6 +2,7 @@ import type { Language } from '@/types';
 
 export const fe = {
   slug: 'fe',
+  status: 'experimental',
   publishedDate: '2020-10-08',
   extensions: ['.fe'],
   author: 'Ethereum Foundation contributors',

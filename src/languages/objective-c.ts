@@ -2,6 +2,7 @@ import type { Language } from '@/types';
 
 export const objectiveC = {
   slug: 'objective-c',
+  aliases: ['objc', 'objective c'],
   publishedDate: '1984-01-01',
   extensions: ['.m', '.mm'],
   author: 'Brad Cox / Tom Love',

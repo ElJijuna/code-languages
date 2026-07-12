@@ -2,6 +2,7 @@ import type { Language } from '@/types';
 
 export const ruby = {
   slug: 'ruby',
+  aliases: ['rb'],
   publishedDate: '1995-12-21',
   extensions: ['.rb', '.rbw', '.rake', '.gemspec', 'Gemfile', 'Rakefile', 'config.ru'],
   author: 'Yukihiro Matsumoto',

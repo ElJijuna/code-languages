@@ -1,6 +1,8 @@
 import { detectMatchingEntries } from '@/domain/detection/match';
 import { type LanguageSlug, languageIndex } from '@/domain/language/registry';
 
+export { detectLanguageSlugByShebang } from '@/domain/detection/shebang';
+
 export interface ProjectLanguageDetection {
   /** Detected language slug. */
   slug: LanguageSlug;

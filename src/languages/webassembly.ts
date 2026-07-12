@@ -2,6 +2,7 @@ import type { Language } from '@/types';
 
 export const webassembly = {
   slug: 'webassembly',
+  aliases: ['wasm', 'wat'],
   publishedDate: '2017-03-07',
   extensions: ['.wasm', '.wat'],
   author: 'W3C WebAssembly Community Group',

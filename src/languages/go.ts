@@ -2,6 +2,7 @@ import type { Language } from '@/types';
 
 export const go = {
   slug: 'go',
+  aliases: ['golang'],
   publishedDate: '2012-03-28',
   extensions: ['.go'],
   author: 'Robert Griesemer, Rob Pike, Ken Thompson / Google',

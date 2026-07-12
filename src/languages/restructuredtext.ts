@@ -2,6 +2,7 @@ import type { Language } from '@/types';
 
 export const restructuredtext = {
   slug: 'restructuredtext',
+  aliases: ['rst'],
   publishedDate: '2001-06-01',
   extensions: ['.rst', '.rest'],
   author: 'David Goodger / Docutils contributors',

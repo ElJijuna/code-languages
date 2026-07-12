@@ -2,6 +2,7 @@ import type { Language } from '@/types';
 
 export const protobuf = {
   slug: 'protobuf',
+  aliases: ['proto', 'protocol buffers'],
   publishedDate: '2008-07-07',
   extensions: ['.proto'],
   author: 'Google',

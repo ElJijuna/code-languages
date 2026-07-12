@@ -2,6 +2,7 @@ import type { Language } from '@/types';
 
 export const ante = {
   slug: 'ante',
+  status: 'experimental',
   publishedDate: '2019-01-01',
   extensions: ['.ante'],
   author: 'Evan Haas',

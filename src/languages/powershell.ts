@@ -2,6 +2,7 @@ import type { Language } from '@/types';
 
 export const powershell = {
   slug: 'powershell',
+  aliases: ['pwsh'],
   publishedDate: '2006-11-14',
   extensions: ['.ps1', '.psm1', '.psd1', '.ps1xml'],
   author: 'Microsoft',

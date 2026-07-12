@@ -2,6 +2,7 @@ import type { Language } from '@/types';
 
 export const kotlin = {
   slug: 'kotlin',
+  aliases: ['kt'],
   publishedDate: '2016-02-15',
   extensions: ['.kt', '.kts'],
   author: 'JetBrains',

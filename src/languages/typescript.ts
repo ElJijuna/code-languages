@@ -2,6 +2,7 @@ import type { Language } from '@/types';
 
 export const typescript = {
   slug: 'typescript',
+  aliases: ['ts'],
   publishedDate: '2012-10-01',
   extensions: ['.ts', '.tsx', '.mts', '.cts'],
   author: 'Anders Hejlsberg / Microsoft',

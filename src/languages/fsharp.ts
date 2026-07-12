@@ -2,6 +2,7 @@ import type { Language } from '@/types';
 
 export const fsharp = {
   slug: 'fsharp',
+  aliases: ['f#'],
   publishedDate: '2005-05-01',
   extensions: ['.fs', '.fsi', '.fsx', '.fsscript'],
   author: 'Don Syme / Microsoft Research',

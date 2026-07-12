@@ -288,7 +288,7 @@ import { zsh } from '@/languages/zsh';
 import type { Language } from '@/types';
 
 /** Eager in-memory catalog of every language, ordered alphabetically by slug. */
-export const languages = [
+export const languages: readonly Language[] = [
   abap,
   actionscript,
   ada,
@@ -575,4 +575,4 @@ export const languages = [
   zig,
   ziggy,
   zsh,
-] as const satisfies readonly Language[];
+];

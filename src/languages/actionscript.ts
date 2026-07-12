@@ -2,6 +2,7 @@ import type { Language } from '@/types';
 
 export const actionscript = {
   slug: 'actionscript',
+  status: 'legacy',
   publishedDate: '1998-01-01',
   extensions: ['.as'],
   author: 'Gary Grossman / Macromedia',

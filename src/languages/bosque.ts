@@ -2,6 +2,7 @@ import type { Language } from '@/types';
 
 export const bosque = {
   slug: 'bosque',
+  status: 'experimental',
   publishedDate: '2019-04-15',
   extensions: ['.bsq'],
   author: 'Microsoft Research',

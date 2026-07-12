@@ -2,6 +2,7 @@ import type { Language } from '@/types';
 
 export const python = {
   slug: 'python',
+  aliases: ['py'],
   publishedDate: '1991-02-20',
   extensions: ['.py', '.pyw'],
   author: 'Guido van Rossum',

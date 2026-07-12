@@ -2,6 +2,7 @@ import type { Language } from '@/types';
 
 export const algol = {
   slug: 'algol',
+  status: 'historical',
   publishedDate: '1958-01-01',
   extensions: ['.alg', '.algol'],
   author: 'ACM-GAMM committee',
