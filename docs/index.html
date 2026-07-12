@@ -544,6 +544,48 @@
         color: #8c4a1e;
       }
 
+      .chip-status-experimental {
+        background: #f3ecfe;
+        color: #6b21a8;
+      }
+
+      .chip-status-legacy {
+        background: #fdf0e7;
+        color: #9a3412;
+      }
+
+      .chip-status-historical {
+        background: #eceff4;
+        color: #475569;
+      }
+
+      .category-chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 12px 0 0;
+        padding: 0;
+        border: none;
+      }
+
+      .category-chip {
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        background: transparent;
+        color: var(--muted);
+        font: inherit;
+        font-size: 12px;
+        font-weight: 800;
+        padding: 6px 12px;
+        cursor: pointer;
+      }
+
+      .category-chip.active {
+        background: var(--accent-strong);
+        border-color: var(--accent-strong);
+        color: #fffdf7;
+      }
+
       footer {
         padding: 38px 0;
         border-top: 1px solid var(--line);
@@ -653,8 +695,13 @@
           </div>
           <div class="playground-body">
             <label>
-              Filename detection
-              <input id="filename-input" value="src/App.vue" autocomplete="off" />
+              Filename or shebang detection
+              <input
+                id="filename-input"
+                value="src/App.vue"
+                placeholder="src/App.vue or #!/usr/bin/env python3"
+                autocomplete="off"
+              />
             </label>
             <label>
               Language lookup
@@ -677,13 +724,14 @@
           </div>
         </div>
         <div class="language-tools">
-          <input id="language-search" placeholder="Search TypeScript, .vue, Node.js, JVM..." />
+          <input id="language-search" placeholder="Search TypeScript, golang, .vue, Node.js, JVM..." />
           <select id="language-sort" aria-label="Sort languages">
             <option value="name">Sort by name</option>
             <option value="version">Sort by version</option>
             <option value="extensions">Sort by extensions</option>
           </select>
         </div>
+        <fieldset class="category-chips" id="category-chips" aria-label="Filter by category"></fieldset>
         <div class="grid" id="language-grid"></div>
       </section>
 
@@ -850,6 +898,7 @@ const runtimes = api.packageManager("pip").runtimes();</code></pre>
         locale: "en",
         selectedSlug: "vue",
         filename: "src/App.vue",
+        category: null,
       };
 
       const placeholderLogo =
@@ -901,12 +950,41 @@ const runtimes = api.packageManager("pip").runtimes();</code></pre>
         return basename === normalized || basename.endsWith(`.${normalized}`);
       };
 
-      const detectLanguages = (filename) => {
-        const basename = normalizeFilename(filename.trim());
+      const detectSlugByShebang = (line) => {
+        const interpreters = state.tooling?.shebangInterpreters ?? {};
+        const parts = line.slice(2).trim().split(/\s+/);
+        let interpreter = parts[0]?.split("/").at(-1)?.toLowerCase();
 
-        if (!basename) {
+        if (interpreter === "env") {
+          interpreter = parts
+            .slice(1)
+            .find((argument) => !argument.startsWith("-"))
+            ?.split("/")
+            .at(-1)
+            ?.toLowerCase();
+        }
+
+        if (!interpreter) {
+          return undefined;
+        }
+
+        return interpreters[interpreter] ?? interpreters[interpreter.replace(/[-.]?\d[\d.]*$/, "")];
+      };
+
+      const detectLanguages = (filename) => {
+        const input = filename.trim();
+
+        if (!input) {
           return [];
         }
+
+        if (input.startsWith("#!")) {
+          const slug = detectSlugByShebang(input.split(/\r?\n/, 1)[0]);
+
+          return state.catalog.languages.filter((language) => language.slug === slug);
+        }
+
+        const basename = normalizeFilename(input);
 
         return state.catalog.languages.filter((language) =>
           language.extensions.some((extension) => extensionMatches(extension, basename)),
@@ -971,6 +1049,9 @@ const result = api
           language.ptName,
           language.slug,
           language.version,
+          language.status ?? "",
+          ...(language.aliases ?? []),
+          ...(language.categories ?? []),
           ...language.extensions,
           ...(language.paradigms ?? []),
           ...(language.tooling.runtimes ?? []),
@@ -1084,6 +1165,7 @@ const result = api
         const sort = $("#language-sort").value;
 
         const languages = state.catalog.languages
+          .filter((language) => !state.category || (language.categories ?? []).includes(state.category))
           .filter((language) => !search || searchBlob(language).includes(search))
           .sort((first, second) => {
             if (sort === "extensions") {
@@ -1106,7 +1188,9 @@ const result = api
           .map((language) => {
             const runtime = (language.tooling?.runtimes ?? [])[0];
             const pm = (language.tooling?.packageManagers ?? [])[0];
+            const status = language.status ?? "active";
             const toolingChips = [
+              status !== "active" ? `<span class="chip chip-status-${status}">${status}</span>` : "",
               runtime ? `<span class="chip chip-runtime">${runtime}</span>` : "",
               pm ? `<span class="chip chip-pm">${pm}</span>` : "",
             ].join("");
@@ -1211,6 +1295,29 @@ const result = api
         $("#stat-languages").textContent = formatNumber(catalog.total);
         $("#stat-extensions").textContent = formatNumber(catalog.extensions);
         $("#stat-locales").textContent = formatNumber(catalog.locales.length);
+
+        const categoryChips = $("#category-chips");
+        const categories = (tooling.categories ?? []).filter((entry) => entry.languageCount > 0);
+
+        categoryChips.innerHTML = categories
+          .map(
+            (entry) => `
+              <button class="category-chip" data-category="${entry.slug}" type="button">
+                ${entry.slug} (${entry.languageCount})
+              </button>
+            `,
+          )
+          .join("");
+
+        categoryChips.querySelectorAll("[data-category]").forEach((chip) => {
+          chip.addEventListener("click", () => {
+            state.category = state.category === chip.dataset.category ? null : chip.dataset.category;
+            categoryChips
+              .querySelectorAll("[data-category]")
+              .forEach((other) => { other.classList.toggle("active", other.dataset.category === state.category); });
+            renderLanguages();
+          });
+        });
 
         const renderLanguageOptions = () => {
           $("#language-select").innerHTML = catalog.languages

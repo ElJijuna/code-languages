@@ -5,7 +5,7 @@ export const erb = {
   publishedDate: '2000-01-01',
   extensions: ['.erb', '.rhtml', '.html.erb'],
   author: 'Masatoshi Seki / Ruby',
-  website: 'https://ruby-doc.org/stdlib/erb/',
+  website: 'https://docs.ruby-lang.org/en/master/ERB.html',
   paradigms: ['templating', 'embedded', 'markup'],
   tooling: {
     runtimes: ['Ruby', 'Ruby on Rails'],

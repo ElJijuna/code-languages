@@ -13,7 +13,7 @@ export const snobol = {
     ecosystems: ['Text processing', 'Language history'],
   },
   version: 'SNOBOL4',
-  logo: 'https://dummyimage.com/32x32/7C2D12/ffffff.png&text=SN',
+  logo: 'https://raw.githubusercontent.com/ElJijuna/code-languages/main/public/assets/placeholders/snobol.svg',
   color: '#7C2D12',
   i18n: {
     en: {

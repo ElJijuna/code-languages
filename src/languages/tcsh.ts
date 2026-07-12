@@ -12,7 +12,7 @@ export const tcsh = {
     ecosystems: ['Unix', 'BSD'],
   },
   version: '6.24.16',
-  logo: 'https://dummyimage.com/32x32/2563EB/ffffff.png&text=TC',
+  logo: 'https://raw.githubusercontent.com/ElJijuna/code-languages/main/public/assets/placeholders/tcsh.svg',
   color: '#2563EB',
   i18n: {
     en: {

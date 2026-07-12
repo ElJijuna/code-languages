@@ -12,7 +12,7 @@ export const cobol = {
     ecosystems: ['Mainframe', 'Business applications', 'Transaction processing'],
   },
   version: 'ISO/IEC 1989:2023',
-  logo: 'https://logo.svgcdn.com/devicon/cobol-original.png',
+  logo: 'https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_cobol.svg',
   color: '#005CA5',
   i18n: {
     en: {

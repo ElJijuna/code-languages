@@ -2,6 +2,13 @@
   "$schema": "https://biomejs.dev/schemas/2.5.3/schema.json",
   "extends": ["super-configs/biome"],
   "files": {
-    "includes": ["!dist", "!node_modules", "!package.json", "!docs/data/languages.json"]
+    "includes": [
+      "!dist",
+      "!node_modules",
+      "!package.json",
+      "!docs/data/languages.json",
+      "!language-link-report.json",
+      "!language-version-report.json"
+    ]
   }
 }

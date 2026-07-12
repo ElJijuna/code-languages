@@ -89,6 +89,11 @@ export interface Language {
   slug: string;
   aliases?: string[]; // lookup aliases, e.g. ["golang"] for go
   status?: LanguageStatus; // absent means "active"
+  relations?: {
+    supersetOf?: string[]; // e.g. TypeScript → ["javascript"]
+    dialectOf?: string[]; // e.g. T-SQL → ["sql"]
+    compilesTo?: string[]; // e.g. Elm → ["javascript"]
+  };
   publishedDate: string;
   extensions: string[];
   author: string;
@@ -394,6 +399,37 @@ detectLanguageByShebang("#!/usr/bin/env node\nconsole.log(1)")?.slug; // "javasc
 Shebang detection handles direct interpreter paths, `env` indirection with flags, and
 versioned interpreters such as `python3.12` or `perl5.36`.
 
+Use `api.search(query)` for ranked lookup across names, slugs, and aliases:
+
+```ts
+import { api } from "code-languages/api";
+
+api.search("type").get().map((language) => language.slug); // ["typescript", ...]
+api.search("golang").get().at(0)?.slug; // "go" — exact alias match ranks first
+api.search("script").locale("es").get(); // ranked + localized
+```
+
+Use `api.status(value)` to filter by lifecycle status (`active`, `experimental`,
+`legacy`, `historical`; languages without a `status` count as `active`):
+
+```ts
+import { api, getStatuses } from "code-languages";
+
+api.status("legacy").langs().get(); // VBScript, ActionScript, ...
+api.status("experimental").langs().locale("es").get();
+getStatuses(); // ["active", "experimental", "legacy", "historical"]
+```
+
+Use `api.related(slug)` to walk the `relations` graph in both directions:
+
+```ts
+import { api } from "code-languages/api";
+
+api.related("javascript").langs().get(); // TypeScript, CoffeeScript, Elm, ...
+api.related("typescript").langs().get(); // JavaScript
+api.related("sql").langs().get(); // T-SQL, PL/SQL, PL/pgSQL, PRQL
+```
+
 ## Supported Languages
 
 The catalog currently includes 313 language entries. Each row can be imported directly
@@ -405,10 +441,10 @@ from its package subpath.
 | <img src="https://icons.iconarchive.com/icons/fatcow/farm-fresh/32/page-white-actionscript-icon.png" alt="ActionScript logo" width="24" height="24"> | ActionScript | `actionscript` | `.as` | `3.0` | `code-languages/actionscript` |
 | <img src="https://cdn.simpleicons.org/ada/02F88C" alt="Ada logo" width="24" height="24"> | Ada | `ada` | `.adb`, `.ads`, `.ada` | `Ada 2022` | `code-languages/ada` |
 | <img src="https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_agda.svg" alt="Agda logo" width="24" height="24"> | Agda | `agda` | `.agda`, `.lagda`, `.lagda.md`, `.lagda.rst`, `.lagda.tex` | `2.8.0` | `code-languages/agda` |
-| <img src="https://dummyimage.com/32x32/6B7280/ffffff.png&text=ALG" alt="ALGOL logo" width="24" height="24"> | ALGOL | `algol` | `.alg`, `.algol` | `ALGOL 68` | `code-languages/algol` |
+| <img src="https://raw.githubusercontent.com/ElJijuna/code-languages/main/public/assets/placeholders/algol.svg" alt="ALGOL logo" width="24" height="24"> | ALGOL | `algol` | `.alg`, `.algol` | `ALGOL 68` | `code-languages/algol` |
 | <img src="https://avatars.githubusercontent.com/u/30268214?v=4" alt="Alloy logo" width="24" height="24"> | Alloy | `alloy` | `.als` | `Alloy 6` | `code-languages/alloy` |
 | <img src="https://ampl.com/wp-content/uploads/AMPL-favicon-36x29-1.svg" alt="AMPL logo" width="24" height="24"> | AMPL | `ampl` | `.mod`, `.dat`, `.run` | `stable` | `code-languages/ampl` |
-| <img src="https://dummyimage.com/32x32/2D5FA0/ffffff.png&text=AS" alt="AngelScript logo" width="24" height="24"> | AngelScript | `angelscript` | `.as`, `.angelscript` | `2.36.1` | `code-languages/angelscript` |
+| <img src="https://raw.githubusercontent.com/ElJijuna/code-languages/main/public/assets/placeholders/angelscript.svg" alt="AngelScript logo" width="24" height="24"> | AngelScript | `angelscript` | `.as`, `.angelscript` | `2.36.1` | `code-languages/angelscript` |
 | <img src="https://antelang.org/img/apple-touch-icon.png" alt="Ante logo" width="24" height="24"> | Ante | `ante` | `.ante` | `experimental` | `code-languages/ante` |
 | <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_antlr.svg" alt="ANTLR Grammar logo" width="24" height="24"> | ANTLR Grammar | `antlr` | `.g4` | `4.13.2` | `code-languages/antlr` |
 | <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Salesforce.com_logo.svg" alt="Apex logo" width="24" height="24"> | Apex | `apex` | `.cls`, `.trigger` | `API 66.0` | `code-languages/apex` |
@@ -430,13 +466,13 @@ from its package subpath.
 | <img src="https://avatars.githubusercontent.com/u/5598624?v=4" alt="BASIC logo" width="24" height="24"> | BASIC | `basic` | `.bas`, `.bi`, `.bb` | `FreeBASIC 1.10.1` | `code-languages/basic` |
 | <img src="https://icons.iconarchive.com/icons/simpleicons-team/simple/128/windowsterminal-icon.png" alt="Batch logo" width="24" height="24"> | Batch | `batch` | `.bat`, `.cmd` | `Windows Command Processor` | `code-languages/batch` |
 | <img src="https://cdn.simpleicons.org/bazel/43A047" alt="Bazel logo" width="24" height="24"> | Bazel | `bazel` | `BUILD.bazel`, `WORKSPACE`, `WORKSPACE.bazel`, `MODULE.bazel` | `9.1.1` | `code-languages/bazel` |
-| <img src="https://dummyimage.com/32x32/374151/ffffff.png&text=BC" alt="BCPL logo" width="24" height="24"> | BCPL | `bcpl` | `.bcpl` | `Cintsys BCPL` | `code-languages/bcpl` |
+| <img src="https://raw.githubusercontent.com/ElJijuna/code-languages/main/public/assets/placeholders/bcpl.svg" alt="BCPL logo" width="24" height="24"> | BCPL | `bcpl` | `.bcpl` | `Cintsys BCPL` | `code-languages/bcpl` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/9/92/LaTeX_logo.svg" alt="BibTeX logo" width="24" height="24"> | BibTeX | `bibtex` | `.bib`, `.bibtex` | `stable` | `code-languages/bibtex` |
 | <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/azure-bicep.svg" alt="Bicep logo" width="24" height="24"> | Bicep | `bicep` | `.bicep`, `.bicepparam` | `0.45.6` | `code-languages/bicep` |
 | <img src="https://cdn.simpleicons.org/laravel/FF2D20" alt="Blade logo" width="24" height="24"> | Blade | `blade` | `.blade.php` | `Laravel 12.x` | `code-languages/blade` |
-| <img src="https://dummyimage.com/32x32/0078D4/ffffff.png&text=B" alt="Bosque logo" width="24" height="24"> | Bosque | `bosque` | `.bsq` | `experimental` | `code-languages/bosque` |
+| <img src="https://raw.githubusercontent.com/ElJijuna/code-languages/main/public/assets/placeholders/bosque.svg" alt="Bosque logo" width="24" height="24"> | Bosque | `bosque` | `.bsq` | `experimental` | `code-languages/bosque` |
 | <img src="https://mlochbaum.github.io/BQN/favicon.ico" alt="BQN logo" width="24" height="24"> | BQN | `bqn` | `.bqn` | `BQN specification` | `code-languages/bqn` |
-| <img src="https://dummyimage.com/32x32/111827/ffffff.png&text=BF" alt="Brainfuck logo" width="24" height="24"> | Brainfuck | `brainfuck` | `.bf`, `.b` | `stable` | `code-languages/brainfuck` |
+| <img src="https://raw.githubusercontent.com/ElJijuna/code-languages/main/public/assets/placeholders/brainfuck.svg" alt="Brainfuck logo" width="24" height="24"> | Brainfuck | `brainfuck` | `.bf`, `.b` | `stable` | `code-languages/brainfuck` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg" alt="C logo" width="24" height="24"> | C | `c` | `.c`, `.h` | `C23` | `code-languages/c` |
 | <img src="https://avatars.githubusercontent.com/u/53541653?v=4" alt="C3 logo" width="24" height="24"> | C3 | `c3` | `.c3`, `.c3i` | `0.7.5` | `code-languages/c3` |
 | <img src="https://avatars.githubusercontent.com/u/65030650?v=4" alt="Cairo logo" width="24" height="24"> | Cairo | `cairo` | `.cairo` | `2.19.0` | `code-languages/cairo` |
@@ -448,7 +484,7 @@ from its package subpath.
 | <img src="https://avatars.githubusercontent.com/u/66125257?v=4" alt="Clarity logo" width="24" height="24"> | Clarity | `clarity` | `.clar` | `Clarity 3` | `code-languages/clarity` |
 | <img src="https://cdn.simpleicons.org/clojure/5881D8" alt="Clojure logo" width="24" height="24"> | Clojure | `clojure` | `.clj`, `.cljs`, `.cljc`, `.edn`, `.bb` | `1.12.5` | `code-languages/clojure` |
 | <img src="https://cmake.org/wp-content/uploads/2023/08/CMake-Logo.svg" alt="CMake logo" width="24" height="24"> | CMake | `cmake` | `CMakeLists.txt`, `.cmake` | `4.4.0` | `code-languages/cmake` |
-| <img src="https://logo.svgcdn.com/devicon/cobol-original.png" alt="COBOL logo" width="24" height="24"> | COBOL | `cobol` | `.cob`, `.cbl`, `.cobol`, `.cpy` | `ISO/IEC 1989:2023` | `code-languages/cobol` |
+| <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_cobol.svg" alt="COBOL logo" width="24" height="24"> | COBOL | `cobol` | `.cob`, `.cbl`, `.cobol`, `.cpy` | `ISO/IEC 1989:2023` | `code-languages/cobol` |
 | <img src="https://cdn.simpleicons.org/coffeescript/2F2625" alt="CoffeeScript logo" width="24" height="24"> | CoffeeScript | `coffeescript` | `.coffee`, `.litcoffee`, `.cson` | `2.7.0` | `code-languages/coffeescript` |
 | <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_cf.svg" alt="ColdFusion logo" width="24" height="24"> | ColdFusion | `coldfusion` | `.cfm`, `.cfml`, `.cfc` | `ColdFusion 2025` | `code-languages/coldfusion` |
 | <img src="https://avatars.githubusercontent.com/u/621198?v=4" alt="Coq / Rocq logo" width="24" height="24"> | Coq / Rocq | `coq` | `.v` | `9.2.0` | `code-languages/coq` |
@@ -517,7 +553,7 @@ from its package subpath.
 | <img src="https://cdn.simpleicons.org/haxe/EA8220" alt="Haxe logo" width="24" height="24"> | Haxe | `haxe` | `.hx`, `.hxml` | `4.3.7` | `code-languages/haxe` |
 | <img src="https://cdn.simpleicons.org/hashicorp/844FBA" alt="HCL logo" width="24" height="24"> | HCL | `hcl` | `.hcl`, `.tf`, `.tfvars`, `.pkr.hcl`, `.nomad` | `2.24.0` | `code-languages/hcl` |
 | <img src="https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_hlsl.svg" alt="HLSL logo" width="24" height="24"> | HLSL | `hlsl` | `.hlsl`, `.fx`, `.fxh`, `.hlsli` | `Shader Model 6.9` | `code-languages/hlsl` |
-| <img src="https://dummyimage.com/32x32/F26822/ffffff.png&text=HC" alt="HOCON logo" width="24" height="24"> | HOCON | `hocon` | `.hocon` | `1.4.3` | `code-languages/hocon` |
+| <img src="https://raw.githubusercontent.com/ElJijuna/code-languages/main/public/assets/placeholders/hocon.svg" alt="HOCON logo" width="24" height="24"> | HOCON | `hocon` | `.hocon` | `1.4.3` | `code-languages/hocon` |
 | <img src="https://www.w3.org/html/logo/downloads/HTML5_Badge.svg" alt="HTML logo" width="24" height="24"> | HTML | `html` | `.html`, `.htm` | `Living Standard` | `code-languages/html` |
 | <img src="https://avatars.githubusercontent.com/u/10551643?v=4" alt="Hy logo" width="24" height="24"> | Hy | `hy` | `.hy` | `1.0.0` | `code-languages/hy` |
 | <img src="https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_idris.svg" alt="Idris logo" width="24" height="24"> | Idris | `idris` | `.idr`, `.lidr`, `.ipkg` | `0.8.0` | `code-languages/idris` |
@@ -549,7 +585,7 @@ from its package subpath.
 | <img src="https://learn.microsoft.com/favicon.ico" alt="KQL logo" width="24" height="24"> | KQL | `kql` | `.kql` | `stable` | `code-languages/kql` |
 | <img src="https://cdn.simpleicons.org/leanpub/262425" alt="Lean logo" width="24" height="24"> | Lean | `lean` | `.lean` | `4.31.0` | `code-languages/lean` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LESS_Logo.svg" alt="Less logo" width="24" height="24"> | Less | `less` | `.less` | `4.6.7` | `code-languages/less` |
-| <img src="https://dummyimage.com/32x32/DBCA00/000000.png&text=Lex" alt="Lex logo" width="24" height="24"> | Lex | `lex` | `.l`, `.lex` | `POSIX lex / flex 2.6.4` | `code-languages/lex` |
+| <img src="https://raw.githubusercontent.com/ElJijuna/code-languages/main/public/assets/placeholders/lex.svg" alt="Lex logo" width="24" height="24"> | Lex | `lex` | `.l`, `.lex` | `POSIX lex / flex 2.6.4` | `code-languages/lex` |
 | <img src="https://ligolang.org/img/logo/logo.png" alt="Ligo logo" width="24" height="24"> | Ligo | `ligo` | `.ligo`, `.mligo`, `.religo`, `.jsligo` | `1.x` | `code-languages/ligo` |
 | <img src="https://cdn.simpleicons.org/gnu/A42E2B" alt="Linker Script logo" width="24" height="24"> | Linker Script | `linkerscript` | `.ld`, `.lds`, `.x` | `stable` | `code-languages/linkerscript` |
 | <img src="https://cdn.simpleicons.org/shopify/7AB55C" alt="Liquid logo" width="24" height="24"> | Liquid | `liquid` | `.liquid` | `10.27.2` | `code-languages/liquid` |
@@ -572,7 +608,7 @@ from its package subpath.
 | <img src="https://raw.githubusercontent.com/mesonbuild/meson/master/graphics/meson_logo.svg" alt="Meson logo" width="24" height="24"> | Meson | `meson` | `meson.build`, `meson_options.txt`, `meson.options`, `.wrap` | `1.11.2` | `code-languages/meson` |
 | <img src="https://developer.apple.com/assets/elements/icons/metal/metal-256x256_2x.png" alt="Metal logo" width="24" height="24"> | Metal | `metal` | `.metal` | `Metal 4` | `code-languages/metal` |
 | <img src="https://avatars.githubusercontent.com/u/3727943?v=4" alt="Modelica logo" width="24" height="24"> | Modelica | `modelica` | `.mo` | `3.6.1` | `code-languages/modelica` |
-| <img src="https://dummyimage.com/32x32/2563EB/ffffff.png&text=M2" alt="Modula-2 logo" width="24" height="24"> | Modula-2 | `modula-2` | `.mod`, `.def` | `ISO/IEC 10514-1:1996` | `code-languages/modula-2` |
+| <img src="https://raw.githubusercontent.com/ElJijuna/code-languages/main/public/assets/placeholders/modula-2.svg" alt="Modula-2 logo" width="24" height="24"> | Modula-2 | `modula-2` | `.mod`, `.def` | `ISO/IEC 10514-1:1996` | `code-languages/modula-2` |
 | <img src="https://avatars.githubusercontent.com/u/107116314?v=4" alt="Mojo logo" width="24" height="24"> | Mojo | `mojo` | `.mojo` | `0.26.1` | `code-languages/mojo` |
 | <img src="https://avatars.githubusercontent.com/u/124476259?v=4" alt="MoonBit logo" width="24" height="24"> | MoonBit | `moonbit` | `.mbt` | `0.9.2` | `code-languages/moonbit` |
 | <img src="https://avatars.githubusercontent.com/u/108696678?v=4" alt="Move logo" width="24" height="24"> | Move | `move` | `.move` | `2.0.0` | `code-languages/move` |
@@ -587,7 +623,7 @@ from its package subpath.
 | <img src="https://avatars.githubusercontent.com/u/72610319?v=4" alt="Noir logo" width="24" height="24"> | Noir | `noir` | `.nr` | `1.0.0-beta` | `code-languages/noir` |
 | <img src="https://cdn.simpleicons.org/nunjucks/1C4A1C" alt="Nunjucks logo" width="24" height="24"> | Nunjucks | `nunjucks` | `.njk`, `.nunjucks` | `3.2.4` | `code-languages/nunjucks` |
 | <img src="https://cdn.simpleicons.org/nushell/3AA675" alt="Nushell logo" width="24" height="24"> | Nushell | `nushell` | `.nu` | `0.114.0` | `code-languages/nushell` |
-| <img src="https://dummyimage.com/32x32/0F766E/ffffff.png&text=Ob" alt="Oberon logo" width="24" height="24"> | Oberon | `oberon` | `.ob`, `.mod` | `Oberon-2` | `code-languages/oberon` |
+| <img src="https://raw.githubusercontent.com/ElJijuna/code-languages/main/public/assets/placeholders/oberon.svg" alt="Oberon logo" width="24" height="24"> | Oberon | `oberon` | `.ob`, `.mod` | `Oberon-2` | `code-languages/oberon` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Apple_logo_grey.svg" alt="Objective-C logo" width="24" height="24"> | Objective-C | `objective-c` | `.m`, `.mm` | `2.0` | `code-languages/objective-c` |
 | <img src="https://cdn.simpleicons.org/ocaml/EC6813" alt="OCaml logo" width="24" height="24"> | OCaml | `ocaml` | `.ml`, `.mli`, `.mll`, `.mly`, `.mlt`, `.eliom`, `.eliomi` | `5.6.0` | `code-languages/ocaml` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Gnu-octave-logo.svg" alt="Octave logo" width="24" height="24"> | Octave | `octave` | `.m`, `.octave` | `9.3.0` | `code-languages/octave` |
@@ -645,13 +681,13 @@ from its package subpath.
 | <img src="https://cdn.simpleicons.org/racket/9F1D20" alt="Scheme logo" width="24" height="24"> | Scheme | `scheme` | `.scm`, `.ss`, `.sld`, `.sls` | `R7RS small` | `code-languages/scheme` |
 | <img src="https://sass-lang.com/assets/img/logos/logo.svg" alt="Sass logo" width="24" height="24"> | Sass | `scss` | `.scss`, `.sass` | `1.101.0` | `code-languages/scss` |
 | <img src="https://selflanguage.org/img/self-logo.png" alt="Self logo" width="24" height="24"> | Self | `self` | `.self` | `2024.1` | `code-languages/self` |
-| <img src="https://dummyimage.com/32x32/2563EB/ffffff.png&text=Si" alt="Simula logo" width="24" height="24"> | Simula | `simula` | `.sim`, `.simula` | `Simula 67` | `code-languages/simula` |
+| <img src="https://raw.githubusercontent.com/ElJijuna/code-languages/main/public/assets/placeholders/simula.svg" alt="Simula logo" width="24" height="24"> | Simula | `simula` | `.sim`, `.simula` | `Simula 67` | `code-languages/simula` |
 | <img src="https://avatars.githubusercontent.com/u/29205606?v=4" alt="Slang logo" width="24" height="24"> | Slang | `slang` | `.slang` | `stable` | `code-languages/slang` |
 | <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Smalltalk_Balloon.svg" alt="Smalltalk logo" width="24" height="24"> | Smalltalk | `smalltalk` | `.st` | `ANSI INCITS 319-1998` | `code-languages/smalltalk` |
 | <img src="https://www.smarty.net/images/logo_print.gif" alt="Smarty logo" width="24" height="24"> | Smarty | `smarty` | `.tpl`, `.smarty` | `5.5.1` | `code-languages/smarty` |
 | <img src="https://avatars.githubusercontent.com/u/133827778?v=4" alt="Smithy logo" width="24" height="24"> | Smithy | `smithy` | `.smithy` | `IDL 2.0` | `code-languages/smithy` |
 | <img src="https://avatars.githubusercontent.com/u/33450111?v=4" alt="Snakemake logo" width="24" height="24"> | Snakemake | `snakemake` | `.smk`, `Snakefile` | `9.23.1` | `code-languages/snakemake` |
-| <img src="https://dummyimage.com/32x32/7C2D12/ffffff.png&text=SN" alt="SNOBOL logo" width="24" height="24"> | SNOBOL | `snobol` | `.sno`, `.snobol` | `SNOBOL4` | `code-languages/snobol` |
+| <img src="https://raw.githubusercontent.com/ElJijuna/code-languages/main/public/assets/placeholders/snobol.svg" alt="SNOBOL logo" width="24" height="24"> | SNOBOL | `snobol` | `.sno`, `.snobol` | `SNOBOL4` | `code-languages/snobol` |
 | <img src="https://cdn.simpleicons.org/solidity/363636" alt="Solidity logo" width="24" height="24"> | Solidity | `solidity` | `.sol` | `0.8.36` | `code-languages/solidity` |
 | <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Salesforce.com_logo.svg" alt="SOQL logo" width="24" height="24"> | SOQL | `soql` | `.soql` | `stable` | `code-languages/soql` |
 | <img src="https://avatars.githubusercontent.com/u/7767877?v=4" alt="SPARK logo" width="24" height="24"> | SPARK | `spark` | `.spark`, `.adb`, `.ads` | `SPARK Community 2021` | `code-languages/spark` |
@@ -671,7 +707,7 @@ from its package subpath.
 | <img src="https://avatars.githubusercontent.com/u/55993183?v=4" alt="Sway logo" width="24" height="24"> | Sway | `sway` | `.sw` | `0.69.0` | `code-languages/sway` |
 | <img src="https://www.swift.org/assets/images/swift.svg" alt="Swift logo" width="24" height="24"> | Swift | `swift` | `.swift` | `6.3.3` | `code-languages/swift` |
 | <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Tcl.svg" alt="Tcl/Tk logo" width="24" height="24"> | Tcl/Tk | `tcl` | `.tcl`, `.tm`, `.test` | `9.0.4` | `code-languages/tcl` |
-| <img src="https://dummyimage.com/32x32/2563EB/ffffff.png&text=TC" alt="Tcsh logo" width="24" height="24"> | Tcsh | `tcsh` | `.tcsh`, `.csh`, `.tcshrc`, `.cshrc` | `6.24.16` | `code-languages/tcsh` |
+| <img src="https://raw.githubusercontent.com/ElJijuna/code-languages/main/public/assets/placeholders/tcsh.svg" alt="Tcsh logo" width="24" height="24"> | Tcsh | `tcsh` | `.tcsh`, `.csh`, `.tcshrc`, `.cshrc` | `6.24.16` | `code-languages/tcsh` |
 | <img src="https://cdn.simpleicons.org/latex/008080" alt="TeX logo" width="24" height="24"> | TeX | `tex` | `.tex`, `.sty`, `.cls`, `.dtx`, `.ins`, `.ltx` | `TeX Live 2026` | `code-languages/tex` |
 | <img src="https://textile-lang.com/icon.svg" alt="Textile logo" width="24" height="24"> | Textile | `textile` | `.textile` | `4.1.4` | `code-languages/textile` |
 | <img src="https://cdn.simpleicons.org/apache/D22128" alt="Apache Thrift logo" width="24" height="24"> | Apache Thrift | `thrift` | `.thrift` | `0.23.0` | `code-languages/thrift` |
@@ -689,7 +725,7 @@ from its package subpath.
 | <img src="https://cdn.simpleicons.org/gnome/4A86CF" alt="Vala logo" width="24" height="24"> | Vala | `vala` | `.vala`, `.vapi` | `0.56.18` | `code-languages/vala` |
 | <img src="https://avatars.githubusercontent.com/u/67560249?v=4" alt="Vale logo" width="24" height="24"> | Vale | `vale` | `.vale` | `experimental` | `code-languages/vale` |
 | <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_vba.svg" alt="VBA logo" width="24" height="24"> | VBA | `vba` | `.bas`, `.cls`, `.frm`, `.vba` | `VBA 7.1` | `code-languages/vba` |
-| <img src="https://dummyimage.com/32x32/15DCDC/000000.png&text=VBS" alt="VBScript logo" width="24" height="24"> | VBScript | `vbscript` | `.vbs`, `.vbe` | `5.8` | `code-languages/vbscript` |
+| <img src="https://raw.githubusercontent.com/ElJijuna/code-languages/main/public/assets/placeholders/vbscript.svg" alt="VBScript logo" width="24" height="24"> | VBScript | `vbscript` | `.vbs`, `.vbe` | `5.8` | `code-languages/vbscript` |
 | <img src="https://velocity.apache.org/engine/devel/images/velocity-logo.png" alt="Apache Velocity logo" width="24" height="24"> | Apache Velocity | `velocity` | `.vm`, `.vtl` | `2.4.1` | `code-languages/velocity` |
 | <img src="https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_verilog.svg" alt="Verilog/SystemVerilog logo" width="24" height="24"> | Verilog/SystemVerilog | `verilog` | `.v`, `.vh`, `.sv`, `.svh` | `IEEE 1800-2023` | `code-languages/verilog` |
 | <img src="https://cdn.simpleicons.org/epicgames" alt="Verse logo" width="24" height="24"> | Verse | `verse` | `.verse` | `UEFN Verse` | `code-languages/verse` |

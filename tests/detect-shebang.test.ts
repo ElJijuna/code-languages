@@ -1,5 +1,10 @@
 import { describe, expect, it } from 'vitest';
-import { detectLanguageByShebang, detectLanguageSlugByShebang } from '../src';
+import {
+  detectLanguageByShebang,
+  detectLanguageSlugByShebang,
+  getShebangInterpreters,
+  languages,
+} from '../src';
 
 describe('detectLanguageSlugByShebang', () => {
   it('detects direct interpreter paths', () => {
@@ -36,6 +41,20 @@ describe('detectLanguageSlugByShebang', () => {
     expect(detectLanguageSlugByShebang('')).toBeUndefined();
     expect(detectLanguageSlugByShebang('#!/usr/bin/unknown-interpreter\n')).toBeUndefined();
     expect(detectLanguageSlugByShebang('#!/usr/bin/env\n')).toBeUndefined();
+  });
+});
+
+describe('getShebangInterpreters', () => {
+  it('returns a defensive copy mapping interpreters to catalog slugs', () => {
+    const interpreters = getShebangInterpreters();
+    const catalogSlugs = new Set(languages.map((language) => language.slug));
+
+    expect(interpreters['bash']).toBe('bash');
+    expect(Object.values(interpreters).every((slug) => catalogSlugs.has(slug))).toBe(true);
+
+    interpreters['bash'] = 'zsh';
+
+    expect(getShebangInterpreters()['bash']).toBe('bash');
   });
 });
 

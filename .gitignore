@@ -6,3 +6,4 @@ coverage/
 language-version-report.json
 .env
 .env.*
+language-link-report.json

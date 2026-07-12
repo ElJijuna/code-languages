@@ -5,7 +5,7 @@ export const fql = {
   publishedDate: '2012-01-01',
   extensions: ['.fql'],
   author: 'Facebook',
-  website: 'https://developers.facebook.com/docs/reference/fql/',
+  website: 'https://developers.facebook.com/docs/graph-api/',
   paradigms: ['query', 'declarative'],
   tooling: {
     runtimes: ['Facebook Platform'],

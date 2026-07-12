@@ -13,7 +13,7 @@ export const algol = {
     ecosystems: ['Academic Computing', 'Language Design', 'Numerical Computing'],
   },
   version: 'ALGOL 68',
-  logo: 'https://dummyimage.com/32x32/6B7280/ffffff.png&text=ALG',
+  logo: 'https://raw.githubusercontent.com/ElJijuna/code-languages/main/public/assets/placeholders/algol.svg',
   color: '#6B7280',
   i18n: {
     en: {

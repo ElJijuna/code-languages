@@ -12,7 +12,7 @@ export const brainfuck = {
     ecosystems: ['Esoteric programming'],
   },
   version: 'stable',
-  logo: 'https://dummyimage.com/32x32/111827/ffffff.png&text=BF',
+  logo: 'https://raw.githubusercontent.com/ElJijuna/code-languages/main/public/assets/placeholders/brainfuck.svg',
   color: '#111827',
   i18n: {
     en: {

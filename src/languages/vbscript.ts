@@ -16,7 +16,7 @@ export const vbscript = {
     ecosystems: ['Windows', 'Scripting'],
   },
   version: '5.8',
-  logo: 'https://dummyimage.com/32x32/15DCDC/000000.png&text=VBS',
+  logo: 'https://raw.githubusercontent.com/ElJijuna/code-languages/main/public/assets/placeholders/vbscript.svg',
   color: '#15DCDC',
   i18n: {
     en: {

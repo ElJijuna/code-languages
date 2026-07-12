@@ -13,7 +13,7 @@ export const bosque = {
     ecosystems: ['Research', 'Verification', 'Application Logic'],
   },
   version: 'experimental',
-  logo: 'https://dummyimage.com/32x32/0078D4/ffffff.png&text=B',
+  logo: 'https://raw.githubusercontent.com/ElJijuna/code-languages/main/public/assets/placeholders/bosque.svg',
   color: '#0078D4',
   i18n: {
     en: {

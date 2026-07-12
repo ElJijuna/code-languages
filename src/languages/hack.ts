@@ -5,7 +5,7 @@ export const hack = {
   publishedDate: '2014-03-20',
   extensions: ['.hack', '.hh', '.hhi'],
   author: 'Meta',
-  website: 'https://docs.hhvm.com/hack/',
+  website: 'https://hacklang.org',
   paradigms: ['object-oriented', 'functional', 'gradually typed', 'imperative'],
   relations: {
     dialectOf: ['php'],

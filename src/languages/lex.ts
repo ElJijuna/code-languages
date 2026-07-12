@@ -13,7 +13,7 @@ export const lex = {
     ecosystems: ['Compilers', 'Language Tooling', 'Unix'],
   },
   version: 'POSIX lex / flex 2.6.4',
-  logo: 'https://dummyimage.com/32x32/DBCA00/000000.png&text=Lex',
+  logo: 'https://raw.githubusercontent.com/ElJijuna/code-languages/main/public/assets/placeholders/lex.svg',
   color: '#DBCA00',
   i18n: {
     en: {

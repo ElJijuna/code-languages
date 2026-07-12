@@ -11,7 +11,7 @@ export const hocon = {
     ecosystems: ['JVM', 'Scala', 'Akka', 'Play Framework', 'Configuration'],
   },
   version: '1.4.3',
-  logo: 'https://dummyimage.com/32x32/F26822/ffffff.png&text=HC',
+  logo: 'https://raw.githubusercontent.com/ElJijuna/code-languages/main/public/assets/placeholders/hocon.svg',
   color: '#F26822',
   i18n: {
     en: {

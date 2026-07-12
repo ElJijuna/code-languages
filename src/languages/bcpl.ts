@@ -13,7 +13,7 @@ export const bcpl = {
     ecosystems: ['Systems Programming', 'Operating Systems', 'Language History'],
   },
   version: 'Cintsys BCPL',
-  logo: 'https://dummyimage.com/32x32/374151/ffffff.png&text=BC',
+  logo: 'https://raw.githubusercontent.com/ElJijuna/code-languages/main/public/assets/placeholders/bcpl.svg',
   color: '#374151',
   i18n: {
     en: {

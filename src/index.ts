@@ -21,7 +21,10 @@ export {
   detectLanguageSlugs,
   detectProjectLanguages,
 } from '@/domain/detection/detect-slugs';
-export { detectLanguageSlugByShebang } from '@/domain/detection/shebang';
+export {
+  detectLanguageSlugByShebang,
+  getShebangInterpreters,
+} from '@/domain/detection/shebang';
 export type { EcosystemInfo } from '@/domain/ecosystem/registry';
 export { getEcosystems } from '@/domain/ecosystem/registry';
 export { localizeLanguage } from '@/domain/i18n';

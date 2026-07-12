@@ -51,6 +51,11 @@ const lookupInterpreter = (interpreter: string): LanguageSlug | undefined =>
   SHEBANG_INTERPRETERS[interpreter] ??
   SHEBANG_INTERPRETERS[interpreter.replace(trailingVersionPattern, '')];
 
+/** Returns a copy of the interpreter-basename to language-slug map used by shebang detection. */
+export const getShebangInterpreters = (): Record<string, LanguageSlug> => ({
+  ...SHEBANG_INTERPRETERS,
+});
+
 /**
  * Detects a language slug from the shebang line of a file's content.
  *

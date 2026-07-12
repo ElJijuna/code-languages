@@ -6,7 +6,7 @@ export const actionscript = {
   publishedDate: '1998-01-01',
   extensions: ['.as'],
   author: 'Gary Grossman / Macromedia',
-  website: 'https://airsdk.dev/docs/development/actionscript-3.0',
+  website: 'https://airsdk.dev',
   paradigms: ['event-driven', 'imperative', 'object-oriented', 'scripting'],
   tooling: {
     runtimes: ['Adobe Flash Player', 'Adobe AIR', 'Apache Royale'],

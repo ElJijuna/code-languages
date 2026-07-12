@@ -12,7 +12,7 @@ export const modula2 = {
     ecosystems: ['Systems Programming', 'Education', 'Language History'],
   },
   version: 'ISO/IEC 10514-1:1996',
-  logo: 'https://dummyimage.com/32x32/2563EB/ffffff.png&text=M2',
+  logo: 'https://raw.githubusercontent.com/ElJijuna/code-languages/main/public/assets/placeholders/modula-2.svg',
   color: '#2563EB',
   i18n: {
     en: {

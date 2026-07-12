@@ -2,10 +2,13 @@ import { writeFile } from 'node:fs/promises';
 
 import {
   api,
+  getCategories,
   getEcosystems,
   getPackageManagers,
   getParadigms,
   getRuntimes,
+  getShebangInterpreters,
+  getStatuses,
   languages,
 } from '../dist/index.js';
 
@@ -19,6 +22,17 @@ const localizedFieldName = (locale, field) => {
 
   return `${locale}${field[0].toUpperCase()}${field.slice(1)}`;
 };
+const categoriesBySlug = new Map();
+
+for (const category of getCategories()) {
+  for (const language of api.category(category).langs().get()) {
+    const list = categoriesBySlug.get(language.slug) ?? [];
+
+    list.push(category);
+    categoriesBySlug.set(language.slug, list);
+  }
+}
+
 const siteData = {
   generatedAt: new Date().toISOString(),
   total: languages.length,
@@ -50,6 +64,10 @@ const siteData = {
         version: language.version,
         logo: language.logo,
         color: language.color,
+        status: language.status ?? 'active',
+        aliases: language.aliases ?? [],
+        relations: language.relations ?? {},
+        categories: categoriesBySlug.get(language.slug) ?? [],
       };
     })
     .sort((first, second) => first.name.localeCompare(second.name)),
@@ -72,6 +90,15 @@ const toolingData = {
     ...ecosystem,
     languageCount: api.ecosystem(ecosystem.aliases[0]).langs().get().length,
   })),
+  categories: getCategories().map((category) => ({
+    slug: category,
+    languageCount: api.category(category).langs().get().length,
+  })),
+  statuses: getStatuses().map((status) => ({
+    slug: status,
+    languageCount: api.status(status).langs().get().length,
+  })),
+  shebangInterpreters: getShebangInterpreters(),
 };
 
 await Promise.all([

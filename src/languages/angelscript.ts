@@ -12,7 +12,7 @@ export const angelscript = {
     ecosystems: ['Game Development', 'Embedded Scripting', 'Modding'],
   },
   version: '2.36.1',
-  logo: 'https://dummyimage.com/32x32/2D5FA0/ffffff.png&text=AS',
+  logo: 'https://raw.githubusercontent.com/ElJijuna/code-languages/main/public/assets/placeholders/angelscript.svg',
   color: '#2D5FA0',
   i18n: {
     en: {

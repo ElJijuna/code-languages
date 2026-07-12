@@ -12,7 +12,7 @@ export const oberon = {
     ecosystems: ['Operating Systems', 'Education', 'Language Design'],
   },
   version: 'Oberon-2',
-  logo: 'https://dummyimage.com/32x32/0F766E/ffffff.png&text=Ob',
+  logo: 'https://raw.githubusercontent.com/ElJijuna/code-languages/main/public/assets/placeholders/oberon.svg',
   color: '#0F766E',
   i18n: {
     en: {

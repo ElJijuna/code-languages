@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T03:06:26.728Z",
+  "generatedAt": "2026-07-12T15:26:17.269Z",
   "runtimes": [
     {
       "slug": "node",
@@ -9,7 +9,7 @@
       "color": "#339933",
       "aliases": ["node", "nodejs", "node.js"],
       "packageManagers": ["npm", "pnpm", "Yarn", "Bun"],
-      "languageCount": 21
+      "languageCount": 22
     },
     {
       "slug": "bun",
@@ -39,7 +39,7 @@
       "color": "#4285F4",
       "aliases": ["browser", "web-browser"],
       "packageManagers": [],
-      "languageCount": 18
+      "languageCount": 19
     },
     {
       "slug": "net",
@@ -89,7 +89,7 @@
       "color": "#007396",
       "aliases": ["jvm", "java"],
       "packageManagers": ["Maven", "Gradle"],
-      "languageCount": 30
+      "languageCount": 34
     },
     {
       "slug": "android",
@@ -129,7 +129,7 @@
       "color": "#3776AB",
       "aliases": ["python", "cpython"],
       "packageManagers": ["pip", "Poetry", "uv", "conda"],
-      "languageCount": 12
+      "languageCount": 13
     },
     {
       "slug": "ruby",
@@ -249,7 +249,7 @@
       "color": "#000000",
       "aliases": ["metal"],
       "packageManagers": [],
-      "languageCount": 1
+      "languageCount": 2
     },
     {
       "slug": "webgl",
@@ -269,7 +269,7 @@
       "color": "#005A9C",
       "aliases": ["webgpu"],
       "packageManagers": [],
-      "languageCount": 1
+      "languageCount": 2
     },
     {
       "slug": "vulkan",
@@ -289,7 +289,7 @@
       "color": "#0078D4",
       "aliases": ["directx", "direct3d", "d3d"],
       "packageManagers": [],
-      "languageCount": 1
+      "languageCount": 2
     },
     {
       "slug": "opencl",
@@ -369,7 +369,7 @@
       "color": "#262D3A",
       "aliases": ["llvm"],
       "packageManagers": [],
-      "languageCount": 2
+      "languageCount": 3
     },
     {
       "slug": "embedded",
@@ -379,7 +379,7 @@
       "color": "#00878A",
       "aliases": ["embedded", "arduino", "microcontroller"],
       "packageManagers": ["PlatformIO"],
-      "languageCount": 24
+      "languageCount": 25
     },
     {
       "slug": "azure",
@@ -419,7 +419,7 @@
       "color": "#0078D4",
       "aliases": ["windows"],
       "packageManagers": ["winget", "Chocolatey", "Scoop"],
-      "languageCount": 9
+      "languageCount": 10
     },
     {
       "slug": "macos",
@@ -479,7 +479,7 @@
       "color": "#276DC3",
       "aliases": ["r", "r-lang", "cran"],
       "packageManagers": ["CRAN", "renv"],
-      "languageCount": 245
+      "languageCount": 265
     },
     {
       "slug": "ocaml",
@@ -500,7 +500,7 @@
       "logo": "https://cdn.simpleicons.org/npm",
       "color": "#CB3837",
       "aliases": ["npm"],
-      "languageCount": 35
+      "languageCount": 36
     },
     {
       "slug": "pnpm",
@@ -572,7 +572,7 @@
       "logo": "https://cdn.simpleicons.org/apachemaven",
       "color": "#C71A36",
       "aliases": ["maven"],
-      "languageCount": 14
+      "languageCount": 15
     },
     {
       "slug": "gradle",
@@ -581,7 +581,7 @@
       "logo": "https://cdn.simpleicons.org/gradle",
       "color": "#02303A",
       "aliases": ["gradle"],
-      "languageCount": 7
+      "languageCount": 8
     },
     {
       "slug": "nuget",
@@ -716,70 +716,70 @@
       "name": "Functional",
       "description": "Computation through function evaluation, immutability, and avoiding side effects.",
       "aliases": ["functional", "fp", "pure-functional"],
-      "languageCount": 93
+      "languageCount": 105
     },
     {
       "slug": "object-oriented",
       "name": "Object-Oriented",
       "description": "Organizes code around objects with encapsulation, inheritance, and polymorphism.",
       "aliases": ["object-oriented", "oop", "object-oriented-programming"],
-      "languageCount": 66
+      "languageCount": 67
     },
     {
       "slug": "imperative",
       "name": "Imperative",
       "description": "Specifies sequences of statements that change program state step by step.",
       "aliases": ["imperative", "procedural"],
-      "languageCount": 106
+      "languageCount": 116
     },
     {
       "slug": "declarative",
       "name": "Declarative",
       "description": "Expresses the logic of a computation without describing control flow.",
       "aliases": ["declarative"],
-      "languageCount": 104
+      "languageCount": 117
     },
     {
       "slug": "logic",
       "name": "Logic",
       "description": "Programs expressed as logical facts, rules, and constraints.",
       "aliases": ["logic", "logic-programming", "constraint"],
-      "languageCount": 11
+      "languageCount": 13
     },
     {
       "slug": "concurrent",
       "name": "Concurrent",
       "description": "Languages with first-class support for concurrency, actors, and message passing.",
       "aliases": ["concurrent", "actor-model", "parallel"],
-      "languageCount": 24
+      "languageCount": 26
     },
     {
       "slug": "reactive",
       "name": "Reactive",
       "description": "Languages oriented around data flows and propagation of change.",
       "aliases": ["reactive", "dataflow", "event-driven"],
-      "languageCount": 23
+      "languageCount": 24
     },
     {
       "slug": "generic",
       "name": "Generic",
       "description": "Languages with parametric polymorphism and generic type abstractions.",
       "aliases": ["generic", "generics"],
-      "languageCount": 10
+      "languageCount": 11
     },
     {
       "slug": "scripting",
       "name": "Scripting",
       "description": "Languages designed for automation, shell scripting, and task execution.",
       "aliases": ["scripting", "shell"],
-      "languageCount": 38
+      "languageCount": 43
     },
     {
       "slug": "query",
       "name": "Query",
       "description": "Languages for querying structured data sources and databases.",
       "aliases": ["query", "querying"],
-      "languageCount": 17
+      "languageCount": 21
     },
     {
       "slug": "markup",
@@ -800,21 +800,21 @@
       "name": "Array",
       "description": "Languages built around vectorized array and matrix operations.",
       "aliases": ["array", "array-oriented"],
-      "languageCount": 5
+      "languageCount": 8
     },
     {
       "slug": "metaprogramming",
       "name": "Metaprogramming",
       "description": "Languages with strong support for macros, code generation, and reflection.",
       "aliases": ["metaprogramming", "meta", "macro"],
-      "languageCount": 10
+      "languageCount": 11
     },
     {
       "slug": "systems",
       "name": "Systems",
       "description": "Low-level languages designed for systems, embedded, and OS programming.",
       "aliases": ["systems", "low-level"],
-      "languageCount": 16
+      "languageCount": 17
     },
     {
       "slug": "stack-based",
@@ -828,7 +828,7 @@
       "name": "Shader",
       "description": "Languages for GPU programming, graphics pipelines, and shader stages.",
       "aliases": ["shader", "shading", "gpu"],
-      "languageCount": 4
+      "languageCount": 5
     }
   ],
   "ecosystems": [
@@ -837,7 +837,7 @@
       "name": "Web",
       "description": "Languages used for building websites, web apps, and web standards.",
       "aliases": ["web", "frontend", "browser"],
-      "languageCount": 68
+      "languageCount": 71
     },
     {
       "slug": "node",
@@ -851,7 +851,7 @@
       "name": "JVM",
       "description": "Languages that run on the Java Virtual Machine.",
       "aliases": ["jvm", "java"],
-      "languageCount": 19
+      "languageCount": 21
     },
     {
       "slug": "dotnet",
@@ -865,14 +865,14 @@
       "name": "DevOps",
       "description": "Languages used for CI/CD, infrastructure, and automation pipelines.",
       "aliases": ["devops", "cicd", "ci-cd"],
-      "languageCount": 21
+      "languageCount": 22
     },
     {
       "slug": "cloud",
       "name": "Cloud",
       "description": "Languages used for cloud computing, cloud-native applications, and IaC.",
       "aliases": ["cloud", "cloud-native"],
-      "languageCount": 17
+      "languageCount": 19
     },
     {
       "slug": "kubernetes",
@@ -886,21 +886,21 @@
       "name": "Data Science",
       "description": "Languages used for data analysis, machine learning, and statistical computing.",
       "aliases": ["data-science", "ml", "machine-learning", "ai"],
-      "languageCount": 37
+      "languageCount": 44
     },
     {
       "slug": "scientific",
       "name": "Scientific Computing",
       "description": "Languages used in research, numerical computing, and scientific simulations.",
       "aliases": ["scientific", "scientific-computing", "hpc", "research"],
-      "languageCount": 32
+      "languageCount": 35
     },
     {
       "slug": "systems",
       "name": "Systems",
       "description": "Languages used for operating systems, system utilities, and native development.",
       "aliases": ["systems", "systems-programming", "native"],
-      "languageCount": 53
+      "languageCount": 54
     },
     {
       "slug": "embedded",
@@ -914,7 +914,7 @@
       "name": "Game Development",
       "description": "Languages used for building video games and game engines.",
       "aliases": ["game-dev", "games", "game-development", "gamedev"],
-      "languageCount": 19
+      "languageCount": 21
     },
     {
       "slug": "mobile",
@@ -928,14 +928,14 @@
       "name": "Blockchain",
       "description": "Languages used for smart contracts, DeFi, and blockchain development.",
       "aliases": ["blockchain", "web3", "smart-contracts", "crypto"],
-      "languageCount": 6
+      "languageCount": 9
     },
     {
       "slug": "gpu",
       "name": "GPU",
       "description": "Languages used for GPU computing, graphics, and shader programming.",
       "aliases": ["gpu", "graphics", "gpu-programming"],
-      "languageCount": 7
+      "languageCount": 8
     },
     {
       "slug": "wasm",
@@ -956,21 +956,21 @@
       "name": "Formal Methods",
       "description": "Languages used for formal proofs, verification, and correctness guarantees.",
       "aliases": ["formal-methods", "verification", "proof-assistants"],
-      "languageCount": 12
+      "languageCount": 13
     },
     {
       "slug": "compilers",
       "name": "Compilers",
       "description": "Languages used in compiler development, language design, and tooling.",
       "aliases": ["compilers", "language-design", "language-tooling"],
-      "languageCount": 13
+      "languageCount": 15
     },
     {
       "slug": "unix",
       "name": "Unix",
       "description": "Languages and tools used in Unix-like operating systems and shell environments.",
       "aliases": ["unix", "linux", "posix"],
-      "languageCount": 17
+      "languageCount": 19
     },
     {
       "slug": "documentation",
@@ -984,14 +984,14 @@
       "name": "Configuration",
       "description": "Languages used for application and infrastructure configuration.",
       "aliases": ["configuration", "config"],
-      "languageCount": 16
+      "languageCount": 17
     },
     {
       "slug": "automation",
       "name": "Automation",
       "description": "Languages used for task automation, scripting, and workflow orchestration.",
       "aliases": ["automation", "scripting"],
-      "languageCount": 42
+      "languageCount": 47
     },
     {
       "slug": "apple",
@@ -1005,7 +1005,7 @@
       "name": "Windows",
       "description": "Languages used for Windows application and system development.",
       "aliases": ["windows"],
-      "languageCount": 8
+      "languageCount": 9
     },
     {
       "slug": "observability",
@@ -1014,5 +1014,93 @@
       "aliases": ["observability", "monitoring", "metrics"],
       "languageCount": 6
     }
-  ]
+  ],
+  "categories": [
+    {
+      "slug": "frontend",
+      "languageCount": 5
+    },
+    {
+      "slug": "backend",
+      "languageCount": 47
+    },
+    {
+      "slug": "fullstack",
+      "languageCount": 14
+    },
+    {
+      "slug": "systems",
+      "languageCount": 70
+    },
+    {
+      "slug": "data-science",
+      "languageCount": 27
+    },
+    {
+      "slug": "scripting",
+      "languageCount": 24
+    },
+    {
+      "slug": "other",
+      "languageCount": 150
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "active",
+      "languageCount": 296
+    },
+    {
+      "slug": "experimental",
+      "languageCount": 11
+    },
+    {
+      "slug": "legacy",
+      "languageCount": 2
+    },
+    {
+      "slug": "historical",
+      "languageCount": 4
+    }
+  ],
+  "shebangInterpreters": {
+    "awk": "awk",
+    "bash": "bash",
+    "bun": "javascript",
+    "crystal": "crystal",
+    "csh": "tcsh",
+    "dash": "bash",
+    "deno": "typescript",
+    "elixir": "elixir",
+    "escript": "erlang",
+    "expect": "tcl",
+    "fish": "fish",
+    "gawk": "awk",
+    "groovy": "groovy",
+    "guile": "scheme",
+    "janet": "janet",
+    "julia": "julia",
+    "ksh": "bash",
+    "lua": "lua",
+    "mawk": "awk",
+    "nawk": "awk",
+    "node": "javascript",
+    "nodejs": "javascript",
+    "nu": "nushell",
+    "osascript": "applescript",
+    "perl": "perl",
+    "php": "php",
+    "pwsh": "powershell",
+    "python": "python",
+    "racket": "racket",
+    "raku": "raku",
+    "rscript": "r",
+    "ruby": "ruby",
+    "scala": "scala",
+    "sh": "bash",
+    "tclsh": "tcl",
+    "tcsh": "tcsh",
+    "wish": "tcl",
+    "zsh": "zsh"
+  }
 }

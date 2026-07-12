@@ -30,6 +30,8 @@ const expectedWinners: Record<string, string> = {
   'grammar.y': 'yacc',
   'story.ink': 'ink',
   'tasks.bb': 'basic',
+  'script.k': 'kcl',
+  'main.sc': 'scala',
   'listing.cl': 'lisp',
   'sketch.pde': 'arduino',
   'macro.mac': 'maxima',
@@ -46,6 +48,8 @@ describe('ambiguous extension winners', () => {
     expect(detectLanguageSlugs('include/config.h')).toEqual(['c', 'cpp']);
     expect(detectLanguageSlugs('scanner.l')).toContain('lex');
     expect(detectLanguageSlugs('grammar.y')).toContain('yacc');
+    expect(detectLanguageSlugs('script.k')).toEqual(['kcl', 'q']);
+    expect(detectLanguageSlugs('main.sc')).toEqual(['scala', 'supercollider']);
   });
 
   it('ranks longer extension matches above shorter ones', () => {

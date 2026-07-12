@@ -19,6 +19,17 @@ describe('api.search', () => {
     expect(slugs.indexOf('javascript')).toBeLessThan(slugs.indexOf('properties'));
   });
 
+  it('finds slug substring matches when the display name differs', () => {
+    // "C#" does not contain "sharp", but the csharp slug does
+    const slugs = api
+      .search('sharp')
+      .get()
+      .map((language) => language.slug);
+
+    expect(slugs).toContain('csharp');
+    expect(slugs).toContain('fsharp');
+  });
+
   it('finds substring matches in names and aliases', () => {
     expect(
       api
