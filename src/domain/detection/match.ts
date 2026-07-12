@@ -33,7 +33,6 @@ const addIndexKey = <Entry>(
     index.set(key, [match]);
   }
 };
-
 /**
  * Builds a lookup table keyed by lowercase extension suffix or exact filename.
  *
@@ -62,7 +61,6 @@ const buildDetectionIndex = <Entry extends DetectableLanguage>(
 
   return index;
 };
-
 const getDetectionIndex = <Entry extends DetectableLanguage>(
   entries: readonly Entry[],
 ): DetectionIndex<Entry> => {
@@ -75,7 +73,6 @@ const getDetectionIndex = <Entry extends DetectableLanguage>(
 
   return index as DetectionIndex<Entry>;
 };
-
 /** Returns every candidate lookup key for a basename: the exact name plus each dotted suffix. */
 const getLookupKeys = (basename: string): string[] => {
   const keys = [basename];

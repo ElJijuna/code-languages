@@ -24,9 +24,7 @@
 
 #### Wiring
 
-- [ ] Named export added to `src/index.ts`
-- [ ] Entry added to `exports` in `package.json`
-- [ ] Test added at `tests/languages/<slug>.test.ts`
+- [ ] `npm run codegen` executed (regenerates catalog, registry, exports, and README table)
 
 #### Quality
 

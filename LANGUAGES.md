@@ -2,6 +2,15 @@
 
 ## Implemented
 
+- [x] Emacs Lisp (`emacs-lisp`)
+- [x] Vim script (`vimscript`)
+- [x] jq (`jq`)
+- [x] VBScript (`vbscript`)
+- [x] Lex (`lex`)
+- [x] Yacc (`yacc`)
+- [x] REXX (`rexx`)
+- [x] JCL (`jcl`)
+- [x] Java Properties (`properties`)
 - [x] ABAP (`abap`)
 - [x] ActionScript (`actionscript`)
 - [x] Agda (`agda`)

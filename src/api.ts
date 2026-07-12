@@ -143,7 +143,6 @@ const normalizeLanguageSlug = (slug: RuntimeLanguageSlug) =>
     .toLowerCase()
     .replace(/\s+/g, '-')
     .replace(/[^a-z0-9-]/g, '');
-
 /**
  * Resolves a lookup value to a catalog slug.
  *
@@ -204,7 +203,6 @@ const createLanguageCollectionRequest = (
 
   return request;
 };
-
 /** Builds a collection request over the catalog languages matching a predicate. */
 const createFilteredLanguageCollection = (predicate: (language: Language) => boolean) => {
   const filtered = () => languages.filter(predicate);

@@ -46,9 +46,7 @@ const SHEBANG_INTERPRETERS: Record<string, LanguageSlug> = {
   wish: 'tcl',
   zsh: 'zsh',
 };
-
 const trailingVersionPattern = /[-.]?\d[\d.]*$/;
-
 const lookupInterpreter = (interpreter: string): LanguageSlug | undefined =>
   SHEBANG_INTERPRETERS[interpreter] ??
   SHEBANG_INTERPRETERS[interpreter.replace(trailingVersionPattern, '')];
@@ -71,6 +69,7 @@ export const detectLanguageSlugByShebang = (content: string): LanguageSlug | und
   }
 
   const parts = firstLine.slice(2).trim().split(/\s+/);
+
   let interpreter = parts[0]?.split('/').at(-1)?.toLowerCase();
 
   if (interpreter === 'env') {

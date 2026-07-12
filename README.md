@@ -83,8 +83,12 @@ export interface LanguageContent {
   longDescription: string;
 }
 
+export type LanguageStatus = "active" | "experimental" | "legacy" | "historical";
+
 export interface Language {
   slug: string;
+  aliases?: string[]; // lookup aliases, e.g. ["golang"] for go
+  status?: LanguageStatus; // absent means "active"
   publishedDate: string;
   extensions: string[];
   author: string;
@@ -128,7 +132,10 @@ console.log(ambiguous.map((language) => language.slug)); // ["c", "cpp"]
 
 `api.language(...)` normalizes lookup values to the package slug format, so inputs
 such as `"Visual Basic"` and `"Jupyter Notebook!"` resolve to `visual-basic` and
-`jupyter-notebook`.
+`jupyter-notebook`. Language aliases are resolved before normalization, so `"golang"`,
+`"C#"`, `"F#"`, `"C++"`, `"wasm"`, or `"elisp"` find `go`, `csharp`, `fsharp`, `cpp`,
+`webassembly`, and `emacs-lisp`. When the slug is a known literal, `get()` and `load()`
+are typed as always returning a language — no `undefined` check needed.
 
 `get()` reads from the bundled in-memory catalog. `load()` uses explicit dynamic
 imports so bundlers can lazy-load individual language modules when the consumer
@@ -359,6 +366,33 @@ console.log(detectProjectLanguages(files));
 //   { slug: "markdown", files: 1 }
 // ]
 ```
+
+Use `api.extension(value)` to list every language that registers an extension or exact filename:
+
+```ts
+import { api } from "code-languages/api";
+
+api.extension(".h").langs().get().map((language) => language.slug); // ["c", "cpp"]
+api.extension("ts").langs().locale("es").get(); // leading dot optional
+api.extension("Dockerfile").langs().get(); // exact filename entries work too
+await api.extension(".vue").langs().load();
+```
+
+Use `detectLanguageByShebang` or `detectLanguageSlugByShebang` to detect extensionless
+scripts from their first line:
+
+```ts
+import { detectLanguageByShebang } from "code-languages/detect";
+import { detectLanguageSlugByShebang } from "code-languages/detect-slugs";
+
+detectLanguageSlugByShebang("#!/bin/bash\necho hi"); // "bash"
+detectLanguageSlugByShebang("#!/usr/bin/env python3\nprint(1)"); // "python"
+detectLanguageSlugByShebang("#!/usr/bin/env -S deno run --allow-net"); // "typescript"
+detectLanguageByShebang("#!/usr/bin/env node\nconsole.log(1)")?.slug; // "javascript"
+```
+
+Shebang detection handles direct interpreter paths, `env` indirection with flags, and
+versioned interpreters such as `python3.12` or `perl5.36`.
 
 ## Supported Languages
 

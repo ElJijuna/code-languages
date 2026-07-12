@@ -16,16 +16,16 @@ Use Node.js 20 or newer.
 
 1. Create `src/languages/<slug>.ts`.
 2. Export a named constant that satisfies the `Language` interface.
-3. Add a named export to `src/index.ts`.
-4. Add a package subpath export to `package.json`.
-5. Add `tests/languages/<slug>.test.ts`.
-6. Run `npm run check` and `npm run build`.
+3. Run `npm run codegen` to regenerate the catalog, registry, root exports, `package.json` subpath exports, and the README language table.
+4. Run `npm run check` and `npm run build`.
 
-The slug must be lowercase, URL-safe, and match the filename.
+The slug must be lowercase, URL-safe, and match the filename. The contract test suite (`tests/languages.test.ts`) automatically validates every catalog entry, so no per-language test file is needed.
 
 ## Field Rules
 
 - `slug`: lowercase identifier, for example `typescript`.
+- `aliases`: optional lowercase lookup aliases, for example `golang` for `go`.
+- `status`: optional lifecycle status (`active`, `experimental`, `legacy`, `historical`); absent means `active`.
 - `publishedDate`: ISO date in `YYYY-MM-DD` format.
 - `extensions`: array of extensions; each item starts with `.`.
 - `author`: original author or organization.
