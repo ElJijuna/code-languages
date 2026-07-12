@@ -416,6 +416,11 @@
       "import": "./dist/languages/elm.js",
       "require": "./dist/languages/elm.cjs"
     },
+    "./emacs-lisp": {
+      "types": "./dist/languages/emacs-lisp.d.ts",
+      "import": "./dist/languages/emacs-lisp.js",
+      "require": "./dist/languages/emacs-lisp.cjs"
+    },
     "./erb": {
       "types": "./dist/languages/erb.d.ts",
       "import": "./dist/languages/erb.js",
@@ -651,6 +656,11 @@
       "import": "./dist/languages/javascript.js",
       "require": "./dist/languages/javascript.cjs"
     },
+    "./jcl": {
+      "types": "./dist/languages/jcl.d.ts",
+      "import": "./dist/languages/jcl.js",
+      "require": "./dist/languages/jcl.cjs"
+    },
     "./jinja": {
       "types": "./dist/languages/jinja.d.ts",
       "import": "./dist/languages/jinja.js",
@@ -660,6 +670,11 @@
       "types": "./dist/languages/jmespath.d.ts",
       "import": "./dist/languages/jmespath.js",
       "require": "./dist/languages/jmespath.cjs"
+    },
+    "./jq": {
+      "types": "./dist/languages/jq.d.ts",
+      "import": "./dist/languages/jq.js",
+      "require": "./dist/languages/jq.cjs"
     },
     "./json": {
       "types": "./dist/languages/json.d.ts",
@@ -735,6 +750,11 @@
       "types": "./dist/languages/less.d.ts",
       "import": "./dist/languages/less.js",
       "require": "./dist/languages/less.cjs"
+    },
+    "./lex": {
+      "types": "./dist/languages/lex.d.ts",
+      "import": "./dist/languages/lex.js",
+      "require": "./dist/languages/lex.cjs"
     },
     "./ligo": {
       "types": "./dist/languages/ligo.d.ts",
@@ -1046,6 +1066,11 @@
       "import": "./dist/languages/promql.js",
       "require": "./dist/languages/promql.cjs"
     },
+    "./properties": {
+      "types": "./dist/languages/properties.d.ts",
+      "import": "./dist/languages/properties.js",
+      "require": "./dist/languages/properties.cjs"
+    },
     "./protobuf": {
       "types": "./dist/languages/protobuf.d.ts",
       "import": "./dist/languages/protobuf.js",
@@ -1135,6 +1160,11 @@
       "types": "./dist/languages/restructuredtext.d.ts",
       "import": "./dist/languages/restructuredtext.js",
       "require": "./dist/languages/restructuredtext.cjs"
+    },
+    "./rexx": {
+      "types": "./dist/languages/rexx.d.ts",
+      "import": "./dist/languages/rexx.js",
+      "require": "./dist/languages/rexx.cjs"
     },
     "./roc": {
       "types": "./dist/languages/roc.d.ts",
@@ -1376,6 +1406,11 @@
       "import": "./dist/languages/vba.js",
       "require": "./dist/languages/vba.cjs"
     },
+    "./vbscript": {
+      "types": "./dist/languages/vbscript.d.ts",
+      "import": "./dist/languages/vbscript.js",
+      "require": "./dist/languages/vbscript.cjs"
+    },
     "./velocity": {
       "types": "./dist/languages/velocity.d.ts",
       "import": "./dist/languages/velocity.js",
@@ -1395,6 +1430,11 @@
       "types": "./dist/languages/vhdl.d.ts",
       "import": "./dist/languages/vhdl.js",
       "require": "./dist/languages/vhdl.cjs"
+    },
+    "./vimscript": {
+      "types": "./dist/languages/vimscript.d.ts",
+      "import": "./dist/languages/vimscript.js",
+      "require": "./dist/languages/vimscript.cjs"
     },
     "./visual-basic": {
       "types": "./dist/languages/visual-basic.d.ts",
@@ -1455,6 +1495,11 @@
       "types": "./dist/languages/xslt.d.ts",
       "import": "./dist/languages/xslt.js",
       "require": "./dist/languages/xslt.cjs"
+    },
+    "./yacc": {
+      "types": "./dist/languages/yacc.d.ts",
+      "import": "./dist/languages/yacc.js",
+      "require": "./dist/languages/yacc.cjs"
     },
     "./yaml": {
       "types": "./dist/languages/yaml.d.ts",

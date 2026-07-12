@@ -71,6 +71,7 @@ import { eiffel } from '@/languages/eiffel';
 import { ejs } from '@/languages/ejs';
 import { elixir } from '@/languages/elixir';
 import { elm } from '@/languages/elm';
+import { emacsLisp } from '@/languages/emacs-lisp';
 import { erb } from '@/languages/erb';
 import { erlang } from '@/languages/erlang';
 import { factor } from '@/languages/factor';
@@ -118,8 +119,10 @@ import { isabelle } from '@/languages/isabelle';
 import { janet } from '@/languages/janet';
 import { java } from '@/languages/java';
 import { javascript } from '@/languages/javascript';
+import { jcl } from '@/languages/jcl';
 import { jinja } from '@/languages/jinja';
 import { jmespath } from '@/languages/jmespath';
+import { jq } from '@/languages/jq';
 import { json } from '@/languages/json';
 import { json5 } from '@/languages/json5';
 import { jsonata } from '@/languages/jsonata';
@@ -135,6 +138,7 @@ import { kotlin } from '@/languages/kotlin';
 import { kql } from '@/languages/kql';
 import { lean } from '@/languages/lean';
 import { less } from '@/languages/less';
+import { lex } from '@/languages/lex';
 import { ligo } from '@/languages/ligo';
 import { linkerscript } from '@/languages/linkerscript';
 import { liquid } from '@/languages/liquid';
@@ -197,6 +201,7 @@ import { powershell } from '@/languages/powershell';
 import { processing } from '@/languages/processing';
 import { prolog } from '@/languages/prolog';
 import { promql } from '@/languages/promql';
+import { properties } from '@/languages/properties';
 import { protobuf } from '@/languages/protobuf';
 import { pug } from '@/languages/pug';
 import { puppet } from '@/languages/puppet';
@@ -215,6 +220,7 @@ import { red } from '@/languages/red';
 import { rego } from '@/languages/rego';
 import { rescript } from '@/languages/rescript';
 import { restructuredtext } from '@/languages/restructuredtext';
+import { rexx } from '@/languages/rexx';
 import { roc } from '@/languages/roc';
 import { rpg } from '@/languages/rpg';
 import { ruby } from '@/languages/ruby';
@@ -263,10 +269,12 @@ import { v } from '@/languages/v';
 import { vala } from '@/languages/vala';
 import { vale } from '@/languages/vale';
 import { vba } from '@/languages/vba';
+import { vbscript } from '@/languages/vbscript';
 import { velocity } from '@/languages/velocity';
 import { verilog } from '@/languages/verilog';
 import { verse } from '@/languages/verse';
 import { vhdl } from '@/languages/vhdl';
+import { vimscript } from '@/languages/vimscript';
 import { visualBasic } from '@/languages/visual-basic';
 import { vue } from '@/languages/vue';
 import { vyper } from '@/languages/vyper';
@@ -279,6 +287,7 @@ import { xml } from '@/languages/xml';
 import { xpath } from '@/languages/xpath';
 import { xquery } from '@/languages/xquery';
 import { xslt } from '@/languages/xslt';
+import { yacc } from '@/languages/yacc';
 import { yaml } from '@/languages/yaml';
 import { yara } from '@/languages/yara';
 import { zeek } from '@/languages/zeek';
@@ -361,6 +370,7 @@ export const languages: readonly Language[] = [
   ejs,
   elixir,
   elm,
+  emacsLisp,
   erb,
   erlang,
   factor,
@@ -408,8 +418,10 @@ export const languages: readonly Language[] = [
   janet,
   java,
   javascript,
+  jcl,
   jinja,
   jmespath,
+  jq,
   json,
   json5,
   jsonata,
@@ -425,6 +437,7 @@ export const languages: readonly Language[] = [
   kql,
   lean,
   less,
+  lex,
   ligo,
   linkerscript,
   liquid,
@@ -487,6 +500,7 @@ export const languages: readonly Language[] = [
   processing,
   prolog,
   promql,
+  properties,
   protobuf,
   pug,
   puppet,
@@ -505,6 +519,7 @@ export const languages: readonly Language[] = [
   rego,
   rescript,
   restructuredtext,
+  rexx,
   roc,
   rpg,
   ruby,
@@ -553,10 +568,12 @@ export const languages: readonly Language[] = [
   vala,
   vale,
   vba,
+  vbscript,
   velocity,
   verilog,
   verse,
   vhdl,
+  vimscript,
   visualBasic,
   vue,
   vyper,
@@ -569,6 +586,7 @@ export const languages: readonly Language[] = [
   xpath,
   xquery,
   xslt,
+  yacc,
   yaml,
   yara,
   zeek,

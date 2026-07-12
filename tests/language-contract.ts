@@ -7,6 +7,21 @@ export const expectValidLanguage = (language: Language, expectedSlug: string) =>
 
   expect(language.slug).toBe(expectedSlug);
   expect(language.slug).toMatch(/^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$/);
+
+  if (language.aliases) {
+    expect(language.aliases.length).toBeGreaterThan(0);
+
+    for (const alias of language.aliases) {
+      expect(alias).toBe(alias.trim().toLowerCase());
+      expect(alias.length).toBeGreaterThan(0);
+      expect(alias).not.toBe(language.slug);
+    }
+  }
+
+  if (language.status) {
+    expect(['active', 'experimental', 'legacy', 'historical']).toContain(language.status);
+  }
+
   expect(language.publishedDate).toMatch(/^\d{4}-\d{2}-\d{2}$/);
   expect(Number.isNaN(Date.parse(language.publishedDate))).toBe(false);
   expect(language.extensions.length).toBeGreaterThan(0);
