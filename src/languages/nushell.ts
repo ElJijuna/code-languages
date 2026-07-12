@@ -12,7 +12,7 @@ export const nushell = {
     packageManagers: ['nupm'],
     ecosystems: ['Shell', 'Unix', 'Windows', 'macOS'],
   },
-  version: '0.114.0',
+  version: '0.114.1',
   logo: 'https://cdn.simpleicons.org/nushell/3AA675',
   color: '#3AA675',
   i18n: {
