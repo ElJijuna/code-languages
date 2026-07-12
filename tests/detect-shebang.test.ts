@@ -8,6 +8,11 @@ describe('detectLanguageSlugByShebang', () => {
     expect(detectLanguageSlugByShebang('#!/usr/bin/perl -w\nprint 1;')).toBe('perl');
   });
 
+  it('detects a shebang-only line without a trailing newline', () => {
+    expect(detectLanguageSlugByShebang('#!/bin/zsh')).toBe('zsh');
+    expect(detectLanguageSlugByShebang('#!/bin/bash\r\necho hi')).toBe('bash');
+  });
+
   it('detects env-based shebangs', () => {
     expect(detectLanguageSlugByShebang('#!/usr/bin/env python3\nprint(1)')).toBe('python');
     expect(detectLanguageSlugByShebang('#!/usr/bin/env node\nconsole.log(1)')).toBe('javascript');

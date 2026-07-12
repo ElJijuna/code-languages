@@ -62,12 +62,12 @@ const lookupInterpreter = (interpreter: string): LanguageSlug | undefined =>
  * // "python"
  */
 export const detectLanguageSlugByShebang = (content: string): LanguageSlug | undefined => {
-  const firstLine = content.split(/\r?\n/, 1)[0] ?? '';
-
-  if (!firstLine.startsWith('#!')) {
+  if (!content.startsWith('#!')) {
     return undefined;
   }
 
+  const newlineIndex = content.search(/\r?\n/);
+  const firstLine = newlineIndex === -1 ? content : content.slice(0, newlineIndex);
   const parts = firstLine.slice(2).trim().split(/\s+/);
 
   let interpreter = parts[0]?.split('/').at(-1)?.toLowerCase();
