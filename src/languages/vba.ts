@@ -11,7 +11,7 @@ export const vba = {
     ecosystems: ['Microsoft Office', 'Excel', 'Access', 'Word', 'Outlook'],
   },
   version: 'VBA 7.1',
-  logo: 'https://dummyimage.com/32x32/217346/ffffff.png&text=VBA',
+  logo: 'https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_vba.svg',
   color: '#217346',
   i18n: {
     en: {

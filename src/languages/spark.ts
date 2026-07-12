@@ -12,7 +12,7 @@ export const spark = {
     ecosystems: ['Ada', 'Embedded', 'Safety-critical software'],
   },
   version: 'SPARK Community 2021',
-  logo: 'https://dummyimage.com/32x32/DC2626/ffffff.png&text=SP',
+  logo: 'https://avatars.githubusercontent.com/u/7767877?v=4',
   color: '#DC2626',
   i18n: {
     en: {

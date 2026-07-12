@@ -12,7 +12,7 @@ export const bibtex = {
     ecosystems: ['TeX', 'LaTeX', 'Academic publishing'],
   },
   version: 'stable',
-  logo: 'https://dummyimage.com/32x32/2563EB/ffffff.png&text=Bi',
+  logo: 'https://upload.wikimedia.org/wikipedia/commons/9/92/LaTeX_logo.svg',
   color: '#2563EB',
   i18n: {
     en: {

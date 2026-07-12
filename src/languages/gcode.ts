@@ -12,7 +12,7 @@ export const gcode = {
     ecosystems: ['CNC machining', 'Additive manufacturing'],
   },
   version: 'RS-274',
-  logo: 'https://dummyimage.com/32x32/DC2626/ffffff.png&text=G',
+  logo: 'https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_gcode.svg',
   color: '#DC2626',
   i18n: {
     en: {

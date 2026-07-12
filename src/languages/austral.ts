@@ -13,7 +13,7 @@ export const austral = {
     ecosystems: ['Systems Programming', 'Memory Safety', 'Research'],
   },
   version: '0.1.0',
-  logo: 'https://dummyimage.com/32x32/0F766E/ffffff.png&text=Au',
+  logo: 'https://avatars.githubusercontent.com/u/17337956?v=4',
   color: '#0F766E',
   i18n: {
     en: {

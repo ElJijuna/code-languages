@@ -13,7 +13,7 @@ export const vale = {
     ecosystems: ['Native applications', 'Systems programming'],
   },
   version: 'experimental',
-  logo: 'https://dummyimage.com/32x32/059669/ffffff.png&text=Va',
+  logo: 'https://avatars.githubusercontent.com/u/67560249?v=4',
   color: '#059669',
   i18n: {
     en: {

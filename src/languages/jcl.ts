@@ -12,7 +12,7 @@ export const jcl = {
     ecosystems: ['Mainframe', 'Batch Processing'],
   },
   version: 'z/OS 3.1',
-  logo: 'https://dummyimage.com/32x32/1F70C1/ffffff.png&text=JCL',
+  logo: 'https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg',
   color: '#1F70C1',
   i18n: {
     en: {

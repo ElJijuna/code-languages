@@ -12,7 +12,7 @@ export const rexx = {
     ecosystems: ['Mainframe', 'Scripting'],
   },
   version: 'ANSI X3.274-1996',
-  logo: 'https://dummyimage.com/32x32/D90E09/ffffff.png&text=RX',
+  logo: 'https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_rexx.svg',
   color: '#D90E09',
   i18n: {
     en: {

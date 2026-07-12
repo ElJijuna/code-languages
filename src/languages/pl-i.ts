@@ -12,7 +12,7 @@ export const plI = {
     ecosystems: ['Mainframe', 'Enterprise', 'Scientific Computing'],
   },
   version: 'Enterprise PL/I 6.2',
-  logo: 'https://dummyimage.com/32x32/1F2937/ffffff.png&text=PL1',
+  logo: 'https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg',
   color: '#1F2937',
   i18n: {
     en: {

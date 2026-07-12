@@ -12,7 +12,7 @@ export const spss = {
     ecosystems: ['Statistics', 'Data Analysis', 'Social Sciences', 'Business Intelligence'],
   },
   version: '29.0',
-  logo: 'https://dummyimage.com/32x32/052FAD/ffffff.png&text=SPSS',
+  logo: 'https://upload.wikimedia.org/wikipedia/commons/e/ea/SPSS_logo.svg',
   color: '#052FAD',
   i18n: {
     en: {

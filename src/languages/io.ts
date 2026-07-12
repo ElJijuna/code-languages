@@ -12,7 +12,7 @@ export const io = {
     ecosystems: ['Scripting', 'Prototype Programming', 'Language Exploration'],
   },
   version: '2017.09.06',
-  logo: 'https://dummyimage.com/32x32/2563EB/ffffff.png&text=Io',
+  logo: 'https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_io.svg',
   color: '#2563EB',
   i18n: {
     en: {

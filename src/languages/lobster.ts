@@ -12,7 +12,7 @@ export const lobster = {
     ecosystems: ['Games', 'Interactive Graphics', 'Language Experiments'],
   },
   version: 'development snapshot',
-  logo: 'https://dummyimage.com/32x32/DC2626/ffffff.png&text=Lo',
+  logo: 'https://raw.githubusercontent.com/aardappel/lobster/master/docs/lobster.png',
   color: '#DC2626',
   i18n: {
     en: {

@@ -16,7 +16,7 @@ export const dax = {
     ],
   },
   version: 'DAX 2025',
-  logo: 'https://dummyimage.com/32x32/F2C811/000000.png&text=DAX',
+  logo: 'https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg',
   color: '#F2C811',
   i18n: {
     en: {

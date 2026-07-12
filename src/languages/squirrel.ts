@@ -12,7 +12,7 @@ export const squirrel = {
     ecosystems: ['Game Development', 'Embedded Scripting', 'Valve Source Engine'],
   },
   version: '3.2',
-  logo: 'https://dummyimage.com/32x32/CC4A00/ffffff.png&text=SQ',
+  logo: 'https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_squirrel.svg',
   color: '#CC4A00',
   i18n: {
     en: {

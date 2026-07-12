@@ -11,7 +11,7 @@ export const postscript = {
     ecosystems: ['Print', 'PDF'],
   },
   version: 'PostScript 3',
-  logo: 'https://dummyimage.com/32x32/EC1C24/ffffff.png&text=PS',
+  logo: 'https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_postscript.svg',
   color: '#EC1C24',
   i18n: {
     en: {

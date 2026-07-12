@@ -12,7 +12,7 @@ export const gettext = {
     ecosystems: ['Internationalization', 'Localization'],
   },
   version: 'stable',
-  logo: 'https://dummyimage.com/32x32/7C3AED/ffffff.png&text=PO',
+  logo: 'https://cdn.simpleicons.org/gnu/A42E2B',
   color: '#7C3AED',
   i18n: {
     en: {

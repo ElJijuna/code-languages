@@ -12,7 +12,7 @@ export const verse = {
     ecosystems: ['Unreal Engine', 'Fortnite Creator'],
   },
   version: 'UEFN Verse',
-  logo: 'https://dummyimage.com/32x32/111827/ffffff.png&text=Ve',
+  logo: 'https://cdn.simpleicons.org/epicgames',
   color: '#111827',
   i18n: {
     en: {

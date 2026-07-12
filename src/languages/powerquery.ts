@@ -11,7 +11,7 @@ export const powerquery = {
     ecosystems: ['Microsoft Power BI', 'Excel', 'Azure Data Factory', 'Microsoft Fabric'],
   },
   version: 'Power Query M 2025',
-  logo: 'https://dummyimage.com/32x32/F2C811/000000.png&text=PQ',
+  logo: 'https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg',
   color: '#F2C811',
   i18n: {
     en: {

@@ -12,7 +12,7 @@ export const linkerscript = {
     ecosystems: ['Embedded systems', 'Operating systems'],
   },
   version: 'stable',
-  logo: 'https://dummyimage.com/32x32/475569/ffffff.png&text=LD',
+  logo: 'https://cdn.simpleicons.org/gnu/A42E2B',
   color: '#475569',
   i18n: {
     en: {
