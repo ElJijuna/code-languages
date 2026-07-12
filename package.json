@@ -81,6 +81,11 @@
       "import": "./dist/languages/algol.js",
       "require": "./dist/languages/algol.cjs"
     },
+    "./alloy": {
+      "types": "./dist/languages/alloy.d.ts",
+      "import": "./dist/languages/alloy.js",
+      "require": "./dist/languages/alloy.cjs"
+    },
     "./ampl": {
       "types": "./dist/languages/ampl.d.ts",
       "import": "./dist/languages/ampl.js",
@@ -236,6 +241,11 @@
       "import": "./dist/languages/c.js",
       "require": "./dist/languages/c.cjs"
     },
+    "./c3": {
+      "types": "./dist/languages/c3.d.ts",
+      "import": "./dist/languages/c3.js",
+      "require": "./dist/languages/c3.cjs"
+    },
     "./cairo": {
       "types": "./dist/languages/cairo.d.ts",
       "import": "./dist/languages/cairo.js",
@@ -265,6 +275,11 @@
       "types": "./dist/languages/circom.d.ts",
       "import": "./dist/languages/circom.js",
       "require": "./dist/languages/circom.cjs"
+    },
+    "./clarity": {
+      "types": "./dist/languages/clarity.d.ts",
+      "import": "./dist/languages/clarity.js",
+      "require": "./dist/languages/clarity.cjs"
     },
     "./clojure": {
       "types": "./dist/languages/clojure.d.ts",
@@ -336,6 +351,11 @@
       "import": "./dist/languages/curry.js",
       "require": "./dist/languages/curry.cjs"
     },
+    "./cwl": {
+      "types": "./dist/languages/cwl.d.ts",
+      "import": "./dist/languages/cwl.js",
+      "require": "./dist/languages/cwl.cjs"
+    },
     "./cypher": {
       "types": "./dist/languages/cypher.d.ts",
       "import": "./dist/languages/cypher.js",
@@ -391,6 +411,11 @@
       "import": "./dist/languages/earthly.js",
       "require": "./dist/languages/earthly.cjs"
     },
+    "./edgeql": {
+      "types": "./dist/languages/edgeql.d.ts",
+      "import": "./dist/languages/edgeql.js",
+      "require": "./dist/languages/edgeql.cjs"
+    },
     "./editorconfig": {
       "types": "./dist/languages/editorconfig.d.ts",
       "import": "./dist/languages/editorconfig.js",
@@ -436,6 +461,11 @@
       "import": "./dist/languages/factor.js",
       "require": "./dist/languages/factor.cjs"
     },
+    "./faust": {
+      "types": "./dist/languages/faust.d.ts",
+      "import": "./dist/languages/faust.js",
+      "require": "./dist/languages/faust.cjs"
+    },
     "./fe": {
       "types": "./dist/languages/fe.d.ts",
       "import": "./dist/languages/fe.js",
@@ -455,6 +485,11 @@
       "types": "./dist/languages/flatbuffers.d.ts",
       "import": "./dist/languages/flatbuffers.js",
       "require": "./dist/languages/flatbuffers.cjs"
+    },
+    "./flix": {
+      "types": "./dist/languages/flix.d.ts",
+      "import": "./dist/languages/flix.js",
+      "require": "./dist/languages/flix.cjs"
     },
     "./flux": {
       "types": "./dist/languages/flux.d.ts",
@@ -490,6 +525,11 @@
       "types": "./dist/languages/fstar.d.ts",
       "import": "./dist/languages/fstar.js",
       "require": "./dist/languages/fstar.cjs"
+    },
+    "./futhark": {
+      "types": "./dist/languages/futhark.d.ts",
+      "import": "./dist/languages/futhark.js",
+      "require": "./dist/languages/futhark.cjs"
     },
     "./gcode": {
       "types": "./dist/languages/gcode.d.ts",
@@ -640,6 +680,11 @@
       "types": "./dist/languages/isabelle.d.ts",
       "import": "./dist/languages/isabelle.js",
       "require": "./dist/languages/isabelle.cjs"
+    },
+    "./j": {
+      "types": "./dist/languages/j.d.ts",
+      "import": "./dist/languages/j.js",
+      "require": "./dist/languages/j.cjs"
     },
     "./janet": {
       "types": "./dist/languages/janet.d.ts",
@@ -926,6 +971,11 @@
       "import": "./dist/languages/nix.js",
       "require": "./dist/languages/nix.cjs"
     },
+    "./noir": {
+      "types": "./dist/languages/noir.d.ts",
+      "import": "./dist/languages/noir.js",
+      "require": "./dist/languages/noir.cjs"
+    },
     "./nunjucks": {
       "types": "./dist/languages/nunjucks.d.ts",
       "import": "./dist/languages/nunjucks.js",
@@ -1076,6 +1126,11 @@
       "import": "./dist/languages/protobuf.js",
       "require": "./dist/languages/protobuf.cjs"
     },
+    "./prql": {
+      "types": "./dist/languages/prql.d.ts",
+      "import": "./dist/languages/prql.js",
+      "require": "./dist/languages/prql.cjs"
+    },
     "./pug": {
       "types": "./dist/languages/pug.d.ts",
       "import": "./dist/languages/pug.js",
@@ -1095,6 +1150,11 @@
       "types": "./dist/languages/python.d.ts",
       "import": "./dist/languages/python.js",
       "require": "./dist/languages/python.cjs"
+    },
+    "./q": {
+      "types": "./dist/languages/q.d.ts",
+      "import": "./dist/languages/q.js",
+      "require": "./dist/languages/q.cjs"
     },
     "./qmake": {
       "types": "./dist/languages/qmake.d.ts",
@@ -1150,6 +1210,11 @@
       "types": "./dist/languages/rego.d.ts",
       "import": "./dist/languages/rego.js",
       "require": "./dist/languages/rego.cjs"
+    },
+    "./renpy": {
+      "types": "./dist/languages/renpy.d.ts",
+      "import": "./dist/languages/renpy.js",
+      "require": "./dist/languages/renpy.cjs"
     },
     "./rescript": {
       "types": "./dist/languages/rescript.d.ts",
@@ -1216,6 +1281,11 @@
       "import": "./dist/languages/simula.js",
       "require": "./dist/languages/simula.cjs"
     },
+    "./slang": {
+      "types": "./dist/languages/slang.d.ts",
+      "import": "./dist/languages/slang.js",
+      "require": "./dist/languages/slang.cjs"
+    },
     "./smalltalk": {
       "types": "./dist/languages/smalltalk.d.ts",
       "import": "./dist/languages/smalltalk.js",
@@ -1225,6 +1295,11 @@
       "types": "./dist/languages/smarty.d.ts",
       "import": "./dist/languages/smarty.js",
       "require": "./dist/languages/smarty.cjs"
+    },
+    "./smithy": {
+      "types": "./dist/languages/smithy.d.ts",
+      "import": "./dist/languages/smithy.js",
+      "require": "./dist/languages/smithy.cjs"
     },
     "./snakemake": {
       "types": "./dist/languages/snakemake.d.ts",
@@ -1296,6 +1371,11 @@
       "import": "./dist/languages/stylus.js",
       "require": "./dist/languages/stylus.cjs"
     },
+    "./supercollider": {
+      "types": "./dist/languages/supercollider.d.ts",
+      "import": "./dist/languages/supercollider.js",
+      "require": "./dist/languages/supercollider.cjs"
+    },
     "./svelte": {
       "types": "./dist/languages/svelte.d.ts",
       "import": "./dist/languages/svelte.js",
@@ -1310,6 +1390,11 @@
       "types": "./dist/languages/svn.d.ts",
       "import": "./dist/languages/svn.js",
       "require": "./dist/languages/svn.cjs"
+    },
+    "./sway": {
+      "types": "./dist/languages/sway.d.ts",
+      "import": "./dist/languages/sway.js",
+      "require": "./dist/languages/sway.cjs"
     },
     "./swift": {
       "types": "./dist/languages/swift.d.ts",
@@ -1375,6 +1460,11 @@
       "types": "./dist/languages/typescript.d.ts",
       "import": "./dist/languages/typescript.js",
       "require": "./dist/languages/typescript.cjs"
+    },
+    "./typespec": {
+      "types": "./dist/languages/typespec.d.ts",
+      "import": "./dist/languages/typespec.js",
+      "require": "./dist/languages/typespec.cjs"
     },
     "./typst": {
       "types": "./dist/languages/typst.d.ts",

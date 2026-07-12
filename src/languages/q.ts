@@ -24,7 +24,8 @@ export const q = {
     },
     es: {
       name: 'q / kdb+',
-      description: 'Un lenguaje de arrays y consultas integrado en la base de datos de series temporales kdb+.',
+      description:
+        'Un lenguaje de arrays y consultas integrado en la base de datos de series temporales kdb+.',
       longDescription:
         'q es el lenguaje de programación y consulta de kdb+, la base de datos columnar de series temporales de Kx Systems. Descendiente de APL y K, opera sobre vectores y tablas completas con una sintaxis extremadamente concisa y trata consultas, analítica y procedimientos almacenados como un solo lenguaje.\n\nq/kdb+ domina la captura de datos de tick y la analítica en tiempo real en bancos de inversión, hedge funds y bolsas, donde su almacén columnar en memoria procesa miles de millones de registros con baja latencia.',
     },
@@ -36,7 +37,8 @@ export const q = {
     },
     fr: {
       name: 'q / kdb+',
-      description: 'Un langage de tableaux et de requêtes intégré à la base de séries temporelles kdb+.',
+      description:
+        'Un langage de tableaux et de requêtes intégré à la base de séries temporelles kdb+.',
       longDescription:
         "q est le langage de programmation et de requête de kdb+, la base de données colonne de séries temporelles de Kx Systems. Descendant d'APL et de K, il opère sur des vecteurs et des tables entiers avec une syntaxe extrêmement concise et traite requêtes, analyses et procédures stockées comme un seul langage.\n\nq/kdb+ domine la capture de données tick et l'analytique temps réel dans les banques d'investissement, les hedge funds et les bourses, où son stockage colonne en mémoire traite des milliards d'enregistrements à faible latence.",
     },
@@ -48,7 +50,8 @@ export const q = {
     },
     pt: {
       name: 'q / kdb+',
-      description: 'Uma linguagem de arrays e consultas embutida no banco de séries temporais kdb+.',
+      description:
+        'Uma linguagem de arrays e consultas embutida no banco de séries temporais kdb+.',
       longDescription:
         'q é a linguagem de programação e consulta do kdb+, o banco de dados colunar de séries temporais da Kx Systems. Descendente de APL e K, opera sobre vetores e tabelas inteiros com uma sintaxe extremamente concisa e trata consultas, análises e stored procedures como uma única linguagem.\n\nq/kdb+ domina a captura de dados de tick e a análise em tempo real em bancos de investimento, fundos de hedge e bolsas, onde seu armazenamento colunar em memória processa bilhões de registros com baixa latência.',
     },

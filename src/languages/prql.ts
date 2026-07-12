@@ -23,7 +23,7 @@ export const prql = {
       name: 'PRQL',
       description: 'A pipelined relational query language that compiles to readable SQL.',
       longDescription:
-        'PRQL (Pipelined Relational Query Language) reimagines SQL as a series of transformations: each line filters, derives, aggregates, or sorts the result of the previous one, with variables, functions, and consistent syntax replacing SQL\'s irregularities.\n\nThe prqlc compiler emits standard SQL for many dialects — PostgreSQL, DuckDB, SQLite, MySQL, and more — so PRQL works with existing databases and integrates into Python, Rust, JavaScript, and dbt workflows.',
+        "PRQL (Pipelined Relational Query Language) reimagines SQL as a series of transformations: each line filters, derives, aggregates, or sorts the result of the previous one, with variables, functions, and consistent syntax replacing SQL's irregularities.\n\nThe prqlc compiler emits standard SQL for many dialects — PostgreSQL, DuckDB, SQLite, MySQL, and more — so PRQL works with existing databases and integrates into Python, Rust, JavaScript, and dbt workflows.",
     },
     es: {
       name: 'PRQL',
@@ -35,7 +35,7 @@ export const prql = {
       name: 'PRQL',
       description: 'Un linguaggio di query relazionale a pipeline che compila in SQL leggibile.',
       longDescription:
-        "PRQL (Pipelined Relational Query Language) reimmagina SQL come una serie di trasformazioni: ogni riga filtra, deriva, aggrega oppure ordina il risultato della precedente, con variabili, funzioni e una sintassi coerente al posto delle irregolarità di SQL.\n\nIl compilatore prqlc emette SQL standard per molti dialetti — PostgreSQL, DuckDB, SQLite, MySQL e altri — quindi PRQL funziona con i database esistenti e si integra nei flussi Python, Rust, JavaScript e dbt.",
+        'PRQL (Pipelined Relational Query Language) reimmagina SQL come una serie di trasformazioni: ogni riga filtra, deriva, aggrega oppure ordina il risultato della precedente, con variabili, funzioni e una sintassi coerente al posto delle irregolarità di SQL.\n\nIl compilatore prqlc emette SQL standard per molti dialetti — PostgreSQL, DuckDB, SQLite, MySQL e altri — quindi PRQL funziona con i database esistenti e si integra nei flussi Python, Rust, JavaScript e dbt.',
     },
     fr: {
       name: 'PRQL',

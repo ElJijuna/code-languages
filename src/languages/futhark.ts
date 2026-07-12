@@ -35,7 +35,7 @@ export const futhark = {
       name: 'Futhark',
       description: 'Un linguaggio di array puramente funzionale che compila in codice GPU veloce.',
       longDescription:
-        "Futhark è un linguaggio di array puramente funzionale e data-parallelo sviluppato al DIKU. I programmi esprimono la computazione come operazioni di massa — map, reduce, scan — su array multidimensionali, che il compilatore ottimizzante fonde e appiattisce in codice OpenCL, CUDA o C multicore efficiente.\n\nFuthark non è un linguaggio general-purpose: è progettato per scrivere i nuclei numerici di applicazioni più grandi, esponendoli come librerie C richiamabili da Python, Rust o qualsiasi host con FFI.",
+        'Futhark è un linguaggio di array puramente funzionale e data-parallelo sviluppato al DIKU. I programmi esprimono la computazione come operazioni di massa — map, reduce, scan — su array multidimensionali, che il compilatore ottimizzante fonde e appiattisce in codice OpenCL, CUDA o C multicore efficiente.\n\nFuthark non è un linguaggio general-purpose: è progettato per scrivere i nuclei numerici di applicazioni più grandi, esponendoli come librerie C richiamabili da Python, Rust o qualsiasi host con FFI.',
     },
     fr: {
       name: 'Futhark',
@@ -51,7 +51,8 @@ export const futhark = {
     },
     pt: {
       name: 'Futhark',
-      description: 'Uma linguagem de arrays puramente funcional que compila para código GPU rápido.',
+      description:
+        'Uma linguagem de arrays puramente funcional que compila para código GPU rápido.',
       longDescription:
         'Futhark é uma linguagem de arrays puramente funcional e data-paralela desenvolvida no DIKU. Os programas expressam a computação como operações em massa — map, reduce, scan — sobre arrays multidimensionais, que o compilador otimizador funde e achata em código OpenCL, CUDA ou C multicore eficiente.\n\nFuthark não é uma linguagem de propósito geral: foi projetada para escrever os núcleos numéricos de aplicações maiores, expondo-os como bibliotecas C chamáveis de Python, Rust ou qualquer host com FFI.',
     },

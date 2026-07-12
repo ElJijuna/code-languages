@@ -26,7 +26,8 @@ export const slang = {
     },
     es: {
       name: 'Slang',
-      description: 'Un lenguaje de shaders moderno que compila de forma cruzada a HLSL, GLSL, Metal y WGSL.',
+      description:
+        'Un lenguaje de shaders moderno que compila de forma cruzada a HLSL, GLSL, Metal y WGSL.',
       longDescription:
         'Slang es un lenguaje de shaders que extiende HLSL con módulos, genéricos, interfaces y diferenciación automática. Una sola base de código Slang se compila de forma cruzada a HLSL, GLSL, SPIR-V, Metal, WGSL y CUDA, eliminando la duplicación de shaders por API.\n\nDesarrollado originalmente en NVIDIA y ahora alojado por el Grupo Khronos, Slang impulsa renderizadores de producción y frameworks de investigación, y su shading diferenciable lo hace popular en gráficos con machine learning.',
     },
@@ -44,7 +45,8 @@ export const slang = {
     },
     de: {
       name: 'Slang',
-      description: 'Eine moderne Shading-Sprache, die nach HLSL, GLSL, Metal und WGSL cross-kompiliert.',
+      description:
+        'Eine moderne Shading-Sprache, die nach HLSL, GLSL, Metal und WGSL cross-kompiliert.',
       longDescription:
         'Slang ist eine Shading-Sprache, die HLSL um Module, Generics, Interfaces und automatische Differentiation erweitert. Eine einzige Slang-Codebasis wird nach HLSL, GLSL, SPIR-V, Metal, WGSL und CUDA cross-kompiliert und beseitigt so die Shader-Duplikation pro API.\n\nUrsprünglich bei NVIDIA entwickelt und heute von der Khronos Group betreut, treibt Slang Produktions-Renderer und Forschungs-Frameworks an; differenzierbares Shading macht es in der Machine-Learning-Grafik beliebt.',
     },

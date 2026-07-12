@@ -27,31 +27,36 @@ export const clarity = {
     },
     es: {
       name: 'Clarity',
-      description: 'Un lenguaje de contratos inteligentes decidible y tipo Lisp para la capa Bitcoin de Stacks.',
+      description:
+        'Un lenguaje de contratos inteligentes decidible y tipo Lisp para la capa Bitcoin de Stacks.',
       longDescription:
         'Clarity es el lenguaje de contratos inteligentes de la blockchain Stacks, que se asienta sobre Bitcoin. Su sintaxis tipo Lisp se interpreta, no se compila, y el lenguaje es intencionalmente decidible: los contratos no pueden iterar sin límite, así que su costo y comportamiento pueden analizarse antes de la ejecución.\n\nLos contratos se publican como código fuente legible en la cadena, eliminando problemas de confianza en el compilador. La cadena de herramientas Clarinet ofrece flujos de desarrollo local, pruebas y despliegue.',
     },
     it: {
       name: 'Clarity',
-      description: 'Un linguaggio per smart contract decidibile e in stile Lisp per il layer Bitcoin di Stacks.',
+      description:
+        'Un linguaggio per smart contract decidibile e in stile Lisp per il layer Bitcoin di Stacks.',
       longDescription:
-        'Clarity è il linguaggio per smart contract della blockchain Stacks, che si regola su Bitcoin. La sua sintassi in stile Lisp viene interpretata, non compilata, e il linguaggio è volutamente decidibile: i contratti non possono iterare senza limiti, quindi costo e comportamento possono essere analizzati prima dell\'esecuzione.\n\nI contratti sono pubblicati come sorgente leggibile sulla catena, eliminando i problemi di fiducia nel compilatore. La toolchain Clarinet fornisce flussi di sviluppo locale, test e deployment.',
+        "Clarity è il linguaggio per smart contract della blockchain Stacks, che si regola su Bitcoin. La sua sintassi in stile Lisp viene interpretata, non compilata, e il linguaggio è volutamente decidibile: i contratti non possono iterare senza limiti, quindi costo e comportamento possono essere analizzati prima dell'esecuzione.\n\nI contratti sono pubblicati come sorgente leggibile sulla catena, eliminando i problemi di fiducia nel compilatore. La toolchain Clarinet fornisce flussi di sviluppo locale, test e deployment.",
     },
     fr: {
       name: 'Clarity',
-      description: 'Un langage de smart contracts décidable, de type Lisp, pour la couche Bitcoin de Stacks.',
+      description:
+        'Un langage de smart contracts décidable, de type Lisp, pour la couche Bitcoin de Stacks.',
       longDescription:
         "Clarity est le langage de smart contracts de la blockchain Stacks, qui se règle sur Bitcoin. Sa syntaxe de type Lisp est interprétée, non compilée, et le langage est volontairement décidable : les contrats ne peuvent pas boucler indéfiniment, leur coût et leur comportement peuvent donc être analysés avant exécution.\n\nLes contrats sont publiés en source lisible sur la chaîne, éliminant les problèmes de confiance envers le compilateur. La chaîne d'outils Clarinet fournit développement local, tests et déploiement.",
     },
     de: {
       name: 'Clarity',
-      description: 'Eine entscheidbare, Lisp-artige Smart-Contract-Sprache für die Bitcoin-Schicht von Stacks.',
+      description:
+        'Eine entscheidbare, Lisp-artige Smart-Contract-Sprache für die Bitcoin-Schicht von Stacks.',
       longDescription:
         'Clarity ist die Smart-Contract-Sprache der Stacks-Blockchain, die auf Bitcoin abgerechnet wird. Ihre Lisp-artige Syntax wird interpretiert, nicht kompiliert, und die Sprache ist bewusst entscheidbar: Verträge können nicht unbegrenzt iterieren, sodass Kosten und Verhalten vor der Ausführung analysierbar sind.\n\nVerträge werden als lesbarer Quelltext on-chain veröffentlicht, was Vertrauensprobleme mit Compilern beseitigt. Die Clarinet-Toolchain bietet lokale Entwicklung, Tests und Deployment.',
     },
     pt: {
       name: 'Clarity',
-      description: 'Uma linguagem de contratos inteligentes decidível e estilo Lisp para a camada Bitcoin da Stacks.',
+      description:
+        'Uma linguagem de contratos inteligentes decidível e estilo Lisp para a camada Bitcoin da Stacks.',
       longDescription:
         'Clarity é a linguagem de contratos inteligentes da blockchain Stacks, que se liquida no Bitcoin. Sua sintaxe estilo Lisp é interpretada, não compilada, e a linguagem é intencionalmente decidível: os contratos não podem iterar sem limite, então seu custo e comportamento podem ser analisados antes da execução.\n\nOs contratos são publicados como código-fonte legível na cadeia, eliminando problemas de confiança no compilador. A toolchain Clarinet fornece fluxos de desenvolvimento local, testes e implantação.',
     },

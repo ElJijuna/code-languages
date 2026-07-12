@@ -4,6 +4,7 @@ import { actionscript } from '@/languages/actionscript';
 import { ada } from '@/languages/ada';
 import { agda } from '@/languages/agda';
 import { algol } from '@/languages/algol';
+import { alloy } from '@/languages/alloy';
 import { ampl } from '@/languages/ampl';
 import { angelscript } from '@/languages/angelscript';
 import { ante } from '@/languages/ante';
@@ -35,12 +36,14 @@ import { bosque } from '@/languages/bosque';
 import { bqn } from '@/languages/bqn';
 import { brainfuck } from '@/languages/brainfuck';
 import { c } from '@/languages/c';
+import { c3 } from '@/languages/c3';
 import { cairo } from '@/languages/cairo';
 import { capnproto } from '@/languages/capnproto';
 import { carbon } from '@/languages/carbon';
 import { cel } from '@/languages/cel';
 import { chapel } from '@/languages/chapel';
 import { circom } from '@/languages/circom';
+import { clarity } from '@/languages/clarity';
 import { clojure } from '@/languages/clojure';
 import { cmake } from '@/languages/cmake';
 import { cobol } from '@/languages/cobol';
@@ -55,6 +58,7 @@ import { css } from '@/languages/css';
 import { cuda } from '@/languages/cuda';
 import { cue } from '@/languages/cue';
 import { curry } from '@/languages/curry';
+import { cwl } from '@/languages/cwl';
 import { cypher } from '@/languages/cypher';
 import { cython } from '@/languages/cython';
 import { d } from '@/languages/d';
@@ -66,6 +70,7 @@ import { dita } from '@/languages/dita';
 import { dockerfile } from '@/languages/dockerfile';
 import { dot } from '@/languages/dot';
 import { earthly } from '@/languages/earthly';
+import { edgeql } from '@/languages/edgeql';
 import { editorconfig } from '@/languages/editorconfig';
 import { eiffel } from '@/languages/eiffel';
 import { ejs } from '@/languages/ejs';
@@ -75,10 +80,12 @@ import { emacsLisp } from '@/languages/emacs-lisp';
 import { erb } from '@/languages/erb';
 import { erlang } from '@/languages/erlang';
 import { factor } from '@/languages/factor';
+import { faust } from '@/languages/faust';
 import { fe } from '@/languages/fe';
 import { fennel } from '@/languages/fennel';
 import { fish } from '@/languages/fish';
 import { flatbuffers } from '@/languages/flatbuffers';
+import { flix } from '@/languages/flix';
 import { flux } from '@/languages/flux';
 import { forth } from '@/languages/forth';
 import { fortran } from '@/languages/fortran';
@@ -86,6 +93,7 @@ import { fql } from '@/languages/fql';
 import { freemarker } from '@/languages/freemarker';
 import { fsharp } from '@/languages/fsharp';
 import { fstar } from '@/languages/fstar';
+import { futhark } from '@/languages/futhark';
 import { gcode } from '@/languages/gcode';
 import { gdscript } from '@/languages/gdscript';
 import { gettext } from '@/languages/gettext';
@@ -116,6 +124,7 @@ import { ink } from '@/languages/ink';
 import { inkNarrative } from '@/languages/ink-narrative';
 import { io } from '@/languages/io';
 import { isabelle } from '@/languages/isabelle';
+import { j } from '@/languages/j';
 import { janet } from '@/languages/janet';
 import { java } from '@/languages/java';
 import { javascript } from '@/languages/javascript';
@@ -173,6 +182,7 @@ import { nginx } from '@/languages/nginx';
 import { nickel } from '@/languages/nickel';
 import { nim } from '@/languages/nim';
 import { nix } from '@/languages/nix';
+import { noir } from '@/languages/noir';
 import { nunjucks } from '@/languages/nunjucks';
 import { nushell } from '@/languages/nushell';
 import { oberon } from '@/languages/oberon';
@@ -203,10 +213,12 @@ import { prolog } from '@/languages/prolog';
 import { promql } from '@/languages/promql';
 import { properties } from '@/languages/properties';
 import { protobuf } from '@/languages/protobuf';
+import { prql } from '@/languages/prql';
 import { pug } from '@/languages/pug';
 import { puppet } from '@/languages/puppet';
 import { purescript } from '@/languages/purescript';
 import { python } from '@/languages/python';
+import { q } from '@/languages/q';
 import { qmake } from '@/languages/qmake';
 import { qml } from '@/languages/qml';
 import { qsharp } from '@/languages/qsharp';
@@ -218,6 +230,7 @@ import { reasonml } from '@/languages/reasonml';
 import { rebol } from '@/languages/rebol';
 import { red } from '@/languages/red';
 import { rego } from '@/languages/rego';
+import { renpy } from '@/languages/renpy';
 import { rescript } from '@/languages/rescript';
 import { restructuredtext } from '@/languages/restructuredtext';
 import { rexx } from '@/languages/rexx';
@@ -231,8 +244,10 @@ import { scheme } from '@/languages/scheme';
 import { scss } from '@/languages/scss';
 import { self } from '@/languages/self';
 import { simula } from '@/languages/simula';
+import { slang } from '@/languages/slang';
 import { smalltalk } from '@/languages/smalltalk';
 import { smarty } from '@/languages/smarty';
+import { smithy } from '@/languages/smithy';
 import { snakemake } from '@/languages/snakemake';
 import { snobol } from '@/languages/snobol';
 import { solidity } from '@/languages/solidity';
@@ -247,9 +262,11 @@ import { standardMl } from '@/languages/standard-ml';
 import { starlark } from '@/languages/starlark';
 import { stata } from '@/languages/stata';
 import { stylus } from '@/languages/stylus';
+import { supercollider } from '@/languages/supercollider';
 import { svelte } from '@/languages/svelte';
 import { svg } from '@/languages/svg';
 import { svn } from '@/languages/svn';
+import { sway } from '@/languages/sway';
 import { swift } from '@/languages/swift';
 import { tcl } from '@/languages/tcl';
 import { tcsh } from '@/languages/tcsh';
@@ -263,6 +280,7 @@ import { tsql } from '@/languages/tsql';
 import { twee } from '@/languages/twee';
 import { twig } from '@/languages/twig';
 import { typescript } from '@/languages/typescript';
+import { typespec } from '@/languages/typespec';
 import { typst } from '@/languages/typst';
 import { unison } from '@/languages/unison';
 import { v } from '@/languages/v';
@@ -303,6 +321,7 @@ export const languages: readonly Language[] = [
   ada,
   agda,
   algol,
+  alloy,
   ampl,
   angelscript,
   ante,
@@ -334,12 +353,14 @@ export const languages: readonly Language[] = [
   bqn,
   brainfuck,
   c,
+  c3,
   cairo,
   capnproto,
   carbon,
   cel,
   chapel,
   circom,
+  clarity,
   clojure,
   cmake,
   cobol,
@@ -354,6 +375,7 @@ export const languages: readonly Language[] = [
   cuda,
   cue,
   curry,
+  cwl,
   cypher,
   cython,
   d,
@@ -365,6 +387,7 @@ export const languages: readonly Language[] = [
   dockerfile,
   dot,
   earthly,
+  edgeql,
   editorconfig,
   eiffel,
   ejs,
@@ -374,10 +397,12 @@ export const languages: readonly Language[] = [
   erb,
   erlang,
   factor,
+  faust,
   fe,
   fennel,
   fish,
   flatbuffers,
+  flix,
   flux,
   forth,
   fortran,
@@ -385,6 +410,7 @@ export const languages: readonly Language[] = [
   freemarker,
   fsharp,
   fstar,
+  futhark,
   gcode,
   gdscript,
   gettext,
@@ -415,6 +441,7 @@ export const languages: readonly Language[] = [
   inkNarrative,
   io,
   isabelle,
+  j,
   janet,
   java,
   javascript,
@@ -472,6 +499,7 @@ export const languages: readonly Language[] = [
   nickel,
   nim,
   nix,
+  noir,
   nunjucks,
   nushell,
   oberon,
@@ -502,10 +530,12 @@ export const languages: readonly Language[] = [
   promql,
   properties,
   protobuf,
+  prql,
   pug,
   puppet,
   purescript,
   python,
+  q,
   qmake,
   qml,
   qsharp,
@@ -517,6 +547,7 @@ export const languages: readonly Language[] = [
   rebol,
   red,
   rego,
+  renpy,
   rescript,
   restructuredtext,
   rexx,
@@ -530,8 +561,10 @@ export const languages: readonly Language[] = [
   scss,
   self,
   simula,
+  slang,
   smalltalk,
   smarty,
+  smithy,
   snakemake,
   snobol,
   solidity,
@@ -546,9 +579,11 @@ export const languages: readonly Language[] = [
   starlark,
   stata,
   stylus,
+  supercollider,
   svelte,
   svg,
   svn,
+  sway,
   swift,
   tcl,
   tcsh,
@@ -562,6 +597,7 @@ export const languages: readonly Language[] = [
   twee,
   twig,
   typescript,
+  typespec,
   typst,
   unison,
   v,
