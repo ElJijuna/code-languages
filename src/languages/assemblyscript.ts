@@ -7,6 +7,9 @@ export const assemblyscript = {
   author: 'Daniel Wirtz / AssemblyScript Contributors',
   website: 'https://www.assemblyscript.org',
   paradigms: ['imperative', 'object-oriented', 'compiled'],
+  relations: {
+    compilesTo: ['webassembly'],
+  },
   tooling: {
     runtimes: ['Wasm', 'WASI'],
     ecosystems: ['WebAssembly'],

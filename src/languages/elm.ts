@@ -7,6 +7,9 @@ export const elm = {
   author: 'Evan Czaplicki',
   website: 'https://elm-lang.org',
   paradigms: ['functional', 'declarative', 'reactive', 'statically typed'],
+  relations: {
+    compilesTo: ['javascript'],
+  },
   tooling: {
     runtimes: ['Browser', 'JavaScript'],
     packageManagers: ['elm', 'npm', 'pnpm', 'Yarn'],

@@ -7,6 +7,9 @@ export const vba = {
   author: 'Microsoft',
   website: 'https://learn.microsoft.com/en-us/office/vba/api/overview/',
   paradigms: ['imperative', 'object-oriented', 'event-driven'],
+  relations: {
+    dialectOf: ['visual-basic'],
+  },
   tooling: {
     ecosystems: ['Microsoft Office', 'Excel', 'Access', 'Word', 'Outlook'],
   },

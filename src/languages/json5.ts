@@ -7,6 +7,9 @@ export const json5 = {
   author: 'Aseem Kishore',
   website: 'https://json5.org',
   paradigms: ['declarative'],
+  relations: {
+    supersetOf: ['json'],
+  },
   tooling: {
     runtimes: ['Node.js', 'Browser'],
     packageManagers: ['npm', 'pnpm', 'Yarn'],

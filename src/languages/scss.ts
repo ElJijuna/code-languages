@@ -7,6 +7,10 @@ export const scss = {
   author: 'Hampton Catlin / Natalie Weizenbaum / Chris Eppstein',
   website: 'https://sass-lang.com',
   paradigms: ['declarative', 'stylesheet', 'preprocessor'],
+  relations: {
+    supersetOf: ['css'],
+    compilesTo: ['css'],
+  },
   tooling: {
     runtimes: ['Dart Sass'],
     packageManagers: ['npm', 'pnpm', 'Yarn', 'Bun'],

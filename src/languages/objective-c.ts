@@ -9,6 +9,9 @@ export const objectiveC = {
   website:
     'https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/',
   paradigms: ['class-based', 'dynamic', 'object-oriented', 'reflective'],
+  relations: {
+    supersetOf: ['c'],
+  },
   tooling: {
     runtimes: ['Objective-C runtime', 'Apple platforms', 'GNUstep'],
     packageManagers: ['CocoaPods', 'Swift Package Manager'],

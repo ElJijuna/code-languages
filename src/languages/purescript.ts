@@ -7,6 +7,9 @@ export const purescript = {
   author: 'Phil Freeman / PureScript contributors',
   website: 'https://www.purescript.org',
   paradigms: ['functional', 'pure', 'statically typed', 'declarative'],
+  relations: {
+    compilesTo: ['javascript'],
+  },
   tooling: {
     runtimes: ['JavaScript', 'Node.js'],
     packageManagers: ['Spago', 'npm'],

@@ -7,6 +7,9 @@ export const haxe = {
   author: 'Nicolas Cannasse / Haxe Foundation',
   website: 'https://haxe.org',
   paradigms: ['object-oriented', 'functional', 'cross-platform', 'statically typed'],
+  relations: {
+    compilesTo: ['javascript', 'cpp'],
+  },
   tooling: {
     runtimes: ['JavaScript', 'HashLink', 'JVM', 'C++', 'C#', 'PHP', 'Lua', 'Python'],
     packageManagers: ['haxelib'],

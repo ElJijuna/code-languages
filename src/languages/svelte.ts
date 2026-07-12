@@ -7,6 +7,9 @@ export const svelte = {
   author: 'Rich Harris / Svelte contributors',
   website: 'https://svelte.dev',
   paradigms: ['component-based', 'declarative', 'reactive', 'compiled'],
+  relations: {
+    compilesTo: ['javascript'],
+  },
   tooling: {
     runtimes: ['Browser', 'Node.js'],
     packageManagers: ['npm', 'pnpm', 'Yarn', 'Bun'],

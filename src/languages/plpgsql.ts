@@ -7,6 +7,9 @@ export const plpgsql = {
   author: 'PostgreSQL Global Development Group',
   website: 'https://www.postgresql.org/docs/current/plpgsql.html',
   paradigms: ['procedural', 'database'],
+  relations: {
+    dialectOf: ['sql'],
+  },
   tooling: {
     runtimes: ['PostgreSQL'],
     ecosystems: ['Relational databases', 'Stored procedures'],

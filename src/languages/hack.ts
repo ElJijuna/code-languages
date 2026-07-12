@@ -7,6 +7,9 @@ export const hack = {
   author: 'Meta',
   website: 'https://docs.hhvm.com/hack/',
   paradigms: ['object-oriented', 'functional', 'gradually typed', 'imperative'],
+  relations: {
+    dialectOf: ['php'],
+  },
   tooling: {
     runtimes: ['HHVM'],
     packageManagers: ['Composer'],

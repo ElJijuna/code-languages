@@ -7,6 +7,9 @@ export const mdx = {
   author: 'MDX contributors',
   website: 'https://mdxjs.com',
   paradigms: ['markup', 'component-oriented', 'declarative', 'documentation'],
+  relations: {
+    supersetOf: ['markdown'],
+  },
   tooling: {
     runtimes: ['React', 'Node.js'],
     packageManagers: ['npm', 'Yarn', 'pnpm'],

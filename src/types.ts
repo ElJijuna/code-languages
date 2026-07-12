@@ -26,6 +26,18 @@ export type LanguageTranslations = { en: LanguageContent } & Partial<
  */
 export type LanguageStatus = 'active' | 'experimental' | 'legacy' | 'historical';
 
+/** Relationships to other catalog languages. All values are catalog slugs. */
+export interface LanguageRelations {
+  /** Languages this language is a superset of. e.g. TypeScript → ["javascript"] */
+  supersetOf?: string[];
+
+  /** Languages this language is a dialect or variant of. e.g. T-SQL → ["sql"] */
+  dialectOf?: string[];
+
+  /** Languages this language compiles or transpiles to. e.g. Elm → ["javascript"] */
+  compilesTo?: string[];
+}
+
 export interface LanguageTooling {
   /** Execution environments, virtual machines, shells, or platforms. e.g. ["Node.js", "Browser"] */
   runtimes?: string[];
@@ -46,6 +58,9 @@ export interface Language {
 
   /** Lifecycle status. Absent means `active`. */
   status?: LanguageStatus;
+
+  /** Relationships to other catalog languages, keyed by relation kind. */
+  relations?: LanguageRelations;
 
   /** ISO 8601 date of first public release. e.g. "2012-10-01" */
   publishedDate: string;

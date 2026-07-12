@@ -7,6 +7,9 @@ export const plsql = {
   author: 'Oracle',
   website: 'https://www.oracle.com/database/technologies/appdev/plsql.html',
   paradigms: ['procedural', 'database', 'declarative', 'imperative'],
+  relations: {
+    dialectOf: ['sql'],
+  },
   tooling: {
     runtimes: ['Oracle Database'],
     ecosystems: ['Oracle', 'SQL', 'Enterprise Data'],

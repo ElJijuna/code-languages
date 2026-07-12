@@ -8,6 +8,9 @@ export const emacsLisp = {
   author: 'Richard Stallman / GNU Project',
   website: 'https://www.gnu.org/software/emacs/manual/elisp.html',
   paradigms: ['functional', 'imperative', 'meta-programming', 'scripting'],
+  relations: {
+    dialectOf: ['lisp'],
+  },
   tooling: {
     runtimes: ['GNU Emacs'],
     packageManagers: ['package.el', 'ELPA', 'MELPA'],

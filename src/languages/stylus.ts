@@ -7,6 +7,10 @@ export const stylus = {
   author: 'TJ Holowaychuk / Stylus contributors',
   website: 'https://stylus-lang.com',
   paradigms: ['stylesheet', 'declarative', 'preprocessor'],
+  relations: {
+    dialectOf: ['css'],
+    compilesTo: ['css'],
+  },
   tooling: {
     runtimes: ['Node.js'],
     packageManagers: ['npm', 'pnpm', 'Yarn'],

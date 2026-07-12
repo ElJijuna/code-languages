@@ -4,9 +4,11 @@ export type {
   ExtensionRequest,
   LanguageCategory,
   ParadigmRequest,
+  RelatedRequest,
   ResolvedLanguageRequest,
+  StatusRequest,
 } from '@/api';
-export { api } from '@/api';
+export { api, getStatuses } from '@/api';
 export { getCategories } from '@/domain/category/registry';
 export {
   detectLanguage,
@@ -331,6 +333,7 @@ export { zsh } from '@/languages/zsh';
 export type {
   Language,
   LanguageContent,
+  LanguageRelations,
   LanguageStatus,
   LanguageTooling,
   LanguageTranslations,

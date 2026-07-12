@@ -7,6 +7,9 @@ export const nim = {
   author: 'Andreas Rumpf',
   website: 'https://nim-lang.org',
   paradigms: ['systems', 'imperative', 'functional', 'metaprogramming', 'statically typed'],
+  relations: {
+    compilesTo: ['c', 'javascript'],
+  },
   tooling: {
     runtimes: ['Native', 'JavaScript'],
     packageManagers: ['Nimble'],

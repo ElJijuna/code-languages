@@ -7,6 +7,9 @@ export const luau = {
   author: 'Roblox',
   website: 'https://luau.org',
   paradigms: ['imperative', 'scripting', 'gradually typed', 'embeddable'],
+  relations: {
+    supersetOf: ['lua'],
+  },
   tooling: {
     runtimes: ['Luau VM', 'Roblox'],
     packageManagers: ['Wally', 'Pesde'],

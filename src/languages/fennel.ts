@@ -7,6 +7,9 @@ export const fennel = {
   author: 'Calvin Rose, Phil Hagelberg',
   website: 'https://fennel-lang.org',
   paradigms: ['functional', 'lisp', 'scripting', 'metaprogramming'],
+  relations: {
+    compilesTo: ['lua'],
+  },
   tooling: {
     runtimes: ['Lua', 'LuaJIT'],
     packageManagers: ['LuaRocks'],

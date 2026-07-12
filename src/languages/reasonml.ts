@@ -7,6 +7,9 @@ export const reasonml = {
   author: 'Jordan Walke / Reason contributors',
   website: 'https://reasonml.github.io',
   paradigms: ['functional', 'statically typed', 'multi-paradigm'],
+  relations: {
+    compilesTo: ['javascript', 'ocaml'],
+  },
   tooling: {
     runtimes: ['OCaml', 'JavaScript'],
     packageManagers: ['opam', 'npm'],

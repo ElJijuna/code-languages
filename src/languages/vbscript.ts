@@ -8,6 +8,9 @@ export const vbscript = {
   author: 'Microsoft',
   website: 'https://learn.microsoft.com/en-us/previous-versions/t0aew7h6(v=vs.85)',
   paradigms: ['imperative', 'object-based', 'scripting'],
+  relations: {
+    dialectOf: ['visual-basic'],
+  },
   tooling: {
     runtimes: ['Windows Script Host', 'Classic ASP', 'Internet Explorer'],
     ecosystems: ['Windows', 'Scripting'],

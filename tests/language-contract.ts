@@ -1,6 +1,8 @@
 import { expect } from 'vitest';
 import type { Language, LanguageContent } from '../src';
-import { localizeLanguage } from '../src';
+import { languages, localizeLanguage } from '../src';
+
+const catalogSlugs = new Set(languages.map((language) => language.slug));
 
 export const expectValidLanguage = (language: Language, expectedSlug: string) => {
   const requiredLocales = ['en', 'es', 'it', 'fr', 'de', 'pt'] as const;
@@ -20,6 +22,24 @@ export const expectValidLanguage = (language: Language, expectedSlug: string) =>
 
   if (language.status) {
     expect(['active', 'experimental', 'legacy', 'historical']).toContain(language.status);
+  }
+
+  if (language.relations) {
+    const relationEntries = Object.entries(language.relations);
+
+    expect(relationEntries.length).toBeGreaterThan(0);
+
+    for (const [kind, slugs] of relationEntries) {
+      expect(slugs.length, `${language.slug} has an empty ${kind} relation`).toBeGreaterThan(0);
+
+      for (const relatedSlug of slugs) {
+        expect(relatedSlug).not.toBe(language.slug);
+        expect(
+          catalogSlugs.has(relatedSlug),
+          `${language.slug} ${kind} references unknown slug "${relatedSlug}"`,
+        ).toBe(true);
+      }
+    }
   }
 
   expect(language.publishedDate).toMatch(/^\d{4}-\d{2}-\d{2}$/);

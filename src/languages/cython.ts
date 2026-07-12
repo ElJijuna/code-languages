@@ -7,6 +7,10 @@ export const cython = {
   author: 'Robert Bradshaw, Stefan Behnel, Dag Sverre Seljebotn, Greg Ewing, et al.',
   website: 'https://cython.org',
   paradigms: ['object-oriented', 'imperative', 'procedural'],
+  relations: {
+    supersetOf: ['python'],
+    compilesTo: ['c'],
+  },
   tooling: {
     runtimes: ['CPython'],
     packageManagers: ['pip', 'conda', 'Poetry'],

@@ -7,6 +7,9 @@ export const gleam = {
   author: 'Louis Pilfold',
   website: 'https://gleam.run',
   paradigms: ['functional', 'statically typed', 'concurrent', 'actor-model'],
+  relations: {
+    compilesTo: ['erlang', 'javascript'],
+  },
   tooling: {
     runtimes: ['Erlang/OTP', 'BEAM', 'JavaScript'],
     packageManagers: ['gleam', 'Hex'],

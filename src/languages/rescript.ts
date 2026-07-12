@@ -7,6 +7,9 @@ export const rescript = {
   author: 'ReScript Association',
   website: 'https://rescript-lang.org',
   paradigms: ['functional', 'statically typed', 'multi-paradigm', 'javascript-targeted'],
+  relations: {
+    compilesTo: ['javascript'],
+  },
   tooling: {
     runtimes: ['JavaScript', 'Node.js', 'Browser'],
     packageManagers: ['npm', 'pnpm', 'Yarn'],

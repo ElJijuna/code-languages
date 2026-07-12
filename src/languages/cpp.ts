@@ -8,6 +8,9 @@ export const cpp = {
   author: 'Bjarne Stroustrup',
   website: 'https://isocpp.org',
   paradigms: ['procedural', 'object-oriented', 'generic', 'functional'],
+  relations: {
+    supersetOf: ['c'],
+  },
   tooling: {
     runtimes: ['Native'],
     packageManagers: ['Conan', 'vcpkg'],

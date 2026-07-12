@@ -7,6 +7,9 @@ export const jsonc = {
   author: 'Microsoft',
   website: 'https://jsonc.org',
   paradigms: ['data serialization', 'configuration'],
+  relations: {
+    supersetOf: ['json'],
+  },
   tooling: {
     runtimes: ['Editors', 'Build tools'],
     ecosystems: ['JavaScript', 'TypeScript', 'Configuration'],

@@ -8,6 +8,10 @@ export const typescript = {
   author: 'Anders Hejlsberg / Microsoft',
   website: 'https://www.typescriptlang.org',
   paradigms: ['object-oriented', 'functional', 'imperative', 'generic'],
+  relations: {
+    supersetOf: ['javascript'],
+    compilesTo: ['javascript'],
+  },
   tooling: {
     runtimes: ['Browser', 'Node.js', 'Deno', 'Bun'],
     packageManagers: ['npm', 'pnpm', 'Yarn', 'Bun'],

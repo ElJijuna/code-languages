@@ -7,6 +7,9 @@ export const dart = {
   author: 'Google',
   website: 'https://dart.dev',
   paradigms: ['class-based', 'functional', 'object-oriented', 'structured'],
+  relations: {
+    compilesTo: ['javascript'],
+  },
   tooling: {
     runtimes: ['Dart VM', 'Dart Native', 'JavaScript'],
     packageManagers: ['pub'],

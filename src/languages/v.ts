@@ -7,6 +7,9 @@ export const v = {
   author: 'Alexander Medvednikov / V contributors',
   website: 'https://vlang.io',
   paradigms: ['imperative', 'systems', 'multi-paradigm', 'statically typed'],
+  relations: {
+    compilesTo: ['c'],
+  },
   tooling: {
     runtimes: ['V compiler'],
     packageManagers: ['vpm'],

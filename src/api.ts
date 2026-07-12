@@ -28,7 +28,7 @@ import {
   runtimeInfoFromDefinition,
   runtimesForPackageManager,
 } from '@/domain/runtime/registry';
-import type { Language, Locale, LocalizedLanguage } from '@/types';
+import type { Language, LanguageStatus, Locale, LocalizedLanguage } from '@/types';
 
 type RuntimeLanguageSlug = LanguageSlug | (string & {});
 
@@ -107,6 +107,16 @@ export interface EcosystemRequest {
 
 export interface ExtensionRequest {
   /** Languages whose extensions include this extension or exact filename. */
+  langs(): LanguageCollectionRequest;
+}
+
+export interface StatusRequest {
+  /** Languages with this lifecycle status. Languages without a status count as `active`. */
+  langs(): LanguageCollectionRequest;
+}
+
+export interface RelatedRequest {
+  /** Languages linked to the given language through `relations`, in either direction. */
   langs(): LanguageCollectionRequest;
 }
 
@@ -221,6 +231,11 @@ const loadDetectedLanguages = async (filename: string) => {
   return detectedLanguages.filter((language): language is Language => Boolean(language));
 };
 const getLanguageBySlug = (slug: string): Language | undefined => languageMap.get(slug);
+const getRelationSlugs = (language: Language): string[] => {
+  const { supersetOf = [], dialectOf = [], compilesTo = [] } = language.relations ?? {};
+
+  return [...supersetOf, ...dialectOf, ...compilesTo];
+};
 const getDetectedLanguages = (filename: string) =>
   detectLanguageSlugs(filename)
     .map((slug) => getLanguageBySlug(slug))
@@ -312,6 +327,110 @@ export const api = {
 
             return normalizedExtension === normalized || normalizedExtension === `.${normalized}`;
           }),
+        );
+      },
+    };
+  },
+
+  /**
+   * Searches languages by name, slug, or alias with ranked results.
+   *
+   * Ranking: exact slug/alias/name match, then name or slug prefix, then name
+   * substring, then slug or alias substring. Empty queries return no results.
+   *
+   * @example
+   * api.search('type').get().map((language) => language.slug); // ["typescript", "typst", ...]
+   * api.search('golang').get().at(0)?.slug; // "go"
+   */
+  search(query: string): LanguageCollectionRequest {
+    const normalizedQuery = query.trim().toLowerCase();
+    const rankLanguage = (language: Language): number => {
+      const name = language.i18n.en.name.toLowerCase();
+      const aliases = (language.aliases ?? []).map((alias) => alias.toLowerCase());
+
+      if (
+        language.slug === normalizedQuery ||
+        name === normalizedQuery ||
+        aliases.includes(normalizedQuery)
+      ) {
+        return 4;
+      }
+
+      if (name.startsWith(normalizedQuery) || language.slug.startsWith(normalizedQuery)) {
+        return 3;
+      }
+
+      if (name.includes(normalizedQuery)) {
+        return 2;
+      }
+
+      if (
+        language.slug.includes(normalizedQuery) ||
+        aliases.some((alias) => alias.includes(normalizedQuery))
+      ) {
+        return 1;
+      }
+
+      return 0;
+    };
+    const ranked = () => {
+      if (!normalizedQuery) {
+        return [];
+      }
+
+      return languages
+        .map((language, index) => ({ language, index, rank: rankLanguage(language) }))
+        .filter(({ rank }) => rank > 0)
+        .sort((first, second) => second.rank - first.rank || first.index - second.index)
+        .map(({ language }) => language);
+    };
+
+    return createLanguageCollectionRequest(ranked, async () => {
+      const loaded = await Promise.all(ranked().map((language) => loadLanguage(language.slug)));
+
+      return loaded.filter((language): language is Language => Boolean(language));
+    });
+  },
+
+  /**
+   * Selects every language with the given lifecycle status.
+   *
+   * Languages without a `status` field count as `active`.
+   *
+   * @example
+   * api.status('legacy').langs().get();
+   * api.status('experimental').langs().locale('es').get();
+   */
+  status(value: LanguageStatus): StatusRequest {
+    return {
+      langs() {
+        return createFilteredLanguageCollection(
+          (language) => (language.status ?? 'active') === value,
+        );
+      },
+    };
+  },
+
+  /**
+   * Selects every language related to the given language through `relations`,
+   * in either direction.
+   *
+   * @example
+   * api.related('javascript').langs().get(); // TypeScript, CoffeeScript, Elm, ...
+   * api.related('typescript').langs().get(); // JavaScript
+   */
+  related(slug: RuntimeLanguageSlug): RelatedRequest {
+    const resolvedSlug = resolveLanguageLookup(slug);
+
+    return {
+      langs() {
+        const source = getLanguageBySlug(resolvedSlug);
+        const outgoing = new Set(source ? getRelationSlugs(source) : []);
+
+        return createFilteredLanguageCollection(
+          (language) =>
+            language.slug !== resolvedSlug &&
+            (outgoing.has(language.slug) || getRelationSlugs(language).includes(resolvedSlug)),
         );
       },
     };
@@ -456,6 +575,11 @@ export const api = {
     );
   },
 };
+
+/** Lists every lifecycle status usable with `api.status()`. */
+export function getStatuses(): LanguageStatus[] {
+  return ['active', 'experimental', 'legacy', 'historical'];
+}
 
 export type { LanguageCategory } from '@/domain/category/registry';
 export type { EcosystemInfo } from '@/domain/ecosystem/registry';

@@ -7,6 +7,10 @@ export const less = {
   author: 'Alexis Sellier / Less Core Team',
   website: 'https://lesscss.org',
   paradigms: ['declarative', 'stylesheet', 'preprocessor'],
+  relations: {
+    dialectOf: ['css'],
+    compilesTo: ['css'],
+  },
   tooling: {
     runtimes: ['Less.js', 'Node.js', 'Browser'],
     packageManagers: ['npm', 'pnpm', 'Yarn', 'Bun'],

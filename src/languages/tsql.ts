@@ -7,6 +7,9 @@ export const tsql = {
   author: 'Sybase / Microsoft',
   website: 'https://learn.microsoft.com/en-us/sql/t-sql/language-reference',
   paradigms: ['procedural', 'declarative', 'database', 'imperative'],
+  relations: {
+    dialectOf: ['sql'],
+  },
   tooling: {
     runtimes: [
       'SQL Server',

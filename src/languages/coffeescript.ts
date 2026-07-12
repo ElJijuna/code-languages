@@ -7,6 +7,9 @@ export const coffeescript = {
   author: 'Jeremy Ashkenas',
   website: 'https://coffeescript.org',
   paradigms: ['functional', 'imperative', 'object-oriented', 'scripting'],
+  relations: {
+    compilesTo: ['javascript'],
+  },
   tooling: {
     runtimes: ['Browser', 'Node.js'],
     packageManagers: ['npm', 'pnpm', 'Yarn'],
