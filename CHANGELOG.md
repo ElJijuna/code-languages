@@ -1,3 +1,10 @@
+## [1.42.1](https://github.com/ElJijuna/code-languages/compare/v1.42.0...v1.42.1) (2026-07-13)
+
+
+### Bug Fixes
+
+* update zsh metadata to 5.9.2 ([a76bdab](https://github.com/ElJijuna/code-languages/commit/a76bdabd8e7ce16dd5e4a7c0257a454b972152bd))
+
 # [1.42.0](https://github.com/ElJijuna/code-languages/compare/v1.41.0...v1.42.0) (2026-07-12)
 
 
