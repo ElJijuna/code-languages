@@ -12,7 +12,7 @@ export const zsh = {
     packageManagers: ['Homebrew', 'APT', 'DNF', 'Pacman'],
     ecosystems: ['Unix', 'Linux', 'macOS', 'DevOps'],
   },
-  version: '5.9.1',
+  version: '5.9.2',
   logo: 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Z_Shell_Logo_Color_Horizontal.svg',
   color: '#89E051',
   i18n: {
