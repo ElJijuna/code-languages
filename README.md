@@ -732,7 +732,7 @@ from its package subpath.
 | <img src="https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_vhdl.svg" alt="VHDL logo" width="24" height="24"> | VHDL | `vhdl` | `.vhd`, `.vhdl` | `IEEE 1076-2019` | `code-languages/vhdl` |
 | <img src="https://cdn.simpleicons.org/vim/019733" alt="Vim script logo" width="24" height="24"> | Vim script | `vimscript` | `.vim`, `.vimrc`, `.gvimrc` | `Vim 9.1` | `code-languages/vimscript` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/4/40/VB.NET_Logo.svg" alt="Visual Basic logo" width="24" height="24"> | Visual Basic | `visual-basic` | `.vb` | `17.13` | `code-languages/visual-basic` |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg" alt="Vue logo" width="24" height="24"> | Vue | `vue` | `.vue` | `3.5.39` | `code-languages/vue` |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg" alt="Vue logo" width="24" height="24"> | Vue | `vue` | `.vue` | `3.5.40` | `code-languages/vue` |
 | <img src="https://avatars.githubusercontent.com/u/37288461?v=4" alt="Vyper logo" width="24" height="24"> | Vyper | `vyper` | `.vy` | `0.4.3` | `code-languages/vyper` |
 | <img src="https://avatars.githubusercontent.com/u/23492081?v=4" alt="WDL logo" width="24" height="24"> | WDL | `wdl` | `.wdl` | `1.2.0` | `code-languages/wdl` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/1f/WebAssembly_Logo.svg" alt="WebAssembly logo" width="24" height="24"> | WebAssembly | `webassembly` | `.wasm`, `.wat` | `3.0` | `code-languages/webassembly` |
