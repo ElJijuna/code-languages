@@ -583,7 +583,7 @@ from its package subpath.
 | <img src="https://koka-lang.github.io/koka/doc/images/koka-logo-filled.png" alt="Koka logo" width="24" height="24"> | Koka | `koka` | `.kk` | `3.2.2` | `code-languages/koka` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" alt="Kotlin logo" width="24" height="24"> | Kotlin | `kotlin` | `.kt`, `.kts` | `2.4.10` | `code-languages/kotlin` |
 | <img src="https://learn.microsoft.com/favicon.ico" alt="KQL logo" width="24" height="24"> | KQL | `kql` | `.kql` | `stable` | `code-languages/kql` |
-| <img src="https://cdn.simpleicons.org/leanpub/262425" alt="Lean logo" width="24" height="24"> | Lean | `lean` | `.lean` | `4.31.0` | `code-languages/lean` |
+| <img src="https://cdn.simpleicons.org/leanpub/262425" alt="Lean logo" width="24" height="24"> | Lean | `lean` | `.lean` | `4.32.0` | `code-languages/lean` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LESS_Logo.svg" alt="Less logo" width="24" height="24"> | Less | `less` | `.less` | `4.6.7` | `code-languages/less` |
 | <img src="https://raw.githubusercontent.com/ElJijuna/code-languages/main/public/assets/placeholders/lex.svg" alt="Lex logo" width="24" height="24"> | Lex | `lex` | `.l`, `.lex` | `POSIX lex / flex 2.6.4` | `code-languages/lex` |
 | <img src="https://ligolang.org/img/logo/logo.png" alt="Ligo logo" width="24" height="24"> | Ligo | `ligo` | `.ligo`, `.mligo`, `.religo`, `.jsligo` | `1.x` | `code-languages/ligo` |
