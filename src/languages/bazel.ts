@@ -12,7 +12,7 @@ export const bazel = {
     packageManagers: ['Bzlmod', 'Bazel Central Registry'],
     ecosystems: ['Build Systems', 'Monorepos', 'CI/CD', 'Polyglot Repositories'],
   },
-  version: '9.1.1',
+  version: '9.2.0',
   logo: 'https://cdn.simpleicons.org/bazel/43A047',
   color: '#43A047',
   i18n: {
