@@ -521,7 +521,7 @@ from its package subpath.
 | <img src="https://faust.grame.fr/img/faustText.svg" alt="Faust logo" width="24" height="24"> | Faust | `faust` | `.dsp` | `stable` | `code-languages/faust` |
 | <img src="https://fe-lang.org/favicon.png" alt="Fe logo" width="24" height="24"> | Fe | `fe` | `.fe` | `experimental` | `code-languages/fe` |
 | <img src="https://fennel-lang.org/logo.svg" alt="Fennel logo" width="24" height="24"> | Fennel | `fennel` | `.fnl` | `1.6.1` | `code-languages/fennel` |
-| <img src="https://fishshell.com/assets/img/Terminal_Logo2_CRT_Flat.png" alt="Fish logo" width="24" height="24"> | Fish | `fish` | `.fish` | `4.8.0` | `code-languages/fish` |
+| <img src="https://fishshell.com/assets/img/Terminal_Logo2_CRT_Flat.png" alt="Fish logo" width="24" height="24"> | Fish | `fish` | `.fish` | `4.8.1` | `code-languages/fish` |
 | <img src="https://flatbuffers.dev/assets/images/favicon.png" alt="FlatBuffers logo" width="24" height="24"> | FlatBuffers | `flatbuffers` | `.fbs` | `25.12.19` | `code-languages/flatbuffers` |
 | <img src="https://avatars.githubusercontent.com/u/16831634?v=4" alt="Flix logo" width="24" height="24"> | Flix | `flix` | `.flix` | `0.60.0` | `code-languages/flix` |
 | <img src="https://avatars.githubusercontent.com/u/5713248?v=4" alt="Flux logo" width="24" height="24"> | Flux | `flux` | `.flux` | `0.200.0` | `code-languages/flux` |

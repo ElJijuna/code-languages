@@ -12,7 +12,7 @@ export const fish = {
     packageManagers: ['Fisher', 'Oh My Fish'],
     ecosystems: ['Shell', 'Unix', 'macOS', 'Linux'],
   },
-  version: '4.8.0',
+  version: '4.8.1',
   logo: 'https://fishshell.com/assets/img/Terminal_Logo2_CRT_Flat.png',
   color: '#4AAE21',
   i18n: {
