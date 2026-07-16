@@ -1,3 +1,20 @@
+## [1.42.2](https://github.com/ElJijuna/code-languages/compare/v1.42.1...v1.42.2) (2026-07-16)
+
+
+### Bug Fixes
+
+* update Astro metadata to 7.0.9 ([88ee6a7](https://github.com/ElJijuna/code-languages/commit/88ee6a7a62fee41712aae5606516adeb9f800232))
+* update Bazel metadata to 9.2.0 ([f72fc22](https://github.com/ElJijuna/code-languages/commit/f72fc22d2614d4bd0fb66ecc7fe77a2e2358fc51))
+* update Bicep metadata to 0.45.15 ([dd0bc1a](https://github.com/ElJijuna/code-languages/commit/dd0bc1a99f3088fe76d69335789821d2e43a01b2))
+* update Fish metadata to 4.8.1 ([2485bac](https://github.com/ElJijuna/code-languages/commit/2485bacab3c9c9d0758ee420ed075b446aeb9a51))
+* update Kotlin metadata to 2.4.10 ([0cce173](https://github.com/ElJijuna/code-languages/commit/0cce173507106127079d456908742b9f45740a61))
+* update Lean metadata to 4.32.0 ([04f1e82](https://github.com/ElJijuna/code-languages/commit/04f1e82c9e8e1eb9e8b2237c5cec701ce6a8d97e))
+* update nginx metadata to 1.30.4 ([47c73ad](https://github.com/ElJijuna/code-languages/commit/47c73ad88cde96a99b6f726709fa533f6a388401))
+* update Razor metadata to 10.0.10 ([ea94a58](https://github.com/ElJijuna/code-languages/commit/ea94a587c9d6729ae01bb1cceeaf19561a569736))
+* update Ruby metadata to 4.0.6 ([9d48985](https://github.com/ElJijuna/code-languages/commit/9d4898543e1e19aca743615162d3b658161c7c84))
+* update Svelte metadata to 5.56.5 ([7ba1f2a](https://github.com/ElJijuna/code-languages/commit/7ba1f2aa51e72f23bb34ff41c72bd33091f901ba))
+* update Vue metadata to 3.5.40 ([091cb33](https://github.com/ElJijuna/code-languages/commit/091cb339adb602f450c1a84e04cfd9e51f1c9032))
+
 ## [1.42.1](https://github.com/ElJijuna/code-languages/compare/v1.42.0...v1.42.1) (2026-07-13)
 
 
