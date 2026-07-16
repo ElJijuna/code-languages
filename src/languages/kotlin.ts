@@ -13,7 +13,7 @@ export const kotlin = {
     packageManagers: ['Gradle', 'Maven'],
     ecosystems: ['JVM', 'Android', 'Kotlin Multiplatform'],
   },
-  version: '2.4.0',
+  version: '2.4.10',
   logo: 'https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png',
   color: '#7F52FF',
   i18n: {
