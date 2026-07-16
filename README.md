@@ -674,7 +674,7 @@ from its package subpath.
 | <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_rexx.svg" alt="REXX logo" width="24" height="24"> | REXX | `rexx` | `.rexx`, `.rex` | `ANSI X3.274-1996` | `code-languages/rexx` |
 | <img src="https://avatars.githubusercontent.com/u/96867701?v=4" alt="Roc logo" width="24" height="24"> | Roc | `roc` | `.roc` | `development snapshot` | `code-languages/roc` |
 | <img src="https://avatars.githubusercontent.com/u/733939?v=4" alt="RPG logo" width="24" height="24"> | RPG | `rpg` | `.rpg`, `.rpgle`, `.sqlrpgle`, `.clle`, `.dspf` | `RPG IV Free-Form (IBM i 7.5)` | `code-languages/rpg` |
-| <img src="https://www.ruby-lang.org/images/header-ruby-logo.png" alt="Ruby logo" width="24" height="24"> | Ruby | `ruby` | `.rb`, `.rbw`, `.rake`, `.gemspec`, `Gemfile`, `Rakefile`, `config.ru` | `4.0.5` | `code-languages/ruby` |
+| <img src="https://www.ruby-lang.org/images/header-ruby-logo.png" alt="Ruby logo" width="24" height="24"> | Ruby | `ruby` | `.rb`, `.rbw`, `.rake`, `.gemspec`, `Gemfile`, `Rakefile`, `config.ru` | `4.0.6` | `code-languages/ruby` |
 | <img src="https://www.rust-lang.org/logos/rust-logo-512x512.png" alt="Rust logo" width="24" height="24"> | Rust | `rust` | `.rs` | `1.97.0` | `code-languages/rust` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/SAS_logo_horiz.svg" alt="SAS logo" width="24" height="24"> | SAS | `sas` | `.sas` | `SAS 9.4` | `code-languages/sas` |
 | <img src="https://cdn.simpleicons.org/scala/DC322F" alt="Scala logo" width="24" height="24"> | Scala | `scala` | `.scala`, `.sc` | `3.8.4` | `code-languages/scala` |
