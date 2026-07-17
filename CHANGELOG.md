@@ -1,3 +1,14 @@
+## [1.42.3](https://github.com/ElJijuna/code-languages/compare/v1.42.2...v1.42.3) (2026-07-17)
+
+
+### Bug Fixes
+
+* update Astro metadata to 7.1.0 ([34df0e0](https://github.com/ElJijuna/code-languages/commit/34df0e0d18d8f69a426f2de5bdb0c79db4e4aca0))
+* update Crystal metadata to 1.21.0 ([3a68946](https://github.com/ElJijuna/code-languages/commit/3a68946b62a57bd849f9119534e27c3725acbf36))
+* update CUE metadata to 0.17.1 ([0a70476](https://github.com/ElJijuna/code-languages/commit/0a7047685ebf0a091fa49be27ccc7e3aacb2287d))
+* update Rust metadata to 1.97.1 ([3f17dd7](https://github.com/ElJijuna/code-languages/commit/3f17dd70d2f93a18fe05a3a3c4581760fcb0ee04))
+* update Svelte metadata to 5.56.6 ([5eed493](https://github.com/ElJijuna/code-languages/commit/5eed493d143b38e3812996252e0dfbde4056c0d7))
+
 ## [1.42.2](https://github.com/ElJijuna/code-languages/compare/v1.42.1...v1.42.2) (2026-07-16)
 
 
