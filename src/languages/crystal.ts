@@ -12,7 +12,7 @@ export const crystal = {
     packageManagers: ['Shards'],
     ecosystems: ['Web', 'CLI', 'Systems', 'Native Applications'],
   },
-  version: '1.20.3',
+  version: '1.21.0',
   logo: 'https://cdn.simpleicons.org/crystal/000000',
   color: '#000000',
   i18n: {
