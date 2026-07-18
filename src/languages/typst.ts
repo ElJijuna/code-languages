@@ -12,7 +12,7 @@ export const typst = {
     packageManagers: ['Typst Packages'],
     ecosystems: ['Publishing', 'Academic Writing', 'Documentation', 'Typesetting'],
   },
-  version: '0.15.0',
+  version: '0.15.1',
   logo: 'https://cdn.simpleicons.org/typst/239DAD',
   color: '#239DAD',
   i18n: {
