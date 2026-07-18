@@ -1,3 +1,12 @@
+## [1.42.4](https://github.com/ElJijuna/code-languages/compare/v1.42.3...v1.42.4) (2026-07-18)
+
+
+### Bug Fixes
+
+* update Astro metadata to 7.1.1 ([4f0ad50](https://github.com/ElJijuna/code-languages/commit/4f0ad500c9c5ff61e30b35b5ec8bb659c0b0e273))
+* update Luau metadata to 0.730 ([9a45afb](https://github.com/ElJijuna/code-languages/commit/9a45afb984646e8392d0e5fee8058c4bbcda3424))
+* update Typst metadata to 0.15.1 ([64b376f](https://github.com/ElJijuna/code-languages/commit/64b376f8d7b9b8479f151d8d5d381c1155fafd12))
+
 ## [1.42.3](https://github.com/ElJijuna/code-languages/compare/v1.42.2...v1.42.3) (2026-07-17)
 
 
