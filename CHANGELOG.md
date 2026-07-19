@@ -1,3 +1,11 @@
+## [1.42.5](https://github.com/ElJijuna/code-languages/compare/v1.42.4...v1.42.5) (2026-07-19)
+
+
+### Bug Fixes
+
+* update CUDA metadata to 13.4.0 ([744f7ab](https://github.com/ElJijuna/code-languages/commit/744f7abef8021588cf50ee31ce426ffe73afcc59))
+* update Less metadata to 4.7.0 ([a5781f2](https://github.com/ElJijuna/code-languages/commit/a5781f2ac54df18af4808a9da5107513357a34b7))
+
 ## [1.42.4](https://github.com/ElJijuna/code-languages/compare/v1.42.3...v1.42.4) (2026-07-18)
 
 
