@@ -493,7 +493,7 @@ from its package subpath.
 | <img src="https://cdn.simpleicons.org/crystal/000000" alt="Crystal logo" width="24" height="24"> | Crystal | `crystal` | `.cr` | `1.21.0` | `code-languages/crystal` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_C_sharp.svg" alt="C# logo" width="24" height="24"> | C# | `csharp` | `.cs`, `.csx` | `14` | `code-languages/csharp` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Official_CSS_Logo.svg" alt="CSS logo" width="24" height="24"> | CSS | `css` | `.css` | `Living Standard` | `code-languages/css` |
-| <img src="https://cdn.simpleicons.org/nvidia/76B900" alt="CUDA logo" width="24" height="24"> | CUDA | `cuda` | `.cu`, `.cuh` | `13.3.1` | `code-languages/cuda` |
+| <img src="https://cdn.simpleicons.org/nvidia/76B900" alt="CUDA logo" width="24" height="24"> | CUDA | `cuda` | `.cu`, `.cuh` | `13.4.0` | `code-languages/cuda` |
 | <img src="https://avatars.githubusercontent.com/u/43867057?s=200&v=4" alt="CUE logo" width="24" height="24"> | CUE | `cue` | `.cue` | `0.17.1` | `code-languages/cue` |
 | <img src="https://www.curry-language.org/assets/img/curry-32x32.png" alt="Curry logo" width="24" height="24"> | Curry | `curry` | `.curry`, `.lcurry` | `Curry 0.9.0` | `code-languages/curry` |
 | <img src="https://avatars.githubusercontent.com/u/9947495?v=4" alt="Common Workflow Language logo" width="24" height="24"> | Common Workflow Language | `cwl` | `.cwl` | `v1.2` | `code-languages/cwl` |
