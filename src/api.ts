@@ -161,6 +161,15 @@ export interface LanguageCollectionRequest {
   /** Narrows the collection to languages related to the given language through `relations`. */
   related(slug: RuntimeLanguageSlug): LanguageCollectionRequest;
 
+  /** Lists the matching catalog slugs without localizing. */
+  slugs(): string[];
+
+  /** Counts the matching languages without localizing. */
+  count(): number;
+
+  /** Reads the first matching language from the in-memory catalog and localizes it. */
+  first(): LocalizedLanguage | undefined;
+
   /**
    * Reads every language from the in-memory catalog and localizes the result.
    */
@@ -328,6 +337,15 @@ const createLanguageCollectionRequest = (
     },
     related(slug) {
       return narrow(relatedPredicate(slug));
+    },
+    slugs() {
+      return getLanguageList().map((language) => language.slug);
+    },
+    count() {
+      return getLanguageList().length;
+    },
+    first() {
+      return localizeOptionalLanguage(getLanguageList().at(0), requestedLocale);
     },
     get() {
       return getLanguageList().map((language) => localizeLanguage(language, requestedLocale));

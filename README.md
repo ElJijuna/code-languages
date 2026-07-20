@@ -451,6 +451,16 @@ api.category("systems").langs().extension(".h").get(); // C, C++
 api.search("script").status("active").get();
 ```
 
+Collections also offer cheap helpers that skip localization: `.slugs()` returns the
+matching catalog slugs, `.count()` the number of matches, and `.first()` the first
+match localized (or `undefined` when the collection is empty):
+
+```ts
+api.category("backend").langs().paradigm("functional").slugs(); // ["clojure", "elixir", ...]
+api.runtime("node").langs().count(); // number of matching languages
+api.search("golang").first()?.slug; // "go"
+```
+
 ## Supported Languages
 
 The catalog currently includes 313 language entries. Each row can be imported directly
