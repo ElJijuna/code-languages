@@ -369,6 +369,22 @@ const createFilteredLanguageCollection = (predicate: (language: Language) => boo
     return loaded.filter((language): language is Language => Boolean(language));
   });
 };
+/**
+ * Builds the `info()`/`langs()` pair shared by every group selector
+ * (`runtime`, `packageManager`, `category`, `paradigm`, `ecosystem`).
+ */
+const createGroupSelection = <Definition, Info>(
+  definition: Definition | undefined,
+  toInfo: (definition: Definition) => Info,
+  predicate: LanguagePredicate,
+) => ({
+  info(): Info | undefined {
+    return definition ? toInfo(definition) : undefined;
+  },
+  langs(): LanguageCollectionRequest {
+    return createFilteredLanguageCollection(predicate);
+  },
+});
 const loadDetectedLanguages = async (filename: string) => {
   const detectedLanguages = await Promise.all(
     detectLanguageSlugs(filename).map((slug) => loadLanguage(slug)),
@@ -580,12 +596,7 @@ export const api = {
     const definition = findRuntime(value);
 
     return {
-      info() {
-        return definition ? runtimeInfoFromDefinition(definition) : undefined;
-      },
-      langs() {
-        return createFilteredLanguageCollection(runtimePredicate(value));
-      },
+      ...createGroupSelection(definition, runtimeInfoFromDefinition, runtimePredicate(value)),
       packageManagers() {
         return definition ? packageManagersForRuntime(definition.packageManagers) : [];
       },
@@ -607,12 +618,11 @@ export const api = {
     const targets = definition?.targets ?? [value];
 
     return {
-      info() {
-        return definition ? packageManagerInfoFromDefinition(definition) : undefined;
-      },
-      langs() {
-        return createFilteredLanguageCollection(packageManagerPredicate(value));
-      },
+      ...createGroupSelection(
+        definition,
+        packageManagerInfoFromDefinition,
+        packageManagerPredicate(value),
+      ),
       runtimes() {
         return runtimesForPackageManager(targets);
       },
@@ -639,16 +649,11 @@ export const api = {
    * await api.category('data-science').langs().load();
    */
   category(value: LanguageCategory): CategoryRequest {
-    const definition = findCategory(value);
-
-    return {
-      info() {
-        return definition ? categoryInfoFromDefinition(definition) : undefined;
-      },
-      langs() {
-        return createFilteredLanguageCollection(categoryPredicate(value));
-      },
-    };
+    return createGroupSelection(
+      findCategory(value),
+      categoryInfoFromDefinition,
+      categoryPredicate(value),
+    );
   },
 
   /**
@@ -662,16 +667,11 @@ export const api = {
    * api.paradigm('oop').info();
    */
   paradigm(value: string): ParadigmRequest {
-    const definition = findParadigm(value);
-
-    return {
-      info() {
-        return definition ? paradigmInfoFromDefinition(definition) : undefined;
-      },
-      langs() {
-        return createFilteredLanguageCollection(paradigmPredicate(value));
-      },
-    };
+    return createGroupSelection(
+      findParadigm(value),
+      paradigmInfoFromDefinition,
+      paradigmPredicate(value),
+    );
   },
 
   /**
@@ -685,16 +685,11 @@ export const api = {
    * api.ecosystem('blockchain').info();
    */
   ecosystem(value: string): EcosystemRequest {
-    const definition = findEcosystem(value);
-
-    return {
-      info() {
-        return definition ? ecosystemInfoFromDefinition(definition) : undefined;
-      },
-      langs() {
-        return createFilteredLanguageCollection(ecosystemPredicate(value));
-      },
-    };
+    return createGroupSelection(
+      findEcosystem(value),
+      ecosystemInfoFromDefinition,
+      ecosystemPredicate(value),
+    );
   },
 
   /**
