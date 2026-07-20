@@ -650,7 +650,7 @@ from its package subpath.
 | <img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg" alt="nginx logo" width="24" height="24"> | nginx | `nginx` | `nginx.conf`, `.nginx`, `.conf` | `1.30.4` | `code-languages/nginx` |
 | <img src="https://avatars.githubusercontent.com/u/83021462?v=4" alt="Nickel logo" width="24" height="24"> | Nickel | `nickel` | `.ncl` | `1.17.0` | `code-languages/nickel` |
 | <img src="https://cdn.simpleicons.org/nim/FFE953" alt="Nim logo" width="24" height="24"> | Nim | `nim` | `.nim`, `.nims`, `.nimble` | `2.2.10` | `code-languages/nim` |
-| <img src="https://cdn.simpleicons.org/nixos/5277C3" alt="Nix logo" width="24" height="24"> | Nix | `nix` | `.nix` | `2.34.8` | `code-languages/nix` |
+| <img src="https://cdn.simpleicons.org/nixos/5277C3" alt="Nix logo" width="24" height="24"> | Nix | `nix` | `.nix` | `2.35.2` | `code-languages/nix` |
 | <img src="https://avatars.githubusercontent.com/u/72610319?v=4" alt="Noir logo" width="24" height="24"> | Noir | `noir` | `.nr` | `1.0.0-beta` | `code-languages/noir` |
 | <img src="https://cdn.simpleicons.org/nunjucks/1C4A1C" alt="Nunjucks logo" width="24" height="24"> | Nunjucks | `nunjucks` | `.njk`, `.nunjucks` | `3.2.4` | `code-languages/nunjucks` |
 | <img src="https://cdn.simpleicons.org/nushell/3AA675" alt="Nushell logo" width="24" height="24"> | Nushell | `nushell` | `.nu` | `0.114.1` | `code-languages/nushell` |
