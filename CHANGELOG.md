@@ -1,3 +1,13 @@
+# [1.43.0](https://github.com/ElJijuna/code-languages/compare/v1.42.5...v1.43.0) (2026-07-20)
+
+
+### Features
+
+* add category info and runtime package managers to api ([cdeb340](https://github.com/ElJijuna/code-languages/commit/cdeb340b9cf97609222d04e5c6c3d2ade4585c6c))
+* add chainable filter composition to language collections ([efd41d8](https://github.com/ElJijuna/code-languages/commit/efd41d818bdd1ca8637682e6591a6b009a8d6350))
+* add collection helper methods for slugs, count, and first language retrieval ([6a5d2e9](https://github.com/ElJijuna/code-languages/commit/6a5d2e9018ddcb679e2f89f3411118f097b7a7bb))
+* implement createGroupSelection for shared group selector functionality ([d830a23](https://github.com/ElJijuna/code-languages/commit/d830a23f477d3a88bab2d74fab782fa744dd9da5))
+
 ## [1.42.5](https://github.com/ElJijuna/code-languages/compare/v1.42.4...v1.42.5) (2026-07-19)
 
 
