@@ -9,6 +9,7 @@ export type {
   StatusRequest,
 } from '@/api';
 export { api, getStatuses } from '@/api';
+export type { CategoryInfo } from '@/domain/category/registry';
 export { getCategories } from '@/domain/category/registry';
 export {
   detectLanguage,

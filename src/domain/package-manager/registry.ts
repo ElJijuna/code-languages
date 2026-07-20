@@ -234,6 +234,25 @@ export function packageManagerInfoFromDefinition(
   };
 }
 
+/**
+ * Resolves runtime package-manager names (such as `['npm', 'Yarn']`) to registry entries.
+ *
+ * Names without a registry entry are omitted; matching is exact and case-insensitive
+ * so `npm` never picks up `pnpm`.
+ */
+export function packageManagersForRuntime(names: string[]): PackageManagerInfo[] {
+  const keys = names.map((name) => name.trim().toLowerCase());
+
+  return PACKAGE_MANAGER_REGISTRY.filter((pm) =>
+    keys.some(
+      (key) =>
+        pm.name.toLowerCase() === key ||
+        pm.aliases.includes(key) ||
+        pm.targets.some((target) => target.toLowerCase() === key),
+    ),
+  ).map(packageManagerInfoFromDefinition);
+}
+
 export function getPackageManagers(): PackageManagerInfo[] {
   return PACKAGE_MANAGER_REGISTRY.map(packageManagerInfoFromDefinition);
 }

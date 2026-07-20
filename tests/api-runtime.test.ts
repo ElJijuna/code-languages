@@ -32,6 +32,69 @@ describe('api.runtime()', () => {
     });
   });
 
+  describe('.packageManagers()', () => {
+    it('node package managers include npm, pnpm, and Yarn', () => {
+      const names = api
+        .runtime('node')
+        .packageManagers()
+        .map((pm) => pm.name);
+
+      expect(names).toContain('npm');
+      expect(names).toContain('pnpm');
+      expect(names).toContain('Yarn');
+    });
+
+    it('npm does not match pnpm by substring', () => {
+      const slugs = api
+        .runtime('deno')
+        .packageManagers()
+        .map((pm) => pm.slug);
+
+      expect(slugs).toContain('npm');
+      expect(slugs).not.toContain('pnpm');
+    });
+
+    it('.net package managers include NuGet', () => {
+      const names = api
+        .runtime('.net')
+        .packageManagers()
+        .map((pm) => pm.name);
+
+      expect(names).toContain('NuGet');
+    });
+
+    it('is the inverse of packageManager().runtimes()', () => {
+      const runtimeSlugs = api
+        .packageManager('cargo')
+        .runtimes()
+        .map((r) => r.slug);
+
+      for (const slug of runtimeSlugs) {
+        const pmSlugs = api
+          .runtime(slug)
+          .packageManagers()
+          .map((pm) => pm.slug);
+
+        expect(pmSlugs).toContain('cargo');
+      }
+    });
+
+    it('unknown runtime returns empty array', () => {
+      expect(api.runtime('unknown-xyz').packageManagers()).toEqual([]);
+    });
+
+    it('package manager entries have all required fields', () => {
+      const [pm] = api.runtime('node').packageManagers();
+
+      expect(pm).toHaveProperty('slug');
+      expect(pm).toHaveProperty('name');
+      expect(pm).toHaveProperty('website');
+      expect(pm).toHaveProperty('logo');
+      expect(pm).toHaveProperty('aliases');
+      expect(pm?.color).toMatch(/^#[0-9A-Fa-f]{6}$/);
+    });
+  });
+
   describe('.langs()', () => {
     it('node includes javascript and typescript', () => {
       const slugs = api

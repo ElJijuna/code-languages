@@ -251,6 +251,31 @@ describe('api.category()', () => {
     });
   });
 
+  describe('.info()', () => {
+    it('returns metadata for every category', () => {
+      for (const category of getCategories()) {
+        const info = api.category(category).info();
+
+        expect(info).toMatchObject({ slug: category });
+        expect(info?.name.length).toBeGreaterThan(0);
+        expect(info?.description.length).toBeGreaterThan(0);
+        expect(info?.aliases).toContain(category);
+      }
+    });
+
+    it('returns name and description for backend', () => {
+      expect(api.category('backend').info()).toMatchObject({
+        slug: 'backend',
+        name: 'Backend',
+        description: 'Languages that run on a server runtime.',
+      });
+    });
+
+    it('returns undefined for unknown value', () => {
+      expect(api.category('unknown-xyz' as never).info()).toBeUndefined();
+    });
+  });
+
   describe('locale chaining', () => {
     it('locale is applied to all returned languages', () => {
       const langs = api.category('backend').langs().locale('es').get();

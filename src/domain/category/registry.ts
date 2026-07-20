@@ -9,9 +9,61 @@ export type LanguageCategory =
   | 'scripting'
   | 'other';
 
+export interface CategoryInfo {
+  slug: LanguageCategory;
+  name: string;
+  description: string;
+  aliases: string[];
+}
+
+type CategoryDefinition = CategoryInfo;
+
+const CATEGORY_REGISTRY: CategoryDefinition[] = [
+  {
+    slug: 'frontend',
+    name: 'Frontend',
+    description: 'Languages that target the browser only.',
+    aliases: ['frontend', 'front-end'],
+  },
+  {
+    slug: 'backend',
+    name: 'Backend',
+    description: 'Languages that run on a server runtime.',
+    aliases: ['backend', 'back-end', 'server'],
+  },
+  {
+    slug: 'fullstack',
+    name: 'Fullstack',
+    description: 'Languages that target both the browser and a server runtime.',
+    aliases: ['fullstack', 'full-stack'],
+  },
+  {
+    slug: 'systems',
+    name: 'Systems',
+    description: 'Low-level, native, and embedded programming languages.',
+    aliases: ['systems', 'systems-programming', 'low-level'],
+  },
+  {
+    slug: 'data-science',
+    name: 'Data Science',
+    description: 'Languages for data analysis, machine learning, and scientific computing.',
+    aliases: ['data-science', 'datascience', 'data'],
+  },
+  {
+    slug: 'scripting',
+    name: 'Scripting',
+    description: 'Shell and scripting languages.',
+    aliases: ['scripting', 'shell'],
+  },
+  {
+    slug: 'other',
+    name: 'Other',
+    description: 'Languages that do not match any other category.',
+    aliases: ['other'],
+  },
+];
 // All matching is case-insensitive substring, same as matchesRuntime.
 // Frontend/backend/fullstack are mutually exclusive; other categories can overlap.
-
 const BROWSER_TARGETS = ['Browser'];
 const SERVER_TARGETS = [
   'Node.js',
@@ -95,6 +147,21 @@ export function matchesCategory(lang: Language, category: LanguageCategory): boo
   }
 }
 
+export function findCategory(value: string): CategoryDefinition | undefined {
+  const key = value.trim().toLowerCase();
+
+  return CATEGORY_REGISTRY.find((c) => c.aliases.includes(key));
+}
+
+export function categoryInfoFromDefinition(def: CategoryDefinition): CategoryInfo {
+  return {
+    slug: def.slug,
+    name: def.name,
+    description: def.description,
+    aliases: def.aliases,
+  };
+}
+
 export function getCategories(): LanguageCategory[] {
-  return ['frontend', 'backend', 'fullstack', 'systems', 'data-science', 'scripting', 'other'];
+  return CATEGORY_REGISTRY.map((c) => c.slug);
 }

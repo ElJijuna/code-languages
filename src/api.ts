@@ -1,4 +1,10 @@
-import { type LanguageCategory, matchesCategory } from '@/domain/category/registry';
+import {
+  type CategoryInfo,
+  categoryInfoFromDefinition,
+  findCategory,
+  type LanguageCategory,
+  matchesCategory,
+} from '@/domain/category/registry';
 import { detectLanguageSlug, detectLanguageSlugs } from '@/domain/detection/detect-slugs';
 import {
   type EcosystemInfo,
@@ -14,6 +20,7 @@ import {
   matchesPackageManager,
   type PackageManagerInfo,
   packageManagerInfoFromDefinition,
+  packageManagersForRuntime,
 } from '@/domain/package-manager/registry';
 import {
   findParadigm,
@@ -75,6 +82,8 @@ export interface RuntimeRequest {
   info(): RuntimeInfo | undefined;
   /** Languages that run on or target this platform. */
   langs(): LanguageCollectionRequest;
+  /** Package managers available on this runtime platform. */
+  packageManagers(): PackageManagerInfo[];
 }
 
 export interface PackageManagerRequest {
@@ -87,6 +96,8 @@ export interface PackageManagerRequest {
 }
 
 export interface CategoryRequest {
+  /** Metadata about the matched category. Returns undefined for unknown values. */
+  info(): CategoryInfo | undefined;
   /** Languages that belong to this category. */
   langs(): LanguageCollectionRequest;
 }
@@ -445,6 +456,7 @@ export const api = {
    * @example
    * api.runtime('node').langs().locale('es').get();
    * api.runtime('.net').info();
+   * api.runtime('node').packageManagers();
    */
   runtime(value: string): RuntimeRequest {
     const definition = findRuntime(value);
@@ -456,6 +468,9 @@ export const api = {
       },
       langs() {
         return createFilteredLanguageCollection((language) => matchesRuntime(language, targets));
+      },
+      packageManagers() {
+        return definition ? packageManagersForRuntime(definition.packageManagers) : [];
       },
     };
   },
@@ -505,12 +520,21 @@ export const api = {
    *
    * @example
    * api.category('backend').langs().locale('es').get();
+   * api.category('backend').info();
    * await api.category('data-science').langs().load();
    */
   category(value: LanguageCategory): CategoryRequest {
+    const definition = findCategory(value);
+    const resolvedCategory = definition?.slug ?? value;
+
     return {
+      info() {
+        return definition ? categoryInfoFromDefinition(definition) : undefined;
+      },
       langs() {
-        return createFilteredLanguageCollection((language) => matchesCategory(language, value));
+        return createFilteredLanguageCollection((language) =>
+          matchesCategory(language, resolvedCategory),
+        );
       },
     };
   },
@@ -581,7 +605,7 @@ export function getStatuses(): LanguageStatus[] {
   return ['active', 'experimental', 'legacy', 'historical'];
 }
 
-export type { LanguageCategory } from '@/domain/category/registry';
+export type { CategoryInfo, LanguageCategory } from '@/domain/category/registry';
 export type { EcosystemInfo } from '@/domain/ecosystem/registry';
 export type { ParadigmInfo } from '@/domain/paradigm/registry';
 export type { LanguageSlug };
