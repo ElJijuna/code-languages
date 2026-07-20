@@ -1,3 +1,10 @@
+## [1.43.1](https://github.com/ElJijuna/code-languages/compare/v1.43.0...v1.43.1) (2026-07-20)
+
+
+### Bug Fixes
+
+* update Nix metadata to 2.35.2 ([d030070](https://github.com/ElJijuna/code-languages/commit/d030070eb0acaf12ddfc0625a319b2bd5b90782b))
+
 # [1.43.0](https://github.com/ElJijuna/code-languages/compare/v1.42.5...v1.43.0) (2026-07-20)
 
 
