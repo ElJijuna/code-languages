@@ -430,6 +430,27 @@ api.related("typescript").langs().get(); // JavaScript
 api.related("sql").langs().get(); // T-SQL, PL/SQL, PL/pgSQL, PRQL
 ```
 
+Filters compose. Every language collection is chainable: call `.category()`, `.paradigm()`, `.runtime()`,
+`.packageManager()`, `.ecosystem()`, `.extension()`, `.status()`, or `.related()` on any
+`langs()`, `languages()`, `search()`, or `detectAll()` result to intersect filters.
+Order does not matter, and `.locale()` can be set at any point in the chain:
+
+```ts
+import { api } from "code-languages/api";
+
+// Backend languages that are also functional
+api.category("backend").langs().paradigm("functional").get(); // Elixir, Erlang, ...
+
+// Active languages that run on Node.js, localized
+api.languages().runtime("node").status("active").locale("es").get();
+
+// Systems languages registering the .h extension
+api.category("systems").langs().extension(".h").get(); // C, C++
+
+// Ranked search narrowed by lifecycle status
+api.search("script").status("active").get();
+```
+
 ## Supported Languages
 
 The catalog currently includes 313 language entries. Each row can be imported directly

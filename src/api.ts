@@ -137,6 +137,30 @@ export interface LanguageCollectionRequest {
    */
   locale(locale: Locale): LanguageCollectionRequest;
 
+  /** Narrows the collection to languages that belong to the given category. */
+  category(value: LanguageCategory): LanguageCollectionRequest;
+
+  /** Narrows the collection to languages that use the given programming paradigm. */
+  paradigm(value: string): LanguageCollectionRequest;
+
+  /** Narrows the collection to languages that run on or target the given platform. */
+  runtime(value: string): LanguageCollectionRequest;
+
+  /** Narrows the collection to languages that use the given package manager. */
+  packageManager(value: string): LanguageCollectionRequest;
+
+  /** Narrows the collection to languages that belong to the given ecosystem. */
+  ecosystem(value: string): LanguageCollectionRequest;
+
+  /** Narrows the collection to languages registering the given extension or exact filename. */
+  extension(value: string): LanguageCollectionRequest;
+
+  /** Narrows the collection to languages with the given lifecycle status. */
+  status(value: LanguageStatus): LanguageCollectionRequest;
+
+  /** Narrows the collection to languages related to the given language through `relations`. */
+  related(slug: RuntimeLanguageSlug): LanguageCollectionRequest;
+
   /**
    * Reads every language from the in-memory catalog and localizes the result.
    */
@@ -200,17 +224,110 @@ const createLanguageRequest = (
 
   return request;
 };
+const getLanguageBySlug = (slug: string): Language | undefined => languageMap.get(slug);
+const getRelationSlugs = (language: Language): string[] => {
+  const { supersetOf = [], dialectOf = [], compilesTo = [] } = language.relations ?? {};
+
+  return [...supersetOf, ...dialectOf, ...compilesTo];
+};
+
+type LanguagePredicate = (language: Language) => boolean;
+
+// Predicate builders shared by the top-level selectors and collection chaining.
+const categoryPredicate = (value: LanguageCategory): LanguagePredicate => {
+  const resolvedCategory = findCategory(value)?.slug ?? value;
+
+  return (language) => matchesCategory(language, resolvedCategory);
+};
+const paradigmPredicate = (value: string): LanguagePredicate => {
+  const targets = findParadigm(value)?.targets ?? [value];
+
+  return (language) => matchesParadigm(language, targets);
+};
+const runtimePredicate = (value: string): LanguagePredicate => {
+  const targets = findRuntime(value)?.targets ?? [value];
+
+  return (language) => matchesRuntime(language, targets);
+};
+const packageManagerPredicate = (value: string): LanguagePredicate => {
+  const targets = findPackageManager(value)?.targets ?? [value];
+
+  return (language) => matchesPackageManager(language, targets);
+};
+const ecosystemPredicate = (value: string): LanguagePredicate => {
+  const targets = findEcosystem(value)?.targets ?? [value];
+
+  return (language) => matchesEcosystem(language, targets);
+};
+const extensionPredicate = (value: string): LanguagePredicate => {
+  const normalized = value.trim().toLowerCase();
+
+  return (language) =>
+    language.extensions.some((extension) => {
+      const normalizedExtension = extension.toLowerCase();
+
+      return normalizedExtension === normalized || normalizedExtension === `.${normalized}`;
+    });
+};
+const statusPredicate =
+  (value: LanguageStatus): LanguagePredicate =>
+  (language) =>
+    (language.status ?? 'active') === value;
+const relatedPredicate = (slug: RuntimeLanguageSlug): LanguagePredicate => {
+  const resolvedSlug = resolveLanguageLookup(slug);
+  const source = getLanguageBySlug(resolvedSlug);
+  const outgoing = new Set(source ? getRelationSlugs(source) : []);
+
+  return (language) =>
+    language.slug !== resolvedSlug &&
+    (outgoing.has(language.slug) || getRelationSlugs(language).includes(resolvedSlug));
+};
 const createLanguageCollectionRequest = (
   getLanguageList: () => Language[],
   loadLanguageList: () => Promise<Language[]>,
 ): LanguageCollectionRequest => {
   let requestedLocale = defaultLocale;
 
+  /** Builds a narrowed collection over this one, carrying the requested locale forward. */
+  const narrow = (predicate: LanguagePredicate): LanguageCollectionRequest => {
+    const filtered = () => getLanguageList().filter(predicate);
+    const next = createLanguageCollectionRequest(filtered, async () => {
+      const loaded = await Promise.all(filtered().map((language) => loadLanguage(language.slug)));
+
+      return loaded.filter((language): language is Language => Boolean(language));
+    });
+
+    return next.locale(requestedLocale);
+  };
   const request: LanguageCollectionRequest = {
     locale(locale) {
       requestedLocale = locale;
 
       return request;
+    },
+    category(value) {
+      return narrow(categoryPredicate(value));
+    },
+    paradigm(value) {
+      return narrow(paradigmPredicate(value));
+    },
+    runtime(value) {
+      return narrow(runtimePredicate(value));
+    },
+    packageManager(value) {
+      return narrow(packageManagerPredicate(value));
+    },
+    ecosystem(value) {
+      return narrow(ecosystemPredicate(value));
+    },
+    extension(value) {
+      return narrow(extensionPredicate(value));
+    },
+    status(value) {
+      return narrow(statusPredicate(value));
+    },
+    related(slug) {
+      return narrow(relatedPredicate(slug));
     },
     get() {
       return getLanguageList().map((language) => localizeLanguage(language, requestedLocale));
@@ -241,12 +358,6 @@ const loadDetectedLanguages = async (filename: string) => {
 
   return detectedLanguages.filter((language): language is Language => Boolean(language));
 };
-const getLanguageBySlug = (slug: string): Language | undefined => languageMap.get(slug);
-const getRelationSlugs = (language: Language): string[] => {
-  const { supersetOf = [], dialectOf = [], compilesTo = [] } = language.relations ?? {};
-
-  return [...supersetOf, ...dialectOf, ...compilesTo];
-};
 const getDetectedLanguages = (filename: string) =>
   detectLanguageSlugs(filename)
     .map((slug) => getLanguageBySlug(slug))
@@ -257,6 +368,14 @@ const getDetectedLanguages = (filename: string) =>
  *
  * Use `.get()` for synchronous catalog access or `.load()` to dynamically import only the
  * requested language modules.
+ *
+ * Language collections compose: chain `.category()`, `.paradigm()`, `.runtime()`,
+ * `.packageManager()`, `.ecosystem()`, `.extension()`, `.status()`, or `.related()` on any
+ * collection to intersect filters.
+ *
+ * @example
+ * api.category('backend').langs().paradigm('functional').get();
+ * api.languages().runtime('node').status('active').locale('es').get();
  */
 export const api = {
   /**
@@ -328,17 +447,9 @@ export const api = {
    * api.extension('ts').langs().locale('es').get();
    */
   extension(value: string): ExtensionRequest {
-    const normalized = value.trim().toLowerCase();
-
     return {
       langs() {
-        return createFilteredLanguageCollection((language) =>
-          language.extensions.some((extension) => {
-            const normalizedExtension = extension.toLowerCase();
-
-            return normalizedExtension === normalized || normalizedExtension === `.${normalized}`;
-          }),
-        );
+        return createFilteredLanguageCollection(extensionPredicate(value));
       },
     };
   },
@@ -415,9 +526,7 @@ export const api = {
   status(value: LanguageStatus): StatusRequest {
     return {
       langs() {
-        return createFilteredLanguageCollection(
-          (language) => (language.status ?? 'active') === value,
-        );
+        return createFilteredLanguageCollection(statusPredicate(value));
       },
     };
   },
@@ -431,18 +540,9 @@ export const api = {
    * api.related('typescript').langs().get(); // JavaScript
    */
   related(slug: RuntimeLanguageSlug): RelatedRequest {
-    const resolvedSlug = resolveLanguageLookup(slug);
-
     return {
       langs() {
-        const source = getLanguageBySlug(resolvedSlug);
-        const outgoing = new Set(source ? getRelationSlugs(source) : []);
-
-        return createFilteredLanguageCollection(
-          (language) =>
-            language.slug !== resolvedSlug &&
-            (outgoing.has(language.slug) || getRelationSlugs(language).includes(resolvedSlug)),
-        );
+        return createFilteredLanguageCollection(relatedPredicate(slug));
       },
     };
   },
@@ -460,14 +560,13 @@ export const api = {
    */
   runtime(value: string): RuntimeRequest {
     const definition = findRuntime(value);
-    const targets = definition?.targets ?? [value];
 
     return {
       info() {
         return definition ? runtimeInfoFromDefinition(definition) : undefined;
       },
       langs() {
-        return createFilteredLanguageCollection((language) => matchesRuntime(language, targets));
+        return createFilteredLanguageCollection(runtimePredicate(value));
       },
       packageManagers() {
         return definition ? packageManagersForRuntime(definition.packageManagers) : [];
@@ -494,9 +593,7 @@ export const api = {
         return definition ? packageManagerInfoFromDefinition(definition) : undefined;
       },
       langs() {
-        return createFilteredLanguageCollection((language) =>
-          matchesPackageManager(language, targets),
-        );
+        return createFilteredLanguageCollection(packageManagerPredicate(value));
       },
       runtimes() {
         return runtimesForPackageManager(targets);
@@ -525,16 +622,13 @@ export const api = {
    */
   category(value: LanguageCategory): CategoryRequest {
     const definition = findCategory(value);
-    const resolvedCategory = definition?.slug ?? value;
 
     return {
       info() {
         return definition ? categoryInfoFromDefinition(definition) : undefined;
       },
       langs() {
-        return createFilteredLanguageCollection((language) =>
-          matchesCategory(language, resolvedCategory),
-        );
+        return createFilteredLanguageCollection(categoryPredicate(value));
       },
     };
   },
@@ -551,14 +645,13 @@ export const api = {
    */
   paradigm(value: string): ParadigmRequest {
     const definition = findParadigm(value);
-    const targets = definition?.targets ?? [value];
 
     return {
       info() {
         return definition ? paradigmInfoFromDefinition(definition) : undefined;
       },
       langs() {
-        return createFilteredLanguageCollection((language) => matchesParadigm(language, targets));
+        return createFilteredLanguageCollection(paradigmPredicate(value));
       },
     };
   },
@@ -575,14 +668,13 @@ export const api = {
    */
   ecosystem(value: string): EcosystemRequest {
     const definition = findEcosystem(value);
-    const targets = definition?.targets ?? [value];
 
     return {
       info() {
         return definition ? ecosystemInfoFromDefinition(definition) : undefined;
       },
       langs() {
-        return createFilteredLanguageCollection((language) => matchesEcosystem(language, targets));
+        return createFilteredLanguageCollection(ecosystemPredicate(value));
       },
     };
   },
