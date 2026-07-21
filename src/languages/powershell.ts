@@ -13,7 +13,7 @@ export const powershell = {
     packageManagers: ['PowerShell Gallery', 'PSResourceGet', 'PowerShellGet'],
     ecosystems: ['Windows', 'Azure', 'DevOps', 'Automation'],
   },
-  version: '7.6.3',
+  version: '7.6.4',
   logo: 'https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png',
   color: '#5391FE',
   i18n: {
