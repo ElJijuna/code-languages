@@ -487,7 +487,7 @@ from its package subpath.
 | <img src="https://cdn.simpleicons.org/dotnet/512BD4" alt="ASP/ASPX logo" width="24" height="24"> | ASP/ASPX | `asp` | `.asp`, `.aspx`, `.ascx`, `.ashx`, `.asmx`, `.master` | `4.8.1` | `code-languages/asp` |
 | <img src="https://cdn.simpleicons.org/assemblyscript/007AAC" alt="Assembly logo" width="24" height="24"> | Assembly | `assembly` | `.asm`, `.s`, `.S`, `.inc` | `Architecture-specific` | `code-languages/assembly` |
 | <img src="https://avatars.githubusercontent.com/u/28916798?v=4" alt="AssemblyScript logo" width="24" height="24"> | AssemblyScript | `assemblyscript` | `.as` | `0.28.19` | `code-languages/assemblyscript` |
-| <img src="https://astro.build/assets/press/astro-icon-light.svg" alt="Astro logo" width="24" height="24"> | Astro | `astro` | `.astro` | `7.1.1` | `code-languages/astro` |
+| <img src="https://astro.build/assets/press/astro-icon-light.svg" alt="Astro logo" width="24" height="24"> | Astro | `astro` | `.astro` | `7.1.3` | `code-languages/astro` |
 | <img src="https://avatars.githubusercontent.com/u/17337956?v=4" alt="Austral logo" width="24" height="24"> | Austral | `austral` | `.aum`, `.aui` | `0.1.0` | `code-languages/austral` |
 | <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_autohotkey.svg" alt="AutoHotkey logo" width="24" height="24"> | AutoHotkey | `autohotkey` | `.ahk`, `.ah2` | `2.0` | `code-languages/autohotkey` |
 | <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Apache_Avro_Logo.svg" alt="Avro IDL logo" width="24" height="24"> | Avro IDL | `avro-idl` | `.avdl` | `1.12.1` | `code-languages/avro-idl` |
