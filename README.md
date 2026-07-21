@@ -664,7 +664,7 @@ from its package subpath.
 | <img src="https://avatars.githubusercontent.com/u/1864477?v=4" alt="OpenSCAD logo" width="24" height="24"> | OpenSCAD | `openscad` | `.scad` | `2021.01` | `code-languages/openscad` |
 | <img src="https://orgmode.org/resources/img/org-mode-unicorn.svg" alt="Org-mode logo" width="24" height="24"> | Org-mode | `org` | `.org` | `9.8` | `code-languages/org` |
 | <img src="https://cdn.simpleicons.org/lazarus/000000" alt="Pascal logo" width="24" height="24"> | Pascal | `pascal` | `.pas`, `.pp`, `.inc`, `.lpr`, `.dpr`, `.dfm` | `3.2.2` | `code-languages/pascal` |
-| <img src="https://cdn.simpleicons.org/perl/39457E" alt="Perl logo" width="24" height="24"> | Perl | `perl` | `.pl`, `.pm`, `.pod`, `.t`, `.psgi` | `5.42.2` | `code-languages/perl` |
+| <img src="https://cdn.simpleicons.org/perl/39457E" alt="Perl logo" width="24" height="24"> | Perl | `perl` | `.pl`, `.pm`, `.pod`, `.t`, `.psgi` | `5.44.0` | `code-languages/perl` |
 | <img src="https://www.php.net/images/logos/new-php-logo.svg" alt="PHP logo" width="24" height="24"> | PHP | `php` | `.php`, `.phtml`, `.php3`, `.php4`, `.php5`, `.phps` | `8.5.8` | `code-languages/php` |
 | <img src="https://cdn.simpleicons.org/tradingview/131722" alt="Pine Script logo" width="24" height="24"> | Pine Script | `pine-script` | `.pine` | `v6` | `code-languages/pine-script` |
 | <img src="https://avatars.githubusercontent.com/u/10639145?v=4" alt="Pkl logo" width="24" height="24"> | Pkl | `pkl` | `.pkl` | `0.31.1` | `code-languages/pkl` |

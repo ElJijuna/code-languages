@@ -12,7 +12,7 @@ export const perl = {
     packageManagers: ['CPAN', 'cpanm', 'Carton'],
     ecosystems: ['Unix', 'Web', 'Text Processing', 'System Administration', 'Bioinformatics'],
   },
-  version: '5.42.2',
+  version: '5.44.0',
   logo: 'https://cdn.simpleicons.org/perl/39457E',
   color: '#39457E',
   i18n: {
