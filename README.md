@@ -672,7 +672,7 @@ from its package subpath.
 | <img src="https://plantuml.com/logo3.png" alt="PlantUML logo" width="24" height="24"> | PlantUML | `plantuml` | `.puml`, `.plantuml`, `.iuml` | `1.2026.6` | `code-languages/plantuml` |
 | <img src="https://cdn.simpleicons.org/postgresql/4169E1" alt="PL/pgSQL logo" width="24" height="24"> | PL/pgSQL | `plpgsql` | `.pgsql`, `.plpgsql` | `stable` | `code-languages/plpgsql` |
 | <img src="https://github.com/oracle.png" alt="Oracle PL/SQL logo" width="24" height="24"> | Oracle PL/SQL | `plsql` | `.pls`, `.pks`, `.pkb`, `.plsql` | `Oracle Database 26ai` | `code-languages/plsql` |
-| <img src="https://cdn.simpleicons.org/perl/39457E" alt="Plain Old Documentation logo" width="24" height="24"> | Plain Old Documentation | `pod` | `.pod` | `Perl 5.42.2` | `code-languages/pod` |
+| <img src="https://cdn.simpleicons.org/perl/39457E" alt="Plain Old Documentation logo" width="24" height="24"> | Plain Old Documentation | `pod` | `.pod` | `Perl 5.44.0` | `code-languages/pod` |
 | <img src="https://avatars.githubusercontent.com/u/14593805?v=4" alt="Pony logo" width="24" height="24"> | Pony | `pony` | `.pony` | `0.61.1` | `code-languages/pony` |
 | <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_postscript.svg" alt="PostScript logo" width="24" height="24"> | PostScript | `postscript` | `.ps`, `.eps` | `PostScript 3` | `code-languages/postscript` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" alt="Power Query M logo" width="24" height="24"> | Power Query M | `powerquery` | `.pq`, `.pqm` | `Power Query M 2025` | `code-languages/powerquery` |
