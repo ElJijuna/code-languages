@@ -11,7 +11,7 @@ export const pod = {
     runtimes: ['perldoc', 'Pod::Simple'],
     ecosystems: ['Perl', 'Documentation'],
   },
-  version: 'Perl 5.42.2',
+  version: 'Perl 5.44.0',
   logo: 'https://cdn.simpleicons.org/perl/39457E',
   color: '#39457E',
   i18n: {
