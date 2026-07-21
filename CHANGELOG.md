@@ -1,3 +1,15 @@
+## [1.43.2](https://github.com/ElJijuna/code-languages/compare/v1.43.1...v1.43.2) (2026-07-21)
+
+
+### Bug Fixes
+
+* update Astro metadata to 7.1.3 ([af92fd2](https://github.com/ElJijuna/code-languages/commit/af92fd25b70205183b3a48e6b8e948cc27dd8393))
+* update Perl metadata to 5.44.0 ([e0a1e47](https://github.com/ElJijuna/code-languages/commit/e0a1e47884876c14a2a47ccc6b952f85d425722e))
+* update Plain Old Documentation metadata to Perl 5.44.0 ([173176e](https://github.com/ElJijuna/code-languages/commit/173176e2f4b34b7ea6fb2e7583352388f4a5776d))
+* update PowerShell metadata to 7.6.4 ([4914d29](https://github.com/ElJijuna/code-languages/commit/4914d29c6770d506adce407dc6d3e00088ea2877))
+* update Sass metadata to 1.101.3 ([b7bb59a](https://github.com/ElJijuna/code-languages/commit/b7bb59a25634d48d464d1054bfd35ecd5658e3d0))
+* update Svelte metadata to 5.56.7 ([164389c](https://github.com/ElJijuna/code-languages/commit/164389cb5651099faa052b761307f1f6c3e35a76))
+
 ## [1.43.1](https://github.com/ElJijuna/code-languages/compare/v1.43.0...v1.43.1) (2026-07-20)
 
 
