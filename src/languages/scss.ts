@@ -16,7 +16,7 @@ export const scss = {
     packageManagers: ['npm', 'pnpm', 'Yarn', 'Bun'],
     ecosystems: ['Web', 'Design Systems'],
   },
-  version: '1.101.3',
+  version: '1.101.6',
   logo: 'https://sass-lang.com/assets/img/logos/logo.svg',
   color: '#CC6699',
   i18n: {
