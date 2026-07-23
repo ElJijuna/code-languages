@@ -16,7 +16,7 @@ export const less = {
     packageManagers: ['npm', 'pnpm', 'Yarn', 'Bun'],
     ecosystems: ['Web', 'Design Systems', 'Bootstrap'],
   },
-  version: '4.7.0',
+  version: '4.8.0',
   logo: 'https://upload.wikimedia.org/wikipedia/commons/8/81/LESS_Logo.svg',
   color: '#1D365D',
   i18n: {
