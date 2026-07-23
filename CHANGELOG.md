@@ -1,3 +1,12 @@
+## [1.43.3](https://github.com/ElJijuna/code-languages/compare/v1.43.2...v1.43.3) (2026-07-23)
+
+
+### Bug Fixes
+
+* update Lean metadata to 4.32.1 ([69b6a88](https://github.com/ElJijuna/code-languages/commit/69b6a88d6ede34b7fb0da1d253b41f7a79f114c8))
+* update Less metadata to 4.8.0 ([1730ea7](https://github.com/ElJijuna/code-languages/commit/1730ea7fe7cc86a9d57048ab2779e79630b57e68))
+* update Sass metadata to 1.101.6 ([b00f254](https://github.com/ElJijuna/code-languages/commit/b00f2547e0cfdb6991dad3f054e7c498ca16c0cd))
+
 ## [1.43.2](https://github.com/ElJijuna/code-languages/compare/v1.43.1...v1.43.2) (2026-07-21)
 
 
