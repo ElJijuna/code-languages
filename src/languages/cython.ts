@@ -16,7 +16,7 @@ export const cython = {
     packageManagers: ['pip', 'conda', 'Poetry'],
     ecosystems: ['Python', 'Native Extensions', 'Scientific Computing'],
   },
-  version: '3.2.8',
+  version: '3.2.9',
   logo: 'https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_cython.svg',
   color: '#FED140',
   i18n: {
