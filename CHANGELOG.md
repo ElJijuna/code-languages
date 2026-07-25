@@ -1,3 +1,11 @@
+## [1.43.4](https://github.com/ElJijuna/code-languages/compare/v1.43.3...v1.43.4) (2026-07-25)
+
+
+### Bug Fixes
+
+* update Cython metadata to 3.2.9 ([366fdcf](https://github.com/ElJijuna/code-languages/commit/366fdcf7d246eeba238085d274e84e607824314f))
+* update Sass metadata to 1.101.7 ([c5986a6](https://github.com/ElJijuna/code-languages/commit/c5986a6b75c9b375ddb323c332a0bc4cde994a62))
+
 ## [1.43.3](https://github.com/ElJijuna/code-languages/compare/v1.43.2...v1.43.3) (2026-07-23)
 
 
