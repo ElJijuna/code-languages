@@ -1,3 +1,12 @@
+## [1.43.5](https://github.com/ElJijuna/code-languages/compare/v1.43.4...v1.43.5) (2026-07-26)
+
+
+### Bug Fixes
+
+* update Luau metadata to 0.731 ([674d33d](https://github.com/ElJijuna/code-languages/commit/674d33d8c7c2b64145ffb35fa2fee5dc4012cc08))
+* update Sass metadata to 1.102.0 ([aad5e0b](https://github.com/ElJijuna/code-languages/commit/aad5e0be0edd5ba68b9a7e4656189ca402c16087))
+* update Svelte metadata to 5.56.8 ([acfacdf](https://github.com/ElJijuna/code-languages/commit/acfacdfcfe9418660080ab1b1a4f52468da17211))
+
 ## [1.43.4](https://github.com/ElJijuna/code-languages/compare/v1.43.3...v1.43.4) (2026-07-25)
 
 
