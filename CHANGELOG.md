@@ -1,3 +1,12 @@
+## [1.43.6](https://github.com/ElJijuna/code-languages/compare/v1.43.5...v1.43.6) (2026-07-28)
+
+
+### Bug Fixes
+
+* update Astro metadata to 7.1.4 ([ac5791e](https://github.com/ElJijuna/code-languages/commit/ac5791eba99fa2505b3a31c49e25474ab3f58779))
+* update Erlang metadata to OTP 29.0.4 ([8469d8c](https://github.com/ElJijuna/code-languages/commit/8469d8cb0a06fdba099930aa0600379b6ed46f24))
+* update Less metadata to 4.8.1 ([7e51d24](https://github.com/ElJijuna/code-languages/commit/7e51d24d71a5106c59348a28ebd123848e408038))
+
 ## [1.43.5](https://github.com/ElJijuna/code-languages/compare/v1.43.4...v1.43.5) (2026-07-26)
 
 
