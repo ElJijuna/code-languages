@@ -12,7 +12,7 @@ export const astro = {
     packageManagers: ['npm', 'pnpm', 'Yarn', 'Bun'],
     ecosystems: ['Web', 'Static Sites', 'Content'],
   },
-  version: '7.1.3',
+  version: '7.1.4',
   logo: 'https://astro.build/assets/press/astro-icon-light.svg',
   color: '#FF5D01',
   i18n: {
