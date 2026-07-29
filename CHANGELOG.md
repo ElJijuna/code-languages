@@ -1,3 +1,13 @@
+## [1.43.7](https://github.com/ElJijuna/code-languages/compare/v1.43.6...v1.43.7) (2026-07-29)
+
+
+### Bug Fixes
+
+* update Astro metadata to 7.1.5 ([e955e0d](https://github.com/ElJijuna/code-languages/commit/e955e0d6cb7ffbcadc7e2ec2b2cfe95df90ea9e4))
+* update CMake metadata to 4.4.1 ([c46f4f1](https://github.com/ElJijuna/code-languages/commit/c46f4f13e0a573d8a38c243e29180018a1b963bd))
+* update Haml metadata to 7.2.2 ([637fff0](https://github.com/ElJijuna/code-languages/commit/637fff0972f3a5c5d5c1ce2108aed504bba427c5))
+* update Lean metadata to 4.32.2 ([69b8881](https://github.com/ElJijuna/code-languages/commit/69b8881ccdc4cd1b23b47cb1cd14ebf0d69aa0d4))
+
 ## [1.43.6](https://github.com/ElJijuna/code-languages/compare/v1.43.5...v1.43.6) (2026-07-28)
 
 
