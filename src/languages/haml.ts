@@ -12,7 +12,7 @@ export const haml = {
     packageManagers: ['RubyGems', 'Bundler'],
     ecosystems: ['Ruby', 'Ruby on Rails', 'Web'],
   },
-  version: '7.2.0',
+  version: '7.2.2',
   logo: 'https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_haml.svg',
   color: '#ECE2A9',
   i18n: {
