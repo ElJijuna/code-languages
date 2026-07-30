@@ -1,3 +1,11 @@
+## [1.43.8](https://github.com/ElJijuna/code-languages/compare/v1.43.7...v1.43.8) (2026-07-30)
+
+
+### Bug Fixes
+
+* update Astro metadata to 7.1.6 ([9383533](https://github.com/ElJijuna/code-languages/commit/93835339b1b102c31084054df78b59bab0952d08))
+* update Gleam metadata to 1.18.0 ([7b6e661](https://github.com/ElJijuna/code-languages/commit/7b6e6613bbe61bbb587cc884b19b40a887e12934))
+
 ## [1.43.7](https://github.com/ElJijuna/code-languages/compare/v1.43.6...v1.43.7) (2026-07-29)
 
 
