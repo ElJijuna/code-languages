@@ -15,7 +15,7 @@ export const gleam = {
     packageManagers: ['gleam', 'Hex'],
     ecosystems: ['BEAM', 'Erlang', 'Elixir', 'JavaScript', 'Web'],
   },
-  version: '1.17.0',
+  version: '1.18.0',
   logo: 'https://cdn.simpleicons.org/gleam/FFAFF3',
   color: '#FFAFF3',
   i18n: {
