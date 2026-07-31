@@ -1,3 +1,12 @@
+## [1.43.9](https://github.com/ElJijuna/code-languages/compare/v1.43.8...v1.43.9) (2026-07-31)
+
+
+### Bug Fixes
+
+* update Bicep metadata to 0.46.1 ([46d025a](https://github.com/ElJijuna/code-languages/commit/46d025a98f8b3e296ccaceaeeeb08545e5b94785))
+* update PHP metadata to 8.5.9 ([8e2a3a7](https://github.com/ElJijuna/code-languages/commit/8e2a3a746dac10839e953644a20a9a0225860f86))
+* update Rego metadata to OPA 1.19.0 ([2a5fc8d](https://github.com/ElJijuna/code-languages/commit/2a5fc8d20bf701564e31e695fe992821214fda42))
+
 ## [1.43.8](https://github.com/ElJijuna/code-languages/compare/v1.43.7...v1.43.8) (2026-07-30)
 
 
