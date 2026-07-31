@@ -698,7 +698,7 @@ from its package subpath.
 | <img src="https://cdn.simpleicons.org/reason/DD4B39" alt="ReasonML logo" width="24" height="24"> | ReasonML | `reasonml` | `.re`, `.rei` | `3.13.0` | `code-languages/reasonml` |
 | <img src="https://www.rebol.com/graphics/reb-logo.gif" alt="Rebol logo" width="24" height="24"> | Rebol | `rebol` | `.r`, `.reb`, `.rebol` | `Rebol 3` | `code-languages/rebol` |
 | <img src="https://static.red-lang.org/red-logo.svg" alt="Red logo" width="24" height="24"> | Red | `red` | `.red`, `.reds` | `0.6.6` | `code-languages/red` |
-| <img src="https://raw.githubusercontent.com/open-policy-agent/opa/main/logo/logo.svg" alt="Rego logo" width="24" height="24"> | Rego | `rego` | `.rego` | `OPA 1.18.2` | `code-languages/rego` |
+| <img src="https://raw.githubusercontent.com/open-policy-agent/opa/main/logo/logo.svg" alt="Rego logo" width="24" height="24"> | Rego | `rego` | `.rego` | `OPA 1.19.0` | `code-languages/rego` |
 | <img src="https://avatars.githubusercontent.com/u/1900740?v=4" alt="Ren'Py logo" width="24" height="24"> | Ren'Py | `renpy` | `.rpy`, `.rpym` | `8.3.7` | `code-languages/renpy` |
 | <img src="https://cdn.simpleicons.org/rescript/E6484A" alt="ReScript logo" width="24" height="24"> | ReScript | `rescript` | `.res`, `.resi` | `12.3.0` | `code-languages/rescript` |
 | <img src="https://cdn.simpleicons.org/readthedocs/8CA1AF" alt="reStructuredText logo" width="24" height="24"> | reStructuredText | `restructuredtext` | `.rst`, `.rest` | `Docutils 0.22.2` | `code-languages/restructuredtext` |
