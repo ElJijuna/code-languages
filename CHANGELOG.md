@@ -1,3 +1,12 @@
+## [1.43.10](https://github.com/ElJijuna/code-languages/compare/v1.43.9...v1.43.10) (2026-08-01)
+
+
+### Bug Fixes
+
+* update CMake metadata to 4.4.2 ([25bea3f](https://github.com/ElJijuna/code-languages/commit/25bea3fcac4b6eea469848eb7459a8e17d117d91))
+* update Groovy metadata to 5.0.8 ([503b88c](https://github.com/ElJijuna/code-languages/commit/503b88c895403380aeaa9c013aa0bd52cc925396))
+* update Luau metadata to 0.732 ([323e8a9](https://github.com/ElJijuna/code-languages/commit/323e8a9986f5d36223a6716079080c9c4b04fe48))
+
 ## [1.43.9](https://github.com/ElJijuna/code-languages/compare/v1.43.8...v1.43.9) (2026-07-31)
 
 
