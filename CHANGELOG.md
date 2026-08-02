@@ -1,3 +1,11 @@
+## [1.43.11](https://github.com/ElJijuna/code-languages/compare/v1.43.10...v1.43.11) (2026-08-02)
+
+
+### Bug Fixes
+
+* update Gleam metadata to 1.18.1 ([ac5d81d](https://github.com/ElJijuna/code-languages/commit/ac5d81dec31d3c83f731d636056e385b0c9413aa))
+* update Liquid metadata to 10.28.0 ([f468092](https://github.com/ElJijuna/code-languages/commit/f4680927bea3476398e615f076dae3fe0a2f2a73))
+
 ## [1.43.10](https://github.com/ElJijuna/code-languages/compare/v1.43.9...v1.43.10) (2026-08-01)
 
 
