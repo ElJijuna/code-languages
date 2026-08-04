@@ -12,7 +12,7 @@ export const lua = {
     packageManagers: ['LuaRocks'],
     ecosystems: ['Game Development', 'Embedded Systems', 'Scripting', 'Configuration'],
   },
-  version: '5.5.0',
+  version: '5.5.1',
   logo: 'https://www.lua.org/images/lua-logo.gif',
   color: '#000080',
   i18n: {
