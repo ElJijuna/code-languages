@@ -1,3 +1,10 @@
+## [1.43.12](https://github.com/ElJijuna/code-languages/compare/v1.43.11...v1.43.12) (2026-08-04)
+
+
+### Bug Fixes
+
+* update Lua metadata to 5.5.1 ([3bc0d45](https://github.com/ElJijuna/code-languages/commit/3bc0d45274d1616f995431ebd78a03f48b2e7f91))
+
 ## [1.43.11](https://github.com/ElJijuna/code-languages/compare/v1.43.10...v1.43.11) (2026-08-02)
 
 
