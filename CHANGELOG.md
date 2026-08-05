@@ -1,3 +1,13 @@
+## [1.43.13](https://github.com/ElJijuna/code-languages/compare/v1.43.12...v1.43.13) (2026-08-05)
+
+
+### Bug Fixes
+
+* update Elixir metadata to 1.20.3 ([9d8243f](https://github.com/ElJijuna/code-languages/commit/9d8243fec52f17a8a4be279a8a10b92dcde91044))
+* update Erlang metadata to OTP 29.0.5 ([0f49fe0](https://github.com/ElJijuna/code-languages/commit/0f49fe036b349f6c579d6326a289086a52b221dd))
+* update Mermaid metadata to 11.16.1 ([8d93d64](https://github.com/ElJijuna/code-languages/commit/8d93d64fe481dc08f1031c02633a76f8a12404cd))
+* update Vue metadata to 3.5.41 ([c54ddb5](https://github.com/ElJijuna/code-languages/commit/c54ddb5b0bbb5fcb85c29a45accdc7842a0493f6))
+
 ## [1.43.12](https://github.com/ElJijuna/code-languages/compare/v1.43.11...v1.43.12) (2026-08-04)
 
 
