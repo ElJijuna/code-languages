@@ -12,7 +12,7 @@ export const d = {
     packageManagers: ['DUB'],
     ecosystems: ['Systems Programming', 'Native Applications', 'Tooling', 'Game Development'],
   },
-  version: '2.112.0',
+  version: '2.112.1',
   logo: 'https://cdn.simpleicons.org/d/BA595E',
   color: '#BA595E',
   i18n: {
