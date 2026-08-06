@@ -1,3 +1,11 @@
+## [1.43.14](https://github.com/ElJijuna/code-languages/compare/v1.43.13...v1.43.14) (2026-08-06)
+
+
+### Bug Fixes
+
+* update D metadata to 2.112.1 ([9fc5b34](https://github.com/ElJijuna/code-languages/commit/9fc5b34f88ce34175020e47bbe960c25bc47e68f))
+* update Python metadata to 3.14.7 ([91b58bf](https://github.com/ElJijuna/code-languages/commit/91b58bfa5a9983694324496e62eedd7edcb41338))
+
 ## [1.43.13](https://github.com/ElJijuna/code-languages/compare/v1.43.12...v1.43.13) (2026-08-05)
 
 
