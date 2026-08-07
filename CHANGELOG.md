@@ -1,3 +1,12 @@
+## [1.43.15](https://github.com/ElJijuna/code-languages/compare/v1.43.14...v1.43.15) (2026-08-07)
+
+
+### Bug Fixes
+
+* update Astro metadata to 7.2.0 ([c50bc9a](https://github.com/ElJijuna/code-languages/commit/c50bc9a504bcd626f6f17acec698dfe8a0a08490))
+* update Gradle metadata to 9.7.0 ([6e96f3c](https://github.com/ElJijuna/code-languages/commit/6e96f3cd64ece29641ba2eb38968a882f7bb1e06))
+* update Haml metadata to 7.3.0 ([2cbfd11](https://github.com/ElJijuna/code-languages/commit/2cbfd11d7500747b7002733abdd5e23f796f6de5))
+
 ## [1.43.14](https://github.com/ElJijuna/code-languages/compare/v1.43.13...v1.43.14) (2026-08-06)
 
 
