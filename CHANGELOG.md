@@ -1,3 +1,10 @@
+## [1.43.16](https://github.com/ElJijuna/code-languages/compare/v1.43.15...v1.43.16) (2026-08-09)
+
+
+### Bug Fixes
+
+* update Luau metadata to 0.733 ([fa6a9ee](https://github.com/ElJijuna/code-languages/commit/fa6a9ee6b7144a5454cc5a2652eccbf7208d3f24))
+
 ## [1.43.15](https://github.com/ElJijuna/code-languages/compare/v1.43.14...v1.43.15) (2026-08-07)
 
 
