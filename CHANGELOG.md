@@ -1,3 +1,10 @@
+## [1.43.17](https://github.com/ElJijuna/code-languages/compare/v1.43.16...v1.43.17) (2026-08-10)
+
+
+### Bug Fixes
+
+* update Lean metadata to 4.33.0 ([52112cb](https://github.com/ElJijuna/code-languages/commit/52112cb2f7b45c6eeac7eb54f777395f8ca703fa))
+
 ## [1.43.16](https://github.com/ElJijuna/code-languages/compare/v1.43.15...v1.43.16) (2026-08-09)
 
 
