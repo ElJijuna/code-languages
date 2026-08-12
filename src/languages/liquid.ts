@@ -12,7 +12,7 @@ export const liquid = {
     packageManagers: ['RubyGems', 'npm'],
     ecosystems: ['Shopify', 'Jekyll', 'Static Sites', 'E-commerce'],
   },
-  version: '10.28.0',
+  version: '10.29.0',
   logo: 'https://cdn.simpleicons.org/shopify/7AB55C',
   color: '#7AB55C',
   i18n: {
