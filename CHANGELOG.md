@@ -1,3 +1,10 @@
+## [1.43.18](https://github.com/ElJijuna/code-languages/compare/v1.43.17...v1.43.18) (2026-08-12)
+
+
+### Bug Fixes
+
+* update Meson metadata to 1.12.0 ([68d3c84](https://github.com/ElJijuna/code-languages/commit/68d3c844c4e3ce57f04e679cf31f379e2306888d))
+
 ## [1.43.17](https://github.com/ElJijuna/code-languages/compare/v1.43.16...v1.43.17) (2026-08-10)
 
 
