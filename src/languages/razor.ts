@@ -12,7 +12,7 @@ export const razor = {
     packageManagers: ['NuGet'],
     ecosystems: ['.NET', 'ASP.NET Core', 'Web', 'Blazor'],
   },
-  version: '10.0.10',
+  version: '10.0.11',
   logo: 'https://cdn.simpleicons.org/dotnet/512BD4',
   color: '#512BD4',
   i18n: {
