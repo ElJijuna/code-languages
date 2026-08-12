@@ -1,3 +1,13 @@
+## [1.43.19](https://github.com/ElJijuna/code-languages/compare/v1.43.18...v1.43.19) (2026-08-12)
+
+
+### Bug Fixes
+
+* update Astro metadata to 7.2.1 ([7fe42c9](https://github.com/ElJijuna/code-languages/commit/7fe42c94b0c9241f5807466df3a2f62600921be5))
+* update Dart metadata to 3.13.0 ([a35afd1](https://github.com/ElJijuna/code-languages/commit/a35afd1b4b3c515fe81e78912a3c6cc56015c451))
+* update Liquid metadata to 10.29.0 ([239ce59](https://github.com/ElJijuna/code-languages/commit/239ce5954a6be9e2f66074ef8e48c7900664c8fd))
+* update Razor metadata to 10.0.11 ([d6a5e92](https://github.com/ElJijuna/code-languages/commit/d6a5e923e044ddc3e8611a4178f33fae35d1ac32))
+
 ## [1.43.18](https://github.com/ElJijuna/code-languages/compare/v1.43.17...v1.43.18) (2026-08-12)
 
 
