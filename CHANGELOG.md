@@ -1,3 +1,10 @@
+## [1.43.20](https://github.com/ElJijuna/code-languages/compare/v1.43.19...v1.43.20) (2026-08-13)
+
+
+### Bug Fixes
+
+* update Svelte metadata to 5.56.9 ([5d3fddb](https://github.com/ElJijuna/code-languages/commit/5d3fddb3bcf9f71d10671a7e0edf5aca35acb2d3))
+
 ## [1.43.19](https://github.com/ElJijuna/code-languages/compare/v1.43.18...v1.43.19) (2026-08-12)
 
 
