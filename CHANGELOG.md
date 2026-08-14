@@ -1,3 +1,14 @@
+## [1.43.21](https://github.com/ElJijuna/code-languages/compare/v1.43.20...v1.43.21) (2026-08-14)
+
+
+### Bug Fixes
+
+* update Astro metadata to 7.2.2 ([d1989fa](https://github.com/ElJijuna/code-languages/commit/d1989fab59461880429375f44753ae5f5e23af79))
+* update Common Expression Language metadata to 0.25.3 ([4847f18](https://github.com/ElJijuna/code-languages/commit/4847f18610d152be3d31c8374f3a002bf9b39e3c))
+* update Go metadata to 1.26.6 ([2fff3b8](https://github.com/ElJijuna/code-languages/commit/2fff3b8fad5b2962552fc8d6cd8f337ba610ac7e))
+* update Less metadata to 4.9.0 ([7a98e9c](https://github.com/ElJijuna/code-languages/commit/7a98e9c0eea16ccc811db341ee3d082454e96ba7))
+* update Racket metadata to 9.3 ([739e3c7](https://github.com/ElJijuna/code-languages/commit/739e3c7e52d23c19a7c7d9beb3f33aaba3c7d057))
+
 ## [1.43.20](https://github.com/ElJijuna/code-languages/compare/v1.43.19...v1.43.20) (2026-08-13)
 
 
