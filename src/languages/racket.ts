@@ -12,7 +12,7 @@ export const racket = {
     packageManagers: ['raco pkg'],
     ecosystems: ['Education', 'Language Design', 'DSLs', 'Research', 'Scripting'],
   },
-  version: '9.2',
+  version: '9.3',
   logo: 'https://commons.wikimedia.org/wiki/Special:FilePath/Racket-logo.svg',
   color: '#9F1D20',
   i18n: {
