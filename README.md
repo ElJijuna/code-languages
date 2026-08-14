@@ -509,7 +509,7 @@ from its package subpath.
 | <img src="https://avatars.githubusercontent.com/u/65030650?v=4" alt="Cairo logo" width="24" height="24"> | Cairo | `cairo` | `.cairo` | `2.19.0` | `code-languages/cairo` |
 | <img src="https://capnproto.org/images/logo.png" alt="Cap'n Proto logo" width="24" height="24"> | Cap'n Proto | `capnproto` | `.capnp` | `stable` | `code-languages/capnproto` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Carbon_logo.png" alt="Carbon logo" width="24" height="24"> | Carbon | `carbon` | `.carbon` | `0.0.0 nightly` | `code-languages/carbon` |
-| <img src="https://www.gstatic.com/devrel-devsite/prod/v20cdb2337f656fc22df509b6d5402b3836a1b55334a8eea3301423a87970c4d5/cel/images/touchicon-180.png" alt="Common Expression Language logo" width="24" height="24"> | Common Expression Language | `cel` | `.cel` | `0.25.2` | `code-languages/cel` |
+| <img src="https://www.gstatic.com/devrel-devsite/prod/v20cdb2337f656fc22df509b6d5402b3836a1b55334a8eea3301423a87970c4d5/cel/images/touchicon-180.png" alt="Common Expression Language logo" width="24" height="24"> | Common Expression Language | `cel` | `.cel` | `0.25.3` | `code-languages/cel` |
 | <img src="https://chapel-lang.org/images/chapel-logo.png" alt="Chapel logo" width="24" height="24"> | Chapel | `chapel` | `.chpl` | `2.9.0` | `code-languages/chapel` |
 | <img src="https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_circom.svg" alt="Circom logo" width="24" height="24"> | Circom | `circom` | `.circom` | `2.2.3` | `code-languages/circom` |
 | <img src="https://avatars.githubusercontent.com/u/66125257?v=4" alt="Clarity logo" width="24" height="24"> | Clarity | `clarity` | `.clar` | `Clarity 3` | `code-languages/clarity` |
