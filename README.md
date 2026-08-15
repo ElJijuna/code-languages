@@ -676,7 +676,7 @@ from its package subpath.
 | <img src="https://avatars.githubusercontent.com/u/14593805?v=4" alt="Pony logo" width="24" height="24"> | Pony | `pony` | `.pony` | `0.61.1` | `code-languages/pony` |
 | <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_postscript.svg" alt="PostScript logo" width="24" height="24"> | PostScript | `postscript` | `.ps`, `.eps` | `PostScript 3` | `code-languages/postscript` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" alt="Power Query M logo" width="24" height="24"> | Power Query M | `powerquery` | `.pq`, `.pqm` | `Power Query M 2025` | `code-languages/powerquery` |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png" alt="PowerShell logo" width="24" height="24"> | PowerShell | `powershell` | `.ps1`, `.psm1`, `.psd1`, `.ps1xml` | `7.6.4` | `code-languages/powershell` |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png" alt="PowerShell logo" width="24" height="24"> | PowerShell | `powershell` | `.ps1`, `.psm1`, `.psd1`, `.ps1xml` | `7.6.5` | `code-languages/powershell` |
 | <img src="https://cdn.simpleicons.org/processingfoundation/006699" alt="Processing logo" width="24" height="24"> | Processing | `processing` | `.pde` | `4.4.5` | `code-languages/processing` |
 | <img src="https://www.swi-prolog.org/icons/swipl.png" alt="Prolog logo" width="24" height="24"> | Prolog | `prolog` | `.pl`, `.pro`, `.prolog`, `.P` | `SWI-Prolog 10.0` | `code-languages/prolog` |
 | <img src="https://cdn.simpleicons.org/prometheus/E6522C" alt="PromQL logo" width="24" height="24"> | PromQL | `promql` | `.promql` | `Prometheus 3.x` | `code-languages/promql` |
