@@ -1,3 +1,13 @@
+## [1.43.22](https://github.com/ElJijuna/code-languages/compare/v1.43.21...v1.43.22) (2026-08-16)
+
+
+### Bug Fixes
+
+* update Groovy metadata to 5.1.0 ([62ee040](https://github.com/ElJijuna/code-languages/commit/62ee040ad0b11c8ce30fe297ed5f2fbf90456611))
+* update Haml metadata to 7.3.1 ([c012df5](https://github.com/ElJijuna/code-languages/commit/c012df5ba8a3ac7f358c604910c9deb33b6bb3e7))
+* update Luau metadata to 0.734 ([339f414](https://github.com/ElJijuna/code-languages/commit/339f414fd8d35cf98609e5d2149e86099d53a09f))
+* update PowerShell metadata to 7.6.5 ([8921fa3](https://github.com/ElJijuna/code-languages/commit/8921fa3dd21e975f73f52d96b100df5583614994))
+
 ## [1.43.21](https://github.com/ElJijuna/code-languages/compare/v1.43.20...v1.43.21) (2026-08-14)
 
 
