@@ -11,7 +11,7 @@ export const maxima = {
     runtimes: ['Maxima'],
     ecosystems: ['Computer Algebra', 'Mathematics', 'Scientific Computing'],
   },
-  version: '5.49.0',
+  version: '5.50.0',
   logo: 'https://maxima.sourceforge.io/img/maxima.svg',
   color: '#92278F',
   i18n: {
