@@ -1,3 +1,11 @@
+## [1.43.23](https://github.com/ElJijuna/code-languages/compare/v1.43.22...v1.43.23) (2026-08-17)
+
+
+### Bug Fixes
+
+* update Maxima metadata to 5.50.0 ([fe1ca58](https://github.com/ElJijuna/code-languages/commit/fe1ca58527b721e7be29003831e296dd035937d8))
+* update Nushell metadata to 0.115.0 ([ac04fd0](https://github.com/ElJijuna/code-languages/commit/ac04fd04ad0ac226d15d93614f43e0071c88789c))
+
 ## [1.43.22](https://github.com/ElJijuna/code-languages/compare/v1.43.21...v1.43.22) (2026-08-16)
 
 
