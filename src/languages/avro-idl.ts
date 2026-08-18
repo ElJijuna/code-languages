@@ -11,7 +11,7 @@ export const avroIdl = {
     runtimes: ['Apache Avro compiler'],
     ecosystems: ['Serialization', 'RPC', 'Data Engineering'],
   },
-  version: '1.12.1',
+  version: '1.12.2',
   logo: 'https://commons.wikimedia.org/wiki/Special:FilePath/Apache_Avro_Logo.svg',
   color: '#1E88E5',
   i18n: {
