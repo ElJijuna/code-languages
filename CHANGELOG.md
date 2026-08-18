@@ -1,3 +1,12 @@
+## [1.43.24](https://github.com/ElJijuna/code-languages/compare/v1.43.23...v1.43.24) (2026-08-18)
+
+
+### Bug Fixes
+
+* update Avro IDL metadata to 1.12.2 ([e389a2c](https://github.com/ElJijuna/code-languages/commit/e389a2cb1763957ac51a7bb59ac9faca881375ed))
+* update Haml metadata to 7.4.1 ([1785cbc](https://github.com/ElJijuna/code-languages/commit/1785cbc614d83d271e56cb7869718a7f8facc50a))
+* update Rego metadata to OPA 1.19.1 ([9ff9e90](https://github.com/ElJijuna/code-languages/commit/9ff9e907f513fcb3dd92d83fa76fac51a61f45d0))
+
 ## [1.43.23](https://github.com/ElJijuna/code-languages/compare/v1.43.22...v1.43.23) (2026-08-17)
 
 
