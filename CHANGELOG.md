@@ -1,3 +1,11 @@
+## [1.43.25](https://github.com/ElJijuna/code-languages/compare/v1.43.24...v1.43.25) (2026-08-19)
+
+
+### Bug Fixes
+
+* update Astro metadata to 7.2.3 ([a42bc1e](https://github.com/ElJijuna/code-languages/commit/a42bc1ebcd54ce84a5e3a8c7747331352eee6e76))
+* update Dart metadata to 3.13.1 ([94a9181](https://github.com/ElJijuna/code-languages/commit/94a91815019c5a0ff6a6cf6c281e3f3694278b8e))
+
 ## [1.43.24](https://github.com/ElJijuna/code-languages/compare/v1.43.23...v1.43.24) (2026-08-18)
 
 
