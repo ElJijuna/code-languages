@@ -1,3 +1,17 @@
+## [1.43.26](https://github.com/ElJijuna/code-languages/compare/v1.43.25...v1.43.26) (2026-08-21)
+
+
+### Bug Fixes
+
+* update Astro metadata to 7.2.4 ([9d4204c](https://github.com/ElJijuna/code-languages/commit/9d4204c245dee2f6849dfa862bfbe61d856c9588))
+* update Go metadata to 1.27.0 ([c73d040](https://github.com/ElJijuna/code-languages/commit/c73d0404ac3c55ae5480798190746a8d9a7160f8))
+* update Gradle metadata to 9.7.1 ([f8355ae](https://github.com/ElJijuna/code-languages/commit/f8355aec4396578ec224b1dfb5b81179a824fa76))
+* update Mermaid metadata to 11.17.0 ([60dfbd1](https://github.com/ElJijuna/code-languages/commit/60dfbd11c566d64d7091b2d4aad04956e7243f6f))
+* update Protocol Buffers metadata to 36.0 ([6a2ba08](https://github.com/ElJijuna/code-languages/commit/6a2ba082578968a9ae902e1b1bb4693c51868077))
+* update Rust metadata to 1.98.0 ([6dbcd1e](https://github.com/ElJijuna/code-languages/commit/6dbcd1ef58c6d2ac44f1317eb34211cafa2b90f4))
+* update Sass metadata to 1.103.1 ([8b9f7e6](https://github.com/ElJijuna/code-languages/commit/8b9f7e6f356fb0363854d541de198cde8a385737))
+* update Svelte metadata to 5.56.10 ([5eefb83](https://github.com/ElJijuna/code-languages/commit/5eefb83dd1b81a4b3eddc6799081e8cf487f675d))
+
 ## [1.43.25](https://github.com/ElJijuna/code-languages/compare/v1.43.24...v1.43.25) (2026-08-19)
 
 
