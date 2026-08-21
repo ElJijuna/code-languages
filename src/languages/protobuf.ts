@@ -13,7 +13,7 @@ export const protobuf = {
     packageManagers: ['Buf', 'npm', 'Maven', 'Go modules', 'NuGet', 'PyPI'],
     ecosystems: ['gRPC', 'APIs', 'Microservices', 'Data Serialization'],
   },
-  version: '35.1',
+  version: '36.0',
   logo: 'https://cdn.simpleicons.org/google/4285F4',
   color: '#4285F4',
   i18n: {
