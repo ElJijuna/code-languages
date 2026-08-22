@@ -1,3 +1,13 @@
+## [1.43.27](https://github.com/ElJijuna/code-languages/compare/v1.43.26...v1.43.27) (2026-08-22)
+
+
+### Bug Fixes
+
+* update Cython metadata to 3.3.0 ([5e499c0](https://github.com/ElJijuna/code-languages/commit/5e499c0aa4c0796d447ddf34148ee1e56236b493))
+* update Lean metadata to 4.33.1 ([27f2cf1](https://github.com/ElJijuna/code-languages/commit/27f2cf16d45412de014a098031bf1d74fcc98ce9))
+* update Luau metadata to 0.735 ([12fbf78](https://github.com/ElJijuna/code-languages/commit/12fbf785a147067cafce531da4af9e53b7ca6974))
+* update Textile metadata to 4.1.5 ([ea39961](https://github.com/ElJijuna/code-languages/commit/ea39961bd879fd10f51440d2beb1f96d1a43456c))
+
 ## [1.43.26](https://github.com/ElJijuna/code-languages/compare/v1.43.25...v1.43.26) (2026-08-21)
 
 
