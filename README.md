@@ -529,7 +529,7 @@ from its package subpath.
 | <img src="https://www.curry-language.org/assets/img/curry-32x32.png" alt="Curry logo" width="24" height="24"> | Curry | `curry` | `.curry`, `.lcurry` | `Curry 0.9.0` | `code-languages/curry` |
 | <img src="https://avatars.githubusercontent.com/u/9947495?v=4" alt="Common Workflow Language logo" width="24" height="24"> | Common Workflow Language | `cwl` | `.cwl` | `v1.2` | `code-languages/cwl` |
 | <img src="https://dist.neo4j.com/wp-content/uploads/20210423072428/neo4j-logo-2020-1.svg" alt="Cypher logo" width="24" height="24"> | Cypher | `cypher` | `.cypher`, `.cyp` | `25` | `code-languages/cypher` |
-| <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_cython.svg" alt="Cython logo" width="24" height="24"> | Cython | `cython` | `.pyx`, `.pxd`, `.pxi` | `3.2.9` | `code-languages/cython` |
+| <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_cython.svg" alt="Cython logo" width="24" height="24"> | Cython | `cython` | `.pyx`, `.pxd`, `.pxi` | `3.3.0` | `code-languages/cython` |
 | <img src="https://cdn.simpleicons.org/d/BA595E" alt="D logo" width="24" height="24"> | D | `d` | `.d`, `.di` | `2.112.1` | `code-languages/d` |
 | <img src="https://dafny.org/images/dafny-favicon.svg" alt="Dafny logo" width="24" height="24"> | Dafny | `dafny` | `.dfy` | `4.11.0` | `code-languages/dafny` |
 | <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Dart_programming_language_logo.svg" alt="Dart logo" width="24" height="24"> | Dart | `dart` | `.dart` | `3.13.1` | `code-languages/dart` |
