@@ -1,3 +1,10 @@
+# [1.44.0](https://github.com/ElJijuna/code-languages/compare/v1.43.27...v1.44.0) (2026-08-24)
+
+
+### Features
+
+* implement language version update planning and add tests ([0b2d062](https://github.com/ElJijuna/code-languages/commit/0b2d062135c3a930cb4e0eaadd423b1e5273970e))
+
 ## [1.43.27](https://github.com/ElJijuna/code-languages/compare/v1.43.26...v1.43.27) (2026-08-22)
 
 
