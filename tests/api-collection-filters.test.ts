@@ -68,6 +68,20 @@ describe('collection filter composition', () => {
       expect(chained).toEqual(direct);
     });
 
+    it('runtime is chainable on languages()', () => {
+      const chained = slugsOf(api.languages().runtime('node').get()).sort();
+      const direct = slugsOf(api.runtime('node').langs().get()).sort();
+
+      expect(chained).toEqual(direct);
+    });
+
+    it('related is chainable on languages()', () => {
+      const chained = slugsOf(api.languages().related('javascript').get()).sort();
+      const direct = slugsOf(api.related('javascript').langs().get()).sort();
+
+      expect(chained).toEqual(direct);
+    });
+
     it('languages().category() matches category().langs()', () => {
       const chained = slugsOf(api.languages().category('backend').get()).sort();
       const direct = slugsOf(api.category('backend').langs().get()).sort();
