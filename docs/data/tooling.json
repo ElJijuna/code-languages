@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T15:26:17.269Z",
+  "generatedAt": "2026-08-24T01:59:39.548Z",
   "runtimes": [
     {
       "slug": "node",
@@ -9,7 +9,7 @@
       "color": "#339933",
       "aliases": ["node", "nodejs", "node.js"],
       "packageManagers": ["npm", "pnpm", "Yarn", "Bun"],
-      "languageCount": 22
+      "languageCount": 23
     },
     {
       "slug": "bun",
@@ -169,7 +169,7 @@
       "color": "#00ADD8",
       "aliases": ["go", "golang"],
       "packageManagers": ["Go modules"],
-      "languageCount": 13
+      "languageCount": 14
     },
     {
       "slug": "rust",
@@ -179,7 +179,7 @@
       "color": "#CE422B",
       "aliases": ["rust"],
       "packageManagers": ["Cargo"],
-      "languageCount": 2
+      "languageCount": 4
     },
     {
       "slug": "wasm",
@@ -369,7 +369,7 @@
       "color": "#262D3A",
       "aliases": ["llvm"],
       "packageManagers": [],
-      "languageCount": 3
+      "languageCount": 4
     },
     {
       "slug": "embedded",
@@ -379,7 +379,7 @@
       "color": "#00878A",
       "aliases": ["embedded", "arduino", "microcontroller"],
       "packageManagers": ["PlatformIO"],
-      "languageCount": 25
+      "languageCount": 26
     },
     {
       "slug": "azure",
@@ -389,7 +389,7 @@
       "color": "#0078D4",
       "aliases": ["azure"],
       "packageManagers": [],
-      "languageCount": 7
+      "languageCount": 8
     },
     {
       "slug": "docker",
@@ -479,7 +479,7 @@
       "color": "#276DC3",
       "aliases": ["r", "r-lang", "cran"],
       "packageManagers": ["CRAN", "renv"],
-      "languageCount": 265
+      "languageCount": 269
     },
     {
       "slug": "ocaml",
@@ -500,7 +500,7 @@
       "logo": "https://cdn.simpleicons.org/npm",
       "color": "#CB3837",
       "aliases": ["npm"],
-      "languageCount": 36
+      "languageCount": 37
     },
     {
       "slug": "pnpm",
@@ -563,7 +563,7 @@
       "logo": "https://cdn.simpleicons.org/rust",
       "color": "#CE422B",
       "aliases": ["cargo"],
-      "languageCount": 5
+      "languageCount": 7
     },
     {
       "slug": "maven",
@@ -716,7 +716,7 @@
       "name": "Functional",
       "description": "Computation through function evaluation, immutability, and avoiding side effects.",
       "aliases": ["functional", "fp", "pure-functional"],
-      "languageCount": 105
+      "languageCount": 106
     },
     {
       "slug": "object-oriented",
@@ -730,14 +730,14 @@
       "name": "Imperative",
       "description": "Specifies sequences of statements that change program state step by step.",
       "aliases": ["imperative", "procedural"],
-      "languageCount": 116
+      "languageCount": 118
     },
     {
       "slug": "declarative",
       "name": "Declarative",
       "description": "Expresses the logic of a computation without describing control flow.",
       "aliases": ["declarative"],
-      "languageCount": 117
+      "languageCount": 118
     },
     {
       "slug": "logic",
@@ -765,14 +765,14 @@
       "name": "Generic",
       "description": "Languages with parametric polymorphism and generic type abstractions.",
       "aliases": ["generic", "generics"],
-      "languageCount": 11
+      "languageCount": 12
     },
     {
       "slug": "scripting",
       "name": "Scripting",
       "description": "Languages designed for automation, shell scripting, and task execution.",
       "aliases": ["scripting", "shell"],
-      "languageCount": 43
+      "languageCount": 44
     },
     {
       "slug": "query",
@@ -800,7 +800,7 @@
       "name": "Array",
       "description": "Languages built around vectorized array and matrix operations.",
       "aliases": ["array", "array-oriented"],
-      "languageCount": 8
+      "languageCount": 9
     },
     {
       "slug": "metaprogramming",
@@ -814,14 +814,14 @@
       "name": "Systems",
       "description": "Low-level languages designed for systems, embedded, and OS programming.",
       "aliases": ["systems", "low-level"],
-      "languageCount": 17
+      "languageCount": 18
     },
     {
       "slug": "stack-based",
       "name": "Stack-Based",
       "description": "Languages where computation operates on an explicit stack.",
       "aliases": ["stack-based", "concatenative", "stack"],
-      "languageCount": 4
+      "languageCount": 5
     },
     {
       "slug": "shader",
@@ -872,7 +872,7 @@
       "name": "Cloud",
       "description": "Languages used for cloud computing, cloud-native applications, and IaC.",
       "aliases": ["cloud", "cloud-native"],
-      "languageCount": 19
+      "languageCount": 20
     },
     {
       "slug": "kubernetes",
@@ -900,21 +900,21 @@
       "name": "Systems",
       "description": "Languages used for operating systems, system utilities, and native development.",
       "aliases": ["systems", "systems-programming", "native"],
-      "languageCount": 54
+      "languageCount": 55
     },
     {
       "slug": "embedded",
       "name": "Embedded",
       "description": "Languages used in firmware, microcontrollers, and embedded hardware.",
       "aliases": ["embedded", "firmware", "iot"],
-      "languageCount": 24
+      "languageCount": 25
     },
     {
       "slug": "game-dev",
       "name": "Game Development",
       "description": "Languages used for building video games and game engines.",
       "aliases": ["game-dev", "games", "game-development", "gamedev"],
-      "languageCount": 21
+      "languageCount": 22
     },
     {
       "slug": "mobile",
@@ -991,7 +991,7 @@
       "name": "Automation",
       "description": "Languages used for task automation, scripting, and workflow orchestration.",
       "aliases": ["automation", "scripting"],
-      "languageCount": 47
+      "languageCount": 48
     },
     {
       "slug": "apple",
@@ -1022,7 +1022,7 @@
     },
     {
       "slug": "backend",
-      "languageCount": 47
+      "languageCount": 48
     },
     {
       "slug": "fullstack",
@@ -1030,7 +1030,7 @@
     },
     {
       "slug": "systems",
-      "languageCount": 70
+      "languageCount": 72
     },
     {
       "slug": "data-science",
@@ -1038,11 +1038,11 @@
     },
     {
       "slug": "scripting",
-      "languageCount": 24
+      "languageCount": 25
     },
     {
       "slug": "other",
-      "languageCount": 150
+      "languageCount": 151
     }
   ],
   "statuses": [
@@ -1052,7 +1052,7 @@
     },
     {
       "slug": "experimental",
-      "languageCount": 11
+      "languageCount": 15
     },
     {
       "slug": "legacy",

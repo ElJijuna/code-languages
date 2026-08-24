@@ -220,8 +220,10 @@
 - [x] Eiffel (`eiffel`)
 - [x] Factor (`factor`)
 - [x] Grain (`grain`)
+- [x] Hylo (`hylo`)
 - [x] Io (`io`)
 - [x] Koka (`koka`)
+- [x] Koto (`koto`)
 - [x] Lobster (`lobster`)
 - [x] Logo (`logo`)
 - [x] Mercury (`mercury`)
@@ -235,9 +237,11 @@
 - [x] Simula (`simula`)
 - [x] SNOBOL (`snobol`)
 - [x] SPARK (`spark`)
+- [x] Uiua (`uiua`)
 - [x] Unison (`unison`)
 - [x] Vale (`vale`)
 - [x] Verse (`verse`)
+- [x] Wing (`wing`)
 
 ### Formal Verification
 

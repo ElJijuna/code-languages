@@ -118,6 +118,7 @@ import { hlsl } from '@/languages/hlsl';
 import { hocon } from '@/languages/hocon';
 import { html } from '@/languages/html';
 import { hy } from '@/languages/hy';
+import { hylo } from '@/languages/hylo';
 import { idris } from '@/languages/idris';
 import { ini } from '@/languages/ini';
 import { ink } from '@/languages/ink';
@@ -144,6 +145,7 @@ import { kcl } from '@/languages/kcl';
 import { kdl } from '@/languages/kdl';
 import { koka } from '@/languages/koka';
 import { kotlin } from '@/languages/kotlin';
+import { koto } from '@/languages/koto';
 import { kql } from '@/languages/kql';
 import { lean } from '@/languages/lean';
 import { less } from '@/languages/less';
@@ -282,6 +284,7 @@ import { twig } from '@/languages/twig';
 import { typescript } from '@/languages/typescript';
 import { typespec } from '@/languages/typespec';
 import { typst } from '@/languages/typst';
+import { uiua } from '@/languages/uiua';
 import { unison } from '@/languages/unison';
 import { v } from '@/languages/v';
 import { vala } from '@/languages/vala';
@@ -299,6 +302,7 @@ import { vyper } from '@/languages/vyper';
 import { wdl } from '@/languages/wdl';
 import { webassembly } from '@/languages/webassembly';
 import { wgsl } from '@/languages/wgsl';
+import { wing } from '@/languages/wing';
 import { wren } from '@/languages/wren';
 import { xaml } from '@/languages/xaml';
 import { xml } from '@/languages/xml';
@@ -435,6 +439,7 @@ export const languages: readonly Language[] = [
   hocon,
   html,
   hy,
+  hylo,
   idris,
   ini,
   ink,
@@ -461,6 +466,7 @@ export const languages: readonly Language[] = [
   kdl,
   koka,
   kotlin,
+  koto,
   kql,
   lean,
   less,
@@ -599,6 +605,7 @@ export const languages: readonly Language[] = [
   typescript,
   typespec,
   typst,
+  uiua,
   unison,
   v,
   vala,
@@ -616,6 +623,7 @@ export const languages: readonly Language[] = [
   wdl,
   webassembly,
   wgsl,
+  wing,
   wren,
   xaml,
   xml,

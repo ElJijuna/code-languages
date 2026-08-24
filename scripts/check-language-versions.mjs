@@ -277,6 +277,7 @@ const manualChecks = {
   vba: 'VBA versioning is tied to Microsoft Office platform releases and should be reviewed manually against Microsoft Learn VBA documentation.',
   xpath:
     'XPath versioning is governed by W3C specification publications and should be reviewed manually against w3.org/TR/xpath.',
+  hylo: 'Hylo tracks an active development snapshot without stable releases; review hylo-lang.org and hylo-lang/hylo manually.',
 };
 const checkers = {
   async astro() {
@@ -1317,6 +1318,35 @@ const checkers = {
     return {
       latestVersion: normalizeVersion(json.tag_name),
       sourceUrl: 'https://api.github.com/repos/kcl-lang/kcl/releases/latest',
+    };
+  },
+  async koto() {
+    const changelog = await fetchText(
+      'https://raw.githubusercontent.com/koto-lang/koto/main/CHANGELOG.md',
+    );
+    const versions = [
+      ...changelog.matchAll(/^## \[(\d+\.\d+\.\d+)\]\s+\d{4}\.\d{2}\.\d{2}$/gm),
+    ].map((match) => match[1]);
+
+    return {
+      latestVersion: latestSemver(versions),
+      sourceUrl: 'https://raw.githubusercontent.com/koto-lang/koto/main/CHANGELOG.md',
+    };
+  },
+  async uiua() {
+    const json = await fetchJson('https://api.github.com/repos/uiua-lang/uiua/releases/latest');
+
+    return {
+      latestVersion: normalizeVersion(json.tag_name),
+      sourceUrl: 'https://api.github.com/repos/uiua-lang/uiua/releases/latest',
+    };
+  },
+  async wing() {
+    const json = await fetchJson('https://registry.npmjs.org/winglang/latest');
+
+    return {
+      latestVersion: json.version,
+      sourceUrl: 'https://registry.npmjs.org/winglang/latest',
     };
   },
 };

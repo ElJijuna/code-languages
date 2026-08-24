@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-12T15:26:17.263Z",
-  "total": 313,
-  "extensions": 667,
+  "generatedAt": "2026-08-24T01:59:39.543Z",
+  "total": 317,
+  "extensions": 672,
   "locales": [
     "en",
     "es",
@@ -1170,7 +1170,7 @@
           "WebAssembly"
         ]
       },
-      "version": "0.28.19",
+      "version": "0.28.20",
       "logo": "https://avatars.githubusercontent.com/u/28916798?v=4",
       "color": "#007AAC",
       "status": "active",
@@ -1233,7 +1233,7 @@
           "Content"
         ]
       },
-      "version": "7.0.7",
+      "version": "7.2.4",
       "logo": "https://astro.build/assets/press/astro-icon-light.svg",
       "color": "#FF5D01",
       "status": "active",
@@ -1387,7 +1387,7 @@
           "Data Engineering"
         ]
       },
-      "version": "1.12.1",
+      "version": "1.12.2",
       "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Apache_Avro_Logo.svg",
       "color": "#1E88E5",
       "status": "active",
@@ -1505,7 +1505,7 @@
           "APIs"
         ]
       },
-      "version": "2201.12.0",
+      "version": "2201.13.5",
       "logo": "https://ballerina.io/images/ballerina-logo.svg",
       "color": "#20B6B0",
       "status": "active",
@@ -1729,7 +1729,7 @@
           "Polyglot Repositories"
         ]
       },
-      "version": "9.1.1",
+      "version": "9.2.0",
       "logo": "https://cdn.simpleicons.org/bazel/43A047",
       "color": "#43A047",
       "status": "active",
@@ -1891,7 +1891,7 @@
           "Infrastructure as Code"
         ]
       },
-      "version": "0.45.6",
+      "version": "0.46.1",
       "logo": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/azure-bicep.svg",
       "color": "#0078D4",
       "status": "active",
@@ -2398,7 +2398,7 @@
           "ZK Proofs"
         ]
       },
-      "version": "2.19.0",
+      "version": "2.20.0",
       "logo": "https://avatars.githubusercontent.com/u/65030650?v=4",
       "color": "#FF6B35",
       "status": "active",
@@ -2792,7 +2792,7 @@
           "Embedded Systems"
         ]
       },
-      "version": "4.4.0",
+      "version": "4.4.2",
       "logo": "https://cmake.org/wp-content/uploads/2023/08/CMake-Logo.svg",
       "color": "#064F8C",
       "status": "active",
@@ -3024,7 +3024,7 @@
           "Configuration"
         ]
       },
-      "version": "0.25.2",
+      "version": "0.25.3",
       "logo": "https://www.gstatic.com/devrel-devsite/prod/v20cdb2337f656fc22df509b6d5402b3836a1b55334a8eea3301423a87970c4d5/cel/images/touchicon-180.png",
       "color": "#4285F4",
       "status": "active",
@@ -3240,7 +3240,7 @@
           "Native Applications"
         ]
       },
-      "version": "1.20.3",
+      "version": "1.21.0",
       "logo": "https://cdn.simpleicons.org/crystal/000000",
       "color": "#000000",
       "status": "active",
@@ -3340,7 +3340,7 @@
           "Scientific Computing"
         ]
       },
-      "version": "13.3.1",
+      "version": "13.4.0",
       "logo": "https://cdn.simpleicons.org/nvidia/76B900",
       "color": "#76B900",
       "status": "active",
@@ -3397,7 +3397,7 @@
           "DevOps"
         ]
       },
-      "version": "0.17.0",
+      "version": "0.17.1",
       "logo": "https://avatars.githubusercontent.com/u/43867057?s=200&v=4",
       "color": "#1F6BFF",
       "status": "active",
@@ -3564,7 +3564,7 @@
           "Scientific Computing"
         ]
       },
-      "version": "3.2.8",
+      "version": "3.3.0",
       "logo": "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_cython.svg",
       "color": "#FED140",
       "status": "active",
@@ -3632,7 +3632,7 @@
           "Game Development"
         ]
       },
-      "version": "2.112.0",
+      "version": "2.112.1",
       "logo": "https://cdn.simpleicons.org/d/BA595E",
       "color": "#BA595E",
       "status": "active",
@@ -3749,7 +3749,7 @@
           "Server-side"
         ]
       },
-      "version": "3.12.2",
+      "version": "3.13.1",
       "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Dart_programming_language_logo.svg",
       "color": "#0175C2",
       "status": "active",
@@ -4287,7 +4287,7 @@
           "Express"
         ]
       },
-      "version": "3.1.10",
+      "version": "6.0.1",
       "logo": "https://cdn.simpleicons.org/ejs/B4CA65",
       "color": "#B4CA65",
       "status": "active",
@@ -4349,7 +4349,7 @@
           "Data Processing"
         ]
       },
-      "version": "1.20.2",
+      "version": "1.20.3",
       "logo": "https://cdn.simpleicons.org/elixir/4B275F",
       "color": "#4B275F",
       "status": "active",
@@ -4597,7 +4597,7 @@
           "Fault-tolerant Systems"
         ]
       },
-      "version": "OTP 29.0.3",
+      "version": "OTP 29.0.5",
       "logo": "https://cdn.simpleicons.org/erlang/A90533",
       "color": "#A90533",
       "status": "active",
@@ -4657,7 +4657,7 @@
           "Low-level Verification"
         ]
       },
-      "version": "2026.04.17",
+      "version": "2026.05.31",
       "logo": "https://fstar-lang.org/favicon.ico",
       "color": "#572E91",
       "status": "active",
@@ -5000,7 +5000,7 @@
           "Linux"
         ]
       },
-      "version": "4.8.0",
+      "version": "4.8.1",
       "logo": "https://fishshell.com/assets/img/Terminal_Logo2_CRT_Flat.png",
       "color": "#4AAE21",
       "status": "active",
@@ -5715,7 +5715,7 @@
           "Web"
         ]
       },
-      "version": "1.17.0",
+      "version": "1.18.1",
       "logo": "https://cdn.simpleicons.org/gleam/FFAFF3",
       "color": "#FFAFF3",
       "status": "active",
@@ -5895,7 +5895,7 @@
           "Networking"
         ]
       },
-      "version": "1.26.5",
+      "version": "1.27.0",
       "logo": "https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg",
       "color": "#00ADD8",
       "status": "active",
@@ -5956,7 +5956,7 @@
           "Groovy"
         ]
       },
-      "version": "9.6.1",
+      "version": "9.7.1",
       "logo": "https://cdn.simpleicons.org/gradle/02303A",
       "color": "#02303A",
       "status": "active",
@@ -6183,7 +6183,7 @@
           "Gradle"
         ]
       },
-      "version": "5.0.7",
+      "version": "5.1.0",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/3/36/Groovy-logo.svg",
       "color": "#4298B8",
       "status": "active",
@@ -6299,7 +6299,7 @@
           "Web"
         ]
       },
-      "version": "7.2.0",
+      "version": "7.4.1",
       "logo": "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_haml.svg",
       "color": "#ECE2A9",
       "status": "active",
@@ -6718,7 +6718,7 @@
           "Configuration"
         ]
       },
-      "version": "1.4.3",
+      "version": "1.4.4",
       "logo": "https://raw.githubusercontent.com/ElJijuna/code-languages/main/public/assets/placeholders/hocon.svg",
       "color": "#F26822",
       "status": "active",
@@ -6815,7 +6815,7 @@
           "Scripting"
         ]
       },
-      "version": "1.0.0",
+      "version": "1.3.1",
       "logo": "https://avatars.githubusercontent.com/u/10551643?v=4",
       "color": "#35B9E9",
       "status": "active",
@@ -6824,6 +6824,64 @@
       "categories": [
         "data-science",
         "scripting"
+      ]
+    },
+    {
+      "slug": "hylo",
+      "name": "Hylo",
+      "description": "An experimental systems language built around mutable value semantics and generic programming.",
+      "longDescription": "Hylo is an experimental systems programming language centered on mutable value semantics and generic programming. It aims for memory safety, type safety, and data-race safety by default while supporting in-place mutation and ahead-of-time native compilation.\n\nThe language borrows ideas from Swift and develops zero-cost abstractions, C interoperability, structured concurrency, and LLVM-based compilation. Its compiler and language design remain under active development, so no stable release is available yet.",
+      "esName": "Hylo",
+      "esDescription": "Lenguaje experimental de sistemas basado en semántica de valores mutables y programación genérica.",
+      "esLongDescription": "Hylo es un lenguaje experimental de programación de sistemas centrado en semántica de valores mutables y programación genérica. Busca seguridad de memoria, tipos y concurrencia por defecto, junto con mutación in situ y compilación nativa anticipada.\n\nEl lenguaje toma ideas de Swift y desarrolla abstracciones sin costo, interoperabilidad con C, concurrencia estructurada y compilación basada en LLVM. Tanto el compilador como el diseño siguen en desarrollo activo y aún no existe una versión estable.",
+      "itName": "Hylo",
+      "itDescription": "Linguaggio di sistema sperimentale basato su semantica dei valori mutabili e programmazione generica.",
+      "itLongDescription": "Hylo è un linguaggio sperimentale di programmazione di sistema incentrato sulla semantica dei valori mutabili e sulla programmazione generica. Mira a offrire sicurezza di memoria, tipi e concorrenza per impostazione predefinita, con mutazione in loco e compilazione nativa anticipata.\n\nIl linguaggio riprende idee da Swift e sviluppa astrazioni a costo zero, interoperabilità con C, concorrenza strutturata e compilazione basata su LLVM. Compilatore e design sono ancora in sviluppo attivo e non esiste una versione stabile.",
+      "frName": "Hylo",
+      "frDescription": "Langage système expérimental fondé sur les valeurs mutables et la programmation générique.",
+      "frLongDescription": "Hylo est un langage expérimental de programmation système axé sur la sémantique des valeurs mutables et la programmation générique. Il vise par défaut la sûreté de la mémoire, des types et des accès concurrents, avec mutation sur place et compilation native anticipée.\n\nLe langage emprunte des idées à Swift et développe des abstractions sans surcoût, l’interopérabilité C, la concurrence structurée et une compilation fondée sur LLVM. Le compilateur et le langage restent en développement actif, sans version stable.",
+      "deName": "Hylo",
+      "deDescription": "Eine experimentelle Systemsprache mit veränderlicher Wertsemantik und generischer Programmierung.",
+      "deLongDescription": "Hylo ist eine experimentelle Systemprogrammiersprache, deren Kern veränderliche Wertsemantik und generische Programmierung bilden. Sie zielt standardmäßig auf Speicher-, Typ- und Datenrennsicherheit sowie direkte Mutation und vorzeitige native Übersetzung.\n\nDie Sprache übernimmt Ideen aus Swift und entwickelt kostenfreie Abstraktionen, C-Interoperabilität, strukturierte Nebenläufigkeit und LLVM-basierte Übersetzung. Compiler und Sprachentwurf werden aktiv entwickelt; eine stabile Version gibt es noch nicht.",
+      "ptName": "Hylo",
+      "ptDescription": "Linguagem experimental de sistemas baseada em semântica de valores mutáveis e programação genérica.",
+      "ptLongDescription": "Hylo é uma linguagem experimental de programação de sistemas centrada em semântica de valores mutáveis e programação genérica. Busca segurança de memória, tipos e concorrência por padrão, com mutação no local e compilação nativa antecipada.\n\nA linguagem incorpora ideias de Swift e desenvolve abstrações sem custo, interoperabilidade com C, concorrência estruturada e compilação baseada em LLVM. O compilador e o projeto da linguagem seguem em desenvolvimento ativo, ainda sem versão estável.",
+      "publishedDate": "2021-01-24",
+      "extensions": [
+        ".hylo"
+      ],
+      "author": "The Hylo core team and contributors",
+      "website": "https://hylo-lang.org",
+      "paradigms": [
+        "systems",
+        "generic",
+        "value-oriented"
+      ],
+      "tooling": {
+        "runtimes": [
+          "Hylo compiler",
+          "LLVM"
+        ],
+        "ecosystems": [
+          "Systems Programming",
+          "Native Applications",
+          "C Interoperability"
+        ]
+      },
+      "version": "development snapshot",
+      "logo": "https://hylo-lang.org/hylo-favicon.png",
+      "color": "#7AD5FF",
+      "status": "experimental",
+      "aliases": [
+        "val"
+      ],
+      "relations": {
+        "compilesTo": [
+          "llvm-ir"
+        ]
+      },
+      "categories": [
+        "systems"
       ]
     },
     {
@@ -6978,7 +7036,7 @@
           "Narrative Games"
         ]
       },
-      "version": "1.2.0",
+      "version": "1.2.1",
       "logo": "https://avatars.githubusercontent.com/u/1987090?v=4",
       "color": "#FF6666",
       "status": "active",
@@ -8067,7 +8125,7 @@
           "DevOps"
         ]
       },
-      "version": "1.55.1",
+      "version": "1.57.0",
       "logo": "https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_just.svg",
       "color": "#384D54",
       "status": "active",
@@ -8228,7 +8286,7 @@
           "Research"
         ]
       },
-      "version": "3.2.2",
+      "version": "3.2.3",
       "logo": "https://koka-lang.github.io/koka/doc/images/koka-logo-filled.png",
       "color": "#0891B2",
       "status": "active",
@@ -8289,7 +8347,7 @@
           "Kotlin Multiplatform"
         ]
       },
-      "version": "2.4.0",
+      "version": "2.4.10",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png",
       "color": "#7F52FF",
       "status": "active",
@@ -8300,6 +8358,61 @@
       "categories": [
         "backend",
         "systems"
+      ]
+    },
+    {
+      "slug": "koto",
+      "name": "Koto",
+      "description": "A lightweight, expressive scripting language for embedding in Rust applications or running standalone.",
+      "longDescription": "Koto is a lightweight scripting language designed primarily as an extension language for Rust applications. It favors a small set of concepts, low syntax noise, quick compilation, and an expressive mix of imperative and functional constructs.\n\nKoto can also run as a standalone command-line language with a REPL, bytecode virtual machine, core library, formatter, and browser playground. It remains pre-1.0 and should be treated as experimental while compatibility continues to mature.",
+      "esName": "Koto",
+      "esDescription": "Lenguaje de scripting ligero y expresivo para integrarse con aplicaciones Rust o ejecutarse solo.",
+      "esLongDescription": "Koto es un lenguaje de scripting ligero diseñado principalmente como lenguaje de extensión para aplicaciones escritas en Rust. Favorece pocos conceptos, una sintaxis limpia, compilación rápida y una mezcla expresiva de construcciones imperativas y funcionales.\n\nKoto también puede ejecutarse como lenguaje independiente con CLI, REPL, máquina virtual de bytecode, biblioteca central, formateador y entorno web. Aún no llega a 1.0 y debe considerarse experimental mientras madura su compatibilidad.",
+      "itName": "Koto",
+      "itDescription": "Linguaggio di scripting leggero ed espressivo, integrabile in applicazioni Rust o autonomo.",
+      "itLongDescription": "Koto è un linguaggio di scripting leggero progettato principalmente come linguaggio di estensione per applicazioni Rust. Predilige pochi concetti, una sintassi pulita, compilazione rapida e una combinazione espressiva di costrutti imperativi e funzionali.\n\nKoto può anche essere eseguito autonomamente con CLI, REPL, macchina virtuale bytecode, libreria principale, formatter e ambiente web. Non ha ancora raggiunto la versione 1.0 e resta sperimentale mentre la compatibilità matura.",
+      "frName": "Koto",
+      "frDescription": "Langage de script léger et expressif, intégrable aux applications Rust ou utilisable seul.",
+      "frLongDescription": "Koto est un langage de script léger conçu avant tout comme langage d’extension pour les applications Rust. Il privilégie peu de concepts, une syntaxe épurée, une compilation rapide et un mélange expressif de constructions impératives et fonctionnelles.\n\nKoto peut aussi fonctionner seul avec une CLI, un REPL, une machine virtuelle à bytecode, une bibliothèque de base, un formateur et un environnement web. Il reste antérieur à la version 1.0 et doit être considéré comme expérimental.",
+      "deName": "Koto",
+      "deDescription": "Eine leichtgewichtige, ausdrucksstarke Skriptsprache für Rust-Anwendungen oder den Einzelbetrieb.",
+      "deLongDescription": "Koto ist eine leichtgewichtige Skriptsprache, die vor allem als Erweiterungssprache für Rust-Anwendungen entwickelt wurde. Sie setzt auf wenige Konzepte, wenig Syntaxrauschen, schnelle Übersetzung und eine ausdrucksstarke Mischung aus imperativen und funktionalen Konstrukten.\n\nKoto kann mit CLI, REPL, Bytecode-VM, Kernbibliothek, Formatierer und Webumgebung auch eigenständig laufen. Die Sprache hat Version 1.0 noch nicht erreicht und bleibt experimentell, während ihre Kompatibilität reift.",
+      "ptName": "Koto",
+      "ptDescription": "Linguagem de scripting leve e expressiva para integrar a aplicações Rust ou executar separadamente.",
+      "ptLongDescription": "Koto é uma linguagem de scripting leve, criada principalmente como linguagem de extensão para aplicações Rust. Ela favorece poucos conceitos, sintaxe limpa, compilação rápida e uma combinação expressiva de construções imperativas e funcionais.\n\nKoto também funciona de forma independente com CLI, REPL, máquina virtual de bytecode, biblioteca central, formatador e ambiente web. Ainda não chegou à versão 1.0 e permanece experimental enquanto sua compatibilidade amadurece.",
+      "publishedDate": "2020-11-30",
+      "extensions": [
+        ".koto"
+      ],
+      "author": "Ian Hobson and contributors",
+      "website": "https://koto.dev",
+      "paradigms": [
+        "scripting",
+        "functional",
+        "imperative"
+      ],
+      "tooling": {
+        "runtimes": [
+          "Koto VM"
+        ],
+        "packageManagers": [
+          "Cargo"
+        ],
+        "ecosystems": [
+          "Rust",
+          "Embedded Scripting",
+          "Game Development"
+        ]
+      },
+      "version": "0.16.0",
+      "logo": "https://raw.githubusercontent.com/koto-lang/koto/main/assets/koto.svg",
+      "color": "#191E99",
+      "status": "experimental",
+      "aliases": [],
+      "relations": {},
+      "categories": [
+        "systems",
+        "scripting"
       ]
     },
     {
@@ -8399,7 +8512,7 @@
           "Proof assistants"
         ]
       },
-      "version": "4.31.0",
+      "version": "4.33.1",
       "logo": "https://cdn.simpleicons.org/leanpub/262425",
       "color": "#262425",
       "status": "active",
@@ -8458,7 +8571,7 @@
           "Bootstrap"
         ]
       },
-      "version": "4.6.7",
+      "version": "4.9.0",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/8/81/LESS_Logo.svg",
       "color": "#1D365D",
       "status": "active",
@@ -8685,7 +8798,7 @@
           "E-commerce"
         ]
       },
-      "version": "10.27.2",
+      "version": "10.29.0",
       "logo": "https://cdn.simpleicons.org/shopify/7AB55C",
       "color": "#7AB55C",
       "status": "active",
@@ -8971,7 +9084,7 @@
           "Configuration"
         ]
       },
-      "version": "5.5.0",
+      "version": "5.5.1",
       "logo": "https://www.lua.org/images/lua-logo.gif",
       "color": "#000080",
       "status": "active",
@@ -9029,7 +9142,7 @@
           "Embedded scripting"
         ]
       },
-      "version": "0.729",
+      "version": "0.735",
       "logo": "https://cdn.simpleicons.org/roblox/000000",
       "color": "#000000",
       "status": "active",
@@ -9356,7 +9469,7 @@
           "Scientific Computing"
         ]
       },
-      "version": "5.49.0",
+      "version": "5.50.0",
       "logo": "https://maxima.sourceforge.io/img/maxima.svg",
       "color": "#92278F",
       "status": "active",
@@ -9532,7 +9645,7 @@
           "Knowledge Management"
         ]
       },
-      "version": "11.16.0",
+      "version": "11.17.0",
       "logo": "https://cdn.simpleicons.org/mermaid/FF3670",
       "color": "#FF3670",
       "status": "active",
@@ -9592,7 +9705,7 @@
           "Cross-platform Builds"
         ]
       },
-      "version": "1.11.2",
+      "version": "1.12.0",
       "logo": "https://raw.githubusercontent.com/mesonbuild/meson/master/graphics/meson_logo.svg",
       "color": "#0077C8",
       "status": "active",
@@ -9814,7 +9927,7 @@
           "Python"
         ]
       },
-      "version": "0.26.1",
+      "version": "0.26.2",
       "logo": "https://avatars.githubusercontent.com/u/107116314?v=4",
       "color": "#FF5A1F",
       "status": "active",
@@ -9871,7 +9984,7 @@
           "Embedded"
         ]
       },
-      "version": "0.9.2",
+      "version": "0.10.0",
       "logo": "https://avatars.githubusercontent.com/u/124476259?v=4",
       "color": "#F4B728",
       "status": "active",
@@ -10130,7 +10243,7 @@
           "Cloud Computing"
         ]
       },
-      "version": "26.04.4",
+      "version": "26.04.6",
       "logo": "https://avatars.githubusercontent.com/u/6698688?v=4",
       "color": "#0DC09D",
       "status": "active",
@@ -10186,7 +10299,7 @@
           "DevOps"
         ]
       },
-      "version": "1.30.3",
+      "version": "1.30.4",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg",
       "color": "#009639",
       "status": "active",
@@ -10360,7 +10473,7 @@
           "DevOps"
         ]
       },
-      "version": "2.34.8",
+      "version": "2.35.2",
       "logo": "https://cdn.simpleicons.org/nixos/5277C3",
       "color": "#5277C3",
       "status": "active",
@@ -10526,7 +10639,7 @@
           "macOS"
         ]
       },
-      "version": "0.114.0",
+      "version": "0.115.0",
       "logo": "https://cdn.simpleicons.org/nushell/3AA675",
       "color": "#3AA675",
       "status": "active",
@@ -10766,7 +10879,7 @@
           "Signal Processing"
         ]
       },
-      "version": "9.3.0",
+      "version": "11.3.0",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Gnu-octave-logo.svg",
       "color": "#0790C0",
       "status": "active",
@@ -11218,7 +11331,7 @@
           "Bioinformatics"
         ]
       },
-      "version": "5.42.2",
+      "version": "5.44.0",
       "logo": "https://cdn.simpleicons.org/perl/39457E",
       "color": "#39457E",
       "status": "active",
@@ -11281,7 +11394,7 @@
           "Symfony"
         ]
       },
-      "version": "8.5.8",
+      "version": "8.5.9",
       "logo": "https://www.php.net/images/logos/new-php-logo.svg",
       "color": "#777BB4",
       "status": "active",
@@ -11388,7 +11501,7 @@
           "Kubernetes"
         ]
       },
-      "version": "0.31.1",
+      "version": "0.32.1",
       "logo": "https://avatars.githubusercontent.com/u/10639145?v=4",
       "color": "#72AE44",
       "status": "active",
@@ -11545,7 +11658,7 @@
           "Documentation"
         ]
       },
-      "version": "Perl 5.42.2",
+      "version": "Perl 5.44.0",
       "logo": "https://cdn.simpleicons.org/perl/39457E",
       "color": "#39457E",
       "status": "active",
@@ -11661,7 +11774,7 @@
           "Distributed Systems"
         ]
       },
-      "version": "0.61.1",
+      "version": "0.67.0",
       "logo": "https://avatars.githubusercontent.com/u/14593805?v=4",
       "color": "#7D5BA6",
       "status": "active",
@@ -11822,7 +11935,7 @@
           "Automation"
         ]
       },
-      "version": "7.6.3",
+      "version": "7.6.5",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png",
       "color": "#5391FE",
       "status": "active",
@@ -11876,7 +11989,7 @@
           "Java"
         ]
       },
-      "version": "4.4.5",
+      "version": "4.5.6",
       "logo": "https://cdn.simpleicons.org/processingfoundation/006699",
       "color": "#006699",
       "status": "active",
@@ -12053,7 +12166,7 @@
           "Data Serialization"
         ]
       },
-      "version": "35.1",
+      "version": "36.0",
       "logo": "https://cdn.simpleicons.org/google/4285F4",
       "color": "#4285F4",
       "status": "active",
@@ -12347,7 +12460,7 @@
           "Automation"
         ]
       },
-      "version": "3.14.6",
+      "version": "3.14.7",
       "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Python-logo-notext.svg",
       "color": "#3776AB",
       "status": "active",
@@ -12696,7 +12809,7 @@
           "Scripting"
         ]
       },
-      "version": "9.2",
+      "version": "9.3",
       "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Racket-logo.svg",
       "color": "#9F1D20",
       "status": "active",
@@ -12819,7 +12932,7 @@
           "Blazor"
         ]
       },
-      "version": "10.0.9",
+      "version": "10.0.11",
       "logo": "https://cdn.simpleicons.org/dotnet/512BD4",
       "color": "#512BD4",
       "status": "active",
@@ -13049,7 +13162,7 @@
           "Authorization"
         ]
       },
-      "version": "OPA 1.18.2",
+      "version": "OPA 1.19.1",
       "logo": "https://raw.githubusercontent.com/open-policy-agent/opa/main/logo/logo.svg",
       "color": "#5C4EE5",
       "status": "active",
@@ -13449,7 +13562,7 @@
           "Automation"
         ]
       },
-      "version": "4.0.5",
+      "version": "4.0.6",
       "logo": "https://www.ruby-lang.org/images/header-ruby-logo.png",
       "color": "#CC342D",
       "status": "active",
@@ -13507,7 +13620,7 @@
           "Embedded"
         ]
       },
-      "version": "1.97.0",
+      "version": "1.98.0",
       "logo": "https://www.rust-lang.org/logos/rust-logo-512x512.png",
       "color": "#DEA584",
       "status": "active",
@@ -13617,7 +13730,7 @@
           "Design Systems"
         ]
       },
-      "version": "1.101.0",
+      "version": "1.103.1",
       "logo": "https://sass-lang.com/assets/img/logos/logo.svg",
       "color": "#CC6699",
       "status": "active",
@@ -14016,7 +14129,7 @@
           "Web"
         ]
       },
-      "version": "5.5.1",
+      "version": "5.7.0",
       "logo": "https://www.smarty.net/images/logo_print.gif",
       "color": "#F0C040",
       "status": "active",
@@ -14123,7 +14236,7 @@
           "HPC"
         ]
       },
-      "version": "9.23.1",
+      "version": "9.25.2",
       "logo": "https://avatars.githubusercontent.com/u/33450111?v=4",
       "color": "#419544",
       "status": "active",
@@ -14941,7 +15054,7 @@
           "Vite"
         ]
       },
-      "version": "5.56.4",
+      "version": "5.56.10",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg",
       "color": "#FF3E00",
       "status": "active",
@@ -15456,7 +15569,7 @@
           "Documentation"
         ]
       },
-      "version": "4.1.4",
+      "version": "4.1.5",
       "logo": "https://textile-lang.com/icon.svg",
       "color": "#CC0000",
       "status": "active",
@@ -15909,10 +16022,64 @@
           "Typesetting"
         ]
       },
-      "version": "0.15.0",
+      "version": "0.15.1",
       "logo": "https://cdn.simpleicons.org/typst/239DAD",
       "color": "#239DAD",
       "status": "active",
+      "aliases": [],
+      "relations": {},
+      "categories": [
+        "other"
+      ]
+    },
+    {
+      "slug": "uiua",
+      "name": "Uiua",
+      "description": "A general-purpose, stack-based array language focused on tacit code and concise notation.",
+      "longDescription": "Uiua is a general-purpose array programming language that combines rank-polymorphic arrays with a fully tacit, stack-based execution model. Its compact glyphs aim to keep dense programs readable while avoiding variable-heavy ceremony.\n\nThe interpreter includes multimedia and system functions, a language server, a browser playground, and embedding support for Rust. The language is powerful but remains experimental while its design continues to evolve.",
+      "esName": "Uiua",
+      "esDescription": "Lenguaje general de arreglos y pila, centrado en código tácito y notación concisa.",
+      "esLongDescription": "Uiua es un lenguaje de programación de arreglos de propósito general que combina arreglos polimórficos por rango con un modelo de ejecución tácito basado en pila. Sus glifos compactos buscan mantener legibles los programas densos sin depender de muchas variables.\n\nEl intérprete incluye funciones multimedia y de sistema, servidor de lenguaje, entorno web y soporte para integrarse con Rust. El lenguaje es potente, pero sigue siendo experimental mientras su diseño evoluciona.",
+      "itName": "Uiua",
+      "itDescription": "Linguaggio general-purpose per array e stack, incentrato su codice tacito e notazione concisa.",
+      "itLongDescription": "Uiua è un linguaggio di programmazione general-purpose per array che combina array polimorfici rispetto al rango con un modello di esecuzione completamente tacito e basato su stack. I suoi glifi compatti mirano a mantenere leggibili i programmi densi.\n\nL’interprete include funzioni multimediali e di sistema, un language server, un ambiente web e il supporto per l’integrazione con Rust. Il linguaggio è potente, ma resta sperimentale mentre il progetto continua a evolvere.",
+      "frName": "Uiua",
+      "frDescription": "Langage généraliste de tableaux et de pile, axé sur le code tacite et une notation concise.",
+      "frLongDescription": "Uiua est un langage généraliste de programmation par tableaux qui associe des tableaux polymorphes en rang à un modèle d’exécution entièrement tacite et fondé sur une pile. Ses glyphes compacts visent à garder lisibles les programmes denses.\n\nL’interpréteur propose des fonctions multimédias et système, un serveur de langage, un environnement web et une intégration avec Rust. Le langage est puissant, mais reste expérimental pendant que sa conception évolue.",
+      "deName": "Uiua",
+      "deDescription": "Eine universelle Array- und Stack-Sprache mit Fokus auf implizitem Code und knapper Notation.",
+      "deLongDescription": "Uiua ist eine universelle Array-Programmiersprache, die rangpolymorphe Arrays mit einem vollständig impliziten, stackbasierten Ausführungsmodell verbindet. Ihre kompakten Glyphen sollen dichte Programme ohne viele Variablen lesbar halten.\n\nDer Interpreter enthält Multimedia- und Systemfunktionen, einen Language Server, eine Webumgebung und Unterstützung zur Einbettung in Rust. Die Sprache ist leistungsfähig, bleibt aber während ihrer Weiterentwicklung experimentell.",
+      "ptName": "Uiua",
+      "ptDescription": "Linguagem geral de arrays e pilha, focada em código tácito e notação concisa.",
+      "ptLongDescription": "Uiua é uma linguagem de programação de propósito geral orientada a arrays que combina arrays polimórficos por posto com um modelo de execução totalmente tácito e baseado em pilha. Seus glifos compactos buscam manter programas densos legíveis.\n\nO interpretador inclui funções multimídia e de sistema, servidor de linguagem, ambiente web e suporte para integração com Rust. A linguagem é poderosa, mas continua experimental enquanto seu projeto evolui.",
+      "publishedDate": "2023-02-27",
+      "extensions": [
+        ".ua"
+      ],
+      "author": "Kai Schmidt and contributors",
+      "website": "https://www.uiua.org",
+      "paradigms": [
+        "array",
+        "tacit",
+        "stack-based"
+      ],
+      "tooling": {
+        "runtimes": [
+          "Uiua interpreter"
+        ],
+        "packageManagers": [
+          "Cargo"
+        ],
+        "ecosystems": [
+          "Array Programming",
+          "Rust",
+          "Multimedia"
+        ]
+      },
+      "version": "0.18.1",
+      "logo": "https://raw.githubusercontent.com/uiua-lang/uiua/main/src/assets/uiua-logo-512.png",
+      "color": "#181818",
+      "status": "experimental",
       "aliases": [],
       "relations": {},
       "categories": [
@@ -15963,7 +16130,7 @@
           "Functional"
         ]
       },
-      "version": "0.5.28",
+      "version": "1.3.0",
       "logo": "https://avatars.githubusercontent.com/u/18563978?v=4",
       "color": "#F37B1F",
       "status": "active",
@@ -16081,7 +16248,7 @@
           "Native"
         ]
       },
-      "version": "0.56.18",
+      "version": "0.56.19",
       "logo": "https://cdn.simpleicons.org/gnome/4A86CF",
       "color": "#4A86CF",
       "status": "active",
@@ -16597,7 +16764,7 @@
           "Nuxt"
         ]
       },
-      "version": "3.5.39",
+      "version": "3.5.41",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg",
       "color": "#4FC08D",
       "status": "active",
@@ -16838,6 +17005,69 @@
       "relations": {},
       "categories": [
         "frontend"
+      ]
+    },
+    {
+      "slug": "wing",
+      "name": "Wing",
+      "description": "A cloud-oriented language combining infrastructure and runtime code in one portable model.",
+      "longDescription": "Wing is an open-source, cloud-oriented programming language that combines infrastructure definitions and application logic in one model. Its preflight and inflight phases let the compiler distinguish deployment resources from code that runs inside those resources.\n\nPrograms can run locally in the Wing Simulator or target cloud deployment workflows and providers such as AWS, Azure, and Google Cloud. Wing is distributed through npm and remains a pre-release language with evolving APIs.",
+      "esName": "Wing",
+      "esDescription": "Lenguaje orientado a la nube que une infraestructura y código de ejecución en un modelo portable.",
+      "esLongDescription": "Wing es un lenguaje de código abierto orientado a la nube que combina definiciones de infraestructura y lógica de aplicación en un solo modelo. Sus fases preflight e inflight permiten distinguir recursos de despliegue del código que se ejecuta dentro de ellos.\n\nLos programas pueden ejecutarse localmente en Wing Simulator o dirigirse a proveedores y flujos de despliegue como AWS, Azure y Google Cloud. Wing se distribuye mediante npm y sigue siendo un lenguaje preliminar con APIs en evolución.",
+      "itName": "Wing",
+      "itDescription": "Linguaggio cloud-oriented che unisce infrastruttura e codice runtime in un modello portabile.",
+      "itLongDescription": "Wing è un linguaggio open source orientato al cloud che combina definizioni dell’infrastruttura e logica applicativa in un solo modello. Le fasi preflight e inflight permettono al compilatore di distinguere le risorse di distribuzione dal codice eseguito al loro interno.\n\nI programmi possono essere eseguiti localmente nel Wing Simulator o destinati a provider e flussi cloud come AWS, Azure e Google Cloud. Wing è distribuito tramite npm e resta un linguaggio preliminare con API in evoluzione.",
+      "frName": "Wing",
+      "frDescription": "Langage orienté cloud réunissant infrastructure et code d’exécution dans un modèle portable.",
+      "frLongDescription": "Wing est un langage open source orienté cloud qui réunit les définitions d’infrastructure et la logique applicative dans un même modèle. Ses phases preflight et inflight permettent au compilateur de distinguer les ressources déployées du code exécuté dans celles-ci.\n\nLes programmes peuvent fonctionner localement dans Wing Simulator ou cibler des fournisseurs et flux cloud comme AWS, Azure et Google Cloud. Wing est distribué par npm et reste un langage en préversion dont les API évoluent.",
+      "deName": "Wing",
+      "deDescription": "Eine cloudorientierte Sprache für Infrastruktur und Laufzeitcode in einem portablen Modell.",
+      "deLongDescription": "Wing ist eine quelloffene, cloudorientierte Programmiersprache, die Infrastrukturdefinitionen und Anwendungslogik in einem Modell verbindet. Mit den Phasen Preflight und Inflight unterscheidet der Compiler bereitgestellte Ressourcen von dem darin ausgeführten Code.\n\nProgramme können lokal im Wing Simulator laufen oder Cloudanbieter und Bereitstellungsabläufe wie AWS, Azure und Google Cloud ansprechen. Wing wird über npm verteilt und bleibt eine Vorabversion mit sich entwickelnden APIs.",
+      "ptName": "Wing",
+      "ptDescription": "Linguagem orientada à nuvem que une infraestrutura e código de execução num modelo portável.",
+      "ptLongDescription": "Wing é uma linguagem de código aberto orientada à nuvem que combina definições de infraestrutura e lógica da aplicação em um único modelo. Suas fases preflight e inflight permitem distinguir recursos de implantação do código executado dentro deles.\n\nOs programas podem rodar localmente no Wing Simulator ou visar provedores e fluxos de nuvem como AWS, Azure e Google Cloud. Wing é distribuída pelo npm e continua sendo uma linguagem de pré-lançamento com APIs em evolução.",
+      "publishedDate": "2023-01-06",
+      "extensions": [
+        ".w",
+        ".wsim"
+      ],
+      "author": "Elad Ben-Israel, Wing Cloud, and contributors",
+      "website": "https://github.com/winglang/wing",
+      "paradigms": [
+        "cloud-oriented",
+        "declarative",
+        "imperative"
+      ],
+      "tooling": {
+        "runtimes": [
+          "Wing Simulator",
+          "Node.js"
+        ],
+        "packageManagers": [
+          "npm"
+        ],
+        "ecosystems": [
+          "AWS",
+          "Azure",
+          "Google Cloud",
+          "Terraform"
+        ]
+      },
+      "version": "0.85.49",
+      "logo": "https://raw.githubusercontent.com/winglang/wing/main/packages/vscode-wing/resources/logo.png",
+      "color": "#27E7D4",
+      "status": "experimental",
+      "aliases": [
+        "winglang"
+      ],
+      "relations": {
+        "compilesTo": [
+          "javascript"
+        ]
+      },
+      "categories": [
+        "backend"
       ]
     },
     {
@@ -17426,7 +17656,7 @@
           "Incident Response"
         ]
       },
-      "version": "8.0.8",
+      "version": "8.0.10",
       "logo": "https://avatars.githubusercontent.com/u/10666805?v=4",
       "color": "#8B1E3F",
       "status": "active",
@@ -17602,7 +17832,7 @@
           "DevOps"
         ]
       },
-      "version": "5.9.1",
+      "version": "5.9.2",
       "logo": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Z_Shell_Logo_Color_Horizontal.svg",
       "color": "#89E051",
       "status": "active",

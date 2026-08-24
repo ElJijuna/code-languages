@@ -651,6 +651,11 @@
       "import": "./dist/languages/hy.js",
       "require": "./dist/languages/hy.cjs"
     },
+    "./hylo": {
+      "types": "./dist/languages/hylo.d.ts",
+      "import": "./dist/languages/hylo.js",
+      "require": "./dist/languages/hylo.cjs"
+    },
     "./idris": {
       "types": "./dist/languages/idris.d.ts",
       "import": "./dist/languages/idris.js",
@@ -780,6 +785,11 @@
       "types": "./dist/languages/kotlin.d.ts",
       "import": "./dist/languages/kotlin.js",
       "require": "./dist/languages/kotlin.cjs"
+    },
+    "./koto": {
+      "types": "./dist/languages/koto.d.ts",
+      "import": "./dist/languages/koto.js",
+      "require": "./dist/languages/koto.cjs"
     },
     "./kql": {
       "types": "./dist/languages/kql.d.ts",
@@ -1471,6 +1481,11 @@
       "import": "./dist/languages/typst.js",
       "require": "./dist/languages/typst.cjs"
     },
+    "./uiua": {
+      "types": "./dist/languages/uiua.d.ts",
+      "import": "./dist/languages/uiua.js",
+      "require": "./dist/languages/uiua.cjs"
+    },
     "./unison": {
       "types": "./dist/languages/unison.d.ts",
       "import": "./dist/languages/unison.js",
@@ -1555,6 +1570,11 @@
       "types": "./dist/languages/wgsl.d.ts",
       "import": "./dist/languages/wgsl.js",
       "require": "./dist/languages/wgsl.cjs"
+    },
+    "./wing": {
+      "types": "./dist/languages/wing.d.ts",
+      "import": "./dist/languages/wing.js",
+      "require": "./dist/languages/wing.cjs"
     },
     "./wren": {
       "types": "./dist/languages/wren.d.ts",
