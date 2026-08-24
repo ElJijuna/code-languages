@@ -1,3 +1,10 @@
+## [1.45.1](https://github.com/ElJijuna/code-languages/compare/v1.45.0...v1.45.1) (2026-08-24)
+
+
+### Bug Fixes
+
+* update Nushell metadata to 0.115.1 ([6f42292](https://github.com/ElJijuna/code-languages/commit/6f42292d14d436370649222426ab9583a2290446))
+
 # [1.45.0](https://github.com/ElJijuna/code-languages/compare/v1.44.0...v1.45.0) (2026-08-24)
 
 
