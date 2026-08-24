@@ -1,3 +1,10 @@
+# [1.45.0](https://github.com/ElJijuna/code-languages/compare/v1.44.0...v1.45.0) (2026-08-24)
+
+
+### Features
+
+* add support for new languages Hylo, Koto, Uiua, and Wing ([e3067f1](https://github.com/ElJijuna/code-languages/commit/e3067f1a088c88ebf7025276c2dbc2d722665cd1))
+
 # [1.44.0](https://github.com/ElJijuna/code-languages/compare/v1.43.27...v1.44.0) (2026-08-24)
 
 
