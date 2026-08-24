@@ -1,5 +1,6 @@
 import { readdir, readFile, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
+import { planLanguageVersionUpdate } from './language-version-update.mjs';
 
 const languagesDir = 'src/languages';
 const reportPath = 'language-version-report.json';
@@ -1499,19 +1500,19 @@ async function applyLocalUpdates(updates) {
 
   for (const update of updates) {
     const languageContent = await readFile(update.filePath, 'utf8');
-    const updatedLanguageContent = updateLanguageVersion(languageContent, update);
-
-    if (updatedLanguageContent !== languageContent) {
-      await writeFile(update.filePath, updatedLanguageContent);
-      console.log(`Updated ${update.filePath}: ${update.version} -> ${update.latestVersion}`);
-    }
-
     const readmeContent = await readFile('README.md', 'utf8');
-    const updatedReadmeContent = updateReadmeLanguageVersion(readmeContent, update);
+    const changes = planLanguageVersionUpdate({ languageContent, readmeContent, update });
 
-    if (updatedReadmeContent !== readmeContent) {
-      await writeFile('README.md', updatedReadmeContent);
-      console.log(`Updated README.md: ${update.name} ${update.version} -> ${update.latestVersion}`);
+    for (const change of changes) {
+      await writeFile(change.path, change.content);
+
+      if (change.path === update.filePath) {
+        console.log(`Updated ${update.filePath}: ${update.version} -> ${update.latestVersion}`);
+      } else {
+        console.log(
+          `Updated README.md: ${update.name} ${update.version} -> ${update.latestVersion}`,
+        );
+      }
     }
   }
 }
@@ -1761,17 +1762,6 @@ async function commitVersionUpdate({ branch, owner, repo, token, update }) {
     repo,
     token,
   });
-  const updatedLanguageContent = updateLanguageVersion(languageFile.content, update);
-
-  if (updatedLanguageContent !== languageFile.content) {
-    tree.push({
-      path: update.filePath,
-      mode: '100644',
-      type: 'blob',
-      content: updatedLanguageContent,
-    });
-  }
-
   const readmeFile = await getRepositoryFile({
     branch,
     owner,
@@ -1779,14 +1769,18 @@ async function commitVersionUpdate({ branch, owner, repo, token, update }) {
     repo,
     token,
   });
-  const updatedReadmeContent = updateReadmeLanguageVersion(readmeFile.content, update);
+  const changes = planLanguageVersionUpdate({
+    languageContent: languageFile.content,
+    readmeContent: readmeFile.content,
+    update,
+  });
 
-  if (updatedReadmeContent !== readmeFile.content) {
+  for (const change of changes) {
     tree.push({
-      path: 'README.md',
+      path: change.path,
       mode: '100644',
       type: 'blob',
-      content: updatedReadmeContent,
+      content: change.content,
     });
   }
 
@@ -1841,27 +1835,6 @@ async function getRepositoryFile({ branch, owner, path, repo, token }) {
     content: Buffer.from(file.content, 'base64').toString('utf8'),
     sha: file.sha,
   };
-}
-
-function updateLanguageVersion(content, update) {
-  return content.replace(
-    /version:\s*(['"])(.*?)\1/,
-    (_match, quote) => `version: ${quote}${update.latestVersion}${quote}`,
-  );
-}
-
-function updateReadmeLanguageVersion(content, update) {
-  const importPath = `code-languages/${update.slug}`;
-  const rowPattern = new RegExp(
-    `^(\\| .*? \\| .*? \\| \`${escapeRegExp(update.slug)}\` \\| .*? \\| )\`?[^|\\n]+\`?( \\| \`${escapeRegExp(importPath)}\` \\|)$`,
-    'm',
-  );
-
-  return content.replace(rowPattern, `$1\`${update.latestVersion}\`$2`);
-}
-
-function escapeRegExp(value) {
-  return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
 function issueMarker(slug) {
