@@ -11,7 +11,7 @@ export const processing = {
     runtimes: ['JVM', 'Java'],
     ecosystems: ['Creative coding', 'Java'],
   },
-  version: '4.4.5',
+  version: '4.5.6',
   logo: 'https://cdn.simpleicons.org/processingfoundation/006699',
   color: '#006699',
   i18n: {

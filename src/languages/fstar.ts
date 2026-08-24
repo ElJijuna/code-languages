@@ -12,7 +12,7 @@ export const fstar = {
     packageManagers: ['opam', 'NuGet'],
     ecosystems: ['Formal Methods', 'ML', 'Low-level Verification'],
   },
-  version: '2026.04.17',
+  version: '2026.05.31',
   logo: 'https://fstar-lang.org/favicon.ico',
   color: '#572E91',
   i18n: {

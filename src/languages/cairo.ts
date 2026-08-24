@@ -12,7 +12,7 @@ export const cairo = {
     packageManagers: ['Scarb'],
     ecosystems: ['Blockchain', 'Smart Contracts', 'StarkNet', 'ZK Proofs'],
   },
-  version: '2.19.0',
+  version: '2.20.0',
   logo: 'https://avatars.githubusercontent.com/u/65030650?v=4',
   color: '#FF6B35',
   i18n: {

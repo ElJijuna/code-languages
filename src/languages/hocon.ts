@@ -10,7 +10,7 @@ export const hocon = {
   tooling: {
     ecosystems: ['JVM', 'Scala', 'Akka', 'Play Framework', 'Configuration'],
   },
-  version: '1.4.3',
+  version: '1.4.4',
   logo: 'https://raw.githubusercontent.com/ElJijuna/code-languages/main/public/assets/placeholders/hocon.svg',
   color: '#F26822',
   i18n: {

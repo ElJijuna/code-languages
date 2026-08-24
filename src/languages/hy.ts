@@ -12,7 +12,7 @@ export const hy = {
     packageManagers: ['pip'],
     ecosystems: ['Python', 'Machine Learning', 'Data Science', 'Scripting'],
   },
-  version: '1.0.0',
+  version: '1.3.1',
   logo: 'https://avatars.githubusercontent.com/u/10551643?v=4',
   color: '#35B9E9',
   i18n: {

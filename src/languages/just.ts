@@ -12,7 +12,7 @@ export const just = {
     packageManagers: ['Cargo', 'Homebrew', 'Scoop'],
     ecosystems: ['CLI', 'Build Automation', 'DevOps'],
   },
-  version: '1.55.1',
+  version: '1.57.0',
   logo: 'https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_just.svg',
   color: '#384D54',
   i18n: {

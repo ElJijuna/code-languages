@@ -12,7 +12,7 @@ export const mojo = {
     packageManagers: ['pixi', 'pip'],
     ecosystems: ['AI', 'Accelerators', 'Python'],
   },
-  version: '0.26.1',
+  version: '0.26.2',
   logo: 'https://avatars.githubusercontent.com/u/107116314?v=4',
   color: '#FF5A1F',
   i18n: {

@@ -12,7 +12,7 @@ export const moonbit = {
     packageManagers: ['moon'],
     ecosystems: ['WebAssembly', 'Web', 'Embedded'],
   },
-  version: '0.9.2',
+  version: '0.10.0',
   logo: 'https://avatars.githubusercontent.com/u/124476259?v=4',
   color: '#F4B728',
   i18n: {

@@ -11,7 +11,7 @@ export const octave = {
     runtimes: ['GNU Octave'],
     ecosystems: ['Scientific Computing', 'Numerical Analysis', 'Mathematics', 'Signal Processing'],
   },
-  version: '9.3.0',
+  version: '11.3.0',
   logo: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/Gnu-octave-logo.svg',
   color: '#0790C0',
   i18n: {

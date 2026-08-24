@@ -12,7 +12,7 @@ export const unison = {
     packageManagers: ['Unison Share'],
     ecosystems: ['Distributed Systems', 'Cloud', 'Functional'],
   },
-  version: '0.5.28',
+  version: '1.3.0',
   logo: 'https://avatars.githubusercontent.com/u/18563978?v=4',
   color: '#F37B1F',
   i18n: {

@@ -11,7 +11,7 @@ export const inkNarrative = {
     runtimes: ['Ink Runtime', 'Inky'],
     ecosystems: ['Game Development', 'Interactive Fiction', 'Narrative Games'],
   },
-  version: '1.2.0',
+  version: '1.2.1',
   logo: 'https://avatars.githubusercontent.com/u/1987090?v=4',
   color: '#FF6666',
   i18n: {

@@ -12,7 +12,7 @@ export const ejs = {
     packageManagers: ['npm', 'pnpm', 'Yarn'],
     ecosystems: ['JavaScript', 'Web', 'Express'],
   },
-  version: '3.1.10',
+  version: '6.0.1',
   logo: 'https://cdn.simpleicons.org/ejs/B4CA65',
   color: '#B4CA65',
   i18n: {

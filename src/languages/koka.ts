@@ -12,7 +12,7 @@ export const koka = {
     packageManagers: ['Koka package tooling'],
     ecosystems: ['Effect Systems', 'Functional Programming', 'Research'],
   },
-  version: '3.2.2',
+  version: '3.2.3',
   logo: 'https://koka-lang.github.io/koka/doc/images/koka-logo-filled.png',
   color: '#0891B2',
   i18n: {

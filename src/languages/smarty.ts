@@ -12,7 +12,7 @@ export const smarty = {
     packageManagers: ['Composer'],
     ecosystems: ['PHP', 'Web'],
   },
-  version: '5.5.1',
+  version: '5.7.0',
   logo: 'https://www.smarty.net/images/logo_print.gif',
   color: '#F0C040',
   i18n: {

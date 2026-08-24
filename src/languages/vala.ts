@@ -12,7 +12,7 @@ export const vala = {
     packageManagers: ['Meson', 'pkg-config'],
     ecosystems: ['GNOME', 'GTK', 'Native'],
   },
-  version: '0.56.18',
+  version: '0.56.19',
   logo: 'https://cdn.simpleicons.org/gnome/4A86CF',
   color: '#4A86CF',
   i18n: {

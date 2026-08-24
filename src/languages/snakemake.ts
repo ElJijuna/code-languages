@@ -11,7 +11,7 @@ export const snakemake = {
     runtimes: ['Snakemake'],
     ecosystems: ['Bioinformatics', 'Scientific Workflows', 'Python', 'HPC'],
   },
-  version: '9.23.1',
+  version: '9.25.2',
   logo: 'https://avatars.githubusercontent.com/u/33450111?v=4',
   color: '#419544',
   i18n: {

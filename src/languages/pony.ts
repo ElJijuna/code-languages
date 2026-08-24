@@ -12,7 +12,7 @@ export const pony = {
     packageManagers: ['ponyup', 'corral'],
     ecosystems: ['Actors', 'Native', 'Distributed Systems'],
   },
-  version: '0.61.1',
+  version: '0.67.0',
   logo: 'https://avatars.githubusercontent.com/u/14593805?v=4',
   color: '#7D5BA6',
   i18n: {

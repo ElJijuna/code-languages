@@ -11,7 +11,7 @@ export const nextflow = {
     runtimes: ['Nextflow'],
     ecosystems: ['Bioinformatics', 'Scientific Workflows', 'HPC', 'Cloud Computing'],
   },
-  version: '26.04.4',
+  version: '26.04.6',
   logo: 'https://avatars.githubusercontent.com/u/6698688?v=4',
   color: '#0DC09D',
   i18n: {

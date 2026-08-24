@@ -12,7 +12,7 @@ export const ballerina = {
     packageManagers: ['Ballerina Central'],
     ecosystems: ['Cloud', 'Microservices', 'Integration', 'APIs'],
   },
-  version: '2201.12.0',
+  version: '2201.13.5',
   logo: 'https://ballerina.io/images/ballerina-logo.svg',
   color: '#20B6B0',
   i18n: {
