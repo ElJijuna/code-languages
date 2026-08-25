@@ -1,3 +1,11 @@
+## [1.45.2](https://github.com/ElJijuna/code-languages/compare/v1.45.1...v1.45.2) (2026-08-25)
+
+
+### Bug Fixes
+
+* update Astro metadata to 7.2.6 ([15bf487](https://github.com/ElJijuna/code-languages/commit/15bf4879ecedc7de65205496cf33247c7f69df02))
+* update Mermaid metadata to 11.17.1 ([93272e1](https://github.com/ElJijuna/code-languages/commit/93272e1c9251bf24fd878875ccdd7520b70b8d62))
+
 ## [1.45.1](https://github.com/ElJijuna/code-languages/compare/v1.45.0...v1.45.1) (2026-08-24)
 
 
