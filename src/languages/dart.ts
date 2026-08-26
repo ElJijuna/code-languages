@@ -15,7 +15,7 @@ export const dart = {
     packageManagers: ['pub'],
     ecosystems: ['Flutter', 'Web', 'Server-side'],
   },
-  version: '3.13.1',
+  version: '3.13.2',
   logo: 'https://commons.wikimedia.org/wiki/Special:FilePath/Dart_programming_language_logo.svg',
   color: '#0175C2',
   i18n: {
