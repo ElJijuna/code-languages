@@ -1,3 +1,15 @@
+## [1.45.3](https://github.com/ElJijuna/code-languages/compare/v1.45.2...v1.45.3) (2026-08-26)
+
+
+### Bug Fixes
+
+* update Astro metadata to 7.2.7 ([3f24e23](https://github.com/ElJijuna/code-languages/commit/3f24e23e336861f2e8921f2154870e0bc234dd42))
+* update CMake metadata to 4.4.3 ([7b26c79](https://github.com/ElJijuna/code-languages/commit/7b26c79ef390cc48ceac4819c768b0760679d7d4))
+* update Dart metadata to 3.13.2 ([aff8751](https://github.com/ElJijuna/code-languages/commit/aff87514162723319dc852afce48bd65340756e7))
+* update LLVM IR metadata to 23.1.0 ([3744ab1](https://github.com/ElJijuna/code-languages/commit/3744ab1ae4ac0e2cf85151bf86191421d652eb5f))
+* update Mermaid metadata to 11.17.2 ([aa668ed](https://github.com/ElJijuna/code-languages/commit/aa668edd7501600e27769b7cfd1c1211104916c8))
+* update PlantUML metadata to 1.2026.7 ([74a70b8](https://github.com/ElJijuna/code-languages/commit/74a70b867f08683bb87c30ac8880e99bfa4f4ac4))
+
 ## [1.45.2](https://github.com/ElJijuna/code-languages/compare/v1.45.1...v1.45.2) (2026-08-25)
 
 
