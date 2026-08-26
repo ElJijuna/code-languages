@@ -623,7 +623,7 @@ from its package subpath.
 | <img src="https://cdn.simpleicons.org/gnu/A42E2B" alt="Linker Script logo" width="24" height="24"> | Linker Script | `linkerscript` | `.ld`, `.lds`, `.x` | `stable` | `code-languages/linkerscript` |
 | <img src="https://cdn.simpleicons.org/shopify/7AB55C" alt="Liquid logo" width="24" height="24"> | Liquid | `liquid` | `.liquid` | `10.29.0` | `code-languages/liquid` |
 | <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Lisp_logo.svg" alt="Lisp logo" width="24" height="24"> | Lisp | `lisp` | `.lisp`, `.lsp`, `.cl`, `.asd` | `ANSI INCITS 226-1994` | `code-languages/lisp` |
-| <img src="https://cdn.simpleicons.org/llvm/262D3A" alt="LLVM IR logo" width="24" height="24"> | LLVM IR | `llvm-ir` | `.ll`, `.bc` | `22.1.8` | `code-languages/llvm-ir` |
+| <img src="https://cdn.simpleicons.org/llvm/262D3A" alt="LLVM IR logo" width="24" height="24"> | LLVM IR | `llvm-ir` | `.ll`, `.bc` | `23.1.0` | `code-languages/llvm-ir` |
 | <img src="https://raw.githubusercontent.com/aardappel/lobster/master/docs/lobster.png" alt="Lobster logo" width="24" height="24"> | Lobster | `lobster` | `.lobster` | `development snapshot` | `code-languages/lobster` |
 | <img src="https://people.eecs.berkeley.edu/~bh/ucblogo.png" alt="Logo logo" width="24" height="24"> | Logo | `logo` | `.logo`, `.lgo` | `UCBLogo 6.2` | `code-languages/logo` |
 | <img src="https://www.lua.org/images/lua-logo.gif" alt="Lua logo" width="24" height="24"> | Lua | `lua` | `.lua`, `.rockspec` | `5.5.1` | `code-languages/lua` |
