@@ -1,3 +1,14 @@
+## [1.45.4](https://github.com/ElJijuna/code-languages/compare/v1.45.3...v1.45.4) (2026-08-28)
+
+
+### Bug Fixes
+
+* update Astro metadata to 7.2.9 ([e6a8dce](https://github.com/ElJijuna/code-languages/commit/e6a8dce761fb9321b01b9e02b5a24a1979b24209))
+* update Groovy metadata to 5.1.1 ([92bad91](https://github.com/ElJijuna/code-languages/commit/92bad91a0a4569d807468e521bcc1b4316f30220))
+* update Haml metadata to 7.5.0 ([bdf0182](https://github.com/ElJijuna/code-languages/commit/bdf0182c67c69f2704d47652f58091f9957527c4))
+* update Uiua metadata to 0.19.0 ([4b06ebd](https://github.com/ElJijuna/code-languages/commit/4b06ebdaf088c0b5d7027915c02fdbb267bd2c12))
+* update Vue metadata to 3.5.42 ([90ede43](https://github.com/ElJijuna/code-languages/commit/90ede4335627606cc264b519382be9a44efad0f3))
+
 ## [1.45.3](https://github.com/ElJijuna/code-languages/compare/v1.45.2...v1.45.3) (2026-08-26)
 
 
