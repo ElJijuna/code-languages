@@ -1,3 +1,14 @@
+## [1.45.5](https://github.com/ElJijuna/code-languages/compare/v1.45.4...v1.45.5) (2026-08-29)
+
+
+### Bug Fixes
+
+* update Elixir metadata to 1.20.4 ([b281cf9](https://github.com/ElJijuna/code-languages/commit/b281cf93efa8a07347417be388bc8d575ca791ec))
+* update Luau metadata to 0.736 ([68dd199](https://github.com/ElJijuna/code-languages/commit/68dd1999f8511afb5acdcaae811a3a0d9d19208d))
+* update PHP metadata to 8.5.10 ([fc2ef25](https://github.com/ElJijuna/code-languages/commit/fc2ef2505efce534c899d388f5fb18abdbe3d39b))
+* update Rego metadata to OPA 1.20.1 ([300b683](https://github.com/ElJijuna/code-languages/commit/300b683263e1f1bcd437c9b6dc1fe85aef82d22f))
+* update Svelte metadata to 5.57.0 ([5d95308](https://github.com/ElJijuna/code-languages/commit/5d953085dd8936bf924dec4b32075493c90f9fc6))
+
 ## [1.45.4](https://github.com/ElJijuna/code-languages/compare/v1.45.3...v1.45.4) (2026-08-28)
 
 
