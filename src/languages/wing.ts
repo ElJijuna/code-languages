@@ -17,7 +17,7 @@ export const wing = {
     packageManagers: ['npm'],
     ecosystems: ['AWS', 'Azure', 'Google Cloud', 'Terraform'],
   },
-  version: '0.85.49',
+  version: '0.85.51',
   logo: 'https://raw.githubusercontent.com/winglang/wing/main/packages/vscode-wing/resources/logo.png',
   color: '#27E7D4',
   i18n: {
