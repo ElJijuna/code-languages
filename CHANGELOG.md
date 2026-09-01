@@ -1,3 +1,10 @@
+## [1.45.6](https://github.com/ElJijuna/code-languages/compare/v1.45.5...v1.45.6) (2026-09-01)
+
+
+### Bug Fixes
+
+* update Wing metadata to 0.85.51 ([6a9f289](https://github.com/ElJijuna/code-languages/commit/6a9f2891ab9eab83225c325b87834ff981715d84))
+
 ## [1.45.5](https://github.com/ElJijuna/code-languages/compare/v1.45.4...v1.45.5) (2026-08-29)
 
 
