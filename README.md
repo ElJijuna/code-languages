@@ -595,7 +595,7 @@ from its package subpath.
 | <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_io.svg" alt="Io logo" width="24" height="24"> | Io | `io` | `.io` | `2017.09.06` | `code-languages/io` |
 | <img src="https://isabelle.in.tum.de/img/favicon.ico" alt="Isabelle logo" width="24" height="24"> | Isabelle | `isabelle` | `.thy` | `Isabelle2025-2` | `code-languages/isabelle` |
 | <img src="https://avatars.githubusercontent.com/u/583748?v=4" alt="J logo" width="24" height="24"> | J | `j` | `.ijs` | `J9.6` | `code-languages/j` |
-| <img src="https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_janet.svg" alt="Janet logo" width="24" height="24"> | Janet | `janet` | `.janet`, `.jdn` | `1.41.2` | `code-languages/janet` |
+| <img src="https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_janet.svg" alt="Janet logo" width="24" height="24"> | Janet | `janet` | `.janet`, `.jdn` | `1.42.0` | `code-languages/janet` |
 | <img src="https://www.vectorlogo.zone/logos/java/java-icon.svg" alt="Java logo" width="24" height="24"> | Java | `java` | `.java` | `26` | `code-languages/java` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript logo" width="24" height="24"> | JavaScript | `javascript` | `.js`, `.mjs`, `.cjs`, `.jsx` | `ECMAScript 2025` | `code-languages/javascript` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="JCL logo" width="24" height="24"> | JCL | `jcl` | `.jcl` | `z/OS 3.1` | `code-languages/jcl` |
