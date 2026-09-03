@@ -12,7 +12,7 @@ export const clojure = {
     packageManagers: ['Clojure CLI', 'Leiningen', 'Boot', 'Maven'],
     ecosystems: ['JVM', 'JavaScript', 'Data Processing', 'Web', 'REPL-driven Development'],
   },
-  version: '1.12.5',
+  version: '1.12.6',
   logo: 'https://cdn.simpleicons.org/clojure/5881D8',
   color: '#5881D8',
   i18n: {
