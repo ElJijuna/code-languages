@@ -683,7 +683,7 @@ from its package subpath.
 | <img src="https://www.swi-prolog.org/icons/swipl.png" alt="Prolog logo" width="24" height="24"> | Prolog | `prolog` | `.pl`, `.pro`, `.prolog`, `.P` | `SWI-Prolog 10.0` | `code-languages/prolog` |
 | <img src="https://cdn.simpleicons.org/prometheus/E6522C" alt="PromQL logo" width="24" height="24"> | PromQL | `promql` | `.promql` | `Prometheus 3.x` | `code-languages/promql` |
 | <img src="https://cdn.simpleicons.org/openjdk/437291" alt="Java Properties logo" width="24" height="24"> | Java Properties | `properties` | `.properties` | `stable` | `code-languages/properties` |
-| <img src="https://cdn.simpleicons.org/google/4285F4" alt="Protocol Buffers logo" width="24" height="24"> | Protocol Buffers | `protobuf` | `.proto` | `36.0` | `code-languages/protobuf` |
+| <img src="https://cdn.simpleicons.org/google/4285F4" alt="Protocol Buffers logo" width="24" height="24"> | Protocol Buffers | `protobuf` | `.proto` | `36.1` | `code-languages/protobuf` |
 | <img src="https://avatars.githubusercontent.com/u/102252800?v=4" alt="PRQL logo" width="24" height="24"> | PRQL | `prql` | `.prql` | `0.13.0` | `code-languages/prql` |
 | <img src="https://cdn.simpleicons.org/pug/A86454" alt="Pug logo" width="24" height="24"> | Pug | `pug` | `.pug`, `.jade` | `3.0.4` | `code-languages/pug` |
 | <img src="https://cdn.simpleicons.org/puppet/FFAE1A" alt="Puppet logo" width="24" height="24"> | Puppet | `puppet` | `.pp`, `.epp` | `Puppet 8` | `code-languages/puppet` |
