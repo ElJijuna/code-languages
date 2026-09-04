@@ -1,3 +1,20 @@
+## [1.45.7](https://github.com/ElJijuna/code-languages/compare/v1.45.6...v1.45.7) (2026-09-04)
+
+
+### Bug Fixes
+
+* update Astro metadata to 7.3.0 ([5561107](https://github.com/ElJijuna/code-languages/commit/55611074d1cc7285f5db8d3d4baabaf100cbcb6e))
+* update Clojure metadata to 1.12.6 ([1ae5581](https://github.com/ElJijuna/code-languages/commit/1ae55819d411f32f0a0e8d6f8f8ab48023787a42))
+* update D metadata to 2.113.0 ([5a5e4ef](https://github.com/ElJijuna/code-languages/commit/5a5e4ef2198c1024f63a05d2293f584e4ce8b5cd))
+* update Dart metadata to 3.13.3 ([02cb73c](https://github.com/ElJijuna/code-languages/commit/02cb73ccf23c734bf44e08c5d666fd675dfa50a7))
+* update Erlang metadata to OTP 29.0.6 ([63b6e3f](https://github.com/ElJijuna/code-languages/commit/63b6e3fcb95d57fbd919b6725e4750a094b3b5f2))
+* update Go metadata to 1.27.1 ([4ac97fc](https://github.com/ElJijuna/code-languages/commit/4ac97fc102b28da9ccbbd3a4008f3dac018c23a2))
+* update Haml metadata to 7.5.1 ([40406ae](https://github.com/ElJijuna/code-languages/commit/40406aebfefabcf3fae36eec5504a1f0e03185a1))
+* update Janet metadata to 1.42.0 ([be22cdc](https://github.com/ElJijuna/code-languages/commit/be22cdca94b4f8d7e2aa6cd3ba59ddfd6f179e49))
+* update Less metadata to 4.9.1 ([c534b9f](https://github.com/ElJijuna/code-languages/commit/c534b9f0c9e54ee7037721111459064b53c50604))
+* update Protocol Buffers metadata to 36.1 ([2c3cda4](https://github.com/ElJijuna/code-languages/commit/2c3cda4c104df4af4a0d846d8492be8704713874))
+* update Scala metadata to 3.9.0 ([0f0cb3a](https://github.com/ElJijuna/code-languages/commit/0f0cb3aaef1b1076a44c0fc665267f21f364def6))
+
 ## [1.45.6](https://github.com/ElJijuna/code-languages/compare/v1.45.5...v1.45.6) (2026-09-01)
 
 
