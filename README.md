@@ -753,7 +753,7 @@ from its package subpath.
 | <img src="https://www.typescriptlang.org/icons/icon-512x512.png" alt="TypeScript logo" width="24" height="24"> | TypeScript | `typescript` | `.ts`, `.tsx`, `.mts`, `.cts` | `7.0` | `code-languages/typescript` |
 | <img src="https://raw.githubusercontent.com/ElJijuna/code-languages/main/public/assets/placeholders/typespec.svg" alt="TypeSpec logo" width="24" height="24"> | TypeSpec | `typespec` | `.tsp` | `1.0` | `code-languages/typespec` |
 | <img src="https://cdn.simpleicons.org/typst/239DAD" alt="Typst logo" width="24" height="24"> | Typst | `typst` | `.typ` | `0.15.1` | `code-languages/typst` |
-| <img src="https://raw.githubusercontent.com/uiua-lang/uiua/main/src/assets/uiua-logo-512.png" alt="Uiua logo" width="24" height="24"> | Uiua | `uiua` | `.ua` | `0.19.0` | `code-languages/uiua` |
+| <img src="https://raw.githubusercontent.com/uiua-lang/uiua/main/src/assets/uiua-logo-512.png" alt="Uiua logo" width="24" height="24"> | Uiua | `uiua` | `.ua` | `0.19.1` | `code-languages/uiua` |
 | <img src="https://avatars.githubusercontent.com/u/18563978?v=4" alt="Unison logo" width="24" height="24"> | Unison | `unison` | `.u`, `.uu` | `1.3.0` | `code-languages/unison` |
 | <img src="https://cdn.simpleicons.org/v/5D87BF" alt="V logo" width="24" height="24"> | V | `v` | `.v`, `.vsh` | `weekly.2025.49` | `code-languages/v` |
 | <img src="https://cdn.simpleicons.org/gnome/4A86CF" alt="Vala logo" width="24" height="24"> | Vala | `vala` | `.vala`, `.vapi` | `0.56.19` | `code-languages/vala` |

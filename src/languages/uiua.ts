@@ -13,7 +13,7 @@ export const uiua = {
     packageManagers: ['Cargo'],
     ecosystems: ['Array Programming', 'Rust', 'Multimedia'],
   },
-  version: '0.19.0',
+  version: '0.19.1',
   logo: 'https://raw.githubusercontent.com/uiua-lang/uiua/main/src/assets/uiua-logo-512.png',
   color: '#181818',
   i18n: {
