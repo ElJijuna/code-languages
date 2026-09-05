@@ -1,3 +1,16 @@
+## [1.45.8](https://github.com/ElJijuna/code-languages/compare/v1.45.7...v1.45.8) (2026-09-05)
+
+
+### Bug Fixes
+
+* update Astro metadata to 7.3.1 ([8cec49e](https://github.com/ElJijuna/code-languages/commit/8cec49e7d17813cabde6983c2ec920cca30589cf))
+* update Fish metadata to 4.9.2 ([3f2f6b4](https://github.com/ElJijuna/code-languages/commit/3f2f6b4fbb70dd742ee5b17f404c4b073714b08e))
+* update Luau metadata to 0.737 ([2eb093a](https://github.com/ElJijuna/code-languages/commit/2eb093aa16d97617cab6935d1b4022d04939d1c5))
+* update Rego metadata to OPA 1.20.2 ([150f4dc](https://github.com/ElJijuna/code-languages/commit/150f4dc18007baa1d4e0b510d42b617fa08cc98c))
+* update Rust metadata to 1.98.1 ([3f68bb4](https://github.com/ElJijuna/code-languages/commit/3f68bb40d39758eff4fb0602bce98f69dbb9e3dc))
+* update Sass metadata to 1.104.0 ([897bf24](https://github.com/ElJijuna/code-languages/commit/897bf2461cfe70f405a233abceeaf212dca5b145))
+* update Uiua metadata to 0.19.1 ([e950def](https://github.com/ElJijuna/code-languages/commit/e950def778183fb16ecf29f42344286d34a4cdd9))
+
 ## [1.45.7](https://github.com/ElJijuna/code-languages/compare/v1.45.6...v1.45.7) (2026-09-04)
 
 
