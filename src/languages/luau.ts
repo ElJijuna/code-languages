@@ -15,7 +15,7 @@ export const luau = {
     packageManagers: ['Wally', 'Pesde'],
     ecosystems: ['Roblox', 'Games', 'Embedded scripting'],
   },
-  version: '0.736',
+  version: '0.737',
   logo: 'https://cdn.simpleicons.org/roblox/000000',
   color: '#000000',
   i18n: {
