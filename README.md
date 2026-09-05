@@ -712,7 +712,7 @@ from its package subpath.
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/SAS_logo_horiz.svg" alt="SAS logo" width="24" height="24"> | SAS | `sas` | `.sas` | `SAS 9.4` | `code-languages/sas` |
 | <img src="https://cdn.simpleicons.org/scala/DC322F" alt="Scala logo" width="24" height="24"> | Scala | `scala` | `.scala`, `.sc` | `3.9.0` | `code-languages/scala` |
 | <img src="https://cdn.simpleicons.org/racket/9F1D20" alt="Scheme logo" width="24" height="24"> | Scheme | `scheme` | `.scm`, `.ss`, `.sld`, `.sls` | `R7RS small` | `code-languages/scheme` |
-| <img src="https://sass-lang.com/assets/img/logos/logo.svg" alt="Sass logo" width="24" height="24"> | Sass | `scss` | `.scss`, `.sass` | `1.103.1` | `code-languages/scss` |
+| <img src="https://sass-lang.com/assets/img/logos/logo.svg" alt="Sass logo" width="24" height="24"> | Sass | `scss` | `.scss`, `.sass` | `1.104.0` | `code-languages/scss` |
 | <img src="https://selflanguage.org/img/self-logo.png" alt="Self logo" width="24" height="24"> | Self | `self` | `.self` | `2024.1` | `code-languages/self` |
 | <img src="https://raw.githubusercontent.com/ElJijuna/code-languages/main/public/assets/placeholders/simula.svg" alt="Simula logo" width="24" height="24"> | Simula | `simula` | `.sim`, `.simula` | `Simula 67` | `code-languages/simula` |
 | <img src="https://avatars.githubusercontent.com/u/29205606?v=4" alt="Slang logo" width="24" height="24"> | Slang | `slang` | `.slang` | `stable` | `code-languages/slang` |
