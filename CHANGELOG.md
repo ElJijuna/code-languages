@@ -1,3 +1,10 @@
+## [1.45.9](https://github.com/ElJijuna/code-languages/compare/v1.45.8...v1.45.9) (2026-09-07)
+
+
+### Bug Fixes
+
+* update PlantUML metadata to 1.2026.8 ([21ce15e](https://github.com/ElJijuna/code-languages/commit/21ce15ed558acca5d2189a58f46d7c4e2c109278))
+
 ## [1.45.8](https://github.com/ElJijuna/code-languages/compare/v1.45.7...v1.45.8) (2026-09-05)
 
 
