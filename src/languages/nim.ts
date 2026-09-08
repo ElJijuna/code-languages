@@ -15,7 +15,7 @@ export const nim = {
     packageManagers: ['Nimble'],
     ecosystems: ['Systems Programming', 'CLI', 'Web', 'Embedded', 'Native Applications'],
   },
-  version: '2.2.10',
+  version: '2.2.12',
   logo: 'https://cdn.simpleicons.org/nim/FFE953',
   color: '#FFE953',
   i18n: {
