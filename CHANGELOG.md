@@ -1,3 +1,11 @@
+## [1.45.10](https://github.com/ElJijuna/code-languages/compare/v1.45.9...v1.45.10) (2026-09-08)
+
+
+### Bug Fixes
+
+* update Groovy metadata to 5.1.2 ([cea20df](https://github.com/ElJijuna/code-languages/commit/cea20dfc5e58d74e72f1edb8508d6fdf4197c269))
+* update Kotlin metadata to 2.4.20 ([6f237f3](https://github.com/ElJijuna/code-languages/commit/6f237f3e16e99dbedbea235365dc3c65c9f659ea))
+
 ## [1.45.9](https://github.com/ElJijuna/code-languages/compare/v1.45.8...v1.45.9) (2026-09-07)
 
 
