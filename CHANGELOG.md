@@ -1,3 +1,10 @@
+## [1.45.11](https://github.com/ElJijuna/code-languages/compare/v1.45.10...v1.45.11) (2026-09-09)
+
+
+### Bug Fixes
+
+* update Nim metadata to 2.2.12 ([fda4d4b](https://github.com/ElJijuna/code-languages/commit/fda4d4b85d4c83360b41d15c1d9220f48be11396))
+
 ## [1.45.10](https://github.com/ElJijuna/code-languages/compare/v1.45.9...v1.45.10) (2026-09-08)
 
 
