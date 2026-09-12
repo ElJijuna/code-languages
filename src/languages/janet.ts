@@ -12,7 +12,7 @@ export const janet = {
     packageManagers: ['jpm'],
     ecosystems: ['Scripting', 'Embedded systems', 'Command-line tools'],
   },
-  version: '1.42.0',
+  version: '1.42.1',
   logo: 'https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_janet.svg',
   color: '#A5C8E4',
   i18n: {
