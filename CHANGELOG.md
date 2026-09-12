@@ -1,3 +1,22 @@
+## [1.45.12](https://github.com/ElJijuna/code-languages/compare/v1.45.11...v1.45.12) (2026-09-12)
+
+
+### Bug Fixes
+
+* update Astro metadata to 7.3.2 ([c99a04e](https://github.com/ElJijuna/code-languages/commit/c99a04ece4a8a1a023effb0cafe5ccb0c26ee952))
+* update Bicep metadata to 0.47.16 ([c410ec5](https://github.com/ElJijuna/code-languages/commit/c410ec50ff77e64392ae3e5b20e07fd3489cdde9))
+* update CUDA metadata to 13.4.1 ([4f63814](https://github.com/ElJijuna/code-languages/commit/4f638145337b4e4ebae2205e0c942208fcb47259))
+* update Fish metadata to 4.9.3 ([c595c29](https://github.com/ElJijuna/code-languages/commit/c595c293ea912717ef80cd114ad3cf9ba1ae19ef))
+* update Janet metadata to 1.42.1 ([36508d1](https://github.com/ElJijuna/code-languages/commit/36508d1cf84d0a8d2278d3b60b868b93ce96250a))
+* update Julia metadata to 1.13.0 ([98b407e](https://github.com/ElJijuna/code-languages/commit/98b407ebcb99e6c6b51836661252cff70a93a482))
+* update LLVM IR metadata to 23.1.1 ([958aa5c](https://github.com/ElJijuna/code-languages/commit/958aa5ccafd2566b139150379b678729ac48ed20))
+* update Luau metadata to 0.738 ([a1871da](https://github.com/ElJijuna/code-languages/commit/a1871dacccf637d3ea100522f6e6cd202d7a552e))
+* update Mermaid metadata to 12.0.0 ([5a81d14](https://github.com/ElJijuna/code-languages/commit/5a81d14676b4fad15a9650f2f49daa474b52ae3e))
+* update PowerShell metadata to 7.6.6 ([d26f10b](https://github.com/ElJijuna/code-languages/commit/d26f10b8fbb4c29d74662e52e30b596549a254a0))
+* update Razor metadata to 10.0.12 ([92eb740](https://github.com/ElJijuna/code-languages/commit/92eb740e9b1ed016ce09273160ee811e287b7db4))
+* update Sass metadata to 1.104.1 ([4aac86c](https://github.com/ElJijuna/code-languages/commit/4aac86c286495ac959f9dc9a49d5448e73dee887))
+* update Solidity metadata to 0.8.37 ([0e8a35f](https://github.com/ElJijuna/code-languages/commit/0e8a35f339d70336d886c49257e0631597c5bef4))
+
 ## [1.45.11](https://github.com/ElJijuna/code-languages/compare/v1.45.10...v1.45.11) (2026-09-09)
 
 
