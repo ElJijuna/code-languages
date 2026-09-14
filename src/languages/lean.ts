@@ -12,7 +12,7 @@ export const lean = {
     packageManagers: ['Lake', 'elan'],
     ecosystems: ['Formal methods', 'Mathematics', 'Proof assistants'],
   },
-  version: '4.33.1',
+  version: '4.34.0',
   logo: 'https://cdn.simpleicons.org/leanpub/262425',
   color: '#262425',
   i18n: {
