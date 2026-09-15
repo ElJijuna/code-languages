@@ -13,7 +13,7 @@ export const ruby = {
     packageManagers: ['RubyGems', 'Bundler'],
     ecosystems: ['Web', 'Rails', 'DevOps', 'Automation'],
   },
-  version: '4.0.6',
+  version: '4.0.7',
   logo: 'https://www.ruby-lang.org/images/header-ruby-logo.png',
   color: '#CC342D',
   i18n: {
