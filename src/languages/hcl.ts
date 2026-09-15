@@ -12,7 +12,7 @@ export const hcl = {
     packageManagers: ['Terraform Registry'],
     ecosystems: ['Infrastructure as Code', 'DevOps', 'Cloud', 'HashiCorp'],
   },
-  version: '2.24.0',
+  version: '2.25.0',
   logo: 'https://cdn.simpleicons.org/hashicorp/844FBA',
   color: '#844FBA',
   i18n: {

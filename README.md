@@ -582,7 +582,7 @@ from its package subpath.
 | <img src="https://harelang.org/mascot.png" alt="Hare logo" width="24" height="24"> | Hare | `hare` | `.ha` | `0.25.1` | `code-languages/hare` |
 | <img src="https://cdn.simpleicons.org/haskell/5D4F85" alt="Haskell logo" width="24" height="24"> | Haskell | `haskell` | `.hs`, `.lhs`, `.hsc`, `.hs-boot`, `.hsig`, `.cabal` | `GHC 9.14.1` | `code-languages/haskell` |
 | <img src="https://cdn.simpleicons.org/haxe/EA8220" alt="Haxe logo" width="24" height="24"> | Haxe | `haxe` | `.hx`, `.hxml` | `4.3.7` | `code-languages/haxe` |
-| <img src="https://cdn.simpleicons.org/hashicorp/844FBA" alt="HCL logo" width="24" height="24"> | HCL | `hcl` | `.hcl`, `.tf`, `.tfvars`, `.pkr.hcl`, `.nomad` | `2.24.0` | `code-languages/hcl` |
+| <img src="https://cdn.simpleicons.org/hashicorp/844FBA" alt="HCL logo" width="24" height="24"> | HCL | `hcl` | `.hcl`, `.tf`, `.tfvars`, `.pkr.hcl`, `.nomad` | `2.25.0` | `code-languages/hcl` |
 | <img src="https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_hlsl.svg" alt="HLSL logo" width="24" height="24"> | HLSL | `hlsl` | `.hlsl`, `.fx`, `.fxh`, `.hlsli` | `Shader Model 6.9` | `code-languages/hlsl` |
 | <img src="https://raw.githubusercontent.com/ElJijuna/code-languages/main/public/assets/placeholders/hocon.svg" alt="HOCON logo" width="24" height="24"> | HOCON | `hocon` | `.hocon` | `1.4.4` | `code-languages/hocon` |
 | <img src="https://www.w3.org/html/logo/downloads/HTML5_Badge.svg" alt="HTML logo" width="24" height="24"> | HTML | `html` | `.html`, `.htm` | `Living Standard` | `code-languages/html` |
