@@ -1,3 +1,13 @@
+## [1.45.14](https://github.com/ElJijuna/code-languages/compare/v1.45.13...v1.45.14) (2026-09-16)
+
+
+### Bug Fixes
+
+* update Dart metadata to 3.13.4 ([8aebe8f](https://github.com/ElJijuna/code-languages/commit/8aebe8f4cda6853414ec3e289ffa5018962f5b66))
+* update HCL metadata to 2.25.0 ([8cdf1bd](https://github.com/ElJijuna/code-languages/commit/8cdf1bd053f6bb2a77038da711cb1b0f51520bb3))
+* update Ruby metadata to 4.0.7 ([7ffc7ac](https://github.com/ElJijuna/code-languages/commit/7ffc7ac4261ccc1845c9a46122b18feedbcd865a))
+* update Swift metadata to 6.4.0 ([364fdc5](https://github.com/ElJijuna/code-languages/commit/364fdc5c88b3691db032950f35b8e4c1024cc82f))
+
 ## [1.45.13](https://github.com/ElJijuna/code-languages/compare/v1.45.12...v1.45.13) (2026-09-15)
 
 
