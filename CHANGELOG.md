@@ -1,3 +1,11 @@
+## [1.45.15](https://github.com/ElJijuna/code-languages/compare/v1.45.14...v1.45.15) (2026-09-17)
+
+
+### Bug Fixes
+
+* update Erlang metadata to OTP 29.1 ([1b210ef](https://github.com/ElJijuna/code-languages/commit/1b210ef2edb66a102345168f891ddd4e18359513))
+* update nginx metadata to 1.30.5 ([e2b5dd9](https://github.com/ElJijuna/code-languages/commit/e2b5dd9f3d9f54f9b5369d936998358690fccaf5))
+
 ## [1.45.14](https://github.com/ElJijuna/code-languages/compare/v1.45.13...v1.45.14) (2026-09-16)
 
 
