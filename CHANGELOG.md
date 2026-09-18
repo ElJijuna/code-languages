@@ -1,3 +1,12 @@
+## [1.45.16](https://github.com/ElJijuna/code-languages/compare/v1.45.15...v1.45.16) (2026-09-18)
+
+
+### Bug Fixes
+
+* update Astro metadata to 7.3.3 ([d00af65](https://github.com/ElJijuna/code-languages/commit/d00af654fa512664999f7f0ccbeddc41cd1e204d))
+* update CUDA metadata to 13.4.2 ([2c8b7b4](https://github.com/ElJijuna/code-languages/commit/2c8b7b4ff29f125773ae4a71bce5491c3604888a))
+* update Vue metadata to 3.5.43 ([8414169](https://github.com/ElJijuna/code-languages/commit/84141694d080bcb46bf33b27ade1d5e5a9eda3bf))
+
 ## [1.45.15](https://github.com/ElJijuna/code-languages/compare/v1.45.14...v1.45.15) (2026-09-17)
 
 
