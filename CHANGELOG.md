@@ -1,3 +1,14 @@
+## [1.45.17](https://github.com/ElJijuna/code-languages/compare/v1.45.16...v1.45.17) (2026-09-20)
+
+
+### Bug Fixes
+
+* update Luau metadata to 0.739 ([0666ec3](https://github.com/ElJijuna/code-languages/commit/0666ec3c241441cadd02848c50aea1f29cdb91c5))
+* update Nickel metadata to 1.18.0 ([423e6f8](https://github.com/ElJijuna/code-languages/commit/423e6f8f631970c66ab3d2bb5fc053d430f4ff90))
+* update Protocol Buffers metadata to 36.2 ([ad1af81](https://github.com/ElJijuna/code-languages/commit/ad1af814e4113fea8b58b8acddd34eedb0861424))
+* update Svelte metadata to 5.57.1 ([6d4b561](https://github.com/ElJijuna/code-languages/commit/6d4b56135b2775ed8b7b7d3bafda5ab65dd4e244))
+* update Twig metadata to 3.29.0 ([f4c37d6](https://github.com/ElJijuna/code-languages/commit/f4c37d6bad482549686ec657ee7a9da4f80d577d))
+
 ## [1.45.16](https://github.com/ElJijuna/code-languages/compare/v1.45.15...v1.45.16) (2026-09-18)
 
 
