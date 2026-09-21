@@ -12,7 +12,7 @@ export const java = {
     packageManagers: ['Maven', 'Gradle'],
     ecosystems: ['JVM', 'Android', 'Enterprise'],
   },
-  version: '26',
+  version: '27',
   logo: 'https://www.vectorlogo.zone/logos/java/java-icon.svg',
   color: '#007396',
   i18n: {
