@@ -1,3 +1,10 @@
+## [1.45.18](https://github.com/ElJijuna/code-languages/compare/v1.45.17...v1.45.18) (2026-09-21)
+
+
+### Bug Fixes
+
+* update Java metadata to 27 ([236ead2](https://github.com/ElJijuna/code-languages/commit/236ead2ec40cfa8579be7c6bff291c2edfbb351f))
+
 ## [1.45.17](https://github.com/ElJijuna/code-languages/compare/v1.45.16...v1.45.17) (2026-09-20)
 
 
