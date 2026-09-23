@@ -1,3 +1,11 @@
+## [1.45.19](https://github.com/ElJijuna/code-languages/compare/v1.45.18...v1.45.19) (2026-09-23)
+
+
+### Bug Fixes
+
+* update Erlang metadata to OTP 29.1.1 ([f165083](https://github.com/ElJijuna/code-languages/commit/f165083bee5c955dfe6e70e16d306af7c8187007))
+* update Groovy metadata to 6.0.0 ([eb607f3](https://github.com/ElJijuna/code-languages/commit/eb607f317ef999d0039f15759f352e709c69c18c))
+
 ## [1.45.18](https://github.com/ElJijuna/code-languages/compare/v1.45.17...v1.45.18) (2026-09-21)
 
 
