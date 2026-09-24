@@ -1,3 +1,21 @@
+# [1.46.0](https://github.com/ElJijuna/code-languages/compare/v1.45.20...v1.46.0) (2026-09-24)
+
+
+### Bug Fixes
+
+* guard lookups against Object.prototype keys and skip env assignments in shebangs ([ecc7cdb](https://github.com/ElJijuna/code-languages/commit/ecc7cdb34a504d73df78bde2360dfd8f1bd6e24a))
+* prefer the most common language for ambiguous file extensions ([9b8930d](https://github.com/ElJijuna/code-languages/commit/9b8930d07e520cd0021cfd831665848b877fe6ee))
+
+
+### Features
+
+* add lazy-loading api at code-languages/api/lazy ([30889b2](https://github.com/ElJijuna/code-languages/commit/30889b29fca0d3f7a8d2bfc5274ee2766464db47))
+
+
+### Performance Improvements
+
+* share language data between ESM entry points through code splitting ([5c3ab0a](https://github.com/ElJijuna/code-languages/commit/5c3ab0ac18d20827f224bebd4d80bfdeef57dbb0))
+
 ## [1.45.20](https://github.com/ElJijuna/code-languages/compare/v1.45.19...v1.45.20) (2026-09-24)
 
 
