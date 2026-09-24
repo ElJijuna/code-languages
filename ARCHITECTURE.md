@@ -17,11 +17,14 @@ src/
 ├── types.ts                     # Public data model (Language, LanguageContent, LanguageStatus, Locale, ...)
 ├── index.ts                     # Root barrel: domain APIs + types + GENERATED language-exports block
 ├── api.ts                       # Fluent `api` object: language/extension/category/runtime/... lookups
+├── api-lazy.ts                  # `lazyApi` (code-languages/api/lazy): async-only lookups, no catalog
 ├── domain/
 │   ├── language/
 │   │   ├── catalog.ts           # GENERATED eager in-memory array of every Language object
 │   │   ├── registry.ts          # GENERATED slug+extension index (languageIndex, LanguageSlug)
-│   │   └── loaders.ts           # GENERATED lazy import map (languageLoaders, loadLanguage)
+│   │   ├── loaders.ts           # GENERATED lazy import map (languageLoaders, loadLanguage)
+│   │   ├── aliases.ts           # GENERATED alias → slug map (languageAliases)
+│   │   └── lookup.ts            # Slug/alias resolution and extension matching shared by api and lazyApi
 │   ├── detection/
 │   │   ├── match.ts             # Shared matching engine with a cached extension→entries index
 │   │   ├── shebang.ts           # detectLanguageSlugByShebang — interpreter → slug map
@@ -46,7 +49,7 @@ and CI fails when the committed output is stale.
 Supporting directories:
 
 - `tests/languages.test.ts` — one parameterized contract test over the whole catalog (slug uniqueness, alphabetical order, per-language `expectValidLanguage`).
-- `tests/registry-sync.test.ts` — locks `languageIndex` (`registry.ts`) and `languageLoaders` (`loaders.ts`) to the catalog (slugs, order, extensions, loadability).
+- `tests/registry-sync.test.ts` — locks `languageIndex` (`registry.ts`), `languageLoaders` (`loaders.ts`), and `languageAliases` (`aliases.ts`) to the catalog (slugs, order, extensions, loadability).
 - `tests/detect-ambiguous.test.ts` — locks the first-match winner for every ambiguous extension (`.h` → `c`, `.as` → `actionscript`, ...).
 - `tests/language-contract.ts` — shared `expectValidLanguage()` assertions.
 - `tests/api*.test.ts`, `tests/detect*.test.ts` — behavior tests for the domain/query layer, shebang detection, aliases, and `api.extension`.
@@ -97,7 +100,9 @@ The domain layer sits between raw language data and the public API. It is organi
 
 - `catalog.ts` — imports and re-exports every language module eagerly as a flat `languages: Language[]` array. Used for synchronous, in-memory catalog access (`api.language(x).get()`, `languages` export).
 - `registry.ts` — defines `languageIndex`, a minimal `{ slug, extensions }[]` array (no descriptions, no i18n, no tooling) used for lightweight filename detection without pulling in the full catalog.
-- `loaders.ts` — defines `languageLoaders`, an explicit `Record<slug, () => Promise<Language>>` map of dynamic `import()` calls — one per language — reserved for a future lazy entry point; the `api` entry resolves `.load()` from its in-memory catalog instead. It lives apart from `registry.ts` so the ESM build, which shares modules between entry points through chunks, does not put 300+ `import()` calls into the chunk that `detect-slugs` loads.
+- `loaders.ts` — defines `languageLoaders`, an explicit `Record<slug, () => Promise<Language>>` map of dynamic `import()` calls — one per language — used by `lazyApi` (`code-languages/api/lazy`); the `api` entry resolves `.load()` from its in-memory catalog instead. It lives apart from `registry.ts` so the ESM build, which shares modules between entry points through chunks, does not put 300+ `import()` calls into the chunk that `detect-slugs` loads.
+- `aliases.ts` — `languageAliases`, every catalog alias lowercased and mapped to its slug, so alias lookups work without the catalog. Codegen fails on an alias declared by two languages.
+- `lookup.ts` — `resolveLanguageLookup()` (alias check, then slug normalization) and `hasExtension()`, shared by `api` and `lazyApi` so both resolve lookups identically.
 
 This split exists so that consumers who only need `detectLanguageSlug()` (via `code-languages/detect-slugs`) don't pay the bundle cost of every language's full metadata and i18n content.
 
@@ -145,18 +150,25 @@ Every request builder supports `.locale(x)` (mutates the builder, returns itself
 - `.get()` — synchronous read from the in-memory `languages` catalog, or
 - `.load()` — `async`, the same read behind a promise.
 
-Both read the catalog that `code-languages/api` (and the root) bundle statically, so `.load()` does not reduce bundle size. `api.ts` deliberately resolves `.load()` from memory rather than through `languageLoaders`: with ESM code splitting, real `import()` calls would make every consumer build emit hundreds of chunk files for data that is already loaded. Consumers that need small bundles import `code-languages/<slug>` or `code-languages/detect-slugs` directly.
+Both read the catalog that `code-languages/api` (and the root) bundle statically, so `.load()` does not reduce bundle size; true lazy loading lives in `lazyApi`, below. `api.ts` deliberately resolves `.load()` from memory rather than through `languageLoaders`: with ESM code splitting, real `import()` calls would make every consumer build emit hundreds of chunk files for data that is already loaded. Consumers that need small bundles import `code-languages/<slug>` or `code-languages/detect-slugs` directly.
+
+### `src/api-lazy.ts` — `code-languages/api/lazy`
+
+`lazyApi` is the lazy-loading counterpart of `api`. It never imports the catalog: `language()` (slugs and aliases via `lookup.ts`), `languages()`, `detect()`, `detectAll()`, and `extension().langs()` run against `languageIndex`, and `.load()` imports only the matching language modules through `languageLoaders`. Collections expose `slugs()` and `count()` synchronously because they only need the index. There is no `.get()`, no `search()`, and no category/paradigm/runtime/package-manager/ecosystem/status/related filters, since those need every language's data in memory.
+
+In ESM, bundlers emit one chunk per language and load it on demand (~37 kB initial load vs ~1.4 MB for `api`). In CJS, the dynamic imports are kept external and load `dist/languages/<slug>.cjs` at runtime (see the build pipeline).
 
 ### Subpath exports (`code-languages/<slug>`)
 
-`package.json`'s `exports` map defines one subpath per language (e.g. `code-languages/typescript`) plus `.`, `./api`, `./i18n`, `./detect`, `./detect-slugs`. This is the primary tree-shaking mechanism: a consumer who only needs `astro` metadata imports `code-languages/astro` and never touches the other 285+ language modules, even without a bundler.
+`package.json`'s `exports` map defines one subpath per language (e.g. `code-languages/typescript`) plus `.`, `./api`, `./api/lazy`, `./i18n`, `./detect`, `./detect-slugs`. This is the primary tree-shaking mechanism: a consumer who only needs `astro` metadata imports `code-languages/astro` and never touches the other 285+ language modules, even without a bundler.
 
 ## Build pipeline
 
 [tsup.config.ts](tsup.config.ts) drives the build:
 
-- Entry points are `api`, `detect`, `detect-slugs`, `index`, `i18n`, plus **one auto-generated entry per file in `src/languages/`** (via `readdirSync`), producing a matching `dist/languages/<slug>.{js,cjs,d.ts,d.cts}` for every subpath export declared in `package.json`.
-- Output formats: ESM and CommonJS (`format: ['esm', 'cjs']`), with `.d.ts` generation, no code splitting, tree-shaking enabled, `dist/` cleaned on each build.
+- Entry points are `api`, `api/lazy`, `detect`, `detect-slugs`, `index`, `i18n`, plus **one auto-generated entry per file in `src/languages/`** (via `readdirSync`), producing a matching `dist/languages/<slug>.{js,cjs,d.ts,d.cts}` for every subpath export declared in `package.json`.
+- Output formats: ESM and CommonJS (`format: ['esm', 'cjs']`), with `.d.ts` generation, tree-shaking enabled, `dist/` cleaned on each build. ESM uses tsup's default code splitting, sharing modules between entry points through `dist/chunks/`; CJS stays one self-contained file per entry.
+- The `external-lazy-languages-for-cjs` esbuild plugin keeps `lazyApi`'s dynamic `import('@/languages/<slug>')` calls external in the CJS build, pointing at `../languages/<slug>.cjs`; otherwise CJS, which cannot split, would inline every language into `dist/api/lazy.cjs`. tsup runs esbuild in ESM mode for both formats when `treeshake` is on, so the plugin detects the CJS build by its `.cjs` output extension.
 - `sideEffects: false` in `package.json` lets bundlers safely drop unused language modules.
 
 `npm run build` runs `tsup`. `npm run check` runs format-check, lint, `tsc --noEmit`, and the full Vitest suite — this is the required gate before build in CI. `npm run size` (after a build) enforces the bundle and package size budgets described below.

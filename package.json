@@ -42,6 +42,11 @@
       "import": "./dist/api.js",
       "require": "./dist/api.cjs"
     },
+    "./api/lazy": {
+      "types": "./dist/api/lazy.d.ts",
+      "import": "./dist/api/lazy.js",
+      "require": "./dist/api/lazy.cjs"
+    },
     "./i18n": {
       "types": "./dist/i18n.d.ts",
       "import": "./dist/i18n.js",
@@ -1654,7 +1659,7 @@
     "check": "npm run format:check && npm run lint && tsc --noEmit && vitest run",
     "check:language-links": "node scripts/check-language-links.mjs",
     "check:language-versions": "node scripts/check-language-versions.mjs",
-    "codegen": "node scripts/generate-language-artifacts.mjs && biome check --write src/index.ts src/domain/language/catalog.ts src/domain/language/registry.ts src/domain/language/loaders.ts",
+    "codegen": "node scripts/generate-language-artifacts.mjs && biome check --write src/index.ts src/domain/language/catalog.ts src/domain/language/registry.ts src/domain/language/loaders.ts src/domain/language/aliases.ts",
     "format": "biome check --write .",
     "format:check": "biome check .",
     "lint": "eslint .",

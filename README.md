@@ -22,6 +22,7 @@ Structured metadata for programming languages, packaged as a typed, tree-shakeab
 - ESM and CommonJS builds
 - Subpath imports for per-language usage
 - Tree-shakeable exports
+- Lazy-loading API that imports only the languages you use
 - Localized content in English, Spanish, Italian, French, German, and Portuguese
 - Works in Node.js and modern bundlers
 
@@ -145,7 +146,8 @@ are typed as always returning a language — no `undefined` check needed.
 
 `get()` and `load()` both read from the in-memory catalog bundled with the `api`
 entry point; `load()` returns the same data behind a promise. When bundle size
-matters, import individual languages from `code-languages/<slug>` instead.
+matters, use `code-languages/api/lazy` or import individual languages from
+`code-languages/<slug>` instead.
 
 Use `api.runtime(value)` to query languages that run on a specific platform or runtime environment:
 
@@ -461,6 +463,32 @@ api.category("backend").langs().paradigm("functional").slugs(); // ["clojure", "
 api.runtime("node").langs().count(); // number of matching languages
 api.search("golang").first()?.slug; // "go"
 ```
+
+### Lazy API
+
+`code-languages/api/lazy` exports `lazyApi`, which never bundles the catalog. Lookups
+and detection run against a lightweight slug and extension index (~37 kB minified), and
+each `.load()` dynamically imports only the language modules it returns, so bundlers
+split every language into its own chunk:
+
+```ts
+import { lazyApi } from "code-languages/api/lazy";
+
+const go = await lazyApi.language("golang").locale("es").load(); // loads only Go
+const detected = await lazyApi.detect("src/main.rs").load(); // loads only Rust
+const candidates = lazyApi.detectAll("include/config.h").slugs(); // ["c", "cpp"], nothing loaded
+const headers = await lazyApi.extension(".h").langs().locale("de").load();
+
+console.log(go?.name); // "Go"
+console.log(detected?.slug); // "rust"
+```
+
+`lazyApi` supports `language()`, `languages()`, `detect()`, `detectAll()`, and
+`extension().langs()` with the same lookup, alias, and ranking rules as `api`. Everything
+is async (`.load()` only); collections also offer `slugs()` and `count()` without loading
+anything. Search and category, paradigm, runtime, package manager, ecosystem, status, and
+related filters need every language in memory, so they are only available on `api`.
+It loads languages on demand in both ESM and CommonJS.
 
 ## Supported Languages
 

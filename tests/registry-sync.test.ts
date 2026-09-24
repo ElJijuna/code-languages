@@ -1,6 +1,7 @@
 import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import { languages } from '../src';
+import { languageAliases } from '../src/domain/language/aliases';
 import { languageLoaders, loadLanguage } from '../src/domain/language/loaders';
 import * as registry from '../src/domain/language/registry';
 
@@ -17,6 +18,16 @@ describe('language registry sync', () => {
     for (const [position, language] of languages.entries()) {
       expect(languageIndex[position]?.extensions, language.slug).toEqual(language.extensions);
     }
+  });
+
+  it('maps exactly the catalog aliases, lowercased, to their slugs', () => {
+    const catalogAliases = Object.fromEntries(
+      languages.flatMap((language) =>
+        (language.aliases ?? []).map((alias) => [alias.toLowerCase(), language.slug]),
+      ),
+    );
+
+    expect(languageAliases).toEqual(catalogAliases);
   });
 
   it('has one dynamic loader per catalog slug', () => {

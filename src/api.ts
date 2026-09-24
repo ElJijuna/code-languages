@@ -14,6 +14,7 @@ import {
 } from '@/domain/ecosystem/registry';
 import { localizeLanguage } from '@/domain/i18n';
 import { languages } from '@/domain/language/catalog';
+import { hasExtension, resolveLanguageLookup } from '@/domain/language/lookup';
 import { type LanguageSlug, languageIndex } from '@/domain/language/registry';
 import {
   findPackageManager,
@@ -183,7 +184,6 @@ export interface LanguageCollectionRequest {
 
 const defaultLocale: Locale = 'en';
 const languageMap = new Map(languages.map((l) => [l.slug, l]));
-const languageAliasMap = new Map<string, string>();
 /**
  * Resolves a language for `.load()`.
  *
@@ -191,37 +191,12 @@ const languageAliasMap = new Map<string, string>();
  * from memory instead of emitting one dynamic import per language into consumer builds.
  */
 const loadLanguage = async (slug: string): Promise<Language | undefined> => languageMap.get(slug);
-
-for (const language of languages) {
-  for (const alias of language.aliases ?? []) {
-    languageAliasMap.set(alias.toLowerCase(), language.slug);
-  }
-}
-
 /** Lowercased name and aliases per catalog language, computed once for `api.search`. */
 const searchEntries = languages.map((language) => ({
   language,
   name: language.i18n.en.name.toLowerCase(),
   aliases: (language.aliases ?? []).map((alias) => alias.toLowerCase()),
 }));
-const normalizeLanguageSlug = (slug: RuntimeLanguageSlug) =>
-  slug
-    .trim()
-    .toLowerCase()
-    .replace(/\s+/g, '-')
-    .replace(/[^a-z0-9-]/g, '');
-/**
- * Resolves a lookup value to a catalog slug.
- *
- * Aliases are checked before slug normalization so values such as `C#` or `golang`
- * resolve to `csharp` and `go` instead of being mangled by symbol stripping.
- */
-const resolveLanguageLookup = (value: string) => {
-  const raw = value.trim().toLowerCase();
-  const normalized = normalizeLanguageSlug(value);
-
-  return languageAliasMap.get(raw) ?? languageAliasMap.get(normalized) ?? normalized;
-};
 const localizeOptionalLanguage = (language: Language | undefined, locale: Locale) =>
   language ? localizeLanguage(language, locale) : undefined;
 const createLanguageRequest = (
@@ -281,16 +256,10 @@ const ecosystemPredicate = (value: string): LanguagePredicate => {
 
   return (language) => matchesEcosystem(language, targets);
 };
-const extensionPredicate = (value: string): LanguagePredicate => {
-  const normalized = value.trim().toLowerCase();
-
-  return (language) =>
-    language.extensions.some((extension) => {
-      const normalizedExtension = extension.toLowerCase();
-
-      return normalizedExtension === normalized || normalizedExtension === `.${normalized}`;
-    });
-};
+const extensionPredicate =
+  (value: string): LanguagePredicate =>
+  (language) =>
+    hasExtension(language.extensions, value);
 const statusPredicate =
   (value: LanguageStatus): LanguagePredicate =>
   (language) =>

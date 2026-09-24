@@ -7,6 +7,7 @@ import { join } from 'node:path';
  * - `src/domain/language/catalog.ts` (eager catalog array)
  * - `src/domain/language/registry.ts` (slug/extension index)
  * - `src/domain/language/loaders.ts` (dynamic import map)
+ * - `src/domain/language/aliases.ts` (alias → slug map)
  * - `src/index.ts` language-exports block (between auto-generated markers)
  * - `package.json` `exports` map (root/api/i18n/detect entries + one subpath per language)
  * - `README.md` Supported Languages count and table
@@ -19,6 +20,7 @@ const languagesDir = 'src/languages';
 const catalogPath = 'src/domain/language/catalog.ts';
 const registryPath = 'src/domain/language/registry.ts';
 const loadersPath = 'src/domain/language/loaders.ts';
+const aliasesPath = 'src/domain/language/aliases.ts';
 const indexPath = 'src/index.ts';
 const packageJsonPath = 'package.json';
 const readmePath = 'README.md';
@@ -44,12 +46,14 @@ const parseLanguageFile = (file) => {
   const [, , version] = extractField(source, /^ {2}version: (['"])((?:(?!\1).)*)\1/m, file);
   const [, , logo] = extractField(source, /^ {2}logo: (['"])((?:(?!\1).)*)\1/m, file);
   const [, , name] = extractField(source, /en: \{\s*\n\s*name: (['"])((?:(?!\1).)*)\1/, file);
+  const aliasesBody = source.match(/^ {2}aliases: \[([\s\S]*?)\]/m)?.[1] ?? '';
+  const aliases = [...aliasesBody.matchAll(/(['"])((?:(?!\1).)*)\1/g)].map((match) => match[2]);
 
   if (extensions.length === 0) {
     throw new Error(`${file} has no extensions`);
   }
 
-  return { slug, exportName, extensions, version, logo, name };
+  return { slug, exportName, extensions, aliases, version, logo, name };
 };
 const languages = readdirSync(languagesDir)
   .filter((file) => file.endsWith('.ts'))
@@ -128,6 +132,37 @@ export const loadLanguage = (slug: string): Promise<Language> | undefined =>
 `,
 );
 
+// --- src/domain/language/aliases.ts ---
+
+const aliasOwners = new Map();
+
+for (const { slug, aliases } of languages) {
+  for (const alias of aliases.map((value) => value.toLowerCase())) {
+    if (aliasOwners.has(alias)) {
+      throw new Error(`Alias "${alias}" is declared by both ${aliasOwners.get(alias)} and ${slug}`);
+    }
+
+    aliasOwners.set(alias, slug);
+  }
+}
+
+const aliasEntries = [...aliasOwners]
+  .sort(([first], [second]) => (first < second ? -1 : 1))
+  .map(([alias, slug]) => `  ${JSON.stringify(alias)}: ${JSON.stringify(slug)},`)
+  .join('\n');
+
+writeFileSync(
+  aliasesPath,
+  `${generatedHeader}
+import type { LanguageSlug } from '@/domain/language/registry';
+
+/** Lowercase language alias to catalog slug, for lookups that must not load the catalog. */
+export const languageAliases: Readonly<Record<string, LanguageSlug>> = {
+${aliasEntries}
+};
+`,
+);
+
 // --- src/index.ts language-exports block ---
 
 const indexSource = readFileSync(indexPath, 'utf8');
@@ -162,6 +197,7 @@ const subpathEntry = (path) => ({
 packageJson.exports = {
   '.': subpathEntry('index'),
   './api': subpathEntry('api'),
+  './api/lazy': subpathEntry('api/lazy'),
   './i18n': subpathEntry('i18n'),
   './detect': subpathEntry('detect'),
   './detect-slugs': subpathEntry('detect-slugs'),

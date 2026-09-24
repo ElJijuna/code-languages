@@ -2,9 +2,11 @@
  * Size budgets for what consumers actually ship, measured by bundling small
  * import snippets against the built package (see `check-bundle-size.mjs`).
  *
- * Each bundle budget caps the minified bytes a consumer bundler emits for the
- * snippet, and the number of JavaScript files it emits (so `.load()` or code
- * splitting changes cannot silently add hundreds of chunks to consumer builds).
+ * Each bundle budget caps the minified bytes of the snippet's initial load (the
+ * entry chunk plus its static imports, excluding chunks only reached through
+ * dynamic `import()`), and the total number of JavaScript files the bundler emits
+ * (so `.load()` or code splitting changes cannot silently add hundreds of chunks
+ * to consumer builds that do not expect them).
  *
  * Raise a limit only on purpose — e.g. when new languages grow the catalog.
  */
@@ -38,6 +40,13 @@ export const bundleBudgets = [
     maxFiles: 1,
   },
   {
+    name: 'api/lazy (initial load)',
+    specifier: 'code-languages/api/lazy',
+    imports: ['lazyApi'],
+    maxBytes: 40_000,
+    maxFiles: 700,
+  },
+  {
     name: 'api (full catalog)',
     specifier: 'code-languages/api',
     imports: ['api'],
@@ -50,6 +59,34 @@ export const packageBudget = {
   maxPackedBytes: 3_000_000,
   maxUnpackedBytes: 10_000_000,
 };
+
+/**
+ * Returns the output paths loaded up front from an esbuild metafile: the stdin entry
+ * chunk and everything it reaches through static imports.
+ */
+export function getInitialOutputs(outputs) {
+  const entry = Object.keys(outputs).find((path) => outputs[path].entryPoint === '<stdin>');
+  const initial = new Set();
+  const pending = entry ? [entry] : [];
+
+  while (pending.length > 0) {
+    const path = pending.pop();
+
+    if (initial.has(path)) {
+      continue;
+    }
+
+    initial.add(path);
+
+    for (const { path: importedPath, kind } of outputs[path]?.imports ?? []) {
+      if (kind === 'import-statement') {
+        pending.push(importedPath);
+      }
+    }
+  }
+
+  return initial;
+}
 
 /** Builds the consumer snippet bundled for a budget. */
 export function createBudgetSnippet({ specifier, imports }) {
@@ -114,7 +151,7 @@ export function evaluateBudgets({ bundles, pack }) {
   }
 
   const report = [
-    '| | Budget | Import | Minified / limit | Gzip | JS files / limit |',
+    '| | Budget | Import | Initial minified / limit | Initial gzip | JS files / limit |',
     '| --- | --- | --- | --- | --- | --- |',
     ...rows,
   ].join('\n');

@@ -1,15 +1,23 @@
 import { execFileSync } from 'node:child_process';
 import { appendFileSync, existsSync } from 'node:fs';
+import { relative } from 'node:path';
 import { gzipSync } from 'node:zlib';
 import { build } from 'esbuild';
-import { bundleBudgets, createBudgetSnippet, evaluateBudgets } from './bundle-size-budget.mjs';
+import {
+  bundleBudgets,
+  createBudgetSnippet,
+  evaluateBudgets,
+  getInitialOutputs,
+} from './bundle-size-budget.mjs';
 
 /**
  * Checks consumer bundle sizes and npm package size against `bundle-size-budget.mjs`.
  *
  * Requires a prior `npm run build`. Each budget snippet is bundled in memory with
  * esbuild (minified ESM with code splitting, like a typical app bundler), resolving
- * `code-languages` to this package through its `exports` map.
+ * `code-languages` to this package through its `exports` map. Byte budgets apply to
+ * the initial load (the entry chunk and its static imports); lazily imported chunks
+ * only count toward the emitted file total.
  */
 
 if (!existsSync('dist/index.js')) {
@@ -26,14 +34,17 @@ const measureBundle = async (budget) => {
     splitting: true,
     outdir: 'size-check',
     write: false,
+    metafile: true,
     logLevel: 'error',
   });
   const files = result.outputFiles.filter((file) => file.path.endsWith('.js'));
+  const initialPaths = getInitialOutputs(result.metafile.outputs);
+  const initialFiles = files.filter((file) => initialPaths.has(relative(process.cwd(), file.path)));
 
   return {
     budget,
-    bytes: files.reduce((total, file) => total + file.contents.length, 0),
-    gzipBytes: files.reduce((total, file) => total + gzipSync(file.contents).length, 0),
+    bytes: initialFiles.reduce((total, file) => total + file.contents.length, 0),
+    gzipBytes: initialFiles.reduce((total, file) => total + gzipSync(file.contents).length, 0),
     files: files.length,
   };
 };

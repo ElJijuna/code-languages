@@ -5,6 +5,7 @@ import {
   createBudgetSnippet,
   evaluateBudgets,
   formatBytes,
+  getInitialOutputs,
   packageBudget,
 } from '../scripts/bundle-size-budget.mjs';
 
@@ -29,6 +30,34 @@ describe('bundleBudgets', () => {
       expect(maxBytes).toBeGreaterThan(0);
       expect(maxFiles).toBeGreaterThanOrEqual(1);
     }
+  });
+});
+
+describe('getInitialOutputs()', () => {
+  it('follows static imports from the stdin entry and skips dynamic imports', () => {
+    const outputs = {
+      'out/stdin.js': {
+        entryPoint: '<stdin>',
+        imports: [
+          { path: 'out/shared.js', kind: 'import-statement' },
+          { path: 'out/lazy.js', kind: 'dynamic-import' },
+        ],
+      },
+      'out/shared.js': { imports: [{ path: 'out/deep.js', kind: 'import-statement' }] },
+      'out/deep.js': { imports: [{ path: 'out/shared.js', kind: 'import-statement' }] },
+      'out/lazy.js': { imports: [{ path: 'out/lazy-only.js', kind: 'import-statement' }] },
+      'out/lazy-only.js': { imports: [] },
+    };
+
+    expect([...getInitialOutputs(outputs)].sort()).toEqual([
+      'out/deep.js',
+      'out/shared.js',
+      'out/stdin.js',
+    ]);
+  });
+
+  it('returns an empty set without a stdin entry', () => {
+    expect(getInitialOutputs({ 'out/other.js': { imports: [] } }).size).toBe(0);
   });
 });
 
