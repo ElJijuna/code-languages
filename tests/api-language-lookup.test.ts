@@ -28,6 +28,11 @@ describe('api.language aliases', () => {
     await expect(api.language('rocq').load()).resolves.toMatchObject({ slug: 'coq' });
   });
 
+  it('returns undefined for slugs that match Object.prototype members', async () => {
+    expect(api.language('constructor').get()).toBeUndefined();
+    await expect(api.language('constructor').load()).resolves.toBeUndefined();
+  });
+
   it('still resolves plain slugs and normalized names', () => {
     expect(api.language('go').get()?.slug).toBe('go');
     expect(api.language('Visual Basic').get()?.slug).toBe('visual-basic');

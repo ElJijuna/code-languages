@@ -111,7 +111,8 @@ ${loaderEntries}
 };
 
 /** Dynamically imports a language module by slug. */
-export const loadLanguage = (slug: string) => languageLoaders[slug as LanguageSlug]?.();
+export const loadLanguage = (slug: string): Promise<Language> | undefined =>
+  Object.hasOwn(languageLoaders, slug) ? languageLoaders[slug as LanguageSlug]() : undefined;
 `,
 );
 

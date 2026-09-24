@@ -19,13 +19,13 @@ const resolveLocale = (translations: Language['i18n'], locale: Locale): BaseLoca
   const normalizedLocale = locale.toLowerCase();
   const exactLocale = normalizedLocale as BaseLocale;
 
-  if (translations[exactLocale]) {
+  if (Object.hasOwn(translations, exactLocale)) {
     return exactLocale;
   }
 
   const baseLocale = normalizedLocale.split('-')[0] as BaseLocale;
 
-  if (translations[baseLocale]) {
+  if (Object.hasOwn(translations, baseLocale)) {
     return baseLocale;
   }
 

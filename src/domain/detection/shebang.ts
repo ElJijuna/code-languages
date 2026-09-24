@@ -47,9 +47,10 @@ const SHEBANG_INTERPRETERS: Record<string, LanguageSlug> = {
   zsh: 'zsh',
 };
 const trailingVersionPattern = /[-.]?\d[\d.]*$/;
+const getInterpreter = (name: string): LanguageSlug | undefined =>
+  Object.hasOwn(SHEBANG_INTERPRETERS, name) ? SHEBANG_INTERPRETERS[name] : undefined;
 const lookupInterpreter = (interpreter: string): LanguageSlug | undefined =>
-  SHEBANG_INTERPRETERS[interpreter] ??
-  SHEBANG_INTERPRETERS[interpreter.replace(trailingVersionPattern, '')];
+  getInterpreter(interpreter) ?? getInterpreter(interpreter.replace(trailingVersionPattern, ''));
 
 /** Returns a copy of the interpreter-basename to language-slug map used by shebang detection. */
 export const getShebangInterpreters = (): Record<string, LanguageSlug> => ({
@@ -59,8 +60,9 @@ export const getShebangInterpreters = (): Record<string, LanguageSlug> => ({
 /**
  * Detects a language slug from the shebang line of a file's content.
  *
- * Handles direct interpreter paths (`#!/bin/bash`), `env` indirection with flags
- * (`#!/usr/bin/env -S deno run`), and versioned interpreters (`#!/usr/bin/python3`).
+ * Handles direct interpreter paths (`#!/bin/bash`), `env` indirection with flags and
+ * variable assignments (`#!/usr/bin/env -S deno run`, `#!/usr/bin/env FOO=1 node`), and
+ * versioned interpreters (`#!/usr/bin/python3`).
  *
  * @example
  * detectLanguageSlugByShebang("#!/usr/bin/env python3\nprint('hi')");
@@ -80,7 +82,7 @@ export const detectLanguageSlugByShebang = (content: string): LanguageSlug | und
   if (interpreter === 'env') {
     interpreter = parts
       .slice(1)
-      .find((argument) => !argument.startsWith('-'))
+      .find((argument) => !argument.startsWith('-') && !argument.includes('='))
       ?.split('/')
       .at(-1)
       ?.toLowerCase();

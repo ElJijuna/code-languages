@@ -3,6 +3,8 @@ import { detectLanguageSlugByShebang } from '@/domain/detection/shebang';
 import { languages } from '@/domain/language/catalog';
 import type { Language } from '@/types';
 
+const languageMap = new Map(languages.map((language) => [language.slug, language]));
+
 /**
  * Detects all languages that match a filename or path.
  *
@@ -41,7 +43,7 @@ export const detectLanguage = (filename: string): Language | undefined =>
 export const detectLanguageByShebang = (content: string): Language | undefined => {
   const slug = detectLanguageSlugByShebang(content);
 
-  return slug ? languages.find((language) => language.slug === slug) : undefined;
+  return slug ? languageMap.get(slug) : undefined;
 };
 
 export { detectLanguageSlugByShebang } from '@/domain/detection/shebang';

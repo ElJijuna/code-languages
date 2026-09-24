@@ -191,6 +191,12 @@ for (const language of languages) {
   }
 }
 
+/** Lowercased name and aliases per catalog language, computed once for `api.search`. */
+const searchEntries = languages.map((language) => ({
+  language,
+  name: language.i18n.en.name.toLowerCase(),
+  aliases: (language.aliases ?? []).map((alias) => alias.toLowerCase()),
+}));
 const normalizeLanguageSlug = (slug: RuntimeLanguageSlug) =>
   slug
     .trim()
@@ -431,7 +437,7 @@ export const api = {
 
     return createLanguageRequest(
       () => languageMap.get(resolvedSlug),
-      () => loadLanguage(resolvedSlug),
+      async () => loadLanguage(resolvedSlug),
     ) as Slug extends LanguageSlug ? ResolvedLanguageRequest : LanguageRequest;
   },
 
@@ -500,10 +506,7 @@ export const api = {
    */
   search(query: string): LanguageCollectionRequest {
     const normalizedQuery = query.trim().toLowerCase();
-    const rankLanguage = (language: Language): number => {
-      const name = language.i18n.en.name.toLowerCase();
-      const aliases = (language.aliases ?? []).map((alias) => alias.toLowerCase());
-
+    const rankLanguage = ({ language, name, aliases }: (typeof searchEntries)[number]): number => {
       if (
         language.slug === normalizedQuery ||
         name === normalizedQuery ||
@@ -534,8 +537,8 @@ export const api = {
         return [];
       }
 
-      return languages
-        .map((language, index) => ({ language, index, rank: rankLanguage(language) }))
+      return searchEntries
+        .map((entry, index) => ({ language: entry.language, index, rank: rankLanguage(entry) }))
         .filter(({ rank }) => rank > 0)
         .sort((first, second) => second.rank - first.rank || first.index - second.index)
         .map(({ language }) => language);

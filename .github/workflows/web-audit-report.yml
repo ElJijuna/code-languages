@@ -3,6 +3,8 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 6 * * *' # ⏰ Ejecuta todos los días a las 6:00 AM UTC
+permissions:
+  contents: read
 jobs:
   audit:
     runs-on: ubuntu-latest

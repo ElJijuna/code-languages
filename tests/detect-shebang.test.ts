@@ -30,6 +30,15 @@ describe('detectLanguageSlugByShebang', () => {
     );
   });
 
+  it('skips env variable assignments', () => {
+    expect(detectLanguageSlugByShebang('#!/usr/bin/env NODE_ENV=production node\n')).toBe(
+      'javascript',
+    );
+    expect(detectLanguageSlugByShebang('#!/usr/bin/env -S PYTHONUNBUFFERED=1 python3\n')).toBe(
+      'python',
+    );
+  });
+
   it('strips interpreter version suffixes', () => {
     expect(detectLanguageSlugByShebang('#!/usr/bin/python3.12\n')).toBe('python');
     expect(detectLanguageSlugByShebang('#!/usr/bin/perl5.36.0\n')).toBe('perl');
@@ -42,6 +51,12 @@ describe('detectLanguageSlugByShebang', () => {
     expect(detectLanguageSlugByShebang('#!/usr/bin/unknown-interpreter\n')).toBeUndefined();
     expect(detectLanguageSlugByShebang('#!/usr/bin/env\n')).toBeUndefined();
   });
+
+  it('ignores interpreter names that match Object.prototype members', () => {
+    expect(detectLanguageSlugByShebang('#!/bin/constructor\n')).toBeUndefined();
+    expect(detectLanguageSlugByShebang('#!/usr/bin/env __proto__\n')).toBeUndefined();
+    expect(detectLanguageByShebang('#!/bin/constructor\n')).toBeUndefined();
+  });
 });
 
 describe('getShebangInterpreters', () => {
@@ -49,12 +64,12 @@ describe('getShebangInterpreters', () => {
     const interpreters = getShebangInterpreters();
     const catalogSlugs = new Set(languages.map((language) => language.slug));
 
-    expect(interpreters['bash']).toBe('bash');
+    expect(interpreters.bash).toBe('bash');
     expect(Object.values(interpreters).every((slug) => catalogSlugs.has(slug))).toBe(true);
 
-    interpreters['bash'] = 'zsh';
+    interpreters.bash = 'zsh';
 
-    expect(getShebangInterpreters()['bash']).toBe('bash');
+    expect(getShebangInterpreters().bash).toBe('bash');
   });
 });
 

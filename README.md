@@ -63,6 +63,7 @@ Import from the package root when bundle size is not a concern:
 import {
   abap,
   actionscript,
+  localizeLanguage,
 } from "code-languages";
 
 console.log(localizeLanguage(abap).description);

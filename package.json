@@ -24,7 +24,8 @@
   ],
   "type": "module",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "sideEffects": false,
   "main": "./dist/index.cjs",
