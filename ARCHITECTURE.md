@@ -5,7 +5,7 @@ This document describes the internal architecture of `code-languages`, a zero-ru
 ## Goals and constraints
 
 - **Zero runtime dependencies.** The published package has no `dependencies` in `package.json`; only `devDependencies` used for build/test/lint.
-- **Tree-shakeable and lazily loadable.** Every language is its own module and its own npm subpath export, so consumers can import exactly what they need, either statically or via dynamic `import()`.
+- **Tree-shakeable and lazily loadable.** Every language is its own module and its own npm subpath export, so consumers can import exactly what they need, either statically or via dynamic `import()` of `code-languages/<slug>`. The ESM build shares language data between entry points through chunks in `dist/chunks/`; the CJS build stays one self-contained file per entry.
 - **Typed, contract-validated data.** Every language object satisfies a single `Language` interface and is checked against a shared Vitest contract at test time.
 - **Localization built in.** Display content (name, description, long description) is translated into six base locales, with locale-fallback resolution baked into the library, not left to consumers.
 - **Dual module output.** ESM and CommonJS builds are generated for every entry point via `tsup`.
@@ -20,7 +20,8 @@ src/
 ├── domain/
 │   ├── language/
 │   │   ├── catalog.ts           # GENERATED eager in-memory array of every Language object
-│   │   └── registry.ts          # GENERATED slug+extension index + lazy import map (languageLoaders)
+│   │   ├── registry.ts          # GENERATED slug+extension index (languageIndex, LanguageSlug)
+│   │   └── loaders.ts           # GENERATED lazy import map (languageLoaders, loadLanguage)
 │   ├── detection/
 │   │   ├── match.ts             # Shared matching engine with a cached extension→entries index
 │   │   ├── shebang.ts           # detectLanguageSlugByShebang — interpreter → slug map
@@ -45,7 +46,7 @@ and CI fails when the committed output is stale.
 Supporting directories:
 
 - `tests/languages.test.ts` — one parameterized contract test over the whole catalog (slug uniqueness, alphabetical order, per-language `expectValidLanguage`).
-- `tests/registry-sync.test.ts` — locks `languageIndex`/`languageLoaders` to the catalog (slugs, order, extensions, loadability).
+- `tests/registry-sync.test.ts` — locks `languageIndex` (`registry.ts`) and `languageLoaders` (`loaders.ts`) to the catalog (slugs, order, extensions, loadability).
 - `tests/detect-ambiguous.test.ts` — locks the first-match winner for every ambiguous extension (`.h` → `c`, `.as` → `actionscript`, ...).
 - `tests/language-contract.ts` — shared `expectValidLanguage()` assertions.
 - `tests/api*.test.ts`, `tests/detect*.test.ts` — behavior tests for the domain/query layer, shebang detection, aliases, and `api.extension`.
@@ -95,7 +96,8 @@ The domain layer sits between raw language data and the public API. It is organi
 ### `language/`
 
 - `catalog.ts` — imports and re-exports every language module eagerly as a flat `languages: Language[]` array. Used for synchronous, in-memory catalog access (`api.language(x).get()`, `languages` export).
-- `registry.ts` — defines `languageIndex`, a minimal `{ slug, extensions }[]` array (no descriptions, no i18n, no tooling) used for lightweight filename detection without pulling in the full catalog. It also defines `languageLoaders`, an explicit `Record<slug, () => Promise<Language>>` map of dynamic `import()` calls — one per language — used for `.load()`-based lazy access (`api.language(x).load()`).
+- `registry.ts` — defines `languageIndex`, a minimal `{ slug, extensions }[]` array (no descriptions, no i18n, no tooling) used for lightweight filename detection without pulling in the full catalog.
+- `loaders.ts` — defines `languageLoaders`, an explicit `Record<slug, () => Promise<Language>>` map of dynamic `import()` calls — one per language — reserved for a future lazy entry point; the `api` entry resolves `.load()` from its in-memory catalog instead. It lives apart from `registry.ts` so the ESM build, which shares modules between entry points through chunks, does not put 300+ `import()` calls into the chunk that `detect-slugs` loads.
 
 This split exists so that consumers who only need `detectLanguageSlug()` (via `code-languages/detect-slugs`) don't pay the bundle cost of every language's full metadata and i18n content.
 
@@ -141,9 +143,9 @@ The root barrel export. Re-exports every language constant by name, every domain
 
 Every request builder supports `.locale(x)` (mutates the builder, returns itself, chainable) followed by either:
 - `.get()` — synchronous read from the in-memory `languages` catalog, or
-- `.load()` — `async`, dynamically imports only the matched language module(s) via `languageLoaders`.
+- `.load()` — `async`, the same read behind a promise.
 
-This `.get()`/`.load()` split is the core lazy-loading mechanism: `.get()` assumes the whole catalog is already in memory (i.e., you imported from the root or `code-languages/api`), while `.load()` lets a bundler code-split so only the languages actually requested at runtime are fetched.
+Both read the catalog that `code-languages/api` (and the root) bundle statically, so `.load()` does not reduce bundle size. `api.ts` deliberately resolves `.load()` from memory rather than through `languageLoaders`: with ESM code splitting, real `import()` calls would make every consumer build emit hundreds of chunk files for data that is already loaded. Consumers that need small bundles import `code-languages/<slug>` or `code-languages/detect-slugs` directly.
 
 ### Subpath exports (`code-languages/<slug>`)
 

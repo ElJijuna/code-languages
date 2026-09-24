@@ -14,7 +14,7 @@ import {
 } from '@/domain/ecosystem/registry';
 import { localizeLanguage } from '@/domain/i18n';
 import { languages } from '@/domain/language/catalog';
-import { type LanguageSlug, languageIndex, loadLanguage } from '@/domain/language/registry';
+import { type LanguageSlug, languageIndex } from '@/domain/language/registry';
 import {
   findPackageManager,
   matchesPackageManager,
@@ -55,7 +55,7 @@ export interface LanguageRequest {
   get(): LocalizedLanguage | undefined;
 
   /**
-   * Dynamically imports a language module and localizes it.
+   * Asynchronously reads a language from the catalog and localizes it.
    *
    * Returns `undefined` when the slug does not exist.
    */
@@ -73,7 +73,7 @@ export interface ResolvedLanguageRequest {
   /** Reads the language from the in-memory catalog and localizes it. */
   get(): LocalizedLanguage;
 
-  /** Dynamically imports the language module and localizes it. */
+  /** Asynchronously reads the language from the catalog and localizes it. */
   load(): Promise<LocalizedLanguage>;
 }
 
@@ -176,7 +176,7 @@ export interface LanguageCollectionRequest {
   get(): LocalizedLanguage[];
 
   /**
-   * Dynamically imports every language module and localizes the result.
+   * Asynchronously reads every language from the catalog and localizes the result.
    */
   load(): Promise<LocalizedLanguage[]>;
 }
@@ -184,6 +184,13 @@ export interface LanguageCollectionRequest {
 const defaultLocale: Locale = 'en';
 const languageMap = new Map(languages.map((l) => [l.slug, l]));
 const languageAliasMap = new Map<string, string>();
+/**
+ * Resolves a language for `.load()`.
+ *
+ * This entry point already bundles the full catalog for `.get()`, so loading resolves
+ * from memory instead of emitting one dynamic import per language into consumer builds.
+ */
+const loadLanguage = async (slug: string): Promise<Language | undefined> => languageMap.get(slug);
 
 for (const language of languages) {
   for (const alias of language.aliases ?? []) {
@@ -404,10 +411,11 @@ const getDetectedLanguages = (filename: string) =>
     .filter((language): language is Language => Boolean(language));
 
 /**
- * Fluent API for localized language metadata, dynamic loading, and filename detection.
+ * Fluent API for localized language metadata, async loading, and filename detection.
  *
- * Use `.get()` for synchronous catalog access or `.load()` to dynamically import only the
- * requested language modules.
+ * Use `.get()` for synchronous access or `.load()` for the same data behind a promise. Both read
+ * the in-memory catalog bundled with this entry point; import `code-languages/<slug>` directly
+ * when bundle size matters.
  *
  * Language collections compose: chain `.category()`, `.paradigm()`, `.runtime()`,
  * `.packageManager()`, `.ecosystem()`, `.extension()`, `.status()`, or `.related()` on any

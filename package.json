@@ -1654,7 +1654,7 @@
     "check": "npm run format:check && npm run lint && tsc --noEmit && vitest run",
     "check:language-links": "node scripts/check-language-links.mjs",
     "check:language-versions": "node scripts/check-language-versions.mjs",
-    "codegen": "node scripts/generate-language-artifacts.mjs && biome check --write src/index.ts src/domain/language/catalog.ts src/domain/language/registry.ts",
+    "codegen": "node scripts/generate-language-artifacts.mjs && biome check --write src/index.ts src/domain/language/catalog.ts src/domain/language/registry.ts src/domain/language/loaders.ts",
     "format": "biome check --write .",
     "format:check": "biome check .",
     "lint": "eslint .",

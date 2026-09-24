@@ -5,7 +5,8 @@ import { join } from 'node:path';
  * Generates every artifact derived from `src/languages/*.ts`:
  *
  * - `src/domain/language/catalog.ts` (eager catalog array)
- * - `src/domain/language/registry.ts` (slug/extension index + dynamic import map)
+ * - `src/domain/language/registry.ts` (slug/extension index)
+ * - `src/domain/language/loaders.ts` (dynamic import map)
  * - `src/index.ts` language-exports block (between auto-generated markers)
  * - `package.json` `exports` map (root/api/i18n/detect entries + one subpath per language)
  * - `README.md` Supported Languages count and table
@@ -17,6 +18,7 @@ import { join } from 'node:path';
 const languagesDir = 'src/languages';
 const catalogPath = 'src/domain/language/catalog.ts';
 const registryPath = 'src/domain/language/registry.ts';
+const loadersPath = 'src/domain/language/loaders.ts';
 const indexPath = 'src/index.ts';
 const packageJsonPath = 'package.json';
 const readmePath = 'README.md';
@@ -91,8 +93,6 @@ const loaderEntries = languages
 writeFileSync(
   registryPath,
   `${generatedHeader}
-import type { Language } from '@/types';
-
 export interface LanguageIndexEntry {
   slug: string;
   extensions: readonly string[];
@@ -104,6 +104,18 @@ ${indexEntries}
 ] as const satisfies readonly LanguageIndexEntry[];
 
 export type LanguageSlug = (typeof languageIndex)[number]['slug'];
+`,
+);
+
+// --- src/domain/language/loaders.ts ---
+// Kept apart from the index so ESM code splitting does not pull every dynamic
+// import into the lightweight detection entry points.
+
+writeFileSync(
+  loadersPath,
+  `${generatedHeader}
+import type { LanguageSlug } from '@/domain/language/registry';
+import type { Language } from '@/types';
 
 /** Explicit dynamic import map for every language module. */
 export const languageLoaders: Record<LanguageSlug, () => Promise<Language>> = {

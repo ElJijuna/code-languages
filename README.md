@@ -119,7 +119,7 @@ export interface Language {
 }
 ```
 
-Use the fluent API when you want one entry point for localization, dynamic loading,
+Use the fluent API when you want one entry point for localization, async loading,
 and filename detection:
 
 ```ts
@@ -143,9 +143,9 @@ such as `"Visual Basic"` and `"Jupyter Notebook!"` resolve to `visual-basic` and
 `webassembly`, and `emacs-lisp`. When the slug is a known literal, `get()` and `load()`
 are typed as always returning a language — no `undefined` check needed.
 
-`get()` reads from the bundled in-memory catalog. `load()` uses explicit dynamic
-imports so bundlers can lazy-load individual language modules when the consumer
-build supports code splitting.
+`get()` and `load()` both read from the in-memory catalog bundled with the `api`
+entry point; `load()` returns the same data behind a promise. When bundle size
+matters, import individual languages from `code-languages/<slug>` instead.
 
 Use `api.runtime(value)` to query languages that run on a specific platform or runtime environment:
 

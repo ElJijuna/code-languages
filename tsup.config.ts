@@ -26,7 +26,13 @@ export default defineConfig({
   },
   format: ['esm', 'cjs'],
   dts: true,
-  splitting: false,
+  // `splitting` is left at tsup's default: ESM shares language data between entry
+  // points through chunks, while CJS stays unsplit (CJS splitting is experimental).
+  esbuildOptions(options, { format }) {
+    if (format === 'esm') {
+      options.chunkNames = 'chunks/[name]-[hash]';
+    }
+  },
   clean: true,
   treeshake: true,
   sourcemap: false,

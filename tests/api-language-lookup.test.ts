@@ -24,6 +24,13 @@ describe('api.language aliases', () => {
     expect(api.language('Objective C').get()?.slug).toBe('objective-c');
   });
 
+  it('loads the same catalog data that get() returns', async () => {
+    await expect(api.language('rust').locale('es').load()).resolves.toEqual(
+      api.language('rust').locale('es').get(),
+    );
+    await expect(api.languages().load()).resolves.toEqual(api.languages().get());
+  });
+
   it('loads languages through aliases', async () => {
     await expect(api.language('rocq').load()).resolves.toMatchObject({ slug: 'coq' });
   });
