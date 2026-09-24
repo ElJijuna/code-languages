@@ -1,4 +1,7 @@
+import { getPriorityRank } from '@/domain/detection/priority';
+
 export interface DetectableLanguage {
+  slug: string;
   extensions: readonly string[];
 }
 
@@ -6,6 +9,10 @@ interface IndexedMatch<Entry> {
   entry: Entry;
   index: number;
   matchLength: number;
+}
+
+interface RankedMatch<Entry> extends IndexedMatch<Entry> {
+  priority: number;
 }
 
 type DetectionIndex<Entry> = Map<string, IndexedMatch<Entry>[]>;
@@ -92,7 +99,12 @@ const getLookupKeys = (basename: string): string[] => {
   return keys;
 };
 
-/** Returns every entry whose extensions match a filename or path, best match first. */
+/**
+ * Returns every entry whose extensions match a filename or path, best match first.
+ *
+ * Longer matches win. Ties are broken by the ambiguous-extension priority table,
+ * then by catalog order.
+ */
 export const detectMatchingEntries = <Entry extends DetectableLanguage>(
   entries: readonly Entry[],
   filename: string,
@@ -104,19 +116,27 @@ export const detectMatchingEntries = <Entry extends DetectableLanguage>(
   }
 
   const index = getDetectionIndex(entries);
-  const bestMatches = new Map<number, IndexedMatch<Entry>>();
+  const bestMatches = new Map<number, RankedMatch<Entry>>();
 
   for (const key of getLookupKeys(basename)) {
     for (const match of index.get(key) ?? []) {
       const existing = bestMatches.get(match.index);
 
       if (!existing || match.matchLength > existing.matchLength) {
-        bestMatches.set(match.index, match);
+        bestMatches.set(match.index, {
+          ...match,
+          priority: getPriorityRank(key, match.entry.slug),
+        });
       }
     }
   }
 
   return [...bestMatches.values()]
-    .sort((first, second) => second.matchLength - first.matchLength || first.index - second.index)
+    .sort(
+      (first, second) =>
+        second.matchLength - first.matchLength ||
+        first.priority - second.priority ||
+        first.index - second.index,
+    )
     .map(({ entry }) => entry);
 };
