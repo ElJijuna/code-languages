@@ -63,3 +63,6 @@ jobs:
 
       - name: Validate package
         run: npm pack --dry-run
+
+      - name: Check bundle size
+        run: npm run size

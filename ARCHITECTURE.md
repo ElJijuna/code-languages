@@ -129,7 +129,7 @@ All matching across these registries is case-insensitive substring matching over
 
 ### `src/index.ts`
 
-The root barrel export. Re-exports every language constant by name, every domain type, and the domain-level functions (`localizeLanguage`, `detectLanguage(s)`, `detectLanguageSlug(s)`, `detectProjectLanguages`, `getCategories`, `getEcosystems`, `getPackageManagers`, `getParadigms`, `getRuntimes`, the `languages` catalog array, and the `api` object). Importing from the root pulls in the entire catalog — fine for scripts/tooling, not ideal for bundled frontend apps.
+The root barrel export. Re-exports every language constant by name, every domain type, and the domain-level functions (`localizeLanguage`, `detectLanguage(s)`, `detectLanguageSlug(s)`, `detectProjectLanguages`, `getCategories`, `getEcosystems`, `getPackageManagers`, `getParadigms`, `getRuntimes`, the `languages` catalog array, and the `api` object). In ESM, importing individual languages or helpers from the root tree-shakes down to what is used; importing `languages`, `api`, or the full-language `detect*` helpers pulls in the entire catalog.
 
 ### `src/api.ts` — the fluent query API
 
@@ -159,7 +159,7 @@ Both read the catalog that `code-languages/api` (and the root) bundle statically
 - Output formats: ESM and CommonJS (`format: ['esm', 'cjs']`), with `.d.ts` generation, no code splitting, tree-shaking enabled, `dist/` cleaned on each build.
 - `sideEffects: false` in `package.json` lets bundlers safely drop unused language modules.
 
-`npm run build` runs `tsup`. `npm run check` runs format-check, lint, `tsc --noEmit`, and the full Vitest suite — this is the required gate before build in CI.
+`npm run build` runs `tsup`. `npm run check` runs format-check, lint, `tsc --noEmit`, and the full Vitest suite — this is the required gate before build in CI. `npm run size` (after a build) enforces the bundle and package size budgets described below.
 
 ## Testing strategy
 
@@ -171,12 +171,13 @@ Both read the catalog that `code-languages/api` (and the root) bundle statically
 ## Scripts and automation (`scripts/`)
 
 - `check-language-versions.mjs` — queries external sources (mostly GitHub releases) to detect when a language's `version` field is outdated, with a manually-curated `manualChecks` allowlist for languages whose versioning can't be checked programmatically (e.g. ISO standards, platform-tied versions). Runs on a daily cron via `.github/workflows/check-language-versions.yml` and can open PRs/issues.
+- `check-bundle-size.mjs` / `bundle-size-budget.mjs` — `npm run size`. Bundles small consumer snippets (`detect-slugs`, `i18n`, a language subpath, a tree-shaken root import, `api`) against the built package with esbuild and fails when a snippet exceeds its minified-byte budget or emits more JavaScript files than allowed, or when the npm package exceeds its packed/unpacked budget. Guards the ESM code-splitting setup: turning splitting off or routing `api` `.load()` through `languageLoaders` both fail it. The budgets live in `bundle-size-budget.mjs`; raise one only on purpose (e.g. catalog growth from new languages).
 - `translate-language-i18n.mjs` — generates non-English `i18n` content (initial pass used `translategemma:4b`; translations are manually reviewed afterward per `AGENTS.md`/README).
 - `generate-website-data.mjs`, `run-website-benchmarks.mjs`, `ensure-website-data-dir.mjs`, `summarize-website-tests.mjs`, `serve-website.mjs` — build the static docs site: they read from the **built** `dist/index.js` (not `src/`), so `npm run website:prepare` always runs `npm run build` first, then regenerates `docs/data/{languages,tooling,bench-results,unit-summary}.json` and serves/tests the static site in `docs/`.
 
 ## CI/CD (`.github/workflows/`)
 
-- **`pull-request.yml`** — on every PR to `main`: format check (fails if `biome check --write` produces a diff), lint, typecheck, test, build, `npm pack --dry-run`. This is the gate; nothing merges without it passing.
+- **`pull-request.yml`** — on every PR to `main`: format check (fails if `biome check --write` produces a diff), lint, typecheck, test, build, `npm pack --dry-run`, bundle size budgets (`npm run size`). This is the gate; nothing merges without it passing.
 - **`release.yml`** — on push to `main`: lint, typecheck, test, build, then `semantic-release` (Conventional Commits drive version bumps, changelog, GitHub release, and npm publish — configured in `.releaserc.json`).
 - **`docs.yml`** — triggered after a successful `release.yml` run (or manually): rebuilds the website data and deploys `docs/` to GitHub Pages.
 - **`publish-release-dev-to.yml`** — triggered after a successful release: cross-posts the GitHub release notes as a DEV.to article.
