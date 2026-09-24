@@ -1,3 +1,13 @@
+## [1.45.20](https://github.com/ElJijuna/code-languages/compare/v1.45.19...v1.45.20) (2026-09-24)
+
+
+### Bug Fixes
+
+* update Astro metadata to 7.3.4 ([8407f2d](https://github.com/ElJijuna/code-languages/commit/8407f2d215a511618f9fa0da6d54a830f072ecf8))
+* update LLVM IR metadata to 23.1.2 ([d8668f4](https://github.com/ElJijuna/code-languages/commit/d8668f4eab6d2eb496df41aea20e891b52b66025))
+* update Meson metadata to 1.12.1 ([9ddf0c8](https://github.com/ElJijuna/code-languages/commit/9ddf0c80bddfd74e239a7fb2c4a4c0665db3cd0f))
+* update Sass metadata to 1.105.0 ([c39a43e](https://github.com/ElJijuna/code-languages/commit/c39a43e66717c9b756c39bffe6dc629772091cda))
+
 ## [1.45.19](https://github.com/ElJijuna/code-languages/compare/v1.45.18...v1.45.19) (2026-09-23)
 
 
