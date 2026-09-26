@@ -1,3 +1,13 @@
+## [1.46.1](https://github.com/ElJijuna/code-languages/compare/v1.46.0...v1.46.1) (2026-09-26)
+
+
+### Bug Fixes
+
+* update Astro metadata to 7.3.5 ([746b832](https://github.com/ElJijuna/code-languages/commit/746b83251d12bb41da7582e1ec47800d0069c4cb))
+* update Chapel metadata to 2.10.0 ([7d3fbaa](https://github.com/ElJijuna/code-languages/commit/7d3fbaa5318089881a4fd7952244f68a5aa1dc71))
+* update Gradle metadata to 9.8.0 ([ce8e9e7](https://github.com/ElJijuna/code-languages/commit/ce8e9e702b0cbc7daa6199f726d83b26a833342c))
+* update Twig metadata to 3.30.0 ([b55c037](https://github.com/ElJijuna/code-languages/commit/b55c0374920c82bd7b9f6fb0dea485ebc650e10a))
+
 # [1.46.0](https://github.com/ElJijuna/code-languages/compare/v1.45.20...v1.46.0) (2026-09-24)
 
 
