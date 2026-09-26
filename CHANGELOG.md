@@ -1,3 +1,15 @@
+## [1.46.2](https://github.com/ElJijuna/code-languages/compare/v1.46.1...v1.46.2) (2026-09-26)
+
+
+### Bug Fixes
+
+* update Crystal metadata to 1.21.1 ([9485a40](https://github.com/ElJijuna/code-languages/commit/9485a4090db09e3d9da947c14afb188fcaccc195))
+* update KCL metadata to 0.13.0 ([13849b2](https://github.com/ElJijuna/code-languages/commit/13849b201a209f1c2287659bb98cbbb7174edd4c))
+* update Lean metadata to 4.34.1 ([5127885](https://github.com/ElJijuna/code-languages/commit/5127885c03760d1bf5be893af7f21387309f70d8))
+* update Luau metadata to 0.740 ([cca501b](https://github.com/ElJijuna/code-languages/commit/cca501bd3aaec026c70b3db175ef91ce19101255))
+* update PHP metadata to 8.5.11 ([db30294](https://github.com/ElJijuna/code-languages/commit/db3029454b3c0149dde8f95325ba468857bc888e))
+* update Rego metadata to OPA 1.21.0 ([50f5ad5](https://github.com/ElJijuna/code-languages/commit/50f5ad509f20cb3ee7f934dcb9757773bce20dcd))
+
 ## [1.46.1](https://github.com/ElJijuna/code-languages/compare/v1.46.0...v1.46.1) (2026-09-26)
 
 
