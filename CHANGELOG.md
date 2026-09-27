@@ -1,3 +1,11 @@
+## [1.46.3](https://github.com/ElJijuna/code-languages/compare/v1.46.2...v1.46.3) (2026-09-27)
+
+
+### Bug Fixes
+
+* update Julia metadata to 1.13.1 ([6b485ad](https://github.com/ElJijuna/code-languages/commit/6b485ad49267464d71e3380358af2fdd338af2e1))
+* update Nushell metadata to 0.116.0 ([df197f3](https://github.com/ElJijuna/code-languages/commit/df197f3c8f0b8dcca8e85fbc04197557c750bda1))
+
 ## [1.46.2](https://github.com/ElJijuna/code-languages/compare/v1.46.1...v1.46.2) (2026-09-26)
 
 
