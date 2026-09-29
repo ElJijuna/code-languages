@@ -11,7 +11,7 @@ export const troff = {
     runtimes: ['GNU groff', 'troff', 'nroff'],
     ecosystems: ['Unix', 'Documentation', 'Typesetting'],
   },
-  version: 'GNU groff 1.24.1',
+  version: 'GNU groff 1.24.2',
   logo: 'https://cdn.simpleicons.org/gnu/A42E2B',
   color: '#8F5902',
   i18n: {
