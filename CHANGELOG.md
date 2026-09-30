@@ -1,3 +1,12 @@
+## [1.46.4](https://github.com/ElJijuna/code-languages/compare/v1.46.3...v1.46.4) (2026-09-30)
+
+
+### Bug Fixes
+
+* update Dart metadata to 3.13.5 ([151be4c](https://github.com/ElJijuna/code-languages/commit/151be4c201976bc1d8a821d61387e75328b2c8f5))
+* update Git metadata to 2.56.0 ([4b08fbb](https://github.com/ElJijuna/code-languages/commit/4b08fbb8259445c1602031b234b6db592067e99c))
+* update Troff/Groff metadata to GNU groff 1.24.2 ([20b92ca](https://github.com/ElJijuna/code-languages/commit/20b92ca76799da9859479e0ec9333c13a4b63626))
+
 ## [1.46.3](https://github.com/ElJijuna/code-languages/compare/v1.46.2...v1.46.3) (2026-09-27)
 
 
