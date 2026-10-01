@@ -1,3 +1,11 @@
+## [1.46.5](https://github.com/ElJijuna/code-languages/compare/v1.46.4...v1.46.5) (2026-10-01)
+
+
+### Bug Fixes
+
+* update Rego metadata to OPA 1.21.1 ([345b4dd](https://github.com/ElJijuna/code-languages/commit/345b4ddb6922e0f70e1d5170d4745ebb50a59ccc))
+* update Sass metadata to 1.105.1 ([b30c8da](https://github.com/ElJijuna/code-languages/commit/b30c8da5bab6cb9c62ab312ea0e89675e651ec8a))
+
 ## [1.46.4](https://github.com/ElJijuna/code-languages/compare/v1.46.3...v1.46.4) (2026-09-30)
 
 
