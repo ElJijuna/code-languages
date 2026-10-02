@@ -1,3 +1,13 @@
+## [1.46.6](https://github.com/ElJijuna/code-languages/compare/v1.46.5...v1.46.6) (2026-10-02)
+
+
+### Bug Fixes
+
+* update Liquid metadata to 10.30.0 ([493dc2b](https://github.com/ElJijuna/code-languages/commit/493dc2bc866181e58849bfccf9cd00f1d64f913e))
+* update Mermaid metadata to 12.1.0 ([f2cc81d](https://github.com/ElJijuna/code-languages/commit/f2cc81d35be9bed067276b56dbce620603f623b3))
+* update Python metadata to 3.14.8 ([7de260b](https://github.com/ElJijuna/code-languages/commit/7de260b6a47b68cad1bcf05a188548aa324a8ff4))
+* update Rust metadata to 1.99.0 ([f6603ee](https://github.com/ElJijuna/code-languages/commit/f6603eed7bf539a561e6f0f53864df61f10e3981))
+
 ## [1.46.5](https://github.com/ElJijuna/code-languages/compare/v1.46.4...v1.46.5) (2026-10-01)
 
 
