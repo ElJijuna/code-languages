@@ -12,7 +12,7 @@ export const zig = {
     packageManagers: ['Zig Package Manager'],
     ecosystems: ['Systems Programming', 'Embedded', 'Game Development', 'Cross-compilation'],
   },
-  version: '0.16.0',
+  version: '0.17.0',
   logo: 'https://cdn.simpleicons.org/zig/F7A41D',
   color: '#F7A41D',
   i18n: {
