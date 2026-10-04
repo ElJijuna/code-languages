@@ -1,3 +1,12 @@
+## [1.46.7](https://github.com/ElJijuna/code-languages/compare/v1.46.6...v1.46.7) (2026-10-04)
+
+
+### Bug Fixes
+
+* update CMake metadata to 4.4.4 ([54ba9e2](https://github.com/ElJijuna/code-languages/commit/54ba9e287300ee1ef7b1951522bd748de15370ca))
+* update Luau metadata to 0.741 ([c87bcc7](https://github.com/ElJijuna/code-languages/commit/c87bcc73327393b225f6f911183bd69adc56e247))
+* update Zig metadata to 0.17.0 ([2064322](https://github.com/ElJijuna/code-languages/commit/2064322ea8ff37e1da27afb6da9995721f0f5da5))
+
 ## [1.46.6](https://github.com/ElJijuna/code-languages/compare/v1.46.5...v1.46.6) (2026-10-02)
 
 
