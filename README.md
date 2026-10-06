@@ -687,7 +687,7 @@ from its package subpath.
 | <img src="https://cdn.simpleicons.org/nushell/3AA675" alt="Nushell logo" width="24" height="24"> | Nushell | `nushell` | `.nu` | `0.116.1` | `code-languages/nushell` |
 | <img src="https://raw.githubusercontent.com/ElJijuna/code-languages/main/public/assets/placeholders/oberon.svg" alt="Oberon logo" width="24" height="24"> | Oberon | `oberon` | `.ob`, `.mod` | `Oberon-2` | `code-languages/oberon` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Apple_logo_grey.svg" alt="Objective-C logo" width="24" height="24"> | Objective-C | `objective-c` | `.m`, `.mm` | `2.0` | `code-languages/objective-c` |
-| <img src="https://cdn.simpleicons.org/ocaml/EC6813" alt="OCaml logo" width="24" height="24"> | OCaml | `ocaml` | `.ml`, `.mli`, `.mll`, `.mly`, `.mlt`, `.eliom`, `.eliomi` | `5.6.0` | `code-languages/ocaml` |
+| <img src="https://cdn.simpleicons.org/ocaml/EC6813" alt="OCaml logo" width="24" height="24"> | OCaml | `ocaml` | `.ml`, `.mli`, `.mll`, `.mly`, `.mlt`, `.eliom`, `.eliomi` | `5.7.0` | `code-languages/ocaml` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Gnu-octave-logo.svg" alt="Octave logo" width="24" height="24"> | Octave | `octave` | `.m`, `.octave` | `11.3.0` | `code-languages/octave` |
 | <img src="https://avatars.githubusercontent.com/u/12533910?v=4" alt="Odin logo" width="24" height="24"> | Odin | `odin` | `.odin` | `dev-2026-02` | `code-languages/odin` |
 | <img src="https://cdn.simpleicons.org/openapiinitiative/6BA539" alt="OpenAPI logo" width="24" height="24"> | OpenAPI | `openapi` | `.openapi.json`, `.openapi.yaml`, `.openapi.yml` | `3.2.0` | `code-languages/openapi` |
