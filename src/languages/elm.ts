@@ -15,7 +15,7 @@ export const elm = {
     packageManagers: ['elm', 'npm', 'pnpm', 'Yarn'],
     ecosystems: ['Web', 'Frontend', 'Functional Programming'],
   },
-  version: '0.19.2',
+  version: '0.19.3',
   logo: 'https://upload.wikimedia.org/wikipedia/commons/f/f3/Elm_logo.svg',
   color: '#1293D8',
   i18n: {
