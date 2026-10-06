@@ -607,7 +607,7 @@ from its package subpath.
 | <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Groovy-logo.svg" alt="Groovy logo" width="24" height="24"> | Groovy | `groovy` | `.groovy`, `.gvy`, `.gy`, `.gsh` | `6.0.0` | `code-languages/groovy` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Hack_%28programming_language%29_logo.svg" alt="Hack logo" width="24" height="24"> | Hack | `hack` | `.hack`, `.hh`, `.hhi` | `HHVM 4.x` | `code-languages/hack` |
 | <img src="https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_haml.svg" alt="Haml logo" width="24" height="24"> | Haml | `haml` | `.haml` | `7.5.1` | `code-languages/haml` |
-| <img src="https://cdn.simpleicons.org/handlebarsdotjs/000000" alt="Handlebars logo" width="24" height="24"> | Handlebars | `handlebars` | `.hbs`, `.handlebars` | `4.7.9` | `code-languages/handlebars` |
+| <img src="https://cdn.simpleicons.org/handlebarsdotjs/000000" alt="Handlebars logo" width="24" height="24"> | Handlebars | `handlebars` | `.hbs`, `.handlebars` | `4.7.10` | `code-languages/handlebars` |
 | <img src="https://harelang.org/mascot.png" alt="Hare logo" width="24" height="24"> | Hare | `hare` | `.ha` | `0.25.1` | `code-languages/hare` |
 | <img src="https://cdn.simpleicons.org/haskell/5D4F85" alt="Haskell logo" width="24" height="24"> | Haskell | `haskell` | `.hs`, `.lhs`, `.hsc`, `.hs-boot`, `.hsig`, `.cabal` | `GHC 9.14.1` | `code-languages/haskell` |
 | <img src="https://cdn.simpleicons.org/haxe/EA8220" alt="Haxe logo" width="24" height="24"> | Haxe | `haxe` | `.hx`, `.hxml` | `4.3.7` | `code-languages/haxe` |
