@@ -12,7 +12,7 @@ export const bicep = {
     packageManagers: ['Azure Verified Modules', 'Bicep Registry'],
     ecosystems: ['Azure', 'Cloud', 'DevOps', 'Infrastructure as Code'],
   },
-  version: '0.47.16',
+  version: '0.48.1',
   logo: 'https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/azure-bicep.svg',
   color: '#0078D4',
   i18n: {
