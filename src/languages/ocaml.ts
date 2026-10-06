@@ -12,7 +12,7 @@ export const ocaml = {
     packageManagers: ['opam', 'Dune'],
     ecosystems: ['Compilers', 'Formal Methods', 'Systems Programming', 'Web'],
   },
-  version: '5.6.0',
+  version: '5.7.0',
   logo: 'https://cdn.simpleicons.org/ocaml/EC6813',
   color: '#EC6813',
   i18n: {
