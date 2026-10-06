@@ -12,7 +12,7 @@ export const handlebars = {
     packageManagers: ['npm', 'Yarn', 'pnpm'],
     ecosystems: ['Web', 'Email Templates', 'Static Sites'],
   },
-  version: '4.7.9',
+  version: '4.7.10',
   logo: 'https://cdn.simpleicons.org/handlebarsdotjs/000000',
   color: '#000000',
   i18n: {
