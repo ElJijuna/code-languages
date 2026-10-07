@@ -1,3 +1,17 @@
+## [1.46.8](https://github.com/ElJijuna/code-languages/compare/v1.46.7...v1.46.8) (2026-10-07)
+
+
+### Bug Fixes
+
+* update Astro metadata to 7.3.6 ([b24343f](https://github.com/ElJijuna/code-languages/commit/b24343f4e48e41faed39c87458fe5ed334471ec1))
+* update Bicep metadata to 0.48.1 ([50ce22b](https://github.com/ElJijuna/code-languages/commit/50ce22bcf9b02e12ee9de17cf2c6c9ace3213000))
+* update Elm metadata to 0.19.3 ([644c492](https://github.com/ElJijuna/code-languages/commit/644c4923c63bf5bd569931afb92dd6b6b88703e8))
+* update Gleam metadata to 1.19.0 ([25a77ac](https://github.com/ElJijuna/code-languages/commit/25a77ac6ec45ae0ab13c14be471f0b257666f4f3))
+* update Handlebars metadata to 4.7.10 ([98c6a6b](https://github.com/ElJijuna/code-languages/commit/98c6a6b6de0d0d66b2f15882dfb2f5d66f355543))
+* update Nushell metadata to 0.116.1 ([06428d8](https://github.com/ElJijuna/code-languages/commit/06428d8cab7cb32482f96ed89a7ad496e54c9b8c))
+* update OCaml metadata to 5.7.0 ([60f3982](https://github.com/ElJijuna/code-languages/commit/60f3982454408e1661fd93a6110c7c17b37ba1d4))
+* update Svelte metadata to 5.57.2 ([4757e50](https://github.com/ElJijuna/code-languages/commit/4757e502db6c9fab6d1186f4acb5fd4fba1e4fd0))
+
 ## [1.46.7](https://github.com/ElJijuna/code-languages/compare/v1.46.6...v1.46.7) (2026-10-04)
 
 
