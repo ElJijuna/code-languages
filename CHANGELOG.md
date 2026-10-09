@@ -1,3 +1,16 @@
+## [1.46.9](https://github.com/ElJijuna/code-languages/compare/v1.46.8...v1.46.9) (2026-10-09)
+
+
+### Bug Fixes
+
+* update Astro metadata to 7.3.7 ([1ee87f1](https://github.com/ElJijuna/code-languages/commit/1ee87f1cf245c69e2d2a39cb143932be4ff5c0f1))
+* update Bazel metadata to 9.3.0 ([662501d](https://github.com/ElJijuna/code-languages/commit/662501db9f98ad44cf054192a9365bf0314fedc9))
+* update Gleam metadata to 1.19.1 ([e04273e](https://github.com/ElJijuna/code-languages/commit/e04273ea816ca1fd4811efe16855ff85f47863cc))
+* update Gradle metadata to 9.8.1 ([cbc6833](https://github.com/ElJijuna/code-languages/commit/cbc683329f6c127107c6db3af64531659ae766d5))
+* update KCL metadata to 0.13.1 ([f6e92c7](https://github.com/ElJijuna/code-languages/commit/f6e92c78bb839925ce70a66503ed46ce9e1f50e7))
+* update Kotlin metadata to 2.4.21 ([966efed](https://github.com/ElJijuna/code-languages/commit/966efed95e08bb9309698a4fbcfe1fd7b498efbf))
+* update LLVM IR metadata to 23.1.3 ([4d15bbd](https://github.com/ElJijuna/code-languages/commit/4d15bbdae6a6e07fc2d8dfa0a302d0fe86225ba0))
+
 ## [1.46.8](https://github.com/ElJijuna/code-languages/compare/v1.46.7...v1.46.8) (2026-10-07)
 
 
