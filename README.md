@@ -516,7 +516,7 @@ from its package subpath.
 | <img src="https://cdn.simpleicons.org/dotnet/512BD4" alt="ASP/ASPX logo" width="24" height="24"> | ASP/ASPX | `asp` | `.asp`, `.aspx`, `.ascx`, `.ashx`, `.asmx`, `.master` | `4.8.1` | `code-languages/asp` |
 | <img src="https://cdn.simpleicons.org/assemblyscript/007AAC" alt="Assembly logo" width="24" height="24"> | Assembly | `assembly` | `.asm`, `.s`, `.S`, `.inc` | `Architecture-specific` | `code-languages/assembly` |
 | <img src="https://avatars.githubusercontent.com/u/28916798?v=4" alt="AssemblyScript logo" width="24" height="24"> | AssemblyScript | `assemblyscript` | `.as` | `0.28.20` | `code-languages/assemblyscript` |
-| <img src="https://astro.build/assets/press/astro-icon-light.svg" alt="Astro logo" width="24" height="24"> | Astro | `astro` | `.astro` | `7.3.7` | `code-languages/astro` |
+| <img src="https://astro.build/assets/press/astro-icon-light.svg" alt="Astro logo" width="24" height="24"> | Astro | `astro` | `.astro` | `7.3.8` | `code-languages/astro` |
 | <img src="https://avatars.githubusercontent.com/u/17337956?v=4" alt="Austral logo" width="24" height="24"> | Austral | `austral` | `.aum`, `.aui` | `0.1.0` | `code-languages/austral` |
 | <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_autohotkey.svg" alt="AutoHotkey logo" width="24" height="24"> | AutoHotkey | `autohotkey` | `.ahk`, `.ah2` | `2.0` | `code-languages/autohotkey` |
 | <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Apache_Avro_Logo.svg" alt="Avro IDL logo" width="24" height="24"> | Avro IDL | `avro-idl` | `.avdl` | `1.12.2` | `code-languages/avro-idl` |
@@ -599,7 +599,7 @@ from its package subpath.
 | <img src="https://cdn.simpleicons.org/gleam/FFAFF3" alt="Gleam logo" width="24" height="24"> | Gleam | `gleam` | `.gleam` | `1.19.1` | `code-languages/gleam` |
 | <img src="https://cdn.simpleicons.org/opengl/5586A4" alt="GLSL logo" width="24" height="24"> | GLSL | `glsl` | `.glsl`, `.vert`, `.frag`, `.geom`, `.tesc`, `.tese`, `.comp`, `.vs`, `.fs` | `4.60` | `code-languages/glsl` |
 | <img src="https://cdn.simpleicons.org/gamemaker/000000" alt="GML logo" width="24" height="24"> | GML | `gml` | `.gml` | `2024.13.0` | `code-languages/gml` |
-| <img src="https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg" alt="Go logo" width="24" height="24"> | Go | `go` | `.go` | `1.27.1` | `code-languages/go` |
+| <img src="https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg" alt="Go logo" width="24" height="24"> | Go | `go` | `.go` | `1.27.2` | `code-languages/go` |
 | <img src="https://cdn.simpleicons.org/gradle/02303A" alt="Gradle logo" width="24" height="24"> | Gradle | `gradle` | `.gradle`, `.gradle.kts` | `9.8.1` | `code-languages/gradle` |
 | <img src="https://avatars.githubusercontent.com/u/54953488?v=4" alt="Grain logo" width="24" height="24"> | Grain | `grain` | `.gr` | `grain-v0.7.2` | `code-languages/grain` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg" alt="GraphQL logo" width="24" height="24"> | GraphQL | `graphql` | `.graphql`, `.gql`, `.graphqls` | `September 2025` | `code-languages/graphql` |
@@ -656,7 +656,7 @@ from its package subpath.
 | <img src="https://raw.githubusercontent.com/aardappel/lobster/master/docs/lobster.png" alt="Lobster logo" width="24" height="24"> | Lobster | `lobster` | `.lobster` | `development snapshot` | `code-languages/lobster` |
 | <img src="https://people.eecs.berkeley.edu/~bh/ucblogo.png" alt="Logo logo" width="24" height="24"> | Logo | `logo` | `.logo`, `.lgo` | `UCBLogo 6.2` | `code-languages/logo` |
 | <img src="https://www.lua.org/images/lua-logo.gif" alt="Lua logo" width="24" height="24"> | Lua | `lua` | `.lua`, `.rockspec` | `5.5.1` | `code-languages/lua` |
-| <img src="https://cdn.simpleicons.org/roblox/000000" alt="Luau logo" width="24" height="24"> | Luau | `luau` | `.luau` | `0.741` | `code-languages/luau` |
+| <img src="https://cdn.simpleicons.org/roblox/000000" alt="Luau logo" width="24" height="24"> | Luau | `luau` | `.luau` | `0.742` | `code-languages/luau` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Heckert_gnu.small.png" alt="Makefile logo" width="24" height="24"> | Makefile | `makefile` | `Makefile`, `makefile`, `GNUmakefile`, `.mk`, `.mak` | `4.4.1` | `code-languages/makefile` |
 | <img src="https://cdn.simpleicons.org/python/3776AB" alt="Mako logo" width="24" height="24"> | Mako | `mako` | `.mako`, `.mao` | `1.3.10` | `code-languages/mako` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg" alt="Markdown logo" width="24" height="24"> | Markdown | `markdown` | `.md`, `.markdown`, `.mdown`, `.mkd` | `CommonMark 4.0` | `code-languages/markdown` |
@@ -717,7 +717,7 @@ from its package subpath.
 | <img src="https://cdn.simpleicons.org/pug/A86454" alt="Pug logo" width="24" height="24"> | Pug | `pug` | `.pug`, `.jade` | `3.0.4` | `code-languages/pug` |
 | <img src="https://cdn.simpleicons.org/puppet/FFAE1A" alt="Puppet logo" width="24" height="24"> | Puppet | `puppet` | `.pp`, `.epp` | `Puppet 8` | `code-languages/puppet` |
 | <img src="https://cdn.simpleicons.org/purescript/14161A" alt="PureScript logo" width="24" height="24"> | PureScript | `purescript` | `.purs` | `0.15.16` | `code-languages/purescript` |
-| <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Python-logo-notext.svg" alt="Python logo" width="24" height="24"> | Python | `python` | `.py`, `.pyw` | `3.14.8` | `code-languages/python` |
+| <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Python-logo-notext.svg" alt="Python logo" width="24" height="24"> | Python | `python` | `.py`, `.pyw` | `3.15.0` | `code-languages/python` |
 | <img src="https://avatars.githubusercontent.com/u/11446750?v=4" alt="q / kdb+ logo" width="24" height="24"> | q / kdb+ | `q` | `.q`, `.k` | `q 4.1` | `code-languages/q` |
 | <img src="https://d33sqmjvzgs8hq.cloudfront.net/wp-content/themes/oneqt/assets/images/favicon-32x32.png" alt="qmake logo" width="24" height="24"> | qmake | `qmake` | `.pri`, `.prf` | `stable` | `code-languages/qmake` |
 | <img src="https://cdn.simpleicons.org/qt/41CD52" alt="QML logo" width="24" height="24"> | QML | `qml` | `.qml`, `.qmltypes`, `.qmlproject` | `Qt 6.11.1` | `code-languages/qml` |
@@ -765,7 +765,7 @@ from its package subpath.
 | <img src="https://avatars.githubusercontent.com/u/1706741?v=4" alt="SuperCollider logo" width="24" height="24"> | SuperCollider | `supercollider` | `.scd`, `.sc` | `3.13.0` | `code-languages/supercollider` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" alt="Svelte logo" width="24" height="24"> | Svelte | `svelte` | `.svelte` | `5.57.2` | `code-languages/svelte` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/SVG_Logo.svg" alt="SVG logo" width="24" height="24"> | SVG | `svg` | `.svg`, `.svgz` | `SVG 2` | `code-languages/svg` |
-| <img src="https://cdn.simpleicons.org/subversion/809CC9" alt="SVN logo" width="24" height="24"> | SVN | `svn` | `.svn`, `svnserve.conf` | `1.14.5` | `code-languages/svn` |
+| <img src="https://cdn.simpleicons.org/subversion/809CC9" alt="SVN logo" width="24" height="24"> | SVN | `svn` | `.svn`, `svnserve.conf` | `1.15.0` | `code-languages/svn` |
 | <img src="https://avatars.githubusercontent.com/u/55993183?v=4" alt="Sway logo" width="24" height="24"> | Sway | `sway` | `.sw` | `0.69.0` | `code-languages/sway` |
 | <img src="https://www.swift.org/assets/images/swift.svg" alt="Swift logo" width="24" height="24"> | Swift | `swift` | `.swift` | `6.4.0` | `code-languages/swift` |
 | <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Tcl.svg" alt="Tcl/Tk logo" width="24" height="24"> | Tcl/Tk | `tcl` | `.tcl`, `.tm`, `.test` | `9.0.4` | `code-languages/tcl` |
