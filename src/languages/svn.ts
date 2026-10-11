@@ -11,7 +11,7 @@ export const svn = {
     runtimes: ['Apache Subversion', 'svnserve', 'Apache HTTP Server'],
     ecosystems: ['Version Control', 'Source Control', 'DevOps', 'Enterprise'],
   },
-  version: '1.14.5',
+  version: '1.15.0',
   logo: 'https://cdn.simpleicons.org/subversion/809CC9',
   color: '#809CC9',
   i18n: {
