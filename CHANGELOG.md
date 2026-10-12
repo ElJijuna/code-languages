@@ -1,3 +1,14 @@
+## [1.46.10](https://github.com/ElJijuna/code-languages/compare/v1.46.9...v1.46.10) (2026-10-12)
+
+
+### Bug Fixes
+
+* update Astro metadata to 7.3.8 ([c337dd6](https://github.com/ElJijuna/code-languages/commit/c337dd6d294bc641d0315ae7ff8a38a4608b4c0a))
+* update Go metadata to 1.27.2 ([bd244fa](https://github.com/ElJijuna/code-languages/commit/bd244fa7cf0653ebb58d6f1213d9496dafeb2a8e))
+* update Luau metadata to 0.742 ([de28518](https://github.com/ElJijuna/code-languages/commit/de285181b73060cac6d73fc8eb3b45940df8d54b))
+* update Python metadata to 3.15.0 ([da0ce88](https://github.com/ElJijuna/code-languages/commit/da0ce88fa0ce3579797035d8564c3fd9880b6773))
+* update SVN metadata to 1.15.0 ([c217412](https://github.com/ElJijuna/code-languages/commit/c217412701e40a3068f856add115940e44de11e1))
+
 ## [1.46.9](https://github.com/ElJijuna/code-languages/compare/v1.46.8...v1.46.9) (2026-10-09)
 
 
