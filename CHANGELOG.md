@@ -1,3 +1,13 @@
+## [1.46.11](https://github.com/ElJijuna/code-languages/compare/v1.46.10...v1.46.11) (2026-10-13)
+
+
+### Bug Fixes
+
+* update Crystal metadata to 1.22.0 ([e3ab361](https://github.com/ElJijuna/code-languages/commit/e3ab36163554d5cc278e9e4dc9fc03fac2981b95))
+* update Gleam metadata to 1.19.2 ([4feaba0](https://github.com/ElJijuna/code-languages/commit/4feaba0ce932a1a9a211ee80b65bd91bc51a2f4b))
+* update Rego metadata to OPA 1.21.2 ([8e69d2d](https://github.com/ElJijuna/code-languages/commit/8e69d2d5efbf314b021661fbbbd373932ff92dcc))
+* update Scala metadata to 3.10.0 ([a0940a4](https://github.com/ElJijuna/code-languages/commit/a0940a4239bd1037124c639939a2ceaee6fc6025))
+
 ## [1.46.10](https://github.com/ElJijuna/code-languages/compare/v1.46.9...v1.46.10) (2026-10-12)
 
 
