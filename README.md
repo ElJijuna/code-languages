@@ -584,7 +584,7 @@ from its package subpath.
 | <img src="https://fishshell.com/assets/img/Terminal_Logo2_CRT_Flat.png" alt="Fish logo" width="24" height="24"> | Fish | `fish` | `.fish` | `4.9.3` | `code-languages/fish` |
 | <img src="https://flatbuffers.dev/assets/images/favicon.png" alt="FlatBuffers logo" width="24" height="24"> | FlatBuffers | `flatbuffers` | `.fbs` | `25.12.19` | `code-languages/flatbuffers` |
 | <img src="https://avatars.githubusercontent.com/u/16831634?v=4" alt="Flix logo" width="24" height="24"> | Flix | `flix` | `.flix` | `0.60.0` | `code-languages/flix` |
-| <img src="https://avatars.githubusercontent.com/u/5713248?v=4" alt="Flux logo" width="24" height="24"> | Flux | `flux` | `.flux` | `0.200.0` | `code-languages/flux` |
+| <img src="https://avatars.githubusercontent.com/u/5713248?v=4" alt="Flux logo" width="24" height="24"> | Flux | `flux` | `.flux` | `0.201.0` | `code-languages/flux` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Gforth_Logo.png" alt="Forth logo" width="24" height="24"> | Forth | `forth` | `.fs`, `.fth`, `.forth`, `.4th` | `Forth 2012` | `code-languages/forth` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Fortran_logo.svg" alt="Fortran logo" width="24" height="24"> | Fortran | `fortran` | `.f`, `.for`, `.ftn`, `.f90`, `.f95`, `.f03`, `.f08`, `.f18`, `.f23` | `Fortran 2023` | `code-languages/fortran` |
 | <img src="https://cdn.simpleicons.org/facebook/1877F2" alt="FQL logo" width="24" height="24"> | FQL | `fql` | `.fql` | `legacy` | `code-languages/fql` |
