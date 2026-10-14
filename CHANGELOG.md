@@ -1,3 +1,13 @@
+## [1.46.12](https://github.com/ElJijuna/code-languages/compare/v1.46.11...v1.46.12) (2026-10-14)
+
+
+### Bug Fixes
+
+* update CUDA metadata to 13.4.3 ([71387e3](https://github.com/ElJijuna/code-languages/commit/71387e36e7bc4b6fdbfb8e20088b8cf8462b2e77))
+* update Lean metadata to 4.35.0 ([e9a82c2](https://github.com/ElJijuna/code-languages/commit/e9a82c23926159b10c318ab520e2484d7da3e649))
+* update Mermaid metadata to 12.2.0 ([1e3a775](https://github.com/ElJijuna/code-languages/commit/1e3a775ff0abbd87ace4e170839519672b5bb31c))
+* update Vue metadata to 3.5.44 ([edd4fae](https://github.com/ElJijuna/code-languages/commit/edd4fae2d433b9be57c852a3dac7fcacd6f98d76))
+
 ## [1.46.11](https://github.com/ElJijuna/code-languages/compare/v1.46.10...v1.46.11) (2026-10-13)
 
 
