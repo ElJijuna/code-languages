@@ -1,3 +1,12 @@
+## [1.46.13](https://github.com/ElJijuna/code-languages/compare/v1.46.12...v1.46.13) (2026-10-15)
+
+
+### Bug Fixes
+
+* update Flux metadata to 0.201.0 ([8bffb0f](https://github.com/ElJijuna/code-languages/commit/8bffb0f0aab3f2e49bce5894ceab7b0bc1ff8eae))
+* update PowerShell metadata to 7.6.7 ([bec3a01](https://github.com/ElJijuna/code-languages/commit/bec3a01827e52d9210d282fdb5f91c84ff861923))
+* update Razor metadata to 10.0.13 ([902e290](https://github.com/ElJijuna/code-languages/commit/902e2908867ec03859586c47673f76e9152e819b))
+
 ## [1.46.12](https://github.com/ElJijuna/code-languages/compare/v1.46.11...v1.46.12) (2026-10-14)
 
 
