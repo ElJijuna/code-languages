@@ -12,7 +12,7 @@ export const julia = {
     packageManagers: ['Pkg'],
     ecosystems: ['Scientific Computing', 'Data Science', 'Machine Learning', 'HPC'],
   },
-  version: '1.13.1',
+  version: '1.13.2',
   logo: 'https://cdn.simpleicons.org/julia/9558B2',
   color: '#9558B2',
   i18n: {
