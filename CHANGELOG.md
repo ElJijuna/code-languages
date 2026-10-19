@@ -1,3 +1,20 @@
+## [1.46.14](https://github.com/ElJijuna/code-languages/compare/v1.46.13...v1.46.14) (2026-10-19)
+
+
+### Bug Fixes
+
+* update Astro metadata to 7.4.0 ([43f1f9f](https://github.com/ElJijuna/code-languages/commit/43f1f9f2f715d0a0467c8a2c28e530ccb9f4a5ef))
+* update Erlang metadata to OTP 29.1.2 ([fb96b4f](https://github.com/ElJijuna/code-languages/commit/fb96b4fcad13f42b78e390bd78598f3fd1c7f7d5))
+* update Julia metadata to 1.13.2 ([1fb6362](https://github.com/ElJijuna/code-languages/commit/1fb636218f2f7221744fb3b09379a8462e919ced))
+* update KCL metadata to 0.13.2 ([4dae8d6](https://github.com/ElJijuna/code-languages/commit/4dae8d6835ecd3a0ffe4682e3e67644540bae96b))
+* update Luau metadata to 0.743 ([0ad6382](https://github.com/ElJijuna/code-languages/commit/0ad638232aa5585a05d0fb886225a17f66d50ae6))
+* update nginx metadata to 1.30.6 ([66a993c](https://github.com/ElJijuna/code-languages/commit/66a993c3941b275df818a94bff960e4fde611482))
+* update PlantUML metadata to 1.2026.9 ([494bdc2](https://github.com/ElJijuna/code-languages/commit/494bdc21740ba1e866d6a682b966233e46826db9))
+* update Rust metadata to 1.99.1 ([588bdb4](https://github.com/ElJijuna/code-languages/commit/588bdb436b008d39e06b58669c97157d0f22253b))
+* update Sass metadata to 1.105.2 ([3880ab4](https://github.com/ElJijuna/code-languages/commit/3880ab47d989b8db16bcc6e10165e73e2cb65976))
+* update Swift metadata to 6.4.1 ([7c08875](https://github.com/ElJijuna/code-languages/commit/7c088750dcf32b11dbb31cb4ef6e56ac42df6587))
+* update Textile metadata to 4.1.6 ([7a62f71](https://github.com/ElJijuna/code-languages/commit/7a62f719069571004875d2a5c3c2fa4a10e2f122))
+
 ## [1.46.13](https://github.com/ElJijuna/code-languages/compare/v1.46.12...v1.46.13) (2026-10-15)
 
 
