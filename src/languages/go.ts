@@ -13,7 +13,7 @@ export const go = {
     packageManagers: ['Go modules'],
     ecosystems: ['Cloud', 'DevOps', 'Networking'],
   },
-  version: '1.27.2',
+  version: '1.27.3',
   logo: 'https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg',
   color: '#00ADD8',
   i18n: {
