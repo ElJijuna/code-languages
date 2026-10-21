@@ -1,3 +1,13 @@
+## [1.46.15](https://github.com/ElJijuna/code-languages/compare/v1.46.14...v1.46.15) (2026-10-21)
+
+
+### Bug Fixes
+
+* update Astro metadata to 7.4.1 ([b6c71a3](https://github.com/ElJijuna/code-languages/commit/b6c71a37bf3d55dc06053b684d2cecbfb07fdbcb))
+* update Dart metadata to 3.13.6 ([fd18a08](https://github.com/ElJijuna/code-languages/commit/fd18a0822512d2a33637f4e6f5f8d7a6b2e586fb))
+* update Go metadata to 1.27.3 ([8893128](https://github.com/ElJijuna/code-languages/commit/88931288c497cc4da59540037716fd80834e5858))
+* update Gradle metadata to 9.8.2 ([10a6c87](https://github.com/ElJijuna/code-languages/commit/10a6c87b4d5484ee77d318de18bb04b67ecb15b4))
+
 ## [1.46.14](https://github.com/ElJijuna/code-languages/compare/v1.46.13...v1.46.14) (2026-10-19)
 
 
