@@ -1,3 +1,22 @@
+## [1.46.16](https://github.com/ElJijuna/code-languages/compare/v1.46.15...v1.46.16) (2026-10-23)
+
+
+### Bug Fixes
+
+* update Astro metadata to 7.4.2 ([162f7b9](https://github.com/ElJijuna/code-languages/commit/162f7b9fccd085c15773c26511a6de083dbe5eb1))
+* update Bazel metadata to 9.3.1 ([5adb26b](https://github.com/ElJijuna/code-languages/commit/5adb26baa79994ded8035843535eb49da32df93e))
+* update Crystal metadata to 1.22.1 ([d259431](https://github.com/ElJijuna/code-languages/commit/d25943109e14f3d57a1fa727801e60ead72a932b))
+* update Dart metadata to 3.13.7 ([061de03](https://github.com/ElJijuna/code-languages/commit/061de03f3a29f5bd513b64a8115f45b9212b5e50))
+* update LLVM IR metadata to 23.1.4 ([8837b67](https://github.com/ElJijuna/code-languages/commit/8837b67da7d2eed595b9521df0486a7e7c0b1702))
+* update Nix metadata to 2.35.4 ([61c311e](https://github.com/ElJijuna/code-languages/commit/61c311e326f12563c5329c7eb25125dd39fd5ef1))
+* update PHP metadata to 8.5.12 ([2abf505](https://github.com/ElJijuna/code-languages/commit/2abf50586880f9c359f7516b241d3159fadb9853))
+* update PowerShell metadata to 7.6.8 ([88abd40](https://github.com/ElJijuna/code-languages/commit/88abd401df6d1d5af40d51e1ca655a70fbbf4142))
+* update Python metadata to 3.15.1 ([d41e980](https://github.com/ElJijuna/code-languages/commit/d41e980d5ff9228b6672155ee8c85f87e01c7a38))
+* update Rego metadata to OPA 1.21.3 ([93b45d9](https://github.com/ElJijuna/code-languages/commit/93b45d9e1719c6901d8a743671c61007e823837b))
+* update Ruby metadata to 4.0.9 ([eb14bcd](https://github.com/ElJijuna/code-languages/commit/eb14bcdd32b374e463e51cf82799ceb59ad9e205))
+* update Sass metadata to 1.106.1 ([99bbd00](https://github.com/ElJijuna/code-languages/commit/99bbd00414e189ff55502df3f505233d0d1d021d))
+* update Solidity metadata to 0.8.38 ([0bc9be6](https://github.com/ElJijuna/code-languages/commit/0bc9be6572f7593c895b705e07333a8ef5c72b3b))
+
 ## [1.46.15](https://github.com/ElJijuna/code-languages/compare/v1.46.14...v1.46.15) (2026-10-21)
 
 
