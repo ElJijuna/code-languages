@@ -12,7 +12,7 @@ export const solidity = {
     packageManagers: ['npm', 'Foundry', 'Hardhat'],
     ecosystems: ['Ethereum', 'Web3', 'Smart Contracts', 'Blockchain'],
   },
-  version: '0.8.37',
+  version: '0.8.38',
   logo: 'https://cdn.simpleicons.org/solidity/363636',
   color: '#363636',
   i18n: {
