@@ -1,3 +1,11 @@
+## [1.46.17](https://github.com/ElJijuna/code-languages/compare/v1.46.16...v1.46.17) (2026-10-24)
+
+
+### Bug Fixes
+
+* update Luau metadata to 0.744 ([43dfeb9](https://github.com/ElJijuna/code-languages/commit/43dfeb9ec80375a34142a8e01a85d525be8f68ec))
+* update Rego metadata to OPA 1.21.4 ([d8e3d39](https://github.com/ElJijuna/code-languages/commit/d8e3d39474b66dd23a01f0f74bb3d4445fa1f3f5))
+
 ## [1.46.16](https://github.com/ElJijuna/code-languages/compare/v1.46.15...v1.46.16) (2026-10-23)
 
 
