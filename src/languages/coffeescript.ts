@@ -15,7 +15,7 @@ export const coffeescript = {
     packageManagers: ['npm', 'pnpm', 'Yarn'],
     ecosystems: ['JavaScript', 'Web', 'Node.js'],
   },
-  version: '2.7.0',
+  version: '2.7.1',
   logo: 'https://cdn.simpleicons.org/coffeescript/2F2625',
   color: '#2F2625',
   i18n: {
