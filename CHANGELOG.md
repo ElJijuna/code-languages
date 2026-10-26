@@ -1,3 +1,14 @@
+## [1.46.18](https://github.com/ElJijuna/code-languages/compare/v1.46.17...v1.46.18) (2026-10-26)
+
+
+### Bug Fixes
+
+* update CoffeeScript metadata to 2.7.1 ([7973b3a](https://github.com/ElJijuna/code-languages/commit/7973b3a0e00dd63aca67b94d5503d414fcc9a906))
+* update Julia metadata to 1.13.3 ([355ed6f](https://github.com/ElJijuna/code-languages/commit/355ed6f39d1201d8481edd9db2f714ffd5c6e681))
+* update PowerShell metadata to 7.6.9 ([e7be5c6](https://github.com/ElJijuna/code-languages/commit/e7be5c6edb3cd1ffb22e0630d6639584ac93f438))
+* update Python metadata to 3.15.2 ([56d67e2](https://github.com/ElJijuna/code-languages/commit/56d67e29d9d4e486ba4f829a25da133718f946d5))
+* update Razor metadata to 10.0.14 ([0dc0e9d](https://github.com/ElJijuna/code-languages/commit/0dc0e9d78efffbdae8537011d788fbcd4d562d75))
+
 ## [1.46.17](https://github.com/ElJijuna/code-languages/compare/v1.46.16...v1.46.17) (2026-10-24)
 
 
