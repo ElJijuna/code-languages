@@ -545,7 +545,7 @@ from its package subpath.
 | <img src="https://cdn.simpleicons.org/clojure/5881D8" alt="Clojure logo" width="24" height="24"> | Clojure | `clojure` | `.clj`, `.cljs`, `.cljc`, `.edn`, `.bb` | `1.12.6` | `code-languages/clojure` |
 | <img src="https://cmake.org/wp-content/uploads/2023/08/CMake-Logo.svg" alt="CMake logo" width="24" height="24"> | CMake | `cmake` | `CMakeLists.txt`, `.cmake` | `4.4.4` | `code-languages/cmake` |
 | <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_cobol.svg" alt="COBOL logo" width="24" height="24"> | COBOL | `cobol` | `.cob`, `.cbl`, `.cobol`, `.cpy` | `ISO/IEC 1989:2023` | `code-languages/cobol` |
-| <img src="https://cdn.simpleicons.org/coffeescript/2F2625" alt="CoffeeScript logo" width="24" height="24"> | CoffeeScript | `coffeescript` | `.coffee`, `.litcoffee`, `.cson` | `2.7.0` | `code-languages/coffeescript` |
+| <img src="https://cdn.simpleicons.org/coffeescript/2F2625" alt="CoffeeScript logo" width="24" height="24"> | CoffeeScript | `coffeescript` | `.coffee`, `.litcoffee`, `.cson` | `2.7.1` | `code-languages/coffeescript` |
 | <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_cf.svg" alt="ColdFusion logo" width="24" height="24"> | ColdFusion | `coldfusion` | `.cfm`, `.cfml`, `.cfc` | `ColdFusion 2025` | `code-languages/coldfusion` |
 | <img src="https://avatars.githubusercontent.com/u/621198?v=4" alt="Coq / Rocq logo" width="24" height="24"> | Coq / Rocq | `coq` | `.v` | `9.2.0` | `code-languages/coq` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="C++ logo" width="24" height="24"> | C++ | `cpp` | `.cpp`, `.cc`, `.cxx`, `.h`, `.hpp`, `.hh`, `.hxx` | `C++23` | `code-languages/cpp` |
