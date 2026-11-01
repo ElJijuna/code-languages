@@ -12,7 +12,7 @@ export const r = {
     packageManagers: ['CRAN', 'renv', 'pak'],
     ecosystems: ['Statistics', 'Data Science', 'Visualization', 'Scientific Computing'],
   },
-  version: '4.6.1',
+  version: '4.6.2',
   logo: 'https://www.r-project.org/logo/Rlogo.svg',
   color: '#276DC3',
   i18n: {
