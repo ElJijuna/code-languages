@@ -1,3 +1,21 @@
+## [1.46.19](https://github.com/ElJijuna/code-languages/compare/v1.46.18...v1.46.19) (2026-11-02)
+
+
+### Bug Fixes
+
+* update Astro metadata to 7.4.4 ([10f9af5](https://github.com/ElJijuna/code-languages/commit/10f9af55d58ddbefd8f2cc6ea6ab44e7f92ccd55))
+* update CMake metadata to 4.4.5 ([ee2c915](https://github.com/ElJijuna/code-languages/commit/ee2c9151dbbc6638c742fb7759e08c1f71633df2))
+* update Crystal metadata to 1.22.2 ([cc50fde](https://github.com/ElJijuna/code-languages/commit/cc50fdeb7b88302a0ec945abc249d2acc26d90b2))
+* update Elixir metadata to 1.20.5 ([4769b8f](https://github.com/ElJijuna/code-languages/commit/4769b8f326a801a787398ab1e323e7579d083040))
+* update Liquid metadata to 10.30.1 ([41fe85a](https://github.com/ElJijuna/code-languages/commit/41fe85afbbfb2c05cadf1363345356c89231307b))
+* update Luau metadata to 0.745 ([cc2a2c1](https://github.com/ElJijuna/code-languages/commit/cc2a2c16f64db87e803c9add586384b8ecfbc9c3))
+* update Nim metadata to 2.4.0 ([8f95170](https://github.com/ElJijuna/code-languages/commit/8f9517066e19bdc297df2dbd7f01e375675583ae))
+* update R metadata to 4.6.2 ([918bcac](https://github.com/ElJijuna/code-languages/commit/918bcac29c9da24f31be695edb1fbbb8ec2ef674))
+* update Rego metadata to OPA 1.22.0 ([927a523](https://github.com/ElJijuna/code-languages/commit/927a523cc8b659d2fce18153f47c98b76094cc7f))
+* update Sass metadata to 1.107.1 ([2db5e59](https://github.com/ElJijuna/code-languages/commit/2db5e5948bd7482d9054cb7f107bb0a80c52626b))
+* update Svelte metadata to 5.57.3 ([23f031a](https://github.com/ElJijuna/code-languages/commit/23f031aec7de2c2f6708143e959654e7b89378cc))
+* update Swift metadata to 6.4.2 ([00692c0](https://github.com/ElJijuna/code-languages/commit/00692c053a3ff0b807ca909ea55f2a44b173f675))
+
 ## [1.46.18](https://github.com/ElJijuna/code-languages/compare/v1.46.17...v1.46.18) (2026-10-26)
 
 
