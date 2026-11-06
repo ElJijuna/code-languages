@@ -1,3 +1,19 @@
+## [1.46.20](https://github.com/ElJijuna/code-languages/compare/v1.46.19...v1.46.20) (2026-11-06)
+
+
+### Bug Fixes
+
+* update Astro metadata to 7.4.5 ([0d2ace6](https://github.com/ElJijuna/code-languages/commit/0d2ace6f1c3072066f42ff37d743e0c1b3bb084d))
+* update CUDA metadata to 13.5.0 ([dcfe766](https://github.com/ElJijuna/code-languages/commit/dcfe7662845f6da51eb7eb935397a2afb44ee96e))
+* update Cython metadata to 3.3.1 ([1aeab62](https://github.com/ElJijuna/code-languages/commit/1aeab6225f1cac044fcfca53f757acd1d3f67fe4))
+* update Haml metadata to 7.5.2 ([4daab3b](https://github.com/ElJijuna/code-languages/commit/4daab3b3ebd93555e2265247a697f4308ee20f09))
+* update LLVM IR metadata to 23.1.5 ([ba739f0](https://github.com/ElJijuna/code-languages/commit/ba739f0449555317e82655c1f489671b741c36cf))
+* update Mermaid metadata to 12.3.0 ([cad5002](https://github.com/ElJijuna/code-languages/commit/cad50022db47c295881725eed77dbd77db5a57a7))
+* update Rego metadata to OPA 1.22.1 ([4e5cc6d](https://github.com/ElJijuna/code-languages/commit/4e5cc6d1c33d2146a96fe20b33f6f8122cc0870f))
+* update Textile metadata to 4.1.7 ([b3b7761](https://github.com/ElJijuna/code-languages/commit/b3b7761c653e31891805bb89e60fb801cbf8b0a2))
+* update Vue metadata to 3.5.45 ([53cb877](https://github.com/ElJijuna/code-languages/commit/53cb87789215f4342e82e14d5e38a35dc6e37477))
+* update Zig metadata to 0.17.1 ([85d13c3](https://github.com/ElJijuna/code-languages/commit/85d13c340797d2cda61e1cfd9143edc198edc4ec))
+
 ## [1.46.19](https://github.com/ElJijuna/code-languages/compare/v1.46.18...v1.46.19) (2026-11-02)
 
 
