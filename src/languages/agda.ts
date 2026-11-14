@@ -12,7 +12,7 @@ export const agda = {
     packageManagers: ['Cabal', 'Stack'],
     ecosystems: ['Haskell', 'Formal methods', 'Proof assistants'],
   },
-  version: '2.8.0',
+  version: '2.9.0',
   logo: 'https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@master/icons/file_type_agda.svg',
   color: '#315665',
   i18n: {
