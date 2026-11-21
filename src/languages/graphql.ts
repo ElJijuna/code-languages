@@ -12,7 +12,7 @@ export const graphql = {
     packageManagers: ['npm', 'pnpm', 'Yarn', 'Bun'],
     ecosystems: ['APIs', 'Web', 'Mobile', 'Data Graphs'],
   },
-  version: 'September 2025',
+  version: 'September 2026',
   logo: 'https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg',
   color: '#E10098',
   i18n: {
