@@ -13,7 +13,7 @@ export const csharp = {
     packageManagers: ['NuGet'],
     ecosystems: ['.NET', 'ASP.NET', 'Unity', 'Microsoft'],
   },
-  version: '14',
+  version: '15',
   logo: 'https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_C_sharp.svg',
   color: '#512BD4',
   i18n: {
