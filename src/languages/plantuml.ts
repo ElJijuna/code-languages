@@ -12,7 +12,7 @@ export const plantuml = {
     packageManagers: ['Maven', 'Gradle', 'npm'],
     ecosystems: ['UML', 'Architecture', 'Documentation', 'Diagrams'],
   },
-  version: '1.2026.9',
+  version: '1.2026.10',
   logo: 'https://plantuml.com/logo3.png',
   color: '#FBB03B',
   i18n: {
