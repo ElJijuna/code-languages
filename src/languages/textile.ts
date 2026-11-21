@@ -10,7 +10,7 @@ export const textile = {
   tooling: {
     ecosystems: ['Web', 'CMS', 'Documentation'],
   },
-  version: '4.1.7',
+  version: '4.1.9',
   logo: 'https://textile-lang.com/icon.svg',
   color: '#CC0000',
   i18n: {
