@@ -12,7 +12,7 @@ export const rust = {
     packageManagers: ['Cargo'],
     ecosystems: ['Systems', 'WebAssembly', 'Embedded'],
   },
-  version: '1.99.1',
+  version: '1.100.0',
   logo: 'https://www.rust-lang.org/logos/rust-logo-512x512.png',
   color: '#DEA584',
   i18n: {
