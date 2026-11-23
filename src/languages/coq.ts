@@ -13,7 +13,7 @@ export const coq = {
     packageManagers: ['opam', 'Rocq Platform'],
     ecosystems: ['Formal methods', 'Proof assistants', 'OCaml'],
   },
-  version: '9.2.0',
+  version: '9.3.0',
   logo: 'https://avatars.githubusercontent.com/u/621198?v=4',
   color: '#C1272D',
   i18n: {
