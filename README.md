@@ -547,7 +547,7 @@ from its package subpath.
 | <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_cobol.svg" alt="COBOL logo" width="24" height="24"> | COBOL | `cobol` | `.cob`, `.cbl`, `.cobol`, `.cpy` | `ISO/IEC 1989:2023` | `code-languages/cobol` |
 | <img src="https://cdn.simpleicons.org/coffeescript/2F2625" alt="CoffeeScript logo" width="24" height="24"> | CoffeeScript | `coffeescript` | `.coffee`, `.litcoffee`, `.cson` | `2.7.1` | `code-languages/coffeescript` |
 | <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_cf.svg" alt="ColdFusion logo" width="24" height="24"> | ColdFusion | `coldfusion` | `.cfm`, `.cfml`, `.cfc` | `ColdFusion 2025` | `code-languages/coldfusion` |
-| <img src="https://avatars.githubusercontent.com/u/621198?v=4" alt="Coq / Rocq logo" width="24" height="24"> | Coq / Rocq | `coq` | `.v` | `9.2.0` | `code-languages/coq` |
+| <img src="https://avatars.githubusercontent.com/u/621198?v=4" alt="Coq / Rocq logo" width="24" height="24"> | Coq / Rocq | `coq` | `.v` | `9.3.0` | `code-languages/coq` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="C++ logo" width="24" height="24"> | C++ | `cpp` | `.cpp`, `.cc`, `.cxx`, `.h`, `.hpp`, `.hh`, `.hxx` | `C++23` | `code-languages/cpp` |
 | <img src="https://cdn.simpleicons.org/apachecassandra/1287B1" alt="CQL logo" width="24" height="24"> | CQL | `cql` | `.cql` | `CQL 3` | `code-languages/cql` |
 | <img src="https://cdn.simpleicons.org/crystal/000000" alt="Crystal logo" width="24" height="24"> | Crystal | `crystal` | `.cr` | `1.22.2` | `code-languages/crystal` |
