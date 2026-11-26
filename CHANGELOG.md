@@ -1,3 +1,13 @@
+## [1.46.22](https://github.com/ElJijuna/code-languages/compare/v1.46.21...v1.46.22) (2026-11-26)
+
+
+### Bug Fixes
+
+* update CUE metadata to 0.18.0 ([d9d7712](https://github.com/ElJijuna/code-languages/commit/d9d7712978666acadbdadd06d90422da4932c605))
+* update Cython metadata to 3.3.2 ([f423be4](https://github.com/ElJijuna/code-languages/commit/f423be4fc19ba5c08dbda804675fb00234678abf))
+* update Svelte metadata to 5.59.2 ([db5cad7](https://github.com/ElJijuna/code-languages/commit/db5cad7b9d24a16f00a7b52ea74e46ab30762b21))
+* update Twig metadata to 3.31.1 ([37a3176](https://github.com/ElJijuna/code-languages/commit/37a3176febac0b035ca4cb33189eeee68d123868))
+
 ## [1.46.21](https://github.com/ElJijuna/code-languages/compare/v1.46.20...v1.46.21) (2026-11-24)
 
 
