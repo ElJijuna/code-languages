@@ -600,7 +600,7 @@ from its package subpath.
 | <img src="https://cdn.simpleicons.org/opengl/5586A4" alt="GLSL logo" width="24" height="24"> | GLSL | `glsl` | `.glsl`, `.vert`, `.frag`, `.geom`, `.tesc`, `.tese`, `.comp`, `.vs`, `.fs` | `4.60` | `code-languages/glsl` |
 | <img src="https://cdn.simpleicons.org/gamemaker/000000" alt="GML logo" width="24" height="24"> | GML | `gml` | `.gml` | `2024.13.0` | `code-languages/gml` |
 | <img src="https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg" alt="Go logo" width="24" height="24"> | Go | `go` | `.go` | `1.27.4` | `code-languages/go` |
-| <img src="https://cdn.simpleicons.org/gradle/02303A" alt="Gradle logo" width="24" height="24"> | Gradle | `gradle` | `.gradle`, `.gradle.kts` | `9.9.2` | `code-languages/gradle` |
+| <img src="https://cdn.simpleicons.org/gradle/02303A" alt="Gradle logo" width="24" height="24"> | Gradle | `gradle` | `.gradle`, `.gradle.kts` | `9.9.3` | `code-languages/gradle` |
 | <img src="https://avatars.githubusercontent.com/u/54953488?v=4" alt="Grain logo" width="24" height="24"> | Grain | `grain` | `.gr` | `grain-v0.7.3` | `code-languages/grain` |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg" alt="GraphQL logo" width="24" height="24"> | GraphQL | `graphql` | `.graphql`, `.gql`, `.graphqls` | `September 2026` | `code-languages/graphql` |
 | <img src="https://cdn.simpleicons.org/apache/6B7280" alt="Gremlin logo" width="24" height="24"> | Gremlin | `gremlin` | `.gremlin`, `.grem` | `stable` | `code-languages/gremlin` |
@@ -666,7 +666,7 @@ from its package subpath.
 | <img src="https://maxima.sourceforge.io/img/maxima.svg" alt="Maxima logo" width="24" height="24"> | Maxima | `maxima` | `.mac`, `.wxm` | `5.50.0` | `code-languages/maxima` |
 | <img src="https://cdn.simpleicons.org/mdx/1B1F24" alt="MDX logo" width="24" height="24"> | MDX | `mdx` | `.mdx` | `3.1.1` | `code-languages/mdx` |
 | <img src="https://www.mercurylang.org/favicon.ico" alt="Mercury logo" width="24" height="24"> | Mercury | `mercury` | `.m` | `22.01.8` | `code-languages/mercury` |
-| <img src="https://cdn.simpleicons.org/mermaid/FF3670" alt="Mermaid logo" width="24" height="24"> | Mermaid | `mermaid` | `.mmd`, `.mermaid` | `12.3.0` | `code-languages/mermaid` |
+| <img src="https://cdn.simpleicons.org/mermaid/FF3670" alt="Mermaid logo" width="24" height="24"> | Mermaid | `mermaid` | `.mmd`, `.mermaid` | `12.4.0` | `code-languages/mermaid` |
 | <img src="https://raw.githubusercontent.com/mesonbuild/meson/master/graphics/meson_logo.svg" alt="Meson logo" width="24" height="24"> | Meson | `meson` | `meson.build`, `meson_options.txt`, `meson.options`, `.wrap` | `1.12.1` | `code-languages/meson` |
 | <img src="https://developer.apple.com/assets/elements/icons/metal/metal-256x256_2x.png" alt="Metal logo" width="24" height="24"> | Metal | `metal` | `.metal` | `Metal 4` | `code-languages/metal` |
 | <img src="https://avatars.githubusercontent.com/u/3727943?v=4" alt="Modelica logo" width="24" height="24"> | Modelica | `modelica` | `.mo` | `3.6.1` | `code-languages/modelica` |
@@ -729,7 +729,7 @@ from its package subpath.
 | <img src="https://cdn.simpleicons.org/reason/DD4B39" alt="ReasonML logo" width="24" height="24"> | ReasonML | `reasonml` | `.re`, `.rei` | `3.13.0` | `code-languages/reasonml` |
 | <img src="https://www.rebol.com/graphics/reb-logo.gif" alt="Rebol logo" width="24" height="24"> | Rebol | `rebol` | `.r`, `.reb`, `.rebol` | `Rebol 3` | `code-languages/rebol` |
 | <img src="https://static.red-lang.org/red-logo.svg" alt="Red logo" width="24" height="24"> | Red | `red` | `.red`, `.reds` | `0.6.6` | `code-languages/red` |
-| <img src="https://raw.githubusercontent.com/open-policy-agent/opa/main/logo/logo.svg" alt="Rego logo" width="24" height="24"> | Rego | `rego` | `.rego` | `OPA 1.22.4` | `code-languages/rego` |
+| <img src="https://raw.githubusercontent.com/open-policy-agent/opa/main/logo/logo.svg" alt="Rego logo" width="24" height="24"> | Rego | `rego` | `.rego` | `OPA 1.23.0` | `code-languages/rego` |
 | <img src="https://avatars.githubusercontent.com/u/1900740?v=4" alt="Ren'Py logo" width="24" height="24"> | Ren'Py | `renpy` | `.rpy`, `.rpym` | `8.3.7` | `code-languages/renpy` |
 | <img src="https://cdn.simpleicons.org/rescript/E6484A" alt="ReScript logo" width="24" height="24"> | ReScript | `rescript` | `.res`, `.resi` | `12.3.0` | `code-languages/rescript` |
 | <img src="https://cdn.simpleicons.org/readthedocs/8CA1AF" alt="reStructuredText logo" width="24" height="24"> | reStructuredText | `restructuredtext` | `.rst`, `.rest` | `Docutils 0.22.2` | `code-languages/restructuredtext` |
@@ -771,7 +771,7 @@ from its package subpath.
 | <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Tcl.svg" alt="Tcl/Tk logo" width="24" height="24"> | Tcl/Tk | `tcl` | `.tcl`, `.tm`, `.test` | `9.0.4` | `code-languages/tcl` |
 | <img src="https://raw.githubusercontent.com/ElJijuna/code-languages/main/public/assets/placeholders/tcsh.svg" alt="Tcsh logo" width="24" height="24"> | Tcsh | `tcsh` | `.tcsh`, `.csh`, `.tcshrc`, `.cshrc` | `6.24.16` | `code-languages/tcsh` |
 | <img src="https://cdn.simpleicons.org/latex/008080" alt="TeX logo" width="24" height="24"> | TeX | `tex` | `.tex`, `.sty`, `.cls`, `.dtx`, `.ins`, `.ltx` | `TeX Live 2026` | `code-languages/tex` |
-| <img src="https://textile-lang.com/icon.svg" alt="Textile logo" width="24" height="24"> | Textile | `textile` | `.textile` | `4.1.9` | `code-languages/textile` |
+| <img src="https://textile-lang.com/icon.svg" alt="Textile logo" width="24" height="24"> | Textile | `textile` | `.textile` | `4.1.11` | `code-languages/textile` |
 | <img src="https://cdn.simpleicons.org/apache/D22128" alt="Apache Thrift logo" width="24" height="24"> | Apache Thrift | `thrift` | `.thrift` | `0.23.0` | `code-languages/thrift` |
 | <img src="https://avatars.githubusercontent.com/u/315978?v=4" alt="TLA+ logo" width="24" height="24"> | TLA+ | `tla-plus` | `.tla` | `TLA+ 2` | `code-languages/tla-plus` |
 | <img src="https://cdn.simpleicons.org/toml/9C4221" alt="TOML logo" width="24" height="24"> | TOML | `toml` | `.toml` | `1.1.0` | `code-languages/toml` |
